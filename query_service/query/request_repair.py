@@ -133,6 +133,10 @@ class RepairSalt(object):
         )
         filter_list = []
         judge_list = re.findall(pattern, content)
+        if len(judge_list)==0 and "FMiPText" in content:
+            print("['off']")
+            return "off"
+
         for value in judge_list:
             value = value.replace('\\', '').replace('/', '').replace(
                 'u003e', '').replace('u003c', '').replace('=', '').replace(
