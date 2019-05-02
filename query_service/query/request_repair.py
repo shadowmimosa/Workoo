@@ -148,21 +148,19 @@ class RepairSalt(object):
         return filter_list
 
     def init_request(self):
-        url = "http://repair.salt.ch/CaseWizard/Wizard/27427839-ade1-46ad-ab14-e03bcdf4b5b4/Salt/RepairAtHome"
+        url = "http://repair.salt.ch/CaseWizard/Wizard/27427839-ade1-46ad-ab14-e03bcdf4b5b4/Salt/RepairAtHome/New"
         header = {
+            "Host": "repair.salt.ch",
+            "Upgrade-Insecure-ReUpgradequests": "1",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36",
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
             "Accept-Encoding": "gzip, deflate",
             "Accept-Language": "zh-CN,zh;q=0.9",
-            "Cache-Control": "no-cache",
-            "Connection": "keep-alive",
-            "Cookie": "session.repairline=4pdwfw0xn1lxi4ezmz3wbokv; settings.repairline=pu4IokItfq5LEWk70NhlOQ==",
-            "Host": "repair.salt.ch",
-            "Pragma": "no-cache",
-            "Upgrade-Insecure-ReUpgradequests": "1",
-            "User-Agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+            "Cookie": "session.repairline=4pdwfw0xn1lxi4ezmz3wbokv; settings.repairline=pu4IokItfq5LEWk70NhlOQ=="
 
         }
         resp = self.deal_re(url=url, header=header)
+        pass
 
     def run(self, imei):
         url = self.url.format(imei, "1849673")
@@ -190,5 +188,5 @@ def main(imei="356726086774842"):
 if __name__ == "__main__":
     import os
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
-    # main()
+    main()
     RepairSalt().init_request()
