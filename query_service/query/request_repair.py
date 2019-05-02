@@ -134,19 +134,18 @@ class RepairSalt(object):
         filter_list = []
         judge_list = re.findall(pattern, content)
         if len(judge_list)==0 and "FMiPText" in content:
-            print("['off']")
-            return "off"
+            return None
 
         for value in judge_list:
             value = value.replace('\\', '').replace('/', '').replace(
                 'u003e', '').replace('u003c', '').replace('=', '').replace(
                     'br', '').replace(' ', '')
             filter_list.append(value)
-
+        print(filter_list)
         return filter_list
 
-    def run(self, imei="356719084092134"):
-        url = self.url.format("356719084092134", "1849673")
+    def run(self, imei):
+        url = self.url.format(imei, "1849673")
 
         resp = self.deal_re(bype=True, url=url, header=self.header)
         if resp:
@@ -157,11 +156,15 @@ class RepairSalt(object):
             #     fn.write(
             #         string.format(imei, query_list[0], query_list[-1], resp))
 
-            return query_list[0], query_list[-1]
+            if query_list:
+                return query_list[0], query_list[-1]
+            else:
+                return "off"
 
 
-def main():
-    return (RepairSalt().run())
+def main(imei="356726086774842"):
+    print("imei is {}".format(imei))
+    return (RepairSalt().run(imei))
 
 
 if __name__ == "__main__":
