@@ -77,7 +77,7 @@ class RepairSalt(object):
         print("---> 开始请求网址：{}".format(url))
         start_time = time.time()
         if self.pool:
-            retry_count = 5
+            retry_count = 3
             proxy = str(get_proxy(), encoding='utf-8')
             print(proxy)
             while retry_count > 0:
@@ -101,7 +101,7 @@ class RepairSalt(object):
                     print(
                         "---> The error is {}, and the website is {}. Now try again just one time."
                         .format(exc, url))
-                    self.deal_re(url=url, header=header, data=data)
+                    # self.deal_re(url=url, header=header, data=data)
                     retry_count -= 1
 
                     if retry_count == 0:
