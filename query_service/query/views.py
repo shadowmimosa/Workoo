@@ -14,17 +14,26 @@ def query(request):
             if imei:
                 query_data = request_repair.main(imei)
                 print("query_data is {}".format(query_data))
-                json_ = {"IMEI": imei, "Find My iPhone": "", "FMI STATUS": ""}
+                json_ = {
+                    "status": "success",
+                    "msg": {
+                        "IMEI": imei,
+                        "Find My iPhone": "",
+                        "FMI STATUS": ""
+                    }
+                }
                 # string = "IMEI: {}\nFind My iPhone: {}\nAnd is the 'Lost' mode active on your device: {}"
                 if query_data == 'off':
-                    json_["Find My iPhone"] = "OFF（关闭）"
+                    json_["msg"]["Find My iPhone"] = "OFF（关闭）"
                     del json_["FMI STATUS"]
                 elif isinstance(query_data, tuple):
-                    json_["Find My iPhone"] = "ON（开启）"
+                    json_["msg"]["Find My iPhone"] = "ON（开启）"
                     if query_data[-1] == "yes":
-                        json_["FMI STATUS"] = "LOST（黑）"
+                        json_["msg"]["FMI STATUS"] = "LOST（黑）"
                     else:
-                        json_["FMI STATUS"] = "CLEAN（白）"
+                        json_["msg"]["FMI STATUS"] = "CLEAN（白）"
+                elif query_data == "Invalid serial number":
+                    json_ = {"status": "error", "msg": "IMEI 错误"}
                 else:
                     return HttpResponse("请重试")
                 # return JsonResponse(json_)
