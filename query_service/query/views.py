@@ -25,7 +25,7 @@ def query(request):
                 # string = "IMEI: {}\nFind My iPhone: {}\nAnd is the 'Lost' mode active on your device: {}"
                 if query_data == 'off':
                     json_["msg"]["Find My iPhone"] = "OFF（关闭）"
-                    del json_["FMI STATUS"]
+                    del json_["msg"]["FMI STATUS"]
                 elif isinstance(query_data, tuple):
                     json_["msg"]["Find My iPhone"] = "ON（开启）"
                     if query_data[-1] == "yes":
