@@ -42,7 +42,8 @@ def query(request):
                     content_type="application/json;charset=utf-8")
             else:
                 return HttpResponse("您的输入不合法，请重新输入")
-        except:
+        except Exception as exc:
+            print("The error is {}. Open query html now.".format(exc))
             return render(request, "query/query_data.html")
 
     elif request.method == 'POST':
