@@ -241,7 +241,7 @@ class RepairSalt(object):
     def judge_imei(self, imei):
         json_ = {"status": "error", "msg": "IMEI 错误"}
         if imei.isdigit():
-            if len(imei) > 13 and len(imei) < 17:
+            if len(imei) == 15:
                 return True
             else:
                 json_["msg"] = "IMEI 长度不符"
@@ -272,6 +272,7 @@ class RepairSalt(object):
                 else:
                     return "off"
         elif type(imei_status) == dict:
+            print("judge imei is no pass")
             return imei_status
 
 
