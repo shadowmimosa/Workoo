@@ -77,36 +77,57 @@ class RepairSalt(object):
 
         print("---> 开始请求网址：{}".format(url))
         start_time = time.time()
+    
         if self.pool:
-            retry_count = 3
-            proxy = str(get_proxy(), encoding='utf-8')
-            print(proxy)
-            while retry_count > 0:
-                try:
-                    if not data:
-                        resp = sesscion_a.get(
-                            url,
-                            headers=header,
-                            timeout=(3.2, 10),
-                            proxies={"http": "http://{}".format(proxy)})
-                    else:
-                        resp = sesscion_a.post(
-                            url,
-                            headers=header,
-                            data=data,
-                            timeout=(3.2, 10),
-                            proxies={"http": "http://{}".format(proxy)})
-                    retry_count = 0
-                    print(resp)
-                except Exception as exc:
-                    print(
-                        "---> The error is {}, and the website is {}. Now try again just one time."
-                        .format(exc, url))
-                    # self.deal_re(url=url, header=header, data=data)
-                    retry_count -= 1
+            try:
+                retry_count = 3
+                proxy = str(get_proxy(), encoding='utf-8')
+                if proxy == "no proxy!":
+                    raise "No Proxy"
+                else:
+                    print("the proxy is {}".format(proxy))
+                while retry_count > 0:
+                    try:
+                        if not data:
+                            resp = sesscion_a.get(
+                                url,
+                                headers=header,
+                                timeout=(3.2, 10),
+                                proxies={"http": "http://{}".format(proxy)})
+                        else:
+                            resp = sesscion_a.post(
+                                url,
+                                headers=header,
+                                data=data,
+                                timeout=(3.2, 10),
+                                proxies={"http": "http://{}".format(proxy)})
+                        retry_count = 0
+                        print(resp)
+                    except Exception as exc:
+                        print(
+                            "---> The error is {}, and the website is {}. Now try again just one time."
+                            .format(exc, url))
+                        # self.deal_re(url=url, header=header, data=data)
+                        retry_count -= 1
 
-                    if retry_count == 0:
-                        delete_proxy(proxy)
+                        if retry_count == 0:
+                            delete_proxy(proxy)
+            except Exception as exc:
+                if exc == "No Proxy":
+                    print("no proxy now, run deal re without proxy")
+
+                    try:
+                        if not data:
+                            resp = sesscion_a.get(
+                                url, headers=header, timeout=(3.2, 30))
+                        else:
+                            resp = sesscion_a.post(
+                                url, headers=header, data=data, timeout=(3.2, 30))
+                    except Exception as exc:
+                        print(
+                            "---> The error is {}, and the website is {}. Now try again just one time."
+                            .format(exc, url))
+                        self.deal_re(url=url, header=header, data=data)
         else:
             try:
                 if not data:
@@ -122,24 +143,28 @@ class RepairSalt(object):
                 self.deal_re(url=url, header=header, data=data)
 
         end_time = time.time()
-        if resp.status_code == 200:
-            magic_time = end_time - start_time
-            print("---> {} 请求成功！共耗时{:.3}秒\n".format(url, magic_time))
-            if magic_time<=6:
-                random_time = random.randint(1, 3)
-                # print("---> 现在开始睡眠 {} 秒\n".format(random_time))
-                time.sleep(random_time)
-            if byte:
-                return resp.content
+        try:
+            if resp.status_code == 200:
+                magic_time = end_time - start_time
+                print("---> {} 请求成功！共耗时{:.3}秒\n".format(url, magic_time))
+                if magic_time <= 6:
+                    random_time = random.randint(1, 3)
+                    # print("---> 现在开始睡眠 {} 秒\n".format(random_time))
+                    time.sleep(random_time)
+                if byte:
+                    return resp.content
+                else:
+                    return resp.text
+            elif resp.status_code == 401:
+                print("---> Retrying because 401")
+                self.init_request()
+                self.deal_re(byte=byte, url=url, header=header, data=data)
             else:
-                return resp.text
-        elif resp.status_code == 401:
-            print("---> Retrying because 401")
-            self.init_request()
-            self.deal_re(byte=byte, url=url, header=header, data=data)
-        else:
-            print("---> {} 请求失败！状态码为{}，共耗时{:.3}秒\n".format(
-                url, resp.status_code, end_time - start_time))
+                print("---> {} 请求失败！状态码为{}，共耗时{:.3}秒\n".format(
+                    url, resp.status_code, end_time - start_time))
+        except UnboundLocalError as exc:
+            print("deal re is error, the error is {}".format(exc))
+            return None
 
     def data_clean(self, content):
         pattern = re.compile(
@@ -155,7 +180,7 @@ class RepairSalt(object):
                 'u003e', '').replace('u003c', '').replace('=', '').replace(
                     'br', '').replace(' ', '')
             filter_list.append(value)
-        print(filter_list)
+        print("filter list is {}".format(filter_list))
         return filter_list
 
     def init_request(self):
@@ -177,7 +202,6 @@ class RepairSalt(object):
             "session.repairline=4pdwfw0xn1lxi4ezmz3wbokv; settings.repairline=pu4IokItfq5LEWk70NhlOQ=="
         }
         resp = self.deal_re(url=url, header=header)
-        pass
 
     def check_imei(self, imei="356726086774842"):
         url = "http://repair.salt.ch/CaseWizard/StepSerialNumberPreregisteredOrange/EditStep"
@@ -207,7 +231,9 @@ class RepairSalt(object):
                 return True
         except Exception as exc:
             if exc == "expected string or bytes-like object":
-                print("check imei is error, the erro is {}".format(Exception))
+                print("check imei is error, the error is {}".format(Exception))
+            else:
+                print("check imei is error, the error is {}".format(exc))
 
     def run(self, imei):
         # url = self.url.format(imei, "1849673")
@@ -220,7 +246,7 @@ class RepairSalt(object):
         if resp:
             query_list = self.data_clean(resp)
             string = "{}\t{}\t{}\t{}\n"
-            print(query_list)
+            print("query list is {}".format(query_list))
             # with open("./log/query_log.log", "a+") as fn:
             #     fn.write(
             #         string.format(imei, query_list[0], query_list[-1], resp))
@@ -240,6 +266,6 @@ if __name__ == "__main__":
     import os
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
     # a = main()
-    # RepairSalt().init_request()
-    judge_ = RepairSalt().check_imei("014738000094457")
-    print(judge_)
+    RepairSalt().init_request()
+    # judge_ = RepairSalt().check_imei("014738000094457")
+    # print(judge_)
