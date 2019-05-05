@@ -42,6 +42,7 @@ class RepairSalt(object):
             self.pool = False
         else:
             self.pool = True
+
     def get_session(self):
         """创建 session 示例，以应对多线程"""
 
@@ -132,9 +133,9 @@ class RepairSalt(object):
             else:
                 return resp.text
         elif resp.status_code == 401:
-            self.init_request()
             print("---> Retrying because 401")
-            self.deal_re(byte=byte, url=url, header=header)
+            self.init_request()
+            self.deal_re(byte=byte, url=url, header=header, data=data)
         else:
             print("---> {} 请求失败！状态码为{}，共耗时{:.3}秒\n".format(
                 url, resp.status_code, end_time - start_time))
