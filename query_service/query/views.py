@@ -32,6 +32,8 @@ def query(request):
                         json_["msg"]["FMI STATUS"] = "LOST（黑）"
                     else:
                         json_["msg"]["FMI STATUS"] = "CLEAN（白）"
+                elif isinstance(query_data, dict):
+                    json_ = query_data
                 elif query_data == "Invalid serial number":
                     json_ = {"status": "error", "msg": "IMEI 错误"}
                 else:

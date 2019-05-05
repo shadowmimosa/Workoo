@@ -77,7 +77,7 @@ class RepairSalt(object):
 
         print("---> 开始请求网址：{}".format(url))
         start_time = time.time()
-    
+
         if self.pool:
             try:
                 retry_count = 3
@@ -122,7 +122,10 @@ class RepairSalt(object):
                                 url, headers=header, timeout=(3.2, 30))
                         else:
                             resp = sesscion_a.post(
-                                url, headers=header, data=data, timeout=(3.2, 30))
+                                url,
+                                headers=header,
+                                data=data,
+                                timeout=(3.2, 30))
                     except Exception as exc:
                         print(
                             "---> The error is {}, and the website is {}. Now try again just one time."
@@ -235,26 +238,41 @@ class RepairSalt(object):
             else:
                 print("check imei is error, the error is {}".format(exc))
 
-    def run(self, imei):
-        # url = self.url.format(imei, "1849673")
-        url = self.url.format(imei, "1849694")
-        if self.check_imei(imei):
-            resp = self.deal_re(bype=True, url=url, header=self.header)
-        else:
-            return "Invalid serial number"
-
-        if resp:
-            query_list = self.data_clean(resp)
-            string = "{}\t{}\t{}\t{}\n"
-            print("query list is {}".format(query_list))
-            # with open("./log/query_log.log", "a+") as fn:
-            #     fn.write(
-            #         string.format(imei, query_list[0], query_list[-1], resp))
-
-            if query_list:
-                return query_list[0], query_list[-1]
+    def judge_imei(self, imei):
+        json_ = {"status": "error", "msg": "IMEI 错误"}
+        if imei.isdigit():
+            if len(imei) > 13 and len(imei) < 17:
+                return True
             else:
-                return "off"
+                json_["msg"] = "IMEI 长度不符"
+        else:
+            json_["msg"] = "IMEI 字符类型不符"
+        return json_
+
+    def run(self, imei):
+        imei_status = self.judge_imei(imei)
+        if imei_status == True:
+            # url = self.url.format(imei, "1849673")
+            url = self.url.format(imei, "1849694")
+            if self.check_imei(imei):
+                resp = self.deal_re(bype=True, url=url, header=self.header)
+            else:
+                return "Invalid serial number"
+
+            if resp:
+                query_list = self.data_clean(resp)
+                string = "{}\t{}\t{}\t{}\n"
+                print("query list is {}".format(query_list))
+                # with open("./log/query_log.log", "a+") as fn:
+                #     fn.write(
+                #         string.format(imei, query_list[0], query_list[-1], resp))
+
+                if query_list:
+                    return query_list[0], query_list[-1]
+                else:
+                    return "off"
+        elif type(imei_status) == dict:
+            return imei_status
 
 
 def main(imei="356726086774842"):
