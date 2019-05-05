@@ -123,11 +123,12 @@ class RepairSalt(object):
 
         end_time = time.time()
         if resp.status_code == 200:
-            print("---> {} 请求成功！共耗时{:.3}秒\n".format(url,
-                                                    end_time - start_time))
-            random_time = random.randint(1, 3)
-            print("---> 现在开始睡眠 {} 秒\n".format(random_time))
-            time.sleep(random_time)
+            magic_time = end_time - start_time
+            print("---> {} 请求成功！共耗时{:.3}秒\n".format(url, magic_time))
+            if magic_time<=6:
+                random_time = random.randint(1, 3)
+                # print("---> 现在开始睡眠 {} 秒\n".format(random_time))
+                time.sleep(random_time)
             if byte:
                 return resp.content
             else:
