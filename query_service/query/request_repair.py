@@ -48,7 +48,7 @@ class RepairSalt(object):
         urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
         # 设置重连次数
-        requests.adapters.DEFAULT_RETRIES = 5
+        requests.adapters.DEFAULT_RETRIES = 10
         # 设置连接活跃状态为False
         session = requests.session()
         session.keep_alive = False
