@@ -1,0 +1,151 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May  5 12:07:06 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 02 May 2019 10:19:24
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_8_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/query/Workoo/query_service
+detected binary path: /root/.local/share/virtualenvs/Workoo-SqxCJjAt/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/query/Workoo/query_service
+your processes number limit is 3894
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:39007 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:45373 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 (default, May  1 2019, 14:57:26)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0xd51be0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+['/home/query/Workoo/query_service/query/templates']
+/home/query/Workoo/query_service/static
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xd51be0 pid: 26073 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 26073)
+spawned uWSGI worker 1 (pid: 26074, cores: 2)
+spawned uWSGI worker 2 (pid: 26075, cores: 2)
+spawned uWSGI worker 3 (pid: 26076, cores: 2)
+spawned uWSGI worker 4 (pid: 26077, cores: 2)
+spawned uWSGI http 1 (pid: 26078)
+Python auto-reloader enabled
+imei is 354877093092222
+---> 开始请求网址：http://repair.salt.ch/CaseWizard/StepSerialNumberPreregisteredOrange/EditStep
+196.13.208.23:8080
+---> The error is HTTPConnectionPool(host='196.13.208.23', port=8080): Read timed out. (read timeout=10), and the website is http://repair.salt.ch/CaseWizard/StepSerialNumberPreregisteredOrange/EditStep. Now try again just one time.
+---> The error is HTTPConnectionPool(host='196.13.208.23', port=8080): Read timed out. (read timeout=10), and the website is http://repair.salt.ch/CaseWizard/StepSerialNumberPreregisteredOrange/EditStep. Now try again just one time.
+---> The error is HTTPConnectionPool(host='196.13.208.23', port=8080): Read timed out. (read timeout=10), and the website is http://repair.salt.ch/CaseWizard/StepSerialNumberPreregisteredOrange/EditStep. Now try again just one time.
+The error is local variable 'resp' referenced before assignment. Open query html now.
+[pid: 26075|app: 0|req: 1/1] 112.20.121.56 () {40 vars in 803 bytes} [Sun May  5 12:07:40 2019] GET /query/?imei=354877093092222 => generated 971 bytes in 31475 msecs (HTTP/1.1 200) 5 headers in 291 bytes (1 switches on core 0)
+imei is 354877093092222
+---> 开始请求网址：http://repair.salt.ch/CaseWizard/StepSerialNumberPreregisteredOrange/EditStep
+47.94.230.42:9999
+<Response [401]>
+---> 开始请求网址：http://repair.salt.ch/CaseWizard/Wizard/27427839-ade1-46ad-ab14-e03bcdf4b5b4/Salt/RepairAtHome/New
+119.54.5.32:80
+<Response [404]>
+---> http://repair.salt.ch/CaseWizard/Wizard/27427839-ade1-46ad-ab14-e03bcdf4b5b4/Salt/RepairAtHome/New 请求失败！状态码为404，共耗时7.68秒
+
+---> Retrying because 401
+---> 开始请求网址：http://repair.salt.ch/CaseWizard/StepSerialNumberPreregisteredOrange/EditStep
+101.37.118.54:8888
+<Response [200]>
+---> http://repair.salt.ch/CaseWizard/StepSerialNumberPreregisteredOrange/EditStep 请求成功！共耗时0.555秒
+
+---> 现在开始睡眠 2 秒
+
+The error is expected string or bytes-like object. Open query html now.
+[pid: 26075|app: 0|req: 2/2] 112.20.121.56 () {40 vars in 802 bytes} [Sun May  5 12:08:36 2019] GET /query/?imei=354877093092222 => generated 971 bytes in 16261 msecs (HTTP/1.1 200) 5 headers in 291 bytes (1 switches on core 1)
+imei is 354877093092222
+---> 开始请求网址：http://repair.salt.ch/CaseWizard/StepSerialNumberPreregisteredOrange/EditStep
+27.203.165.229:8060
+<Response [200]>
+---> http://repair.salt.ch/CaseWizard/StepSerialNumberPreregisteredOrange/EditStep 请求成功！共耗时6.12秒
+
+---> 现在开始睡眠 1 秒
+
+---> 开始请求网址：http://repair.salt.ch/CaseWizard/StepSerialNumberPreregisteredOrange/GetFmiPInfos?imei=354877093092222&productId=1849694
+47.94.230.42:9999
+<Response [200]>
+---> http://repair.salt.ch/CaseWizard/StepSerialNumberPreregisteredOrange/GetFmiPInfos?imei=354877093092222&productId=1849694 请求成功！共耗时9.76秒
+
+---> 现在开始睡眠 2 秒
+
+['yes', 'no']
+['yes', 'no']
+query_data is ('yes', 'no')
+[pid: 26075|app: 0|req: 3/3] 112.20.121.56 () {40 vars in 803 bytes} [Sun May  5 12:09:41 2019] GET /query/?imei=354877093092222 => generated 125 bytes in 18883 msecs (HTTP/1.1 200) 3 headers in 115 bytes (1 switches on core 0)
+[uwsgi-python-reloader] module/file ./query/request_repair.py has been modified
+gateway "uWSGI http 1" has been buried (pid: 26078)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 26074)...
+Gracefully killing worker 2 (pid: 26075)...
+Gracefully killing worker 3 (pid: 26076)...
+Gracefully killing worker 4 (pid: 26077)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/query/Workoo/query_service
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (127.0.0.1:45373)
+running /root/.local/share/virtualenvs/Workoo-SqxCJjAt/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May  5 12:16:34 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 02 May 2019 10:19:24
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_8_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/query/Workoo/query_service
+detected binary path: /root/.local/share/virtualenvs/Workoo-SqxCJjAt/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/query/Workoo/query_service
+your processes number limit is 3894
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:39007 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:41730 (port auto-assigned) fd 4
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 (default, May  1 2019, 14:57:26)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x28e3b40
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+['/home/query/Workoo/query_service/query/templates']
+/home/query/Workoo/query_service/static
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x28e3b40 pid: 26073 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 26073)
+spawned uWSGI worker 1 (pid: 28468, cores: 2)
+spawned uWSGI worker 2 (pid: 28469, cores: 2)
+spawned uWSGI worker 3 (pid: 28470, cores: 2)
+spawned uWSGI worker 4 (pid: 28471, cores: 2)
+spawned uWSGI http 1 (pid: 28472)
+Python auto-reloader enabled

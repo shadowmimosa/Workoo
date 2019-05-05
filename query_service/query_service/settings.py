@@ -25,7 +25,7 @@ SECRET_KEY = '%3a2+m=1v*42kb(b=w=58+voywmbyg!@#5j@^lw5g&^c-krm%i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*','0.0.0.0','127.0.0.1']
 
 
 # Application definition
@@ -55,7 +55,7 @@ ROOT_URLCONF = 'query_service.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR,  'query\\templates')],
+        'DIRS': [os.path.join(BASE_DIR,  'query/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -75,17 +75,23 @@ WSGI_APPLICATION = 'query_service.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'query_service',  # 新建数据库名
-        'USER': 'root',  # 数据库登录名
-        'PASSWORD': 'shadow',  # 数据库登录密码
-        'HOST': '127.0.0.1',  # 数据库所在服务器ip地址
-        'PORT': '3306',  # 监听端口 默认3306即可
-    }
-}
-STATIC_ROOT = os.path.join(BASE_DIR, "static\\")
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.mysql',
+#        'NAME': 'query_service',  # 新建数据库名
+#        'USER': 'root',  # 数据库登录名
+#        'PASSWORD': 'shadow',  # 数据库登录密码
+#        'HOST': '127.0.0.1',  # 数据库所在服务器ip地址
+#        'PORT': '3306',  # 监听端口 默认3306即可
+#    }
+#}
+DATABASES = {                                                                   
+    'default': {                                                                
+        'ENGINE': 'django.db.backends.sqlite3',                                 
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),                           
+    }                                                                           
+} 
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
 print(STATIC_ROOT)
 
 
