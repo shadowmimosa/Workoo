@@ -203,7 +203,9 @@ class RepairSalt(object):
                 return False
             else:
                 return True
-        except Exception 
+        except Exception as exc:
+            if exc == "expected string or bytes-like object":
+                print("check imei is error, the erro is {}".format(Exception))
 
     def run(self, imei):
         # url = self.url.format(imei, "1849673")
