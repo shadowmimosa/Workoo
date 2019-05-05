@@ -193,16 +193,17 @@ class RepairSalt(object):
             "ProductId": "1849694",
             "ManufacturerBusinessunitId": "0"
         }
-
-        resp = self.deal_re(url=url, header=header, data=data)
-        pattern = re.compile(r".*Invalid serial number.*")
-        # with open("./check.html", 'w') as fn:
-        #     fn.write(resp)
-        judge_ = re.search(pattern, resp)
-        if judge_:
-            return False
-        else:
-            return True
+        try:
+            resp = self.deal_re(url=url, header=header, data=data)
+            pattern = re.compile(r".*Invalid serial number.*")
+            # with open("./check.html", 'w') as fn:
+            #     fn.write(resp)
+            judge_ = re.search(pattern, resp)
+            if judge_:
+                return False
+            else:
+                return True
+        except Exception 
 
     def run(self, imei):
         # url = self.url.format(imei, "1849673")
