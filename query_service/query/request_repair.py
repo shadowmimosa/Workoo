@@ -180,7 +180,7 @@ class RepairSalt(object):
     def check_imei(self, imei="356726086774842"):
         url = "http://repair.salt.ch/CaseWizard/StepSerialNumberPreregisteredOrange/EditStep"
         header = self.header
-        header["Connection"] = "keep-alive"
+        # header["Connection"] = "keep-alive"
         header["Accept"] = "text/html, */*; q=0.01"
         header["Origin"] = "http://repair.salt.ch"
         header[
