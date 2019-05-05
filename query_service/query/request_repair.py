@@ -244,9 +244,11 @@ class RepairSalt(object):
             if len(imei) == 15:
                 return True
             else:
-                json_["msg"] = "IMEI 长度不符"
+                json_["msg"] = "IMEI 长度不符，请输入 15 位数字"
         else:
-            json_["msg"] = "IMEI 字符类型不符"
+            json_["msg"] = "IMEI 字符类型不符，请输入 15 位数字"
+
+        print("judge imei is no pass, the reason is {}".format(json_["msg"]))
         return json_
 
     def run(self, imei):
@@ -272,7 +274,6 @@ class RepairSalt(object):
                 else:
                     return "off"
         elif type(imei_status) == dict:
-            print("judge imei is no pass")
             return imei_status
 
 
