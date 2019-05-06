@@ -161,7 +161,11 @@ class RepairSalt(object):
             elif resp.status_code == 401:
                 print("---> Retrying because 401")
                 self.init_request()
-                self.deal_re(byte=byte, url=url, header=header, data=data)
+                resp = self.deal_re(byte=byte, url=url, header=header, data=data)
+                if byte:
+                    return resp.content
+                else:
+                    return resp.text
             else:
                 print("---> {} 请求失败！状态码为{}，共耗时{:.3}秒\n".format(
                     url, resp.status_code, end_time - start_time))
@@ -227,11 +231,15 @@ class RepairSalt(object):
             pattern = re.compile(r".*Invalid serial number.*")
             # with open("./check.html", 'w') as fn:
             #     fn.write(resp)
-            judge_ = re.search(pattern, resp)
-            if judge_:
-                return False
+            if resp:
+                judge_ = re.search(pattern, resp)
+                if judge_:
+                    return False
+                else:
+                    return True
             else:
                 return True
+                
         except Exception as exc:
             if exc == "expected string or bytes-like object":
                 print("check imei is error, the error is {}".format(Exception))
