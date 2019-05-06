@@ -162,10 +162,6 @@ class RepairSalt(object):
                 print("---> Retrying because 401")
                 self.init_request()
                 resp = self.deal_re(byte=byte, url=url, header=header, data=data)
-                if byte:
-                    return resp.content
-                else:
-                    return resp.text
             else:
                 print("---> {} 请求失败！状态码为{}，共耗时{:.3}秒\n".format(
                     url, resp.status_code, end_time - start_time))
@@ -281,6 +277,7 @@ class RepairSalt(object):
                     return query_list[0], query_list[-1]
                 else:
                     return "off"
+            
         elif type(imei_status) == dict:
             return imei_status
 
