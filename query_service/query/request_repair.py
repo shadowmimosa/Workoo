@@ -77,13 +77,13 @@ class RepairSalt(object):
 
         print("---> 开始请求网址：{}".format(url))
         start_time = time.time()
-
+        
         if self.pool:
             try:
                 retry_count = 3
                 proxy = str(get_proxy(), encoding='utf-8')
                 if proxy == "no proxy!":
-                    raise "No Proxy"
+                    raise ValueError("no proxy")
                 else:
                     print("the proxy is {}".format(proxy))
                 while retry_count > 0:
@@ -112,8 +112,8 @@ class RepairSalt(object):
 
                         if retry_count == 0:
                             delete_proxy(proxy)
-            except Exception as exc:
-                if exc == "No Proxy":
+            except ValueError as exc:
+                if exc.args[0] == "no proxy":
                     print("no proxy now, run deal re without proxy")
 
                     try:
