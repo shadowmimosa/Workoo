@@ -7,12 +7,31 @@ import logging
 import sys
 
 
+class GetProxy(object):
+    def __init__(self):
+        self.json_url = "http://ged.ip3366.net/api/?key=20190511142815685&getnum=30&filter=1&area=1&formats=2"
+        self.text_url = "http://ged.ip3366.net/api/?key=20190511142815685&getnum={}&filter=1"
+        self.json_url_backup = "http://dec.ip3366.net/api/?key=20190511142815685&getnum=30&filter=1&area=1&formats=2"
+        self.text_url_backup = "http://dec.ip3366.net/api/?key=20190511142815685&getnum=30&filter=1&area=1"
+
+    def get_proxy(self):
+        resp = requests.get(
+            url=self.text_url.format('1'), verify=False).text.replace(
+                '\r', '').replace('\n', '')
+        return resp
+
+    def deal_re(self):
+        resp = requests.get(url=self.text_url, verify=False)
+
+
 def get_proxy():
-    return requests.get("http://127.0.0.1:5010/get/").content
+    # return requests.get("http://127.0.0.1:5010/get/").content
+    return GetProxy().get_proxy()
 
 
 def delete_proxy(proxy):
-    requests.get("http://127.0.0.1:5010/delete/?proxy={}".format(proxy))
+    # requests.get("http://127.0.0.1:5010/delete/?proxy={}".format(proxy))
+    pass
 
 
 class RepairSalt(object):
@@ -39,7 +58,7 @@ class RepairSalt(object):
         }
 
         if sys.platform == "win32":
-            self.pool = False
+            self.pool = True
         else:
             self.pool = True
 
@@ -77,11 +96,13 @@ class RepairSalt(object):
 
         print("---> 开始请求网址：{}".format(url))
         start_time = time.time()
-        
+
         if self.pool:
             try:
                 retry_count = 3
-                proxy = str(get_proxy(), encoding='utf-8')
+                proxy = get_proxy()
+                if type(proxy)!=str:
+                    proxy = str(get_proxy(), encoding='utf-8')
                 if proxy == "no proxy!":
                     raise ValueError("no proxy")
                 else:
@@ -161,7 +182,8 @@ class RepairSalt(object):
             elif resp.status_code == 401:
                 print("---> Retrying because 401")
                 self.init_request()
-                resp = self.deal_re(byte=byte, url=url, header=header, data=data)
+                resp = self.deal_re(
+                    byte=byte, url=url, header=header, data=data)
             else:
                 print("---> {} 请求失败！状态码为{}，共耗时{:.3}秒\n".format(
                     url, resp.status_code, end_time - start_time))
@@ -235,7 +257,7 @@ class RepairSalt(object):
                     return True
             else:
                 return True
-                
+
         except Exception as exc:
             if exc == "expected string or bytes-like object":
                 print("check imei is error, the error is {}".format(Exception))
@@ -277,7 +299,7 @@ class RepairSalt(object):
                     return query_list[0], query_list[-1]
                 else:
                     return "off"
-            
+
         elif type(imei_status) == dict:
             return imei_status
 
@@ -291,6 +313,7 @@ if __name__ == "__main__":
     import os
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
     # a = main()
-    RepairSalt().init_request()
+    # RepairSalt().init_request()
     # judge_ = RepairSalt().check_imei("014738000094457")
     # print(judge_)
+    GetProxy().get_proxy()
