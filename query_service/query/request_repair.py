@@ -5,6 +5,7 @@ import random
 import re
 import logging
 import sys
+from urllib import request
 
 
 class GetProxy(object):
@@ -13,6 +14,7 @@ class GetProxy(object):
         self.text_url = "http://ged.ip3366.net/api/?key=20190511142815685&getnum={}&filter=1"
         self.json_url_backup = "http://dec.ip3366.net/api/?key=20190511142815685&getnum=30&filter=1&area=1&formats=2"
         self.text_url_backup = "http://dec.ip3366.net/api/?key=20190511142815685&getnum=30&filter=1&area=1"
+        self.abuyun_url = "http-dyn.abuyun.com"
 
     def get_proxy(self):
         resp = requests.get(
@@ -23,10 +25,48 @@ class GetProxy(object):
     def deal_re(self):
         resp = requests.get(url=self.text_url, verify=False)
 
+    def abuyun(self, url):
+
+        # 要访问的目标页面
+        # targetUrl = "http://test.abuyun.com"
+        targetUrl = url
+
+        # 代理服务器
+        proxyHost = self.abuyun_url
+        proxyPort = "9020"
+
+        # 代理隧道验证信息
+        proxyUser = "H23W005A02J5V10D"
+        proxyPass = "CB31E09182BA20C4"
+
+        proxyMeta = "http://%(user)s:%(pass)s@%(host)s:%(port)s" % {
+            "host": proxyHost,
+            "port": proxyPort,
+            "user": proxyUser,
+            "pass": proxyPass,
+        }
+
+        proxy_handler = request.ProxyHandler({
+            "http": proxyMeta,
+            "https": proxyMeta,
+        })
+
+        auth = request.HTTPBasicAuthHandler()
+        opener = request.build_opener(proxy_handler, auth, request.HTTPHandler)
+
+        opener = request.build_opener(proxy_handler)
+
+        request.install_opener(opener)
+        resp = request.urlopen(targetUrl).read()
+
+        print(resp)
+
 
 def get_proxy():
     # return requests.get("http://127.0.0.1:5010/get/").content
-    return GetProxy().get_proxy()
+    # return GetProxy().get_proxy()
+    # return GetProxy().abuyun()
+    pass
 
 
 def delete_proxy(proxy):
@@ -56,7 +96,6 @@ class RepairSalt(object):
             "Cookie":
             "session.repairline=4pdwfw0xn1lxi4ezmz3wbokv; settings.repairline=pu4IokItfq5LEWk70NhlOQ==; __lfcc=1"
         }
-
         if sys.platform == "win32":
             self.pool = True
         else:
@@ -98,15 +137,34 @@ class RepairSalt(object):
         start_time = time.time()
 
         if self.pool:
+            proxyHost = "http-dyn.abuyun.com"
+            proxyPort = "9020"
+
+            # 代理隧道验证信息
+            proxyUser = "H23W005A02J5V10D"
+            proxyPass = "CB31E09182BA20C4"
+
+            proxyMeta = "http://%(user)s:%(pass)s@%(host)s:%(port)s" % {
+                "host": proxyHost,
+                "port": proxyPort,
+                "user": proxyUser,
+                "pass": proxyPass,
+            }
+
+            proxies = {
+                "http": proxyMeta,
+                "https": proxyMeta,
+            }
+
             try:
                 retry_count = 3
-                proxy = get_proxy()
-                if type(proxy)!=str:
-                    proxy = str(get_proxy(), encoding='utf-8')
-                if proxy == "no proxy!":
-                    raise ValueError("no proxy")
-                else:
-                    print("the proxy is {}".format(proxy))
+                # proxy = get_proxy()
+                # if type(proxy) != str:
+                #     proxy = str(get_proxy(), encoding='utf-8')
+                # if proxy == "no proxy!":
+                #     raise ValueError("no proxy")
+                # else:
+                #     print("the proxy is {}".format(proxy))
                 while retry_count > 0:
                     try:
                         if not data:
@@ -114,14 +172,16 @@ class RepairSalt(object):
                                 url,
                                 headers=header,
                                 timeout=(3.2, 10),
-                                proxies={"http": "http://{}".format(proxy)})
+                                proxies=proxies)
+                            # proxies={"http": "http://{}".format(proxy)})
                         else:
                             resp = sesscion_a.post(
                                 url,
                                 headers=header,
                                 data=data,
                                 timeout=(3.2, 10),
-                                proxies={"http": "http://{}".format(proxy)})
+                                proxies=proxies)
+                            # proxies={"http": "http://{}".format(proxy)})
                         retry_count = 0
                         print(resp)
                     except Exception as exc:
@@ -316,4 +376,5 @@ if __name__ == "__main__":
     # RepairSalt().init_request()
     # judge_ = RepairSalt().check_imei("014738000094457")
     # print(judge_)
-    GetProxy().get_proxy()
+    # GetProxy().get_proxy()
+    # GetProxy().abuyun()
