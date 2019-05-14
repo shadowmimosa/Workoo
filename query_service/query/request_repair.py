@@ -234,7 +234,7 @@ class RepairSalt(object):
                 if magic_time <= 6:
                     random_time = random.randint(1, 3)
                     # print("---> 现在开始睡眠 {} 秒\n".format(random_time))
-                    time.sleep(random_time)
+                    # time.sleep(random_time)
                 if byte:
                     return resp.content
                 else:
@@ -244,6 +244,8 @@ class RepairSalt(object):
                 self.init_request()
                 resp = self.deal_re(
                     byte=byte, url=url, header=header, data=data)
+            elif resp.status_code == 503:
+                print(resp.text)
             else:
                 print("---> {} 请求失败！状态码为{}，共耗时{:.3}秒\n".format(
                     url, resp.status_code, end_time - start_time))
@@ -368,7 +370,13 @@ def main(imei="356726086774842"):
     print("imei is {}".format(imei))
     return (RepairSalt().run(imei))
 
-
+def test():
+    while True:
+        re = main()
+        if re==None:
+            break
+        
+    
 if __name__ == "__main__":
     import os
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
@@ -378,3 +386,4 @@ if __name__ == "__main__":
     # print(judge_)
     # GetProxy().get_proxy()
     # GetProxy().abuyun()
+    test()
