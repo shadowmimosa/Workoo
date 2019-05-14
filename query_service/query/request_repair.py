@@ -234,7 +234,7 @@ class RepairSalt(object):
                 if magic_time <= 6:
                     random_time = random.randint(1, 3)
                     # print("---> 现在开始睡眠 {} 秒\n".format(random_time))
-                    # time.sleep(random_time)
+                    time.sleep(random_time)
                 if byte:
                     return resp.content
                 else:
