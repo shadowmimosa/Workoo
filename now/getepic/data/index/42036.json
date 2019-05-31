@@ -1,0 +1,369 @@
+{
+    "publisherData": {
+        "modelId": "109",
+        "name": "JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/6/42036/OEBPS/Images/1/3E492E90-3401-4676-8AFC-1C0914E12BED.jpg"
+            },
+            {
+                "page": "drm/6/42036/OEBPS/Images/1/FCD5CA1D-6D94-4BA0-A704-4F1D46EE1EEE.jpg",
+                "audio": "drm/6/42036/OEBPS/Audio/1/01-untitled.mp3"
+            },
+            {
+                "page": "drm/6/42036/OEBPS/Images/1/EAA15D1D-6BB7-4A66-AA4A-2FADC7EAFEB6.jpg",
+                "audio": "drm/6/42036/OEBPS/Audio/1/02-untitled.mp3"
+            },
+            {
+                "page": "drm/6/42036/OEBPS/Images/1/5CE25337-E98E-4FC7-95F2-9B72DEAC1236.jpg",
+                "audio": "drm/6/42036/OEBPS/Audio/1/03-untitled.mp3"
+            },
+            {
+                "page": "drm/6/42036/OEBPS/Images/1/49D4F1C9-712E-467F-AE0D-852690977DA7.jpg"
+            },
+            {
+                "page": "drm/6/42036/OEBPS/Images/1/B1EC558D-751B-44D8-849F-79797B3A1F4D.jpg",
+                "audio": "drm/6/42036/OEBPS/Audio/1/04-untitled.mp3"
+            },
+            {
+                "page": "drm/6/42036/OEBPS/Images/1/A9BECF81-5163-4913-B28D-89D1EB33D3E2.jpg"
+            },
+            {
+                "page": "drm/6/42036/OEBPS/Images/1/9235E6EB-EF51-4772-8E89-5661DDEBDD60.jpg",
+                "audio": "drm/6/42036/OEBPS/Audio/1/05-untitled.mp3"
+            },
+            {
+                "page": "drm/6/42036/OEBPS/Images/1/D540FE51-7350-40A3-97A0-0A25A4B2B84F.jpg",
+                "audio": "drm/6/42036/OEBPS/Audio/1/06-untitled.mp3"
+            },
+            {
+                "page": "drm/6/42036/OEBPS/Images/1/09252B66-9830-4B8E-A95C-D9925C5433C2.jpg",
+                "audio": "drm/6/42036/OEBPS/Audio/1/07-untitled.mp3"
+            },
+            {
+                "page": "drm/6/42036/OEBPS/Images/1/D4419B54-8C7D-4477-ACF4-3F6DB55FAE0A.jpg"
+            },
+            {
+                "page": "drm/6/42036/OEBPS/Images/1/4FD7B324-8D43-41F8-BAFE-76FB496428BD.jpg",
+                "audio": "drm/6/42036/OEBPS/Audio/1/08-untitled.mp3"
+            },
+            {
+                "page": "drm/6/42036/OEBPS/Images/1/756C4E90-76FD-42C0-A60C-05D62E7859D1.jpg"
+            },
+            {
+                "page": "drm/6/42036/OEBPS/Images/1/6391A492-7794-4D98-9A33-E0F793951B90.jpg",
+                "audio": "drm/6/42036/OEBPS/Audio/1/09-untitled.mp3"
+            },
+            {
+                "page": "drm/6/42036/OEBPS/Images/1/E914A699-590E-41E9-8A5B-61994E5C6355.jpg",
+                "audio": "drm/6/42036/OEBPS/Audio/1/10-untitled.mp3"
+            },
+            {
+                "page": "drm/6/42036/OEBPS/Images/1/60EF1450-2B7A-4C5E-8682-F1C8D5D8B23C.jpg",
+                "audio": "drm/6/42036/OEBPS/Audio/1/11-untitled.mp3"
+            },
+            {
+                "page": "drm/6/42036/OEBPS/Images/1/31F3F37D-BB10-4B85-98F3-B833249B239D.jpg"
+            },
+            {
+                "page": "drm/6/42036/OEBPS/Images/1/F06DD0C3-5DAD-4766-9560-097CFDC231D6.jpg",
+                "audio": "drm/6/42036/OEBPS/Audio/1/12-untitled.mp3"
+            },
+            {
+                "page": "drm/6/42036/OEBPS/Images/1/ABA482CF-47A0-408A-9376-D9BA6D3D2E53.jpg"
+            },
+            {
+                "page": "drm/6/42036/OEBPS/Images/1/66DF89BF-163D-4242-AC78-A3C246A151E1.jpg",
+                "audio": "drm/6/42036/OEBPS/Audio/1/13-untitled.mp3"
+            },
+            {
+                "page": "drm/6/42036/OEBPS/Images/1/4D9CA010-AF09-4A2C-8462-BABC699CB1A3.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/6/42036/OEBPS/Images/1/63AB5CA6-8466-44AC-B98C-922A8C5F1898.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "42036",
+        "id": "42036",
+        "title": "What Happens in Spring? Animals in Spring",
+        "author": "Jenny Fretland Vanvoorst",
+        "illustrator": " ",
+        "numPages": 21,
+        "bookDescription": "In Animals in Spring, beginning readers will learn how animal behavior changes during the spring season.",
+        "coverColorR": 200,
+        "coverColorG": 207,
+        "coverColorB": 189,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "JUMP",
+        "publisherId": "109",
+        "age": 4,
+        "pageNumOffset": 1,
+        "active": 1,
+        "audio": 1,
+        "lexile": "130L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 315,
+        "ar": "1.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Wild Things",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.005,
+        "contentHash": "8ca4afa5a0a300443cb9",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373811
+    },
+    "userBook": {
+        "modelId": "46250489-42036",
+        "userId": "46250489",
+        "bookId": "42036",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310392,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310392,
+        "book": {
+            "modelId": "42036",
+            "title": "What Happens in Spring? Animals in Spring",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "8ca4afa5a0a300443cb9"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "402185",
+            "user_id": "29205248",
+            "book_id": "42036",
+            "title": "What Happens in Spring?",
+            "description": "",
+            "date_created": 1556902417,
+            "date_modified": 1556902417,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "How does the turtle feel after the winter?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "He is hungry.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "He is thirsty.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "He is tired.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What season are most baby animals born in?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Spring",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Fall",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Summer",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Winter",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What does the bunny eat?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Grass",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Fish",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Acorns",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Bugs",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                }
+            ],
+            "modelId": "402185",
+            "creatorName": "Taylor W.",
+            "avatarId": "15",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "29205248",
+                "udid": "5b8868a3307d90.95673250",
+                "journalName": "Taylor W.",
+                "journalCoverAvatar": "15",
+                "journalCoverColor": "0.61176470588235 0.36078431372549 0.70588235294118 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "0",
+                "code": "92865107",
+                "fid": "",
+                "accountID": "3C314EEB-C0EA-2FA4-9579-F04AA6F89AD6",
+                "simpleAccountId": "5641866",
+                "pagesFlipped": 2362,
+                "nufComplete": 1,
+                "readingAge": 6,
+                "startingAge": 6,
+                "status": 0,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 1294,
+                "xpLevel": 14,
+                "dateLastLogin": 1558713198,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "Taylor",
+                "lastName": "Wilkinson",
+                "accountType": 1,
+                "dateModified": 1559234948,
+                "grade": 1
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "How does the turtle feel after the winter?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "He is hungry.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "He is thirsty.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "He is tired.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What season are most baby animals born in?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Spring",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Fall",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Summer",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Winter",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What does the bunny eat?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Grass",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Fish",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Acorns",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Bugs",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            }
+        ]
+    }
+}

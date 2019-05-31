@@ -1,0 +1,456 @@
+{
+    "publisherData": {
+        "modelId": "91",
+        "name": "ABDO Publishing",
+        "url": "http://abdopublishing.com//",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570820
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/25967/OEBPS/Images/1/381537B9-17AE-4FEC-B630-D661B2396E6C.jpg"
+            },
+            {
+                "page": "drm/7/25967/OEBPS/Images/1/39C1D989-4053-478E-A77F-B145EFE55179.jpg",
+                "audio": "drm/7/25967/OEBPS/Audio/1/page6.mp3"
+            },
+            {
+                "page": "drm/7/25967/OEBPS/Images/1/0D386B56-0882-4A54-A968-C6040B6739B5.jpg",
+                "audio": "drm/7/25967/OEBPS/Audio/1/page7.mp3"
+            },
+            {
+                "page": "drm/7/25967/OEBPS/Images/1/81B96AE1-1B39-454F-AB3B-A0A9D14F3A6E.jpg",
+                "audio": "drm/7/25967/OEBPS/Audio/1/page8.mp3"
+            },
+            {
+                "page": "drm/7/25967/OEBPS/Images/1/1832B4F8-E3F5-4CA6-91B2-73EC16332202.jpg"
+            },
+            {
+                "page": "drm/7/25967/OEBPS/Images/1/4683C476-E572-451C-9CA6-D6DA4467632B.jpg",
+                "audio": "drm/7/25967/OEBPS/Audio/1/page10.mp3"
+            },
+            {
+                "page": "drm/7/25967/OEBPS/Images/1/F28D3060-2485-410B-ADEE-958C09FD0D67.jpg"
+            },
+            {
+                "page": "drm/7/25967/OEBPS/Images/1/B08B0B57-F133-4713-A9F2-34BBA468546E.jpg",
+                "audio": "drm/7/25967/OEBPS/Audio/1/page12.mp3"
+            },
+            {
+                "page": "drm/7/25967/OEBPS/Images/1/4976E22B-A423-4176-86F6-50BA6B55D8B4.jpg"
+            },
+            {
+                "page": "drm/7/25967/OEBPS/Images/1/52460C52-D8C0-44AD-8DD4-BB8F5D8DE28C.jpg",
+                "audio": "drm/7/25967/OEBPS/Audio/1/page14.mp3"
+            },
+            {
+                "page": "drm/7/25967/OEBPS/Images/1/2CA0DFEF-C862-488A-8057-526EEE75229E.jpg"
+            },
+            {
+                "page": "drm/7/25967/OEBPS/Images/1/9561C543-E54D-4B21-A5F2-4B24D4027CBF.jpg",
+                "audio": "drm/7/25967/OEBPS/Audio/1/page16.mp3"
+            },
+            {
+                "page": "drm/7/25967/OEBPS/Images/1/88ED3FAA-25ED-41F4-80DF-5EC1BB1F55CE.jpg"
+            },
+            {
+                "page": "drm/7/25967/OEBPS/Images/1/8C474F64-E931-4D90-8DF6-83811BAF2C59.jpg",
+                "audio": "drm/7/25967/OEBPS/Audio/1/page18.mp3"
+            },
+            {
+                "page": "drm/7/25967/OEBPS/Images/1/517C9CBB-6406-405E-B79E-F953663D5B40.jpg"
+            },
+            {
+                "page": "drm/7/25967/OEBPS/Images/1/B22FDF76-A800-4D34-9CA3-D1EF0018071F.jpg",
+                "audio": "drm/7/25967/OEBPS/Audio/1/page20.mp3"
+            },
+            {
+                "page": "drm/7/25967/OEBPS/Images/1/1722630C-D291-4E23-B33D-69982940353B.jpg",
+                "audio": "drm/7/25967/OEBPS/Audio/1/page21.mp3"
+            },
+            {
+                "page": "drm/7/25967/OEBPS/Images/1/B67DC7E4-A73F-4582-A349-FB1B4FB789F8.jpg",
+                "audio": "drm/7/25967/OEBPS/Audio/1/page22.mp3"
+            },
+            {
+                "page": "drm/7/25967/OEBPS/Images/1/B416E006-9681-4FC9-A061-AB3151D78048.jpg"
+            },
+            {
+                "page": "drm/7/25967/OEBPS/Images/1/1F6A2AA3-60C1-4C06-8443-D03F83132B45.jpg",
+                "audio": "drm/7/25967/OEBPS/Audio/1/page24.mp3"
+            },
+            {
+                "page": "drm/7/25967/OEBPS/Images/1/801A6771-5B2D-4005-BA5B-0551802111AB.jpg"
+            },
+            {
+                "page": "drm/7/25967/OEBPS/Images/1/622D80C3-7ED1-4A38-84DC-164322DE52B8.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/25967/OEBPS/Images/1/7F1A92CD-BCF4-484B-888D-2BC32BB3FB83.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "25967",
+        "id": "25967",
+        "title": "Triangles",
+        "author": "Teddy Borth",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Most shapes can be cut into triangles. They are an important shape.",
+        "coverColorR": 223,
+        "coverColorG": 218,
+        "coverColorB": 213,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "ABDO Publishing",
+        "publisherId": "91",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "20L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 366,
+        "ar": "1.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.0782,
+        "contentHash": "5490a59a8e0ea3ea6f03",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373050
+    },
+    "userBook": {
+        "modelId": "46250489-25967",
+        "userId": "46250489",
+        "bookId": "25967",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311039,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311039,
+        "book": {
+            "modelId": "25967",
+            "title": "Triangles",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "5490a59a8e0ea3ea6f03"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "61706",
+            "user_id": "13892190",
+            "book_id": "25967",
+            "title": "Triangles",
+            "description": "",
+            "date_created": 1488665363,
+            "date_modified": 1511980188,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "How many sides does a Triangle have? ",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "3",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "2",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "0",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "1",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "How many angles does a triangle have? ",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "3",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "5",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "6",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "2",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Are triangles found everywhere? ",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Yes",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "No",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "I don't know ",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Are triangles in music? ",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Yes",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "No",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "I don't know ",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Can windows look like triangles? ",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Yes",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "No",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "I don't know ",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "61706",
+            "creatorName": "Ms. Mills",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "13892190",
+                "udid": "58b87dddf29222.56678982",
+                "journalName": "Ms. Mills",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.70588235294118 0.94509803921569 0.39607843137255 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "269149992",
+                "fid": "",
+                "accountID": "90141D9A-1628-7C5C-2C19-7AD0C18D7117",
+                "simpleAccountId": "4564842",
+                "pagesFlipped": 123,
+                "nufComplete": 1,
+                "readingAge": 5.83333,
+                "startingAge": 0,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 0,
+                "xpLevel": 1,
+                "dateLastLogin": 1547814191,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Katie",
+                "lastName": "Mills",
+                "accountType": 1,
+                "dateModified": 1547815635,
+                "educatorPrefix": "Ms.",
+                "name": "Ms. Mills"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "How many sides does a Triangle have? ",
+                "quizQuestionChoices": [
+                    {
+                        "title": "3",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "2",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "0",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "1",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "How many angles does a triangle have? ",
+                "quizQuestionChoices": [
+                    {
+                        "title": "3",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "5",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "6",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "2",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Are triangles found everywhere? ",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Yes",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "No",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "I don't know ",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Are triangles in music? ",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Yes",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "No",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "I don't know ",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Can windows look like triangles? ",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Yes",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "No",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "I don't know ",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

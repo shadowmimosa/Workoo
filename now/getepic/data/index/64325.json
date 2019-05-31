@@ -1,0 +1,149 @@
+{
+    "publisherData": {
+        "modelId": "28",
+        "name": "Xist Publishing",
+        "url": "http://www.xistpublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539564197
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/64325/OEBPS/Images/1/1064dbd63b34b5ec5b3abe265d983103.jpg",
+                "audio": "drm/5/64325/OEBPS/Audio/1/Title.mp3"
+            },
+            {
+                "page": "drm/5/64325/OEBPS/Images/1/2302872fb01734cfb0a6d6c204eca60a.jpg",
+                "audio": "drm/5/64325/OEBPS/Audio/1/Page 4.mp3"
+            },
+            {
+                "page": "drm/5/64325/OEBPS/Images/1/e71f0e4fefcd6cd3d4424eae504b1301.jpg",
+                "audio": "drm/5/64325/OEBPS/Audio/1/Page 5.mp3"
+            },
+            {
+                "page": "drm/5/64325/OEBPS/Images/1/4a23810e0e4d7612fd2cc893efea0be5.jpg"
+            },
+            {
+                "page": "drm/5/64325/OEBPS/Images/1/93c1b334f4e528822289c8694a082d3a.jpg",
+                "audio": "drm/5/64325/OEBPS/Audio/1/Page 7.mp3"
+            },
+            {
+                "page": "drm/5/64325/OEBPS/Images/1/003d637c676205895a2588db6d94ea07.jpg"
+            },
+            {
+                "page": "drm/5/64325/OEBPS/Images/1/da50ba3cea5dd276d43de7924430f31b.jpg",
+                "audio": "drm/5/64325/OEBPS/Audio/1/Page 9.mp3"
+            },
+            {
+                "page": "drm/5/64325/OEBPS/Images/1/0301cfcb19f422f07535e4768f534525.jpg"
+            },
+            {
+                "page": "drm/5/64325/OEBPS/Images/1/7b7620fd38a5dad80195717cf250f849.jpg",
+                "audio": "drm/5/64325/OEBPS/Audio/1/Page 11.mp3"
+            },
+            {
+                "page": "drm/5/64325/OEBPS/Images/1/393bc6761fc8f23a7297ff8d88d68768.jpg"
+            },
+            {
+                "page": "drm/5/64325/OEBPS/Images/1/72cc956ca8ec852fcaa2f12e456e034e.jpg",
+                "audio": "drm/5/64325/OEBPS/Audio/1/Page 13.mp3"
+            },
+            {
+                "page": "drm/5/64325/OEBPS/Images/1/8f1228cec9ac7a90b1a3df3b40cccb29.jpg"
+            },
+            {
+                "page": "drm/5/64325/OEBPS/Images/1/2e08235e5af92ef2b70fdb40d8342aca.jpg",
+                "audio": "drm/5/64325/OEBPS/Audio/1/Page 15.mp3"
+            },
+            {
+                "page": "drm/5/64325/OEBPS/Images/1/ce0cac2322a307d716a4322c3429cc39.jpg"
+            },
+            {
+                "page": "drm/5/64325/OEBPS/Images/1/3fa6000306dad4dcc707377c3823a062.jpg",
+                "audio": "drm/5/64325/OEBPS/Audio/1/Page 17.mp3"
+            },
+            {
+                "page": "drm/5/64325/OEBPS/Images/1/2e86d7cb823400895304f0d2f882cb6d.jpg"
+            },
+            {
+                "page": "drm/5/64325/OEBPS/Images/1/5eed5d67c4af5199083d93d5357da1d5.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/64325/OEBPS/Images/1/84a414cfe2fa7d5baa0b103bdb9d21a4.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "64325",
+        "id": "64325",
+        "title": "Discover Colors: I See Black",
+        "author": "Xist Publishing",
+        "illustrator": " ",
+        "numPages": 17,
+        "bookDescription": "Beginning readers identify things that are the color black in this very simple 20-page reader.",
+        "coverColorR": 192,
+        "coverColorG": 205,
+        "coverColorB": 198,
+        "version": 25935936,
+        "previewPercent": 20,
+        "publisher": "Xist Publishing",
+        "publisherId": "28",
+        "age": 4,
+        "pageNumOffset": 1,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 425,
+        "ar": "1.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "b",
+        "language": 1,
+        "rating": 75,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.6471,
+        "contentHash": "4cb36ddcf2ebce7c0d59",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1558397085
+    },
+    "userBook": {
+        "modelId": "46250489-64325",
+        "userId": "46250489",
+        "bookId": "64325",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559309798,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559309798,
+        "book": {
+            "modelId": "64325",
+            "title": "Discover Colors: I See Black",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "4cb36ddcf2ebce7c0d59"
+        }
+    },
+    "quiz": null
+}

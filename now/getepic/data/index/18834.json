@@ -1,0 +1,173 @@
+{
+    "publisherData": {
+        "modelId": "168",
+        "name": "Flower Pot Press",
+        "url": "http://www.flowerpotpress.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260414
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/18834/OEBPS/Images/1/da3da12b884f9c817561601c42e83986.jpg",
+                "audio": "drm/4/18834/OEBPS/Audio/1/a127944c3bb7c47d71a3ea7c26e32c9a.mp3"
+            },
+            {
+                "page": "drm/4/18834/OEBPS/Images/1/974eaea0d7be2548903490d93d8d779e.jpg",
+                "audio": "drm/4/18834/OEBPS/Audio/1/7ece8762f7a57dc3ecbd7ef7a98815c6.mp3"
+            },
+            {
+                "page": "drm/4/18834/OEBPS/Images/1/315e708d4a6596eb7f21234f5d273d6d.jpg",
+                "audio": "drm/4/18834/OEBPS/Audio/1/b8e65e73a2ea172701ad144a9d00f922.mp3"
+            },
+            {
+                "page": "drm/4/18834/OEBPS/Images/1/2f500ac3e8f363c4656e22b651145844.jpg",
+                "audio": "drm/4/18834/OEBPS/Audio/1/7349bdc0cc60a94a848233aeb1df1b33.mp3"
+            },
+            {
+                "page": "drm/4/18834/OEBPS/Images/1/538b4822f033dd176eed1598ab847a11.jpg",
+                "audio": "drm/4/18834/OEBPS/Audio/1/a008dae47fd6277147963e1c738a0038.mp3"
+            },
+            {
+                "page": "drm/4/18834/OEBPS/Images/1/f10651dd72198fc47dbee78a15c7253d.jpg",
+                "audio": "drm/4/18834/OEBPS/Audio/1/dcf3c536144369684cbf3d2b51820f06.mp3"
+            },
+            {
+                "page": "drm/4/18834/OEBPS/Images/1/e53dfe22999ddf92a1cdb355902e0039.jpg",
+                "audio": "drm/4/18834/OEBPS/Audio/1/0b0fd9a3c1d42b36ab0dec4214c3a4f3.mp3"
+            },
+            {
+                "page": "drm/4/18834/OEBPS/Images/1/166a26a018a2eeae43d3343fabf3fe14.jpg",
+                "audio": "drm/4/18834/OEBPS/Audio/1/23d6e79ead9c2319613435ac15e13619.mp3"
+            },
+            {
+                "page": "drm/4/18834/OEBPS/Images/1/7fc37de7811365a7c8799f57b0607ca7.jpg",
+                "audio": "drm/4/18834/OEBPS/Audio/1/ac8c6604f31953d68669f6854cdae343.mp3"
+            },
+            {
+                "page": "drm/4/18834/OEBPS/Images/1/f79a214da6db3f5f0e304dfc08b9fd6d.jpg",
+                "audio": "drm/4/18834/OEBPS/Audio/1/d63693f8695616ad72307d00662bedbf.mp3"
+            },
+            {
+                "page": "drm/4/18834/OEBPS/Images/1/07dc4d1281cbd466b0785e1fac8b1b36.jpg",
+                "audio": "drm/4/18834/OEBPS/Audio/1/783ca655e79e181f53b358c34d319294.mp3"
+            },
+            {
+                "page": "drm/4/18834/OEBPS/Images/1/4670dc71f6edbd4ee9459a53f47a25dd.jpg",
+                "audio": "drm/4/18834/OEBPS/Audio/1/7c01bd3ed302d061d96f2b178800ce56.mp3"
+            },
+            {
+                "page": "drm/4/18834/OEBPS/Images/1/93e8d50bb626dcc0a23044577e10c381.jpg",
+                "audio": "drm/4/18834/OEBPS/Audio/1/e3dc3abc3a8c9b98d90f1216aedcc88a.mp3"
+            },
+            {
+                "page": "drm/4/18834/OEBPS/Images/1/73ea6e69439a44313c63f4d206270cc8.jpg",
+                "audio": "drm/4/18834/OEBPS/Audio/1/1879ca33459f38df7c6194b150df7090.mp3"
+            },
+            {
+                "page": "drm/4/18834/OEBPS/Images/1/b1aebe42959fe7c89a97d045ff57074f.jpg",
+                "audio": "drm/4/18834/OEBPS/Audio/1/e7fe2c5fee7be7527677834e050d6a55.mp3"
+            },
+            {
+                "page": "drm/4/18834/OEBPS/Images/1/b25c68bebdef28e026c93093077255ed.jpg",
+                "audio": "drm/4/18834/OEBPS/Audio/1/afabd97966249ab160d68f83ec2d5460.mp3"
+            },
+            {
+                "page": "drm/4/18834/OEBPS/Images/1/d23468d4f82481520c34f66a92611082.jpg",
+                "audio": "drm/4/18834/OEBPS/Audio/1/fbbf0519f7240011c0f51a2cf54bb53d.mp3"
+            },
+            {
+                "page": "drm/4/18834/OEBPS/Images/1/711868a7b8a5f6077782aea2e0b1de54.jpg",
+                "audio": "drm/4/18834/OEBPS/Audio/1/9c47a396c16076d7a5d8ce4bc14950e6.mp3"
+            },
+            {
+                "page": "drm/4/18834/OEBPS/Images/1/193c45229b5c8ce5fd1ce1c5ef09aecf.jpg",
+                "audio": "drm/4/18834/OEBPS/Audio/1/1c19a74668d0b51dba27696a6f4d4bc0.mp3"
+            },
+            {
+                "page": "drm/4/18834/OEBPS/Images/1/ff7d73da38f755f065e0bc7dee0af2be.jpg",
+                "audio": "drm/4/18834/OEBPS/Audio/1/11d100108819de6f9b66cd51e1d6ab04.mp3"
+            },
+            {
+                "page": "drm/4/18834/OEBPS/Images/1/834b663ce63c42fd68c4a804411e7b74.jpg",
+                "audio": "drm/4/18834/OEBPS/Audio/1/c8f42d9f49839f5318556e06279c8252.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/18834/OEBPS/Images/1/278e3ee837bee2e3faaec57e87c9f512.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18834",
+        "id": "18834",
+        "title": "Colors",
+        "author": "Flowerpot Press",
+        "illustrator": " ",
+        "numPages": 21,
+        "bookDescription": "A red fire truck and an orange newt. All the colors come to life and all the pictures are cute!",
+        "coverColorR": 169,
+        "coverColorG": 151,
+        "coverColorB": 133,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Flower Pot Press",
+        "publisherId": "168",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 350,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "bb68b302a8b2c896cff9",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1516240771
+    },
+    "userBook": {
+        "modelId": "46250489-18834",
+        "userId": "46250489",
+        "bookId": "18834",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310934,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310934,
+        "book": {
+            "modelId": "18834",
+            "title": "Colors",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "bb68b302a8b2c896cff9"
+        }
+    },
+    "quiz": null
+}

@@ -1,0 +1,461 @@
+{
+    "publisherData": {
+        "modelId": "90295",
+        "name": "HarperCollins Publishing..",
+        "url": "http://www.harpercollins.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539569236
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/89dd6d6e1d472a4466a928983162e3a3.jpg",
+                "audio": "drm/3/59683/OEBPS/Audio/1/silence_5sec.mp3"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/98f9c544adc94386b553eae49a5c33d6.jpg"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/41b99c789dd4bacc850872d7a2870927.jpg",
+                "audio": "drm/3/59683/OEBPS/Audio/1/9780062009111_cover.mp3"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/417f293826d1e65c3d2fa4caf3e40d22.jpg"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/5ed1c46f0ed99d01f827e46a9cbb0031.jpg",
+                "audio": "drm/3/59683/OEBPS/Audio/1/9780062009111_01.mp3"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/b1661eb59f78a8b2cfa6e3d7663f1ebd.jpg"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/f8f4957c11bbe3bd78a76cb350e07f2a.jpg",
+                "audio": "drm/3/59683/OEBPS/Audio/1/9780062009111_02.mp3"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/a5be7128091c25ace8d88ab47c41b284.jpg"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/557d5ecf28c1e8f1c4f701668cb9dc38.jpg",
+                "audio": "drm/3/59683/OEBPS/Audio/1/9780062009111_03.mp3"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/1cd7b9c6ed77195536077e19d602a97f.jpg"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/0f6a4d764659990008172b169d800dba.jpg",
+                "audio": "drm/3/59683/OEBPS/Audio/1/9780062009111_04.mp3"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/9b132664eca935958122e8c1a0d9b66c.jpg"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/dc6a16b6f6053835e9b4d59b02625c64.jpg",
+                "audio": "drm/3/59683/OEBPS/Audio/1/9780062009111_05.mp3"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/605e6917e5ce593de9af059b30b3269a.jpg"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/f25e648e44ed170e64e76a75c5176694.jpg",
+                "audio": "drm/3/59683/OEBPS/Audio/1/9780062009111_06.mp3"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/7fe555bff1999264910d019fb96a00f0.jpg"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/dbc0d33f29b8e89649eb52006b87a091.jpg",
+                "audio": "drm/3/59683/OEBPS/Audio/1/9780062009111_07.mp3"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/7bc2737bf1a7bd8c3e02b2bb69ea0fdb.jpg"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/4c4e8e9537088eec8c0d375339f95daf.jpg",
+                "audio": "drm/3/59683/OEBPS/Audio/1/9780062009111_08.mp3"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/bc72a5ec4df04f40d61a725b2338e37a.jpg"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/d2eede82f8d856dc2cfa6216a3709067.jpg",
+                "audio": "drm/3/59683/OEBPS/Audio/1/9780062009111_09.mp3"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/6fa54b717f7d957fa25ad5a621b2e03f.jpg",
+                "audio": "drm/3/59683/OEBPS/Audio/1/9780062009111_10.mp3"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/a94fc3de77c965eb81b5fe24608bca03.jpg"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/7b8d077676241a85d1aaf5ad7a22f0a7.jpg",
+                "audio": "drm/3/59683/OEBPS/Audio/1/9780062009111_11.mp3"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/ad932199a2f5400b657856410400d619.jpg"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/9648989d0d14f2e320550675b49d7c2d.jpg",
+                "audio": "drm/3/59683/OEBPS/Audio/1/9780062009111_12.mp3"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/6b39728b2d05a5ac32d682576d9b8375.jpg"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/2b651307392d4128d02cb31b0f94461c.jpg",
+                "audio": "drm/3/59683/OEBPS/Audio/1/9780062009111_13.mp3"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/ab83da0cfac27cebaaf28ee74481b210.jpg"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/9dabd655bb02b971ef279d7def74198e.jpg",
+                "audio": "drm/3/59683/OEBPS/Audio/1/9780062009111_14.mp3"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/b3276a61ba9af4ea5d88e1478ce2217b.jpg"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/51ea437f2aedaefd0e1e3f783a91d8c9.jpg",
+                "audio": "drm/3/59683/OEBPS/Audio/1/9780062009111_15.mp3"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/c065b62be0ce053c131ee9b21415120b.jpg"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/367a781a4260b4fd223416d0c49f6b1f.jpg",
+                "audio": "drm/3/59683/OEBPS/Audio/1/9780062009111_16.mp3"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/683317ed32424ef2fbef11f6e9a60339.jpg"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/00dafebc681859afff332ad2d372410b.jpg",
+                "audio": "drm/3/59683/OEBPS/Audio/1/9780062009111_17.mp3"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/cb3bcb436775b0a2d6346ffe3869a434.jpg"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/4d5057d92e64956f106a95ba9326f292.jpg",
+                "audio": "drm/3/59683/OEBPS/Audio/1/9780062009111_18.mp3"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/a26ec214d9f73266c2bfa8d552d4219e.jpg"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/12b50638082b3f2b086dcbf58ca36674.jpg",
+                "audio": "drm/3/59683/OEBPS/Audio/1/9780062009111_19.mp3"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/961bf9fe2bcbc05b730090c40c729f90.jpg"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/6b87279a07fe3c96c2709f9187711466.jpg",
+                "audio": "drm/3/59683/OEBPS/Audio/1/9780062009111_20.mp3"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/66c362ff9ee8417b189f4eefc35ff743.jpg"
+            },
+            {
+                "page": "drm/3/59683/OEBPS/Images/1/7ca404f268b6a0ee1918cfd40e90174f.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/3/59683/OEBPS/Images/1/42802e902c49b0217a16641a79c2e16a.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "59683",
+        "id": "59683",
+        "title": "Caps for Sale: A Tale of a Peddler, Some Monkeys and Their Monkey Business",
+        "author": "Esphyr Slobodkina",
+        "illustrator": " ",
+        "numPages": 44,
+        "bookDescription": "This tale of a peddler and a band of mischievous monkeys is filled with warmth, humor, and simplicity.",
+        "coverColorR": 151,
+        "coverColorG": 171,
+        "coverColorB": 149,
+        "version": 2147483647,
+        "previewPercent": 10,
+        "publisher": "HarperCollins Publishing..",
+        "publisherId": "90295",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "AD480L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 806,
+        "ar": "3.1",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Humorous Stories",
+        "subjectColor": "FFD673",
+        "copyright": "",
+        "aspectRatio": 0.8043,
+        "contentHash": "ec1a124e08e319930ac4",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1552328409
+    },
+    "userBook": {
+        "modelId": "46250489-59683",
+        "userId": "46250489",
+        "bookId": "59683",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310357,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310357,
+        "book": {
+            "modelId": "59683",
+            "title": "Caps for Sale: A Tale of a Peddler, Some Monkeys and Their Monkey Business",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "ec1a124e08e319930ac4"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "400641",
+            "user_id": "36198404",
+            "book_id": "59683",
+            "title": "Caps for Sale",
+            "description": "",
+            "date_created": 1556816847,
+            "date_modified": 1556816847,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Where did the peddler (seller) carry his caps?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "On top of His Head",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "In a Bag on his back",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "How much was a cap?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "50 Cents",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "1 Dollar",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What did the man find upon waking up from his nap?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "His hats were all gone",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "It had rained",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Who took the caps?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Monkeys",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Little Boys",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "What color caps were on the very top of the peddler's head?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Red",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Gray",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "400641",
+            "creatorName": "Abigail T.",
+            "avatarId": "36",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "36198404",
+                "udid": "5c0876af4bb298.59843564",
+                "journalName": "Abigail T.",
+                "journalCoverAvatar": "36",
+                "journalCoverColor": "1 0.67843137254902 0.26274509803922 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "743739038",
+                "fid": "",
+                "accountID": "52F9BE51-22D1-6E0A-01EE-5E99E9EFA2E0",
+                "simpleAccountId": "225077",
+                "pagesFlipped": 2617,
+                "nufComplete": 1,
+                "readingAge": 7.2,
+                "startingAge": 5,
+                "status": 0,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 611,
+                "xpLevel": 16,
+                "dateLastLogin": 1559236265,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "Abigail",
+                "lastName": "Talley",
+                "accountType": 1,
+                "dateModified": 1559304995,
+                "grade": 0
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Where did the peddler (seller) carry his caps?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "On top of His Head",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "In a Bag on his back",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "How much was a cap?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "50 Cents",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "1 Dollar",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What did the man find upon waking up from his nap?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "His hats were all gone",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "It had rained",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Who took the caps?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Monkeys",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Little Boys",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "What color caps were on the very top of the peddler's head?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Red",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Gray",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

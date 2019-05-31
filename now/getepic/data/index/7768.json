@@ -1,0 +1,176 @@
+{
+    "publisherData": {
+        "modelId": "35",
+        "name": "Stone Arch Books A Capstone Imprint",
+        "url": "http://www.capstonepub.com/library/",
+        "checkout": 0,
+        "educationalEnabled": 0,
+        "dateModified": 1411596055
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/7768/OEBPS/Images/1/132a1bbd31da8a3084749e76361e415b.jpg"
+            },
+            {
+                "page": "drm/8/7768/OEBPS/Images/1/745972a0e79c7a6f16e4c8092541e1f7.jpg"
+            },
+            {
+                "page": "drm/8/7768/OEBPS/Images/1/86c266ace0b4d9945334d90dbdab6388.jpg"
+            },
+            {
+                "page": "drm/8/7768/OEBPS/Images/1/eff074b475e1e98f6bc1017b22da0a2d.jpg"
+            },
+            {
+                "page": "drm/8/7768/OEBPS/Images/1/bded4801d9ecd658ff7d34b9ba0376bb.jpg"
+            },
+            {
+                "page": "drm/8/7768/OEBPS/Images/1/8abf1d4168a33a6ff7649197789f00db.jpg"
+            },
+            {
+                "page": "drm/8/7768/OEBPS/Images/1/739979444b032035571a1b5a83e7418e.jpg"
+            },
+            {
+                "page": "drm/8/7768/OEBPS/Images/1/2424372076768c7819c918e4752d84f1.jpg"
+            },
+            {
+                "page": "drm/8/7768/OEBPS/Images/1/b04289d2fc177f8288b93c6747473ff6.jpg"
+            },
+            {
+                "page": "drm/8/7768/OEBPS/Images/1/83e3ba552d2a6d8c9b75614640d75add.jpg"
+            },
+            {
+                "page": "drm/8/7768/OEBPS/Images/1/51841551b511a500263e8caf9c321898.jpg"
+            },
+            {
+                "page": "drm/8/7768/OEBPS/Images/1/2ab9d667e239ee19cf8885676017e135.jpg"
+            },
+            {
+                "page": "drm/8/7768/OEBPS/Images/1/d3585e1640e7f489c3367524a45e9961.jpg"
+            },
+            {
+                "page": "drm/8/7768/OEBPS/Images/1/75b16b51f29fccbd23bafe098e18cbf7.jpg"
+            },
+            {
+                "page": "drm/8/7768/OEBPS/Images/1/39b7bc91ea09fde7b6d8baa29fcb8d75.jpg"
+            },
+            {
+                "page": "drm/8/7768/OEBPS/Images/1/0efbd885f639a4d90dc2a759355b32f6.jpg"
+            },
+            {
+                "page": "drm/8/7768/OEBPS/Images/1/3d0ad897153e70e6e085f57be124d28e.jpg"
+            },
+            {
+                "page": "drm/8/7768/OEBPS/Images/1/fb19fb72a82a098753b8896842c8cd93.jpg"
+            },
+            {
+                "page": "drm/8/7768/OEBPS/Images/1/44afd90c353e1110da1f4e64ed4e045b.jpg"
+            },
+            {
+                "page": "drm/8/7768/OEBPS/Images/1/d1fa6090c68faa7aa62c4531647ac920.jpg"
+            },
+            {
+                "page": "drm/8/7768/OEBPS/Images/1/51691cd25c145a3d799629c5c4a645eb.jpg"
+            },
+            {
+                "page": "drm/8/7768/OEBPS/Images/1/e5ce1a949ab16ba6d70e9ab021cb277a.jpg"
+            },
+            {
+                "page": "drm/8/7768/OEBPS/Images/1/255d8b435335282d704f9469e1776e49.jpg"
+            },
+            {
+                "page": "drm/8/7768/OEBPS/Images/1/950c951f48348cdaa31fbc364dcc39de.jpg"
+            },
+            {
+                "page": "drm/8/7768/OEBPS/Images/1/71d6d06197765cfaab4bd8010ec4753e.jpg"
+            },
+            {
+                "page": "drm/8/7768/OEBPS/Images/1/7ed0c8186ff121e024e0994d9ac8e4dc.jpg"
+            },
+            {
+                "page": "drm/8/7768/OEBPS/Images/1/639e0789a8db9578dc7d2e3fd653af90.jpg"
+            },
+            {
+                "page": "drm/8/7768/OEBPS/Images/1/472574dd2fb0252119629461e87cdf92.jpg"
+            },
+            {
+                "page": "drm/8/7768/OEBPS/Images/1/e86b14eb2aebf8cf541d0c3df727ea2e.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/7768/OEBPS/Images/1/d91181d165125a06649b8b9d9d9049cc.jpg",
+            "color": "#000"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "7768",
+        "id": "7768",
+        "title": "Circus Train and The Clowns",
+        "author": "Adria F Klein",
+        "illustrator": "Craig Cameron",
+        "numPages": 29,
+        "bookDescription": "Clowns of many different colors crowd onto Circus Train.",
+        "coverColorR": 150,
+        "coverColorG": 162,
+        "coverColorB": 135,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Stone Arch Books A Capstone Imprint",
+        "publisherId": "35",
+        "age": 5,
+        "pageNumOffset": 1,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 483,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Things That GO",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 0.6617,
+        "contentHash": "78644cb7f464b2d4dcb5",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1555372368
+    },
+    "userBook": {
+        "modelId": "46250489-7768",
+        "userId": "46250489",
+        "bookId": "7768",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311968,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311968,
+        "book": {
+            "modelId": "7768",
+            "title": "Circus Train and The Clowns",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "78644cb7f464b2d4dcb5"
+        }
+    },
+    "quiz": null
+}

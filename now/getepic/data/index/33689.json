@@ -1,0 +1,155 @@
+{
+    "publisherData": {
+        "modelId": "109",
+        "name": "JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/33689/OEBPS/Images/1/6F7C9E1F-8426-40EF-96EE-B6E07503DE91.jpg"
+            },
+            {
+                "page": "drm/9/33689/OEBPS/Images/1/D3E75851-6C1F-4A80-B007-36255F491CF7.jpg"
+            },
+            {
+                "page": "drm/9/33689/OEBPS/Images/1/A8E09B51-2BDF-453F-AD37-B257EA464E14.jpg"
+            },
+            {
+                "page": "drm/9/33689/OEBPS/Images/1/3496CF28-2EE2-43A7-A179-71A670C7C0E9.jpg"
+            },
+            {
+                "page": "drm/9/33689/OEBPS/Images/1/18CB19ED-D38E-4FDC-A5F3-5A3B7669BCB0.jpg"
+            },
+            {
+                "page": "drm/9/33689/OEBPS/Images/1/93F6DDC2-8E69-4366-AE38-BF23EA73E2C2.jpg"
+            },
+            {
+                "page": "drm/9/33689/OEBPS/Images/1/91AD79A2-71ED-4CF3-951B-3A7EC856D146.jpg"
+            },
+            {
+                "page": "drm/9/33689/OEBPS/Images/1/B9EB9B68-24C6-4EFB-9B78-C96191470A52.jpg"
+            },
+            {
+                "page": "drm/9/33689/OEBPS/Images/1/D53828BE-154D-4E9D-A513-7BC5BB4FBA65.jpg"
+            },
+            {
+                "page": "drm/9/33689/OEBPS/Images/1/C13DCC73-D169-4362-A7B4-C2BA0699E47D.jpg"
+            },
+            {
+                "page": "drm/9/33689/OEBPS/Images/1/DC7A3E07-01BD-4C8A-BF96-4CAD203D2EC3.jpg"
+            },
+            {
+                "page": "drm/9/33689/OEBPS/Images/1/3415A468-3D1F-4271-9705-D87BF6207B1D.jpg"
+            },
+            {
+                "page": "drm/9/33689/OEBPS/Images/1/79D4BCD1-A71B-45CA-9F76-1CFFFA42BC7D.jpg"
+            },
+            {
+                "page": "drm/9/33689/OEBPS/Images/1/A8A013AD-2984-40FB-A5AC-7007B7833C19.jpg"
+            },
+            {
+                "page": "drm/9/33689/OEBPS/Images/1/9496A35C-D104-4954-8B7D-E2738039EF56.jpg"
+            },
+            {
+                "page": "drm/9/33689/OEBPS/Images/1/83BEACC2-EB39-41A9-8FBE-E56F2DF992D8.jpg"
+            },
+            {
+                "page": "drm/9/33689/OEBPS/Images/1/B7929337-2474-428F-A07C-01F7989EC3F1.jpg"
+            },
+            {
+                "page": "drm/9/33689/OEBPS/Images/1/95C6B0B4-1AC0-4650-8249-0C903D6060AA.jpg"
+            },
+            {
+                "page": "drm/9/33689/OEBPS/Images/1/A29E4A33-C224-4547-83E0-F1B4BA25ECA1.jpg"
+            },
+            {
+                "page": "drm/9/33689/OEBPS/Images/1/B418B080-18A8-4F97-AB9F-25EFDD2EFF6C.jpg"
+            },
+            {
+                "page": "drm/9/33689/OEBPS/Images/1/627FD010-C455-49F4-BE94-85A48AB4A0C5.jpg"
+            },
+            {
+                "page": "drm/9/33689/OEBPS/Images/1/5B9D563B-2F62-4853-8439-29C11D10623B.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/33689/OEBPS/Images/1/643BF78C-41D3-407C-8C76-ECB79A4274CA.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "33689",
+        "id": "33689",
+        "title": "Machines At Work: Snowplows",
+        "author": "Cari Meister",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Learn about the parts of a snowplow that help its operator keep the roads clear.",
+        "coverColorR": 167,
+        "coverColorG": 131,
+        "coverColorB": 121,
+        "version": 12309,
+        "previewPercent": 20,
+        "publisher": "JUMP",
+        "publisherId": "109",
+        "age": 5,
+        "pageNumOffset": 1,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 366,
+        "ar": "0.9",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Things That GO",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "cd164bcfd24a72e6accd",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373336
+    },
+    "userBook": {
+        "modelId": "46250489-33689",
+        "userId": "46250489",
+        "bookId": "33689",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311895,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311895,
+        "book": {
+            "modelId": "33689",
+            "title": "Machines At Work: Snowplows",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "cd164bcfd24a72e6accd"
+        }
+    },
+    "quiz": null
+}

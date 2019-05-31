@@ -1,0 +1,581 @@
+{
+    "publisherData": {
+        "modelId": "90378",
+        "name": "Epic! Originals",
+        "url": "",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1542153745
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/7aca189df8aa5adf0e37be7911f35c62.jpg",
+                "audio": "drm/2/59692/OEBPS/Audio/1/00_Cinderella Rex_Intro.mp3"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/0b9a8cd1d1d392633200bed4f8d9aa9c.jpg",
+                "audio": "drm/2/59692/OEBPS/Audio/1/01_Cinderella Rex_p02.mp3"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/2fecac3e3248fe4526ca49feed12860f.jpg"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/30d88c5d84c0bb8ad48120ad6f592c84.jpg",
+                "audio": "drm/2/59692/OEBPS/Audio/1/02_Cinderella Rex_p04.mp3"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/bc38e3858ee581451a217e9a7aa14f20.jpg",
+                "audio": "drm/2/59692/OEBPS/Audio/1/03_Cinderella Rex_p05.mp3"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/1227edbdc8259d073fbf79526348202b.jpg",
+                "audio": "drm/2/59692/OEBPS/Audio/1/04_Cinderella Rex_p06.mp3"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/405159efa1626c6675a3807a8b9737a7.jpg",
+                "audio": "drm/2/59692/OEBPS/Audio/1/05_Cinderella Rex_p07.mp3"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/58dbba8877e3fdbdfd78f1c2e9af1bbf.jpg",
+                "audio": "drm/2/59692/OEBPS/Audio/1/06_Cinderella Rex_p08.mp3"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/65791ceb1acc43fc411208007413bf8a.jpg",
+                "audio": "drm/2/59692/OEBPS/Audio/1/07_Cinderella Rex_p09.mp3"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/ed024eca2bf2e7ae7bae013dc46413cc.jpg",
+                "audio": "drm/2/59692/OEBPS/Audio/1/08_Cinderella Rex_p10.mp3"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/8e503e919fd244aa848df09e68b54f1a.jpg"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/2f37748c6f994bfdd3e735c5c5ff14a0.jpg",
+                "audio": "drm/2/59692/OEBPS/Audio/1/09_Cinderella Rex_p12.mp3"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/01b469bd07f57ac7916aea254a05395a.jpg"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/7fbe515b05815df29099957fe5deef07.jpg",
+                "audio": "drm/2/59692/OEBPS/Audio/1/10_Cinderella Rex_p14.mp3"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/240bae15a0529934e291a58967512136.jpg",
+                "audio": "drm/2/59692/OEBPS/Audio/1/11_Cinderella Rex_p15.mp3"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/2dc0d5c3d089c870c197d60e6276383a.jpg",
+                "audio": "drm/2/59692/OEBPS/Audio/1/12_Cinderella Rex_p16.mp3"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/a2f7765261817d86c75f6cb0091db7b1.jpg"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/1c1c7df2f8520da28afb62a0f6ae7cb9.jpg",
+                "audio": "drm/2/59692/OEBPS/Audio/1/13_Cinderella Rex_p18.mp3"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/a6e8e0c1e375fd51bc5af03fbcedb829.jpg",
+                "audio": "drm/2/59692/OEBPS/Audio/1/14_Cinderella Rex_p19x.mp3"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/c085d066ec5c02d52b9259752a098e5f.jpg"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/c4dc4f9643d1d0c598dba35157dd1266.jpg",
+                "audio": "drm/2/59692/OEBPS/Audio/1/15_Cinderella Rex_p21.mp3"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/23f578995d70e052f6d34349dccc6f5d.jpg",
+                "audio": "drm/2/59692/OEBPS/Audio/1/16_Cinderella Rex_p22.mp3"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/d0e6ef6ec6920c3b1a44493f95b89cf2.jpg",
+                "audio": "drm/2/59692/OEBPS/Audio/1/17_Cinderella Rex_p23.mp3"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/17df5871b81a329e3f69d2664c53866e.jpg",
+                "audio": "drm/2/59692/OEBPS/Audio/1/18_Cinderella Rex_p24.mp3"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/d3bcdf9b74c6b8d22d5a733563705cb3.jpg",
+                "audio": "drm/2/59692/OEBPS/Audio/1/19_Cinderella Rex_p25.mp3"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/a2c31792724f2913979501d7e90b9641.jpg",
+                "audio": "drm/2/59692/OEBPS/Audio/1/20_Cinderella Rex_p26.mp3"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/f74963c417fb8cf7c3176ab20321ae69.jpg",
+                "audio": "drm/2/59692/OEBPS/Audio/1/21_Cinderella Rex_p27.mp3"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/a2a31323ee241871d9886f3436c43236.jpg",
+                "audio": "drm/2/59692/OEBPS/Audio/1/22_Cinderella Rex_p28.mp3"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/7b997edfc5ca012be8cded0a41edb9cd.jpg",
+                "audio": "drm/2/59692/OEBPS/Audio/1/23_Cinderella Rex_p29.mp3"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/63de5930c94c61d8c5d16e5bc394621b.jpg",
+                "audio": "drm/2/59692/OEBPS/Audio/1/24_Cinderella Rex_p30.mp3"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/a6ca4843393938d2ba6cc44443744fd0.jpg"
+            },
+            {
+                "page": "drm/2/59692/OEBPS/Images/1/737ff7ad8255634fe06506c5bab630f9.jpg",
+                "audio": "drm/2/59692/OEBPS/Audio/1/25_Cinderella Rex_p32.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/2/59692/OEBPS/Images/1/316040019670bad95e60ce45e4c9e84f.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "59692",
+        "id": "59692",
+        "title": "Once Before Time: Cinderella Rex",
+        "author": "Christy Webster",
+        "illustrator": "Holly Hatam",
+        "numPages": 32,
+        "bookDescription": "A retelling of the classic fairytale with dinosaurs, Cinderella Rex attends the royal ball with the help of her Fairy Triceratops.",
+        "coverColorR": 122,
+        "coverColorG": 122,
+        "coverColorB": 149,
+        "version": 858927445,
+        "previewPercent": 20,
+        "publisher": "Epic! Originals",
+        "publisherId": "90378",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 800,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "91",
+        "subjectDesc": "Fairy Tales, Folk Tales & Myths",
+        "subjectColor": "F54444",
+        "copyright": "",
+        "aspectRatio": 0.6667,
+        "contentHash": "184812f8d59d15778e7d",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374884
+    },
+    "userBook": {
+        "modelId": "46250489-59692",
+        "userId": "46250489",
+        "bookId": "59692",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310351,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310351,
+        "book": {
+            "modelId": "59692",
+            "title": "Once Before Time: Cinderella Rex",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "184812f8d59d15778e7d"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "401281",
+            "user_id": "27888441",
+            "book_id": "59692",
+            "title": "Cinderella Rex",
+            "description": "",
+            "date_created": 1556837844,
+            "date_modified": 1556837844,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Who is the main character in the story?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Cinderella Rex",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "stompsister",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "stompmother",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "fairy triceratops",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "Who helped Cinderella Rex go to the ball?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Fairy Triceratops",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "stompsisters",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "stompmother",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "prince",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What did Cinderella Rex love to do?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "dance",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "clean",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "sing",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "stomp",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Which problem occurred at midnight?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Cinderella had to be home",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Stompmother crushed the shoe",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Cinderella couldn't go to the ball because she had to help her stompsisters get ready",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Cinderella Rex didn't have anything to wear to the ball.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Why couldn't Cinderella Rex pick up her shoe?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Her arms were too short",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "She had too many toes",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "The shoe cracked",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "The shoe disappeared",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "At the end of the story, why did Cinderella move to the castle?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "She needed to teach the Prince how to dance",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "The stompmother made her leave the house",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "She had to clean the castle",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "She wanted to live with the fairy triceratops",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 5
+                }
+            ],
+            "modelId": "401281",
+            "creatorName": "Maya M.",
+            "avatarId": "102",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "27888441",
+                "udid": "5b771c33bbd034.16130718",
+                "journalName": "Maya M.",
+                "journalCoverAvatar": "102",
+                "journalCoverColor": "0.97254901960784 0.84313725490196 0.38823529411765 1",
+                "journalFrameImage": "10",
+                "journalCoverImage": "15",
+                "themeId": "2",
+                "code": "168983534",
+                "fid": "",
+                "accountID": "1E8ABD26-2E79-23CB-F3D1-7DC982107095",
+                "simpleAccountId": "4878631",
+                "pagesFlipped": 7972,
+                "nufComplete": 1,
+                "readingAge": 7.9,
+                "startingAge": 8,
+                "status": 0,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 1375,
+                "xpLevel": 26,
+                "dateLastLogin": 1559255929,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "Maya",
+                "lastName": "Medina",
+                "accountType": 1,
+                "dateModified": 1559256226,
+                "grade": 3
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Who is the main character in the story?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Cinderella Rex",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "stompsister",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "stompmother",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "fairy triceratops",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "Who helped Cinderella Rex go to the ball?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Fairy Triceratops",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "stompsisters",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "stompmother",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "prince",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What did Cinderella Rex love to do?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "dance",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "clean",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "sing",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "stomp",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Which problem occurred at midnight?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Cinderella had to be home",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Stompmother crushed the shoe",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Cinderella couldn't go to the ball because she had to help her stompsisters get ready",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Cinderella Rex didn't have anything to wear to the ball.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Why couldn't Cinderella Rex pick up her shoe?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Her arms were too short",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "She had too many toes",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "The shoe cracked",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "The shoe disappeared",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "At the end of the story, why did Cinderella move to the castle?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "She needed to teach the Prince how to dance",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "The stompmother made her leave the house",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "She had to clean the castle",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "She wanted to live with the fairy triceratops",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 5
+            }
+        ]
+    }
+}

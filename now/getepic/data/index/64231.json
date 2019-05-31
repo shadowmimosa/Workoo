@@ -1,0 +1,124 @@
+{
+    "publisherData": {
+        "modelId": "28",
+        "name": "Xist Publishing",
+        "url": "http://www.xistpublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539564197
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/64231/OEBPS/Images/1/b1051701087eba291a1d4cf9ed3ddba3.jpg",
+                "audio": "drm/1/64231/OEBPS/Audio/1/Title.mp3"
+            },
+            {
+                "page": "drm/1/64231/OEBPS/Images/1/ec76201cfb4b8e6f90a5c1724e89736e.jpg",
+                "audio": "drm/1/64231/OEBPS/Audio/1/Page 2.mp3"
+            },
+            {
+                "page": "drm/1/64231/OEBPS/Images/1/255bc57597b104031964c1a3c00a015d.jpg",
+                "audio": "drm/1/64231/OEBPS/Audio/1/Page 3.mp3"
+            },
+            {
+                "page": "drm/1/64231/OEBPS/Images/1/4f91a74f4c364d094de8bd10a18f156d.jpg",
+                "audio": "drm/1/64231/OEBPS/Audio/1/Page 4.mp3"
+            },
+            {
+                "page": "drm/1/64231/OEBPS/Images/1/dac8903f0f8e7727936e8a7742a5b315.jpg",
+                "audio": "drm/1/64231/OEBPS/Audio/1/Page 5.mp3"
+            },
+            {
+                "page": "drm/1/64231/OEBPS/Images/1/51e459358962b846ff89685079357504.jpg",
+                "audio": "drm/1/64231/OEBPS/Audio/1/Page 6.mp3"
+            },
+            {
+                "page": "drm/1/64231/OEBPS/Images/1/d4e8c3945e8be1d0501845b56845e134.jpg",
+                "audio": "drm/1/64231/OEBPS/Audio/1/Page 7.mp3"
+            },
+            {
+                "page": "drm/1/64231/OEBPS/Images/1/186868b5d4fcda86fca848c71d99691a.jpg",
+                "audio": "drm/1/64231/OEBPS/Audio/1/Page 8.mp3"
+            },
+            {
+                "page": "drm/1/64231/OEBPS/Images/1/a826d564679ff1740d6c0f745c010ae3.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/64231/OEBPS/Images/1/00aabcdfb4dde018b878bdff9c351517.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "64231",
+        "id": "64231",
+        "title": "Discover Shapes: Diamond",
+        "author": "Xist Publishing",
+        "illustrator": " ",
+        "numPages": 9,
+        "bookDescription": "Beginning readers identify things that are diamonds in this very simple 12-page reader.",
+        "coverColorR": 234,
+        "coverColorG": 231,
+        "coverColorB": 228,
+        "version": 44006400,
+        "previewPercent": 20,
+        "publisher": "Xist Publishing",
+        "publisherId": "28",
+        "age": 4,
+        "pageNumOffset": -1,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 225,
+        "ar": "1.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "a",
+        "language": 1,
+        "rating": 75,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.6471,
+        "contentHash": "fd57797adad57135b4b0",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1558484112
+    },
+    "userBook": {
+        "modelId": "46250489-64231",
+        "userId": "46250489",
+        "bookId": "64231",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559309849,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559309849,
+        "book": {
+            "modelId": "64231",
+            "title": "Discover Shapes: Diamond",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "fd57797adad57135b4b0"
+        }
+    },
+    "quiz": null
+}

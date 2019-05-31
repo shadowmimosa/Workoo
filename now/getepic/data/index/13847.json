@@ -1,0 +1,459 @@
+{
+    "publisherData": {
+        "modelId": "107",
+        "name": "Rourke Educational Media",
+        "url": "http://rourkeeducationalmedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570193
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/13847/OEBPS/Images/1/90fab114dd276a79565e7496f43f6c0f.jpg",
+                "audio": "drm/7/13847/OEBPS/Audio/1/cf41ed9f3738e0996d4d6bd67bd83e96.mp3"
+            },
+            {
+                "page": "drm/7/13847/OEBPS/Images/1/19f1aa42f347082659db2564cd2cbc96.jpg",
+                "audio": "drm/7/13847/OEBPS/Audio/1/7228ef99c04014e498e4e07e3f587879.mp3"
+            },
+            {
+                "page": "drm/7/13847/OEBPS/Images/1/1e3081966661136dbe9b950664fd85a5.jpg"
+            },
+            {
+                "page": "drm/7/13847/OEBPS/Images/1/74e12e83e132f39f35eddd5f49fad0b0.jpg",
+                "audio": "drm/7/13847/OEBPS/Audio/1/3fab9e8c8a9c85d24f4230dd45552576.mp3"
+            },
+            {
+                "page": "drm/7/13847/OEBPS/Images/1/e8e32e66d685c8e5f4706e4616901e46.jpg"
+            },
+            {
+                "page": "drm/7/13847/OEBPS/Images/1/f85b87d1b2e2ebb0c192342e39e2abfd.jpg",
+                "audio": "drm/7/13847/OEBPS/Audio/1/a38958be89df03ccbce048dac68f04ff.mp3"
+            },
+            {
+                "page": "drm/7/13847/OEBPS/Images/1/c8eba9c77ed97ced66eeeab657a25426.jpg"
+            },
+            {
+                "page": "drm/7/13847/OEBPS/Images/1/32f624695cf8a4353a0de1f6e7a49338.jpg",
+                "audio": "drm/7/13847/OEBPS/Audio/1/6b6c6873160456e4cd94b6ae33d28da1.mp3"
+            },
+            {
+                "page": "drm/7/13847/OEBPS/Images/1/38c0bbe566847cc0ca33d27f8d132362.jpg"
+            },
+            {
+                "page": "drm/7/13847/OEBPS/Images/1/c8323d5b87186c3322848399e8aeeae8.jpg",
+                "audio": "drm/7/13847/OEBPS/Audio/1/2584d7f1439e04e90f6b3896479d7273.mp3"
+            },
+            {
+                "page": "drm/7/13847/OEBPS/Images/1/191c853768b0df3114d856fc704014f2.jpg"
+            },
+            {
+                "page": "drm/7/13847/OEBPS/Images/1/8339330302c9c314d9380ea6c0344b5e.jpg",
+                "audio": "drm/7/13847/OEBPS/Audio/1/74b4d68395657a6ac690e4e52598c3fc.mp3"
+            },
+            {
+                "page": "drm/7/13847/OEBPS/Images/1/6d15ec30b612c3bee98cc3c80bf8aa6a.jpg"
+            },
+            {
+                "page": "drm/7/13847/OEBPS/Images/1/30f0cf59e8a0458734544695025e7b06.jpg",
+                "audio": "drm/7/13847/OEBPS/Audio/1/ff8ac0a8a5ac458e68f7895d2f01fcec.mp3"
+            },
+            {
+                "page": "drm/7/13847/OEBPS/Images/1/9158ceb7226b3a64fd3c4ca119cccdf0.jpg"
+            },
+            {
+                "page": "drm/7/13847/OEBPS/Images/1/8caca7a0527426f9d03bcc187838e755.jpg",
+                "audio": "drm/7/13847/OEBPS/Audio/1/9c8bb82c49cf6107a2255fa69c37f174.mp3"
+            },
+            {
+                "page": "drm/7/13847/OEBPS/Images/1/a65be76ec591d49024503a4324fedc6f.jpg"
+            },
+            {
+                "page": "drm/7/13847/OEBPS/Images/1/dd5a63ea4a4e4c922c65b3eb1025ed6f.jpg",
+                "audio": "drm/7/13847/OEBPS/Audio/1/1fcab4c3dc1481b92586cd3a8c67f1cd.mp3"
+            },
+            {
+                "page": "drm/7/13847/OEBPS/Images/1/b7f8260515237c18b33f30742baf4887.jpg"
+            },
+            {
+                "page": "drm/7/13847/OEBPS/Images/1/75f67c5eae9c0e3dd73c2bc80d6dfe8b.jpg",
+                "audio": "drm/7/13847/OEBPS/Audio/1/47ed2e9c43a0a5b516dfbc63ebb7a060.mp3"
+            },
+            {
+                "page": "drm/7/13847/OEBPS/Images/1/d15463ba8f0a34547b8cd27890c0ec2a.jpg",
+                "audio": "drm/7/13847/OEBPS/Audio/1/c0c65138228d5469beac10d248f57671.mp3"
+            },
+            {
+                "page": "drm/7/13847/OEBPS/Images/1/22c68932e6a239c4355df60610ce0378.jpg"
+            },
+            {
+                "page": "drm/7/13847/OEBPS/Images/1/b17341a700999234e77383e263737229.jpg"
+            },
+            {
+                "page": "drm/7/13847/OEBPS/Images/1/2ab0dafe08e46ceea5bd9a429e60ba43.jpg"
+            },
+            {
+                "page": "drm/7/13847/OEBPS/Images/1/b056f46435c61c434f7ac7e8326dcd17.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/13847/OEBPS/Images/1/17440afc908a7983efc579bcbffffb61.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "13847",
+        "id": "13847",
+        "title": "Get Moving",
+        "author": "Joann Cleland",
+        "illustrator": " ",
+        "numPages": 25,
+        "bookDescription": "Sing along to the tune of Do You Know the Muffin Man and learn how staying active helps you keep your body healthy.",
+        "coverColorR": 138,
+        "coverColorG": 148,
+        "coverColorB": 139,
+        "version": 1,
+        "previewPercent": 20,
+        "publisher": "Rourke Educational Media",
+        "publisherId": "107",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 916,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "2431477724c7613a2942",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1557337699
+    },
+    "userBook": {
+        "modelId": "46250489-13847",
+        "userId": "46250489",
+        "bookId": "13847",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310930,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310930,
+        "book": {
+            "modelId": "13847",
+            "title": "Get Moving",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "2431477724c7613a2942"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "109486",
+            "user_id": "14616532",
+            "book_id": "13847",
+            "title": "Moving",
+            "description": "",
+            "date_created": 1497530253,
+            "date_modified": 1501810291,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "If I lie around all day playing a video and watch TV...",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "I'll be a wimpy me!",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "I'll be happy",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "How will I make my body go?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "I will swim and splash and row",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "I will watch TV",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "How else will I make my body go?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Jump and swing and climb a tree",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Play video games",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What will happen when I go?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "I'll be a healthy me",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "I'll be sad",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Where will I go for fun?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Outside",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "To the movies",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "What will I do outside?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Ride my bike and skip and run",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Eat hot dogs",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 5
+                },
+                {
+                    "title": "I'll get moving all day long, then...",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "I will be strong.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "I will be funny",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 6
+                }
+            ],
+            "modelId": "109486",
+            "creatorName": "Teacher Profile",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "14616532",
+                "udid": "58e7a212b96483.37491216",
+                "journalName": "Mr. Ahearn",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.15686274509804 0.47058823529412 0.60392156862745 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "216951634",
+                "fid": "",
+                "accountID": "7A76A261-A92E-0382-10F8-4B3D5B3492D3",
+                "simpleAccountId": "4761093",
+                "pagesFlipped": 1466,
+                "nufComplete": 1,
+                "readingAge": 6,
+                "startingAge": 0,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 0,
+                "xpLevel": 1,
+                "dateLastLogin": 0,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Theodore",
+                "lastName": "Ahearn",
+                "accountType": 1,
+                "dateModified": 1498578954,
+                "educatorPrefix": "Mr.",
+                "name": "Mr. Ahearn"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "If I lie around all day playing a video and watch TV...",
+                "quizQuestionChoices": [
+                    {
+                        "title": "I'll be a wimpy me!",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "I'll be happy",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "How will I make my body go?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "I will swim and splash and row",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "I will watch TV",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "How else will I make my body go?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Jump and swing and climb a tree",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Play video games",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What will happen when I go?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "I'll be a healthy me",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "I'll be sad",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Where will I go for fun?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Outside",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "To the movies",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "What will I do outside?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Ride my bike and skip and run",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Eat hot dogs",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 5
+            },
+            {
+                "title": "I'll get moving all day long, then...",
+                "quizQuestionChoices": [
+                    {
+                        "title": "I will be strong.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "I will be funny",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 6
+            }
+        ]
+    }
+}

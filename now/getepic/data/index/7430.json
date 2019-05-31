@@ -1,0 +1,176 @@
+{
+    "publisherData": {
+        "modelId": "34",
+        "name": "Picture Window Book A Capstone Imprint",
+        "url": "http://www.capstonepub.com/library/",
+        "checkout": 0,
+        "educationalEnabled": 0,
+        "dateModified": 1411596052
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/7430/OEBPS/Images/1/62ecacf2e65289bd3ba0b9f8e1290add.jpg"
+            },
+            {
+                "page": "drm/0/7430/OEBPS/Images/1/eb340b560f65510e4c1030abc9608726.jpg"
+            },
+            {
+                "page": "drm/0/7430/OEBPS/Images/1/c2aab2cb51ba37b0f9fd0adaa00e9397.jpg"
+            },
+            {
+                "page": "drm/0/7430/OEBPS/Images/1/65c92433f06e0e013eee3e23a08d3492.jpg"
+            },
+            {
+                "page": "drm/0/7430/OEBPS/Images/1/8fab0f79c2031e6e083a0315c2810c95.jpg"
+            },
+            {
+                "page": "drm/0/7430/OEBPS/Images/1/c6d605e0deb8c2ef1efb6eb638dd3262.jpg"
+            },
+            {
+                "page": "drm/0/7430/OEBPS/Images/1/5d7fb410d7fce95eab1e7dccfea31276.jpg"
+            },
+            {
+                "page": "drm/0/7430/OEBPS/Images/1/e67eb97f8364ced41aa10e66b19e06f4.jpg"
+            },
+            {
+                "page": "drm/0/7430/OEBPS/Images/1/4b47428ac4270e48c484efd2244523ee.jpg"
+            },
+            {
+                "page": "drm/0/7430/OEBPS/Images/1/490197e2125bf125a69212f809e82df6.jpg"
+            },
+            {
+                "page": "drm/0/7430/OEBPS/Images/1/30a35d1b62203a9006157c83cc27b223.jpg"
+            },
+            {
+                "page": "drm/0/7430/OEBPS/Images/1/681474d9943d6e0f8764524be2f21f58.jpg"
+            },
+            {
+                "page": "drm/0/7430/OEBPS/Images/1/127d588ca6167f7df0713a5e445f175a.jpg"
+            },
+            {
+                "page": "drm/0/7430/OEBPS/Images/1/cde1ef2efdd729a14a66f98fd62fdcec.jpg"
+            },
+            {
+                "page": "drm/0/7430/OEBPS/Images/1/39f17e76d32b5cade98ad1d778a7fe6c.jpg"
+            },
+            {
+                "page": "drm/0/7430/OEBPS/Images/1/6632d312c43390233ad54818801c9f84.jpg"
+            },
+            {
+                "page": "drm/0/7430/OEBPS/Images/1/858391569d146355529e702708e50095.jpg"
+            },
+            {
+                "page": "drm/0/7430/OEBPS/Images/1/bc52ccfd8c079820979a0cdea01ea2ab.jpg"
+            },
+            {
+                "page": "drm/0/7430/OEBPS/Images/1/8601d60cdf7c559a92388aea95cdfcc4.jpg"
+            },
+            {
+                "page": "drm/0/7430/OEBPS/Images/1/e2b01d7352fc0f0e9af0feb26a06e630.jpg"
+            },
+            {
+                "page": "drm/0/7430/OEBPS/Images/1/9b0758cc1680153518bf7c199618ac3c.jpg"
+            },
+            {
+                "page": "drm/0/7430/OEBPS/Images/1/b0fdbe9a69cf06f79610d71838d766f1.jpg"
+            },
+            {
+                "page": "drm/0/7430/OEBPS/Images/1/0cf0e72fb9e3faf5ef6925a20c89f6ab.jpg"
+            },
+            {
+                "page": "drm/0/7430/OEBPS/Images/1/2237710e56525dd62c395efacc19492f.jpg"
+            },
+            {
+                "page": "drm/0/7430/OEBPS/Images/1/d1501b0e23f945b34fc140e6f3c6df36.jpg"
+            },
+            {
+                "page": "drm/0/7430/OEBPS/Images/1/c23aa695b6810f0aafb15136a06f76dd.jpg"
+            },
+            {
+                "page": "drm/0/7430/OEBPS/Images/1/ef650945c74016742b70c594e9eaf08b.jpg"
+            },
+            {
+                "page": "drm/0/7430/OEBPS/Images/1/f89c6e362ae6b619aa8f5e1e1fa2573f.jpg"
+            },
+            {
+                "page": "drm/0/7430/OEBPS/Images/1/895f8a1efe8f92a14de4489031e96fda.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/7430/OEBPS/Images/1/5350eba53847e79f2426ecb1035ed0d0.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "7430",
+        "id": "7430",
+        "title": "Katie Woo: Boss of the World",
+        "author": "Fran Manushkin ",
+        "illustrator": "Tammie Lyon",
+        "numPages": 29,
+        "bookDescription": "It was supposed to be a fun day at the beach, but Katie Woo is being bossy. Can she stop being bossy and have fun with her friends?",
+        "coverColorR": 129,
+        "coverColorG": 148,
+        "coverColorB": 176,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Picture Window Book A Capstone Imprint",
+        "publisherId": "34",
+        "age": 6,
+        "pageNumOffset": 1,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 531,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 89,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "School",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 0.6628,
+        "contentHash": "c3bce91fc32d253f2da4",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1555372342
+    },
+    "userBook": {
+        "modelId": "46250489-7430",
+        "userId": "46250489",
+        "bookId": "7430",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310321,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310321,
+        "book": {
+            "modelId": "7430",
+            "title": "Katie Woo: Boss of the World",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "c3bce91fc32d253f2da4"
+        }
+    },
+    "quiz": null
+}

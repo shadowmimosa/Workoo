@@ -1,0 +1,204 @@
+{
+    "publisherData": {
+        "modelId": "90175",
+        "name": "Sesame Workshop Books",
+        "url": "http://www.sesameworkshop.org/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1545257836
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/35389/OEBPS/Images/1/A06789EC-BE01-42E0-A8F2-F168C46AF960.jpg",
+                "audio": "drm/9/35389/OEBPS/Audio/1/9781618312167_00-00-01.mp3"
+            },
+            {
+                "page": "drm/9/35389/OEBPS/Images/1/9EF3014C-9411-4C2C-BAA2-7E1333AE96C8.jpg",
+                "audio": "drm/9/35389/OEBPS/Audio/1/9781618312167_00-00-02.mp3"
+            },
+            {
+                "page": "drm/9/35389/OEBPS/Images/1/FDA77ACC-BF50-4151-BD83-E9EED7D7C3C0.jpg",
+                "audio": "drm/9/35389/OEBPS/Audio/1/9781618312167_00-00-03x.mp3"
+            },
+            {
+                "page": "drm/9/35389/OEBPS/Images/1/28212A36-7C1F-448D-A3F9-BC923F1C2E99.jpg",
+                "audio": "drm/9/35389/OEBPS/Audio/1/9781618312167_00-00-05x.mp3"
+            },
+            {
+                "page": "drm/9/35389/OEBPS/Images/1/648FAD7C-9936-4764-9D5E-FF25DE990EC4.jpg",
+                "audio": "drm/9/35389/OEBPS/Audio/1/9781618312167_00-00-13x.mp3"
+            },
+            {
+                "page": "drm/9/35389/OEBPS/Images/1/236A27A2-B524-4C24-83F6-9EDE923DC13A.jpg",
+                "audio": "drm/9/35389/OEBPS/Audio/1/9781618312167_00-00-18x.mp3"
+            },
+            {
+                "page": "drm/9/35389/OEBPS/Images/1/E266316F-9B61-4BA7-BB31-5FE5FAAEA687.jpg",
+                "audio": "drm/9/35389/OEBPS/Audio/1/9781618312167_00-00-23x.mp3"
+            },
+            {
+                "page": "drm/9/35389/OEBPS/Images/1/E3FA6A11-D72E-45B9-9328-FDC51C214059.jpg",
+                "audio": "drm/9/35389/OEBPS/Audio/1/9781618312167_00-00-30x.mp3"
+            },
+            {
+                "page": "drm/9/35389/OEBPS/Images/1/A60BBE13-3297-4917-A151-7B0089C58D56.jpg",
+                "audio": "drm/9/35389/OEBPS/Audio/1/9781618312167_00-00-35x.mp3"
+            },
+            {
+                "page": "drm/9/35389/OEBPS/Images/1/AD778D2E-B422-4D5E-AC8A-DE01EFC3511D.jpg",
+                "audio": "drm/9/35389/OEBPS/Audio/1/9781618312167_00-00-39x.mp3"
+            },
+            {
+                "page": "drm/9/35389/OEBPS/Images/1/4907F6BD-43CB-4A92-8D42-AA8C1FE57D3A.jpg",
+                "audio": "drm/9/35389/OEBPS/Audio/1/9781618312167_00-00-42.mp3"
+            },
+            {
+                "page": "drm/9/35389/OEBPS/Images/1/6D6E6084-CBB3-4118-93C1-59B5036F215C.jpg",
+                "audio": "drm/9/35389/OEBPS/Audio/1/9781618312167_00-00-43x.mp3"
+            },
+            {
+                "page": "drm/9/35389/OEBPS/Images/1/FFEB1514-F688-428C-90AF-ABFA94FF50C7.jpg",
+                "audio": "drm/9/35389/OEBPS/Audio/1/9781618312167_00-00-50x.mp3"
+            },
+            {
+                "page": "drm/9/35389/OEBPS/Images/1/73A6B10B-08F0-4B34-8749-B37845280FDC.jpg",
+                "audio": "drm/9/35389/OEBPS/Audio/1/9781618312167_00-00-55x.mp3"
+            },
+            {
+                "page": "drm/9/35389/OEBPS/Images/1/EF51FB80-9FF8-415C-8F30-33C04B963D26.jpg",
+                "audio": "drm/9/35389/OEBPS/Audio/1/9781618312167_00-00-59x.mp3"
+            },
+            {
+                "page": "drm/9/35389/OEBPS/Images/1/AA586C64-511C-4860-AAF5-8C6177B393B0.jpg",
+                "audio": "drm/9/35389/OEBPS/Audio/1/9781618312167_00-00-62x.mp3"
+            },
+            {
+                "page": "drm/9/35389/OEBPS/Images/1/D92EC162-61F2-4A0E-8854-C77AD9E83FC1.jpg",
+                "audio": "drm/9/35389/OEBPS/Audio/1/9781618312167_00-00-65x.mp3"
+            },
+            {
+                "page": "drm/9/35389/OEBPS/Images/1/871A0305-D798-4861-8B0B-A5C0C3B4CB63.jpg",
+                "audio": "drm/9/35389/OEBPS/Audio/1/9781618312167_00-00-69x.mp3"
+            },
+            {
+                "page": "drm/9/35389/OEBPS/Images/1/191A21F4-E531-4F86-8199-AD3AF0B8A844.jpg",
+                "audio": "drm/9/35389/OEBPS/Audio/1/9781618312167_00-00-73x.mp3"
+            },
+            {
+                "page": "drm/9/35389/OEBPS/Images/1/6ED4AD49-E610-4398-A76B-26578D38F893.jpg",
+                "audio": "drm/9/35389/OEBPS/Audio/1/9781618312167_00-00-77x.mp3"
+            },
+            {
+                "page": "drm/9/35389/OEBPS/Images/1/611E0C0B-45F7-4093-9D75-5553B0025DE4.jpg",
+                "audio": "drm/9/35389/OEBPS/Audio/1/9781618312167_00-00-79x.mp3"
+            },
+            {
+                "page": "drm/9/35389/OEBPS/Images/1/410F76F5-7706-44B8-942B-DFFD6119F88F.jpg",
+                "audio": "drm/9/35389/OEBPS/Audio/1/9781618312167_00-00-85x.mp3"
+            },
+            {
+                "page": "drm/9/35389/OEBPS/Images/1/2E33AE5E-7433-4F1A-9B38-D78EE88F9B2C.jpg",
+                "audio": "drm/9/35389/OEBPS/Audio/1/9781618312167_00-00-89x.mp3"
+            },
+            {
+                "page": "drm/9/35389/OEBPS/Images/1/A65101F5-84B4-4FE1-9468-A9261B0D42EA.jpg",
+                "audio": "drm/9/35389/OEBPS/Audio/1/9781618312167_00-00-91x.mp3"
+            },
+            {
+                "page": "drm/9/35389/OEBPS/Images/1/1BF61A7B-407F-4F7A-AB15-BC94DF2DC6AE.jpg",
+                "audio": "drm/9/35389/OEBPS/Audio/1/9781618312167_00-00-93x.mp3"
+            },
+            {
+                "page": "drm/9/35389/OEBPS/Images/1/AB4F6D61-ABFF-4506-938E-A0BD74F41ED1.jpg",
+                "audio": "drm/9/35389/OEBPS/Audio/1/9781618312167_00-00-103x.mp3"
+            },
+            {
+                "page": "drm/9/35389/OEBPS/Images/1/B3016066-8F0A-4E11-851E-9BB76F7CADDF.jpg",
+                "audio": "drm/9/35389/OEBPS/Audio/1/9781618312167_00-00-107x.mp3"
+            },
+            {
+                "page": "drm/9/35389/OEBPS/Images/1/1C64131D-8774-4C84-802A-7FE339C47C2C.jpg",
+                "audio": "drm/9/35389/OEBPS/Audio/1/9781618312167_00-00-108.mp3"
+            },
+            {
+                "page": "drm/9/35389/OEBPS/Images/1/FDD9819A-3F20-4F95-A7D5-B70B98855702.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/35389/OEBPS/Images/1/A234EC03-86C0-4EAB-A2A6-F401CF94F8F0.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "35389",
+        "id": "35389",
+        "title": "How to Be a Grouch (by Oscar the Grouch)",
+        "author": "Caroll E. Spinney",
+        "illustrator": " ",
+        "numPages": 29,
+        "bookDescription": "Oscar the Grouch shares all of his grouchy secrets on being a grouch!",
+        "coverColorR": 154,
+        "coverColorG": 152,
+        "coverColorB": 98,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Sesame Workshop Books",
+        "publisherId": "90175",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 435,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Funny",
+        "subjectColor": "FFD673",
+        "copyright": "",
+        "aspectRatio": 0,
+        "contentHash": "d84d5bb9105c6378ee02",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1522696552
+    },
+    "userBook": {
+        "modelId": "46250489-35389",
+        "userId": "46250489",
+        "bookId": "35389",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311117,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311117,
+        "book": {
+            "modelId": "35389",
+            "title": "How to Be a Grouch (by Oscar the Grouch)",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "d84d5bb9105c6378ee02"
+        }
+    },
+    "quiz": null
+}

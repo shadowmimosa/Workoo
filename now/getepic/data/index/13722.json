@@ -1,0 +1,176 @@
+{
+    "publisherData": {
+        "modelId": "107",
+        "name": "Rourke Educational Media",
+        "url": "http://rourkeeducationalmedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570193
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/2/13722/OEBPS/Images/1/6c39d1614d311a9ec22e3ee21b6a141b.jpg",
+                "audio": "drm/2/13722/OEBPS/Audio/1/3f789f186cc46451eaba9147292c0f42.mp3"
+            },
+            {
+                "page": "drm/2/13722/OEBPS/Images/1/741e4f2ef8cb72112efaf1c1fe32cc33.jpg",
+                "audio": "drm/2/13722/OEBPS/Audio/1/5e4b56245f433005fdbd17061f0edea4.mp3"
+            },
+            {
+                "page": "drm/2/13722/OEBPS/Images/1/6cc8253e52f34b7a8b62dcf7ed890617.jpg"
+            },
+            {
+                "page": "drm/2/13722/OEBPS/Images/1/8369994613234fdd523a1f201ed1dbc6.jpg",
+                "audio": "drm/2/13722/OEBPS/Audio/1/aaf95ab19a6362e57b6a59cb8e4e57dd.mp3"
+            },
+            {
+                "page": "drm/2/13722/OEBPS/Images/1/d77cd4389f8b9a7a6de8bdda80df92b0.jpg"
+            },
+            {
+                "page": "drm/2/13722/OEBPS/Images/1/ce8bb516b7debed04437735563e12b2c.jpg",
+                "audio": "drm/2/13722/OEBPS/Audio/1/ebec81bec429ba7fe9c7f90d20c6a26e.mp3"
+            },
+            {
+                "page": "drm/2/13722/OEBPS/Images/1/875501408775b353a9a4b66900f30e24.jpg"
+            },
+            {
+                "page": "drm/2/13722/OEBPS/Images/1/799eed65c5929f0e05881b52ef135ad6.jpg",
+                "audio": "drm/2/13722/OEBPS/Audio/1/0ae3042d909cb4a6858777babf692cd8.mp3"
+            },
+            {
+                "page": "drm/2/13722/OEBPS/Images/1/bd6fbd7f8fbe8c48e361aea9ac8bdf0f.jpg"
+            },
+            {
+                "page": "drm/2/13722/OEBPS/Images/1/214a607a64ef48309c65f84f913ccf42.jpg",
+                "audio": "drm/2/13722/OEBPS/Audio/1/bcea4184ecf4ce15e4457907f78e2ed5.mp3"
+            },
+            {
+                "page": "drm/2/13722/OEBPS/Images/1/b36280df02197980142a450efd471cb7.jpg"
+            },
+            {
+                "page": "drm/2/13722/OEBPS/Images/1/14424c24a604d883cd00f58d3f026fe9.jpg",
+                "audio": "drm/2/13722/OEBPS/Audio/1/01685f87cfb5dd13ddb76be4473c2914.mp3"
+            },
+            {
+                "page": "drm/2/13722/OEBPS/Images/1/eeef1fedbbfa13955e0210ccb51b6734.jpg"
+            },
+            {
+                "page": "drm/2/13722/OEBPS/Images/1/8e7d409c2425ebd5d77c045dec128c08.jpg",
+                "audio": "drm/2/13722/OEBPS/Audio/1/08fe3164ef3d37e3aa8df9fa65603ee9.mp3"
+            },
+            {
+                "page": "drm/2/13722/OEBPS/Images/1/3dbc1abcd6ac350b1ca562b7ca50ed74.jpg"
+            },
+            {
+                "page": "drm/2/13722/OEBPS/Images/1/00bdf9d0d4a22edc6e6f5b3c492812c0.jpg",
+                "audio": "drm/2/13722/OEBPS/Audio/1/974c2e4a0a9835312b87923f0937feda.mp3"
+            },
+            {
+                "page": "drm/2/13722/OEBPS/Images/1/e175f0c42ecfdd4b270fc995a018d7a9.jpg"
+            },
+            {
+                "page": "drm/2/13722/OEBPS/Images/1/fd3c82d61681a6ed8228aeee104910ce.jpg",
+                "audio": "drm/2/13722/OEBPS/Audio/1/a8f670482f4fe4bbdd6322d9db94b3c0.mp3"
+            },
+            {
+                "page": "drm/2/13722/OEBPS/Images/1/175348c8473618db225deccaa215575d.jpg"
+            },
+            {
+                "page": "drm/2/13722/OEBPS/Images/1/a6f8ea6e5864daa1199d8e82dcf6f47a.jpg",
+                "audio": "drm/2/13722/OEBPS/Audio/1/30d1dabaaeff198b33ece9937d482c3f.mp3"
+            },
+            {
+                "page": "drm/2/13722/OEBPS/Images/1/1f7ced1295e2c42ce4d453466c4d4fa9.jpg"
+            },
+            {
+                "page": "drm/2/13722/OEBPS/Images/1/d1bfae5248e3bdb96ebb6452e64ad1d5.jpg",
+                "audio": "drm/2/13722/OEBPS/Audio/1/39cce1b52c8e2b3088f8e2e1b75ff573.mp3"
+            },
+            {
+                "page": "drm/2/13722/OEBPS/Images/1/939dd8e14918d051ef756da46b4d3c47.jpg"
+            },
+            {
+                "page": "drm/2/13722/OEBPS/Images/1/0c8b54c1cb4fc9cad6938d370e4e603a.jpg"
+            },
+            {
+                "page": "drm/2/13722/OEBPS/Images/1/6581b7b1b808210d7b967d63d60ede82.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/2/13722/OEBPS/Images/1/d2188301533b2dfe3ab881d559e40a11.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "13722",
+        "id": "13722",
+        "title": "Who Do I Look Like? A Book about Animal Babies",
+        "author": "Julie Lundgren",
+        "illustrator": " ",
+        "numPages": 25,
+        "bookDescription": "Learn how some offspring look similar to their parents while others do not.",
+        "coverColorR": 190,
+        "coverColorG": 174,
+        "coverColorB": 121,
+        "version": 1,
+        "previewPercent": 20,
+        "publisher": "Rourke Educational Media",
+        "publisherId": "107",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "170L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 833,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pets",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "43cb8c60b32d17ab8c9f",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1557336114
+    },
+    "userBook": {
+        "modelId": "46250489-13722",
+        "userId": "46250489",
+        "bookId": "13722",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559309938,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559309938,
+        "book": {
+            "modelId": "13722",
+            "title": "Who Do I Look Like? A Book about Animal Babies",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "43cb8c60b32d17ab8c9f"
+        }
+    },
+    "quiz": null
+}

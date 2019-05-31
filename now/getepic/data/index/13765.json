@@ -1,0 +1,552 @@
+{
+    "publisherData": {
+        "modelId": "107",
+        "name": "Rourke Educational Media",
+        "url": "http://rourkeeducationalmedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570193
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/13765/OEBPS/Images/1/8b94236d3a7f3f62e5d55b3c9f0934b5.jpg",
+                "audio": "drm/5/13765/OEBPS/Audio/1/a0aa1741d6d25a048d51f3839703e193.mp3"
+            },
+            {
+                "page": "drm/5/13765/OEBPS/Images/1/950c24fd43af8403ee6f8af70f7d100d.jpg"
+            },
+            {
+                "page": "drm/5/13765/OEBPS/Images/1/8e81bfb4c0f627c7a07121edf27a246e.jpg",
+                "audio": "drm/5/13765/OEBPS/Audio/1/9753cd569f30599ba724b0eeb510e306.mp3"
+            },
+            {
+                "page": "drm/5/13765/OEBPS/Images/1/76e2af45264a2a7d3c0b480c4aec84dc.jpg",
+                "audio": "drm/5/13765/OEBPS/Audio/1/acfbb328967eab36717979acf6fca783.mp3"
+            },
+            {
+                "page": "drm/5/13765/OEBPS/Images/1/5ddd0bec52094ac5ca67d5c951128b8f.jpg"
+            },
+            {
+                "page": "drm/5/13765/OEBPS/Images/1/9f73defb4e77151e09801d7bf937d987.jpg",
+                "audio": "drm/5/13765/OEBPS/Audio/1/af157a623d979f263a1f2b0d7c441cae.mp3"
+            },
+            {
+                "page": "drm/5/13765/OEBPS/Images/1/a719cac88b8494ffa02450efffe22b0c.jpg"
+            },
+            {
+                "page": "drm/5/13765/OEBPS/Images/1/225b570456a0bd1f327b2ffd8c224542.jpg",
+                "audio": "drm/5/13765/OEBPS/Audio/1/cbf34060498bd645fb9e22c6e1a2cc1d.mp3"
+            },
+            {
+                "page": "drm/5/13765/OEBPS/Images/1/d5123b92f08227d97ec553bac922e967.jpg"
+            },
+            {
+                "page": "drm/5/13765/OEBPS/Images/1/11d60dd4d8ff2f00bec68ae380b3c674.jpg",
+                "audio": "drm/5/13765/OEBPS/Audio/1/e3768f95989068e61b14c3c18dcd6c20.mp3"
+            },
+            {
+                "page": "drm/5/13765/OEBPS/Images/1/7192746825d3b9ee9c0614413b14a728.jpg"
+            },
+            {
+                "page": "drm/5/13765/OEBPS/Images/1/220de237b425bed14bf6c0b5096322b8.jpg",
+                "audio": "drm/5/13765/OEBPS/Audio/1/e2ab6f90385aab010c5ad596c6dc6820.mp3"
+            },
+            {
+                "page": "drm/5/13765/OEBPS/Images/1/587aa52f38817f8271a9532ba66ab51f.jpg"
+            },
+            {
+                "page": "drm/5/13765/OEBPS/Images/1/44b03c8b2aa59dbce7399d8bd8e2af4a.jpg",
+                "audio": "drm/5/13765/OEBPS/Audio/1/c5e146b76bef39d8aab5f8c23daeb43d.mp3"
+            },
+            {
+                "page": "drm/5/13765/OEBPS/Images/1/4bdbb32b17ff0fc32de8d7cd19c7a184.jpg"
+            },
+            {
+                "page": "drm/5/13765/OEBPS/Images/1/6e6ab56fa5dba61abcc291b23b81b61a.jpg",
+                "audio": "drm/5/13765/OEBPS/Audio/1/9ff05a8a046b59caba4829e371fa4cd1.mp3"
+            },
+            {
+                "page": "drm/5/13765/OEBPS/Images/1/e6135dfbae161423d6ab56f0c71cfcd4.jpg"
+            },
+            {
+                "page": "drm/5/13765/OEBPS/Images/1/dff2b55c8233b6fc3b04006dfe843ddc.jpg",
+                "audio": "drm/5/13765/OEBPS/Audio/1/74cb1f54c2af13d028b8f7e5e54fde81.mp3"
+            },
+            {
+                "page": "drm/5/13765/OEBPS/Images/1/af8b4188756d33d4cb518fd3e87c7fce.jpg"
+            },
+            {
+                "page": "drm/5/13765/OEBPS/Images/1/dad1b83d1a6382f8848652f399b9bcfe.jpg",
+                "audio": "drm/5/13765/OEBPS/Audio/1/9e42c3a8f9820c161dbf29d109e4b80e.mp3"
+            },
+            {
+                "page": "drm/5/13765/OEBPS/Images/1/449fd6c032d578193a12ce8beee9796c.jpg"
+            },
+            {
+                "page": "drm/5/13765/OEBPS/Images/1/76ab8aaf3eb9ce6a53f84c9ae0ce1ec8.jpg",
+                "audio": "drm/5/13765/OEBPS/Audio/1/54556c6602b2817aab6e2cba16c35c0e.mp3"
+            },
+            {
+                "page": "drm/5/13765/OEBPS/Images/1/175cf3ebefdf86d87aa86220b36c7bc7.jpg"
+            },
+            {
+                "page": "drm/5/13765/OEBPS/Images/1/931a64dba2c49d3e3db1c26fb2070f32.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/13765/OEBPS/Images/1/58dd31fabcfeea50272646218664ba6b.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "13765",
+        "id": "13765",
+        "title": "Even or Odd?",
+        "author": "Joanne Mattern",
+        "illustrator": " ",
+        "numPages": 24,
+        "bookDescription": "Discover the difference between odd and even.",
+        "coverColorR": 200,
+        "coverColorG": 176,
+        "coverColorB": 95,
+        "version": 1,
+        "previewPercent": 20,
+        "publisher": "Rourke Educational Media",
+        "publisherId": "107",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 880,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "12b3098c461b0473e8c6",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372690
+    },
+    "userBook": {
+        "modelId": "46250489-13765",
+        "userId": "46250489",
+        "bookId": "13765",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310756,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310756,
+        "book": {
+            "modelId": "13765",
+            "title": "Even or Odd?",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "12b3098c461b0473e8c6"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "167319",
+            "user_id": "1388901",
+            "book_id": "13765",
+            "title": "Is ten an odd or even number?",
+            "description": "",
+            "date_created": 1517168375,
+            "date_modified": 1519958103,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Can 7 be grouped by twos?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "No",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Yes",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "Is 7 and odd or even number?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "odd",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "even",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Can 10 be grouped by twos?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "yes",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "no",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Is 10 and odd or even number?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "even",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "odd",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Is 4 an odd or even number?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "even",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "odd",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "Is 8 an odd or even number?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "even",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "odd",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 5
+                },
+                {
+                    "title": "Is 13 an odd or even number?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "odd",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "even",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 6
+                },
+                {
+                    "title": "Can 6 be grouped by twos?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "yes",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "no",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 7
+                },
+                {
+                    "title": "Is 6 an odd or even number?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "even",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "odd",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 8
+                },
+                {
+                    "title": "Is 17 an odd or even number\"",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "odd",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "even",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 9
+                }
+            ],
+            "modelId": "167319",
+            "creatorName": "Ms. Clark",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "1388901",
+                "udid": "55e1a2a1df38b6.12621314",
+                "journalName": "Ms. Clark",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.61176470588235 0.36078431372549 0.70588235294118 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "78881649",
+                "fid": "",
+                "accountID": "15E2C5ED-8C49-6B2E-956F-F4C11B7AC8FF",
+                "simpleAccountId": "723524",
+                "pagesFlipped": 665,
+                "nufComplete": 1,
+                "readingAge": 6,
+                "startingAge": 6,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 335,
+                "xpLevel": 5,
+                "dateLastLogin": 1550250362,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Clinetta",
+                "lastName": "Clark",
+                "accountType": 1,
+                "dateModified": 1559241750,
+                "educatorPrefix": "Ms.",
+                "name": "Ms. Clark"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Can 7 be grouped by twos?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "No",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Yes",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "Is 7 and odd or even number?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "odd",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "even",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Can 10 be grouped by twos?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "yes",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "no",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Is 10 and odd or even number?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "even",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "odd",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Is 4 an odd or even number?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "even",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "odd",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "Is 8 an odd or even number?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "even",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "odd",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 5
+            },
+            {
+                "title": "Is 13 an odd or even number?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "odd",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "even",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 6
+            },
+            {
+                "title": "Can 6 be grouped by twos?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "yes",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "no",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 7
+            },
+            {
+                "title": "Is 6 an odd or even number?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "even",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "odd",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 8
+            },
+            {
+                "title": "Is 17 an odd or even number\"",
+                "quizQuestionChoices": [
+                    {
+                        "title": "odd",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "even",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 9
+            }
+        ]
+    }
+}

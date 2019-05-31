@@ -1,0 +1,149 @@
+{
+    "publisherData": {
+        "modelId": "28",
+        "name": "Xist Publishing",
+        "url": "http://www.xistpublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539564197
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/64385/OEBPS/Images/1/b3d10056d47fb7396f19bb4b9612a6f8.jpg",
+                "audio": "drm/5/64385/OEBPS/Audio/1/Title.mp3"
+            },
+            {
+                "page": "drm/5/64385/OEBPS/Images/1/ed2a73cfbe2551aa2914fd509634627d.jpg",
+                "audio": "drm/5/64385/OEBPS/Audio/1/Page 4.mp3"
+            },
+            {
+                "page": "drm/5/64385/OEBPS/Images/1/b2d1e3c1c10a89c5c427e47c85150a4c.jpg",
+                "audio": "drm/5/64385/OEBPS/Audio/1/Page 5.mp3"
+            },
+            {
+                "page": "drm/5/64385/OEBPS/Images/1/f13df8b2ebc0e8581b27752ebf7394ea.jpg"
+            },
+            {
+                "page": "drm/5/64385/OEBPS/Images/1/463ea1d3b799158ea00983d3f006d035.jpg",
+                "audio": "drm/5/64385/OEBPS/Audio/1/Page 7.mp3"
+            },
+            {
+                "page": "drm/5/64385/OEBPS/Images/1/0c4c7b85cffd1bd9a529bf55015f00ab.jpg"
+            },
+            {
+                "page": "drm/5/64385/OEBPS/Images/1/c1c8145dbf1171a66dec3f5e7f0fcc0b.jpg",
+                "audio": "drm/5/64385/OEBPS/Audio/1/Page 9.mp3"
+            },
+            {
+                "page": "drm/5/64385/OEBPS/Images/1/af0dd1c09a53969886cb187d67842c84.jpg"
+            },
+            {
+                "page": "drm/5/64385/OEBPS/Images/1/dd29d4d0c93135a237db3deb061607d3.jpg",
+                "audio": "drm/5/64385/OEBPS/Audio/1/Page 11.mp3"
+            },
+            {
+                "page": "drm/5/64385/OEBPS/Images/1/cab97bc7e3d72bf385192e22d41bfa93.jpg"
+            },
+            {
+                "page": "drm/5/64385/OEBPS/Images/1/e746be42f257636fe4f2b12fc7249e5c.jpg",
+                "audio": "drm/5/64385/OEBPS/Audio/1/Page 13.mp3"
+            },
+            {
+                "page": "drm/5/64385/OEBPS/Images/1/17b5bc1f580513aad3deae4430598de0.jpg"
+            },
+            {
+                "page": "drm/5/64385/OEBPS/Images/1/29a9d8deb6d4a54af828cd8a4da76f04.jpg",
+                "audio": "drm/5/64385/OEBPS/Audio/1/Page 15.mp3"
+            },
+            {
+                "page": "drm/5/64385/OEBPS/Images/1/e55a53f5401294f6d354dc7a039eb87b.jpg"
+            },
+            {
+                "page": "drm/5/64385/OEBPS/Images/1/b69538422da91ed58b81c85fc52e3320.jpg",
+                "audio": "drm/5/64385/OEBPS/Audio/1/Page 17.mp3"
+            },
+            {
+                "page": "drm/5/64385/OEBPS/Images/1/7af28060a6e75c08a957dc5ffed5e265.jpg"
+            },
+            {
+                "page": "drm/5/64385/OEBPS/Images/1/582c3f47aed9264bf0fc5ae6cd27d715.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/64385/OEBPS/Images/1/bf5ae8ae80cdff039575419faa192674.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "64385",
+        "id": "64385",
+        "title": "Discover Colors: I See Orange",
+        "author": "Xist Publishing",
+        "illustrator": " ",
+        "numPages": 17,
+        "bookDescription": "Beginning readers identify things that are the color orange in this very simple 20-page reader.",
+        "coverColorR": 237,
+        "coverColorG": 234,
+        "coverColorB": 212,
+        "version": 497870695,
+        "previewPercent": 20,
+        "publisher": "Xist Publishing",
+        "publisherId": "28",
+        "age": 4,
+        "pageNumOffset": 1,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 425,
+        "ar": "1.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "b",
+        "language": 1,
+        "rating": 75,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.6471,
+        "contentHash": "568e4daf01105f2b2f17",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1558397086
+    },
+    "userBook": {
+        "modelId": "46250489-64385",
+        "userId": "46250489",
+        "bookId": "64385",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559309880,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559309880,
+        "book": {
+            "modelId": "64385",
+            "title": "Discover Colors: I See Orange",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "568e4daf01105f2b2f17"
+        }
+    },
+    "quiz": null
+}

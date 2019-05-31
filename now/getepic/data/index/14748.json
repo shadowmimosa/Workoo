@@ -1,0 +1,176 @@
+{
+    "publisherData": {
+        "modelId": "7",
+        "name": "Blue Apple Books",
+        "url": "http://www.blueapplebooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491011372
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/14748/OEBPS/Images/1/7660d265bf333da2e2f37a4e7c86b40c.jpg"
+            },
+            {
+                "page": "drm/8/14748/OEBPS/Images/1/8116a23b184dc70520aa1ed228589c4f.jpg"
+            },
+            {
+                "page": "drm/8/14748/OEBPS/Images/1/08d70cf54b30b2e7848b60fe52e7bc05.jpg"
+            },
+            {
+                "page": "drm/8/14748/OEBPS/Images/1/fff5e6e538e9f76d9af8f935095ccb9d.jpg"
+            },
+            {
+                "page": "drm/8/14748/OEBPS/Images/1/70506f67491033bd5600b28dae7a9360.jpg"
+            },
+            {
+                "page": "drm/8/14748/OEBPS/Images/1/ff9452b9a57b6558a9f222abca637f70.jpg"
+            },
+            {
+                "page": "drm/8/14748/OEBPS/Images/1/10e90acafff4548ef77c80282928bc7e.jpg"
+            },
+            {
+                "page": "drm/8/14748/OEBPS/Images/1/8cc0d8c042c0597239880898a9355799.jpg"
+            },
+            {
+                "page": "drm/8/14748/OEBPS/Images/1/45d951bf9f769bb2a3e01f42f0b9ce29.jpg"
+            },
+            {
+                "page": "drm/8/14748/OEBPS/Images/1/92d26e0ed6c6f2ff6da38b943243be4d.jpg"
+            },
+            {
+                "page": "drm/8/14748/OEBPS/Images/1/54441cdaa4c144a73a72a78ad0ee3292.jpg"
+            },
+            {
+                "page": "drm/8/14748/OEBPS/Images/1/201da7e32a1096e48cb83b67eb9d9be9.jpg"
+            },
+            {
+                "page": "drm/8/14748/OEBPS/Images/1/40fbda6d19d3921756c2d1ee017e2354.jpg"
+            },
+            {
+                "page": "drm/8/14748/OEBPS/Images/1/578064ec3f958f2682084431919ffccc.jpg"
+            },
+            {
+                "page": "drm/8/14748/OEBPS/Images/1/86a9afbe9b0045d9b8b8bc862ee432f4.jpg"
+            },
+            {
+                "page": "drm/8/14748/OEBPS/Images/1/60a06b6026b059a0b8be545fd1fea246.jpg"
+            },
+            {
+                "page": "drm/8/14748/OEBPS/Images/1/a0027b6e61c057e9849eb98e1568210c.jpg"
+            },
+            {
+                "page": "drm/8/14748/OEBPS/Images/1/48e1f7f7a9d202c5adb345f8a7a0df9f.jpg"
+            },
+            {
+                "page": "drm/8/14748/OEBPS/Images/1/18ec3c7fe7bb64b0ab2d54cdf587ebe4.jpg"
+            },
+            {
+                "page": "drm/8/14748/OEBPS/Images/1/4aae07d4f6b768d8cbd22f7215badfee.jpg"
+            },
+            {
+                "page": "drm/8/14748/OEBPS/Images/1/b079779f1468045b715d44e8bc9cd2e3.jpg"
+            },
+            {
+                "page": "drm/8/14748/OEBPS/Images/1/666aed2881eb2dcb8df062847cd319d7.jpg"
+            },
+            {
+                "page": "drm/8/14748/OEBPS/Images/1/a4344e551463e35df5b648b1c6d5b322.jpg"
+            },
+            {
+                "page": "drm/8/14748/OEBPS/Images/1/5ebdeb385fd2a96e4fe0807e10ea0191.jpg"
+            },
+            {
+                "page": "drm/8/14748/OEBPS/Images/1/7da23dedf9b96fccc917a43448966b43.jpg"
+            },
+            {
+                "page": "drm/8/14748/OEBPS/Images/1/c6ac204b8c8f7551e69af1f1db1b8eda.jpg"
+            },
+            {
+                "page": "drm/8/14748/OEBPS/Images/1/632b5772fb3e794898c8b7ffea321bf7.jpg"
+            },
+            {
+                "page": "drm/8/14748/OEBPS/Images/1/403ffb35cfb5cd528c4e7e55cc8ce3d8.jpg"
+            },
+            {
+                "page": "drm/8/14748/OEBPS/Images/1/c28a7f3146a0d482900420e7057e3b94.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/14748/OEBPS/Images/1/6e7e717ab84a01f0f3f2f1c6cb0c915f.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "14748",
+        "id": "14748",
+        "title": "Belches, Burps, and Farts-Oh My!",
+        "author": "Artie Bennett",
+        "illustrator": "Pranas T. Naujokaitis",
+        "numPages": 29,
+        "bookDescription": "Kids will learn the how, why, and where of gas-tastic eruptions made by people and animals",
+        "coverColorR": 124,
+        "coverColorG": 119,
+        "coverColorB": 94,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Blue Apple Books",
+        "publisherId": "7",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "NC860L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 531,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.2941,
+        "contentHash": "a34b34873d025ad812db",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "0",
+        "panelStatus": 0,
+        "date_modified": 1513043569
+    },
+    "userBook": {
+        "modelId": "46250489-14748",
+        "userId": "46250489",
+        "bookId": "14748",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310994,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310994,
+        "book": {
+            "modelId": "14748",
+            "title": "Belches, Burps, and Farts-Oh My!",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "a34b34873d025ad812db"
+        }
+    },
+    "quiz": null
+}

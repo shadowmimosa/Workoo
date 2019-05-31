@@ -1,0 +1,155 @@
+{
+    "publisherData": {
+        "modelId": "90320",
+        "name": "PowerKids Press an imprint of The Rosen Publishing Group, Inc",
+        "url": "https://rosenpublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1525128888
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/54351/OEBPS/Images/1/29e452f1aa4f3b4457bca1da3b054d8a.jpg"
+            },
+            {
+                "page": "drm/1/54351/OEBPS/Images/1/f606c3152e8551067a66c50915dbfcb4.jpg"
+            },
+            {
+                "page": "drm/1/54351/OEBPS/Images/1/f0277efd13710dac84a7a9566192ac0d.jpg"
+            },
+            {
+                "page": "drm/1/54351/OEBPS/Images/1/acc5c9ba24de088f7a08deef39a17acf.jpg"
+            },
+            {
+                "page": "drm/1/54351/OEBPS/Images/1/df1aba42e40b7701add54d892a69fdc5.jpg"
+            },
+            {
+                "page": "drm/1/54351/OEBPS/Images/1/b771fd1685645354e8d1932d358d09d7.jpg"
+            },
+            {
+                "page": "drm/1/54351/OEBPS/Images/1/30f9d14e42169220886d7e8a6be8e535.jpg"
+            },
+            {
+                "page": "drm/1/54351/OEBPS/Images/1/fd33574d1dc32d8381d1ca5dacb87c55.jpg"
+            },
+            {
+                "page": "drm/1/54351/OEBPS/Images/1/5f45b1b31ba993319789c3b5ffbc2d09.jpg"
+            },
+            {
+                "page": "drm/1/54351/OEBPS/Images/1/37859eb7489f3d6d4d409580037089c5.jpg"
+            },
+            {
+                "page": "drm/1/54351/OEBPS/Images/1/abb8138fad5735f6c9f212aaa361bf63.jpg"
+            },
+            {
+                "page": "drm/1/54351/OEBPS/Images/1/07e68de8d4b7e2e9d8f507d6c9ba0f96.jpg"
+            },
+            {
+                "page": "drm/1/54351/OEBPS/Images/1/1abbcf501dc952ee3b54863a6eff3da8.jpg"
+            },
+            {
+                "page": "drm/1/54351/OEBPS/Images/1/1ac0befafd5d193770434f2d36980ab1.jpg"
+            },
+            {
+                "page": "drm/1/54351/OEBPS/Images/1/1aad37c636cd75aa145ac56d08e8b3c2.jpg"
+            },
+            {
+                "page": "drm/1/54351/OEBPS/Images/1/8faeb19113e6b9be931e7209d169f829.jpg"
+            },
+            {
+                "page": "drm/1/54351/OEBPS/Images/1/a2472f91f23d63365ad4913cfd39dfed.jpg"
+            },
+            {
+                "page": "drm/1/54351/OEBPS/Images/1/79203f1af4566f12e3f91de58b9d135c.jpg"
+            },
+            {
+                "page": "drm/1/54351/OEBPS/Images/1/44971ae6399b67de92f03bd3a2eda759.jpg"
+            },
+            {
+                "page": "drm/1/54351/OEBPS/Images/1/cef6438d40717d47b69ced47b0f4389d.jpg"
+            },
+            {
+                "page": "drm/1/54351/OEBPS/Images/1/9490be561af56656b862b643641a1ae9.jpg"
+            },
+            {
+                "page": "drm/1/54351/OEBPS/Images/1/a6eb27d7c7c567de3678ccaf8d2074bf.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/54351/OEBPS/Images/1/436d1c3341b5623eb656569f407cfcff.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "54351",
+        "id": "54351",
+        "title": "Pets Are Fun",
+        "author": "Chris George",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "This book explores types of animals that a young child might like to adopt as well as the behaviors to be expected from the animals.",
+        "coverColorR": 156,
+        "coverColorG": 170,
+        "coverColorB": 98,
+        "version": 858927445,
+        "previewPercent": 20,
+        "publisher": "PowerKids Press an imprint of The Rosen Publishing Group, Inc",
+        "publisherId": "90320",
+        "age": 5,
+        "pageNumOffset": 1,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 733,
+        "ar": "-",
+        "fandp": "c",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "ABCs & 123s",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.7093,
+        "contentHash": "6bbb6ee6f3168e234b78",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374560
+    },
+    "userBook": {
+        "modelId": "46250489-54351",
+        "userId": "46250489",
+        "bookId": "54351",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311610,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311610,
+        "book": {
+            "modelId": "54351",
+            "title": "Pets Are Fun",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "6bbb6ee6f3168e234b78"
+        }
+    },
+    "quiz": null
+}

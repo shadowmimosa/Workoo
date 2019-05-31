@@ -1,0 +1,155 @@
+{
+    "publisherData": {
+        "modelId": "90063",
+        "name": "Smart Apple Media",
+        "url": "http://www.blackrabbitbooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1542149196
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/30297/OEBPS/Images/1/BFCFFAAD-AA53-483B-AC40-4A35A9D12127.jpg"
+            },
+            {
+                "page": "drm/7/30297/OEBPS/Images/1/8FA7FE7A-C004-4B4C-B63E-6CBCB538814F.jpg"
+            },
+            {
+                "page": "drm/7/30297/OEBPS/Images/1/974752B5-1836-462A-B2E6-0A09CAB0C954.jpg"
+            },
+            {
+                "page": "drm/7/30297/OEBPS/Images/1/42098ED4-2207-4253-B334-DBF52FE2B586.jpg"
+            },
+            {
+                "page": "drm/7/30297/OEBPS/Images/1/E784AE26-34E6-486F-925D-E9ECD8D0302B.jpg"
+            },
+            {
+                "page": "drm/7/30297/OEBPS/Images/1/63A967F6-F56B-4035-B8CA-39C1DC987CF1.jpg"
+            },
+            {
+                "page": "drm/7/30297/OEBPS/Images/1/9A8D6788-94DA-46A9-8F4D-2B629D7E67D5.jpg"
+            },
+            {
+                "page": "drm/7/30297/OEBPS/Images/1/DAEC3168-0357-48F6-BD40-8FE2F3B5AC86.jpg"
+            },
+            {
+                "page": "drm/7/30297/OEBPS/Images/1/90DF1306-5587-4282-9DBB-B30AD2E8A5A2.jpg"
+            },
+            {
+                "page": "drm/7/30297/OEBPS/Images/1/CC0CE2D0-9242-4FEE-B100-A6045BC697B0.jpg"
+            },
+            {
+                "page": "drm/7/30297/OEBPS/Images/1/45DD7C2F-3CF6-4713-BE9A-23B0F53ECFBC.jpg"
+            },
+            {
+                "page": "drm/7/30297/OEBPS/Images/1/3A12A638-08EA-4C12-8EDB-6C3CB782890E.jpg"
+            },
+            {
+                "page": "drm/7/30297/OEBPS/Images/1/2675BA6F-6A38-4F44-BF54-5192972C063E.jpg"
+            },
+            {
+                "page": "drm/7/30297/OEBPS/Images/1/6DB07F89-120C-4303-B860-6CC7A3C190AC.jpg"
+            },
+            {
+                "page": "drm/7/30297/OEBPS/Images/1/6AB1E24C-4EFC-4D62-ADC4-6DE1A2CDBCD3.jpg"
+            },
+            {
+                "page": "drm/7/30297/OEBPS/Images/1/1BBAC21A-1357-41EA-998C-15B8DA55B696.jpg"
+            },
+            {
+                "page": "drm/7/30297/OEBPS/Images/1/24DEF336-10BB-453E-AC80-F740191D82FC.jpg"
+            },
+            {
+                "page": "drm/7/30297/OEBPS/Images/1/F98E8782-5FDA-4499-A161-F877B6F0FF6A.jpg"
+            },
+            {
+                "page": "drm/7/30297/OEBPS/Images/1/985A912F-CE03-4564-BF91-6B53AD8FFC7B.jpg"
+            },
+            {
+                "page": "drm/7/30297/OEBPS/Images/1/F77D40F8-AD1E-4B52-B759-56484D6A080C.jpg"
+            },
+            {
+                "page": "drm/7/30297/OEBPS/Images/1/2212D0A2-4880-4800-B143-F3B0FD42AA35.jpg"
+            },
+            {
+                "page": "drm/7/30297/OEBPS/Images/1/00C06B06-8B2A-4957-9468-D0F69C161139.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/30297/OEBPS/Images/1/33FA84AB-25E8-449E-8A59-EDB0FE55372E.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "30297",
+        "id": "30297",
+        "title": "Rescue Vehicles",
+        "author": "David West",
+        "illustrator": " ",
+        "numPages": 21,
+        "bookDescription": "From police cruisers to coastguard helicopters, learn about the various types of vehicles help make rescue efforts possible",
+        "coverColorR": 195,
+        "coverColorG": 173,
+        "coverColorB": 178,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Smart Apple Media",
+        "publisherId": "90063",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "510L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 770,
+        "ar": "5.1",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Things That GO",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "d03e2897de645a1da8b9",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1555373207
+    },
+    "userBook": {
+        "modelId": "46250489-30297",
+        "userId": "46250489",
+        "bookId": "30297",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311970,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311970,
+        "book": {
+            "modelId": "30297",
+            "title": "Rescue Vehicles",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "d03e2897de645a1da8b9"
+        }
+    },
+    "quiz": null
+}

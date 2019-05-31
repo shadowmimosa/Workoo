@@ -1,0 +1,164 @@
+{
+    "publisherData": {
+        "modelId": "82",
+        "name": "Holiday House",
+        "url": "http://www.holidayhouse.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260666
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/3/47453/OEBPS/Images/1/48b5b6b95ad75457430571f14a3a6712.jpg"
+            },
+            {
+                "page": "drm/3/47453/OEBPS/Images/1/8f1db889b04c69d3b2a2f2926df51573.jpg"
+            },
+            {
+                "page": "drm/3/47453/OEBPS/Images/1/66099806db8c493007c34cbe2d7bba72.jpg"
+            },
+            {
+                "page": "drm/3/47453/OEBPS/Images/1/a0e81b98306c7f50096159a05d8e9d9b.jpg"
+            },
+            {
+                "page": "drm/3/47453/OEBPS/Images/1/3eeb78a80a79e46a749586ca31197410.jpg"
+            },
+            {
+                "page": "drm/3/47453/OEBPS/Images/1/194da78e3c1b69b1e9008d5a5fa09de5.jpg"
+            },
+            {
+                "page": "drm/3/47453/OEBPS/Images/1/8136a12fd4a8f43390f8df406bc06a2c.jpg"
+            },
+            {
+                "page": "drm/3/47453/OEBPS/Images/1/2a6a4e6503e054c3879f26146c08577d.jpg"
+            },
+            {
+                "page": "drm/3/47453/OEBPS/Images/1/609ab4464e493a0cdc7dae012d7c7bb3.jpg"
+            },
+            {
+                "page": "drm/3/47453/OEBPS/Images/1/edd8d810541b3437a34c76b10538d592.jpg"
+            },
+            {
+                "page": "drm/3/47453/OEBPS/Images/1/98233b71d15edd8b3301824c2ad9b03a.jpg"
+            },
+            {
+                "page": "drm/3/47453/OEBPS/Images/1/8472c2337786ce9ba0e578ce1c460230.jpg"
+            },
+            {
+                "page": "drm/3/47453/OEBPS/Images/1/17f8addc8d8d79048765653e9f5c8118.jpg"
+            },
+            {
+                "page": "drm/3/47453/OEBPS/Images/1/3d7d9dd35b0bab05f27ac2f2f1c521c1.jpg"
+            },
+            {
+                "page": "drm/3/47453/OEBPS/Images/1/75131ae5023bf102c3ed5966661f5ba2.jpg"
+            },
+            {
+                "page": "drm/3/47453/OEBPS/Images/1/24420f0c7b5d0714a2c49d3d8dc76c04.jpg"
+            },
+            {
+                "page": "drm/3/47453/OEBPS/Images/1/20ffe0714fb5a1446124589e9cfcd559.jpg"
+            },
+            {
+                "page": "drm/3/47453/OEBPS/Images/1/a97c6793342cd9373b41d35e63f1caad.jpg"
+            },
+            {
+                "page": "drm/3/47453/OEBPS/Images/1/1b00e1bfc0b182d5b01537b3afd84836.jpg"
+            },
+            {
+                "page": "drm/3/47453/OEBPS/Images/1/3683ea4c1db4e9c9f7c9a7312bb509de.jpg"
+            },
+            {
+                "page": "drm/3/47453/OEBPS/Images/1/2d49d9488c01fcfd6982705618eacd4d.jpg"
+            },
+            {
+                "page": "drm/3/47453/OEBPS/Images/1/c8fe7ef1b4547ca2fae7705a1b9761d4.jpg"
+            },
+            {
+                "page": "drm/3/47453/OEBPS/Images/1/f1a35bd402fdd3da175eeac5f1e4fa79.jpg"
+            },
+            {
+                "page": "drm/3/47453/OEBPS/Images/1/f2a8cdf341650ba7227e0b69a71773fa.jpg"
+            },
+            {
+                "page": "drm/3/47453/OEBPS/Images/1/41c926c0cd27f280e7388e579b11b1ff.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/3/47453/OEBPS/Images/1/2a129b67161401c7efacf1adf0b8dfab.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "47453",
+        "id": "47453",
+        "title": "I Hug",
+        "author": "David McPhail",
+        "illustrator": " ",
+        "numPages": 25,
+        "bookDescription": "In a rare Guided Reading Level A reader, David McPhail reminds the littlest readers about all the huggable things we encounter every day.",
+        "coverColorR": 236,
+        "coverColorG": 215,
+        "coverColorB": 120,
+        "version": 0,
+        "previewPercent": 10,
+        "publisher": "Holiday House",
+        "publisherId": "82",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "BR10L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 416,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Daily Life",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 0.775,
+        "contentHash": "83a344af6a24561a009c",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "2",
+        "panelStatus": 0,
+        "date_modified": 1555374089
+    },
+    "userBook": {
+        "modelId": "46250489-47453",
+        "userId": "46250489",
+        "bookId": "47453",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311123,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311123,
+        "book": {
+            "modelId": "47453",
+            "title": "I Hug",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "83a344af6a24561a009c"
+        }
+    },
+    "quiz": null
+}

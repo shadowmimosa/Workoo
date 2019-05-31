@@ -1,0 +1,188 @@
+{
+    "publisherData": {
+        "modelId": "82",
+        "name": "Holiday House",
+        "url": "http://www.holidayhouse.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260666
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/52B19F36-857A-41BC-BB72-66418E127E92.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/127F3436-0F82-4B01-BED4-9444D6A99DA2.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/61FE22E9-9E42-4606-85D3-D8A296507FC5.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/39E086BF-BBBF-47FE-BB27-06C94D04BE59.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/59792F4C-6C2A-42F5-BC4F-EEB05814930B.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/16B44311-9E9C-4CAD-9419-523159AEA558.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/BEF34244-28F7-4D32-8C7F-813074C7EAD6.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/7190A068-A0EA-41FE-8FB5-35A978B72551.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/339D9349-A04F-4F63-A3F8-6E23CBFCF2DD.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/A727833F-F8E0-43FE-8B32-FC82FDB1F3CC.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/65A9F5B8-B5B6-4921-98A3-322E3B8412A3.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/D6DDF7E0-CF0B-436A-A12A-C7FAD02CBFEA.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/5D7CEE84-40A6-4CC2-8040-850C8B6E96B3.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/823A7B4B-3E26-4E7F-BE72-B5D20D8D4134.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/2B7A73F7-B3E5-4504-B022-846A92C60297.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/9E334D8F-916B-4895-99B7-4664D373F9C0.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/E83E9D69-1C2D-4D39-AC0B-2ABD3E1E52B1.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/99FC0C05-931F-457C-99EC-FFFF8A5AFC13.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/83A626BA-6341-4BBF-9DEA-2DE05CC3C3CE.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/75EB6D19-BB4F-47FF-8B24-ECBB97F6193F.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/D476A0EE-FF0C-45A5-ACC9-D922ABEA83CD.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/5C86D5A2-86CB-4D59-A48D-154138838985.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/C3AB3E0D-EAFA-4087-A2A0-0508F9DE3F4C.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/FD4DC183-EC03-4BD9-9FAD-1AAFFE574BDF.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/62E77B41-25A4-4F43-A309-4EA9C88A9DE0.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/B137F9F1-6953-426A-8DB9-01E0DA3C1D00.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/8B82287D-AD2F-4FBC-BC42-8177CAAA5826.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/35473C46-1913-4CC8-A110-633B9529248F.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/7BF76669-A8DE-49EB-8730-12A60C4ABEBF.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/6E7B02C8-CC83-4EDB-A976-3BA8D0FFB067.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/07364D78-A766-4AA4-88DB-E845558A1070.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/0F431D01-4C2C-4053-AA97-05A4A5DDEC73.jpg"
+            },
+            {
+                "page": "drm/1/41421/OEBPS/Images/1/9FF5EE97-5052-458C-9CD8-7759797332F2.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/41421/OEBPS/Images/1/38838132-7993-47DB-AB7F-826718B4C7DB.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "41421",
+        "id": "41421",
+        "title": "Dirty Gert",
+        "author": "Tedd Arnold",
+        "illustrator": " ",
+        "numPages": 33,
+        "bookDescription": "Little Gert loves to play in the dirt so much that she turns into a tree.",
+        "coverColorR": 153,
+        "coverColorG": 149,
+        "coverColorB": 129,
+        "version": 0,
+        "previewPercent": 10,
+        "publisher": "Holiday House",
+        "publisherId": "82",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 550,
+        "ar": "2.3",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Humorous Stories",
+        "subjectColor": "FFD673",
+        "copyright": "",
+        "aspectRatio": 1.0964,
+        "contentHash": "96e68247e9477e1f0434",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1513382446
+    },
+    "userBook": {
+        "modelId": "46250489-41421",
+        "userId": "46250489",
+        "bookId": "41421",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311739,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311739,
+        "book": {
+            "modelId": "41421",
+            "title": "Dirty Gert",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "96e68247e9477e1f0434"
+        }
+    },
+    "quiz": null
+}

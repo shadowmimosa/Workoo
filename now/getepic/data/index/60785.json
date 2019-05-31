@@ -1,0 +1,179 @@
+{
+    "publisherData": {
+        "modelId": "90401",
+        "name": "Pajama Press",
+        "url": "https://pajamapress.ca/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1551294450
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/818c41fe5e085c7721e27f58de4d6349.jpg"
+            },
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/34dd68c5dd1537e82c3ff394509a5d9c.jpg"
+            },
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/433bc1799cea728254dd82b1aa98f55a.jpg"
+            },
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/433f9f7468f51d31996c9513beef125b.jpg"
+            },
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/53b16f9c2ddf2f34f75b6bc9e423b8b9.jpg"
+            },
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/b4ca889e51b0422c8541bbb40d9c3cc4.jpg"
+            },
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/f3144e0ba490ffc06636bc739494907c.jpg"
+            },
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/476ec829570555c98cbcd0d7ec5d6002.jpg"
+            },
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/ac8be12c6afafc2fe0abd8ded263b667.jpg"
+            },
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/7b46e78b06610537a6aab3df0bd3eed8.jpg"
+            },
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/4212cb74b983eac6d910f5d84ee67461.jpg"
+            },
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/d67600f00932099573e950d6d10b9b0f.jpg"
+            },
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/a8de74ba141b9b0cefe4a7aca0bb848e.jpg"
+            },
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/31becacc986518d722ec023b7e5a2107.jpg"
+            },
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/694c2d99b181363a41e50f5f12b05d6e.jpg"
+            },
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/619755fefd0c1dbf7f4de0cdc72f6082.jpg"
+            },
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/c4be6a0830bc55c08dd14d7528a47174.jpg"
+            },
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/dada862251d78a38e68eedd9a9542832.jpg"
+            },
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/6fe850834bdc971b3b2cc0972f01471a.jpg"
+            },
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/4c8c08eed2c0fcca4a68fcddaae3c025.jpg"
+            },
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/dbd92659fee8117c0519b4b11f40e6b6.jpg"
+            },
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/636093b5d060272695e3f8dc37493ba4.jpg"
+            },
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/b6242bc56b61a859d3c5b034692be705.jpg"
+            },
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/fab71e6d2cc479e8b52fd9e2d288d146.jpg"
+            },
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/8d3245ee68e0ea77ae4c3cb3e6823d98.jpg"
+            },
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/bc22082d26a8757ab9e5f2c0d08f2aa1.jpg"
+            },
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/a35357c7e9d5b4b20bd6a149e620a3aa.jpg"
+            },
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/6bae6d0acb86917cec04338186d100ba.jpg"
+            },
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/08797a0a6454098def4c4b424122e3bd.jpg"
+            },
+            {
+                "page": "drm/5/60785/OEBPS/Images/1/3a58cd29bd4528cf7ca0b45fc5822ce0.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/60785/OEBPS/Images/1/1c1d0a4bf3c637fd3be6274d46313ff3.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "60785",
+        "id": "60785",
+        "title": "Sun Dog",
+        "author": "Deborah Kerbel",
+        "illustrator": "Suzanne Del Rizzo",
+        "numPages": 30,
+        "bookDescription": "One day Juno will be big enough to help pull a sled across the tundra, but for now she is just a small puppy with a big-dog heart.",
+        "coverColorR": 147,
+        "coverColorG": 171,
+        "coverColorB": 150,
+        "version": 46124352,
+        "previewPercent": 20,
+        "publisher": "Pajama Press",
+        "publisherId": "90401",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "AD590L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 500,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 85,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Dogs",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.95,
+        "contentHash": "31cc833daa3e643d33a4",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1551492979
+    },
+    "userBook": {
+        "modelId": "46250489-60785",
+        "userId": "46250489",
+        "bookId": "60785",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559304716,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559304716,
+        "book": {
+            "modelId": "60785",
+            "title": "Sun Dog",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "31cc833daa3e643d33a4"
+        }
+    },
+    "quiz": null
+}

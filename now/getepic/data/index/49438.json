@@ -1,0 +1,209 @@
+{
+    "publisherData": {
+        "modelId": "90312",
+        "name": "Houghton Mifflin Harcourt",
+        "url": "https://www.hmhco.com/",
+        "checkout": 0,
+        "educationalEnabled": 0,
+        "dateModified": 1523564869
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/33010ea194fa4ac370d8e0bf45d34f53.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/4dde6f3a19b190b7f559d9e22070e02a.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/03bd7d9de723d1385fdfe2563e6f7140.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/47826548b3d06434e8c0e368e5f3a966.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/4aa4c2b0fd5767a558822aa9af6760dc.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/c4819e95bdebb06afaf764479636af69.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/5f1afbb40bbe1fa1a756588c48431ad8.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/98d855dcd9b6e92e784de67b97800aae.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/3be29287d727ac56b62727a39f8e23a0.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/b099fb07e0e0c354cd4689e7a001450a.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/8a8d16116455c1d408675e61fe59dcc0.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/93eeda594d311288b3c8fdee89f880dd.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/6c1d324306ba35a9f084424026145f2a.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/13522bc47a06e49beebe7fa991ed2515.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/9b593c55426011b9ad470a67bba5e9b1.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/ede8ff78caf0d3117115e6121130ffbd.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/1d07449326bfd1afa2166ea3876ae6f3.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/b117995fef0cf0aff1d4d9ee6901b745.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/6a005a9ec406ad76f5033f340bcb7c78.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/c16abfb1d45868b79f130cf6d07a3e68.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/a909638bf7894557ebde9afec8755a19.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/adf7bb1b9d5edc2c48dd959cd3cf2b35.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/f012cc7237c49f07156a44b62ec52bf6.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/585a5696467385950dde5517d63cb0b9.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/516b9aaea0ad0449a72dadd7eb952c06.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/d3e592067e31bafaadc7e4ed7f156310.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/1328b22ebcf3d831e0be15a9b7053efc.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/e8169a4ff2c194e65027b96f4bab4a2f.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/df90cba5f20c96d2596b16cdcf2c02c2.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/f631bceed58c79cf2e8db1f63676a4de.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/1294fb8b432d3961108f513ceb75abd4.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/10c3de2a53ebe3111512c71b672fb6ac.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/0d963e77cdf4024d085f122a378534ad.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/ab2b6f6701115cb2d9d86f273fe4d1b1.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/c20314a4dbc6dcdbb0406596cf2fa2c6.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/eeb26d909a58747e49a6b08d7ef49883.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/48b57749ac256fd36fe2e3b26348fae8.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/ae79a3208846813716e714623ce6ea50.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/6252e64b78438520e53aff7d37021a34.jpg"
+            },
+            {
+                "page": "drm/8/49438/OEBPS/Images/1/f18e55a7c09eeb49300bd01d84088531.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/49438/OEBPS/Images/1/2db5ac8ed676cb3761d1fb06960e795e.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "49438",
+        "id": "49438",
+        "title": "Flotsam",
+        "author": "David Wiesner",
+        "illustrator": " ",
+        "numPages": 40,
+        "bookDescription": "A bright, science-minded boy goes to the beach equipped to collect and examine flotsam--anything floating that has been washed ashore.",
+        "coverColorR": 214,
+        "coverColorG": 130,
+        "coverColorB": 87,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Houghton Mifflin Harcourt",
+        "publisherId": "90312",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 666,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 75,
+        "type": 1,
+        "subject": "86",
+        "subjectDesc": "Exploration",
+        "subjectColor": "59E6FF",
+        "copyright": "",
+        "aspectRatio": 1.2222,
+        "contentHash": "6a596048be441971bc40",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "3",
+        "panelStatus": 0,
+        "date_modified": 1528337878
+    },
+    "userBook": {
+        "modelId": "46250489-49438",
+        "userId": "46250489",
+        "bookId": "49438",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310354,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310354,
+        "book": {
+            "modelId": "49438",
+            "title": "Flotsam",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "6a596048be441971bc40"
+        }
+    },
+    "quiz": null
+}

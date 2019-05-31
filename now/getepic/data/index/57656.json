@@ -1,0 +1,185 @@
+{
+    "publisherData": {
+        "modelId": "84",
+        "name": "Charlesbridge",
+        "url": "http://www.charlesbridge.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491011648
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/5af0d28db00666f17cf3725c070cde14.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/5802e756b4070186ed2b489ef30db072.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/72f3aa8581daa48b386962336ac38dee.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/e3bb066d6a6b46d8d71c1a1741871481.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/f19945749bbf03829265e81a5d41e141.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/45539e29177ef68c0b55c564c0a86fdf.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/5184a7474ad4accd4b9ae938d3bc00f6.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/6ac6dc7878a55223b9333abdb6191d51.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/1a5cd784be4ce6eb1f78e56f91f9e183.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/9050ffdf81a9b6e07f55e612abd579d2.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/46c36426f9072a1003ae815321fefd8e.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/25379a87613b095cfb8ead689c5495a2.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/27f02d25a597c033d7c8d31bedf60f90.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/5c16a66cf28c47e038c8192c802679c0.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/97d32d59a41871f4a40c16e1ec5b94c1.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/2ccbb4ae753f9d394944c4ac0b67e4ee.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/82deb2b393f99e7dc6aa7d921137317f.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/98303f2a4e8bbc9a7b32cf043f41ca28.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/e5e7b1fabcbc252789c495c08d712560.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/618152d609bffc9220966ac1fd4d2bf8.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/3830619e9c7aa77079f1264d8f6f4323.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/def0a46b9afff7c00654a32f384ae24f.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/7322ae14ee2ff7ce3ba88b2657df2350.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/dc8a21f2793bf940ca680ace0c087291.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/a4548f0003202b09bc77c9c4e8ef9fdb.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/2cb28d24d1b32d335c48f7a21ebf02f8.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/73dddeedeabcce689cdd7257c662f5ba.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/656a144ed4c1c67c5f0b170071181100.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/7975c75cb6c1999cafdae79d3a32fe02.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/a11050c3d76a41dbda2c62ff2073ad9f.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/35f8843a1ba1f4e7368900b4a74b5dff.jpg"
+            },
+            {
+                "page": "drm/6/57656/OEBPS/Images/1/2f83d505f61f55babf18bc5adc699f75.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/6/57656/OEBPS/Images/1/c482f1cc2a224c4ed962429c05f43d9e.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "57656",
+        "id": "57656",
+        "title": "Five Flying Penguins",
+        "author": "Barbara Barbieri McGrath",
+        "illustrator": "Stephanie Fizer Coleman",
+        "numPages": 32,
+        "bookDescription": "Five little penguins are content in the cold--until they spot a menacing mammal!",
+        "coverColorR": 89,
+        "coverColorG": 167,
+        "coverColorB": 176,
+        "version": 2147483647,
+        "previewPercent": 20,
+        "publisher": "Charlesbridge",
+        "publisherId": "84",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "AD300L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 533,
+        "ar": "-",
+        "fandp": "f",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "ABCs & 123s",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.9985,
+        "contentHash": "1aa11c33cd91b06e3949",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1551485716
+    },
+    "userBook": {
+        "modelId": "46250489-57656",
+        "userId": "46250489",
+        "bookId": "57656",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310326,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310326,
+        "book": {
+            "modelId": "57656",
+            "title": "Five Flying Penguins",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "1aa11c33cd91b06e3949"
+        }
+    },
+    "quiz": null
+}

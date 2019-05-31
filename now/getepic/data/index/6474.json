@@ -1,0 +1,205 @@
+{
+    "publisherData": {
+        "modelId": "28",
+        "name": "Xist Publishing",
+        "url": "http://www.xistpublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539564197
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/9323e5f4c878e1d1a45c59c3a90d53a6.jpg",
+                "audio": "drm/4/6474/OEBPS/Audio/1/a087f0977cd9f94f9d8356946e8c348e.mp3"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/9d7aa1d607e058dc6332ed840890d447.jpg",
+                "audio": "drm/4/6474/OEBPS/Audio/1/057c4c5f08bc57d6a4c2bf8528e59992.mp3"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/2022ce0f86b1fae7c47a2371f6d0af7a.jpg"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/844705334923fb36b6fb95b7842374cb.jpg",
+                "audio": "drm/4/6474/OEBPS/Audio/1/6525d0b38a86230f52d4dafa3100b160.mp3"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/2d1e50a9b83c5f42818f694018ff810b.jpg"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/b3d673dc9b312755acb8f8d0a8253b0c.jpg",
+                "audio": "drm/4/6474/OEBPS/Audio/1/706cb8be0fa016b123938fdb4eb77f95.mp3"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/b23645a3be33e25ea37ce0cfcefac8b8.jpg"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/8dcfcac6b7e4d09def37e3293d42f27d.jpg",
+                "audio": "drm/4/6474/OEBPS/Audio/1/6553a9adc567d4b04933fbb82f229a31.mp3"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/aa57e533ff2e97222a3831169b4a73b1.jpg"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/46ff3c9e04a2a2bd02b8193ce8f2d46b.jpg",
+                "audio": "drm/4/6474/OEBPS/Audio/1/9bf7cb9424cdc7a78efa9738edb693af.mp3"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/0917d6d4550b0f6e247ee84ca22512a9.jpg"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/997d3bed5cec3738d5f90b68537423d0.jpg",
+                "audio": "drm/4/6474/OEBPS/Audio/1/db029ca2a24a4d9d519c425c917b5c3d.mp3"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/1e946d6ef7476d5978d71ff1facbe79f.jpg"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/b9ca20f4c8f662aff4ce175c4ed6f76d.jpg",
+                "audio": "drm/4/6474/OEBPS/Audio/1/6a2ce85bcc13b71ff43333e067e13bc3.mp3"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/50aacc649dbf7158e394b1140759cd60.jpg"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/27d4ebd2fb3cbf595129efd77d55b072.jpg",
+                "audio": "drm/4/6474/OEBPS/Audio/1/905ceb206dd4e755b9644bb9abe59bbf.mp3"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/caf0674696655efd9875b7d8905c4f37.jpg"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/4ab52f6c177067a5b4dd5df2f084518b.jpg",
+                "audio": "drm/4/6474/OEBPS/Audio/1/8dacb39dd27e93b1c47ba839ba3911cc.mp3"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/fd1cd18079805b05724a1c20860eeb42.jpg"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/b0f7b4c419cb4cf358be08a1297784dc.jpg",
+                "audio": "drm/4/6474/OEBPS/Audio/1/8b089e63715076b17c38663dbfdc9e15.mp3"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/1ec21aca0110919a64a7fd2ae2d4cd7f.jpg"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/4ad28dfd76ba734858b3aeb01b981666.jpg",
+                "audio": "drm/4/6474/OEBPS/Audio/1/56578fe1232e38dad441847fa99a371c.mp3"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/a7d5da5a7b7eb4a481d6cd0c4ebba57f.jpg"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/5b37b3febc3a39ddb275c419bdd64a6f.jpg",
+                "audio": "drm/4/6474/OEBPS/Audio/1/686fcb3c7039c1b1ef68acd1bc709edc.mp3"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/da9a77f6212c389c02492f899f663963.jpg"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/bfed3672e4d455f1684176ed0739b274.jpg",
+                "audio": "drm/4/6474/OEBPS/Audio/1/e606ffe693703d42ba31ca9d95dd651e.mp3"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/f9a2001970985682141aaf0cee97945a.jpg"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/4245f3fb3d8f06d49381c9d2253dc4ba.jpg",
+                "audio": "drm/4/6474/OEBPS/Audio/1/84298e3c332fafd7ed5244a040ada9d8.mp3"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/68b53f3aa83f55d7fd8367d3d4eedebd.jpg"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/7243992921a0c81b51b719a5c5f57361.jpg",
+                "audio": "drm/4/6474/OEBPS/Audio/1/bf54c360da29db4e7e5c4f7dd28800e1.mp3"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/8c507e6fccf63246db78b69b5a2108a8.jpg"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/268b28912f3e5ac68823c1c5f1405ec4.jpg",
+                "audio": "drm/4/6474/OEBPS/Audio/1/6ca5c96bc3c0d8b289418b8b582883c9.mp3"
+            },
+            {
+                "page": "drm/4/6474/OEBPS/Images/1/5f445a6fb3407b232862e63d58aebac7.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/6474/OEBPS/Images/1/f9f7f516c3476ba0b06e854f922ecf83.jpg",
+            "color": "#45301b"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "6474",
+        "id": "6474",
+        "title": "I Love You!",
+        "author": "Calee M. Lee",
+        "illustrator": "Tricia Tharp",
+        "numPages": 33,
+        "bookDescription": "Celebrating the love between a parent and a child, this rhyming book features a host of animals and the things they love about each other.",
+        "coverColorR": 166,
+        "coverColorG": 172,
+        "coverColorB": 145,
+        "version": 2,
+        "previewPercent": 20,
+        "publisher": "Xist Publishing",
+        "publisherId": "28",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 550,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Family",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 0.8565,
+        "contentHash": "aa05006cd4c08bbc611b",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1516240454
+    },
+    "userBook": {
+        "modelId": "46250489-6474",
+        "userId": "46250489",
+        "bookId": "6474",
+        "currentPageIndex": 18,
+        "farthestPageIndex": 18,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 54,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1558689847,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 12,
+        "dateModified": 1558689860,
+        "book": {
+            "modelId": "6474",
+            "title": "I Love You!",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "aa05006cd4c08bbc611b"
+        }
+    },
+    "quiz": null
+}

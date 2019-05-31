@@ -1,0 +1,163 @@
+{
+    "publisherData": {
+        "modelId": "90307",
+        "name": "Bullfrog Books an imprint of JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1518734116
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/59401/OEBPS/Images/1/37a9036156bb45184a7557b69c550bc2.jpg",
+                "audio": "drm/1/59401/OEBPS/Audio/1/9781641282123_01.mp3"
+            },
+            {
+                "page": "drm/1/59401/OEBPS/Images/1/0e7c59f8bc633dcbc1ed09048a4d4446.jpg",
+                "audio": "drm/1/59401/OEBPS/Audio/1/9781641282123_02.mp3"
+            },
+            {
+                "page": "drm/1/59401/OEBPS/Images/1/456769a88ae1f22ca1f1067df8f25da5.jpg"
+            },
+            {
+                "page": "drm/1/59401/OEBPS/Images/1/cfd7e830f519445457fc052018645bc8.jpg",
+                "audio": "drm/1/59401/OEBPS/Audio/1/9781641282123_03.mp3"
+            },
+            {
+                "page": "drm/1/59401/OEBPS/Images/1/aec129276ba9d1f4c50e6cf625474918.jpg"
+            },
+            {
+                "page": "drm/1/59401/OEBPS/Images/1/2a1fcca25f604018fe1fe6d51ebe9216.jpg"
+            },
+            {
+                "page": "drm/1/59401/OEBPS/Images/1/c8d2943ba820130331c6785dc0657cfc.jpg",
+                "audio": "drm/1/59401/OEBPS/Audio/1/9781641282123_04.mp3"
+            },
+            {
+                "page": "drm/1/59401/OEBPS/Images/1/3ba3e71f0e577a664e23ee7f78cc387d.jpg",
+                "audio": "drm/1/59401/OEBPS/Audio/1/9781641282123_05.mp3"
+            },
+            {
+                "page": "drm/1/59401/OEBPS/Images/1/c0724d3b183b9589bc72093b3315fb1a.jpg"
+            },
+            {
+                "page": "drm/1/59401/OEBPS/Images/1/3168798972dcd47a79ee343a90c86ae5.jpg",
+                "audio": "drm/1/59401/OEBPS/Audio/1/9781641282123_06.mp3"
+            },
+            {
+                "page": "drm/1/59401/OEBPS/Images/1/976bb1f6efb515fd908544c6a6c5223c.jpg"
+            },
+            {
+                "page": "drm/1/59401/OEBPS/Images/1/c2f5de5b2f3211d33d40dfc592457d29.jpg",
+                "audio": "drm/1/59401/OEBPS/Audio/1/9781641282123_07.mp3"
+            },
+            {
+                "page": "drm/1/59401/OEBPS/Images/1/587c31b1fcbf29f060a544439d019855.jpg"
+            },
+            {
+                "page": "drm/1/59401/OEBPS/Images/1/d54efefd18aed0c600780c4630fe2b2f.jpg",
+                "audio": "drm/1/59401/OEBPS/Audio/1/9781641282123_08.mp3"
+            },
+            {
+                "page": "drm/1/59401/OEBPS/Images/1/f67bd3eeae11dbfb0f1a615299d8e61f.jpg"
+            },
+            {
+                "page": "drm/1/59401/OEBPS/Images/1/48297dbef1ca62c8054300a27544767e.jpg",
+                "audio": "drm/1/59401/OEBPS/Audio/1/9781641282123_09.mp3"
+            },
+            {
+                "page": "drm/1/59401/OEBPS/Images/1/6e8db3ae12b9ee7ca4b4da892734e5a6.jpg"
+            },
+            {
+                "page": "drm/1/59401/OEBPS/Images/1/9483b515f64845746b3a326597da6af3.jpg"
+            },
+            {
+                "page": "drm/1/59401/OEBPS/Images/1/e296994a0e3740247c21ee8ad3d15530.jpg",
+                "audio": "drm/1/59401/OEBPS/Audio/1/9781641282123_10.mp3"
+            },
+            {
+                "page": "drm/1/59401/OEBPS/Images/1/5a1ad79241e530b4bc642ea3e9cf7e8e.jpg"
+            },
+            {
+                "page": "drm/1/59401/OEBPS/Images/1/28ff597bbd566fb81c0b643b52894451.jpg",
+                "audio": "drm/1/59401/OEBPS/Audio/1/9781641282123_11.mp3"
+            }
+        ],
+        "extra": {
+            "color": "#fffefe",
+            "copyright": ""
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "59401",
+        "id": "59401",
+        "title": "Serena Williams",
+        "author": "Kaitlyn Duling",
+        "illustrator": " ",
+        "numPages": 21,
+        "bookDescription": "In this book, early readers will learn about the life, accomplishments, and contributions of tennis player Serena Williams.",
+        "coverColorR": 178,
+        "coverColorG": 178,
+        "coverColorB": 165,
+        "version": 11960800,
+        "previewPercent": 20,
+        "publisher": "Bullfrog Books an imprint of JUMP",
+        "publisherId": "90307",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "440L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 770,
+        "ar": "1.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "g",
+        "language": 1,
+        "rating": 85,
+        "type": 1,
+        "subject": "85",
+        "subjectDesc": "People",
+        "subjectColor": "E63463",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "b6e9d9fff41ab8d0b7d3",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1559073153
+    },
+    "userBook": {
+        "modelId": "46250489-59401",
+        "userId": "46250489",
+        "bookId": "59401",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310378,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310378,
+        "book": {
+            "modelId": "59401",
+            "title": "Serena Williams",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "b6e9d9fff41ab8d0b7d3"
+        }
+    },
+    "quiz": null
+}

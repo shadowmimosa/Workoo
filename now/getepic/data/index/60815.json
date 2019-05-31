@@ -1,0 +1,501 @@
+{
+    "publisherData": {
+        "modelId": "90185",
+        "name": "Candlewick.",
+        "url": "http://www.candlewick.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1552002937
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/8f6172383e925c93c195a2aa81af606f.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/9ce4b2eaa3e472d0402d8b6abbdaa4cf.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/988c0ba44a887a0678291264214284be.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/265b8071aab8bd26b381765beb663b70.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/1a1e811fe39bc730d39a0c5ee0ebd37c.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/bd915b8557000911132ea09b49c446c9.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/a59d2333c129cc4407df79677ee0cb86.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/6b09acb07a60b6419b5b7d654146116b.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/4f2000825680833a745296a6bd60b277.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/aa41b1e61a4e0f2d99d254258db9530f.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/c004955aebfcac0ec2474ffbc03d8029.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/1fa7fadbf6b095d10396b7dc8113fb9e.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/d7c444cb287d3d41de231cee0a25eb16.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/7be538a4b9b50f57fbc39b64e026168f.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/9f9644f0c610dd0f538f88f4e4970c0d.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/e8cf567032a58995f0bf9437b3ca26bf.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/fece3b52e13b91bc2081b2b15c421a43.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/0a1ef9f0c5c06ba01cffd3e937ceaa72.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/a82247dc8503a15a09a46436590736a5.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/494ae44a17d5872db9b1363a16a3e0d9.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/f91b95787c8bf79025cff7992473144e.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/4f09f985c400f23ad8d775550186c485.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/61757404de5ffc994e9c621ceaa54746.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/29da3c95b63bdc40be4db4321fabdd83.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/0a77e76f2015e2fcf07b0053b05f7a33.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/fb78291bbc25b076c345102189533207.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/6f0c5323b3dae6faf0193fdf137beeb6.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/7ec951b6ba3c658d4013a5e6cee9f8c0.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/c32938e9a8787c21b350328e4bf8ace5.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/9f027b6ffcd8f72411d1f6787c8c9270.jpg"
+            },
+            {
+                "page": "drm/5/60815/OEBPS/Images/1/d412cee422a3f7ed0a613f922f15518c.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/60815/OEBPS/Images/1/d1624596a2f797bc230a1ea8fb2c0a8d.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "60815",
+        "id": "60815",
+        "title": "The Dot",
+        "author": "Peter H. Reynolds",
+        "illustrator": " ",
+        "numPages": 31,
+        "bookDescription": "Vashti thinks she can't draw, but a journey of self discovery and expression is an invitation to everyone to explore their creative spirit.",
+        "coverColorR": 238,
+        "coverColorG": 207,
+        "coverColorB": 175,
+        "version": 2076661835,
+        "previewPercent": 20,
+        "publisher": "Candlewick.",
+        "publisherId": "90185",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "AD500L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 516,
+        "ar": "1.9",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Art & Literature",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 1.0789,
+        "contentHash": "8951647e4341830f20bd",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1556336653
+    },
+    "userBook": {
+        "modelId": "46250489-60815",
+        "userId": "46250489",
+        "bookId": "60815",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559309923,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559309923,
+        "book": {
+            "modelId": "60815",
+            "title": "The Dot",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "8951647e4341830f20bd"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "399661",
+            "user_id": "30797505",
+            "book_id": "60815",
+            "title": "The Dot",
+            "description": "",
+            "date_created": 1556756155,
+            "date_modified": 1556756155,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "At the beginning of the story, what is Vashti's problem?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Vashti thinks she can't draw.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Vashti doesn't like art.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Vashti doesn't like her teacher.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Vashti scribbles on her paper.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "After Vashti makes a dot on her paper, what does the art teacher ask her to do?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Please sign it.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Go make another one.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Throw that away!",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Go make copies of that.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "When Vashti walks into Art the next week, where is her dot?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Hanging above the teacher's desk with a gold frame.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "In the trash.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "On the teacher's desk",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "On the ceiling.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Vashti mixes yellow and blue paint.  What color does this make?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "green",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "red",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "purple",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "pink",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "What shape does the boy make on his paper?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "squiggle",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "circle",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "star",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "square",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "399661",
+            "creatorName": "Ms. Kamin",
+            "avatarId": "82",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "30797505",
+                "udid": "5b9be0eaa7f274.89527576",
+                "journalName": "Ms. Kamin",
+                "journalCoverAvatar": "82",
+                "journalCoverColor": "0.84705882352941 0.18039215686275 0.46274509803922 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "682702928",
+                "fid": "",
+                "accountID": "3FE7C2ED-9857-8031-84E0-7468668672A2",
+                "simpleAccountId": "8492074",
+                "pagesFlipped": 2343,
+                "nufComplete": 1,
+                "readingAge": 6,
+                "startingAge": 6,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 3227,
+                "xpLevel": 24,
+                "dateLastLogin": 1559056728,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Kate",
+                "lastName": "Kamin",
+                "accountType": 1,
+                "dateModified": 1559056728,
+                "educatorPrefix": "Ms.",
+                "name": "Ms. Kamin"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "At the beginning of the story, what is Vashti's problem?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Vashti thinks she can't draw.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Vashti doesn't like art.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Vashti doesn't like her teacher.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Vashti scribbles on her paper.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "After Vashti makes a dot on her paper, what does the art teacher ask her to do?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Please sign it.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Go make another one.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Throw that away!",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Go make copies of that.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "When Vashti walks into Art the next week, where is her dot?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Hanging above the teacher's desk with a gold frame.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "In the trash.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "On the teacher's desk",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "On the ceiling.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Vashti mixes yellow and blue paint.  What color does this make?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "green",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "red",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "purple",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "pink",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "What shape does the boy make on his paper?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "squiggle",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "circle",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "star",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "square",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

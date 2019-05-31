@@ -1,0 +1,465 @@
+{
+    "publisherData": {
+        "modelId": "109",
+        "name": "JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/6/12686/OEBPS/Images/1/1d3ee35047cd1bf88fdaacbf175778e6.jpg",
+                "audio": "drm/6/12686/OEBPS/Audio/1/423929d115f827c136b8c01172d69a52.mp3"
+            },
+            {
+                "page": "drm/6/12686/OEBPS/Images/1/c467191643f39e0ab2e75383bcd8631f.jpg",
+                "audio": "drm/6/12686/OEBPS/Audio/1/3e1fe146477adcfa2d5e6c980eef802c.mp3"
+            },
+            {
+                "page": "drm/6/12686/OEBPS/Images/1/93f0c5b8789e912b6203f96b0a002415.jpg",
+                "audio": "drm/6/12686/OEBPS/Audio/1/6815c5db84997255e50f25ff769d7f53.mp3"
+            },
+            {
+                "page": "drm/6/12686/OEBPS/Images/1/ae7b18be00ceb14380d52d6dc7bb6624.jpg",
+                "audio": "drm/6/12686/OEBPS/Audio/1/2ba5b857bbfd52b7f406cba2e32ad1ce.mp3"
+            },
+            {
+                "page": "drm/6/12686/OEBPS/Images/1/4c3cc4c2893476a334b3e466b974d8a9.jpg"
+            },
+            {
+                "page": "drm/6/12686/OEBPS/Images/1/c188a329cedae1888440e092463b32f4.jpg",
+                "audio": "drm/6/12686/OEBPS/Audio/1/60a5be01576afde67b1e298a067f5a44.mp3"
+            },
+            {
+                "page": "drm/6/12686/OEBPS/Images/1/abf30a2ddd6e21873f6b0459e37ec91f.jpg",
+                "audio": "drm/6/12686/OEBPS/Audio/1/55442d1823f0edc3e625391190d16bb5.mp3"
+            },
+            {
+                "page": "drm/6/12686/OEBPS/Images/1/5aa898a2cbb477b398a59dc2f48a28a5.jpg",
+                "audio": "drm/6/12686/OEBPS/Audio/1/c72bb0edba4d287ada1b3494f52cdc9e.mp3"
+            },
+            {
+                "page": "drm/6/12686/OEBPS/Images/1/e3718e193ef46d0dbe21663cb415612e.jpg"
+            },
+            {
+                "page": "drm/6/12686/OEBPS/Images/1/813229de64cd039acc889f9b0f8fd5e3.jpg",
+                "audio": "drm/6/12686/OEBPS/Audio/1/87d647267a231d0af3af80b73f746bd7.mp3"
+            },
+            {
+                "page": "drm/6/12686/OEBPS/Images/1/23cd978488e1818462162830d56239b7.jpg"
+            },
+            {
+                "page": "drm/6/12686/OEBPS/Images/1/34bf83198a35d875b20a7e718d31b0ef.jpg",
+                "audio": "drm/6/12686/OEBPS/Audio/1/8a6b9fb428e79735866a191680e89248.mp3"
+            },
+            {
+                "page": "drm/6/12686/OEBPS/Images/1/78c102b08e95128101351104f20add16.jpg"
+            },
+            {
+                "page": "drm/6/12686/OEBPS/Images/1/42e88fdc071714e90e7728470b0b1b0f.jpg",
+                "audio": "drm/6/12686/OEBPS/Audio/1/59b10d0e96d6b7ee1d74511209ce3e93.mp3"
+            },
+            {
+                "page": "drm/6/12686/OEBPS/Images/1/43776968bfcab0ded0156a21e260bd48.jpg"
+            },
+            {
+                "page": "drm/6/12686/OEBPS/Images/1/3b17351fa86affff796199874881edad.jpg",
+                "audio": "drm/6/12686/OEBPS/Audio/1/cf90d6297a155109e707d7bd7adb1fbc.mp3"
+            },
+            {
+                "page": "drm/6/12686/OEBPS/Images/1/53c57588e2b0a6b706771d64d849c8a2.jpg"
+            },
+            {
+                "page": "drm/6/12686/OEBPS/Images/1/2832c1d5ad6fa8683ea1757451bc84b6.jpg",
+                "audio": "drm/6/12686/OEBPS/Audio/1/7eed31ad07354a8e4da44ce3a9b7c6bf.mp3"
+            },
+            {
+                "page": "drm/6/12686/OEBPS/Images/1/c28d4c92c6b4a2f9d637a9fd15c37266.jpg",
+                "audio": "drm/6/12686/OEBPS/Audio/1/0abc9c13ed8348ee3416765790cc5dbd.mp3"
+            },
+            {
+                "page": "drm/6/12686/OEBPS/Images/1/4d2321daa9627b3da8706c9f3ad721b5.jpg"
+            },
+            {
+                "page": "drm/6/12686/OEBPS/Images/1/661a10843d8e29a92a8623784c4f6041.jpg"
+            },
+            {
+                "page": "drm/6/12686/OEBPS/Images/1/05a076557d2f345c11e8392796e61fa9.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/6/12686/OEBPS/Images/1/b24bbba991ce0112b9bb129f3105b378.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "12686",
+        "id": "12686",
+        "title": "Sheep",
+        "author": "Wendy Strobel Dieker",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "A sheep narrates this photo-illustrated book describing the body parts and behavior of sheep on a farm.",
+        "coverColorR": 154,
+        "coverColorG": 157,
+        "coverColorB": 142,
+        "version": 2,
+        "previewPercent": 20,
+        "publisher": "JUMP",
+        "publisherId": "109",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "370L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 806,
+        "ar": "1.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Farm Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "7aeb4ea0cbcd1973760c",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372635
+    },
+    "userBook": {
+        "modelId": "46250489-12686",
+        "userId": "46250489",
+        "bookId": "12686",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559312065,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559312065,
+        "book": {
+            "modelId": "12686",
+            "title": "Sheep",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "7aeb4ea0cbcd1973760c"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "120978",
+            "user_id": "17693030",
+            "book_id": "12686",
+            "title": "Sheep",
+            "description": "",
+            "date_created": 1505917415,
+            "date_modified": 1507745816,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Sheep only have teeth on the bottom.",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "true",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "false",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What is a group of sheep called?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "flock",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "herd",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "pod",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "pack",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What is sheep hair called?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "wool",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "cloth",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "fur",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "fuzz",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What does a ram use to fight?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "horns",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "teeth",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "hoof",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "head",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "What is a female sheep called?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "ewe",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "lamb",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "ram",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "flock",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "120978",
+            "creatorName": "Landon V.",
+            "avatarId": "15",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "17693030",
+                "udid": "59b3eeb903f617.06458053",
+                "journalName": "Landon V.",
+                "journalCoverAvatar": "15",
+                "journalCoverColor": "0.15686274509804 0.47058823529412 0.60392156862745 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "0",
+                "code": "643237419",
+                "fid": "",
+                "accountID": "FC6E2E5F-5601-922C-E601-537A6CC47C69",
+                "simpleAccountId": "4650203",
+                "pagesFlipped": 3723,
+                "nufComplete": 1,
+                "readingAge": 5.46667,
+                "startingAge": 5,
+                "status": 9,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 2512,
+                "xpLevel": 26,
+                "dateLastLogin": 0,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "Landon",
+                "lastName": "V",
+                "accountType": 1,
+                "dateModified": 1558622334
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Sheep only have teeth on the bottom.",
+                "quizQuestionChoices": [
+                    {
+                        "title": "true",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "false",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What is a group of sheep called?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "flock",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "herd",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "pod",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "pack",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What is sheep hair called?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "wool",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "cloth",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "fur",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "fuzz",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What does a ram use to fight?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "horns",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "teeth",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "hoof",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "head",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "What is a female sheep called?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "ewe",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "lamb",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "ram",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "flock",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

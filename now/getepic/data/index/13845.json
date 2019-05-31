@@ -1,0 +1,177 @@
+{
+    "publisherData": {
+        "modelId": "107",
+        "name": "Rourke Educational Media",
+        "url": "http://rourkeeducationalmedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570193
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/13845/OEBPS/Images/1/911479301955f3ff56dad5a725d788fb.jpg",
+                "audio": "drm/5/13845/OEBPS/Audio/1/8d27b54949b9be945da7b76e3bd8eae2.mp3"
+            },
+            {
+                "page": "drm/5/13845/OEBPS/Images/1/66fa677df3ceabe3cd5ef7020536291f.jpg",
+                "audio": "drm/5/13845/OEBPS/Audio/1/78fbf779eb89a62a4380dbf4c5666ae0.mp3"
+            },
+            {
+                "page": "drm/5/13845/OEBPS/Images/1/c8d48815d749dafddd4b3aff9fd3d56e.jpg"
+            },
+            {
+                "page": "drm/5/13845/OEBPS/Images/1/d0ab383d89ffe41baab8253fe3e442fc.jpg",
+                "audio": "drm/5/13845/OEBPS/Audio/1/dd696aa53d059b80f49fc459bc3332dc.mp3"
+            },
+            {
+                "page": "drm/5/13845/OEBPS/Images/1/5bb14eb06569746437b7de7c1ef6ae51.jpg"
+            },
+            {
+                "page": "drm/5/13845/OEBPS/Images/1/d117b3faedcc7312bf452768e2b9f0a5.jpg",
+                "audio": "drm/5/13845/OEBPS/Audio/1/59bf717e303fcc22eacb640aa752377a.mp3"
+            },
+            {
+                "page": "drm/5/13845/OEBPS/Images/1/18dc7a8d332d0a8c3459120ba8f062a3.jpg"
+            },
+            {
+                "page": "drm/5/13845/OEBPS/Images/1/50fc6bcd9b9af02231275860bd25c14a.jpg",
+                "audio": "drm/5/13845/OEBPS/Audio/1/efa9e3a470935573dec4ad44aee75c02.mp3"
+            },
+            {
+                "page": "drm/5/13845/OEBPS/Images/1/38ef46be0af696674432a6af0075f2b2.jpg"
+            },
+            {
+                "page": "drm/5/13845/OEBPS/Images/1/1f61dd36f21de6e51809da0306da1881.jpg",
+                "audio": "drm/5/13845/OEBPS/Audio/1/bf4a2460a4846ed68ccf41c52305bc9a.mp3"
+            },
+            {
+                "page": "drm/5/13845/OEBPS/Images/1/dea499d4045f7ada058735ba19ad2dab.jpg"
+            },
+            {
+                "page": "drm/5/13845/OEBPS/Images/1/29bc9819e3c07e4408719d19f2bd470c.jpg",
+                "audio": "drm/5/13845/OEBPS/Audio/1/47c63e905d0f288828c77192370e62e5.mp3"
+            },
+            {
+                "page": "drm/5/13845/OEBPS/Images/1/3d476a72f458435415a692a4578064b2.jpg"
+            },
+            {
+                "page": "drm/5/13845/OEBPS/Images/1/d125d002114c2993b56a9b3aacd46767.jpg",
+                "audio": "drm/5/13845/OEBPS/Audio/1/a368dcdc43363fe9ed91d1acc8b7986b.mp3"
+            },
+            {
+                "page": "drm/5/13845/OEBPS/Images/1/2a39d1241a023e4a0f6553122b1a3e1c.jpg"
+            },
+            {
+                "page": "drm/5/13845/OEBPS/Images/1/8c6f3439c5930ea6b1c4195b9f83ef26.jpg",
+                "audio": "drm/5/13845/OEBPS/Audio/1/e7318a22877487c64b06614429046fa5.mp3"
+            },
+            {
+                "page": "drm/5/13845/OEBPS/Images/1/878a08e29bbe3285042040b4ee8b69e6.jpg"
+            },
+            {
+                "page": "drm/5/13845/OEBPS/Images/1/5084e12b6d1b64438cfcbf9de53f2aa9.jpg",
+                "audio": "drm/5/13845/OEBPS/Audio/1/e3d33913be5e6e0073820a2d17c2eb01.mp3"
+            },
+            {
+                "page": "drm/5/13845/OEBPS/Images/1/b409c20c871de29d0b0fe87b93139b7d.jpg",
+                "audio": "drm/5/13845/OEBPS/Audio/1/18e1e706b78e30e5da16de54f0e448a7.mp3"
+            },
+            {
+                "page": "drm/5/13845/OEBPS/Images/1/6ae3efe2ee7c02131239b96d430a3701.jpg",
+                "audio": "drm/5/13845/OEBPS/Audio/1/a9d0f82d823fcad46ddca880e0c442bc.mp3"
+            },
+            {
+                "page": "drm/5/13845/OEBPS/Images/1/aafc7fce536c073fb2afd188b1912957.jpg",
+                "audio": "drm/5/13845/OEBPS/Audio/1/76ad5445c0ce81f981e3ef3b0e0f4b78.mp3"
+            },
+            {
+                "page": "drm/5/13845/OEBPS/Images/1/bf5896405079ea1a334caad8e3653fe6.jpg"
+            },
+            {
+                "page": "drm/5/13845/OEBPS/Images/1/6d3fff0bb29e7156be785551688c15ab.jpg"
+            },
+            {
+                "page": "drm/5/13845/OEBPS/Images/1/090a1859a53b335afbe0c650b05f16dd.jpg"
+            },
+            {
+                "page": "drm/5/13845/OEBPS/Images/1/9aae1033bac9f564caf1953c0b7c52e7.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/13845/OEBPS/Images/1/768bd5cd88799dfdcc1548ad50c4efa7.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "13845",
+        "id": "13845",
+        "title": "Achoo!",
+        "author": "Joann Cleland",
+        "illustrator": " ",
+        "numPages": 25,
+        "bookDescription": "Sing along to the tune of the Farmer in the Dell as you learn the importance of keeping germs to yourself and not spreading them to others!",
+        "coverColorR": 160,
+        "coverColorG": 167,
+        "coverColorB": 153,
+        "version": 1,
+        "previewPercent": 20,
+        "publisher": "Rourke Educational Media",
+        "publisherId": "107",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 916,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "9947b8f2ccef88a6e8ec",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1557337699
+    },
+    "userBook": {
+        "modelId": "46250489-13845",
+        "userId": "46250489",
+        "bookId": "13845",
+        "currentPageIndex": 26,
+        "farthestPageIndex": 26,
+        "favorited": 0,
+        "finishTime": 112,
+        "paid": 0,
+        "progress": 100,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 112,
+        "recommended": 0,
+        "lastModified": 1558935739,
+        "bookmarks": "",
+        "timesCompleted": 1,
+        "currentReadTime": 0,
+        "dateModified": 1558935853,
+        "book": {
+            "modelId": "13845",
+            "title": "Achoo!",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "9947b8f2ccef88a6e8ec"
+        }
+    },
+    "quiz": null
+}

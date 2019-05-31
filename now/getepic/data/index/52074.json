@@ -1,0 +1,153 @@
+{
+    "publisherData": {
+        "modelId": "109",
+        "name": "JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/52074/OEBPS/Images/1/ba83df1a00f2c41284f8292ddeb0bdb8.jpg",
+                "audio": "drm/4/52074/OEBPS/Audio/1/xba83df1a00f2c41284f8292ddeb0bdb8.mp3"
+            },
+            {
+                "page": "drm/4/52074/OEBPS/Images/1/669b04967efdfedbcca26f4e73aa229d.jpg",
+                "audio": "drm/4/52074/OEBPS/Audio/1/x669b04967efdfedbcca26f4e73aa229d.mp3"
+            },
+            {
+                "page": "drm/4/52074/OEBPS/Images/1/b332453de6de6d0e33b1474ef7e9ad4e.jpg",
+                "audio": "drm/4/52074/OEBPS/Audio/1/xb332453de6de6d0e33b1474ef7e9ad4e.mp3"
+            },
+            {
+                "page": "drm/4/52074/OEBPS/Images/1/5891f316cd219378aedb7022cbd4a81d.jpg",
+                "audio": "drm/4/52074/OEBPS/Audio/1/x5891f316cd219378aedb7022cbd4a81d.mp3"
+            },
+            {
+                "page": "drm/4/52074/OEBPS/Images/1/577d7b107555e269b8741685d7953192.jpg",
+                "audio": "drm/4/52074/OEBPS/Audio/1/x577d7b107555e269b8741685d7953192.mp3"
+            },
+            {
+                "page": "drm/4/52074/OEBPS/Images/1/fd027d26ac8188f5da2b967e02cbe163.jpg",
+                "audio": "drm/4/52074/OEBPS/Audio/1/xfd027d26ac8188f5da2b967e02cbe163.mp3"
+            },
+            {
+                "page": "drm/4/52074/OEBPS/Images/1/07b3aa3349cc0f4a328fb5b07f64197d.jpg",
+                "audio": "drm/4/52074/OEBPS/Audio/1/x07b3aa3349cc0f4a328fb5b07f64197d.mp3"
+            },
+            {
+                "page": "drm/4/52074/OEBPS/Images/1/d37f692102a98b9d18ce86c01e038b6e.jpg",
+                "audio": "drm/4/52074/OEBPS/Audio/1/xd37f692102a98b9d18ce86c01e038b6e.mp3"
+            },
+            {
+                "page": "drm/4/52074/OEBPS/Images/1/bd74fdafc9da90d70b457efea850f3a4.jpg",
+                "audio": "drm/4/52074/OEBPS/Audio/1/xbd74fdafc9da90d70b457efea850f3a4.mp3"
+            },
+            {
+                "page": "drm/4/52074/OEBPS/Images/1/f03a6542ce2ab23e3dc5f59b78b147e1.jpg",
+                "audio": "drm/4/52074/OEBPS/Audio/1/xf03a6542ce2ab23e3dc5f59b78b147e1.mp3"
+            },
+            {
+                "page": "drm/4/52074/OEBPS/Images/1/31869641edbdce20dadc6203d839db5e.jpg",
+                "audio": "drm/4/52074/OEBPS/Audio/1/x31869641edbdce20dadc6203d839db5e.mp3"
+            },
+            {
+                "page": "drm/4/52074/OEBPS/Images/1/fd2181f261511128075fb72309fa52b6.jpg",
+                "audio": "drm/4/52074/OEBPS/Audio/1/xfd2181f261511128075fb72309fa52b6.mp3"
+            },
+            {
+                "page": "drm/4/52074/OEBPS/Images/1/e035d138bde95fefdf6fde436a0927d4.jpg",
+                "audio": "drm/4/52074/OEBPS/Audio/1/xe035d138bde95fefdf6fde436a0927d4.mp3"
+            },
+            {
+                "page": "drm/4/52074/OEBPS/Images/1/a999ae77515cf032818354f50394e919.jpg",
+                "audio": "drm/4/52074/OEBPS/Audio/1/xa999ae77515cf032818354f50394e919.mp3"
+            },
+            {
+                "page": "drm/4/52074/OEBPS/Images/1/5f431a55122ca54c1b49c22a554eb8e1.jpg",
+                "audio": "drm/4/52074/OEBPS/Audio/1/x5f431a55122ca54c1b49c22a554eb8e1.mp3"
+            },
+            {
+                "page": "drm/4/52074/OEBPS/Images/1/1c51ed3f24f931520a57189c9a6688a7.jpg",
+                "audio": "drm/4/52074/OEBPS/Audio/1/x1c51ed3f24f931520a57189c9a6688a7.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/52074/OEBPS/Images/1/aaf4b192b89967a39c03c5fdd3c3b1f8.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "52074",
+        "id": "52074",
+        "title": "Hot and Cold",
+        "author": "Erica Donner",
+        "illustrator": " ",
+        "numPages": 16,
+        "bookDescription": "Hot and Cold helps readers understand and differentiate between these opposites while providing them with a nonfiction reading experience.",
+        "coverColorR": 186,
+        "coverColorG": 168,
+        "coverColorB": 144,
+        "version": 12309,
+        "previewPercent": 20,
+        "publisher": "JUMP",
+        "publisherId": "109",
+        "age": 3,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "BR50L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 400,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Life Lessons",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 0.7222,
+        "contentHash": "f17c69fc833d876f9ac6",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1558635952
+    },
+    "userBook": {
+        "modelId": "46250489-52074",
+        "userId": "46250489",
+        "bookId": "52074",
+        "currentPageIndex": 16,
+        "farthestPageIndex": 16,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 100,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559094196,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 97,
+        "dateModified": 1559094294,
+        "book": {
+            "modelId": "52074",
+            "title": "Hot and Cold",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "f17c69fc833d876f9ac6"
+        }
+    },
+    "quiz": null
+}

@@ -1,0 +1,164 @@
+{
+    "publisherData": {
+        "modelId": "109",
+        "name": "JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/42315/OEBPS/Images/1/203FDD2F-C4A7-488F-816F-9873971D2D73.jpg"
+            },
+            {
+                "page": "drm/5/42315/OEBPS/Images/1/B7BEB533-4586-40FE-BD19-F918C8666682.jpg",
+                "audio": "drm/5/42315/OEBPS/Audio/1/aud4.mp3"
+            },
+            {
+                "page": "drm/5/42315/OEBPS/Images/1/6A9458BF-E87D-453E-A603-7E21D341E2A1.jpg",
+                "audio": "drm/5/42315/OEBPS/Audio/1/aud5.mp3"
+            },
+            {
+                "page": "drm/5/42315/OEBPS/Images/1/10E4E2C9-2DA1-4636-961D-6291BC8E9680.jpg"
+            },
+            {
+                "page": "drm/5/42315/OEBPS/Images/1/3B5821C8-5620-4610-9706-E21F420943BB.jpg",
+                "audio": "drm/5/42315/OEBPS/Audio/1/aud7.mp3"
+            },
+            {
+                "page": "drm/5/42315/OEBPS/Images/1/25A52C13-EF9F-4E23-B15F-C9F423415914.jpg",
+                "audio": "drm/5/42315/OEBPS/Audio/1/aud8.mp3"
+            },
+            {
+                "page": "drm/5/42315/OEBPS/Images/1/6114784B-4C97-4F8D-AFF7-1E0C7D03F4E0.jpg"
+            },
+            {
+                "page": "drm/5/42315/OEBPS/Images/1/E43EE256-5FB5-45A3-A742-8365E257FEC1.jpg",
+                "audio": "drm/5/42315/OEBPS/Audio/1/aud10.mp3"
+            },
+            {
+                "page": "drm/5/42315/OEBPS/Images/1/6E7BD613-DBFA-4B27-9FD6-1C4A3851D548.jpg",
+                "audio": "drm/5/42315/OEBPS/Audio/1/aud11.mp3"
+            },
+            {
+                "page": "drm/5/42315/OEBPS/Images/1/C53D76E3-4B7E-4068-809A-9778634B1AFF.jpg",
+                "audio": "drm/5/42315/OEBPS/Audio/1/aud12.mp3"
+            },
+            {
+                "page": "drm/5/42315/OEBPS/Images/1/0DC84CC5-A380-4C83-9221-A4F38A23F0A6.jpg"
+            },
+            {
+                "page": "drm/5/42315/OEBPS/Images/1/C5C2EFCD-3451-4012-935E-3BD8D7422F92.jpg"
+            },
+            {
+                "page": "drm/5/42315/OEBPS/Images/1/07F558A3-2822-4F0D-A4DC-318795C8A0E9.jpg",
+                "audio": "drm/5/42315/OEBPS/Audio/1/aud15.mp3"
+            },
+            {
+                "page": "drm/5/42315/OEBPS/Images/1/54B39F27-2791-4448-9DA3-CBA07EFD4C8A.jpg",
+                "audio": "drm/5/42315/OEBPS/Audio/1/aud16-17.mp3"
+            },
+            {
+                "page": "drm/5/42315/OEBPS/Images/1/FDCEE876-39E0-4871-B35B-7EEDB8B55E41.jpg"
+            },
+            {
+                "page": "drm/5/42315/OEBPS/Images/1/BE091866-AC1A-4176-806D-2FE5685AB4D2.jpg",
+                "audio": "drm/5/42315/OEBPS/Audio/1/aud18.mp3"
+            },
+            {
+                "page": "drm/5/42315/OEBPS/Images/1/B39415D4-1565-4D81-97B5-F1234CCA4426.jpg"
+            },
+            {
+                "page": "drm/5/42315/OEBPS/Images/1/FDD0F84A-DC39-491E-BC0C-9DDE297C6014.jpg"
+            },
+            {
+                "page": "drm/5/42315/OEBPS/Images/1/347B93B9-343A-45AE-8DA1-85BF3811704C.jpg",
+                "audio": "drm/5/42315/OEBPS/Audio/1/aud21.mp3"
+            },
+            {
+                "page": "drm/5/42315/OEBPS/Images/1/DD378AAB-57B0-4D6E-BDC6-A958BE84B665.jpg"
+            },
+            {
+                "page": "drm/5/42315/OEBPS/Images/1/8685E23F-7354-48CF-8A83-42F95401AACD.jpg",
+                "audio": "drm/5/42315/OEBPS/Audio/1/aud23.mp3"
+            }
+        ],
+        "extra": {
+            "color": "#fffefe",
+            "copyright": ""
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "42315",
+        "id": "42315",
+        "title": "My First Pet: Chinchillas",
+        "author": "Vanessa Black",
+        "illustrator": " ",
+        "numPages": 21,
+        "bookDescription": "Early readers will learn all about the responsibilities of having a chinchilla and find out how they can keep their pet healthy and happy.",
+        "coverColorR": 177,
+        "coverColorG": 186,
+        "coverColorB": 174,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "JUMP",
+        "publisherId": "109",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "250L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 350,
+        "ar": "0.9",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pets",
+        "subjectColor": "C72F8B",
+        "copyright": "white line down center",
+        "aspectRatio": 1.0025,
+        "contentHash": "ea4db9655bc73200fdec",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373827
+    },
+    "userBook": {
+        "modelId": "46250489-42315",
+        "userId": "46250489",
+        "bookId": "42315",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311514,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311514,
+        "book": {
+            "modelId": "42315",
+            "title": "My First Pet: Chinchillas",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "ea4db9655bc73200fdec"
+        }
+    },
+    "quiz": null
+}

@@ -1,0 +1,185 @@
+{
+    "publisherData": {
+        "modelId": "2",
+        "name": "Twin Sisters IP, LLC.",
+        "url": "http://www.twinsisters.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1547683900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/41600/OEBPS/Images/1/ECA1D657-60FA-44AA-BDA5-6DC6E4D018A6.jpg",
+                "audio": "drm/0/41600/OEBPS/Audio/1/9781625815446_fullreading-01.mp3"
+            },
+            {
+                "page": "drm/0/41600/OEBPS/Images/1/6492B3DC-B824-43C9-ABFD-61D249AF5835.jpg",
+                "audio": "drm/0/41600/OEBPS/Audio/1/9781625815446_fullreading-02.mp3"
+            },
+            {
+                "page": "drm/0/41600/OEBPS/Images/1/845B979C-57AF-4F48-A75E-23801515978D.jpg",
+                "audio": "drm/0/41600/OEBPS/Audio/1/9781625815446_fullreading-03.mp3"
+            },
+            {
+                "page": "drm/0/41600/OEBPS/Images/1/EB10F2F0-BC4D-4BD5-80CA-B4E6BB4EBBAF.jpg",
+                "audio": "drm/0/41600/OEBPS/Audio/1/9781625815446_fullreading-04.mp3"
+            },
+            {
+                "page": "drm/0/41600/OEBPS/Images/1/B97D3D5B-B045-45C3-BFEE-51BAC6ABA033.jpg",
+                "audio": "drm/0/41600/OEBPS/Audio/1/9781625815446_fullreading-05.mp3"
+            },
+            {
+                "page": "drm/0/41600/OEBPS/Images/1/CB322075-75E2-416C-8023-2AF703042EF5.jpg",
+                "audio": "drm/0/41600/OEBPS/Audio/1/9781625815446_fullreading-06.mp3"
+            },
+            {
+                "page": "drm/0/41600/OEBPS/Images/1/5794DEC4-8F62-44BB-9C4F-43B196175D2D.jpg",
+                "audio": "drm/0/41600/OEBPS/Audio/1/9781625815446_fullreading-07.mp3"
+            },
+            {
+                "page": "drm/0/41600/OEBPS/Images/1/02DF454A-D7B0-409C-935E-DD5D30A9FF86.jpg",
+                "audio": "drm/0/41600/OEBPS/Audio/1/9781625815446_fullreading-08.mp3"
+            },
+            {
+                "page": "drm/0/41600/OEBPS/Images/1/E6D0FE85-873E-44F9-8F43-DF752FB83E8F.jpg",
+                "audio": "drm/0/41600/OEBPS/Audio/1/9781625815446_fullreading-09.mp3"
+            },
+            {
+                "page": "drm/0/41600/OEBPS/Images/1/8E8C280C-9E37-4526-80BC-4BCCE82C2AE7.jpg",
+                "audio": "drm/0/41600/OEBPS/Audio/1/9781625815446_fullreading-10.mp3"
+            },
+            {
+                "page": "drm/0/41600/OEBPS/Images/1/6CBD50B9-FFB8-4F36-9A6D-015ACF72C187.jpg",
+                "audio": "drm/0/41600/OEBPS/Audio/1/9781625815446_fullreading-11.mp3"
+            },
+            {
+                "page": "drm/0/41600/OEBPS/Images/1/89004D2F-7185-4F6B-AC63-CED155BC1C01.jpg",
+                "audio": "drm/0/41600/OEBPS/Audio/1/9781625815446_fullreading-12.mp3"
+            },
+            {
+                "page": "drm/0/41600/OEBPS/Images/1/31B963DF-29A0-4557-A615-7680D9FEC693.jpg",
+                "audio": "drm/0/41600/OEBPS/Audio/1/9781625815446_fullreading-13.mp3"
+            },
+            {
+                "page": "drm/0/41600/OEBPS/Images/1/3EA8218A-1D4A-4FFB-8020-EB2480481954.jpg",
+                "audio": "drm/0/41600/OEBPS/Audio/1/9781625815446_fullreading-14.mp3"
+            },
+            {
+                "page": "drm/0/41600/OEBPS/Images/1/A23CAB16-C89C-4B4C-8CF3-232F02B3DF4B.jpg",
+                "audio": "drm/0/41600/OEBPS/Audio/1/9781625815446_fullreading-15.mp3"
+            },
+            {
+                "page": "drm/0/41600/OEBPS/Images/1/047D7D90-FE5E-4AF7-B456-83FD1548EB8B.jpg",
+                "audio": "drm/0/41600/OEBPS/Audio/1/9781625815446_fullreading-16.mp3"
+            },
+            {
+                "page": "drm/0/41600/OEBPS/Images/1/79D1B500-4084-4687-ABF3-59051B325C03.jpg",
+                "audio": "drm/0/41600/OEBPS/Audio/1/9781625815446_fullreading-17.mp3"
+            },
+            {
+                "page": "drm/0/41600/OEBPS/Images/1/C0371310-8867-4D2D-9612-76B7AC3E4ECF.jpg",
+                "audio": "drm/0/41600/OEBPS/Audio/1/9781625815446_fullreading-18.mp3"
+            },
+            {
+                "page": "drm/0/41600/OEBPS/Images/1/71355E8D-594C-4805-B93C-086CCD119E01.jpg",
+                "audio": "drm/0/41600/OEBPS/Audio/1/9781625815446_fullreading-19.mp3"
+            },
+            {
+                "page": "drm/0/41600/OEBPS/Images/1/482412CD-45A0-4CDB-8732-2C6F128401C4.jpg",
+                "audio": "drm/0/41600/OEBPS/Audio/1/9781625815446_fullreading-20.mp3"
+            },
+            {
+                "page": "drm/0/41600/OEBPS/Images/1/12E96F83-7367-426E-82F3-F3F6336FD910.jpg",
+                "audio": "drm/0/41600/OEBPS/Audio/1/9781625815446_fullreading-21.mp3"
+            },
+            {
+                "page": "drm/0/41600/OEBPS/Images/1/81AD370A-96AC-4B71-ABDD-731AC31D594B.jpg",
+                "audio": "drm/0/41600/OEBPS/Audio/1/9781625815446_fullreading-22.mp3"
+            },
+            {
+                "page": "drm/0/41600/OEBPS/Images/1/0E0E3853-3DF6-4417-A500-912DFD153E46.jpg",
+                "audio": "drm/0/41600/OEBPS/Audio/1/9781625815446_fullreading-23.mp3"
+            },
+            {
+                "page": "drm/0/41600/OEBPS/Images/1/6A7C2C4A-0408-4653-B7EF-A850E08A8E86.jpg",
+                "audio": "drm/0/41600/OEBPS/Audio/1/9781625815446_fullreading-24.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/41600/OEBPS/Images/1/FEBEBDA2-28B8-4984-97E3-122A53736424.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "41600",
+        "id": "41600",
+        "title": "Pershey the Rabbit",
+        "author": "Brenda Martin Eldrid",
+        "illustrator": "County Studio",
+        "numPages": 24,
+        "bookDescription": "Simple text and captivating illustrations are paired with beautiful music to help tell this charming story about \u201cPershey the Rabbit.\u201d",
+        "coverColorR": 171,
+        "coverColorG": 178,
+        "coverColorB": 157,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Twin Sisters IP, LLC.",
+        "publisherId": "2",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 440,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Daily Life",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 0.7752,
+        "contentHash": "abb1e7e17d477b5fed76",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373789
+    },
+    "userBook": {
+        "modelId": "46250489-41600",
+        "userId": "46250489",
+        "bookId": "41600",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311224,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311224,
+        "book": {
+            "modelId": "41600",
+            "title": "Pershey the Rabbit",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "abb1e7e17d477b5fed76"
+        }
+    },
+    "quiz": null
+}

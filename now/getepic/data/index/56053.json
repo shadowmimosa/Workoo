@@ -1,0 +1,155 @@
+{
+    "publisherData": {
+        "modelId": "90350",
+        "name": "Gray Duck",
+        "url": "http://grayduckbooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1536102481
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/3/56053/OEBPS/Images/1/5b16699aebd8039994ae3af22bd485b6.jpg"
+            },
+            {
+                "page": "drm/3/56053/OEBPS/Images/1/c87117bf46eab5cd48ada57bb5a00cb5.jpg"
+            },
+            {
+                "page": "drm/3/56053/OEBPS/Images/1/5ac85e0fd89b3f841cc4b0f9b4a64231.jpg"
+            },
+            {
+                "page": "drm/3/56053/OEBPS/Images/1/9a040c3847ea633b5bfb1905a2adf12c.jpg"
+            },
+            {
+                "page": "drm/3/56053/OEBPS/Images/1/b62b914acd8e60ba67cf412a21cd7806.jpg"
+            },
+            {
+                "page": "drm/3/56053/OEBPS/Images/1/ec74bb1b9c06573dfbd424fda59e11e3.jpg"
+            },
+            {
+                "page": "drm/3/56053/OEBPS/Images/1/87a466155dd2c4f030d47d66083f8744.jpg"
+            },
+            {
+                "page": "drm/3/56053/OEBPS/Images/1/3e6428b7ce9d54cb6e70efe34e7e7ebf.jpg"
+            },
+            {
+                "page": "drm/3/56053/OEBPS/Images/1/ad9535f0e5317351e8dbfe4055416130.jpg"
+            },
+            {
+                "page": "drm/3/56053/OEBPS/Images/1/d626dc9494d53dc97cf70095fffe4863.jpg"
+            },
+            {
+                "page": "drm/3/56053/OEBPS/Images/1/99d6ad1a2039943b69922807002a9409.jpg"
+            },
+            {
+                "page": "drm/3/56053/OEBPS/Images/1/33e7e4d66d6d07169d2c910b88117644.jpg"
+            },
+            {
+                "page": "drm/3/56053/OEBPS/Images/1/66d6ba1dac14809d194698a0ef9ef4fc.jpg"
+            },
+            {
+                "page": "drm/3/56053/OEBPS/Images/1/0e3f6cbdbd585081c997ef4a0f64b84a.jpg"
+            },
+            {
+                "page": "drm/3/56053/OEBPS/Images/1/b66919412041875ee83596654a458cf5.jpg"
+            },
+            {
+                "page": "drm/3/56053/OEBPS/Images/1/38bb3cd9432a5a5afddb14b959fd9b94.jpg"
+            },
+            {
+                "page": "drm/3/56053/OEBPS/Images/1/b8928ebb33add3f6fc2c5c7572dae0ec.jpg"
+            },
+            {
+                "page": "drm/3/56053/OEBPS/Images/1/e5ab0eec1229e2e3d97f4731cb27117c.jpg"
+            },
+            {
+                "page": "drm/3/56053/OEBPS/Images/1/39339bd8787d4e38a8acc034cd4585cc.jpg"
+            },
+            {
+                "page": "drm/3/56053/OEBPS/Images/1/10f9e6f5af906570b53d8522b7ec1ea7.jpg"
+            },
+            {
+                "page": "drm/3/56053/OEBPS/Images/1/ff7f24c25c0760e2bd4a944065e74a06.jpg"
+            },
+            {
+                "page": "drm/3/56053/OEBPS/Images/1/94a6139395115d2a137e11d0f1ec7eaa.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/3/56053/OEBPS/Images/1/180465de57430da0a3f333d3d6046622.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "56053",
+        "id": "56053",
+        "title": "Beagle Puppies",
+        "author": "Emmie Chang",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "The little puppies in this book share about their big dreams for adulthood!",
+        "coverColorR": 230,
+        "coverColorG": 204,
+        "coverColorB": 181,
+        "version": 12309,
+        "previewPercent": 20,
+        "publisher": "Gray Duck",
+        "publisherId": "90350",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 403,
+        "ar": "2.5",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 86,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Dogs",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.7762,
+        "contentHash": "b41b4e17cc2206ed975d",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374658
+    },
+    "userBook": {
+        "modelId": "46250489-56053",
+        "userId": "46250489",
+        "bookId": "56053",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310719,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310719,
+        "book": {
+            "modelId": "56053",
+            "title": "Beagle Puppies",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "b41b4e17cc2206ed975d"
+        }
+    },
+    "quiz": null
+}

@@ -1,0 +1,501 @@
+{
+    "publisherData": {
+        "modelId": "2",
+        "name": "Twin Sisters IP, LLC.",
+        "url": "http://www.twinsisters.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1547683900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/37594/OEBPS/Images/1/FCF15548-9929-449B-B4D0-F6B34BF44AB3.jpg",
+                "audio": "drm/4/37594/OEBPS/Audio/1/untitled.mp3"
+            },
+            {
+                "page": "drm/4/37594/OEBPS/Images/1/910AAA56-7719-4D04-BE06-6581ECF8B05F.jpg",
+                "audio": "drm/4/37594/OEBPS/Audio/1/untitled-2.mp3"
+            },
+            {
+                "page": "drm/4/37594/OEBPS/Images/1/5D63A5F1-5994-486A-A40E-80DC28771BED.jpg",
+                "audio": "drm/4/37594/OEBPS/Audio/1/untitled-3.mp3"
+            },
+            {
+                "page": "drm/4/37594/OEBPS/Images/1/C4931FC6-3E9C-474E-A25C-AE1E076D403C.jpg",
+                "audio": "drm/4/37594/OEBPS/Audio/1/untitled-4.mp3"
+            },
+            {
+                "page": "drm/4/37594/OEBPS/Images/1/C1CB56FD-2C31-4DEA-9187-A73081BBC411.jpg"
+            },
+            {
+                "page": "drm/4/37594/OEBPS/Images/1/B2121D35-0B88-4096-933E-FA9BFA2B87BF.jpg",
+                "audio": "drm/4/37594/OEBPS/Audio/1/untitled-5.mp3"
+            },
+            {
+                "page": "drm/4/37594/OEBPS/Images/1/4C407E05-5D18-4FE5-BA85-008D7BD1D19B.jpg",
+                "audio": "drm/4/37594/OEBPS/Audio/1/untitled-6.mp3"
+            },
+            {
+                "page": "drm/4/37594/OEBPS/Images/1/0BEBBAF1-CC42-4913-B957-71BA036BFA3A.jpg",
+                "audio": "drm/4/37594/OEBPS/Audio/1/untitled-7.mp3"
+            },
+            {
+                "page": "drm/4/37594/OEBPS/Images/1/285186F1-F4FD-44C7-87CB-349173A6FAB6.jpg",
+                "audio": "drm/4/37594/OEBPS/Audio/1/untitled-8.mp3"
+            },
+            {
+                "page": "drm/4/37594/OEBPS/Images/1/ECB6B4CA-8642-4D63-813D-C0DA1EBFF96B.jpg",
+                "audio": "drm/4/37594/OEBPS/Audio/1/untitled-9.mp3"
+            },
+            {
+                "page": "drm/4/37594/OEBPS/Images/1/AE7F08D7-5EDF-4BCE-9964-15ED75875CC9.jpg",
+                "audio": "drm/4/37594/OEBPS/Audio/1/untitled-10.mp3"
+            },
+            {
+                "page": "drm/4/37594/OEBPS/Images/1/5CC7C712-6968-478B-A4D2-9830593C9482.jpg",
+                "audio": "drm/4/37594/OEBPS/Audio/1/untitled-11.mp3"
+            },
+            {
+                "page": "drm/4/37594/OEBPS/Images/1/2DD3A98B-528B-48EF-BCAF-1274699DF9D5.jpg",
+                "audio": "drm/4/37594/OEBPS/Audio/1/untitled-12.mp3"
+            },
+            {
+                "page": "drm/4/37594/OEBPS/Images/1/03E39B90-343C-4B2E-9971-E01ECA6CE53E.jpg",
+                "audio": "drm/4/37594/OEBPS/Audio/1/untitled-13.mp3"
+            },
+            {
+                "page": "drm/4/37594/OEBPS/Images/1/753513CB-9D88-4D60-96D9-542C202DB0F4.jpg",
+                "audio": "drm/4/37594/OEBPS/Audio/1/untitled-14.mp3"
+            },
+            {
+                "page": "drm/4/37594/OEBPS/Images/1/59FB99D8-92FB-4CF2-B51A-F8A39CA53E9B.jpg",
+                "audio": "drm/4/37594/OEBPS/Audio/1/untitled-15.mp3"
+            },
+            {
+                "page": "drm/4/37594/OEBPS/Images/1/A8A47EB6-A244-46E5-ABC0-8BA11214371C.jpg",
+                "audio": "drm/4/37594/OEBPS/Audio/1/untitled-16.mp3"
+            },
+            {
+                "page": "drm/4/37594/OEBPS/Images/1/D15E66E5-480A-46AD-AB25-CE383A65BC91.jpg",
+                "audio": "drm/4/37594/OEBPS/Audio/1/untitled-17.mp3"
+            },
+            {
+                "page": "drm/4/37594/OEBPS/Images/1/AC78EFD4-9D5E-4C8E-9CE6-567E72465447.jpg",
+                "audio": "drm/4/37594/OEBPS/Audio/1/untitled-18.mp3"
+            },
+            {
+                "page": "drm/4/37594/OEBPS/Images/1/DCAE751E-858E-4F3F-B1A1-B4CFF6639273.jpg",
+                "audio": "drm/4/37594/OEBPS/Audio/1/untitled-19.mp3"
+            },
+            {
+                "page": "drm/4/37594/OEBPS/Images/1/2AFDB9EB-EA38-477E-819F-A4ABC5B35107.jpg",
+                "audio": "drm/4/37594/OEBPS/Audio/1/untitled-20.mp3"
+            },
+            {
+                "page": "drm/4/37594/OEBPS/Images/1/67695280-81D3-4225-8E60-A764C3ABD6EC.jpg",
+                "audio": "drm/4/37594/OEBPS/Audio/1/untitled-21.mp3"
+            },
+            {
+                "page": "drm/4/37594/OEBPS/Images/1/6EF1A260-9F02-4C70-A743-90B067A3068A.jpg"
+            },
+            {
+                "page": "drm/4/37594/OEBPS/Images/1/63106FD1-B02D-4A07-9AB2-B8842B61FB0C.jpg",
+                "audio": "drm/4/37594/OEBPS/Audio/1/untitled-22.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/37594/OEBPS/Images/1/C3865584-BB12-40BD-A5D2-1FF7A633D14D.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "37594",
+        "id": "37594",
+        "title": "The Gingerbread Man",
+        "author": "Eric Suben",
+        "illustrator": "Joe Boddy",
+        "numPages": 24,
+        "bookDescription": "An old woman makes a gingerbread man for supper. When the gingerbread man hops out of the oven and runs across the farm the adventure begins.",
+        "coverColorR": 217,
+        "coverColorG": 204,
+        "coverColorB": 167,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Twin Sisters IP, LLC.",
+        "publisherId": "2",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 440,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "91",
+        "subjectDesc": "Fairy Tales, Folk Tales & Myths",
+        "subjectColor": "F54444",
+        "copyright": "",
+        "aspectRatio": 0.7752,
+        "contentHash": "ea9a50cbcc6f348d778d",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373569
+    },
+    "userBook": {
+        "modelId": "46250489-37594",
+        "userId": "46250489",
+        "bookId": "37594",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559305166,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559305166,
+        "book": {
+            "modelId": "37594",
+            "title": "The Gingerbread Man",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "ea9a50cbcc6f348d778d"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "396013",
+            "user_id": "30294390",
+            "book_id": "37594",
+            "title": "The Gingerbread Man",
+            "description": "",
+            "date_created": 1556552590,
+            "date_modified": 1556552590,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Who did the old woman make the gingerbread man for?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "her husband",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "fox",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "dog",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "cow",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What was gingerbread man's catch phrase?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "\"Run, Run, as fast as you can, you can't catch me, I'm the gingerbread man!\"",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "\"I'm the gingerbread baby\"",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "\"Ai yo!\"",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "\"I'll run and I'll run with a leap and a twirl\"",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "After the gingerbread man left the old woman and the farm where did he go?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "town",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "woods",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "amusement park",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "store",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Who did the gingerbread man meet at the stream?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "fox",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "cow",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "hound",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "townspeople",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "What did the fox do?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "trick him and eat him",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "help him",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "give him to the people",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "refuse to help",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "396013",
+            "creatorName": "Brooklynn J.",
+            "avatarId": "37",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "30294390",
+                "udid": "5b96c0fa965e36.11047990",
+                "journalName": "Brooklynn J.",
+                "journalCoverAvatar": "37",
+                "journalCoverColor": "0.84705882352941 0.18039215686275 0.46274509803922 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "983788599",
+                "fid": "",
+                "accountID": "5BCE058B-4439-0497-EA65-299EDAAC9D87",
+                "simpleAccountId": "3367394",
+                "pagesFlipped": 223,
+                "nufComplete": 1,
+                "readingAge": 6.8666666666667,
+                "startingAge": 5,
+                "status": 0,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 166,
+                "xpLevel": 4,
+                "dateLastLogin": 1558625350,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "Brooklynn",
+                "lastName": "J",
+                "accountType": 1,
+                "dateModified": 1558627437,
+                "grade": 0
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Who did the old woman make the gingerbread man for?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "her husband",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "fox",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "dog",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "cow",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What was gingerbread man's catch phrase?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "\"Run, Run, as fast as you can, you can't catch me, I'm the gingerbread man!\"",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "\"I'm the gingerbread baby\"",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "\"Ai yo!\"",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "\"I'll run and I'll run with a leap and a twirl\"",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "After the gingerbread man left the old woman and the farm where did he go?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "town",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "woods",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "amusement park",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "store",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Who did the gingerbread man meet at the stream?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "fox",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "cow",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "hound",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "townspeople",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "What did the fox do?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "trick him and eat him",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "help him",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "give him to the people",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "refuse to help",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

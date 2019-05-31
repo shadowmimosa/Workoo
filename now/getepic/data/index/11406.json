@@ -1,0 +1,209 @@
+{
+    "publisherData": {
+        "modelId": "76",
+        "name": "Brave Mouse Books",
+        "url": "http://www.ipgbook.com/brave-mouse-books-publisher-BMB.php",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1508279956
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/96da03eec73646cf5a0df018a0416a52.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/2cd25c2a4e123dac461b8f2951ea75a3.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/5d1033d9e65b18a723bb2977ef8455ff.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/f94b49af1283a376ea937f390109628d.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/640620dbf5cb0a5951b9464c7a99af9b.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/99ccde2b65b0df129626a4a0ac323349.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/0a5980d2d0d3dac742b58274da630153.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/c62d94977675fceeac19cb8c7d5c7e83.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/7140dc46a7cd68967a5a1abc61a01371.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/8d9d7a2c72bc808a692d87d3848894f0.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/4da59fabad71a8b14387458b5d02c4a0.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/31b783bfe6dbbbc44a5ee2b6a23e6eab.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/1291d514226d6bf7394b222d6bb8f1c7.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/b9cbbb7e82cd5b9532770330867ca1e4.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/fba54365790b67d088e0e7d058a8ad30.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/1bc90f1b68aa86640ec3c8a59f51f180.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/754530ee80a4333a2ea5443b58677124.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/6558602807f1cdebba9b83394ff39dad.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/3dc64e1d8f99612beb6f732c7ce06f4f.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/2ed200ab60dcfeb6742c84fec7103c9e.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/10235f4569d5c63c74e414784846ae03.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/778674fc28e9a3767211d705e3448284.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/e6655079b94f96c2bd5fc55fc5ab387a.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/4042383e51c86f4ee81fede2612c5449.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/55c59f4d8685b2dcda754b9cda047918.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/58218f0e5116b5c8afaab4d9e9bc6f2f.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/bd3ec58f22ba806b36f903866bfd4f54.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/99d198dec83efc5b28bf123c3afd0132.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/044f75ebed3b05f877e8d60a22233b98.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/8b57136c9429e727b53aef8758b83ca7.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/1fab7d9c24b0d56bcd5ae98da993b11b.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/69da76f464962a8284c8325871e13c7e.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/82cad17f6f01c7d0c2e15a253bc2fa07.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/e970a69bdf6ca1cc85f74c557633071a.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/22fe3fcd548a0cc07b7b6b0ec9937ed0.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/aacec3e63de8e9b81c9ea2b18d53b961.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/3af71b8bf6180da6a6e106f622d6d702.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/a2c8635a0aa594dec0814df4eabf8b79.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/1e718b6e823f52992e6266b2663e1ce1.jpg"
+            },
+            {
+                "page": "drm/6/11406/OEBPS/Images/1/4e86c6f47d45b1818a1c1019e42fe825.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/6/11406/OEBPS/Images/1/7d799bf03c435a3aad6550ad846573ca.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "11406",
+        "id": "11406",
+        "title": "Rat Attack: A Short Vowel Adventure",
+        "author": "Molly Coxe",
+        "illustrator": " ",
+        "numPages": 40,
+        "bookDescription": "Rat Attack features the \u201cshort a\u201d sound, some sneaky, jam-loving rats, and three brave mice who have a plan to save Gram\u2014and the jam.",
+        "coverColorR": 121,
+        "coverColorG": 109,
+        "coverColorB": 98,
+        "version": 12309,
+        "previewPercent": 20,
+        "publisher": "Brave Mouse Books",
+        "publisherId": "76",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "280L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 733,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Humorous Stories",
+        "subjectColor": "FFD673",
+        "copyright": "",
+        "aspectRatio": 0.7222,
+        "contentHash": "9c88be6f1e7e444c050f",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372567
+    },
+    "userBook": {
+        "modelId": "46250489-11406",
+        "userId": "46250489",
+        "bookId": "11406",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311742,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311742,
+        "book": {
+            "modelId": "11406",
+            "title": "Rat Attack: A Short Vowel Adventure",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "9c88be6f1e7e444c050f"
+        }
+    },
+    "quiz": null
+}

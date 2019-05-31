@@ -1,0 +1,155 @@
+{
+    "publisherData": {
+        "modelId": "31",
+        "name": "Bellwether Media",
+        "url": "http://www.bellwethermedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539569528
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/35874/OEBPS/Images/1/194D45B5-E5EA-4A2D-B199-77D3AF5167A5.jpg"
+            },
+            {
+                "page": "drm/4/35874/OEBPS/Images/1/63336D17-2CCA-4503-8215-38AD76016365.jpg"
+            },
+            {
+                "page": "drm/4/35874/OEBPS/Images/1/D2B2A8EF-F641-498E-9DFC-99A9E36EF8DF.jpg"
+            },
+            {
+                "page": "drm/4/35874/OEBPS/Images/1/076FE506-F7F6-4DF4-93B2-26362712E5F2.jpg"
+            },
+            {
+                "page": "drm/4/35874/OEBPS/Images/1/572C8B52-FBD0-4189-8637-C3868381ACAD.jpg"
+            },
+            {
+                "page": "drm/4/35874/OEBPS/Images/1/3CCF2D74-0B89-4533-A4E1-9B4168E67DB0.jpg"
+            },
+            {
+                "page": "drm/4/35874/OEBPS/Images/1/C8D02C00-9570-4794-973C-72060460D2C6.jpg"
+            },
+            {
+                "page": "drm/4/35874/OEBPS/Images/1/5EA97CBF-A119-4240-A6DF-6DF74B12B926.jpg"
+            },
+            {
+                "page": "drm/4/35874/OEBPS/Images/1/92017F0A-4AE4-4770-92EE-C42DEF1F1AB2.jpg"
+            },
+            {
+                "page": "drm/4/35874/OEBPS/Images/1/3A28C217-2297-4AB4-A5C9-29DC13094F2F.jpg"
+            },
+            {
+                "page": "drm/4/35874/OEBPS/Images/1/1EEB6E6D-AEAD-47FC-A5D9-F5D48B277421.jpg"
+            },
+            {
+                "page": "drm/4/35874/OEBPS/Images/1/CBCF2D33-47C9-40E5-A99D-471234540D03.jpg"
+            },
+            {
+                "page": "drm/4/35874/OEBPS/Images/1/58EFE013-1732-48F4-A002-61C0813EF724.jpg"
+            },
+            {
+                "page": "drm/4/35874/OEBPS/Images/1/A8C280B4-775A-47CA-B01C-D46152B7C915.jpg"
+            },
+            {
+                "page": "drm/4/35874/OEBPS/Images/1/ADD77FFC-F73D-49E0-B362-5364BF931449.jpg"
+            },
+            {
+                "page": "drm/4/35874/OEBPS/Images/1/8087813E-6E1F-42A8-ADDE-A375F12EF98D.jpg"
+            },
+            {
+                "page": "drm/4/35874/OEBPS/Images/1/654E4B7F-56FA-45C5-B2CD-399BA9ABC28B.jpg"
+            },
+            {
+                "page": "drm/4/35874/OEBPS/Images/1/818D1DFC-01F4-426D-97B0-3DF5FCBE3B4B.jpg"
+            },
+            {
+                "page": "drm/4/35874/OEBPS/Images/1/B3B10A17-61FC-4F8E-9902-E55623EFCB71.jpg"
+            },
+            {
+                "page": "drm/4/35874/OEBPS/Images/1/7AB74BA4-F352-495F-B8E6-63044E3AF65D.jpg"
+            },
+            {
+                "page": "drm/4/35874/OEBPS/Images/1/437394D4-8BD4-4596-A2BB-8B7D74EFD483.jpg"
+            },
+            {
+                "page": "drm/4/35874/OEBPS/Images/1/562FBEF1-996F-40DE-9EA5-15C1CE4E31BB.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/35874/OEBPS/Images/1/9EC53F99-28FA-46F2-BABD-05E791B3CFB4.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "35874",
+        "id": "35874",
+        "title": "Rabbits",
+        "author": "Hollie Endres",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "This book introduces young readers to the physical characteristics and lifestyle of rabbits.",
+        "coverColorR": 147,
+        "coverColorG": 143,
+        "coverColorB": 130,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Bellwether Media",
+        "publisherId": "31",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "260L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 403,
+        "ar": "1.1",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Farm Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.7227,
+        "contentHash": "18c36cae2f21738ff245",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1555373438
+    },
+    "userBook": {
+        "modelId": "46250489-35874",
+        "userId": "46250489",
+        "bookId": "35874",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559312148,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559312148,
+        "book": {
+            "modelId": "35874",
+            "title": "Rabbits",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "18c36cae2f21738ff245"
+        }
+    },
+    "quiz": null
+}

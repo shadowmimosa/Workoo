@@ -1,0 +1,166 @@
+{
+    "publisherData": {
+        "modelId": "31",
+        "name": "Bellwether Media",
+        "url": "http://www.bellwethermedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539569528
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/47211/OEBPS/Images/1/7214e3d57741fcd4b89f979c51edc212.jpg",
+                "audio": "drm/1/47211/OEBPS/Audio/1/9781681034010-01.mp3"
+            },
+            {
+                "page": "drm/1/47211/OEBPS/Images/1/c09b234a0c432a2dc3f9f3a0bcf576b0.jpg",
+                "audio": "drm/1/47211/OEBPS/Audio/1/9781681034010-02.mp3"
+            },
+            {
+                "page": "drm/1/47211/OEBPS/Images/1/698315b7798c2276f3e21410f46eb9e6.jpg"
+            },
+            {
+                "page": "drm/1/47211/OEBPS/Images/1/a8d2dcf70c9461552797c526e2648984.jpg",
+                "audio": "drm/1/47211/OEBPS/Audio/1/9781681034010-03.mp3"
+            },
+            {
+                "page": "drm/1/47211/OEBPS/Images/1/fd4098eb1bb094d675c07ab65e00ef7f.jpg"
+            },
+            {
+                "page": "drm/1/47211/OEBPS/Images/1/7c05e394141df257c897e1799702a85e.jpg",
+                "audio": "drm/1/47211/OEBPS/Audio/1/9781681034010-04.mp3"
+            },
+            {
+                "page": "drm/1/47211/OEBPS/Images/1/483a3d24c9d3eabe0e1f7edb4d538933.jpg"
+            },
+            {
+                "page": "drm/1/47211/OEBPS/Images/1/637c947da3a48bf910262b25ec949439.jpg",
+                "audio": "drm/1/47211/OEBPS/Audio/1/9781681034010-05.mp3"
+            },
+            {
+                "page": "drm/1/47211/OEBPS/Images/1/552d693c3fc2002b4bba3d1e2e4282a5.jpg"
+            },
+            {
+                "page": "drm/1/47211/OEBPS/Images/1/dbaff41eca0366ad98cc637f3b7cbc4f.jpg",
+                "audio": "drm/1/47211/OEBPS/Audio/1/9781681034010-06.mp3"
+            },
+            {
+                "page": "drm/1/47211/OEBPS/Images/1/edc0cd1085783bc23ab908f1e6ccdad3.jpg"
+            },
+            {
+                "page": "drm/1/47211/OEBPS/Images/1/747acca9955900436b982a5b1fafdbfb.jpg",
+                "audio": "drm/1/47211/OEBPS/Audio/1/9781681034010-07.mp3"
+            },
+            {
+                "page": "drm/1/47211/OEBPS/Images/1/bea9e96d6f90a20346864630b39f6e3f.jpg"
+            },
+            {
+                "page": "drm/1/47211/OEBPS/Images/1/1e0aea78a7571588d41f905ad3047707.jpg",
+                "audio": "drm/1/47211/OEBPS/Audio/1/9781681034010-08.mp3"
+            },
+            {
+                "page": "drm/1/47211/OEBPS/Images/1/e7395d4f190ce6658f7584d8eaf04f58.jpg"
+            },
+            {
+                "page": "drm/1/47211/OEBPS/Images/1/b7aea32097a3b46d046cb836518ccf0e.jpg",
+                "audio": "drm/1/47211/OEBPS/Audio/1/9781681034010-09.mp3"
+            },
+            {
+                "page": "drm/1/47211/OEBPS/Images/1/572ddc93e270d1e37df099576d4bddf9.jpg"
+            },
+            {
+                "page": "drm/1/47211/OEBPS/Images/1/acabecdb3d4ccf5de186c054c26f80c3.jpg",
+                "audio": "drm/1/47211/OEBPS/Audio/1/9781681034010-10.mp3"
+            },
+            {
+                "page": "drm/1/47211/OEBPS/Images/1/f209c8343900cd5fe00125feca0d47f2.jpg"
+            },
+            {
+                "page": "drm/1/47211/OEBPS/Images/1/dfe76acaa627e1d234314310bda31b41.jpg",
+                "audio": "drm/1/47211/OEBPS/Audio/1/9781681034010-11.mp3"
+            },
+            {
+                "page": "drm/1/47211/OEBPS/Images/1/d17ee23424aca030be84b0858ce26544.jpg"
+            },
+            {
+                "page": "drm/1/47211/OEBPS/Images/1/0196922e88a8c14a733fb77a082e2b32.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/47211/OEBPS/Images/1/6d5f2807ea51bcec8334a73027389b6f.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "47211",
+        "id": "47211",
+        "title": "Amazing Trains: High-Speed Trains",
+        "author": "Christina Leighton",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "High-speed trains get their nickname from their bullet-like shape. Their long, curved noses allow speeds faster than 100 miles per hour!",
+        "coverColorR": 164,
+        "coverColorG": 164,
+        "coverColorB": 152,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Bellwether Media",
+        "publisherId": "31",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "450L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 806,
+        "ar": "1.7",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Things That GO",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 0.7222,
+        "contentHash": "5693b239ce34e1ddaeff",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374070
+    },
+    "userBook": {
+        "modelId": "46250489-47211",
+        "userId": "46250489",
+        "bookId": "47211",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559312014,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559312014,
+        "book": {
+            "modelId": "47211",
+            "title": "Amazing Trains: High-Speed Trains",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "5693b239ce34e1ddaeff"
+        }
+    },
+    "quiz": null
+}

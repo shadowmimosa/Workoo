@@ -1,0 +1,493 @@
+{
+    "publisherData": {
+        "modelId": "107",
+        "name": "Rourke Educational Media",
+        "url": "http://rourkeeducationalmedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570193
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/13837/OEBPS/Images/1/42a9591ee2808adb5e5efe8785d158aa.jpg",
+                "audio": "drm/7/13837/OEBPS/Audio/1/22e6aa2a339ad96bed8eb68b63631de8.mp3"
+            },
+            {
+                "page": "drm/7/13837/OEBPS/Images/1/4136ee718a26b164127357504056da6c.jpg"
+            },
+            {
+                "page": "drm/7/13837/OEBPS/Images/1/a86ff4fac70c479b212dedd756f9ae9e.jpg",
+                "audio": "drm/7/13837/OEBPS/Audio/1/9b228c99dc25068301b5f10626c4b136.mp3"
+            },
+            {
+                "page": "drm/7/13837/OEBPS/Images/1/97160b928a34528129730a636a2a312c.jpg",
+                "audio": "drm/7/13837/OEBPS/Audio/1/9753076609d10e8f3c87fb653f1f607d.mp3"
+            },
+            {
+                "page": "drm/7/13837/OEBPS/Images/1/24cf6253d075dc7f468bfca0fdda7601.jpg"
+            },
+            {
+                "page": "drm/7/13837/OEBPS/Images/1/5ddb6a404a9423f96be616065afd5369.jpg",
+                "audio": "drm/7/13837/OEBPS/Audio/1/f1951dd67e17c09da70f6faf081cd00a.mp3"
+            },
+            {
+                "page": "drm/7/13837/OEBPS/Images/1/0eeea4d20234bca41e875b0b0c5ececc.jpg"
+            },
+            {
+                "page": "drm/7/13837/OEBPS/Images/1/c580898b7290faf31937ae3330729fd5.jpg",
+                "audio": "drm/7/13837/OEBPS/Audio/1/5fe2a425c013bc6dae23006cc035fc5b.mp3"
+            },
+            {
+                "page": "drm/7/13837/OEBPS/Images/1/d3c26ae6c9c618d540dd974fc8884d2a.jpg"
+            },
+            {
+                "page": "drm/7/13837/OEBPS/Images/1/42c1f80f0483dd5814f92d70a9ee437a.jpg",
+                "audio": "drm/7/13837/OEBPS/Audio/1/c79ad916aa6e04667ddb07f8e71d01e1.mp3"
+            },
+            {
+                "page": "drm/7/13837/OEBPS/Images/1/6605e5288f948bd24429604217fb673d.jpg"
+            },
+            {
+                "page": "drm/7/13837/OEBPS/Images/1/dd51821d7a036959b34c0f9de9bed22c.jpg",
+                "audio": "drm/7/13837/OEBPS/Audio/1/72e859284efa2f0bd455495488a06584.mp3"
+            },
+            {
+                "page": "drm/7/13837/OEBPS/Images/1/188263f34c53b19952a06f5d3bef7a3d.jpg"
+            },
+            {
+                "page": "drm/7/13837/OEBPS/Images/1/d89da098d8311edb541a8d8a41fb7a58.jpg",
+                "audio": "drm/7/13837/OEBPS/Audio/1/2aa9bbbdbc36e61d68722623678a6bc5.mp3"
+            },
+            {
+                "page": "drm/7/13837/OEBPS/Images/1/0832cc0b6033f12d60663e1c10f42689.jpg"
+            },
+            {
+                "page": "drm/7/13837/OEBPS/Images/1/c5dfe6290fe527f040558a1be116d65c.jpg",
+                "audio": "drm/7/13837/OEBPS/Audio/1/d7a42b376ed4438503a9b618d419ccbc.mp3"
+            },
+            {
+                "page": "drm/7/13837/OEBPS/Images/1/be8837dcc870dd645989f84370abfef7.jpg"
+            },
+            {
+                "page": "drm/7/13837/OEBPS/Images/1/c59352a1bb0252f374b62e073ad9f0b2.jpg",
+                "audio": "drm/7/13837/OEBPS/Audio/1/0908edea2b2d24ff4be69b0ae0199447.mp3"
+            },
+            {
+                "page": "drm/7/13837/OEBPS/Images/1/d396e973d9f6c9d60a24d85b7d4edfb0.jpg"
+            },
+            {
+                "page": "drm/7/13837/OEBPS/Images/1/a39e73b0a70d0312575060aebe1bcf78.jpg",
+                "audio": "drm/7/13837/OEBPS/Audio/1/df8c72afcdf7dc79f38671569b03cb9a.mp3"
+            },
+            {
+                "page": "drm/7/13837/OEBPS/Images/1/a77a1cd8c45c66c0fc9f888ba9ccffb7.jpg"
+            },
+            {
+                "page": "drm/7/13837/OEBPS/Images/1/e7a5fbf66730f9cc2a8d40a8148dec4a.jpg",
+                "audio": "drm/7/13837/OEBPS/Audio/1/aa9aa1fed518c09c7d6fa67dca168d74.mp3"
+            },
+            {
+                "page": "drm/7/13837/OEBPS/Images/1/0115d787f75a63c707198d5a6dc7c2a6.jpg"
+            },
+            {
+                "page": "drm/7/13837/OEBPS/Images/1/fcb0effd8700b98edb2aab6ca7b221b9.jpg"
+            },
+            {
+                "page": "drm/7/13837/OEBPS/Images/1/367cf1d690cfc47470fa4611aeb2578b.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/13837/OEBPS/Images/1/7fc5f3cd36b01bb066b9b61076eaa06d.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "13837",
+        "id": "13837",
+        "title": "What's the Place Value?",
+        "author": "Shirley Duke",
+        "illustrator": " ",
+        "numPages": 25,
+        "bookDescription": "Learn about the ones and tens place value with the help of cool popsicles!",
+        "coverColorR": 149,
+        "coverColorG": 145,
+        "coverColorB": 106,
+        "version": 1,
+        "previewPercent": 20,
+        "publisher": "Rourke Educational Media",
+        "publisherId": "107",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 833,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 80,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "e339b2a2a1083154b0e5",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372695
+    },
+    "userBook": {
+        "modelId": "46250489-13837",
+        "userId": "46250489",
+        "bookId": "13837",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311026,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311026,
+        "book": {
+            "modelId": "13837",
+            "title": "What's the Place Value?",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "e339b2a2a1083154b0e5"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "150074",
+            "user_id": "16777333",
+            "book_id": "13837",
+            "title": "Place Value Tens And Ones",
+            "description": "",
+            "date_created": 1512149158,
+            "date_modified": 1515525917,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "quizQuestionChoices": [
+                        {
+                            "correct": 1,
+                            "title": "4",
+                            "id": 0
+                        },
+                        {
+                            "correct": 0,
+                            "title": "3",
+                            "id": 1
+                        },
+                        {
+                            "correct": 0,
+                            "title": "8",
+                            "id": 2
+                        },
+                        {
+                            "correct": 0,
+                            "title": "7",
+                            "id": 3
+                        }
+                    ],
+                    "title": "How many tens are in 47?",
+                    "id": 0
+                },
+                {
+                    "quizQuestionChoices": [
+                        {
+                            "correct": 1,
+                            "title": "3",
+                            "id": 0
+                        },
+                        {
+                            "correct": 0,
+                            "title": "5",
+                            "id": 1
+                        },
+                        {
+                            "correct": 0,
+                            "title": "1",
+                            "id": 2
+                        },
+                        {
+                            "correct": 0,
+                            "title": "7",
+                            "id": 3
+                        }
+                    ],
+                    "title": "How many ones are in 53?",
+                    "id": 1
+                },
+                {
+                    "quizQuestionChoices": [
+                        {
+                            "correct": 1,
+                            "title": "6 ",
+                            "id": 0
+                        },
+                        {
+                            "correct": 0,
+                            "title": "0",
+                            "id": 1
+                        },
+                        {
+                            "correct": 0,
+                            "title": "5",
+                            "id": 2
+                        },
+                        {
+                            "correct": 0,
+                            "title": "1",
+                            "id": 3
+                        }
+                    ],
+                    "title": "In 61 which digit is in the tens place?",
+                    "id": 2
+                },
+                {
+                    "quizQuestionChoices": [
+                        {
+                            "correct": 1,
+                            "title": "0",
+                            "id": 0
+                        },
+                        {
+                            "correct": 0,
+                            "title": "1",
+                            "id": 1
+                        },
+                        {
+                            "correct": 0,
+                            "title": "2",
+                            "id": 2
+                        },
+                        {
+                            "correct": 0,
+                            "title": "3",
+                            "id": 3
+                        }
+                    ],
+                    "title": "In 20, how many ones are there?",
+                    "id": 3
+                },
+                {
+                    "quizQuestionChoices": [
+                        {
+                            "correct": 1,
+                            "title": "4",
+                            "id": 0
+                        },
+                        {
+                            "correct": 0,
+                            "title": "8",
+                            "id": 1
+                        },
+                        {
+                            "correct": 0,
+                            "title": "7",
+                            "id": 2
+                        },
+                        {
+                            "correct": 0,
+                            "title": "3",
+                            "id": 3
+                        }
+                    ],
+                    "title": "Which digit is in the ones place in 84?",
+                    "id": 4
+                }
+            ],
+            "modelId": "150074",
+            "creatorName": "Sarah P.",
+            "avatarId": "27",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "16777333",
+                "udid": "599c61285cae18.89702705",
+                "journalName": "Sarah P.",
+                "journalCoverAvatar": "27",
+                "journalCoverColor": "0.15686274509804 0.47058823529412 0.60392156862745 1",
+                "journalFrameImage": "6",
+                "journalCoverImage": "15",
+                "themeId": "6",
+                "code": "682981",
+                "fid": "",
+                "accountID": "B21C6863-6D27-5EA2-0FF8-3CDB9E942596",
+                "simpleAccountId": "4425344",
+                "pagesFlipped": 2175,
+                "nufComplete": 1,
+                "readingAge": 8.93333,
+                "startingAge": 9,
+                "status": 9,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 2872,
+                "xpLevel": 26,
+                "dateLastLogin": 0,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "Sarah",
+                "lastName": "Perkins",
+                "accountType": 1,
+                "dateModified": 1559245501
+            }
+        },
+        "quizQuestions": [
+            {
+                "quizQuestionChoices": [
+                    {
+                        "correct": 1,
+                        "title": "4",
+                        "id": 0
+                    },
+                    {
+                        "correct": 0,
+                        "title": "3",
+                        "id": 1
+                    },
+                    {
+                        "correct": 0,
+                        "title": "8",
+                        "id": 2
+                    },
+                    {
+                        "correct": 0,
+                        "title": "7",
+                        "id": 3
+                    }
+                ],
+                "title": "How many tens are in 47?",
+                "id": 0
+            },
+            {
+                "quizQuestionChoices": [
+                    {
+                        "correct": 1,
+                        "title": "3",
+                        "id": 0
+                    },
+                    {
+                        "correct": 0,
+                        "title": "5",
+                        "id": 1
+                    },
+                    {
+                        "correct": 0,
+                        "title": "1",
+                        "id": 2
+                    },
+                    {
+                        "correct": 0,
+                        "title": "7",
+                        "id": 3
+                    }
+                ],
+                "title": "How many ones are in 53?",
+                "id": 1
+            },
+            {
+                "quizQuestionChoices": [
+                    {
+                        "correct": 1,
+                        "title": "6 ",
+                        "id": 0
+                    },
+                    {
+                        "correct": 0,
+                        "title": "0",
+                        "id": 1
+                    },
+                    {
+                        "correct": 0,
+                        "title": "5",
+                        "id": 2
+                    },
+                    {
+                        "correct": 0,
+                        "title": "1",
+                        "id": 3
+                    }
+                ],
+                "title": "In 61 which digit is in the tens place?",
+                "id": 2
+            },
+            {
+                "quizQuestionChoices": [
+                    {
+                        "correct": 1,
+                        "title": "0",
+                        "id": 0
+                    },
+                    {
+                        "correct": 0,
+                        "title": "1",
+                        "id": 1
+                    },
+                    {
+                        "correct": 0,
+                        "title": "2",
+                        "id": 2
+                    },
+                    {
+                        "correct": 0,
+                        "title": "3",
+                        "id": 3
+                    }
+                ],
+                "title": "In 20, how many ones are there?",
+                "id": 3
+            },
+            {
+                "quizQuestionChoices": [
+                    {
+                        "correct": 1,
+                        "title": "4",
+                        "id": 0
+                    },
+                    {
+                        "correct": 0,
+                        "title": "8",
+                        "id": 1
+                    },
+                    {
+                        "correct": 0,
+                        "title": "7",
+                        "id": 2
+                    },
+                    {
+                        "correct": 0,
+                        "title": "3",
+                        "id": 3
+                    }
+                ],
+                "title": "Which digit is in the ones place in 84?",
+                "id": 4
+            }
+        ]
+    }
+}

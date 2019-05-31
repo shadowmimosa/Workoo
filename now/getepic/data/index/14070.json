@@ -1,0 +1,224 @@
+{
+    "publisherData": {
+        "modelId": "94",
+        "name": "Sleeping Bear Press",
+        "url": "http://sleepingbearpress.com",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491261794
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/6756BDAE-1B77-461B-8117-1CCB45A4905B.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/6E657955-9F01-4F7C-8A8C-24633674561D.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/847D6150-0AFF-45EA-B5CE-CF6BA089166A.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/F00E2D1F-982C-41D8-AA33-5E403EC3299F.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/833A5AED-5D02-42D6-AD38-5734F5EDA52A.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/EE001696-1B07-44DE-BF52-4B395BB0164E.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/996DEA6D-1A2A-4BE0-9C48-D44B27199865.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/EDAB7A0B-104E-417D-A0DF-BFD52275519A.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/DC19D0D6-9E74-48D2-B788-7DD60CA38F27.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/9576E1D7-AB21-4FAD-80F8-637D15536AA0.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/607B9896-F51A-4FE4-86DC-269D35712597.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/192C5940-693A-4437-86CB-CFB10EE4E8D1.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/E977F5AD-BE80-4E60-8F3E-94EB748BFE3D.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/5ABD6DB0-19B8-478F-8A57-38C7D903D85C.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/BE6574F4-AFF9-4777-A7AC-2CCB60C6E042.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/9053C2A5-B7E0-4EFC-B3CD-200CBE872DF7.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/03DC9013-5F28-4718-9A1B-88C1B2D9E657.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/E9802560-E236-444A-A4E3-0EDDF5BBB614.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/3B5F2D91-0C3C-4EAC-A370-2B91BE13167F.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/EDFD5F4A-126E-4AD6-A453-B19C4C7E1CF1.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/27DFF507-B7A4-477A-85A8-386855993308.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/1A0800F0-FA89-44A9-BB2C-005D8AAF8B9F.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/0B814429-7F58-46E9-B868-AF2C6D16D045.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/DB04840B-0617-4D6A-8131-0D73AE5CC62C.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/952E14C9-2FAB-486A-872C-6A41A13BCA0B.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/B0A22DBE-4EB6-4AD2-A98E-5E44B0C18359.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/A94B3CBE-662C-4111-9AB1-34752427FE79.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/568A16F5-A181-45EA-9CCC-F2815D36E9D6.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/A4084C21-AB62-45B9-A9F0-EB8C9A403063.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/E55E4AD4-F2D6-48A2-A601-652A85D89829.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/0CFBC6FF-2291-47B7-845E-01D946F3BC18.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/B30DC0EA-D167-47C3-AF25-766402B5A82F.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/CE2A6645-D6D8-4321-B0AB-76A107FCDA4F.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/89113CAF-B6A2-4AD9-86D8-DE1B9FFADCAB.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/94CD8D2B-4614-4D51-BB29-22737D58F280.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/11ABB64C-0865-436C-A1B4-BBA107977944.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/A9AABD8B-B58E-4E29-8423-692416F8333C.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/6A4E5532-A108-44A5-BB0C-46205C4E68B8.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/49009C72-CA62-4D29-BAEC-907606107BF6.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/7AAD6018-8A68-41FC-9D90-BC38322E5481.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/9D0EA7CC-3D4C-4082-8371-B3C6C96D8401.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/C35C900E-7400-4989-ACCF-3EB3271B4E05.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/424BEF18-C76B-44FB-9E8F-8075A92AB1D6.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/E0ABD480-A4C2-498E-A1D1-FF90DFD357A2.jpg"
+            },
+            {
+                "page": "drm/0/14070/OEBPS/Images/1/10E1B66E-D010-4171-BBBD-3C4527817C22.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/14070/OEBPS/Images/1/8C5C7282-E6DB-43B9-8A89-206D3B34E508.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "14070",
+        "id": "14070",
+        "title": "Little Birthday",
+        "author": "Sleeping Bear",
+        "illustrator": "Helle Urban",
+        "numPages": 45,
+        "bookDescription": "A colorful board book full of rhyming riddles that celebrates every child's favorite day of the year--birthdays!",
+        "coverColorR": 191,
+        "coverColorG": 208,
+        "coverColorB": 131,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Sleeping Bear Press",
+        "publisherId": "94",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 675,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.7002,
+        "contentHash": "5a9054f403187b2d6f2d",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1557335956
+    },
+    "userBook": {
+        "modelId": "46250489-14070",
+        "userId": "46250489",
+        "bookId": "14070",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311063,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311063,
+        "book": {
+            "modelId": "14070",
+            "title": "Little Birthday",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "5a9054f403187b2d6f2d"
+        }
+    },
+    "quiz": null
+}

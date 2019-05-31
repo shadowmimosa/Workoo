@@ -1,0 +1,156 @@
+{
+    "publisherData": {
+        "modelId": "29",
+        "name": "Lerner Publishing Group",
+        "url": "https://www.lernerbooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1523573683
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/6/36136/OEBPS/Images/1/D073D307-1F3E-4CD9-A435-36C7FE2334C8.jpg"
+            },
+            {
+                "page": "drm/6/36136/OEBPS/Images/1/C45A0234-DEC4-48E1-ABF9-242BE3C314E7.jpg"
+            },
+            {
+                "page": "drm/6/36136/OEBPS/Images/1/43E4A6E6-688D-4C37-A740-516EE37CF933.jpg"
+            },
+            {
+                "page": "drm/6/36136/OEBPS/Images/1/3AC9A0D3-8F02-45C9-9488-87FD8053F1EE.jpg"
+            },
+            {
+                "page": "drm/6/36136/OEBPS/Images/1/CE8E31F5-D183-405F-B00B-2BD1B30DD90E.jpg"
+            },
+            {
+                "page": "drm/6/36136/OEBPS/Images/1/E249D24D-3CCA-422A-B1CA-CBDC9C262422.jpg"
+            },
+            {
+                "page": "drm/6/36136/OEBPS/Images/1/DFF6459A-4813-4C13-9D16-3AAD95E2B025.jpg"
+            },
+            {
+                "page": "drm/6/36136/OEBPS/Images/1/0674A911-E253-4B68-BDA9-2036FFF71789.jpg"
+            },
+            {
+                "page": "drm/6/36136/OEBPS/Images/1/7FC40078-7BBB-4BC9-8230-C5CB3BCEB8D0.jpg"
+            },
+            {
+                "page": "drm/6/36136/OEBPS/Images/1/9DA89B4D-921A-4BE9-8191-704F54A3E143.jpg"
+            },
+            {
+                "page": "drm/6/36136/OEBPS/Images/1/02D4C395-B20F-4E67-B478-B7F8F8F1AFBE.jpg"
+            },
+            {
+                "page": "drm/6/36136/OEBPS/Images/1/298D129A-B253-41EF-AE25-32C9A83EA295.jpg"
+            },
+            {
+                "page": "drm/6/36136/OEBPS/Images/1/4F1C9A41-7BD1-435C-88FC-5AB896DF2683.jpg"
+            },
+            {
+                "page": "drm/6/36136/OEBPS/Images/1/D7370F35-8B89-4E2C-885B-9740D7E35599.jpg"
+            },
+            {
+                "page": "drm/6/36136/OEBPS/Images/1/4398C079-511D-4624-8251-E16E465312B4.jpg"
+            },
+            {
+                "page": "drm/6/36136/OEBPS/Images/1/0F5CA20F-8EB8-4831-B573-863B4BFFD2AE.jpg"
+            },
+            {
+                "page": "drm/6/36136/OEBPS/Images/1/BC07395F-40D4-481F-8278-CCE4ACD5AC26.jpg"
+            },
+            {
+                "page": "drm/6/36136/OEBPS/Images/1/EE7571E6-6FC2-4F5F-9BEC-F7036B9216BF.jpg"
+            },
+            {
+                "page": "drm/6/36136/OEBPS/Images/1/946F491C-291D-4EDB-AED2-454045ABC737.jpg"
+            },
+            {
+                "page": "drm/6/36136/OEBPS/Images/1/BF0BDCB2-DD97-4128-84BC-ED01C748096D.jpg"
+            },
+            {
+                "page": "drm/6/36136/OEBPS/Images/1/ED9AA7A4-F1C1-4FF1-8265-F021167D2FEC.jpg"
+            },
+            {
+                "page": "drm/6/36136/OEBPS/Images/1/52964AE0-8214-47AD-B2A0-54743676F714.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/6/36136/OEBPS/Images/1/5D06E0A6-12BF-4B96-BAFA-E7229EB3198B.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "36136",
+        "id": "36136",
+        "title": "Ambulances on the Go",
+        "author": "Kerry Dinmont",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Carefully leveled text and fresh, vibrant photos engage young readers in learning about how ambulances work.",
+        "coverColorR": 153,
+        "coverColorG": 180,
+        "coverColorB": 88,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Lerner Publishing Group",
+        "publisherId": "29",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "420L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 806,
+        "ar": "1.5",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "j",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Things That GO",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 0.9722,
+        "contentHash": "0935bf3429508fc758a7",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1555373460,
+        "duration": 4
+    },
+    "userBook": {
+        "modelId": "46250489-36136",
+        "userId": "46250489",
+        "bookId": "36136",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559312026,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559312026,
+        "book": {
+            "modelId": "36136",
+            "title": "Ambulances on the Go",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "0935bf3429508fc758a7"
+        }
+    },
+    "quiz": null
+}

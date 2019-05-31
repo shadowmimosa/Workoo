@@ -1,0 +1,480 @@
+{
+    "publisherData": {
+        "modelId": "96",
+        "name": "SandCastle an imprint of ABDO Publishing",
+        "url": "http://abdopublishing.com//",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1450231075
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/37231/OEBPS/Images/1/9716DD2B-F57D-48C5-880A-5BF7EA0150EB.jpg"
+            },
+            {
+                "page": "drm/1/37231/OEBPS/Images/1/11652393-249B-45ED-BC21-84A1AB39AE97.jpg"
+            },
+            {
+                "page": "drm/1/37231/OEBPS/Images/1/3FFA6CC9-5707-4F10-B86E-27D90E59DF73.jpg"
+            },
+            {
+                "page": "drm/1/37231/OEBPS/Images/1/B6BCCFB0-E25E-4A28-A6D0-14B119640441.jpg"
+            },
+            {
+                "page": "drm/1/37231/OEBPS/Images/1/6A28BEC7-D0D0-4F96-8A6C-573F6EC941C8.jpg"
+            },
+            {
+                "page": "drm/1/37231/OEBPS/Images/1/A56B0625-C8AD-42E0-8323-7234E4AE13FD.jpg"
+            },
+            {
+                "page": "drm/1/37231/OEBPS/Images/1/3C2B0FBA-1685-4AE9-9B00-77EB6B8A3E2A.jpg"
+            },
+            {
+                "page": "drm/1/37231/OEBPS/Images/1/275B23F0-BA21-4972-9BC1-53B48CDBB688.jpg"
+            },
+            {
+                "page": "drm/1/37231/OEBPS/Images/1/05569147-7210-428B-82FE-0F08F63981A9.jpg"
+            },
+            {
+                "page": "drm/1/37231/OEBPS/Images/1/C7BEF037-0587-410E-BBF7-921DC9887032.jpg"
+            },
+            {
+                "page": "drm/1/37231/OEBPS/Images/1/5A7A14DC-0EE7-415E-8E8C-B37BB06B3320.jpg"
+            },
+            {
+                "page": "drm/1/37231/OEBPS/Images/1/B8C7FD73-E452-4711-ADB5-59B946759B04.jpg"
+            },
+            {
+                "page": "drm/1/37231/OEBPS/Images/1/DDAC4F5B-1CEA-4E3B-9266-9F6B2C141D51.jpg"
+            },
+            {
+                "page": "drm/1/37231/OEBPS/Images/1/097A2BED-CD1A-4B04-A348-EFE1D70FFABD.jpg"
+            },
+            {
+                "page": "drm/1/37231/OEBPS/Images/1/5E8B741C-E779-45C6-8651-541BB06E86C8.jpg"
+            },
+            {
+                "page": "drm/1/37231/OEBPS/Images/1/5D19275A-2F1C-404D-ADF4-C57DF1110A42.jpg"
+            },
+            {
+                "page": "drm/1/37231/OEBPS/Images/1/E6CE89DE-BA26-4789-9418-A2CF7BD5155D.jpg"
+            },
+            {
+                "page": "drm/1/37231/OEBPS/Images/1/64DCF5B1-318B-4621-84B4-F6B2CE66DCB9.jpg"
+            },
+            {
+                "page": "drm/1/37231/OEBPS/Images/1/C12274D8-35B1-482D-9EFD-4B6DD16185D1.jpg"
+            },
+            {
+                "page": "drm/1/37231/OEBPS/Images/1/B22EEB91-7F26-4704-84C1-BCD5C25E803B.jpg"
+            },
+            {
+                "page": "drm/1/37231/OEBPS/Images/1/708E86DD-B6C0-490E-8006-BA6718DBBAD3.jpg"
+            },
+            {
+                "page": "drm/1/37231/OEBPS/Images/1/33BA5756-7C1B-4921-B699-FB8DEF1E4433.jpg"
+            },
+            {
+                "page": "drm/1/37231/OEBPS/Images/1/A30F6C54-4C36-4A2D-AC6A-61FB201287EE.jpg"
+            },
+            {
+                "page": "drm/1/37231/OEBPS/Images/1/4BFF94B9-C762-4111-A370-7C7EF7202718.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/37231/OEBPS/Images/1/11652393-249B-45ED-BC21-84A1AB39AE97.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "37231",
+        "id": "37231",
+        "title": "Baby Polar Bears",
+        "author": "Mark Elizabeth Salzmann",
+        "illustrator": " ",
+        "numPages": 24,
+        "bookDescription": "Can baby polar bears swim? Kids will learn the answers to all these questions and more when they read Baby Polar Bears.",
+        "coverColorR": 196,
+        "coverColorG": 210,
+        "coverColorB": 210,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "SandCastle an imprint of ABDO Publishing",
+        "publisherId": "96",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "190L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 400,
+        "ar": "1.5",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 85,
+        "type": 1,
+        "subject": "84",
+        "subjectDesc": "Science & Nature",
+        "subjectColor": "29E69B",
+        "copyright": "",
+        "aspectRatio": 0.8311,
+        "contentHash": "9cc138a8ba7245404b16",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "0",
+        "panelStatus": 0,
+        "date_modified": 1555373543
+    },
+    "userBook": {
+        "modelId": "46250489-37231",
+        "userId": "46250489",
+        "bookId": "37231",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310719,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310719,
+        "book": {
+            "modelId": "37231",
+            "title": "Baby Polar Bears",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "9cc138a8ba7245404b16"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "167320",
+            "user_id": "679440",
+            "book_id": "37231",
+            "title": "Baby Polar Bears",
+            "description": "",
+            "date_created": 1517168544,
+            "date_modified": 1519958101,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Where are baby polar bears born?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "den",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "lakes",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "igloo",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "iceberg",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What color are baby polar bears",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "white",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "tan",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "brown",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "yellow",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Baby polar bears are good _________________.",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "swimmers",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "climbers",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "sleepers",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "helpers",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What animal do baby polar bears hunt?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "seals",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "whales",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "deer",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "birds",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "How long do baby polar bears stay with their mothers?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "2-3 years",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "2-3 weeks",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "2-3 months",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "2-3 days",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "167320",
+            "creatorName": "Mrs. Schlueter",
+            "avatarId": "21",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "679440",
+                "udid": "550d980dadc547.13070232",
+                "journalName": "Mrs. Schlueter",
+                "journalCoverAvatar": "21",
+                "journalCoverColor": "0.70588235294118 0.94509803921569 0.39607843137255 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "597736477",
+                "fid": "",
+                "accountID": "6143D7FE-7D83-7E54-7327-0AC3BB509919",
+                "simpleAccountId": "404309",
+                "pagesFlipped": 45961,
+                "nufComplete": 1,
+                "readingAge": 5.03333,
+                "startingAge": 5,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 1022,
+                "xpLevel": 13,
+                "dateLastLogin": 1555007525,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Rachel",
+                "lastName": "Schlueter",
+                "accountType": 1,
+                "dateModified": 1555007525,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Schlueter"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Where are baby polar bears born?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "den",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "lakes",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "igloo",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "iceberg",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What color are baby polar bears",
+                "quizQuestionChoices": [
+                    {
+                        "title": "white",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "tan",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "brown",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "yellow",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Baby polar bears are good _________________.",
+                "quizQuestionChoices": [
+                    {
+                        "title": "swimmers",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "climbers",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "sleepers",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "helpers",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What animal do baby polar bears hunt?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "seals",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "whales",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "deer",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "birds",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "How long do baby polar bears stay with their mothers?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "2-3 years",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "2-3 weeks",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "2-3 months",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "2-3 days",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

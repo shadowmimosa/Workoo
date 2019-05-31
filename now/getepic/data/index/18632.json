@@ -1,0 +1,171 @@
+{
+    "publisherData": {
+        "modelId": "168",
+        "name": "Flower Pot Press",
+        "url": "http://www.flowerpotpress.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260414
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/2/18632/OEBPS/Images/1/abd1283cd9e08e7f90fa0c99230fe7f5.jpg",
+                "audio": "drm/2/18632/OEBPS/Audio/1/4cea031089a12ea10b14f5aa1b07c8b6.mp3"
+            },
+            {
+                "page": "drm/2/18632/OEBPS/Images/1/d51ed6006de77c43c0a1fbcfd7366a9a.jpg",
+                "audio": "drm/2/18632/OEBPS/Audio/1/e3f0188d4619409998e6b9d609f3e50c.mp3"
+            },
+            {
+                "page": "drm/2/18632/OEBPS/Images/1/25f5650e604184a2ad94a15fd00b4a4c.jpg",
+                "audio": "drm/2/18632/OEBPS/Audio/1/87b5e242f83318c527f44d74fbef1509.mp3"
+            },
+            {
+                "page": "drm/2/18632/OEBPS/Images/1/fcc541422588a61484aed5b7df79d99c.jpg",
+                "audio": "drm/2/18632/OEBPS/Audio/1/df5d890c12c498cb19263ca0857edabb.mp3"
+            },
+            {
+                "page": "drm/2/18632/OEBPS/Images/1/962e412ee29dfee13eba843b78abbebd.jpg",
+                "audio": "drm/2/18632/OEBPS/Audio/1/16bbc6f3b3cd2ae63ee70484636e12f0.mp3"
+            },
+            {
+                "page": "drm/2/18632/OEBPS/Images/1/4de097d9767a29c9cf1b1288157ff9c9.jpg",
+                "audio": "drm/2/18632/OEBPS/Audio/1/485a03c68046625545ded131f7ac37a3.mp3"
+            },
+            {
+                "page": "drm/2/18632/OEBPS/Images/1/ac60e51b30be1e75f2c8af4c771a663e.jpg",
+                "audio": "drm/2/18632/OEBPS/Audio/1/c0795347d793a1d2fdc3db0cf49e9d26.mp3"
+            },
+            {
+                "page": "drm/2/18632/OEBPS/Images/1/11ff40de0e5b45cc98cadb7b563ad4c3.jpg",
+                "audio": "drm/2/18632/OEBPS/Audio/1/5f198817cbd77f3e3c17a80b13c7a51c.mp3"
+            },
+            {
+                "page": "drm/2/18632/OEBPS/Images/1/cfce189ce129a5a72d09a4d0355b17a7.jpg",
+                "audio": "drm/2/18632/OEBPS/Audio/1/7326f5520c97b6719d09d0cad56d9d34.mp3"
+            },
+            {
+                "page": "drm/2/18632/OEBPS/Images/1/f7eaa28970ea9babbdc912c86899f1df.jpg",
+                "audio": "drm/2/18632/OEBPS/Audio/1/0930c9106b108c97c48a75a475e99aa4.mp3"
+            },
+            {
+                "page": "drm/2/18632/OEBPS/Images/1/c763abe80be7a1bed6cf7f09e1892046.jpg"
+            },
+            {
+                "page": "drm/2/18632/OEBPS/Images/1/a3d3f2d41def06d5d4b247c596352992.jpg",
+                "audio": "drm/2/18632/OEBPS/Audio/1/52348c54b0048045ba7263c9a74f0bfa.mp3"
+            },
+            {
+                "page": "drm/2/18632/OEBPS/Images/1/387f4ada2b45fc21ce84aa5299eaab40.jpg",
+                "audio": "drm/2/18632/OEBPS/Audio/1/f9ea6f40e440a62a5411b0ae5ccd2c93.mp3"
+            },
+            {
+                "page": "drm/2/18632/OEBPS/Images/1/78094d8231eb5666ce4e2ba3f0348bdf.jpg",
+                "audio": "drm/2/18632/OEBPS/Audio/1/b4361c13b1ec6964e40a6c30a8ec6517.mp3"
+            },
+            {
+                "page": "drm/2/18632/OEBPS/Images/1/1420ec702548e0157ea39312cf683785.jpg"
+            },
+            {
+                "page": "drm/2/18632/OEBPS/Images/1/9f47fbfea0643277d36561d6c66f2c3f.jpg",
+                "audio": "drm/2/18632/OEBPS/Audio/1/b262522625ab113f2d2c6ef9bd3e4fd1.mp3"
+            },
+            {
+                "page": "drm/2/18632/OEBPS/Images/1/8c60aad9e75abf4a4b1cb641d5046bc8.jpg",
+                "audio": "drm/2/18632/OEBPS/Audio/1/cfea7f587643179f3f875b8442fe4c10.mp3"
+            },
+            {
+                "page": "drm/2/18632/OEBPS/Images/1/183d0d4e0837b46f1ba39356760807fa.jpg",
+                "audio": "drm/2/18632/OEBPS/Audio/1/fa20c5cb7f0633d3d3648608d7821e72.mp3"
+            },
+            {
+                "page": "drm/2/18632/OEBPS/Images/1/017c5e00e5939de3462f6b89eb7b69f3.jpg",
+                "audio": "drm/2/18632/OEBPS/Audio/1/c23241c8d3ee08bbb725660de88f672a.mp3"
+            },
+            {
+                "page": "drm/2/18632/OEBPS/Images/1/d0984a1107ecf3df360b780ccfdc329c.jpg",
+                "audio": "drm/2/18632/OEBPS/Audio/1/ba32a8954f6ee402990638cb7baf5fc2.mp3"
+            },
+            {
+                "page": "drm/2/18632/OEBPS/Images/1/a837a57dc86adb3253a525d964e3bd08.jpg",
+                "audio": "drm/2/18632/OEBPS/Audio/1/56d84ddd988df8a40bdcc99bb62c42b2.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/2/18632/OEBPS/Images/1/768fe8679819cc39744501cc098fc0f9.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18632",
+        "id": "18632",
+        "title": "Sockheadz Counting",
+        "author": "Flowerpot Press",
+        "illustrator": " ",
+        "numPages": 21,
+        "bookDescription": "Stitched from socks, one by one. Stuffed with fluff and full of fun.",
+        "coverColorR": 176,
+        "coverColorG": 173,
+        "coverColorB": 172,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Flower Pot Press",
+        "publisherId": "168",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 385,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.9975,
+        "contentHash": "f77167322ff057400100",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372869
+    },
+    "userBook": {
+        "modelId": "46250489-18632",
+        "userId": "46250489",
+        "bookId": "18632",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311067,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311067,
+        "book": {
+            "modelId": "18632",
+            "title": "Sockheadz Counting",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "f77167322ff057400100"
+        }
+    },
+    "quiz": null
+}

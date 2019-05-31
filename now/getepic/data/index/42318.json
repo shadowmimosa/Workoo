@@ -1,0 +1,542 @@
+{
+    "publisherData": {
+        "modelId": "109",
+        "name": "JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/42318/OEBPS/Images/1/91660617-EB18-486B-A145-9151DF1F787D.jpg"
+            },
+            {
+                "page": "drm/8/42318/OEBPS/Images/1/493DC624-54A9-4739-BED5-5A22ABBD9E30.jpg",
+                "audio": "drm/8/42318/OEBPS/Audio/1/aud4.mp3"
+            },
+            {
+                "page": "drm/8/42318/OEBPS/Images/1/7706CE5E-76B0-40C3-91B1-2AC981A3A510.jpg",
+                "audio": "drm/8/42318/OEBPS/Audio/1/aud5.mp3"
+            },
+            {
+                "page": "drm/8/42318/OEBPS/Images/1/ACE0A40C-4F15-4A9D-BBB9-E28B673A92CD.jpg",
+                "audio": "drm/8/42318/OEBPS/Audio/1/aud6.mp3"
+            },
+            {
+                "page": "drm/8/42318/OEBPS/Images/1/4A9CD9F2-E57F-4C19-9E5F-7BF0DA045B26.jpg"
+            },
+            {
+                "page": "drm/8/42318/OEBPS/Images/1/1CFA4807-1971-4BB8-B9AE-CFFB8BBED5B1.jpg"
+            },
+            {
+                "page": "drm/8/42318/OEBPS/Images/1/61636929-9A00-4D47-BE9C-85F166ACB72F.jpg",
+                "audio": "drm/8/42318/OEBPS/Audio/1/aud9.mp3"
+            },
+            {
+                "page": "drm/8/42318/OEBPS/Images/1/59142D2C-5AFD-428F-AD8D-9663E2ED146C.jpg",
+                "audio": "drm/8/42318/OEBPS/Audio/1/aud10.mp3"
+            },
+            {
+                "page": "drm/8/42318/OEBPS/Images/1/49E6ABCE-53C2-4B44-81BB-A307850EEE71.jpg"
+            },
+            {
+                "page": "drm/8/42318/OEBPS/Images/1/2A598082-51C4-4237-ABF1-C131CC945D17.jpg"
+            },
+            {
+                "page": "drm/8/42318/OEBPS/Images/1/BA505DC5-D545-401A-BD66-F7912DCD2BF3.jpg",
+                "audio": "drm/8/42318/OEBPS/Audio/1/aud13.mp3"
+            },
+            {
+                "page": "drm/8/42318/OEBPS/Images/1/C3265F64-4070-4955-A4CF-1BB92A05EA1C.jpg",
+                "audio": "drm/8/42318/OEBPS/Audio/1/aud14.mp3"
+            },
+            {
+                "page": "drm/8/42318/OEBPS/Images/1/B023EBBF-6221-4467-8AB4-8A68AC2E077A.jpg",
+                "audio": "drm/8/42318/OEBPS/Audio/1/aud15.mp3"
+            },
+            {
+                "page": "drm/8/42318/OEBPS/Images/1/A5C52353-5D6B-4B10-96B4-2ED0CD53628C.jpg",
+                "audio": "drm/8/42318/OEBPS/Audio/1/aud16.mp3"
+            },
+            {
+                "page": "drm/8/42318/OEBPS/Images/1/9ABFAD2B-A02E-4ED7-8D06-1A2FDCE7C87B.jpg"
+            },
+            {
+                "page": "drm/8/42318/OEBPS/Images/1/F8785479-F43C-4911-A4CC-28651E944C39.jpg",
+                "audio": "drm/8/42318/OEBPS/Audio/1/aud18.mp3"
+            },
+            {
+                "page": "drm/8/42318/OEBPS/Images/1/1C326776-A17B-48F7-B575-DC6C854A83F0.jpg",
+                "audio": "drm/8/42318/OEBPS/Audio/1/aud19.mp3"
+            },
+            {
+                "page": "drm/8/42318/OEBPS/Images/1/81C3F38B-6C8F-4E5B-AA27-D9B1BDD10FE0.jpg"
+            },
+            {
+                "page": "drm/8/42318/OEBPS/Images/1/039A67CE-DC5D-4698-B997-511F0CAC05AF.jpg",
+                "audio": "drm/8/42318/OEBPS/Audio/1/aud21.mp3"
+            },
+            {
+                "page": "drm/8/42318/OEBPS/Images/1/F8B5B8E8-107B-4882-97DE-131708D677CD.jpg"
+            },
+            {
+                "page": "drm/8/42318/OEBPS/Images/1/3F6D6FCE-20BB-4D77-BB1E-EA28289BE6AE.jpg",
+                "audio": "drm/8/42318/OEBPS/Audio/1/aud23.mp3"
+            }
+        ],
+        "extra": {
+            "color": "#fffefe",
+            "copyright": ""
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "42318",
+        "id": "42318",
+        "title": "My First Pet: Gerbils",
+        "author": "Vanessa Black",
+        "illustrator": " ",
+        "numPages": 21,
+        "bookDescription": "Early readers will learn all about the responsibilities of having gerbils and find out how they can keep their pet healthy and happy.",
+        "coverColorR": 214,
+        "coverColorG": 215,
+        "coverColorB": 196,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "JUMP",
+        "publisherId": "109",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "220L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 350,
+        "ar": "1.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pets",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.005,
+        "contentHash": "4f812f29387d6048f408",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373827
+    },
+    "userBook": {
+        "modelId": "46250489-42318",
+        "userId": "46250489",
+        "bookId": "42318",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311451,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311451,
+        "book": {
+            "modelId": "42318",
+            "title": "My First Pet: Gerbils",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "4f812f29387d6048f408"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "168045",
+            "user_id": "18724151",
+            "book_id": "42318",
+            "title": "Gerbils by Vanessa Black",
+            "description": "",
+            "date_created": 1517323619,
+            "date_modified": 1523572656,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "At the beginning of the book there is a -----",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Table of Contents",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Index",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "At the shelter, Kip sees ----",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "gerbils",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "hamsters",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Gerbils are soft, fast and ---",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "fun",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "furry",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Gerbils need ----",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "friends",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "fresh air",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Gerbils need space, so ------- is best",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "a big cage",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "an aquarium",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "Gerbils need ------",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "exercise",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "to sleep a lot",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 5
+                },
+                {
+                    "title": "Gerbils like to ----",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "hide",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "play",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 6
+                },
+                {
+                    "title": "Gerbils eat ---- and drink -----",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "pellets;  water",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "cat food;  milk",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 7
+                },
+                {
+                    "title": "Gerbils need ------ for their cage",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "shavings",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "houses",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 8
+                },
+                {
+                    "title": "At the end of this book there is ----",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "a picture glossary",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "an index",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 9
+                }
+            ],
+            "modelId": "168045",
+            "creatorName": "Frank F.",
+            "avatarId": "5",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "18724151",
+                "udid": "59cafa8ec01870.00282279",
+                "journalName": "Frank F.",
+                "journalCoverAvatar": "5",
+                "journalCoverColor": "0.11764705882353 0.91764705882353 0.64313725490196 1",
+                "journalFrameImage": "7",
+                "journalCoverImage": "15",
+                "themeId": "10",
+                "code": "724893811",
+                "fid": "",
+                "accountID": "8D52A698-0907-13F9-11CA-9491B693FCAC",
+                "simpleAccountId": "4352067",
+                "pagesFlipped": 1006,
+                "nufComplete": 1,
+                "readingAge": 6.13333,
+                "startingAge": 10,
+                "status": 0,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 1515,
+                "xpLevel": 12,
+                "dateLastLogin": 0,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "Frank",
+                "lastName": "Fasbender",
+                "accountType": 1,
+                "dateModified": 1528118067
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "At the beginning of the book there is a -----",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Table of Contents",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Index",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "At the shelter, Kip sees ----",
+                "quizQuestionChoices": [
+                    {
+                        "title": "gerbils",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "hamsters",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Gerbils are soft, fast and ---",
+                "quizQuestionChoices": [
+                    {
+                        "title": "fun",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "furry",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Gerbils need ----",
+                "quizQuestionChoices": [
+                    {
+                        "title": "friends",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "fresh air",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Gerbils need space, so ------- is best",
+                "quizQuestionChoices": [
+                    {
+                        "title": "a big cage",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "an aquarium",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "Gerbils need ------",
+                "quizQuestionChoices": [
+                    {
+                        "title": "exercise",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "to sleep a lot",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 5
+            },
+            {
+                "title": "Gerbils like to ----",
+                "quizQuestionChoices": [
+                    {
+                        "title": "hide",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "play",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 6
+            },
+            {
+                "title": "Gerbils eat ---- and drink -----",
+                "quizQuestionChoices": [
+                    {
+                        "title": "pellets;  water",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "cat food;  milk",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 7
+            },
+            {
+                "title": "Gerbils need ------ for their cage",
+                "quizQuestionChoices": [
+                    {
+                        "title": "shavings",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "houses",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 8
+            },
+            {
+                "title": "At the end of this book there is ----",
+                "quizQuestionChoices": [
+                    {
+                        "title": "a picture glossary",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "an index",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 9
+            }
+        ]
+    }
+}

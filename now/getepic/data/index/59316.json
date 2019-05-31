@@ -1,0 +1,166 @@
+{
+    "publisherData": {
+        "modelId": "90327",
+        "name": "ABDO Kids an imprint of ABDO Publishing",
+        "url": "http://abdopublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1527111706
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/6/59316/OEBPS/Images/1/2cbf2a7da03ea91442d8c8a022fe3bb2.jpg",
+                "audio": "drm/6/59316/OEBPS/Audio/1/Title.mp3"
+            },
+            {
+                "page": "drm/6/59316/OEBPS/Images/1/ced37790e8651c13ec4fd20a93b20efb.jpg",
+                "audio": "drm/6/59316/OEBPS/Audio/1/page4-5.mp3"
+            },
+            {
+                "page": "drm/6/59316/OEBPS/Images/1/70a9156d1cacd497a47cce6eb47ed80f.jpg"
+            },
+            {
+                "page": "drm/6/59316/OEBPS/Images/1/f4c9b544b71c7b905cdf8ff48fbcc69f.jpg",
+                "audio": "drm/6/59316/OEBPS/Audio/1/page6-7.mp3"
+            },
+            {
+                "page": "drm/6/59316/OEBPS/Images/1/8010f9e2f7a91b4da3ca3a12b996b55b.jpg"
+            },
+            {
+                "page": "drm/6/59316/OEBPS/Images/1/b061b7d2d7873c155d6601f5b6ab5204.jpg",
+                "audio": "drm/6/59316/OEBPS/Audio/1/page8-9.mp3"
+            },
+            {
+                "page": "drm/6/59316/OEBPS/Images/1/03d1a389fd27208e64e02d57f5467b8a.jpg"
+            },
+            {
+                "page": "drm/6/59316/OEBPS/Images/1/c0840cc312415d2869b5b4833b98b5ef.jpg",
+                "audio": "drm/6/59316/OEBPS/Audio/1/page10-11.mp3"
+            },
+            {
+                "page": "drm/6/59316/OEBPS/Images/1/2e193480eb5baa8088517520933aa65a.jpg"
+            },
+            {
+                "page": "drm/6/59316/OEBPS/Images/1/8b7ca17a0feaf57ecadc5826d7cd7a52.jpg",
+                "audio": "drm/6/59316/OEBPS/Audio/1/page12-13.mp3"
+            },
+            {
+                "page": "drm/6/59316/OEBPS/Images/1/10430e5852bd4bc1205cb5436bdc26db.jpg"
+            },
+            {
+                "page": "drm/6/59316/OEBPS/Images/1/11bbe06ba2836d96f89623a1121bbb1d.jpg",
+                "audio": "drm/6/59316/OEBPS/Audio/1/page14-15.mp3"
+            },
+            {
+                "page": "drm/6/59316/OEBPS/Images/1/6bb6d0c9db446c31c557ff8e2b09b55d.jpg"
+            },
+            {
+                "page": "drm/6/59316/OEBPS/Images/1/7e07b9f0263a5651707311d6c5f4b66e.jpg",
+                "audio": "drm/6/59316/OEBPS/Audio/1/page16-17.mp3"
+            },
+            {
+                "page": "drm/6/59316/OEBPS/Images/1/6e9bd235571f145dbd0c441e7d516c6f.jpg"
+            },
+            {
+                "page": "drm/6/59316/OEBPS/Images/1/757f2f4c4ee5c111bf97e4fbf171728b.jpg",
+                "audio": "drm/6/59316/OEBPS/Audio/1/page18-19.mp3"
+            },
+            {
+                "page": "drm/6/59316/OEBPS/Images/1/419e93e039968798986eb6f8d25fa98c.jpg"
+            },
+            {
+                "page": "drm/6/59316/OEBPS/Images/1/df97d6dd70e4c62e9a4f7817930c0d45.jpg",
+                "audio": "drm/6/59316/OEBPS/Audio/1/page20-21.mp3"
+            },
+            {
+                "page": "drm/6/59316/OEBPS/Images/1/f1d416b4e36cc719922c6d372bf791bc.jpg"
+            },
+            {
+                "page": "drm/6/59316/OEBPS/Images/1/bfd33540f27dd8016e584c2969e287fa.jpg",
+                "audio": "drm/6/59316/OEBPS/Audio/1/page22.mp3"
+            },
+            {
+                "page": "drm/6/59316/OEBPS/Images/1/6d57e4ab1a41477a806101f395e1d164.jpg"
+            },
+            {
+                "page": "drm/6/59316/OEBPS/Images/1/6545a15891e74cca731597c695b0e5e9.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/6/59316/OEBPS/Images/1/cb6b5d77defe84c20febd49e00faf4c8.jpg",
+            "color": "#fefefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "59316",
+        "id": "59316",
+        "title": "The Alphabet: Aa",
+        "author": "Bela Davis",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "From alpacas to apples, this title has got A words covered!",
+        "coverColorR": 217,
+        "coverColorG": 204,
+        "coverColorB": 193,
+        "version": 2147483647,
+        "previewPercent": 20,
+        "publisher": "ABDO Kids an imprint of ABDO Publishing",
+        "publisherId": "90327",
+        "age": 5,
+        "pageNumOffset": 1,
+        "active": 1,
+        "audio": 1,
+        "lexile": "210L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 366,
+        "ar": "0.9",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "c",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "ABCs & 123s",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.0603,
+        "contentHash": "644def9bc452511fdc3b",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374863
+    },
+    "userBook": {
+        "modelId": "46250489-59316",
+        "userId": "46250489",
+        "bookId": "59316",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311563,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311563,
+        "book": {
+            "modelId": "59316",
+            "title": "The Alphabet: Aa",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "644def9bc452511fdc3b"
+        }
+    },
+    "quiz": null
+}

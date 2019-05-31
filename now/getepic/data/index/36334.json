@@ -1,0 +1,549 @@
+{
+    "publisherData": {
+        "modelId": "15",
+        "name": "Carolrhoda Books an imprint of Lerner Publishing Group",
+        "url": "https://www.lernerbooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1490146593
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/E50E3846-70A5-4F47-A505-8937EBB9D7BD.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/379E72EB-5503-4981-8AC9-C6A9943E878A.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/D478D88F-8158-427E-9A03-772AAE460963.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/6332EA4E-9278-4AF0-93E9-206866532BBE.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/7B2736B0-F027-4F84-A1E0-E56C9F0DBCA0.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/9121A028-B1A7-420C-AED5-14F9E0DD5E53.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/E3EF0C3A-4910-406B-AECF-21149555703C.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/9DB3AEA3-FA16-4B76-93BD-7B5F8F0F0EE6.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/8B9118F1-6D4D-4D89-AED8-E56E6B7251A3.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/2287AB4A-FDC8-4B01-A548-EC8C4238B0F4.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/57E32F9D-F861-4BE0-90AF-5DB040267CF1.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/943F2FFF-F30D-412D-9D4B-0DF8CCEE7C1D.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/5BC112AA-49FF-4E73-91DE-AACDF14C3FA6.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/57EFEAEA-8E68-42B7-BFB6-E75B99E5A4F1.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/C5E42D8E-B683-4214-8D10-A50F977DCE61.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/CC1C6DA1-905B-41F2-AAF4-778E309F3AB2.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/E63FA3E6-DF5C-4C28-9C36-A118663C5792.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/F569D2EC-9300-4C86-BE6E-76E8BAC127C9.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/BEEFCCF1-8460-417A-B49D-9AE40DE015E8.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/C71EBD08-0BFA-4B8A-82F1-D5E17DE2955C.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/0FDF19AF-10B3-48E9-A7BA-D994C3A69A0A.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/2CAFEEEB-0AB2-4BA1-B013-5375DF8E8CF1.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/0E12D202-EBA8-48C8-870D-C96F4BFFBAF0.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/4C799D89-39DB-43B6-81FA-CF42D5D7B726.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/505959F1-6272-497F-976E-08E177AE43F1.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/C3BB44D0-1A38-43EE-990C-5C4B51C8C4B1.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/921C6F2B-9AE4-41AF-80AE-DF853359EA26.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/9381CBEF-F417-46EB-B16C-97B9B4CFF2A4.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/C11E2928-382A-4CF2-8D21-8495671AC761.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/3A9EDC93-560B-4B1F-B312-1537F978C6B5.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/1C0DE29F-F689-42B3-81D4-AACE3DAF96CD.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/3231EC7E-6137-4D77-A27E-C8F5C6756AD5.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/17A979F5-5E5E-4C09-875C-9CA066AEE5F1.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/A034BB91-0D62-49F1-9197-4202B035659F.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/482D9008-5120-43AC-95F4-D9FE3B000AC1.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/F5D8D7FC-7C1F-4135-BD7C-CE0CBB2A41F7.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/1B548B3E-6F88-4F41-9AD3-62E2B5E6A593.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/98AFF833-258F-47F1-9125-6A964ED8783E.jpg"
+            },
+            {
+                "page": "drm/4/36334/OEBPS/Images/1/411D76C1-70AF-4ED9-880F-AC97B95D97F6.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/36334/OEBPS/Images/1/9121A028-B1A7-420C-AED5-14F9E0DD5E53.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "36334",
+        "id": "36334",
+        "title": "Monkey With a Tool Belt and the Maniac Muffins",
+        "author": "Chris Monroe",
+        "illustrator": "Chris Monroe",
+        "numPages": 39,
+        "bookDescription": "With the right tools and some quick thinking, this crumbly disaster might just have a tasty solution!",
+        "coverColorR": 197,
+        "coverColorG": 61,
+        "coverColorB": 51,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Carolrhoda Books an imprint of Lerner Publishing Group",
+        "publisherId": "15",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "610L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 715,
+        "ar": "3.6",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Funny",
+        "subjectColor": "FFD673",
+        "copyright": "",
+        "aspectRatio": 0.7958,
+        "contentHash": "5f2c191aca4123782f1f",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "0",
+        "panelStatus": 0,
+        "date_modified": 1555373475
+    },
+    "userBook": {
+        "modelId": "46250489-36334",
+        "userId": "46250489",
+        "bookId": "36334",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311111,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311111,
+        "book": {
+            "modelId": "36334",
+            "title": "Monkey With a Tool Belt and the Maniac Muffins",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "5f2c191aca4123782f1f"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "110267",
+            "user_id": "13146238",
+            "book_id": "36334",
+            "title": "Comprehension and inferring",
+            "description": "",
+            "date_created": 1497953039,
+            "date_modified": 1503363743,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "On page 9, what does \"dense\" mean?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "heavier than most things of the same size",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "tasty",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "dangerous",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "not very smart",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "Infer: Why was Wayne stuck to the floor?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "There was lots of syrup on the floor, syrup is sticky, and Wayne got stuck in it.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Someone was holding him down.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "There was glue on the floor.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "On page 13, what does \"disaster zone\" mean?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "a place where there is chaos, out of order",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "a place you go to be safe",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "a place you go to make food",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Infer: On page 13, what does the simile \"it was like glue\" mean?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "The lemon pudding was as thick and sticky as glue.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "The lemon pudding tasted as yucky as glue.",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Infer: On page 17, what was making the noise that sounded like \"really big popcorn\"?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "There was too much baking soda in the muffins, and the baking soda made them expand too suddenly and too much.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Someone put popcorn in the oven.",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "What was the big problem in the story?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Clark's muffins were dangerous.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Clark's pancakes didn't taste good.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Chico didn't get to finish his marshmallow banana boats.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 5
+                },
+                {
+                    "title": "What was the solution?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Chico used the sticky lemon pudding and the pancakes to stop the muffins, and he rolled them up into a tasty treat for everyone to enjoy.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Clark's friends fought the muffins.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "They made different foods instead.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 6
+                }
+            ],
+            "modelId": "110267",
+            "creatorName": "Ms. Lifsey",
+            "avatarId": "80",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "13146238",
+                "udid": "58905bede31d92.56009599",
+                "journalName": "Ms. Lifsey",
+                "journalCoverAvatar": "80",
+                "journalCoverColor": "1 0.67843137254902 0.26274509803922 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "164663201",
+                "fid": "",
+                "accountID": "E5CF4818-A817-4413-B030-3B3AF960EC81",
+                "simpleAccountId": "4376463",
+                "pagesFlipped": 6686,
+                "nufComplete": 1,
+                "readingAge": 4.9,
+                "startingAge": 5,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 48,
+                "xpLevel": 8,
+                "dateLastLogin": 1559197270,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Madeleine",
+                "lastName": "Lifsey",
+                "accountType": 1,
+                "dateModified": 1559197270,
+                "educatorPrefix": "Ms.",
+                "name": "Ms. Lifsey"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "On page 9, what does \"dense\" mean?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "heavier than most things of the same size",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "tasty",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "dangerous",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "not very smart",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "Infer: Why was Wayne stuck to the floor?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "There was lots of syrup on the floor, syrup is sticky, and Wayne got stuck in it.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Someone was holding him down.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "There was glue on the floor.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "On page 13, what does \"disaster zone\" mean?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "a place where there is chaos, out of order",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "a place you go to be safe",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "a place you go to make food",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Infer: On page 13, what does the simile \"it was like glue\" mean?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "The lemon pudding was as thick and sticky as glue.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "The lemon pudding tasted as yucky as glue.",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Infer: On page 17, what was making the noise that sounded like \"really big popcorn\"?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "There was too much baking soda in the muffins, and the baking soda made them expand too suddenly and too much.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Someone put popcorn in the oven.",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "What was the big problem in the story?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Clark's muffins were dangerous.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Clark's pancakes didn't taste good.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Chico didn't get to finish his marshmallow banana boats.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 5
+            },
+            {
+                "title": "What was the solution?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Chico used the sticky lemon pudding and the pancakes to stop the muffins, and he rolled them up into a tasty treat for everyone to enjoy.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Clark's friends fought the muffins.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "They made different foods instead.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 6
+            }
+        ]
+    }
+}

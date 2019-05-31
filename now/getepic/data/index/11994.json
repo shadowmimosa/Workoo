@@ -1,0 +1,612 @@
+{
+    "publisherData": {
+        "modelId": "111",
+        "name": "Eerdmans Books for Young Readers an imprint of Eerdmans Publishing",
+        "url": "http://www.eerdmans.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1424487314
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/b10bb42cce8373f21f973da147f5642f.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/4d27566162d65f1d50dcc488caf67116.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/9e3a9fd3086a38b52dcd85b2046edec2.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/bfe20b2a4e23dd105114f2499d1cc24e.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/77d4479f651e12805720b209c311612f.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/352e57b91f83c372a588fa37419f8f24.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/54b3402170972db19e26c90e31461c7d.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/91b009e6f7e41bfeb789609a1e1a4183.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/79c9324207b76614a449992231451d0e.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/005be2b4b94bcb677936d11afbaded92.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/aee3e04f21a00b75b41afe97d1e40583.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/c3c8a8c6d09c5f490f2f3e0d434ea86b.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/95e2760ae50f1999d842f9269b8243c5.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/eceec9f9b1a76cf16403f3eeb5386bc7.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/12607fca8156160cab0b03a496a58517.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/788898e5d869b767c2c95ac73d0c3f14.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/c9391b3e12b07e25669828431deca2a0.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/3678348301b45611733630e2b080c2c0.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/e61fea274fc23fda71dd8da12f88fbd0.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/b00b00a8f0dbb5f6350e56eef19b50ca.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/4105c740ef96e8633b3ab71e2c4eb6b9.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/a9dbc0b2b96fd0e1edd7543fe2f3d1fd.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/e928c639042e377d5a0b279e6b97d462.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/3eacb72e05da9917b1d4a23f63ccb92b.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/f063565554abeb83414f5a3d42813564.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/ff75111e46cdb9bf01c62d9f97c0e928.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/593e08c102a412f988d85cf0793af9a4.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/bee826cbac443958076182e20d6538e9.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/0a7dcc886de378a0938c3623e437bfe0.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/dadabdede46a7690a631148cd93149f2.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/4e1900a97a536c81df008624849f8175.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/9aaedf224b2465b90d474ae5091a68df.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/dc236177734b5e64209fab9f46e157a7.jpg"
+            },
+            {
+                "page": "drm/4/11994/OEBPS/Images/1/fdc4f79a7abd5bb852c67d454229d3ee.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/11994/OEBPS/Images/1/770ab8f480b13777a908a84c3fb9966d.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "11994",
+        "id": "11994",
+        "title": "The Geese March in Step",
+        "author": "Jean-Francois Dumont",
+        "illustrator": " ",
+        "numPages": 34,
+        "bookDescription": "Every morning at the farm, all the geese line up in a perfectly straight line and parade down to the pond.",
+        "coverColorR": 129,
+        "coverColorG": 152,
+        "coverColorB": 139,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Eerdmans Books for Young Readers an imprint of Eerdmans Publishing",
+        "publisherId": "111",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 623,
+        "ar": "4.5",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Farm Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.2424,
+        "contentHash": "c2496a36d9a96d578736",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1454209413
+    },
+    "userBook": {
+        "modelId": "46250489-11994",
+        "userId": "46250489",
+        "bookId": "11994",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559312186,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559312186,
+        "book": {
+            "modelId": "11994",
+            "title": "The Geese March in Step",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "c2496a36d9a96d578736"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "164745",
+            "user_id": "17022551",
+            "book_id": "11994",
+            "title": "The Geese March in Step",
+            "description": "",
+            "date_created": 1516644418,
+            "date_modified": 1521247446,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "In the beginning of the story, who was the leader of the geese?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Igor",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Zita",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Pig",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Grady",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What character trait best describes Igor?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "serious",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "shy",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "helpful",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "nervous",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "How did Igor want all of the geese to act?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "focused",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "silly",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "disobedient",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "wise",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Why did Zita get kicked out of the flock?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "She disrupted the march to the pond and Igor was angry.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "She could not keep up with the other geese.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "She wanted to lead the flock of geese.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "She did not get along with Igor.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Why did the other animals follow Zita?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "They liked her tune and the way she marched.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Zita asked the animals to be her friends.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "The animals wanted to go to the pond.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Zita let the animals act however they wanted.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "What lesson did Zita learn?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "\"Anyone can be a  leader.\"",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "\"We need to stick together.\"",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "\"Walk away.\"",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "\"It doesn't pay to be serious.\"",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 5
+                },
+                {
+                    "title": "At the end, what character trait best describes Zita?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "friendly",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "unfair",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "energetic",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "boring",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 6
+                }
+            ],
+            "modelId": "164745",
+            "creatorName": "Anna D.",
+            "avatarId": "29",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "17022551",
+                "udid": "59a36d281b8f06.14578375",
+                "journalName": "Anna D.",
+                "journalCoverAvatar": "29",
+                "journalCoverColor": "0.84705882352941 0.18039215686275 0.46274509803922 1",
+                "journalFrameImage": "7",
+                "journalCoverImage": "15",
+                "themeId": "9",
+                "code": "789924850",
+                "fid": "",
+                "accountID": "59ADCAD7-D9AC-7149-AEA8-9658A3AC4083",
+                "simpleAccountId": "223038",
+                "pagesFlipped": 4318,
+                "nufComplete": 1,
+                "readingAge": 9.23333,
+                "startingAge": 10,
+                "status": 2,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 60194,
+                "xpLevel": 77,
+                "dateLastLogin": 0,
+                "email": "",
+                "pin": "0004",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "Anna",
+                "lastName": "Depriest",
+                "accountType": 1,
+                "dateModified": 1558537502
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "In the beginning of the story, who was the leader of the geese?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Igor",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Zita",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Pig",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Grady",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What character trait best describes Igor?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "serious",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "shy",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "helpful",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "nervous",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "How did Igor want all of the geese to act?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "focused",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "silly",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "disobedient",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "wise",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Why did Zita get kicked out of the flock?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "She disrupted the march to the pond and Igor was angry.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "She could not keep up with the other geese.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "She wanted to lead the flock of geese.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "She did not get along with Igor.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Why did the other animals follow Zita?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "They liked her tune and the way she marched.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Zita asked the animals to be her friends.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "The animals wanted to go to the pond.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Zita let the animals act however they wanted.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "What lesson did Zita learn?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "\"Anyone can be a  leader.\"",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "\"We need to stick together.\"",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "\"Walk away.\"",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "\"It doesn't pay to be serious.\"",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 5
+            },
+            {
+                "title": "At the end, what character trait best describes Zita?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "friendly",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "unfair",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "energetic",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "boring",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 6
+            }
+        ]
+    }
+}

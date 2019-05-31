@@ -1,0 +1,424 @@
+{
+    "publisherData": {
+        "modelId": "161",
+        "name": "Weston Woods",
+        "url": "http://westonwoods.scholastic.com/products/westonwoods/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539568029
+    },
+    "epub": null,
+    "timePerPage": 2,
+    "book": {
+        "modelId": "14198",
+        "id": "14198",
+        "title": "Click Clack Moo: Cows That Type",
+        "author": "Doreen Cronin",
+        "illustrator": "Randy Travis",
+        "numPages": 0,
+        "bookDescription": "A bunch of literate cows go on strike after Farmer Brown refuses to give in to their demands.",
+        "coverColorR": 182,
+        "coverColorG": 173,
+        "coverColorB": 176,
+        "version": 0,
+        "previewPercent": 10,
+        "publisher": "Weston Woods",
+        "publisherId": "161",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "AD470L",
+        "avgTime": "--",
+        "avgTimeInt": 0,
+        "ar": "2.3",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "m",
+        "language": 1,
+        "rating": 84,
+        "type": 2,
+        "subject": "97",
+        "subjectDesc": "Farm Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "\u00a9 2001 Weston Woods Studios.  All rights reserved.",
+        "aspectRatio": 0,
+        "contentHash": "",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "0",
+        "panelStatus": 0,
+        "date_modified": 1555541647,
+        "duration": 416
+    },
+    "userBook": {
+        "modelId": "46250489-14198",
+        "userId": "46250489",
+        "bookId": "14198",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310695,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310695,
+        "book": {
+            "modelId": "14198",
+            "title": "Click Clack Moo: Cows That Type",
+            "type": 2,
+            "active": 1,
+            "audio": 0,
+            "contentHash": ""
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "164754",
+            "user_id": "20698993",
+            "book_id": "14198",
+            "title": "Click, Clack, Moo: Cows That Type",
+            "description": "",
+            "date_created": 1516644943,
+            "date_modified": 1521247473,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What are conclusions?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Something that happens as a result of something else",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Smart guesses about what the author doesn\u2019t say",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Things that help you find information quickly",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "The characters, setting, & plot of the story",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What is the setting of the story?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "A farm",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "The city",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "A neighborhood",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "The mall",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Where are the cows typing?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "In the barn",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "In the house",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "At the lake",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "At the corn field",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "At the end of the story, why does Farmer Brown agree to make a deal with the cows?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "So the cows will give him milk, and the chickens will give him eggs",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "He felt like making a trade.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "He wanted to get rid of the blankets he had in the attic.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "How does Farmer Brown feel when he first gets a note from the cows?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Angry",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Excited",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Scared",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "What does Farmer Brown mean when he tells the animals: \u201cI demand milk and eggs.\u201d",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "He is ordering them to give him milk and eggs.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "He really likes milk and eggs.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "He does not like milk and eggs.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 5
+                }
+            ],
+            "modelId": "164754",
+            "creatorName": "Mrs. Buffington",
+            "avatarId": "76",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "20698993",
+                "udid": "5a0366fc121346.61598681",
+                "journalName": "Mrs. Buffington",
+                "journalCoverAvatar": "76",
+                "journalCoverColor": "0.93725490196078 0.37647058823529 0.30196078431373 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "109753702",
+                "fid": "",
+                "accountID": "2A08F789-15AC-E036-F4AD-AFF31874665F",
+                "simpleAccountId": "6115567",
+                "pagesFlipped": 74,
+                "nufComplete": 1,
+                "readingAge": 6.83333,
+                "startingAge": 0,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 76,
+                "xpLevel": 1,
+                "dateLastLogin": 1541614286,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Amy",
+                "lastName": "Buffington",
+                "accountType": 1,
+                "dateModified": 1558616148,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Buffington"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What are conclusions?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Something that happens as a result of something else",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Smart guesses about what the author doesn\u2019t say",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Things that help you find information quickly",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "The characters, setting, & plot of the story",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What is the setting of the story?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "A farm",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "The city",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "A neighborhood",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "The mall",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Where are the cows typing?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "In the barn",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "In the house",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "At the lake",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "At the corn field",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "At the end of the story, why does Farmer Brown agree to make a deal with the cows?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "So the cows will give him milk, and the chickens will give him eggs",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "He felt like making a trade.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "He wanted to get rid of the blankets he had in the attic.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "How does Farmer Brown feel when he first gets a note from the cows?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Angry",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Excited",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Scared",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "What does Farmer Brown mean when he tells the animals: \u201cI demand milk and eggs.\u201d",
+                "quizQuestionChoices": [
+                    {
+                        "title": "He is ordering them to give him milk and eggs.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "He really likes milk and eggs.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "He does not like milk and eggs.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 5
+            }
+        ]
+    }
+}

@@ -1,0 +1,185 @@
+{
+    "publisherData": {
+        "modelId": "86",
+        "name": "Peachtree Publishers",
+        "url": "http://peachtree-online.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491261513
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/bab78b2ccbfb4439f7d2fee99c51d272.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/32c42747d0eebd0cec9f71cffe96fed1.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/da04d1e386ac1dcd910602eff05953fb.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/e948a686f736114651fb9191ec0cb1e6.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/9623264e3776eebe72eb6a78c715d954.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/4836a8e7f04911110f6d967a651df204.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/4f5afbd6c18685efd85c07a3d67b6c99.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/69ad1495462b249073379099d50c22bd.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/61b298df1751375e2b2aadc6be6d3086.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/5dfb8eb8ff5adb0ba8f2f96b9e017b84.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/5d4e5aaf8e65b34153e08dda6c817dc0.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/7553923c85db99258eec6f480d9a1f07.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/3aba2fd6b50d291d8bef7c567159897d.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/6701cc8e927f7256b3e8b82f582007e2.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/17fadfda0f661539dc4072ca8bd0ce2a.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/6827e9f52bd7d65fd83964f11cd46990.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/e26e556dc4db89937e690998b2c3d363.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/64f53febdd9832cb9df7bf0c2ee2cd04.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/c5425597f8f68f847c9894db6a755313.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/3eaf1d431a647ed728b81b0413c8b7e2.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/ebd0d8959bdb1e9f57158b7214455ed8.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/ce232ebcc110edd289e9fa513c2d500d.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/9fb25e36cb3b623306ce00d8020e3e73.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/7aa7c46fc3cc273910ad762b31691504.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/bffecf8f592d4ec27d10ea58a40d8d2b.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/d2637b733c7c27ab6f667f3e80435e38.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/b6e096f4d04c6ffe0d1d0809a404a603.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/4b51a636deeff6d8cb750b60cd9a88f2.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/4b5e9a59b33d8bab3909c4cfb6668943.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/fdc8aea2b1db8f4808bb9c1d6992a49c.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/0271f885c4cd4a8387b861a59995bfe6.jpg"
+            },
+            {
+                "page": "drm/9/64669/OEBPS/Images/1/2735b9cd8005183fa902e37d2a9f01d9.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/64669/OEBPS/Images/1/fac02d8be162c988910b2fce80ac2f35.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "64669",
+        "id": "64669",
+        "title": "Ebenezer Has a Word for Everything",
+        "author": "Chelsea H. Rowe",
+        "illustrator": "Frank Dormer",
+        "numPages": 32,
+        "bookDescription": "No one seems to understand Ebenezer\u2019s word collections, but his efforts are finally appreciated when he meets Fitzgerald.",
+        "coverColorR": 202,
+        "coverColorG": 188,
+        "coverColorB": 142,
+        "version": 145514368,
+        "previewPercent": 10,
+        "publisher": "Peachtree Publishers",
+        "publisherId": "86",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "AD510L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 586,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 75,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Making Friends",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 0.8,
+        "contentHash": "06751c0ce765c70ca86f",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1558657011
+    },
+    "userBook": {
+        "modelId": "46250489-64669",
+        "userId": "46250489",
+        "bookId": "64669",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559307278,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559307278,
+        "book": {
+            "modelId": "64669",
+            "title": "Ebenezer Has a Word for Everything",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "06751c0ce765c70ca86f"
+        }
+    },
+    "quiz": null
+}

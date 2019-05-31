@@ -1,0 +1,173 @@
+{
+    "publisherData": {
+        "modelId": "168",
+        "name": "Flower Pot Press",
+        "url": "http://www.flowerpotpress.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260414
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/2/18642/OEBPS/Images/1/18cae5cf570ae76e24ae8bf557fd27f7.jpg",
+                "audio": "drm/2/18642/OEBPS/Audio/1/30e27641af46c1e8a9a13af146308171.mp3"
+            },
+            {
+                "page": "drm/2/18642/OEBPS/Images/1/a7320e8e0f04d61178c336b9ec9670cc.jpg",
+                "audio": "drm/2/18642/OEBPS/Audio/1/22651472d72bb958690b66d2d19e8603.mp3"
+            },
+            {
+                "page": "drm/2/18642/OEBPS/Images/1/1c4dc23128230e0cd07b9d690522bf93.jpg",
+                "audio": "drm/2/18642/OEBPS/Audio/1/97d11656235a9b0ba402a2e9424f2711.mp3"
+            },
+            {
+                "page": "drm/2/18642/OEBPS/Images/1/69e9e9ad49a98825c5be956232a66b68.jpg",
+                "audio": "drm/2/18642/OEBPS/Audio/1/b5b3b6a39a3ed4f78f57d20ebd7caba3.mp3"
+            },
+            {
+                "page": "drm/2/18642/OEBPS/Images/1/7fada6fb54badb81697a3c95915536b9.jpg",
+                "audio": "drm/2/18642/OEBPS/Audio/1/dd91ca369833a2f9f40a653ada42b1c6.mp3"
+            },
+            {
+                "page": "drm/2/18642/OEBPS/Images/1/046162d0fc746fb48c5da348d74b9c0e.jpg",
+                "audio": "drm/2/18642/OEBPS/Audio/1/2b7c519be49b90f0d381613ae97a5827.mp3"
+            },
+            {
+                "page": "drm/2/18642/OEBPS/Images/1/bdf8bc1f42c7d5674c374a1ac4ad94ff.jpg",
+                "audio": "drm/2/18642/OEBPS/Audio/1/d1427898938fe678bed36c5bd20b82e9.mp3"
+            },
+            {
+                "page": "drm/2/18642/OEBPS/Images/1/a7a0b95fba05a4cf3c53bad6bc9e23ed.jpg",
+                "audio": "drm/2/18642/OEBPS/Audio/1/3f3f462625ca16fcf63e9879bf351dc2.mp3"
+            },
+            {
+                "page": "drm/2/18642/OEBPS/Images/1/1ecac3691cf82b54ddd88885fe27b20e.jpg",
+                "audio": "drm/2/18642/OEBPS/Audio/1/a48a5819d5528bedc9dcd44dd3c55807.mp3"
+            },
+            {
+                "page": "drm/2/18642/OEBPS/Images/1/71826b7241173405dd282777bca5f2bc.jpg",
+                "audio": "drm/2/18642/OEBPS/Audio/1/1b6eb6d8be25572685a693e9d1fdb220.mp3"
+            },
+            {
+                "page": "drm/2/18642/OEBPS/Images/1/a6cd469b6ae582aa44c3a76b480517c8.jpg",
+                "audio": "drm/2/18642/OEBPS/Audio/1/af7a8766bce921a0ad88282ae1777160.mp3"
+            },
+            {
+                "page": "drm/2/18642/OEBPS/Images/1/821f7deafffed0db8c0716170cbf38e4.jpg",
+                "audio": "drm/2/18642/OEBPS/Audio/1/a2c18273b069836cd22eaf7dbc73b096.mp3"
+            },
+            {
+                "page": "drm/2/18642/OEBPS/Images/1/b7de722f6d84a2d7af006b1ebe4a20d2.jpg",
+                "audio": "drm/2/18642/OEBPS/Audio/1/b57ffe35f40e343fa94c686257f7092f.mp3"
+            },
+            {
+                "page": "drm/2/18642/OEBPS/Images/1/0a565e091b1da9f05ee4049b5888d73e.jpg",
+                "audio": "drm/2/18642/OEBPS/Audio/1/3d7ddfaca0ce29c855e9e679a252b9db.mp3"
+            },
+            {
+                "page": "drm/2/18642/OEBPS/Images/1/3f0af2eba73810797b5b992eade32157.jpg",
+                "audio": "drm/2/18642/OEBPS/Audio/1/830d4ac0a5f25ea1b04b6b5cd2511642.mp3"
+            },
+            {
+                "page": "drm/2/18642/OEBPS/Images/1/6ec7399bcd6b924b7099c21fb1b5e03f.jpg",
+                "audio": "drm/2/18642/OEBPS/Audio/1/389b37f38c95d1d193092b1e7be5cc63.mp3"
+            },
+            {
+                "page": "drm/2/18642/OEBPS/Images/1/7fcdd9f0c0bcb23486670488ef333d76.jpg",
+                "audio": "drm/2/18642/OEBPS/Audio/1/15c6c39cbc54a4a2e46ec788d2b2c843.mp3"
+            },
+            {
+                "page": "drm/2/18642/OEBPS/Images/1/5f2cb9c12d6e14eeb93eb327be435334.jpg",
+                "audio": "drm/2/18642/OEBPS/Audio/1/549945cd58a9a844d0cf4a1bcf5d8c49.mp3"
+            },
+            {
+                "page": "drm/2/18642/OEBPS/Images/1/3bffd99bf1567cc63b0cffdbc1e06e57.jpg",
+                "audio": "drm/2/18642/OEBPS/Audio/1/4d7eb7b381b03c0ad1c23da1754b7799.mp3"
+            },
+            {
+                "page": "drm/2/18642/OEBPS/Images/1/5993a746ada916e184bac3645ed66345.jpg",
+                "audio": "drm/2/18642/OEBPS/Audio/1/a34eea1745428374283080095e69ff9e.mp3"
+            },
+            {
+                "page": "drm/2/18642/OEBPS/Images/1/d2c72ad49c24293ddf5f98636f58cbc4.jpg",
+                "audio": "drm/2/18642/OEBPS/Audio/1/f9ba58173d1d3129c4c277611b6fc89e.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/2/18642/OEBPS/Images/1/91737996d0c3c64798361e095f52d9a1.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18642",
+        "id": "18642",
+        "title": "Things That Go",
+        "author": " ",
+        "illustrator": "Lisa M. Gardiner",
+        "numPages": 21,
+        "bookDescription": "The First Words series is an ideal learning tool for very young minds.",
+        "coverColorR": 201,
+        "coverColorG": 148,
+        "coverColorB": 39,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Flower Pot Press",
+        "publisherId": "168",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 315,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "b407807fe64784973010",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372870
+    },
+    "userBook": {
+        "modelId": "46250489-18642",
+        "userId": "46250489",
+        "bookId": "18642",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310874,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310874,
+        "book": {
+            "modelId": "18642",
+            "title": "Things That Go",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "b407807fe64784973010"
+        }
+    },
+    "quiz": null
+}

@@ -1,0 +1,195 @@
+{
+    "publisherData": {
+        "modelId": "90336",
+        "name": "Live Oak Media provided by Lerner Publishing Group",
+        "url": "https://www.lernerbooks.com/About-Lerner/Pages/LiveOakMedia.aspx",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1528852493
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/EDA117FB-7C7F-4ECD-A908-365CE904606C.jpg",
+                "audio": "drm/2/52622/OEBPS/Audio/1/page1.mp3"
+            },
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/6FB5AF32-BC22-402A-951C-A857937071C9.jpg",
+                "audio": "drm/2/52622/OEBPS/Audio/1/page6_7.mp3"
+            },
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/045C1C58-DCF8-412E-8912-E7A582A68350.jpg"
+            },
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/7125263A-426A-4ED0-A023-57ED5A965F45.jpg",
+                "audio": "drm/2/52622/OEBPS/Audio/1/page8_9.mp3"
+            },
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/00358CCE-48D0-4C62-AC89-E14CB7DD7CA1.jpg"
+            },
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/98CEE48A-8EBC-496B-BFB7-7DECF55BA30E.jpg",
+                "audio": "drm/2/52622/OEBPS/Audio/1/page10_11.mp3"
+            },
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/12D1C173-48DD-4912-A12F-57EFBB270049.jpg"
+            },
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/21CD7F5C-8E27-482B-BF97-BABE79DAD456.jpg",
+                "audio": "drm/2/52622/OEBPS/Audio/1/page12_13.mp3"
+            },
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/14B293B2-3747-4886-8F5F-87E25832FB7E.jpg"
+            },
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/17685CC5-E4DF-46FC-8AD1-628F40C613D2.jpg",
+                "audio": "drm/2/52622/OEBPS/Audio/1/page14_15.mp3"
+            },
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/B71AFB81-FD3A-4935-8954-CEEB23923A1F.jpg"
+            },
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/76F64E97-C478-498B-91AD-8584E9C66ED7.jpg",
+                "audio": "drm/2/52622/OEBPS/Audio/1/page16_17.mp3"
+            },
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/D8DDB212-6DCD-4CD5-AA27-F51533B60892.jpg"
+            },
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/F947254A-9EA8-48E9-8FA9-C1527427B262.jpg",
+                "audio": "drm/2/52622/OEBPS/Audio/1/page18_19.mp3"
+            },
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/EA4624D7-8E9F-4512-A011-32B9DA13A2D6.jpg"
+            },
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/E58BB137-FE8B-4F09-A360-2191B7426539.jpg",
+                "audio": "drm/2/52622/OEBPS/Audio/1/page20_21.mp3"
+            },
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/51BED588-3FF0-4ACB-B424-19C7159D5539.jpg"
+            },
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/4E7ED45E-F0F5-43D4-A18B-1A3AA545378F.jpg",
+                "audio": "drm/2/52622/OEBPS/Audio/1/page22_23.mp3"
+            },
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/A1F68683-8885-4D10-B8F9-12458BA9D696.jpg"
+            },
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/77E57942-0963-4013-B4AE-777A0D823908.jpg",
+                "audio": "drm/2/52622/OEBPS/Audio/1/page24_25.mp3"
+            },
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/63E01CFD-E073-47E5-A664-B03FD671DC78.jpg"
+            },
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/1D4C095D-F2A0-4764-8ADB-982D7A224CE1.jpg",
+                "audio": "drm/2/52622/OEBPS/Audio/1/page26_27.mp3"
+            },
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/44B8A9D6-C905-4F44-9E9E-20828E4FEA3F.jpg"
+            },
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/F418328E-B38F-4D6C-B0D5-AC43FC4E50D7.jpg",
+                "audio": "drm/2/52622/OEBPS/Audio/1/page28_29.mp3"
+            },
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/E7B0A45A-523A-4D24-A3FB-BF7611240AF2.jpg"
+            },
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/994B2ADE-99B7-42B8-AC45-0D46624594B8.jpg",
+                "audio": "drm/2/52622/OEBPS/Audio/1/page30_31.mp3"
+            },
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/756FBA0C-04E6-4393-A45B-B70525D8C454.jpg"
+            },
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/FB66AB23-CA58-46B3-96BD-FBDB907A7F8D.jpg",
+                "audio": "drm/2/52622/OEBPS/Audio/1/page32_33.mp3"
+            },
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/8061A6DD-E11D-4305-89AA-68855DD6DC28.jpg"
+            },
+            {
+                "page": "drm/2/52622/OEBPS/Images/1/EDB8DC2C-880D-4EE8-AE7A-834124CF15DB.jpg",
+                "audio": "drm/2/52622/OEBPS/Audio/1/page34_35.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/2/52622/OEBPS/Images/1/0BC23577-9E5F-4391-9D96-C07B73CC5EE3.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "52622",
+        "id": "52622",
+        "title": "A Picture Book of Eleanor Roosevelt",
+        "author": "David A. Adler",
+        "illustrator": "Robert Casilla",
+        "numPages": 30,
+        "bookDescription": "A biography of the woman who was America's first lady from 1932 - 1945.",
+        "coverColorR": 119,
+        "coverColorG": 168,
+        "coverColorB": 95,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Live Oak Media provided by Lerner Publishing Group",
+        "publisherId": "90336",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 550,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 81,
+        "type": 1,
+        "subject": "85",
+        "subjectDesc": "People",
+        "subjectColor": "E63463",
+        "copyright": "",
+        "aspectRatio": 1.1881,
+        "contentHash": "a3d010fc3244cba2c1e8",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374457
+    },
+    "userBook": {
+        "modelId": "46250489-52622",
+        "userId": "46250489",
+        "bookId": "52622",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559305386,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559305386,
+        "book": {
+            "modelId": "52622",
+            "title": "A Picture Book of Eleanor Roosevelt",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "a3d010fc3244cba2c1e8"
+        }
+    },
+    "quiz": null
+}

@@ -1,0 +1,520 @@
+{
+    "publisherData": {
+        "modelId": "90185",
+        "name": "Candlewick.",
+        "url": "http://www.candlewick.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1552002937
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/96256f97e95122bf1d69bb5ae12da6cf.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/def828435204abcc0faa670e853ebb21.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/ac150a361cd9c8456fd35a135a518083.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/c5c73efb6bb6f9d17c2ed94a28e4f083.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/46fc20e03ada3834a4f34c41d33c3288.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/4c96eba5df13e07ffbe9070f9b4d2df6.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/39c4e1b92d944fc61b7230e126ed4239.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/d1afb5cbbcb227ceeacdd6cb2587f5e8.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/4b03a576adb66b15812b7738da0c5dc6.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/f4853ce15ea7e708cedc241ff7510a2a.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/bd46c4a946f582ddb06a52f779a610c9.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/b59d8916fd6e873ef73fb9bc39ef530b.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/12af11327c01d8f0d7cf3c1aa44e6edf.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/447d4bb5c525bc50fee4c423d6afbbc9.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/274c3d5edea43fbfa89ecdf5883cba1c.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/13eb78b6a267ff893fd0247e45fe4552.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/4aece37eaf5989735c0f44beff5520f6.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/7d40c0fcbd13ae7110a5447a6b67a83c.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/480404926ac211860b13ba484733e563.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/f5a2275b559569276f4e8961741881b1.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/44737339da46f7f8a788c28d3ac808b9.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/de429fa9b5f495b3a35d5caaca8d603a.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/a21e6024bd1781f606c6fe44b02bb179.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/d7a0cbcde240c923ba2e7b4e96d920ab.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/0e09860e97d4438d109f1098dd27ed2a.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/38760856e333ad331a004e4437448c30.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/e0c5f53e72be9f61880e561aa4b5c080.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/6cf7407a7452ef56a384378dffb81163.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/09219e5de822bbd006d1e0bc6b81a1d1.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/46766c6d3c21b893657e4f277fecd83f.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/7e58638985a6959af3a3d93c76f1263e.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/75eeaef1db89913fc32a96edb25d6e06.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/2dba76d859dc5ab452581451bff3aa32.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/3f9e51ffb5f1976329a6ee01743b6103.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/48d1d2f372a72542187695bdf62282d9.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/38a9e927c4f7f625aa147793783d008e.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/e90531cce249447bde368eb57ec40536.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/ece7034ee58e711a74d094640bdd8d38.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/f9fcb23f63639c79790fbdcaa00522e0.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/2d2fa7b9ff8bbbe64ae0e50e1bbbfd3c.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/9c6ce1107769ec8f06580a55c73eff8f.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/ef6d873864aea5a70056e32591617139.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/44cb0101e82d669bdfe92456eeedc81c.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/30a3f0506f4fb3626ea9bf67b29e2493.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/bf90fab500289f8e82b83bb89d125bf5.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/855728af7cbf28c0e3a402a29a6f4b4f.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/677b44ff31ee12127ecb5155bccef84a.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/3836d204d2fe2f478e7bcbf0b24eba93.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/5f6262fd110b3dd998a8c07a0fa32e2d.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/c8929b63224c9f2ebf0389fdd0825918.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/fe530f7c4eb857465bd01c1c0bef42a4.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/27a34c96142370bb56ec71facf8d7db0.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/daffa3f3b381fc2f1c78f8ade21e04c9.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/f2608a5af06ab8e4271d392a95e430ea.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/0da559a3712b717b4fd48f0d8326b24c.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/9da83abbb341b3db36dadc75d7b238fd.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/29c51d773153e5e0ceb1b0dd3e382e92.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/4f75e995c8695c832b3536ab010150d7.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/30372b8588b8ebd9975edabab02e01d5.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/8eb9025eac174e8dc5f45de87d3241bb.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/3222d3c3c442543c2eb8bffe873c1af7.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/48f8dc5b5e2ddc3c8f7b265706591c5c.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/f48684e300a685407ab186af12338993.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/78a5fb82d600e1b60212f9c16ab435b8.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/3633f260ddc0a463b0aebbb468072da5.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/192b31bf066f2b9b2d2f0e2c92c050e8.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/5e14626754a927b6ed9871d2752700eb.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/dd17b7875781b75f309e96b7ad59f546.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/08c2066611e200ffa68094ec0fcaa24e.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/e92db154a1bce388e472bd1a3fd56fe2.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/36e7f4ccb3811cbff078fbf5f1cd70b7.jpg"
+            },
+            {
+                "page": "drm/5/60765/OEBPS/Images/1/287f585e229a1455988b64d0d1fba366.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/60765/OEBPS/Images/1/831602ca73b2dd96788380f94eaf5d0f.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "60765",
+        "id": "60765",
+        "title": "Mercy Watson to the Rescue",
+        "author": "Kate DiCamillo",
+        "illustrator": "Chris Van Dusen",
+        "numPages": 72,
+        "bookDescription": "To the portly and good-natured Mercy, the Watsons are an excellent source of buttered toast.",
+        "coverColorR": 155,
+        "coverColorG": 153,
+        "coverColorB": 146,
+        "version": 140873056,
+        "previewPercent": 20,
+        "publisher": "Candlewick.",
+        "publisherId": "90185",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "450L",
+        "avgTime": "1-2 hours",
+        "avgTimeInt": 3960,
+        "ar": "2.7",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "86",
+        "subjectDesc": "Action",
+        "subjectColor": "59E6FF",
+        "copyright": "",
+        "aspectRatio": 0.7786,
+        "contentHash": "c62be9641b5c702c3b33",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374928
+    },
+    "userBook": {
+        "modelId": "46250489-60765",
+        "userId": "46250489",
+        "bookId": "60765",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310260,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310260,
+        "book": {
+            "modelId": "60765",
+            "title": "Mercy Watson to the Rescue",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "c62be9641b5c702c3b33"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "397119",
+            "user_id": "44396699",
+            "book_id": "60765",
+            "title": "Mercy Watson",
+            "description": "",
+            "date_created": 1556634599,
+            "date_modified": 1556635820,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What do the watson's do for Mercy every night?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Sing a song",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Eats ice cream",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Play video games",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "A bed time kiss",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "what does Mercy like on his toast?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Butter",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Jam",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Peanut Butter",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Nothing",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What did Mrs.Watson say in her dream?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Have some more",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Go to School now",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "All of the above",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "YUM YUM YUM !!!!",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                }
+            ],
+            "modelId": "397119",
+            "creatorName": "Teacher Profile",
+            "avatarId": "82",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "44396699",
+                "udid": "5cbf25fa07b6a1.15420692",
+                "journalName": "Miss Mayers",
+                "journalCoverAvatar": "82",
+                "journalCoverColor": "1 0.67843137254902 0.26274509803922 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "575800856",
+                "fid": "",
+                "accountID": "f7693920-16ff-4216-8ca3-4f4573f53039",
+                "simpleAccountId": "11620893",
+                "pagesFlipped": 92,
+                "nufComplete": 1,
+                "readingAge": 4.13333,
+                "startingAge": 4,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 33,
+                "xpLevel": 2,
+                "dateLastLogin": 1556801189,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Lauren",
+                "lastName": "Mayers",
+                "accountType": 1,
+                "dateModified": 1558363063,
+                "educatorPrefix": "Miss",
+                "name": "Miss Mayers"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What do the watson's do for Mercy every night?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Sing a song",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Eats ice cream",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Play video games",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "A bed time kiss",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "what does Mercy like on his toast?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Butter",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Jam",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Peanut Butter",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Nothing",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What did Mrs.Watson say in her dream?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Have some more",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Go to School now",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "All of the above",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "YUM YUM YUM !!!!",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            }
+        ]
+    }
+}

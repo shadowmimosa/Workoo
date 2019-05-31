@@ -1,0 +1,212 @@
+{
+    "publisherData": {
+        "modelId": "90336",
+        "name": "Live Oak Media provided by Lerner Publishing Group",
+        "url": "https://www.lernerbooks.com/About-Lerner/Pages/LiveOakMedia.aspx",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1528852493
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/d3a769c59e8cab9add8c345a43e977c6.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 1.mp3"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/efe1c9dae715468d136a7d43ae613d87.jpg"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/f14107aea285963bb82c70e8f214fd4a.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 3.mp3"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/a1b8f19f4450a04ed823923347b59a15.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 4.mp3"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/6af9f74940e5b17da6182692eb54a757.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 5.mp3"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/274a9759fc19a0550880316f85112ff2.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 6.mp3"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/0a4abb41f5ad40a334ce94a12e3d6026.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 7.mp3"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/3818327decb08e05f7ad2f887d33e0c4.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 8.mp3"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/64ebb1fc56f2b347157994931850b8c8.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 9.mp3"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/684a4e6fc44213e32cd37f54b1c97dcd.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 10.mp3"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/94307730d81c65deab73b6faf51389f8.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 11.mp3"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/a6e4f69f985cdd7328fe6eb452f9fe01.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 12.mp3"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/320fcd8057b53bf41590aac5fef18fca.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 13.mp3"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/e8598ca36791f357069e8af3073e93f3.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 14.mp3"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/0441d24309c8ddacd38fa30e1f4af87a.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 15.mp3"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/6ee0678cff04a835e83fd83575e23cb5.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 16.mp3"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/f8fae57b587d43878cd3b3b47d0868f9.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 17.mp3"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/0426d34c82d5e8566afd7960887778a0.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 18.mp3"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/7fe87de7f3dd3edde3b18c273945b981.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 19.mp3"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/1abe9ee35870315a5322149b36ae4df2.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 20.mp3"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/f96a57861b20ec8f5f350092356cf4d0.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 21.mp3"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/ec75d65dc4f1778dc6d807e9c1459f11.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 22.mp3"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/a858d09f45ff4f5a7b538fad855d5425.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 23.mp3"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/8f9a0e0726ab71a5897a6997b0614b9f.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 24.mp3"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/f08766fce208be18e3b41ab568c31457.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 25.mp3"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/4068caab231a5bfa9e44a105c44fefbc.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 26.mp3"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/b05a283a1364263eb47d3b5cdd55c88a.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 27.mp3"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/57bbbfc8e22042f771e8fa37625be6f9.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 28.mp3"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/460772e761f52ef84878257f24dec676.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 29.mp3"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/74fdc41901a3446dad48910e3f946b8b.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 30.mp3"
+            },
+            {
+                "page": "drm/6/53876/OEBPS/Images/1/4353990dbf779d95fbb952b0b5f6b436.jpg",
+                "audio": "drm/6/53876/OEBPS/Audio/1/Page 31.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/6/53876/OEBPS/Images/1/efe1c9dae715468d136a7d43ae613d87.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "53876",
+        "id": "53876",
+        "title": "The Pumpkin Book",
+        "author": "Gail Gibbons",
+        "illustrator": " ",
+        "numPages": 31,
+        "bookDescription": "Big, small, round, tall -- pumpkins come in all shapes and sizes.",
+        "coverColorR": 137,
+        "coverColorG": 120,
+        "coverColorB": 110,
+        "version": 12309,
+        "previewPercent": 20,
+        "publisher": "Live Oak Media provided by Lerner Publishing Group",
+        "publisherId": "90336",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "15-30 mins",
+        "avgTimeInt": 1033,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 80,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Plants & Trees",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.9542,
+        "contentHash": "0a0264105489d85ce061",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1533260186
+    },
+    "userBook": {
+        "modelId": "46250489-53876",
+        "userId": "46250489",
+        "bookId": "53876",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310368,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310368,
+        "book": {
+            "modelId": "53876",
+            "title": "The Pumpkin Book",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "0a0264105489d85ce061"
+        }
+    },
+    "quiz": null
+}

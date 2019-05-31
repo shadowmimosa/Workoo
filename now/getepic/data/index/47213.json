@@ -1,0 +1,166 @@
+{
+    "publisherData": {
+        "modelId": "31",
+        "name": "Bellwether Media",
+        "url": "http://www.bellwethermedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539569528
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/3/47213/OEBPS/Images/1/7e839524e068ad13b5793f3665800bbc.jpg",
+                "audio": "drm/3/47213/OEBPS/Audio/1/9781681034027-01.mp3"
+            },
+            {
+                "page": "drm/3/47213/OEBPS/Images/1/e5f10405c19f024fb6b33bb567c6a999.jpg",
+                "audio": "drm/3/47213/OEBPS/Audio/1/9781681034027-02.mp3"
+            },
+            {
+                "page": "drm/3/47213/OEBPS/Images/1/2c4b6e7853830468e4eaee659f329200.jpg"
+            },
+            {
+                "page": "drm/3/47213/OEBPS/Images/1/33d769aa8e1bd4aec35e3c30967dd85a.jpg",
+                "audio": "drm/3/47213/OEBPS/Audio/1/9781681034027-03.mp3"
+            },
+            {
+                "page": "drm/3/47213/OEBPS/Images/1/c64fe414d3528dd13be51609e5a16873.jpg"
+            },
+            {
+                "page": "drm/3/47213/OEBPS/Images/1/655830351a36266ff4e39de9a7bf0747.jpg",
+                "audio": "drm/3/47213/OEBPS/Audio/1/9781681034027-04.mp3"
+            },
+            {
+                "page": "drm/3/47213/OEBPS/Images/1/d222a94ff7003b3c6223405c2565a0d3.jpg"
+            },
+            {
+                "page": "drm/3/47213/OEBPS/Images/1/f870d2e20e8bfb9f54ee0b3524bc6a87.jpg",
+                "audio": "drm/3/47213/OEBPS/Audio/1/9781681034027-05.mp3"
+            },
+            {
+                "page": "drm/3/47213/OEBPS/Images/1/190757f9e273f27bf6fbbe187958dc8b.jpg"
+            },
+            {
+                "page": "drm/3/47213/OEBPS/Images/1/d4e9d4bfe136591432c8ac95516724e3.jpg",
+                "audio": "drm/3/47213/OEBPS/Audio/1/9781681034027-06.mp3"
+            },
+            {
+                "page": "drm/3/47213/OEBPS/Images/1/38a563607334ed88285a64937667d1b4.jpg"
+            },
+            {
+                "page": "drm/3/47213/OEBPS/Images/1/37abec6db2a2dd17801ad4bf8d43474d.jpg",
+                "audio": "drm/3/47213/OEBPS/Audio/1/9781681034027-07.mp3"
+            },
+            {
+                "page": "drm/3/47213/OEBPS/Images/1/3c4b1acb76e1091d032e2577b0ab5f99.jpg"
+            },
+            {
+                "page": "drm/3/47213/OEBPS/Images/1/1123efae4b9b17412b36cac307b75c2e.jpg",
+                "audio": "drm/3/47213/OEBPS/Audio/1/9781681034027-08.mp3"
+            },
+            {
+                "page": "drm/3/47213/OEBPS/Images/1/75d1bde890ff9fdf4e1d70a6c515b90a.jpg"
+            },
+            {
+                "page": "drm/3/47213/OEBPS/Images/1/5d4cc7e4f9aea6ae044cf7ad5c945bb8.jpg",
+                "audio": "drm/3/47213/OEBPS/Audio/1/9781681034027-09.mp3"
+            },
+            {
+                "page": "drm/3/47213/OEBPS/Images/1/8a260143ed67aa044d45a3bab242d2d6.jpg"
+            },
+            {
+                "page": "drm/3/47213/OEBPS/Images/1/f5b66e75e53415be8f4ce3deb2d2624e.jpg",
+                "audio": "drm/3/47213/OEBPS/Audio/1/9781681034027-10.mp3"
+            },
+            {
+                "page": "drm/3/47213/OEBPS/Images/1/fb934867d16881f23a7ec6faff9ac97f.jpg"
+            },
+            {
+                "page": "drm/3/47213/OEBPS/Images/1/12e81ee9a5cc228a87fa9fc3b4152e5d.jpg",
+                "audio": "drm/3/47213/OEBPS/Audio/1/9781681034027-11.mp3"
+            },
+            {
+                "page": "drm/3/47213/OEBPS/Images/1/4536969833c97f9b70473b12288a352c.jpg"
+            },
+            {
+                "page": "drm/3/47213/OEBPS/Images/1/fb3000cc06777b1a2e6d58bc6a23ef6b.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/3/47213/OEBPS/Images/1/eee752a81dae25846e2f5cf8087e757e.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "47213",
+        "id": "47213",
+        "title": "Amazing Trains: Monorails",
+        "author": "Christina Leighton",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Ever ride a train on an elevated track around a zoo, an airport, or an amusement park? If so, you\u2019ve traveled by monorail!",
+        "coverColorR": 117,
+        "coverColorG": 122,
+        "coverColorB": 122,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Bellwether Media",
+        "publisherId": "31",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "450L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 806,
+        "ar": "1.8",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Things That GO",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 0.7222,
+        "contentHash": "e47faf194467e69d576c",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374070
+    },
+    "userBook": {
+        "modelId": "46250489-47213",
+        "userId": "46250489",
+        "bookId": "47213",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311836,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311836,
+        "book": {
+            "modelId": "47213",
+            "title": "Amazing Trains: Monorails",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "e47faf194467e69d576c"
+        }
+    },
+    "quiz": null
+}

@@ -1,0 +1,185 @@
+{
+    "publisherData": {
+        "modelId": "90380",
+        "name": "Macmillan..",
+        "url": "http://www.macmillan.com/",
+        "checkout": 0,
+        "educationalEnabled": 0,
+        "dateModified": 1553528923
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/503768d11f6d84661a18e2eaca92baf7.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/befbc33102005cda013ce0a21cc88c2a.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/eb18fdfb8ec67e1e0f381583014ef2a1.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/9c5e4d06e47f5bf7c445971b39e3200c.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/1c2e128129290ab70ca9bcb49520fd4b.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/43742f91e66d23eca7c4933a212d9051.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/c5db66eba9f788b20739b95f1fc051a3.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/8778ef43bbfebd3493470c17d83349c2.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/335903fb4e00722a4aee176355c21f0b.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/0fe23e5f62005e3feab8f7f650d08a6e.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/d619b09e562ea304ecae8aed1ca1733b.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/3678316e7faf7cb7042417c8c787a678.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/2e61da6137ac9e07f653569c844890ff.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/0f4d437141ed05738e5ac878830397ad.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/4ccb4ecb7cacb5d675e0630ea553f394.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/92bc1a00ec7645ba6891d20056a31fe1.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/e7941699db2b4e2491f7dd312fca5c6f.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/358bfa945a3327dbd2bd8c4199d2b748.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/d8700a411be1d4cefb1c1cdf4cec0770.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/15e7d085b16b6220bbb74bd39b72ad96.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/e72fc0ac31dd875a73a525cfc6198c6c.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/e6585dbd80a64c99fa981379f47e86c0.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/9981e481ff578e8b6cc1c36a272dc280.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/cc454d1cff914fa8361c269b6d70880f.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/03335088de6bb91568a0ddc5d9a0458c.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/4d809b7e8c8728f17a3ff6c5f26e7486.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/4884220c456387004e792c80f797d02f.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/5cc49e7f9c037a2177ed6e5707b85f53.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/228ae1cbe97e3c2fbda61ba0aff1a7c8.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/02135e815944a2e7eef1d08198f518b4.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/c641d70db0d064355ee51431601f788c.jpg"
+            },
+            {
+                "page": "drm/4/12994/OEBPS/Images/1/dc2cf689550d1ea7df728297dd096859.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/12994/OEBPS/Images/1/d6b8c6edd4f2bdfeebe78200d2fc4d7c.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "12994",
+        "id": "12994",
+        "title": "Cool Cars and Trucks",
+        "author": "Sean Kenney",
+        "illustrator": " ",
+        "numPages": 32,
+        "bookDescription": "Whether you\u2019d like to build an SUV, an excavator, a tanker truck, or a race car, this hands-on book will show you how.",
+        "coverColorR": 142,
+        "coverColorG": 153,
+        "coverColorB": 152,
+        "version": 858927445,
+        "previewPercent": 20,
+        "publisher": "Macmillan..",
+        "publisherId": "90380",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 586,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Arts, Crafts, DIY",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.25,
+        "contentHash": "5baaa18aac9ed8563537",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1558139106
+    },
+    "userBook": {
+        "modelId": "46250489-12994",
+        "userId": "46250489",
+        "bookId": "12994",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310722,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310722,
+        "book": {
+            "modelId": "12994",
+            "title": "Cool Cars and Trucks",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "5baaa18aac9ed8563537"
+        }
+    },
+    "quiz": null
+}

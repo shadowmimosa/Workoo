@@ -1,0 +1,206 @@
+{
+    "publisherData": {
+        "modelId": "90236",
+        "name": "Abrams",
+        "url": "http://www.abramsbooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491009966
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/24e183f92ce0ef622879ec6ed55b4928.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/e497d671481adc7c5affc97743a043fb.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/c7868ffec6fbede0d98ea5e1893bf613.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/6ec7b8c57c4a45fb6ff8ac0d8478888b.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/803bdd1d4b7ed6797df0e5494c32fc29.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/1abddb7ddbe06d8b64b820978d719945.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/f97cd235dcd97ed785776121dfc3737b.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/143db147eb45851705157ec9f8d5fedd.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/0b42139779d45fa944522d4d462ade75.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/854b546357c00ddc9eb3568241c4d43f.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/f4ebf6030b636274e191aee87cedaf9a.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/6699481479cbe444286c1c1a5a1c7294.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/a94972b43265cfd682796730e454aed0.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/188b5a973480f45b546172a6564fab1f.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/50eb42a2d29b847cd53c00a66dbb1afe.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/f7912fcbd856fc4fc73a39b5d88c3fea.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/aff0c0516cdc8792573cae2705771bac.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/16ea8265bdf8dea88a7a23bafb7e3102.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/900e500c346312e0dfb6b9ed06d9a574.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/7f16520747fdf696141a01368f41efd9.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/8cb675b4bd3d68e7bb27122011319f7c.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/77f7538a2b398acc4b21462c666c5030.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/7397eec9c19a8e3d692b85aa9a8600b3.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/2d94a568fa51e444d285140f98ddb8a8.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/df6f92c55efbbd0a6abf739402334ad5.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/fe957ee219ef2f4f7c47f04e74590f07.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/28edb30f8b6b9905105923ad36540654.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/b5628e672e96ca95cf8443ebbd855ec6.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/27f33445394bfc855146099e075d36d5.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/9c80319af823f502c2b956782adc53bb.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/02ff32d080848c80b37ddf6f1ee3e803.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/85c8a871e5083c66a0ba2903493f209e.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/1c0c960f2deee9a8b8d265b064434b80.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/763dac3f7eedfaf13a4e600d9b41b42c.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/5f6f47edc97726328d3fcf39bf3976f8.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/bad1ba3049e9ffecad7f46c6e77a32b2.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/a73254537a081004907ca44ee197132b.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/32e1a90aa0d54d5c1dc2dc17fa40b4f6.jpg"
+            },
+            {
+                "page": "drm/8/47338/OEBPS/Images/1/354ea47237b17b4c178ff8cd25395eb3.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/47338/OEBPS/Images/1/e0dea9029acfb18d3efe160fc6c6356d.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "47338",
+        "id": "47338",
+        "title": "Trombone Shorty",
+        "author": "Troy Andrews",
+        "illustrator": "Bryan Collier",
+        "numPages": 39,
+        "bookDescription": "Troy \u201cTrombone Shorty\u201d Andrews got his nickname by wielding a trombone twice as long as he was high!",
+        "coverColorR": 186,
+        "coverColorG": 154,
+        "coverColorB": 125,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Abrams",
+        "publisherId": "90236",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "760L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 715,
+        "ar": "4.2",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Art & Literature",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 0.9984,
+        "contentHash": "e560d1f6a4ebc6d7ff07",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "3",
+        "panelStatus": 0,
+        "date_modified": 1529629897
+    },
+    "userBook": {
+        "modelId": "46250489-47338",
+        "userId": "46250489",
+        "bookId": "47338",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310686,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310686,
+        "book": {
+            "modelId": "47338",
+            "title": "Trombone Shorty",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "e560d1f6a4ebc6d7ff07"
+        }
+    },
+    "quiz": null
+}

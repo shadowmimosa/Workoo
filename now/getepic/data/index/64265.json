@@ -1,0 +1,124 @@
+{
+    "publisherData": {
+        "modelId": "28",
+        "name": "Xist Publishing",
+        "url": "http://www.xistpublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539564197
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/64265/OEBPS/Images/1/3379c431c0846aebf07e14559fadb400.jpg",
+                "audio": "drm/5/64265/OEBPS/Audio/1/Title.mp3"
+            },
+            {
+                "page": "drm/5/64265/OEBPS/Images/1/d38f267a653ddbeb55a4e1592d90d3ed.jpg",
+                "audio": "drm/5/64265/OEBPS/Audio/1/Page 2.mp3"
+            },
+            {
+                "page": "drm/5/64265/OEBPS/Images/1/4c2279241809fce7220e578ee4a3e369.jpg",
+                "audio": "drm/5/64265/OEBPS/Audio/1/Page 3.mp3"
+            },
+            {
+                "page": "drm/5/64265/OEBPS/Images/1/64df3794721d200cc513d5b2295a7e77.jpg",
+                "audio": "drm/5/64265/OEBPS/Audio/1/Page 4.mp3"
+            },
+            {
+                "page": "drm/5/64265/OEBPS/Images/1/84a9fdcde2793d5da456ea98c3a074fa.jpg",
+                "audio": "drm/5/64265/OEBPS/Audio/1/Page 5.mp3"
+            },
+            {
+                "page": "drm/5/64265/OEBPS/Images/1/4ed775981b501a9f654008f069386989.jpg",
+                "audio": "drm/5/64265/OEBPS/Audio/1/Page 6.mp3"
+            },
+            {
+                "page": "drm/5/64265/OEBPS/Images/1/958536bb4c3045d90b53593e16d68bfa.jpg",
+                "audio": "drm/5/64265/OEBPS/Audio/1/Page 7.mp3"
+            },
+            {
+                "page": "drm/5/64265/OEBPS/Images/1/db7fd85ffbe0980378e51222136280bd.jpg",
+                "audio": "drm/5/64265/OEBPS/Audio/1/Page 8.mp3"
+            },
+            {
+                "page": "drm/5/64265/OEBPS/Images/1/e09ae88b4a25d0ab597af144c51ce142.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/64265/OEBPS/Images/1/b284a304d8ad57461b4d00e5940a120a.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "64265",
+        "id": "64265",
+        "title": "Discover Shapes: Oval",
+        "author": "Xist Publishing",
+        "illustrator": " ",
+        "numPages": 9,
+        "bookDescription": "Beginning readers identify things that are ovals in this very simple 12-page reader.",
+        "coverColorR": 223,
+        "coverColorG": 230,
+        "coverColorB": 226,
+        "version": 2147483647,
+        "previewPercent": 20,
+        "publisher": "Xist Publishing",
+        "publisherId": "28",
+        "age": 4,
+        "pageNumOffset": -1,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 225,
+        "ar": "2.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "a",
+        "language": 1,
+        "rating": 75,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.6471,
+        "contentHash": "ec940b2a584b58280f87",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1558484108
+    },
+    "userBook": {
+        "modelId": "46250489-64265",
+        "userId": "46250489",
+        "bookId": "64265",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559309813,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559309813,
+        "book": {
+            "modelId": "64265",
+            "title": "Discover Shapes: Oval",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "ec940b2a584b58280f87"
+        }
+    },
+    "quiz": null
+}

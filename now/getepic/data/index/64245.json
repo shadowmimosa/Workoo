@@ -1,0 +1,154 @@
+{
+    "publisherData": {
+        "modelId": "28",
+        "name": "Xist Publishing",
+        "url": "http://www.xistpublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539564197
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/64245/OEBPS/Images/1/aad7b348589305b6754f2eabbb2bac05.jpg"
+            },
+            {
+                "page": "drm/5/64245/OEBPS/Images/1/e76ab8119440540b2a5d14d819184ef8.jpg",
+                "audio": "drm/5/64245/OEBPS/Audio/1/Page 2.mp3"
+            },
+            {
+                "page": "drm/5/64245/OEBPS/Images/1/4d5b9073a91aa433eeb78d03380a481e.jpg",
+                "audio": "drm/5/64245/OEBPS/Audio/1/Page 3.mp3"
+            },
+            {
+                "page": "drm/5/64245/OEBPS/Images/1/9fc3650d6cfd704d7a133720f2736875.jpg",
+                "audio": "drm/5/64245/OEBPS/Audio/1/Page 4.mp3"
+            },
+            {
+                "page": "drm/5/64245/OEBPS/Images/1/39dff197fa2bf344d0b3dc4de0106178.jpg",
+                "audio": "drm/5/64245/OEBPS/Audio/1/Page 5.mp3"
+            },
+            {
+                "page": "drm/5/64245/OEBPS/Images/1/d38e73495431e0857fb1a722a6e80e3c.jpg",
+                "audio": "drm/5/64245/OEBPS/Audio/1/Page 6.mp3"
+            },
+            {
+                "page": "drm/5/64245/OEBPS/Images/1/63dee2105d233d5d4160ae308ac5fff5.jpg",
+                "audio": "drm/5/64245/OEBPS/Audio/1/Page 7.mp3"
+            },
+            {
+                "page": "drm/5/64245/OEBPS/Images/1/1a55e84d284783f0502023b73413f947.jpg",
+                "audio": "drm/5/64245/OEBPS/Audio/1/Page 8.mp3"
+            },
+            {
+                "page": "drm/5/64245/OEBPS/Images/1/c539f1e73e361b4a3dc9a48eec4fe222.jpg",
+                "audio": "drm/5/64245/OEBPS/Audio/1/Page 9.mp3"
+            },
+            {
+                "page": "drm/5/64245/OEBPS/Images/1/e553ecb9d182a163740d2aa6c64edc24.jpg",
+                "audio": "drm/5/64245/OEBPS/Audio/1/Page 10.mp3"
+            },
+            {
+                "page": "drm/5/64245/OEBPS/Images/1/9950d2e842c6d1b7de49824ea6508609.jpg",
+                "audio": "drm/5/64245/OEBPS/Audio/1/Page 11.mp3"
+            },
+            {
+                "page": "drm/5/64245/OEBPS/Images/1/d5fe6fad3d298aa5a9b98b033177aafb.jpg",
+                "audio": "drm/5/64245/OEBPS/Audio/1/Page 12.mp3"
+            },
+            {
+                "page": "drm/5/64245/OEBPS/Images/1/fe82bcf7f02cc4cecda0add5b63abc7c.jpg",
+                "audio": "drm/5/64245/OEBPS/Audio/1/Page 13.mp3"
+            },
+            {
+                "page": "drm/5/64245/OEBPS/Images/1/f07c41bd683531be9c95542ec971b85b.jpg",
+                "audio": "drm/5/64245/OEBPS/Audio/1/Page 14.mp3"
+            },
+            {
+                "page": "drm/5/64245/OEBPS/Images/1/6569691233af535ff699384b2bbbbf51.jpg",
+                "audio": "drm/5/64245/OEBPS/Audio/1/Page 15.mp3"
+            },
+            {
+                "page": "drm/5/64245/OEBPS/Images/1/3b7a99d3f529a4b137a07d4c82399d3d.jpg"
+            },
+            {
+                "page": "drm/5/64245/OEBPS/Images/1/493b773ed5f1d81511056dc449d97a9b.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/64245/OEBPS/Images/1/e6f22e0763ce4881350bdfc8817236b8.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "64245",
+        "id": "64245",
+        "title": "Discover Shapes: Find the Polygon",
+        "author": "Xist Publishing",
+        "illustrator": " ",
+        "numPages": 17,
+        "bookDescription": "Discover Shapes Level B Reader: Find the Polygon Beginning readers identify things that are polygons in this very simple 20-page reader.",
+        "coverColorR": 224,
+        "coverColorG": 223,
+        "coverColorB": 215,
+        "version": 2147483647,
+        "previewPercent": 20,
+        "publisher": "Xist Publishing",
+        "publisherId": "28",
+        "age": 5,
+        "pageNumOffset": -1,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 472,
+        "ar": "1.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "b",
+        "language": 1,
+        "rating": 75,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.6471,
+        "contentHash": "0e79904e0c1a250440e6",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1558484112
+    },
+    "userBook": {
+        "modelId": "46250489-64245",
+        "userId": "46250489",
+        "bookId": "64245",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559309878,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559309878,
+        "book": {
+            "modelId": "64245",
+            "title": "Discover Shapes: Find the Polygon",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "0e79904e0c1a250440e6"
+        }
+    },
+    "quiz": null
+}

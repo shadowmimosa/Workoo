@@ -1,0 +1,494 @@
+{
+    "publisherData": {
+        "modelId": "107",
+        "name": "Rourke Educational Media",
+        "url": "http://rourkeeducationalmedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570193
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/2/18702/OEBPS/Images/1/faea7ca5641edc78c7fbb41569e4007f.jpg",
+                "audio": "drm/2/18702/OEBPS/Audio/1/612e1044bfb33f5603bed2e8d04ce412.mp3"
+            },
+            {
+                "page": "drm/2/18702/OEBPS/Images/1/af4f1b7a091881f91856da53ea4eaa08.jpg",
+                "audio": "drm/2/18702/OEBPS/Audio/1/57835f85a96a05e558d25b74475967a5.mp3"
+            },
+            {
+                "page": "drm/2/18702/OEBPS/Images/1/39fb725fb8d3e295bf8ebf58a98b3706.jpg"
+            },
+            {
+                "page": "drm/2/18702/OEBPS/Images/1/427f8443278ac703e088f8d4e0cc0d58.jpg",
+                "audio": "drm/2/18702/OEBPS/Audio/1/b1df7b44e0bf9d0e08498352f207b90e.mp3"
+            },
+            {
+                "page": "drm/2/18702/OEBPS/Images/1/d4acd8bb9c184cb2f083cd950cc50f40.jpg"
+            },
+            {
+                "page": "drm/2/18702/OEBPS/Images/1/04a4caa2371a738bd9b71a11becf8642.jpg",
+                "audio": "drm/2/18702/OEBPS/Audio/1/0b9d6f3b12e40b370d7b10bc8cc92794.mp3"
+            },
+            {
+                "page": "drm/2/18702/OEBPS/Images/1/ce27a038484c26eef8b3b90f3723d560.jpg"
+            },
+            {
+                "page": "drm/2/18702/OEBPS/Images/1/d96e6751b9fa33dd46c3ae7e7f3817a5.jpg",
+                "audio": "drm/2/18702/OEBPS/Audio/1/dc9296e855a54bb147ef8a5a8b2aece8.mp3"
+            },
+            {
+                "page": "drm/2/18702/OEBPS/Images/1/8c1b354445c5ee805be5229768d1c8b7.jpg"
+            },
+            {
+                "page": "drm/2/18702/OEBPS/Images/1/6824ae9a0dd4f668e5ce8592a5d8909f.jpg",
+                "audio": "drm/2/18702/OEBPS/Audio/1/6fa5d5c487a09b730ace72e811329f60.mp3"
+            },
+            {
+                "page": "drm/2/18702/OEBPS/Images/1/dc1a060ba1f0731a994b8049f89c8eac.jpg"
+            },
+            {
+                "page": "drm/2/18702/OEBPS/Images/1/dc54703c916e6a13f5a148cc428ce7b5.jpg",
+                "audio": "drm/2/18702/OEBPS/Audio/1/ba57cc287354391c85feda3ca287619d.mp3"
+            },
+            {
+                "page": "drm/2/18702/OEBPS/Images/1/1208460b293b190b07dc0c7aa9bd08c6.jpg"
+            },
+            {
+                "page": "drm/2/18702/OEBPS/Images/1/78880d4694d71186e523c993e8a619ae.jpg",
+                "audio": "drm/2/18702/OEBPS/Audio/1/869dce2dc1f5fb54080b4c564ffe3eaa.mp3"
+            },
+            {
+                "page": "drm/2/18702/OEBPS/Images/1/1eadca0a77e6e39110c7d4c4ae83cb93.jpg"
+            },
+            {
+                "page": "drm/2/18702/OEBPS/Images/1/f6e8bd5032cbda8169fcaded81e1bee7.jpg",
+                "audio": "drm/2/18702/OEBPS/Audio/1/1caa707f69cfcfacb65e10000c992151.mp3"
+            },
+            {
+                "page": "drm/2/18702/OEBPS/Images/1/32f65ddc51dcbca4e1a058fbc52df012.jpg"
+            },
+            {
+                "page": "drm/2/18702/OEBPS/Images/1/de976693d6deed0f9d4d5b0bfccb0878.jpg",
+                "audio": "drm/2/18702/OEBPS/Audio/1/46ac3c067d77d6866a350c65d4d5ae57.mp3"
+            },
+            {
+                "page": "drm/2/18702/OEBPS/Images/1/bcfbaf9a7ada8ef8a7b4680c70e236ed.jpg"
+            },
+            {
+                "page": "drm/2/18702/OEBPS/Images/1/353a3180b636bf05e17075fcd081d6bf.jpg",
+                "audio": "drm/2/18702/OEBPS/Audio/1/09ab0e1fe65b37848d4c8d408bd586e0.mp3"
+            },
+            {
+                "page": "drm/2/18702/OEBPS/Images/1/0eb9ac6c2f8b066212a7e26c90862ede.jpg"
+            },
+            {
+                "page": "drm/2/18702/OEBPS/Images/1/32205420d55ce455a5bf5fb6fab6d283.jpg"
+            },
+            {
+                "page": "drm/2/18702/OEBPS/Images/1/e03f79e41a2ade65bc8af5dcff923b9a.jpg"
+            },
+            {
+                "page": "drm/2/18702/OEBPS/Images/1/df8538a80b149827ba14c12f9b961962.jpg"
+            },
+            {
+                "page": "drm/2/18702/OEBPS/Images/1/133fa5735252eae2cdf66c7562bd3fcc.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/2/18702/OEBPS/Images/1/b28f00a08ee9cf9bde64b874b0586bf4.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18702",
+        "id": "18702",
+        "title": "Fish Mission",
+        "author": "Precious McKenzie",
+        "illustrator": " ",
+        "numPages": 25,
+        "bookDescription": "Join the campers as they learn how to fish.",
+        "coverColorR": 163,
+        "coverColorG": 182,
+        "coverColorB": 191,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Rourke Educational Media",
+        "publisherId": "107",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 416,
+        "ar": "1.6",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Daily Life",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 1.005,
+        "contentHash": "a4c3533a5511ef88cb2e",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372872
+    },
+    "userBook": {
+        "modelId": "46250489-18702",
+        "userId": "46250489",
+        "bookId": "18702",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311351,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311351,
+        "book": {
+            "modelId": "18702",
+            "title": "Fish Mission",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "a4c3533a5511ef88cb2e"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "68501",
+            "user_id": "11172700",
+            "book_id": "18702",
+            "title": "Fish Mission",
+            "description": "",
+            "date_created": 1490097094,
+            "date_modified": 1490097880,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Where did the story take place?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "River",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Park",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "School",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Home",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "Read-We are going fishing today, said Counselor Lou.   Fantastic, groans Rosie.   How does Rosie feel about fishing?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "She is not happy about going.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "She loves fishing.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "She hopes to catch a fish.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "She likes fishing.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What did Viv and Marcos tie onto their fishing lines?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Flies made of feathers",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Nothing",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Worms",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Pizza",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Why did Counselor Nic yell \"Run!\" When he saw the fish?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "The fish had fangs.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "The fish tried to bite them.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "The fish was small.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "The fish was blue.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "\"I feel a tug on my line,\" shouts Nia.      What does the word tug mean?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Pull",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Eat",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Jump",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Run",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "68501",
+            "creatorName": "Ms. Reed",
+            "avatarId": "78",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "11172700",
+                "udid": "5804259e6734b7.82532296",
+                "journalName": "Ms. Reed",
+                "journalCoverAvatar": "78",
+                "journalCoverColor": "0.97254901960784 0.84313725490196 0.38823529411765 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "280767274",
+                "fid": "",
+                "accountID": "43BCCCAB-BA73-858A-D5A0-3CAEF998C8F4",
+                "simpleAccountId": "3840401",
+                "pagesFlipped": 35110,
+                "nufComplete": 1,
+                "readingAge": 7.3666666666667,
+                "startingAge": 7,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 2083,
+                "xpLevel": 17,
+                "dateLastLogin": 1559226839,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Corianne",
+                "lastName": "Reed",
+                "accountType": 1,
+                "dateModified": 1559226839,
+                "educatorPrefix": "Ms.",
+                "name": "Ms. Reed"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Where did the story take place?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "River",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Park",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "School",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Home",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "Read-We are going fishing today, said Counselor Lou.   Fantastic, groans Rosie.   How does Rosie feel about fishing?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "She is not happy about going.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "She loves fishing.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "She hopes to catch a fish.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "She likes fishing.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What did Viv and Marcos tie onto their fishing lines?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Flies made of feathers",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Nothing",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Worms",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Pizza",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Why did Counselor Nic yell \"Run!\" When he saw the fish?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "The fish had fangs.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "The fish tried to bite them.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "The fish was small.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "The fish was blue.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "\"I feel a tug on my line,\" shouts Nia.      What does the word tug mean?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Pull",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Eat",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Jump",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Run",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

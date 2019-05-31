@@ -1,0 +1,166 @@
+{
+    "publisherData": {
+        "modelId": "90327",
+        "name": "ABDO Kids an imprint of ABDO Publishing",
+        "url": "http://abdopublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1527111706
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/6/59366/OEBPS/Images/1/d5a8ac810cb37592610b357dc7c241a9.jpg",
+                "audio": "drm/6/59366/OEBPS/Audio/1/page1.mp3"
+            },
+            {
+                "page": "drm/6/59366/OEBPS/Images/1/d455aa04984f0ce833c6fc2998642e37.jpg",
+                "audio": "drm/6/59366/OEBPS/Audio/1/page4-5.mp3"
+            },
+            {
+                "page": "drm/6/59366/OEBPS/Images/1/c19046acc402a626976048343c1c1c2d.jpg"
+            },
+            {
+                "page": "drm/6/59366/OEBPS/Images/1/a50f72fc3896142530061f01e2258675.jpg",
+                "audio": "drm/6/59366/OEBPS/Audio/1/page6-7.mp3"
+            },
+            {
+                "page": "drm/6/59366/OEBPS/Images/1/0c64f2f07bffacbc649f87201226e644.jpg"
+            },
+            {
+                "page": "drm/6/59366/OEBPS/Images/1/8a34ba12d0c4262dda66857bb67b772d.jpg",
+                "audio": "drm/6/59366/OEBPS/Audio/1/page8-9.mp3"
+            },
+            {
+                "page": "drm/6/59366/OEBPS/Images/1/0bea5141ae35c49462783e36a5627650.jpg"
+            },
+            {
+                "page": "drm/6/59366/OEBPS/Images/1/cfebf9fd7bcbac6a09accb3dd80e6df5.jpg",
+                "audio": "drm/6/59366/OEBPS/Audio/1/page10-11.mp3"
+            },
+            {
+                "page": "drm/6/59366/OEBPS/Images/1/f6a556f635d43c9c90bc8a21805bba7c.jpg"
+            },
+            {
+                "page": "drm/6/59366/OEBPS/Images/1/5c24151110f177784736e7b7fd596e60.jpg",
+                "audio": "drm/6/59366/OEBPS/Audio/1/page12-13.mp3"
+            },
+            {
+                "page": "drm/6/59366/OEBPS/Images/1/a29a5d98486766e5809e1df05d0fb272.jpg"
+            },
+            {
+                "page": "drm/6/59366/OEBPS/Images/1/0f79ed198031c2f114f839037ffe4779.jpg",
+                "audio": "drm/6/59366/OEBPS/Audio/1/page14-15.mp3"
+            },
+            {
+                "page": "drm/6/59366/OEBPS/Images/1/84fc596af94da87860edbdada7bbe5c6.jpg"
+            },
+            {
+                "page": "drm/6/59366/OEBPS/Images/1/1322ae96297b3c2be91370a55b133ae8.jpg",
+                "audio": "drm/6/59366/OEBPS/Audio/1/page16-17.mp3"
+            },
+            {
+                "page": "drm/6/59366/OEBPS/Images/1/be1097f64a1bf22a877644353d78f3f9.jpg"
+            },
+            {
+                "page": "drm/6/59366/OEBPS/Images/1/eec729e4bcb4ec0904fb252db2a1f91c.jpg",
+                "audio": "drm/6/59366/OEBPS/Audio/1/page18-19.mp3"
+            },
+            {
+                "page": "drm/6/59366/OEBPS/Images/1/775eeb164f4e457af185b1c477596c1f.jpg"
+            },
+            {
+                "page": "drm/6/59366/OEBPS/Images/1/c11b0f8f28912ea87120157ec87b5750.jpg",
+                "audio": "drm/6/59366/OEBPS/Audio/1/page20-21.mp3"
+            },
+            {
+                "page": "drm/6/59366/OEBPS/Images/1/f64d22aa0b6bf1b0872d233bb2f00d1c.jpg"
+            },
+            {
+                "page": "drm/6/59366/OEBPS/Images/1/5372bb23bad5a458672abffbeeebf18f.jpg",
+                "audio": "drm/6/59366/OEBPS/Audio/1/page22.mp3"
+            },
+            {
+                "page": "drm/6/59366/OEBPS/Images/1/18f85297405217513daaaf8717e378ab.jpg"
+            },
+            {
+                "page": "drm/6/59366/OEBPS/Images/1/f91d760a51b0674f3b4762f4c51cb52e.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/6/59366/OEBPS/Images/1/aac778c2efa57fe8f5aa720e57a45588.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "59366",
+        "id": "59366",
+        "title": "Sharks",
+        "author": "Julie Murray",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Kids will love reading all about sharks and strengthening their reading skills.",
+        "coverColorR": 208,
+        "coverColorG": 229,
+        "coverColorB": 219,
+        "version": 490694441,
+        "previewPercent": 20,
+        "publisher": "ABDO Kids an imprint of ABDO Publishing",
+        "publisherId": "90327",
+        "age": 5,
+        "pageNumOffset": 1,
+        "active": 1,
+        "audio": 1,
+        "lexile": "280L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 733,
+        "ar": "1.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "d",
+        "language": 1,
+        "rating": 81,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Sea Life",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.0333,
+        "contentHash": "8dfd74e808f99a8af28a",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374867
+    },
+    "userBook": {
+        "modelId": "46250489-59366",
+        "userId": "46250489",
+        "bookId": "59366",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310014,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310014,
+        "book": {
+            "modelId": "59366",
+            "title": "Sharks",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "8dfd74e808f99a8af28a"
+        }
+    },
+    "quiz": null
+}

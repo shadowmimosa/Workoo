@@ -1,0 +1,242 @@
+{
+    "publisherData": {
+        "modelId": "28",
+        "name": "Xist Publishing",
+        "url": "http://www.xistpublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539564197
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/292242b1b2e667e107738ad963528932.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/eae5836f71aa47c179a1ab16da3aa6ad.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/bd83e14ce0022d28ade3f8cdde920e9e.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/1369f118dab7c2c589963073af43c177.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/e54a2f44de001dbfcc7e82113b373e7e.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/5f1238b7af0830cb54fe9b058d5f37d3.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/24ec241b13fe5d7a7f4861d6124398da.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/13d37a7bf6f098d09ca6772a8d977e31.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/476a8838c3949dbd2ccbcba61cbabb9e.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/84e097b97d82d4d0b06e4395daf650a0.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/f1af133901bb1a0e72e3e81ec00b2d5c.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/91b992ac3edc75145c74cde8e4391140.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/b55c29281dfb2c1c8da63bbf8965b297.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/eb3c51407f417066071200a7c4c4ffd4.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/6fa22d6bd2e59942718e057861b9dd3d.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/66b466faba76af7405200c96eae9ec01.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/6a04736ee274975767a4f97e273f44cc.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/c09842091184e84e75f4b51c13f1b5bd.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/6c8e0bf91d7e3616fdde831c643b524b.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/9d189f111052aa610ea0b1ba40d1f7ba.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/517d3dc2340f0b1bb5db968ff74fda28.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/4b0ceda1a01ce4a693f5823c146a40c4.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/23cfc4d006e21ec143c9d7cdc4af29ac.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/51b3db7905e35e69d192d2d4f5c334e5.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/84e6b0b3c79ba8a37e896b96439f345b.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/d17351f22a43f4ce9fa134a14d1433d7.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/4c7e91aa55022778a753932ccede625e.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/c9eace4e5517aa06fd176bdc5063eeda.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/20cca5c8e206e38b71142e11f7d9fafc.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/645154ec6c5de9f7f512e0ade37daf78.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/ca6cccfa124dce8ed93706f05464f795.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/b5b80d6cfcccad355ec28f7e5a82a073.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/90d60f1e3871facb48f65a4db4b7bd7b.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/dd9d44683fbee6b07ed7158171cce50a.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/5d71d12c7dc613380cab40e7d2f88959.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/612c204511dcd4c815145a71c88c531c.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/8355424c6703c181ffe91bd0184282ee.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/707c9efa9632c98c42141d78f2c83823.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/2c406f60b32f367558189ab35a8602c4.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/02d1916c18ee2143aaafc6a3438a3067.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/507da3da60113c433e9142d4e22e3b4c.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/0728248f278df01d7bf03981ad28b416.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/85dc9afe73a4b229668ca19426dcf842.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/8665cb372f820698a247343985734446.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/4fb08b41069be9b98cdfae629df92e9f.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/813621ea0184303aa74d511c175cd83f.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/0fedf4cf6e4e0526dae1fe07a2b16398.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/432f7e0f0074659f34bdc21b35ca8669.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/0863ec66bff88b181d3c45bf97a6176a.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/53020dcc3f93fabbb08540eea2da2833.jpg"
+            },
+            {
+                "page": "drm/8/6438/OEBPS/Images/1/d620cf94171f778f6e4cdae8d7d82c6d.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/6438/OEBPS/Images/1/0022cfb8bdafede15b99e5dc91c33daa.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "6438",
+        "id": "6438",
+        "title": "Funny Bunny",
+        "author": "Jacob Lee",
+        "illustrator": " ",
+        "numPages": 51,
+        "bookDescription": "A cute book about bunnies.",
+        "coverColorR": 192,
+        "coverColorG": 205,
+        "coverColorB": 211,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Xist Publishing",
+        "publisherId": "28",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "15-30 mins",
+        "avgTimeInt": 935,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pets",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.7894,
+        "contentHash": "2fdd20d07fa08583551c",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "3",
+        "panelStatus": 0,
+        "date_modified": 1555372264
+    },
+    "userBook": {
+        "modelId": "46250489-6438",
+        "userId": "46250489",
+        "bookId": "6438",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559304252,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559304252,
+        "book": {
+            "modelId": "6438",
+            "title": "Funny Bunny",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "2fdd20d07fa08583551c"
+        }
+    },
+    "quiz": null
+}

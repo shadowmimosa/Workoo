@@ -1,0 +1,416 @@
+{
+    "publisherData": {
+        "modelId": "90295",
+        "name": "HarperCollins Publishing..",
+        "url": "http://www.harpercollins.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539569236
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/5aa488dee0aaaab33d24921865298f32.jpg",
+                "audio": "drm/0/5310/OEBPS/Audio/1/silence_5sec.mp3"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/e855d0f4eacfe215fd1e3003761fa347.jpg"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/a8094f6d5d492ad40f0b74b593d7efa8.jpg",
+                "audio": "drm/0/5310/OEBPS/Audio/1/9780062065605_1.mp3"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/9c676d2d535400e711250c820b853a6a.jpg"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/a435afb4f081084b8b3620e41d01ef24.jpg",
+                "audio": "drm/0/5310/OEBPS/Audio/1/9780062065605_2.mp3"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/a6bc41b950d25ceb2536ee317333f71f.jpg",
+                "audio": "drm/0/5310/OEBPS/Audio/1/9780062065605_3.mp3"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/7ff05709cd329dda20c491d5d9953e81.jpg"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/7222a5d630ebae455c47875d8e53a59c.jpg",
+                "audio": "drm/0/5310/OEBPS/Audio/1/9780062065605_4.mp3"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/e6b9c1f04c6c44ab135809677d6a1ccb.jpg"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/61130ef1fd6c1d4d97eb876d549da101.jpg"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/0ec4fd4eea8c0eacd306dcdcb9daa440.jpg",
+                "audio": "drm/0/5310/OEBPS/Audio/1/9780062065605_5.mp3"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/a23b3b793eff39b753faee3e629b7c5c.jpg",
+                "audio": "drm/0/5310/OEBPS/Audio/1/9780062065605_6.mp3"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/490c73d7c2554485de1c8072f71e6a2f.jpg"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/923ae1e1eb30f6c13316bc3d8832e594.jpg",
+                "audio": "drm/0/5310/OEBPS/Audio/1/9780062065605_7.mp3"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/0dc0f518df303cd0dd1ae95e8a3df71c.jpg"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/cab88e058ec10b12769258b6b576393f.jpg",
+                "audio": "drm/0/5310/OEBPS/Audio/1/9780062065605_8.mp3"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/9f5e48bbe4b4c0efe2b6c892d60d0af8.jpg"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/fc29df0af8129bdc3060fe3f0b477ecc.jpg",
+                "audio": "drm/0/5310/OEBPS/Audio/1/9780062065605_9.mp3"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/2a3f34088e8bd7253fc00fc0c77aa1d7.jpg"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/9c8aa31524a129d51b5d2980bd09d103.jpg",
+                "audio": "drm/0/5310/OEBPS/Audio/1/9780062065605_10.mp3"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/4942a9a0fe6a5ed00420a9936e02248a.jpg"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/9b5561ca343d0e9b1b308a298df5e6c8.jpg",
+                "audio": "drm/0/5310/OEBPS/Audio/1/9780062065605_11.mp3"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/7678c6a9b324a186933a82582574075e.jpg"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/2e0c50a5ad74531ff2571dffeaf603c6.jpg",
+                "audio": "drm/0/5310/OEBPS/Audio/1/9780062065605_12.mp3"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/23144167e1cfb632c461f9668d7731c3.jpg"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/7f576d5b6494004bb6bd65e946ef56e1.jpg",
+                "audio": "drm/0/5310/OEBPS/Audio/1/9780062065605_13.mp3"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/1e7eb4faffed6c0e5d3064259a64d561.jpg"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/3dc70d4bc49f4380ff460e535f54f5a0.jpg",
+                "audio": "drm/0/5310/OEBPS/Audio/1/9780062065605_14.mp3"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/1693e9e3c4500945650f534b92acb927.jpg"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/6d2349e81f2ea452594622823594e3b0.jpg",
+                "audio": "drm/0/5310/OEBPS/Audio/1/9780062065605_15.mp3"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/53d514ae760b20503bed343ca79fe443.jpg"
+            },
+            {
+                "page": "drm/0/5310/OEBPS/Images/1/29463596c00711e4300bf632e97af770.jpg",
+                "audio": "drm/0/5310/OEBPS/Audio/1/9780062065605_16.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/5310/OEBPS/Images/1/6f6f5f1a45cfec78fdd0dd966d2c673c.jpg",
+            "color": "#fefefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "5310",
+        "id": "5310",
+        "title": "Pete The Cat: I Love My White Shoes",
+        "author": "Eric Litwin",
+        "illustrator": "James Dean",
+        "numPages": 32,
+        "bookDescription": "Pete the Cat goes walking down the street wearing his brand new white shoes. Along the way, his shoes change color.",
+        "coverColorR": 209,
+        "coverColorG": 197,
+        "coverColorB": 70,
+        "version": 859059317,
+        "previewPercent": 10,
+        "publisher": "HarperCollins Publishing..",
+        "publisherId": "90295",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "AD460L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 586,
+        "ar": "1.5",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Cats",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.7722,
+        "contentHash": "f9518f688aceebacbd5a",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1556738655
+    },
+    "userBook": {
+        "modelId": "46250489-5310",
+        "userId": "46250489",
+        "bookId": "5310",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310359,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310359,
+        "book": {
+            "modelId": "5310",
+            "title": "Pete The Cat: I Love My White Shoes",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "f9518f688aceebacbd5a"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "402323",
+            "user_id": "29980495",
+            "book_id": "5310",
+            "title": "Pete the Cat: I Love my white shoes",
+            "description": "",
+            "date_created": 1556904864,
+            "date_modified": 1556904864,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What color were Pete's shoes on the first page?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "White",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "blue",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "red",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "yellow",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What did Pete walk in first?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Strawberries",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Blueberries",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Mud",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Paint",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What turned Pete's shoes blue?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Blueberries",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Pens",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Pudding",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Blackberries",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                }
+            ],
+            "modelId": "402323",
+            "creatorName": "ANTHONY G.",
+            "avatarId": "16",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "29980495",
+                "udid": "5b92884b323f69.87693579",
+                "journalName": "ANTHONY G.",
+                "journalCoverAvatar": "16",
+                "journalCoverColor": "0.84705882352941 0.18039215686275 0.46274509803922 1",
+                "journalFrameImage": "6",
+                "journalCoverImage": "15",
+                "themeId": "0",
+                "code": "285528839",
+                "fid": "",
+                "accountID": "8EB2659E-B19F-42A6-528C-6BA82B17C12B",
+                "simpleAccountId": "8385177",
+                "pagesFlipped": 1461,
+                "nufComplete": 1,
+                "readingAge": 6.13333,
+                "startingAge": 9,
+                "status": 0,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 526,
+                "xpLevel": 14,
+                "dateLastLogin": 1556904051,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "ANTHONY",
+                "lastName": "GONZALEZ FRANCO",
+                "accountType": 1,
+                "dateModified": 1557335561,
+                "grade": 4
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What color were Pete's shoes on the first page?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "White",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "blue",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "red",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "yellow",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What did Pete walk in first?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Strawberries",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Blueberries",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Mud",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Paint",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What turned Pete's shoes blue?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Blueberries",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Pens",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Pudding",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Blackberries",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            }
+        ]
+    }
+}

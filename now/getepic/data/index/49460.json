@@ -1,0 +1,245 @@
+{
+    "publisherData": {
+        "modelId": "90312",
+        "name": "Houghton Mifflin Harcourt",
+        "url": "https://www.hmhco.com/",
+        "checkout": 0,
+        "educationalEnabled": 0,
+        "dateModified": 1523564869
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/43a50916384407070c4441fba93d127b.jpg",
+                "audio": "drm/0/49460/OEBPS/Audio/1/LittleHouse-01.mp3"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/e2e78cd3ac755a714b44623354ac7db3.jpg"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/98a577f05b575ce4b0ec029a333d67be.jpg",
+                "audio": "drm/0/49460/OEBPS/Audio/1/LittleHouse-02.mp3"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/e7e34c2427b9eeed991d6961c78ce4e9.jpg",
+                "audio": "drm/0/49460/OEBPS/Audio/1/LittleHouse-03.mp3"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/ab2b997eff240a488a0d99f507e383a8.jpg"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/9fb00f62d4f2b658cdd02db1a5049cfd.jpg",
+                "audio": "drm/0/49460/OEBPS/Audio/1/LittleHouse-04.mp3"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/7bc71188efabd5290e06faae34565443.jpg"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/0109ee67c73c9205b3f6166755bb5c31.jpg",
+                "audio": "drm/0/49460/OEBPS/Audio/1/LittleHouse-05.mp3"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/b3d8ad93b14b5a3c86086e24e5ea545d.jpg"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/fdab0cf71f807e398493f10e53d7e740.jpg",
+                "audio": "drm/0/49460/OEBPS/Audio/1/LittleHouse-06.mp3"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/f5ca46a696880b2bd63ffc04515694c8.jpg"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/276c761644269ca73aaf98d9ade4c5d2.jpg",
+                "audio": "drm/0/49460/OEBPS/Audio/1/LittleHouse-07.mp3"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/37c4839556e29825b20c6ab746540256.jpg"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/a78752b54675704147ca31672c6a904b.jpg",
+                "audio": "drm/0/49460/OEBPS/Audio/1/LittleHouse-08.mp3"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/78750d9e4dfcec0430f935affc97cd8c.jpg"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/e9bdc001248417d8a75094c424a9cd48.jpg",
+                "audio": "drm/0/49460/OEBPS/Audio/1/LittleHouse-09.mp3"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/e02d0862ada0aba4ef2b3dd756816c26.jpg"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/47bc5d6eb2843347564699dc2e25a931.jpg",
+                "audio": "drm/0/49460/OEBPS/Audio/1/LittleHouse-10.mp3"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/1329c498bfe1905c1af84c0707568412.jpg"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/4afdf5057c874fce83846450f8bb080b.jpg",
+                "audio": "drm/0/49460/OEBPS/Audio/1/LittleHouse-11_2.mp3"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/568e366ab26b49cc1f85aa0282da2a91.jpg"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/80c045554589aeeb940f4882e5380c2e.jpg",
+                "audio": "drm/0/49460/OEBPS/Audio/1/LittleHouse-12.mp3"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/fabc651dcb0960d6aff6cfbda9eda834.jpg"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/a3bb481ccf88734cbbb9f87faebe83ba.jpg",
+                "audio": "drm/0/49460/OEBPS/Audio/1/LittleHouse-13.mp3"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/410af16144afbd9d2eb9ea0f332f9ac0.jpg"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/6777da5a6c2506ecdb44655f3e9ddab1.jpg",
+                "audio": "drm/0/49460/OEBPS/Audio/1/LittleHouse-14.mp3"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/f3d7bc544b72ab61f4fb75fabd1c9756.jpg"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/819f4bb66571cf0caa19b22aa55b93ef.jpg",
+                "audio": "drm/0/49460/OEBPS/Audio/1/LittleHouse-15.mp3"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/191a4639203a7a07358cd2f6b2154663.jpg"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/d06037a1ea30b7d6815b61310d233e52.jpg",
+                "audio": "drm/0/49460/OEBPS/Audio/1/LittleHouse-16.mp3"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/da2184ce90ffb91aa2018fc4ac10d67f.jpg"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/d83068ec0ea27afac88b09efb2e9f295.jpg",
+                "audio": "drm/0/49460/OEBPS/Audio/1/LittleHouse-17.mp3"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/38c361de4f932ea12a99a143f8345b8d.jpg",
+                "audio": "drm/0/49460/OEBPS/Audio/1/LittleHouse-18.mp3"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/95cff3bb24d619b31518d47c0a39bd11.jpg",
+                "audio": "drm/0/49460/OEBPS/Audio/1/LittleHouse-19.mp3"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/7a725ecf6d595c66ddac823d1d88408f.jpg"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/b89d6d71ee35b7579631987630dcb2f5.jpg",
+                "audio": "drm/0/49460/OEBPS/Audio/1/LittleHouse-20.mp3"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/f9091d2ed5657cc62c3e8b0aa2927579.jpg"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/650979453cdaf9551c6a285eeaf47cdb.jpg"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/4bbb0ed9aea7ed6d2c2572a0b31ac6aa.jpg",
+                "audio": "drm/0/49460/OEBPS/Audio/1/LittleHouse-21.mp3"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/5c1c4a81d95c61717eb4dc39c84e87db.jpg",
+                "audio": "drm/0/49460/OEBPS/Audio/1/LittleHouse-22.mp3"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/0b6f18f6cfe262fc89b7d1e165c608ca.jpg",
+                "audio": "drm/0/49460/OEBPS/Audio/1/LittleHouse-23.mp3"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/74066858922b051ab9bd5f3ca1060da7.jpg",
+                "audio": "drm/0/49460/OEBPS/Audio/1/LittleHouse-24.mp3"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/9ff5d6136d6de86efa16e9c1ee37fc34.jpg"
+            },
+            {
+                "page": "drm/0/49460/OEBPS/Images/1/c0d46d81744560488047aa329884f3bb.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/49460/OEBPS/Images/1/582f02062aef116400bbca16b5393118.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "49460",
+        "id": "49460",
+        "title": "The Little House 75th Anniversary Edition",
+        "author": "Virginia L Burton ",
+        "illustrator": " ",
+        "numPages": 44,
+        "bookDescription": "This beautiful and timeless picture book about the changes that come to a little house in the country.",
+        "coverColorR": 138,
+        "coverColorG": 179,
+        "coverColorB": 184,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Houghton Mifflin Harcourt",
+        "publisherId": "90312",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "AD610L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 733,
+        "ar": "4.2",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "86",
+        "subjectDesc": "Exploration",
+        "subjectColor": "59E6FF",
+        "copyright": "",
+        "aspectRatio": 1.0682,
+        "contentHash": "2208a080bf059353ad74",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1544404637
+    },
+    "userBook": {
+        "modelId": "46250489-49460",
+        "userId": "46250489",
+        "bookId": "49460",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310277,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310277,
+        "book": {
+            "modelId": "49460",
+            "title": "The Little House 75th Anniversary Edition",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "2208a080bf059353ad74"
+        }
+    },
+    "quiz": null
+}

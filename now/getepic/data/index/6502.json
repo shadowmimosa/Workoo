@@ -1,0 +1,224 @@
+{
+    "publisherData": {
+        "modelId": "28",
+        "name": "Xist Publishing",
+        "url": "http://www.xistpublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539564197
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/48a4f6279e6d90e311a380a8debfe81c.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/c195dde2960e4ac1d853310d8de2bcc0.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/67781d347c4df02c723c7829a77d52ee.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/03452f73905de2960ff017af7d343721.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/38f9fe0da04f637bb3b4414add0e6f1f.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/9f495f702cce0fe2da991689ff1f5aac.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/b7c89f1f1d7c72048372e6cf39d721a7.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/99e624f291f5aa2ce94308634eab9f3e.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/cdfa1a7bd5f86b417be31ce75cbc3aa8.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/c8fb02bd3af8f50199611bc27953853c.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/4a1eefa3d73d506ea01ecfdf38b97145.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/bb2c7b4af34f4430cedea64ff5f74fa4.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/85ab7424f8b7c06cb807eb1a5e35f077.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/eae916f49efc97d4d73447a19606b271.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/68666d262cce24c01dfe840d813f769e.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/28cd9754709d41ff091a68b7eee2bb10.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/e3aa0acd60b3728d7a3d6b0873b575d6.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/e1d446d92aa5e05cb8bdaa88d21e47e3.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/e2eb2e456fd139f4ab503f08df413f8a.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/e26dc5fdeda76efd83e08ab6d0f9894b.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/eb141cdc8fee5b9aef65970f2c735ca0.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/a9c807f2d7148381907ae8824d24ec33.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/aef6486b128a942c78ca073b22422fa8.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/3ecb7411203702790f4e64e1da94d4be.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/2a5a07f991d749e3d6910e1e2ac4a1d6.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/7d8f0f64fe56f69ec58c922f6ef0078a.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/859e5837fd093d30028b3845e5bad4df.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/f52a91eaa44865bc2929413694e5a304.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/8cc99cf7a4824ee44760e7f9f6b59b81.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/fa02f31a33a4dce98ce3e0e4c5700728.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/34699afc6a1f06956b49ecdd9cd8da8d.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/de8ca56359531d6a78d1ad20edb88074.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/41be270554f70c3b945abe519445d9d7.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/ec01b168e50731079452cff0516a5525.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/b489ac42b066ef6868627bd883285c44.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/d1cadcae91297e99a5aac9ef558d6c95.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/8795fd2dbede434eeb6e533a3fc2d610.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/8bc329111aff600b24f35659872ac495.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/aaea9a827c292226b11b9a9cc856d6c0.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/cd670a4d8c17df1c412b604a641d701a.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/4b746f435e5ac0949c141e41455785c8.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/2baa3be39fd6eef445e17afd505eac0f.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/fded17432dda59433230bf09c333cefd.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/b5b442f4d8e24727e8594d0b2543d112.jpg"
+            },
+            {
+                "page": "drm/2/6502/OEBPS/Images/1/6ff95f5590f3a9a25bdfd8118c3fb924.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/2/6502/OEBPS/Images/1/7d0836745ed6e9559a44053096725b63.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "6502",
+        "id": "6502",
+        "title": "Monkey Fun!",
+        "author": "Julia Dweck",
+        "illustrator": "Aida Sophia Barba",
+        "numPages": 45,
+        "bookDescription": "Monkey Fun! proves that you\u2019re never too young to begin your learning adventure.",
+        "coverColorR": 214,
+        "coverColorG": 170,
+        "coverColorB": 102,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Xist Publishing",
+        "publisherId": "28",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 675,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Funny",
+        "subjectColor": "FFD673",
+        "copyright": "",
+        "aspectRatio": 0.8556,
+        "contentHash": "44f4b02b473574f13876",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "0",
+        "panelStatus": 0,
+        "date_modified": 1555017982
+    },
+    "userBook": {
+        "modelId": "46250489-6502",
+        "userId": "46250489",
+        "bookId": "6502",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311110,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311110,
+        "book": {
+            "modelId": "6502",
+            "title": "Monkey Fun!",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "44f4b02b473574f13876"
+        }
+    },
+    "quiz": null
+}

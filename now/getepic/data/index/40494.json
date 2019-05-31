@@ -1,0 +1,410 @@
+{
+    "publisherData": {
+        "modelId": "90083",
+        "name": "Child's World",
+        "url": "http://childsworld.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491261889
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/40494/OEBPS/Images/1/87FA2CB5-7B15-44D5-A23F-A2CFD586A502.jpg"
+            },
+            {
+                "page": "drm/4/40494/OEBPS/Images/1/A6B5F6E8-92B0-4AF1-A0D3-055E38177A1D.jpg"
+            },
+            {
+                "page": "drm/4/40494/OEBPS/Images/1/FBF09575-A3B1-4570-8426-E569D8DF8444.jpg"
+            },
+            {
+                "page": "drm/4/40494/OEBPS/Images/1/1A85CBE0-ADD4-4436-A2ED-0D865492CD6F.jpg"
+            },
+            {
+                "page": "drm/4/40494/OEBPS/Images/1/9F26482C-B325-4712-8DCE-A9A662BEB074.jpg"
+            },
+            {
+                "page": "drm/4/40494/OEBPS/Images/1/8C6C21F5-10BC-4E34-9964-B39C2300018B.jpg"
+            },
+            {
+                "page": "drm/4/40494/OEBPS/Images/1/1500FBE5-CD19-40DF-9CD2-044F9F6019C7.jpg"
+            },
+            {
+                "page": "drm/4/40494/OEBPS/Images/1/25377E13-CA53-41EB-9911-51FAF17F5A26.jpg"
+            },
+            {
+                "page": "drm/4/40494/OEBPS/Images/1/2B883F9F-A92B-4CE5-9B0A-AC5F805FE166.jpg"
+            },
+            {
+                "page": "drm/4/40494/OEBPS/Images/1/D4A09963-80FA-40A7-8760-89D681CAFDBD.jpg"
+            },
+            {
+                "page": "drm/4/40494/OEBPS/Images/1/B8EF3B14-A1A1-459D-8D39-BB6C519D5A5A.jpg"
+            },
+            {
+                "page": "drm/4/40494/OEBPS/Images/1/315AEBDA-6F64-44DA-9A37-9BF8BC25474A.jpg"
+            },
+            {
+                "page": "drm/4/40494/OEBPS/Images/1/7A28AB53-E391-4011-87A6-B446E264BF5C.jpg"
+            },
+            {
+                "page": "drm/4/40494/OEBPS/Images/1/590C9CC6-CD26-4119-85FF-7DC7D6FBE8CB.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/40494/OEBPS/Images/1/A25F98D6-B436-4607-BA54-DB2753620DD2.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "40494",
+        "id": "40494",
+        "title": "Leaping Lizards! Teaching Alliteration",
+        "author": "Lisa Owings",
+        "illustrator": " ",
+        "numPages": 14,
+        "bookDescription": "Learn about alliteration through easy, engaging text and colorful photographs.",
+        "coverColorR": 228,
+        "coverColorG": 226,
+        "coverColorB": 211,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Child's World",
+        "publisherId": "90083",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "460L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 210,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "ABCs & 123s",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.1363,
+        "contentHash": "a3678d21e8d718ed8830",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1555373742
+    },
+    "userBook": {
+        "modelId": "46250489-40494",
+        "userId": "46250489",
+        "bookId": "40494",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311536,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311536,
+        "book": {
+            "modelId": "40494",
+            "title": "Leaping Lizards! Teaching Alliteration",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "a3678d21e8d718ed8830"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "90559",
+            "user_id": "1166172",
+            "book_id": "40494",
+            "title": "What is alliteration?",
+            "description": "",
+            "date_created": 1494510260,
+            "date_modified": 1502823790,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What is alliteration?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Using words that start with the same sound",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Using words that sound the same",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Using the same words over and over",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "On Page 4, what kind of snake startles Leroy the Lizard?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "slithering",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "sloppy",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "long",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "rough",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Sam the snake is _______________",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "sneaky",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "silly",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "mean",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Who does Pete the parrot fly with?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "his flock of friends",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "his parrot people",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "his windy wings",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "What does Myrtle the monkey spy?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Jake's spots",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "another monkey",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "her home",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "90559",
+            "creatorName": "Mrs. Hickman",
+            "avatarId": "79",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "1166172",
+                "udid": "55b5a503b05496.35640316",
+                "journalName": "Mrs. Hickman",
+                "journalCoverAvatar": "79",
+                "journalCoverColor": "0.94509803921569 0.66274509803922 0.92941176470588 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "246078250",
+                "fid": "",
+                "accountID": "FFA689C0-7833-95DE-DAD9-932255F6FC25",
+                "simpleAccountId": "631350",
+                "pagesFlipped": 4518,
+                "nufComplete": 1,
+                "readingAge": 7.8,
+                "startingAge": 5,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 119,
+                "xpLevel": 2,
+                "dateLastLogin": 1557163789,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Julie",
+                "lastName": "Hickman",
+                "accountType": 1,
+                "dateModified": 1559241545,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Hickman"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What is alliteration?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Using words that start with the same sound",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Using words that sound the same",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Using the same words over and over",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "On Page 4, what kind of snake startles Leroy the Lizard?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "slithering",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "sloppy",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "long",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "rough",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Sam the snake is _______________",
+                "quizQuestionChoices": [
+                    {
+                        "title": "sneaky",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "silly",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "mean",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Who does Pete the parrot fly with?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "his flock of friends",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "his parrot people",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "his windy wings",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "What does Myrtle the monkey spy?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Jake's spots",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "another monkey",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "her home",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

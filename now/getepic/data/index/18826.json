@@ -1,0 +1,173 @@
+{
+    "publisherData": {
+        "modelId": "168",
+        "name": "Flower Pot Press",
+        "url": "http://www.flowerpotpress.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260414
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/6/18826/OEBPS/Images/1/f95f677f86371ced4ba48f697e837324.jpg",
+                "audio": "drm/6/18826/OEBPS/Audio/1/6bf2df7d05dfbb0ff0617c135cc294e9.mp3"
+            },
+            {
+                "page": "drm/6/18826/OEBPS/Images/1/8877e95125ccf6119d4f0f84eca47606.jpg",
+                "audio": "drm/6/18826/OEBPS/Audio/1/d3fbe87bb2716ec39a8449b44161a1cf.mp3"
+            },
+            {
+                "page": "drm/6/18826/OEBPS/Images/1/a54def1e401ffc877ff535fc65d2c163.jpg",
+                "audio": "drm/6/18826/OEBPS/Audio/1/90add133fe4f377a3cfeab513edc0541.mp3"
+            },
+            {
+                "page": "drm/6/18826/OEBPS/Images/1/5997e282a5fa26650531240312f8968e.jpg",
+                "audio": "drm/6/18826/OEBPS/Audio/1/f422c1cc93ecbe6c44d46ffcadc3acb0.mp3"
+            },
+            {
+                "page": "drm/6/18826/OEBPS/Images/1/c6d72bdb36eaf11e77b316b9ac68cbe4.jpg",
+                "audio": "drm/6/18826/OEBPS/Audio/1/0fa64c5964cacdf61809c2deecf0d97b.mp3"
+            },
+            {
+                "page": "drm/6/18826/OEBPS/Images/1/a8a6e7a5f7017f37852d3c1fb1cbf9f6.jpg",
+                "audio": "drm/6/18826/OEBPS/Audio/1/da575b627d99881ead9efb8fb505a802.mp3"
+            },
+            {
+                "page": "drm/6/18826/OEBPS/Images/1/a99261d25a75b3df496e8858af76ecc0.jpg",
+                "audio": "drm/6/18826/OEBPS/Audio/1/a85763ee7edd1c8773887ef76e374be0.mp3"
+            },
+            {
+                "page": "drm/6/18826/OEBPS/Images/1/e84b21093220fe9a616841f598f4b2df.jpg",
+                "audio": "drm/6/18826/OEBPS/Audio/1/e3d7976b152b6cf1922945321eafab90.mp3"
+            },
+            {
+                "page": "drm/6/18826/OEBPS/Images/1/02f0ff7dddb7886b1f5c4fd0c06326ba.jpg",
+                "audio": "drm/6/18826/OEBPS/Audio/1/296858cdbe50cc40f19ecc78478f8d88.mp3"
+            },
+            {
+                "page": "drm/6/18826/OEBPS/Images/1/b49cd1801b79d5350062ad484f91b75f.jpg",
+                "audio": "drm/6/18826/OEBPS/Audio/1/29963cff674e5def31093631fb007012.mp3"
+            },
+            {
+                "page": "drm/6/18826/OEBPS/Images/1/501e2380a30c29350a0cefe75b70e626.jpg",
+                "audio": "drm/6/18826/OEBPS/Audio/1/9c4597bee41fd95a9105122a940f58a6.mp3"
+            },
+            {
+                "page": "drm/6/18826/OEBPS/Images/1/af428eabd56a0ee6481974e279554f5d.jpg",
+                "audio": "drm/6/18826/OEBPS/Audio/1/7dcba956e13c9005f693f2cae66bf647.mp3"
+            },
+            {
+                "page": "drm/6/18826/OEBPS/Images/1/4a3b81251a75bd44ae5201d8d4dfeb4b.jpg",
+                "audio": "drm/6/18826/OEBPS/Audio/1/34d9efc94b40c7a444819c829d752643.mp3"
+            },
+            {
+                "page": "drm/6/18826/OEBPS/Images/1/68da2dfda63630fe04000ca6ce695e93.jpg",
+                "audio": "drm/6/18826/OEBPS/Audio/1/1113d2dfa6b5183813e653402ba90c6c.mp3"
+            },
+            {
+                "page": "drm/6/18826/OEBPS/Images/1/b4f52966346e9269f093f8c25e06be0d.jpg",
+                "audio": "drm/6/18826/OEBPS/Audio/1/9334caa4cb7d910d1002f96c6e036a80.mp3"
+            },
+            {
+                "page": "drm/6/18826/OEBPS/Images/1/90fdd4833434678a50d41862a25647e8.jpg",
+                "audio": "drm/6/18826/OEBPS/Audio/1/cc3c5906c9f0d8278b3b6f69d92b4348.mp3"
+            },
+            {
+                "page": "drm/6/18826/OEBPS/Images/1/be3246f1d7da91c863a41db9abcc417f.jpg",
+                "audio": "drm/6/18826/OEBPS/Audio/1/d606f0f27105224614e2af5f65cceee0.mp3"
+            },
+            {
+                "page": "drm/6/18826/OEBPS/Images/1/cd8f54ed78fc86c7289c1ef2559c1ceb.jpg",
+                "audio": "drm/6/18826/OEBPS/Audio/1/7e179dbe6c272cbefb2d816a3e0823e7.mp3"
+            },
+            {
+                "page": "drm/6/18826/OEBPS/Images/1/8e9350b135672b23d67aacac97ceef4d.jpg",
+                "audio": "drm/6/18826/OEBPS/Audio/1/3a432fa9ee1c6d92eae9bdf588629288.mp3"
+            },
+            {
+                "page": "drm/6/18826/OEBPS/Images/1/78299d9590774d12794b525b4f1527b4.jpg",
+                "audio": "drm/6/18826/OEBPS/Audio/1/d965f5a2e4b2f6fb05d3a54ba1055d32.mp3"
+            },
+            {
+                "page": "drm/6/18826/OEBPS/Images/1/e8137445b6d077fe925db2b5cbb4b4ad.jpg",
+                "audio": "drm/6/18826/OEBPS/Audio/1/6a5f7f9aed129bd695eb8f890b9db3b6.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/6/18826/OEBPS/Images/1/3a222d1041bc09251070139a6e5fc570.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18826",
+        "id": "18826",
+        "title": "My First Words: Things That Go",
+        "author": "Flowerpot Press",
+        "illustrator": " ",
+        "numPages": 21,
+        "bookDescription": "The My First Words series is an ideal learning tool for budding young minds.",
+        "coverColorR": 204,
+        "coverColorG": 188,
+        "coverColorB": 169,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Flower Pot Press",
+        "publisherId": "168",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 315,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 81,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "687b24e1ecef35dba713",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372877
+    },
+    "userBook": {
+        "modelId": "46250489-18826",
+        "userId": "46250489",
+        "bookId": "18826",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311023,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311023,
+        "book": {
+            "modelId": "18826",
+            "title": "My First Words: Things That Go",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "687b24e1ecef35dba713"
+        }
+    },
+    "quiz": null
+}

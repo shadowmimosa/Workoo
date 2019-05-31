@@ -1,0 +1,158 @@
+{
+    "publisherData": {
+        "modelId": "44",
+        "name": "National Geographic",
+        "url": "http://kids.nationalgeographic.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491261258
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/43897/OEBPS/Images/1/789538C0-9236-4E71-9F66-1A6E171EAC55.jpg"
+            },
+            {
+                "page": "drm/7/43897/OEBPS/Images/1/C7DFBFF7-F375-4AF7-B9D3-402FB009F2BB.jpg"
+            },
+            {
+                "page": "drm/7/43897/OEBPS/Images/1/CCA8469E-6B01-4706-926B-D21B797A785B.jpg"
+            },
+            {
+                "page": "drm/7/43897/OEBPS/Images/1/77B5A8F1-7B92-43FA-A59D-3A0D47BCA3E3.jpg"
+            },
+            {
+                "page": "drm/7/43897/OEBPS/Images/1/728C1D72-D04B-44F4-BF7B-0C6A0D5D7FA0.jpg"
+            },
+            {
+                "page": "drm/7/43897/OEBPS/Images/1/FB66C0D1-4ABE-4763-9987-C1CD7B21394B.jpg"
+            },
+            {
+                "page": "drm/7/43897/OEBPS/Images/1/7F95672C-823E-46BE-91EA-193888CD387E.jpg"
+            },
+            {
+                "page": "drm/7/43897/OEBPS/Images/1/088DF466-91A0-4B7D-A4F2-41530ED5D923.jpg"
+            },
+            {
+                "page": "drm/7/43897/OEBPS/Images/1/0DDAE34D-5212-4735-B815-F5A22DE7E5EF.jpg"
+            },
+            {
+                "page": "drm/7/43897/OEBPS/Images/1/85514CC6-CD3C-45F3-9D10-A30526BB5C08.jpg"
+            },
+            {
+                "page": "drm/7/43897/OEBPS/Images/1/84B6FACA-0BA6-4E96-B44E-9364E533E0E3.jpg"
+            },
+            {
+                "page": "drm/7/43897/OEBPS/Images/1/8111D766-EEB7-4AB4-BBC1-7408621CEBC2.jpg"
+            },
+            {
+                "page": "drm/7/43897/OEBPS/Images/1/E12D30D5-93F9-478E-B5C3-6C2BBB4C83CC.jpg"
+            },
+            {
+                "page": "drm/7/43897/OEBPS/Images/1/7E70F859-5AE3-4E3F-B0C6-66A124DC5916.jpg"
+            },
+            {
+                "page": "drm/7/43897/OEBPS/Images/1/D33EF099-D3C5-4720-8AF0-622EEF0547AB.jpg"
+            },
+            {
+                "page": "drm/7/43897/OEBPS/Images/1/477C27C6-E587-4B03-9D5B-17A2258520D2.jpg"
+            },
+            {
+                "page": "drm/7/43897/OEBPS/Images/1/597E4938-BE66-4787-BEA6-E91361EE5A5E.jpg"
+            },
+            {
+                "page": "drm/7/43897/OEBPS/Images/1/11CDB4D7-5CF2-4C1F-B83A-8CE6C2E3832B.jpg"
+            },
+            {
+                "page": "drm/7/43897/OEBPS/Images/1/E5EA860D-DB49-4B10-AD72-7BEED2C03CCD.jpg"
+            },
+            {
+                "page": "drm/7/43897/OEBPS/Images/1/618BCDC9-6FE0-41CB-8D15-8BF1AE9781E6.jpg"
+            },
+            {
+                "page": "drm/7/43897/OEBPS/Images/1/47DB7927-1F64-4BE3-AED1-430ED77D3134.jpg"
+            },
+            {
+                "page": "drm/7/43897/OEBPS/Images/1/76A84508-C27E-414B-8271-C8CEC4E23B77.jpg"
+            },
+            {
+                "page": "drm/7/43897/OEBPS/Images/1/D83B4510-F23A-46F4-8684-3C7AFA82E40E.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/43897/OEBPS/Images/1/D5EBED99-AF55-47E7-8C93-AE3749A3A1E3.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "43897",
+        "id": "43897",
+        "title": "National Geographic Kids Look and Learn: People!",
+        "author": "National Geographic Kids",
+        "illustrator": " ",
+        "numPages": 23,
+        "bookDescription": "Learn to recognize faces and understand different family roles.",
+        "coverColorR": 173,
+        "coverColorG": 166,
+        "coverColorB": 110,
+        "version": 12309,
+        "previewPercent": 10,
+        "publisher": "National Geographic",
+        "publisherId": "44",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "AD400L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 230,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "g",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "c62e909746d18261a876",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "2",
+        "panelStatus": 0,
+        "date_modified": 1555373895
+    },
+    "userBook": {
+        "modelId": "46250489-43897",
+        "userId": "46250489",
+        "bookId": "43897",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310724,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310724,
+        "book": {
+            "modelId": "43897",
+            "title": "National Geographic Kids Look and Learn: People!",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "c62e909746d18261a876"
+        }
+    },
+    "quiz": null
+}

@@ -1,0 +1,179 @@
+{
+    "publisherData": {
+        "modelId": "90350",
+        "name": "Gray Duck",
+        "url": "http://grayduckbooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1536102481
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/d3cbc2bc1626712421443d5745421656.jpg"
+            },
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/06ef97f19eceb3d20e7053ee50cb6cc9.jpg"
+            },
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/67b494a28ab0eaf6c2313b08057b9aed.jpg"
+            },
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/1680220c0f71008dec93b40d7fbd6669.jpg"
+            },
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/a77a8ec87b77287a48d04e877725b98f.jpg"
+            },
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/84087344fa1235d93f2b65e9e54986f4.jpg"
+            },
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/727727c4c6fa992bef65c7f8b5edc5d8.jpg"
+            },
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/dfaa4c4b55c2dd6d490ec6fc7d39b000.jpg"
+            },
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/8598ef7b0242c2eec3044c848a6e8f23.jpg"
+            },
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/227f495a6333fe2b4c08396a1b401da7.jpg"
+            },
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/09eb3664dd7a00bd060cac87c88fdc4c.jpg"
+            },
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/1727d85ff20f398f92b6ac91cbd3895a.jpg"
+            },
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/9549038b186abdb3a9784e9076cd131c.jpg"
+            },
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/ed0079ab006ac39f2f2fe79b30045a9c.jpg"
+            },
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/025db1a80723d0059b8ca7938dfd1a34.jpg"
+            },
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/727c10483151be44f21473a9a8d19bf4.jpg"
+            },
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/adf988b2f53bf79e2a90974411460488.jpg"
+            },
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/b53d2398f0a9775fe41412484530f549.jpg"
+            },
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/03125e47076be87d722ef4af21196c5d.jpg"
+            },
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/18c4a636fa969e3952e6cfbe0ac0a316.jpg"
+            },
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/3bb4c9042ff74d2c311a5ed5bf7af33e.jpg"
+            },
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/3d87a36cdd8fd42a42db5dd9f8be7da5.jpg"
+            },
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/5eb9ad5cc7f715836951950901093dea.jpg"
+            },
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/b2a66067e33ab04cc1ae3ae0450b0b8c.jpg"
+            },
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/27955fbda893f8fef34b0f41e0eac417.jpg"
+            },
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/855291178d3fa5f70b5c00e225ab649b.jpg"
+            },
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/7f3c3d324a1c44f47967c32dc1bb1b55.jpg"
+            },
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/c392e293b6cbd3bb3f4546690af8676f.jpg"
+            },
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/18b950953ae73e92276b31bb36f150e9.jpg"
+            },
+            {
+                "page": "drm/1/56071/OEBPS/Images/1/1bf10de686933ffacf36c0b36a73e72c.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/56071/OEBPS/Images/1/94169f30a511392b9581223a5f68bfac.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "56071",
+        "id": "56071",
+        "title": "Play-fight!",
+        "author": "Jon Alan",
+        "illustrator": " ",
+        "numPages": 30,
+        "bookDescription": "Wild babies don't get in trouble for fighting.",
+        "coverColorR": 144,
+        "coverColorG": 143,
+        "coverColorB": 100,
+        "version": 858927445,
+        "previewPercent": 20,
+        "publisher": "Gray Duck",
+        "publisherId": "90350",
+        "age": 6,
+        "pageNumOffset": 1,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 550,
+        "ar": "2.6",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 85,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Wild Things",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.7762,
+        "contentHash": "954b36ba5713793aeeb1",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374660
+    },
+    "userBook": {
+        "modelId": "46250489-56071",
+        "userId": "46250489",
+        "bookId": "56071",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310728,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310728,
+        "book": {
+            "modelId": "56071",
+            "title": "Play-fight!",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "954b36ba5713793aeeb1"
+        }
+    },
+    "quiz": null
+}

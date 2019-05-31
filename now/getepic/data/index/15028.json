@@ -1,0 +1,391 @@
+{
+    "publisherData": {
+        "modelId": "31",
+        "name": "Bellwether Media",
+        "url": "http://www.bellwethermedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539569528
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/15028/OEBPS/Images/1/f4509772e66a829514a7caea35a21e09.jpg"
+            },
+            {
+                "page": "drm/8/15028/OEBPS/Images/1/a86262797652bce05ccdca789df90c03.jpg",
+                "audio": "drm/8/15028/OEBPS/Audio/1/aud4.mp3"
+            },
+            {
+                "page": "drm/8/15028/OEBPS/Images/1/535ee6f4203f6b6bdbce3a88c5d298a4.jpg"
+            },
+            {
+                "page": "drm/8/15028/OEBPS/Images/1/e8bbcfd17835f61be21cf99ec340954b.jpg",
+                "audio": "drm/8/15028/OEBPS/Audio/1/aud6.mp3"
+            },
+            {
+                "page": "drm/8/15028/OEBPS/Images/1/770094a4b6d5ef76d09e5f84f0f03fc7.jpg"
+            },
+            {
+                "page": "drm/8/15028/OEBPS/Images/1/dd8a6b8c9c809d8c110d3ec059443074.jpg",
+                "audio": "drm/8/15028/OEBPS/Audio/1/aud8.mp3"
+            },
+            {
+                "page": "drm/8/15028/OEBPS/Images/1/89418e550c8354d4b51c28d3e3a5d4cf.jpg"
+            },
+            {
+                "page": "drm/8/15028/OEBPS/Images/1/9fcb16432f046830fdc9bc1f0009ae25.jpg",
+                "audio": "drm/8/15028/OEBPS/Audio/1/aud10.mp3"
+            },
+            {
+                "page": "drm/8/15028/OEBPS/Images/1/629133b3cae0b77810cc96a06ff4afa6.jpg"
+            },
+            {
+                "page": "drm/8/15028/OEBPS/Images/1/6b0357e53f5bde1817e282e16e34343f.jpg",
+                "audio": "drm/8/15028/OEBPS/Audio/1/aud12.mp3"
+            },
+            {
+                "page": "drm/8/15028/OEBPS/Images/1/1d3af04893203cdde559d5c367d3e2a5.jpg"
+            },
+            {
+                "page": "drm/8/15028/OEBPS/Images/1/4d3b80c1cc7f91412e8e1123b5a10589.jpg",
+                "audio": "drm/8/15028/OEBPS/Audio/1/aud14.mp3"
+            },
+            {
+                "page": "drm/8/15028/OEBPS/Images/1/4605175e725b83d87729b5d7fc40fabe.jpg"
+            },
+            {
+                "page": "drm/8/15028/OEBPS/Images/1/a0db6907450d27bc3523b6104f5893a2.jpg",
+                "audio": "drm/8/15028/OEBPS/Audio/1/aud16.mp3"
+            },
+            {
+                "page": "drm/8/15028/OEBPS/Images/1/f1a0d1e4187e466833add3150f935a27.jpg"
+            },
+            {
+                "page": "drm/8/15028/OEBPS/Images/1/36a9dd0c9d48fadd580a386afde7c5a9.jpg",
+                "audio": "drm/8/15028/OEBPS/Audio/1/aud18.mp3"
+            },
+            {
+                "page": "drm/8/15028/OEBPS/Images/1/99f76ebf527eff97ae1cd965d36509a6.jpg"
+            },
+            {
+                "page": "drm/8/15028/OEBPS/Images/1/3ce5171efe80f8661eb451b24cf28ec5.jpg",
+                "audio": "drm/8/15028/OEBPS/Audio/1/aud20.mp3"
+            },
+            {
+                "page": "drm/8/15028/OEBPS/Images/1/81dab31948c979bfa02bf45dd7079653.jpg"
+            },
+            {
+                "page": "drm/8/15028/OEBPS/Images/1/e2f8a6134f691965ec868da28cdfa555.jpg",
+                "audio": "drm/8/15028/OEBPS/Audio/1/aud22.mp3"
+            },
+            {
+                "page": "drm/8/15028/OEBPS/Images/1/53df95c9e9c960d62b9fc474f1f6606d.jpg"
+            },
+            {
+                "page": "drm/8/15028/OEBPS/Images/1/5f57cf111821fe7b1c0ed783d1852883.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/15028/OEBPS/Images/1/a481ffa24ab355ab9c081d21b49f1432.jpg",
+            "color": "#76b220"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "15028",
+        "id": "15028",
+        "title": "Super Cute! Baby Wolves",
+        "author": "Bethany Olson",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Wolf pups are born in litters and like to snuggle when they sleep. Learn more about baby wolves and their mothers!",
+        "coverColorR": 116,
+        "coverColorG": 138,
+        "coverColorB": 79,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Bellwether Media",
+        "publisherId": "31",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "390L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 806,
+        "ar": "1.3",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Wild Things",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.7233,
+        "contentHash": "c6f98cb1a251ba34ba78",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1556655459
+    },
+    "userBook": {
+        "modelId": "46250489-15028",
+        "userId": "46250489",
+        "bookId": "15028",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559304748,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559304748,
+        "book": {
+            "modelId": "15028",
+            "title": "Super Cute! Baby Wolves",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "c6f98cb1a251ba34ba78"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "398985",
+            "user_id": "28126263",
+            "book_id": "15028",
+            "title": "BABY WOLVES",
+            "description": "",
+            "date_created": 1556729815,
+            "date_modified": 1556729815,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What are baby wolves called?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Pups",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "carrots",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "horses",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "How does the mom wolf grab and carry her pup?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "She grabs them with her teeth and carries them in her mouth.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "She drives them on the school bus.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "She puts them in a shopping bag.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What do new born wolves like to drink?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Their mother's milk.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Coke",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "orange juice",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Why do pups howl?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "To call their brothers and sisters and other wolves to come.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Because they like to sing.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "To find food.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 3
+                }
+            ],
+            "modelId": "398985",
+            "creatorName": "Aimery M.",
+            "avatarId": "24",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "28126263",
+                "udid": "5b7c3872dd39b2.06171274",
+                "journalName": "Aimery M.",
+                "journalCoverAvatar": "24",
+                "journalCoverColor": "0.07058824 0.21960784 0.39215687 1",
+                "journalFrameImage": "15",
+                "journalCoverImage": "15",
+                "themeId": "11",
+                "code": "614673319",
+                "fid": "",
+                "accountID": "DC189A86-742F-41ED-E14C-6EE19B619031",
+                "simpleAccountId": "3776779",
+                "pagesFlipped": 11059,
+                "nufComplete": 1,
+                "readingAge": 9.4333333333333,
+                "startingAge": 7,
+                "status": 0,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 1898,
+                "xpLevel": 31,
+                "dateLastLogin": 1558714501,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "Aimery",
+                "lastName": "Morton",
+                "accountType": 1,
+                "dateModified": 1559148057,
+                "grade": 2
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What are baby wolves called?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Pups",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "carrots",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "horses",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "How does the mom wolf grab and carry her pup?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "She grabs them with her teeth and carries them in her mouth.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "She drives them on the school bus.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "She puts them in a shopping bag.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What do new born wolves like to drink?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Their mother's milk.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Coke",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "orange juice",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Why do pups howl?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "To call their brothers and sisters and other wolves to come.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Because they like to sing.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "To find food.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 3
+            }
+        ]
+    }
+}

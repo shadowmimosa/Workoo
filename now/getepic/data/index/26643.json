@@ -1,0 +1,411 @@
+{
+    "publisherData": {
+        "modelId": "88",
+        "name": "Flashlight Press with IPG",
+        "url": "http://www.ipgbook.com/flashlight-press-publisher-FLS.php",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1448311664
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/300E78DC-7707-4B55-A442-5E7DDC5093D1.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/C033F9E0-89DD-44D6-8245-3D9C8CB5EAA3.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/CE0CEF21-57CC-4567-8B77-17BC3385467D.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/0D80AE50-5C52-4DEF-A84F-2075698BBB2A.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/EAACC9A1-9110-4B8C-BDB1-1CAC9480B57C.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/E4705581-FDF1-4BE4-AA30-CCD21BD19800.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/D01913FF-4B44-4D9D-8F5D-CA3C93A2765E.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/09AC833C-DB8D-4A85-903D-2B47524334AF.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/4C2DEE53-D259-4C48-B2AE-B59242615E7B.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/F636D197-6D13-49B9-BAA7-6F0052ED290A.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/EE1F710B-8975-4D97-986F-C52E9A0AA30C.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/D278734D-47E7-4518-BD6D-CE8E2461DB66.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/3A2B0B4E-F050-4C2F-8DBC-8FFB7871895D.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/7E15EBEE-891E-4B9F-BC5B-114E58987BEE.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/FD4D7B68-C262-47C3-9BB5-BEB961B3A08A.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/DA164D01-5306-495A-B9C7-FE13F049BE0A.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/EF322379-5590-4443-A5D6-2A65C2A74EFC.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/A5410210-B7E0-4D30-AF5C-579092825890.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/35AF8356-1F09-4497-82B7-049531DBBF44.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/D373FA44-B93E-4448-8714-4E1698F9332D.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/0D4807DE-A0DA-4C14-AE0A-F11E60E566C9.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/68A5E323-3D85-4BF0-8F3E-5DBFCE22D134.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/36A21D75-3665-46B1-AA3A-FED4B8A83C7F.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/6B0AA7EB-41B1-43B6-ABAB-E63F8FB71C0C.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/1B65E639-DBB4-4EE9-87D6-CE127CE13CE2.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/6F173F3E-AD9F-4A09-BA0E-C2CA0BB65E9D.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/5729E10E-B161-40F2-A2D5-064F938C11B7.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/71AEF473-4E81-4317-9BE8-D29D9DED6460.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/65C5C79D-2658-4138-8D47-1245C9B09A17.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/0A264EA5-FF57-4182-9D25-EF90973B7D3A.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/D488F704-B5FB-4BE6-9BB0-39724D3C9D2A.jpg"
+            },
+            {
+                "page": "drm/3/26643/OEBPS/Images/1/38BB1347-6590-4273-8822-C692E0170324.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/3/26643/OEBPS/Images/1/FA72B32B-08A3-48CB-ACA2-2B3554A2B9F1.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "26643",
+        "id": "26643",
+        "title": "Too Much Glue",
+        "author": "Jason Lefebvre",
+        "illustrator": "Zac Retz",
+        "numPages": 32,
+        "bookDescription": "Matty and his dad make oodles of glue projects at home. One day during art class, Matty finds the fullest bottles of glue...",
+        "coverColorR": 131,
+        "coverColorG": 127,
+        "coverColorB": 108,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Flashlight Press with IPG",
+        "publisherId": "88",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 586,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Humorous Stories",
+        "subjectColor": "FFD673",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "cc56a96c44ff27b20e28",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "0",
+        "panelStatus": 0,
+        "date_modified": 1462501949
+    },
+    "userBook": {
+        "modelId": "46250489-26643",
+        "userId": "46250489",
+        "bookId": "26643",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311762,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311762,
+        "book": {
+            "modelId": "26643",
+            "title": "Too Much Glue",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "cc56a96c44ff27b20e28"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "401505",
+            "user_id": "38492299",
+            "book_id": "26643",
+            "title": "aaaaaaaaaaaAA",
+            "description": "",
+            "date_created": 1556889495,
+            "date_modified": 1556889521,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What is the setting of this story?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "school",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "principal's office",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "kitchen",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What do Matty and his family like to do?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "make things with glue",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "play outside",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "go to school",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What happens to Matty at school?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "he uses too much glue and gets stuck",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "he makes a picture with glue",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "he gets sent to the principal's office",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Who finally rescues Matty?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "his dad",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "his mom",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "his best friend",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 3
+                }
+            ],
+            "modelId": "401505",
+            "creatorName": "Erick G.",
+            "avatarId": "23",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "38492299",
+                "udid": "5c51ca5e208f01.45190057",
+                "journalName": "Erick G.",
+                "journalCoverAvatar": "23",
+                "journalCoverColor": "0.780392 0.231373 0.352941 1",
+                "journalFrameImage": "6",
+                "journalCoverImage": "5",
+                "themeId": "10",
+                "code": "707497586",
+                "fid": "",
+                "accountID": "BD98AE71-79F3-4365-7738-BD9C8A75FFCB",
+                "simpleAccountId": "5457764",
+                "pagesFlipped": 6075,
+                "nufComplete": 1,
+                "readingAge": 6.3333333333333,
+                "startingAge": 8,
+                "status": 0,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 3714,
+                "xpLevel": 24,
+                "dateLastLogin": 1559310027,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "Erick",
+                "lastName": "Gomez Rodriguez",
+                "accountType": 1,
+                "dateModified": 1559310389,
+                "grade": 3
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What is the setting of this story?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "school",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "principal's office",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "kitchen",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What do Matty and his family like to do?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "make things with glue",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "play outside",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "go to school",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What happens to Matty at school?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "he uses too much glue and gets stuck",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "he makes a picture with glue",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "he gets sent to the principal's office",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Who finally rescues Matty?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "his dad",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "his mom",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "his best friend",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 3
+            }
+        ]
+    }
+}

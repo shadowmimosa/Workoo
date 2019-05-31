@@ -1,0 +1,413 @@
+{
+    "publisherData": {
+        "modelId": "90075",
+        "name": "Harriet Ziefert Inc.",
+        "url": "http://www.blueapplebooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491952668
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/5B41EA46-FB76-4804-B29A-D03BFBD4805E.jpg",
+                "audio": "drm/7/24667/OEBPS/Audio/1/aud3.mp3"
+            },
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/3E276CD3-9E8E-4D57-9991-7B6CDB3836FF.jpg"
+            },
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/95E21CD6-4643-45F6-B67B-7E5EAD0F8DAA.jpg",
+                "audio": "drm/7/24667/OEBPS/Audio/1/aud5.mp3"
+            },
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/9E2018A7-99D8-48D9-8BAE-BE271D9D2BEB.jpg",
+                "audio": "drm/7/24667/OEBPS/Audio/1/aud6-7.mp3"
+            },
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/C2FAF507-2D91-4E00-BE10-758E94C3B21A.jpg"
+            },
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/F4C36F71-2B71-4590-BC68-278EDBE657D3.jpg",
+                "audio": "drm/7/24667/OEBPS/Audio/1/aud8-9.mp3"
+            },
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/15346248-ABB5-4C48-A16A-CD6DBA00E173.jpg"
+            },
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/4631B303-9958-4E42-9C40-8FA6C286072A.jpg",
+                "audio": "drm/7/24667/OEBPS/Audio/1/aud10-11.mp3"
+            },
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/1081ECF3-9394-45B2-88A4-CBD3D5AADB0B.jpg"
+            },
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/9908E08B-4660-47C3-8BE8-5B8D9654C7FD.jpg",
+                "audio": "drm/7/24667/OEBPS/Audio/1/aud12.mp3"
+            },
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/C04BF3BE-B098-456E-881F-017A9E656C16.jpg",
+                "audio": "drm/7/24667/OEBPS/Audio/1/aud13.mp3"
+            },
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/E12571D5-C8DA-4340-A97F-8AB9756D8355.jpg",
+                "audio": "drm/7/24667/OEBPS/Audio/1/aud14-15.mp3"
+            },
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/24708912-B05A-4FEB-86BF-08145CF39F54.jpg"
+            },
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/56AB9AF7-A06F-452E-89F3-78C2E2554418.jpg",
+                "audio": "drm/7/24667/OEBPS/Audio/1/aud16-17.mp3"
+            },
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/46833E32-157A-4880-9BDD-2BF53C862AFA.jpg"
+            },
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/3621ED5E-5D3F-470D-BCD6-E78B78AA62F9.jpg",
+                "audio": "drm/7/24667/OEBPS/Audio/1/aud18-19.mp3"
+            },
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/EBCDF593-95C5-41A2-87C6-640AB9B0BEE4.jpg"
+            },
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/D5FB2654-2369-4625-B0C2-8804D95F01E4.jpg",
+                "audio": "drm/7/24667/OEBPS/Audio/1/aud20.mp3"
+            },
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/40704B94-1DBF-4EE1-84DF-385C347C309A.jpg",
+                "audio": "drm/7/24667/OEBPS/Audio/1/aud21.mp3"
+            },
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/172E1920-6462-4388-84BA-26AEA44C1F58.jpg",
+                "audio": "drm/7/24667/OEBPS/Audio/1/aud22-23.mp3"
+            },
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/ADD33B10-C11A-411E-9398-894030B952EA.jpg"
+            },
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/31A00C06-5925-4BE9-A979-DC66191283E9.jpg",
+                "audio": "drm/7/24667/OEBPS/Audio/1/aud24-25.mp3"
+            },
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/1C190F52-C7A0-4979-ADB7-B288CE02F8C5.jpg"
+            },
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/DBC40CAA-7FA2-4D6C-8902-F57D9DA3311D.jpg",
+                "audio": "drm/7/24667/OEBPS/Audio/1/aud26-27.mp3"
+            },
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/5506064F-CE27-443B-BE55-8FE6A8138877.jpg"
+            },
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/73F419D9-FE48-4B15-BAD3-BEBF2D7C18CA.jpg",
+                "audio": "drm/7/24667/OEBPS/Audio/1/aud28.mp3"
+            },
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/9FCB7D88-4551-4110-9461-330AE9F81E7B.jpg",
+                "audio": "drm/7/24667/OEBPS/Audio/1/aud29.mp3"
+            },
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/AC6C9C07-D5C5-476A-865F-7CC05828FF65.jpg"
+            },
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/9FB474D7-5255-4D9C-AF53-407AE7F126BC.jpg",
+                "audio": "drm/7/24667/OEBPS/Audio/1/aud31.mp3"
+            },
+            {
+                "page": "drm/7/24667/OEBPS/Images/1/41852332-8AB7-4771-B693-4DDE949A4FB7.jpg",
+                "audio": "drm/7/24667/OEBPS/Audio/1/aud32.mp3"
+            }
+        ],
+        "extra": {
+            "color": "#fffefe",
+            "copyright": ""
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "24667",
+        "id": "24667",
+        "title": "Frog Jog",
+        "author": "Harriet Ziefert",
+        "illustrator": "Yukiko Kido",
+        "numPages": 30,
+        "bookDescription": "Is that frog out for a jog? In the fog? This title is just one in the eight-book, early-reading series featuring word families.",
+        "coverColorR": 127,
+        "coverColorG": 181,
+        "coverColorB": 144,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Harriet Ziefert Inc.",
+        "publisherId": "90075",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 500,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "ABCs & 123s",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.6667,
+        "contentHash": "8e45ac95eff9226dd3a4",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1520992027
+    },
+    "userBook": {
+        "modelId": "46250489-24667",
+        "userId": "46250489",
+        "bookId": "24667",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311588,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311588,
+        "book": {
+            "modelId": "24667",
+            "title": "Frog Jog",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "8e45ac95eff9226dd3a4"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "132100",
+            "user_id": "16247141",
+            "book_id": "24667",
+            "title": "Word Families: og, all and eat",
+            "description": "",
+            "date_created": 1508298013,
+            "date_modified": 1508887312,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Which word rhythms with jog?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Hog",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Pan",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Sam",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "ball",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "Which word rhythms with wall?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "ball",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "stone",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "cat",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "log",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Which word rhythms with meat?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "heat",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "hot",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "cat",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "is",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                }
+            ],
+            "modelId": "132100",
+            "creatorName": "Ms. Zambelli",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "16247141",
+                "udid": "596fc210675688.91182522",
+                "journalName": "Ms. Zambelli",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "1 0.67843137254902 0.26274509803922 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "719096336",
+                "fid": "",
+                "accountID": "6F01D55D-1E33-03B9-7CD1-69FC87D5BF8B",
+                "simpleAccountId": "5297769",
+                "pagesFlipped": 479,
+                "nufComplete": 1,
+                "readingAge": 7.9,
+                "startingAge": 12,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 1,
+                "xpLevel": 2,
+                "dateLastLogin": 1558484050,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Kara",
+                "lastName": "Zambelli",
+                "accountType": 1,
+                "dateModified": 1559225449,
+                "educatorPrefix": "Ms.",
+                "name": "Ms. Zambelli"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Which word rhythms with jog?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Hog",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Pan",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Sam",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "ball",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "Which word rhythms with wall?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "ball",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "stone",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "cat",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "log",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Which word rhythms with meat?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "heat",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "hot",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "cat",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "is",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            }
+        ]
+    }
+}

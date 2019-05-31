@@ -1,0 +1,116 @@
+{
+    "publisherData": {
+        "modelId": "107",
+        "name": "Rourke Educational Media",
+        "url": "http://rourkeeducationalmedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570193
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/54708/OEBPS/Images/1/c4b1deba4bf0563731574d16e906aba5.jpg"
+            },
+            {
+                "page": "drm/8/54708/OEBPS/Images/1/80270b33cfb9eb308a2fc6e3d0cd06ed.jpg"
+            },
+            {
+                "page": "drm/8/54708/OEBPS/Images/1/35fc9c331a5965c27e31d8388474b5ee.jpg"
+            },
+            {
+                "page": "drm/8/54708/OEBPS/Images/1/1791b2ed35c4f9706ae970a46eb28f89.jpg"
+            },
+            {
+                "page": "drm/8/54708/OEBPS/Images/1/f3cecffaf466f66207c6cecb924fbc6f.jpg"
+            },
+            {
+                "page": "drm/8/54708/OEBPS/Images/1/00585fb0efee698a8bf51470aff32ac6.jpg"
+            },
+            {
+                "page": "drm/8/54708/OEBPS/Images/1/5e0a27449638393a37a83bd4e38befd3.jpg"
+            },
+            {
+                "page": "drm/8/54708/OEBPS/Images/1/8f25a3cb2400115e9c7779b58e942436.jpg"
+            },
+            {
+                "page": "drm/8/54708/OEBPS/Images/1/f6a1646535bed113bef566a41180fab2.jpg"
+            }
+        ],
+        "extra": {
+            "color": "#fffefe",
+            "copyright": ""
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "54708",
+        "id": "54708",
+        "title": "Trucks!",
+        "author": "Charles Reasoner",
+        "illustrator": " ",
+        "numPages": 9,
+        "bookDescription": "Follow A Day In The Life Of A Truck As He Is At Work.",
+        "coverColorR": 125,
+        "coverColorG": 140,
+        "coverColorB": 141,
+        "version": 12309,
+        "previewPercent": 20,
+        "publisher": "Rourke Educational Media",
+        "publisherId": "107",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 135,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 80,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Things That GO",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 0.9983,
+        "contentHash": "b5e6ed5c0e1b94a3a5d3",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1557335700
+    },
+    "userBook": {
+        "modelId": "46250489-54708",
+        "userId": "46250489",
+        "bookId": "54708",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311892,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311892,
+        "book": {
+            "modelId": "54708",
+            "title": "Trucks!",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "b5e6ed5c0e1b94a3a5d3"
+        }
+    },
+    "quiz": null
+}

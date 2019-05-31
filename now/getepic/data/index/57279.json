@@ -1,0 +1,149 @@
+{
+    "publisherData": {
+        "modelId": "122",
+        "name": "Blue Door Education",
+        "url": "https://bluedoor-education.squarespace.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491011404
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/57279/OEBPS/Images/1/c154293af8a838d883d12af48cd9ea2e.jpg",
+                "audio": "drm/9/57279/OEBPS/Audio/1/xc154293af8a838d883d12af48cd9ea2e.mp3"
+            },
+            {
+                "page": "drm/9/57279/OEBPS/Images/1/60d2b1b477b60be7302e2757b94a3520.jpg",
+                "audio": "drm/9/57279/OEBPS/Audio/1/x60d2b1b477b60be7302e2757b94a3520.mp3"
+            },
+            {
+                "page": "drm/9/57279/OEBPS/Images/1/9ba71f170ff71fde8fac35feaf7ff257.jpg"
+            },
+            {
+                "page": "drm/9/57279/OEBPS/Images/1/64d1dbac463124e77ece698e964fbe16.jpg",
+                "audio": "drm/9/57279/OEBPS/Audio/1/x64d1dbac463124e77ece698e964fbe16.mp3"
+            },
+            {
+                "page": "drm/9/57279/OEBPS/Images/1/b06b33db130c75a3f5865ea5d4599c28.jpg"
+            },
+            {
+                "page": "drm/9/57279/OEBPS/Images/1/e2b4d30d974d6dbc315c4de95f4fe84f.jpg",
+                "audio": "drm/9/57279/OEBPS/Audio/1/xe2b4d30d974d6dbc315c4de95f4fe84f.mp3"
+            },
+            {
+                "page": "drm/9/57279/OEBPS/Images/1/db0e52e64d763d6b568b7930e0f31587.jpg"
+            },
+            {
+                "page": "drm/9/57279/OEBPS/Images/1/9e54320fbd57b8e49a187d20043a91e6.jpg",
+                "audio": "drm/9/57279/OEBPS/Audio/1/x9e54320fbd57b8e49a187d20043a91e6.mp3"
+            },
+            {
+                "page": "drm/9/57279/OEBPS/Images/1/369fe22f707f1d65fcabd828e8a26cc5.jpg"
+            },
+            {
+                "page": "drm/9/57279/OEBPS/Images/1/61d5da33245846df2702dfdd0388fb53.jpg",
+                "audio": "drm/9/57279/OEBPS/Audio/1/x61d5da33245846df2702dfdd0388fb53.mp3"
+            },
+            {
+                "page": "drm/9/57279/OEBPS/Images/1/c47706babcd649c3816b3b4760336018.jpg"
+            },
+            {
+                "page": "drm/9/57279/OEBPS/Images/1/fdcbc48c26f2312d12b43d92c3f7d14c.jpg",
+                "audio": "drm/9/57279/OEBPS/Audio/1/xfdcbc48c26f2312d12b43d92c3f7d14c.mp3"
+            },
+            {
+                "page": "drm/9/57279/OEBPS/Images/1/eabbd7f0410cafc997f935fa64c66b36.jpg"
+            },
+            {
+                "page": "drm/9/57279/OEBPS/Images/1/4e3a7edf57d43acef93ddb3458373b8a.jpg",
+                "audio": "drm/9/57279/OEBPS/Audio/1/x4e3a7edf57d43acef93ddb3458373b8a.mp3"
+            },
+            {
+                "page": "drm/9/57279/OEBPS/Images/1/462f32bf1f499d2e8350174097f6dd5f.jpg"
+            },
+            {
+                "page": "drm/9/57279/OEBPS/Images/1/cba779f9a1d3c179a8bdbd68d5f8dcb2.jpg",
+                "audio": "drm/9/57279/OEBPS/Audio/1/xcba779f9a1d3c179a8bdbd68d5f8dcb2.mp3"
+            },
+            {
+                "page": "drm/9/57279/OEBPS/Images/1/33881ab1fb2351303eac9ad3124dbe21.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/57279/OEBPS/Images/1/1f6f8af9eb80d496cf3522e6fc92f70b.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "57279",
+        "id": "57279",
+        "title": "Yellow",
+        "author": "Alan Walker",
+        "illustrator": " ",
+        "numPages": 17,
+        "bookDescription": "Young children will delight in this colorful book about yellow objects all around us.",
+        "coverColorR": 218,
+        "coverColorG": 186,
+        "coverColorB": 64,
+        "version": 12309,
+        "previewPercent": 20,
+        "publisher": "Blue Door Education",
+        "publisherId": "122",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 283,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 81,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "545c0f1b48b446cd9d45",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1539220690
+    },
+    "userBook": {
+        "modelId": "46250489-57279",
+        "userId": "46250489",
+        "bookId": "57279",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310943,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310943,
+        "book": {
+            "modelId": "57279",
+            "title": "Yellow",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "545c0f1b48b446cd9d45"
+        }
+    },
+    "quiz": null
+}

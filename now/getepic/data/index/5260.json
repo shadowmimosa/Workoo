@@ -1,0 +1,701 @@
+{
+    "publisherData": {
+        "modelId": "1",
+        "name": "Orca Book Publishers",
+        "url": "http://www.orcabook.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491261421
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/049fe5f30e97f197f5abe28490cbae79.jpg",
+                "audio": "drm/0/5260/OEBPS/Audio/1/Hens00-01.mp3"
+            },
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/d48ca327be2246c5c847b0cf75ddf72f.jpg",
+                "audio": "drm/0/5260/OEBPS/Audio/1/Hens00-02.mp3"
+            },
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/bc33d422092ddf1eeeda1072a86c87a5.jpg"
+            },
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/a6b88255962d4ad336fc8bebad63f1fe.jpg",
+                "audio": "drm/0/5260/OEBPS/Audio/1/Hens00-03.mp3"
+            },
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/62d56c704e4ad9ad53cef1e2e06ff65a.jpg"
+            },
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/8a65bb63d597780307893f606be94b4e.jpg",
+                "audio": "drm/0/5260/OEBPS/Audio/1/Hens00-04.mp3"
+            },
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/9ecc8df1e44dd08c66688b992a5843ad.jpg"
+            },
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/bca2713556b63459ae3d4147eff59bea.jpg",
+                "audio": "drm/0/5260/OEBPS/Audio/1/Hens00-05.mp3"
+            },
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/13f9f931ca1673f52eba5ddedc1fc701.jpg"
+            },
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/70fc8665a1fa8667fd0bedb3f6a28f87.jpg",
+                "audio": "drm/0/5260/OEBPS/Audio/1/Hens00-06.mp3"
+            },
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/4fc5c48a0e05a959be8122d8504219c2.jpg",
+                "audio": "drm/0/5260/OEBPS/Audio/1/Hens00-07.mp3"
+            },
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/e6f9d766895dd8d265c0e387f7005924.jpg",
+                "audio": "drm/0/5260/OEBPS/Audio/1/Hens00-08.mp3"
+            },
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/56b13678bf531841a62fa2a9420015a8.jpg",
+                "audio": "drm/0/5260/OEBPS/Audio/1/Hens00-09.mp3"
+            },
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/f4e8a13f52318ba3f3f92874a4d70848.jpg",
+                "audio": "drm/0/5260/OEBPS/Audio/1/Hens00-10.mp3"
+            },
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/0768ba5e0fb023103fcf75be6056a7f1.jpg",
+                "audio": "drm/0/5260/OEBPS/Audio/1/Hens00-11.mp3"
+            },
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/0ebcb673af1739e56fc513419ef60633.jpg",
+                "audio": "drm/0/5260/OEBPS/Audio/1/Hens00-12.mp3"
+            },
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/06d3a4073f6b95bf689f7a5f7d0967c8.jpg",
+                "audio": "drm/0/5260/OEBPS/Audio/1/Hens00-13.mp3"
+            },
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/b80396a3363cd1c8e83b360df069a2d2.jpg",
+                "audio": "drm/0/5260/OEBPS/Audio/1/Hens00-14.mp3"
+            },
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/4ef9fa4dc81d7437b04dd16c615956d7.jpg"
+            },
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/d448397b197fe4502eef249f0f9ade3d.jpg",
+                "audio": "drm/0/5260/OEBPS/Audio/1/Hens00-15.mp3"
+            },
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/a4f3792abc2d1524f374a467c0e354bc.jpg",
+                "audio": "drm/0/5260/OEBPS/Audio/1/Hens00-16.mp3"
+            },
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/74a33644c1c5d9d4c8cb17fd51e4c6cd.jpg",
+                "audio": "drm/0/5260/OEBPS/Audio/1/Hens25.mp3"
+            },
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/d01c5c8fe6e2a1e9bedbfe3db8101dcc.jpg"
+            },
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/74b32bba258415194e1ed8e645bdb679.jpg",
+                "audio": "drm/0/5260/OEBPS/Audio/1/Hens00-18.mp3"
+            },
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/ee396c09d995a439fea634d22f33e802.jpg"
+            },
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/0cb2b584c0445a8dbb76edd65a2bef96.jpg",
+                "audio": "drm/0/5260/OEBPS/Audio/1/Hens00-19.mp3"
+            },
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/4360714646792e71be733d3f6908d86d.jpg",
+                "audio": "drm/0/5260/OEBPS/Audio/1/Hens00-20.mp3"
+            },
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/fbe298f704538af283344c2a89971cc4.jpg",
+                "audio": "drm/0/5260/OEBPS/Audio/1/Hens00-21.mp3"
+            },
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/1e1f416eb3a75c3d62f1d1467f861d54.jpg",
+                "audio": "drm/0/5260/OEBPS/Audio/1/Hens00-22.mp3"
+            },
+            {
+                "page": "drm/0/5260/OEBPS/Images/1/985a9e2cecbb75600943ecbbc79be5bf.jpg",
+                "audio": "drm/0/5260/OEBPS/Audio/1/Hens00-23.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/5260/OEBPS/Images/1/6d3525639d9e2163aeb6c38340a36a87.jpg",
+            "color": "#fefefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "5260",
+        "id": "5260",
+        "title": "Can Hens Give Milk?",
+        "author": "Joan Betty Stuchner",
+        "illustrator": "Joe Weissmann",
+        "numPages": 30,
+        "bookDescription": "On a small farm in Chelm, a man and his daughter set out to get milk from their hens, and the results are not only funny, but also wacky.",
+        "coverColorR": 165,
+        "coverColorG": 148,
+        "coverColorB": 73,
+        "version": 193545248,
+        "previewPercent": 20,
+        "publisher": "Orca Book Publishers",
+        "publisherId": "1",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "AD540L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 550,
+        "ar": "3.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Humorous Stories",
+        "subjectColor": "FFD673",
+        "copyright": "",
+        "aspectRatio": 1.0042,
+        "contentHash": "29ba959114b9bcbf1d39",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1554915378
+    },
+    "userBook": {
+        "modelId": "46250489-5260",
+        "userId": "46250489",
+        "bookId": "5260",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311770,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311770,
+        "book": {
+            "modelId": "5260",
+            "title": "Can Hens Give Milk?",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "29ba959114b9bcbf1d39"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "177288",
+            "user_id": "18197755",
+            "book_id": "5260",
+            "title": "Can Hens Give Milk?",
+            "description": "",
+            "date_created": 1519064273,
+            "date_modified": 1523996625,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Where do Shlomo and Rivka live?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "a tiny farm",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "a big city",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "a big farm",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "In the beginning of the story, what did the family have to eat?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Eggs",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Cheese",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Milk",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What was Rivka's big idea?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "If we owned a cow we would also have milk and cheese.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "If we feed chickens grass they will give milk.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "If we get a coat we could have milk and cheese.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What was Shlomo's big idea?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "If we feed the chickens grass, they will give us milk.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "If we owned a cow we would have milk.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "We need a goat.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Why did Tova put bowls under the sleeping hens?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "To catch the milk",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "To catch the eggs",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "To give them a bed",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "Who came to help the family?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Rabbi",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Shlomo",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Rivka",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 5
+                },
+                {
+                    "title": "Why would the chickens not give milk?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "They did not have udders.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "They did not want to.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "They did not have a bucket.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 6
+                },
+                {
+                    "title": "What was the problem in the story?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "The family wanted to have milk and cheese.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "They did not have anything to eat.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "They wanted a new pet.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 7
+                },
+                {
+                    "title": "How did the Rabbi help the family solve thier problem?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Trade 6 hens for a goat",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Trade 3 hens for a rooster",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Trade 6 hens for a cow",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Find milking hens",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 8
+                },
+                {
+                    "title": "At the end of the story, what do you think will happen next?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Shlomo will want to feed the goat grain so it will lay eggs.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "The family will eat milk and cheese.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "The chickens will give the family milk.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Rivka will buy a cow.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 9
+                }
+            ],
+            "modelId": "177288",
+            "creatorName": "Mrs. Poteat",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "18197755",
+                "udid": "59bfd66c0c14a2.22327534",
+                "journalName": "Mrs. Poteat",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.11764705882353 0.91764705882353 0.64313725490196 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "810596203",
+                "fid": "",
+                "accountID": "0FA9B943-3930-0ECB-DCEE-72606DDECCDB",
+                "simpleAccountId": "5619367",
+                "pagesFlipped": 1842,
+                "nufComplete": 1,
+                "readingAge": 6.1,
+                "startingAge": 7,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 192,
+                "xpLevel": 5,
+                "dateLastLogin": 1556039528,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Shawna",
+                "lastName": "Poteat",
+                "accountType": 1,
+                "dateModified": 1558708846,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Poteat"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Where do Shlomo and Rivka live?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "a tiny farm",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "a big city",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "a big farm",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "In the beginning of the story, what did the family have to eat?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Eggs",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Cheese",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Milk",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What was Rivka's big idea?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "If we owned a cow we would also have milk and cheese.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "If we feed chickens grass they will give milk.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "If we get a coat we could have milk and cheese.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What was Shlomo's big idea?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "If we feed the chickens grass, they will give us milk.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "If we owned a cow we would have milk.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "We need a goat.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Why did Tova put bowls under the sleeping hens?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "To catch the milk",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "To catch the eggs",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "To give them a bed",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "Who came to help the family?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Rabbi",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Shlomo",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Rivka",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 5
+            },
+            {
+                "title": "Why would the chickens not give milk?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "They did not have udders.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "They did not want to.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "They did not have a bucket.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 6
+            },
+            {
+                "title": "What was the problem in the story?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "The family wanted to have milk and cheese.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "They did not have anything to eat.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "They wanted a new pet.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 7
+            },
+            {
+                "title": "How did the Rabbi help the family solve thier problem?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Trade 6 hens for a goat",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Trade 3 hens for a rooster",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Trade 6 hens for a cow",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Find milking hens",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 8
+            },
+            {
+                "title": "At the end of the story, what do you think will happen next?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Shlomo will want to feed the goat grain so it will lay eggs.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "The family will eat milk and cheese.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "The chickens will give the family milk.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Rivka will buy a cow.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 9
+            }
+        ]
+    }
+}

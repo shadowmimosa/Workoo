@@ -1,0 +1,173 @@
+{
+    "publisherData": {
+        "modelId": "168",
+        "name": "Flower Pot Press",
+        "url": "http://www.flowerpotpress.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260414
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/18634/OEBPS/Images/1/79b3237b199478a943eebe0f94b32688.jpg",
+                "audio": "drm/4/18634/OEBPS/Audio/1/b7f80d02307c09a72b5bea58d76f84e3.mp3"
+            },
+            {
+                "page": "drm/4/18634/OEBPS/Images/1/981907f9f4f39cc51da8f6dd9bb7f426.jpg",
+                "audio": "drm/4/18634/OEBPS/Audio/1/573c60c6da7d1a3bf1d195805073467e.mp3"
+            },
+            {
+                "page": "drm/4/18634/OEBPS/Images/1/08d94eeb130f471f1ad02b1e53f48e69.jpg",
+                "audio": "drm/4/18634/OEBPS/Audio/1/e33fec3f69e86d1c20ec19bf7a1d62cf.mp3"
+            },
+            {
+                "page": "drm/4/18634/OEBPS/Images/1/3aaed6a660ee491e90c0bc9fcddd05bc.jpg",
+                "audio": "drm/4/18634/OEBPS/Audio/1/aea5598a5cb7c60fcead6775abcea6db.mp3"
+            },
+            {
+                "page": "drm/4/18634/OEBPS/Images/1/85180297760f1253d08c0870b72c072f.jpg",
+                "audio": "drm/4/18634/OEBPS/Audio/1/475638a0c52625f4a0ff5ceac05f3c2f.mp3"
+            },
+            {
+                "page": "drm/4/18634/OEBPS/Images/1/c95dc82cb9713134cd9eb3aed1ee91ce.jpg",
+                "audio": "drm/4/18634/OEBPS/Audio/1/7576c4202ea984707f7bd626b3786683.mp3"
+            },
+            {
+                "page": "drm/4/18634/OEBPS/Images/1/13aa889d7e07bf7df5d29f6fbcc09588.jpg",
+                "audio": "drm/4/18634/OEBPS/Audio/1/7a1278b1e9a1cb7d2ba4ba8447d7d3fe.mp3"
+            },
+            {
+                "page": "drm/4/18634/OEBPS/Images/1/a02bb12a2d2a41b9550efe557c97c16a.jpg",
+                "audio": "drm/4/18634/OEBPS/Audio/1/b2d0623f16ae4bfa60b3355eee67258c.mp3"
+            },
+            {
+                "page": "drm/4/18634/OEBPS/Images/1/2cbce18fcc539e5d4f8b9b9c88c0c304.jpg",
+                "audio": "drm/4/18634/OEBPS/Audio/1/07e2d4d8e32661bf67c20614cf93f0d7.mp3"
+            },
+            {
+                "page": "drm/4/18634/OEBPS/Images/1/e32a205cca003ae28e87a7bbfbaab8b7.jpg",
+                "audio": "drm/4/18634/OEBPS/Audio/1/e76bd8f18502f60af0fbf5889abb8310.mp3"
+            },
+            {
+                "page": "drm/4/18634/OEBPS/Images/1/997eb07d915525743df662fdf1fd208e.jpg",
+                "audio": "drm/4/18634/OEBPS/Audio/1/e0e684f7804ab759618a9717c415b77f.mp3"
+            },
+            {
+                "page": "drm/4/18634/OEBPS/Images/1/7678e4b381e27fbcda5e26d1cacb65f0.jpg",
+                "audio": "drm/4/18634/OEBPS/Audio/1/70ac70e37ca2fd67f94616f234617101.mp3"
+            },
+            {
+                "page": "drm/4/18634/OEBPS/Images/1/ab0550310a9b956249fd3e9c444a807a.jpg",
+                "audio": "drm/4/18634/OEBPS/Audio/1/9492e41999661998e88a9a4d966bc820.mp3"
+            },
+            {
+                "page": "drm/4/18634/OEBPS/Images/1/ac2a9c02b843952436c041445640cf5c.jpg",
+                "audio": "drm/4/18634/OEBPS/Audio/1/7618b5bd9d93b05f26d20dbe6adb2438.mp3"
+            },
+            {
+                "page": "drm/4/18634/OEBPS/Images/1/3e0f2c62b2ceb04036e29f3ec83ddc16.jpg",
+                "audio": "drm/4/18634/OEBPS/Audio/1/16aa98dad075af3238b22fa077d6e3e6.mp3"
+            },
+            {
+                "page": "drm/4/18634/OEBPS/Images/1/dab67b778eb1270e52bf0b91e7f7c913.jpg",
+                "audio": "drm/4/18634/OEBPS/Audio/1/5f344c3d96b1237f4bb41031dbaa1a70.mp3"
+            },
+            {
+                "page": "drm/4/18634/OEBPS/Images/1/200ec709ca9a4db2a92684cc18dde267.jpg",
+                "audio": "drm/4/18634/OEBPS/Audio/1/2ce66e79886624d80c248977e7daccde.mp3"
+            },
+            {
+                "page": "drm/4/18634/OEBPS/Images/1/9ba9977dc9a27fd65d0e3f1153604143.jpg",
+                "audio": "drm/4/18634/OEBPS/Audio/1/a4ab03fc18a2cfcf645d4e69463a5c87.mp3"
+            },
+            {
+                "page": "drm/4/18634/OEBPS/Images/1/5b4037d740972d66e99a571006cbb792.jpg",
+                "audio": "drm/4/18634/OEBPS/Audio/1/523ff7d831a389a86ae3d194c784678a.mp3"
+            },
+            {
+                "page": "drm/4/18634/OEBPS/Images/1/327c5087b92506ac765196db5062fd5c.jpg",
+                "audio": "drm/4/18634/OEBPS/Audio/1/a244fcde5d447d32a6bd633a5d62f5e1.mp3"
+            },
+            {
+                "page": "drm/4/18634/OEBPS/Images/1/ffe30ba92458a6f78fcf557e1e0cfc72.jpg",
+                "audio": "drm/4/18634/OEBPS/Audio/1/6bd3a7de728597a91da4ae05321470d7.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/18634/OEBPS/Images/1/b3f20400bba92efa103d98edbe23ccbf.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18634",
+        "id": "18634",
+        "title": "Sockheadz First Words",
+        "author": "Flowerpot Press",
+        "illustrator": " ",
+        "numPages": 21,
+        "bookDescription": "Stitched from socks, one by one. Stuffed with fluff and full of fun.",
+        "coverColorR": 174,
+        "coverColorG": 173,
+        "coverColorB": 176,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Flower Pot Press",
+        "publisherId": "168",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 385,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "ABCs & 123s",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "b197808b0564f58f1faa",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372869
+    },
+    "userBook": {
+        "modelId": "46250489-18634",
+        "userId": "46250489",
+        "bookId": "18634",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311694,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311694,
+        "book": {
+            "modelId": "18634",
+            "title": "Sockheadz First Words",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "b197808b0564f58f1faa"
+        }
+    },
+    "quiz": null
+}

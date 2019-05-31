@@ -1,0 +1,153 @@
+{
+    "publisherData": {
+        "modelId": "109",
+        "name": "JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/6/52076/OEBPS/Images/1/5b7ccab682d9ecca73daf420ab55bf1f.jpg",
+                "audio": "drm/6/52076/OEBPS/Audio/1/x5b7ccab682d9ecca73daf420ab55bf1f.mp3"
+            },
+            {
+                "page": "drm/6/52076/OEBPS/Images/1/bd37fb2cff961c3a73b7229f080da47b.jpg",
+                "audio": "drm/6/52076/OEBPS/Audio/1/xbd37fb2cff961c3a73b7229f080da47b.mp3"
+            },
+            {
+                "page": "drm/6/52076/OEBPS/Images/1/a15024dc1a4f195ba1ebdf6d9e25a0b2.jpg",
+                "audio": "drm/6/52076/OEBPS/Audio/1/xa15024dc1a4f195ba1ebdf6d9e25a0b2.mp3"
+            },
+            {
+                "page": "drm/6/52076/OEBPS/Images/1/a9d79859e9dad0e67b66985003ec5f6c.jpg",
+                "audio": "drm/6/52076/OEBPS/Audio/1/xa9d79859e9dad0e67b66985003ec5f6c.mp3"
+            },
+            {
+                "page": "drm/6/52076/OEBPS/Images/1/eb0995762e8e51e1e11a81e2338a853d.jpg",
+                "audio": "drm/6/52076/OEBPS/Audio/1/xeb0995762e8e51e1e11a81e2338a853d.mp3"
+            },
+            {
+                "page": "drm/6/52076/OEBPS/Images/1/c5d05679d048070cbed2ee3878eaddbd.jpg",
+                "audio": "drm/6/52076/OEBPS/Audio/1/xc5d05679d048070cbed2ee3878eaddbd.mp3"
+            },
+            {
+                "page": "drm/6/52076/OEBPS/Images/1/5d211592e50469c5ab0ed606a6605bd6.jpg",
+                "audio": "drm/6/52076/OEBPS/Audio/1/x5d211592e50469c5ab0ed606a6605bd6.mp3"
+            },
+            {
+                "page": "drm/6/52076/OEBPS/Images/1/a9602f0b04de4671974ab0af21f248ce.jpg",
+                "audio": "drm/6/52076/OEBPS/Audio/1/xa9602f0b04de4671974ab0af21f248ce.mp3"
+            },
+            {
+                "page": "drm/6/52076/OEBPS/Images/1/59321333a5746ff6d809b462814d02d5.jpg",
+                "audio": "drm/6/52076/OEBPS/Audio/1/x59321333a5746ff6d809b462814d02d5.mp3"
+            },
+            {
+                "page": "drm/6/52076/OEBPS/Images/1/e148b7269c40fdd729816f16913986d0.jpg",
+                "audio": "drm/6/52076/OEBPS/Audio/1/xe148b7269c40fdd729816f16913986d0.mp3"
+            },
+            {
+                "page": "drm/6/52076/OEBPS/Images/1/6dc2a12a047f11b0bd744ec334e4a966.jpg",
+                "audio": "drm/6/52076/OEBPS/Audio/1/x6dc2a12a047f11b0bd744ec334e4a966.mp3"
+            },
+            {
+                "page": "drm/6/52076/OEBPS/Images/1/01446a154023798cb7f1b3849234f6e6.jpg",
+                "audio": "drm/6/52076/OEBPS/Audio/1/x01446a154023798cb7f1b3849234f6e6.mp3"
+            },
+            {
+                "page": "drm/6/52076/OEBPS/Images/1/348c1a2c43248150291fd7f78a9163b8.jpg",
+                "audio": "drm/6/52076/OEBPS/Audio/1/x348c1a2c43248150291fd7f78a9163b8.mp3"
+            },
+            {
+                "page": "drm/6/52076/OEBPS/Images/1/f1a6700c9b27fcdb850abad8d343fbe0.jpg",
+                "audio": "drm/6/52076/OEBPS/Audio/1/xf1a6700c9b27fcdb850abad8d343fbe0.mp3"
+            },
+            {
+                "page": "drm/6/52076/OEBPS/Images/1/375b8a9ba79ac36b3bb959cadae64fca.jpg",
+                "audio": "drm/6/52076/OEBPS/Audio/1/x375b8a9ba79ac36b3bb959cadae64fca.mp3"
+            },
+            {
+                "page": "drm/6/52076/OEBPS/Images/1/d9fc45a7835006bb386417a0584fc075.jpg",
+                "audio": "drm/6/52076/OEBPS/Audio/1/xd9fc45a7835006bb386417a0584fc075.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/6/52076/OEBPS/Images/1/006a21983e6567890a7684f8e71b13d2.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "52076",
+        "id": "52076",
+        "title": "Big and Little",
+        "author": "Erica Donner",
+        "illustrator": " ",
+        "numPages": 16,
+        "bookDescription": "Big and Little helps emergent readers understand and differentiate between these opposites",
+        "coverColorR": 169,
+        "coverColorG": 176,
+        "coverColorB": 153,
+        "version": 12309,
+        "previewPercent": 20,
+        "publisher": "JUMP",
+        "publisherId": "109",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "BR50L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 480,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 80,
+        "type": 1,
+        "subject": "84",
+        "subjectDesc": "Physics",
+        "subjectColor": "29E69B",
+        "copyright": "",
+        "aspectRatio": 0.7222,
+        "contentHash": "38172cbdeee0e9b8d2fa",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1558635965
+    },
+    "userBook": {
+        "modelId": "46250489-52076",
+        "userId": "46250489",
+        "bookId": "52076",
+        "currentPageIndex": 18,
+        "farthestPageIndex": 18,
+        "favorited": 0,
+        "finishTime": 77,
+        "paid": 0,
+        "progress": 100,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 77,
+        "recommended": 0,
+        "lastModified": 1559094351,
+        "bookmarks": "",
+        "timesCompleted": 1,
+        "currentReadTime": 0,
+        "dateModified": 1559094429,
+        "book": {
+            "modelId": "52076",
+            "title": "Big and Little",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "38172cbdeee0e9b8d2fa"
+        }
+    },
+    "quiz": null
+}

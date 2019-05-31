@@ -1,0 +1,175 @@
+{
+    "publisherData": {
+        "modelId": "107",
+        "name": "Rourke Educational Media",
+        "url": "http://rourkeeducationalmedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570193
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/18708/OEBPS/Images/1/dd1a5ebcc334ec1c59647209223b32ff.jpg",
+                "audio": "drm/8/18708/OEBPS/Audio/1/aa3105a058d6f4020a7d87b11b319882.mp3"
+            },
+            {
+                "page": "drm/8/18708/OEBPS/Images/1/4ceb6d62e1d688ad77744fca0d852eb2.jpg",
+                "audio": "drm/8/18708/OEBPS/Audio/1/ae467b7c78939fd51e6b0f493dc06f4f.mp3"
+            },
+            {
+                "page": "drm/8/18708/OEBPS/Images/1/fc605d4ac7bcd1b97f479273804c5065.jpg"
+            },
+            {
+                "page": "drm/8/18708/OEBPS/Images/1/d99748513616af52abde64e74a3ec18b.jpg",
+                "audio": "drm/8/18708/OEBPS/Audio/1/17cc93a4caee9b32753f26a193e4e388.mp3"
+            },
+            {
+                "page": "drm/8/18708/OEBPS/Images/1/ad3f8c9d61bf39a3ec52e4e098902392.jpg"
+            },
+            {
+                "page": "drm/8/18708/OEBPS/Images/1/2d6af2c7e2b3387f89a47836866ee451.jpg",
+                "audio": "drm/8/18708/OEBPS/Audio/1/9a70b1722732d93ae5a5dce687839719.mp3"
+            },
+            {
+                "page": "drm/8/18708/OEBPS/Images/1/2ad0d537df3eb598d471161d37e7e317.jpg"
+            },
+            {
+                "page": "drm/8/18708/OEBPS/Images/1/8b46b8160fd7ab5d2de76c3bf1b5b8af.jpg",
+                "audio": "drm/8/18708/OEBPS/Audio/1/29c32f8673bd0a98ff40c5c0dc3030d5.mp3"
+            },
+            {
+                "page": "drm/8/18708/OEBPS/Images/1/cc8633bb6adc743b7e2a7300feb09b99.jpg"
+            },
+            {
+                "page": "drm/8/18708/OEBPS/Images/1/4b9a0b5eaa2a4d509101a9eed5cd9382.jpg",
+                "audio": "drm/8/18708/OEBPS/Audio/1/63f66740c41e8fdaa4f8f4229e33ecf2.mp3"
+            },
+            {
+                "page": "drm/8/18708/OEBPS/Images/1/0cc36f0af7a3462a71106dd25ee60ed9.jpg"
+            },
+            {
+                "page": "drm/8/18708/OEBPS/Images/1/6fdff7c23e56bc0fe81be1413d504f30.jpg",
+                "audio": "drm/8/18708/OEBPS/Audio/1/db9898c4694a704b5377f1b93470afe0.mp3"
+            },
+            {
+                "page": "drm/8/18708/OEBPS/Images/1/369d37a65a89f6185028ed1504b1ba6b.jpg"
+            },
+            {
+                "page": "drm/8/18708/OEBPS/Images/1/3a15600f4324dfe26726ca85e8546dcc.jpg",
+                "audio": "drm/8/18708/OEBPS/Audio/1/95a8066bda4f42ad16e5d4af14b84774.mp3"
+            },
+            {
+                "page": "drm/8/18708/OEBPS/Images/1/8d3f844eb1db6399888645f1f44d25df.jpg"
+            },
+            {
+                "page": "drm/8/18708/OEBPS/Images/1/28922da81ad6a1d082383d1b768e12c8.jpg",
+                "audio": "drm/8/18708/OEBPS/Audio/1/cb32744566c2be1c6a8184154ae0fc58.mp3"
+            },
+            {
+                "page": "drm/8/18708/OEBPS/Images/1/4d498e3f7ff457030729e0e74fdbeb26.jpg"
+            },
+            {
+                "page": "drm/8/18708/OEBPS/Images/1/361b8a50e944e7bafd76f0469d3145b1.jpg",
+                "audio": "drm/8/18708/OEBPS/Audio/1/d817e40b22833c8848f1c00080f52f9a.mp3"
+            },
+            {
+                "page": "drm/8/18708/OEBPS/Images/1/1c97e42ec6dd2eb559a16183c3e3878b.jpg"
+            },
+            {
+                "page": "drm/8/18708/OEBPS/Images/1/04537375b4c75784710f5d50041295ea.jpg",
+                "audio": "drm/8/18708/OEBPS/Audio/1/7baa471138be89011c4cefa7eeb5f33c.mp3"
+            },
+            {
+                "page": "drm/8/18708/OEBPS/Images/1/3ac7a7a11866050098b0ebc1dabc6aa1.jpg"
+            },
+            {
+                "page": "drm/8/18708/OEBPS/Images/1/b7715da3e769dadb9d02081ca3131d3b.jpg"
+            },
+            {
+                "page": "drm/8/18708/OEBPS/Images/1/ef566d6f58626dc56f52c70e9b5fd2df.jpg"
+            },
+            {
+                "page": "drm/8/18708/OEBPS/Images/1/a903cfe7fd0c611210edc1a6e45f4482.jpg"
+            },
+            {
+                "page": "drm/8/18708/OEBPS/Images/1/982082d35308efd1619d48d125b2fcb9.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/18708/OEBPS/Images/1/c40ed35b915525b2ee8a322b1d16db85.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18708",
+        "id": "18708",
+        "title": "Get The Prize",
+        "author": "Precious McKenzie",
+        "illustrator": " ",
+        "numPages": 25,
+        "bookDescription": "The campers spend a lovely day at the lake until a lynx shows up.",
+        "coverColorR": 160,
+        "coverColorG": 163,
+        "coverColorB": 145,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Rourke Educational Media",
+        "publisherId": "107",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 416,
+        "ar": "1.5",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Daily Life",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "20a531cf6a8b0b9ccd04",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372872
+    },
+    "userBook": {
+        "modelId": "46250489-18708",
+        "userId": "46250489",
+        "bookId": "18708",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311244,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311244,
+        "book": {
+            "modelId": "18708",
+            "title": "Get The Prize",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "20a531cf6a8b0b9ccd04"
+        }
+    },
+    "quiz": null
+}

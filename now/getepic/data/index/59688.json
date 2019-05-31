@@ -1,0 +1,654 @@
+{
+    "publisherData": {
+        "modelId": "90295",
+        "name": "HarperCollins Publishing..",
+        "url": "http://www.harpercollins.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539569236
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/b13e260e88b67e118653907592b6733f.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_cover.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/70759d00f2630857a854982c7be4f29b.jpg"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/8776caf72ce66101fcba561459ca3b84.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p3.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/d8a88f5e240a0e9b4d182db057601f77.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p4.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/1f107ea1645cdda714237b9d7356c5e5.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p5.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/ffab7eb26ccb1bd1d1579aac96c3fa8c.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p6.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/bb4bfa29054fa0f6534043d2ce3ecfcf.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p7.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/084cb46ba087a4bfa0c99f90e9491a78.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p8.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/dc294d55b2daaaf39283c174e672404a.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p9.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/acf25a90ad02aaccda920934cb335722.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p10.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/87dc956f4f4e2632ab494b1cd18f4041.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p11.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/1cceb912a332d61559ed5958790635c9.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p12.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/481dad47f7f37380bbce14384c50ab04.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p13.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/cd74f3812564df88be7e62552512de77.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p14.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/beca3102b0d6bd7ea069aab8b261e267.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p15.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/562fa77f8971e139481a22e0295d6749.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p16.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/50671b5023056b71708e3ca795f3a866.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p17.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/16d55eb795aa58de1a968a37a2b73f98.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p18.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/a49c6876f987125e7791a0fb41273220.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p19.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/53dbdb9d2978dfd7419257506a533e26.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p20.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/9bc4ba338ba5f1d5726c29c8ebc07cc9.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p21.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/534c34b75b98b9626c31faf4cc90b59b.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p22.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/168bf400eb301d6764e1bbc26caaba43.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p23.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/803e9059136fada8047283a0714eedc0.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p24.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/32ec90be4a3256ac19edbf73567f0438.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p25.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/fe908f3c2ecd2e3dee6646d4732d1c1e.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p26.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/26e9a0b147617bfd8ac732b5b386a5a4.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p27.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/ef28bef2b886ab3422dd1809af674035.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p28.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/660b296e7027eec37fe1339d7f84aea4.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p29.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/3d7322c661bb6579ec4c12b76cb12056.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p30.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/937319275899e565933596aa7bb856f9.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p31.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/c86afe220715b8ece00cb0ebf94d5df8.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p32.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/903d5df60b233a02d9be66ec9d8fa0d7.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p33.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/f7052cc1deb135f484fe22a647cfe649.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p34.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/e5caeaece77bc4093b812edad412b665.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p35.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/a4e91baa7ae5c061b0b21e258d85102e.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p36.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/037baa21a8adf5868de91a98ba5e78a0.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p37.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/d879bdf9780e692c01a6ea8e4c882055.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p38.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/648d5d59289524a0eabfe43429f36405.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p39.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/bbab20c8519063ffda19c78e5403de3e.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p40.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/734a7acb5fcbc586fc5aaf30a5ab6e4e.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p41.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/52378185cd69ed87c4303718ec5ca5ef.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p42.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/b64a544690d8080667d3bf6e17d98f8a.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p43.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/dbaec8c07219d5da98df6e433b636d65.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p44.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/b418136ffd9df593fdfe840e9094b817.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p45.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/47d4ffad811985ea6878ef361df15668.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p46.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/df6c0683545f27d873c2d921d0413238.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p47.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/0216f1494e42852e1c8341796ca556d9.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p48.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/c713c3cd40d5b98a00a4b49113ade778.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p49.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/18f343b1083d7949871b2d5769d3c5dc.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p50.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/08730043df4ad9d2267729d2934df23a.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p51.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/20ce600297445a2b5715d088719a3dfb.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p52.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/10d27cd16e9f6e9c47f827efef8aecae.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p53.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/316d7d19c7a397c54ece603e574313c3.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p54.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/c2bddaa41d9729eeb8f28c3b9df68807.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p55.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/7109fb23e40e5087a7f851784cecb534.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p56.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/5bb4167476ea50a57a6e2c71c788e194.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p57.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/e4939aa70e1831f747ebb28be6d36a26.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p58.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/66e21212229b9db36fffa029147f8d7f.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p59.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/f2b3aa83c594d95120b3352f13ae2674.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p60.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/cc07aa7dcc790c5ce5267ad5e0260a63.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p61.mp3"
+            },
+            {
+                "page": "drm/8/59688/OEBPS/Images/1/4a85367058ce14bd58fbae1791770c8b.jpg",
+                "audio": "drm/8/59688/OEBPS/Audio/1/dannydinosaur_p62.mp3"
+            }
+        ],
+        "extra": {
+            "color": "#fffefe",
+            "copyright": ""
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "59688",
+        "id": "59688",
+        "title": "Danny and the Dinosaur",
+        "author": "Syd Hoff",
+        "illustrator": " ",
+        "numPages": 62,
+        "bookDescription": "When Danny meets a dinosaur at the museum, Danny and the Dinosaur's wonderful adventures together begin.",
+        "coverColorR": 97,
+        "coverColorG": 160,
+        "coverColorB": 148,
+        "version": 2147483647,
+        "previewPercent": 10,
+        "publisher": "HarperCollins Publishing..",
+        "publisherId": "90295",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "400L",
+        "avgTime": "30-45 mins",
+        "avgTimeInt": 1894,
+        "ar": "2.3",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pre-Historic",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.6651,
+        "contentHash": "c6c14672a7f97b98c898",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1556738650
+    },
+    "userBook": {
+        "modelId": "46250489-59688",
+        "userId": "46250489",
+        "bookId": "59688",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310319,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310319,
+        "book": {
+            "modelId": "59688",
+            "title": "Danny and the Dinosaur",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "c6c14672a7f97b98c898"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "400545",
+            "user_id": "36133644",
+            "book_id": "59688",
+            "title": "Danny and the Dinosaur",
+            "description": "",
+            "date_created": 1556815216,
+            "date_modified": 1556815216,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What is something Danny saw at the museum?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Bears",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Stars",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Elephants",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Books",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "Who did Danny see when he went for a walk with the dinosaur?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "a policeman",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "a mailman",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "a teacher",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "a fireman",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What is a character trait you can use to describe the dinosaur?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "helpful",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "happy",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "sad",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "brave",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "How do you think the animals at the zoo felt about the dinosaur?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Sad because no one went to see them.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "The were happy to see the dinosaur",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "They were scared of the dinosaur.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "They were mad at the dinosaur because they thought he was mean.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "What kind of a kid is Danny?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "adventurous",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "moody",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "smart",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "lazy",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "400545",
+            "creatorName": "Mikael C.",
+            "avatarId": "36",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "36133644",
+                "udid": "5c06f6eba51930.04306366",
+                "journalName": "Mikael C.",
+                "journalCoverAvatar": "36",
+                "journalCoverColor": "0.93725490196078 0.37647058823529 0.30196078431373 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "316108291",
+                "fid": "",
+                "accountID": "a95bf706-aa47-46eb-aba2-b7d583e2246b",
+                "simpleAccountId": "9521216",
+                "pagesFlipped": 8897,
+                "nufComplete": 1,
+                "readingAge": 8.3,
+                "startingAge": 4,
+                "status": 0,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 4332,
+                "xpLevel": 32,
+                "dateLastLogin": 1559149272,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "Mikael",
+                "lastName": "Ch",
+                "accountType": 1,
+                "dateModified": 1559237669,
+                "grade": -1
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What is something Danny saw at the museum?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Bears",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Stars",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Elephants",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Books",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "Who did Danny see when he went for a walk with the dinosaur?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "a policeman",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "a mailman",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "a teacher",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "a fireman",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What is a character trait you can use to describe the dinosaur?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "helpful",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "happy",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "sad",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "brave",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "How do you think the animals at the zoo felt about the dinosaur?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Sad because no one went to see them.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "The were happy to see the dinosaur",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "They were scared of the dinosaur.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "They were mad at the dinosaur because they thought he was mean.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "What kind of a kid is Danny?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "adventurous",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "moody",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "smart",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "lazy",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

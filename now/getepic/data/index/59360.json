@@ -1,0 +1,445 @@
+{
+    "publisherData": {
+        "modelId": "90327",
+        "name": "ABDO Kids an imprint of ABDO Publishing",
+        "url": "http://abdopublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1527111706
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/59360/OEBPS/Images/1/ffba7dd7f3617960e54657e85132a95d.jpg",
+                "audio": "drm/0/59360/OEBPS/Audio/1/page1.mp3"
+            },
+            {
+                "page": "drm/0/59360/OEBPS/Images/1/6686adee3ed80e339c226bc3f08db863.jpg",
+                "audio": "drm/0/59360/OEBPS/Audio/1/page4-5.mp3"
+            },
+            {
+                "page": "drm/0/59360/OEBPS/Images/1/427898539ce61a41526b8313efd8cbfb.jpg"
+            },
+            {
+                "page": "drm/0/59360/OEBPS/Images/1/59b1a117b0a62328381efee3e1d81542.jpg",
+                "audio": "drm/0/59360/OEBPS/Audio/1/page6-7.mp3"
+            },
+            {
+                "page": "drm/0/59360/OEBPS/Images/1/8cc39731c35585b7e03ac719cab9235d.jpg"
+            },
+            {
+                "page": "drm/0/59360/OEBPS/Images/1/696ba83f1c5f50fb735f8ef5ebda1453.jpg",
+                "audio": "drm/0/59360/OEBPS/Audio/1/page8-9.mp3"
+            },
+            {
+                "page": "drm/0/59360/OEBPS/Images/1/4ede43967113fd8b733fff9619d1867a.jpg"
+            },
+            {
+                "page": "drm/0/59360/OEBPS/Images/1/2e2517421efebfa87ac5241e034eaeda.jpg",
+                "audio": "drm/0/59360/OEBPS/Audio/1/page10-11.mp3"
+            },
+            {
+                "page": "drm/0/59360/OEBPS/Images/1/d4041f1ca08eaebb802621a6a253b922.jpg"
+            },
+            {
+                "page": "drm/0/59360/OEBPS/Images/1/91d3b3dcfb188bac9161c2212310f799.jpg",
+                "audio": "drm/0/59360/OEBPS/Audio/1/page12-13.mp3"
+            },
+            {
+                "page": "drm/0/59360/OEBPS/Images/1/f140fc983ddf8d364cde00c189e2bd81.jpg"
+            },
+            {
+                "page": "drm/0/59360/OEBPS/Images/1/1d18cdbb9edcae4c6fa2119aadb60434.jpg",
+                "audio": "drm/0/59360/OEBPS/Audio/1/page14-15.mp3"
+            },
+            {
+                "page": "drm/0/59360/OEBPS/Images/1/e2fc33df5afe43b40a2378ef754d0e7f.jpg"
+            },
+            {
+                "page": "drm/0/59360/OEBPS/Images/1/96cc05cd1c695d76321a61967979f379.jpg",
+                "audio": "drm/0/59360/OEBPS/Audio/1/page16-17.mp3"
+            },
+            {
+                "page": "drm/0/59360/OEBPS/Images/1/e7237fffb2b40b1f6d67bce9028803cb.jpg"
+            },
+            {
+                "page": "drm/0/59360/OEBPS/Images/1/81ef60f668910ed543b799777a5b718d.jpg",
+                "audio": "drm/0/59360/OEBPS/Audio/1/page18-19.mp3"
+            },
+            {
+                "page": "drm/0/59360/OEBPS/Images/1/98fccd8e214db21386320cad05d088d8.jpg"
+            },
+            {
+                "page": "drm/0/59360/OEBPS/Images/1/2d3308d1bd703b816d0401216296be4d.jpg",
+                "audio": "drm/0/59360/OEBPS/Audio/1/page20-21.mp3"
+            },
+            {
+                "page": "drm/0/59360/OEBPS/Images/1/b9fb01033aa7dbb8adb35e05b80a20d3.jpg"
+            },
+            {
+                "page": "drm/0/59360/OEBPS/Images/1/bf0a2084c9150c3a15ee93d110e60f9e.jpg",
+                "audio": "drm/0/59360/OEBPS/Audio/1/page22.mp3"
+            },
+            {
+                "page": "drm/0/59360/OEBPS/Images/1/f3d1fbc0b5724a40a9da1979c3d8cca0.jpg"
+            },
+            {
+                "page": "drm/0/59360/OEBPS/Images/1/1afca662733d84996820899e7dc8168a.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/59360/OEBPS/Images/1/31aca886e5d50ebb8f77f81c78d9e694.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "59360",
+        "id": "59360",
+        "title": "How Is Ice Cream Made?",
+        "author": "Grace Hansen",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Covers the process of making ice cream, from dairy farms where cows are milked, then the creamery, then the ice cream factory.",
+        "coverColorR": 199,
+        "coverColorG": 153,
+        "coverColorB": 146,
+        "version": 2124914581,
+        "previewPercent": 20,
+        "publisher": "ABDO Kids an imprint of ABDO Publishing",
+        "publisherId": "90327",
+        "age": 6,
+        "pageNumOffset": 1,
+        "active": 1,
+        "audio": 1,
+        "lexile": "600L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 806,
+        "ar": "2.7",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "k",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Daily Life",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 1.1713,
+        "contentHash": "a6ceaa1bb0b02cdef6b0",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374867
+    },
+    "userBook": {
+        "modelId": "46250489-59360",
+        "userId": "46250489",
+        "bookId": "59360",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311310,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311310,
+        "book": {
+            "modelId": "59360",
+            "title": "How Is Ice Cream Made?",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "a6ceaa1bb0b02cdef6b0"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "393421",
+            "user_id": "27111891",
+            "book_id": "59360",
+            "title": "How Ice Cream is Made Quiz",
+            "description": "",
+            "date_created": 1556210685,
+            "date_modified": 1556210979,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "If you look at the index on page 24, what page can you read about sugar?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "10",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "20",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "12",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "8",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What are the best-selling ice cream flavors?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "chocolate and vanilla",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "peppermint and strawberry",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "cookies and cream",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What is pressure?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "A strong force upon something.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "A weak force upon something.",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Why do you think it is important for ice cream to go through pasteurization?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "So people do not get sick",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "So the ice cream tastes better",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "So other foods and flavors can be added",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "What is an ingredient not common in ice cream?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Butter",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Sugar",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Egg yolks",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Condensed skim milk",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "393421",
+            "creatorName": "Miss Fanson",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "27111891",
+                "udid": "5b58b52e2c9c62.29605823",
+                "journalName": "Miss Fanson",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.11764705882353 0.91764705882353 0.64313725490196 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "760815787",
+                "fid": "",
+                "accountID": "ACDD1817-18DF-2706-B5F5-F409DC658B64",
+                "simpleAccountId": "7986891",
+                "pagesFlipped": 177,
+                "nufComplete": 1,
+                "readingAge": 6.93333,
+                "startingAge": 7,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 58,
+                "xpLevel": 1,
+                "dateLastLogin": 1556286631,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Samantha",
+                "lastName": "Fanson",
+                "accountType": 1,
+                "dateModified": 1559050384,
+                "educatorPrefix": "Miss",
+                "name": "Miss Fanson"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "If you look at the index on page 24, what page can you read about sugar?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "10",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "20",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "12",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "8",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What are the best-selling ice cream flavors?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "chocolate and vanilla",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "peppermint and strawberry",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "cookies and cream",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What is pressure?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "A strong force upon something.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "A weak force upon something.",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Why do you think it is important for ice cream to go through pasteurization?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "So people do not get sick",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "So the ice cream tastes better",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "So other foods and flavors can be added",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "What is an ingredient not common in ice cream?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Butter",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Sugar",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Egg yolks",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Condensed skim milk",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

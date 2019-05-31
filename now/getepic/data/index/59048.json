@@ -1,0 +1,185 @@
+{
+    "publisherData": {
+        "modelId": "90312",
+        "name": "Houghton Mifflin Harcourt",
+        "url": "https://www.hmhco.com/",
+        "checkout": 0,
+        "educationalEnabled": 0,
+        "dateModified": 1523564869
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/4c7f93f8a1ddad28aa0f4c3a481c6e35.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/0b6efb62eb09f27186232f018874caea.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/3158cf0a37232418ea1cc1b5be970289.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/bda56e3dabb94eb76dd04d914238275c.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/a2e41c995b231938fbffef917e3bf6f4.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/1339242df97c0d0dfeeff81572785c77.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/ff97652f1e8238a3c46a7eabdc1f870e.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/8657e053073864bc2ca68a26cfade691.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/04c3100209f4b5083d32b25877d3604c.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/4e3854eaf3dcf872f05935762bac7acd.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/38f6aa6680cb6672fef87cec993b0a0f.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/e1039024383d7ad262d15ec609f5e0bd.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/f0241e087273e881daf095cdd7e5a1d9.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/c4159be73429f9dfe04a480b657445da.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/7f546d68a9447ba6db3b9cf017ccdba5.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/ea02d8204d101c19e4819ae3151e681e.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/4ab1b3d8fae57c07eaaf8e85b1812e70.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/dab3d82ea5c41c677ed32750c3b9f2bb.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/ebff2a14ca242eec43db775cb5204e00.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/2d9e40f286a8d37cefd009950552b139.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/6e32c1f22159f623919158d935a0f141.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/6dd4239da68aa33042df876650993e76.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/eed406111a0adb512623ed9d97c12e4d.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/b36b5eec08d773dc9935d920acde2b82.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/02d7b6a12a46e6b8c59f0a5b6b10df01.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/383d8fbe90d7b35a8f77168323e6ecbd.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/818a1ca93a2bc6c606e18b5025d0636d.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/9e7b3fa75c49a86e00d6dd87722d5319.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/54fc28735dba3b87d6f1fae18e7f40e2.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/531a54db31f8a8fd417c4aa3df2d7797.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/0f01c828cc22c61251da2f8a6983c892.jpg"
+            },
+            {
+                "page": "drm/8/59048/OEBPS/Images/1/5187e21ce1962b427c22ff071a5bef25.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/59048/OEBPS/Images/1/df2b727352600512234a2690f89fe952.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "59048",
+        "id": "59048",
+        "title": "I Yam A Donkey!",
+        "author": "Cece Bell",
+        "illustrator": " ",
+        "numPages": 32,
+        "bookDescription": "Confusion abounds when a poorly spoken donkey says to a grammarian yam, \u201cI Yam a Donkey!\u201d",
+        "coverColorR": 195,
+        "coverColorG": 167,
+        "coverColorB": 125,
+        "version": 2147483647,
+        "previewPercent": 20,
+        "publisher": "Houghton Mifflin Harcourt",
+        "publisherId": "90312",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "370L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 586,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 85,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Humorous Stories",
+        "subjectColor": "FFD673",
+        "copyright": "2015",
+        "aspectRatio": 0.8947,
+        "contentHash": "ef71969f2fca984563d9",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1554331883
+    },
+    "userBook": {
+        "modelId": "46250489-59048",
+        "userId": "46250489",
+        "bookId": "59048",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310269,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310269,
+        "book": {
+            "modelId": "59048",
+            "title": "I Yam A Donkey!",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "ef71969f2fca984563d9"
+        }
+    },
+    "quiz": null
+}

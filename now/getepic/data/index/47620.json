@@ -1,0 +1,153 @@
+{
+    "publisherData": {
+        "modelId": "2",
+        "name": "Twin Sisters IP, LLC.",
+        "url": "http://www.twinsisters.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1547683900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/47620/OEBPS/Images/1/12377876125e1122c797c25f738774c7.jpg",
+                "audio": "drm/0/47620/OEBPS/Audio/1/Page 3.mp3"
+            },
+            {
+                "page": "drm/0/47620/OEBPS/Images/1/e4b6214e49fedaec50f5af8382ec2821.jpg",
+                "audio": "drm/0/47620/OEBPS/Audio/1/Page 4.mp3"
+            },
+            {
+                "page": "drm/0/47620/OEBPS/Images/1/435046afb94b3deda627bf0f71b86552.jpg",
+                "audio": "drm/0/47620/OEBPS/Audio/1/Page 5.mp3"
+            },
+            {
+                "page": "drm/0/47620/OEBPS/Images/1/0410ba5b21490aa3d9970dfaa03914c9.jpg",
+                "audio": "drm/0/47620/OEBPS/Audio/1/Page 6.mp3"
+            },
+            {
+                "page": "drm/0/47620/OEBPS/Images/1/b88ffccd11c59b4d1713186cd0e9974c.jpg",
+                "audio": "drm/0/47620/OEBPS/Audio/1/Page 7.mp3"
+            },
+            {
+                "page": "drm/0/47620/OEBPS/Images/1/5f14b3f4cb54693f304d78944f51c1ac.jpg",
+                "audio": "drm/0/47620/OEBPS/Audio/1/Page 8.mp3"
+            },
+            {
+                "page": "drm/0/47620/OEBPS/Images/1/20e0f3681d4525477a81705ef2d06ffd.jpg",
+                "audio": "drm/0/47620/OEBPS/Audio/1/Page 9.mp3"
+            },
+            {
+                "page": "drm/0/47620/OEBPS/Images/1/16846e0d9d5f5c88b45661edd7a25432.jpg",
+                "audio": "drm/0/47620/OEBPS/Audio/1/Page 10.mp3"
+            },
+            {
+                "page": "drm/0/47620/OEBPS/Images/1/4db86be7d1e0009ce4a9fa0c86d54860.jpg",
+                "audio": "drm/0/47620/OEBPS/Audio/1/Page 11.mp3"
+            },
+            {
+                "page": "drm/0/47620/OEBPS/Images/1/b6b50e3722955e009c51912c67d0dfc7.jpg",
+                "audio": "drm/0/47620/OEBPS/Audio/1/Page 12.mp3"
+            },
+            {
+                "page": "drm/0/47620/OEBPS/Images/1/ae39ef78abd9fe0eac9a6ed3441f6526.jpg",
+                "audio": "drm/0/47620/OEBPS/Audio/1/Page 13.mp3"
+            },
+            {
+                "page": "drm/0/47620/OEBPS/Images/1/3d64bc116bec4584371c4068ff2d8db2.jpg",
+                "audio": "drm/0/47620/OEBPS/Audio/1/Page 14.mp3"
+            },
+            {
+                "page": "drm/0/47620/OEBPS/Images/1/aea2c2346ea3c5c21ee75e9e2bdbe8f4.jpg",
+                "audio": "drm/0/47620/OEBPS/Audio/1/Page 15.mp3"
+            },
+            {
+                "page": "drm/0/47620/OEBPS/Images/1/b49a4e49352f5492eb3e3bd49283ac0b.jpg",
+                "audio": "drm/0/47620/OEBPS/Audio/1/Page 16.mp3"
+            },
+            {
+                "page": "drm/0/47620/OEBPS/Images/1/7e0eb5aaf3fba02890759a28986a7ead.jpg",
+                "audio": "drm/0/47620/OEBPS/Audio/1/Page 17.mp3"
+            },
+            {
+                "page": "drm/0/47620/OEBPS/Images/1/f9031185ec06b4b9100f43e6fd4a241e.jpg",
+                "audio": "drm/0/47620/OEBPS/Audio/1/Page 18.mp3"
+            }
+        ],
+        "extra": {
+            "color": "#fffefe",
+            "copyright": ""
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "47620",
+        "id": "47620",
+        "title": "The Grocery Jungle",
+        "author": "Alissa Jo McGough",
+        "illustrator": "Leslie Breen Withrow",
+        "numPages": 16,
+        "bookDescription": "When a young boy heads to the grocery store with his mom, he is surprised at what he discovers.",
+        "coverColorR": 176,
+        "coverColorG": 152,
+        "coverColorB": 95,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Twin Sisters IP, LLC.",
+        "publisherId": "2",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 266,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Funny",
+        "subjectColor": "FFD673",
+        "copyright": "",
+        "aspectRatio": 0.7742,
+        "contentHash": "2f04e3c68cd5e0b01e21",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1519425924
+    },
+    "userBook": {
+        "modelId": "46250489-47620",
+        "userId": "46250489",
+        "bookId": "47620",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311084,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311084,
+        "book": {
+            "modelId": "47620",
+            "title": "The Grocery Jungle",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "2f04e3c68cd5e0b01e21"
+        }
+    },
+    "quiz": null
+}

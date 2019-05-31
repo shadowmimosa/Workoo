@@ -1,0 +1,197 @@
+{
+    "publisherData": {
+        "modelId": "86",
+        "name": "Peachtree Publishers",
+        "url": "http://peachtree-online.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491261513
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/7c43e8cffec01b61d61301f846ae0fd9.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/fe1ae0f4fc1083367644934b7535e163.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/ad7bf121e305c462329d8866191888e1.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/572eee18c11d60a00b0756d9588a3493.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/8a3f5e41578efc8db393d140f7c94552.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/0135d152516d6719e10d5571aa96e32c.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/98371a23482bcf72283081b5accd655a.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/264c08795a6828b69619f90e104ae087.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/5600a3dcab58bd15120334413d6f6a1b.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/dcaed5060b2658571b9e4789438edab2.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/559afff77f6fddec6c47e8f4b747fab0.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/11c47a44e1e18fbcaeccd7772fab29c4.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/05500fe349b433645c5504ba2a891dc6.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/b976756b16197d6ac088422871a2179b.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/d38a739cb727a034391b1c16196f8182.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/484f8af2487d1a184812745386ad60eb.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/f081669aabc3c6d126b747a091c68649.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/93e17e52a557a20dbbd54548dbeba76a.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/34e32fc2e1c24ab6170f8959163d1e99.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/b2eb81c5235c3a4014542459304fa2ac.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/e2ee899f010f3e74ed91e9405692c281.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/374ab5e0e6b57d201b4376dfc94b82f9.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/61e051f45917a936566eeec95cf1f374.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/bac1d7025259217c3eda62375e8a9cac.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/c1c2e87536de714686a626188bcc3ad7.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/973807381050068d1cef4f6ccbe2330a.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/7342280c9a7d0955ef695407a86a904d.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/910453edb26603ad3c2000c7f2c11aeb.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/94053029efb3923aa71e50594e704bba.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/7f22bb6a5e5b05fd051043e5d276f91b.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/bfa4babfcf3628473126c25fe6c61a89.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/de10e2c62fccb3e85e682e199d986a83.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/5a0a6fd98a08f3c26f1e4728e25ee3fa.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/331f7e8ea209399f0701ca3e28e2ad80.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/fa3fa8f8068051705dfb8f2ca1892b58.jpg"
+            },
+            {
+                "page": "drm/3/64683/OEBPS/Images/1/5b74d2b7582a1c9bda79c4acc48d867a.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/3/64683/OEBPS/Images/1/eeb791e39204cea55c93b6cfa42fbd03.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "64683",
+        "id": "64683",
+        "title": "The King of Bees",
+        "author": "Lester L. Laminack",
+        "illustrator": " ",
+        "numPages": 36,
+        "bookDescription": "Henry can\u2019t wait until he can have a bee-suit of his own so he can help his Aunt Lilla with the sister bees.",
+        "coverColorR": 192,
+        "coverColorG": 183,
+        "coverColorB": 169,
+        "version": 27279296,
+        "previewPercent": 10,
+        "publisher": "Peachtree Publishers",
+        "publisherId": "86",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "AD600L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 660,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 75,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Profession",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "05adbdc9efa35371b55a",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1558657011
+    },
+    "userBook": {
+        "modelId": "46250489-64683",
+        "userId": "46250489",
+        "bookId": "64683",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559309866,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559309866,
+        "book": {
+            "modelId": "64683",
+            "title": "The King of Bees",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "05adbdc9efa35371b55a"
+        }
+    },
+    "quiz": null
+}

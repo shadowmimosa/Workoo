@@ -1,0 +1,134 @@
+{
+    "publisherData": {
+        "modelId": "90050",
+        "name": "Amicus",
+        "url": "https://www.amicuspublishing.us/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491010374
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/57280/OEBPS/Images/1/d8e366bbca6beac0e04b805ad643a214.jpg"
+            },
+            {
+                "page": "drm/0/57280/OEBPS/Images/1/e0edbd35d7925385bad12b004b731826.jpg"
+            },
+            {
+                "page": "drm/0/57280/OEBPS/Images/1/eecf8180154c7e383d4718867d0ab9c2.jpg"
+            },
+            {
+                "page": "drm/0/57280/OEBPS/Images/1/fd5ad67ca94fb25d75bdf5aabfa7f0dd.jpg"
+            },
+            {
+                "page": "drm/0/57280/OEBPS/Images/1/75d7e3b2a8204526865395499ae8202c.jpg"
+            },
+            {
+                "page": "drm/0/57280/OEBPS/Images/1/8cc48a96354085d319206aa5d71d8485.jpg"
+            },
+            {
+                "page": "drm/0/57280/OEBPS/Images/1/e8970ae1a34369e6da58594c3af18a8b.jpg"
+            },
+            {
+                "page": "drm/0/57280/OEBPS/Images/1/ffe18ebfc64408740efe88ac21be5e13.jpg"
+            },
+            {
+                "page": "drm/0/57280/OEBPS/Images/1/a941310e018bfc3f5faeef8e9a0ab585.jpg"
+            },
+            {
+                "page": "drm/0/57280/OEBPS/Images/1/2107f1504ba76eaf2ec66f4a7c233c0c.jpg"
+            },
+            {
+                "page": "drm/0/57280/OEBPS/Images/1/5bcf51574367f1201c10b6b26ac54227.jpg"
+            },
+            {
+                "page": "drm/0/57280/OEBPS/Images/1/74ae100653b00741ca6797b5584375e5.jpg"
+            },
+            {
+                "page": "drm/0/57280/OEBPS/Images/1/0ef6de5dc09952b6ef114732bd4a5962.jpg"
+            },
+            {
+                "page": "drm/0/57280/OEBPS/Images/1/169db5db534df8a180dfbb0159c0fa2b.jpg"
+            },
+            {
+                "page": "drm/0/57280/OEBPS/Images/1/160109af26f6b4d2808610179d4299bf.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/57280/OEBPS/Images/1/9ec408225c45010f9678d71751d7bebe.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "57280",
+        "id": "57280",
+        "title": "Hamsters",
+        "author": "Mari Schuh",
+        "illustrator": " ",
+        "numPages": 15,
+        "bookDescription": "Want to learn more about the furry, scaly, and feathered animals we call pets?",
+        "coverColorR": 221,
+        "coverColorG": 204,
+        "coverColorB": 171,
+        "version": 2294944,
+        "previewPercent": 20,
+        "publisher": "Amicus",
+        "publisherId": "90050",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "330L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 275,
+        "ar": "0.9",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pets",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.8733,
+        "contentHash": "74a5f6e78c08639b0fe5",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374718
+    },
+    "userBook": {
+        "modelId": "46250489-57280",
+        "userId": "46250489",
+        "bookId": "57280",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311519,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311519,
+        "book": {
+            "modelId": "57280",
+            "title": "Hamsters",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "74a5f6e78c08639b0fe5"
+        }
+    },
+    "quiz": null
+}

@@ -1,0 +1,170 @@
+{
+    "publisherData": {
+        "modelId": "90003",
+        "name": "Top That Publishing",
+        "url": "http://topthatpublishing.com/welcome",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1448392976
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/16959/OEBPS/Images/1/7dca9e22cbddd949c09d269923ca2266.jpg"
+            },
+            {
+                "page": "drm/9/16959/OEBPS/Images/1/01da9e45da4b495a4f3a1520c7644337.jpg"
+            },
+            {
+                "page": "drm/9/16959/OEBPS/Images/1/3d7b800ac5fad9e864b79ecb3e07ad0a.jpg"
+            },
+            {
+                "page": "drm/9/16959/OEBPS/Images/1/5102fdca1d71e433b5d71526dca423f3.jpg"
+            },
+            {
+                "page": "drm/9/16959/OEBPS/Images/1/b59c67647f3b0df795fb1d852e89c71c.jpg"
+            },
+            {
+                "page": "drm/9/16959/OEBPS/Images/1/12a7079166963daaaa9200468dc2ba51.jpg"
+            },
+            {
+                "page": "drm/9/16959/OEBPS/Images/1/5686b1525b441b6f360894d729dd0ce7.jpg"
+            },
+            {
+                "page": "drm/9/16959/OEBPS/Images/1/f4a4939ecd7812455cf2312004dbba92.jpg"
+            },
+            {
+                "page": "drm/9/16959/OEBPS/Images/1/e6e2ebf13082237d486051d0ba05443b.jpg"
+            },
+            {
+                "page": "drm/9/16959/OEBPS/Images/1/fb0614d43da23b7c0e34914abc0e0d9c.jpg"
+            },
+            {
+                "page": "drm/9/16959/OEBPS/Images/1/473e9d9153d15a6048b9ea29a0c8b0a8.jpg"
+            },
+            {
+                "page": "drm/9/16959/OEBPS/Images/1/2ee672901e454addde509d2657095a02.jpg"
+            },
+            {
+                "page": "drm/9/16959/OEBPS/Images/1/b2418bb866560fa7e419f85619b18718.jpg"
+            },
+            {
+                "page": "drm/9/16959/OEBPS/Images/1/631ce29a8dfd50b27d304d626fc2353d.jpg"
+            },
+            {
+                "page": "drm/9/16959/OEBPS/Images/1/a65d3b641f6ca2246a6da15ee309b42c.jpg"
+            },
+            {
+                "page": "drm/9/16959/OEBPS/Images/1/ef8f34fdd5a1223c478f6a98c7b43f92.jpg"
+            },
+            {
+                "page": "drm/9/16959/OEBPS/Images/1/76d495593cae20d14ec2aec356d8ea54.jpg"
+            },
+            {
+                "page": "drm/9/16959/OEBPS/Images/1/853c168566e7864ca2f378e8243fae16.jpg"
+            },
+            {
+                "page": "drm/9/16959/OEBPS/Images/1/3ad4974cf4a7dc9712c7e5d78c764821.jpg"
+            },
+            {
+                "page": "drm/9/16959/OEBPS/Images/1/add60ed0369e893b84f1e8a70f5fa147.jpg"
+            },
+            {
+                "page": "drm/9/16959/OEBPS/Images/1/5221c5dc636ad33b9113a2c66e45ed9c.jpg"
+            },
+            {
+                "page": "drm/9/16959/OEBPS/Images/1/d94373ae48ec553e40c9bebbb9d08fb9.jpg"
+            },
+            {
+                "page": "drm/9/16959/OEBPS/Images/1/444847d48c8ebeb3c5bdce74649a28b2.jpg"
+            },
+            {
+                "page": "drm/9/16959/OEBPS/Images/1/24273eeb9b643bb31a22ed0fc6747290.jpg"
+            },
+            {
+                "page": "drm/9/16959/OEBPS/Images/1/4afd32f7ac86dc29a3a3d575900db567.jpg"
+            },
+            {
+                "page": "drm/9/16959/OEBPS/Images/1/77a3bb1b9df14f690689db04b6eeef43.jpg"
+            },
+            {
+                "page": "drm/9/16959/OEBPS/Images/1/49deaef187664770efde0f5d85278218.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/16959/OEBPS/Images/1/77dbe980fc9821bbf16d7c59276a47ae.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "16959",
+        "id": "16959",
+        "title": "The Velveteen Rabbit",
+        "author": "Margery Williams",
+        "illustrator": "Gareth Llewhellin",
+        "numPages": 27,
+        "bookDescription": "A story about a toy rabbit who longs to be real.",
+        "coverColorR": 102,
+        "coverColorG": 73,
+        "coverColorB": 58,
+        "version": 1,
+        "previewPercent": 20,
+        "publisher": "Top That Publishing",
+        "publisherId": "90003",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 405,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Daily Life",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 1.0105,
+        "contentHash": "37e3ce5b3a828115ffd3",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1454718128
+    },
+    "userBook": {
+        "modelId": "46250489-16959",
+        "userId": "46250489",
+        "bookId": "16959",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311313,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311313,
+        "book": {
+            "modelId": "16959",
+            "title": "The Velveteen Rabbit",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "37e3ce5b3a828115ffd3"
+        }
+    },
+    "quiz": null
+}

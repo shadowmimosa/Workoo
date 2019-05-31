@@ -1,0 +1,434 @@
+{
+    "publisherData": {
+        "modelId": "162",
+        "name": "Scholastic Audio",
+        "url": "http://www.scholastic.com/home/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1543451983
+    },
+    "epub": null,
+    "timePerPage": 2,
+    "book": {
+        "modelId": "14534",
+        "id": "14534",
+        "title": "When Sophie Gets Angry - Really, Really Angry",
+        "author": "Molly Bang",
+        "illustrator": "Annie Meisels",
+        "numPages": 0,
+        "bookDescription": "Everybody gets angry sometimes. People do lots of different things when they get angry. What do you do?",
+        "coverColorR": 211,
+        "coverColorG": 158,
+        "coverColorB": 83,
+        "version": 0,
+        "previewPercent": 10,
+        "publisher": "Scholastic Audio",
+        "publisherId": "162",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "340L",
+        "avgTime": "--",
+        "avgTimeInt": 0,
+        "ar": "1.4",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "k",
+        "language": 1,
+        "rating": 82,
+        "type": 2,
+        "subject": "90",
+        "subjectDesc": "Life Lessons",
+        "subjectColor": "48D864",
+        "copyright": "\u00a9 2007 Scholastic Audio Books.  All rights reserved.",
+        "aspectRatio": 0,
+        "contentHash": "",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "0",
+        "panelStatus": 0,
+        "date_modified": 1554506938,
+        "duration": 218
+    },
+    "userBook": {
+        "modelId": "46250489-14534",
+        "userId": "46250489",
+        "bookId": "14534",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310720,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310720,
+        "book": {
+            "modelId": "14534",
+            "title": "When Sophie Gets Angry - Really, Really Angry",
+            "type": 2,
+            "active": 1,
+            "audio": 0,
+            "contentHash": ""
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "170005",
+            "user_id": "4486392",
+            "book_id": "14534",
+            "title": "When Sophie Gets Angry - Really, Really, Angry ...",
+            "description": "",
+            "date_created": 1517585316,
+            "date_modified": 1521482558,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What was the first thing Sophie's sister did to get her angry?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Grabbed Gorilla",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "grabbed truck",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "tattled to mom",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "hit her",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What happens when Sophie get mad?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "She kicks and screams",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "She hits her sister",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "She yells at her mom",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "She takes Gorilla back",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What does the author compare Sophie to in the story?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "A volcano",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "A dinosaur",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "A tiger",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "An earthquake",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Where does Sophie run to when she gets really, really angry?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "The old Beech tree",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "The Ocean",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Her room",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Her mom",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "How does being in the tree help Sophie?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "It comforts her",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "It hides her",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "It scares her",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "It doesn't help at all",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "When Sophie feels better she goes back home.",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "True",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "False",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 5
+                }
+            ],
+            "modelId": "170005",
+            "creatorName": "Mrs. Morgan",
+            "avatarId": "81",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "4486392",
+                "udid": "56a5a853122ed9.02599140",
+                "journalName": "Mrs. Morgan",
+                "journalCoverAvatar": "81",
+                "journalCoverColor": "0.94509803921569 0.66274509803922 0.92941176470588 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "93773638",
+                "fid": "",
+                "accountID": "E442B831-8005-810D-8B3E-52E1B4656A01",
+                "simpleAccountId": "1762350",
+                "pagesFlipped": 382,
+                "nufComplete": 1,
+                "readingAge": 6.9,
+                "startingAge": 0,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 83,
+                "xpLevel": 2,
+                "dateLastLogin": 1537904382,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Shannon",
+                "lastName": "Morgan",
+                "accountType": 1,
+                "dateModified": 1538075764,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Morgan"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What was the first thing Sophie's sister did to get her angry?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Grabbed Gorilla",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "grabbed truck",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "tattled to mom",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "hit her",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What happens when Sophie get mad?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "She kicks and screams",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "She hits her sister",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "She yells at her mom",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "She takes Gorilla back",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What does the author compare Sophie to in the story?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "A volcano",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "A dinosaur",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "A tiger",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "An earthquake",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Where does Sophie run to when she gets really, really angry?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "The old Beech tree",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "The Ocean",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Her room",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Her mom",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "How does being in the tree help Sophie?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "It comforts her",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "It hides her",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "It scares her",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "It doesn't help at all",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "When Sophie feels better she goes back home.",
+                "quizQuestionChoices": [
+                    {
+                        "title": "True",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "False",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 5
+            }
+        ]
+    }
+}

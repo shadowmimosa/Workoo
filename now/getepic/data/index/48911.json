@@ -1,0 +1,218 @@
+{
+    "publisherData": {
+        "modelId": "111",
+        "name": "Eerdmans Books for Young Readers an imprint of Eerdmans Publishing",
+        "url": "http://www.eerdmans.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1424487314
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/c43a1c667c0768eed7097693b80626a8.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/272095bfa312e2e4fa80f3a1a0459f96.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/a7b61e6b32db0b43104a668d3580dea2.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/33817cac9e6643444ced5d919591a638.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/9d839497fe09da94806053b5cd376a4f.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/6649fdcdbbadb689328edeaf0ff4dc26.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/73e7cfc5c8f9d40e3085eab0150cb5a9.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/d1e5e04896cb40e2caeea89eab8b4050.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/2ceac0213ce6c64fd010b0ff3c2f6b5e.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/c812e76f0725e4b88a011907909396c7.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/0041a6a4eb3275395e5f412433a344f6.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/4d3d499299448e558aa4d55475c06d98.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/929ed6921454d3a019c213bf04c57cf7.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/ea2fe0efc1ead9d03c4e12a1a744570b.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/20e467f1db907e95965e185fc41f787c.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/e3d4a73ba09f84d56f3a419eedef585b.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/9c2ae3152ccf50f60ba461dec0f3383a.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/50cd9bf1a01e36624d1128848b27b0ee.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/c25794490eaa0d3b6a09fe3c02268380.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/377360bc032a0a357e6164adfe2d0334.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/357afd1cb5ff950a45b44105da6bc72f.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/5f9b64e62db1180ede9618bb7b7fe781.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/d73c69be94b371d8ea929c51db6e1d37.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/831e3666fe0efd5e04c42f431bc17ef3.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/70b19b12e21d860e5372440cee94f170.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/c27baf392a8104b1c4206dc36c86e695.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/3fd14a34c84b2e23e705983125cfd06b.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/344cb9f3d1323ec8260631207a2c11aa.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/45551b1b0b22022a5ef3a89127c59581.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/29c5b9fe199e07a049c3f8642aafa0b2.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/e0716c9371898a51e1055776de458cdd.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/2c5a95a253c887de3f1fa1e00158a9fd.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/203ac2ac56a906d625ae04c84913907e.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/add72617c7f83a24b41374d0924097bb.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/7d1aae5400ea1a02ac7af12cc916f09a.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/c240d9a6b9bb9de4be9ecc7829885053.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/140015785412a35e5b0012a2b37b5341.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/e79c3af9c41dfc99d50d3df2a6aabe1d.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/11d7b87323db694048608d8e7b20fad8.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/4d1c6fa36312f46e33b604ac5a9bb1db.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/d9c5c75288f8e686d375043fa253df17.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/09cf7e7e0341b7d9090830f728cea807.jpg"
+            },
+            {
+                "page": "drm/1/48911/OEBPS/Images/1/7e681fc855f53ba7ec35fbfe8c2b915f.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/48911/OEBPS/Images/1/f54a91cd6ff68ec34a1dc29c76cf368f.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "48911",
+        "id": "48911",
+        "title": "Plume",
+        "author": "Isabelle Simler",
+        "illustrator": " ",
+        "numPages": 43,
+        "bookDescription": "Meet a variety of beautiful birds, from the chicken to the ibis. But lurking in the background is a cat who seems very interested in the bir",
+        "coverColorR": 184,
+        "coverColorG": 181,
+        "coverColorB": 176,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Eerdmans Books for Young Readers an imprint of Eerdmans Publishing",
+        "publisherId": "111",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 716,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Wild Things",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.7079,
+        "contentHash": "6780fe3c9950b5337e4e",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "3",
+        "panelStatus": 0,
+        "date_modified": 1519957680
+    },
+    "userBook": {
+        "modelId": "46250489-48911",
+        "userId": "46250489",
+        "bookId": "48911",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310704,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310704,
+        "book": {
+            "modelId": "48911",
+            "title": "Plume",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "6780fe3c9950b5337e4e"
+        }
+    },
+    "quiz": null
+}

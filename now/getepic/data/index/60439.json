@@ -1,0 +1,185 @@
+{
+    "publisherData": {
+        "modelId": "90352",
+        "name": "Barefoot Books",
+        "url": "https://www.barefootbooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1536344919
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/1f6c95c726d3e6ec8c2f720d42f599be.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/fb3a5b34a2cefe34858cbf207bbb2b4d.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/da571ba705f916dbce6b0eb460439fd0.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/0a1f79ab785e7ddf1d918ebe8bc70ca8.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/1351fa23f206860076305a70a4869ae7.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/3219380216b3b5d3bdab776e3b6266ec.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/38b870d8400c889cb53a226931f28ffb.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/5defc4b38ba81ad70526edab4005646e.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/45d27233539d0905fbfeb637962201b0.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/e924531d5e6576d957b07e795addad13.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/2dc6407ba1f7679e664039dd10301ee8.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/0e3d5ebdbd30471ff4a4e6c72f07d4f7.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/a5c40c5ea58f87a4956b596c2badbb55.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/228d1aeadbcdc3871381defe7e621fa3.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/0a8396cd8dc36979acc0422521789a0b.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/0cd475cbac3c995346386e52ee3df11c.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/0720e7ba8e2ef27755a6363ca6b18f03.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/079d916390b95cf83033665ece36bc25.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/e37a33b40271b5fe1e71ae49f1614283.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/72234caf4e62b381fd8ad74e983dd64f.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/f0a8b7e50baa8c5a8f542adc33c5b5f1.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/84adb12c276ec1813f691c146137331d.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/809508bb93feb6a493e89823165cdcb7.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/8996bbd0ed5cd58dcd9dc6853c0ee81f.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/7dc63e409761e9da2e6d5178dd9ea502.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/c33ce2fe8618e3e0259c020ac6c7ddb4.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/21ee7fb142560c781cd4b05f84953914.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/799edd6e694a8069c5594b61eec4aed5.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/26869c114566c7eba15eae201efabcf7.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/61a3f8e15b8d786b0fb80f6479aae973.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/27129885b6e337c879068399bfc6dafd.jpg"
+            },
+            {
+                "page": "drm/9/60439/OEBPS/Images/1/271c107ab636ae64f49391fe97260c82.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/60439/OEBPS/Images/1/90e93ed07c996cf3d9bab57de733369a.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "60439",
+        "id": "60439",
+        "title": "Dump Truck Disco",
+        "author": "Skye Silver",
+        "illustrator": "Christiane Engel",
+        "numPages": 32,
+        "bookDescription": "Dump Truck Daisy and her construction vehicle crew are on a secret nighttime mission \u2014 build a playground before sunrise!",
+        "coverColorR": 98,
+        "coverColorG": 104,
+        "coverColorB": 99,
+        "version": 1642639735,
+        "previewPercent": 20,
+        "publisher": "Barefoot Books",
+        "publisherId": "90352",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 533,
+        "ar": "-",
+        "fandp": "k",
+        "dra": "-",
+        "gr": "k",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Machines",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 1.0314,
+        "contentHash": "fbc7f971ee831d4b0ec0",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1551233912
+    },
+    "userBook": {
+        "modelId": "46250489-60439",
+        "userId": "46250489",
+        "bookId": "60439",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310322,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310322,
+        "book": {
+            "modelId": "60439",
+            "title": "Dump Truck Disco",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "fbc7f971ee831d4b0ec0"
+        }
+    },
+    "quiz": null
+}

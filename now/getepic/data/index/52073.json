@@ -1,0 +1,153 @@
+{
+    "publisherData": {
+        "modelId": "109",
+        "name": "JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/3/52073/OEBPS/Images/1/432db63305bf656684e4cd8e8d5493e6.jpg",
+                "audio": "drm/3/52073/OEBPS/Audio/1/x432db63305bf656684e4cd8e8d5493e6.mp3"
+            },
+            {
+                "page": "drm/3/52073/OEBPS/Images/1/5aab308371b59c31fb4e163169091606.jpg",
+                "audio": "drm/3/52073/OEBPS/Audio/1/x5aab308371b59c31fb4e163169091606.mp3"
+            },
+            {
+                "page": "drm/3/52073/OEBPS/Images/1/5192ecf62b42496fb28a119b398d5e99.jpg",
+                "audio": "drm/3/52073/OEBPS/Audio/1/x5192ecf62b42496fb28a119b398d5e99.mp3"
+            },
+            {
+                "page": "drm/3/52073/OEBPS/Images/1/b712da02284fb11ee528d77351dc99a3.jpg",
+                "audio": "drm/3/52073/OEBPS/Audio/1/xb712da02284fb11ee528d77351dc99a3.mp3"
+            },
+            {
+                "page": "drm/3/52073/OEBPS/Images/1/457653a3b72b0d3a278d348639475d81.jpg",
+                "audio": "drm/3/52073/OEBPS/Audio/1/x457653a3b72b0d3a278d348639475d81.mp3"
+            },
+            {
+                "page": "drm/3/52073/OEBPS/Images/1/d0ee91b543f202bca748ddf0a897aeac.jpg",
+                "audio": "drm/3/52073/OEBPS/Audio/1/xd0ee91b543f202bca748ddf0a897aeac.mp3"
+            },
+            {
+                "page": "drm/3/52073/OEBPS/Images/1/f76bae65145bc129163ca7d2604866b6.jpg",
+                "audio": "drm/3/52073/OEBPS/Audio/1/xf76bae65145bc129163ca7d2604866b6.mp3"
+            },
+            {
+                "page": "drm/3/52073/OEBPS/Images/1/1cb7b4a8c9a40dd196f8521113804ce9.jpg",
+                "audio": "drm/3/52073/OEBPS/Audio/1/x1cb7b4a8c9a40dd196f8521113804ce9.mp3"
+            },
+            {
+                "page": "drm/3/52073/OEBPS/Images/1/79f41fdf0c832a7458a238f2352544a3.jpg",
+                "audio": "drm/3/52073/OEBPS/Audio/1/x79f41fdf0c832a7458a238f2352544a3.mp3"
+            },
+            {
+                "page": "drm/3/52073/OEBPS/Images/1/78c889d9ae6044b1f67b35b0dc124fe1.jpg",
+                "audio": "drm/3/52073/OEBPS/Audio/1/x78c889d9ae6044b1f67b35b0dc124fe1.mp3"
+            },
+            {
+                "page": "drm/3/52073/OEBPS/Images/1/e2211e6f5cf64330db8c5ee001fc7f91.jpg",
+                "audio": "drm/3/52073/OEBPS/Audio/1/xe2211e6f5cf64330db8c5ee001fc7f91.mp3"
+            },
+            {
+                "page": "drm/3/52073/OEBPS/Images/1/97eb2d8aee3a02baa335c11b2a339256.jpg",
+                "audio": "drm/3/52073/OEBPS/Audio/1/x97eb2d8aee3a02baa335c11b2a339256.mp3"
+            },
+            {
+                "page": "drm/3/52073/OEBPS/Images/1/831bb0a97c49c80336983f533d48d934.jpg",
+                "audio": "drm/3/52073/OEBPS/Audio/1/x831bb0a97c49c80336983f533d48d934.mp3"
+            },
+            {
+                "page": "drm/3/52073/OEBPS/Images/1/4a54dc368cdd28cb6d89ef3af333cd8c.jpg",
+                "audio": "drm/3/52073/OEBPS/Audio/1/x4a54dc368cdd28cb6d89ef3af333cd8c.mp3"
+            },
+            {
+                "page": "drm/3/52073/OEBPS/Images/1/7092f2c69c02632ba843ee7c3d300e16.jpg",
+                "audio": "drm/3/52073/OEBPS/Audio/1/x7092f2c69c02632ba843ee7c3d300e16.mp3"
+            },
+            {
+                "page": "drm/3/52073/OEBPS/Images/1/50dd461c940e83dd3d543e8287751613.jpg",
+                "audio": "drm/3/52073/OEBPS/Audio/1/x50dd461c940e83dd3d543e8287751613.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/3/52073/OEBPS/Images/1/441e7346e34460e55c55dcae74889c6f.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "52073",
+        "id": "52073",
+        "title": "Light and Dark",
+        "author": "Erica Donner",
+        "illustrator": " ",
+        "numPages": 16,
+        "bookDescription": "Light and Dark helps emergent readers understand and differentiate between these opposites",
+        "coverColorR": 121,
+        "coverColorG": 112,
+        "coverColorB": 102,
+        "version": 12309,
+        "previewPercent": 20,
+        "publisher": "JUMP",
+        "publisherId": "109",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "150L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 480,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "84",
+        "subjectDesc": "Physics",
+        "subjectColor": "29E69B",
+        "copyright": "",
+        "aspectRatio": 0.7222,
+        "contentHash": "37fe64093203c6dc5c14",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1558635946
+    },
+    "userBook": {
+        "modelId": "46250489-52073",
+        "userId": "46250489",
+        "bookId": "52073",
+        "currentPageIndex": 16,
+        "farthestPageIndex": 16,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 100,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559094513,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 58,
+        "dateModified": 1559094571,
+        "book": {
+            "modelId": "52073",
+            "title": "Light and Dark",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "37fe64093203c6dc5c14"
+        }
+    },
+    "quiz": null
+}

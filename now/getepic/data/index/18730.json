@@ -1,0 +1,175 @@
+{
+    "publisherData": {
+        "modelId": "107",
+        "name": "Rourke Educational Media",
+        "url": "http://rourkeeducationalmedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570193
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/18730/OEBPS/Images/1/eb33a24653889a53e677e5c7dfaa64bf.jpg",
+                "audio": "drm/0/18730/OEBPS/Audio/1/62a5067a1aebc0d66314d16aa1185e8a.mp3"
+            },
+            {
+                "page": "drm/0/18730/OEBPS/Images/1/1e32752bc11db7ec0c4214cc39feae5c.jpg",
+                "audio": "drm/0/18730/OEBPS/Audio/1/fb038903f621e8344487a695a0d695a0.mp3"
+            },
+            {
+                "page": "drm/0/18730/OEBPS/Images/1/31a36a6b5ddf68d3bb5ce71f9ea1729b.jpg"
+            },
+            {
+                "page": "drm/0/18730/OEBPS/Images/1/db38b7fafb477b7d0f878348c1b8c94c.jpg",
+                "audio": "drm/0/18730/OEBPS/Audio/1/3b6c58334f76ac0617802bf28c868ef1.mp3"
+            },
+            {
+                "page": "drm/0/18730/OEBPS/Images/1/67719854890b29ecdac4ac7df3af770c.jpg"
+            },
+            {
+                "page": "drm/0/18730/OEBPS/Images/1/a1e8b2776d2c2cef28029736d239dbf0.jpg",
+                "audio": "drm/0/18730/OEBPS/Audio/1/ae421c7eae9f2fe15268b72ad77831b3.mp3"
+            },
+            {
+                "page": "drm/0/18730/OEBPS/Images/1/881397b37f4db7190fd03fa7ac6ecc4a.jpg"
+            },
+            {
+                "page": "drm/0/18730/OEBPS/Images/1/a23210adac29bcf89160107650135001.jpg",
+                "audio": "drm/0/18730/OEBPS/Audio/1/b69107137f1e781ed29058f38f5b89f9.mp3"
+            },
+            {
+                "page": "drm/0/18730/OEBPS/Images/1/ee1fb77e877f97917679b52e2298dd1b.jpg"
+            },
+            {
+                "page": "drm/0/18730/OEBPS/Images/1/eec50ec1483a406cb8fac5dccb8a75e7.jpg",
+                "audio": "drm/0/18730/OEBPS/Audio/1/57d5df997bd6aea398787572d7310b6d.mp3"
+            },
+            {
+                "page": "drm/0/18730/OEBPS/Images/1/76c3e513e5c63f4f94c5ad5ac85e217a.jpg"
+            },
+            {
+                "page": "drm/0/18730/OEBPS/Images/1/336ffa6ff0d7cf92e1596c007f89932a.jpg",
+                "audio": "drm/0/18730/OEBPS/Audio/1/0fb0d0e7b65a3dbdc03b312895448a76.mp3"
+            },
+            {
+                "page": "drm/0/18730/OEBPS/Images/1/0b39b25f173b4ef78c34193ca731b9b7.jpg"
+            },
+            {
+                "page": "drm/0/18730/OEBPS/Images/1/dddea2585cb500fea16c3b1f0de3307e.jpg",
+                "audio": "drm/0/18730/OEBPS/Audio/1/2bbbb48551f23da15c228430b1386dae.mp3"
+            },
+            {
+                "page": "drm/0/18730/OEBPS/Images/1/0153bbee9c4d47e9908ce287f0e570ea.jpg"
+            },
+            {
+                "page": "drm/0/18730/OEBPS/Images/1/cf7cd652dd9c569fb558c4a46376d685.jpg",
+                "audio": "drm/0/18730/OEBPS/Audio/1/655a98ffca00e50008b3507fe8846d84.mp3"
+            },
+            {
+                "page": "drm/0/18730/OEBPS/Images/1/4de5747669bb9034585e412b60a35057.jpg"
+            },
+            {
+                "page": "drm/0/18730/OEBPS/Images/1/763bad14aeadf8fb238355e166108e59.jpg",
+                "audio": "drm/0/18730/OEBPS/Audio/1/675365797f9ef93f8698f2fbce6d74d4.mp3"
+            },
+            {
+                "page": "drm/0/18730/OEBPS/Images/1/46a3657bfc6425af49c49b8e5d85806b.jpg"
+            },
+            {
+                "page": "drm/0/18730/OEBPS/Images/1/d8e4358f1221064b2b2f601e45af5743.jpg",
+                "audio": "drm/0/18730/OEBPS/Audio/1/4d20d60a3b06abb98bc5d5d95b4981ae.mp3"
+            },
+            {
+                "page": "drm/0/18730/OEBPS/Images/1/01206e0dbaf18c8de2f58cdff8d90e91.jpg"
+            },
+            {
+                "page": "drm/0/18730/OEBPS/Images/1/5ba808ae4ea119bb507b49a8fdd119ed.jpg"
+            },
+            {
+                "page": "drm/0/18730/OEBPS/Images/1/413101df20831ff300e4ac57f79ea1ef.jpg"
+            },
+            {
+                "page": "drm/0/18730/OEBPS/Images/1/871fee4538302d333e01ea871a60d81b.jpg"
+            },
+            {
+                "page": "drm/0/18730/OEBPS/Images/1/cac8bbc626c15e0924a76ff1f75932e7.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/18730/OEBPS/Images/1/f195a47a4e162102a3ab589b333982cf.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18730",
+        "id": "18730",
+        "title": "Sledding In Summer?",
+        "author": "J. Jean Robertson",
+        "illustrator": " ",
+        "numPages": 25,
+        "bookDescription": "Where can the campers sled in summer? Go south and see!",
+        "coverColorR": 187,
+        "coverColorG": 211,
+        "coverColorB": 193,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Rourke Educational Media",
+        "publisherId": "107",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 416,
+        "ar": "1.5",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Daily Life",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "f29b8a42f8ae23fb5de9",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372873
+    },
+    "userBook": {
+        "modelId": "46250489-18730",
+        "userId": "46250489",
+        "bookId": "18730",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311157,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311157,
+        "book": {
+            "modelId": "18730",
+            "title": "Sledding In Summer?",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "f29b8a42f8ae23fb5de9"
+        }
+    },
+    "quiz": null
+}

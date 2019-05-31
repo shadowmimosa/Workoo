@@ -1,0 +1,385 @@
+{
+    "publisherData": {
+        "modelId": "90327",
+        "name": "ABDO Kids an imprint of ABDO Publishing",
+        "url": "http://abdopublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1527111706
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/59329/OEBPS/Images/1/bbd26ca41564e09cbf24b96aee8c8318.jpg",
+                "audio": "drm/9/59329/OEBPS/Audio/1/page1.mp3"
+            },
+            {
+                "page": "drm/9/59329/OEBPS/Images/1/73ed6f2db3841d1d6755893ca33fd9e7.jpg",
+                "audio": "drm/9/59329/OEBPS/Audio/1/page4-5.mp3"
+            },
+            {
+                "page": "drm/9/59329/OEBPS/Images/1/2e931aaecdbd4f34fb10e0a63f8004ec.jpg"
+            },
+            {
+                "page": "drm/9/59329/OEBPS/Images/1/faea989f487564288f8b77c8cade968f.jpg",
+                "audio": "drm/9/59329/OEBPS/Audio/1/page6-7.mp3"
+            },
+            {
+                "page": "drm/9/59329/OEBPS/Images/1/150c6a910fccea41ddce71bc778e9d09.jpg"
+            },
+            {
+                "page": "drm/9/59329/OEBPS/Images/1/038cb42de3f5b7b0e54c9c93a20b2313.jpg",
+                "audio": "drm/9/59329/OEBPS/Audio/1/page8-9.mp3"
+            },
+            {
+                "page": "drm/9/59329/OEBPS/Images/1/e55fe35e83a1113ffb4b914035211673.jpg"
+            },
+            {
+                "page": "drm/9/59329/OEBPS/Images/1/932ebcac103f857432695ee279363d58.jpg",
+                "audio": "drm/9/59329/OEBPS/Audio/1/page10-11.mp3"
+            },
+            {
+                "page": "drm/9/59329/OEBPS/Images/1/9b611781929648916203a349ebe9e80a.jpg"
+            },
+            {
+                "page": "drm/9/59329/OEBPS/Images/1/eb270ee9bf5efb4a036b6ce89d7f407f.jpg",
+                "audio": "drm/9/59329/OEBPS/Audio/1/page12-13.mp3"
+            },
+            {
+                "page": "drm/9/59329/OEBPS/Images/1/c7ed917209f66ae3103dc0674f5f25b2.jpg"
+            },
+            {
+                "page": "drm/9/59329/OEBPS/Images/1/a6a4fa477315ae2e35a503ef5405812e.jpg",
+                "audio": "drm/9/59329/OEBPS/Audio/1/page14-15.mp3"
+            },
+            {
+                "page": "drm/9/59329/OEBPS/Images/1/4b4a18da878787d23f7b04d2a2ee6e7f.jpg"
+            },
+            {
+                "page": "drm/9/59329/OEBPS/Images/1/ab10d6b08ab6864fc447c4de73e2e21d.jpg",
+                "audio": "drm/9/59329/OEBPS/Audio/1/page16-17.mp3"
+            },
+            {
+                "page": "drm/9/59329/OEBPS/Images/1/776ca33086eba62547916736a56c01a8.jpg"
+            },
+            {
+                "page": "drm/9/59329/OEBPS/Images/1/028d854e7c1b23bbcb84ae8b72d5aa35.jpg",
+                "audio": "drm/9/59329/OEBPS/Audio/1/page18-19.mp3"
+            },
+            {
+                "page": "drm/9/59329/OEBPS/Images/1/161af5dd2bcf8312fcd132fd0a4018ab.jpg"
+            },
+            {
+                "page": "drm/9/59329/OEBPS/Images/1/025b24cea1d77ac339717d2743dfd139.jpg",
+                "audio": "drm/9/59329/OEBPS/Audio/1/page20-21.mp3"
+            },
+            {
+                "page": "drm/9/59329/OEBPS/Images/1/5424154596147a92494e82a7fb003ebb.jpg"
+            },
+            {
+                "page": "drm/9/59329/OEBPS/Images/1/e1b95ad7ffe87a36b65a42f64d9b871e.jpg",
+                "audio": "drm/9/59329/OEBPS/Audio/1/page22-23.mp3"
+            },
+            {
+                "page": "drm/9/59329/OEBPS/Images/1/cea16e1b16914269d25c8a02fbcc068b.jpg"
+            },
+            {
+                "page": "drm/9/59329/OEBPS/Images/1/ab72aa2782ffb51914c5aaa0803f59e3.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/59329/OEBPS/Images/1/5e3ecc914775aa244022bf2ebd6f72ba.jpg",
+            "color": "#fefefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "59329",
+        "id": "59329",
+        "title": "Gypsy Horses",
+        "author": "Grace Hansen",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "This title will focus on the unique history of the Gypsy horse, what it looks like, and what it excels in.",
+        "coverColorR": 123,
+        "coverColorG": 136,
+        "coverColorB": 93,
+        "version": 2147483647,
+        "previewPercent": 20,
+        "publisher": "ABDO Kids an imprint of ABDO Publishing",
+        "publisherId": "90327",
+        "age": 6,
+        "pageNumOffset": 1,
+        "active": 1,
+        "audio": 1,
+        "lexile": "480L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 806,
+        "ar": "2.4",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "k",
+        "language": 1,
+        "rating": 85,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Farm Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.1713,
+        "contentHash": "9ccecad38ce8aefcdb57",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374864
+    },
+    "userBook": {
+        "modelId": "46250489-59329",
+        "userId": "46250489",
+        "bookId": "59329",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559312064,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559312064,
+        "book": {
+            "modelId": "59329",
+            "title": "Gypsy Horses",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "9ccecad38ce8aefcdb57"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "395107",
+            "user_id": "40707699",
+            "book_id": "59329",
+            "title": "Gypsy Horses",
+            "description": "",
+            "date_created": 1556309554,
+            "date_modified": 1556309721,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What are the peace that bred Gypsy horses?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Romani people",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Spanish people",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What did the Romani people do?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Move from place to place",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Stay in the same place",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Do Gypsy horses have feathered legs?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Yes",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "No",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Are gypsy horses easy to train?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Yes",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "No",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "What is the rear part of the animal?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Hindquarters",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Shoulders",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "395107",
+            "creatorName": "Teacher Profile",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "40707699",
+                "udid": "5c796ef34132f3.76569775",
+                "journalName": "Mrs. Cannon",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.93725490196078 0.37647058823529 0.30196078431373 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "671809614",
+                "fid": "",
+                "accountID": "ef319c0b-cac3-4398-a013-9510f3c7ad06",
+                "simpleAccountId": "10687301",
+                "pagesFlipped": 1780,
+                "nufComplete": 1,
+                "readingAge": 6.3666666666667,
+                "startingAge": 7,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 1221,
+                "xpLevel": 11,
+                "dateLastLogin": 1557691222,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Bonny",
+                "lastName": "Cannon",
+                "accountType": 1,
+                "dateModified": 1557691222,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Cannon"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What are the peace that bred Gypsy horses?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Romani people",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Spanish people",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What did the Romani people do?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Move from place to place",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Stay in the same place",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Do Gypsy horses have feathered legs?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Yes",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "No",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Are gypsy horses easy to train?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Yes",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "No",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "What is the rear part of the animal?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Hindquarters",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Shoulders",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

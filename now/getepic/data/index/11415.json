@@ -1,0 +1,407 @@
+{
+    "publisherData": {
+        "modelId": "28",
+        "name": "Xist Publishing",
+        "url": "http://www.xistpublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539564197
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/11415/OEBPS/Images/1/a74d620bf023bff48351ba886fde3e75.jpg",
+                "audio": "drm/5/11415/OEBPS/Audio/1/84d734b30562d8567430f508b8347f2c.mp3"
+            },
+            {
+                "page": "drm/5/11415/OEBPS/Images/1/3efbaf456c57cc0d5f3eef84d3ec8534.jpg",
+                "audio": "drm/5/11415/OEBPS/Audio/1/f9e02e574bd5c2be4384f4de13e7f296.mp3"
+            },
+            {
+                "page": "drm/5/11415/OEBPS/Images/1/71059bd667fc13c74a90ed9c736d1fa2.jpg"
+            },
+            {
+                "page": "drm/5/11415/OEBPS/Images/1/27365a586e5650b478c798736f5154f9.jpg"
+            },
+            {
+                "page": "drm/5/11415/OEBPS/Images/1/5b529ca3d12fb2544c8ef02990f27866.jpg",
+                "audio": "drm/5/11415/OEBPS/Audio/1/39829c2aab9a139f26afe2a55e5ded1e.mp3"
+            },
+            {
+                "page": "drm/5/11415/OEBPS/Images/1/d87acf57ed1c006e14418f0d5fa742d3.jpg"
+            },
+            {
+                "page": "drm/5/11415/OEBPS/Images/1/9c2de9f601a26768d9857430f0fad7f8.jpg",
+                "audio": "drm/5/11415/OEBPS/Audio/1/3e640a69e35fbf4913bb0da54a3f3796.mp3"
+            },
+            {
+                "page": "drm/5/11415/OEBPS/Images/1/270753fa37a866962e6d98ff654afe3d.jpg",
+                "audio": "drm/5/11415/OEBPS/Audio/1/0f19fabd3e6276d8a85eaafda0378f66.mp3"
+            },
+            {
+                "page": "drm/5/11415/OEBPS/Images/1/bdc8acf021fd697fb6a0435abec6ded2.jpg"
+            },
+            {
+                "page": "drm/5/11415/OEBPS/Images/1/765395368e4af301aa3b68fe11c82bec.jpg"
+            },
+            {
+                "page": "drm/5/11415/OEBPS/Images/1/a9246900b3c4fcf1201489c64472f9a4.jpg",
+                "audio": "drm/5/11415/OEBPS/Audio/1/418bc5690925f32d2f55369b5f8eb7d4.mp3"
+            },
+            {
+                "page": "drm/5/11415/OEBPS/Images/1/58c55c96a89484f8d1c97b6d08506a25.jpg",
+                "audio": "drm/5/11415/OEBPS/Audio/1/3e26d1ac9f2020d56ea932a21a42f749.mp3"
+            },
+            {
+                "page": "drm/5/11415/OEBPS/Images/1/3e2507e0ef74b47c2e2e7d137e0ebc35.jpg"
+            },
+            {
+                "page": "drm/5/11415/OEBPS/Images/1/fa5748666d3ce1c773af023decf04a5f.jpg"
+            },
+            {
+                "page": "drm/5/11415/OEBPS/Images/1/66c70825b432820a6ac4cc4bf53db5f7.jpg",
+                "audio": "drm/5/11415/OEBPS/Audio/1/e436e23b0144cc909ba4be9ddb6710ab.mp3"
+            },
+            {
+                "page": "drm/5/11415/OEBPS/Images/1/2347eb994521d86c65377e7534352663.jpg",
+                "audio": "drm/5/11415/OEBPS/Audio/1/4e7d3e902591d17c0abe66b4cccc0623.mp3"
+            },
+            {
+                "page": "drm/5/11415/OEBPS/Images/1/273cf68f37fee076ec0eac4a0075e57b.jpg",
+                "audio": "drm/5/11415/OEBPS/Audio/1/4e7d3e902591d17c0abe66b4cccc0623.mp3"
+            },
+            {
+                "page": "drm/5/11415/OEBPS/Images/1/aead94e6412aa4bdaf6a77ca6e3d64f6.jpg",
+                "audio": "drm/5/11415/OEBPS/Audio/1/ce4134aa7f0a484453281e8e40499dbc.mp3"
+            },
+            {
+                "page": "drm/5/11415/OEBPS/Images/1/7bf2612f9f4787b7b317184cd78cbe88.jpg"
+            },
+            {
+                "page": "drm/5/11415/OEBPS/Images/1/11de82b49b992f61b4c5ae09a53c77c7.jpg",
+                "audio": "drm/5/11415/OEBPS/Audio/1/7e2598a923e78c9150350d36d9d4cf1a.mp3"
+            },
+            {
+                "page": "drm/5/11415/OEBPS/Images/1/09835b1cb6a746a6f98ecab230efed18.jpg"
+            },
+            {
+                "page": "drm/5/11415/OEBPS/Images/1/ac1a3dff5ffb3f8c45652ef09b8f899a.jpg",
+                "audio": "drm/5/11415/OEBPS/Audio/1/7b63f53d0ea261913f5f9be97233c05b.mp3"
+            },
+            {
+                "page": "drm/5/11415/OEBPS/Images/1/931b300224d9d9d4ca03fc790f1b27f4.jpg"
+            },
+            {
+                "page": "drm/5/11415/OEBPS/Images/1/b544911f8e5839b6e516ae4798984d77.jpg"
+            },
+            {
+                "page": "drm/5/11415/OEBPS/Images/1/0880e787070cf0b6b519d4aad25f2d8f.jpg",
+                "audio": "drm/5/11415/OEBPS/Audio/1/e18bd2105238e93ba5e83426a4ab1475.mp3"
+            },
+            {
+                "page": "drm/5/11415/OEBPS/Images/1/62c36f4e40ca619e6a293be9313aaae8.jpg"
+            },
+            {
+                "page": "drm/5/11415/OEBPS/Images/1/ec6f42f4e37fa3ab87413521fbf06460.jpg",
+                "audio": "drm/5/11415/OEBPS/Audio/1/934266887614ef781fa5075eff0453d5.mp3"
+            },
+            {
+                "page": "drm/5/11415/OEBPS/Images/1/a9b74fb7fe1dc913d4b968388dbdd93f.jpg"
+            },
+            {
+                "page": "drm/5/11415/OEBPS/Images/1/7e3ecffa41a3e65e4b960f94d3c35e8b.jpg",
+                "audio": "drm/5/11415/OEBPS/Audio/1/9781623956134-15.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/11415/OEBPS/Images/1/f262884ea690a9bed19c1aadb2f08dce.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "11415",
+        "id": "11415",
+        "title": "There's a Dog on the Dining Room Table",
+        "author": "Elizabeth Maginnis",
+        "illustrator": "Annie Dwyer Internicola",
+        "numPages": 29,
+        "bookDescription": "In this cute rhyming story about an unexpected visitor a little girl wonders why there is a dog on her dining room table.",
+        "coverColorR": 175,
+        "coverColorG": 205,
+        "coverColorB": 207,
+        "version": 1,
+        "previewPercent": 20,
+        "publisher": "Xist Publishing",
+        "publisherId": "28",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 435,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Humorous Stories",
+        "subjectColor": "FFD673",
+        "copyright": "",
+        "aspectRatio": 0.9901,
+        "contentHash": "240adc1189db7bf72925",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1516240526
+    },
+    "userBook": {
+        "modelId": "46250489-11415",
+        "userId": "46250489",
+        "bookId": "11415",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311777,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311777,
+        "book": {
+            "modelId": "11415",
+            "title": "There's a Dog on the Dining Room Table",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "240adc1189db7bf72925"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "400483",
+            "user_id": "12079278",
+            "book_id": "11415",
+            "title": "There's a Dog on the Dining Room Table",
+            "description": "",
+            "date_created": 1556814139,
+            "date_modified": 1556814399,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Where was the dog?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Dining Room Table",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Living Room",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Bathroom",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Doghouse",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What do dogs do on tables?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "play poker",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "sleep",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "dance",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "eat",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Where was the cat?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "On the chandelier",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "in the backyard",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "in the kitchen",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "in the doghouse",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                }
+            ],
+            "modelId": "400483",
+            "creatorName": "Mrs. Price",
+            "avatarId": "79",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "12079278",
+                "udid": "58395fc3dfe4c9.36873858",
+                "journalName": "Mrs. Price",
+                "journalCoverAvatar": "79",
+                "journalCoverColor": "0.15686274509804 0.47058823529412 0.60392156862745 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "323072720",
+                "fid": "",
+                "accountID": "46FF405C-616C-FF35-E3A6-BD53936E259C",
+                "simpleAccountId": "4066652",
+                "pagesFlipped": 862,
+                "nufComplete": 1,
+                "readingAge": 5.5,
+                "startingAge": 5,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 11,
+                "xpLevel": 10,
+                "dateLastLogin": 1556813610,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Stephanie",
+                "lastName": "Price",
+                "accountType": 1,
+                "dateModified": 1559240970,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Price"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Where was the dog?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Dining Room Table",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Living Room",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Bathroom",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Doghouse",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What do dogs do on tables?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "play poker",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "sleep",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "dance",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "eat",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Where was the cat?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "On the chandelier",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "in the backyard",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "in the kitchen",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "in the doghouse",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            }
+        ]
+    }
+}

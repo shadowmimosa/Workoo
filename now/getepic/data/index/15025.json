@@ -1,0 +1,432 @@
+{
+    "publisherData": {
+        "modelId": "31",
+        "name": "Bellwether Media",
+        "url": "http://www.bellwethermedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539569528
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/15025/OEBPS/Images/1/7e602c1d7d5d1b8e2300b6c21339f1c9.jpg"
+            },
+            {
+                "page": "drm/5/15025/OEBPS/Images/1/a32c9608e431feeedda9decc0fb18374.jpg",
+                "audio": "drm/5/15025/OEBPS/Audio/1/aud4.mp3"
+            },
+            {
+                "page": "drm/5/15025/OEBPS/Images/1/50e56626c331978ceb404278c16b939d.jpg"
+            },
+            {
+                "page": "drm/5/15025/OEBPS/Images/1/e9c6a266f5e32d3eb0dc2cee97005e10.jpg",
+                "audio": "drm/5/15025/OEBPS/Audio/1/aud6.mp3"
+            },
+            {
+                "page": "drm/5/15025/OEBPS/Images/1/05c5fb8a242078322d835facde2a5e68.jpg"
+            },
+            {
+                "page": "drm/5/15025/OEBPS/Images/1/519445613a4f8408352baeaa9a79a3a6.jpg",
+                "audio": "drm/5/15025/OEBPS/Audio/1/aud8.mp3"
+            },
+            {
+                "page": "drm/5/15025/OEBPS/Images/1/a253bbdab179f0acfbb8ac345d50e3f5.jpg"
+            },
+            {
+                "page": "drm/5/15025/OEBPS/Images/1/0df2df68ee75cb26c94b65c0bd0a4a55.jpg",
+                "audio": "drm/5/15025/OEBPS/Audio/1/aud10.mp3"
+            },
+            {
+                "page": "drm/5/15025/OEBPS/Images/1/74e1aa33bfb348f9d5c9f06dc85df3b4.jpg"
+            },
+            {
+                "page": "drm/5/15025/OEBPS/Images/1/54e97804b3a1b39d33d880804cd43c6d.jpg",
+                "audio": "drm/5/15025/OEBPS/Audio/1/aud12.mp3"
+            },
+            {
+                "page": "drm/5/15025/OEBPS/Images/1/8ffa877e816a8f8ceed41ecc86e03019.jpg"
+            },
+            {
+                "page": "drm/5/15025/OEBPS/Images/1/f3433c0a8cb614bf38417a119d1840b8.jpg",
+                "audio": "drm/5/15025/OEBPS/Audio/1/aud14.mp3"
+            },
+            {
+                "page": "drm/5/15025/OEBPS/Images/1/0fb056fb5bbd1f189a737fdccc5ba6ef.jpg"
+            },
+            {
+                "page": "drm/5/15025/OEBPS/Images/1/d2d23cb76d41bafddcf5d7949e01c2bc.jpg",
+                "audio": "drm/5/15025/OEBPS/Audio/1/aud16.mp3"
+            },
+            {
+                "page": "drm/5/15025/OEBPS/Images/1/05010eb8084fd07d1b356ab31e1b152d.jpg"
+            },
+            {
+                "page": "drm/5/15025/OEBPS/Images/1/e560de428c04e814e1592c0d18fbbd38.jpg",
+                "audio": "drm/5/15025/OEBPS/Audio/1/aud18.mp3"
+            },
+            {
+                "page": "drm/5/15025/OEBPS/Images/1/53d0bb897aabf45db489731d3871c16b.jpg"
+            },
+            {
+                "page": "drm/5/15025/OEBPS/Images/1/8b6b84ccdcf8750626f0c8dbecbaa79e.jpg",
+                "audio": "drm/5/15025/OEBPS/Audio/1/aud20.mp3"
+            },
+            {
+                "page": "drm/5/15025/OEBPS/Images/1/9466fb2e73233ffe1ab4141c1f1282ce.jpg"
+            },
+            {
+                "page": "drm/5/15025/OEBPS/Images/1/933901d82ab2475671ac45a1ec378961.jpg",
+                "audio": "drm/5/15025/OEBPS/Audio/1/aud22.mp3"
+            },
+            {
+                "page": "drm/5/15025/OEBPS/Images/1/e93ea097579fe802cf110f8ebe173344.jpg"
+            },
+            {
+                "page": "drm/5/15025/OEBPS/Images/1/e09a4ecf47436b5a78bc29617bcd251d.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/15025/OEBPS/Images/1/f1c25cfeaf7b2fec866a8c17d1a70db4.jpg",
+            "color": "#1864c2"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "15025",
+        "id": "15025",
+        "title": "Super Cute! Baby Pandas",
+        "author": "Bethany Olson",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Panda cubs bond with their mother and try to be just like her.",
+        "coverColorR": 176,
+        "coverColorG": 151,
+        "coverColorB": 82,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Bellwether Media",
+        "publisherId": "31",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "390L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 806,
+        "ar": "1.2",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 85,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Forest Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.7233,
+        "contentHash": "fa67c09e43ec57bd64de",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1556655445
+    },
+    "userBook": {
+        "modelId": "46250489-15025",
+        "userId": "46250489",
+        "bookId": "15025",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559303655,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559303655,
+        "book": {
+            "modelId": "15025",
+            "title": "Super Cute! Baby Pandas",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "fa67c09e43ec57bd64de"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "152668",
+            "user_id": "6297693",
+            "book_id": "15025",
+            "title": "Baby Pandas",
+            "description": "",
+            "date_created": 1512673925,
+            "date_modified": 1520363410,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What is a baby panda called?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "A cub",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "A kid",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "A bear",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "The mom grooms the cub by ",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "licking it ",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "brushing it",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "giving it a bath ",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "A baby panda sounds like a ",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "lamb",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "deer",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "polar bear",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "When pandas grow up what do they eat?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "bamboo",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "bugs",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "fruit",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Where does the baby panda nap?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "in the trees",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "on the ground",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "in a cave ",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "152668",
+            "creatorName": "Guest",
+            "avatarId": "15",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "6297693",
+                "udid": "56e73bc775fad0.72132078",
+                "journalName": "Guest",
+                "journalCoverAvatar": "15",
+                "journalCoverColor": "1 0.67843137254902 0.26274509803922 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "576910799",
+                "fid": "",
+                "accountID": "689D1CDC-6AD9-04CC-88FD-645D23E5D808",
+                "simpleAccountId": "2385053",
+                "pagesFlipped": 13445,
+                "nufComplete": 1,
+                "readingAge": 6.86667,
+                "startingAge": 6,
+                "status": 0,
+                "isParent": 0,
+                "isDefault": 1,
+                "nufStep": 0,
+                "xp": 909,
+                "xpLevel": 13,
+                "dateLastLogin": 1551291239,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "",
+                "lastName": "",
+                "accountType": 1,
+                "dateModified": 1559237114
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What is a baby panda called?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "A cub",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "A kid",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "A bear",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "The mom grooms the cub by ",
+                "quizQuestionChoices": [
+                    {
+                        "title": "licking it ",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "brushing it",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "giving it a bath ",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "A baby panda sounds like a ",
+                "quizQuestionChoices": [
+                    {
+                        "title": "lamb",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "deer",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "polar bear",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "When pandas grow up what do they eat?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "bamboo",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "bugs",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "fruit",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Where does the baby panda nap?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "in the trees",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "on the ground",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "in a cave ",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

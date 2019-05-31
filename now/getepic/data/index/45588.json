@@ -1,0 +1,185 @@
+{
+    "publisherData": {
+        "modelId": "66",
+        "name": "Cinco Puntos Press",
+        "url": "http://www.cincopuntos.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1509999794
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/e891c15cc74981b18d649808a97394ca.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/da14f5c686cb2aeeed328f0b94c73e21.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/0f188a05f4c8652166f3d240272c364f.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/3c05e3a4f9ca505e0e937fd42862e6f3.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/6cce0864d180526dc4fc399d26e0ff79.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/9db83f59be65289c046c3d668b2ea479.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/610d5283880637a8b3b3d35e8a527ccf.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/d518cf153a8089ccd7741b2e90b9ea26.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/73bfae8079f70606dbd9d37c9643d3d1.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/15f432840e2557e58f8d1b2e5f5b6eff.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/665788958cca1483cebe20cf81821fec.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/57b114b73eff90d9797d620e7715c145.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/6b19c287667b834b1069a121fb31efd4.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/aaa799e6ed4545e7837a72c2587d5c11.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/68ec42e52b0b1f61a1db05ce4fd0b9b3.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/4e0e8d112337632e71a65231462a81ad.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/4cae0acd606e7bb5416db362c0c4c64c.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/465f0c71faf43eeaf6121f590abb5fd4.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/685c799028b25f78d3aa5fcbeb83d068.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/0fd7312caa0c571ef8d124c8df16cb1d.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/a96fff1c8e1c2b791fcba406905343cb.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/64daf2c3100747c898c9aee36dee2bfe.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/f2473f642f4c372dc92aa4f9a202037d.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/a9bd3d5e7ebe928d4abd049a35834322.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/60e0b6c882987475cb6d2997d5c7c288.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/67f0c9e37f2690aa711cd52907b3b95c.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/1af305cc71597d8174ef1e377c7de0b0.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/592bad37afb4bc6f01eeabd6d2c5ab93.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/f626dddecfeab9eaca74159d97545c20.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/28d8edd5888f09e4ccf2d4ddb8f130bb.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/96ce1dc76f23a0c2e645115c34da75b9.jpg"
+            },
+            {
+                "page": "drm/8/45588/OEBPS/Images/1/7dc4c4f815fa0affeb599c70c781e618.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/45588/OEBPS/Images/1/3a7030b0591d03f43afff0bbcfe688e6.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "45588",
+        "id": "45588",
+        "title": "The Gum-Chewing Rattler",
+        "author": "Joe Hayes",
+        "illustrator": "Antonio Castro L.",
+        "numPages": 32,
+        "bookDescription": "Do rattlesnakes chew bubble gum? Of course rattlesnakes chew bubble gum. Joe Hayes says they blow bubbles too!",
+        "coverColorR": 153,
+        "coverColorG": 155,
+        "coverColorB": 156,
+        "version": 2147483647,
+        "previewPercent": 20,
+        "publisher": "Cinco Puntos Press",
+        "publisherId": "66",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 533,
+        "ar": "3.7",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Wild Things",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.7727,
+        "contentHash": "259eae1a9339baec24e6",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373957
+    },
+    "userBook": {
+        "modelId": "46250489-45588",
+        "userId": "46250489",
+        "bookId": "45588",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310144,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310144,
+        "book": {
+            "modelId": "45588",
+            "title": "The Gum-Chewing Rattler",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "259eae1a9339baec24e6"
+        }
+    },
+    "quiz": null
+}

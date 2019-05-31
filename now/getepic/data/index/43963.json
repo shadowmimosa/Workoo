@@ -1,0 +1,176 @@
+{
+    "publisherData": {
+        "modelId": "44",
+        "name": "National Geographic",
+        "url": "http://kids.nationalgeographic.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491261258
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/3/43963/OEBPS/Images/1/B90D7659-7D12-4A2B-B057-A9B8E25D5D09.jpg",
+                "audio": "drm/3/43963/OEBPS/Audio/1/9781426317422-01.mp3"
+            },
+            {
+                "page": "drm/3/43963/OEBPS/Images/1/1A8D512D-27F0-4D73-9D02-F3CC22AD9AC8.jpg",
+                "audio": "drm/3/43963/OEBPS/Audio/1/9781426317422-02.mp3"
+            },
+            {
+                "page": "drm/3/43963/OEBPS/Images/1/7A1E2982-4712-4AEF-B035-FD5AE3E39AE4.jpg",
+                "audio": "drm/3/43963/OEBPS/Audio/1/9781426317422-03.mp3"
+            },
+            {
+                "page": "drm/3/43963/OEBPS/Images/1/05442930-6848-41AC-A71C-80EE94373B5C.jpg",
+                "audio": "drm/3/43963/OEBPS/Audio/1/9781426317422-04.mp3"
+            },
+            {
+                "page": "drm/3/43963/OEBPS/Images/1/ED565B25-69F0-4CEF-B485-1D2400A8CBB7.jpg"
+            },
+            {
+                "page": "drm/3/43963/OEBPS/Images/1/914F302C-C9F3-4F5C-8344-887F193DAFEB.jpg",
+                "audio": "drm/3/43963/OEBPS/Audio/1/9781426317422-05.mp3"
+            },
+            {
+                "page": "drm/3/43963/OEBPS/Images/1/719B43B2-76BB-42A1-B5CD-A12C8E3A65F9.jpg"
+            },
+            {
+                "page": "drm/3/43963/OEBPS/Images/1/263469EA-D62D-45CA-B8C8-5B93D773A217.jpg",
+                "audio": "drm/3/43963/OEBPS/Audio/1/9781426317422-06.mp3"
+            },
+            {
+                "page": "drm/3/43963/OEBPS/Images/1/B2F04AE4-CA52-4104-A0F4-967CD91EFAC4.jpg",
+                "audio": "drm/3/43963/OEBPS/Audio/1/9781426317422-07.mp3"
+            },
+            {
+                "page": "drm/3/43963/OEBPS/Images/1/8553FD90-6BB4-4F33-A173-52139DA4E830.jpg",
+                "audio": "drm/3/43963/OEBPS/Audio/1/9781426317422-08.mp3"
+            },
+            {
+                "page": "drm/3/43963/OEBPS/Images/1/C625C3B0-5263-4A7E-A82E-9F7F340015BB.jpg",
+                "audio": "drm/3/43963/OEBPS/Audio/1/9781426317422-09.mp3"
+            },
+            {
+                "page": "drm/3/43963/OEBPS/Images/1/CB866DEA-DB26-451D-A20C-F1F44B364B43.jpg",
+                "audio": "drm/3/43963/OEBPS/Audio/1/9781426317422-10.mp3"
+            },
+            {
+                "page": "drm/3/43963/OEBPS/Images/1/F0E88B9E-787C-4CF6-B70C-31641990C48B.jpg"
+            },
+            {
+                "page": "drm/3/43963/OEBPS/Images/1/1D375904-13F1-49B0-BF5E-6D9F7F96CA5F.jpg",
+                "audio": "drm/3/43963/OEBPS/Audio/1/9781426317422-11.mp3"
+            },
+            {
+                "page": "drm/3/43963/OEBPS/Images/1/F8462706-D329-468A-A31A-509AB6AB1A33.jpg"
+            },
+            {
+                "page": "drm/3/43963/OEBPS/Images/1/39FFAD6A-A112-4172-9553-C7B480082635.jpg",
+                "audio": "drm/3/43963/OEBPS/Audio/1/9781426317422-12.mp3"
+            },
+            {
+                "page": "drm/3/43963/OEBPS/Images/1/1049E275-F178-4F8D-8A91-5B1D0F1A1B55.jpg",
+                "audio": "drm/3/43963/OEBPS/Audio/1/9781426317422-13.mp3"
+            },
+            {
+                "page": "drm/3/43963/OEBPS/Images/1/11C4F32A-5E01-43CD-8D84-4B505D3673C2.jpg",
+                "audio": "drm/3/43963/OEBPS/Audio/1/9781426317422-14.mp3"
+            },
+            {
+                "page": "drm/3/43963/OEBPS/Images/1/0D01F02F-76A2-4EF7-90D1-F82F46A935FA.jpg",
+                "audio": "drm/3/43963/OEBPS/Audio/1/9781426317422-15.mp3"
+            },
+            {
+                "page": "drm/3/43963/OEBPS/Images/1/7F03244D-8D5E-4C17-B593-A8AE8D820C4B.jpg",
+                "audio": "drm/3/43963/OEBPS/Audio/1/9781426317422-16.mp3"
+            },
+            {
+                "page": "drm/3/43963/OEBPS/Images/1/47E49E13-9E60-46FE-BD92-C7E31ACE68F6.jpg"
+            },
+            {
+                "page": "drm/3/43963/OEBPS/Images/1/A63866DC-7952-42C4-AB36-F99CD9697320.jpg",
+                "audio": "drm/3/43963/OEBPS/Audio/1/9781426317422-17.mp3"
+            },
+            {
+                "page": "drm/3/43963/OEBPS/Images/1/E970050B-EA57-4207-8B35-32AECEF52011.jpg",
+                "audio": "drm/3/43963/OEBPS/Audio/1/9781426317422-18.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/3/43963/OEBPS/Images/1/060294A6-0FB5-4CD1-8678-83AFA07A6133.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "43963",
+        "id": "43963",
+        "title": "National Geographic Readers: Hop Bunny",
+        "author": "Susan B. Neuman",
+        "illustrator": " ",
+        "numPages": 23,
+        "bookDescription": "Simple vocabulary and cute pictures of bunnies entice beginning readers.",
+        "coverColorR": 194,
+        "coverColorG": 194,
+        "coverColorB": 134,
+        "version": 12309,
+        "previewPercent": 10,
+        "publisher": "National Geographic",
+        "publisherId": "44",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "310L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 575,
+        "ar": "0.9",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "f",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Wild Things",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.6667,
+        "contentHash": "cd0c5754398edd43a350",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373897
+    },
+    "userBook": {
+        "modelId": "46250489-43963",
+        "userId": "46250489",
+        "bookId": "43963",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310355,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310355,
+        "book": {
+            "modelId": "43963",
+            "title": "National Geographic Readers: Hop Bunny",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "cd0c5754398edd43a350"
+        }
+    },
+    "quiz": null
+}

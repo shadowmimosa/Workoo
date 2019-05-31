@@ -1,0 +1,155 @@
+{
+    "publisherData": {
+        "modelId": "90232",
+        "name": "The Creative Company",
+        "url": "http://www.thecreativecompany.us/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260095
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/39457/OEBPS/Images/1/71A0D9DD-ABE4-4EED-8EA3-F461520330A5.jpg"
+            },
+            {
+                "page": "drm/7/39457/OEBPS/Images/1/C6570021-6ECF-45B7-A495-ED863B5C1067.jpg"
+            },
+            {
+                "page": "drm/7/39457/OEBPS/Images/1/DFD96DFD-0BFB-4DC1-9B87-997311C95CE8.jpg"
+            },
+            {
+                "page": "drm/7/39457/OEBPS/Images/1/3D3E2027-AB3A-4D96-8940-32EFD9C6AB80.jpg"
+            },
+            {
+                "page": "drm/7/39457/OEBPS/Images/1/F9F6E05D-E6A4-4B0F-8FD6-C1BE99F1A017.jpg"
+            },
+            {
+                "page": "drm/7/39457/OEBPS/Images/1/E0E65B97-D06A-4490-862D-4487CAFB3E0F.jpg"
+            },
+            {
+                "page": "drm/7/39457/OEBPS/Images/1/F2137386-9A20-4F02-9298-D28B0E42D4E9.jpg"
+            },
+            {
+                "page": "drm/7/39457/OEBPS/Images/1/7850420A-D476-4485-A148-74D3021095C8.jpg"
+            },
+            {
+                "page": "drm/7/39457/OEBPS/Images/1/2C1C4E46-D6BC-44AB-BDF2-F504DE8F2825.jpg"
+            },
+            {
+                "page": "drm/7/39457/OEBPS/Images/1/B4007ADC-270A-4D38-AD9D-EFDBF2EE0CD0.jpg"
+            },
+            {
+                "page": "drm/7/39457/OEBPS/Images/1/76D06024-8A14-46C9-89A4-0543DDE03B78.jpg"
+            },
+            {
+                "page": "drm/7/39457/OEBPS/Images/1/0DB5DFFA-A7AB-45DE-9B15-D3EF32599140.jpg"
+            },
+            {
+                "page": "drm/7/39457/OEBPS/Images/1/C578D87D-9F03-4A4B-907E-A34F123ECDB5.jpg"
+            },
+            {
+                "page": "drm/7/39457/OEBPS/Images/1/3B220ED4-955B-411B-9666-67D480D9EB18.jpg"
+            },
+            {
+                "page": "drm/7/39457/OEBPS/Images/1/DDC97A09-4127-4DCF-8C27-480B549D66D6.jpg"
+            },
+            {
+                "page": "drm/7/39457/OEBPS/Images/1/9F1CFD82-0BBC-48A2-9573-CC00B48537D0.jpg"
+            },
+            {
+                "page": "drm/7/39457/OEBPS/Images/1/4779A6C6-7961-4414-AC86-302F10108ABC.jpg"
+            },
+            {
+                "page": "drm/7/39457/OEBPS/Images/1/48F3A7E5-3414-4604-89C0-0408CAA456C9.jpg"
+            },
+            {
+                "page": "drm/7/39457/OEBPS/Images/1/969A99AB-2477-4995-9045-E46F1C0BA43A.jpg"
+            },
+            {
+                "page": "drm/7/39457/OEBPS/Images/1/575A5AEE-6478-4154-BEC8-597A9493E74D.jpg"
+            },
+            {
+                "page": "drm/7/39457/OEBPS/Images/1/59FAB4F7-48F4-49B1-A037-0E699C55FC95.jpg"
+            },
+            {
+                "page": "drm/7/39457/OEBPS/Images/1/178EEE46-3E93-4268-82C2-66240366EAD6.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/39457/OEBPS/Images/1/507EF9E8-DB85-4442-891F-B97ADA8BDADB.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "39457",
+        "id": "39457",
+        "title": "Pigs",
+        "author": "Quinn A. Arnold",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "A kindergarten-level introduction to pigs.",
+        "coverColorR": 186,
+        "coverColorG": 160,
+        "coverColorB": 153,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "The Creative Company",
+        "publisherId": "90232",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "360L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 366,
+        "ar": "1.2",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Farm Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.9574,
+        "contentHash": "8b067d56ef6d5282d130",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1555373694
+    },
+    "userBook": {
+        "modelId": "46250489-39457",
+        "userId": "46250489",
+        "bookId": "39457",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559312170,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559312170,
+        "book": {
+            "modelId": "39457",
+            "title": "Pigs",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "8b067d56ef6d5282d130"
+        }
+    },
+    "quiz": null
+}

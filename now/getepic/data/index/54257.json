@@ -1,0 +1,134 @@
+{
+    "publisherData": {
+        "modelId": "90343",
+        "name": "Cherry Blossom Press an imprint of Cherry Lake Publishing",
+        "url": "https://cherrylakepublishing.com/publishers/3-cherry-blossom-press",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1531859052
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/54257/OEBPS/Images/1/71651292a914e67d9b60a18c7a56144b.jpg"
+            },
+            {
+                "page": "drm/7/54257/OEBPS/Images/1/4121e73d2f1b9cfa6483d32a8655a67d.jpg"
+            },
+            {
+                "page": "drm/7/54257/OEBPS/Images/1/708808fcbf5e3392973b5df9b54695c0.jpg"
+            },
+            {
+                "page": "drm/7/54257/OEBPS/Images/1/efc7f0a6d7f97fdcdf75a8b9a6012389.jpg"
+            },
+            {
+                "page": "drm/7/54257/OEBPS/Images/1/c920ecfadf5c3fb9c2747b5d99670717.jpg"
+            },
+            {
+                "page": "drm/7/54257/OEBPS/Images/1/851ad6ac962c71c6ca3d3005c43b0841.jpg"
+            },
+            {
+                "page": "drm/7/54257/OEBPS/Images/1/17e1a2a0adb8bad1935ec1da2f9a8636.jpg"
+            },
+            {
+                "page": "drm/7/54257/OEBPS/Images/1/6294d1bba606a9f2dbb32bbf1501f519.jpg"
+            },
+            {
+                "page": "drm/7/54257/OEBPS/Images/1/2f8adeace26a162c97f581b3fdc4406c.jpg"
+            },
+            {
+                "page": "drm/7/54257/OEBPS/Images/1/165d1f165f1526545bbbcebe58a22d93.jpg"
+            },
+            {
+                "page": "drm/7/54257/OEBPS/Images/1/2883d3d767df0278333b6f0529d1ed42.jpg"
+            },
+            {
+                "page": "drm/7/54257/OEBPS/Images/1/7cf85eb0dab14dfab187d79cd73e5dac.jpg"
+            },
+            {
+                "page": "drm/7/54257/OEBPS/Images/1/ec27f216c8d95c848b6509eab3838594.jpg"
+            },
+            {
+                "page": "drm/7/54257/OEBPS/Images/1/54656f1a89d585ea4486fb1624a6a1f3.jpg"
+            },
+            {
+                "page": "drm/7/54257/OEBPS/Images/1/9c00621f520c62a299ca843082b5fa77.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/54257/OEBPS/Images/1/eb66ce74adff13cdb174fce49c2e1e2f.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "54257",
+        "id": "54257",
+        "title": "Buzz Plays Soccer",
+        "author": "Cecilia Minden",
+        "illustrator": " ",
+        "numPages": 15,
+        "bookDescription": "This title series uses curriculum based fiction to get children comfortable with reading--and excited about playing soccer.",
+        "coverColorR": 188,
+        "coverColorG": 208,
+        "coverColorB": 207,
+        "version": 858927445,
+        "previewPercent": 20,
+        "publisher": "Cherry Blossom Press an imprint of Cherry Lake Publishing",
+        "publisherId": "90343",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "150L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 275,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.8889,
+        "contentHash": "479906cef4711952023c",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1557340420
+    },
+    "userBook": {
+        "modelId": "46250489-54257",
+        "userId": "46250489",
+        "bookId": "54257",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310961,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310961,
+        "book": {
+            "modelId": "54257",
+            "title": "Buzz Plays Soccer",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "479906cef4711952023c"
+        }
+    },
+    "quiz": null
+}

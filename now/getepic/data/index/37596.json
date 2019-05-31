@@ -1,0 +1,400 @@
+{
+    "publisherData": {
+        "modelId": "2",
+        "name": "Twin Sisters IP, LLC.",
+        "url": "http://www.twinsisters.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1547683900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/6/37596/OEBPS/Images/1/E6F2BC85-1083-40C2-9A2D-76D462A1AD72.jpg",
+                "audio": "drm/6/37596/OEBPS/Audio/1/untitled.mp3"
+            },
+            {
+                "page": "drm/6/37596/OEBPS/Images/1/8DA91677-0CDD-4E9A-8313-4654A44AA8E0.jpg",
+                "audio": "drm/6/37596/OEBPS/Audio/1/untitled-2.mp3"
+            },
+            {
+                "page": "drm/6/37596/OEBPS/Images/1/7EA82CCF-6A45-41FA-A745-3A6ABA4F6C15.jpg"
+            },
+            {
+                "page": "drm/6/37596/OEBPS/Images/1/C0A12BF4-24C5-409B-B860-97AC02C071E4.jpg",
+                "audio": "drm/6/37596/OEBPS/Audio/1/untitled-3.mp3"
+            },
+            {
+                "page": "drm/6/37596/OEBPS/Images/1/90B79FFC-E0E7-4873-8353-4E076D904F1B.jpg"
+            },
+            {
+                "page": "drm/6/37596/OEBPS/Images/1/377C00CB-B1A0-4AAC-8AFC-9408E2633153.jpg",
+                "audio": "drm/6/37596/OEBPS/Audio/1/untitled-4.mp3"
+            },
+            {
+                "page": "drm/6/37596/OEBPS/Images/1/5DB81644-0E93-4D75-A1DE-2B1A2577BA18.jpg"
+            },
+            {
+                "page": "drm/6/37596/OEBPS/Images/1/4EDE0841-3BCE-43C6-A4EF-67372B3E1FFD.jpg",
+                "audio": "drm/6/37596/OEBPS/Audio/1/untitled-5.mp3"
+            },
+            {
+                "page": "drm/6/37596/OEBPS/Images/1/2BB1291D-4144-4147-8B89-963DEF9FCCDD.jpg"
+            },
+            {
+                "page": "drm/6/37596/OEBPS/Images/1/02406246-722A-4235-91BA-6F2A822DB36F.jpg",
+                "audio": "drm/6/37596/OEBPS/Audio/1/untitled-6.mp3"
+            },
+            {
+                "page": "drm/6/37596/OEBPS/Images/1/71913882-F0A0-495C-81A6-8FDDF3CF33FF.jpg"
+            },
+            {
+                "page": "drm/6/37596/OEBPS/Images/1/3A2EE3B4-16D2-44E6-9600-8C95105FA5D5.jpg",
+                "audio": "drm/6/37596/OEBPS/Audio/1/untitled-7.mp3"
+            },
+            {
+                "page": "drm/6/37596/OEBPS/Images/1/78106779-46C8-4294-853B-1533D0DD50FF.jpg"
+            },
+            {
+                "page": "drm/6/37596/OEBPS/Images/1/09B045F1-7F99-474B-8680-59C47E0B6AC0.jpg",
+                "audio": "drm/6/37596/OEBPS/Audio/1/untitled-8.mp3"
+            },
+            {
+                "page": "drm/6/37596/OEBPS/Images/1/F73B7025-81E2-420E-A6E8-359D66980704.jpg"
+            },
+            {
+                "page": "drm/6/37596/OEBPS/Images/1/600A05EA-2C00-4D65-A625-5F5939999C9A.jpg",
+                "audio": "drm/6/37596/OEBPS/Audio/1/untitled-9.mp3"
+            },
+            {
+                "page": "drm/6/37596/OEBPS/Images/1/19CCAF69-36D3-4523-A63C-368B9E665DDF.jpg"
+            },
+            {
+                "page": "drm/6/37596/OEBPS/Images/1/102AF1B2-E08B-4736-B372-84B8CF55E749.jpg",
+                "audio": "drm/6/37596/OEBPS/Audio/1/untitled-10.mp3"
+            },
+            {
+                "page": "drm/6/37596/OEBPS/Images/1/8BA0F0E6-2A50-4547-9E3F-EFEEEEFBFA3A.jpg"
+            },
+            {
+                "page": "drm/6/37596/OEBPS/Images/1/21BDFD34-4DAB-4842-B246-73219B856C5F.jpg",
+                "audio": "drm/6/37596/OEBPS/Audio/1/untitled-11.mp3"
+            },
+            {
+                "page": "drm/6/37596/OEBPS/Images/1/E923E8AE-A545-4785-ADF3-CB2D4F308A90.jpg"
+            },
+            {
+                "page": "drm/6/37596/OEBPS/Images/1/BC485BFF-211C-42BF-8657-737A88C4E17D.jpg",
+                "audio": "drm/6/37596/OEBPS/Audio/1/untitled-12.mp3"
+            },
+            {
+                "page": "drm/6/37596/OEBPS/Images/1/9A7AC968-B207-4209-B0E6-AB353D69D644.jpg"
+            },
+            {
+                "page": "drm/6/37596/OEBPS/Images/1/0951B30D-0662-4BFB-90B2-C3DBB8CBA47D.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/6/37596/OEBPS/Images/1/3B74ECFD-53DC-4406-8760-E51BE03C769A.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "37596",
+        "id": "37596",
+        "title": "The Littlest Mermaid",
+        "author": "John T. Stapleton",
+        "illustrator": "Ruth J. Flanigan",
+        "numPages": 24,
+        "bookDescription": "One day a little mermaid hatched out of her shell and was different. This littlest mermaid was purple.",
+        "coverColorR": 140,
+        "coverColorG": 166,
+        "coverColorB": 148,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Twin Sisters IP, LLC.",
+        "publisherId": "2",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 440,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "91",
+        "subjectDesc": "Fairy Tales, Folk Tales & Myths",
+        "subjectColor": "F54444",
+        "copyright": "",
+        "aspectRatio": 0.7752,
+        "contentHash": "e113e95618ba81137cbd",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373569
+    },
+    "userBook": {
+        "modelId": "46250489-37596",
+        "userId": "46250489",
+        "bookId": "37596",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559307272,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559307272,
+        "book": {
+            "modelId": "37596",
+            "title": "The Littlest Mermaid",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "e113e95618ba81137cbd"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "125097",
+            "user_id": "17038362",
+            "book_id": "37596",
+            "title": "Drawing Conclusions",
+            "description": "",
+            "date_created": 1506805930,
+            "date_modified": 1516129525,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What conclusion can you make about the purple mermaid?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "She is happy even though she is different",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "She is angry because she is different",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "She is sad because she is different",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "How do you know the purple mermaid is happy?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "She plays with the fish and other animals",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "She cries everyday",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "She fights the other mermaids",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What conclusion can you make about the other mermaids at the END of the story?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "They like everyone no matter what they look like",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "They only like mermaids that are pink",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "They only like mermaids that are orange",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "How do you know the mermaids like everyone?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "They celebrate every mermaid that is born",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "They only play with mermaids that are pink",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "They cheer the loudest for orange mermaids",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 3
+                }
+            ],
+            "modelId": "125097",
+            "creatorName": "Miss Currigan",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "17038362",
+                "udid": "59a42ae1616e38.89661454",
+                "journalName": "Miss Currigan",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.70588235294118 0.94509803921569 0.39607843137255 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "915476563",
+                "fid": "",
+                "accountID": "59BC9C0D-D3D9-F2C4-2B70-DE069024CFDD",
+                "simpleAccountId": "5440588",
+                "pagesFlipped": 4468,
+                "nufComplete": 1,
+                "readingAge": 7.5333333333333,
+                "startingAge": 7,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 300,
+                "xpLevel": 10,
+                "dateLastLogin": 1557259029,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Lindsay",
+                "lastName": "Currigan",
+                "accountType": 1,
+                "dateModified": 1559055263,
+                "educatorPrefix": "Miss",
+                "name": "Miss Currigan"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What conclusion can you make about the purple mermaid?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "She is happy even though she is different",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "She is angry because she is different",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "She is sad because she is different",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "How do you know the purple mermaid is happy?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "She plays with the fish and other animals",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "She cries everyday",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "She fights the other mermaids",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What conclusion can you make about the other mermaids at the END of the story?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "They like everyone no matter what they look like",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "They only like mermaids that are pink",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "They only like mermaids that are orange",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "How do you know the mermaids like everyone?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "They celebrate every mermaid that is born",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "They only play with mermaids that are pink",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "They cheer the loudest for orange mermaids",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 3
+            }
+        ]
+    }
+}

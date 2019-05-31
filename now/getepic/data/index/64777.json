@@ -1,0 +1,182 @@
+{
+    "publisherData": {
+        "modelId": "19",
+        "name": "Lerner Publications an imprint of Lerner Publishing Group",
+        "url": "https://www.lernerbooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1490146594
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/e3bf2632b34da3138895fcb4bf3e9cc4.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/5007fea30a0e4a076c135f1a929b193d.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/c24945066f4a9d8e4c93a92011bc8afc.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/74fef3ab8f97ddcffa4b30dade3fe375.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/214cfae14819e07b0f4bb0124ef0763e.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/02a3a824ddf10fd2f3f7b8710f2839e0.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/d7d8c99424e3e864daf11c56f94aa991.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/67af46b94174517c9d654b1203f7acc1.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/2f1477fe8259ac63b6dabd1bc57ea7b4.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/6adb8e20adbce42d248fefd82767cbfc.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/6912e3a1d4144c7a8f1f09c591b52935.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/d986d1e9a0fc6b9eb4a75e6ac4a0e7dd.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/bba9366224ef40376910cdf14ce14ad3.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/c06f65398d1ab8ec081f7154a75ab70c.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/81dd0ef1354dbec858b469cc16b518a2.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/5a679afddf381f1ca6761afc6a196dfc.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/f04f7107ac701f3d2a3a4cfbb15d197d.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/bfea11fbf3dbb183915638637763661e.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/d38c5515c6c7a3f8a4999634d45964d7.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/e05097c5f72f1ea597c3327ca0de722d.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/6ebcf619240eb849370aab8b49725800.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/9311656c294414a8ac54d2e1510c5cce.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/81496b88c5142e3eb9c41a0ede1d756a.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/b68f0e914ccd06c79dc1ad9e45939cc1.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/46cc39577c97a9451414c3f43c9aa95a.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/f968f6470bf6a7161fc85bec0b7f7a47.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/e48be79c40411198578effcf65e1ed59.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/d79472fa012db1b9decd306420365fe2.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/7974d807067f00bd51d776a939827c7b.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/a6df1932b64e0b87f59c12006ecc14d6.jpg"
+            },
+            {
+                "page": "drm/7/64777/OEBPS/Images/1/842fbcc710e9cd51df3ee6854292a741.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/64777/OEBPS/Images/1/33394060d78ade52dbace9c001b3a138.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "64777",
+        "id": "64777",
+        "title": "Captain Barbosa and the Pirate Hat Chase",
+        "author": "Jorge Gonz\u00e1lez",
+        "illustrator": " ",
+        "numPages": 31,
+        "bookDescription": "In this wordless graphic novel, Captain Barbosa sails the seven seas with his trusty shipmates: a fly, an alligator, and an elephant.",
+        "coverColorR": 177,
+        "coverColorG": 176,
+        "coverColorB": 154,
+        "version": 1672027197,
+        "previewPercent": 20,
+        "publisher": "Lerner Publications an imprint of Lerner Publishing Group",
+        "publisherId": "19",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 568,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 75,
+        "type": 1,
+        "subject": "86",
+        "subjectDesc": "Exploration",
+        "subjectColor": "59E6FF",
+        "copyright": "",
+        "aspectRatio": 0.8,
+        "contentHash": "1b582605b85d1d39ee89",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1559075375
+    },
+    "userBook": {
+        "modelId": "46250489-64777",
+        "userId": "46250489",
+        "bookId": "64777",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559307296,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559307296,
+        "book": {
+            "modelId": "64777",
+            "title": "Captain Barbosa and the Pirate Hat Chase",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "1b582605b85d1d39ee89"
+        }
+    },
+    "quiz": null
+}

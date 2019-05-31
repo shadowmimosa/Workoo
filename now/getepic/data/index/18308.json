@@ -1,0 +1,194 @@
+{
+    "publisherData": {
+        "modelId": "28",
+        "name": "Xist Publishing",
+        "url": "http://www.xistpublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539564197
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/c2d2e035f5760e04c1c2bdf56a26c303.jpg",
+                "audio": "drm/8/18308/OEBPS/Audio/1/6da44f8202968d359a95ba78428d82ed.mp3"
+            },
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/1b1c9bd2239d4e49a7ae83c76d4d9cb0.jpg",
+                "audio": "drm/8/18308/OEBPS/Audio/1/5d933501455dc53eb0c9893aa3ef03ac.mp3"
+            },
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/e20b9dd5296dfa0fa2c9b9327c9c7492.jpg"
+            },
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/cf6d8b2bd56a83f80dccebb31c65c6c6.jpg",
+                "audio": "drm/8/18308/OEBPS/Audio/1/01ca171b24f1fcf51f506c8992e1aa1c.mp3"
+            },
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/3fe89de31869506a8507516c7abb5d35.jpg"
+            },
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/9b12c7d6f2ca37503c70bfa5ecd3572c.jpg",
+                "audio": "drm/8/18308/OEBPS/Audio/1/3c4963d0ebba55e800cf95a7af0f57c9.mp3"
+            },
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/a5da7bad99d2deabc06a0c0b36b25256.jpg"
+            },
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/05bc9e8f6b72ff7591da974da3037a0d.jpg",
+                "audio": "drm/8/18308/OEBPS/Audio/1/9daedad8658fcee959b079294b5ca6f3.mp3"
+            },
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/6dd387eef3f3006c707ffbffb76e4c2c.jpg"
+            },
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/54c8bf6f7168b1e9e420f1404917badd.jpg",
+                "audio": "drm/8/18308/OEBPS/Audio/1/49ad150a3cd193515935c6da0401ff42.mp3"
+            },
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/5b69bf735383dc54dd78e23e6463b663.jpg"
+            },
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/a9c840619d2c7cb8e95624e35c1c74e8.jpg",
+                "audio": "drm/8/18308/OEBPS/Audio/1/106bd083806ea2b396982d90e0aa4856.mp3"
+            },
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/56ae63fd22045bd2105354682863118f.jpg"
+            },
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/bbd74642bda9d07f9b2fde400d7dbb20.jpg",
+                "audio": "drm/8/18308/OEBPS/Audio/1/aaabbb719a5ffe9f3ab47a23e52311c6.mp3"
+            },
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/6ddcbcb2fb94bdc8e83911f041a9d151.jpg"
+            },
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/66f2a5b18fa8a596f2c4203b8b1819e4.jpg",
+                "audio": "drm/8/18308/OEBPS/Audio/1/6d407030032b16e15c9116db087bd91a.mp3"
+            },
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/ff35164b1a3631ebf97d22d8d97758ea.jpg"
+            },
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/180208c344d3d10b9bb1f671d9f2d573.jpg",
+                "audio": "drm/8/18308/OEBPS/Audio/1/6a81e6174dcc837beb4051bd71fe010a.mp3"
+            },
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/e3e713324a98379330621a1553facf75.jpg"
+            },
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/d425baea5cf9d463bef5ab7b8188ac07.jpg",
+                "audio": "drm/8/18308/OEBPS/Audio/1/d590ea72967d170c722c6095bf2f97ab.mp3"
+            },
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/9102d6cbe3d203a9cc05d46aceaf4f73.jpg"
+            },
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/2d30614fd78e9bac71f7890f22c7fa48.jpg",
+                "audio": "drm/8/18308/OEBPS/Audio/1/b98397f04bddfed45072a58ff1892da9.mp3"
+            },
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/898e69b9f5e9aa5f09c6864c0283bcbc.jpg"
+            },
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/c2efd49b4716f92549765d6eaa200cfd.jpg",
+                "audio": "drm/8/18308/OEBPS/Audio/1/6edf6a49e64a5fb083d99847e86f029b.mp3"
+            },
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/a5d843eef1330e1cf238311ba58cb03e.jpg"
+            },
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/7587e1eae3adb0993b82977e45f92f71.jpg",
+                "audio": "drm/8/18308/OEBPS/Audio/1/374eae6a3d1b472f88f0258be89f860d.mp3"
+            },
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/7c5ad837f4b2c47e10d827ef28c3c4ed.jpg"
+            },
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/af67b10d9b4399f4e8b90cdccaef82a0.jpg",
+                "audio": "drm/8/18308/OEBPS/Audio/1/0dedd782b57370a97b4ee2189fa2acfc.mp3"
+            },
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/5e308f0d507c12fba1fd2e5a379d5a10.jpg"
+            },
+            {
+                "page": "drm/8/18308/OEBPS/Images/1/472034b56e6eba6bd810abf9a27cffcd.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/18308/OEBPS/Images/1/54cbc22a7292924c87d81ec7c2533017.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18308",
+        "id": "18308",
+        "title": "I Saw a Friend",
+        "author": "Katrina Streza",
+        "illustrator": "Michele Katz",
+        "numPages": 30,
+        "bookDescription": "When a little girl goes for a walk outside, she sees plenty of animals that could be a perfect playmate for her. Can she get them to play?",
+        "coverColorR": 160,
+        "coverColorG": 192,
+        "coverColorB": 175,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Xist Publishing",
+        "publisherId": "28",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 500,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pets",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.005,
+        "contentHash": "a7d03f30725da5ff3929",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1516240719
+    },
+    "userBook": {
+        "modelId": "46250489-18308",
+        "userId": "46250489",
+        "bookId": "18308",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311462,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311462,
+        "book": {
+            "modelId": "18308",
+            "title": "I Saw a Friend",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "a7d03f30725da5ff3929"
+        }
+    },
+    "quiz": null
+}

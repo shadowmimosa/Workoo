@@ -1,0 +1,483 @@
+{
+    "publisherData": {
+        "modelId": "90336",
+        "name": "Live Oak Media provided by Lerner Publishing Group",
+        "url": "https://www.lernerbooks.com/About-Lerner/Pages/LiveOakMedia.aspx",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1528852493
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/dffe8488b745b8bd6e23e9d60463fa02.jpg"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/b09c6916893b236bc4851671d39ae99a.jpg"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/d89480a23ac6698df5bc006c45dc2f07.jpg",
+                "audio": "drm/9/54049/OEBPS/Audio/1/page 3.mp3"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/0965ffba4ecde07da6998e6b273a1161.jpg",
+                "audio": "drm/9/54049/OEBPS/Audio/1/Page 4.mp3"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/1df412547262146e39dff4f11c5f3aed.jpg"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/d626c3d3eb5b299555510f934d75f39b.jpg",
+                "audio": "drm/9/54049/OEBPS/Audio/1/Page 6.mp3"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/1fd517f69181a90f1c5e2cc90c201ac4.jpg",
+                "audio": "drm/9/54049/OEBPS/Audio/1/Page 7.mp3"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/e604d91187d6064cc7225cb6e61d798d.jpg",
+                "audio": "drm/9/54049/OEBPS/Audio/1/Page 8.mp3"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/b5b970ae43e6f986527b0447f61c912c.jpg"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/a9141171badf7e834a7fb7b05bbffc32.jpg",
+                "audio": "drm/9/54049/OEBPS/Audio/1/Page 10.mp3"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/be0bc8b394820111c7e6d2f9188cfc43.jpg"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/518ac35e8a49c1fae755fa202f22a7a7.jpg",
+                "audio": "drm/9/54049/OEBPS/Audio/1/Page 12.mp3"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/2ce4d8423c5d7ec679bef0c510799023.jpg"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/06d1b96ad07bf5906b5ce2cfaa8cac2f.jpg",
+                "audio": "drm/9/54049/OEBPS/Audio/1/Page 14.mp3"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/a6eba858171383d8be4c6eca1dd11209.jpg"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/88a36753cc2d3f7336ecca72319a4088.jpg",
+                "audio": "drm/9/54049/OEBPS/Audio/1/Page 16.mp3"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/2535fd441ba47b4c982584f60e1b3ca2.jpg"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/ba47fe551cfe90424b6f1efbcb619af7.jpg",
+                "audio": "drm/9/54049/OEBPS/Audio/1/Page 18.mp3"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/5185e499f6334d8366f1e0ccf147071f.jpg"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/c165c259908686d5bdde932ed67aeec5.jpg"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/7cf0a6a39bad9255fe61b53d1f01e19c.jpg",
+                "audio": "drm/9/54049/OEBPS/Audio/1/Page 21.mp3"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/fe73d78bea612700046283c2d77d0132.jpg"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/13bf13876ce044990cadb7b32c24109b.jpg",
+                "audio": "drm/9/54049/OEBPS/Audio/1/Page 23.mp3"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/af18e53c8454047ad375d474ae7e045f.jpg",
+                "audio": "drm/9/54049/OEBPS/Audio/1/Page 24.mp3"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/eb55ca4805a78b2dfbd62524cd828550.jpg"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/edd5cbe3bcecc1ff9eb18d7cf04cdae5.jpg",
+                "audio": "drm/9/54049/OEBPS/Audio/1/Page 26.mp3"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/2fae34f06915b2c65072a175ee26ac6f.jpg"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/ca00d83f6f5ff68eee1c7489e013bb69.jpg"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/48a4259ceb87143c1b0e91f4395e1d6a.jpg",
+                "audio": "drm/9/54049/OEBPS/Audio/1/Page 29.mp3"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/582e1502ec4a70384efbbb773767bf5a.jpg",
+                "audio": "drm/9/54049/OEBPS/Audio/1/Page 30.mp3"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/8a88548bb17d758a42166575e4e0c26b.jpg"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/d00ccc645536d0c335f27cea42715323.jpg",
+                "audio": "drm/9/54049/OEBPS/Audio/1/Page 32.mp3"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/597f8f249b15f3107511cce4aa9ab8d7.jpg"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/85d542d6672e8a77af363d0e0d7cc43f.jpg",
+                "audio": "drm/9/54049/OEBPS/Audio/1/Page 34.mp3"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/bdb482b97229e84c1bdba6827e4bcabc.jpg"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/32cf1a69422fda75920956c54acef540.jpg"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/e86534c6d7ff9a01a9e8444817faedc6.jpg",
+                "audio": "drm/9/54049/OEBPS/Audio/1/Page 37.mp3"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/b2c593f09a158f6f1f7c42b3a6704750.jpg"
+            },
+            {
+                "page": "drm/9/54049/OEBPS/Images/1/3dcfc26b5801d60b73c359ad2587e0c1.jpg",
+                "audio": "drm/9/54049/OEBPS/Audio/1/Page 39.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/54049/OEBPS/Images/1/c533eee8798032a8600e664d4991256a.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "54049",
+        "id": "54049",
+        "title": "Eight Days Gone",
+        "author": "Linda McReynolds",
+        "illustrator": "Ryan O'Rourke",
+        "numPages": 39,
+        "bookDescription": "The historic Apollo 11 mission to the moon is recounted for the young in this richly-detailed, vividly rendered description of the voyage.",
+        "coverColorR": 108,
+        "coverColorG": 107,
+        "coverColorB": 90,
+        "version": 858927445,
+        "previewPercent": 20,
+        "publisher": "Live Oak Media provided by Lerner Publishing Group",
+        "publisherId": "90336",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "280L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 650,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "84",
+        "subjectDesc": "Science & Nature",
+        "subjectColor": "29E69B",
+        "copyright": "",
+        "aspectRatio": 0.9977,
+        "contentHash": "1b83bf51274ac129dd35",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1533343605
+    },
+    "userBook": {
+        "modelId": "46250489-54049",
+        "userId": "46250489",
+        "bookId": "54049",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310507,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310507,
+        "book": {
+            "modelId": "54049",
+            "title": "Eight Days Gone",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "1b83bf51274ac129dd35"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "399403",
+            "user_id": "9470327",
+            "book_id": "54049",
+            "title": "Eight Days Gone",
+            "description": "",
+            "date_created": 1556738537,
+            "date_modified": 1556738759,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What month did this take place in?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "July",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "January",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "June",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "September",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What were they watching take off?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Rocket",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Engines",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "The moon",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What was the man's name that stayed with the ship?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Michael Collins",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Matthew Crosby",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Mark Call",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Magnus Copeland",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What was the names of the men that got off the spaceship?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Armstrong and Aldrin",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Arthur and Andrew",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Albus and Alex",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Albert and Abernathy",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                }
+            ],
+            "modelId": "399403",
+            "creatorName": "Teacher Profile",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "9470327",
+                "udid": "57c22e637d4455.10719459",
+                "journalName": "Ms. Whipple",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.61176470588235 0.36078431372549 0.70588235294118 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "936298015",
+                "fid": "",
+                "accountID": "D2F8E84B-6F61-1E2C-EC2D-8E05860F0BC3",
+                "simpleAccountId": "3455204",
+                "pagesFlipped": 433,
+                "nufComplete": 1,
+                "readingAge": 6.6,
+                "startingAge": 6,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 138,
+                "xpLevel": 2,
+                "dateLastLogin": 1559229838,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Lawren",
+                "lastName": "Whipple",
+                "accountType": 1,
+                "dateModified": 1559244920,
+                "educatorPrefix": "Ms.",
+                "name": "Ms. Whipple"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What month did this take place in?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "July",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "January",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "June",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "September",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What were they watching take off?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Rocket",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Engines",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "The moon",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What was the man's name that stayed with the ship?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Michael Collins",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Matthew Crosby",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Mark Call",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Magnus Copeland",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What was the names of the men that got off the spaceship?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Armstrong and Aldrin",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Arthur and Andrew",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Albus and Alex",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Albert and Abernathy",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            }
+        ]
+    }
+}

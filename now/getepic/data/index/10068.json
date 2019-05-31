@@ -1,0 +1,165 @@
+{
+    "publisherData": {
+        "modelId": "85",
+        "name": "Frederator Books",
+        "url": "http://frederatorbooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260454
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/10068/OEBPS/Images/1/2067dac1e128bccb43f82e19950e4093.jpg"
+            },
+            {
+                "page": "drm/8/10068/OEBPS/Images/1/49367a403c0845dc2e5162b26bb18885.jpg",
+                "audio": "drm/8/10068/OEBPS/Audio/1/CatbugIfIWere_01_HelloEverybodyImCatbug_2.mp3"
+            },
+            {
+                "page": "drm/8/10068/OEBPS/Images/1/e76c91647dee4cd19c36a60ccac188c9.jpg"
+            },
+            {
+                "page": "drm/8/10068/OEBPS/Images/1/c64f31a275f3db9e69f6ae966415562c.jpg",
+                "audio": "drm/8/10068/OEBPS/Audio/1/CatbugIfIWere_02_IfIWereARock.mp3"
+            },
+            {
+                "page": "drm/8/10068/OEBPS/Images/1/cf0da3701961b21f964dcd553c241ca2.jpg"
+            },
+            {
+                "page": "drm/8/10068/OEBPS/Images/1/f0ea186e031aeb8fa34370368cf3c88f.jpg",
+                "audio": "drm/8/10068/OEBPS/Audio/1/CatbugIfIWere_03_IfIWereAMilkman.mp3"
+            },
+            {
+                "page": "drm/8/10068/OEBPS/Images/1/0d43fa34f6eece994e5bdcc155f25294.jpg"
+            },
+            {
+                "page": "drm/8/10068/OEBPS/Images/1/5c240cee5d543c53333d602418537983.jpg",
+                "audio": "drm/8/10068/OEBPS/Audio/1/CatbugIfIWere_04_IfIWereOneThousand.mp3"
+            },
+            {
+                "page": "drm/8/10068/OEBPS/Images/1/fa0c5b5ee0cae09665afe58ea922a156.jpg"
+            },
+            {
+                "page": "drm/8/10068/OEBPS/Images/1/c01277b41d5577440deeab57406ccb07.jpg",
+                "audio": "drm/8/10068/OEBPS/Audio/1/CatbugIfIWere_05_IfIWereADinosaur.mp3"
+            },
+            {
+                "page": "drm/8/10068/OEBPS/Images/1/d02501f605dde7082c7d3c7ec98cce79.jpg"
+            },
+            {
+                "page": "drm/8/10068/OEBPS/Images/1/f8f77cb5842cba60dda5dbdddae5da11.jpg",
+                "audio": "drm/8/10068/OEBPS/Audio/1/CatbugIfIWere_06_IfIWereATimeTraveler.mp3"
+            },
+            {
+                "page": "drm/8/10068/OEBPS/Images/1/c0cb98875edddfc64fc02cab47d5d8e8.jpg"
+            },
+            {
+                "page": "drm/8/10068/OEBPS/Images/1/4219a3296065a7ff065bbd1287e9c372.jpg",
+                "audio": "drm/8/10068/OEBPS/Audio/1/CatbugIfIWere_07_IfIWereABigTough.mp3"
+            },
+            {
+                "page": "drm/8/10068/OEBPS/Images/1/112880de1cd8a830ca9ac9cd3437a55e.jpg"
+            },
+            {
+                "page": "drm/8/10068/OEBPS/Images/1/0cca006c85f8dd52aad653883f915179.jpg",
+                "audio": "drm/8/10068/OEBPS/Audio/1/CatbugIfIWere_08_IfIWereWearingMyAntlers.mp3"
+            },
+            {
+                "page": "drm/8/10068/OEBPS/Images/1/a0e9ac251fba29997a807c046127c4d5.jpg"
+            },
+            {
+                "page": "drm/8/10068/OEBPS/Images/1/6fa57fe72486d9c477984f086790915b.jpg",
+                "audio": "drm/8/10068/OEBPS/Audio/1/CatbugIfIWere_09_IfIWereABadGuy.mp3"
+            },
+            {
+                "page": "drm/8/10068/OEBPS/Images/1/9e48ea881267b564be138013887b6d80.jpg"
+            },
+            {
+                "page": "drm/8/10068/OEBPS/Images/1/bd542d2687b2642fad9d08338e8544ad.jpg",
+                "audio": "drm/8/10068/OEBPS/Audio/1/CatbugIfIWere_10_AndIfIWere.mp3"
+            },
+            {
+                "page": "drm/8/10068/OEBPS/Images/1/bb2fb0168b135faebe976a6d3047d5c6.jpg"
+            },
+            {
+                "page": "drm/8/10068/OEBPS/Images/1/c12f93d5ef34e092ebbe8a5dd2b35030.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/10068/OEBPS/Images/1/636e33372e8ac312467b8a803e592238.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "10068",
+        "id": "10068",
+        "title": "Catbug: If I Were...",
+        "author": "Jason James Johnson",
+        "illustrator": "Chris Vales",
+        "numPages": 22,
+        "bookDescription": "WWCD: what would Catbug do? Grab your rocks, named Paula Abdul & Shemasticles, and play make believe with Catbug in If I Were...",
+        "coverColorR": 211,
+        "coverColorG": 165,
+        "coverColorB": 206,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Frederator Books",
+        "publisherId": "85",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 403,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 85,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Humorous Stories",
+        "subjectColor": "FFD673",
+        "copyright": "",
+        "aspectRatio": 0.75,
+        "contentHash": "33b0f416300b88499176",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372489
+    },
+    "userBook": {
+        "modelId": "46250489-10068",
+        "userId": "46250489",
+        "bookId": "10068",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559305249,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559305249,
+        "book": {
+            "modelId": "10068",
+            "title": "Catbug: If I Were...",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "33b0f416300b88499176"
+        }
+    },
+    "quiz": null
+}

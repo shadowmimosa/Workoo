@@ -1,0 +1,128 @@
+{
+    "publisherData": {
+        "modelId": "2",
+        "name": "Twin Sisters IP, LLC.",
+        "url": "http://www.twinsisters.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1547683900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/59591/OEBPS/Images/1/9b8ff922ec07b4e632ed214b1dfacffa.jpg",
+                "audio": "drm/1/59591/OEBPS/Audio/1/9781619382589_title.mp3"
+            },
+            {
+                "page": "drm/1/59591/OEBPS/Images/1/7d6b2205c9673e23897051a6776a816f.jpg",
+                "audio": "drm/1/59591/OEBPS/Audio/1/9781619382589_01.mp3"
+            },
+            {
+                "page": "drm/1/59591/OEBPS/Images/1/5b4165f8c7a68f9f272aed51eca0a13c.jpg"
+            },
+            {
+                "page": "drm/1/59591/OEBPS/Images/1/50ab0209d4f2f54513718d6c781d6bc0.jpg"
+            },
+            {
+                "page": "drm/1/59591/OEBPS/Images/1/863f50e0c3990b4bb6f7934224171c19.jpg",
+                "audio": "drm/1/59591/OEBPS/Audio/1/9781619382589_02.mp3"
+            },
+            {
+                "page": "drm/1/59591/OEBPS/Images/1/c696726f0db4fc1dbc7cdbbbe3a195c8.jpg",
+                "audio": "drm/1/59591/OEBPS/Audio/1/9781619382589_03.mp3"
+            },
+            {
+                "page": "drm/1/59591/OEBPS/Images/1/700e7cf77cde6bb848643247ac78ef4b.jpg"
+            },
+            {
+                "page": "drm/1/59591/OEBPS/Images/1/e513299cc74eb1cddc212d980039818c.jpg"
+            },
+            {
+                "page": "drm/1/59591/OEBPS/Images/1/ef7fe60ef11124bf39ea3b9a831de5c9.jpg",
+                "audio": "drm/1/59591/OEBPS/Audio/1/9781619382589_04.mp3"
+            },
+            {
+                "page": "drm/1/59591/OEBPS/Images/1/18793b42f5ad1268c2c54ff15e5fb1f9.jpg",
+                "audio": "drm/1/59591/OEBPS/Audio/1/9781619382589_05.mp3"
+            },
+            {
+                "page": "drm/1/59591/OEBPS/Images/1/a154b6a08dc499b109ae84f6baffd3ed.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/59591/OEBPS/Images/1/b16d354105ec48e3463072fa2daad2f7.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "59591",
+        "id": "59591",
+        "title": "We Wish You A Merry Christmas",
+        "author": "Kim Mitzo Thompson, Karen Mitzo Hilderbrand",
+        "illustrator": "Ivy Dad",
+        "numPages": 11,
+        "bookDescription": "Adorable Christmas carolers are ready to celebrate Christmas and the New Year by singing in sweet harmony for the town.",
+        "coverColorR": 96,
+        "coverColorG": 97,
+        "coverColorB": 78,
+        "version": 4409472,
+        "previewPercent": 20,
+        "publisher": "Twin Sisters IP, LLC.",
+        "publisherId": "2",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "--",
+        "avgTimeInt": 0,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Religion",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 0.7742,
+        "contentHash": "739ecc49d2c5ef59db34",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1545443694
+    },
+    "userBook": {
+        "modelId": "46250489-59591",
+        "userId": "46250489",
+        "bookId": "59591",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310220,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310220,
+        "book": {
+            "modelId": "59591",
+            "title": "We Wish You A Merry Christmas",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "739ecc49d2c5ef59db34"
+        }
+    },
+    "quiz": null
+}

@@ -1,0 +1,227 @@
+{
+    "publisherData": {
+        "modelId": "90032",
+        "name": "Candlewick",
+        "url": "http://www.candlewick.com/",
+        "checkout": 0,
+        "educationalEnabled": 0,
+        "dateModified": 1559044382
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/2b7c3e192ada226456ee54831163b210.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/2f09e7b85d95ed638e5ba9da85c20be8.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/72d1de53f69d9b847b48476ccd2c4d99.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/00cb2ade3bb5aba6ab3bb344fe46c26e.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/de92f23288fbd1171aa283a3239ec5bf.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/6128062b58303db89b11d524c403fd85.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/8b21237396851338486e30a8933e7ebc.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/492d42825b0904b5298a48670da5b485.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/54248654c37f22388c440657422ebcfc.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/a9e0c4a8816c205c6a3882a04d7c1a39.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/36a41e0a04a6f5fc68e56caee85d7b37.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/a9c7f28aa65c1ef34575e2e5397efc88.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/f03a191efcccbe89dff1e110bef44f77.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/32a193933402d4acb9b8618116c310b3.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/927eb0640eab8327f806f195c642e58b.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/e511fdf30b5ba1f9e2be24c40c53373a.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/b4b0872e9c132c7ff57584b18e6d10ff.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/626d10e58ef6df45e133deef6d21f1cc.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/21ae9f1842e8225697769a4fe0378d00.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/e2e559d265c210bd35229d8cdf87f1a6.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/d51627907aca8089129eda74a33dd96b.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/6aff49f376bf9094ca2515b1a10ad651.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/d960657fe85dba1b3bcfae9013172c95.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/fc7486a4c7a263661eaf33dd0145c2b6.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/8c9d1cdbada2c0f55626f0b134950352.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/fa12bde9931e6f6ac796eb66cb81127d.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/afcb92c3a66bcf0a189855e5311338e1.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/180e3e2c7c5714af9bb59143e011ee46.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/4af03327ea17211d62a6375570585413.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/023183f0010058e2335c727c80d2acac.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/307bb91188c459ebbdaceb71370b8275.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/faefdb13cc1e374319bd3cc060c28518.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/5b8da2d4256dd0a13ea84290abe80f29.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/6fb0103f80868e6df909175c5440bbff.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/27ef217c9a3e38ceddb71dd1e8eacf5f.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/982f6a2afa7591229bff81a46f2e1e3f.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/8b4b19543148ebbfbcd66ade02f30c48.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/db1b94f6046b8dbc263d79b6834ef317.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/dd8c314817d07c1ee8160e3b8046cc65.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/ae68d2e45eb4a4f0f36a27dc29b99535.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/4ba33f287c9db92f7a325e79930b7e61.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/1cfaa27b92fb8a5b669fb923b5c33467.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/29d60aa09b891b2f51e094257695c4b1.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/78bc18a5984e26d7eff0c77550fbcd1a.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/8ca43a3af93adef7d8df22cf2651c1a5.jpg"
+            },
+            {
+                "page": "drm/6/18336/OEBPS/Images/1/f3fbe6cc8e35c4977645ebd12c8715a0.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/6/18336/OEBPS/Images/1/34430526946a4c9f76b88b5d10faa55e.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18336",
+        "id": "18336",
+        "title": "Judy Moody and the Thrill Points Race",
+        "author": "Michalak, Jamie",
+        "illustrator": " ",
+        "numPages": 46,
+        "bookDescription": "Judy Moody's summer plans can't complete with those of her two friends, but she is determined that her summer will NOT be a bummer.",
+        "coverColorR": 123,
+        "coverColorG": 93,
+        "coverColorB": 70,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Candlewick",
+        "publisherId": "90032",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "30-45 mins",
+        "avgTimeInt": 2530,
+        "ar": "2.9",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Funny",
+        "subjectColor": "FFD673",
+        "copyright": "",
+        "aspectRatio": 0.6667,
+        "contentHash": "1d2b124fb1f68db41cce",
+        "payPerView": 1,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1557785836
+    },
+    "userBook": {
+        "modelId": "46250489-18336",
+        "userId": "46250489",
+        "bookId": "18336",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311119,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311119,
+        "book": {
+            "modelId": "18336",
+            "title": "Judy Moody and the Thrill Points Race",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "1d2b124fb1f68db41cce"
+        }
+    },
+    "quiz": null
+}

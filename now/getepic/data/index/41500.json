@@ -1,0 +1,185 @@
+{
+    "publisherData": {
+        "modelId": "82",
+        "name": "Holiday House",
+        "url": "http://www.holidayhouse.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260666
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/769B37BA-E0C5-44B2-88AF-D034CA390FBB.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/27AE3815-B516-466D-8055-30B698095628.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/3D47242F-7735-4B04-8D9F-C5BF3595B4A8.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/F0F50D68-FF06-4373-940F-768F64E0401E.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/939F4525-4038-413E-A2BB-C381E20CD7B5.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/B2A4D454-5033-4777-B9CE-277DCD653BA5.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/26D62E09-B9E1-4518-9C42-8210390AEBF9.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/1C843026-3ED1-415E-87BA-55CECB409A7C.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/ADB25513-FD5A-45E4-A213-150B1967F2E1.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/01C1D37D-CF7B-4112-8E49-AF77234C3513.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/70D33CFB-CCB7-4F98-920D-929AD033A1B9.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/E4F19826-0796-4696-B2AF-C0D1027E0A95.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/2CEA40EE-2317-46D4-AD2C-C8D7C5F7C03D.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/D7CEA576-62F3-47EC-92D5-99BEBAD02FBA.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/F8D3EEAB-8EF6-43CC-8F03-DD127B631A95.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/F3F6AF76-856A-4BE7-8D11-DB552ED777DC.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/9FCE0D97-A554-43BB-B2E2-FB2D439DB539.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/2BD2F2C4-20AD-4001-AB71-1E005843A8ED.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/6D72261B-2B9E-4E20-BBDB-24EA59B2349F.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/B720D097-131F-4BAB-A5CC-C38385B64965.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/5AB5C87F-C8B8-4028-B075-8F4E1D71F35E.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/EA5C89DE-C6B7-41F5-85C7-2A086DE83639.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/161D9264-888B-4DCC-A897-E857ED745BAF.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/C3DFE7F7-C474-48F8-BFB9-BFD529AF1187.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/4E70A9D7-D24E-4EFE-9B3A-3E7A2FB7ED59.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/A060102F-9A21-4753-86E7-B11E537F390B.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/4BCA3AED-EB40-48E7-A520-026FD15D575A.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/707E8A30-DF1D-4640-8D66-20C591E7AC5D.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/AE3F6AE2-3499-472B-A7B5-34EDEE0054BC.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/9E6435D4-DF1F-45A8-86D6-E6295261E4D3.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/29DD4CB1-40A0-482A-8512-362C5E71A93C.jpg"
+            },
+            {
+                "page": "drm/0/41500/OEBPS/Images/1/E6E4E9A1-9DFB-4B71-B622-1CA3D899FC02.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/41500/OEBPS/Images/1/27AE3815-B516-466D-8055-30B698095628.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "41500",
+        "id": "41500",
+        "title": "Is That a Cat?",
+        "author": "Tim Hamilton ",
+        "illustrator": " ",
+        "numPages": 32,
+        "bookDescription": "Several animals, an elf, and a bird-watcher are searching for different things, but find each other -- and a party -- instead.",
+        "coverColorR": 182,
+        "coverColorG": 202,
+        "coverColorB": 186,
+        "version": 0,
+        "previewPercent": 10,
+        "publisher": "Holiday House",
+        "publisherId": "82",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "AD390L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 586,
+        "ar": "1.2",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Funny",
+        "subjectColor": "FFD673",
+        "copyright": "spreads don't match up",
+        "aspectRatio": 0.7868,
+        "contentHash": "04ea72d67ffd3c2b361e",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1513382446
+    },
+    "userBook": {
+        "modelId": "46250489-41500",
+        "userId": "46250489",
+        "bookId": "41500",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311118,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311118,
+        "book": {
+            "modelId": "41500",
+            "title": "Is That a Cat?",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "04ea72d67ffd3c2b361e"
+        }
+    },
+    "quiz": null
+}

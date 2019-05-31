@@ -1,0 +1,842 @@
+{
+    "publisherData": {
+        "modelId": "165",
+        "name": "Akashic Books",
+        "url": "http://www.akashicbooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491010386
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/B1C87E88-9E7C-44EA-B730-984F6C5DDE14.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/B729FD1F-1E38-4CE2-BCB9-BBE2D4718420.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/3E2D35FD-6921-4714-9FCB-4AE31DBA15D0.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/ADDE4F9C-06FD-4952-AA11-46306D639561.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/30C58D0A-E010-4965-B138-DCE0A171F845.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/7F0B4C88-4B0B-45CD-8695-E2950DD91F24.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/327814A8-5658-4FDA-A1AF-133F55BC6958.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/27F86314-990C-456E-A829-2D4D0F380E9D.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/EA4806B5-25E2-40C8-83BE-344D57DC50BC.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/C5224AD5-1A14-4109-8919-C890C76F5F6C.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/3F895743-7986-428B-87D7-12934C68F44B.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/8DB14938-9DE6-4A8F-8959-D730477FAF5B.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/305F1AF1-AA1D-4471-88DA-44E24A43EEC0.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/ECC6A2FD-F07A-4ECA-B89D-8713870D1869.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/5F8AF37E-1619-4CF7-88B7-4ADE9D277959.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/0AE57F85-0C82-437B-8C1C-187066DC8036.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/B7BF7E90-09DB-4306-A500-E21D7DEB4B73.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/7F4A4F96-B4CC-4131-A509-A9E270BEF7D7.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/5D7E526D-48EA-44AA-BF92-AD1F23D883D6.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/FD1110B3-0C8F-498D-9163-990EA807B652.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/7614EEBD-03A4-49B2-B00A-06765F573973.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/58F2CC63-DBA6-4CBB-BEBE-9132678116ED.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/77D28622-32BA-44A2-8634-A4B7968B279F.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/D18BFC7D-5B20-4907-99D3-B8E377B63133.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/2C923B4E-6B29-427B-BD77-3CE6071CF2DF.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/CF303B43-822B-4049-8784-282A62BCFCA3.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/C170AFAA-3E81-4B1B-B48E-4886939C9C51.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/5F041C5C-B8D1-43A1-BB06-81DAC1D259C5.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/DB80BA87-5FA3-425E-9696-7D7750B4B1B2.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/0FECD212-E9CF-4D6A-AF73-3CCA0FAA032A.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/A1CEA767-0DEB-4382-BEAB-D557F448D13F.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/BC129DF2-B2E9-419C-9A27-8EAE0BB53805.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/8BE3EBA0-0037-40C3-9BA5-6BDC77CDD7A5.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/0A86E3B1-FE22-4CCA-AD53-0503B42216DA.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/81B0F8D7-63B0-4457-974E-4D84FC9BBABC.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/24CF43F8-3638-4380-ABC5-C575E3A9EDF9.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/1B2291AA-9E1F-4393-A124-1FE201378C58.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/38647352-B565-4438-82F7-EEECDFE5E8DE.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/8F72CA7B-9B65-4DFC-894B-1FF50CFAA701.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/B9A467F8-358D-4564-93B1-0B56F1DE1AD5.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/28C87396-2819-4857-9A04-EAEB3D08140B.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/48A023E3-E402-49F3-B3F4-034C543DB0B2.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/BA05FFB2-733B-4C5B-8502-E0F91FDCB1E7.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/3BB5359E-7373-44D4-8BB6-7021BA5B4D22.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/50DC3D60-CBF4-4C17-B11E-A1B8A9FA96F2.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/614AD60E-C1BE-4C7C-B98C-DB90C73828B7.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/396AB31D-A415-4C44-B1A1-0E65CEEE6326.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/C7C76F2E-C7B5-4948-9048-DE0FBDEAD531.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/B7E7D39C-B632-4E94-8BDE-3CD35E633021.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/7D59E355-7868-41F9-AA3C-94C9434609BE.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/923E835D-FBE8-43A5-9824-1DF88D8C2B5C.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/F8A57471-1E9F-4623-9CE0-0700098DF694.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/249E7F17-8622-4960-BC91-964532B2CE47.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/AEE3372C-2E3C-4D6D-8587-1ADDF9882FD6.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/F25E67FD-1EFE-41B9-9002-116CBAAA154B.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/7843C1B7-E473-44AC-B4A1-BC139848A558.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/A42F202B-7ACD-4139-B5D0-8DD861726C1B.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/5E9D3B61-75AE-4641-9A6B-492A85F00E46.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/E3BE3305-173D-4A51-8705-18E8DE010E6B.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/DB6E9C5E-FC01-4385-B82D-CA734996AB8B.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/C6FFB596-5074-4F73-A472-2D2AC6FEC9EC.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/DD55F590-F24E-4A35-9562-099B411C8A4B.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/156035E2-63A7-46E6-8CD1-522E9FBEF17A.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/6D135799-6285-41AB-BF0D-CA3910FFF17E.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/870917A9-54F2-4B87-9529-B7157A3AD5DB.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/7BEB94C7-CB10-4320-AE78-DCB90EEED0C3.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/51467252-FF8C-4662-9B0B-DBC62BD40972.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/DE150193-83EC-4249-97F8-B5ADEE91A942.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/C36F379E-8F1C-499C-8A6D-D6F8F5F2F2C3.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/27331B6B-0C45-4AC5-8106-31A25E396E20.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/10D2FDD0-D85E-40CF-AD3D-762BA9CCEE38.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/58C13586-F71A-418C-9F68-024C4AD7B47F.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/E1952AA4-A092-45E5-A503-218A8C4D8602.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/32CEF810-BBC2-444E-AF34-9B336FFD0447.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/275BA540-8C32-46E1-988B-2CE6FEED1101.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/A5D6A75E-B010-4053-B1D9-694FD7383EB5.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/05C68692-84F2-4AF2-B5A9-E132CE73D315.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/560FFF78-006E-48EF-B0A9-9BA5DC870BC8.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/9C5085F7-851B-4432-83FD-FFE868D0C17E.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/65D53B80-A945-47B0-9BBC-ABD53A0F66BF.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/C8F73D75-BA4A-4408-82F5-00458519A62D.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/A080FED2-07D4-48BB-A925-63FA63038B23.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/1086E75A-A0FE-45B9-B636-A8A6E5DC2977.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/E990346F-53D4-43F6-AC32-CEEDCFD4C287.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/A9E65025-2E00-431E-B076-7102AADF4DB1.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/364ED596-A941-47A0-996E-C676D36D8577.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/F97C338D-07EF-42B8-84BA-45B37DF95A3F.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/E6E4A25D-F2D6-4332-A4D4-17963E84BAE9.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/449BEF6C-44DE-4100-9C1C-65CC5CA87E8D.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/D9D4A25A-9BF9-469D-AA51-FF8A8AD19315.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/79B91E3E-D594-4EFC-9463-2944F41809BD.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/4F2FEF38-22FA-411D-B260-776E0D096B8C.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/614D3F66-259C-4475-B6F4-01C116701D78.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/F873DAF4-FFE4-4F1D-BA45-BD081F7901A2.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/B48CB439-7BA9-4043-B921-A6EC6A3AF021.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/8F46C77E-9894-4702-9462-E5D8EF0D5D45.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/1D0951D3-0BB4-40A4-B19A-B7EAE5102EDB.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/6C3ACEFC-63D9-4B4A-BCAC-016FAB8105FB.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/F6DD399B-58C5-4FDE-88BB-809C2A615973.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/6ADF99EB-1B2E-43C8-A5C9-A003E1FC7422.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/C0220B46-43CF-4F6B-893A-4C8ADD7BB25E.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/BD1E08B1-1CFC-4A5D-BE85-DAAD87705F40.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/62874E78-FDF8-400E-A4B0-734252303685.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/86A137DD-C349-4AD8-AFC8-922E039D31CD.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/9A2AC554-1F96-474C-960A-2980C7145388.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/686F9CC9-DF6E-4BFD-ABDD-5EC425226D47.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/94687D70-3269-4A6E-AE24-180DFC635DA8.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/7D87F1E6-A89D-43F1-A9DA-06F773565261.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/90751D88-95DA-407D-BEF2-EC8CB0C8A83E.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/B6AA78CC-EAB8-4491-97BA-68406B15AB2D.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/49B0A693-0A88-4261-98EC-5BA2F2F2D48E.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/E2FC78DA-09A8-4DA5-A192-310220D76E47.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/B875C8F8-9118-4465-ABE8-D04FE84E7C28.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/37E0234B-5451-4F71-886F-6EBC7DF4F5AE.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/B364BA2C-EE3C-4CB3-B1DF-230DF764B251.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/D15C1B2D-8707-4D10-B000-A2831F7F634A.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/B25202AD-4F08-4B1F-9D97-452808AE6D5F.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/714D5FBB-C9CB-493C-A6FD-803D0021BF1D.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/A037B380-8966-465D-A824-ED159E406E1D.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/B566D7A9-D301-48A1-99C9-28DB50050459.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/42EFCCD0-54B6-46F6-B13E-73B895967950.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/378605D3-FAD3-4C7F-8CC3-0CAA616D5F11.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/FDACB32A-C863-430C-A5A3-0BD42E81E0F1.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/1EA2961A-16AB-46A6-B375-02FE53A296D3.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/C9A32CD7-51DF-48B2-968C-0725CE6CE1FD.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/8E071FD1-C08E-4603-BE8B-C662397AEEC4.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/E64AD57F-A839-4477-8F1F-D904A173C8E2.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/6F41A956-6193-416E-AF3E-A612367BADFB.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/5FF61898-DB0D-4289-8636-7762B3088B19.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/4B4F60B4-E505-4EC9-A834-02DB34AD15BB.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/2789E0EB-290E-4623-A9C9-1F7ADB96AE5F.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/B5D55291-AD48-4A01-AE0D-0FA1144D00D5.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/57B498B7-84CC-494E-8089-F1B7E79A24D7.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/D0085041-CCF6-458F-B099-B38FD24B24E4.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/8CDA3C71-243E-48D1-8898-268964D80844.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/8F04D882-9BB4-4F1C-B412-681B84C32DC0.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/26AFD4F2-9168-42B9-9367-E8704FC8ECCD.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/A2B5E9D4-91E4-455C-B016-D848EB3681DD.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/55FA430B-865E-4B30-90A7-681574514529.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/FEDE5C7B-039A-4A4A-B531-319BEE930B27.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/741C0EE7-BC64-4AD9-8059-BF1D712A4110.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/3F0B3443-0AFF-451E-92DD-813AAC8575D0.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/B467DAAA-BC81-42DD-A169-BD0E1B5C09D6.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/1838F0A5-8FD8-458F-B6FE-164950E4A94D.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/71BF2FAD-D3F0-4FF3-8353-ACB4B7174C60.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/71ECF55D-E7BB-4C18-941F-AD7D36952844.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/C40F305B-249D-489A-A0E5-CEB71C888858.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/6FDE1C36-E928-4D26-852E-45D7BB10CE67.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/E83985DD-E01A-4170-9E1F-9B7608EC9895.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/394B3F75-2509-40E1-8010-CA51009D3535.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/79C72044-69F6-4EB7-B14C-140B236E07B8.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/8D507E27-1920-4B3D-BB3B-51F3AAC15EA7.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/76725EA0-B7BA-4319-AD50-0FAB402A6D66.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/430C8DF0-6320-4351-96B0-F73C8C62230C.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/5EA81B22-C63B-40F0-80D9-C1FF2690CA8E.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/F9ED42C7-343B-4868-BE40-E6CD31696DBD.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/C8997842-F8DD-40DC-9FB4-04927CE711E9.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/29AD36A1-B245-4879-BD0E-33853DEF9226.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/65B8D3D4-65CF-42C7-B36D-99C489AE3815.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/39B12ABC-89D3-4319-8370-9D5C786A95CC.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/AC1BD3A3-B807-44F5-BBA5-766234B3728A.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/CD67F293-BB3A-44FD-9AEE-BBD04F1211CC.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/459327AD-D110-48EA-A94E-833AC6934451.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/5DBBDF41-7E82-4E1B-BF7D-325C3A0B779C.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/A0D74055-9384-4507-8277-AC9CB7D68167.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/A18CA751-8AF8-4BFE-89E7-3A560749FA93.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/D5EBA3A7-ABF7-4A18-BC48-DD61778B4E4B.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/7C8B874A-4D1E-417E-AB9D-0547BC630B82.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/DA33EA37-CCA6-4133-8EC0-3D745918BCD8.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/139C9AFF-5296-47EE-9D98-98D835536C1B.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/C3CF3945-BB23-408E-96CC-F109FCACD6F4.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/E0753255-10E2-4C71-B929-0BED5425343E.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/2AABC0C8-C029-4C7D-9FAA-3D55573DC563.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/99A4DD47-7C8B-4F76-9956-93CAD0B8EC55.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/DF9C8E78-32C3-4515-9B5E-535F82E794A7.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/46000CC4-A679-432F-AA09-00A7364B6CAB.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/35FDE702-7748-432A-BF68-1FB08EBCF01F.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/A71A9267-8AF3-44A6-8DE3-CD5A67D25E9E.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/54C6E78C-680B-48F7-AF8B-AF8ED39C4E88.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/5E18495F-1007-411D-A2A1-F064EB857CCC.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/758E35A7-3587-4C65-ACCF-C67C2C553074.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/4D0728BA-F450-4917-B041-F4274CCA05D5.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/A66DE77E-5259-496C-9D00-D0302E0927E2.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/1C522EE9-9CEA-48A5-8EBD-8268BC06662A.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/1A2F945C-CBB4-4969-A6CB-347AFC6990FE.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/3FD2429F-18DA-4B11-840F-1E9F07F6FC64.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/74401A06-C6A5-4C3F-9C61-2BF974C1AC85.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/B3F18073-E578-46F3-9ECC-2899625B7BEA.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/1F757926-1A2D-4F35-87A8-FD9574D18F00.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/A65215C1-775D-4FFD-A7D4-C25D326E6366.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/4B84D571-976C-468B-BC6A-CDC0081285C5.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/C05C750E-FCD6-4586-98B4-CF243617D901.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/FC5209AE-4C8C-4683-A2A6-A756409552A7.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/313C7484-B35F-4A5B-B3B3-17B1E99989B7.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/F852B05E-FBD5-4DC1-9284-1E56B92696A9.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/31344371-AEB4-4FC2-B8FD-85512C14A47D.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/17F61743-474F-4DD7-A32F-B4E8327D732E.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/007C302F-0CB6-4262-94A9-6E36315A9538.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/CD9FBBB1-EFAB-45AA-BAFB-0F72895A461C.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/0AA36836-8F36-43F7-8011-9B05CF649F32.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/85C3A897-DB84-465E-972D-5A453B44B23F.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/34175FDA-9B82-452C-8461-8C8FF3B47243.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/E67EBE0D-3BCD-4B61-8EF1-C05975D366D6.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/BA7AECB3-73E8-4752-9D59-00878AD5DDB2.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/C409210B-3D78-4C28-BC57-E3F842892DA7.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/44853AD0-98EF-481B-A7AB-A2ADBAF06320.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/8CC07BC5-49DD-4D68-8959-63DD48BF374C.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/03A7A2D5-951E-4E60-A062-2B925E50852C.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/92345321-4895-4339-8F33-ECF9156D59CE.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/54B1DC23-A9AB-43B7-A84B-62736F9334D9.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/A55DF119-ECD0-4B48-AE83-8F5B1B7DE555.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/11385702-1FF5-4E2B-82C4-74C7A001FF81.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/41D8078F-8EE1-491D-ACF3-655C086D9727.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/9AE79A88-A53E-4FF9-82CF-144527013B7B.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/864A5868-617A-4CB6-BAED-8AD9FD008018.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/B4857C0F-81C5-4FB4-8BAB-0FC24495AC0C.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/24444C31-B93F-4DA6-9D56-6A2F47904287.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/470C5286-984C-4700-A515-CF127B3C375E.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/2B44A2DF-8D4E-43FE-9459-48253552F605.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/E26820CD-0C3D-427F-9263-8F1D2C10963D.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/34E4C4E4-7F0E-402E-9FBB-245099615D9D.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/88E9D391-D224-4CA8-B849-711524F3B518.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/CF7B61A3-25D2-4EBE-967B-F26D9AB6C708.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/1B1E54B0-DFD4-47E1-A499-176D02D31E17.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/857ED2B1-60F4-413A-8BDA-170668048F75.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/CD968A2B-0F09-414F-A989-C0CEDFB4C231.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/B060A25D-BB1E-41F2-952A-554B98E6F391.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/9FE29C2A-0230-4AF2-9F7B-69BF8526A60C.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/4C8C0DB7-E2FD-4175-8D01-2DDD20EDFAC7.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/4C4114BA-7C78-4378-B4C2-DBD2AA4E19CA.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/C26F4CE2-08D5-41BB-905F-56705DA4AC36.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/20A45704-E42D-4DA1-8233-178E5749A8B2.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/A00D9DC2-F953-4C65-B532-37E48E20D624.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/A5D9530C-08EA-4D0F-A411-16C6827349F0.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/DAF92107-D9C6-41CD-8982-9C81132277C9.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/192E2BBB-D880-4561-A0D3-396EE6A59043.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/E8D813BF-772C-448D-A5DF-EF5568573291.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/C90E1569-F769-4C98-A651-674E099BEBC7.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/59D8552A-ED39-4EA4-98F7-2E97671CBFE7.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/484E10DC-FAB3-455F-8772-EF80CDC472CA.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/DB43D8DF-D5F2-477A-A1EB-A858D2E7316D.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/59BF0BC5-4582-485C-A2DE-F48635A52F64.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/EB56A8C7-2969-4FF0-9F57-5340C59930B6.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/5953FE2D-C88E-42F1-8E1C-4814553A7519.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/53D409B9-176C-4571-B5D2-4C31CA3D4C85.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/3784F41B-49A2-485A-A501-EFD8ABD4914C.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/8E803A7D-1621-4E06-95BF-265E7BA4CD55.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/AE30525E-5635-479B-93C6-8994817F5FF1.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/1A55C1D7-55B9-4279-B463-EBD575FF1FF8.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/C890D92C-01CD-45E8-9F91-470C2A61FC09.jpg"
+            },
+            {
+                "page": "drm/0/39210/OEBPS/Images/1/512C1ED9-BAE2-46B5-B01B-52F6A64A2431.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/39210/OEBPS/Images/1/507033F3-3D03-4152-8BBE-79DD5D46B44E.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "39210",
+        "id": "39210",
+        "title": "Simon's Cat in Kitten Chaos",
+        "author": "Simon Tofield",
+        "illustrator": "Simon Tofield",
+        "numPages": 251,
+        "bookDescription": "Half the size, double the trouble. Simon's Cat has a new little friend who may be even more accident prone.",
+        "coverColorR": 196,
+        "coverColorG": 216,
+        "coverColorB": 228,
+        "version": 858927445,
+        "previewPercent": 20,
+        "publisher": "Akashic Books",
+        "publisherId": "165",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "1-2 hours",
+        "avgTimeInt": 4183,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Funny",
+        "subjectColor": "FFD673",
+        "copyright": "",
+        "aspectRatio": 1.2736,
+        "contentHash": "2324a555ba4d6876c98f",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 1,
+        "date_modified": 1555373678
+    },
+    "userBook": {
+        "modelId": "46250489-39210",
+        "userId": "46250489",
+        "bookId": "39210",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311114,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311114,
+        "book": {
+            "modelId": "39210",
+            "title": "Simon's Cat in Kitten Chaos",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "2324a555ba4d6876c98f"
+        }
+    },
+    "quiz": null
+}

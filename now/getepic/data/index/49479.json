@@ -1,0 +1,428 @@
+{
+    "publisherData": {
+        "modelId": "90387",
+        "name": "Houghton Mifflin Harcourt.",
+        "url": "https://www.hmhco.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1545162876
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/01efde2fdb2da5009208118f2f3f0110.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/4f2458bc2b3361998c04f5bb1fef7fb6.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/a395f760c4713876ca9536ecfe264836.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/44dbd61209b60c3ae326aa684a7e6841.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/cd9541a2d0814ae0b72fe8ac200de26d.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/ae2e769ee3320a5d4105d2a7d509a8c1.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/ac41db9f3ed2dfdef8295658f0e823c5.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/4df8207362b184fef5beae8b7f9fb05a.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/f0dbc47b25b2527c10f3b271835f7744.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/6000b3e6fc68e9e27139384fa2a64bbd.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/23cd37e0a7a57bb0fec1c454b4a13b00.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/3661e22e0aaa0bd7871795756cc7980a.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/bb681a26a7b99fa90222c47a0aa545f8.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/1ab2573c51f52a0377416c29fb815e24.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/fae4d44f1c097bab5b0dcbb8893da5bc.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/15f718497b110cee562597306dc71a71.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/a63f93a0257b6c1dcaf713b4e649faf8.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/8112416543c2dc976d14f8b0fa557c60.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/1d4b13b17f0d39816ace606539ee5a81.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/cdc0825488efef12f913803e004a76da.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/5a6d1b141c1df6a60a1fc93da3ba4778.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/9373e7516e8c731b1d9b4760cae4b436.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/0679215608e2906265152d05d2a87709.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/1d6ed1610f704a582e7f05cda2b52fda.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/7780d906cc732dcb638375ee544feb30.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/fae229fb558ce02f40c2eb0d2c14d7b7.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/ec700d1879fcc05cb4039a60d1b7ebf4.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/7734a300e17423ca3af75cdeafcc5392.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/34cc50ee0faf17e1b2b092f34c5a7160.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/b1912f13d6ad9e903b16393d7ab610ce.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/c50ed309f0d82f6aa1ce7deff4d9fc81.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/22fc8fdabfee24a5d3403f3ff2994dbf.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/4c563c78c4b880d6603a552f8d66cc8e.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/903de8ce11a3e389c5fd10ae9c04aa7a.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/fd4996640f24f6c7c0c893a297d894cb.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/6cd070c173c1857da8bc6b34db62c43b.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/a8937a849f8b8ab702fef8bdf7d474b4.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/de422635e1d1b10b7ff64a9d2d1625d4.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/b9db1a8be9f6c66aaf2787dd3bd4fd6e.jpg"
+            },
+            {
+                "page": "drm/9/49479/OEBPS/Images/1/9ce904853a9f9ce4177a657a50773cbb.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/49479/OEBPS/Images/1/fd04bc8e2c4df737dba318a7c6d91cae.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "49479",
+        "id": "49479",
+        "title": "The Three Pigs",
+        "author": "David Wiesner",
+        "illustrator": " ",
+        "numPages": 40,
+        "bookDescription": "This picture book begins placidly enough, with three pigs collecting materials and going off to build houses of straw, sticks, and bricks.",
+        "coverColorR": 217,
+        "coverColorG": 208,
+        "coverColorB": 199,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Houghton Mifflin Harcourt.",
+        "publisherId": "90387",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 666,
+        "ar": "2.3",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "91",
+        "subjectDesc": "Fairy Tales, Folk Tales & Myths",
+        "subjectColor": "F54444",
+        "copyright": "",
+        "aspectRatio": 1.2165,
+        "contentHash": "d1eaa0bb95f0401e741c",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1546641099
+    },
+    "userBook": {
+        "modelId": "46250489-49479",
+        "userId": "46250489",
+        "bookId": "49479",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310668,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310668,
+        "book": {
+            "modelId": "49479",
+            "title": "The Three Pigs",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "d1eaa0bb95f0401e741c"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "395745",
+            "user_id": "44688839",
+            "book_id": "49479",
+            "title": "The Three Little Pigs",
+            "description": "",
+            "date_created": 1556545363,
+            "date_modified": 1556545748,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What did the first pig build his house out of?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Straw",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Brick",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "Who came knocking at the Little Pig's Door?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "A Wolf",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "The Little Pig's Brother",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What did the Wolf Say when the Little Pig wouldn't let him in?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "\"Then I'll Huff and I'll puff and I'll blow your house in!\"",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "\"Not by the hairs on my chinny chin chin\"",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What was the Second Little Pigs house made of?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Sticks",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Brick",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Who helped the Little Pigs scare away the Big Bad Wolf?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "A Dragon",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "A Cat",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "395745",
+            "creatorName": "Teacher Profile",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "44688839",
+                "udid": "5cc6ef00d3a3d9.80377766",
+                "journalName": "Mrs. Thompson",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.94509803921569 0.66274509803922 0.92941176470588 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "394465139",
+                "fid": "",
+                "accountID": "34b93aae-5588-45e0-8ad5-cf475eab04b1",
+                "simpleAccountId": "11698219",
+                "pagesFlipped": 465,
+                "nufComplete": 1,
+                "readingAge": 5.9,
+                "startingAge": 5,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 297,
+                "xpLevel": 6,
+                "dateLastLogin": 1557343331,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Kara",
+                "lastName": "Thompson",
+                "accountType": 1,
+                "dateModified": 1557343331,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Thompson"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What did the first pig build his house out of?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Straw",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Brick",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "Who came knocking at the Little Pig's Door?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "A Wolf",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "The Little Pig's Brother",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What did the Wolf Say when the Little Pig wouldn't let him in?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "\"Then I'll Huff and I'll puff and I'll blow your house in!\"",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "\"Not by the hairs on my chinny chin chin\"",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What was the Second Little Pigs house made of?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Sticks",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Brick",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Who helped the Little Pigs scare away the Big Bad Wolf?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "A Dragon",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "A Cat",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

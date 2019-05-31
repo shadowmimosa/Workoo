@@ -1,0 +1,568 @@
+{
+    "publisherData": {
+        "modelId": "94",
+        "name": "Sleeping Bear Press",
+        "url": "http://sleepingbearpress.com",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491261794
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/8EF12537-AF03-4B8A-9BFD-2D838EB87619.jpg",
+                "audio": "drm/9/33439/OEBPS/Audio/1/aud3.mp3"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/4B5B0460-A542-4D70-8F0B-07126B00A619.jpg",
+                "audio": "drm/9/33439/OEBPS/Audio/1/aud4-5.mp3"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/D7097D72-E580-4933-9177-F650FF9969B9.jpg"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/A238DB85-032F-45D8-B134-5939B548EFDE.jpg",
+                "audio": "drm/9/33439/OEBPS/Audio/1/aud6-7.mp3"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/EF2C75D0-0D18-4980-8EEF-EF82496AF66F.jpg"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/52860FA6-24E6-4E0C-9EE2-EE7E9BA3FD34.jpg",
+                "audio": "drm/9/33439/OEBPS/Audio/1/aud8-9.mp3"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/905DD794-5E53-4F2A-86DD-808761952892.jpg"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/DF481ED4-5BB9-435A-8E75-281679C6666B.jpg",
+                "audio": "drm/9/33439/OEBPS/Audio/1/aud10-11.mp3"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/091266F5-E7D3-4090-991D-CE99207A8E1E.jpg"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/32AC6D00-E45E-4CF4-BCE0-ECAD43B64301.jpg",
+                "audio": "drm/9/33439/OEBPS/Audio/1/aud12-13.mp3"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/22CEBBDC-6E6C-4375-BDDC-18F464D34F51.jpg"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/A1CC48EC-FDF5-43B8-A8BD-05DEE552DF77.jpg",
+                "audio": "drm/9/33439/OEBPS/Audio/1/aud14-15.mp3"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/E2CA471F-CCF0-460C-AC7E-5D261499AD54.jpg"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/1BFD0AA1-0A8F-40F8-AF3A-2C97D1995E5E.jpg",
+                "audio": "drm/9/33439/OEBPS/Audio/1/aud16-17.mp3"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/E492CCDF-690B-4A57-86D8-F4CFE90EB41B.jpg"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/9FD10A6F-5701-49E3-B4E6-BA137E69AA28.jpg",
+                "audio": "drm/9/33439/OEBPS/Audio/1/aud18-19.mp3"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/80E8C4F9-0FF5-4577-8ECF-D3B3A9778736.jpg"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/1CF8AB6C-1CB9-4934-A055-97CD8F1608D7.jpg",
+                "audio": "drm/9/33439/OEBPS/Audio/1/aud20-21.mp3"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/D59283AF-FA1C-4F5B-AA15-25A6BA7AF171.jpg"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/32381FDD-9A7F-42CA-956F-4BE7E04BF308.jpg",
+                "audio": "drm/9/33439/OEBPS/Audio/1/aud22.mp3"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/9B8CDB45-8748-433D-A31E-53C50C93A16F.jpg"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/8557C570-428A-4BC5-ACC7-48618FDD4C5A.jpg",
+                "audio": "drm/9/33439/OEBPS/Audio/1/aud24-25.mp3"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/828FA188-2925-45EF-AA85-4AA0C8A24AEE.jpg"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/07CCCEC2-67E2-4EAB-BB59-3A0982C83DC9.jpg",
+                "audio": "drm/9/33439/OEBPS/Audio/1/aud26-27.mp3"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/25FA3E6C-384E-482F-879F-0CEE204FCD9D.jpg"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/9B703D7B-92BF-4084-B65E-4A7D957E67F6.jpg",
+                "audio": "drm/9/33439/OEBPS/Audio/1/aud28.mp3"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/9468E082-D18D-4EC6-94E3-8B92DE2E8446.jpg"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/4D0B0FC1-34E3-47D8-B69B-70F318AD6BDB.jpg",
+                "audio": "drm/9/33439/OEBPS/Audio/1/aud30-31.mp3"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/591A3481-75C1-442C-B4F4-0039DF53D481.jpg"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/7B7FC731-9584-416F-A12E-53A94C6034A5.jpg",
+                "audio": "drm/9/33439/OEBPS/Audio/1/aud32.mp3"
+            },
+            {
+                "page": "drm/9/33439/OEBPS/Images/1/C937A59F-1C72-4CDD-B2B7-2937CF08C542.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/33439/OEBPS/Images/1/AE2B9B82-AF00-498A-BEED-FDDFC37407FB.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "33439",
+        "id": "33439",
+        "title": "Norbert's Big Dream",
+        "author": "Lori Degman",
+        "illustrator": "Marco Bucci",
+        "numPages": 31,
+        "bookDescription": "Norbert has always dreamed of swimming the English Channel. Will Norbert have to give up on his dreams?",
+        "coverColorR": 107,
+        "coverColorG": 113,
+        "coverColorB": 123,
+        "version": 858927445,
+        "previewPercent": 20,
+        "publisher": "Sleeping Bear Press",
+        "publisherId": "94",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "AD510L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 568,
+        "ar": "2.2",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Daily Life",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "ebb75dd25cb99db9fea9",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1533158749
+    },
+    "userBook": {
+        "modelId": "46250489-33439",
+        "userId": "46250489",
+        "bookId": "33439",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311274,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311274,
+        "book": {
+            "modelId": "33439",
+            "title": "Norbert's Big Dream",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "ebb75dd25cb99db9fea9"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "393049",
+            "user_id": "43916227",
+            "book_id": "33439",
+            "title": "Norbert's Big Dream",
+            "description": "",
+            "date_created": 1556201601,
+            "date_modified": 1556201601,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Since he was a wee pig, what was Norbert's big dream?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "swimming the English Channel",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "rolling in a mud pit",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "slurping slop",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "snoozing in the shade",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What did Norbert do while the other pigs snoozed in the shade?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "push-ups",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "snoozed in the sun",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "ate healthy food",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "rolled in the mud",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "How did the other pigs react when Norbert announced he was going to swim the English Channel?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "The made fun of him.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "They cheered him on.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "They didn't listen to him.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "They went with him.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Why did Norbert not swim in the English Channel?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "He did not know how to get there.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "The swim coach told to he had to stay home.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "He was too scared.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "There was no water to swim in.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "What did the other pigs do to help Norbert achieve his dream?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "They made a sign leading him to puddle of water that he could swim in.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "They went with him to the English Channel.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "They cheered for him as he swam in the water.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "They told the farmer to drive Norbert to the English Channel.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "After Norbert achieved his first dream, what was his new dream?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "to climb a mountain",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "to fly an airplane",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "the swim in the ocean",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "to lay in the mud",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 5
+                }
+            ],
+            "modelId": "393049",
+            "creatorName": "Arianna B.",
+            "avatarId": "5",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "43916227",
+                "udid": "5cb0d240373e69.15414950",
+                "journalName": "Arianna B.",
+                "journalCoverAvatar": "5",
+                "journalCoverColor": "0.97254901960784 0.84313725490196 0.38823529411765 1",
+                "journalFrameImage": "6",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "469654168",
+                "fid": "",
+                "accountID": "e83457c0-50f5-4c4a-abe7-8c34e6d719f7",
+                "simpleAccountId": "11397901",
+                "pagesFlipped": 1055,
+                "nufComplete": 1,
+                "readingAge": 6.36667,
+                "startingAge": 7,
+                "status": 0,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 1042,
+                "xpLevel": 11,
+                "dateLastLogin": 1558359812,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "Arianna",
+                "lastName": "Brown",
+                "accountType": 1,
+                "dateModified": 1558450238,
+                "grade": 2
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Since he was a wee pig, what was Norbert's big dream?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "swimming the English Channel",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "rolling in a mud pit",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "slurping slop",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "snoozing in the shade",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What did Norbert do while the other pigs snoozed in the shade?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "push-ups",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "snoozed in the sun",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "ate healthy food",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "rolled in the mud",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "How did the other pigs react when Norbert announced he was going to swim the English Channel?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "The made fun of him.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "They cheered him on.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "They didn't listen to him.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "They went with him.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Why did Norbert not swim in the English Channel?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "He did not know how to get there.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "The swim coach told to he had to stay home.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "He was too scared.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "There was no water to swim in.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "What did the other pigs do to help Norbert achieve his dream?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "They made a sign leading him to puddle of water that he could swim in.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "They went with him to the English Channel.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "They cheered for him as he swam in the water.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "They told the farmer to drive Norbert to the English Channel.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "After Norbert achieved his first dream, what was his new dream?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "to climb a mountain",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "to fly an airplane",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "the swim in the ocean",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "to lay in the mud",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 5
+            }
+        ]
+    }
+}

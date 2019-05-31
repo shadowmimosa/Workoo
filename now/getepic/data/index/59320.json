@@ -1,0 +1,381 @@
+{
+    "publisherData": {
+        "modelId": "90327",
+        "name": "ABDO Kids an imprint of ABDO Publishing",
+        "url": "http://abdopublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1527111706
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/59320/OEBPS/Images/1/b54cbb195e46d59a716143958754b4db.jpg",
+                "audio": "drm/0/59320/OEBPS/Audio/1/Title.mp3"
+            },
+            {
+                "page": "drm/0/59320/OEBPS/Images/1/08e2ffaa0f628ba0bf0043734845adec.jpg",
+                "audio": "drm/0/59320/OEBPS/Audio/1/page4-5.mp3"
+            },
+            {
+                "page": "drm/0/59320/OEBPS/Images/1/a8d26e3e8684b2d15114853b4b0ac9f1.jpg"
+            },
+            {
+                "page": "drm/0/59320/OEBPS/Images/1/fa3c8bb1c011dcc46a8bbd40b407f939.jpg",
+                "audio": "drm/0/59320/OEBPS/Audio/1/page6-7.mp3"
+            },
+            {
+                "page": "drm/0/59320/OEBPS/Images/1/438d9d1a36a10763f0709f237125fe5d.jpg"
+            },
+            {
+                "page": "drm/0/59320/OEBPS/Images/1/965a2762ec9c9fda3725ad07514cbae7.jpg",
+                "audio": "drm/0/59320/OEBPS/Audio/1/page8-9.mp3"
+            },
+            {
+                "page": "drm/0/59320/OEBPS/Images/1/801bda3b210133a4b5b41b4b7474ed79.jpg"
+            },
+            {
+                "page": "drm/0/59320/OEBPS/Images/1/dc86cbd43d0dc1fe54deeb625ca47ea6.jpg",
+                "audio": "drm/0/59320/OEBPS/Audio/1/page10-11.mp3"
+            },
+            {
+                "page": "drm/0/59320/OEBPS/Images/1/f02aab8d7a8a02a8148f37d94708089f.jpg"
+            },
+            {
+                "page": "drm/0/59320/OEBPS/Images/1/7a7e459f487258af203e803e2ef57ddb.jpg",
+                "audio": "drm/0/59320/OEBPS/Audio/1/page12-13.mp3"
+            },
+            {
+                "page": "drm/0/59320/OEBPS/Images/1/724b91aa42ed2d14cdd701dea42d9100.jpg"
+            },
+            {
+                "page": "drm/0/59320/OEBPS/Images/1/c7505526146a928c4c6dfde727054c33.jpg",
+                "audio": "drm/0/59320/OEBPS/Audio/1/page14-15.mp3"
+            },
+            {
+                "page": "drm/0/59320/OEBPS/Images/1/4883b39c7a18ee2e1af8fe7a9f82589a.jpg"
+            },
+            {
+                "page": "drm/0/59320/OEBPS/Images/1/76a957fd6cfa58b2cc8732d0788e2e8e.jpg",
+                "audio": "drm/0/59320/OEBPS/Audio/1/page16-17.mp3"
+            },
+            {
+                "page": "drm/0/59320/OEBPS/Images/1/972f3b253572f9434df98794b79bf745.jpg"
+            },
+            {
+                "page": "drm/0/59320/OEBPS/Images/1/178fdcb9220602403209c50e84f5a767.jpg",
+                "audio": "drm/0/59320/OEBPS/Audio/1/page18-19.mp3"
+            },
+            {
+                "page": "drm/0/59320/OEBPS/Images/1/1e5394afd54090dd3879fca4c907f08c.jpg"
+            },
+            {
+                "page": "drm/0/59320/OEBPS/Images/1/12fe1d0c2af2acd4242e99d699ebafea.jpg",
+                "audio": "drm/0/59320/OEBPS/Audio/1/page20-21.mp3"
+            },
+            {
+                "page": "drm/0/59320/OEBPS/Images/1/32b12b5acd3faa5bb3ab40371c345944.jpg"
+            },
+            {
+                "page": "drm/0/59320/OEBPS/Images/1/2b3525d18ba686b74abb12ba0ba47046.jpg",
+                "audio": "drm/0/59320/OEBPS/Audio/1/page22.mp3"
+            },
+            {
+                "page": "drm/0/59320/OEBPS/Images/1/759170ca92bc62f1f5fc10cf2441a251.jpg"
+            },
+            {
+                "page": "drm/0/59320/OEBPS/Images/1/9797b156a97f96a13e6479ab683d60f0.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/59320/OEBPS/Images/1/44a8114983a9e4e16e7e97838068c171.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "59320",
+        "id": "59320",
+        "title": "The Alphabet: Dd",
+        "author": "Bela Davis",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "From donuts to dogs, this title has got D words covered!",
+        "coverColorR": 213,
+        "coverColorG": 208,
+        "coverColorB": 196,
+        "version": 2147483647,
+        "previewPercent": 20,
+        "publisher": "ABDO Kids an imprint of ABDO Publishing",
+        "publisherId": "90327",
+        "age": 5,
+        "pageNumOffset": 1,
+        "active": 1,
+        "audio": 1,
+        "lexile": "170L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 366,
+        "ar": "0.7",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "b",
+        "language": 1,
+        "rating": 81,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "ABCs & 123s",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.0603,
+        "contentHash": "9cf6c09e4a521814169a",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374863
+    },
+    "userBook": {
+        "modelId": "46250489-59320",
+        "userId": "46250489",
+        "bookId": "59320",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311709,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311709,
+        "book": {
+            "modelId": "59320",
+            "title": "The Alphabet: Dd",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "9cf6c09e4a521814169a"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "397333",
+            "user_id": "44769459",
+            "book_id": "59320",
+            "title": "D",
+            "description": "",
+            "date_created": 1556639405,
+            "date_modified": 1556639547,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What letter does dad start with?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "D",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "E",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "F",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "G",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What does adore mean?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "To love  very much ",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "To hate alot",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "To not like",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "To kind of like",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What does Diana do? ",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Cheer",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Dress up",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Adore ",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Drive",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                }
+            ],
+            "modelId": "397333",
+            "creatorName": "Ms. Cechoslovakia",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "44769459",
+                "udid": "5cc86e07c161e3.70356582",
+                "journalName": "Ms. Cechoslovakia",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.15686274509804 0.47058823529412 0.60392156862745 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "583511104",
+                "fid": "",
+                "accountID": "ad862526-dd4f-4132-bc0a-5f2f7276f469",
+                "simpleAccountId": "11716119",
+                "pagesFlipped": 25,
+                "nufComplete": 1,
+                "readingAge": 11.7667,
+                "startingAge": 12,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 0,
+                "xpLevel": 1,
+                "dateLastLogin": 1556639241,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Gracie",
+                "lastName": "Cechoslovakia",
+                "accountType": 1,
+                "dateModified": 1556639247,
+                "educatorPrefix": "Ms.",
+                "name": "Ms. Cechoslovakia"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What letter does dad start with?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "D",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "E",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "F",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "G",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What does adore mean?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "To love  very much ",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "To hate alot",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "To not like",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "To kind of like",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What does Diana do? ",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Cheer",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Dress up",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Adore ",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Drive",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            }
+        ]
+    }
+}

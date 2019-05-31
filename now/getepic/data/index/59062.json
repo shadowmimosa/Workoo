@@ -1,0 +1,185 @@
+{
+    "publisherData": {
+        "modelId": "90312",
+        "name": "Houghton Mifflin Harcourt",
+        "url": "https://www.hmhco.com/",
+        "checkout": 0,
+        "educationalEnabled": 0,
+        "dateModified": 1523564869
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/35c050d8d8130761524b51dbc7cb3ba1.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/cd9450207ee7f09ebfe803cd809a0dd7.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/69fcb373faa5aaca33a04013ada6005b.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/e071b2cd894f134b0c5f3193cc505d01.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/df2f9fe2af462be57c506b2acb5838c2.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/772a8244a607411fb4d19cc92eaa16b5.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/36975fe1676d7cceedb1e82db2b8b8af.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/568ad1b97d078c993cc20521d3e2524f.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/1f0dbcbfa4dafcaac29cadf1957ed47b.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/c12ab4883510a2eff9f0843d564b0764.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/1394e9ce94e65254b27cd72db6123774.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/1fa2ed672c5dba9ce03cec9e7cbc17ee.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/fce76e6d49ed57058f137b2c57617cf2.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/37dadca97cca5d29ef88c0241926db13.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/3336dcea521121405a5dfc84ea5f72be.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/9cab70dda157be3aa346b5baf3e716cb.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/6dc5e9a4fe03da9384cdd295da577a44.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/4f7f192eff71374f1c1c4d22d24e1a7f.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/d58a86d8abde87bddb68d0484d77f8a8.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/a224d661555027e9671860063085cd7f.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/02cbb597dfb65f9ac9938266ea3b91f6.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/39559c015aa4d22f1737f34f70a9cfb9.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/d55ab389efc94263e053b87ed892ab7c.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/f70936e8a9a1718430f449af497ca040.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/35fd54b346180606e74f82f38b2a1f78.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/c53c9d55511307f87481710cfbe7d134.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/7139f788b8d270e3e5e99d9d0d33ba44.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/d7600c399d564c9e69fea74b332c65fb.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/9a183b2c9495f08ef7b0c2466f000115.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/7573da652091691158e0cee45e6ea69f.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/a761f2bd45aada0095fc7c63c97adeab.jpg"
+            },
+            {
+                "page": "drm/2/59062/OEBPS/Images/1/59d22e65532b52b9777dfeb863d29617.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/2/59062/OEBPS/Images/1/e02c4ded4d993fadeb76d6d0740a7cb8.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "59062",
+        "id": "59062",
+        "title": "MR. WUFFLES!",
+        "author": "David Wiesner",
+        "illustrator": " ",
+        "numPages": 32,
+        "bookDescription": "Mr. Wuffles ignores all of his cat toys but one, which turns out to be a spaceship piloted by small green aliens.",
+        "coverColorR": 179,
+        "coverColorG": 162,
+        "coverColorB": 125,
+        "version": 2147483647,
+        "previewPercent": 20,
+        "publisher": "Houghton Mifflin Harcourt",
+        "publisherId": "90312",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 533,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 75,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Cats",
+        "subjectColor": "C72F8B",
+        "copyright": "2013",
+        "aspectRatio": 1.2222,
+        "contentHash": "4a6ac106deeb580a6570",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1546641020
+    },
+    "userBook": {
+        "modelId": "46250489-59062",
+        "userId": "46250489",
+        "bookId": "59062",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310283,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310283,
+        "book": {
+            "modelId": "59062",
+            "title": "MR. WUFFLES!",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "4a6ac106deeb580a6570"
+        }
+    },
+    "quiz": null
+}

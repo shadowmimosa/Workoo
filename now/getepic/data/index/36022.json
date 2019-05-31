@@ -1,0 +1,182 @@
+{
+    "publisherData": {
+        "modelId": "90008",
+        "name": "Gecko Press an imprint of Lerner Publishing Group",
+        "url": "http://www.geckopress.co.nz/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1490146597
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/AF9C0EC0-8621-4709-BFD3-F6C5EEB15672.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/3E1B15B2-AE9E-482E-847C-B85B1834CAA0.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/F672744D-0986-44A6-BDEF-81B28A1FF876.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/2D3275BE-8C8F-48D7-BC82-930F9FFDB9D9.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/96867959-D978-48AC-A34D-CE4BA530A26B.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/EB28623A-E62F-426C-A83D-580A927F630D.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/DFA1D773-678D-44B5-99CC-A95664E761CF.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/986631A9-C57A-4BC0-8C12-D609B7FCB960.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/3AB38E39-2598-45C4-B2A6-1BC4FA49B809.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/9C4694B1-5A35-4F53-92C9-E9E5D75FBB34.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/87C1E6E0-1BD2-4414-A3DA-8CB6559FBFE6.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/B5A471ED-D65B-4457-A321-3B61C12C633C.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/A235E2DD-9240-41F1-A58D-607748859048.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/7D3B89C7-DBDD-49D7-B810-E90D5FC18895.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/4C02572B-2DF1-454B-A6BE-C04A65922C9E.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/7D613E1B-3D4E-46F4-A22C-0D0AD435B5E8.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/FD031939-150A-4B11-BDBE-0C4A02F62B52.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/0315642A-23D6-4EDD-AC17-481A8CB086C4.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/8389AB0B-5176-4BDE-A774-377B76632AB0.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/6C9594EB-84A2-459E-8DCC-2D3644B5050B.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/F3E72C3F-8633-437E-A918-C869A496736F.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/57EE322A-10F0-4DF8-B0AB-2EC4A5921695.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/01911350-BD7C-4796-943C-689577F8F1AE.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/02245381-A6FE-49E7-898E-E9C0F2FE4F00.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/D60F24DB-E115-4805-930D-743E81DA9051.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/B9AF6C36-9E2D-4341-82DF-AE57220ADE82.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/6F6DDC55-82CE-4A75-B0EF-601A19D4A12B.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/527E823A-858D-4D2B-99CF-D93F690EBE0D.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/90E425B3-F531-4145-8555-7BA6F621ADFB.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/71A9EBC8-B925-48F2-8F0E-A114A5811043.jpg"
+            },
+            {
+                "page": "drm/2/36022/OEBPS/Images/1/47A99EBC-7930-4DE0-933B-72A8FC401F42.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/2/36022/OEBPS/Images/1/04AE946B-883A-4B3A-9A40-E502EFF6E5EC.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "36022",
+        "id": "36022",
+        "title": "How to be Famous",
+        "author": "Michal Shalev",
+        "illustrator": " ",
+        "numPages": 31,
+        "bookDescription": "Take a trip through the zoo with this irrepressible pigeon, as she preens and poses alongside all the animals, right up to a grumpy lion.",
+        "coverColorR": 208,
+        "coverColorG": 187,
+        "coverColorB": 154,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Gecko Press an imprint of Lerner Publishing Group",
+        "publisherId": "90008",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "AD480L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 516,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Humorous Stories",
+        "subjectColor": "FFD673",
+        "copyright": "",
+        "aspectRatio": 1.0433,
+        "contentHash": "ed3252f2c54e9aaca37f",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1475289151
+    },
+    "userBook": {
+        "modelId": "46250489-36022",
+        "userId": "46250489",
+        "bookId": "36022",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311735,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311735,
+        "book": {
+            "modelId": "36022",
+            "title": "How to be Famous",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "ed3252f2c54e9aaca37f"
+        }
+    },
+    "quiz": null
+}

@@ -1,0 +1,165 @@
+{
+    "publisherData": {
+        "modelId": "91",
+        "name": "ABDO Publishing",
+        "url": "http://abdopublishing.com//",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570820
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/25939/OEBPS/Images/1/00471C4E-980D-4987-BD3A-CDA541EA89BA.jpg"
+            },
+            {
+                "page": "drm/9/25939/OEBPS/Images/1/83058EB6-ED22-4FDF-9CBA-2FB9A86CF5C5.jpg",
+                "audio": "drm/9/25939/OEBPS/Audio/1/page6.mp3"
+            },
+            {
+                "page": "drm/9/25939/OEBPS/Images/1/AC81A6E3-EC0E-4694-8B67-0C269C717729.jpg"
+            },
+            {
+                "page": "drm/9/25939/OEBPS/Images/1/3523D1A7-E923-4DC1-8AF7-47011C7190E0.jpg",
+                "audio": "drm/9/25939/OEBPS/Audio/1/page8.mp3"
+            },
+            {
+                "page": "drm/9/25939/OEBPS/Images/1/6DD871BA-3F1D-4923-A1B1-136862BA808C.jpg"
+            },
+            {
+                "page": "drm/9/25939/OEBPS/Images/1/567D7F52-CE72-40C4-AAE0-D89664C10809.jpg",
+                "audio": "drm/9/25939/OEBPS/Audio/1/page10.mp3"
+            },
+            {
+                "page": "drm/9/25939/OEBPS/Images/1/D53B20D6-C039-470C-9E86-5CABD7BE32EA.jpg"
+            },
+            {
+                "page": "drm/9/25939/OEBPS/Images/1/7AE0109F-E8FA-4CED-9DB7-D84236FA8CA4.jpg",
+                "audio": "drm/9/25939/OEBPS/Audio/1/page12.mp3"
+            },
+            {
+                "page": "drm/9/25939/OEBPS/Images/1/F8190274-D46D-4F90-9830-253B844D2728.jpg"
+            },
+            {
+                "page": "drm/9/25939/OEBPS/Images/1/6F60C303-2F29-440F-85E2-65127493A236.jpg",
+                "audio": "drm/9/25939/OEBPS/Audio/1/page14.mp3"
+            },
+            {
+                "page": "drm/9/25939/OEBPS/Images/1/D9211718-668B-43FA-BE44-81CA90AC497D.jpg"
+            },
+            {
+                "page": "drm/9/25939/OEBPS/Images/1/50E12EF1-608A-41D8-9B5C-0566E0AA49D7.jpg",
+                "audio": "drm/9/25939/OEBPS/Audio/1/page16.mp3"
+            },
+            {
+                "page": "drm/9/25939/OEBPS/Images/1/EAFAEC42-C998-4A5D-99D3-1BB72489D2B9.jpg"
+            },
+            {
+                "page": "drm/9/25939/OEBPS/Images/1/40412073-62A4-4AB0-8D01-C20A96DFDD72.jpg",
+                "audio": "drm/9/25939/OEBPS/Audio/1/page18.mp3"
+            },
+            {
+                "page": "drm/9/25939/OEBPS/Images/1/25C4AADC-C0AE-4316-BA9B-70AE7AE85A26.jpg"
+            },
+            {
+                "page": "drm/9/25939/OEBPS/Images/1/05A04EB6-1C31-4B08-86B0-A470E7263DF0.jpg",
+                "audio": "drm/9/25939/OEBPS/Audio/1/page20.mp3"
+            },
+            {
+                "page": "drm/9/25939/OEBPS/Images/1/39ED5501-B911-4CC9-AAFB-A9ED066C4B01.jpg"
+            },
+            {
+                "page": "drm/9/25939/OEBPS/Images/1/B5384329-C97F-49B1-AC1C-5738E3AB3FC6.jpg",
+                "audio": "drm/9/25939/OEBPS/Audio/1/page22.mp3"
+            },
+            {
+                "page": "drm/9/25939/OEBPS/Images/1/BA7E231D-D929-4DBC-8B72-7095768C50CB.jpg"
+            },
+            {
+                "page": "drm/9/25939/OEBPS/Images/1/F2D992AD-5787-4663-94C6-ACC9B8DACBD0.jpg",
+                "audio": "drm/9/25939/OEBPS/Audio/1/page24.mp3"
+            },
+            {
+                "page": "drm/9/25939/OEBPS/Images/1/70822DBB-8B6A-4934-83A9-8E7B717E80F7.jpg"
+            },
+            {
+                "page": "drm/9/25939/OEBPS/Images/1/3A849113-6F34-4C52-AA8A-0E00D3C4A50C.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/25939/OEBPS/Images/1/21E5BB99-0118-4BBE-BBD6-8D5D471E5356.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "25939",
+        "id": "25939",
+        "title": "Ovals",
+        "author": "Teddy Borth",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Look around you! You can find ovals everywhere.",
+        "coverColorR": 217,
+        "coverColorG": 211,
+        "coverColorB": 203,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "ABDO Publishing",
+        "publisherId": "91",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "80L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 366,
+        "ar": "1.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 81,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.087,
+        "contentHash": "30c5f4a25cd5b44908b5",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373049
+    },
+    "userBook": {
+        "modelId": "46250489-25939",
+        "userId": "46250489",
+        "bookId": "25939",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311000,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311000,
+        "book": {
+            "modelId": "25939",
+            "title": "Ovals",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "30c5f4a25cd5b44908b5"
+        }
+    },
+    "quiz": null
+}

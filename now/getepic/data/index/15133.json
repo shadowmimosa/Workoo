@@ -1,0 +1,505 @@
+{
+    "publisherData": {
+        "modelId": "44",
+        "name": "National Geographic",
+        "url": "http://kids.nationalgeographic.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491261258
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/69c1a1d2e3a7e0122cd993820f7cee6e.jpg",
+                "audio": "drm/3/15133/OEBPS/Audio/1/9781426312939-01.mp3"
+            },
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/1a7f4e84bbf89dd1613589de721d20f6.jpg",
+                "audio": "drm/3/15133/OEBPS/Audio/1/9781426312939-02.mp3"
+            },
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/2639344e94b9dcb47ea07934368b74bc.jpg"
+            },
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/1d2cd2eaa3fc1fc291c8850405df23ea.jpg",
+                "audio": "drm/3/15133/OEBPS/Audio/1/9781426312939-03.mp3"
+            },
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/9f1942861bc5f22bc6fbce60f45d40f9.jpg"
+            },
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/bc7f9dbb05eecd915973056c3e00897c.jpg",
+                "audio": "drm/3/15133/OEBPS/Audio/1/9781426312939-04.mp3"
+            },
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/da58bc9eef13cde94f75e1ad3ebae88f.jpg"
+            },
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/41f1241ae9a6413d9bc4f0bec4a1ae32.jpg",
+                "audio": "drm/3/15133/OEBPS/Audio/1/9781426312939-05.mp3"
+            },
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/d9aa1e35658a4bbedf13709aa4b9937d.jpg",
+                "audio": "drm/3/15133/OEBPS/Audio/1/9781426312939-06.mp3"
+            },
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/26d31a17c0f3c01407f883895f1f5017.jpg",
+                "audio": "drm/3/15133/OEBPS/Audio/1/9781426312939-07.mp3"
+            },
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/7c53fde6c4015c86b00b6504400fc01d.jpg",
+                "audio": "drm/3/15133/OEBPS/Audio/1/9781426312939-08.mp3"
+            },
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/9b150ad25f47fff3ec00a55f79dc009e.jpg",
+                "audio": "drm/3/15133/OEBPS/Audio/1/9781426312939-09.mp3"
+            },
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/98727bf8a4fc66fcb11c84c3ac1d1234.jpg",
+                "audio": "drm/3/15133/OEBPS/Audio/1/9781426312939-10.mp3"
+            },
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/83f19e74b399e1219807fbbb0616a050.jpg",
+                "audio": "drm/3/15133/OEBPS/Audio/1/9781426312939-11.mp3"
+            },
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/383a0d10ee1da5f04fbfa0556e5f670a.jpg",
+                "audio": "drm/3/15133/OEBPS/Audio/1/9781426312939-12.mp3"
+            },
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/af6f6bdaf12bd7823a61de78e063b73e.jpg",
+                "audio": "drm/3/15133/OEBPS/Audio/1/9781426312939-13.mp3"
+            },
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/a9e11527917b24a22eca0e5e671aa451.jpg",
+                "audio": "drm/3/15133/OEBPS/Audio/1/9781426312939-14.mp3"
+            },
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/fc11375ab372945b89941d549b21ed68.jpg",
+                "audio": "drm/3/15133/OEBPS/Audio/1/9781426312939-15.mp3"
+            },
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/1ff248c198ab5cd7b6cb6fe8f6295db2.jpg",
+                "audio": "drm/3/15133/OEBPS/Audio/1/9781426312939-16.mp3"
+            },
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/560eec49761ced6dd96415f899c7aee7.jpg",
+                "audio": "drm/3/15133/OEBPS/Audio/1/9781426312939-17.mp3"
+            },
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/fc8cb989dba284ec36f6e2766c917da4.jpg",
+                "audio": "drm/3/15133/OEBPS/Audio/1/9781426312939-18.mp3"
+            },
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/4fdd9578ce9f5447f9e92489a6924548.jpg",
+                "audio": "drm/3/15133/OEBPS/Audio/1/9781426312939-19.mp3"
+            },
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/efd4ec194804ed4edc473554db0ede2e.jpg",
+                "audio": "drm/3/15133/OEBPS/Audio/1/9781426312939-20.mp3"
+            },
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/00024a673cc8679fc842fe00c7d6fe4d.jpg",
+                "audio": "drm/3/15133/OEBPS/Audio/1/9781426312939-21.mp3"
+            },
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/1c2e549b13c3af9f7254c5b50d125469.jpg",
+                "audio": "drm/3/15133/OEBPS/Audio/1/9781426312939-22.mp3"
+            },
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/efb256a6a40e658324b5a18cee54f48f.jpg",
+                "audio": "drm/3/15133/OEBPS/Audio/1/9781426312939-23.mp3"
+            },
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/6c8c9e8b1c057c04c0be3f50eb1bf336.jpg",
+                "audio": "drm/3/15133/OEBPS/Audio/1/9781426312939-24.mp3"
+            },
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/5e3ac7225c6c0c88f781dc1db30a1342.jpg",
+                "audio": "drm/3/15133/OEBPS/Audio/1/9781426312939-25.mp3"
+            },
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/ce25df62a5a18afa566c6015cdba0b5c.jpg",
+                "audio": "drm/3/15133/OEBPS/Audio/1/9781426312939-26.mp3"
+            },
+            {
+                "page": "drm/3/15133/OEBPS/Images/1/43b8d9ba9195242f4701f98126ac00d4.jpg",
+                "audio": "drm/3/15133/OEBPS/Audio/1/10sec silence.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/3/15133/OEBPS/Images/1/1b4e902983e2b28d41835c511cf79ebd.jpg",
+            "color": "#16946"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "15133",
+        "id": "15133",
+        "title": "National Geographic Readers: Dinosaurs",
+        "author": "Kathleen Weidner Zoehfeld",
+        "illustrator": " ",
+        "numPages": 30,
+        "bookDescription": "Dinosaur lovers will be wowed by new information and eye-popping illustrations.",
+        "coverColorR": 196,
+        "coverColorG": 172,
+        "coverColorB": 106,
+        "version": 12309,
+        "previewPercent": 10,
+        "publisher": "National Geographic",
+        "publisherId": "44",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "520L",
+        "avgTime": "15-30 mins",
+        "avgTimeInt": 1100,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "i",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pre-Historic",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.6674,
+        "contentHash": "40411c8582463aaee316",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "1",
+        "panelStatus": 0,
+        "date_modified": 1555372758
+    },
+    "userBook": {
+        "modelId": "46250489-15133",
+        "userId": "46250489",
+        "bookId": "15133",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559307270,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559307270,
+        "book": {
+            "modelId": "15133",
+            "title": "National Geographic Readers: Dinosaurs",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "40411c8582463aaee316"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "400877",
+            "user_id": "42397909",
+            "book_id": "15133",
+            "title": "Dinosaurs!",
+            "description": "",
+            "date_created": 1556820847,
+            "date_modified": 1556821565,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "When people found the bones,what did they do?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Sent them to the museum and cleaned them. ",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Went to their house with them.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Called scientists to take them.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Left them there.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What is the biggest dinosaur to ever live?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Argentinosaurus",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Micro raptor",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "T-Rex",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Triceratops",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What does a T-Rex eat?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Meat",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Plants",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Fruits",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Rocks",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Did dinosaurs have fur?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "No",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Yes",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Maybe",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "I don\u2019t know",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Are dinosaurs safe to play with?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "No",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Yes",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "400877",
+            "creatorName": "Mr. Fierro",
+            "avatarId": "82",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "42397909",
+                "udid": "5c93c9ef743956.94549543",
+                "journalName": "Mr. Fierro",
+                "journalCoverAvatar": "82",
+                "journalCoverColor": "0.11764705882353 0.91764705882353 0.64313725490196 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "727025880",
+                "fid": "",
+                "accountID": "0f418f33-2295-4735-9ab2-36018fea7c4f",
+                "simpleAccountId": "11105613",
+                "pagesFlipped": 143,
+                "nufComplete": 1,
+                "readingAge": 9.6,
+                "startingAge": 9,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 0,
+                "xpLevel": 1,
+                "dateLastLogin": 1558647257,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Emiliano",
+                "lastName": "Fierro",
+                "accountType": 1,
+                "dateModified": 1558647257,
+                "educatorPrefix": "Mr.",
+                "name": "Mr. Fierro"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "When people found the bones,what did they do?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Sent them to the museum and cleaned them. ",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Went to their house with them.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Called scientists to take them.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Left them there.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What is the biggest dinosaur to ever live?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Argentinosaurus",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Micro raptor",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "T-Rex",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Triceratops",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What does a T-Rex eat?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Meat",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Plants",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Fruits",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Rocks",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Did dinosaurs have fur?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "No",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Yes",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Maybe",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "I don\u2019t know",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Are dinosaurs safe to play with?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "No",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Yes",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

@@ -1,0 +1,525 @@
+{
+    "publisherData": {
+        "modelId": "5",
+        "name": "Kane Press",
+        "url": "http://www.kanepress.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1501029640
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/1b7ba2e14e692fa953df3c9518744cae.jpg",
+                "audio": "drm/8/5528/OEBPS/Audio/1/982c876321086b5e2848080218b67654.mp3"
+            },
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/2d21d8ba725c7a4932ba46022a5b3ef3.jpg"
+            },
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/9407467bf68ee693f3837bc2eb4992f0.jpg",
+                "audio": "drm/8/5528/OEBPS/Audio/1/310fb16fd898b46204ea61c0ddba5626.mp3"
+            },
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/969dfa00a6fcc85cf379f468754c3646.jpg",
+                "audio": "drm/8/5528/OEBPS/Audio/1/39f5410583f7d3a7b54e9b18cf5f2e17.mp3"
+            },
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/1ee43479f1fef9ecd86b73c2e390dc06.jpg",
+                "audio": "drm/8/5528/OEBPS/Audio/1/decb9862b3bb7cc485e5f88ecd44fd53.mp3"
+            },
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/fa13876695910f760b359242ba6dda83.jpg",
+                "audio": "drm/8/5528/OEBPS/Audio/1/18075083c0ae4b4f6e4e4c21e4a29f75.mp3"
+            },
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/1cb430b93a4bda2333054dfbf59e1e42.jpg",
+                "audio": "drm/8/5528/OEBPS/Audio/1/1476953f3c7501dbf4c84d8b95c2fa0f.mp3"
+            },
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/a3bcf0567dca5acbad2fe50861ba8c25.jpg",
+                "audio": "drm/8/5528/OEBPS/Audio/1/4cf2e7782b2bb033fd33447a546ba5b7.mp3"
+            },
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/c3d6413027aedd7033b6d47ba586a9c4.jpg",
+                "audio": "drm/8/5528/OEBPS/Audio/1/f53055abbe0e17842e80ff207c61d4c5.mp3"
+            },
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/407ff72b43b521f4a01a9bf2a96a3a32.jpg",
+                "audio": "drm/8/5528/OEBPS/Audio/1/8348bc757138fdb781a145b8029b8e5a.mp3"
+            },
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/539ff95f553bcfde359e6e7e5e0c6af8.jpg",
+                "audio": "drm/8/5528/OEBPS/Audio/1/9476e20fa41c257eb36b171ee8f518c0.mp3"
+            },
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/a8ef5d4ff7b76e862b819860ca4fcd16.jpg",
+                "audio": "drm/8/5528/OEBPS/Audio/1/e768ec67d877d27d8081e5b66d3b4f02.mp3"
+            },
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/6ff47987d8f0c693d1dddec7ec9ee257.jpg",
+                "audio": "drm/8/5528/OEBPS/Audio/1/3ccc8853355876348b90e5d2de4c9696.mp3"
+            },
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/fdad00cd85262e6503076850089f0bce.jpg",
+                "audio": "drm/8/5528/OEBPS/Audio/1/55e9764264a2a627b6ec5472f59145e7.mp3"
+            },
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/5086a8f4d9d8160db3a6c64077595474.jpg",
+                "audio": "drm/8/5528/OEBPS/Audio/1/05c2a973271b47417ce35bf496baf893.mp3"
+            },
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/cb6bc17f067df4c002e485353c712c21.jpg",
+                "audio": "drm/8/5528/OEBPS/Audio/1/7da94d1f0e7b3ac7d6be5826a46e6f61.mp3"
+            },
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/ac32187e6c2d611d7d0149b72e1a1ce7.jpg",
+                "audio": "drm/8/5528/OEBPS/Audio/1/5b613b2a07c2eae61bfd6a57c2c69c59.mp3"
+            },
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/f3cc59fa44d4b55b0ad389d9c3d6a3c1.jpg",
+                "audio": "drm/8/5528/OEBPS/Audio/1/9e94c68595fb386189ac37fd1011be4f.mp3"
+            },
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/0f1ea263a7536f353813cdf7aa766bb5.jpg",
+                "audio": "drm/8/5528/OEBPS/Audio/1/8f324fbfb60841796c470ab39b7a0210.mp3"
+            },
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/28c59f195bd55a4deef93fde011f97e5.jpg",
+                "audio": "drm/8/5528/OEBPS/Audio/1/7d2d7c2d1aa8c72dbe95c75eebf5b427.mp3"
+            },
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/38b58b60fd07682be8ccdd3043f35b60.jpg",
+                "audio": "drm/8/5528/OEBPS/Audio/1/ea0fe5b065f1beb49325dff93e7542e3.mp3"
+            },
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/9964ff9ae7cedc232e96a064b3d6a143.jpg",
+                "audio": "drm/8/5528/OEBPS/Audio/1/4b9653d790dbf2eefd45e81fe9cfdf17.mp3"
+            },
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/dd546d0fb585adb31d82ac40a6af8ccb.jpg",
+                "audio": "drm/8/5528/OEBPS/Audio/1/58f0dbe5cbb4b0e143243aa8bc02fd80.mp3"
+            },
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/68d26bb4d8170b5ceb0fdce2da6f90d7.jpg",
+                "audio": "drm/8/5528/OEBPS/Audio/1/5594a97cde8c3cd2f377e4476624e0b2.mp3"
+            },
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/0c8171d841296ab3613377e646e3571c.jpg",
+                "audio": "drm/8/5528/OEBPS/Audio/1/a7265aa3c0ed54d994a0fdd1e56ff712.mp3"
+            },
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/64eabe2e1a2f7e9d165e974bbec6de5b.jpg",
+                "audio": "drm/8/5528/OEBPS/Audio/1/dbc0592112ef371215d2d18eda342688.mp3"
+            },
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/d2b61a52ae003b854f11131880070c87.jpg",
+                "audio": "drm/8/5528/OEBPS/Audio/1/fcd54875ca3aabc3e40c0611cc20c901.mp3"
+            },
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/17d6244f375684317c0380e81a12a9c5.jpg",
+                "audio": "drm/8/5528/OEBPS/Audio/1/84cd6dad576bf30cb7ea28a64f067d37.mp3"
+            },
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/dc9a61d060a8bdff1900a684eef48a12.jpg"
+            },
+            {
+                "page": "drm/8/5528/OEBPS/Images/1/17525e2e05e72224d582b26a3eb4c854.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/5528/OEBPS/Images/1/4591b7951ee6ad5934b2760256b3f46d.jpg",
+            "color": "#fefefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "5528",
+        "id": "5528",
+        "title": "Quentin Quokka's Quick Questions",
+        "author": "Barbara deRubertis",
+        "illustrator": "R.W. Alley",
+        "numPages": 30,
+        "bookDescription": "Quentin Quokka has lots of questions! Quick questions, quiet questions- always more questions!",
+        "coverColorR": 212,
+        "coverColorG": 223,
+        "coverColorB": 204,
+        "version": 12821,
+        "previewPercent": 20,
+        "publisher": "Kane Press",
+        "publisherId": "5",
+        "age": 5,
+        "pageNumOffset": 1,
+        "active": 1,
+        "audio": 1,
+        "lexile": "AD540L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 500,
+        "ar": "2.8",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "ABCs & 123s",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.9975,
+        "contentHash": "24f319b5e855f66471bc",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372208
+    },
+    "userBook": {
+        "modelId": "46250489-5528",
+        "userId": "46250489",
+        "bookId": "5528",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311572,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311572,
+        "book": {
+            "modelId": "5528",
+            "title": "Quentin Quokka's Quick Questions",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "24f319b5e855f66471bc"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "53182",
+            "user_id": "12812527",
+            "book_id": "5528",
+            "title": "Quentin Quokka's Quick Questions",
+            "description": "",
+            "date_created": 1487344813,
+            "date_modified": 1506623764,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Who is the main person in the book?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Quentin Quokka",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Mom",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Teacher",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "friends",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What did Quentin like to do?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Ask lots of questions",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Answer lots of questions",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Hang out with dad",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Learn new things",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Why does Quentin ask so many questions?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "To learn new things",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "To bug people",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "To be mean",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Just because",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What was the problem?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "There was an earth wake",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Quentin asked to many questions",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Quentin interrupted the band",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "There was a really bad storm",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "What was the solutions?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Quentin's quick question let everyone know they needed to get under the desk.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Everyone hid under the table.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "The band just kept playing.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "The band let Quentin pick a song.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "53182",
+            "creatorName": "Teacher Profile",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "12812527",
+                "udid": "587cebb31f9394.22111105",
+                "journalName": "Mrs. Batson",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.12549019607843 0.92941176470588 0.96078431372549 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "928497717",
+                "fid": "",
+                "accountID": "4C179137-6AF5-9EB7-0162-CA2BAC9FCE63",
+                "simpleAccountId": "4283009",
+                "pagesFlipped": 2223,
+                "nufComplete": 1,
+                "readingAge": 5.83333,
+                "startingAge": 0,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 0,
+                "xpLevel": 1,
+                "dateLastLogin": 1536844285,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Katie",
+                "lastName": "Batson",
+                "accountType": 1,
+                "dateModified": 1536844285,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Batson"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Who is the main person in the book?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Quentin Quokka",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Mom",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Teacher",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "friends",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What did Quentin like to do?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Ask lots of questions",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Answer lots of questions",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Hang out with dad",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Learn new things",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Why does Quentin ask so many questions?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "To learn new things",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "To bug people",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "To be mean",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Just because",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What was the problem?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "There was an earth wake",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Quentin asked to many questions",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Quentin interrupted the band",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "There was a really bad storm",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "What was the solutions?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Quentin's quick question let everyone know they needed to get under the desk.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Everyone hid under the table.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "The band just kept playing.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "The band let Quentin pick a song.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

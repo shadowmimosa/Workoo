@@ -1,0 +1,209 @@
+{
+    "publisherData": {
+        "modelId": "76",
+        "name": "Brave Mouse Books",
+        "url": "http://www.ipgbook.com/brave-mouse-books-publisher-BMB.php",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1508279956
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/b3c0f20234bc7be832ca8a693c825ee9.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/a8c4d96b481ce9edfbc01222cb30b259.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/2b3e449a8a6bd45d97dab5700e4680eb.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/90f82d67b6f5a62811ac87b3707c4e7c.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/6efeb9c5755df4c85d42967233c5f972.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/0439217bc4d9395b68ad6db16ad94872.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/80d35d1d6a56dc5457be0bd2c14daaa3.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/bf9fea6d9c7d07de65d4d60c3192019d.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/3c7173b78a928ea1d12dbde35365931f.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/086028b081a1dd883156ddeb49b86c0a.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/e7543ae57fca757666402ba727a0e9b9.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/c7e887123412b60777764dac7319361f.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/c00633714be93d7afa1bd0e1890e7f96.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/175634bceed1ffebc378de889db8a89c.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/df749fa5e44778ad82445bb788a5da36.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/a98ecc50858e0571e0114cc29424db27.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/c89036a4e95262a677fc2ffd49a17635.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/ab07b5a3d417a973741945560b733dc5.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/99be526322c161cb954b7483ebaa32da.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/2cbbbff8c03b69d1bfc661a290003a78.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/8ccaa8fb28cdd1954285858fa36ef48f.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/2d0e43100f03ad3799e1b0f5e03213a1.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/edadf7c058b362c929f63a382439470a.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/95bd38f7f0eb7ed108792a1ce6b2bfb3.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/b5796310af506533bf98f6ac0cafbbe8.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/fa27df67727b0698da3122f4b072617a.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/f2bc21f7addad7880f06d0b705fd433b.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/ac5337534fabee6c7d447afea5f1e72b.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/65b1f64f7c8e75d16b1bba60be0a451f.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/89abe97439519c3a65caf1feffadabfe.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/39adeaaa910da5086578ff0679de6496.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/c3848ef3248aba0a0cd6ff0b41a0f58f.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/2edb0730fb03a2ec64dc4100e6a9d2f1.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/f268b823ead599e41295988082c12411.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/46c8af64f866aebf36525a02231cbe8f.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/0947b938de9d8228447a2c1a075a7dd2.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/e5b31d8a1cbe9601c22a8dd60bdf3eba.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/b360f57739a6ae1145e2e7ab4be6f2da.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/41b9f2974d91bab2c28748136efdbc79.jpg"
+            },
+            {
+                "page": "drm/8/48678/OEBPS/Images/1/71440a64f00dd07786c51e7d2ca9d6a7.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/48678/OEBPS/Images/1/456933599fc5523d82acaee03f7bd065.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "48678",
+        "id": "48678",
+        "title": "Hop, Frog! A Short Vowel Adventure",
+        "author": "Molly Coxe",
+        "illustrator": " ",
+        "numPages": 40,
+        "bookDescription": "Find out what happens when Frogs puts his friends first in this fifth \u201cShort Vowel Adventure\u201d from BraveMouse Books!",
+        "coverColorR": 136,
+        "coverColorG": 136,
+        "coverColorB": 109,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Brave Mouse Books",
+        "publisherId": "76",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "200L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 733,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.7222,
+        "contentHash": "5571238b13f673938dc8",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374179
+    },
+    "userBook": {
+        "modelId": "46250489-48678",
+        "userId": "46250489",
+        "bookId": "48678",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310929,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310929,
+        "book": {
+            "modelId": "48678",
+            "title": "Hop, Frog! A Short Vowel Adventure",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "5571238b13f673938dc8"
+        }
+    },
+    "quiz": null
+}

@@ -1,0 +1,155 @@
+{
+    "publisherData": {
+        "modelId": "90232",
+        "name": "The Creative Company",
+        "url": "http://www.thecreativecompany.us/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260095
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/6/39296/OEBPS/Images/1/0DA4217B-FBF1-4025-83CC-46435BAA511E.jpg"
+            },
+            {
+                "page": "drm/6/39296/OEBPS/Images/1/D8A6F383-1665-43BD-BA90-C31A936B9FAC.jpg"
+            },
+            {
+                "page": "drm/6/39296/OEBPS/Images/1/B7FF26C8-AEB0-4AFA-87B9-17C599012401.jpg"
+            },
+            {
+                "page": "drm/6/39296/OEBPS/Images/1/4A985941-115F-4673-B20B-AC6B30903955.jpg"
+            },
+            {
+                "page": "drm/6/39296/OEBPS/Images/1/C3EA3200-B46C-4DC9-AD09-4C846C3FD00D.jpg"
+            },
+            {
+                "page": "drm/6/39296/OEBPS/Images/1/4BE4A179-0C94-4DA4-B135-7336A976916A.jpg"
+            },
+            {
+                "page": "drm/6/39296/OEBPS/Images/1/98BBFE70-CF35-4179-9D87-BC231D753096.jpg"
+            },
+            {
+                "page": "drm/6/39296/OEBPS/Images/1/33E7FB92-D508-44F4-B9A3-6302F28CFE1D.jpg"
+            },
+            {
+                "page": "drm/6/39296/OEBPS/Images/1/A39AB0FC-9A59-4101-8C53-B8A5BC95C11F.jpg"
+            },
+            {
+                "page": "drm/6/39296/OEBPS/Images/1/072DCD4A-3E96-47AD-96DB-93B8F22B3C3A.jpg"
+            },
+            {
+                "page": "drm/6/39296/OEBPS/Images/1/C24F1BF3-8C4C-4861-83D6-45B7EEDFB1B4.jpg"
+            },
+            {
+                "page": "drm/6/39296/OEBPS/Images/1/FF0CBCFB-09F7-42F0-8225-59390036CC5C.jpg"
+            },
+            {
+                "page": "drm/6/39296/OEBPS/Images/1/58C2BDDC-A76F-4ECC-B6EE-1BCC838ACBE6.jpg"
+            },
+            {
+                "page": "drm/6/39296/OEBPS/Images/1/940B2F81-5401-471E-ABBE-E70926C5C861.jpg"
+            },
+            {
+                "page": "drm/6/39296/OEBPS/Images/1/2B44C951-9FD8-4CF1-A327-6158A5B7C4BE.jpg"
+            },
+            {
+                "page": "drm/6/39296/OEBPS/Images/1/FA82DBDC-3593-4611-AD1B-D0ACD389394B.jpg"
+            },
+            {
+                "page": "drm/6/39296/OEBPS/Images/1/7E4B0FBF-A847-43FF-921E-C223B794EA47.jpg"
+            },
+            {
+                "page": "drm/6/39296/OEBPS/Images/1/98C93187-6684-4F92-B18C-C0B570A64A86.jpg"
+            },
+            {
+                "page": "drm/6/39296/OEBPS/Images/1/888ED437-6C34-4927-9A3A-A4E8EA191179.jpg"
+            },
+            {
+                "page": "drm/6/39296/OEBPS/Images/1/46778602-1D54-4342-BE0E-0510AB23EC97.jpg"
+            },
+            {
+                "page": "drm/6/39296/OEBPS/Images/1/E6123A07-D3AB-4D87-9A9F-946E2CB37280.jpg"
+            },
+            {
+                "page": "drm/6/39296/OEBPS/Images/1/A648044B-B8E4-4D9A-B659-54E8263928C4.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/6/39296/OEBPS/Images/1/AB19BE33-80DB-4B93-A3B8-9E8CA0B1BBDF.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "39296",
+        "id": "39296",
+        "title": "Nimitz Aircraft Carrier",
+        "author": "Quinn M. Arnold",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "A high-interest introduction to the size, speed, and purpose of one of the world's largest aircraft carriers.",
+        "coverColorR": 189,
+        "coverColorG": 188,
+        "coverColorB": 205,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "The Creative Company",
+        "publisherId": "90232",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "660L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 403,
+        "ar": "3.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Things That GO",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 0.9852,
+        "contentHash": "54ee39cbc1e3269e0685",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "0",
+        "panelStatus": 0,
+        "date_modified": 1555373684
+    },
+    "userBook": {
+        "modelId": "46250489-39296",
+        "userId": "46250489",
+        "bookId": "39296",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311913,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311913,
+        "book": {
+            "modelId": "39296",
+            "title": "Nimitz Aircraft Carrier",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "54ee39cbc1e3269e0685"
+        }
+    },
+    "quiz": null
+}

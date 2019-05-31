@@ -1,0 +1,349 @@
+{
+    "publisherData": {
+        "modelId": "95",
+        "name": "Cherry Lake Publishing",
+        "url": "http://cherrylakepublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1452287926
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/60061/OEBPS/Images/1/3c7cd69bd949db13416bc71caec99a5a.jpg"
+            },
+            {
+                "page": "drm/1/60061/OEBPS/Images/1/86053472bec32e00caa21bd6fdd052ff.jpg"
+            },
+            {
+                "page": "drm/1/60061/OEBPS/Images/1/a78730792c036166669ca6b0603b425d.jpg"
+            },
+            {
+                "page": "drm/1/60061/OEBPS/Images/1/dbf4b981170d6477ac2f983f5cc82f7e.jpg"
+            },
+            {
+                "page": "drm/1/60061/OEBPS/Images/1/7f8cf0fe638eba2ec88ecff74ae2adc5.jpg"
+            },
+            {
+                "page": "drm/1/60061/OEBPS/Images/1/9a3ca9bf82a8c1968c307132e075d7e2.jpg"
+            },
+            {
+                "page": "drm/1/60061/OEBPS/Images/1/9ec7674dbf2907063f0f8d90269a3fa5.jpg"
+            },
+            {
+                "page": "drm/1/60061/OEBPS/Images/1/e949e1c14ea99c14a2ed32b00eff8b44.jpg"
+            },
+            {
+                "page": "drm/1/60061/OEBPS/Images/1/e3e08257fb842be949ce0eee46c4c062.jpg"
+            },
+            {
+                "page": "drm/1/60061/OEBPS/Images/1/a28417dcb0f9c73bad9c55d26478d9ff.jpg"
+            },
+            {
+                "page": "drm/1/60061/OEBPS/Images/1/2e90f97e6396b681f1a7c06900adddf0.jpg"
+            },
+            {
+                "page": "drm/1/60061/OEBPS/Images/1/34e22963a370aefcaa4faaddae8a3fe0.jpg"
+            },
+            {
+                "page": "drm/1/60061/OEBPS/Images/1/443a7df1d759b9eae083bfaf3399a128.jpg"
+            },
+            {
+                "page": "drm/1/60061/OEBPS/Images/1/6a68049b57ef132f7e3831873089f33d.jpg"
+            },
+            {
+                "page": "drm/1/60061/OEBPS/Images/1/7f13b7abc39ad324f368a13c0debc7fa.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/60061/OEBPS/Images/1/da3b37c00949088cbbbbd20fa6d2c098.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "60061",
+        "id": "60061",
+        "title": "The Case of the Lost Pup",
+        "author": "Cecilia Minden",
+        "illustrator": "Becky Down",
+        "numPages": 15,
+        "bookDescription": "Help Jack and Meg solve the case of the lost pup! This story uses an engaging mystery story to encourage confidence in early readers.",
+        "coverColorR": 185,
+        "coverColorG": 218,
+        "coverColorB": 232,
+        "version": 64541888,
+        "previewPercent": 20,
+        "publisher": "Cherry Lake Publishing",
+        "publisherId": "95",
+        "age": 4,
+        "pageNumOffset": -1,
+        "active": 1,
+        "audio": 0,
+        "lexile": "180L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 375,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "a",
+        "language": 1,
+        "rating": 81,
+        "type": 1,
+        "subject": "92",
+        "subjectDesc": "Mystery",
+        "subjectColor": "FFA000",
+        "copyright": "",
+        "aspectRatio": 0.8889,
+        "contentHash": "7f58a4fd97e42e325edb",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374900
+    },
+    "userBook": {
+        "modelId": "46250489-60061",
+        "userId": "46250489",
+        "bookId": "60061",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559304202,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559304202,
+        "book": {
+            "modelId": "60061",
+            "title": "The Case of the Lost Pup",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "7f58a4fd97e42e325edb"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "396201",
+            "user_id": "37664087",
+            "book_id": "60061",
+            "title": "Lost Pup",
+            "description": "",
+            "date_created": 1556556733,
+            "date_modified": 1556633532,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What is the name of the pup?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Gus",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Meg",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Jack",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Ms. Clark",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What do Meg and Jack like to do?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Find pets",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Go to school",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Play at the playground",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Swim",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Where was Gus playing?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "In the mud",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Behind the truck",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "By the stump",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "At school",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                }
+            ],
+            "modelId": "396201",
+            "creatorName": "Ms. Clark",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "37664087",
+                "udid": "5c3e9f73439fd7.79745801",
+                "journalName": "Ms. Clark",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.97254901960784 0.84313725490196 0.38823529411765 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "693445453",
+                "fid": "",
+                "accountID": "2268ce97-617e-4121-a512-d6fa17cbd7b0",
+                "simpleAccountId": "9937475",
+                "pagesFlipped": 1294,
+                "nufComplete": 1,
+                "readingAge": 5,
+                "startingAge": 5,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 252,
+                "xpLevel": 5,
+                "dateLastLogin": 1559142522,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Alex",
+                "lastName": "Clark",
+                "accountType": 1,
+                "dateModified": 1559233108,
+                "educatorPrefix": "Ms.",
+                "name": "Ms. Clark"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What is the name of the pup?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Gus",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Meg",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Jack",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Ms. Clark",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What do Meg and Jack like to do?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Find pets",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Go to school",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Play at the playground",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Swim",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Where was Gus playing?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "In the mud",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Behind the truck",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "By the stump",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "At school",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            }
+        ]
+    }
+}

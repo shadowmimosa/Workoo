@@ -1,0 +1,170 @@
+{
+    "publisherData": {
+        "modelId": "90178",
+        "name": "Andersen Press USA distributed by Lerner Publishing Group",
+        "url": "http://andersenpressusa.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1471913581
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/36281/OEBPS/Images/1/7BC75984-1DC0-4D53-B696-87335933D213.jpg"
+            },
+            {
+                "page": "drm/1/36281/OEBPS/Images/1/C4A5DEC4-9ADE-41D5-8C87-61C74D437DED.jpg"
+            },
+            {
+                "page": "drm/1/36281/OEBPS/Images/1/48CA7A45-E40C-4A4A-8290-A37252B75ACC.jpg"
+            },
+            {
+                "page": "drm/1/36281/OEBPS/Images/1/753D2F08-0CB1-4197-AFFB-CEEEAD213D7C.jpg"
+            },
+            {
+                "page": "drm/1/36281/OEBPS/Images/1/3F54570D-545D-4F29-94B5-E4581B4F4618.jpg"
+            },
+            {
+                "page": "drm/1/36281/OEBPS/Images/1/6E393ABB-D2F8-4A9A-8D0A-3B15483032DD.jpg"
+            },
+            {
+                "page": "drm/1/36281/OEBPS/Images/1/3D9BACAD-07CA-4B6E-A3B8-B539D2EADCE1.jpg"
+            },
+            {
+                "page": "drm/1/36281/OEBPS/Images/1/E346EC1B-2895-4439-B55D-EAC265E7B4CD.jpg"
+            },
+            {
+                "page": "drm/1/36281/OEBPS/Images/1/FFD16C12-81F1-465C-8A50-44D04CF585AB.jpg"
+            },
+            {
+                "page": "drm/1/36281/OEBPS/Images/1/C17C55F7-EA77-49E2-B0DF-CEC33873A022.jpg"
+            },
+            {
+                "page": "drm/1/36281/OEBPS/Images/1/88DF91AC-BA48-4728-BD80-CF624FE6B11F.jpg"
+            },
+            {
+                "page": "drm/1/36281/OEBPS/Images/1/A60092A4-E46D-4C66-8C21-676F62F90E7E.jpg"
+            },
+            {
+                "page": "drm/1/36281/OEBPS/Images/1/5D52F021-D005-4AAD-9E87-E4AB34BF4CC6.jpg"
+            },
+            {
+                "page": "drm/1/36281/OEBPS/Images/1/B99EAAE9-29B0-490D-93CD-B843F988AF0F.jpg"
+            },
+            {
+                "page": "drm/1/36281/OEBPS/Images/1/8F7FE3C0-501B-47EC-A499-D0B960031DD4.jpg"
+            },
+            {
+                "page": "drm/1/36281/OEBPS/Images/1/7A86BCD3-A3D2-4D6C-ACDA-617C2CBE7C2B.jpg"
+            },
+            {
+                "page": "drm/1/36281/OEBPS/Images/1/9AEC2BD9-80CB-4697-86A2-D4B10C49AAD3.jpg"
+            },
+            {
+                "page": "drm/1/36281/OEBPS/Images/1/D4FCB07E-7EC6-4ABC-A7E8-E266F36B1B54.jpg"
+            },
+            {
+                "page": "drm/1/36281/OEBPS/Images/1/028310B2-3334-438A-AE54-1A0CF2F8B24D.jpg"
+            },
+            {
+                "page": "drm/1/36281/OEBPS/Images/1/39D6DD34-194F-42F9-B6FF-822F35658FD9.jpg"
+            },
+            {
+                "page": "drm/1/36281/OEBPS/Images/1/6146777D-47EF-4B85-A133-A79EE2746251.jpg"
+            },
+            {
+                "page": "drm/1/36281/OEBPS/Images/1/E4B6A2FB-9F35-424E-BF51-E7E8BBB3F82D.jpg"
+            },
+            {
+                "page": "drm/1/36281/OEBPS/Images/1/B11F891F-7B94-46FD-84D0-4B291F4C9EF6.jpg"
+            },
+            {
+                "page": "drm/1/36281/OEBPS/Images/1/89CE4D63-868A-45DA-A76C-A0297214FB25.jpg"
+            },
+            {
+                "page": "drm/1/36281/OEBPS/Images/1/1B6F34E4-9E8B-4F65-BA96-A15A852FBB0A.jpg"
+            },
+            {
+                "page": "drm/1/36281/OEBPS/Images/1/2D8A947F-1052-4086-AA70-104543C3C16B.jpg"
+            },
+            {
+                "page": "drm/1/36281/OEBPS/Images/1/7ECF61BE-9FD1-4B37-9D9A-9C11529B1733.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/36281/OEBPS/Images/1/0EFE23C8-D8C6-4476-A670-9432CE8E9D52.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "36281",
+        "id": "36281",
+        "title": "The Zoomers' Handbook",
+        "author": "Ana de Moraes",
+        "illustrator": "Thiago de Moraes",
+        "numPages": 27,
+        "bookDescription": "This is not a handbook for farmers or zookeepers. This is a handbook for zoomers. Zoomers look after very special beasts....",
+        "coverColorR": 220,
+        "coverColorG": 211,
+        "coverColorB": 199,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Andersen Press USA distributed by Lerner Publishing Group",
+        "publisherId": "90178",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "480L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 495,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Funny",
+        "subjectColor": "FFD673",
+        "copyright": "",
+        "aspectRatio": 0.8521,
+        "contentHash": "807220269045ba7a3c84",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "0",
+        "panelStatus": 0,
+        "date_modified": 1547573285
+    },
+    "userBook": {
+        "modelId": "46250489-36281",
+        "userId": "46250489",
+        "bookId": "36281",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311122,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311122,
+        "book": {
+            "modelId": "36281",
+            "title": "The Zoomers' Handbook",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "807220269045ba7a3c84"
+        }
+    },
+    "quiz": null
+}

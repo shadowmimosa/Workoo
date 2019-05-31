@@ -1,0 +1,575 @@
+{
+    "publisherData": {
+        "modelId": "90236",
+        "name": "Abrams",
+        "url": "http://www.abramsbooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491009966
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/788F5471-F7E7-4296-9E2D-FF71442DDF9D.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/A25D58DE-5118-4EF3-8AC1-20428DE464EE.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/0935C579-8B11-48AF-8D97-B26FE4A92B8D.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/1460EC1F-6BF0-445E-B2B2-5CBD4F7DBA70.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/3BC85207-B0A1-41CF-9AD8-23A9BBFD19C9.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/B7404399-5D39-402A-923B-C86A71CD7AC0.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/0BAEC4FE-EF5D-4FBD-9019-38511337996D.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/FB25838F-72CE-485F-B75F-752C1DA9D1E5.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/28B3F809-9277-4E92-A56E-4D536CEAC364.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/86A4C8D6-FB5A-4D3E-BB18-23BD072018B8.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/F4DFC496-2260-43E8-BBF9-C57DF090B9D9.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/CE614CDD-5E8C-4A62-94C2-4D8ECAB1BCFC.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/BCA3D1B3-ADEF-466A-BCC8-2B281A585051.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/C44ECCCD-34DD-4BA2-96B9-DE729D98AC57.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/E5395F02-EE5D-4489-8799-D251F68E1BD4.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/39603B74-16EE-4D3F-8A79-C47E85BD8C66.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/3B8F7167-306F-4290-AC1D-68CF7BB70A32.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/6E1D349B-88BA-4178-8B77-EB07C2FC6D18.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/E1D15BA5-E6D1-4D0A-845A-4F1C09B13C7E.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/7350FC2C-8E07-4566-8F50-1ED9F81B626B.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/420BD724-278C-43BF-BEF7-61276C080A41.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/C32CD907-658C-41C0-8A5F-F44C89EDBB22.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/5FD26C3C-092E-4E66-A59F-A85B312830C9.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/09F687A5-3E19-4097-95DB-832D7090D3AF.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/E3813B4D-0AC0-41D6-B7F2-C22A95E60950.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/58E79CB1-0E24-413A-B28B-AD710B683AFF.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/3DC950A8-0B63-49F6-AEAA-A03EF86E5FB8.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/25795787-71BE-4F9E-8FCB-BCF7990DE64C.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/64209775-C97C-46F4-A5F4-06535707D782.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/F0556116-0FC2-4352-BE05-0FCE867CD1DE.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/2FBE4077-0C86-4219-AA0B-648F68359875.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/1BA96A31-7C2D-40D2-8DFA-88897B41FB38.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/2006ACF3-B37F-4FEB-857C-0BBEFEA084D0.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/23DE4035-9E6E-41A8-A185-D5EBB3450977.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/05831581-8369-40F3-A138-C3EE596E7A99.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/B439EC50-B65A-4874-B234-CD5578EF756B.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/8B5EE98C-5335-4395-B1E3-6186D30F8F5F.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/80C3DCE6-8B11-4128-8BAE-6E7147931CDA.jpg"
+            },
+            {
+                "page": "drm/2/39982/OEBPS/Images/1/376BB03A-80B0-4929-90D3-84B04C1C2511.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/2/39982/OEBPS/Images/1/C148839D-C49A-42D1-BBF7-6B6276A63A85.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "39982",
+        "id": "39982",
+        "title": "Monkey Goes Bananas",
+        "author": "C. P Bloom",
+        "illustrator": "Peter Raymundo",
+        "numPages": 39,
+        "bookDescription": "A determined monkey spies a banana tree across the water. What happens next is an inventive romp",
+        "coverColorR": 172,
+        "coverColorG": 178,
+        "coverColorB": 164,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Abrams",
+        "publisherId": "90236",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 715,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 85,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Humorous Stories",
+        "subjectColor": "FFD673",
+        "copyright": "",
+        "aspectRatio": 0.75,
+        "contentHash": "f60c49d723eaabcb38ec",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1513037707
+    },
+    "userBook": {
+        "modelId": "46250489-39982",
+        "userId": "46250489",
+        "bookId": "39982",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311746,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311746,
+        "book": {
+            "modelId": "39982",
+            "title": "Monkey Goes Bananas",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "f60c49d723eaabcb38ec"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "90809",
+            "user_id": "10061176",
+            "book_id": "39982",
+            "title": "Monkey Goes Bananas",
+            "description": "",
+            "date_created": 1494516264,
+            "date_modified": 1494876778,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Who is the main character in the story/Qui\u00e9n es el personaje importante de la historia?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "the monkey/el mono",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "the girl/la ni\u00f1a",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "the shark/el tibur\u00f3n",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "the banana/la banana",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What does the monkey want to do in the story/Qu\u00e9 quiere hacer el mono en la historia?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "eat bananas/come bananas",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "go swimming/nadar",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "read a book/leer un libro",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "play with his friends/jugar con sus amigos",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Where does the monkey fall in a hole/D\u00f3nde caer el mono un una hoya?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "in the water/en el agua",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "on his face/en su cara",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "in the tree/en el \u00e1rbol",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "in the sky/en el cielo",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "When is the monkey drop his banana/Cu\u00e1ndo deja caer la banana el mono?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "when he is upside down/cuando \u00e9l est\u00e1 al rev\u00e9s",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "when he is in the water/cuando \u00e9l est\u00e1 en el agua",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "when he is in the sand/cuando \u00e9l est\u00e1 en la arena",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "when he is tired/cuando \u00e9l est\u00e1 cansado",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Why doesn't the monkey like the shark/Por qu\u00e9 no le gusta el tibur\u00f3n el mono?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "because the shark wants to eat the monkey/porque el tibur\u00f3n quiere comer el mono",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "because the banana tastes good/porque la banana sabe deliciosa",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "in the water/en el agua",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "the banana/la banana",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "How does the monkey reach the banana tree/C\u00f3mo llega al \u00e1rbol de banana el mono?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "by swinging on a vine/por columpi\u00e1ndose en la vid",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "by swimming/por nadar",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "the monkey/el mono",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "on the island/en la isla",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 5
+                }
+            ],
+            "modelId": "90809",
+            "creatorName": "Azalea A.",
+            "avatarId": "37",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "10061176",
+                "udid": "57d97dfd7120d3.65278239",
+                "journalName": "Azalea A.",
+                "journalCoverAvatar": "37",
+                "journalCoverColor": "0.15686274509804 0.47058823529412 0.60392156862745 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "700740040",
+                "fid": "",
+                "accountID": "7FDF5A38-221F-E369-E05D-B7F9D8D675FF",
+                "simpleAccountId": "3226501",
+                "pagesFlipped": 5835,
+                "nufComplete": 1,
+                "readingAge": 6.06667,
+                "startingAge": 8,
+                "status": 9,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 0,
+                "xpLevel": 1,
+                "dateLastLogin": 0,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "Azalea",
+                "lastName": "Arevalo",
+                "accountType": 1,
+                "dateModified": 1559253007
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Who is the main character in the story/Qui\u00e9n es el personaje importante de la historia?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "the monkey/el mono",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "the girl/la ni\u00f1a",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "the shark/el tibur\u00f3n",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "the banana/la banana",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What does the monkey want to do in the story/Qu\u00e9 quiere hacer el mono en la historia?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "eat bananas/come bananas",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "go swimming/nadar",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "read a book/leer un libro",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "play with his friends/jugar con sus amigos",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Where does the monkey fall in a hole/D\u00f3nde caer el mono un una hoya?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "in the water/en el agua",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "on his face/en su cara",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "in the tree/en el \u00e1rbol",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "in the sky/en el cielo",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "When is the monkey drop his banana/Cu\u00e1ndo deja caer la banana el mono?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "when he is upside down/cuando \u00e9l est\u00e1 al rev\u00e9s",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "when he is in the water/cuando \u00e9l est\u00e1 en el agua",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "when he is in the sand/cuando \u00e9l est\u00e1 en la arena",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "when he is tired/cuando \u00e9l est\u00e1 cansado",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Why doesn't the monkey like the shark/Por qu\u00e9 no le gusta el tibur\u00f3n el mono?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "because the shark wants to eat the monkey/porque el tibur\u00f3n quiere comer el mono",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "because the banana tastes good/porque la banana sabe deliciosa",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "in the water/en el agua",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "the banana/la banana",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "How does the monkey reach the banana tree/C\u00f3mo llega al \u00e1rbol de banana el mono?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "by swinging on a vine/por columpi\u00e1ndose en la vid",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "by swimming/por nadar",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "the monkey/el mono",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "on the island/en la isla",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 5
+            }
+        ]
+    }
+}

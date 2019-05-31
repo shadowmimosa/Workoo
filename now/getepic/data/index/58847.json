@@ -1,0 +1,150 @@
+{
+    "publisherData": {
+        "modelId": "90347",
+        "name": "Tadpole Books an imprint of JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1533154085
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/58847/OEBPS/Images/1/355841f58a6a69327ef0e9c4ff2d92d6.jpg",
+                "audio": "drm/7/58847/OEBPS/Audio/1/x355841f58a6a69327ef0e9c4ff2d92d6.mp3"
+            },
+            {
+                "page": "drm/7/58847/OEBPS/Images/1/c9539f9c80068af48129c61b5151a5ab.jpg",
+                "audio": "drm/7/58847/OEBPS/Audio/1/xc9539f9c80068af48129c61b5151a5ab.mp3"
+            },
+            {
+                "page": "drm/7/58847/OEBPS/Images/1/5065862e32f65feb08da45bcb60a1bda.jpg",
+                "audio": "drm/7/58847/OEBPS/Audio/1/x5065862e32f65feb08da45bcb60a1bda.mp3"
+            },
+            {
+                "page": "drm/7/58847/OEBPS/Images/1/1f8ef880981795497436a5e553ab1b55.jpg"
+            },
+            {
+                "page": "drm/7/58847/OEBPS/Images/1/073621aac8c146e3d1133d8f5b38798e.jpg",
+                "audio": "drm/7/58847/OEBPS/Audio/1/x073621aac8c146e3d1133d8f5b38798e.mp3"
+            },
+            {
+                "page": "drm/7/58847/OEBPS/Images/1/e7e9005814c47bea83c9c2f40f474503.jpg"
+            },
+            {
+                "page": "drm/7/58847/OEBPS/Images/1/68fa73f0d471647b3a482dd2453bbf34.jpg",
+                "audio": "drm/7/58847/OEBPS/Audio/1/x68fa73f0d471647b3a482dd2453bbf34.mp3"
+            },
+            {
+                "page": "drm/7/58847/OEBPS/Images/1/98290cd2e1070e9ba1791d7eca54c6fb.jpg"
+            },
+            {
+                "page": "drm/7/58847/OEBPS/Images/1/b5d9b0b36e220a94a68abd2b92d6b878.jpg",
+                "audio": "drm/7/58847/OEBPS/Audio/1/xb5d9b0b36e220a94a68abd2b92d6b878.mp3"
+            },
+            {
+                "page": "drm/7/58847/OEBPS/Images/1/00fd3ba5f282585fe7abe39b0631f9b8.jpg"
+            },
+            {
+                "page": "drm/7/58847/OEBPS/Images/1/cd34d3eaa4da97179033a1f4d2256552.jpg",
+                "audio": "drm/7/58847/OEBPS/Audio/1/xcd34d3eaa4da97179033a1f4d2256552.mp3"
+            },
+            {
+                "page": "drm/7/58847/OEBPS/Images/1/9e9711241ffac464ad7e46a8408ad552.jpg"
+            },
+            {
+                "page": "drm/7/58847/OEBPS/Images/1/26bb43bc66addf878f734298f5493527.jpg",
+                "audio": "drm/7/58847/OEBPS/Audio/1/x26bb43bc66addf878f734298f5493527.mp3"
+            },
+            {
+                "page": "drm/7/58847/OEBPS/Images/1/296323abe1c9ce70a6dbc6a67eaea6ff.jpg"
+            },
+            {
+                "page": "drm/7/58847/OEBPS/Images/1/95a7e71e16c4ec51a6855f92a55dd0c1.jpg",
+                "audio": "drm/7/58847/OEBPS/Audio/1/x95a7e71e16c4ec51a6855f92a55dd0c1.mp3"
+            },
+            {
+                "page": "drm/7/58847/OEBPS/Images/1/d55bfbc163d6c0c2ae483c4292aedcc0.jpg",
+                "audio": "drm/7/58847/OEBPS/Audio/1/xd55bfbc163d6c0c2ae483c4292aedcc0.mp3"
+            },
+            {
+                "page": "drm/7/58847/OEBPS/Images/1/eaa6ff5377fb8aec8249b70617c4ccfc.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/58847/OEBPS/Images/1/eaa6ff5377fb8aec8249b70617c4ccfc.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "58847",
+        "id": "58847",
+        "title": "School",
+        "author": "Erica Donner",
+        "illustrator": " ",
+        "numPages": 17,
+        "bookDescription": "School takes readers on a trip to an elementary school while providing them with a supportive first nonfiction reading experience.",
+        "coverColorR": 195,
+        "coverColorG": 165,
+        "coverColorB": 145,
+        "version": 1301463547,
+        "previewPercent": 20,
+        "publisher": "Tadpole Books an imprint of JUMP",
+        "publisherId": "90347",
+        "age": 5,
+        "pageNumOffset": -1,
+        "active": 1,
+        "audio": 1,
+        "lexile": "BR60L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 283,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "a",
+        "language": 1,
+        "rating": 81,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "School",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 0.7222,
+        "contentHash": "adcbde9b6ed860ddcc06",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374827
+    },
+    "userBook": {
+        "modelId": "46250489-58847",
+        "userId": "46250489",
+        "bookId": "58847",
+        "currentPageIndex": 16,
+        "farthestPageIndex": 16,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 94,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559095126,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 45,
+        "dateModified": 1559095171,
+        "book": {
+            "modelId": "58847",
+            "title": "School",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "adcbde9b6ed860ddcc06"
+        }
+    },
+    "quiz": null
+}

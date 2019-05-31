@@ -1,0 +1,350 @@
+{
+    "publisherData": {
+        "modelId": "91",
+        "name": "ABDO Publishing",
+        "url": "http://abdopublishing.com//",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570820
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/25921/OEBPS/Images/1/FDBEEC75-8012-4006-A2E8-4DDEAA4B8F17.jpg"
+            },
+            {
+                "page": "drm/1/25921/OEBPS/Images/1/669A3F37-4DAA-4D86-B3A0-72244CAA6F49.jpg",
+                "audio": "drm/1/25921/OEBPS/Audio/1/page6.mp3"
+            },
+            {
+                "page": "drm/1/25921/OEBPS/Images/1/250187A5-E25E-407D-AF16-78D33B68A14D.jpg"
+            },
+            {
+                "page": "drm/1/25921/OEBPS/Images/1/EB2EE247-020D-40A5-8900-C02F64D5CC9B.jpg",
+                "audio": "drm/1/25921/OEBPS/Audio/1/page8.mp3"
+            },
+            {
+                "page": "drm/1/25921/OEBPS/Images/1/EFABF8C3-E114-424F-B494-6409E18CCAA0.jpg"
+            },
+            {
+                "page": "drm/1/25921/OEBPS/Images/1/D79BCF43-6013-4ABF-A884-876BE2AA0E01.jpg",
+                "audio": "drm/1/25921/OEBPS/Audio/1/page10.mp3"
+            },
+            {
+                "page": "drm/1/25921/OEBPS/Images/1/B1EA47D6-E2B8-4D5D-9CCC-E52A8967130E.jpg"
+            },
+            {
+                "page": "drm/1/25921/OEBPS/Images/1/1D0E6DDA-D589-420D-BD50-003ACFDE1F5E.jpg",
+                "audio": "drm/1/25921/OEBPS/Audio/1/page12.mp3"
+            },
+            {
+                "page": "drm/1/25921/OEBPS/Images/1/153E87F0-4E56-444B-8D17-6558F5400F41.jpg"
+            },
+            {
+                "page": "drm/1/25921/OEBPS/Images/1/2D7CE309-ACE8-482F-B704-779308970915.jpg",
+                "audio": "drm/1/25921/OEBPS/Audio/1/page14.mp3"
+            },
+            {
+                "page": "drm/1/25921/OEBPS/Images/1/D39916EC-DAD2-40BB-8E67-FF183C698F1A.jpg"
+            },
+            {
+                "page": "drm/1/25921/OEBPS/Images/1/982649CE-0A40-4B86-B479-59EEA109C28B.jpg",
+                "audio": "drm/1/25921/OEBPS/Audio/1/page16.mp3"
+            },
+            {
+                "page": "drm/1/25921/OEBPS/Images/1/5AE757DB-DAA0-41A8-A6A3-6967DDA8F3E1.jpg"
+            },
+            {
+                "page": "drm/1/25921/OEBPS/Images/1/52FBF816-9802-4022-B5BE-1153DC8D7B09.jpg",
+                "audio": "drm/1/25921/OEBPS/Audio/1/page18.mp3"
+            },
+            {
+                "page": "drm/1/25921/OEBPS/Images/1/514648FC-71D0-4B1C-A208-958D35D90551.jpg"
+            },
+            {
+                "page": "drm/1/25921/OEBPS/Images/1/57D158CF-2EAD-4841-BF8F-AC843812A863.jpg",
+                "audio": "drm/1/25921/OEBPS/Audio/1/page20.mp3"
+            },
+            {
+                "page": "drm/1/25921/OEBPS/Images/1/8FA893D0-4183-44C5-8A6D-AB9438122952.jpg"
+            },
+            {
+                "page": "drm/1/25921/OEBPS/Images/1/3D31A8B2-6C75-4BB3-B3B9-16E2684D2356.jpg",
+                "audio": "drm/1/25921/OEBPS/Audio/1/page22.mp3"
+            },
+            {
+                "page": "drm/1/25921/OEBPS/Images/1/DD71F609-EA25-4DAA-858D-1FA2BFBF08C3.jpg"
+            },
+            {
+                "page": "drm/1/25921/OEBPS/Images/1/A0035873-408A-48FF-B242-5703BC70E368.jpg",
+                "audio": "drm/1/25921/OEBPS/Audio/1/page24.mp3"
+            },
+            {
+                "page": "drm/1/25921/OEBPS/Images/1/8CE54833-6EDA-426E-B5D1-E7881E59ADC5.jpg"
+            },
+            {
+                "page": "drm/1/25921/OEBPS/Images/1/2FBD2506-E464-4EA0-8D70-3B44719F8E6C.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/25921/OEBPS/Images/1/E47A4A73-4AA3-4C05-B834-116A6CCFE598.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "25921",
+        "id": "25921",
+        "title": "School Buses",
+        "author": "Julie Murray",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Little readers can learn about a vehicle they see every day while strengthening reading skill.",
+        "coverColorR": 192,
+        "coverColorG": 198,
+        "coverColorB": 184,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "ABDO Publishing",
+        "publisherId": "91",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "40L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 366,
+        "ar": "0.9",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Things That GO",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 1.087,
+        "contentHash": "1441736bc8d41367d1ce",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373048
+    },
+    "userBook": {
+        "modelId": "46250489-25921",
+        "userId": "46250489",
+        "bookId": "25921",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311971,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311971,
+        "book": {
+            "modelId": "25921",
+            "title": "School Buses",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "1441736bc8d41367d1ce"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "68902",
+            "user_id": "14179351",
+            "book_id": "25921",
+            "title": "School Buses",
+            "description": "",
+            "date_created": 1490125017,
+            "date_modified": 1506020514,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Where is the safety door on the bus?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "The safety door is on the back of the bus.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "The safety door is on the front of the bus.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "The safety door is on the side of the bus.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What do the lights do when the bus stops?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "The lights flash.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "The lights turn off.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "The lights shine bright.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Where do the kids sit on the bus?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "The kids sit on the seats.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "The kids sit on the floor.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "The kids sit on the ceiling.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 2
+                }
+            ],
+            "modelId": "68902",
+            "creatorName": "Ms. Plummer",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "14179351",
+                "udid": "58c97042e067f1.40475161",
+                "journalName": "Ms. Plummer",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.93725490196078 0.37647058823529 0.30196078431373 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "985774942",
+                "fid": "",
+                "accountID": "E9D1E37A-1F91-6EED-7756-34A5E8924636",
+                "simpleAccountId": "4641397",
+                "pagesFlipped": 28121,
+                "nufComplete": 1,
+                "readingAge": 6.1,
+                "startingAge": 6,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 40,
+                "xpLevel": 4,
+                "dateLastLogin": 1544470137,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Lisa",
+                "lastName": "Plummer",
+                "accountType": 1,
+                "dateModified": 1556224492,
+                "educatorPrefix": "Ms.",
+                "name": "Ms. Plummer"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Where is the safety door on the bus?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "The safety door is on the back of the bus.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "The safety door is on the front of the bus.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "The safety door is on the side of the bus.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What do the lights do when the bus stops?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "The lights flash.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "The lights turn off.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "The lights shine bright.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Where do the kids sit on the bus?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "The kids sit on the seats.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "The kids sit on the floor.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "The kids sit on the ceiling.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 2
+            }
+        ]
+    }
+}

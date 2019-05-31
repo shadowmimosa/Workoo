@@ -1,0 +1,146 @@
+{
+    "publisherData": {
+        "modelId": "90327",
+        "name": "ABDO Kids an imprint of ABDO Publishing",
+        "url": "http://abdopublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1527111706
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/51485/OEBPS/Images/1/b1db2fcedf45076656d02f99c4b3915d.jpg"
+            },
+            {
+                "page": "drm/5/51485/OEBPS/Images/1/68448bc5651e7cadec954ee2b087e1de.jpg"
+            },
+            {
+                "page": "drm/5/51485/OEBPS/Images/1/d753d32cb18d6fb645c37319d16d842a.jpg"
+            },
+            {
+                "page": "drm/5/51485/OEBPS/Images/1/fc141e695c571789a28bca8e1cf7d1fd.jpg"
+            },
+            {
+                "page": "drm/5/51485/OEBPS/Images/1/ec4047556f4c683bf9bc0d7bcd118f93.jpg"
+            },
+            {
+                "page": "drm/5/51485/OEBPS/Images/1/590a7f2615fd39a292d69cebce888616.jpg"
+            },
+            {
+                "page": "drm/5/51485/OEBPS/Images/1/cf3a494008b5d0ef665490b901bee6b2.jpg"
+            },
+            {
+                "page": "drm/5/51485/OEBPS/Images/1/312f33887e7d519638b21e4745c3275c.jpg"
+            },
+            {
+                "page": "drm/5/51485/OEBPS/Images/1/e6aa204a756c63c75118397a2fc6338f.jpg"
+            },
+            {
+                "page": "drm/5/51485/OEBPS/Images/1/87eac923217386db0b46ecf408c3454c.jpg"
+            },
+            {
+                "page": "drm/5/51485/OEBPS/Images/1/227ebadbb1971e8764bde237ac790d21.jpg"
+            },
+            {
+                "page": "drm/5/51485/OEBPS/Images/1/a3c2e518ecde8a2ca1f67e361351724e.jpg"
+            },
+            {
+                "page": "drm/5/51485/OEBPS/Images/1/ce86f47dd47119d82b7641b132172b03.jpg"
+            },
+            {
+                "page": "drm/5/51485/OEBPS/Images/1/fcabd5e018627ba78f8ff44233da8773.jpg"
+            },
+            {
+                "page": "drm/5/51485/OEBPS/Images/1/2501809c06c53440f35a8dee52e82ae8.jpg"
+            },
+            {
+                "page": "drm/5/51485/OEBPS/Images/1/7e1a41ed5f1cf3f5f9f5fd53dcd11beb.jpg"
+            },
+            {
+                "page": "drm/5/51485/OEBPS/Images/1/14dd1908a91fe11dd2bbea76bab4cf30.jpg"
+            },
+            {
+                "page": "drm/5/51485/OEBPS/Images/1/f5f6a97d88848c090cf9d4bd633fc95c.jpg"
+            },
+            {
+                "page": "drm/5/51485/OEBPS/Images/1/2393f65d3295712e0a4f8882e201cd30.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/51485/OEBPS/Images/1/d9e1e1541dd4bcb4e7bf9c8ed0837b96.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "51485",
+        "id": "51485",
+        "title": "Poodles",
+        "author": "Grace Hansen",
+        "illustrator": " ",
+        "numPages": 19,
+        "bookDescription": "Get to know the smart and proud poodle from the tip of its wet nose to the end of its wagging tail!",
+        "coverColorR": 174,
+        "coverColorG": 171,
+        "coverColorB": 165,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "ABDO Kids an imprint of ABDO Publishing",
+        "publisherId": "90327",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "450L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 348,
+        "ar": "2.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Dogs",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.1728,
+        "contentHash": "a5def62d3f220b4e710c",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "3",
+        "panelStatus": 0,
+        "date_modified": 1555374376
+    },
+    "userBook": {
+        "modelId": "46250489-51485",
+        "userId": "46250489",
+        "bookId": "51485",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559304766,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559304766,
+        "book": {
+            "modelId": "51485",
+            "title": "Poodles",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "a5def62d3f220b4e710c"
+        }
+    },
+    "quiz": null
+}

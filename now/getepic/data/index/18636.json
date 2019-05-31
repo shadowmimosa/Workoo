@@ -1,0 +1,173 @@
+{
+    "publisherData": {
+        "modelId": "168",
+        "name": "Flower Pot Press",
+        "url": "http://www.flowerpotpress.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260414
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/6/18636/OEBPS/Images/1/c9c6929e0508dd6fb16113d93b70b33b.jpg",
+                "audio": "drm/6/18636/OEBPS/Audio/1/3d499a86bd532f700b6e3990b190a512.mp3"
+            },
+            {
+                "page": "drm/6/18636/OEBPS/Images/1/23c0d5c89481042349471e8eb410942b.jpg",
+                "audio": "drm/6/18636/OEBPS/Audio/1/485ef908e71bae6ef1da1be4ec36caed.mp3"
+            },
+            {
+                "page": "drm/6/18636/OEBPS/Images/1/be434d201072ba1b11bf384d9a28c040.jpg",
+                "audio": "drm/6/18636/OEBPS/Audio/1/1fb784e290860e938fc52a0faa198e88.mp3"
+            },
+            {
+                "page": "drm/6/18636/OEBPS/Images/1/b37fe5fc7a3077752a380b325d8c17aa.jpg",
+                "audio": "drm/6/18636/OEBPS/Audio/1/231250dfba69efe2ca9bafaad7b09254.mp3"
+            },
+            {
+                "page": "drm/6/18636/OEBPS/Images/1/9fcfb6b1f688c9f37d187b8ecccc917d.jpg",
+                "audio": "drm/6/18636/OEBPS/Audio/1/a52f9fa79893eaf30142be3b2f655c0a.mp3"
+            },
+            {
+                "page": "drm/6/18636/OEBPS/Images/1/f574dd832636d121888479bf3b9088a1.jpg",
+                "audio": "drm/6/18636/OEBPS/Audio/1/61a9107c5e96fdef1358f395e2c70739.mp3"
+            },
+            {
+                "page": "drm/6/18636/OEBPS/Images/1/ef705236f3da20b2935258af3a232318.jpg",
+                "audio": "drm/6/18636/OEBPS/Audio/1/4dd242a00fb1993cd8ea4a449da432ed.mp3"
+            },
+            {
+                "page": "drm/6/18636/OEBPS/Images/1/bd5296dd7cc658194b482601561908f1.jpg",
+                "audio": "drm/6/18636/OEBPS/Audio/1/560a0d45237952fb14fe39bfbe63c9ae.mp3"
+            },
+            {
+                "page": "drm/6/18636/OEBPS/Images/1/5e597d0a1d6a60397addd3e821ea634c.jpg",
+                "audio": "drm/6/18636/OEBPS/Audio/1/f242eff45840e92df4ca0ca19b6bab7b.mp3"
+            },
+            {
+                "page": "drm/6/18636/OEBPS/Images/1/49770d9ba0b1ccd2079f219389f3e962.jpg",
+                "audio": "drm/6/18636/OEBPS/Audio/1/97f13c3a0ce4dc580dded5312c291aa5.mp3"
+            },
+            {
+                "page": "drm/6/18636/OEBPS/Images/1/a88112ef38b354dcd034f0bfc70510ba.jpg",
+                "audio": "drm/6/18636/OEBPS/Audio/1/0aaf21e10fab9642b22dfec81a4ce89c.mp3"
+            },
+            {
+                "page": "drm/6/18636/OEBPS/Images/1/487a069a8d768cdec8b2aeffdc1514fd.jpg",
+                "audio": "drm/6/18636/OEBPS/Audio/1/d6e3fbb27144075ccb3babee6857509b.mp3"
+            },
+            {
+                "page": "drm/6/18636/OEBPS/Images/1/b4f45a40942bee73a8f4bee42c1d92bd.jpg",
+                "audio": "drm/6/18636/OEBPS/Audio/1/599da5a8496358bc9764f9e17a29a601.mp3"
+            },
+            {
+                "page": "drm/6/18636/OEBPS/Images/1/abd35982970f86fd89295e553d781cb8.jpg",
+                "audio": "drm/6/18636/OEBPS/Audio/1/a9816a62e7e477894447cd4acc468a24.mp3"
+            },
+            {
+                "page": "drm/6/18636/OEBPS/Images/1/33a265449fc5494506e0a71912db6a0c.jpg",
+                "audio": "drm/6/18636/OEBPS/Audio/1/84405fc6cd9dc4e537fb7348df54b588.mp3"
+            },
+            {
+                "page": "drm/6/18636/OEBPS/Images/1/ea0b07bec62d0b28714b5f493ef56c52.jpg",
+                "audio": "drm/6/18636/OEBPS/Audio/1/b803d769d1d89fed6c4179895190442d.mp3"
+            },
+            {
+                "page": "drm/6/18636/OEBPS/Images/1/50e4eb1ce2690576a564a253d924767a.jpg",
+                "audio": "drm/6/18636/OEBPS/Audio/1/b3332eb9f403cc622cdb08accd4d79ae.mp3"
+            },
+            {
+                "page": "drm/6/18636/OEBPS/Images/1/8aefeb9eafb47bb87142beed04b31649.jpg",
+                "audio": "drm/6/18636/OEBPS/Audio/1/f45c7a811a4866475b4f22e44b18e0cc.mp3"
+            },
+            {
+                "page": "drm/6/18636/OEBPS/Images/1/d8b4a0ea4fa42b40987b960d493a2801.jpg",
+                "audio": "drm/6/18636/OEBPS/Audio/1/e9e9fbf34edfb358c08a5f8c44d26737.mp3"
+            },
+            {
+                "page": "drm/6/18636/OEBPS/Images/1/9b2306a1e6ae908fcb8269cf364f41ec.jpg",
+                "audio": "drm/6/18636/OEBPS/Audio/1/7671f797c8100434605c3006fbd332d8.mp3"
+            },
+            {
+                "page": "drm/6/18636/OEBPS/Images/1/f83d16c9efab7fff660a04904d8934b2.jpg",
+                "audio": "drm/6/18636/OEBPS/Audio/1/e9a23c76206f6a8851ea050eb380dee4.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/6/18636/OEBPS/Images/1/589e6ddac57cc1451b170fb6f7ff1a16.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18636",
+        "id": "18636",
+        "title": "In The Garden",
+        "author": " ",
+        "illustrator": "Lisa M. Gardiner",
+        "numPages": 21,
+        "bookDescription": "The First Words series is an ideal learning tool for very young minds.",
+        "coverColorR": 133,
+        "coverColorG": 172,
+        "coverColorB": 196,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Flower Pot Press",
+        "publisherId": "168",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 315,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 81,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "69fe6397c370714b2054",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372869
+    },
+    "userBook": {
+        "modelId": "46250489-18636",
+        "userId": "46250489",
+        "bookId": "18636",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310935,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310935,
+        "book": {
+            "modelId": "18636",
+            "title": "In The Garden",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "69fe6397c370714b2054"
+        }
+    },
+    "quiz": null
+}

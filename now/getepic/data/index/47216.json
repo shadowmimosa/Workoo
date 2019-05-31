@@ -1,0 +1,166 @@
+{
+    "publisherData": {
+        "modelId": "31",
+        "name": "Bellwether Media",
+        "url": "http://www.bellwethermedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539569528
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/6/47216/OEBPS/Images/1/7fb7f8108f8096eb7ae3fb4eaeaf0cc3.jpg",
+                "audio": "drm/6/47216/OEBPS/Audio/1/9781681034034-01.mp3"
+            },
+            {
+                "page": "drm/6/47216/OEBPS/Images/1/61fb09898ff9de5fa7b9db75c8b91711.jpg",
+                "audio": "drm/6/47216/OEBPS/Audio/1/9781681034034-02.mp3"
+            },
+            {
+                "page": "drm/6/47216/OEBPS/Images/1/ce73a87a497a5a3135d4807d1d6974d1.jpg"
+            },
+            {
+                "page": "drm/6/47216/OEBPS/Images/1/3895dd8f51045e11ae4af76bb96b00cb.jpg",
+                "audio": "drm/6/47216/OEBPS/Audio/1/9781681034034-03.mp3"
+            },
+            {
+                "page": "drm/6/47216/OEBPS/Images/1/e88126459b76a0e1c4aa1f619fec440b.jpg"
+            },
+            {
+                "page": "drm/6/47216/OEBPS/Images/1/41383de70084cad82a382865e1366c9f.jpg",
+                "audio": "drm/6/47216/OEBPS/Audio/1/9781681034034-04.mp3"
+            },
+            {
+                "page": "drm/6/47216/OEBPS/Images/1/0c0a7dd6388b25500259f42d040da5fb.jpg"
+            },
+            {
+                "page": "drm/6/47216/OEBPS/Images/1/25e7b8c5ff444c149ef9a6286f917e16.jpg",
+                "audio": "drm/6/47216/OEBPS/Audio/1/9781681034034-05.mp3"
+            },
+            {
+                "page": "drm/6/47216/OEBPS/Images/1/bfc0e5e9ea1d2efd0f922b1377089f4c.jpg"
+            },
+            {
+                "page": "drm/6/47216/OEBPS/Images/1/15bd3b3a0c2f969e991536f39fc9156c.jpg",
+                "audio": "drm/6/47216/OEBPS/Audio/1/9781681034034-06.mp3"
+            },
+            {
+                "page": "drm/6/47216/OEBPS/Images/1/4447ccb5fa39df8b017ea645896ef4bf.jpg"
+            },
+            {
+                "page": "drm/6/47216/OEBPS/Images/1/59d4d1825269e0c55f0d3f43380f9501.jpg",
+                "audio": "drm/6/47216/OEBPS/Audio/1/9781681034034-07.mp3"
+            },
+            {
+                "page": "drm/6/47216/OEBPS/Images/1/72c8852d59b8fc7871dc28b6af0eb407.jpg"
+            },
+            {
+                "page": "drm/6/47216/OEBPS/Images/1/3781030fabc6163221d72704bed22bfd.jpg",
+                "audio": "drm/6/47216/OEBPS/Audio/1/9781681034034-08.mp3"
+            },
+            {
+                "page": "drm/6/47216/OEBPS/Images/1/f1025d9ab77afa3cb264c92be3acef57.jpg"
+            },
+            {
+                "page": "drm/6/47216/OEBPS/Images/1/42ab4120924e5c3c980bb0799a2bbd06.jpg",
+                "audio": "drm/6/47216/OEBPS/Audio/1/9781681034034-09.mp3"
+            },
+            {
+                "page": "drm/6/47216/OEBPS/Images/1/8ca6b3fe0e21869a682b8fa985b97225.jpg"
+            },
+            {
+                "page": "drm/6/47216/OEBPS/Images/1/32bab822138c6127dedc6e29a03879a0.jpg",
+                "audio": "drm/6/47216/OEBPS/Audio/1/9781681034034-10.mp3"
+            },
+            {
+                "page": "drm/6/47216/OEBPS/Images/1/625ca73834342360194ec909ad21083d.jpg"
+            },
+            {
+                "page": "drm/6/47216/OEBPS/Images/1/1053b6fd94061aeeb408193d74917351.jpg",
+                "audio": "drm/6/47216/OEBPS/Audio/1/9781681034034-11.mp3"
+            },
+            {
+                "page": "drm/6/47216/OEBPS/Images/1/1ec960827038f7147e78d7e1b027ecda.jpg"
+            },
+            {
+                "page": "drm/6/47216/OEBPS/Images/1/37e0e3cbf914cff136272dba7e84d186.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/6/47216/OEBPS/Images/1/4478b6aa04700a5c88f0c4a7e042fd79.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "47216",
+        "id": "47216",
+        "title": "Amazing Trains: Passenger Trains",
+        "author": "Christina Leighton",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Passenger trains have all kinds of cars: baggage cars, lounge cars, dining cars, and sleeper cars. They need to keep riders comfortable!",
+        "coverColorR": 119,
+        "coverColorG": 119,
+        "coverColorB": 132,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Bellwether Media",
+        "publisherId": "31",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "460L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 806,
+        "ar": "1.5",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Things That GO",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 0.7222,
+        "contentHash": "47195b5bc37099b84178",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374071
+    },
+    "userBook": {
+        "modelId": "46250489-47216",
+        "userId": "46250489",
+        "bookId": "47216",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311898,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311898,
+        "book": {
+            "modelId": "47216",
+            "title": "Amazing Trains: Passenger Trains",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "47195b5bc37099b84178"
+        }
+    },
+    "quiz": null
+}

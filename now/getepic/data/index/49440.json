@@ -1,0 +1,233 @@
+{
+    "publisherData": {
+        "modelId": "90312",
+        "name": "Houghton Mifflin Harcourt",
+        "url": "https://www.hmhco.com/",
+        "checkout": 0,
+        "educationalEnabled": 0,
+        "dateModified": 1523564869
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/4518b9cdb8fc2c81952b14845c290349.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/ee7b28ac4380f90b73a969687b686b45.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/0483211e35771035a90ba6e624bd92b2.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/6a857dd654e1157d50c5a3a437426d48.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/56487c4194cf5026705ec9207c1728cf.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/89c6c21e6d4f31678267c8b2662cd1c8.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/d348384330fa640c9727a70fdf9f4159.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/28bd47c8ab9830e06f23092d44810087.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/9740ce4eb036e72bef5b9608b8beb2e0.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/a71536fa7e3ed5688ae7f647911d7e7c.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/c7b8944cc2354051fdc5b2b2253f7e83.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/f9d0ad6343a54d74679faed9c3338fa3.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/89600c43f1e6da408bf553e9597deb67.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/67e9404c6eb25df042a786e3d7e297f3.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/be6ac1acbf90bdf615e46a980870d0ce.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/e5725fd615caec8e27ca0b240aa44810.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/10b5f38e3d949ea165ac33689882a175.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/b0a7f833e1869af10be0bc61b91be12b.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/b565c82d6b9bfb61ec517092b4678bbd.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/31558bfd0b971001b41abc9e35f6f01e.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/2142ddfb1fa5e4a686b5dad88514b347.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/58da471cacc67212e14712c52d741429.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/5907e848781d9944455bda12df2b99e4.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/657cf6a314d3d9b146f25089160e11d7.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/232b9484d34e19eaa40d91efbf26e0ed.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/5ec7669fedc89d2eb62f92e5f44b0ab2.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/d7b82229066bf5f46f7b5da26a69ffa7.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/67bfaacab8ac1a12e33479d7500d90d6.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/2a73fc464575af820f9628e7c6921313.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/c428f4c778ed49467df4b9a3ef9206c6.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/57782ee9913206d0d089c945c2435667.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/ad891c311fc94edbf86d49803c78ec64.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/1c846a844a713182d358ddb390067e12.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/c3ba90f150871925dc2bea66751b4b13.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/55e50eb2260a409e38149368f017bcc9.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/849a42dcb3e10191f79125896ad7d130.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/cba7b6156c1b3cc8040e3b013e81712d.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/4b7c1ad5b0cc51654fe3bab6d63efd89.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/20ac28c50df18820ea1749ce42cac830.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/3adfcbbf8dc3e10c1c59f20ea9484e9a.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/657b20e39323ea6f9c0ae814f1cd678f.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/87c142472147ab1c1e9b296c14ead8d3.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/e36a87d31983b874c43feb978444ed7c.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/02a4811871004e1ce240987120733eab.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/cf10bd05382caea6681167eb8bf870e4.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/699106336f138f35cfd23aee87d88827.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/a35d87d65605787924f9f00b652e299f.jpg"
+            },
+            {
+                "page": "drm/0/49440/OEBPS/Images/1/a598c7a79febadf7f719d4f1498ff70b.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/49440/OEBPS/Images/1/94bd137b80d4b5c306b354ef14101ee9.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "49440",
+        "id": "49440",
+        "title": "Curious George Rides a Bike",
+        "author": "H.A. Rey",
+        "illustrator": " ",
+        "numPages": 48,
+        "bookDescription": "George helps a little boy with his paper route and gets into all sorts of trouble.",
+        "coverColorR": 209,
+        "coverColorG": 222,
+        "coverColorB": 202,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Houghton Mifflin Harcourt",
+        "publisherId": "90312",
+        "age": 4,
+        "pageNumOffset": -1,
+        "active": 1,
+        "audio": 0,
+        "lexile": "AD660L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 720,
+        "ar": "4.1",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "86",
+        "subjectDesc": "Exploration",
+        "subjectColor": "59E6FF",
+        "copyright": "",
+        "aspectRatio": 0.8381,
+        "contentHash": "3d5c62f5e170de9896e5",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "3",
+        "panelStatus": 0,
+        "date_modified": 1555374230
+    },
+    "userBook": {
+        "modelId": "46250489-49440",
+        "userId": "46250489",
+        "bookId": "49440",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310350,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310350,
+        "book": {
+            "modelId": "49440",
+            "title": "Curious George Rides a Bike",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "3d5c62f5e170de9896e5"
+        }
+    },
+    "quiz": null
+}

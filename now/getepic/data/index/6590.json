@@ -1,0 +1,440 @@
+{
+    "publisherData": {
+        "modelId": "31",
+        "name": "Bellwether Media",
+        "url": "http://www.bellwethermedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539569528
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/6590/OEBPS/Images/1/233de56dbb3d1506e2a9f4b1fcafc2d9.jpg"
+            },
+            {
+                "page": "drm/0/6590/OEBPS/Images/1/45f473b004d187a13f9cbb19bea56fc0.jpg"
+            },
+            {
+                "page": "drm/0/6590/OEBPS/Images/1/fcce6d7ba5b1e1927ce09f5e1e087fec.jpg"
+            },
+            {
+                "page": "drm/0/6590/OEBPS/Images/1/c7ba886ccf7b6939b2c365b61d842836.jpg"
+            },
+            {
+                "page": "drm/0/6590/OEBPS/Images/1/15a9f2b31afa00fed156b6907349b3fa.jpg"
+            },
+            {
+                "page": "drm/0/6590/OEBPS/Images/1/6d27e9e0b52b6ad3dfc3c54a54cfef68.jpg"
+            },
+            {
+                "page": "drm/0/6590/OEBPS/Images/1/e1a15b396e7d5d86a4f0378cb3ee5352.jpg"
+            },
+            {
+                "page": "drm/0/6590/OEBPS/Images/1/c228d0f4608f21300738698929cb1555.jpg"
+            },
+            {
+                "page": "drm/0/6590/OEBPS/Images/1/7c9bb4f1255faa9244b2cd8550804f88.jpg"
+            },
+            {
+                "page": "drm/0/6590/OEBPS/Images/1/fc07ceab22036491a5c6114de9cc42f8.jpg"
+            },
+            {
+                "page": "drm/0/6590/OEBPS/Images/1/4a6c83797dc5dc38058911ccb7060afc.jpg"
+            },
+            {
+                "page": "drm/0/6590/OEBPS/Images/1/0ee54d26bae7291ad19572c3c39a7784.jpg"
+            },
+            {
+                "page": "drm/0/6590/OEBPS/Images/1/8fc8331509992e83d64e3e3e95d881c5.jpg"
+            },
+            {
+                "page": "drm/0/6590/OEBPS/Images/1/60f3259eea36b979c9e1a4131eca867a.jpg"
+            },
+            {
+                "page": "drm/0/6590/OEBPS/Images/1/f0a814aff6cdff503c3635c608beee07.jpg"
+            },
+            {
+                "page": "drm/0/6590/OEBPS/Images/1/47531356b360d8a95a07b8134c8eb57e.jpg"
+            },
+            {
+                "page": "drm/0/6590/OEBPS/Images/1/e346af38ef13460df40f71c3c00a2431.jpg"
+            },
+            {
+                "page": "drm/0/6590/OEBPS/Images/1/2975861610cdbff2a2587a125e023774.jpg"
+            },
+            {
+                "page": "drm/0/6590/OEBPS/Images/1/e864c8b0d42c66bd125cc39faf71a4a9.jpg"
+            },
+            {
+                "page": "drm/0/6590/OEBPS/Images/1/5f5690b547d75e5cfd6e7e29f4f98944.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/6590/OEBPS/Images/1/13f44e7df24b9c89c662eed37e19913a.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "6590",
+        "id": "6590",
+        "title": "Piglets: Watch Animals Grow",
+        "author": "Colleen Sexton",
+        "illustrator": " ",
+        "numPages": 20,
+        "bookDescription": "Piglets roll around in the mud to protect their skin from the sun. Spend a day on the farm and watch piglets grow!",
+        "coverColorR": 185,
+        "coverColorG": 117,
+        "coverColorB": 84,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Bellwether Media",
+        "publisherId": "31",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "360L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 733,
+        "ar": "1.1",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Farm Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.7227,
+        "contentHash": "f07c4485c835867e570a",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "0",
+        "panelStatus": 0,
+        "date_modified": 1556039407
+    },
+    "userBook": {
+        "modelId": "46250489-6590",
+        "userId": "46250489",
+        "bookId": "6590",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559312063,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559312063,
+        "book": {
+            "modelId": "6590",
+            "title": "Piglets: Watch Animals Grow",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "f07c4485c835867e570a"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "91809",
+            "user_id": "14457583",
+            "book_id": "6590",
+            "title": "Piglet Quiz",
+            "description": "",
+            "date_created": 1494602483,
+            "date_modified": 1494602726,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Newborn piglets are ________________.",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Small",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Big",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Yellow",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "Pigs live on a _______________.",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Farm",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Boat",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Tropical Rainforest",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Pig noses are called ______________?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Snouts",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Hands",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Chips",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Why do pigs roll in the mud?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Keep Cool",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Take a Bath",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Smell like Roses",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Do pigs grow and get larger?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Yes",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "No",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "Are pigs living or non-living?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "living",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "non-living",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 5
+                }
+            ],
+            "modelId": "91809",
+            "creatorName": "Mrs. Arata-Lopergalo",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "14457583",
+                "udid": "58dbe95cd89f15.89599006",
+                "journalName": "Mrs. Arata-Lopergalo",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.11764705882353 0.91764705882353 0.64313725490196 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "916823156",
+                "fid": "",
+                "accountID": "5CA63AC5-5092-EF0C-4CC4-AFF7FD64005E",
+                "simpleAccountId": "4716459",
+                "pagesFlipped": 509,
+                "nufComplete": 1,
+                "readingAge": 5.93333,
+                "startingAge": 6,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 45,
+                "xpLevel": 2,
+                "dateLastLogin": 0,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Brittany",
+                "lastName": "Arata-Lopergalo",
+                "accountType": 1,
+                "dateModified": 1539962106,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Arata-Lopergalo"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Newborn piglets are ________________.",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Small",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Big",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Yellow",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "Pigs live on a _______________.",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Farm",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Boat",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Tropical Rainforest",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Pig noses are called ______________?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Snouts",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Hands",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Chips",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Why do pigs roll in the mud?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Keep Cool",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Take a Bath",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Smell like Roses",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Do pigs grow and get larger?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Yes",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "No",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "Are pigs living or non-living?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "living",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "non-living",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 5
+            }
+        ]
+    }
+}

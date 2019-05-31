@@ -1,0 +1,374 @@
+{
+    "publisherData": {
+        "modelId": "31",
+        "name": "Bellwether Media",
+        "url": "http://www.bellwethermedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539569528
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/6591/OEBPS/Images/1/ad080eb0cf3797de145896a5cc238687.jpg",
+                "audio": "drm/1/6591/OEBPS/Audio/1/003e39a43dfd73a7d324673109bcc9a3.mp3"
+            },
+            {
+                "page": "drm/1/6591/OEBPS/Images/1/cd1e5410f8def7e57628def4b1a5649c.jpg",
+                "audio": "drm/1/6591/OEBPS/Audio/1/364f3f16b03ee0de1db7410c42c794ff.mp3"
+            },
+            {
+                "page": "drm/1/6591/OEBPS/Images/1/4eeb82087e2e49c130b860712ecfeb4f.jpg"
+            },
+            {
+                "page": "drm/1/6591/OEBPS/Images/1/275b78335529cb564482052dd7badc87.jpg",
+                "audio": "drm/1/6591/OEBPS/Audio/1/01f63c9e53f9d3f20f8f1ae9c6662bf6.mp3"
+            },
+            {
+                "page": "drm/1/6591/OEBPS/Images/1/b8837720f32ebe9b38e3c44416584620.jpg"
+            },
+            {
+                "page": "drm/1/6591/OEBPS/Images/1/7cfbfc2a780d31a8e978ea3220edff0c.jpg",
+                "audio": "drm/1/6591/OEBPS/Audio/1/668319d8f8122d16ac247d05f7a40449.mp3"
+            },
+            {
+                "page": "drm/1/6591/OEBPS/Images/1/6c777b52b6a6ad42ef94b821aee9ed6a.jpg"
+            },
+            {
+                "page": "drm/1/6591/OEBPS/Images/1/eba1f91f94d7cf24b87f7ed493f29a88.jpg",
+                "audio": "drm/1/6591/OEBPS/Audio/1/477514d1e58f2f6b8b42ab848ee0903c.mp3"
+            },
+            {
+                "page": "drm/1/6591/OEBPS/Images/1/4e4a6e8fced09da21f743e6fa85f12c3.jpg"
+            },
+            {
+                "page": "drm/1/6591/OEBPS/Images/1/1be709baf45a98f0c2be8b5a3372b447.jpg",
+                "audio": "drm/1/6591/OEBPS/Audio/1/e333b2a969bfb937de81268cd0ae5d84.mp3"
+            },
+            {
+                "page": "drm/1/6591/OEBPS/Images/1/4593c6ee12ba857608d6ee6d4e2db56d.jpg"
+            },
+            {
+                "page": "drm/1/6591/OEBPS/Images/1/1ae6d350dfcc8feef1307f386055ab7e.jpg",
+                "audio": "drm/1/6591/OEBPS/Audio/1/28866607214239f1a356ddc9846fedf8.mp3"
+            },
+            {
+                "page": "drm/1/6591/OEBPS/Images/1/b5de3389affaaa91cbbaae4cf2d0cd3e.jpg"
+            },
+            {
+                "page": "drm/1/6591/OEBPS/Images/1/3df81e03536fa6cea62788c835c7cdbd.jpg",
+                "audio": "drm/1/6591/OEBPS/Audio/1/643c637a2866a935339c156ec64839cf.mp3"
+            },
+            {
+                "page": "drm/1/6591/OEBPS/Images/1/005e75161fde7cdf89d8e3a26677ca5a.jpg"
+            },
+            {
+                "page": "drm/1/6591/OEBPS/Images/1/6c580984e8444820ae7ef54593fc6b27.jpg",
+                "audio": "drm/1/6591/OEBPS/Audio/1/90e48a9badcfe48c27ccba82bfba3906.mp3"
+            },
+            {
+                "page": "drm/1/6591/OEBPS/Images/1/affb56d665493f7f69d884ea7eede223.jpg"
+            },
+            {
+                "page": "drm/1/6591/OEBPS/Images/1/18d0d7742dbd244ffbb4e1ae968921ea.jpg",
+                "audio": "drm/1/6591/OEBPS/Audio/1/b4fe2ef49c5cd558dec71ac5312b7e41.mp3"
+            },
+            {
+                "page": "drm/1/6591/OEBPS/Images/1/6fc7eece958392728161ed0a65922833.jpg"
+            },
+            {
+                "page": "drm/1/6591/OEBPS/Images/1/8003840ba4308584710b60cd1128c38d.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/6591/OEBPS/Images/1/e12d5942245f68a40f629b5490511834.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "6591",
+        "id": "6591",
+        "title": "Puppies: Watch Animals Grow",
+        "author": "Colleen Sexton",
+        "illustrator": " ",
+        "numPages": 20,
+        "bookDescription": "Puppies are born with a fully developed sense of smell. Get a first look at how these lovable household pets grow up, eat, and play.",
+        "coverColorR": 179,
+        "coverColorG": 147,
+        "coverColorB": 95,
+        "version": 2,
+        "previewPercent": 20,
+        "publisher": "Bellwether Media",
+        "publisherId": "31",
+        "age": 6,
+        "pageNumOffset": 4,
+        "active": 1,
+        "audio": 1,
+        "lexile": "230L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 733,
+        "ar": "1.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Dogs",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.7233,
+        "contentHash": "b7fe423257bbd54256f0",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1556039449
+    },
+    "userBook": {
+        "modelId": "46250489-6591",
+        "userId": "46250489",
+        "bookId": "6591",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559307273,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559307273,
+        "book": {
+            "modelId": "6591",
+            "title": "Puppies: Watch Animals Grow",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "b7fe423257bbd54256f0"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "400933",
+            "user_id": "25004215",
+            "book_id": "6591",
+            "title": "Puppies",
+            "description": "",
+            "date_created": 1556821880,
+            "date_modified": 1556821880,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What are baby dogs called?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Puppies ",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Cubs",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Baby",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Calf",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What age can puppies leave their mother?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "8 weeks",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "20 weeks",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "10 weeks",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "5 weeks",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What do puppies do to clean their teeth?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Chew on toys",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Eat food",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Fetch",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Drink water",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                }
+            ],
+            "modelId": "400933",
+            "creatorName": "Mr. Thomas",
+            "avatarId": "82",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "25004215",
+                "udid": "5ad1763b42e752.09675599",
+                "journalName": "Mr. Thomas",
+                "journalCoverAvatar": "82",
+                "journalCoverColor": "0.84705882352941 0.18039215686275 0.46274509803922 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "337995268",
+                "fid": "",
+                "accountID": "7E624964-50AB-7A2A-B784-F3FA89EA350B",
+                "simpleAccountId": "7268460",
+                "pagesFlipped": 1961,
+                "nufComplete": 1,
+                "readingAge": 6.86667,
+                "startingAge": 7,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 2164,
+                "xpLevel": 19,
+                "dateLastLogin": 1558540141,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Melvin",
+                "lastName": "Thomas",
+                "accountType": 1,
+                "dateModified": 1559069334,
+                "educatorPrefix": "Mr.",
+                "name": "Mr. Thomas"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What are baby dogs called?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Puppies ",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Cubs",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Baby",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Calf",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What age can puppies leave their mother?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "8 weeks",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "20 weeks",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "10 weeks",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "5 weeks",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What do puppies do to clean their teeth?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Chew on toys",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Eat food",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Fetch",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Drink water",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            }
+        ]
+    }
+}

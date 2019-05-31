@@ -1,0 +1,418 @@
+{
+    "publisherData": {
+        "modelId": "10",
+        "name": "Kids Can Press",
+        "url": "http://www.kidscanpress.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539816186
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/d40ccd89c3d63d3dcb572455cf2d2cbb.jpg",
+                "audio": "drm/9/6289/OEBPS/Audio/1/27027e7eed63f3db1c120a484993bbe4.mp3"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/96f52008ea984c9e55be5a64ca542864.jpg",
+                "audio": "drm/9/6289/OEBPS/Audio/1/5dc9b4e3ff1df662b75b250697be0735.mp3"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/76e5babaf5ab7a8612bb59ad5143716d.jpg",
+                "audio": "drm/9/6289/OEBPS/Audio/1/fb9511277ca438edee86d2036e645de5.mp3"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/46f0735e399196d3ffca3dce6668bc54.jpg",
+                "audio": "drm/9/6289/OEBPS/Audio/1/5130c7fa6d3de0e17d66301cf4cf151f.mp3"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/1d63a45f9265ca2725a31c7cb13bbdd6.jpg",
+                "audio": "drm/9/6289/OEBPS/Audio/1/a02f5f1d4dccf34ef4387a60d6e7531f.mp3"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/310eed9de269dd323444c414958954e8.jpg",
+                "audio": "drm/9/6289/OEBPS/Audio/1/d33a3af1e7b2c523d9e8cb7169b6c6a3.mp3"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/748f547d64f29acf2a51574cde9f3598.jpg",
+                "audio": "drm/9/6289/OEBPS/Audio/1/d5413a986cc86a56f7962652b8b9d7e2.mp3"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/291ccae554e2f35a630c8e0af7af3cf4.jpg"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/18ba74bea8095118d7305d2ad9cae9ce.jpg",
+                "audio": "drm/9/6289/OEBPS/Audio/1/b21ed6054c57da9ec364db7d908e1fe6.mp3"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/a6074b10e1280b58769f028aa34404c2.jpg",
+                "audio": "drm/9/6289/OEBPS/Audio/1/acf81d4a58eb6f10601128ed28b1d882.mp3"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/85a33d35a7193abc61e795344c5ca9e7.jpg"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/085edc641bae1cfa6e1ddaabf4830d6e.jpg"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/e866277372fcb2a4628022fe6f95aaa0.jpg",
+                "audio": "drm/9/6289/OEBPS/Audio/1/ca794fd444aecdc76a1ad93f1767a764.mp3"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/833837ccc46e94dc9bf740e35f0a2741.jpg"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/e7ff97cd9d04351325f6f763dcbfacb6.jpg",
+                "audio": "drm/9/6289/OEBPS/Audio/1/c00629f6fc34aad1a19f3d67ad2fc0d5.mp3"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/b86979eae90b91d0f1b26cdb7e6a0bf2.jpg"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/346f5269da84dffa90fcb63c242d6d2a.jpg",
+                "audio": "drm/9/6289/OEBPS/Audio/1/0b8b5aec3549657bee894abb18747fc2.mp3"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/715e19f9e397a15c2320f51883f68a98.jpg"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/eceee2d67d4bc668ace6f126c9e7b743.jpg",
+                "audio": "drm/9/6289/OEBPS/Audio/1/6b68e4927359c808a66301bdf6bd1fe5.mp3"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/f9e20ac820131ab489563d5e5b868bba.jpg",
+                "audio": "drm/9/6289/OEBPS/Audio/1/81dca922541cec659b042c8cc50a70f4.mp3"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/9d3076592e08d051a4b56561866947b9.jpg",
+                "audio": "drm/9/6289/OEBPS/Audio/1/f83fb7616e6479a07999d063036750c9.mp3"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/ec07a45c3a87597fa934ebb964eb5d65.jpg",
+                "audio": "drm/9/6289/OEBPS/Audio/1/957f6c71b4ba3ae196dd3701bdcc5fcc.mp3"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/1ab6372c803a8d56e91314636126aa1c.jpg",
+                "audio": "drm/9/6289/OEBPS/Audio/1/dcdcae5197b8d94090a460fb8f35fda8.mp3"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/088cefbe2a3396efc5aa47b613a31e16.jpg",
+                "audio": "drm/9/6289/OEBPS/Audio/1/fb8a6768528f29ed645639435d7206e2.mp3"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/56be7c374f417deafd9def725dfdbb7e.jpg"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/950109397ee06ddffba55ae5166885c1.jpg",
+                "audio": "drm/9/6289/OEBPS/Audio/1/453dd3a5afbdccb877a05e7a36f41995.mp3"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/3e17587408e75cf0565617a11ba7a8fe.jpg"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/7de5584908f9ebab5030b24c34098ee8.jpg",
+                "audio": "drm/9/6289/OEBPS/Audio/1/c389d0a35eef629c4d09403693d91abc.mp3"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/9b787264e85227f9e4ab777d0e2b7d72.jpg"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/55c85e5e850123d539ff182076a1f8d0.jpg"
+            },
+            {
+                "page": "drm/9/6289/OEBPS/Images/1/76cbf3b454d5025bd380f993561b15da.jpg",
+                "audio": "drm/9/6289/OEBPS/Audio/1/fdce5589259bac11e858e5def9e7f481.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/6289/OEBPS/Images/1/29480e512ac2b40d9e7da282ce9c7078.jpg",
+            "color": "#fefefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "6289",
+        "id": "6289",
+        "title": "Spork",
+        "author": "Kyo Maclear",
+        "illustrator": "Isabelle Arsenault",
+        "numPages": 31,
+        "bookDescription": "A humorous \u201cmulti-cutlery\u201d tale about how Spork \u2014 half spoon, half fork \u2014 finally finds his place at the table.",
+        "coverColorR": 214,
+        "coverColorG": 223,
+        "coverColorB": 214,
+        "version": 12821,
+        "previewPercent": 20,
+        "publisher": "Kids Can Press",
+        "publisherId": "10",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "570L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 516,
+        "ar": "3.2",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Identity",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 0.7992,
+        "contentHash": "24653d699083f68f2fb0",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1556739562
+    },
+    "userBook": {
+        "modelId": "46250489-6289",
+        "userId": "46250489",
+        "bookId": "6289",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310158,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310158,
+        "book": {
+            "modelId": "6289",
+            "title": "Spork",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "24653d699083f68f2fb0"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "110518",
+            "user_id": "16073630",
+            "book_id": "6289",
+            "title": "Spork!",
+            "description": "",
+            "date_created": 1498152387,
+            "date_modified": 1510690367,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "quizQuestionChoices": [
+                        {
+                            "correct": 1,
+                            "title": "Spoon and fork",
+                            "id": 0
+                        },
+                        {
+                            "correct": 0,
+                            "title": "Spoon and knife",
+                            "id": 1
+                        },
+                        {
+                            "correct": 0,
+                            "title": "Knife and fork",
+                            "id": 2
+                        },
+                        {
+                            "correct": 0,
+                            "title": "Spoon and dog ",
+                            "id": 3
+                        }
+                    ],
+                    "title": "The spork was a little of...",
+                    "id": 0
+                },
+                {
+                    "quizQuestionChoices": [
+                        {
+                            "correct": 1,
+                            "title": "He didn't look like the others",
+                            "id": 0
+                        },
+                        {
+                            "correct": 0,
+                            "title": "He didn't know who were his parents ",
+                            "id": 1
+                        },
+                        {
+                            "correct": 0,
+                            "title": "He wanted vacations",
+                            "id": 2
+                        },
+                        {
+                            "correct": 0,
+                            "title": "He liked being alone",
+                            "id": 3
+                        }
+                    ],
+                    "title": "At the beginning of the story, Spork was feeling sad because... ",
+                    "id": 1
+                },
+                {
+                    "quizQuestionChoices": [
+                        {
+                            "correct": 1,
+                            "title": "It's ok to be different.",
+                            "id": 0
+                        },
+                        {
+                            "correct": 0,
+                            "title": "Spork was never happy",
+                            "id": 1
+                        },
+                        {
+                            "correct": 0,
+                            "title": "Spork was only a spoon",
+                            "id": 2
+                        },
+                        {
+                            "correct": 0,
+                            "title": "Nobody used Spork ",
+                            "id": 3
+                        }
+                    ],
+                    "title": "What did the story teach you?",
+                    "id": 2
+                }
+            ],
+            "modelId": "110518",
+            "creatorName": "Ms. Llanos",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "16073630",
+                "udid": "594bec1ed97a29.80921443",
+                "journalName": "Ms. Llanos",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.15686274509804 0.47058823529412 0.60392156862745 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "163609770",
+                "fid": "",
+                "accountID": "499630B0-F8E9-8463-BC33-0FE170499439",
+                "simpleAccountId": "5231399",
+                "pagesFlipped": 259,
+                "nufComplete": 1,
+                "readingAge": 5,
+                "startingAge": 0,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 0,
+                "xpLevel": 1,
+                "dateLastLogin": 0,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Laura",
+                "lastName": "Llanos",
+                "accountType": 1,
+                "dateModified": 1502982576,
+                "educatorPrefix": "Ms.",
+                "name": "Ms. Llanos"
+            }
+        },
+        "quizQuestions": [
+            {
+                "quizQuestionChoices": [
+                    {
+                        "correct": 1,
+                        "title": "Spoon and fork",
+                        "id": 0
+                    },
+                    {
+                        "correct": 0,
+                        "title": "Spoon and knife",
+                        "id": 1
+                    },
+                    {
+                        "correct": 0,
+                        "title": "Knife and fork",
+                        "id": 2
+                    },
+                    {
+                        "correct": 0,
+                        "title": "Spoon and dog ",
+                        "id": 3
+                    }
+                ],
+                "title": "The spork was a little of...",
+                "id": 0
+            },
+            {
+                "quizQuestionChoices": [
+                    {
+                        "correct": 1,
+                        "title": "He didn't look like the others",
+                        "id": 0
+                    },
+                    {
+                        "correct": 0,
+                        "title": "He didn't know who were his parents ",
+                        "id": 1
+                    },
+                    {
+                        "correct": 0,
+                        "title": "He wanted vacations",
+                        "id": 2
+                    },
+                    {
+                        "correct": 0,
+                        "title": "He liked being alone",
+                        "id": 3
+                    }
+                ],
+                "title": "At the beginning of the story, Spork was feeling sad because... ",
+                "id": 1
+            },
+            {
+                "quizQuestionChoices": [
+                    {
+                        "correct": 1,
+                        "title": "It's ok to be different.",
+                        "id": 0
+                    },
+                    {
+                        "correct": 0,
+                        "title": "Spork was never happy",
+                        "id": 1
+                    },
+                    {
+                        "correct": 0,
+                        "title": "Spork was only a spoon",
+                        "id": 2
+                    },
+                    {
+                        "correct": 0,
+                        "title": "Nobody used Spork ",
+                        "id": 3
+                    }
+                ],
+                "title": "What did the story teach you?",
+                "id": 2
+            }
+        ]
+    }
+}

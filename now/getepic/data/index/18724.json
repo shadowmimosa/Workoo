@@ -1,0 +1,672 @@
+{
+    "publisherData": {
+        "modelId": "107",
+        "name": "Rourke Educational Media",
+        "url": "http://rourkeeducationalmedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570193
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/18724/OEBPS/Images/1/1f296c9480dd8484d0fd75564e74f32a.jpg",
+                "audio": "drm/4/18724/OEBPS/Audio/1/52f998cbec6884c28062ec832dec71f1.mp3"
+            },
+            {
+                "page": "drm/4/18724/OEBPS/Images/1/808fd659ebf3503b98568b6b43042c9b.jpg",
+                "audio": "drm/4/18724/OEBPS/Audio/1/3bbb9fca858ccfd07373772e2c2c3ae9.mp3"
+            },
+            {
+                "page": "drm/4/18724/OEBPS/Images/1/9be03e790504785cea6664c1fdd25966.jpg"
+            },
+            {
+                "page": "drm/4/18724/OEBPS/Images/1/2e0c28ea221cb18cc5195db3018d04eb.jpg",
+                "audio": "drm/4/18724/OEBPS/Audio/1/13d8b4bb2f7a06760ed692a4899e8dc3.mp3"
+            },
+            {
+                "page": "drm/4/18724/OEBPS/Images/1/9097dc9d663e4854cba9125c73be7113.jpg"
+            },
+            {
+                "page": "drm/4/18724/OEBPS/Images/1/2d1ef295c16b67cd0096edb5d6894135.jpg",
+                "audio": "drm/4/18724/OEBPS/Audio/1/eff79fa719e2d5b77c351b3f1e514852.mp3"
+            },
+            {
+                "page": "drm/4/18724/OEBPS/Images/1/f8b89db78cdc2976d1115818b1b209b2.jpg"
+            },
+            {
+                "page": "drm/4/18724/OEBPS/Images/1/f31f15598bf46e202c4b176a99c964d0.jpg",
+                "audio": "drm/4/18724/OEBPS/Audio/1/aa85bd447fc71e5194e5cbc0bbd68574.mp3"
+            },
+            {
+                "page": "drm/4/18724/OEBPS/Images/1/87ec27f4f5ebbfce452f7bcb8d7a8547.jpg"
+            },
+            {
+                "page": "drm/4/18724/OEBPS/Images/1/9dfd377a91fa105229227b8ff9072f95.jpg",
+                "audio": "drm/4/18724/OEBPS/Audio/1/859ebaa8530fe1be83b0aecf8dccab95.mp3"
+            },
+            {
+                "page": "drm/4/18724/OEBPS/Images/1/0db0bce6759f82707583488ea04a7fe4.jpg"
+            },
+            {
+                "page": "drm/4/18724/OEBPS/Images/1/f468076e3b9716490736d87592423e62.jpg",
+                "audio": "drm/4/18724/OEBPS/Audio/1/ef92c6d1c1cc32d2d2175cb6caed9546.mp3"
+            },
+            {
+                "page": "drm/4/18724/OEBPS/Images/1/d2a23e3fc2b352e827af9bf061da693f.jpg"
+            },
+            {
+                "page": "drm/4/18724/OEBPS/Images/1/fab74adb6ddd17a91fb3e3b80da89103.jpg",
+                "audio": "drm/4/18724/OEBPS/Audio/1/91fe55769cf201832d875ff252faba89.mp3"
+            },
+            {
+                "page": "drm/4/18724/OEBPS/Images/1/6909a9d8dc6354e9977d71e15db1e0a3.jpg"
+            },
+            {
+                "page": "drm/4/18724/OEBPS/Images/1/2dd15b8750fe4de68e90e4646d566ef7.jpg",
+                "audio": "drm/4/18724/OEBPS/Audio/1/19b898ad1d63b1b365cac32d8201326c.mp3"
+            },
+            {
+                "page": "drm/4/18724/OEBPS/Images/1/381342ca3925273fa3c2c11de30d9e3d.jpg"
+            },
+            {
+                "page": "drm/4/18724/OEBPS/Images/1/aa5d302aa26c29f8323d0b6231ab9730.jpg",
+                "audio": "drm/4/18724/OEBPS/Audio/1/a3e5b8c4b5f072035b0a640acfa84c04.mp3"
+            },
+            {
+                "page": "drm/4/18724/OEBPS/Images/1/7715fe1562aae408be368f71addccdd8.jpg"
+            },
+            {
+                "page": "drm/4/18724/OEBPS/Images/1/b8e4b4c38d05f87d4b752f953eeaad47.jpg",
+                "audio": "drm/4/18724/OEBPS/Audio/1/aaa9a9f184f52401dbb6167a92c2324b.mp3"
+            },
+            {
+                "page": "drm/4/18724/OEBPS/Images/1/06750234e6e5799944d166594294b922.jpg"
+            },
+            {
+                "page": "drm/4/18724/OEBPS/Images/1/32ee4a4ddba600123264d6f82457dbf7.jpg"
+            },
+            {
+                "page": "drm/4/18724/OEBPS/Images/1/7fe59439e71061cf352917a0272c885b.jpg"
+            },
+            {
+                "page": "drm/4/18724/OEBPS/Images/1/8206c12869b8584b39dfef35ead5a92e.jpg"
+            },
+            {
+                "page": "drm/4/18724/OEBPS/Images/1/b38ad7f5a094dee6c9a5530a4ee0ee56.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/18724/OEBPS/Images/1/d5b5b3365fc3f6d0d031e285fee5cbb6.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18724",
+        "id": "18724",
+        "title": "Clam Beach",
+        "author": "J. Jean Robertson",
+        "illustrator": " ",
+        "numPages": 25,
+        "bookDescription": "The campers learn how to find clams on the beach.",
+        "coverColorR": 174,
+        "coverColorG": 193,
+        "coverColorB": 177,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Rourke Educational Media",
+        "publisherId": "107",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 416,
+        "ar": "1.5",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Daily Life",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "5647b7f0d987f45da739",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372873
+    },
+    "userBook": {
+        "modelId": "46250489-18724",
+        "userId": "46250489",
+        "bookId": "18724",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311300,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311300,
+        "book": {
+            "modelId": "18724",
+            "title": "Clam Beach",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "5647b7f0d987f45da739"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "97183",
+            "user_id": "5034048",
+            "book_id": "18724",
+            "title": "Crab Quiz",
+            "description": "",
+            "date_created": 1495202179,
+            "date_modified": 1509994366,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Where are the children going?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "beach",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "museum",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "mountains",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "school",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What are they doing at the beach?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "digging for clams",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "finding treasure",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "making sandcastles",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "swimming",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What tools do they need for digging for clams?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "shovels and pails",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "bathing suit",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "rake and a bag",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "a pail and gloves",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Why does the bus blow the horn?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "There's a tunnel.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "There's a dog.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "There's a train.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "There's a boat.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Who sees the waves first?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Effie",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Chloe",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Lily",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "What does Bret see on the beach?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "The crab's big claw.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "footprints",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "waves",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "sand",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 5
+                },
+                {
+                    "title": "How do the campers dig for clams?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "They dig straight down.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "They cover them up.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "They go swimming for clams.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 6
+                },
+                {
+                    "title": "Who gets a clam first?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Willa",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Yari",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Chloe",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 7
+                },
+                {
+                    "title": "What is a clam?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "a small shellfish",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "a lobster",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "a fish with scales",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "a kind of octopus",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 8
+                }
+            ],
+            "modelId": "97183",
+            "creatorName": "Mrs. Caywood",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "5034048",
+                "udid": "56b7f7dbf0e1a7.41574965",
+                "journalName": "Mrs. Caywood",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.84705882352941 0.18039215686275 0.46274509803922 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "873539109",
+                "fid": "",
+                "accountID": "C46B7470-13F9-D0F6-D85E-08EFD5D59C1F",
+                "simpleAccountId": "1959166",
+                "pagesFlipped": 1085,
+                "nufComplete": 1,
+                "readingAge": 7.9,
+                "startingAge": 8,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 58,
+                "xpLevel": 1,
+                "dateLastLogin": 1556841761,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Caywood",
+                "lastName": "Caywood",
+                "accountType": 1,
+                "dateModified": 1559141430,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Caywood"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Where are the children going?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "beach",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "museum",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "mountains",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "school",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What are they doing at the beach?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "digging for clams",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "finding treasure",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "making sandcastles",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "swimming",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What tools do they need for digging for clams?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "shovels and pails",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "bathing suit",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "rake and a bag",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "a pail and gloves",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Why does the bus blow the horn?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "There's a tunnel.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "There's a dog.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "There's a train.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "There's a boat.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Who sees the waves first?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Effie",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Chloe",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Lily",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "What does Bret see on the beach?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "The crab's big claw.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "footprints",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "waves",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "sand",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 5
+            },
+            {
+                "title": "How do the campers dig for clams?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "They dig straight down.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "They cover them up.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "They go swimming for clams.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 6
+            },
+            {
+                "title": "Who gets a clam first?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Willa",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Yari",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Chloe",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 7
+            },
+            {
+                "title": "What is a clam?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "a small shellfish",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "a lobster",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "a fish with scales",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "a kind of octopus",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 8
+            }
+        ]
+    }
+}

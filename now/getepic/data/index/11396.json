@@ -1,0 +1,128 @@
+{
+    "publisherData": {
+        "modelId": "41",
+        "name": "Andrews Mcmeel Publishing",
+        "url": "http://www.andrewsmcmeel.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491010409
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/6/11396/OEBPS/Images/1/cf5d42961bbea5e1166aea3067359001.jpg"
+            },
+            {
+                "page": "drm/6/11396/OEBPS/Images/1/ca68fe5b655eda9b5e442d1bf2e0f695.jpg"
+            },
+            {
+                "page": "drm/6/11396/OEBPS/Images/1/a4707668a8e9fca8bda5f431bcd8324e.jpg"
+            },
+            {
+                "page": "drm/6/11396/OEBPS/Images/1/2d351784822e2a31a2983a3059111959.jpg"
+            },
+            {
+                "page": "drm/6/11396/OEBPS/Images/1/9bd3085d03a63d0b85a217971a0a01bd.jpg"
+            },
+            {
+                "page": "drm/6/11396/OEBPS/Images/1/3203e135b36cb5ba75f9eb020eb763b8.jpg"
+            },
+            {
+                "page": "drm/6/11396/OEBPS/Images/1/53a1bb9b1757b1a8ccdee4e286744a99.jpg"
+            },
+            {
+                "page": "drm/6/11396/OEBPS/Images/1/7c37926f8e48db1d2057c19adcde35ad.jpg"
+            },
+            {
+                "page": "drm/6/11396/OEBPS/Images/1/874c4d784d54db85d0a54971e2fca91d.jpg"
+            },
+            {
+                "page": "drm/6/11396/OEBPS/Images/1/413683c5d698957a11ca41f6bf63059d.jpg"
+            },
+            {
+                "page": "drm/6/11396/OEBPS/Images/1/fc003ba533cd7bfb2c8863f0ebb79ec1.jpg"
+            },
+            {
+                "page": "drm/6/11396/OEBPS/Images/1/26f789640c58a0cedefcef2ce0960aef.jpg"
+            },
+            {
+                "page": "drm/6/11396/OEBPS/Images/1/206b5a48a46c06c7323269aa78bd66c7.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/6/11396/OEBPS/Images/1/87aa4b2387b43dd3527b345969b93a4d.jpg",
+            "color": "#3af4d00"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "11396",
+        "id": "11396",
+        "title": "Dinosaurs",
+        "author": "Accord Publishing",
+        "illustrator": " ",
+        "numPages": 13,
+        "bookDescription": "Learn about dinosaurs in action, from a Brachiosaurus munching on leaves to a Stegosaurus swinging his spiky tail.",
+        "coverColorR": 146,
+        "coverColorG": 120,
+        "coverColorB": 92,
+        "version": 0,
+        "previewPercent": 10,
+        "publisher": "Andrews Mcmeel Publishing",
+        "publisherId": "41",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 195,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 81,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pre-Historic",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.9594,
+        "contentHash": "44eaa8d04f50909b0359",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1454208233
+    },
+    "userBook": {
+        "modelId": "46250489-11396",
+        "userId": "46250489",
+        "bookId": "11396",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310728,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310728,
+        "book": {
+            "modelId": "11396",
+            "title": "Dinosaurs",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "44eaa8d04f50909b0359"
+        }
+    },
+    "quiz": null
+}

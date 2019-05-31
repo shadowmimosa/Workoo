@@ -1,0 +1,141 @@
+{
+    "publisherData": {
+        "modelId": "2",
+        "name": "Twin Sisters IP, LLC.",
+        "url": "http://www.twinsisters.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1547683900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/3/61293/OEBPS/Images/1/2dda9d129c0b7901691787cb786668c7.jpg",
+                "audio": "drm/3/61293/OEBPS/Audio/1/9781620023754_cov.mp3"
+            },
+            {
+                "page": "drm/3/61293/OEBPS/Images/1/f97de8001f8515f9817e05a634f442a3.jpg",
+                "audio": "drm/3/61293/OEBPS/Audio/1/9781620023754_2.mp3"
+            },
+            {
+                "page": "drm/3/61293/OEBPS/Images/1/c2aec676cdcf66b1c2bf260f38b8028a.jpg",
+                "audio": "drm/3/61293/OEBPS/Audio/1/9781620023754_3.mp3"
+            },
+            {
+                "page": "drm/3/61293/OEBPS/Images/1/b0694fb1bd1adf663f115388eca177e8.jpg",
+                "audio": "drm/3/61293/OEBPS/Audio/1/9781620023754_4.mp3"
+            },
+            {
+                "page": "drm/3/61293/OEBPS/Images/1/3aed2166c0bf6fcf5359222e8157beba.jpg",
+                "audio": "drm/3/61293/OEBPS/Audio/1/9781620023754_5.mp3"
+            },
+            {
+                "page": "drm/3/61293/OEBPS/Images/1/6cf9ac5f9a73e7a87b9ccb20671c7df5.jpg",
+                "audio": "drm/3/61293/OEBPS/Audio/1/9781620023754_6.mp3"
+            },
+            {
+                "page": "drm/3/61293/OEBPS/Images/1/ede21ecf367468a97db360c5eaa97eaf.jpg",
+                "audio": "drm/3/61293/OEBPS/Audio/1/9781620023754_7.mp3"
+            },
+            {
+                "page": "drm/3/61293/OEBPS/Images/1/9f8efd3f7d42341e348e7f8b25b9b383.jpg",
+                "audio": "drm/3/61293/OEBPS/Audio/1/9781620023754_8.mp3"
+            },
+            {
+                "page": "drm/3/61293/OEBPS/Images/1/ee9686bc479684d44039f00b569c2f62.jpg",
+                "audio": "drm/3/61293/OEBPS/Audio/1/9781620023754_9.mp3"
+            },
+            {
+                "page": "drm/3/61293/OEBPS/Images/1/10f72a86e584b63b960ceef85c4514fe.jpg",
+                "audio": "drm/3/61293/OEBPS/Audio/1/9781620023754_10.mp3"
+            },
+            {
+                "page": "drm/3/61293/OEBPS/Images/1/0f52a7627c1f83b3fcc610ca0db354d7.jpg",
+                "audio": "drm/3/61293/OEBPS/Audio/1/9781620023754_11.mp3"
+            },
+            {
+                "page": "drm/3/61293/OEBPS/Images/1/3b44f261c95eb656bfd1504b82930f3f.jpg",
+                "audio": "drm/3/61293/OEBPS/Audio/1/9781620023754_12.mp3"
+            },
+            {
+                "page": "drm/3/61293/OEBPS/Images/1/89333ce077bf176e5aa8cb62fff36fb1.jpg",
+                "audio": "drm/3/61293/OEBPS/Audio/1/9781620023754_13.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/3/61293/OEBPS/Images/1/953d814bd13e469896264fcce247bf5e.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "61293",
+        "id": "61293",
+        "title": "I Can Wiggle",
+        "author": "Kim Mitzo Thompson, Karen Mitzo Hilderbrand",
+        "illustrator": " ",
+        "numPages": 13,
+        "bookDescription": "Kids will love singing, wiggling, and following along \u201cword-for word\u201d with this adorable book.",
+        "coverColorR": 156,
+        "coverColorG": 141,
+        "coverColorB": 94,
+        "version": 43049664,
+        "previewPercent": 20,
+        "publisher": "Twin Sisters IP, LLC.",
+        "publisherId": "2",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 216,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Funny",
+        "subjectColor": "FFD673",
+        "copyright": "",
+        "aspectRatio": 0.7742,
+        "contentHash": "4c63bfd1acc194035504",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "3",
+        "panelStatus": 0,
+        "date_modified": 1553218085
+    },
+    "userBook": {
+        "modelId": "46250489-61293",
+        "userId": "46250489",
+        "bookId": "61293",
+        "currentPageIndex": 6,
+        "farthestPageIndex": 6,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 46,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1558949588,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 66,
+        "dateModified": 1558949655,
+        "book": {
+            "modelId": "61293",
+            "title": "I Can Wiggle",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "4c63bfd1acc194035504"
+        }
+    },
+    "quiz": null
+}

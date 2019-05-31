@@ -1,0 +1,158 @@
+{
+    "publisherData": {
+        "modelId": "44",
+        "name": "National Geographic",
+        "url": "http://kids.nationalgeographic.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491261258
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/43659/OEBPS/Images/1/4262526B-DF8F-4610-884F-3F206A1C8D43.jpg"
+            },
+            {
+                "page": "drm/9/43659/OEBPS/Images/1/6B6FB24C-8E20-47A9-AD4F-4BFE9A16F08B.jpg"
+            },
+            {
+                "page": "drm/9/43659/OEBPS/Images/1/C9D8E0C2-0978-4840-B0D5-5C5A61D29344.jpg"
+            },
+            {
+                "page": "drm/9/43659/OEBPS/Images/1/B001D8C4-3808-4700-9C98-DBB35EC8C74B.jpg"
+            },
+            {
+                "page": "drm/9/43659/OEBPS/Images/1/03B4C4E5-814B-494E-857C-ABBCE881946B.jpg"
+            },
+            {
+                "page": "drm/9/43659/OEBPS/Images/1/AAC3CF67-0D74-4FAC-A4C6-8421D6C7B8BE.jpg"
+            },
+            {
+                "page": "drm/9/43659/OEBPS/Images/1/F9AEF259-F260-4C2B-ADEB-4E98C4E375F6.jpg"
+            },
+            {
+                "page": "drm/9/43659/OEBPS/Images/1/C90031C3-0600-4893-85BC-0539DCB3B1C8.jpg"
+            },
+            {
+                "page": "drm/9/43659/OEBPS/Images/1/34718747-2863-4977-9E18-1EE7727D87FB.jpg"
+            },
+            {
+                "page": "drm/9/43659/OEBPS/Images/1/12BFDB3F-B0AE-43DF-9172-582672F3E61A.jpg"
+            },
+            {
+                "page": "drm/9/43659/OEBPS/Images/1/225D8AE0-CD87-4508-96C1-F4697E2AC31A.jpg"
+            },
+            {
+                "page": "drm/9/43659/OEBPS/Images/1/D21A48C2-EDFD-4AE3-88CC-16DEFB290E20.jpg"
+            },
+            {
+                "page": "drm/9/43659/OEBPS/Images/1/8B116041-9F54-49F5-AEF4-EE760E12A139.jpg"
+            },
+            {
+                "page": "drm/9/43659/OEBPS/Images/1/CBC36AD6-B785-449E-BA04-AB29E0253680.jpg"
+            },
+            {
+                "page": "drm/9/43659/OEBPS/Images/1/F121AD96-8F8C-488F-A488-EC5B68FA77F8.jpg"
+            },
+            {
+                "page": "drm/9/43659/OEBPS/Images/1/F1FD3B6B-9B7C-4B0F-980A-FA58CF53BF6B.jpg"
+            },
+            {
+                "page": "drm/9/43659/OEBPS/Images/1/B18CC5CB-E0A0-4358-8A19-073A1B987F92.jpg"
+            },
+            {
+                "page": "drm/9/43659/OEBPS/Images/1/A48C678D-A0E5-44CD-A336-83F1FD1BD54C.jpg"
+            },
+            {
+                "page": "drm/9/43659/OEBPS/Images/1/FD9C3826-96E8-4554-976A-73BFC0BCD0B1.jpg"
+            },
+            {
+                "page": "drm/9/43659/OEBPS/Images/1/9A4B0A89-6243-44DD-97C9-3279C3770D38.jpg"
+            },
+            {
+                "page": "drm/9/43659/OEBPS/Images/1/FE61AD54-717E-4C2C-9F87-A7DBF0C020D3.jpg"
+            },
+            {
+                "page": "drm/9/43659/OEBPS/Images/1/CEA62A99-D865-4EE8-A51F-5685A71ACB19.jpg"
+            },
+            {
+                "page": "drm/9/43659/OEBPS/Images/1/E0F23323-F7E8-4A4B-A471-CC278DB42660.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/43659/OEBPS/Images/1/BACB86E7-8B2C-4A74-BB94-BFDB81E190F0.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "43659",
+        "id": "43659",
+        "title": "National Geographic Kids Look and Learn: Things That Go",
+        "author": "National Geographic Kids",
+        "illustrator": " ",
+        "numPages": 23,
+        "bookDescription": "Introduce curious children to vehicles on the move\u2014trains, planes, and trucks.",
+        "coverColorR": 193,
+        "coverColorG": 189,
+        "coverColorB": 154,
+        "version": 12309,
+        "previewPercent": 10,
+        "publisher": "National Geographic",
+        "publisherId": "44",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "AD510L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 230,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Things That GO",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "f1a7f2fc65ff1927ac51",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "2",
+        "panelStatus": 0,
+        "date_modified": 1555373886
+    },
+    "userBook": {
+        "modelId": "46250489-43659",
+        "userId": "46250489",
+        "bookId": "43659",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559312008,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559312008,
+        "book": {
+            "modelId": "43659",
+            "title": "National Geographic Kids Look and Learn: Things That Go",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "f1a7f2fc65ff1927ac51"
+        }
+    },
+    "quiz": null
+}

@@ -1,0 +1,380 @@
+{
+    "publisherData": {
+        "modelId": "91",
+        "name": "ABDO Publishing",
+        "url": "http://abdopublishing.com//",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570820
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/25639/OEBPS/Images/1/76887604-85C9-4CA8-9D35-53D5A956B851.jpg"
+            },
+            {
+                "page": "drm/9/25639/OEBPS/Images/1/5AB95EB9-63A8-48B5-A3AA-23D99A5E4F9E.jpg",
+                "audio": "drm/9/25639/OEBPS/Audio/1/page6.mp3"
+            },
+            {
+                "page": "drm/9/25639/OEBPS/Images/1/00D0128D-286C-41C2-9ADC-90A638B4E174.jpg"
+            },
+            {
+                "page": "drm/9/25639/OEBPS/Images/1/14B24739-F5CF-4D51-A47A-8AA24ABC4EE5.jpg",
+                "audio": "drm/9/25639/OEBPS/Audio/1/page8.mp3"
+            },
+            {
+                "page": "drm/9/25639/OEBPS/Images/1/03D06E1D-32AC-4828-BAC6-6AEA26724D6C.jpg"
+            },
+            {
+                "page": "drm/9/25639/OEBPS/Images/1/EE2B74E6-475B-49DD-AC78-379F187F9A7A.jpg",
+                "audio": "drm/9/25639/OEBPS/Audio/1/page10.mp3"
+            },
+            {
+                "page": "drm/9/25639/OEBPS/Images/1/8F866F0C-344E-40D0-BB97-F60CA01BFED5.jpg"
+            },
+            {
+                "page": "drm/9/25639/OEBPS/Images/1/ED54F90F-39A5-4001-82CF-8924A9C2C197.jpg",
+                "audio": "drm/9/25639/OEBPS/Audio/1/page12.mp3"
+            },
+            {
+                "page": "drm/9/25639/OEBPS/Images/1/9017D6DC-3ED5-4D83-95A4-799CD6D5B2B9.jpg"
+            },
+            {
+                "page": "drm/9/25639/OEBPS/Images/1/231820B0-4B8F-4270-8A4D-5D3E5FC9FEAC.jpg",
+                "audio": "drm/9/25639/OEBPS/Audio/1/page14.mp3"
+            },
+            {
+                "page": "drm/9/25639/OEBPS/Images/1/B39585AA-6095-4A69-9E31-091FEA21BFC5.jpg"
+            },
+            {
+                "page": "drm/9/25639/OEBPS/Images/1/7E47522E-83AE-43B0-BF7D-3F8517350ABE.jpg",
+                "audio": "drm/9/25639/OEBPS/Audio/1/page16.mp3"
+            },
+            {
+                "page": "drm/9/25639/OEBPS/Images/1/EB143BAE-34E6-4CFD-9390-AF2B54E9043A.jpg"
+            },
+            {
+                "page": "drm/9/25639/OEBPS/Images/1/11478C7B-61EC-4F8A-AEBD-83B5BB008A06.jpg",
+                "audio": "drm/9/25639/OEBPS/Audio/1/page18.mp3"
+            },
+            {
+                "page": "drm/9/25639/OEBPS/Images/1/B6A11EED-0503-4738-810B-83892A138A3F.jpg"
+            },
+            {
+                "page": "drm/9/25639/OEBPS/Images/1/13F76778-6F01-4F3A-9243-5545C941CCA1.jpg",
+                "audio": "drm/9/25639/OEBPS/Audio/1/page20.mp3"
+            },
+            {
+                "page": "drm/9/25639/OEBPS/Images/1/7C56774D-9251-45E9-962C-838B3EFD3629.jpg"
+            },
+            {
+                "page": "drm/9/25639/OEBPS/Images/1/CEA59FC2-4F78-4AA8-A7EE-8AB1B530FB1C.jpg",
+                "audio": "drm/9/25639/OEBPS/Audio/1/page22.mp3"
+            },
+            {
+                "page": "drm/9/25639/OEBPS/Images/1/CCA2AB64-F95A-4F8A-B55A-95A24FB51BF1.jpg"
+            },
+            {
+                "page": "drm/9/25639/OEBPS/Images/1/264A9F12-2F5D-401C-99C1-0E4F5011CBB7.jpg",
+                "audio": "drm/9/25639/OEBPS/Audio/1/page24.mp3"
+            },
+            {
+                "page": "drm/9/25639/OEBPS/Images/1/0D6FD9B3-27C0-45C7-AE7E-66A7416B92E7.jpg"
+            },
+            {
+                "page": "drm/9/25639/OEBPS/Images/1/51F0BB18-48B3-452E-BCDE-6A610C270DF3.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/25639/OEBPS/Images/1/78A8A565-F5D4-4C89-83E0-FDB66B6F0E12.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "25639",
+        "id": "25639",
+        "title": "Cats",
+        "author": "Julie Murray",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "This title introduces readers to cats, which are popular family pets.",
+        "coverColorR": 211,
+        "coverColorG": 207,
+        "coverColorB": 188,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "ABDO Publishing",
+        "publisherId": "91",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "60L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 366,
+        "ar": "0.9",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Cats",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.0582,
+        "contentHash": "a2229c04bd74d6c2bb49",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373038
+    },
+    "userBook": {
+        "modelId": "46250489-25639",
+        "userId": "46250489",
+        "bookId": "25639",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559309923,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559309923,
+        "book": {
+            "modelId": "25639",
+            "title": "Cats",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "a2229c04bd74d6c2bb49"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "119248",
+            "user_id": "14907099",
+            "book_id": "25639",
+            "title": "Cats",
+            "description": "",
+            "date_created": 1505435566,
+            "date_modified": 1512154867,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Cats have __________ fur.",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "soft",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "rough",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "bumpy",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "short",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "Whiskers help cats ____________.",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "feel",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "run",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "smell",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "see",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What is one thing cats need?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "food",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "friends",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "a collar",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "toys",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                }
+            ],
+            "modelId": "119248",
+            "creatorName": "Ms. Collins",
+            "avatarId": "81",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "14907099",
+                "udid": "590294ad489e79.26901104",
+                "journalName": "Ms. Collins",
+                "journalCoverAvatar": "81",
+                "journalCoverColor": "0.93725490196078 0.37647058823529 0.30196078431373 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "863014774",
+                "fid": "",
+                "accountID": "773CFC8F-5A36-FDA4-FB64-45DF76B8999A",
+                "simpleAccountId": "4846254",
+                "pagesFlipped": 11314,
+                "nufComplete": 1,
+                "readingAge": 6.7,
+                "startingAge": 7,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 421,
+                "xpLevel": 7,
+                "dateLastLogin": 1559048124,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Sarah",
+                "lastName": "Collins",
+                "accountType": 1,
+                "dateModified": 1559238303,
+                "educatorPrefix": "Ms.",
+                "name": "Ms. Collins"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Cats have __________ fur.",
+                "quizQuestionChoices": [
+                    {
+                        "title": "soft",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "rough",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "bumpy",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "short",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "Whiskers help cats ____________.",
+                "quizQuestionChoices": [
+                    {
+                        "title": "feel",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "run",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "smell",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "see",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What is one thing cats need?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "food",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "friends",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "a collar",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "toys",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            }
+        ]
+    }
+}

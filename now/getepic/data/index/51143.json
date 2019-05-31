@@ -1,0 +1,146 @@
+{
+    "publisherData": {
+        "modelId": "31",
+        "name": "Bellwether Media",
+        "url": "http://www.bellwethermedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539569528
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/3/51143/OEBPS/Images/1/b083ec3c69069473aa75c24ed60ed17e.jpg"
+            },
+            {
+                "page": "drm/3/51143/OEBPS/Images/1/91ed6fe67d72ef413002537d5d1f1a89.jpg"
+            },
+            {
+                "page": "drm/3/51143/OEBPS/Images/1/b78151e86de4ae58b0f2d3e9ecf30a4d.jpg"
+            },
+            {
+                "page": "drm/3/51143/OEBPS/Images/1/31b6c35b978e75f76a6d3e7af3e64efe.jpg"
+            },
+            {
+                "page": "drm/3/51143/OEBPS/Images/1/fa223e10be72ea0f92905b2e0ddb5383.jpg"
+            },
+            {
+                "page": "drm/3/51143/OEBPS/Images/1/65144ecde4578640acf9e3cce683621b.jpg"
+            },
+            {
+                "page": "drm/3/51143/OEBPS/Images/1/b21ed1745463475c2dcf94df21d3afe0.jpg"
+            },
+            {
+                "page": "drm/3/51143/OEBPS/Images/1/61be3dc41b9f42d2533ee8fb1edcdbdc.jpg"
+            },
+            {
+                "page": "drm/3/51143/OEBPS/Images/1/fd93669f02afcdda1423f8f2e338cef8.jpg"
+            },
+            {
+                "page": "drm/3/51143/OEBPS/Images/1/105714ba5a8d5f6dbac5280db767f143.jpg"
+            },
+            {
+                "page": "drm/3/51143/OEBPS/Images/1/182bc585cd44040466136b64cb72dc2d.jpg"
+            },
+            {
+                "page": "drm/3/51143/OEBPS/Images/1/a9feacc906bcc9f6847c6039b1523ec0.jpg"
+            },
+            {
+                "page": "drm/3/51143/OEBPS/Images/1/1e62253e07534d706f7e03e9069de573.jpg"
+            },
+            {
+                "page": "drm/3/51143/OEBPS/Images/1/7800cc114b37d61a01ccbb4f509b545d.jpg"
+            },
+            {
+                "page": "drm/3/51143/OEBPS/Images/1/32dcd9f862bdf5030973ede32d050462.jpg"
+            },
+            {
+                "page": "drm/3/51143/OEBPS/Images/1/4cefbac9f218bb2163ef4a0335df6a40.jpg"
+            },
+            {
+                "page": "drm/3/51143/OEBPS/Images/1/3e25252f4a9ed8e52b1918973ac29fcd.jpg"
+            },
+            {
+                "page": "drm/3/51143/OEBPS/Images/1/6b57286d05869459d564a4f48e7e2185.jpg"
+            },
+            {
+                "page": "drm/3/51143/OEBPS/Images/1/88e2165854ad96562311717a5ba96e7d.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/3/51143/OEBPS/Images/1/5a4c15be51bf1c213ebfde25f882ea58.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "51143",
+        "id": "51143",
+        "title": "Dalmatians",
+        "author": "Mari Schuh",
+        "illustrator": " ",
+        "numPages": 19,
+        "bookDescription": "For many years, people have loved dogs for their fun feats and traits.",
+        "coverColorR": 182,
+        "coverColorG": 134,
+        "coverColorB": 118,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Bellwether Media",
+        "publisherId": "31",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "510L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 348,
+        "ar": "2.3",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 86,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Dogs",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.7222,
+        "contentHash": "9953c938b3f3f3df218a",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "3",
+        "panelStatus": 0,
+        "date_modified": 1555374352
+    },
+    "userBook": {
+        "modelId": "46250489-51143",
+        "userId": "46250489",
+        "bookId": "51143",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559304978,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559304978,
+        "book": {
+            "modelId": "51143",
+            "title": "Dalmatians",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "9953c938b3f3f3df218a"
+        }
+    },
+    "quiz": null
+}

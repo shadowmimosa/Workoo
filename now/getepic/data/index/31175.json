@@ -1,0 +1,497 @@
+{
+    "publisherData": {
+        "modelId": "94",
+        "name": "Sleeping Bear Press",
+        "url": "http://sleepingbearpress.com",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491261794
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/EB823372-9B85-4795-B8E4-AEBB50026732.jpg"
+            },
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/DD86492C-728A-48EC-9CFD-B98A40BF6FA2.jpg"
+            },
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/FB731264-4EB2-43D2-8E60-3D3D1099D9D0.jpg"
+            },
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/875FF450-AC13-4701-B6DE-518FEC67362D.jpg"
+            },
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/6B963966-8143-4CF0-99F8-055AC4910818.jpg"
+            },
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/DC7E786F-8CA7-4A6E-86EB-1D40009AAD57.jpg"
+            },
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/D26138A4-79DD-4F00-BF74-65A6833C6F13.jpg"
+            },
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/2EB201A6-3541-425B-8697-3881BE483530.jpg"
+            },
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/D5F0221C-C855-4D42-9F24-E23418191422.jpg"
+            },
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/40F44A36-B504-4455-B1B1-C68D9C6EEB7E.jpg"
+            },
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/AC158FFD-4898-456E-87EC-7B4A1588EB3D.jpg"
+            },
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/0E8F0274-37AB-4832-805B-D33E4B769FFE.jpg"
+            },
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/5BF169F3-5B99-4C1E-B019-F009CC19FE9E.jpg"
+            },
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/282A02DE-1D7A-4FCB-B5B5-0B0433C07708.jpg"
+            },
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/03CCE68B-A3C6-460A-9115-B27602726AFF.jpg"
+            },
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/3A744735-7797-4B4A-A724-EFE217596A50.jpg"
+            },
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/F97B7B88-A4E0-4B40-A22B-EDAD6D80D007.jpg"
+            },
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/6696B96B-AA44-4A9C-BEAA-6ED06E6EF7B4.jpg"
+            },
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/3E67013D-EC8E-47C0-BE34-A2A58CC5A609.jpg"
+            },
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/56909275-6E09-49A2-9BD6-ACEA4516282E.jpg"
+            },
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/4AE8C975-24FB-4355-9E03-38E49697398E.jpg"
+            },
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/78EB7F49-0B22-4F04-8CBB-21528B50CFEA.jpg"
+            },
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/B341887F-166F-4170-AA0E-6B1FF5F0EAE8.jpg"
+            },
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/08EF683D-DA70-4220-BC5F-86DF79043932.jpg"
+            },
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/F03274D7-5268-4226-8551-14CAB5E3AD1C.jpg"
+            },
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/9945474C-1F8D-4FCD-878B-7C352F7DB5D0.jpg"
+            },
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/1084FE3C-63EC-4925-BD9A-8C1B2A4C3E7D.jpg"
+            },
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/9DB4B5C8-DF2D-4153-AD8C-851F6EBBBBF5.jpg"
+            },
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/30C58BFE-3272-4D22-B660-F1B9AD8615D5.jpg"
+            },
+            {
+                "page": "drm/5/31175/OEBPS/Images/1/451D706C-E66D-48A0-87F8-DB4660B90181.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/31175/OEBPS/Images/1/12AA7FDE-8ABB-428C-8C4C-8B90CF98629A.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "31175",
+        "id": "31175",
+        "title": "Memoirs of a Parrot",
+        "author": "Devin Scillian",
+        "illustrator": "Tim Bowers",
+        "numPages": 30,
+        "bookDescription": "Join a brilliant, but stubborn, parrot as he endures the banality of the pet store before an equally insufferable young man adopts him.",
+        "coverColorR": 114,
+        "coverColorG": 116,
+        "coverColorB": 114,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Sleeping Bear Press",
+        "publisherId": "94",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "AD520L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 550,
+        "ar": "2.4",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Relationships",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 1.2222,
+        "contentHash": "400bda4a9286f5d09074",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1544128072
+    },
+    "userBook": {
+        "modelId": "46250489-31175",
+        "userId": "46250489",
+        "bookId": "31175",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310278,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310278,
+        "book": {
+            "modelId": "31175",
+            "title": "Memoirs of a Parrot",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "400bda4a9286f5d09074"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "401809",
+            "user_id": "38947973",
+            "book_id": "31175",
+            "title": "MEMOIRS OF A PARROT",
+            "description": "",
+            "date_created": 1556895585,
+            "date_modified": 1556895585,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What is the name of the Pet shop?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Wilbur's Pet shop",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Jack's Pet shop",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Jane's Pet shop",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "John's Pet shop",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What did the customers keep asking the parrot?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "\"Polly want a cracker?\"",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "\"How are you?\"",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "\"What is your name?\"",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "\"What is your favourite colour?\"",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Who purchased Brock the parrot?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Todd",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Judd",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "John",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Mary",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Where did Todd live?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "a tiny house near a freeway",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "a mansion",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "on a farm",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "in a rainforest",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "What instrument did Todd play?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "ukulele",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "guitar",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "harmonica",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "drums",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "401809",
+            "creatorName": "Sa'mierra M.",
+            "avatarId": "27",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "38947973",
+                "udid": "5c5c757e5be546.97495606",
+                "journalName": "Sa'mierra M.",
+                "journalCoverAvatar": "27",
+                "journalCoverColor": "0.12549019607843 0.92941176470588 0.96078431372549 1",
+                "journalFrameImage": "6",
+                "journalCoverImage": "15",
+                "themeId": "6",
+                "code": "615473920",
+                "fid": "",
+                "accountID": "a07c2657-1814-49ec-a3dc-a6a55307c9e5",
+                "simpleAccountId": "11088889",
+                "pagesFlipped": 2165,
+                "nufComplete": 1,
+                "readingAge": 6.1333333333333,
+                "startingAge": 7,
+                "status": 0,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 2320,
+                "xpLevel": 17,
+                "dateLastLogin": 1559312225,
+                "email": "sami.mack9516@student.lexcs.org",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "Sa'mierra",
+                "lastName": "Macklin",
+                "accountType": 0,
+                "dateModified": 1553113002,
+                "grade": 2
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What is the name of the Pet shop?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Wilbur's Pet shop",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Jack's Pet shop",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Jane's Pet shop",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "John's Pet shop",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What did the customers keep asking the parrot?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "\"Polly want a cracker?\"",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "\"How are you?\"",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "\"What is your name?\"",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "\"What is your favourite colour?\"",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Who purchased Brock the parrot?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Todd",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Judd",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "John",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Mary",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Where did Todd live?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "a tiny house near a freeway",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "a mansion",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "on a farm",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "in a rainforest",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "What instrument did Todd play?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "ukulele",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "guitar",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "harmonica",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "drums",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

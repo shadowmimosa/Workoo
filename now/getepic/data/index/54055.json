@@ -1,0 +1,204 @@
+{
+    "publisherData": {
+        "modelId": "90336",
+        "name": "Live Oak Media provided by Lerner Publishing Group",
+        "url": "https://www.lernerbooks.com/About-Lerner/Pages/LiveOakMedia.aspx",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1528852493
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/54055/OEBPS/Images/1/6526bcef06183f79f38d0215eb1ddd22.jpg",
+                "audio": "drm/5/54055/OEBPS/Audio/1/Page 3.mp3"
+            },
+            {
+                "page": "drm/5/54055/OEBPS/Images/1/d5841c676e0c789fd7f844ea82fbbb04.jpg"
+            },
+            {
+                "page": "drm/5/54055/OEBPS/Images/1/4bdee9e1d26f9e37bf8bc64d2602b044.jpg",
+                "audio": "drm/5/54055/OEBPS/Audio/1/Page 5.mp3"
+            },
+            {
+                "page": "drm/5/54055/OEBPS/Images/1/3dd6a26cc1f12f8d0c7834578797dbbc.jpg",
+                "audio": "drm/5/54055/OEBPS/Audio/1/Page 6.mp3"
+            },
+            {
+                "page": "drm/5/54055/OEBPS/Images/1/98c20aa812dcd0bd6df7788c04651100.jpg",
+                "audio": "drm/5/54055/OEBPS/Audio/1/Page 7.mp3"
+            },
+            {
+                "page": "drm/5/54055/OEBPS/Images/1/6cfd130bfc2a534450446e7c0af65cb8.jpg",
+                "audio": "drm/5/54055/OEBPS/Audio/1/Page 8.mp3"
+            },
+            {
+                "page": "drm/5/54055/OEBPS/Images/1/1ef9ebad3a0bd77e45c6899d17b7c526.jpg",
+                "audio": "drm/5/54055/OEBPS/Audio/1/Page 9.mp3"
+            },
+            {
+                "page": "drm/5/54055/OEBPS/Images/1/b8929dd4e9bbf971eb4b3fb2dc015b35.jpg",
+                "audio": "drm/5/54055/OEBPS/Audio/1/Page 10.mp3"
+            },
+            {
+                "page": "drm/5/54055/OEBPS/Images/1/fa5124246f902722d8b720db33870fdc.jpg",
+                "audio": "drm/5/54055/OEBPS/Audio/1/Page 11.mp3"
+            },
+            {
+                "page": "drm/5/54055/OEBPS/Images/1/be7dae9fc63f15b49e222cce23734c1f.jpg",
+                "audio": "drm/5/54055/OEBPS/Audio/1/Page 12.mp3"
+            },
+            {
+                "page": "drm/5/54055/OEBPS/Images/1/1b4ba1ce7f894191628946ceca6ecce5.jpg",
+                "audio": "drm/5/54055/OEBPS/Audio/1/Page 13.mp3"
+            },
+            {
+                "page": "drm/5/54055/OEBPS/Images/1/e4b645dc6c1b6c120ac7144b3c9b91a3.jpg",
+                "audio": "drm/5/54055/OEBPS/Audio/1/Page 14.mp3"
+            },
+            {
+                "page": "drm/5/54055/OEBPS/Images/1/b606da2c641d39ee157bb6ec6a57d104.jpg",
+                "audio": "drm/5/54055/OEBPS/Audio/1/Page 15.mp3"
+            },
+            {
+                "page": "drm/5/54055/OEBPS/Images/1/18bef1cd20db5147705b58db1265d579.jpg",
+                "audio": "drm/5/54055/OEBPS/Audio/1/Page 16.mp3"
+            },
+            {
+                "page": "drm/5/54055/OEBPS/Images/1/4b2f42615d339d6e0b8e70d3d6e7479e.jpg",
+                "audio": "drm/5/54055/OEBPS/Audio/1/Page 17.mp3"
+            },
+            {
+                "page": "drm/5/54055/OEBPS/Images/1/9e1cb1cdb92fe460fbefed4216943ba5.jpg",
+                "audio": "drm/5/54055/OEBPS/Audio/1/Page 18.mp3"
+            },
+            {
+                "page": "drm/5/54055/OEBPS/Images/1/eecaaf2ee220052c92092da9e34a2dfc.jpg",
+                "audio": "drm/5/54055/OEBPS/Audio/1/Page 19.mp3"
+            },
+            {
+                "page": "drm/5/54055/OEBPS/Images/1/fe9cb1e7038556bbdaa0818e05821869.jpg",
+                "audio": "drm/5/54055/OEBPS/Audio/1/Page 20.mp3"
+            },
+            {
+                "page": "drm/5/54055/OEBPS/Images/1/9df681b82e99701350118ad1bf9a1088.jpg",
+                "audio": "drm/5/54055/OEBPS/Audio/1/Page 21.mp3"
+            },
+            {
+                "page": "drm/5/54055/OEBPS/Images/1/1cc8e328bca518f1f615cd8556285860.jpg",
+                "audio": "drm/5/54055/OEBPS/Audio/1/Page 22.mp3"
+            },
+            {
+                "page": "drm/5/54055/OEBPS/Images/1/6590b0850ea812920d3c73f709a4767a.jpg",
+                "audio": "drm/5/54055/OEBPS/Audio/1/Page 23.mp3"
+            },
+            {
+                "page": "drm/5/54055/OEBPS/Images/1/96afd1df965e38882d6f23cf70077415.jpg",
+                "audio": "drm/5/54055/OEBPS/Audio/1/Page 24.mp3"
+            },
+            {
+                "page": "drm/5/54055/OEBPS/Images/1/fe7b940186c9e59aec2d6c39f0fe637d.jpg",
+                "audio": "drm/5/54055/OEBPS/Audio/1/Page 25.mp3"
+            },
+            {
+                "page": "drm/5/54055/OEBPS/Images/1/1049001cadf5dcbe0d07b1bc554c42ef.jpg",
+                "audio": "drm/5/54055/OEBPS/Audio/1/Page 26.mp3"
+            },
+            {
+                "page": "drm/5/54055/OEBPS/Images/1/453d35344001cc52faff270172a843dd.jpg",
+                "audio": "drm/5/54055/OEBPS/Audio/1/Page 27.mp3"
+            },
+            {
+                "page": "drm/5/54055/OEBPS/Images/1/04d01171ed8f9d7676a8cfcfaffec823.jpg",
+                "audio": "drm/5/54055/OEBPS/Audio/1/Page 28.mp3"
+            },
+            {
+                "page": "drm/5/54055/OEBPS/Images/1/c02927cad0ed8a0fbdb4b3bd493727e7.jpg",
+                "audio": "drm/5/54055/OEBPS/Audio/1/Page 29.mp3"
+            },
+            {
+                "page": "drm/5/54055/OEBPS/Images/1/0fac0010769a22836671152454f251e9.jpg",
+                "audio": "drm/5/54055/OEBPS/Audio/1/Page 30.mp3"
+            },
+            {
+                "page": "drm/5/54055/OEBPS/Images/1/f0768c4b6681b684dc27762b8ff9d2b0.jpg",
+                "audio": "drm/5/54055/OEBPS/Audio/1/Page 31.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/54055/OEBPS/Images/1/fbe0abc89ea2a0fc3373ac880077ee04.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "54055",
+        "id": "54055",
+        "title": "Looking Like Me",
+        "author": "Walter Dean Myers",
+        "illustrator": "Christopher Myers",
+        "numPages": 29,
+        "bookDescription": "Confident, enthusiastic narration powerfully depicts a young African-American boy who is beginning to identify who he is in the world.",
+        "coverColorR": 121,
+        "coverColorG": 110,
+        "coverColorB": 95,
+        "version": 2147483647,
+        "previewPercent": 20,
+        "publisher": "Live Oak Media provided by Lerner Publishing Group",
+        "publisherId": "90336",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "950L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 531,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Life Lessons",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 1.0008,
+        "contentHash": "44b8b0cfcc5a8c47ab72",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1557781448
+    },
+    "userBook": {
+        "modelId": "46250489-54055",
+        "userId": "46250489",
+        "bookId": "54055",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310327,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310327,
+        "book": {
+            "modelId": "54055",
+            "title": "Looking Like Me",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "44b8b0cfcc5a8c47ab72"
+        }
+    },
+    "quiz": null
+}

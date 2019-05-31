@@ -1,0 +1,116 @@
+{
+    "publisherData": {
+        "modelId": "107",
+        "name": "Rourke Educational Media",
+        "url": "http://rourkeeducationalmedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570193
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/52218/OEBPS/Images/1/53e1edbf99eb05dba5235704daad1227.jpg"
+            },
+            {
+                "page": "drm/8/52218/OEBPS/Images/1/aeea7af3e5e6de3d888cfea9490f675d.jpg"
+            },
+            {
+                "page": "drm/8/52218/OEBPS/Images/1/3bebff5b6f8fea1f77893b75b34e35f3.jpg"
+            },
+            {
+                "page": "drm/8/52218/OEBPS/Images/1/db11925d0dad5e6f058010ae8f57af80.jpg"
+            },
+            {
+                "page": "drm/8/52218/OEBPS/Images/1/df117b3d4d0032bf6ef0643a55ffdc57.jpg"
+            },
+            {
+                "page": "drm/8/52218/OEBPS/Images/1/9a2e131c1bc09770d3a967e29a66a7f5.jpg"
+            },
+            {
+                "page": "drm/8/52218/OEBPS/Images/1/4a77f142ccab95ce555163993c4b6acc.jpg"
+            },
+            {
+                "page": "drm/8/52218/OEBPS/Images/1/42af06209e6e0e8bae28ea82050dc16e.jpg"
+            },
+            {
+                "page": "drm/8/52218/OEBPS/Images/1/fcbb12c03776671785916ff39cf6e721.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/52218/OEBPS/Images/1/f15b4fa2f04721cf1b9cbf8a01bead21.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "52218",
+        "id": "52218",
+        "title": "Animal Babies",
+        "author": "Rhea Wallace",
+        "illustrator": " ",
+        "numPages": 9,
+        "bookDescription": "Bright Photography teaches first words",
+        "coverColorR": 133,
+        "coverColorG": 125,
+        "coverColorB": 120,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Rourke Educational Media",
+        "publisherId": "107",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 225,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pets",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.9921,
+        "contentHash": "1634f1d02a91e2eac7c5",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374427
+    },
+    "userBook": {
+        "modelId": "46250489-52218",
+        "userId": "46250489",
+        "bookId": "52218",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311448,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311448,
+        "book": {
+            "modelId": "52218",
+            "title": "Animal Babies",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "1634f1d02a91e2eac7c5"
+        }
+    },
+    "quiz": null
+}

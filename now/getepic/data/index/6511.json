@@ -1,0 +1,477 @@
+{
+    "publisherData": {
+        "modelId": "31",
+        "name": "Bellwether Media",
+        "url": "http://www.bellwethermedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539569528
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/6511/OEBPS/Images/1/b24fe15e37d3d81025d130332ff127c5.jpg",
+                "audio": "drm/1/6511/OEBPS/Audio/1/d0e2f40f132b8761eb0f8f3bbd4a5535.mp3"
+            },
+            {
+                "page": "drm/1/6511/OEBPS/Images/1/49b6342ce9a1fd19a5b891c29e93675d.jpg",
+                "audio": "drm/1/6511/OEBPS/Audio/1/e03c6be5548ff5c1143c861fecd86bd8.mp3"
+            },
+            {
+                "page": "drm/1/6511/OEBPS/Images/1/6adea25fbd73297e8a0359734d50bc98.jpg"
+            },
+            {
+                "page": "drm/1/6511/OEBPS/Images/1/57f98f994b76717339885da35386612c.jpg",
+                "audio": "drm/1/6511/OEBPS/Audio/1/68bde7666947e9c1be03d1a4ba193dc5.mp3"
+            },
+            {
+                "page": "drm/1/6511/OEBPS/Images/1/2e6a027895fddb4deb613f98aa83b98f.jpg"
+            },
+            {
+                "page": "drm/1/6511/OEBPS/Images/1/f65bd6893ba701a92ed9cd1884977787.jpg",
+                "audio": "drm/1/6511/OEBPS/Audio/1/5646daa8686052363c611de58b95fc68.mp3"
+            },
+            {
+                "page": "drm/1/6511/OEBPS/Images/1/bf9a0d2bc2056a4a5dc035a82a28b09c.jpg"
+            },
+            {
+                "page": "drm/1/6511/OEBPS/Images/1/16c0fdf77098dcdd5226bac745db8db8.jpg",
+                "audio": "drm/1/6511/OEBPS/Audio/1/274d16ad6836b96d8f5371317db0cb81.mp3"
+            },
+            {
+                "page": "drm/1/6511/OEBPS/Images/1/106615c2b429c87136c1941b7190461d.jpg"
+            },
+            {
+                "page": "drm/1/6511/OEBPS/Images/1/b82f1859f76680ec1c04cc294661ea11.jpg",
+                "audio": "drm/1/6511/OEBPS/Audio/1/75e8410d2a02d66272f21dbfb9bc37ed.mp3"
+            },
+            {
+                "page": "drm/1/6511/OEBPS/Images/1/ef62fcbcabd8858d8c3b3af96e063115.jpg"
+            },
+            {
+                "page": "drm/1/6511/OEBPS/Images/1/ff7d926acafd9c3952e1628daa367392.jpg",
+                "audio": "drm/1/6511/OEBPS/Audio/1/5675403a8ea85e8ff4f017e7fa54147c.mp3"
+            },
+            {
+                "page": "drm/1/6511/OEBPS/Images/1/224f8d184686f3a19c6d7a9215b6d156.jpg"
+            },
+            {
+                "page": "drm/1/6511/OEBPS/Images/1/95f0864724ec0e38d6e00aa09119a196.jpg",
+                "audio": "drm/1/6511/OEBPS/Audio/1/81a334e906655790b7ce60093f1f2682.mp3"
+            },
+            {
+                "page": "drm/1/6511/OEBPS/Images/1/243a606dfe4ea146849abb5546a45fb3.jpg"
+            },
+            {
+                "page": "drm/1/6511/OEBPS/Images/1/fcb7b722b0e0cf0738fcdf324f571b5d.jpg",
+                "audio": "drm/1/6511/OEBPS/Audio/1/e0d21978c9d6552c195c3f09e3d0845e.mp3"
+            },
+            {
+                "page": "drm/1/6511/OEBPS/Images/1/d5596842eb7bd1a9de3f52b4b9b8791b.jpg"
+            },
+            {
+                "page": "drm/1/6511/OEBPS/Images/1/94c1664fb202c229a024da2abb33e2eb.jpg",
+                "audio": "drm/1/6511/OEBPS/Audio/1/7ca1733ba54d58b91240c693da199ef4.mp3"
+            },
+            {
+                "page": "drm/1/6511/OEBPS/Images/1/a9f63b3d4dfea9e03a0d78cf4df25ef9.jpg"
+            },
+            {
+                "page": "drm/1/6511/OEBPS/Images/1/d87d01b3836b05ef905bd8332a75ce3c.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/6511/OEBPS/Images/1/8552597f6879f036a6ebc0dfe9edb934.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "6511",
+        "id": "6511",
+        "title": "Snakes: Backyard Wildlife",
+        "author": "Emily Green",
+        "illustrator": " ",
+        "numPages": 20,
+        "bookDescription": "This title introduces young readers to the traits of snakes, what and how they eat, and where they make their homes.",
+        "coverColorR": 85,
+        "coverColorG": 132,
+        "coverColorB": 123,
+        "version": 2,
+        "previewPercent": 20,
+        "publisher": "Bellwether Media",
+        "publisherId": "31",
+        "age": 6,
+        "pageNumOffset": 3,
+        "active": 1,
+        "audio": 1,
+        "lexile": "350L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 733,
+        "ar": "1.6",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Jungle Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.7233,
+        "contentHash": "9e12a12063e68ea6189a",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555977354
+    },
+    "userBook": {
+        "modelId": "46250489-6511",
+        "userId": "46250489",
+        "bookId": "6511",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559303071,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559303071,
+        "book": {
+            "modelId": "6511",
+            "title": "Snakes: Backyard Wildlife",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "9e12a12063e68ea6189a"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "398389",
+            "user_id": "31098341",
+            "book_id": "6511",
+            "title": "Snakes",
+            "description": "",
+            "date_created": 1556717609,
+            "date_modified": 1556717609,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Why do snakes shed their skin?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Snakes shed as they grow.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Snakes shed to change color.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Snakes shed to hide from predators.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Snakes shed to cool off.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "How do snakes move?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Snakes slither or move back and forth.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Snakes glide on a straight path.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Snakes use their scales like feet to move.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Snakes jump and roll to move.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "How does a snake hunt?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Snakes use their tongues to smell prey.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Snakes smell their prey through their nostrils.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Snakes used their sharp eyesight to hunt.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Snakes hear their prey.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "How does a snake eat?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Snakes swallow their prey whole.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Snakes chew their food.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Snakes share their food with other snakes.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Snakes bury their food.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Which answer is NOT part of a snake's diet?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "fruit",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "other snakes",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "bugs",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "lizards",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "398389",
+            "creatorName": "Kayden M.",
+            "avatarId": "2",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "31098341",
+                "udid": "5ba0ffea019101.46260363",
+                "journalName": "Kayden M.",
+                "journalCoverAvatar": "2",
+                "journalCoverColor": "0.12549019607843 0.92941176470588 0.96078431372549 1",
+                "journalFrameImage": "6",
+                "journalCoverImage": "15",
+                "themeId": "14",
+                "code": "788773088",
+                "fid": "",
+                "accountID": "9D468DD4-DA54-5941-608C-4EBB81853287",
+                "simpleAccountId": "8543470",
+                "pagesFlipped": 6723,
+                "nufComplete": 1,
+                "readingAge": 6.26667,
+                "startingAge": 10,
+                "status": 0,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 7563,
+                "xpLevel": 27,
+                "dateLastLogin": 1557765444,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "Kayden",
+                "lastName": "Martz Kushnaw",
+                "accountType": 1,
+                "dateModified": 1557766241,
+                "grade": 5
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Why do snakes shed their skin?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Snakes shed as they grow.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Snakes shed to change color.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Snakes shed to hide from predators.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Snakes shed to cool off.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "How do snakes move?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Snakes slither or move back and forth.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Snakes glide on a straight path.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Snakes use their scales like feet to move.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Snakes jump and roll to move.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "How does a snake hunt?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Snakes use their tongues to smell prey.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Snakes smell their prey through their nostrils.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Snakes used their sharp eyesight to hunt.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Snakes hear their prey.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "How does a snake eat?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Snakes swallow their prey whole.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Snakes chew their food.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Snakes share their food with other snakes.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Snakes bury their food.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Which answer is NOT part of a snake's diet?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "fruit",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "other snakes",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "bugs",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "lizards",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

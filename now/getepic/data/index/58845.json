@@ -1,0 +1,150 @@
+{
+    "publisherData": {
+        "modelId": "90347",
+        "name": "Tadpole Books an imprint of JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1533154085
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/58845/OEBPS/Images/1/bcf3daac01ce5c2d8ce53bdb606a750c.jpg",
+                "audio": "drm/5/58845/OEBPS/Audio/1/xbcf3daac01ce5c2d8ce53bdb606a750c.mp3"
+            },
+            {
+                "page": "drm/5/58845/OEBPS/Images/1/2bddf126337f0e1a7d3d4bf5873f318d.jpg",
+                "audio": "drm/5/58845/OEBPS/Audio/1/x2bddf126337f0e1a7d3d4bf5873f318d.mp3"
+            },
+            {
+                "page": "drm/5/58845/OEBPS/Images/1/57359e276a79c29e17d1e15efa97406e.jpg",
+                "audio": "drm/5/58845/OEBPS/Audio/1/x57359e276a79c29e17d1e15efa97406e.mp3"
+            },
+            {
+                "page": "drm/5/58845/OEBPS/Images/1/3e4ba95d8219c7f0057686c9bdc37bd3.jpg"
+            },
+            {
+                "page": "drm/5/58845/OEBPS/Images/1/558c7a13909b3c8b93f3c67e7c426f7f.jpg",
+                "audio": "drm/5/58845/OEBPS/Audio/1/x558c7a13909b3c8b93f3c67e7c426f7f.mp3"
+            },
+            {
+                "page": "drm/5/58845/OEBPS/Images/1/90db043e0f60fba09ab98298de5b2d7c.jpg"
+            },
+            {
+                "page": "drm/5/58845/OEBPS/Images/1/c5bcfb1a6129e556def1e1f88eee4817.jpg",
+                "audio": "drm/5/58845/OEBPS/Audio/1/xc5bcfb1a6129e556def1e1f88eee4817.mp3"
+            },
+            {
+                "page": "drm/5/58845/OEBPS/Images/1/e23e2d5ebd6041458cbada1c48f618ab.jpg"
+            },
+            {
+                "page": "drm/5/58845/OEBPS/Images/1/48c99b897085ed23af119cffc6af462e.jpg",
+                "audio": "drm/5/58845/OEBPS/Audio/1/x48c99b897085ed23af119cffc6af462e.mp3"
+            },
+            {
+                "page": "drm/5/58845/OEBPS/Images/1/d270e5cf6cc68834d7f4b260976d860f.jpg"
+            },
+            {
+                "page": "drm/5/58845/OEBPS/Images/1/257c289542ab6de10d8a8edd2c4f70d2.jpg",
+                "audio": "drm/5/58845/OEBPS/Audio/1/x257c289542ab6de10d8a8edd2c4f70d2.mp3"
+            },
+            {
+                "page": "drm/5/58845/OEBPS/Images/1/466e1255e923c3ef3743f91fbafb1211.jpg"
+            },
+            {
+                "page": "drm/5/58845/OEBPS/Images/1/933e545e3f4db8cbb36fe85a1b488e2f.jpg",
+                "audio": "drm/5/58845/OEBPS/Audio/1/x933e545e3f4db8cbb36fe85a1b488e2f.mp3"
+            },
+            {
+                "page": "drm/5/58845/OEBPS/Images/1/369a3ebaaa8e5701d68c2a82f4aeb817.jpg"
+            },
+            {
+                "page": "drm/5/58845/OEBPS/Images/1/9f36077a7e52c301d42efbda36e045cc.jpg",
+                "audio": "drm/5/58845/OEBPS/Audio/1/x9f36077a7e52c301d42efbda36e045cc.mp3"
+            },
+            {
+                "page": "drm/5/58845/OEBPS/Images/1/f573485bd828f6f7a3a519402478c2a5.jpg",
+                "audio": "drm/5/58845/OEBPS/Audio/1/xf573485bd828f6f7a3a519402478c2a5.mp3"
+            },
+            {
+                "page": "drm/5/58845/OEBPS/Images/1/d721b3e479273254402d2eb8986b752f.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/58845/OEBPS/Images/1/d721b3e479273254402d2eb8986b752f.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "58845",
+        "id": "58845",
+        "title": "Police Stations",
+        "author": "Erica Donner",
+        "illustrator": " ",
+        "numPages": 17,
+        "bookDescription": "Police Station takes readers on a trip to the police station while providing them with a supportive first nonfiction reading experience.",
+        "coverColorR": 137,
+        "coverColorG": 143,
+        "coverColorB": 146,
+        "version": 693203789,
+        "previewPercent": 20,
+        "publisher": "Tadpole Books an imprint of JUMP",
+        "publisherId": "90347",
+        "age": 5,
+        "pageNumOffset": -1,
+        "active": 1,
+        "audio": 1,
+        "lexile": "210L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 283,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "d",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Profession",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 0.7222,
+        "contentHash": "f4b1423691583001b879",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374827
+    },
+    "userBook": {
+        "modelId": "46250489-58845",
+        "userId": "46250489",
+        "bookId": "58845",
+        "currentPageIndex": 14,
+        "farthestPageIndex": 18,
+        "favorited": 0,
+        "finishTime": 60,
+        "paid": 0,
+        "progress": 82,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 60,
+        "recommended": 0,
+        "lastModified": 1559094992,
+        "bookmarks": "",
+        "timesCompleted": 1,
+        "currentReadTime": 52,
+        "dateModified": 1559095105,
+        "book": {
+            "modelId": "58845",
+            "title": "Police Stations",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "f4b1423691583001b879"
+        }
+    },
+    "quiz": null
+}

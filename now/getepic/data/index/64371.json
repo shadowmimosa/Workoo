@@ -1,0 +1,149 @@
+{
+    "publisherData": {
+        "modelId": "28",
+        "name": "Xist Publishing",
+        "url": "http://www.xistpublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539564197
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/64371/OEBPS/Images/1/f1d1c1c0d3344f565970d2c64606b1d8.jpg",
+                "audio": "drm/1/64371/OEBPS/Audio/1/Title.mp3"
+            },
+            {
+                "page": "drm/1/64371/OEBPS/Images/1/d33fc743d11734bb087f86e34577dfc6.jpg",
+                "audio": "drm/1/64371/OEBPS/Audio/1/Page 2.mp3"
+            },
+            {
+                "page": "drm/1/64371/OEBPS/Images/1/c544cb88e7cb0fc28e20f37cf815d297.jpg",
+                "audio": "drm/1/64371/OEBPS/Audio/1/Page 3.mp3"
+            },
+            {
+                "page": "drm/1/64371/OEBPS/Images/1/b8b20d17a34e0d8c8edc7be388b67cf0.jpg"
+            },
+            {
+                "page": "drm/1/64371/OEBPS/Images/1/ede84d639f55bc569db3f2bdac2d1e26.jpg",
+                "audio": "drm/1/64371/OEBPS/Audio/1/Page 5.mp3"
+            },
+            {
+                "page": "drm/1/64371/OEBPS/Images/1/38dfbe31c9bda580332ac2e808d61108.jpg"
+            },
+            {
+                "page": "drm/1/64371/OEBPS/Images/1/e2941e66f4c20264cfcbac15b42e94ef.jpg",
+                "audio": "drm/1/64371/OEBPS/Audio/1/Page 7.mp3"
+            },
+            {
+                "page": "drm/1/64371/OEBPS/Images/1/533556dcd68b93a6e728d5c6481f4314.jpg"
+            },
+            {
+                "page": "drm/1/64371/OEBPS/Images/1/c20e56ac5d87106ec269df19bcaa5c6c.jpg",
+                "audio": "drm/1/64371/OEBPS/Audio/1/Page 9.mp3"
+            },
+            {
+                "page": "drm/1/64371/OEBPS/Images/1/6c405f1967626d2071773081a614e1f9.jpg"
+            },
+            {
+                "page": "drm/1/64371/OEBPS/Images/1/918efe94db8a7ced57e30608a137ac9e.jpg",
+                "audio": "drm/1/64371/OEBPS/Audio/1/Page 11.mp3"
+            },
+            {
+                "page": "drm/1/64371/OEBPS/Images/1/2cb6ce9d1eb631d97f3e61150b89b05a.jpg"
+            },
+            {
+                "page": "drm/1/64371/OEBPS/Images/1/6cb0e129bdec8b645d3ed22dc1fdd102.jpg",
+                "audio": "drm/1/64371/OEBPS/Audio/1/Page 13.mp3"
+            },
+            {
+                "page": "drm/1/64371/OEBPS/Images/1/a80952e008e8213543f8a14a55c01ae6.jpg"
+            },
+            {
+                "page": "drm/1/64371/OEBPS/Images/1/c680b759506576a4d2017cacc4db7d37.jpg",
+                "audio": "drm/1/64371/OEBPS/Audio/1/Page 15.mp3"
+            },
+            {
+                "page": "drm/1/64371/OEBPS/Images/1/ec13e94656afcad053eff9b753264864.jpg"
+            },
+            {
+                "page": "drm/1/64371/OEBPS/Images/1/c34d5028706d42f4e71be7924f8cd1fb.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/64371/OEBPS/Images/1/75b867c8e34092214311f872f7f3c66b.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "64371",
+        "id": "64371",
+        "title": "Discover Colors: I See Gray",
+        "author": "Xist Publishing",
+        "illustrator": " ",
+        "numPages": 17,
+        "bookDescription": "Beginning readers identify things that are the color gray in this very simple 20-page reader.",
+        "coverColorR": 226,
+        "coverColorG": 236,
+        "coverColorB": 230,
+        "version": 2147483647,
+        "previewPercent": 20,
+        "publisher": "Xist Publishing",
+        "publisherId": "28",
+        "age": 4,
+        "pageNumOffset": -1,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 425,
+        "ar": "1.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "b",
+        "language": 1,
+        "rating": 75,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.6429,
+        "contentHash": "ebb8f3ff8a49204807c1",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1558397085
+    },
+    "userBook": {
+        "modelId": "46250489-64371",
+        "userId": "46250489",
+        "bookId": "64371",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559309863,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559309863,
+        "book": {
+            "modelId": "64371",
+            "title": "Discover Colors: I See Gray",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "ebb8f3ff8a49204807c1"
+        }
+    },
+    "quiz": null
+}

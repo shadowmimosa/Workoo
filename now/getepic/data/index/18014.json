@@ -1,0 +1,485 @@
+{
+    "publisherData": {
+        "modelId": "109",
+        "name": "JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/18014/OEBPS/Images/1/2dd3a5742061b720e09d9c0dba7e970f.jpg"
+            },
+            {
+                "page": "drm/4/18014/OEBPS/Images/1/8e1e2d73f45c2e036446f3dacfd01604.jpg",
+                "audio": "drm/4/18014/OEBPS/Audio/1/050cce8744fc0a4fe6aba8c5fcce376b.mp3"
+            },
+            {
+                "page": "drm/4/18014/OEBPS/Images/1/028d7469b95f777bd13c5a4360b77874.jpg",
+                "audio": "drm/4/18014/OEBPS/Audio/1/c2b66d2dee9220e188a636b7c028ac50.mp3"
+            },
+            {
+                "page": "drm/4/18014/OEBPS/Images/1/7df0ecff1df6a5a9428a95185fee3fbb.jpg",
+                "audio": "drm/4/18014/OEBPS/Audio/1/19340bb3ea4ae502aa8429939d9e9848.mp3"
+            },
+            {
+                "page": "drm/4/18014/OEBPS/Images/1/38cfcbbbfd941825dc25900a97b7b06d.jpg"
+            },
+            {
+                "page": "drm/4/18014/OEBPS/Images/1/182bb131da6f706f74789874ab0eca5e.jpg",
+                "audio": "drm/4/18014/OEBPS/Audio/1/f9d23ad64f304bc0e7ca5e339350c0e6.mp3"
+            },
+            {
+                "page": "drm/4/18014/OEBPS/Images/1/0a9d07bcd85413e9077d01012ea464fd.jpg",
+                "audio": "drm/4/18014/OEBPS/Audio/1/6194d0d171a1041fd6e35f57069341c2.mp3"
+            },
+            {
+                "page": "drm/4/18014/OEBPS/Images/1/97b45f504f9f0b2be8b514946dd8d332.jpg",
+                "audio": "drm/4/18014/OEBPS/Audio/1/625f7c7a47da717e719b9b6ea40c95e8.mp3"
+            },
+            {
+                "page": "drm/4/18014/OEBPS/Images/1/3fb4bbbcd594321087821268d33e85d7.jpg"
+            },
+            {
+                "page": "drm/4/18014/OEBPS/Images/1/18025f5081994442dad075d03cd30921.jpg",
+                "audio": "drm/4/18014/OEBPS/Audio/1/a9aff9a2b4786a0e98b765cdd88144bd.mp3"
+            },
+            {
+                "page": "drm/4/18014/OEBPS/Images/1/6a576f0916c4b42a95c77ed9d9d7a40f.jpg"
+            },
+            {
+                "page": "drm/4/18014/OEBPS/Images/1/6056f529c66da0cd58fe5337ed739b42.jpg",
+                "audio": "drm/4/18014/OEBPS/Audio/1/40372a818d9ad1847e440896919d6f9a.mp3"
+            },
+            {
+                "page": "drm/4/18014/OEBPS/Images/1/0ffb1ef76b04516ac50f857681345132.jpg"
+            },
+            {
+                "page": "drm/4/18014/OEBPS/Images/1/a4009029bfe6afcfd0c81927dfadcf7c.jpg",
+                "audio": "drm/4/18014/OEBPS/Audio/1/49e7d57d6e4de78ee896b4a9710bf5a8.mp3"
+            },
+            {
+                "page": "drm/4/18014/OEBPS/Images/1/e6413134cabb66a829d2d88204419fc0.jpg"
+            },
+            {
+                "page": "drm/4/18014/OEBPS/Images/1/b178a91e1a9f92dad909edbb99243574.jpg",
+                "audio": "drm/4/18014/OEBPS/Audio/1/5a798589052ede7f3c4c41773b301fac.mp3"
+            },
+            {
+                "page": "drm/4/18014/OEBPS/Images/1/842b0248bc6d72b74dc95325a19436ee.jpg",
+                "audio": "drm/4/18014/OEBPS/Audio/1/a7737e4f1f68c429d81da6fae248e4cd.mp3"
+            },
+            {
+                "page": "drm/4/18014/OEBPS/Images/1/98c76fd2e65f8e8013b2de5809e5147e.jpg",
+                "audio": "drm/4/18014/OEBPS/Audio/1/5c1105db9b1a1ca8a108073a06ed409a.mp3"
+            },
+            {
+                "page": "drm/4/18014/OEBPS/Images/1/b6a78a81a62aa7e05e29b88bd072539e.jpg"
+            },
+            {
+                "page": "drm/4/18014/OEBPS/Images/1/064fb5ba29df32cd1eed34fb3baa813d.jpg"
+            },
+            {
+                "page": "drm/4/18014/OEBPS/Images/1/104c81294e5b84331a3706831e493520.jpg",
+                "audio": "drm/4/18014/OEBPS/Audio/1/f8691c6fef0c72fd7fe307c1a1dce93a.mp3"
+            },
+            {
+                "page": "drm/4/18014/OEBPS/Images/1/612ca72b51c6e122b9e92084a165f7d9.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/18014/OEBPS/Images/1/8c5a8546f4f958ef26502acbf32a5f74.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18014",
+        "id": "18014",
+        "title": "My First Pet: Dogs",
+        "author": "Cari Meister",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Early readers will learn all about the responsibilities of having a dog, and find out how they can keep their pet healthy and happy.",
+        "coverColorR": 175,
+        "coverColorG": 162,
+        "coverColorB": 133,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "JUMP",
+        "publisherId": "109",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "AD240L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 733,
+        "ar": "0.9",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Dogs",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "1184418fb5cbce1f5447",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372848
+    },
+    "userBook": {
+        "modelId": "46250489-18014",
+        "userId": "46250489",
+        "bookId": "18014",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559307273,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559307273,
+        "book": {
+            "modelId": "18014",
+            "title": "My First Pet: Dogs",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "1184418fb5cbce1f5447"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "29613",
+            "user_id": "12032341",
+            "book_id": "18014",
+            "title": "Taking Care of a Dog - Quiz",
+            "description": "",
+            "date_created": 1480940004,
+            "date_modified": 1500313167,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What do dogs need to eat?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Healthy food.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Dog treats.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Grass.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Milk.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "Dogs also need fresh....",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "water.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "friends.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "shampoo.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "jackets.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Ed took Bo to the....",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "vet.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "store.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "car.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "party.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Where did Taj take Mo?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Taj took Bo to dog school.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Taj took Bo out to eat.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Taj took Bo to a friend's house.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Taj took Bo for a walk.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Where does Rocco sleep?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Rocko sleeps in his kennel.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Rocko sleeps in the family bed.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Rocko sleeps near the door.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Rocko sleeps all day.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "29613",
+            "creatorName": "Lauren H.",
+            "avatarId": "26",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "12032341",
+                "udid": "58342e94e79348.10974050",
+                "journalName": "Lauren H.",
+                "journalCoverAvatar": "26",
+                "journalCoverColor": "0.458824 0.113725 0.305882 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "3",
+                "themeId": "18",
+                "code": "955244744",
+                "fid": "",
+                "accountID": "FC16C941-5249-46E5-D1DB-62E4F1DDB33D",
+                "simpleAccountId": "4052209",
+                "pagesFlipped": 2749,
+                "nufComplete": 1,
+                "readingAge": 8.6,
+                "startingAge": 0,
+                "status": 0,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 699,
+                "xpLevel": 8,
+                "dateLastLogin": 0,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "Lauren",
+                "lastName": "Hoh Foong Kay",
+                "accountType": 1,
+                "dateModified": 1536716228
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What do dogs need to eat?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Healthy food.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Dog treats.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Grass.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Milk.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "Dogs also need fresh....",
+                "quizQuestionChoices": [
+                    {
+                        "title": "water.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "friends.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "shampoo.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "jackets.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Ed took Bo to the....",
+                "quizQuestionChoices": [
+                    {
+                        "title": "vet.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "store.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "car.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "party.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Where did Taj take Mo?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Taj took Bo to dog school.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Taj took Bo out to eat.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Taj took Bo to a friend's house.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Taj took Bo for a walk.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Where does Rocco sleep?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Rocko sleeps in his kennel.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Rocko sleeps in the family bed.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Rocko sleeps near the door.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Rocko sleeps all day.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

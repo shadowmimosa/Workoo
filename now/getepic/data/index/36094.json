@@ -1,0 +1,166 @@
+{
+    "publisherData": {
+        "modelId": "31",
+        "name": "Bellwether Media",
+        "url": "http://www.bellwethermedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539569528
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/36094/OEBPS/Images/1/7867083c58e811f12e6df54884ef1810.jpg",
+                "audio": "drm/4/36094/OEBPS/Audio/1/xE810E22F-FACF-42E1-855E-A0D0E94611B7.mp3"
+            },
+            {
+                "page": "drm/4/36094/OEBPS/Images/1/5c71ba8157b1f38956bc7a9a777e917c.jpg",
+                "audio": "drm/4/36094/OEBPS/Audio/1/xD992A09B-35DC-443B-BE40-2DFBE5DB4CD5.mp3"
+            },
+            {
+                "page": "drm/4/36094/OEBPS/Images/1/7eea8c435de445cef7d12a92b1810f85.jpg"
+            },
+            {
+                "page": "drm/4/36094/OEBPS/Images/1/5bff75f725060bc66c4244b9f0d9d371.jpg",
+                "audio": "drm/4/36094/OEBPS/Audio/1/x816CBC80-48ED-4B9D-AACD-70C02F0C2782.mp3"
+            },
+            {
+                "page": "drm/4/36094/OEBPS/Images/1/d2cf6be4c03447df850c27bfd514a242.jpg"
+            },
+            {
+                "page": "drm/4/36094/OEBPS/Images/1/b1eb8cb954f0f9711500d62abf5aa7a6.jpg",
+                "audio": "drm/4/36094/OEBPS/Audio/1/x9305A17F-C49D-4968-986C-8CBD87A23E8E.mp3"
+            },
+            {
+                "page": "drm/4/36094/OEBPS/Images/1/342e5b78b32b6f2ac1aa90f31d62ab2f.jpg"
+            },
+            {
+                "page": "drm/4/36094/OEBPS/Images/1/5e5b85ba1ec3c7b5befda31bcf75224c.jpg",
+                "audio": "drm/4/36094/OEBPS/Audio/1/xEBCC7CE6-1EA3-4970-A8B9-14B8ED23E358.mp3"
+            },
+            {
+                "page": "drm/4/36094/OEBPS/Images/1/011adaf5fcb6243894da29197feb9c01.jpg"
+            },
+            {
+                "page": "drm/4/36094/OEBPS/Images/1/184d0cca6ca62716bd09188207d3366c.jpg",
+                "audio": "drm/4/36094/OEBPS/Audio/1/x727DFFB4-567B-4F56-AE0D-3006D8CCE1F9.mp3"
+            },
+            {
+                "page": "drm/4/36094/OEBPS/Images/1/0f52cca852ec139e6e28505d0061dd06.jpg"
+            },
+            {
+                "page": "drm/4/36094/OEBPS/Images/1/e938308514d30c4293da3d32e3828cc9.jpg",
+                "audio": "drm/4/36094/OEBPS/Audio/1/xC986CA86-5D19-4255-82C0-A94E80F82C0D.mp3"
+            },
+            {
+                "page": "drm/4/36094/OEBPS/Images/1/6ac0115885af44ecc50cb7599fa1347a.jpg"
+            },
+            {
+                "page": "drm/4/36094/OEBPS/Images/1/1b5ae362e2ee1cb5830e45a62c74c0dc.jpg",
+                "audio": "drm/4/36094/OEBPS/Audio/1/x5A6D0DF2-CCD1-401E-80A6-48ED87DC1DC0.mp3"
+            },
+            {
+                "page": "drm/4/36094/OEBPS/Images/1/4db1bafc91fd48b3fb34ac102b2f9ac4.jpg"
+            },
+            {
+                "page": "drm/4/36094/OEBPS/Images/1/9856e3d4afc332979c2a652b77a4a3cb.jpg",
+                "audio": "drm/4/36094/OEBPS/Audio/1/xDC4E879F-A1CF-4F3B-B32F-C45C81075CFB.mp3"
+            },
+            {
+                "page": "drm/4/36094/OEBPS/Images/1/802ead105afe20ecd91e980a73aaddf8.jpg"
+            },
+            {
+                "page": "drm/4/36094/OEBPS/Images/1/f9b4470405dfdbc21d4206fe14e2d941.jpg",
+                "audio": "drm/4/36094/OEBPS/Audio/1/x46E368D8-050E-47AE-88A2-ADA821171479.mp3"
+            },
+            {
+                "page": "drm/4/36094/OEBPS/Images/1/998cc8246119b94af60aa8db11cf1b77.jpg"
+            },
+            {
+                "page": "drm/4/36094/OEBPS/Images/1/e41268501436bb8fc5a329dd34ba4a2f.jpg",
+                "audio": "drm/4/36094/OEBPS/Audio/1/xC6F762AC-1E9E-4E2B-BC36-23C1BA259A7A.mp3"
+            },
+            {
+                "page": "drm/4/36094/OEBPS/Images/1/93831a925888f85c30d59284dc8abee6.jpg"
+            },
+            {
+                "page": "drm/4/36094/OEBPS/Images/1/61adf7b5b95397fac67cdfd8d35abe60.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/36094/OEBPS/Images/1/eb1ce216bd330fea8a5edf6c9470cdd8.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "36094",
+        "id": "36094",
+        "title": "Super Cute! Baby Goats",
+        "author": "Kari Schuetz",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Open this book to get a glimpse of young goats climbing, jumping, and head-butting their way to a good time.",
+        "coverColorR": 212,
+        "coverColorG": 178,
+        "coverColorB": 111,
+        "version": 38518880,
+        "previewPercent": 20,
+        "publisher": "Bellwether Media",
+        "publisherId": "31",
+        "age": 6,
+        "pageNumOffset": 1,
+        "active": 1,
+        "audio": 1,
+        "lexile": "300L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 806,
+        "ar": "1.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 85,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Farm Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.7207,
+        "contentHash": "0bdec56f702037c07d62",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1556655506
+    },
+    "userBook": {
+        "modelId": "46250489-36094",
+        "userId": "46250489",
+        "bookId": "36094",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559312189,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559312189,
+        "book": {
+            "modelId": "36094",
+            "title": "Super Cute! Baby Goats",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "0bdec56f702037c07d62"
+        }
+    },
+    "quiz": null
+}

@@ -1,0 +1,175 @@
+{
+    "publisherData": {
+        "modelId": "107",
+        "name": "Rourke Educational Media",
+        "url": "http://rourkeeducationalmedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570193
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/6/18706/OEBPS/Images/1/9eabca6d29ddaa8cc3b1065af91c258c.jpg",
+                "audio": "drm/6/18706/OEBPS/Audio/1/b18127d2c2888117a50c4cc467ff080c.mp3"
+            },
+            {
+                "page": "drm/6/18706/OEBPS/Images/1/393ef3798c5130a01f44e772c558f990.jpg",
+                "audio": "drm/6/18706/OEBPS/Audio/1/b7d23b270d92e47e2ac23857cb4e01ad.mp3"
+            },
+            {
+                "page": "drm/6/18706/OEBPS/Images/1/79f1de1da7c33030d4de027db4c06d59.jpg"
+            },
+            {
+                "page": "drm/6/18706/OEBPS/Images/1/3ae709f2f76b3c89d9febddc5713e686.jpg",
+                "audio": "drm/6/18706/OEBPS/Audio/1/931f203d17fe3b29978897134705866c.mp3"
+            },
+            {
+                "page": "drm/6/18706/OEBPS/Images/1/d71ff19a6422475b5bf740225417f7be.jpg"
+            },
+            {
+                "page": "drm/6/18706/OEBPS/Images/1/9770c2c60262cc9238524f86f5628a4b.jpg",
+                "audio": "drm/6/18706/OEBPS/Audio/1/3ae9c2775c78bc4121b584a72a26779c.mp3"
+            },
+            {
+                "page": "drm/6/18706/OEBPS/Images/1/cb6913b2d0f57459940b16944259e2f6.jpg"
+            },
+            {
+                "page": "drm/6/18706/OEBPS/Images/1/abab8223a7b25bc1519a95758ead9967.jpg",
+                "audio": "drm/6/18706/OEBPS/Audio/1/e0d2bea6f541ea4b5c6f7c27de5affcf.mp3"
+            },
+            {
+                "page": "drm/6/18706/OEBPS/Images/1/b32224b6f17f8736f4ddf075001f415b.jpg"
+            },
+            {
+                "page": "drm/6/18706/OEBPS/Images/1/caa61a7a30d5c4e5829b50eed99caa4f.jpg",
+                "audio": "drm/6/18706/OEBPS/Audio/1/94bd3f3bd4987a054ca6e70e9a099f94.mp3"
+            },
+            {
+                "page": "drm/6/18706/OEBPS/Images/1/3b86da7a27cc1a5c03770b30e08281ba.jpg"
+            },
+            {
+                "page": "drm/6/18706/OEBPS/Images/1/b0ac14f5d56719428f6e58ba5a5563d4.jpg",
+                "audio": "drm/6/18706/OEBPS/Audio/1/92d920416bba8a7d7cee036c91477100.mp3"
+            },
+            {
+                "page": "drm/6/18706/OEBPS/Images/1/4e75239499f21822475fe1624c1b6ac7.jpg"
+            },
+            {
+                "page": "drm/6/18706/OEBPS/Images/1/6cb8278bbcdda28559bfe379f21d1d89.jpg",
+                "audio": "drm/6/18706/OEBPS/Audio/1/659a88d9ff84a8ac3d1a136392a4e990.mp3"
+            },
+            {
+                "page": "drm/6/18706/OEBPS/Images/1/6bf70b9d1d93fb18dc879ce1cc5c8ded.jpg"
+            },
+            {
+                "page": "drm/6/18706/OEBPS/Images/1/cc88a9bce1072d7df67f10ed90761404.jpg",
+                "audio": "drm/6/18706/OEBPS/Audio/1/8a84f7de431fd01f3cfd1e033ac2295e.mp3"
+            },
+            {
+                "page": "drm/6/18706/OEBPS/Images/1/223a29f817b3133ef5311fbb0533c2bc.jpg"
+            },
+            {
+                "page": "drm/6/18706/OEBPS/Images/1/816a06a6c772f616e6b758a34a52024e.jpg",
+                "audio": "drm/6/18706/OEBPS/Audio/1/e96daf5fd7666cb12945986f325a6a95.mp3"
+            },
+            {
+                "page": "drm/6/18706/OEBPS/Images/1/173b8f5fb1e68fa539a96a65a5712ef1.jpg"
+            },
+            {
+                "page": "drm/6/18706/OEBPS/Images/1/c42928abbe1eb1488a216b21bd6fe2a7.jpg",
+                "audio": "drm/6/18706/OEBPS/Audio/1/88a6ef6083ebe3e812e471c4f9e22130.mp3"
+            },
+            {
+                "page": "drm/6/18706/OEBPS/Images/1/7bb53248961cbbf67077a26b6b8cfa18.jpg"
+            },
+            {
+                "page": "drm/6/18706/OEBPS/Images/1/9b695b76acaf9bed80abebdb922b7092.jpg"
+            },
+            {
+                "page": "drm/6/18706/OEBPS/Images/1/854ac9b1f1f7343ce3ed6722f6c50309.jpg"
+            },
+            {
+                "page": "drm/6/18706/OEBPS/Images/1/cc2c4250723d1ce8ad144a567c12de7a.jpg"
+            },
+            {
+                "page": "drm/6/18706/OEBPS/Images/1/8da0a584b263c8fbdb677954f1dfb77d.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/6/18706/OEBPS/Images/1/1d2621839c067f28fb67ee78e10ceb94.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18706",
+        "id": "18706",
+        "title": "The Lake Mistake",
+        "author": "Precious McKenzie",
+        "illustrator": " ",
+        "numPages": 25,
+        "bookDescription": "The campers spend a lovely day at the lake until a lynx shows up.",
+        "coverColorR": 132,
+        "coverColorG": 154,
+        "coverColorB": 133,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Rourke Educational Media",
+        "publisherId": "107",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 416,
+        "ar": "1.4",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Daily Life",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "a29c49a5c391b61c3700",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372872
+    },
+    "userBook": {
+        "modelId": "46250489-18706",
+        "userId": "46250489",
+        "bookId": "18706",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311307,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311307,
+        "book": {
+            "modelId": "18706",
+            "title": "The Lake Mistake",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "a29c49a5c391b61c3700"
+        }
+    },
+    "quiz": null
+}

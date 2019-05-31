@@ -1,0 +1,652 @@
+{
+    "publisherData": {
+        "modelId": "161",
+        "name": "Weston Woods",
+        "url": "http://westonwoods.scholastic.com/products/westonwoods/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539568029
+    },
+    "epub": null,
+    "timePerPage": 2,
+    "book": {
+        "modelId": "14179",
+        "id": "14179",
+        "title": "Owl Moon",
+        "author": "Jane Yolen",
+        "illustrator": "Jane Yolen",
+        "numPages": 0,
+        "bookDescription": "A young child and her father search the moonlit woods for the Great Horned Owl.",
+        "coverColorR": 95,
+        "coverColorG": 127,
+        "coverColorB": 164,
+        "version": 0,
+        "previewPercent": 10,
+        "publisher": "Weston Woods",
+        "publisherId": "161",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "550L",
+        "avgTime": "--",
+        "avgTimeInt": 0,
+        "ar": "3.2",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "o",
+        "language": 1,
+        "rating": 82,
+        "type": 2,
+        "subject": "97",
+        "subjectDesc": "Forest Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "\u00a9 1990 Weston Woods Studios.  All rights reserved.",
+        "aspectRatio": 0,
+        "contentHash": "",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "0",
+        "panelStatus": 0,
+        "date_modified": 1555540714,
+        "duration": 476
+    },
+    "userBook": {
+        "modelId": "46250489-14179",
+        "userId": "46250489",
+        "bookId": "14179",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310693,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310693,
+        "book": {
+            "modelId": "14179",
+            "title": "Owl Moon",
+            "type": 2,
+            "active": 1,
+            "audio": 0,
+            "contentHash": ""
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "114247",
+            "user_id": "16860968",
+            "book_id": "14179",
+            "title": "Owl Moon",
+            "description": "",
+            "date_created": 1503531193,
+            "date_modified": 1516731920,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "When did this story take place?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Late on a snowy winter night",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Early on a summer morning",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "During the day in winter",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Just after sundown in the fall",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What is owling?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "When you go look for owls",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "When you hunt for owls",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "When you sell owls",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "When you take photos of owls",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Who is the narrator?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "The child",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "The father",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "The mother",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "The owl",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "When you go owling, what must you be?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Quiet and brave",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Loud and scary",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Nervous and shy",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Patient and kind",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "According to the narrator, what don't you need when you go owling?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "words or warmth",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "hats",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "a scarf",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "gloves",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "What do you need when you go owling and why?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Hope, because you may not always see one",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Food to feed the owl",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "A camera so you can prove you saw one",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "A net to catch the owl",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 5
+                },
+                {
+                    "title": "Why is the book called Owl Moon?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "It is about going owling with the light of the moon",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "The moon this time of the year is called Owl Moon",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "You can only go owling when there is a bright moon",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 6
+                },
+                {
+                    "title": "What were they allowed to do after they saw the owl?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Talk",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Eat",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Snap a photo",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Take it home with them",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 7
+                },
+                {
+                    "title": "How did the narrator feel about owling?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "They thought it was special",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "They thought it was boring",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "They didn't enjoy it at all",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "They thought it was scary",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 8
+                },
+                {
+                    "title": "What kind of story is Owl Moon (genre)?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Realistic Fiction",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Nonfiction",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Fantasy",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Historical Fiction",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 9
+                }
+            ],
+            "modelId": "114247",
+            "creatorName": "Miss Sumner",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "16860968",
+                "udid": "599df145063745.76210893",
+                "journalName": "Miss Sumner",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.12549019607843 0.92941176470588 0.96078431372549 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "869217451",
+                "fid": "",
+                "accountID": "4C4FC43E-AC89-1412-7381-9D265CAC6EB7",
+                "simpleAccountId": "5417577",
+                "pagesFlipped": 58,
+                "nufComplete": 1,
+                "readingAge": 9.2,
+                "startingAge": 9,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 50,
+                "xpLevel": 1,
+                "dateLastLogin": 1552518946,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Josephine",
+                "lastName": "Sumner",
+                "accountType": 1,
+                "dateModified": 1558617147,
+                "educatorPrefix": "Miss",
+                "name": "Miss Sumner"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "When did this story take place?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Late on a snowy winter night",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Early on a summer morning",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "During the day in winter",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Just after sundown in the fall",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What is owling?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "When you go look for owls",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "When you hunt for owls",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "When you sell owls",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "When you take photos of owls",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Who is the narrator?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "The child",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "The father",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "The mother",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "The owl",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "When you go owling, what must you be?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Quiet and brave",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Loud and scary",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Nervous and shy",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Patient and kind",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "According to the narrator, what don't you need when you go owling?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "words or warmth",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "hats",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "a scarf",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "gloves",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "What do you need when you go owling and why?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Hope, because you may not always see one",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Food to feed the owl",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "A camera so you can prove you saw one",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "A net to catch the owl",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 5
+            },
+            {
+                "title": "Why is the book called Owl Moon?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "It is about going owling with the light of the moon",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "The moon this time of the year is called Owl Moon",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "You can only go owling when there is a bright moon",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 6
+            },
+            {
+                "title": "What were they allowed to do after they saw the owl?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Talk",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Eat",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Snap a photo",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Take it home with them",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 7
+            },
+            {
+                "title": "How did the narrator feel about owling?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "They thought it was special",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "They thought it was boring",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "They didn't enjoy it at all",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "They thought it was scary",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 8
+            },
+            {
+                "title": "What kind of story is Owl Moon (genre)?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Realistic Fiction",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Nonfiction",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Fantasy",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Historical Fiction",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 9
+            }
+        ]
+    }
+}

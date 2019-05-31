@@ -1,0 +1,487 @@
+{
+    "publisherData": {
+        "modelId": "109",
+        "name": "JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/18024/OEBPS/Images/1/3774c0d89fe1af41a5811d0c71d9ce4e.jpg"
+            },
+            {
+                "page": "drm/4/18024/OEBPS/Images/1/354a0310ff7951a165a44d70fa3c6976.jpg",
+                "audio": "drm/4/18024/OEBPS/Audio/1/ad466bc790784fe2980243872563c7a4.mp3"
+            },
+            {
+                "page": "drm/4/18024/OEBPS/Images/1/246de4c9f6d75755dca762a9207ddec7.jpg",
+                "audio": "drm/4/18024/OEBPS/Audio/1/6e8f914d7751675b183e187746ebefc3.mp3"
+            },
+            {
+                "page": "drm/4/18024/OEBPS/Images/1/b9a2d8668acd75c7da18d47ede453f21.jpg",
+                "audio": "drm/4/18024/OEBPS/Audio/1/9075177850afb3f61e8161fdd984a007.mp3"
+            },
+            {
+                "page": "drm/4/18024/OEBPS/Images/1/24dcab6bb547d2c496652b0b12a71868.jpg"
+            },
+            {
+                "page": "drm/4/18024/OEBPS/Images/1/09e8914317ff694af299a882709b0a20.jpg",
+                "audio": "drm/4/18024/OEBPS/Audio/1/20258680414ba2a11dd8e33f5f270aac.mp3"
+            },
+            {
+                "page": "drm/4/18024/OEBPS/Images/1/f8232b59e5632776f69fd16615136c72.jpg",
+                "audio": "drm/4/18024/OEBPS/Audio/1/84d77dee4eea392843f5a1e03e158280.mp3"
+            },
+            {
+                "page": "drm/4/18024/OEBPS/Images/1/25202b43ffc19c1d36d12da2c331200f.jpg",
+                "audio": "drm/4/18024/OEBPS/Audio/1/11ccb3455aaaa3385394caa9b72e287a.mp3"
+            },
+            {
+                "page": "drm/4/18024/OEBPS/Images/1/c1785dab6fbaa8a2c4708a70820ad0a8.jpg"
+            },
+            {
+                "page": "drm/4/18024/OEBPS/Images/1/95820d55cc6806bbaf8fd2ea888f0b11.jpg",
+                "audio": "drm/4/18024/OEBPS/Audio/1/90135aef4b41db405710f1e4cdac07da.mp3"
+            },
+            {
+                "page": "drm/4/18024/OEBPS/Images/1/0a4e6bad7a782031ec6c05591f2022d4.jpg",
+                "audio": "drm/4/18024/OEBPS/Audio/1/36d302003b04d9c9f71dc0640cc9c059.mp3"
+            },
+            {
+                "page": "drm/4/18024/OEBPS/Images/1/04d423a3db602baa6a24565101b4d335.jpg",
+                "audio": "drm/4/18024/OEBPS/Audio/1/0cdfd3c8ec0e6cc541b20477cdefa6a1.mp3"
+            },
+            {
+                "page": "drm/4/18024/OEBPS/Images/1/61618968759235d50a79e4270cd23a22.jpg"
+            },
+            {
+                "page": "drm/4/18024/OEBPS/Images/1/8d3e94d7a417e607d1c50a86e23cce9a.jpg",
+                "audio": "drm/4/18024/OEBPS/Audio/1/8cdb6abdd00c956f5501cdf347b913d2.mp3"
+            },
+            {
+                "page": "drm/4/18024/OEBPS/Images/1/303a68b9417d0d36d0ec2d6fb7c9d8d5.jpg"
+            },
+            {
+                "page": "drm/4/18024/OEBPS/Images/1/74feafa20d7303cdcd23bc1e28979dd8.jpg",
+                "audio": "drm/4/18024/OEBPS/Audio/1/79c37949fd8b1efbcc14c08f1e29c568.mp3"
+            },
+            {
+                "page": "drm/4/18024/OEBPS/Images/1/29aff1d8fced1cec642c13156a708de3.jpg"
+            },
+            {
+                "page": "drm/4/18024/OEBPS/Images/1/ecb7126800a8e35c35a029e9a55cd5e6.jpg",
+                "audio": "drm/4/18024/OEBPS/Audio/1/28a28ee5caa135e366fbc59dbbef3490.mp3"
+            },
+            {
+                "page": "drm/4/18024/OEBPS/Images/1/47c33bff574b1339474cf72d007feccc.jpg"
+            },
+            {
+                "page": "drm/4/18024/OEBPS/Images/1/f26c7b2cbeeb651e30f8fb418ea805a8.jpg"
+            },
+            {
+                "page": "drm/4/18024/OEBPS/Images/1/5ca52ce9cd0783a63626bf4ac68f39fa.jpg",
+                "audio": "drm/4/18024/OEBPS/Audio/1/c0b312d3b4274d959caf781298b24fc2.mp3"
+            },
+            {
+                "page": "drm/4/18024/OEBPS/Images/1/4d09857ec2ebbf1619ab7fc5401a51b2.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/18024/OEBPS/Images/1/225a42b8faabe8affac20026e1e766a8.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18024",
+        "id": "18024",
+        "title": "My First Pet: Guinea Pigs",
+        "author": "Cari Meister",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "In Guinea Pigs, early readers will learn how to care for a guinea pig and how to keep their pet healthy and happy.",
+        "coverColorR": 217,
+        "coverColorG": 190,
+        "coverColorB": 159,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "JUMP",
+        "publisherId": "109",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "260L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 733,
+        "ar": "0.9",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pets",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "2a0d9783ad11f716d535",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372849
+    },
+    "userBook": {
+        "modelId": "46250489-18024",
+        "userId": "46250489",
+        "bookId": "18024",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311444,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311444,
+        "book": {
+            "modelId": "18024",
+            "title": "My First Pet: Guinea Pigs",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "2a0d9783ad11f716d535"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "48922",
+            "user_id": "7757117",
+            "book_id": "18024",
+            "title": "My First Pet: Guinea Pig",
+            "description": "",
+            "date_created": 1486567075,
+            "date_modified": 1504817173,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "The first guinea pig's name was",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Honey",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Strawberry",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Bob",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Maverick ",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "The next guinea pig's name was",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Jo",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Fred",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Tom",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Angel",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Guinea pigs eat",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Hay and lettuce",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Pizza",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "McDonald's",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Apples",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "You should brush guinea pigs",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Once a day",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Once a month",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Once a week",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Once a year",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "You should clean guinea pigs' cages",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Once a week",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Once a day",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Once a month",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Once a year",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "48922",
+            "creatorName": "Mrs. Coleman",
+            "avatarId": "79",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "7757117",
+                "udid": "5734c3354507a0.74485391",
+                "journalName": "Mrs. Coleman",
+                "journalCoverAvatar": "79",
+                "journalCoverColor": "0.70588235294118 0.94509803921569 0.39607843137255 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "67812451",
+                "fid": "",
+                "accountID": "BA534B95-AD64-AEBD-4D0C-71D26F5CA466",
+                "simpleAccountId": "2857359",
+                "pagesFlipped": 5055,
+                "nufComplete": 1,
+                "readingAge": 6.0666666666667,
+                "startingAge": 6,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 0,
+                "xpLevel": 1,
+                "dateLastLogin": 1558963988,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Brooke",
+                "lastName": "Coleman",
+                "accountType": 1,
+                "dateModified": 1559305961,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Coleman"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "The first guinea pig's name was",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Honey",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Strawberry",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Bob",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Maverick ",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "The next guinea pig's name was",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Jo",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Fred",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Tom",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Angel",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Guinea pigs eat",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Hay and lettuce",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Pizza",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "McDonald's",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Apples",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "You should brush guinea pigs",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Once a day",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Once a month",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Once a week",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Once a year",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "You should clean guinea pigs' cages",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Once a week",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Once a day",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Once a month",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Once a year",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

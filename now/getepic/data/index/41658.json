@@ -1,0 +1,160 @@
+{
+    "publisherData": {
+        "modelId": "31",
+        "name": "Bellwether Media",
+        "url": "http://www.bellwethermedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539569528
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/41658/OEBPS/Images/1/C88F8B4B-78DB-45AF-A2FE-71CD6874F4D7.jpg",
+                "audio": "drm/8/41658/OEBPS/Audio/1/9781681032740-01.mp3"
+            },
+            {
+                "page": "drm/8/41658/OEBPS/Images/1/C4759087-7B4A-4E66-AF37-2F4C4F2770DC.jpg",
+                "audio": "drm/8/41658/OEBPS/Audio/1/9781681032740-02.mp3"
+            },
+            {
+                "page": "drm/8/41658/OEBPS/Images/1/692FBE28-3B88-4591-8879-67EFA134E51B.jpg"
+            },
+            {
+                "page": "drm/8/41658/OEBPS/Images/1/5F07242F-522C-472F-B01F-DABBA71FAE6A.jpg",
+                "audio": "drm/8/41658/OEBPS/Audio/1/9781681032740-03.mp3"
+            },
+            {
+                "page": "drm/8/41658/OEBPS/Images/1/3978C895-58C1-4316-9B71-3564C0D50AC2.jpg"
+            },
+            {
+                "page": "drm/8/41658/OEBPS/Images/1/D4151F19-47FA-4D05-8503-B131AE218056.jpg",
+                "audio": "drm/8/41658/OEBPS/Audio/1/9781681032740-04.mp3"
+            },
+            {
+                "page": "drm/8/41658/OEBPS/Images/1/55333DAC-5EC9-448A-B2DD-C7952804D8E6.jpg"
+            },
+            {
+                "page": "drm/8/41658/OEBPS/Images/1/6F472797-1B01-49A7-8FE4-0BC6BB98C33F.jpg",
+                "audio": "drm/8/41658/OEBPS/Audio/1/9781681032740-05.mp3"
+            },
+            {
+                "page": "drm/8/41658/OEBPS/Images/1/65CEEB4C-B9FA-485C-8C06-C5EBDCCE75A0.jpg"
+            },
+            {
+                "page": "drm/8/41658/OEBPS/Images/1/25370074-EB9C-4D0E-8F01-04A55A208880.jpg",
+                "audio": "drm/8/41658/OEBPS/Audio/1/9781681032740-06.mp3"
+            },
+            {
+                "page": "drm/8/41658/OEBPS/Images/1/C9D9BB17-0077-4466-A424-8309327A107F.jpg"
+            },
+            {
+                "page": "drm/8/41658/OEBPS/Images/1/03E95CCA-4D71-4505-9286-29754A02DFB1.jpg",
+                "audio": "drm/8/41658/OEBPS/Audio/1/9781681032740-07.mp3"
+            },
+            {
+                "page": "drm/8/41658/OEBPS/Images/1/7D365822-C9DE-438C-8347-A494AB9F1B0E.jpg"
+            },
+            {
+                "page": "drm/8/41658/OEBPS/Images/1/0C487B29-E2C9-4156-8FA3-81A7CDB13B8E.jpg",
+                "audio": "drm/8/41658/OEBPS/Audio/1/9781681032740-08.mp3"
+            },
+            {
+                "page": "drm/8/41658/OEBPS/Images/1/D1240CAD-B178-4702-91AF-9258AFFE13A1.jpg"
+            },
+            {
+                "page": "drm/8/41658/OEBPS/Images/1/50CCA540-FFC4-4015-BCDA-D4EF9E544D03.jpg",
+                "audio": "drm/8/41658/OEBPS/Audio/1/9781681032740-09.mp3"
+            },
+            {
+                "page": "drm/8/41658/OEBPS/Images/1/7B3B1B62-76C1-48B0-875D-CB7A36DC6383.jpg"
+            },
+            {
+                "page": "drm/8/41658/OEBPS/Images/1/BA2EE701-783A-4FC2-A628-E0870642C35C.jpg",
+                "audio": "drm/8/41658/OEBPS/Audio/1/9781681032740-10.mp3"
+            },
+            {
+                "page": "drm/8/41658/OEBPS/Images/1/B8D9E52A-47C2-4C13-A4FC-AF7F48F44F0B.jpg"
+            },
+            {
+                "page": "drm/8/41658/OEBPS/Images/1/E2025935-9C5C-44B4-9B77-2D8C4BB69EF1.jpg",
+                "audio": "drm/8/41658/OEBPS/Audio/1/9781681032740-11.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/41658/OEBPS/Images/1/E2C2631C-1ED5-4EB3-B135-02E3FB3AFABA.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "41658",
+        "id": "41658",
+        "title": "Super Cute! Baby Raccoons",
+        "author": "Megan Borgert-Spaniol",
+        "illustrator": " ",
+        "numPages": 20,
+        "bookDescription": "Developed by literacy experts for students in kindergarten through grade three, this book introduces baby raccoons to young readers.",
+        "coverColorR": 89,
+        "coverColorG": 156,
+        "coverColorB": 159,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Bellwether Media",
+        "publisherId": "31",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "400L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 366,
+        "ar": "1.7",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Forest Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.7245,
+        "contentHash": "87763e68868cb725a8cd",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373791
+    },
+    "userBook": {
+        "modelId": "46250489-41658",
+        "userId": "46250489",
+        "bookId": "41658",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559307273,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559307273,
+        "book": {
+            "modelId": "41658",
+            "title": "Super Cute! Baby Raccoons",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "87763e68868cb725a8cd"
+        }
+    },
+    "quiz": null
+}

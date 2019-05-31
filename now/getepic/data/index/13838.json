@@ -1,0 +1,745 @@
+{
+    "publisherData": {
+        "modelId": "107",
+        "name": "Rourke Educational Media",
+        "url": "http://rourkeeducationalmedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570193
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/13838/OEBPS/Images/1/ce0c3888c4bfb46ce60ee0c81d107c97.jpg",
+                "audio": "drm/8/13838/OEBPS/Audio/1/80780c4cce049caf526f34fdca3c8051.mp3"
+            },
+            {
+                "page": "drm/8/13838/OEBPS/Images/1/b1d1e82891c768aca4fd04efbefc64c7.jpg"
+            },
+            {
+                "page": "drm/8/13838/OEBPS/Images/1/4db4e7f462315837a5bd6b5a2fae77aa.jpg",
+                "audio": "drm/8/13838/OEBPS/Audio/1/e83bcc489ea4430471dac6c674b857cc.mp3"
+            },
+            {
+                "page": "drm/8/13838/OEBPS/Images/1/00fbdcb844c8cae98ef5e4ab0665686a.jpg",
+                "audio": "drm/8/13838/OEBPS/Audio/1/49147cf55f61a457f990187f24939a5c.mp3"
+            },
+            {
+                "page": "drm/8/13838/OEBPS/Images/1/2933f2983dcffb540d244bdab7a3ded6.jpg"
+            },
+            {
+                "page": "drm/8/13838/OEBPS/Images/1/0077f2add61946ba1dc14fdf5683b3a3.jpg",
+                "audio": "drm/8/13838/OEBPS/Audio/1/9c8c599ce5b800ae53d9a6a6df0ef12c.mp3"
+            },
+            {
+                "page": "drm/8/13838/OEBPS/Images/1/736147fbc4eeed801d7fce08c012d13c.jpg"
+            },
+            {
+                "page": "drm/8/13838/OEBPS/Images/1/2056bf96d51f0fe06e6473387c7f9b72.jpg",
+                "audio": "drm/8/13838/OEBPS/Audio/1/ab36ac36d9b2c4ba5e59772277e886ce.mp3"
+            },
+            {
+                "page": "drm/8/13838/OEBPS/Images/1/5fd7756edd71f63c01ada41b42bfaf23.jpg"
+            },
+            {
+                "page": "drm/8/13838/OEBPS/Images/1/d65a514f6013a93a941f796df3e3666e.jpg",
+                "audio": "drm/8/13838/OEBPS/Audio/1/337a10eb05feb493f4851bc5295ef323.mp3"
+            },
+            {
+                "page": "drm/8/13838/OEBPS/Images/1/60348c9eefa75ee709d2a016c9a6a7cd.jpg"
+            },
+            {
+                "page": "drm/8/13838/OEBPS/Images/1/d1eb0df3119f763edecd40a6b1a4ae40.jpg",
+                "audio": "drm/8/13838/OEBPS/Audio/1/ce08e530d7143de5b9d33aa8c7e563f7.mp3"
+            },
+            {
+                "page": "drm/8/13838/OEBPS/Images/1/664f47d2bbf7a96e6f8762ddddf626d8.jpg"
+            },
+            {
+                "page": "drm/8/13838/OEBPS/Images/1/048fd239dc23ad52a4abd70585e3d779.jpg",
+                "audio": "drm/8/13838/OEBPS/Audio/1/7e17d4d2274f7a1fbb89220028fe67e3.mp3"
+            },
+            {
+                "page": "drm/8/13838/OEBPS/Images/1/a388a33239a8ce863482304abe27f4bb.jpg"
+            },
+            {
+                "page": "drm/8/13838/OEBPS/Images/1/fdf8173a13914711c80953ee88bf7c6d.jpg",
+                "audio": "drm/8/13838/OEBPS/Audio/1/2937ad5ec56be3b5dc09fdad13f2754d.mp3"
+            },
+            {
+                "page": "drm/8/13838/OEBPS/Images/1/b3681984e23ab32e8fadcbf1d5cc30c7.jpg"
+            },
+            {
+                "page": "drm/8/13838/OEBPS/Images/1/391bb39ceca5f333fb26955e99eeb6ad.jpg",
+                "audio": "drm/8/13838/OEBPS/Audio/1/838c1f11d181db6dc0af581cae7b1676.mp3"
+            },
+            {
+                "page": "drm/8/13838/OEBPS/Images/1/a15325fc6e4ae05f6ab34a9281b04afd.jpg"
+            },
+            {
+                "page": "drm/8/13838/OEBPS/Images/1/e1fe25c1c764935f8b2cfd5df9a41b0c.jpg",
+                "audio": "drm/8/13838/OEBPS/Audio/1/df86cfa5edb6b28f7f732126b0b2ef66.mp3"
+            },
+            {
+                "page": "drm/8/13838/OEBPS/Images/1/289ce7443c19eaf1e447d99882b7d482.jpg"
+            },
+            {
+                "page": "drm/8/13838/OEBPS/Images/1/270d1a13f1686ab5625adbd22d081878.jpg",
+                "audio": "drm/8/13838/OEBPS/Audio/1/6848a8d0eebe5909d658b7029927effe.mp3"
+            },
+            {
+                "page": "drm/8/13838/OEBPS/Images/1/e3918c66ca7f370989ed0233bd1ac2e5.jpg"
+            },
+            {
+                "page": "drm/8/13838/OEBPS/Images/1/12415ff4802a6816be46f8f7d8b54c7d.jpg"
+            },
+            {
+                "page": "drm/8/13838/OEBPS/Images/1/179fcfccab403d209d6fe692060c2d81.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/13838/OEBPS/Images/1/aeb759b83e8e4a949db24cfe83c42361.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "13838",
+        "id": "13838",
+        "title": "Money Counts!",
+        "author": "Shirley Duke",
+        "illustrator": " ",
+        "numPages": 25,
+        "bookDescription": "Learn about money, from a penny to a dollar, and learn hot to make different amounts with different coins.",
+        "coverColorR": 186,
+        "coverColorG": 158,
+        "coverColorB": 132,
+        "version": 1,
+        "previewPercent": 20,
+        "publisher": "Rourke Educational Media",
+        "publisherId": "107",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 833,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "57eca585e656d58641e0",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372695
+    },
+    "userBook": {
+        "modelId": "46250489-13838",
+        "userId": "46250489",
+        "bookId": "13838",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311064,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311064,
+        "book": {
+            "modelId": "13838",
+            "title": "Money Counts!",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "57eca585e656d58641e0"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "98073",
+            "user_id": "3914506",
+            "book_id": "13838",
+            "title": "Count Money!",
+            "description": "",
+            "date_created": 1495403312,
+            "date_modified": 1507832587,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "10+10+10+5+5+1+1+1=?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "43 cents",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "43",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "53 cents",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "80 cents",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "Fives dimes, one nickel and one penny equal how much money?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Fifty six cents",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Sixty one cents",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Thirty one cents",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Twenty five cents",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "How much does three quarters  equal?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "75 cents",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "68 cents",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "50 cents",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "70 cents",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "How much is the boy selling his lemonade for on page 4?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "10 cents",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "$1 ",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "25 cents",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "50 cents",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Which is worth more a nickel or a dime?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Dime",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Nickel",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "They are worth the same amount",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "What is another way to make a quarter?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "All of the above",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "25 pennies",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "5 nickels",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "2 dimes and a nickel",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 5
+                },
+                {
+                    "title": "If one candy cost 5 cents and you buy two candies; how much did you spend?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "10 cents",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "20 cents",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "25 cents",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "15 cents",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 6
+                },
+                {
+                    "title": "If one candy cost 5 cents and you buy four candies; how much did you spend?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "20 cents",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "10 cents",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "25 cents",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "$1",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 7
+                },
+                {
+                    "title": "What does three quarters equal?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "75 cents",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "50 cents",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "68 cents",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "$1",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 8
+                },
+                {
+                    "title": "How much is a half dollar worth?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "50 cents",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "75 cents",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "$1",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "25 cents",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 9
+                }
+            ],
+            "modelId": "98073",
+            "creatorName": "Mrs. Von Burg-Friedman",
+            "avatarId": "79",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "3914506",
+                "udid": "568da36078aee2.44769389",
+                "journalName": "Mrs. Von Burg-Friedman",
+                "journalCoverAvatar": "79",
+                "journalCoverColor": "0.84705882352941 0.18039215686275 0.46274509803922 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "150429998",
+                "fid": "",
+                "accountID": "A70100D6-4B79-02E5-FE7B-F78AA125F5A0",
+                "simpleAccountId": "1568964",
+                "pagesFlipped": 12651,
+                "nufComplete": 1,
+                "readingAge": 6.9,
+                "startingAge": 5,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 10,
+                "xpLevel": 3,
+                "dateLastLogin": 1559225706,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Cathy",
+                "lastName": "Von Burg-Friedman",
+                "accountType": 1,
+                "dateModified": 1559240963,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Von Burg-Friedman"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "10+10+10+5+5+1+1+1=?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "43 cents",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "43",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "53 cents",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "80 cents",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "Fives dimes, one nickel and one penny equal how much money?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Fifty six cents",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Sixty one cents",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Thirty one cents",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Twenty five cents",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "How much does three quarters  equal?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "75 cents",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "68 cents",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "50 cents",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "70 cents",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "How much is the boy selling his lemonade for on page 4?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "10 cents",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "$1 ",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "25 cents",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "50 cents",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Which is worth more a nickel or a dime?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Dime",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Nickel",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "They are worth the same amount",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "What is another way to make a quarter?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "All of the above",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "25 pennies",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "5 nickels",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "2 dimes and a nickel",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 5
+            },
+            {
+                "title": "If one candy cost 5 cents and you buy two candies; how much did you spend?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "10 cents",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "20 cents",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "25 cents",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "15 cents",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 6
+            },
+            {
+                "title": "If one candy cost 5 cents and you buy four candies; how much did you spend?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "20 cents",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "10 cents",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "25 cents",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "$1",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 7
+            },
+            {
+                "title": "What does three quarters equal?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "75 cents",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "50 cents",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "68 cents",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "$1",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 8
+            },
+            {
+                "title": "How much is a half dollar worth?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "50 cents",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "75 cents",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "$1",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "25 cents",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 9
+            }
+        ]
+    }
+}

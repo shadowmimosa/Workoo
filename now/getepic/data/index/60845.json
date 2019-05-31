@@ -1,0 +1,365 @@
+{
+    "publisherData": {
+        "modelId": "90185",
+        "name": "Candlewick.",
+        "url": "http://www.candlewick.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1552002937
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/1c1a06ed8231fb525d34f1719579ea05.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/f8f1549db8312a211c741bc1d3a2fe0f.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/c9db99f04767c4e0fb2009871b9458f5.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/6b8d384da09db003f6f9520e6a437bbe.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/68c9677c9e2977a18ca6546c843d6d4a.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/9122606371f7d2a29b996de166086b68.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/98e8ed8a6a57c701c0b0949ad3367211.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/c8b8e72d9e374b5dc0f7793633d97847.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/c336a33ed88a895dc434d83b2e80d76b.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/c75ac30abd199c5d37c6e23d03d5be66.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/aee8b092d2593e7deca494116942e7a2.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/4881599d1e2b0e15d6ee625abedbd340.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/0cedab89b3bbbbef5101677b11da9846.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/830b5d61640a2c67045c891beb5353ee.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/358ad63cc451301fccc6420732e80840.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/b4a11c767a3f7a9aa46323640f3a4033.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/832abca2042bdc7f7d092e2569e6fdbc.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/ed764326697f4ec55c77e8aa5e94c4e0.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/2ed014d6a13a0f9cf6f8e928a5a1ba5e.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/bc9aa726a456598551fe8430c7acc660.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/414f5e7fba2b6e28237727de3ab54809.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/18b0a4374c31aa24f042afd5e195f9cb.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/dbfd49f90ba9c77331e94b3869056f0d.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/bf4890aa02f2d58e1a6b1e43d709cf3a.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/602f134f88903176dadd9212c4bf1399.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/add5b35bf9acadbedc6052c17366dfa3.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/121954d2b8bc678d087dd33d8e73ecd9.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/e43052f479fb7ff90f5503d4002ed919.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/9e7be87959ed5387f8cf3593f009d03f.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/81168d684bee72b3af9ccb4ba0b88083.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/d8ddfee2fdfaa9a08897c382771073cf.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/999d1f80c3783730fb16432b5ccb5235.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/3393dc4b857039a1111d4e4db95426a9.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/58bfce3bb8ff983ebe9b60f0f34c3715.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/a56f1eb5e018ed790acf0ca6d623de0f.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/9d17184d899efa0dd97c5dc7c686d10a.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/3e96219ba720a8a92d5c686167ce5efc.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/4c786d679137520aa7b8a32dc7433527.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/801acc5ee43cb9b101cae36184cb9006.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/613bea85ba163dce7295826186c33213.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/625c677fd96c5bea1d897ffa6019eaa4.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/d6580ea0dbec9c1c44db7b4084a685c8.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/fafa28a069dfb787d7a96a95697a40ef.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/ff6f678a5a17d29d9bd86d5e713f4c88.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/e49da96b9f0f8914d238159e05edab1e.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/e16b2259caad5ae7fdf28ee60901bef3.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/95b0cd29636cdea74e7086f7de002d1b.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/8e7d9ab36b6ec0aed3fdf1ceacbe1f23.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/fa276a4e1175f28c1afa3a1bd501bdd4.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/398b67d493de616fe8b9c57330893501.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/bcb32c9455aa494c7893593839339852.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/a4fb2ca6a19e596f122cf2346bf4771f.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/5adcf0224fbf6d805fa803a26623a12b.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/d6325aec13382a33eb133e6a59d5a4a5.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/f1e956baecdcd4676aeba69dd35fc4f3.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/68aa63d60125af6bf50caea06977d7ed.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/44ee72611937989b3315552c484b773e.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/0ca46326b0ad15fa5b5c3fd42e78a705.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/7efd8808ac211670bfa6c68407b1b61c.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/543c6013a56689a3aa81b5bbcb779e8e.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/e04b428c9948a9f4c932ff1e8d92a51d.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/d5f443e14811828fae98bf16ccfc6bce.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/d2d963f7b00d2ee394a6bfdbb64671ca.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/7a768b207144717bed2436b779e7f30e.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/f1f1f859f08d5352ddccaedf0c5b39e2.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/090d0c57c2cff7badbcf311bb862894f.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/5446b70dda4f4ec44208b86df61ad7a1.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/5208a90e8ddaacbbbcd5c39eb3a42cfd.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/99038c2643e278e4497a9d615795b3ae.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/0d39166ca1fd917ceaee757902c650c3.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/3bd51872792d26f2fc31893784ba49c6.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/d27a56ebe489599b63c62002becc936e.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/92e287561afa8d116c1f1083e63a0983.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/a6ab1c6923209db371477d8d47964bdc.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/3f83cd2430a1093e0413b0ca29941345.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/413af527d0d2fec77f6282ac6c92b768.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/ff840e752d872a4b5c568b7e6d136e37.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/84c92d9133d86a5aacddb7368b84a578.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/d8846b470e977e9b2df225ff640acad2.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/d6def82747ed1e0b5ad6a4a90e872038.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/18f7b3c7e063e8dd9b69a6f6f7cc2144.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/23aaa5b15230ae7c22547da4be32740e.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/e90e780bcb360b1245aa720d83741735.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/768128e5da28c109a6f9184169192fbc.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/be952e9d28d26b6451c746430fa7d8e7.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/3ee78ea865b2dc2f087997fb412491a5.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/e65411a910b3663e17d328376ac7e1bb.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/7ce2fb5812a76a29e20a77359a00dcaf.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/e968fedffaacb144908d800e25459c3c.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/cda92d05c5e70387680dc901c262a428.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/0c13ffc9c87c48f5218b3299c2a1f086.jpg"
+            },
+            {
+                "page": "drm/5/60845/OEBPS/Images/1/fca43ca71f5eedd94d55efe0248f3a02.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/60845/OEBPS/Images/1/bb28db2511f08f485bd7c6099c18e90a.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "60845",
+        "id": "60845",
+        "title": "The Princess In Black and the Hungry Bunny Horde",
+        "author": "Shannon Hale, Dean Hale",
+        "illustrator": "LeUyen Pham",
+        "numPages": 92,
+        "bookDescription": "Princess in Black encounters a new challenge: a field overrun by adorable bunnies.",
+        "coverColorR": 141,
+        "coverColorG": 145,
+        "coverColorB": 122,
+        "version": 142062816,
+        "previewPercent": 20,
+        "publisher": "Candlewick.",
+        "publisherId": "90185",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "510L",
+        "avgTime": "1-2 hours",
+        "avgTimeInt": 5060,
+        "ar": "3.1",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "86",
+        "subjectDesc": "Action",
+        "subjectColor": "59E6FF",
+        "copyright": "",
+        "aspectRatio": 0.7786,
+        "contentHash": "e3cec42581f2830259f0",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374928
+    },
+    "userBook": {
+        "modelId": "46250489-60845",
+        "userId": "46250489",
+        "bookId": "60845",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310266,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310266,
+        "book": {
+            "modelId": "60845",
+            "title": "The Princess In Black and the Hungry Bunny Horde",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "e3cec42581f2830259f0"
+        }
+    },
+    "quiz": null
+}

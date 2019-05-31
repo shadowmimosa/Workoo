@@ -1,0 +1,203 @@
+{
+    "publisherData": {
+        "modelId": "90175",
+        "name": "Sesame Workshop Books",
+        "url": "http://www.sesameworkshop.org/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1545257836
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/47485/OEBPS/Images/1/876e79cad6df14b4f33cfa05df9c3c23.jpg",
+                "audio": "drm/5/47485/OEBPS/Audio/1/9781618311733_01.mp3"
+            },
+            {
+                "page": "drm/5/47485/OEBPS/Images/1/8a18a8c68081ee7dd066aef006837cea.jpg",
+                "audio": "drm/5/47485/OEBPS/Audio/1/9781618311733_02.mp3"
+            },
+            {
+                "page": "drm/5/47485/OEBPS/Images/1/3f13386fe8bfbcbf69ae54615318c21a.jpg",
+                "audio": "drm/5/47485/OEBPS/Audio/1/9781618311733_03.mp3"
+            },
+            {
+                "page": "drm/5/47485/OEBPS/Images/1/78831262dfbfe28204083a024bbe245a.jpg",
+                "audio": "drm/5/47485/OEBPS/Audio/1/9781618311733_04.mp3"
+            },
+            {
+                "page": "drm/5/47485/OEBPS/Images/1/a9083dfd02d0acf5e41149347feffeae.jpg",
+                "audio": "drm/5/47485/OEBPS/Audio/1/9781618311733_05.mp3"
+            },
+            {
+                "page": "drm/5/47485/OEBPS/Images/1/a37009ab522256e51ecbac45c23c9177.jpg",
+                "audio": "drm/5/47485/OEBPS/Audio/1/9781618311733_06.mp3"
+            },
+            {
+                "page": "drm/5/47485/OEBPS/Images/1/19ca00edef9d9bd4cb150678dc5d14d2.jpg",
+                "audio": "drm/5/47485/OEBPS/Audio/1/9781618311733_07.mp3"
+            },
+            {
+                "page": "drm/5/47485/OEBPS/Images/1/d19395b9be6f4d558d5fb557e73ac02a.jpg",
+                "audio": "drm/5/47485/OEBPS/Audio/1/9781618311733_08.mp3"
+            },
+            {
+                "page": "drm/5/47485/OEBPS/Images/1/aed62ef4a01aa46c03998894c2d3ebff.jpg",
+                "audio": "drm/5/47485/OEBPS/Audio/1/9781618311733_09.mp3"
+            },
+            {
+                "page": "drm/5/47485/OEBPS/Images/1/e762e77eed3403b9876c0b3384fecd23.jpg",
+                "audio": "drm/5/47485/OEBPS/Audio/1/9781618311733_10.mp3"
+            },
+            {
+                "page": "drm/5/47485/OEBPS/Images/1/d8b68e39205cd451c42d1cdafec5a208.jpg",
+                "audio": "drm/5/47485/OEBPS/Audio/1/9781618311733_11.mp3"
+            },
+            {
+                "page": "drm/5/47485/OEBPS/Images/1/6ee4105c2b7c29e13874f6ae67e82cf4.jpg",
+                "audio": "drm/5/47485/OEBPS/Audio/1/9781618311733_12.mp3"
+            },
+            {
+                "page": "drm/5/47485/OEBPS/Images/1/017cbff6de7eb646e1f75051ee196f91.jpg"
+            },
+            {
+                "page": "drm/5/47485/OEBPS/Images/1/021809d92181790d7ba7ac4ed011caa4.jpg",
+                "audio": "drm/5/47485/OEBPS/Audio/1/9781618311733_13.mp3"
+            },
+            {
+                "page": "drm/5/47485/OEBPS/Images/1/ef9e09ccdfc82b9752e84076b978f1b7.jpg",
+                "audio": "drm/5/47485/OEBPS/Audio/1/9781618311733_14-15.mp3"
+            },
+            {
+                "page": "drm/5/47485/OEBPS/Images/1/beec345f54ab5ce8bbd943d6b60460dc.jpg",
+                "audio": "drm/5/47485/OEBPS/Audio/1/9781618311733_16-1.mp3"
+            },
+            {
+                "page": "drm/5/47485/OEBPS/Images/1/8aa2a8abc4c5c33e9e9de9aabe213807.jpg",
+                "audio": "drm/5/47485/OEBPS/Audio/1/9781618311733_16-2.mp3"
+            },
+            {
+                "page": "drm/5/47485/OEBPS/Images/1/4b340842dd0d5523b951b52d0d40ed0e.jpg",
+                "audio": "drm/5/47485/OEBPS/Audio/1/9781618311733_17.mp3"
+            },
+            {
+                "page": "drm/5/47485/OEBPS/Images/1/978eb168f56ffdf2d66b539902771aa1.jpg",
+                "audio": "drm/5/47485/OEBPS/Audio/1/9781618311733_18.mp3"
+            },
+            {
+                "page": "drm/5/47485/OEBPS/Images/1/869860f2f132701d7162eede8301de94.jpg",
+                "audio": "drm/5/47485/OEBPS/Audio/1/9781618311733_19.mp3"
+            },
+            {
+                "page": "drm/5/47485/OEBPS/Images/1/079570bd0f9b07646bdcd12cd6e12413.jpg"
+            },
+            {
+                "page": "drm/5/47485/OEBPS/Images/1/fdf14155aa3a8f632261a0e0446524a9.jpg",
+                "audio": "drm/5/47485/OEBPS/Audio/1/9781618311733_20.mp3"
+            },
+            {
+                "page": "drm/5/47485/OEBPS/Images/1/d14e448911cf29a440c9e53affc0fdb8.jpg",
+                "audio": "drm/5/47485/OEBPS/Audio/1/9781618311733_21.mp3"
+            },
+            {
+                "page": "drm/5/47485/OEBPS/Images/1/08de87063253341228b73ce715616efd.jpg",
+                "audio": "drm/5/47485/OEBPS/Audio/1/9781618311733_22.mp3"
+            },
+            {
+                "page": "drm/5/47485/OEBPS/Images/1/0b15fe08f23611a62b04a485ff55a155.jpg",
+                "audio": "drm/5/47485/OEBPS/Audio/1/9781618311733_23.mp3"
+            },
+            {
+                "page": "drm/5/47485/OEBPS/Images/1/c998855efb757c045a92dfe74553a890.jpg",
+                "audio": "drm/5/47485/OEBPS/Audio/1/9781618311733_24.mp3"
+            },
+            {
+                "page": "drm/5/47485/OEBPS/Images/1/27e3fc869534a9796d66e4c4e9549434.jpg",
+                "audio": "drm/5/47485/OEBPS/Audio/1/9781618311733_25.mp3"
+            },
+            {
+                "page": "drm/5/47485/OEBPS/Images/1/cd2a948ae4b687459a71b60f4dac747a.jpg",
+                "audio": "drm/5/47485/OEBPS/Audio/1/9781618311733_26.mp3"
+            },
+            {
+                "page": "drm/5/47485/OEBPS/Images/1/445bf9ca6c6f4957dc558228bae3d65a.jpg",
+                "audio": "drm/5/47485/OEBPS/Audio/1/9781618311733_27-28.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/47485/OEBPS/Images/1/e0afdc5749c794729489bca55836a2f0.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "47485",
+        "id": "47485",
+        "title": "Abby in Wonderland",
+        "author": "Bonnie Brooke, Christine Ferraro",
+        "illustrator": "Tom Brannon",
+        "numPages": 29,
+        "bookDescription": "Follow Abby Cadabby and Elmo down the rabbit hole in this enchanting reimagining of the classic children's book.",
+        "coverColorR": 162,
+        "coverColorG": 165,
+        "coverColorB": 166,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Sesame Workshop Books",
+        "publisherId": "90175",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 435,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Humorous Stories",
+        "subjectColor": "FFD673",
+        "copyright": "",
+        "aspectRatio": 0.8533,
+        "contentHash": "2d2870c797e1e0038477",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1523404767
+    },
+    "userBook": {
+        "modelId": "46250489-47485",
+        "userId": "46250489",
+        "bookId": "47485",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311729,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311729,
+        "book": {
+            "modelId": "47485",
+            "title": "Abby in Wonderland",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "2d2870c797e1e0038477"
+        }
+    },
+    "quiz": null
+}

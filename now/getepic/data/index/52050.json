@@ -1,0 +1,153 @@
+{
+    "publisherData": {
+        "modelId": "109",
+        "name": "JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/52050/OEBPS/Images/1/d5e0462efe8addc7c12547b9c68cb450.jpg",
+                "audio": "drm/0/52050/OEBPS/Audio/1/xd5e0462efe8addc7c12547b9c68cb450.mp3"
+            },
+            {
+                "page": "drm/0/52050/OEBPS/Images/1/bcf2bf75798cbda5643cca335aba6956.jpg",
+                "audio": "drm/0/52050/OEBPS/Audio/1/xbcf2bf75798cbda5643cca335aba6956.mp3"
+            },
+            {
+                "page": "drm/0/52050/OEBPS/Images/1/0f5c7c106131c5fc4fd35e7603829395.jpg",
+                "audio": "drm/0/52050/OEBPS/Audio/1/x0f5c7c106131c5fc4fd35e7603829395.mp3"
+            },
+            {
+                "page": "drm/0/52050/OEBPS/Images/1/4719cf89dc6bde489cde8e124e5b8148.jpg",
+                "audio": "drm/0/52050/OEBPS/Audio/1/x4719cf89dc6bde489cde8e124e5b8148.mp3"
+            },
+            {
+                "page": "drm/0/52050/OEBPS/Images/1/fdad59be759220d6f877523a0e277ccf.jpg",
+                "audio": "drm/0/52050/OEBPS/Audio/1/xfdad59be759220d6f877523a0e277ccf.mp3"
+            },
+            {
+                "page": "drm/0/52050/OEBPS/Images/1/8086289b0f4eb656eeb79f887082a473.jpg",
+                "audio": "drm/0/52050/OEBPS/Audio/1/x8086289b0f4eb656eeb79f887082a473.mp3"
+            },
+            {
+                "page": "drm/0/52050/OEBPS/Images/1/137920db436b39dd4371a5731e15bc51.jpg",
+                "audio": "drm/0/52050/OEBPS/Audio/1/x137920db436b39dd4371a5731e15bc51.mp3"
+            },
+            {
+                "page": "drm/0/52050/OEBPS/Images/1/0bf976a76c999b020d11af35522ac71b.jpg",
+                "audio": "drm/0/52050/OEBPS/Audio/1/x0bf976a76c999b020d11af35522ac71b.mp3"
+            },
+            {
+                "page": "drm/0/52050/OEBPS/Images/1/4c1f0f8835f6fee604a691cea9d58f04.jpg",
+                "audio": "drm/0/52050/OEBPS/Audio/1/x4c1f0f8835f6fee604a691cea9d58f04.mp3"
+            },
+            {
+                "page": "drm/0/52050/OEBPS/Images/1/cdd382aef62e3ec94be84520367c17e7.jpg",
+                "audio": "drm/0/52050/OEBPS/Audio/1/xcdd382aef62e3ec94be84520367c17e7.mp3"
+            },
+            {
+                "page": "drm/0/52050/OEBPS/Images/1/a7cff47009dde004a5240ffcf76ee18a.jpg",
+                "audio": "drm/0/52050/OEBPS/Audio/1/xa7cff47009dde004a5240ffcf76ee18a.mp3"
+            },
+            {
+                "page": "drm/0/52050/OEBPS/Images/1/e83aaccdb113d949da74c79ee45fce45.jpg",
+                "audio": "drm/0/52050/OEBPS/Audio/1/xe83aaccdb113d949da74c79ee45fce45.mp3"
+            },
+            {
+                "page": "drm/0/52050/OEBPS/Images/1/27eb451c2aa04e50e9769aa468c7041d.jpg",
+                "audio": "drm/0/52050/OEBPS/Audio/1/x27eb451c2aa04e50e9769aa468c7041d.mp3"
+            },
+            {
+                "page": "drm/0/52050/OEBPS/Images/1/38dc23aab2db8524a6fa749f6461807d.jpg",
+                "audio": "drm/0/52050/OEBPS/Audio/1/x38dc23aab2db8524a6fa749f6461807d.mp3"
+            },
+            {
+                "page": "drm/0/52050/OEBPS/Images/1/b49fe26f4644a1bbf854480c7975b267.jpg",
+                "audio": "drm/0/52050/OEBPS/Audio/1/xb49fe26f4644a1bbf854480c7975b267.mp3"
+            },
+            {
+                "page": "drm/0/52050/OEBPS/Images/1/2808119d573cd4d65085126cef948278.jpg",
+                "audio": "drm/0/52050/OEBPS/Audio/1/x2808119d573cd4d65085126cef948278.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/52050/OEBPS/Images/1/7914baa2ba3cfd296457579e8b720eac.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "52050",
+        "id": "52050",
+        "title": "Who Helps Us Get Around?",
+        "author": "Erica Donner",
+        "illustrator": " ",
+        "numPages": 16,
+        "bookDescription": "Who Helps Us Get Around? teaches early readers about the role of  community helpers while providing a nonfiction reading experience.",
+        "coverColorR": 182,
+        "coverColorG": 178,
+        "coverColorB": 159,
+        "version": 12309,
+        "previewPercent": 20,
+        "publisher": "JUMP",
+        "publisherId": "109",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "220L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 400,
+        "ar": "0.7",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Profession",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 0.7222,
+        "contentHash": "431808aae05308b72377",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374418
+    },
+    "userBook": {
+        "modelId": "46250489-52050",
+        "userId": "46250489",
+        "bookId": "52050",
+        "currentPageIndex": 16,
+        "farthestPageIndex": 16,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 100,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559094432,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 69,
+        "dateModified": 1559094503,
+        "book": {
+            "modelId": "52050",
+            "title": "Who Helps Us Get Around?",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "431808aae05308b72377"
+        }
+    },
+    "quiz": null
+}

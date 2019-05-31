@@ -1,0 +1,226 @@
+{
+    "publisherData": {
+        "modelId": "28",
+        "name": "Xist Publishing",
+        "url": "http://www.xistpublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539564197
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/b087e7243f85424e0eb4920b9660953f.jpg",
+                "audio": "drm/4/6444/OEBPS/Audio/1/df5b0b4649ec6a2d869e82c57d157845.mp3"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/6c9a530575fe3912d1fefb10da6ec205.jpg"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/d6a72bd66d65b3483f268e8ed7d9e4bc.jpg",
+                "audio": "drm/4/6444/OEBPS/Audio/1/d37bef9824ddc4ea2628e05a216d1735.mp3"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/91fc54110cbb750f186d7f7d971a86cd.jpg",
+                "audio": "drm/4/6444/OEBPS/Audio/1/909a4f38165a2bdb7d877e8181bd7c60.mp3"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/117cedc464e9cac5c656219f0555cf1f.jpg"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/3d52cad2997d34293e5d1ebc31f78fc0.jpg"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/775237091ea36c19d84cf8d0812700b8.jpg",
+                "audio": "drm/4/6444/OEBPS/Audio/1/e09b81c39f55911fe9455d7014c3a303.mp3"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/5ccc902cbe230fe5238168a107cf7ca7.jpg",
+                "audio": "drm/4/6444/OEBPS/Audio/1/940e89125c4237ce1e531d2f3311d94f.mp3"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/0ff5b1fd336d2e76612136e2826ef7cb.jpg"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/5671aef467a6cd01bb0c2d7462521df7.jpg"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/517aea3fb7eeae60dedf838885546237.jpg",
+                "audio": "drm/4/6444/OEBPS/Audio/1/7f70f5ca6cae1fca409071e36110f4c2.mp3"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/d37455bbcc341913619e42309bfe4b01.jpg",
+                "audio": "drm/4/6444/OEBPS/Audio/1/5f46c26c07e2ed0d57341169fca32d98.mp3"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/69f01924ec1c8a19a12b9759f348539e.jpg"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/cc3077e4d705438cd134ebb81ae04ea6.jpg"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/37392a740d3b45a320b11f9571619433.jpg",
+                "audio": "drm/4/6444/OEBPS/Audio/1/36ca7d15194de19342f6b44a0f2a3051.mp3"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/814d91a59da16af8172a22d49b916fce.jpg",
+                "audio": "drm/4/6444/OEBPS/Audio/1/ff45211c013d37d4307d633631c223d6.mp3"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/835d17d24dfbc6c293e826ab3a4eebef.jpg"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/b2d6e1f2942765b1a8499797e5690f0f.jpg"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/60e018bf51b6d4d261e97fc53183642d.jpg",
+                "audio": "drm/4/6444/OEBPS/Audio/1/092094b3728ab8d6c83dabefa84e4e86.mp3"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/712a1de03343fc0e24726baa7da37d56.jpg",
+                "audio": "drm/4/6444/OEBPS/Audio/1/85b810cc30917f9470da99dffc3c7226.mp3"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/2588ff9ed9650392a4d95220b6c1decc.jpg"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/a841aa39803bef7e4baef528b645d19d.jpg"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/6bb4d3fa52d2fe6d203a58101e330d41.jpg",
+                "audio": "drm/4/6444/OEBPS/Audio/1/e19856a64224b5bb1ecece16628a229d.mp3"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/b7a6149662f6e495ae567a006fc48b49.jpg",
+                "audio": "drm/4/6444/OEBPS/Audio/1/f191569dc9cb6069aef72ea301051f93.mp3"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/233565d86df0d703f3733af8b74e2f1d.jpg"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/28eb1cecacae1165f54ad372f30566fc.jpg"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/eca015e42596c88fbbd17012c55437f2.jpg",
+                "audio": "drm/4/6444/OEBPS/Audio/1/0c954c73bb6cd9ad5a2bbcb052e27432.mp3"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/cb6072c784f9c2224e44843153418376.jpg",
+                "audio": "drm/4/6444/OEBPS/Audio/1/6b91ec85addba81d9c7b8e5e09a3c973.mp3"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/248aee896eb7078eec4f7b7f3df33886.jpg"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/169a25a921d6da817e43ed64e6456dde.jpg"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/1923ce315ab299179752ea06f5c25643.jpg",
+                "audio": "drm/4/6444/OEBPS/Audio/1/d4ffbac5eeeec5193bc1b61ee6f49b26.mp3"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/52d808c6a8dc931f2ce90f36913c48b5.jpg",
+                "audio": "drm/4/6444/OEBPS/Audio/1/14e4fbb4d936bb5175e915cd41482463.mp3"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/14d681cca42f6124f7e0fa773b4a32c9.jpg"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/04330709b72cbe30bb91446d685c67e1.jpg"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/34c057dfcaf934353a771fcd07d08603.jpg",
+                "audio": "drm/4/6444/OEBPS/Audio/1/86af3853941ae7943a1952cc4edc87a7.mp3"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/270562e2165a3686416f9b7832c81231.jpg",
+                "audio": "drm/4/6444/OEBPS/Audio/1/21702fbd4235b2fd88fc871fbaa08090.mp3"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/93f60ca81713c58bd461b9fa960a9a62.jpg"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/c827dac0559049cb7b7f7652d92466aa.jpg"
+            },
+            {
+                "page": "drm/4/6444/OEBPS/Images/1/eb7c2cc74115b27404b37309360f22fc.jpg",
+                "audio": "drm/4/6444/OEBPS/Audio/1/9781623953232-20x.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/6444/OEBPS/Images/1/2c80e36029f7cf4de544fdea7091e7f8.jpg",
+            "color": "#fefefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "6444",
+        "id": "6444",
+        "title": "Be Mine",
+        "author": "Brenda Ponnay",
+        "illustrator": "Brenda Ponnay",
+        "numPages": 39,
+        "bookDescription": "Love is in the air and these cheerful creations by Brenda Ponnay are the perfect way to share a little love with a child in your life.",
+        "coverColorR": 179,
+        "coverColorG": 59,
+        "coverColorB": 51,
+        "version": 2,
+        "previewPercent": 20,
+        "publisher": "Xist Publishing",
+        "publisherId": "28",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 650,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Family",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 0.9901,
+        "contentHash": "32a397881123c6a3b1ac",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1516240449
+    },
+    "userBook": {
+        "modelId": "46250489-6444",
+        "userId": "46250489",
+        "bookId": "6444",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559303631,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559303631,
+        "book": {
+            "modelId": "6444",
+            "title": "Be Mine",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "32a397881123c6a3b1ac"
+        }
+    },
+    "quiz": null
+}

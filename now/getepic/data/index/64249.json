@@ -1,0 +1,155 @@
+{
+    "publisherData": {
+        "modelId": "28",
+        "name": "Xist Publishing",
+        "url": "http://www.xistpublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539564197
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/64249/OEBPS/Images/1/ddd7c999a69923516b81460a3c2a8e84.jpg",
+                "audio": "drm/9/64249/OEBPS/Audio/1/Title.mp3"
+            },
+            {
+                "page": "drm/9/64249/OEBPS/Images/1/229c8bdb0b014323d13ffaf519cdbef1.jpg",
+                "audio": "drm/9/64249/OEBPS/Audio/1/Page 2.mp3"
+            },
+            {
+                "page": "drm/9/64249/OEBPS/Images/1/24f3a83b1ffb5de1fa6050cabc11b95f.jpg",
+                "audio": "drm/9/64249/OEBPS/Audio/1/Page 3.mp3"
+            },
+            {
+                "page": "drm/9/64249/OEBPS/Images/1/5f1d96f2d4d59522eb35a39452568c5c.jpg",
+                "audio": "drm/9/64249/OEBPS/Audio/1/Page 4.mp3"
+            },
+            {
+                "page": "drm/9/64249/OEBPS/Images/1/05e0fc55733fc2097bf05d7e1d9ef179.jpg",
+                "audio": "drm/9/64249/OEBPS/Audio/1/Page 5.mp3"
+            },
+            {
+                "page": "drm/9/64249/OEBPS/Images/1/705ebc9d6a522ca67bcfbd1d05907391.jpg",
+                "audio": "drm/9/64249/OEBPS/Audio/1/Page 6.mp3"
+            },
+            {
+                "page": "drm/9/64249/OEBPS/Images/1/668a2d70750e1823c3e83cc60cdd5faa.jpg",
+                "audio": "drm/9/64249/OEBPS/Audio/1/Page 7.mp3"
+            },
+            {
+                "page": "drm/9/64249/OEBPS/Images/1/ca466a7f0b88a68e6f67eefcf8f1977f.jpg",
+                "audio": "drm/9/64249/OEBPS/Audio/1/Page 8.mp3"
+            },
+            {
+                "page": "drm/9/64249/OEBPS/Images/1/ef790cb12c9a0471691d5cfe5bb23682.jpg",
+                "audio": "drm/9/64249/OEBPS/Audio/1/Page 9.mp3"
+            },
+            {
+                "page": "drm/9/64249/OEBPS/Images/1/36aba0258be4eeb354f00ab6a17023f4.jpg",
+                "audio": "drm/9/64249/OEBPS/Audio/1/Page 10.mp3"
+            },
+            {
+                "page": "drm/9/64249/OEBPS/Images/1/d522a1cf74ae5cfdf1b0a76edc2ff146.jpg",
+                "audio": "drm/9/64249/OEBPS/Audio/1/Page 11.mp3"
+            },
+            {
+                "page": "drm/9/64249/OEBPS/Images/1/d7dff550b74d7f3b68de24955cf19654.jpg",
+                "audio": "drm/9/64249/OEBPS/Audio/1/Page 12.mp3"
+            },
+            {
+                "page": "drm/9/64249/OEBPS/Images/1/3d9ff6ae8c255a3e4586b51bc721d56f.jpg",
+                "audio": "drm/9/64249/OEBPS/Audio/1/Page 13.mp3"
+            },
+            {
+                "page": "drm/9/64249/OEBPS/Images/1/609e2deda081cf50f9d15809eb3a99c3.jpg",
+                "audio": "drm/9/64249/OEBPS/Audio/1/Page 14.mp3"
+            },
+            {
+                "page": "drm/9/64249/OEBPS/Images/1/8dbbff5ed911a5ac58b70a4f6d58d333.jpg",
+                "audio": "drm/9/64249/OEBPS/Audio/1/Page 15.mp3"
+            },
+            {
+                "page": "drm/9/64249/OEBPS/Images/1/7c70eeb150977321867a34e234865855.jpg"
+            },
+            {
+                "page": "drm/9/64249/OEBPS/Images/1/ca4dcbe159243c7dbea267685ff124b7.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/64249/OEBPS/Images/1/091d837613395066cbab23611ae7468b.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "64249",
+        "id": "64249",
+        "title": "Discover Shapes: Find the Triangle",
+        "author": "Xist Publishing",
+        "illustrator": " ",
+        "numPages": 17,
+        "bookDescription": "Discover Shapes Level B Reader: Find the Triangle Beginning readers identify things that are triangles in this very simple 20-page reader.",
+        "coverColorR": 231,
+        "coverColorG": 234,
+        "coverColorB": 228,
+        "version": 1990791897,
+        "previewPercent": 20,
+        "publisher": "Xist Publishing",
+        "publisherId": "28",
+        "age": 5,
+        "pageNumOffset": -1,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 472,
+        "ar": "2.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "b",
+        "language": 1,
+        "rating": 75,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.6471,
+        "contentHash": "8c4a0ab18f9fb9e21fec",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1558484110
+    },
+    "userBook": {
+        "modelId": "46250489-64249",
+        "userId": "46250489",
+        "bookId": "64249",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559307275,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559307275,
+        "book": {
+            "modelId": "64249",
+            "title": "Discover Shapes: Find the Triangle",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "8c4a0ab18f9fb9e21fec"
+        }
+    },
+    "quiz": null
+}

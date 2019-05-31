@@ -1,0 +1,179 @@
+{
+    "publisherData": {
+        "modelId": "44",
+        "name": "National Geographic",
+        "url": "http://kids.nationalgeographic.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491261258
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/4c147df85b04040df5793d80d97d8e33.jpg"
+            },
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/32344e827bc5e50841448bb5abd6a4e3.jpg"
+            },
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/cd88e6746b93e06d69fe110bf464bb04.jpg"
+            },
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/3fd9eecdbd8c0402afad67b8f2417e9f.jpg"
+            },
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/6dad216e49138a71fbf9cda06ec06149.jpg"
+            },
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/72a6884b2f1925436f79fe69556fa27b.jpg"
+            },
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/2e45864699603126a66e16004f1eb141.jpg"
+            },
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/65699666e7c4cdc134e776d938d6ec45.jpg"
+            },
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/e7ded3655895f66e409ff2dfc3de9ac4.jpg"
+            },
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/227217f50fb9626c54bd0c6f63cc9f06.jpg"
+            },
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/1da24a283ceab89489e62cc046e8ca3e.jpg"
+            },
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/0303ff90e89f898e22fef87fca1f5f0f.jpg"
+            },
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/f32d898ce3f118e005a6208b24ff001e.jpg"
+            },
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/23cde727f3735a89efcd5fa186aa79c0.jpg"
+            },
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/a14a1e6df827d719aa40ad0372cdb3ff.jpg"
+            },
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/2e9fc557c21f075e94a35ee5fd6fda2b.jpg"
+            },
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/6a631040ef330dab9bff1bd03f3a2b7d.jpg"
+            },
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/2c3d29bfc3c055ef1538a873fc0d29c8.jpg"
+            },
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/9f663a1e03ec4d88397b70807cd91541.jpg"
+            },
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/d1b777d1ffac1d11338ea9e029544d4a.jpg"
+            },
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/cadaff9dbb4c155e803356f245957919.jpg"
+            },
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/ba726e8b8bd90644e2b767cb8950f274.jpg"
+            },
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/d96e6d420ac5e02f872da6a75f634ed9.jpg"
+            },
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/a4f547f4d965ccfe602644ca9428399a.jpg"
+            },
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/838ea7b75e15d682aa66881c53a27318.jpg"
+            },
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/c8370fda680a1fedcec1d08797ab88b8.jpg"
+            },
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/059aec7ea1d20bd66ba51f937ddf5a4f.jpg"
+            },
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/b6240ef6f4d94c59faea76ebba3b5363.jpg"
+            },
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/0283c9ac37032b5af262080f9c957e31.jpg"
+            },
+            {
+                "page": "drm/9/55049/OEBPS/Images/1/9fa197ef8079382963ec193566c551f8.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/55049/OEBPS/Images/1/9fa197ef8079382963ec193566c551f8.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "55049",
+        "id": "55049",
+        "title": "Somebunny Loves Me",
+        "author": "Parry Gripp",
+        "illustrator": " ",
+        "numPages": 30,
+        "bookDescription": "Find out how to be kind to animals of all shapes and sizes with singer-songwritter Parry Gripp.",
+        "coverColorR": 196,
+        "coverColorG": 189,
+        "coverColorB": 182,
+        "version": 2147483647,
+        "previewPercent": 10,
+        "publisher": "National Geographic",
+        "publisherId": "44",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "500L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 550,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pets",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "52aa7bf7f1ea9b65a034",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1549057389
+    },
+    "userBook": {
+        "modelId": "46250489-55049",
+        "userId": "46250489",
+        "bookId": "55049",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311513,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311513,
+        "book": {
+            "modelId": "55049",
+            "title": "Somebunny Loves Me",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "52aa7bf7f1ea9b65a034"
+        }
+    },
+    "quiz": null
+}

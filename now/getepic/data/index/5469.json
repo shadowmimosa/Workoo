@@ -1,0 +1,185 @@
+{
+    "publisherData": {
+        "modelId": "10",
+        "name": "Kids Can Press",
+        "url": "http://www.kidscanpress.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539816186
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/30864b5d8c8c237abe1f2f4507963028.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/d9fb219463f3213f316f7eeea5dd58dd.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/3e761b02fd92b57798d37c4cde54ef25.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/0c2e62b7d18a0b6871c86899c6e513ef.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/2e785ba1031d47fa2a03dbbedaa4f8a1.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/3052169cd1e4f5351a077c60f820ba51.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/def6b6696e5a5e5c9d3fa758dee65521.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/f570020a836dc7b172fc1aecc26d2746.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/2b6936496c7d138103074a9cbd77315d.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/e12726896c8e33c73a06820fd3f0769f.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/b8f5517266acb305566aca796f8e9788.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/2fe8570ec0dd67ac459962cbd98f1ed6.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/87b3e8a7503a7a62cca4ced05db86bd2.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/a25f3e98baf807acbfd4a77de9e37c8d.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/8039a47ecb0e98afdbe53ed17d7f0620.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/039d36b8a6e6bd2748b645d4f8f66fcb.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/1ce0e6d264f8e2ffcfc6da1c1eb08e73.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/25e82b181c6cbf1e25f93e5469a906cc.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/bdda56a66b3da22dea2d95c8a1e8d20a.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/02e9f7fbd069196cce593ff1b911fd82.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/4a4a033495462b1a2992edc64e8a8706.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/f85c3f534129c17515330825f558df82.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/de4ca6d4342afc87b5474c06ded5a9d7.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/14464b0bd30840de35152cdc36172de3.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/39348623320566a4f4f2b72540195adf.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/147213dfd324587d924e155b0fca7369.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/62e87de1a47f1eaf5e8313f6768f05c8.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/3b6810c907280f0313707a831c11f8ea.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/770e64bd512104e10f34d9e8ae967f9d.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/ce52d08d0b36e8b12e31415d72cf033f.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/6b9d9056d3f021ef0addaadd094a3c5f.jpg"
+            },
+            {
+                "page": "drm/9/5469/OEBPS/Images/1/03d1d7e1ba3945a23a8a47048b33e665.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/5469/OEBPS/Images/1/822e304fe8ce955c0cb316f8481fc769.jpg",
+            "color": "#33434f"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "5469",
+        "id": "5469",
+        "title": "Black and Bittern Was Night",
+        "author": "Robert Heidbreder",
+        "illustrator": "John Martz",
+        "numPages": 32,
+        "bookDescription": "Halloween has arrived, but so have spooky skul-a-mug-mugs who frighten the grown-ups into calling off trick-or-treating.",
+        "coverColorR": 63,
+        "coverColorG": 65,
+        "coverColorB": 68,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Kids Can Press",
+        "publisherId": "10",
+        "age": 6,
+        "pageNumOffset": 1,
+        "active": 1,
+        "audio": 0,
+        "lexile": "AD570L",
+        "avgTime": "15-30 mins",
+        "avgTimeInt": 1173,
+        "ar": "4.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Funny",
+        "subjectColor": "FFD673",
+        "copyright": "",
+        "aspectRatio": 0.7619,
+        "contentHash": "9a262c92ab6efe4cec6b",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "0",
+        "panelStatus": 0,
+        "date_modified": 1454188418
+    },
+    "userBook": {
+        "modelId": "46250489-5469",
+        "userId": "46250489",
+        "bookId": "5469",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311109,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311109,
+        "book": {
+            "modelId": "5469",
+            "title": "Black and Bittern Was Night",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "9a262c92ab6efe4cec6b"
+        }
+    },
+    "quiz": null
+}

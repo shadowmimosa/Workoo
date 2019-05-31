@@ -1,0 +1,153 @@
+{
+    "publisherData": {
+        "modelId": "109",
+        "name": "JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/52047/OEBPS/Images/1/910763e217f4ad34b7339ac72f55f5a4.jpg",
+                "audio": "drm/7/52047/OEBPS/Audio/1/x910763e217f4ad34b7339ac72f55f5a4.mp3"
+            },
+            {
+                "page": "drm/7/52047/OEBPS/Images/1/15c3b403f42bf4cfe0ab98b9aa5cf741.jpg",
+                "audio": "drm/7/52047/OEBPS/Audio/1/x15c3b403f42bf4cfe0ab98b9aa5cf741.mp3"
+            },
+            {
+                "page": "drm/7/52047/OEBPS/Images/1/1d13773841f9306ffc723b432ea78bd1.jpg",
+                "audio": "drm/7/52047/OEBPS/Audio/1/x1d13773841f9306ffc723b432ea78bd1.mp3"
+            },
+            {
+                "page": "drm/7/52047/OEBPS/Images/1/cea083ec6f6f279e1332fcdd5258f9dd.jpg",
+                "audio": "drm/7/52047/OEBPS/Audio/1/xcea083ec6f6f279e1332fcdd5258f9dd.mp3"
+            },
+            {
+                "page": "drm/7/52047/OEBPS/Images/1/2473f3335e510f323de5f1daa0c32dbc.jpg",
+                "audio": "drm/7/52047/OEBPS/Audio/1/x2473f3335e510f323de5f1daa0c32dbc.mp3"
+            },
+            {
+                "page": "drm/7/52047/OEBPS/Images/1/4b4cc0a7345af7355dcb9cd46dd6ff22.jpg",
+                "audio": "drm/7/52047/OEBPS/Audio/1/x4b4cc0a7345af7355dcb9cd46dd6ff22.mp3"
+            },
+            {
+                "page": "drm/7/52047/OEBPS/Images/1/bede73908d61025248d8ae9ab87f2b2d.jpg",
+                "audio": "drm/7/52047/OEBPS/Audio/1/xbede73908d61025248d8ae9ab87f2b2d.mp3"
+            },
+            {
+                "page": "drm/7/52047/OEBPS/Images/1/b1cd77a8b52e8db871d21fec4e2b4f29.jpg",
+                "audio": "drm/7/52047/OEBPS/Audio/1/xb1cd77a8b52e8db871d21fec4e2b4f29.mp3"
+            },
+            {
+                "page": "drm/7/52047/OEBPS/Images/1/c290e4f7423672d2d1413f1d3634d926.jpg",
+                "audio": "drm/7/52047/OEBPS/Audio/1/xc290e4f7423672d2d1413f1d3634d926.mp3"
+            },
+            {
+                "page": "drm/7/52047/OEBPS/Images/1/26cee8524a907dfd69d5a6ef42804190.jpg",
+                "audio": "drm/7/52047/OEBPS/Audio/1/x26cee8524a907dfd69d5a6ef42804190.mp3"
+            },
+            {
+                "page": "drm/7/52047/OEBPS/Images/1/0aba8e757e2cfbad8fc105679d89c275.jpg",
+                "audio": "drm/7/52047/OEBPS/Audio/1/x0aba8e757e2cfbad8fc105679d89c275.mp3"
+            },
+            {
+                "page": "drm/7/52047/OEBPS/Images/1/b5aff64f913613cf2ec36f84ae4e4c2c.jpg",
+                "audio": "drm/7/52047/OEBPS/Audio/1/xb5aff64f913613cf2ec36f84ae4e4c2c.mp3"
+            },
+            {
+                "page": "drm/7/52047/OEBPS/Images/1/256b2ba735bde3df1b58a81ff760fb44.jpg",
+                "audio": "drm/7/52047/OEBPS/Audio/1/x256b2ba735bde3df1b58a81ff760fb44.mp3"
+            },
+            {
+                "page": "drm/7/52047/OEBPS/Images/1/ef09d81032de63c7986bc064944d1e0a.jpg",
+                "audio": "drm/7/52047/OEBPS/Audio/1/xef09d81032de63c7986bc064944d1e0a.mp3"
+            },
+            {
+                "page": "drm/7/52047/OEBPS/Images/1/d9615e18f39c1ab6cc10d7728b5d49ec.jpg",
+                "audio": "drm/7/52047/OEBPS/Audio/1/xd9615e18f39c1ab6cc10d7728b5d49ec.mp3"
+            },
+            {
+                "page": "drm/7/52047/OEBPS/Images/1/998cb77a49f651e91231128190defbc2.jpg",
+                "audio": "drm/7/52047/OEBPS/Audio/1/x998cb77a49f651e91231128190defbc2.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/52047/OEBPS/Images/1/c1106600ef722083e33ea23cd934c9d1.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "52047",
+        "id": "52047",
+        "title": "Chicks",
+        "author": "Tim Mayerling",
+        "illustrator": " ",
+        "numPages": 16,
+        "bookDescription": "Chicks introduces emergent readers to the world of a newborn chick while providing them with a supportive nonfiction reading experience.",
+        "coverColorR": 196,
+        "coverColorG": 204,
+        "coverColorB": 161,
+        "version": 12309,
+        "previewPercent": 20,
+        "publisher": "JUMP",
+        "publisherId": "109",
+        "age": 3,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "200L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 400,
+        "ar": "0.8",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Farm Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.7222,
+        "contentHash": "344298f4f74be6bd7c7e",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374417
+    },
+    "userBook": {
+        "modelId": "46250489-52047",
+        "userId": "46250489",
+        "bookId": "52047",
+        "currentPageIndex": 16,
+        "farthestPageIndex": 16,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 100,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559112193,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 1797,
+        "dateModified": 1559265420,
+        "book": {
+            "modelId": "52047",
+            "title": "Chicks",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "344298f4f74be6bd7c7e"
+        }
+    },
+    "quiz": null
+}

@@ -1,0 +1,470 @@
+{
+    "publisherData": {
+        "modelId": "44",
+        "name": "National Geographic",
+        "url": "http://kids.nationalgeographic.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491261258
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/de814c29fde73ee28a66a794867c4183.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/9fbb5eccadd5f98991ddb6a6c5f9f2f7.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/232e62684aa9b9b34dd8fea97df9cdbe.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/fb09fb45f8bb292e99b39146f9df8946.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/72d0d6c10a60464c92256292b4627015.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/718f38f70c24eb48bdd946ef143e4bc4.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/aa87e47e9d37c90e72b0550c1503155c.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/2b8e6bce12d0de603b885c67881f2561.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/777d581c9064a6ab16ef31c0ce38bd82.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/4aabd229798e8979309e85aef6aa779d.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/e6540fbf98753f27c8409756df0e55ce.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/cca358eef4111116180ed61e013d5158.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/bd40f748645ab860116f9eb50f8fca84.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/3d2cf1e5844e4593829f62dc12697984.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/33895313554842084afdeaf72b1058b9.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/4abf648f00001c334f37917910437610.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/91aad17f0f3bd25492624b5ebb391aa8.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/747a1bf7234830bc7c5e1675ff415e0d.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/a5c6625fe80b1938618fe97b7bd63758.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/39d79dfdd1d9618f9e4e26339961aee4.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/190693ae7c1aee8d908528d8e6f5e06c.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/9ef3f2a92c000c0cdb8ec7174a9a8d15.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/c396d36dfcd3e11d3b22f4feaddd6cd9.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/adc22c73a4bbbaa0f20cccf028de5c93.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/6dfeafdb5fd1187d734bc82d15e5415c.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/dfdcc1190a32ac607d5c0a0659bbaa5a.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/0e62941d0b783118cff58d6b7c1be7eb.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/b6a90152f80b9672c2f06c17a1fa4769.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/40a3a779243214a8f785f2196dd11c64.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/01e83783a8249b14c3bfb8cefaea683c.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/805ee84ab0ecd8c464cc46f5a301b770.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/3aeebef147849f528874063d8a82d41a.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/0e8427df6e27ad3c20b3c7158ff54302.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/3bb5b39e3649dafc8eb0656cf5e8bdb3.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/37f3069b7d6ad0a919ccc78c708018b8.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/1f432bf8b6ce30e70274881cdab99a24.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/04f67ba3d9ed6de3a71930053b81100c.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/7dff06b85c9a6543053ab092e019caa4.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/b0739a720d764b1a4565120a767b2374.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/8f50c84aa91d30ad0aef0ba46ce89e3b.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/5ac023db6e3ffd827de227ec3abea900.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/9c1f80aabf7fde19fdd32a32b9183323.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/9ec9046a279efad61bb0b852ed5140af.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/d801f96354c7482f5d3d0815a892b6b1.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/383b75893bbf7365f1c449a013f25e9b.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/36afdb59014ff4f877c7df1084e7627b.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/4bfb2d68d075d78c2664a6f86c5d610a.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/151279b659f7aebdd91c8ac6d12ee13e.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/de6a8e63a76808f71a4c3610b41c6115.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/715fb45b28966914e84c30405e432e75.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/ec8d1a056e923a37283bda6394020792.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/3ab207f203e5ee18020f703823e1c703.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/bb11ff87b97c66d218c4c6c51ce0603f.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/8d5d7915b9092c125b629bb1cb0ed5c6.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/a43d8ac5802a7f0288a82408a9378e54.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/edcd31247f94b23e873b6bb94ddff9b0.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/f5bcd44712b5473ce0cd86491cd12d67.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/74e741faa3e72b0b411d4b76a2277d01.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/cf3612c915503012d6d511c123734cb1.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/2ba629708401b554bf56e546955fa2e4.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/90c0bfe7acd09c41893de185e9f76de0.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/f84f07189be79165b8a1a9042a2ae0a4.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/0500fd5e2b61dcf778488e64cd38f50a.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/e67c8c234796817032075f185f9d1b89.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/adbe80e260ecd197198baad01cff5540.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/e39424d7fec3c87f0e7196469d8c9998.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/9e0e87d138861b62f4a164ccc0e5b24e.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/40cbbc6840386958a814612986c89815.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/143725dda31919d97c433e546de07401.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/cee6ffb59ef37286b8131aea316a1940.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/73d3e97cdce4bf91602511142499dbd2.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/977edaa7a0ca7b993c050fde05ee7fd0.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/9f12d9b2e78e6a62a848c6a6c84408b8.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/029dccb30a44e955ee96299960366810.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/2c6a6ba3a426b1ed7b11dca98e2a0b05.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/dbfa48cdb470639d8143c99d950f8a91.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/ed82133018d684cede4b7115e797384a.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/5f80d70437c174d60e3222571c249c89.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/429d8d7dc332370270a95dfdf2c800ce.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/c72d00191e04fa21b264920077a81f23.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/d70ee497306856b3d4a00ba3b21b08f0.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/fd6557af3e670b22f93317a42385aef5.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/8915d3cc742070cabef4169da3ebbce3.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/d851001a9ecc933e916b7e73987e5551.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/53226131f8efa80c135d1100db63dd6f.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/131eac84a1e90826a7389129214bda8f.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/276ed70c48cfa80b8338c79196e9b9c6.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/9320374143e15de1d1296ac24e20b8ef.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/4e6efd750cbe59d2017404c45dcade62.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/59f5aee87e08f79d571d040dab9045e2.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/f524e1a269dbe32783e47febd87e7628.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/43775d36e9b0f22bfc542e2ec9f373a2.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/b03087aeb6c0c52f4f4a073bf1031d65.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/7a1f9c2e3c18abaae17451eb2e0ee875.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/4980ccb640b7eab82fc1966d08a01180.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/034b2451fb3da4180794d6254c21f242.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/5de6695efc1b52391c460a204133da03.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/5c872f2de2e04027d3ce95fe1d8a9f50.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/abff9858ae95a2ea7755a253c650026d.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/f57ca0db4e4c8fd99ee48c5d65f6d74d.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/892f97f8be9da42f8e10e1b5cd5d927f.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/b5b62c7e2ffb68cf2014145486b23365.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/84dfa3883efbda00fc1dfb8a00a90211.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/dc6ef0d9bde48a2382302ff6dff5e3ae.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/fe4e3080933753f68fa733c22c4da6db.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/b39703560acac216217d30601925c3d4.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/b96042470018ea1849ed400152e61e36.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/eb4d394bb51127348edcbf6e6e446870.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/2d501aa8d691e68e2da6cbad6157a1df.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/43f66786ed1a5894396768d58131679a.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/6c734d076b93d46f0207599752040748.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/d76724dc091bc06503cda81777aa9cac.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/3a4cfb49bebafbe8cde9a7833fedfba3.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/da81ded68546fc4d1b64926018df98a5.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/03df758ce22a55b6911ac46f6a291fba.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/29dfa852f617900104634c11ccaf1bb4.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/3e6b1e8c2abf1d188f68fd84edd896a2.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/574ae0365587bbd3837e3843a4c521e6.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/24f0a3f8bdaaf976cb13d1085520433e.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/e59c5b858cac0404e0e2170ae1d983d7.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/34e794146608271752a97f5ac65f542e.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/bc167aa6757bbac49e005db9ed2a66a7.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/8420b4d9aa36f77bdfe3cb92d15efd70.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/a0f870c1e37c189ce8d25c21a787b2d6.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/56dde3e8d830913b230ba0badd4e3b14.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/f1b398b969277b8df7e72c5705b337e1.jpg"
+            },
+            {
+                "page": "drm/6/55206/OEBPS/Images/1/d320934a2f01801a0ae76904c7f2c1c7.jpg"
+            }
+        ],
+        "extra": {
+            "color": "#fffefe",
+            "copyright": ""
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "55206",
+        "id": "55206",
+        "title": "National Geographic Little Kids First Big Book of Things That Go",
+        "author": "Karen de Seve",
+        "illustrator": " ",
+        "numPages": 127,
+        "bookDescription": "Take a closer look at the different ways people move from place to place, whether it is in a car, subway, hang glider, or submarine.",
+        "coverColorR": 193,
+        "coverColorG": 181,
+        "coverColorB": 127,
+        "version": 2147483647,
+        "previewPercent": 10,
+        "publisher": "National Geographic",
+        "publisherId": "44",
+        "age": 6,
+        "pageNumOffset": 1,
+        "active": 1,
+        "audio": 0,
+        "lexile": "AD860L",
+        "avgTime": "1-2 hours",
+        "avgTimeInt": 4656,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Things That GO",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "cbd51ee6d38e31c52ea0",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374615
+    },
+    "userBook": {
+        "modelId": "46250489-55206",
+        "userId": "46250489",
+        "bookId": "55206",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311839,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311839,
+        "book": {
+            "modelId": "55206",
+            "title": "National Geographic Little Kids First Big Book of Things That Go",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "cbd51ee6d38e31c52ea0"
+        }
+    },
+    "quiz": null
+}

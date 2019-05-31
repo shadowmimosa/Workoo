@@ -1,0 +1,502 @@
+{
+    "publisherData": {
+        "modelId": "165",
+        "name": "Akashic Books",
+        "url": "http://www.akashicbooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491010386
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/8e710e2f7fb4c7cbf47f331ef736654b.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/7df886d16e2654fee5e9bae3d6a0551a.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/2a25f158331abafe4235818365d0165d.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/67677308359cb40f6eeaef0cd37ed3bb.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/6360085ee6403b4578dd88ece28a89e4.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/fee68000b260a7eedc15f605e4763f1c.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/55eeb8e593cfb703c7d5d0925b79f974.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/b323bfdfd812595b54f699b0ed1008d3.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/39494e05da65358962a26ea07f2468c9.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/c026568277d5cb41e118eaa7d3691f6b.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/14d0051e43b98129f3fecbc95c2ecf97.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/5d59ea7a1749379b68a531b3ca87ddac.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/e6ac3dc93906f728b8faa7403287f17d.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/02ef95b013d0e62d9a3264f97dd7e798.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/2284f4d967e1ea1d496ac9887dd20aec.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/251205c35ff28633b7a3d67eda38c14f.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/266ec087cdcfbe9701ec9ce6ea898bde.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/f928b48c99090f3a22e90fcfb718387e.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/9809814675f3ad5bdc0e1aef5c8312e1.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/d111df13a44a46454f831b1325a954ae.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/18b023ce5e2f47bb92a7a70e6af1a7ab.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/287c50022b689c69be09351d8af3741b.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/6615a8399a4558d731c76deef86f82f7.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/fc2ea09a75a1b160919a8b19e5189f59.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/1927e74d0375671aee4e109290a47b1e.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/2a0bd1d958b65cd24274d65004114366.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/ce539d1e3f23a2717b3aafe8e8fe7bf7.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/a645a0384d252efe0a1be5123142f4d7.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/c221cd83ab8124735b8e032750dcb8d4.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/dcaf717153499242f41a7bc04fa0a868.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/c05f5d5b47f42bb3cd111f82cc8775e4.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/38873143fd192a8bd711258e4e37ca23.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/dc15454b8b8573671e55eb44712b61b6.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/646471e382f1bacb691f4c220bd59fe1.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/575549e4089686da0caacb1abdcfb350.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/577e7c041f8d666734e9f714002eb2e2.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/161201fce7597d6d1204ad25af96df89.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/3f20c511d159f6bdf128aba75af902c1.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/b7d594dee6c466ef2ce5ccc392929cdf.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/349853fb1696f367bb460009757e010c.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/0c8edfd4255a0da85cd0ca7bbf2ebb91.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/639d128425ec0ec4306fe644168869f6.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/fbac90e913d2be28510adbadfbe66708.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/98073af0ff1895435185ef9a850c93a0.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/c67043f710fd13919883aa712be07ff2.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/7c8aea9b5408d11c4b8cd5c87a52e0f9.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/d1b5a402b2b77ff6cafcf4eeccaf562e.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/09d26fc2651243499cc5b03753e4f55e.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/8e9ac2ae0f6dfadad8d43953559998c2.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/34b2d790c89881da00919721b3bc761f.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/c2982b4d21d31a50f0062d6f43735d0c.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/a2566fbefe2c3be1dafb0dd646fb35da.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/a96f5742c97d54b94394ed03be3d8ec7.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/3ba951416a6abbd57e5a192ed9a982a9.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/a86377e9e90d46a3b6124717e3ce0991.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/b4ec94923f80d24dd05159b0722540c3.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/bfad14ff36a4ab19f75a469e158671ac.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/86230e5ac69a2a30a3e8f3079b1f71dd.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/c8ae16203c773662cefaadd319ac557a.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/6e70993468aca12776252ff25c4eff52.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/71f6eafac413cb8a86896deaa73b897c.jpg"
+            },
+            {
+                "page": "drm/5/15185/OEBPS/Images/1/64a80a7e6bcba8da87106665b0d917ee.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/15185/OEBPS/Images/1/0c5689da77df365e5cb85dd3d3294100.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "15185",
+        "id": "15185",
+        "title": "Seriously, You Have to Eat",
+        "author": "Adam Mansbach",
+        "illustrator": "Owen Brozman",
+        "numPages": 62,
+        "bookDescription": "Step aside Green Eggs and Ham, there\u2019s a new, 21st-century book in town that will compel all finicky children to eat!",
+        "coverColorR": 81,
+        "coverColorG": 106,
+        "coverColorB": 95,
+        "version": 13333,
+        "previewPercent": 20,
+        "publisher": "Akashic Books",
+        "publisherId": "165",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "AD660L",
+        "avgTime": "15-30 mins",
+        "avgTimeInt": 1033,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 81,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Funny",
+        "subjectColor": "FFD673",
+        "copyright": "",
+        "aspectRatio": 0.6668,
+        "contentHash": "0bb3b57d2e43f31a102c",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "2",
+        "panelStatus": 0,
+        "date_modified": 1540596680
+    },
+    "userBook": {
+        "modelId": "46250489-15185",
+        "userId": "46250489",
+        "bookId": "15185",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311115,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311115,
+        "book": {
+            "modelId": "15185",
+            "title": "Seriously, You Have to Eat",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "0bb3b57d2e43f31a102c"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "138274",
+            "user_id": "18333659",
+            "book_id": "15185",
+            "title": "Pink Group; Seriously, You Have to Eat",
+            "description": "",
+            "date_created": 1509570916,
+            "date_modified": 1513282755,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Which animal was NOT mentioned in this book?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "whale",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "sloth",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "panda",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "Who was the narrator talking to?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "their child",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "their pet",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "their parent",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What animals are the rabbits near in the picture?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "lamb",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "llama",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "lizard",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "On the page with giraffes, what has the child asked for?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "spaghetti",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "steak",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "burgers",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 3
+                }
+            ],
+            "modelId": "138274",
+            "creatorName": "Mrs. Stanford",
+            "avatarId": "79",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "18333659",
+                "udid": "59c204df555654.76268034",
+                "journalName": "Mrs. Stanford",
+                "journalCoverAvatar": "79",
+                "journalCoverColor": "0.94509803921569 0.66274509803922 0.92941176470588 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "498479636",
+                "fid": "",
+                "accountID": "E7D3A7CE-7913-74EB-13EC-F7F156E22F2F",
+                "simpleAccountId": "5641780",
+                "pagesFlipped": 1180,
+                "nufComplete": 1,
+                "readingAge": 7.56667,
+                "startingAge": 8,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 188,
+                "xpLevel": 5,
+                "dateLastLogin": 1552519771,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Tara",
+                "lastName": "Stanford",
+                "accountType": 1,
+                "dateModified": 1552519771,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Stanford"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Which animal was NOT mentioned in this book?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "whale",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "sloth",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "panda",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "Who was the narrator talking to?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "their child",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "their pet",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "their parent",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What animals are the rabbits near in the picture?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "lamb",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "llama",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "lizard",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "On the page with giraffes, what has the child asked for?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "spaghetti",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "steak",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "burgers",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 3
+            }
+        ]
+    }
+}

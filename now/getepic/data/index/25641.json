@@ -1,0 +1,391 @@
+{
+    "publisherData": {
+        "modelId": "91",
+        "name": "ABDO Publishing",
+        "url": "http://abdopublishing.com//",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570820
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/25641/OEBPS/Images/1/e90737236e9a4aa82b5f46dc485d274c.jpg",
+                "audio": "drm/1/25641/OEBPS/Audio/1/silence.mp3"
+            },
+            {
+                "page": "drm/1/25641/OEBPS/Images/1/33b79c8d145647cb68af2a17be18f4b9.jpg",
+                "audio": "drm/1/25641/OEBPS/Audio/1/page6.mp3"
+            },
+            {
+                "page": "drm/1/25641/OEBPS/Images/1/83ba02b583009c7cd70a93ef42345aa0.jpg"
+            },
+            {
+                "page": "drm/1/25641/OEBPS/Images/1/0c808e09371ef6cf6aca49861307d6c6.jpg",
+                "audio": "drm/1/25641/OEBPS/Audio/1/page8.mp3"
+            },
+            {
+                "page": "drm/1/25641/OEBPS/Images/1/b2622bb74666e7b66c984e3a53d91136.jpg"
+            },
+            {
+                "page": "drm/1/25641/OEBPS/Images/1/3a398cf2ee040e6c2e7cd74ad7de975a.jpg",
+                "audio": "drm/1/25641/OEBPS/Audio/1/page10.mp3"
+            },
+            {
+                "page": "drm/1/25641/OEBPS/Images/1/3d4660261eb97cf4ec274a66abb78d6b.jpg"
+            },
+            {
+                "page": "drm/1/25641/OEBPS/Images/1/e1be4c98f3daa021cb3565a8ff80f96d.jpg",
+                "audio": "drm/1/25641/OEBPS/Audio/1/page12.mp3"
+            },
+            {
+                "page": "drm/1/25641/OEBPS/Images/1/a0ec2cfe37dda702f4d0cec746a3277f.jpg"
+            },
+            {
+                "page": "drm/1/25641/OEBPS/Images/1/f0a4180d062768f8861a91f32bf96726.jpg",
+                "audio": "drm/1/25641/OEBPS/Audio/1/page14.mp3"
+            },
+            {
+                "page": "drm/1/25641/OEBPS/Images/1/ee3d20dc7f4903afa3a956ac616f2309.jpg"
+            },
+            {
+                "page": "drm/1/25641/OEBPS/Images/1/0f8621135028633c84cdc6cdc75fa8a3.jpg",
+                "audio": "drm/1/25641/OEBPS/Audio/1/page16.mp3"
+            },
+            {
+                "page": "drm/1/25641/OEBPS/Images/1/c2574abc3f1f0f8e153f0f8253bb96e0.jpg"
+            },
+            {
+                "page": "drm/1/25641/OEBPS/Images/1/94219b57a3c6014d633a937d09df0961.jpg",
+                "audio": "drm/1/25641/OEBPS/Audio/1/page18.mp3"
+            },
+            {
+                "page": "drm/1/25641/OEBPS/Images/1/1819f8e68adfc498c5807af53bd15e8c.jpg"
+            },
+            {
+                "page": "drm/1/25641/OEBPS/Images/1/832fae5a184c9f1e67eb22459c467cf7.jpg",
+                "audio": "drm/1/25641/OEBPS/Audio/1/page20.mp3"
+            },
+            {
+                "page": "drm/1/25641/OEBPS/Images/1/ae3a0ae7ff340fbdfbf40de32acd9ca6.jpg"
+            },
+            {
+                "page": "drm/1/25641/OEBPS/Images/1/bc21e3b20dbd56404f42027330998a94.jpg",
+                "audio": "drm/1/25641/OEBPS/Audio/1/page22.mp3"
+            },
+            {
+                "page": "drm/1/25641/OEBPS/Images/1/dc4507eb7c25f3c36815994f59d94680.jpg"
+            },
+            {
+                "page": "drm/1/25641/OEBPS/Images/1/b0ee883d0b688e1a9307bb83de4583df.jpg",
+                "audio": "drm/1/25641/OEBPS/Audio/1/page24.mp3"
+            },
+            {
+                "page": "drm/1/25641/OEBPS/Images/1/80233f29a348a0b53a83fbcbccf8ffe4.jpg"
+            },
+            {
+                "page": "drm/1/25641/OEBPS/Images/1/afc4f364bb678d805f1389fa34283abb.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/25641/OEBPS/Images/1/b8541df76121e65e0a05d4884122120b.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "25641",
+        "id": "25641",
+        "title": "Dogs",
+        "author": "Julie Murray",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "This title introduces readers to dogs, which are popular family pets.",
+        "coverColorR": 225,
+        "coverColorG": 222,
+        "coverColorB": 202,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "ABDO Publishing",
+        "publisherId": "91",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "220L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 366,
+        "ar": "0.8",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Dogs",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.0635,
+        "contentHash": "ff2651085f6faecbeb01",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373038
+    },
+    "userBook": {
+        "modelId": "46250489-25641",
+        "userId": "46250489",
+        "bookId": "25641",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559309941,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559309941,
+        "book": {
+            "modelId": "25641",
+            "title": "Dogs",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "ff2651085f6faecbeb01"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "140627",
+            "user_id": "16604121",
+            "book_id": "25641",
+            "title": "Dogs",
+            "description": "",
+            "date_created": 1510075817,
+            "date_modified": 1517430731,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What do dogs need to do to stay healthy?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "exercise",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "barking",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "cats",
+                            "id": 2,
+                            "correct": 0
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What does groom mean?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "brushing or cleaning an animals hair",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "to grow",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "to eat",
+                            "id": 2,
+                            "correct": 0
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Who takes care of hurt animals?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "veterinarian",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "dentist",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "teacher",
+                            "id": 2,
+                            "correct": 0
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Name a supply that you need for a dog",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "leash",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "cat",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "veterinarian",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 3
+                }
+            ],
+            "modelId": "140627",
+            "creatorName": "Gavin S.",
+            "avatarId": "2",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "16604121",
+                "udid": "59959cc9824ac3.97174271",
+                "journalName": "Gavin S.",
+                "journalCoverAvatar": "2",
+                "journalCoverColor": "0.15686274509804 0.47058823529412 0.60392156862745 1",
+                "journalFrameImage": "6",
+                "journalCoverImage": "15",
+                "themeId": "10",
+                "code": "132325686",
+                "fid": "",
+                "accountID": "B1935B49-3D2E-2AEF-FDC1-F208C347E38C",
+                "simpleAccountId": "3898196",
+                "pagesFlipped": 2742,
+                "nufComplete": 1,
+                "readingAge": 8.33333,
+                "startingAge": 8,
+                "status": 2,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 2356,
+                "xpLevel": 18,
+                "dateLastLogin": 0,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "Gavin",
+                "lastName": "Slover",
+                "accountType": 1,
+                "dateModified": 1559070762
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What do dogs need to do to stay healthy?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "exercise",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "barking",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "cats",
+                        "id": 2,
+                        "correct": 0
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What does groom mean?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "brushing or cleaning an animals hair",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "to grow",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "to eat",
+                        "id": 2,
+                        "correct": 0
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Who takes care of hurt animals?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "veterinarian",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "dentist",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "teacher",
+                        "id": 2,
+                        "correct": 0
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Name a supply that you need for a dog",
+                "quizQuestionChoices": [
+                    {
+                        "title": "leash",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "cat",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "veterinarian",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 3
+            }
+        ]
+    }
+}

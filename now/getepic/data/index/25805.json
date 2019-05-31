@@ -1,0 +1,443 @@
+{
+    "publisherData": {
+        "modelId": "91",
+        "name": "ABDO Publishing",
+        "url": "http://abdopublishing.com//",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570820
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/25805/OEBPS/Images/1/C725BA5D-C881-4F39-B07C-01CEDB78D0E2.jpg"
+            },
+            {
+                "page": "drm/5/25805/OEBPS/Images/1/C87DDBA7-FAAF-44D9-B5FD-E1A60F31CCD0.jpg",
+                "audio": "drm/5/25805/OEBPS/Audio/1/page6.mp3"
+            },
+            {
+                "page": "drm/5/25805/OEBPS/Images/1/25720810-EBC8-416D-92A6-850A6EF489C8.jpg"
+            },
+            {
+                "page": "drm/5/25805/OEBPS/Images/1/84DA6543-76C1-457A-81F0-EC5AFF1C77B0.jpg",
+                "audio": "drm/5/25805/OEBPS/Audio/1/page8.mp3"
+            },
+            {
+                "page": "drm/5/25805/OEBPS/Images/1/287E7DCC-79E8-4017-8FAA-69E1D1629D9E.jpg"
+            },
+            {
+                "page": "drm/5/25805/OEBPS/Images/1/C79F2538-ABC0-4C05-B547-46599369BBA5.jpg",
+                "audio": "drm/5/25805/OEBPS/Audio/1/page10.mp3"
+            },
+            {
+                "page": "drm/5/25805/OEBPS/Images/1/B2AFFCC7-5753-404F-8CA4-5F8EC1B8BA71.jpg"
+            },
+            {
+                "page": "drm/5/25805/OEBPS/Images/1/C67251F4-73A5-424D-A587-0C0547606626.jpg",
+                "audio": "drm/5/25805/OEBPS/Audio/1/page12.mp3"
+            },
+            {
+                "page": "drm/5/25805/OEBPS/Images/1/16059BC0-4C0C-4E20-9D7B-1F0953CE6A32.jpg"
+            },
+            {
+                "page": "drm/5/25805/OEBPS/Images/1/D7AD0541-8FFD-43A7-B973-180E57BFAEAA.jpg",
+                "audio": "drm/5/25805/OEBPS/Audio/1/page14.mp3"
+            },
+            {
+                "page": "drm/5/25805/OEBPS/Images/1/1CCC70CE-34B4-464C-878A-C8EBF9DF9F3C.jpg"
+            },
+            {
+                "page": "drm/5/25805/OEBPS/Images/1/36A0DCDA-BCA1-400B-B823-5869F3E0339E.jpg",
+                "audio": "drm/5/25805/OEBPS/Audio/1/page16.mp3"
+            },
+            {
+                "page": "drm/5/25805/OEBPS/Images/1/D701BBA5-A547-4BF7-8C64-82307071BDC1.jpg"
+            },
+            {
+                "page": "drm/5/25805/OEBPS/Images/1/5D7F1C34-8A1C-4143-90B7-991EE150A04F.jpg",
+                "audio": "drm/5/25805/OEBPS/Audio/1/page18.mp3"
+            },
+            {
+                "page": "drm/5/25805/OEBPS/Images/1/BBCC6A1A-1B83-4A01-B368-38F0C3BEDCD1.jpg"
+            },
+            {
+                "page": "drm/5/25805/OEBPS/Images/1/647516ED-89CB-4493-B8AD-E99A94E05440.jpg",
+                "audio": "drm/5/25805/OEBPS/Audio/1/page20.mp3"
+            },
+            {
+                "page": "drm/5/25805/OEBPS/Images/1/C4726156-7C3C-401C-8902-51C213F55037.jpg"
+            },
+            {
+                "page": "drm/5/25805/OEBPS/Images/1/F2F3099D-43B3-4BB3-A94E-A61CA4F95F14.jpg",
+                "audio": "drm/5/25805/OEBPS/Audio/1/page22.mp3"
+            },
+            {
+                "page": "drm/5/25805/OEBPS/Images/1/41C60F2B-E50A-461D-B01A-32D9A55E38E9.jpg"
+            },
+            {
+                "page": "drm/5/25805/OEBPS/Images/1/47FC8AD4-E62B-4B71-B140-8C8BF45DF99E.jpg",
+                "audio": "drm/5/25805/OEBPS/Audio/1/page24.mp3"
+            },
+            {
+                "page": "drm/5/25805/OEBPS/Images/1/F998C641-90FE-421B-A1B4-6F140C0FC475.jpg"
+            },
+            {
+                "page": "drm/5/25805/OEBPS/Images/1/4AC720C6-7521-471B-BA02-B8164FF8B30A.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/25805/OEBPS/Images/1/3C9B9DA9-E3AE-4A25-87E6-66278DD3C02A.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "25805",
+        "id": "25805",
+        "title": "Bald Eagles",
+        "author": "Grace Hansen",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Early readers can delve into the wild world of bald eagles with this title.",
+        "coverColorR": 157,
+        "coverColorG": 163,
+        "coverColorB": 122,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "ABDO Publishing",
+        "publisherId": "91",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "530L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 403,
+        "ar": "2.1",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Wild Things",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.2158,
+        "contentHash": "295fd754fd2f589e818a",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373044
+    },
+    "userBook": {
+        "modelId": "46250489-25805",
+        "userId": "46250489",
+        "bookId": "25805",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559307274,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559307274,
+        "book": {
+            "modelId": "25805",
+            "title": "Bald Eagles",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "295fd754fd2f589e818a"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "398813",
+            "user_id": "41497457",
+            "book_id": "25805",
+            "title": "Bald Eagles",
+            "description": "",
+            "date_created": 1556727204,
+            "date_modified": 1556727204,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Where do bald eagles live?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "The United States, Canada, and Mexico",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "South America",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Asia",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "King City",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What color is a bald eagle's feathers?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Brown",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "White",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Yellow",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What do bald eagles use their talons for?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "to catch prey",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "to tear apart their food",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "to fly",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What is a bald eagle's favorite meal?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "fish",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "small birds",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "rodents",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "How many eggs does a female bald eagle lay?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "1-3",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "4-5",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "6-7",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "398813",
+            "creatorName": "Evan  G.",
+            "avatarId": "39",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "41497457",
+                "udid": "5c854bf58f0bc5.26250802",
+                "journalName": "Evan  G.",
+                "journalCoverAvatar": "39",
+                "journalCoverColor": "0.12549019607843 0.92941176470588 0.96078431372549 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "163396148",
+                "fid": "",
+                "accountID": "fa5098ca-3978-410f-a33c-4b915cc7d659",
+                "simpleAccountId": "10892329",
+                "pagesFlipped": 2491,
+                "nufComplete": 1,
+                "readingAge": 6.86667,
+                "startingAge": 6,
+                "status": 0,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 527,
+                "xpLevel": 17,
+                "dateLastLogin": 1557936203,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "Evan ",
+                "lastName": "G ",
+                "accountType": 1,
+                "dateModified": 1557937594,
+                "grade": 1
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Where do bald eagles live?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "The United States, Canada, and Mexico",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "South America",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Asia",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "King City",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What color is a bald eagle's feathers?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Brown",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "White",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Yellow",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What do bald eagles use their talons for?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "to catch prey",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "to tear apart their food",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "to fly",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What is a bald eagle's favorite meal?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "fish",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "small birds",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "rodents",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "How many eggs does a female bald eagle lay?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "1-3",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "4-5",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "6-7",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

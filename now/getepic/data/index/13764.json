@@ -1,0 +1,348 @@
+{
+    "publisherData": {
+        "modelId": "107",
+        "name": "Rourke Educational Media",
+        "url": "http://rourkeeducationalmedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570193
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/13764/OEBPS/Images/1/aa8dfc899591a9cbe8fc76ced3ca1788.jpg",
+                "audio": "drm/4/13764/OEBPS/Audio/1/84d30b20edc241db1f6dbed205ace6bb.mp3"
+            },
+            {
+                "page": "drm/4/13764/OEBPS/Images/1/f044a7adfa474bd89a518f9a3adf7b9e.jpg"
+            },
+            {
+                "page": "drm/4/13764/OEBPS/Images/1/8f77edc5f982c0839653b62269887f8e.jpg",
+                "audio": "drm/4/13764/OEBPS/Audio/1/9dc3f07d72888dbe14aa631ad244ccc6.mp3"
+            },
+            {
+                "page": "drm/4/13764/OEBPS/Images/1/04a05df790466fa7ebe4bf0b98c37f51.jpg",
+                "audio": "drm/4/13764/OEBPS/Audio/1/49d4c49e43afb0bed9d7a04e6a4881a7.mp3"
+            },
+            {
+                "page": "drm/4/13764/OEBPS/Images/1/da59de853c109bed2f3ad81110e9ac0b.jpg"
+            },
+            {
+                "page": "drm/4/13764/OEBPS/Images/1/94a0ca303b3a079ba4eefea0d9608e23.jpg",
+                "audio": "drm/4/13764/OEBPS/Audio/1/854b7a55e11c1989d071fa671dac8110.mp3"
+            },
+            {
+                "page": "drm/4/13764/OEBPS/Images/1/4a121b87f2f4cde8414ddffaf1dac7c6.jpg"
+            },
+            {
+                "page": "drm/4/13764/OEBPS/Images/1/55941aac2ff5e05a21d3ff490ac7d4f1.jpg",
+                "audio": "drm/4/13764/OEBPS/Audio/1/38162d587f914a625ca780431f519506.mp3"
+            },
+            {
+                "page": "drm/4/13764/OEBPS/Images/1/23ef2dd9f2ead0d666dbc229360b3ea3.jpg"
+            },
+            {
+                "page": "drm/4/13764/OEBPS/Images/1/4ef6efab290dd5ad20221747e6e797a4.jpg",
+                "audio": "drm/4/13764/OEBPS/Audio/1/b863cb96dbdf954d241a3010cfdcc796.mp3"
+            },
+            {
+                "page": "drm/4/13764/OEBPS/Images/1/dbc04ca7ec34b4cc119c76256d16121e.jpg"
+            },
+            {
+                "page": "drm/4/13764/OEBPS/Images/1/f32a34ebf61e66b3f004caa4cea0d50f.jpg",
+                "audio": "drm/4/13764/OEBPS/Audio/1/37e799d2bbc62238fd50b708e6f5fec9.mp3"
+            },
+            {
+                "page": "drm/4/13764/OEBPS/Images/1/9214aefbe1f05114fbde07f171a12379.jpg"
+            },
+            {
+                "page": "drm/4/13764/OEBPS/Images/1/673d04176797617bca8e974f8f55b131.jpg",
+                "audio": "drm/4/13764/OEBPS/Audio/1/43b5077bd080e8b308ce6ce03860f6f9.mp3"
+            },
+            {
+                "page": "drm/4/13764/OEBPS/Images/1/2234f2d472157d1b695a95a72abb7229.jpg"
+            },
+            {
+                "page": "drm/4/13764/OEBPS/Images/1/ea5468ffdbe2b7b38f17105d3dad3dff.jpg",
+                "audio": "drm/4/13764/OEBPS/Audio/1/a31aadb80978f09508abdef6dbabaa84.mp3"
+            },
+            {
+                "page": "drm/4/13764/OEBPS/Images/1/095dfa920e20f19765be49e9225e2953.jpg"
+            },
+            {
+                "page": "drm/4/13764/OEBPS/Images/1/2546b8ab375f644c81c95375a422649e.jpg",
+                "audio": "drm/4/13764/OEBPS/Audio/1/0393d4468e13dda12288cce740ad8f65.mp3"
+            },
+            {
+                "page": "drm/4/13764/OEBPS/Images/1/71ba7f802138cc0b15017a977f5e2cff.jpg"
+            },
+            {
+                "page": "drm/4/13764/OEBPS/Images/1/ee7593778bd1501613a5685455f73257.jpg",
+                "audio": "drm/4/13764/OEBPS/Audio/1/4d0f2138720d9546117a0e2c629401d5.mp3"
+            },
+            {
+                "page": "drm/4/13764/OEBPS/Images/1/ecb5062abab68a0532924240439cde6f.jpg"
+            },
+            {
+                "page": "drm/4/13764/OEBPS/Images/1/d5b929fb276815552f75576fd776ddef.jpg",
+                "audio": "drm/4/13764/OEBPS/Audio/1/66b22d6f1f846f48282dd221eaa32f0e.mp3"
+            },
+            {
+                "page": "drm/4/13764/OEBPS/Images/1/463b5aad34a81c00b855dda99a5f93ef.jpg"
+            },
+            {
+                "page": "drm/4/13764/OEBPS/Images/1/47bfe3ccf1fb2a8f509ec136a585120d.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/13764/OEBPS/Images/1/01fb0932b50f2582aeb2b28208d7ddba.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "13764",
+        "id": "13764",
+        "title": "More Than, Less Than",
+        "author": "Joanne Mattern",
+        "illustrator": " ",
+        "numPages": 24,
+        "bookDescription": "Learn about comparing things in a group by more than and less than.",
+        "coverColorR": 139,
+        "coverColorG": 130,
+        "coverColorB": 127,
+        "version": 1,
+        "previewPercent": 20,
+        "publisher": "Rourke Educational Media",
+        "publisherId": "107",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 880,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "3c4094338b63f20b518b",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372690
+    },
+    "userBook": {
+        "modelId": "46250489-13764",
+        "userId": "46250489",
+        "bookId": "13764",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310885,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310885,
+        "book": {
+            "modelId": "13764",
+            "title": "More Than, Less Than",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "3c4094338b63f20b518b"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "177250",
+            "user_id": "23405209",
+            "book_id": "13764",
+            "title": "More or less",
+            "description": "",
+            "date_created": 1519056892,
+            "date_modified": 1523407529,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Janice has 8 pencils.  Parker has 3 pencils.  Which student has the greater number of pencils?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Janice",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Parker",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "Is 13 greater than 10 or less than 10?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "greater",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "less",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Which numbers are greater than 15?\n5, 13, 6, 19, 17, 4, 14, 16, 18",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "19, 17,16, 18",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "5, 4",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "13, 14",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "6",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                }
+            ],
+            "modelId": "177250",
+            "creatorName": "Ms. Fay",
+            "avatarId": "79",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "23405209",
+                "udid": "5a8af768d39fb4.71041031",
+                "journalName": "Ms. Fay",
+                "journalCoverAvatar": "79",
+                "journalCoverColor": "0.84705882352941 0.18039215686275 0.46274509803922 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "329567595",
+                "fid": "",
+                "accountID": "6ABEA015-A53D-2F0C-68CB-B3A44E671828",
+                "simpleAccountId": "6809817",
+                "pagesFlipped": 27,
+                "nufComplete": 1,
+                "readingAge": 1.73333,
+                "startingAge": 0,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 11,
+                "xpLevel": 2,
+                "dateLastLogin": 0,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Tricia",
+                "lastName": "Fay",
+                "accountType": 1,
+                "dateModified": 1527083279,
+                "educatorPrefix": "Ms.",
+                "name": "Ms. Fay"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Janice has 8 pencils.  Parker has 3 pencils.  Which student has the greater number of pencils?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Janice",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Parker",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "Is 13 greater than 10 or less than 10?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "greater",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "less",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Which numbers are greater than 15?\n5, 13, 6, 19, 17, 4, 14, 16, 18",
+                "quizQuestionChoices": [
+                    {
+                        "title": "19, 17,16, 18",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "5, 4",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "13, 14",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "6",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            }
+        ]
+    }
+}

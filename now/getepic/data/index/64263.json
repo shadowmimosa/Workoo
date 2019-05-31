@@ -1,0 +1,124 @@
+{
+    "publisherData": {
+        "modelId": "28",
+        "name": "Xist Publishing",
+        "url": "http://www.xistpublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539564197
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/3/64263/OEBPS/Images/1/b9a3c959c9094ead20c79117d73f300b.jpg",
+                "audio": "drm/3/64263/OEBPS/Audio/1/Title.mp3"
+            },
+            {
+                "page": "drm/3/64263/OEBPS/Images/1/72346f8c98813a0fc154f1eb443418d2.jpg",
+                "audio": "drm/3/64263/OEBPS/Audio/1/Page 2.mp3"
+            },
+            {
+                "page": "drm/3/64263/OEBPS/Images/1/1446325046b00f5b88d4c7cb41250f00.jpg",
+                "audio": "drm/3/64263/OEBPS/Audio/1/Page 3.mp3"
+            },
+            {
+                "page": "drm/3/64263/OEBPS/Images/1/c5e31c8387f3734ed99cfbd3d68aef85.jpg",
+                "audio": "drm/3/64263/OEBPS/Audio/1/Page 4.mp3"
+            },
+            {
+                "page": "drm/3/64263/OEBPS/Images/1/cc42117da8277f044fcb2a41ca6b8d21.jpg",
+                "audio": "drm/3/64263/OEBPS/Audio/1/Page 5.mp3"
+            },
+            {
+                "page": "drm/3/64263/OEBPS/Images/1/35b174ee9f9b7b3022d23e286fb02969.jpg",
+                "audio": "drm/3/64263/OEBPS/Audio/1/Page 6.mp3"
+            },
+            {
+                "page": "drm/3/64263/OEBPS/Images/1/66582b7fa55509d2f700f27876bfbec1.jpg",
+                "audio": "drm/3/64263/OEBPS/Audio/1/Page 7.mp3"
+            },
+            {
+                "page": "drm/3/64263/OEBPS/Images/1/16a7ca126d6e63a4e8c74787efef0457.jpg",
+                "audio": "drm/3/64263/OEBPS/Audio/1/Page 8.mp3"
+            },
+            {
+                "page": "drm/3/64263/OEBPS/Images/1/c742487492da51df52844b5758a05f5c.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/3/64263/OEBPS/Images/1/79006ee10d67517130f3bfb67ec32d2e.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "64263",
+        "id": "64263",
+        "title": "Discover Shapes: Polygon",
+        "author": "Xist Publishing",
+        "illustrator": " ",
+        "numPages": 9,
+        "bookDescription": "Beginning readers identify things that are polygons in this very simple 12-page reader.",
+        "coverColorR": 218,
+        "coverColorG": 221,
+        "coverColorB": 212,
+        "version": 2147483647,
+        "previewPercent": 20,
+        "publisher": "Xist Publishing",
+        "publisherId": "28",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 225,
+        "ar": "2.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "a",
+        "language": 1,
+        "rating": 75,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.6471,
+        "contentHash": "5ce7e62cfbb557047b93",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1558484109
+    },
+    "userBook": {
+        "modelId": "46250489-64263",
+        "userId": "46250489",
+        "bookId": "64263",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559307281,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559307281,
+        "book": {
+            "modelId": "64263",
+            "title": "Discover Shapes: Polygon",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "5ce7e62cfbb557047b93"
+        }
+    },
+    "quiz": null
+}

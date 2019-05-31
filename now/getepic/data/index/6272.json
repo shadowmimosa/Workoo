@@ -1,0 +1,214 @@
+{
+    "publisherData": {
+        "modelId": "10",
+        "name": "Kids Can Press",
+        "url": "http://www.kidscanpress.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539816186
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/d09230f2676da35665da23cb7f99224f.jpg",
+                "audio": "drm/2/6272/OEBPS/Audio/1/9af2da3275f96c54289375867178cce7.mp3"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/d1ec5e702a8476f671b58c6c91c01244.jpg",
+                "audio": "drm/2/6272/OEBPS/Audio/1/aud4.mp3"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/851b030aaa3a4add36d62f5932705231.jpg",
+                "audio": "drm/2/6272/OEBPS/Audio/1/aud5.mp3"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/1f1379f1daac28ba26d5e1401abe39e5.jpg",
+                "audio": "drm/2/6272/OEBPS/Audio/1/503c18e5744cd04dd84bbd6760407c58.mp3"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/d98a284922dfbadec00c418afcce9d10.jpg",
+                "audio": "drm/2/6272/OEBPS/Audio/1/c3909fe020cab2fa174f56f2d8a45cc3.mp3"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/8188e550ee8a3d52f1ec8bf1a3a6101f.jpg"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/2c4606675c97d4ee0f1b4dfce79854aa.jpg",
+                "audio": "drm/2/6272/OEBPS/Audio/1/af83c70d24097ced68c4a57c94076930.mp3"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/320e5b43138c8f244d7a547a13df836d.jpg",
+                "audio": "drm/2/6272/OEBPS/Audio/1/4f665653afbbddc9c4b2409d5bf1634d.mp3"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/4512f37e96e0e6ae0e363d8b398b9e95.jpg"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/2f853e9bc94a68d9b2aa0b8542862418.jpg",
+                "audio": "drm/2/6272/OEBPS/Audio/1/c0d25dc7739bde91c688a4d75e95cdac.mp3"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/d2e5284acbaa44e71364873891a5f91b.jpg",
+                "audio": "drm/2/6272/OEBPS/Audio/1/79e716380bf4ea5daecbe6c09bdf9916.mp3"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/b1fce47a1b502d5a0d013f0a0ce19d3f.jpg",
+                "audio": "drm/2/6272/OEBPS/Audio/1/cc0a170b4c4e37ae7409724ea34a8df2.mp3"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/8d52be3cbbcaf6bdac2234450f98f6ee.jpg",
+                "audio": "drm/2/6272/OEBPS/Audio/1/2d85dfd62f5f4eb94bf1d7ae551c8ad2.mp3"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/47e053274be2821e7b023dbdfbfb4ab7.jpg",
+                "audio": "drm/2/6272/OEBPS/Audio/1/6fab625931c71edccf5670a63a7a4279.mp3"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/8eaafe420b108e3576c4fb92ccef2d20.jpg",
+                "audio": "drm/2/6272/OEBPS/Audio/1/3e67a9312ae0c8c8b49d07bd6cc5f24a.mp3"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/51ab2554654923a8f7b9e0c05afc27bb.jpg",
+                "audio": "drm/2/6272/OEBPS/Audio/1/aea075353b2d1783b8ec3142763a7bb7.mp3"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/0143f0a7b4854ea5c7061f83a290b4c0.jpg",
+                "audio": "drm/2/6272/OEBPS/Audio/1/84718e0e89b2b9fda0d4bd7ce59cd559.mp3"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/f406c2a04eebb81c73a7499196111222.jpg",
+                "audio": "drm/2/6272/OEBPS/Audio/1/0f12587edbd3017b279f78b1fa6c348e.mp3"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/4dd40a6f8ba55cc8b7ec4d34a729c691.jpg",
+                "audio": "drm/2/6272/OEBPS/Audio/1/05d5bf0777b4247ea12af989edbc0195.mp3"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/7b9eeac915c376e42262fe628a214c41.jpg",
+                "audio": "drm/2/6272/OEBPS/Audio/1/cac81e67241c484358673425bbd41858.mp3"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/38d0cc678d0bafc18057736b0ddca519.jpg",
+                "audio": "drm/2/6272/OEBPS/Audio/1/7385321593b5206d64415c64fd8d035f.mp3"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/84957e11a1b19b5ff0533193d0dc770c.jpg",
+                "audio": "drm/2/6272/OEBPS/Audio/1/1b60462da33b22d66cedc71c1b3922a0.mp3"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/afdc47d42f5f59cc81e67f1fc59f25ce.jpg",
+                "audio": "drm/2/6272/OEBPS/Audio/1/276830327cb9288fd7415ebcf9d4ddb9.mp3"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/d49d0b1eadc677671ff19e6d908022fc.jpg",
+                "audio": "drm/2/6272/OEBPS/Audio/1/4207a02a15cc5c20240e2f233fb2a6c5.mp3"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/0215f11234a0f01cdb51e02df5b1689c.jpg",
+                "audio": "drm/2/6272/OEBPS/Audio/1/e069cb9a041776bba25f98fd851bf2f3.mp3"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/5d3f04437c48a6605ecc6fc3e061cddb.jpg",
+                "audio": "drm/2/6272/OEBPS/Audio/1/438e4fb56c5e6af2023a30e463a90f30.mp3"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/bdfb7ab5960c4707c5a8ec173e398543.jpg",
+                "audio": "drm/2/6272/OEBPS/Audio/1/b5794e4a29a735314a3dd1239b0e8f22.mp3"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/37fec34423cb0d5934ccc9e8dab7fc1c.jpg",
+                "audio": "drm/2/6272/OEBPS/Audio/1/9485beed8e49c39293ee3a5d01275f7a.mp3"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/9b0971ccb0ec811cc8fceec854cf1a1a.jpg",
+                "audio": "drm/2/6272/OEBPS/Audio/1/5a9bb2514c637fba705ad848c6a52e28.mp3"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/87aa317ca60ef136dff246fd05c01c52.jpg",
+                "audio": "drm/2/6272/OEBPS/Audio/1/58f4c93022a937aec4b5d4a96b6f9f76.mp3"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/455c6fe311cd34a5a39749b1eda00968.jpg"
+            },
+            {
+                "page": "drm/2/6272/OEBPS/Images/1/4344db2049bf32b35ffee5fc830cad8b.jpg",
+                "audio": "drm/2/6272/OEBPS/Audio/1/fa2a3011aef829b37363876b1083cec4.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/2/6272/OEBPS/Images/1/a4a9585fc1dbd81ca98822afe385d6d1.jpg",
+            "color": "#fefefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "6272",
+        "id": "6272",
+        "title": "ABC of Canada",
+        "author": "Kim Bellefontaine",
+        "illustrator": "Per-Henrik Gurth",
+        "numPages": 32,
+        "bookDescription": "From Arctic to Zamboni, kids can follow the alphabet on a colorful tour across Canada.",
+        "coverColorR": 130,
+        "coverColorG": 145,
+        "coverColorB": 136,
+        "version": 2,
+        "previewPercent": 20,
+        "publisher": "Kids Can Press",
+        "publisherId": "10",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 480,
+        "ar": "2.3",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 81,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "ABCs & 123s",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.005,
+        "contentHash": "25f9687824db5282ba01",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372254
+    },
+    "userBook": {
+        "modelId": "46250489-6272",
+        "userId": "46250489",
+        "bookId": "6272",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311639,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311639,
+        "book": {
+            "modelId": "6272",
+            "title": "ABC of Canada",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "25f9687824db5282ba01"
+        }
+    },
+    "quiz": null
+}

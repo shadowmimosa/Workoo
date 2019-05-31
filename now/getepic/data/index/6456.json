@@ -1,0 +1,489 @@
+{
+    "publisherData": {
+        "modelId": "28",
+        "name": "Xist Publishing",
+        "url": "http://www.xistpublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539564197
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/6/6456/OEBPS/Images/1/1aa76717f11d869b88d5664bf070afcd.jpg",
+                "audio": "drm/6/6456/OEBPS/Audio/1/aud3.mp3"
+            },
+            {
+                "page": "drm/6/6456/OEBPS/Images/1/d2b450ecb4ae0c95ebecd1eb8e4e3656.jpg",
+                "audio": "drm/6/6456/OEBPS/Audio/1/aud4.mp3"
+            },
+            {
+                "page": "drm/6/6456/OEBPS/Images/1/9a28c177fc8a0497edbf7e1b0dc21c76.jpg"
+            },
+            {
+                "page": "drm/6/6456/OEBPS/Images/1/48ab17a686fec7bd3cdb1956d7a72da2.jpg"
+            },
+            {
+                "page": "drm/6/6456/OEBPS/Images/1/5e892188038cfa40364a1c9470d845de.jpg",
+                "audio": "drm/6/6456/OEBPS/Audio/1/aud7.mp3"
+            },
+            {
+                "page": "drm/6/6456/OEBPS/Images/1/4faf6216ec97618170cd9d9dbc1dd205.jpg",
+                "audio": "drm/6/6456/OEBPS/Audio/1/aud8.mp3"
+            },
+            {
+                "page": "drm/6/6456/OEBPS/Images/1/9ce554f3c3927a3fb3af3d28f63a9367.jpg"
+            },
+            {
+                "page": "drm/6/6456/OEBPS/Images/1/90343ae153f8af9456c2036ba6681572.jpg"
+            },
+            {
+                "page": "drm/6/6456/OEBPS/Images/1/0273c13a561dbcf7dfa4ed732f72856c.jpg",
+                "audio": "drm/6/6456/OEBPS/Audio/1/aud11.mp3"
+            },
+            {
+                "page": "drm/6/6456/OEBPS/Images/1/1f132b6112cdf771b3cb10d055308757.jpg",
+                "audio": "drm/6/6456/OEBPS/Audio/1/aud12.mp3"
+            },
+            {
+                "page": "drm/6/6456/OEBPS/Images/1/38f56b5182c80bfb3a89c00a55f7cf25.jpg"
+            },
+            {
+                "page": "drm/6/6456/OEBPS/Images/1/a9e4c258ffead7faff89af2ed97adb05.jpg"
+            },
+            {
+                "page": "drm/6/6456/OEBPS/Images/1/efd76d9e9a1687165e202de1046238c5.jpg",
+                "audio": "drm/6/6456/OEBPS/Audio/1/aud15.mp3"
+            },
+            {
+                "page": "drm/6/6456/OEBPS/Images/1/adb068368467e43500560fb72d8a9ce8.jpg",
+                "audio": "drm/6/6456/OEBPS/Audio/1/aud16.mp3"
+            },
+            {
+                "page": "drm/6/6456/OEBPS/Images/1/cc42ba37f0290c5b41508f1e9e3098aa.jpg"
+            },
+            {
+                "page": "drm/6/6456/OEBPS/Images/1/6397248b96e46a2641c2cca167764318.jpg"
+            },
+            {
+                "page": "drm/6/6456/OEBPS/Images/1/53fd88cd3fe3aa7686f0665a8ca02afd.jpg",
+                "audio": "drm/6/6456/OEBPS/Audio/1/aud19.mp3"
+            },
+            {
+                "page": "drm/6/6456/OEBPS/Images/1/c1f3a3cddc94b327b4c92f6190351bc1.jpg",
+                "audio": "drm/6/6456/OEBPS/Audio/1/aud20.mp3"
+            },
+            {
+                "page": "drm/6/6456/OEBPS/Images/1/d96941bba5757fabc6c21b4e3ab9ed90.jpg"
+            },
+            {
+                "page": "drm/6/6456/OEBPS/Images/1/d55793f4a1125627e1c55e288d0d672b.jpg"
+            },
+            {
+                "page": "drm/6/6456/OEBPS/Images/1/d41d834a35e61f91de0b03ad53293483.jpg",
+                "audio": "drm/6/6456/OEBPS/Audio/1/aud23.mp3"
+            },
+            {
+                "page": "drm/6/6456/OEBPS/Images/1/7905d19fcd7d2fd5cb54cf13b090d0e4.jpg",
+                "audio": "drm/6/6456/OEBPS/Audio/1/aud24x.mp3"
+            },
+            {
+                "page": "drm/6/6456/OEBPS/Images/1/2e9eaf9299143a6d280904d6363adc45.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/6/6456/OEBPS/Images/1/0cfc916bcf275369ca28fffd2754a824.jpg",
+            "color": "#fefefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "6456",
+        "id": "6456",
+        "title": "The Hungry Shark",
+        "author": "Tamia Sheldon",
+        "illustrator": "Tamia Sheldon",
+        "numPages": 23,
+        "bookDescription": "Amelia the Shark is looking for her lunch but all of the sea creatures she finds have a clever form of protection.",
+        "coverColorR": 82,
+        "coverColorG": 132,
+        "coverColorB": 143,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Xist Publishing",
+        "publisherId": "28",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 383,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Overcoming Challenges",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "3a4bcf69b491b39bcb85",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1516155388
+    },
+    "userBook": {
+        "modelId": "46250489-6456",
+        "userId": "46250489",
+        "bookId": "6456",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559309993,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559309993,
+        "book": {
+            "modelId": "6456",
+            "title": "The Hungry Shark",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "3a4bcf69b491b39bcb85"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "474",
+            "user_id": "515169",
+            "book_id": "6456",
+            "title": "The Hungry Shark",
+            "description": "",
+            "date_created": 1471375091,
+            "date_modified": 1474564666,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What was the sharks problem n the story?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "He was hungry.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "No one would play with him.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "The water was cold.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "He ate too much.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "How did the little fish get away from the shark?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "He hid in a shell.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "He swam faster than the shark.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "He had tentacles.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "He hid in the seaweed.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Which character had spiky spines?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "blowfish",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "little fish",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "jellyfish",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "shark",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "How did the shark solve his problem?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "He found seaweed to eat.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "He finally caught a fish.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "He learned to swim faster.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "What was shark's problem at the end of the story?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "His problem was what to eat for dinner.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "His problem was all of his friends were mad at him.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "He ate too much.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "474",
+            "creatorName": "Ms. Allen",
+            "avatarId": "21",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "515169",
+                "udid": "54bed6b08f54c7.32733782",
+                "journalName": "Ms. Allen",
+                "journalCoverAvatar": "21",
+                "journalCoverColor": "0.94509803921569 0.66274509803922 0.92941176470588 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "56864184",
+                "fid": "",
+                "accountID": "0DEFCA8A-E19B-3EF0-3613-4DD661C73D2B",
+                "simpleAccountId": "322237",
+                "pagesFlipped": 6437,
+                "nufComplete": 1,
+                "readingAge": 5.06667,
+                "startingAge": 0,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 0,
+                "xpLevel": 1,
+                "dateLastLogin": 1422069058,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Sharon",
+                "lastName": "Allen",
+                "accountType": 1,
+                "dateModified": 1531438247,
+                "educatorPrefix": "Ms.",
+                "name": "Ms. Allen"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What was the sharks problem n the story?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "He was hungry.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "No one would play with him.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "The water was cold.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "He ate too much.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "How did the little fish get away from the shark?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "He hid in a shell.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "He swam faster than the shark.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "He had tentacles.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "He hid in the seaweed.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Which character had spiky spines?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "blowfish",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "little fish",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "jellyfish",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "shark",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "How did the shark solve his problem?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "He found seaweed to eat.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "He finally caught a fish.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "He learned to swim faster.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "What was shark's problem at the end of the story?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "His problem was what to eat for dinner.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "His problem was all of his friends were mad at him.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "He ate too much.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

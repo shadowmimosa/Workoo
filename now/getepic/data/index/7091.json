@@ -1,0 +1,152 @@
+{
+    "publisherData": {
+        "modelId": "36",
+        "name": "Crabtree Publishing Company",
+        "url": "http://www.crabtreebooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1501029627
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/7091/OEBPS/Images/1/a97d57421cd99c7daa3f418574149742.jpg"
+            },
+            {
+                "page": "drm/1/7091/OEBPS/Images/1/c3e7efe5f63531736b8df96685151d8e.jpg"
+            },
+            {
+                "page": "drm/1/7091/OEBPS/Images/1/7b796e29a563b27fb1d61b34d083fa81.jpg"
+            },
+            {
+                "page": "drm/1/7091/OEBPS/Images/1/1ac6d8a87c062857a97f7abd98d32d13.jpg"
+            },
+            {
+                "page": "drm/1/7091/OEBPS/Images/1/f1eb17c6171a9ddc5a2de46bf31c27c2.jpg"
+            },
+            {
+                "page": "drm/1/7091/OEBPS/Images/1/27cf5b825823f661bb04af23598b5584.jpg"
+            },
+            {
+                "page": "drm/1/7091/OEBPS/Images/1/2c3c91dfa7db6025b8e5cbbf6e03af1a.jpg"
+            },
+            {
+                "page": "drm/1/7091/OEBPS/Images/1/d680a8a7d4519c611c3f607da8a99df7.jpg"
+            },
+            {
+                "page": "drm/1/7091/OEBPS/Images/1/d011fa90caa3353695205a47271735f3.jpg"
+            },
+            {
+                "page": "drm/1/7091/OEBPS/Images/1/77cfcc5c03dedd11b5ad036174a5ffb8.jpg"
+            },
+            {
+                "page": "drm/1/7091/OEBPS/Images/1/de05666710cece374dc0e8370787d6a6.jpg"
+            },
+            {
+                "page": "drm/1/7091/OEBPS/Images/1/2f849d85228fe94546752ab2f2019ed5.jpg"
+            },
+            {
+                "page": "drm/1/7091/OEBPS/Images/1/aa9a432996f8ce092ea32d5554501bda.jpg"
+            },
+            {
+                "page": "drm/1/7091/OEBPS/Images/1/31bf0d39f84575667bde37a5799be992.jpg"
+            },
+            {
+                "page": "drm/1/7091/OEBPS/Images/1/224718cfa737907c75e7a6c2fa098a54.jpg"
+            },
+            {
+                "page": "drm/1/7091/OEBPS/Images/1/517fe2b05f6f68b50a96b8da42dad4a9.jpg"
+            },
+            {
+                "page": "drm/1/7091/OEBPS/Images/1/8f338021be0fc30c157852c1baa17255.jpg"
+            },
+            {
+                "page": "drm/1/7091/OEBPS/Images/1/4b56490b4bd251ca82bc5d629b7cbbc2.jpg"
+            },
+            {
+                "page": "drm/1/7091/OEBPS/Images/1/75d50f94e5503f7eb28e4e4e6e8c2b63.jpg"
+            },
+            {
+                "page": "drm/1/7091/OEBPS/Images/1/5fbf5c1e5ec58f9d0592108dfb981a22.jpg"
+            },
+            {
+                "page": "drm/1/7091/OEBPS/Images/1/4e5de6ca7a77c7b8c4028d0614e9dbff.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/7091/OEBPS/Images/1/8999eb6ee1cd3c9cecbb8b7de88f0377.jpg",
+            "color": "#000"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "7091",
+        "id": "7091",
+        "title": "Baby Pigs",
+        "author": "Bobbie Kalman",
+        "illustrator": " ",
+        "numPages": 21,
+        "bookDescription": "Photographs of piglets, growing up on the farm and in the wild accompany information about a pig's body, and where wild pigs live.",
+        "coverColorR": 190,
+        "coverColorG": 187,
+        "coverColorB": 163,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Crabtree Publishing Company",
+        "publisherId": "36",
+        "age": 6,
+        "pageNumOffset": 2,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 385,
+        "ar": "3.3",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "j",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Farm Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.8949,
+        "contentHash": "0edcbadee39a94551217",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1555372315
+    },
+    "userBook": {
+        "modelId": "46250489-7091",
+        "userId": "46250489",
+        "bookId": "7091",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559312150,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559312150,
+        "book": {
+            "modelId": "7091",
+            "title": "Baby Pigs",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "0edcbadee39a94551217"
+        }
+    },
+    "quiz": null
+}

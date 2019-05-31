@@ -1,0 +1,155 @@
+{
+    "publisherData": {
+        "modelId": "31",
+        "name": "Bellwether Media",
+        "url": "http://www.bellwethermedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539569528
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/36134/OEBPS/Images/1/492BEBF8-1418-49AD-A589-9C71AE7EC1EA.jpg"
+            },
+            {
+                "page": "drm/4/36134/OEBPS/Images/1/287F44AA-5F20-407F-B3B5-F286F3C9CB55.jpg"
+            },
+            {
+                "page": "drm/4/36134/OEBPS/Images/1/3FBEC378-B263-488B-808A-716D3DD67D52.jpg"
+            },
+            {
+                "page": "drm/4/36134/OEBPS/Images/1/4F759EC3-0726-48F6-BCCB-5EB11C7ED45C.jpg"
+            },
+            {
+                "page": "drm/4/36134/OEBPS/Images/1/FD86CF90-992C-4908-AA01-9D82D0E4720F.jpg"
+            },
+            {
+                "page": "drm/4/36134/OEBPS/Images/1/BD5FC06C-0AD6-48D3-869A-7788603EB026.jpg"
+            },
+            {
+                "page": "drm/4/36134/OEBPS/Images/1/07B0859B-520D-4796-B4F5-A4E0898E14C0.jpg"
+            },
+            {
+                "page": "drm/4/36134/OEBPS/Images/1/70C836A9-2BBC-4E78-8CE7-F7554CAABB8F.jpg"
+            },
+            {
+                "page": "drm/4/36134/OEBPS/Images/1/2FF30606-3CD9-4587-B2A8-6BC3ADA420AF.jpg"
+            },
+            {
+                "page": "drm/4/36134/OEBPS/Images/1/5D8AA412-2380-424C-9E67-7DA9510092AB.jpg"
+            },
+            {
+                "page": "drm/4/36134/OEBPS/Images/1/53295C19-490E-492E-90CE-604F88A3ED59.jpg"
+            },
+            {
+                "page": "drm/4/36134/OEBPS/Images/1/AF452CA8-0F60-4AA8-BCE6-5CD473745AF1.jpg"
+            },
+            {
+                "page": "drm/4/36134/OEBPS/Images/1/413965CA-EB35-4606-88ED-CBA0CDCF5719.jpg"
+            },
+            {
+                "page": "drm/4/36134/OEBPS/Images/1/B068513E-9D39-4AE2-95C2-C0153BF17333.jpg"
+            },
+            {
+                "page": "drm/4/36134/OEBPS/Images/1/F6A231BE-1DA1-40F1-9B50-99A20ACDA410.jpg"
+            },
+            {
+                "page": "drm/4/36134/OEBPS/Images/1/C4AE44B3-D262-49D9-94F7-A3B470A14485.jpg"
+            },
+            {
+                "page": "drm/4/36134/OEBPS/Images/1/B26AFCE1-F69A-495E-B7A7-FCF8F30569E0.jpg"
+            },
+            {
+                "page": "drm/4/36134/OEBPS/Images/1/1C6E3919-2F82-4B88-A6CB-63B346BDA8A4.jpg"
+            },
+            {
+                "page": "drm/4/36134/OEBPS/Images/1/9EF9D8A6-3089-452C-A7A2-0E220AB60F35.jpg"
+            },
+            {
+                "page": "drm/4/36134/OEBPS/Images/1/4BA56C36-574F-47C6-A522-950D041CA3F7.jpg"
+            },
+            {
+                "page": "drm/4/36134/OEBPS/Images/1/A0F6D407-CF6D-4597-A46B-51DA3CBA59B3.jpg"
+            },
+            {
+                "page": "drm/4/36134/OEBPS/Images/1/AF11B0A5-CD31-49CE-8D1D-1909B8CBD412.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/36134/OEBPS/Images/1/A340FC4C-419D-40F6-89DC-3713CDBBC917.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "36134",
+        "id": "36134",
+        "title": "Monster Airplanes",
+        "author": "Chris Bowman",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Young readers' flying interests will soar to new heights with this introductory title.",
+        "coverColorR": 80,
+        "coverColorG": 116,
+        "coverColorB": 149,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Bellwether Media",
+        "publisherId": "31",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "480L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 403,
+        "ar": "2.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Things That GO",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 0.7211,
+        "contentHash": "c48a8a3ae8d7454f9550",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "0",
+        "panelStatus": 0,
+        "date_modified": 1558637433
+    },
+    "userBook": {
+        "modelId": "46250489-36134",
+        "userId": "46250489",
+        "bookId": "36134",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311913,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311913,
+        "book": {
+            "modelId": "36134",
+            "title": "Monster Airplanes",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "c48a8a3ae8d7454f9550"
+        }
+    },
+    "quiz": null
+}

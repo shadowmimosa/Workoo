@@ -1,0 +1,166 @@
+{
+    "publisherData": {
+        "modelId": "31",
+        "name": "Bellwether Media",
+        "url": "http://www.bellwethermedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539569528
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/47208/OEBPS/Images/1/c60d4cbc33c8dd40c4f8445551741a82.jpg",
+                "audio": "drm/8/47208/OEBPS/Audio/1/9781681034003-01.mp3"
+            },
+            {
+                "page": "drm/8/47208/OEBPS/Images/1/ca1fd51c303995f8e604b1413fc3fa51.jpg",
+                "audio": "drm/8/47208/OEBPS/Audio/1/9781681034003-02.mp3"
+            },
+            {
+                "page": "drm/8/47208/OEBPS/Images/1/c3323b05cc851b1b36ca023bbac77567.jpg"
+            },
+            {
+                "page": "drm/8/47208/OEBPS/Images/1/ef39402b5afb6796c5c96eb19f5e5624.jpg",
+                "audio": "drm/8/47208/OEBPS/Audio/1/9781681034003-03.mp3"
+            },
+            {
+                "page": "drm/8/47208/OEBPS/Images/1/0f307e0c65f774ef9951fcaad21bc268.jpg"
+            },
+            {
+                "page": "drm/8/47208/OEBPS/Images/1/80ed4d00a8166083889c88153fd220a2.jpg",
+                "audio": "drm/8/47208/OEBPS/Audio/1/9781681034003-04.mp3"
+            },
+            {
+                "page": "drm/8/47208/OEBPS/Images/1/716f41557475c860d247a0106f061873.jpg"
+            },
+            {
+                "page": "drm/8/47208/OEBPS/Images/1/72a5115c7769ad0072d235e7a218cecb.jpg",
+                "audio": "drm/8/47208/OEBPS/Audio/1/9781681034003-05.mp3"
+            },
+            {
+                "page": "drm/8/47208/OEBPS/Images/1/d743372c410911a8c443b075ba7c7779.jpg"
+            },
+            {
+                "page": "drm/8/47208/OEBPS/Images/1/4d6379d6e9210a15fddecab865697170.jpg",
+                "audio": "drm/8/47208/OEBPS/Audio/1/9781681034003-06.mp3"
+            },
+            {
+                "page": "drm/8/47208/OEBPS/Images/1/08266a36a950cb9b102b53b73879e55c.jpg"
+            },
+            {
+                "page": "drm/8/47208/OEBPS/Images/1/7624ab381c85e878afe053350b46442d.jpg",
+                "audio": "drm/8/47208/OEBPS/Audio/1/9781681034003-07.mp3"
+            },
+            {
+                "page": "drm/8/47208/OEBPS/Images/1/e3804de21d0e2ba93b3f04c8cb90e312.jpg"
+            },
+            {
+                "page": "drm/8/47208/OEBPS/Images/1/6f6693015dae886784255a26ea3f6a2e.jpg",
+                "audio": "drm/8/47208/OEBPS/Audio/1/9781681034003-08.mp3"
+            },
+            {
+                "page": "drm/8/47208/OEBPS/Images/1/dc4f634c9b9e6c51406c50fdc423ca07.jpg"
+            },
+            {
+                "page": "drm/8/47208/OEBPS/Images/1/9c76fa8e795af3910b9d40d2eadb633e.jpg",
+                "audio": "drm/8/47208/OEBPS/Audio/1/9781681034003-09.mp3"
+            },
+            {
+                "page": "drm/8/47208/OEBPS/Images/1/ffdcbda998ec289da66d86dfe41baf07.jpg"
+            },
+            {
+                "page": "drm/8/47208/OEBPS/Images/1/dcd39e1596aefd57072bc7d283b226a5.jpg",
+                "audio": "drm/8/47208/OEBPS/Audio/1/9781681034003-10.mp3"
+            },
+            {
+                "page": "drm/8/47208/OEBPS/Images/1/44fe2cd66d8445b729a6e9296c566732.jpg"
+            },
+            {
+                "page": "drm/8/47208/OEBPS/Images/1/e15640c6506462f64b1a584a6f4b0a10.jpg",
+                "audio": "drm/8/47208/OEBPS/Audio/1/9781681034003-11.mp3"
+            },
+            {
+                "page": "drm/8/47208/OEBPS/Images/1/7b091c9c948e5771a54f4cb026b2547a.jpg"
+            },
+            {
+                "page": "drm/8/47208/OEBPS/Images/1/c397d7ff993045e8df6dbe0ffd49c67b.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/47208/OEBPS/Images/1/22e2753b5a48314ca9ad1d24773f6753.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "47208",
+        "id": "47208",
+        "title": "Amazing Trains: Freight Trains",
+        "author": "Christina Leighton",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "The average freight car can hold 200,000 pounds. This is equal to the weight of 15 male bush elephants!",
+        "coverColorR": 134,
+        "coverColorG": 134,
+        "coverColorB": 130,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Bellwether Media",
+        "publisherId": "31",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "390L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 806,
+        "ar": "1.7",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Things That GO",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 0.7222,
+        "contentHash": "e3494334dc9591cbc4b9",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374070
+    },
+    "userBook": {
+        "modelId": "46250489-47208",
+        "userId": "46250489",
+        "bookId": "47208",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311839,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311839,
+        "book": {
+            "modelId": "47208",
+            "title": "Amazing Trains: Freight Trains",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "e3494334dc9591cbc4b9"
+        }
+    },
+    "quiz": null
+}

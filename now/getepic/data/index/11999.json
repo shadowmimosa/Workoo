@@ -1,0 +1,400 @@
+{
+    "publisherData": {
+        "modelId": "111",
+        "name": "Eerdmans Books for Young Readers an imprint of Eerdmans Publishing",
+        "url": "http://www.eerdmans.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1424487314
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/1c737473f54b744746297ba6accc0078.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/89e40aa9fb5b1b5d496a41797dfab1b1.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/b6b0a41c73a22e1f9affe94fd575fc4e.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/7d8c28299bc4cc74705da0eb1037195c.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/9040f460db770aa6ebceaa0f6bc6f7c1.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/87d29a7b80ff4e35e9d637b107c80d8e.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/dd82de22e7c425a6d235760ac63da30b.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/866240ee21ae7778d190e73a8cc60140.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/1e3abf644c82ad77e3b14ada4d6fc467.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/2e5fd9cc1bab6344558b89ca228091d1.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/7c6a45420b487fb4f2b5be0b1f855e7c.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/3355f9d3672cd7a4d0e1a3b7d2f8168e.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/b0ede029d4f866c6b047e4704370181b.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/ac5cfc94d6cdd25616b7bfdfc5ae9bd8.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/c9a87957ab56540bc64bf57a593cb459.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/c31a94d50c7f29f8e9661f225bad6ba8.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/58296a458a5732ae6a40683eb1c0b739.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/a870c3ac7e7dcbb67763505415be27e4.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/2251874b1b5fe44e53262e7bbac42fc0.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/bbcd662d9c88b011f22e8db2a75ab7dd.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/74158f99c0541af89da41586dc0d6c5b.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/9390205e100b9df8112cba98cdf5eb56.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/5f65d6ea7e8166407e422323d69dcec9.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/42dac401e93ffad33fbf1ec7b88ce832.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/201e718e86d3c85af959efde2f29ca13.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/055d5ec3d6ef7f81132dce9f02c4cfe1.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/f4f9b61c190fd94bea33196b1cdf4d7a.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/6f05c79938369d6d6e7663c162f409cd.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/a94f3e198f3b1e760aec3457b81a58ed.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/638b7a221b8a9c3a082f1216a53d957b.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/9f3321af0d414f5e2c9023700a3c510f.jpg"
+            },
+            {
+                "page": "drm/9/11999/OEBPS/Images/1/f986a594f96db51476b5bd5eb5bb28bd.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/11999/OEBPS/Images/1/e25a8a770feb078c59652b56f2d7e0e9.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "11999",
+        "id": "11999",
+        "title": "The Sheep Go on Strike",
+        "author": "Jean-Francois Dumont",
+        "illustrator": " ",
+        "numPages": 32,
+        "bookDescription": "The sheep on the farm are sick of getting sheared -- so they decide to go on strike!",
+        "coverColorR": 199,
+        "coverColorG": 120,
+        "coverColorB": 103,
+        "version": 2147483647,
+        "previewPercent": 20,
+        "publisher": "Eerdmans Books for Young Readers an imprint of Eerdmans Publishing",
+        "publisherId": "111",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "630L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 586,
+        "ar": "4.2",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Farm Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.2502,
+        "contentHash": "6b817c80b9b0c074a054",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1551981616
+    },
+    "userBook": {
+        "modelId": "46250489-11999",
+        "userId": "46250489",
+        "bookId": "11999",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559312062,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559312062,
+        "book": {
+            "modelId": "11999",
+            "title": "The Sheep Go on Strike",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "6b817c80b9b0c074a054"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "146438",
+            "user_id": "7351551",
+            "book_id": "11999",
+            "title": "The Sheep Go On Strike",
+            "description": "",
+            "date_created": 1511208954,
+            "date_modified": 1513361135,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Why did the sheep want to go on strike?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "They didn't want to be sheared.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "They wanted corn for lunch.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "They didn't make enough money.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "They wanted to sleep in the farmhouse.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "Why did Ralph the sheepdog hide in his doghouse?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "The flock nearly stampeded him.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "He had the flu.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "He was striking too.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "He was on vacation that week.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What was Rosalie the pig's idea to keep the sheep warm?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "To use some of the wool to make sweaters for them.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "To put them under heating lamps.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "To move them in the sheepdog's house.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "To bite the farmer's leg so that he wouldn't shear them.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                }
+            ],
+            "modelId": "146438",
+            "creatorName": "Mrs. Gorrell",
+            "avatarId": "77",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "7351551",
+                "udid": "57201aa75b55d7.26608072",
+                "journalName": "Mrs. Gorrell",
+                "journalCoverAvatar": "77",
+                "journalCoverColor": "0.11764705882353 0.91764705882353 0.64313725490196 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "422821949",
+                "fid": "",
+                "accountID": "F4FEE9DA-3D70-755E-6D0F-A6BB9DFAC718",
+                "simpleAccountId": "2725559",
+                "pagesFlipped": 8302,
+                "nufComplete": 1,
+                "readingAge": 7.3,
+                "startingAge": 7,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 2569,
+                "xpLevel": 23,
+                "dateLastLogin": 1556731060,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Jen",
+                "lastName": "Gorrell",
+                "accountType": 1,
+                "dateModified": 1559244175,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Gorrell"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Why did the sheep want to go on strike?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "They didn't want to be sheared.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "They wanted corn for lunch.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "They didn't make enough money.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "They wanted to sleep in the farmhouse.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "Why did Ralph the sheepdog hide in his doghouse?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "The flock nearly stampeded him.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "He had the flu.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "He was striking too.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "He was on vacation that week.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What was Rosalie the pig's idea to keep the sheep warm?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "To use some of the wool to make sweaters for them.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "To put them under heating lamps.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "To move them in the sheepdog's house.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "To bite the farmer's leg so that he wouldn't shear them.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            }
+        ]
+    }
+}

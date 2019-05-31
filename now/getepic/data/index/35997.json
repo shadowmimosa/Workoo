@@ -1,0 +1,454 @@
+{
+    "publisherData": {
+        "modelId": "31",
+        "name": "Bellwether Media",
+        "url": "http://www.bellwethermedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539569528
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/35997/OEBPS/Images/1/6B1D5B17-DC98-438D-8A82-25A89A1D7388.jpg"
+            },
+            {
+                "page": "drm/7/35997/OEBPS/Images/1/79AA8F56-5EE4-4FF8-95F3-03E197A97D8D.jpg"
+            },
+            {
+                "page": "drm/7/35997/OEBPS/Images/1/7264B088-1547-4D0E-9425-79927BFB4856.jpg"
+            },
+            {
+                "page": "drm/7/35997/OEBPS/Images/1/130FDB47-E6FC-450D-939D-20185ECC046A.jpg"
+            },
+            {
+                "page": "drm/7/35997/OEBPS/Images/1/F1FF0EF2-14C7-4D65-BDCB-C94A96F98907.jpg"
+            },
+            {
+                "page": "drm/7/35997/OEBPS/Images/1/172977C6-3515-4789-9D68-E7BF6671BFC0.jpg"
+            },
+            {
+                "page": "drm/7/35997/OEBPS/Images/1/E0D9C9B8-7260-465B-8F4C-5DE519BE8AAC.jpg"
+            },
+            {
+                "page": "drm/7/35997/OEBPS/Images/1/C73637E5-99DB-4FC7-9C2B-DD7650231933.jpg"
+            },
+            {
+                "page": "drm/7/35997/OEBPS/Images/1/6C28CEE5-A369-4333-94D0-F9E3161FF517.jpg"
+            },
+            {
+                "page": "drm/7/35997/OEBPS/Images/1/44EA046A-7BE9-4E1E-A09B-52E3D2FE71DB.jpg"
+            },
+            {
+                "page": "drm/7/35997/OEBPS/Images/1/6663204A-B09F-43B2-B099-05E7C73B99A8.jpg"
+            },
+            {
+                "page": "drm/7/35997/OEBPS/Images/1/9AA5E1E2-9DDF-4136-A39A-A81D223ABAF2.jpg"
+            },
+            {
+                "page": "drm/7/35997/OEBPS/Images/1/A9289380-1269-468F-B891-859990188AC1.jpg"
+            },
+            {
+                "page": "drm/7/35997/OEBPS/Images/1/DD775D56-2E09-4BC6-B997-5497A6F725E7.jpg"
+            },
+            {
+                "page": "drm/7/35997/OEBPS/Images/1/FB592B13-040B-42D0-9A72-684F19197BFF.jpg"
+            },
+            {
+                "page": "drm/7/35997/OEBPS/Images/1/9C788E8A-DB9D-45D1-984B-3432C567025F.jpg"
+            },
+            {
+                "page": "drm/7/35997/OEBPS/Images/1/7F1E906D-0815-492E-BE35-D6081F8B4A0D.jpg"
+            },
+            {
+                "page": "drm/7/35997/OEBPS/Images/1/326C1B1A-18EE-452E-A4F2-51248D22C421.jpg"
+            },
+            {
+                "page": "drm/7/35997/OEBPS/Images/1/E17CBCB7-5D24-4DF2-9BA5-20758963C56C.jpg"
+            },
+            {
+                "page": "drm/7/35997/OEBPS/Images/1/B51342E2-BB58-4E7E-A50C-CF7E9E2D78A0.jpg"
+            },
+            {
+                "page": "drm/7/35997/OEBPS/Images/1/804C40FB-63A6-4AAD-A194-C3ABE2F9C5DB.jpg"
+            },
+            {
+                "page": "drm/7/35997/OEBPS/Images/1/9EDA61A2-6E8A-4AA0-BE1D-D67A36D923F3.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/35997/OEBPS/Images/1/48471FE5-BF05-4AA0-BF65-A654768F54D0.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "35997",
+        "id": "35997",
+        "title": "Amphibians",
+        "author": "Kari Schuetz",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Learn about frogs, toads, salamanders, and the other amphibians known for their dual lifestyle.",
+        "coverColorR": 113,
+        "coverColorG": 135,
+        "coverColorB": 127,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Bellwether Media",
+        "publisherId": "31",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "530L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 403,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Farm Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.7238,
+        "contentHash": "7ca056ee7b73dfaa068b",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1555373448
+    },
+    "userBook": {
+        "modelId": "46250489-35997",
+        "userId": "46250489",
+        "bookId": "35997",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559312167,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559312167,
+        "book": {
+            "modelId": "35997",
+            "title": "Amphibians",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "7ca056ee7b73dfaa068b"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "87319",
+            "user_id": "2131748",
+            "book_id": "35997",
+            "title": "Amphibians",
+            "description": "",
+            "date_created": 1494258985,
+            "date_modified": 1505172622,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Their bodies are the same temperature as their surroundings.  This means amphibians are:",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "cold-blooded",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "warm-blooded",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "burrow",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "smelly",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "This is not an example of an amphibian:",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "snake",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "frog",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "salamander",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "newt",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "How are frogs and toads alike?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "They are amphibians.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Toads have bumpy skin and frogs have smooth skin.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Toads have short legs and frogs have long legs.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "They have fur.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Amphibians live in:",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "wet, shaded areas and burrows.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "trees",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "ocean",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "desert",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "True or False:  Amphibians are invertebrates.",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "false",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "true",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "87319",
+            "creatorName": "Mrs. Wade",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "2131748",
+                "udid": "5626462a4f7755.51344309",
+                "journalName": "Mrs. Wade",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.97254901960784 0.84313725490196 0.38823529411765 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "622559958",
+                "fid": "",
+                "accountID": "653FD566-124C-A7BE-3445-5CFCD0CDA45E",
+                "simpleAccountId": "963582",
+                "pagesFlipped": 12071,
+                "nufComplete": 1,
+                "readingAge": 6.9333333333333,
+                "startingAge": 6,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 1836,
+                "xpLevel": 18,
+                "dateLastLogin": 1559007586,
+                "email": "emilywade@greene.k12.nc.us",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Emily",
+                "lastName": "Wade",
+                "accountType": 1,
+                "dateModified": 1559221259,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Wade"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Their bodies are the same temperature as their surroundings.  This means amphibians are:",
+                "quizQuestionChoices": [
+                    {
+                        "title": "cold-blooded",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "warm-blooded",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "burrow",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "smelly",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "This is not an example of an amphibian:",
+                "quizQuestionChoices": [
+                    {
+                        "title": "snake",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "frog",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "salamander",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "newt",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "How are frogs and toads alike?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "They are amphibians.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Toads have bumpy skin and frogs have smooth skin.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Toads have short legs and frogs have long legs.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "They have fur.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Amphibians live in:",
+                "quizQuestionChoices": [
+                    {
+                        "title": "wet, shaded areas and burrows.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "trees",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "ocean",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "desert",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "True or False:  Amphibians are invertebrates.",
+                "quizQuestionChoices": [
+                    {
+                        "title": "false",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "true",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

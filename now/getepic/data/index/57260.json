@@ -1,0 +1,134 @@
+{
+    "publisherData": {
+        "modelId": "90050",
+        "name": "Amicus",
+        "url": "https://www.amicuspublishing.us/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491010374
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/57260/OEBPS/Images/1/4421a9840d6c2ea58a40d18909ceb982.jpg"
+            },
+            {
+                "page": "drm/0/57260/OEBPS/Images/1/46ab0352853093e90d560a23a130eafa.jpg"
+            },
+            {
+                "page": "drm/0/57260/OEBPS/Images/1/42443fdf085765d7f47044c0750d7d0c.jpg"
+            },
+            {
+                "page": "drm/0/57260/OEBPS/Images/1/aea5b7639c10ca6ca74ba2e6bbb510c2.jpg"
+            },
+            {
+                "page": "drm/0/57260/OEBPS/Images/1/71fb250b785e09d3e2d71e5ac89ca1b1.jpg"
+            },
+            {
+                "page": "drm/0/57260/OEBPS/Images/1/65cf8f2ce11ba809e92b3775c849d6e1.jpg"
+            },
+            {
+                "page": "drm/0/57260/OEBPS/Images/1/4ddb69ec5a1770dd9a9a30feadb7caf7.jpg"
+            },
+            {
+                "page": "drm/0/57260/OEBPS/Images/1/7081dcea120397b3f23b0c3ed255e33e.jpg"
+            },
+            {
+                "page": "drm/0/57260/OEBPS/Images/1/0e6fb8cac23c1f0f0b4156bcae5e804c.jpg"
+            },
+            {
+                "page": "drm/0/57260/OEBPS/Images/1/c9f9a4d3e25b2372bee36e3abe7d1b5a.jpg"
+            },
+            {
+                "page": "drm/0/57260/OEBPS/Images/1/7938076c05f430d98062627bf4d7a3ae.jpg"
+            },
+            {
+                "page": "drm/0/57260/OEBPS/Images/1/095abf6084e09aa1a538b12aafd0716f.jpg"
+            },
+            {
+                "page": "drm/0/57260/OEBPS/Images/1/8300b991349420f7b79489af8b85da32.jpg"
+            },
+            {
+                "page": "drm/0/57260/OEBPS/Images/1/25efe7995ec6cd6f9dd2f0a39114de58.jpg"
+            },
+            {
+                "page": "drm/0/57260/OEBPS/Images/1/61f025db5b186e2b03ebc83f6c6aa5d3.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/57260/OEBPS/Images/1/e5fa6f7f1e7a13ec521690c250f964c4.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "57260",
+        "id": "57260",
+        "title": "Birds",
+        "author": "Mari Schuh",
+        "illustrator": " ",
+        "numPages": 15,
+        "bookDescription": "Want to learn more about the furry, scaly, and feathered animals we call pets?",
+        "coverColorR": 193,
+        "coverColorG": 193,
+        "coverColorB": 165,
+        "version": 6445248,
+        "previewPercent": 20,
+        "publisher": "Amicus",
+        "publisherId": "90050",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "260L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 275,
+        "ar": "0.9",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 85,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pets",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.8733,
+        "contentHash": "c9432d502b563028783f",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374717
+    },
+    "userBook": {
+        "modelId": "46250489-57260",
+        "userId": "46250489",
+        "bookId": "57260",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311478,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311478,
+        "book": {
+            "modelId": "57260",
+            "title": "Birds",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "c9432d502b563028783f"
+        }
+    },
+    "quiz": null
+}

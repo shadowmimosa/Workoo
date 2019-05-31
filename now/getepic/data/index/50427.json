@@ -1,0 +1,166 @@
+{
+    "publisherData": {
+        "modelId": "90324",
+        "name": "Gareth Stevens provided by The Rosen Publishing Group, Inc",
+        "url": "https://www.garethstevens.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1525129338
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/50427/OEBPS/Images/1/f50e66607a4cae6dc99f466ad6c1f243.jpg",
+                "audio": "drm/7/50427/OEBPS/Audio/1/OCJ-005000.mp3"
+            },
+            {
+                "page": "drm/7/50427/OEBPS/Images/1/2313308a34a5564a6c6dc04c32543b50.jpg",
+                "audio": "drm/7/50427/OEBPS/Audio/1/OCJ-005001.mp3"
+            },
+            {
+                "page": "drm/7/50427/OEBPS/Images/1/e2b02be4422798442e81d27c27ea2057.jpg"
+            },
+            {
+                "page": "drm/7/50427/OEBPS/Images/1/0c611348aa27e64d61b7b0be48f8a475.jpg",
+                "audio": "drm/7/50427/OEBPS/Audio/1/OCJ-005002.mp3"
+            },
+            {
+                "page": "drm/7/50427/OEBPS/Images/1/113a0d0654ef5f6591072b85fbc1c593.jpg"
+            },
+            {
+                "page": "drm/7/50427/OEBPS/Images/1/05ac8255c4dbaeb8228375278fe8aa42.jpg",
+                "audio": "drm/7/50427/OEBPS/Audio/1/OCJ-005003.mp3"
+            },
+            {
+                "page": "drm/7/50427/OEBPS/Images/1/3ffed8dc8c99fb7cd8803f26724b4322.jpg"
+            },
+            {
+                "page": "drm/7/50427/OEBPS/Images/1/318ad639ef49386e710533171193883e.jpg",
+                "audio": "drm/7/50427/OEBPS/Audio/1/OCJ-005004.mp3"
+            },
+            {
+                "page": "drm/7/50427/OEBPS/Images/1/f47ae8fe06535f823b739d2a606d1570.jpg"
+            },
+            {
+                "page": "drm/7/50427/OEBPS/Images/1/048aad5361a338583528e93d39f68e01.jpg",
+                "audio": "drm/7/50427/OEBPS/Audio/1/OCJ-005005.mp3"
+            },
+            {
+                "page": "drm/7/50427/OEBPS/Images/1/1cd094513479ce295a51cc27d381c6cc.jpg"
+            },
+            {
+                "page": "drm/7/50427/OEBPS/Images/1/951ac9742f0b40c2abaa7b8656366286.jpg",
+                "audio": "drm/7/50427/OEBPS/Audio/1/OCJ-005006.mp3"
+            },
+            {
+                "page": "drm/7/50427/OEBPS/Images/1/443ab7ab266af01717629a90dd972307.jpg"
+            },
+            {
+                "page": "drm/7/50427/OEBPS/Images/1/280e2a94859a752a11d753e32fc2e74c.jpg",
+                "audio": "drm/7/50427/OEBPS/Audio/1/OCJ-005007.mp3"
+            },
+            {
+                "page": "drm/7/50427/OEBPS/Images/1/5e3df29251924f8097c7a701f37eadd4.jpg"
+            },
+            {
+                "page": "drm/7/50427/OEBPS/Images/1/7e0fa1e9c837bc4d6321a9b29b3157ac.jpg",
+                "audio": "drm/7/50427/OEBPS/Audio/1/OCJ-005008.mp3"
+            },
+            {
+                "page": "drm/7/50427/OEBPS/Images/1/624470772af004a9d115cdfd726afa7d.jpg"
+            },
+            {
+                "page": "drm/7/50427/OEBPS/Images/1/77dbb68b2d8852f14d73fca4753505a5.jpg",
+                "audio": "drm/7/50427/OEBPS/Audio/1/OCJ-005009.mp3"
+            },
+            {
+                "page": "drm/7/50427/OEBPS/Images/1/5091567706c432512829bce3e3d0a189.jpg"
+            },
+            {
+                "page": "drm/7/50427/OEBPS/Images/1/2ea66f60e10e6f6f5199d37f125c414d.jpg",
+                "audio": "drm/7/50427/OEBPS/Audio/1/OCJ-005010.mp3"
+            },
+            {
+                "page": "drm/7/50427/OEBPS/Images/1/f38cf99c10b39c512d1d4be395a609d8.jpg"
+            },
+            {
+                "page": "drm/7/50427/OEBPS/Images/1/0fe17cde543bb52a46b1b7d026fac0ea.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/50427/OEBPS/Images/1/44dbe8ff957bd15b614d25c366d9f7db.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "50427",
+        "id": "50427",
+        "title": "Cuddly Rabbits",
+        "author": "Katie Kawa",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Beginning readers discover fun facts about rabbits\u2014from what they eat to where they live.",
+        "coverColorR": 146,
+        "coverColorG": 142,
+        "coverColorB": 118,
+        "version": 12309,
+        "previewPercent": 20,
+        "publisher": "Gareth Stevens provided by The Rosen Publishing Group, Inc",
+        "publisherId": "90324",
+        "age": 6,
+        "pageNumOffset": 1,
+        "active": 1,
+        "audio": 1,
+        "lexile": "260L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 403,
+        "ar": "0.9",
+        "fandp": "c",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 85,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pets",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.0702,
+        "contentHash": "4f260199b5e04b893103",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "3",
+        "panelStatus": 0,
+        "date_modified": 1555374298
+    },
+    "userBook": {
+        "modelId": "46250489-50427",
+        "userId": "46250489",
+        "bookId": "50427",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1558946847,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 1,
+        "dateModified": 1558946849,
+        "book": {
+            "modelId": "50427",
+            "title": "Cuddly Rabbits",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "4f260199b5e04b893103"
+        }
+    },
+    "quiz": null
+}

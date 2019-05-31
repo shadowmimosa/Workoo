@@ -1,0 +1,594 @@
+{
+    "publisherData": {
+        "modelId": "82",
+        "name": "Holiday House",
+        "url": "http://www.holidayhouse.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260666
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/3/9103/OEBPS/Images/1/84dfcdb51d9d67458e264f9aa8967bfa.jpg"
+            },
+            {
+                "page": "drm/3/9103/OEBPS/Images/1/33c8ff2907cdc0cbf189b5f9621a780b.jpg"
+            },
+            {
+                "page": "drm/3/9103/OEBPS/Images/1/796ec23c31489dff57584c7bd56b60f6.jpg"
+            },
+            {
+                "page": "drm/3/9103/OEBPS/Images/1/0f502d5dba77f10acf73280ae914bb01.jpg"
+            },
+            {
+                "page": "drm/3/9103/OEBPS/Images/1/854936f62eb7bd375ec3ea8b55281507.jpg"
+            },
+            {
+                "page": "drm/3/9103/OEBPS/Images/1/3e566c765cf302b0c836e890693a2f1a.jpg"
+            },
+            {
+                "page": "drm/3/9103/OEBPS/Images/1/19c214012a58e60e9d2c0ff06069abdc.jpg"
+            },
+            {
+                "page": "drm/3/9103/OEBPS/Images/1/4c5a25d61f32d3949c7cabddfccb6391.jpg"
+            },
+            {
+                "page": "drm/3/9103/OEBPS/Images/1/f2b0f3b15d94b7c4e8a18332c44a44a2.jpg"
+            },
+            {
+                "page": "drm/3/9103/OEBPS/Images/1/947762a6aa5269863ec954ca7969e3fa.jpg"
+            },
+            {
+                "page": "drm/3/9103/OEBPS/Images/1/4104bb568f82cf1cdedb54ce57361705.jpg"
+            },
+            {
+                "page": "drm/3/9103/OEBPS/Images/1/2d11304a8d20b2ea1f0a6d62383832e6.jpg"
+            },
+            {
+                "page": "drm/3/9103/OEBPS/Images/1/84dc7dbd9c4c5e1e9fcd33793cc2a32c.jpg"
+            },
+            {
+                "page": "drm/3/9103/OEBPS/Images/1/f0c7bca28fd7f61e82c5c79f892d9e4e.jpg"
+            },
+            {
+                "page": "drm/3/9103/OEBPS/Images/1/097a0fa352382192c2a6765d2c891460.jpg"
+            },
+            {
+                "page": "drm/3/9103/OEBPS/Images/1/8d54c69f3eaac3196e0ea339f17d5215.jpg"
+            },
+            {
+                "page": "drm/3/9103/OEBPS/Images/1/273cefb7a60dea391e99746d2adadc12.jpg"
+            },
+            {
+                "page": "drm/3/9103/OEBPS/Images/1/df385b5ed7a1caff50ea5ad1e1f3f1dc.jpg"
+            },
+            {
+                "page": "drm/3/9103/OEBPS/Images/1/6266af6699da7a3e0563c81912b0fc52.jpg"
+            },
+            {
+                "page": "drm/3/9103/OEBPS/Images/1/0e178ef17b0883854bf08ef90b9ec13d.jpg"
+            },
+            {
+                "page": "drm/3/9103/OEBPS/Images/1/18ad055d59d69a38192945d8e474f449.jpg"
+            },
+            {
+                "page": "drm/3/9103/OEBPS/Images/1/b6eb9fcebf56ab3ca59697637538144d.jpg"
+            },
+            {
+                "page": "drm/3/9103/OEBPS/Images/1/b1f7e0b030383d8b7119004e50856589.jpg"
+            },
+            {
+                "page": "drm/3/9103/OEBPS/Images/1/8e6557cfc714982deaa77736b536173a.jpg"
+            },
+            {
+                "page": "drm/3/9103/OEBPS/Images/1/62e96be8146546d11c8af3fa02936829.jpg"
+            },
+            {
+                "page": "drm/3/9103/OEBPS/Images/1/25d01d7fd90b5814616eef34d4de396f.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/3/9103/OEBPS/Images/1/aac6b4fc11c9e39b8b1fdaf78b26a68e.jpg",
+            "color": "#fdf8d2"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "9103",
+        "id": "9103",
+        "title": "The Kindhearted Crocodile",
+        "author": "Lucia Panzieri",
+        "illustrator": "AntonGionata Ferrari",
+        "numPages": 26,
+        "bookDescription": "The crocodile in this story may have big sharp teeth, powerful jaws, and a swift, strong body, but he yearns to love and be loved.",
+        "coverColorR": 204,
+        "coverColorG": 199,
+        "coverColorB": 181,
+        "version": 0,
+        "previewPercent": 10,
+        "publisher": "Holiday House",
+        "publisherId": "82",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "AD770L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 476,
+        "ar": "4.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Humorous Stories",
+        "subjectColor": "FFD673",
+        "copyright": "",
+        "aspectRatio": 0.7752,
+        "contentHash": "4b0e8e623ea314626ad0",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1513382445
+    },
+    "userBook": {
+        "modelId": "46250489-9103",
+        "userId": "46250489",
+        "bookId": "9103",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311719,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311719,
+        "book": {
+            "modelId": "9103",
+            "title": "The Kindhearted Crocodile",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "4b0e8e623ea314626ad0"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "400025",
+            "user_id": "1164989",
+            "book_id": "9103",
+            "title": "The Kindhearted Crocodile Quiz",
+            "description": "",
+            "date_created": 1556805981,
+            "date_modified": 1556815298,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Where does the crocodile live?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "In a book",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "In the kitchen",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "In the zoo",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What does the crocodile want to be?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "A pet",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "A singer",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "A cook",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What does it mean to be kindhearted?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Being kind and nice to others",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Having a heart that is the same as someone else",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Being mean",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What type of pets did families want?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Puppies and goldfish",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Sharks",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Tigers",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "When would the crocodile do his kind and useful tasks for the family?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "At night",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "At lunch",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "He was never nice",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "What is one of the kind tasks the crocodile did for the family?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "He washed dishes",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "He cut the grass",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "He took the car out to get washed",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 5
+                },
+                {
+                    "title": "How did the family catch the crocodile?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "They hid in the wardrobe late one night",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "The shook the book",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "They baked a cake",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 6
+                },
+                {
+                    "title": "Did the family keep the crocodile as a pet?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Yes",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "No",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 7
+                },
+                {
+                    "title": "What is the theme of the story?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "don't judge others on how they look",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "crocodiles can be nice",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "kids can play with all animals",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 8
+                }
+            ],
+            "modelId": "400025",
+            "creatorName": "Mrs. huling",
+            "avatarId": "21",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "1164989",
+                "udid": "55b57c41280b08.68132146",
+                "journalName": "Mrs. huling",
+                "journalCoverAvatar": "21",
+                "journalCoverColor": "0.12549019607843 0.92941176470588 0.96078431372549 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "194316896",
+                "fid": "",
+                "accountID": "B3AD1246-2CBE-BAE4-4047-7F45D0C2756C",
+                "simpleAccountId": "630789",
+                "pagesFlipped": 613,
+                "nufComplete": 1,
+                "readingAge": 6.83333,
+                "startingAge": 7,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 187,
+                "xpLevel": 7,
+                "dateLastLogin": 1556112363,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Katie",
+                "lastName": "huling",
+                "accountType": 1,
+                "dateModified": 1558541548,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. huling"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Where does the crocodile live?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "In a book",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "In the kitchen",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "In the zoo",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What does the crocodile want to be?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "A pet",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "A singer",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "A cook",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What does it mean to be kindhearted?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Being kind and nice to others",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Having a heart that is the same as someone else",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Being mean",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What type of pets did families want?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Puppies and goldfish",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Sharks",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Tigers",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "When would the crocodile do his kind and useful tasks for the family?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "At night",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "At lunch",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "He was never nice",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "What is one of the kind tasks the crocodile did for the family?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "He washed dishes",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "He cut the grass",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "He took the car out to get washed",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 5
+            },
+            {
+                "title": "How did the family catch the crocodile?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "They hid in the wardrobe late one night",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "The shook the book",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "They baked a cake",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 6
+            },
+            {
+                "title": "Did the family keep the crocodile as a pet?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Yes",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "No",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 7
+            },
+            {
+                "title": "What is the theme of the story?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "don't judge others on how they look",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "crocodiles can be nice",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "kids can play with all animals",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 8
+            }
+        ]
+    }
+}

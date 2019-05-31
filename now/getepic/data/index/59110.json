@@ -1,0 +1,185 @@
+{
+    "publisherData": {
+        "modelId": "90312",
+        "name": "Houghton Mifflin Harcourt",
+        "url": "https://www.hmhco.com/",
+        "checkout": 0,
+        "educationalEnabled": 0,
+        "dateModified": 1523564869
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/17578562268e5bc891d7685119c429bd.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/c6caa2e222b52d4816f2e2a53c09e10d.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/8e229ec5e4359381bbb9e76dfd1044bb.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/8c69fd98fba1cef75393b9b87d498dcb.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/4dcba99e849b1d4bee6f1e3543127406.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/da85f4c42ca8500ca9b4b0af98d73ada.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/3894d7cea1464544af4fc3d247e1b862.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/9522e7d61885a24a05605b8e243576b5.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/d66a56533ce82a6a9b124af093e25352.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/19c2cbe9915c2431e7937cafff7b9367.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/3d0bf2dd4a15a5a13efbc0730c253087.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/37fced74e4d54ccfe05b775226295e2e.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/8a531805f20b600789dadca53cd52212.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/ae303d5feff6059a1ed6f1c81f0ef989.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/6d3faa030e4f111ee7de1409218e5459.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/1dea5396737b3b42ad2364a71707fe3f.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/e20bc05b62669553a5362a74e024119f.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/e6d04753cc8e6a5b8030714df6d89472.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/0ab5fad34fd983dd46494010226c6885.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/ed9c11b408963f1289e00b22d599dca9.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/fb0eb66ee80ecf7190707f48125a0d65.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/b751a44a7040eefb3afc5515f106e8ff.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/89a521bc3834ee60297eca90ed653c70.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/05f3ca9f3fa2ee5b4a7bab12359c554c.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/5c0d2db2ed78203b0b333230d4284d94.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/e839d9412f34d29b1b08b904b440d6a5.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/24612ed42d3688302e33d601bb8aa181.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/e07a6d0b94f7277d538944ab328f772c.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/80bdd808cfd71cc543707c9e9a496818.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/e77c0281e62e5e5d6ff9fc859916f5b8.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/813551b3b7e3dc779584c17017fef08d.jpg"
+            },
+            {
+                "page": "drm/0/59110/OEBPS/Images/1/050c3d1f682bb76af60760d7149953e8.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/59110/OEBPS/Images/1/aad315fdaeb3e10f89a0d5c71b9466b3.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "59110",
+        "id": "59110",
+        "title": "The Goodnight Train",
+        "author": "June Sobel",
+        "illustrator": "Laura Huliska-Beith",
+        "numPages": 32,
+        "bookDescription": "A child\u2019s bedtime ritual follows the imaginary journey of a goodnight train\u2019s trip to the Dreamland station.",
+        "coverColorR": 46,
+        "coverColorG": 110,
+        "coverColorB": 142,
+        "version": 50197152,
+        "previewPercent": 20,
+        "publisher": "Houghton Mifflin Harcourt",
+        "publisherId": "90312",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "AD460L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 533,
+        "ar": "1.5",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 75,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Life Lessons",
+        "subjectColor": "48D864",
+        "copyright": "2006",
+        "aspectRatio": 1.2222,
+        "contentHash": "575cf92d62d09570e890",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1552328526
+    },
+    "userBook": {
+        "modelId": "46250489-59110",
+        "userId": "46250489",
+        "bookId": "59110",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310292,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310292,
+        "book": {
+            "modelId": "59110",
+            "title": "The Goodnight Train",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "575cf92d62d09570e890"
+        }
+    },
+    "quiz": null
+}

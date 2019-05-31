@@ -1,0 +1,185 @@
+{
+    "publisherData": {
+        "modelId": "94",
+        "name": "Sleeping Bear Press",
+        "url": "http://sleepingbearpress.com",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491261794
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/4ce5ab07568b3deec115c2eccc6a5087.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/d80b566ce65e99f01f5b350fc05f7ce7.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/304a0d4b3fe758d5e37c94094f617f13.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/d4d4e4cc3e67a7bc40356abed047b41b.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/eebedeb3f47574752f684583dcf6cb7b.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/edf2cd9b3da2d4ed6fd2f41bf5cbbe45.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/42e006af1cb28cbea211d034aa13f1b8.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/274d612e74ab1517ba234ea2487f88c4.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/e03be5a1a03e4a0a748f97376a09f6a5.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/d937b0a901189d84c10b3b0beaaca817.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/d46bf742035e30644cf6c76ed79a0348.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/69d39f87d3761f3465bd464c766c682f.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/7f6bb91325312c2c74a2ea16db674ae6.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/9bba2e11ed4303e9817e29b9699bcb26.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/c52d9f8299a10c779008a8a49721d2ff.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/28dd9d249adee44d3271d7057ca00627.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/b2f4fca8d788dd6c7731b6e451049a72.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/27956b53ffcf7ec67609920babc63da6.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/736886ceccc7ceeece4e4d6c5581e96e.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/d98ffd91cc0380bfaf9524aebe753f44.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/462598a7d4f9857d52c2564288fb4355.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/7b645a5d164a6d59efa1ec0ad5194869.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/62977e2db6a59a1e66429531f67c14f6.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/e2f2c03daaa8b8c61e69fe9c2bd11a8a.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/7be5d4a9a54752efafad86193c74fdc9.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/82636edad38c71fd2a91deddd2974130.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/6adf6260bba611a0b64ed7412949c7ea.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/7fc58847d6f2d43001e2b3a374f6f58d.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/372a13169dfb520a8d827ac00362c389.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/0a74577a9002c1fde906b2c565829e40.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/166b1e8a584fda282d63fc817db6e7e2.jpg"
+            },
+            {
+                "page": "drm/3/50313/OEBPS/Images/1/09f434cb7d48d1f352cdbfba702180c1.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/3/50313/OEBPS/Images/1/e77a986f9e61abfa3a0e537491efd1f1.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "50313",
+        "id": "50313",
+        "title": "Seed Man",
+        "author": "Aiko Ikegami",
+        "illustrator": " ",
+        "numPages": 32,
+        "bookDescription": "When a mysterious stranger carrying a bag of seeds comes to town, magical things happen.",
+        "coverColorR": 166,
+        "coverColorG": 205,
+        "coverColorB": 197,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Sleeping Bear Press",
+        "publisherId": "94",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "AD370L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 586,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "91",
+        "subjectDesc": "Fairy Tales, Folk Tales & Myths",
+        "subjectColor": "F54444",
+        "copyright": "",
+        "aspectRatio": 0.8169,
+        "contentHash": "5e570f5c141433079dba",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "3",
+        "panelStatus": 0,
+        "date_modified": 1527096294
+    },
+    "userBook": {
+        "modelId": "46250489-50313",
+        "userId": "46250489",
+        "bookId": "50313",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559304974,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559304974,
+        "book": {
+            "modelId": "50313",
+            "title": "Seed Man",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "5e570f5c141433079dba"
+        }
+    },
+    "quiz": null
+}

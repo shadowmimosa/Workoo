@@ -1,0 +1,517 @@
+{
+    "publisherData": {
+        "modelId": "2",
+        "name": "Twin Sisters IP, LLC.",
+        "url": "http://www.twinsisters.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1547683900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/d3109e8064b7fed604b8699b4316c313.jpg",
+                "audio": "drm/8/17868/OEBPS/Audio/1/aud1.mp3"
+            },
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/79563a7cf1306146cb0886a1ca0dd048.jpg",
+                "audio": "drm/8/17868/OEBPS/Audio/1/aud4.mp3"
+            },
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/9e8e2bc90f81c3186f4b6e5b6bc394c8.jpg"
+            },
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/fe8dcd02a1a514696fb7ac87afaa9138.jpg"
+            },
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/03d76e3ecda9f64081d6efa59e94e5f2.jpg",
+                "audio": "drm/8/17868/OEBPS/Audio/1/aud7.mp3"
+            },
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/dcfe2900b759949b89e3afa4bb3e7929.jpg",
+                "audio": "drm/8/17868/OEBPS/Audio/1/aud8.mp3"
+            },
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/d1ea0f561cfd1d75271a4092747153e4.jpg",
+                "audio": "drm/8/17868/OEBPS/Audio/1/aud9.mp3"
+            },
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/587156ae3c456ba7c5fa6be1f356f674.jpg",
+                "audio": "drm/8/17868/OEBPS/Audio/1/aud10.mp3"
+            },
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/11344be3ba7da676b3435644badf7775.jpg",
+                "audio": "drm/8/17868/OEBPS/Audio/1/aud11.mp3"
+            },
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/7e2e9ed72869d847199cb3c638350220.jpg",
+                "audio": "drm/8/17868/OEBPS/Audio/1/aud12.mp3"
+            },
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/f15405fde91a93a6a03a618ddd576807.jpg"
+            },
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/61af062f3993f0b57831ae3165cde2b8.jpg",
+                "audio": "drm/8/17868/OEBPS/Audio/1/aud14.mp3"
+            },
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/5723bff55649840d359267d1bbbe923b.jpg"
+            },
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/9f6b29a4fc456be8dcc399189afcc2d4.jpg",
+                "audio": "drm/8/17868/OEBPS/Audio/1/aud16.mp3"
+            },
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/6bcb54e35d4a4e3fc62c902821d0171c.jpg",
+                "audio": "drm/8/17868/OEBPS/Audio/1/aud17.mp3"
+            },
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/f6f7d28ef03b9c611c0b01adea268d7a.jpg",
+                "audio": "drm/8/17868/OEBPS/Audio/1/aud18.mp3"
+            },
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/3699168ed5faa109aff6b01cc02ec3ab.jpg"
+            },
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/5f25418ba9934829800333d6a540a6ec.jpg",
+                "audio": "drm/8/17868/OEBPS/Audio/1/aud20.mp3"
+            },
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/e8477df1e22c3f1b57676ec3eeb7f8fd.jpg"
+            },
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/83df8171a14505c4cdcf74a15bcd0ef8.jpg"
+            },
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/ef91c7a8317b476dc05b41ffa9dbbc9b.jpg",
+                "audio": "drm/8/17868/OEBPS/Audio/1/aud23.mp3"
+            },
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/43f9dc7b81f9aa3487b1a92099fe7cba.jpg",
+                "audio": "drm/8/17868/OEBPS/Audio/1/aud24.mp3"
+            },
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/ab21fee10043ca6b16e4547ae1b38c6f.jpg"
+            },
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/2b21a4ee06f5fb1f8664a34b7892c7f8.jpg",
+                "audio": "drm/8/17868/OEBPS/Audio/1/aud26.mp3"
+            },
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/94852b8d96e7dfcd1fd39532a8392b9d.jpg"
+            },
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/6b854a6915e46ce55054fc7da007382e.jpg",
+                "audio": "drm/8/17868/OEBPS/Audio/1/aud28.mp3"
+            },
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/5021bcd9b837379d1848617a468ad85b.jpg"
+            },
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/340a31fffe29e35161637d3efdd52c4e.jpg"
+            },
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/4b36a450c78271b711a3faedd440fa0e.jpg",
+                "audio": "drm/8/17868/OEBPS/Audio/1/aud31.mp3"
+            },
+            {
+                "page": "drm/8/17868/OEBPS/Images/1/abdd0a1756fecacce7979cec71a20d50.jpg",
+                "audio": "drm/8/17868/OEBPS/Audio/1/aud32.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/17868/OEBPS/Images/1/255df803fadb13ba639b69c51cc66502.jpg",
+            "color": "#fefefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "17868",
+        "id": "17868",
+        "title": "Wiggly Tooth",
+        "author": "Catherine Lukas",
+        "illustrator": "Stephen Schreiber",
+        "numPages": 30,
+        "bookDescription": "Read along and discover a little girl\u2019s adventures with her loose tooth.",
+        "coverColorR": 136,
+        "coverColorG": 200,
+        "coverColorB": 203,
+        "version": 12309,
+        "previewPercent": 20,
+        "publisher": "Twin Sisters IP, LLC.",
+        "publisherId": "2",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 500,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Daily Life",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 0.6672,
+        "contentHash": "337be05eb2cfd50eba93",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1554159299
+    },
+    "userBook": {
+        "modelId": "46250489-17868",
+        "userId": "46250489",
+        "bookId": "17868",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311242,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311242,
+        "book": {
+            "modelId": "17868",
+            "title": "Wiggly Tooth",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "337be05eb2cfd50eba93"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "150410",
+            "user_id": "1215319",
+            "book_id": "17868",
+            "title": "Loose Tooth",
+            "description": "",
+            "date_created": 1512263705,
+            "date_modified": 1516311609,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What was the girl drinking when she saw her tooth was loose?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "juice",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "milk",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "water",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "soda",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "It was the loosest tooth ______.",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "in school",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "at the pool",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "in the room",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "at home",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Who wanted to pull out her tooth?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "her brother",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "she did",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "her teacher",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "her friends",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "When did her tooth fall out?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "first thing in the morning",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "at school",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "at night",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "at lunch",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Her _______ fits where it used to be.",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "tongue",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "tooth",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "food",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "straw",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "150410",
+            "creatorName": "Mrs Smith",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "1215319",
+                "udid": "55c2ada35fb840.43607347",
+                "journalName": "Mrs Smith",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.11764705882353 0.91764705882353 0.64313725490196 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "67457572",
+                "fid": "",
+                "accountID": "6DD2596C-1AF0-9002-6D9C-22AC27C7096D",
+                "simpleAccountId": "653457",
+                "pagesFlipped": 6163,
+                "nufComplete": 1,
+                "readingAge": 6.4666666666667,
+                "startingAge": 0,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 0,
+                "xpLevel": 1,
+                "dateLastLogin": 1558653621,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Monika",
+                "lastName": "Smith",
+                "accountType": 1,
+                "dateModified": 1558653621,
+                "educatorPrefix": "Mrs",
+                "name": "Mrs Smith"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What was the girl drinking when she saw her tooth was loose?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "juice",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "milk",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "water",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "soda",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "It was the loosest tooth ______.",
+                "quizQuestionChoices": [
+                    {
+                        "title": "in school",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "at the pool",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "in the room",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "at home",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Who wanted to pull out her tooth?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "her brother",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "she did",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "her teacher",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "her friends",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "When did her tooth fall out?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "first thing in the morning",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "at school",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "at night",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "at lunch",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Her _______ fits where it used to be.",
+                "quizQuestionChoices": [
+                    {
+                        "title": "tongue",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "tooth",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "food",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "straw",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

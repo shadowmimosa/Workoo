@@ -1,0 +1,493 @@
+{
+    "publisherData": {
+        "modelId": "107",
+        "name": "Rourke Educational Media",
+        "url": "http://rourkeeducationalmedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570193
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/18700/OEBPS/Images/1/3f43f454de0d74ad38c747fca8a3c934.jpg",
+                "audio": "drm/0/18700/OEBPS/Audio/1/35178e2e6bc0a1288a6ae42295b7e55a.mp3"
+            },
+            {
+                "page": "drm/0/18700/OEBPS/Images/1/d15a063f8f1e1dff959c3d3c01d78bf3.jpg",
+                "audio": "drm/0/18700/OEBPS/Audio/1/5eb67bd9f61297b64c603cc8f5fb703f.mp3"
+            },
+            {
+                "page": "drm/0/18700/OEBPS/Images/1/7ebbc2244e2740a377219304b2db867c.jpg"
+            },
+            {
+                "page": "drm/0/18700/OEBPS/Images/1/b69d55a0a758e1b8926d56bba7534725.jpg",
+                "audio": "drm/0/18700/OEBPS/Audio/1/1a7ae2a9ddcb34acfccddb214fa07f31.mp3"
+            },
+            {
+                "page": "drm/0/18700/OEBPS/Images/1/a838339f4a23437dd52989f51fce0b6d.jpg"
+            },
+            {
+                "page": "drm/0/18700/OEBPS/Images/1/d946df361ec1908051c03b86fdabb24a.jpg",
+                "audio": "drm/0/18700/OEBPS/Audio/1/0c9bb48118d18156b21e679266765277.mp3"
+            },
+            {
+                "page": "drm/0/18700/OEBPS/Images/1/b59e38ee4c7616f0932ada566141bc57.jpg"
+            },
+            {
+                "page": "drm/0/18700/OEBPS/Images/1/c3b6e03d6c20bf8b997edcdcfe748381.jpg",
+                "audio": "drm/0/18700/OEBPS/Audio/1/eb2374c679831fc7e06971a95c17f058.mp3"
+            },
+            {
+                "page": "drm/0/18700/OEBPS/Images/1/f76e9dddcee9ab4852885d9a1c945deb.jpg"
+            },
+            {
+                "page": "drm/0/18700/OEBPS/Images/1/127b672fdd473bc6367a16de6ea3b600.jpg",
+                "audio": "drm/0/18700/OEBPS/Audio/1/d9eff59ed955d328f8a7ee0326c39499.mp3"
+            },
+            {
+                "page": "drm/0/18700/OEBPS/Images/1/84dbe088071344bc77417ec803ba5fa8.jpg"
+            },
+            {
+                "page": "drm/0/18700/OEBPS/Images/1/afd69089bb7de9418de6228c06aa9c91.jpg",
+                "audio": "drm/0/18700/OEBPS/Audio/1/5d242d604a85c756921fc76b5ad04748.mp3"
+            },
+            {
+                "page": "drm/0/18700/OEBPS/Images/1/81cdde78c83bae5d6ba544e2b80303dc.jpg"
+            },
+            {
+                "page": "drm/0/18700/OEBPS/Images/1/0234893dfe3e9eedcd214183888f0a8c.jpg",
+                "audio": "drm/0/18700/OEBPS/Audio/1/61b46b2971a0153dd9d11208fbccd7b4.mp3"
+            },
+            {
+                "page": "drm/0/18700/OEBPS/Images/1/923465b6091a796a2740b6e893079244.jpg"
+            },
+            {
+                "page": "drm/0/18700/OEBPS/Images/1/e92650f9388f8e7f8ffc96d3bd82cd08.jpg",
+                "audio": "drm/0/18700/OEBPS/Audio/1/e77fe7d3c2865148e61b7e9712c5889e.mp3"
+            },
+            {
+                "page": "drm/0/18700/OEBPS/Images/1/808b55ab6803ae4c3198b7285d3badf0.jpg"
+            },
+            {
+                "page": "drm/0/18700/OEBPS/Images/1/a6b1cd682815761ba3b19fef09ccb861.jpg",
+                "audio": "drm/0/18700/OEBPS/Audio/1/89a26908c18979ae2d5eb7fbb4bb8671.mp3"
+            },
+            {
+                "page": "drm/0/18700/OEBPS/Images/1/9bddd963e8070f7693611f6a6875f2fb.jpg"
+            },
+            {
+                "page": "drm/0/18700/OEBPS/Images/1/bcbf7af13fac0c1367193bd13166cddf.jpg",
+                "audio": "drm/0/18700/OEBPS/Audio/1/b32beab217664c6f4569d6da8fd92ae9.mp3"
+            },
+            {
+                "page": "drm/0/18700/OEBPS/Images/1/4690dea07651ccb3a7d15d28eab80ae1.jpg"
+            },
+            {
+                "page": "drm/0/18700/OEBPS/Images/1/6b25bb51fb8b380e171011dfd94aa900.jpg"
+            },
+            {
+                "page": "drm/0/18700/OEBPS/Images/1/a98947f56fe36dba64759a7b4456b47e.jpg"
+            },
+            {
+                "page": "drm/0/18700/OEBPS/Images/1/423a5f1ecdc792077c09f34e0dc8b9e7.jpg"
+            },
+            {
+                "page": "drm/0/18700/OEBPS/Images/1/d994bcd9e3bf0689c627818e59a3c612.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/18700/OEBPS/Images/1/d44bce4a67ff039089d3c7a7370a9eb3.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18700",
+        "id": "18700",
+        "title": "The Museum Mystery",
+        "author": "Meg Greve",
+        "illustrator": " ",
+        "numPages": 25,
+        "bookDescription": "The campers visit a museum to see mummies and masks.",
+        "coverColorR": 192,
+        "coverColorG": 188,
+        "coverColorB": 139,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Rourke Educational Media",
+        "publisherId": "107",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 416,
+        "ar": "1.5",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Daily Life",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "f3af0789a9c6d082e12b",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372872
+    },
+    "userBook": {
+        "modelId": "46250489-18700",
+        "userId": "46250489",
+        "bookId": "18700",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310112,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310112,
+        "book": {
+            "modelId": "18700",
+            "title": "The Museum Mystery",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "f3af0789a9c6d082e12b"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "400165",
+            "user_id": "31725537",
+            "book_id": "18700",
+            "title": "The Museum Mystery",
+            "description": "",
+            "date_created": 1556808956,
+            "date_modified": 1556808956,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Where does the story take place?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "A museum",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "An aquarium",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "At home",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Outside",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "Who were the characters?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Will, Rosie, Marcos",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Will, Jill, Marty",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Tucker, Rosie, Marcos",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Levi, Marty Will",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What types of masks did they see?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Monkey, mouse, monster",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Shark,mouse monkey",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Monster, moon rocks, mummy",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Wooly mammoth, shark, mouse",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What else did they see?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Mummy, moon rocks, wooly mammoth",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Dogs, cats, mummy",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Moon rocks, sharks, leaves",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Statues, rocks, wooly mammoth ",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Who put on a scary mask?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Marcos",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Will",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Rosie",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Levi",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "400165",
+            "creatorName": "Bryce M.",
+            "avatarId": "36",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "31725537",
+                "udid": "5ba94d2132b670.91747856",
+                "journalName": "Bryce M.",
+                "journalCoverAvatar": "36",
+                "journalCoverColor": "0.11764705882353 0.91764705882353 0.64313725490196 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "0",
+                "code": "293630869",
+                "fid": "",
+                "accountID": "3739BDFF-969E-8120-9BB4-4A17559EA9B5",
+                "simpleAccountId": "5482881",
+                "pagesFlipped": 4814,
+                "nufComplete": 1,
+                "readingAge": 7.9,
+                "startingAge": 6,
+                "status": 0,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 2158,
+                "xpLevel": 14,
+                "dateLastLogin": 1557154914,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "Bryce",
+                "lastName": "Maddox",
+                "accountType": 1,
+                "dateModified": 1557932650,
+                "grade": 1
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Where does the story take place?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "A museum",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "An aquarium",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "At home",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Outside",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "Who were the characters?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Will, Rosie, Marcos",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Will, Jill, Marty",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Tucker, Rosie, Marcos",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Levi, Marty Will",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What types of masks did they see?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Monkey, mouse, monster",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Shark,mouse monkey",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Monster, moon rocks, mummy",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Wooly mammoth, shark, mouse",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What else did they see?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Mummy, moon rocks, wooly mammoth",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Dogs, cats, mummy",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Moon rocks, sharks, leaves",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Statues, rocks, wooly mammoth ",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Who put on a scary mask?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Marcos",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Will",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Rosie",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Levi",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

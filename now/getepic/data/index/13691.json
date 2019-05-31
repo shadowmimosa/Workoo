@@ -1,0 +1,522 @@
+{
+    "publisherData": {
+        "modelId": "32",
+        "name": "Pippin Properties, Inc",
+        "url": "http://www.pippinproperties.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491261530
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/f7a1e76c3a69e22f7810255368192215.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/d059fd140bee0a6a7d0366f3b0ca9847.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/e51c0070740d4930dd8a1fbd1601479d.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/10533ad863b31b3f6fbf1a60d216291e.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/10da12b807ce3285325e59b980fbe7b7.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/dae359531584ed7c2ce2a96eaff74047.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/7845602087e40f0a24fac8ff6542c6f5.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/dda43f53dfc4e6cea29490c644f46b22.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/a26c14e283dbad4b6c832fc23cd635b5.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/e42640e3d06f1bb76ff45e2e8ecdbd1b.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/111d691e5446a51c5cf1974c93cc5d50.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/899a5b347766b18e9a8e1d6c6d81ca15.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/2d5a8c512381b0bce58bef088bc19a2b.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/c94c0973542b2a891cb028997c20a1a2.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/a4ee0c2336cff4c9d6baa2142f046375.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/d26c21a53af3191d1cc0cdd4e25c7a4a.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/1a5774cc64536fd3b856748225aca9d7.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/dadc1a8049273f9bc659331081c70c6a.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/000e919344f5326fff031ad8963c8760.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/e48cc64955640dd4835f6dda6e38ac1f.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/c81fcc8964b2e201fbbb37b762680f5f.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/bb4812d7c8cbb26aca0b47f06ec6eda8.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/230c4dd5d937215bd50d7078079304c9.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/c3b9bf7bd56f074dc4bf5b335d034a61.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/00e6800e72c5105dfdcd5aad305bc79b.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/5a4da337f1d0c84253aea62e23ae2456.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/51a30270bfc3f797a44a7fa6962cea4e.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/e5ccc1ac583c3a4fb623b22f82ec3c49.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/f133c231db7f063a65778ff38c5b51d8.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/9596c950dff7a53bffe1ed22eb5a5130.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/3e9c15dad8f43afb77997173f5aca40a.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/33623a3b32723236769a2503426f357d.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/d7480ea6fddc1f32f3ea5b4d29ed008b.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/0eacf37d2ab0caa13d6b29572e1c85fc.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/f4962b202e09bd362b20064941d3946c.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/d20624615f01aa9d2e3b564ee69e634f.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/1309f8da1aadefed46089972a4cb10b1.jpg"
+            },
+            {
+                "page": "drm/1/13691/OEBPS/Images/1/ac2f7546ce9ecc1d278ef327641baed7.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/13691/OEBPS/Images/1/5d624ce9c46fb48aef8213af42d96383.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "13691",
+        "id": "13691",
+        "title": "Fluffy Learns to Swim",
+        "author": "Kate McMullan",
+        "illustrator": "Mavis Smith",
+        "numPages": 38,
+        "bookDescription": "Fluffy the guinea pig can't seem to convince anyone that pigs don't swim and he even has doubts himself after dreaming that he is Aqua Pig.",
+        "coverColorR": 214,
+        "coverColorG": 214,
+        "coverColorB": 186,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Pippin Properties, Inc",
+        "publisherId": "32",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "440L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 696,
+        "ar": "2.2",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Daily Life",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 0.6667,
+        "contentHash": "af0c451284abf2a1077d",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1555372685
+    },
+    "userBook": {
+        "modelId": "46250489-13691",
+        "userId": "46250489",
+        "bookId": "13691",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311139,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311139,
+        "book": {
+            "modelId": "13691",
+            "title": "Fluffy Learns to Swim",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "af0c451284abf2a1077d"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "112280",
+            "user_id": "12298847",
+            "book_id": "13691",
+            "title": "Fluffy Learns to Swim",
+            "description": "",
+            "date_created": 1501536034,
+            "date_modified": 1513880937,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Where does the Wade family take Fluffy?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "their Lake House",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "the zoo",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Grandma's house",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "the mall",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What is Wade's big sister's name?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Zoe",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Charlotte",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Lucy",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Kaidence",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What does Fluffy wear to go swimming?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "a yellow water wing",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "a lifejacket",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "a swimsuit",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "nothing",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "How did Fluffy get out of the water?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "a girl with a fishing pole",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "he swam to shore",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "he flew like a bird",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "a jet rescued him",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "How does Fluffy learn to swim?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "By watching the Aqua girls",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "by reading a book",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "he already knew how",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "he watched other students",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "112280",
+            "creatorName": "Mrs. Johnson",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "12298847",
+                "udid": "5849ba0fb13cf2.98998707",
+                "journalName": "Mrs. Johnson",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "1 0.67843137254902 0.26274509803922 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "352874494",
+                "fid": "",
+                "accountID": "20302214-A1A0-7629-C561-2C3FC3D77649",
+                "simpleAccountId": "4121696",
+                "pagesFlipped": 6437,
+                "nufComplete": 1,
+                "readingAge": 6.56667,
+                "startingAge": 0,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 810,
+                "xpLevel": 8,
+                "dateLastLogin": 1534640081,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Angela",
+                "lastName": "Johnson",
+                "accountType": 1,
+                "dateModified": 1534640081,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Johnson"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Where does the Wade family take Fluffy?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "their Lake House",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "the zoo",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Grandma's house",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "the mall",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What is Wade's big sister's name?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Zoe",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Charlotte",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Lucy",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Kaidence",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What does Fluffy wear to go swimming?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "a yellow water wing",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "a lifejacket",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "a swimsuit",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "nothing",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "How did Fluffy get out of the water?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "a girl with a fishing pole",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "he swam to shore",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "he flew like a bird",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "a jet rescued him",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "How does Fluffy learn to swim?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "By watching the Aqua girls",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "by reading a book",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "he already knew how",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "he watched other students",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

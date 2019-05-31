@@ -1,0 +1,429 @@
+{
+    "publisherData": {
+        "modelId": "90008",
+        "name": "Gecko Press an imprint of Lerner Publishing Group",
+        "url": "http://www.geckopress.co.nz/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1490146597
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/05891EE8-D8E9-408A-AD9B-14317B324BA2.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/A636BAE0-5242-499C-A5AB-0BA3AA762D68.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/1F0372F2-62CD-49D0-B7D6-0586419D60F2.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/B4C2610A-C83B-48EB-97F5-988454192DC7.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/69B8B166-0E54-4291-9957-C2F93E642DBB.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/94507E7F-C988-4B1E-8CF6-54D823177D3F.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/50B5B517-63FB-4AF7-B033-F69352D69B16.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/946E060A-B569-43DE-B223-8F2E4CC2B236.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/16D95BCE-C55A-4248-A900-77CBF34096DE.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/ABC64B65-5539-4161-8CA1-59A44793DCA5.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/1C5D423A-1153-431F-B7CC-E12EB7643F3E.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/8B3C7FED-F0CE-4B3D-BD48-2D49C6144DAB.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/31E7AA0C-9B7F-4BED-ABA7-2878E39D5AF1.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/F8EBED9A-795D-4E46-8167-454167572A37.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/26F8B3FC-5B4F-448E-84E3-CACA9586E145.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/AD074BE5-E648-42D6-BF9D-B1B5CE3DDC76.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/8284A212-3510-4B21-8395-3C678B45BD12.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/0870C812-88BA-4CA8-9315-30160B7B7815.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/FBB0EF99-9A20-4B67-BF6B-E74645C013AF.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/FD93A076-46F1-4376-A6F7-82D8467A8731.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/37B1CEE7-996E-420B-94F3-A29DD306B44B.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/6D2A7C62-BE0E-4008-AF8B-55CDD39E6281.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/8BE1E826-2134-419B-A525-30C33BCE6781.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/BCE58F6D-C1C6-4C14-9537-3E7B88AD9E33.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/29AEDA04-42BB-4C5B-8CDC-8AA764E4EE65.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/5C255B5E-197A-4613-A85E-CEDF1DD2425E.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/2B82425A-0E10-4870-BABB-FF86FD43EB29.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/75AF2BCD-3579-4AC5-A04D-1141E0ED769B.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/A5C39B3B-97DD-439F-9A27-5A7983AA4B35.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/4B0DF67C-4F3C-4E82-BA0C-FABC96FC1A0B.jpg"
+            },
+            {
+                "page": "drm/7/36027/OEBPS/Images/1/BADE5FD7-CF88-445C-8FB5-EA86C02A0215.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/36027/OEBPS/Images/1/E4556A10-E76C-42A6-BE5F-3AEAE3B98C9C.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "36027",
+        "id": "36027",
+        "title": "That's NOT a Hippopotamus!",
+        "author": "Juliette MacIver",
+        "illustrator": "Sarah Davis",
+        "numPages": 31,
+        "bookDescription": "A class trip to the zoo descends into a chaotic hunt for the missing hippopotamus. Teacher, zookeeper and all the children join the search!",
+        "coverColorR": 178,
+        "coverColorG": 196,
+        "coverColorB": 192,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Gecko Press an imprint of Lerner Publishing Group",
+        "publisherId": "90008",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "AD390L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 465,
+        "ar": "2.1",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Daily Life",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 1.0378,
+        "contentHash": "7fae44279a3c36ce5a4b",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1475537734
+    },
+    "userBook": {
+        "modelId": "46250489-36027",
+        "userId": "46250489",
+        "bookId": "36027",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311188,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311188,
+        "book": {
+            "modelId": "36027",
+            "title": "That's NOT a Hippopotamus!",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "7fae44279a3c36ce5a4b"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "34485",
+            "user_id": "12413484",
+            "book_id": "36027",
+            "title": "That's NOT a Hippopotamus!",
+            "description": "",
+            "date_created": 1482264993,
+            "date_modified": 1504817040,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Who was missing?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "A Hippopotamus",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "A student",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "The teacher",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "A giraffe",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "Who were the hippo-hunters",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "The students",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "The teacher",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "The safari guide",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Which animal did the students say smelled rotten?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Skunk",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Pig",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Snake",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Where was the hippo?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Following the students",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Back at the lakeside",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "With his family",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "They never found the hippo",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                }
+            ],
+            "modelId": "34485",
+            "creatorName": "Ms. Pagnotta",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "12413484",
+                "udid": "5854016bbe04a9.65138036",
+                "journalName": "Ms. Pagnotta",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.12549019607843 0.92941176470588 0.96078431372549 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "254612172",
+                "fid": "",
+                "accountID": "092DA534-F8B0-7E35-A729-269BD93E1F78",
+                "simpleAccountId": "4154320",
+                "pagesFlipped": 31838,
+                "nufComplete": 1,
+                "readingAge": 6.7,
+                "startingAge": 0,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 3637,
+                "xpLevel": 19,
+                "dateLastLogin": 0,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Gina",
+                "lastName": "Pagnotta",
+                "accountType": 1,
+                "dateModified": 1528469536,
+                "educatorPrefix": "Ms.",
+                "name": "Ms. Pagnotta"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Who was missing?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "A Hippopotamus",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "A student",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "The teacher",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "A giraffe",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "Who were the hippo-hunters",
+                "quizQuestionChoices": [
+                    {
+                        "title": "The students",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "The teacher",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "The safari guide",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Which animal did the students say smelled rotten?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Skunk",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Pig",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Snake",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Where was the hippo?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Following the students",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Back at the lakeside",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "With his family",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "They never found the hippo",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            }
+        ]
+    }
+}

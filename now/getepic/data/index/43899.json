@@ -1,0 +1,158 @@
+{
+    "publisherData": {
+        "modelId": "44",
+        "name": "National Geographic",
+        "url": "http://kids.nationalgeographic.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491261258
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/43899/OEBPS/Images/1/21FC3466-3A47-4C75-9899-937D8D0516E5.jpg"
+            },
+            {
+                "page": "drm/9/43899/OEBPS/Images/1/98B40A6A-2A2E-43FC-98E0-E1C4C20291BF.jpg"
+            },
+            {
+                "page": "drm/9/43899/OEBPS/Images/1/42B64FAC-250B-43A4-9B64-0AA2571BFBC4.jpg"
+            },
+            {
+                "page": "drm/9/43899/OEBPS/Images/1/2C4EBC1D-9BC5-477E-8A11-6AC01290EB13.jpg"
+            },
+            {
+                "page": "drm/9/43899/OEBPS/Images/1/0DED75EF-3E3B-4FE4-895E-E2FA8EA91FD8.jpg"
+            },
+            {
+                "page": "drm/9/43899/OEBPS/Images/1/08423AF0-D052-4171-B273-463FD5AD7A44.jpg"
+            },
+            {
+                "page": "drm/9/43899/OEBPS/Images/1/0FDBB95D-5FB5-4CC7-B977-4BE345224691.jpg"
+            },
+            {
+                "page": "drm/9/43899/OEBPS/Images/1/AB58507C-8146-4428-9DF2-BB55B3D40526.jpg"
+            },
+            {
+                "page": "drm/9/43899/OEBPS/Images/1/0FEE8BAE-4DB4-48A3-8580-90F8788D9A2A.jpg"
+            },
+            {
+                "page": "drm/9/43899/OEBPS/Images/1/8C245A78-4C2A-46C4-894F-B7794F89BF49.jpg"
+            },
+            {
+                "page": "drm/9/43899/OEBPS/Images/1/7BDC2C2A-FF81-4F99-9BC0-41644AA39EE3.jpg"
+            },
+            {
+                "page": "drm/9/43899/OEBPS/Images/1/6BB23164-5B6E-44F8-BDE9-C8AE5E74F251.jpg"
+            },
+            {
+                "page": "drm/9/43899/OEBPS/Images/1/6C65BF48-3E7E-4B2F-90C0-F0D7E4DA6E5A.jpg"
+            },
+            {
+                "page": "drm/9/43899/OEBPS/Images/1/FE0E4032-FB7A-4080-B88C-56FCE06DA593.jpg"
+            },
+            {
+                "page": "drm/9/43899/OEBPS/Images/1/EDEAED07-14F4-4026-AAFD-8E52F65962C1.jpg"
+            },
+            {
+                "page": "drm/9/43899/OEBPS/Images/1/1DBA4686-CDB5-414B-A366-F555D07E67C9.jpg"
+            },
+            {
+                "page": "drm/9/43899/OEBPS/Images/1/BDF0035C-2713-4C7E-AA8F-C76DCF237747.jpg"
+            },
+            {
+                "page": "drm/9/43899/OEBPS/Images/1/A7C500E1-B256-4883-BC82-91387037AEC6.jpg"
+            },
+            {
+                "page": "drm/9/43899/OEBPS/Images/1/79B44469-84E1-4CFE-A05E-61DBBC4D1159.jpg"
+            },
+            {
+                "page": "drm/9/43899/OEBPS/Images/1/D37453B4-443B-40CC-85C8-55F5B999634C.jpg"
+            },
+            {
+                "page": "drm/9/43899/OEBPS/Images/1/7C6E6786-C466-44DF-A823-6635E8D701FF.jpg"
+            },
+            {
+                "page": "drm/9/43899/OEBPS/Images/1/7C146118-E9E3-4A98-842C-2382393D9E54.jpg"
+            },
+            {
+                "page": "drm/9/43899/OEBPS/Images/1/3E4A8AD2-CA43-4C1A-B5A1-85C5C0FAEDDC.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/43899/OEBPS/Images/1/E8303774-3D5C-4868-8976-ED8BEDD5EFE4.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "43899",
+        "id": "43899",
+        "title": "National Geographic Kids Look and Learn: Patterns!",
+        "author": "National Geographic Kids",
+        "illustrator": " ",
+        "numPages": 23,
+        "bookDescription": "Get a basic understanding of simple patterns and how to identify them.",
+        "coverColorR": 189,
+        "coverColorG": 183,
+        "coverColorB": 97,
+        "version": 12309,
+        "previewPercent": 10,
+        "publisher": "National Geographic",
+        "publisherId": "44",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "AD440L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 230,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "069a627715e90f4caa34",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "2",
+        "panelStatus": 0,
+        "date_modified": 1555373895
+    },
+    "userBook": {
+        "modelId": "46250489-43899",
+        "userId": "46250489",
+        "bookId": "43899",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310729,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310729,
+        "book": {
+            "modelId": "43899",
+            "title": "National Geographic Kids Look and Learn: Patterns!",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "069a627715e90f4caa34"
+        }
+    },
+    "quiz": null
+}

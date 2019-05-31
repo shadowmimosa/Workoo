@@ -1,0 +1,153 @@
+{
+    "publisherData": {
+        "modelId": "109",
+        "name": "JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/2/52052/OEBPS/Images/1/a13b87db4f664098a9fae6dca785c0e7.jpg",
+                "audio": "drm/2/52052/OEBPS/Audio/1/xa13b87db4f664098a9fae6dca785c0e7.mp3"
+            },
+            {
+                "page": "drm/2/52052/OEBPS/Images/1/491b74413607624597aea17e88d3e7dd.jpg",
+                "audio": "drm/2/52052/OEBPS/Audio/1/x491b74413607624597aea17e88d3e7dd.mp3"
+            },
+            {
+                "page": "drm/2/52052/OEBPS/Images/1/184140c2e0b6adff142e88ada1bff5f7.jpg",
+                "audio": "drm/2/52052/OEBPS/Audio/1/x184140c2e0b6adff142e88ada1bff5f7.mp3"
+            },
+            {
+                "page": "drm/2/52052/OEBPS/Images/1/95ef9d0ca393d5395f84afe3b2d721ca.jpg",
+                "audio": "drm/2/52052/OEBPS/Audio/1/x95ef9d0ca393d5395f84afe3b2d721ca.mp3"
+            },
+            {
+                "page": "drm/2/52052/OEBPS/Images/1/e7b7175360c3055a78ebf4c1f4ebced0.jpg",
+                "audio": "drm/2/52052/OEBPS/Audio/1/xe7b7175360c3055a78ebf4c1f4ebced0.mp3"
+            },
+            {
+                "page": "drm/2/52052/OEBPS/Images/1/3d320b4c4773b1f5f978e3e7fc2ac5ed.jpg",
+                "audio": "drm/2/52052/OEBPS/Audio/1/x3d320b4c4773b1f5f978e3e7fc2ac5ed.mp3"
+            },
+            {
+                "page": "drm/2/52052/OEBPS/Images/1/3a1dcaecfb99c5aeaf88e3e9f8d723c1.jpg",
+                "audio": "drm/2/52052/OEBPS/Audio/1/x3a1dcaecfb99c5aeaf88e3e9f8d723c1.mp3"
+            },
+            {
+                "page": "drm/2/52052/OEBPS/Images/1/19be74f56daaaf8722ad06a0cf73ddbb.jpg",
+                "audio": "drm/2/52052/OEBPS/Audio/1/x19be74f56daaaf8722ad06a0cf73ddbb.mp3"
+            },
+            {
+                "page": "drm/2/52052/OEBPS/Images/1/cdee6557e5c2390a7840e1a3f603ce01.jpg",
+                "audio": "drm/2/52052/OEBPS/Audio/1/xcdee6557e5c2390a7840e1a3f603ce01.mp3"
+            },
+            {
+                "page": "drm/2/52052/OEBPS/Images/1/276b64376d48883a3fe2aed6793ca5e5.jpg",
+                "audio": "drm/2/52052/OEBPS/Audio/1/x276b64376d48883a3fe2aed6793ca5e5.mp3"
+            },
+            {
+                "page": "drm/2/52052/OEBPS/Images/1/30fd198516d882d6f61d086251477e74.jpg",
+                "audio": "drm/2/52052/OEBPS/Audio/1/x30fd198516d882d6f61d086251477e74.mp3"
+            },
+            {
+                "page": "drm/2/52052/OEBPS/Images/1/fb1e4547ebe04f24a991aac90e5ab3bc.jpg",
+                "audio": "drm/2/52052/OEBPS/Audio/1/xfb1e4547ebe04f24a991aac90e5ab3bc.mp3"
+            },
+            {
+                "page": "drm/2/52052/OEBPS/Images/1/2231a9000a03942354e0bff6dcde2ddd.jpg",
+                "audio": "drm/2/52052/OEBPS/Audio/1/x2231a9000a03942354e0bff6dcde2ddd.mp3"
+            },
+            {
+                "page": "drm/2/52052/OEBPS/Images/1/a2930f73cbf16a9b5d3d538d69d0e466.jpg",
+                "audio": "drm/2/52052/OEBPS/Audio/1/xa2930f73cbf16a9b5d3d538d69d0e466.mp3"
+            },
+            {
+                "page": "drm/2/52052/OEBPS/Images/1/6b4bbb3d46c978c7524fa0be56014282.jpg",
+                "audio": "drm/2/52052/OEBPS/Audio/1/x6b4bbb3d46c978c7524fa0be56014282.mp3"
+            },
+            {
+                "page": "drm/2/52052/OEBPS/Images/1/8d46a310a9cd9db504e94c238a99998a.jpg",
+                "audio": "drm/2/52052/OEBPS/Audio/1/x8d46a310a9cd9db504e94c238a99998a.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/2/52052/OEBPS/Images/1/7c0950e679e169131126dbd3b5a883bf.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "52052",
+        "id": "52052",
+        "title": "Who Helps Keep Us Safe?",
+        "author": "Erica Donner",
+        "illustrator": " ",
+        "numPages": 16,
+        "bookDescription": "Who Helps Keep Us Safe? teaches early readers about the role of community helpers while providing them with nonfiction reading experience.",
+        "coverColorR": 203,
+        "coverColorG": 155,
+        "coverColorB": 134,
+        "version": 12309,
+        "previewPercent": 20,
+        "publisher": "JUMP",
+        "publisherId": "109",
+        "age": 3,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "140L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 400,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 81,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Profession",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 0.7222,
+        "contentHash": "1df1fd9de05b312faff7",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374418
+    },
+    "userBook": {
+        "modelId": "46250489-52052",
+        "userId": "46250489",
+        "bookId": "52052",
+        "currentPageIndex": 10,
+        "farthestPageIndex": 10,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 62,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559112160,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 29,
+        "dateModified": 1559112190,
+        "book": {
+            "modelId": "52052",
+            "title": "Who Helps Keep Us Safe?",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "1df1fd9de05b312faff7"
+        }
+    },
+    "quiz": null
+}

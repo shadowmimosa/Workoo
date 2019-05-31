@@ -1,0 +1,451 @@
+{
+    "publisherData": {
+        "modelId": "90050",
+        "name": "Amicus",
+        "url": "https://www.amicuspublishing.us/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491010374
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/6/22446/OEBPS/Images/1/0218ACF6-C2F4-4082-94FE-7B77C0BDFF7F.jpg"
+            },
+            {
+                "page": "drm/6/22446/OEBPS/Images/1/77C35878-3E6C-4EEE-BADA-EFB3920CEC85.jpg"
+            },
+            {
+                "page": "drm/6/22446/OEBPS/Images/1/A4B4A80E-B96E-4C3A-B314-D62AB4939B56.jpg"
+            },
+            {
+                "page": "drm/6/22446/OEBPS/Images/1/00AF81E5-1535-4629-A6E5-3CDA3971C79D.jpg"
+            },
+            {
+                "page": "drm/6/22446/OEBPS/Images/1/FF747024-6037-49A7-8BE0-096AE9D839DA.jpg"
+            },
+            {
+                "page": "drm/6/22446/OEBPS/Images/1/E85C8AF0-D948-47DD-B760-7E88347DAF51.jpg"
+            },
+            {
+                "page": "drm/6/22446/OEBPS/Images/1/4A3F14B2-3A85-4E2B-8BD2-1DC0D014B944.jpg"
+            },
+            {
+                "page": "drm/6/22446/OEBPS/Images/1/8F3EEBD3-685E-4848-A1C7-87231418B4E7.jpg"
+            },
+            {
+                "page": "drm/6/22446/OEBPS/Images/1/4AC62EF3-C996-4505-966A-759A990EB86F.jpg"
+            },
+            {
+                "page": "drm/6/22446/OEBPS/Images/1/93CF0862-1D11-4D6C-9A3C-4BED39A351B9.jpg"
+            },
+            {
+                "page": "drm/6/22446/OEBPS/Images/1/DABB1953-D93C-42FF-8548-3F4A24C0BC3A.jpg"
+            },
+            {
+                "page": "drm/6/22446/OEBPS/Images/1/5820021E-E8D4-46C4-ABE7-9FD8517C23E2.jpg"
+            },
+            {
+                "page": "drm/6/22446/OEBPS/Images/1/5D7DBE43-B6E4-45CC-BE03-22BF09D28F3C.jpg"
+            },
+            {
+                "page": "drm/6/22446/OEBPS/Images/1/DC4CCD05-826B-478E-9FE4-D4B6BE30464C.jpg"
+            },
+            {
+                "page": "drm/6/22446/OEBPS/Images/1/86749416-BCC1-4B8F-A737-1FF6CB726F35.jpg"
+            },
+            {
+                "page": "drm/6/22446/OEBPS/Images/1/6FA951CA-0A0B-498B-91C6-F912C1EC1CBE.jpg"
+            },
+            {
+                "page": "drm/6/22446/OEBPS/Images/1/94F57C9D-37A8-41B8-A7C6-71BF188689F1.jpg"
+            },
+            {
+                "page": "drm/6/22446/OEBPS/Images/1/9C548AC6-9706-44FC-BB06-3326FA030CD8.jpg"
+            },
+            {
+                "page": "drm/6/22446/OEBPS/Images/1/4FF69751-E71D-48BB-80FC-D5D259E02B06.jpg"
+            },
+            {
+                "page": "drm/6/22446/OEBPS/Images/1/CC2D273D-0F2C-46CD-BBFB-31FA0F9F5DEB.jpg"
+            },
+            {
+                "page": "drm/6/22446/OEBPS/Images/1/6A74407E-FBA8-41EA-9D1E-806EED43EB89.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/6/22446/OEBPS/Images/1/D9F12269-83CD-4425-B6DA-60A1CD974122.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "22446",
+        "id": "22446",
+        "title": "Do You Really Want A Rabbit?",
+        "author": "Bridget Heos",
+        "illustrator": "Katya Longhi",
+        "numPages": 21,
+        "bookDescription": "A shy, yet somewhat mischievous rabbit teaches a girl the responsibility\u2014and the joys\u2014of owning a rabbit. Includes a quiz.",
+        "coverColorR": 206,
+        "coverColorG": 195,
+        "coverColorB": 198,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Amicus",
+        "publisherId": "90050",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "350L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 385,
+        "ar": "2.5",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pets",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.1212,
+        "contentHash": "32b09f70e3b267dbd6ee",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1555372953
+    },
+    "userBook": {
+        "modelId": "46250489-22446",
+        "userId": "46250489",
+        "bookId": "22446",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311508,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311508,
+        "book": {
+            "modelId": "22446",
+            "title": "Do You Really Want A Rabbit?",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "32b09f70e3b267dbd6ee"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "70793",
+            "user_id": "814437",
+            "book_id": "22446",
+            "title": "Reading Intervention",
+            "description": "",
+            "date_created": 1490572683,
+            "date_modified": 1490573470,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What would be a good choice to leave in your rabbit's cage for it to chew on?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "a tree branch",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "a spoon",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "a piece of bread",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "a piece of paper",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "How do bunnies help take care of each other in the wild?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Bunnies help groom each other.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Bunnies find food to feed each other.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Bunnies let people pet them.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Bunnies attack each other.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What must you place in a bunny's cage?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "food, water, bed and a litter box",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "food, bed, apples and branches",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "water, bed, litter box and other bunnies",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "food, water, bed and a cage",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "True of False: You should always leave your bunny's cage door open.",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "False",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "True",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "What kinds of animals are predators of a rabbit?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Bald Eagles",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "People",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Dogs",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "The Big Bad Wolf",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "70793",
+            "creatorName": "Miss Leahy",
+            "avatarId": "81",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "814437",
+                "udid": "5543f9248b9f45.83355688",
+                "journalName": "Miss Lofton",
+                "journalCoverAvatar": "81",
+                "journalCoverColor": "0.97254901960784 0.84313725490196 0.38823529411765 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "973644486",
+                "fid": "",
+                "accountID": "AB0F3B83-5D7B-7276-7F06-036FC3083BCA",
+                "simpleAccountId": "467450",
+                "pagesFlipped": 13513,
+                "nufComplete": 1,
+                "readingAge": 6.8,
+                "startingAge": 7,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 363,
+                "xpLevel": 6,
+                "dateLastLogin": 1551308177,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Sara",
+                "lastName": "Lofton",
+                "accountType": 1,
+                "dateModified": 1558548749,
+                "educatorPrefix": "Miss",
+                "name": "Miss Lofton"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What would be a good choice to leave in your rabbit's cage for it to chew on?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "a tree branch",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "a spoon",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "a piece of bread",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "a piece of paper",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "How do bunnies help take care of each other in the wild?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Bunnies help groom each other.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Bunnies find food to feed each other.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Bunnies let people pet them.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Bunnies attack each other.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What must you place in a bunny's cage?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "food, water, bed and a litter box",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "food, bed, apples and branches",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "water, bed, litter box and other bunnies",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "food, water, bed and a cage",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "True of False: You should always leave your bunny's cage door open.",
+                "quizQuestionChoices": [
+                    {
+                        "title": "False",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "True",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "What kinds of animals are predators of a rabbit?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Bald Eagles",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "People",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Dogs",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "The Big Bad Wolf",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

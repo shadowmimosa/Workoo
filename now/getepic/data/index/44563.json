@@ -1,0 +1,480 @@
+{
+    "publisherData": {
+        "modelId": "44",
+        "name": "National Geographic",
+        "url": "http://kids.nationalgeographic.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491261258
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/3/44563/OEBPS/Images/1/564DF731-A4D4-4BFA-8BBE-1B95AAD39E2A.jpg"
+            },
+            {
+                "page": "drm/3/44563/OEBPS/Images/1/FA841612-682E-4EFC-A221-7864625F8EC7.jpg"
+            },
+            {
+                "page": "drm/3/44563/OEBPS/Images/1/9CDFF66A-A8B7-49E6-A17F-726CAC270D0E.jpg"
+            },
+            {
+                "page": "drm/3/44563/OEBPS/Images/1/89F9555F-0CAD-48A8-966C-C4E75535754C.jpg"
+            },
+            {
+                "page": "drm/3/44563/OEBPS/Images/1/8E7CB07F-13E1-46F1-B47B-60A710B7C07C.jpg"
+            },
+            {
+                "page": "drm/3/44563/OEBPS/Images/1/5DAACA5D-6A85-4099-8734-E20C3B049867.jpg"
+            },
+            {
+                "page": "drm/3/44563/OEBPS/Images/1/08940B95-ABDE-4905-A8EB-98DAB91D3244.jpg"
+            },
+            {
+                "page": "drm/3/44563/OEBPS/Images/1/507197AD-4590-4DA2-BC39-0804D0D95B16.jpg"
+            },
+            {
+                "page": "drm/3/44563/OEBPS/Images/1/C40E296F-B5C6-463E-975F-1E1C3FF8F15F.jpg"
+            },
+            {
+                "page": "drm/3/44563/OEBPS/Images/1/B69684A1-1985-4D20-A652-120E1ADEEA73.jpg"
+            },
+            {
+                "page": "drm/3/44563/OEBPS/Images/1/168F9825-FC91-4736-B740-7425D587CA8D.jpg"
+            },
+            {
+                "page": "drm/3/44563/OEBPS/Images/1/55D6212F-DF83-42D9-933D-D49383C3F7EB.jpg"
+            },
+            {
+                "page": "drm/3/44563/OEBPS/Images/1/8E14594A-BAEB-43CE-9D83-B8DACE7B1C2E.jpg"
+            },
+            {
+                "page": "drm/3/44563/OEBPS/Images/1/5392E525-71EF-489F-8EB3-7941F2444427.jpg"
+            },
+            {
+                "page": "drm/3/44563/OEBPS/Images/1/51735E11-023F-474D-88E6-3A1C3C5C2244.jpg"
+            },
+            {
+                "page": "drm/3/44563/OEBPS/Images/1/739E1DB2-8DA4-49DE-9289-0698176CE83C.jpg"
+            },
+            {
+                "page": "drm/3/44563/OEBPS/Images/1/DEE55981-15D5-4C4D-9EF3-E14769FD3F15.jpg"
+            },
+            {
+                "page": "drm/3/44563/OEBPS/Images/1/08A996AE-DE19-47B4-BC3D-DFA69730DA32.jpg"
+            },
+            {
+                "page": "drm/3/44563/OEBPS/Images/1/66094679-7F84-4B4E-BC6E-148E59A5A0A0.jpg"
+            },
+            {
+                "page": "drm/3/44563/OEBPS/Images/1/7A76B136-5F4C-41E0-B358-F42E3A491C56.jpg"
+            },
+            {
+                "page": "drm/3/44563/OEBPS/Images/1/F83C8E53-9BF2-4404-9C67-5618BA1998AB.jpg"
+            },
+            {
+                "page": "drm/3/44563/OEBPS/Images/1/474E2FEF-8076-4591-93FB-A6DF62F313D0.jpg"
+            },
+            {
+                "page": "drm/3/44563/OEBPS/Images/1/EF0AB7D9-987B-4A9E-A06C-831DC690347F.jpg"
+            },
+            {
+                "page": "drm/3/44563/OEBPS/Images/1/C78282FA-1D07-4155-AFE0-AA5F6CB1DA87.jpg"
+            }
+        ],
+        "extra": {
+            "color": "#fffefe",
+            "copyright": ""
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "44563",
+        "id": "44563",
+        "title": "National Geographic Kids Look and Learn: Caterpillar to Butterfly",
+        "author": "National Geographic Kids",
+        "illustrator": " ",
+        "numPages": 24,
+        "bookDescription": "Follow a monarch as it develops from a cute caterpillar into a beautiful butterfly.",
+        "coverColorR": 156,
+        "coverColorG": 162,
+        "coverColorB": 96,
+        "version": 12309,
+        "previewPercent": 10,
+        "publisher": "National Geographic",
+        "publisherId": "44",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 360,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Insects",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "af24da5f616ff802cacd",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "2",
+        "panelStatus": 0,
+        "date_modified": 1555373910
+    },
+    "userBook": {
+        "modelId": "46250489-44563",
+        "userId": "46250489",
+        "bookId": "44563",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310728,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310728,
+        "book": {
+            "modelId": "44563",
+            "title": "National Geographic Kids Look and Learn: Caterpillar to Butterfly",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "af24da5f616ff802cacd"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "159696",
+            "user_id": "21159976",
+            "book_id": "44563",
+            "title": "Monarch Butterflies",
+            "description": "",
+            "date_created": 1515422276,
+            "date_modified": 1519785042,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What colors are Monarch butterflies?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Orange, white, black",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Green, blue, black",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Yellow, brown, black",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Orange, purple, red",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "Where do they lay their eggs?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "On milkweed Plants",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "On squirrels",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "On mushrooms",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "In trees",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What do caterpillars eat",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Milkweed leaves",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Bugs",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Oranges",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Dirt",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What is the shell called?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Chrysalis ",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Bark",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Gel",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Wood",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "What is another name for chrysalis?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Pupa",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Branch",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Nail",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Leaves",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "159696",
+            "creatorName": "Mrs. Marty",
+            "avatarId": "80",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "21159976",
+                "udid": "5a1592b7ccfc49.33002449",
+                "journalName": "Mrs. Marty",
+                "journalCoverAvatar": "80",
+                "journalCoverColor": "0.94509803921569 0.66274509803922 0.92941176470588 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "536436607",
+                "fid": "",
+                "accountID": "4DBC5CEE-D0E9-91E0-D7BA-ADE78755B5BE",
+                "simpleAccountId": "6224053",
+                "pagesFlipped": 288,
+                "nufComplete": 1,
+                "readingAge": 6.9333333333333,
+                "startingAge": 7,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 97,
+                "xpLevel": 4,
+                "dateLastLogin": 1556737928,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Paula",
+                "lastName": "Marty",
+                "accountType": 1,
+                "dateModified": 1559245801,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Marty"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What colors are Monarch butterflies?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Orange, white, black",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Green, blue, black",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Yellow, brown, black",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Orange, purple, red",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "Where do they lay their eggs?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "On milkweed Plants",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "On squirrels",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "On mushrooms",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "In trees",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What do caterpillars eat",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Milkweed leaves",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Bugs",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Oranges",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Dirt",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What is the shell called?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Chrysalis ",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Bark",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Gel",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Wood",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "What is another name for chrysalis?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Pupa",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Branch",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Nail",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Leaves",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

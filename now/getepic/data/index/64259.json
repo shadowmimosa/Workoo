@@ -1,0 +1,181 @@
+{
+    "publisherData": {
+        "modelId": "28",
+        "name": "Xist Publishing",
+        "url": "http://www.xistpublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539564197
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/64259/OEBPS/Images/1/4a589de8d77b4e3188c1e0b7fb1541ea.jpg",
+                "audio": "drm/9/64259/OEBPS/Audio/1/Title.mp3"
+            },
+            {
+                "page": "drm/9/64259/OEBPS/Images/1/20452e6a7149b050f4bd31a375f659be.jpg",
+                "audio": "drm/9/64259/OEBPS/Audio/1/Page 3.mp3"
+            },
+            {
+                "page": "drm/9/64259/OEBPS/Images/1/ccbd2a04b4a694b0c8a36750a59b6cf6.jpg",
+                "audio": "drm/9/64259/OEBPS/Audio/1/Page 4.mp3"
+            },
+            {
+                "page": "drm/9/64259/OEBPS/Images/1/e4a98f68d590b03b3c856b46379d1476.jpg",
+                "audio": "drm/9/64259/OEBPS/Audio/1/Page 5.mp3"
+            },
+            {
+                "page": "drm/9/64259/OEBPS/Images/1/14e4ee6660345259328f94c0ffad621e.jpg",
+                "audio": "drm/9/64259/OEBPS/Audio/1/Page 6.mp3"
+            },
+            {
+                "page": "drm/9/64259/OEBPS/Images/1/fec192c6137a28ee9305cf40a462331f.jpg",
+                "audio": "drm/9/64259/OEBPS/Audio/1/Page 7.mp3"
+            },
+            {
+                "page": "drm/9/64259/OEBPS/Images/1/1e91eae98790bcffd72510d55c83de8d.jpg",
+                "audio": "drm/9/64259/OEBPS/Audio/1/Page 8.mp3"
+            },
+            {
+                "page": "drm/9/64259/OEBPS/Images/1/a8ef1109531be3c99754c25f12f0cac3.jpg",
+                "audio": "drm/9/64259/OEBPS/Audio/1/Page 9.mp3"
+            },
+            {
+                "page": "drm/9/64259/OEBPS/Images/1/59b54857286692185bed52b75793aa06.jpg",
+                "audio": "drm/9/64259/OEBPS/Audio/1/Page 10.mp3"
+            },
+            {
+                "page": "drm/9/64259/OEBPS/Images/1/32942e1c4b1cc210fa496811c2b6898b.jpg",
+                "audio": "drm/9/64259/OEBPS/Audio/1/Page 11.mp3"
+            },
+            {
+                "page": "drm/9/64259/OEBPS/Images/1/1e922aaaeb1b283031d31bc41c373875.jpg",
+                "audio": "drm/9/64259/OEBPS/Audio/1/Page 12.mp3"
+            },
+            {
+                "page": "drm/9/64259/OEBPS/Images/1/fb7fab8044421e85e070af45afa00806.jpg",
+                "audio": "drm/9/64259/OEBPS/Audio/1/Page 13.mp3"
+            },
+            {
+                "page": "drm/9/64259/OEBPS/Images/1/cbf507a72d90b0d2e9c2efed17bbd2c1.jpg",
+                "audio": "drm/9/64259/OEBPS/Audio/1/Page 14.mp3"
+            },
+            {
+                "page": "drm/9/64259/OEBPS/Images/1/401e088e235d8edd8d281be08eab3524.jpg",
+                "audio": "drm/9/64259/OEBPS/Audio/1/Page 15.mp3"
+            },
+            {
+                "page": "drm/9/64259/OEBPS/Images/1/efc43dbb7a4a5ca955beaa7702c4fe99.jpg",
+                "audio": "drm/9/64259/OEBPS/Audio/1/Page 16.mp3"
+            },
+            {
+                "page": "drm/9/64259/OEBPS/Images/1/f8976d532451ace466c07a50c08a09e4.jpg",
+                "audio": "drm/9/64259/OEBPS/Audio/1/Page 17.mp3"
+            },
+            {
+                "page": "drm/9/64259/OEBPS/Images/1/1cdd7c5c682cf2e3e19b9405573c20e1.jpg",
+                "audio": "drm/9/64259/OEBPS/Audio/1/Page 18.mp3"
+            },
+            {
+                "page": "drm/9/64259/OEBPS/Images/1/1a1eed78ab1ff4e9535209b38160dbb9.jpg",
+                "audio": "drm/9/64259/OEBPS/Audio/1/Page 19.mp3"
+            },
+            {
+                "page": "drm/9/64259/OEBPS/Images/1/da2138803943d06f858f14776bdef99f.jpg",
+                "audio": "drm/9/64259/OEBPS/Audio/1/Page 20.mp3"
+            },
+            {
+                "page": "drm/9/64259/OEBPS/Images/1/c675114a22e118729fabc0f0d43b92c4.jpg",
+                "audio": "drm/9/64259/OEBPS/Audio/1/Page 21.mp3"
+            },
+            {
+                "page": "drm/9/64259/OEBPS/Images/1/0402e6a3a7aba71c1969c5ee2d887e11.jpg",
+                "audio": "drm/9/64259/OEBPS/Audio/1/Page 22.mp3"
+            },
+            {
+                "page": "drm/9/64259/OEBPS/Images/1/1c688be0e6c498bce52d552a358f2c20.jpg",
+                "audio": "drm/9/64259/OEBPS/Audio/1/Page 23.mp3"
+            },
+            {
+                "page": "drm/9/64259/OEBPS/Images/1/e218dc98d2e7bcaf7a248d8cfb58ec38.jpg",
+                "audio": "drm/9/64259/OEBPS/Audio/1/Page 24.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/64259/OEBPS/Images/1/63dfe2e6b0cdc2496ab30ffa569f1984.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "64259",
+        "id": "64259",
+        "title": "Knock Knock, Lettuce In!",
+        "author": "Brenda Ponnay",
+        "illustrator": " ",
+        "numPages": 23,
+        "bookDescription": "The Garden has the Giggles in this funny joke book about vegetables.",
+        "coverColorR": 196,
+        "coverColorG": 204,
+        "coverColorB": 101,
+        "version": 243678144,
+        "previewPercent": 20,
+        "publisher": "Xist Publishing",
+        "publisherId": "28",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "450L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 421,
+        "ar": "2.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Jokes",
+        "subjectColor": "FFD673",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "c840378cbd910cd02485",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1558484109
+    },
+    "userBook": {
+        "modelId": "46250489-64259",
+        "userId": "46250489",
+        "bookId": "64259",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559307274,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559307274,
+        "book": {
+            "modelId": "64259",
+            "title": "Knock Knock, Lettuce In!",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "c840378cbd910cd02485"
+        }
+    },
+    "quiz": null
+}

@@ -1,0 +1,485 @@
+{
+    "publisherData": {
+        "modelId": "31",
+        "name": "Bellwether Media",
+        "url": "http://www.bellwethermedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539569528
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/2/36092/OEBPS/Images/1/9af34bf0fed1f8b04525dec8bee6f53e.jpg",
+                "audio": "drm/2/36092/OEBPS/Audio/1/xEA225630-F70D-403D-9FEB-ADE06E5B9F6E.mp3"
+            },
+            {
+                "page": "drm/2/36092/OEBPS/Images/1/ae39d782b400616541b9b2831fc7ef50.jpg",
+                "audio": "drm/2/36092/OEBPS/Audio/1/x2BF379CE-35EA-450E-B3A7-F225622F9BC3.mp3"
+            },
+            {
+                "page": "drm/2/36092/OEBPS/Images/1/74c83ca1d0e45f1fb16687c0d7965e72.jpg"
+            },
+            {
+                "page": "drm/2/36092/OEBPS/Images/1/a424dcdbdb6c3b9191cc3c34a07d2c88.jpg",
+                "audio": "drm/2/36092/OEBPS/Audio/1/xC744CC07-D98D-4C7E-BC41-63E68EC649A0.mp3"
+            },
+            {
+                "page": "drm/2/36092/OEBPS/Images/1/368ea54e99bcc00583ee2b3b27a2c262.jpg"
+            },
+            {
+                "page": "drm/2/36092/OEBPS/Images/1/5e7b0dbdd4824f43efd76cb0e9fa3b81.jpg",
+                "audio": "drm/2/36092/OEBPS/Audio/1/xF4039F14-E50C-4E30-BE22-F9320B958635.mp3"
+            },
+            {
+                "page": "drm/2/36092/OEBPS/Images/1/c61926b260ed47839622fe88148fc72a.jpg"
+            },
+            {
+                "page": "drm/2/36092/OEBPS/Images/1/fce96596c5aed5627ec05dd3225a0ac8.jpg",
+                "audio": "drm/2/36092/OEBPS/Audio/1/x42CCCA34-3EB0-4844-947C-E4A430609E57.mp3"
+            },
+            {
+                "page": "drm/2/36092/OEBPS/Images/1/5787b9033d188df2c695b4b8f3d15ef2.jpg"
+            },
+            {
+                "page": "drm/2/36092/OEBPS/Images/1/d49fea0017b4fc198222bddc51058bf3.jpg",
+                "audio": "drm/2/36092/OEBPS/Audio/1/x2ABC6D7F-BCA3-496D-9353-E626DABF9700.mp3"
+            },
+            {
+                "page": "drm/2/36092/OEBPS/Images/1/ab31f06f07d4938b0cabeb1c848c6303.jpg"
+            },
+            {
+                "page": "drm/2/36092/OEBPS/Images/1/3f50236581fdab67d66104a3110879f3.jpg",
+                "audio": "drm/2/36092/OEBPS/Audio/1/xC7774E3F-16B1-494B-A56A-08472E113B39.mp3"
+            },
+            {
+                "page": "drm/2/36092/OEBPS/Images/1/83691da7b53311ca22ba47fcf16147a0.jpg"
+            },
+            {
+                "page": "drm/2/36092/OEBPS/Images/1/90d8ba6f9ce028339f331fe958949d54.jpg",
+                "audio": "drm/2/36092/OEBPS/Audio/1/xA911FC7A-3C41-49F3-AA80-2CFB927D6401.mp3"
+            },
+            {
+                "page": "drm/2/36092/OEBPS/Images/1/3748669185ffeaf40f37a18d7f580e7f.jpg"
+            },
+            {
+                "page": "drm/2/36092/OEBPS/Images/1/2894e4040f6166192d2535314eb29b2b.jpg",
+                "audio": "drm/2/36092/OEBPS/Audio/1/xED695F5D-BDEB-4E36-98F1-C6C2D7F2D66D.mp3"
+            },
+            {
+                "page": "drm/2/36092/OEBPS/Images/1/8b98a8a5c539af6c2c1fa3090593fecb.jpg"
+            },
+            {
+                "page": "drm/2/36092/OEBPS/Images/1/043d8912187cf44382e589c9f7d8ec30.jpg",
+                "audio": "drm/2/36092/OEBPS/Audio/1/x52598D5D-052E-407C-9036-4799E9B1C09F.mp3"
+            },
+            {
+                "page": "drm/2/36092/OEBPS/Images/1/77492b3be2751a376c258bc4a601577e.jpg"
+            },
+            {
+                "page": "drm/2/36092/OEBPS/Images/1/d6ac0ba93d1879ecb2cc1959b2f2d8b5.jpg",
+                "audio": "drm/2/36092/OEBPS/Audio/1/x2B5C76E3-6F61-4C0E-9863-A27F7A176103.mp3"
+            },
+            {
+                "page": "drm/2/36092/OEBPS/Images/1/999837d2bd762a5e4253f6443308d2de.jpg"
+            },
+            {
+                "page": "drm/2/36092/OEBPS/Images/1/c05656b69636637e18b4bdece7e7510b.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/2/36092/OEBPS/Images/1/f4fbfef5229dafe1de1e2922c6554a74.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "36092",
+        "id": "36092",
+        "title": "Super Cute! Baby Cows",
+        "author": "Kari Schuetz",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "In this book, take a trip to the countryside to see cute calves quenching their thirst and more in the pasture and the barn.",
+        "coverColorR": 112,
+        "coverColorG": 153,
+        "coverColorB": 138,
+        "version": 2147483647,
+        "previewPercent": 20,
+        "publisher": "Bellwether Media",
+        "publisherId": "31",
+        "age": 6,
+        "pageNumOffset": 1,
+        "active": 1,
+        "audio": 1,
+        "lexile": "360L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 806,
+        "ar": "1.3",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 85,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Farm Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.7207,
+        "contentHash": "4876ca0e46dd71192492",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373456
+    },
+    "userBook": {
+        "modelId": "46250489-36092",
+        "userId": "46250489",
+        "bookId": "36092",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559312151,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559312151,
+        "book": {
+            "modelId": "36092",
+            "title": "Super Cute! Baby Cows",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "4876ca0e46dd71192492"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "154867",
+            "user_id": "21538066",
+            "book_id": "36092",
+            "title": "Cows",
+            "description": "",
+            "date_created": 1513177197,
+            "date_modified": 1521638255,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "A baby cow is called a ______________",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Calf",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Puppy",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Cat",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Kitten",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "Female cows are called______________",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Heifers or dairy cows",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Bulls or steers",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Babys or calves",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Cats or kittens",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What does an older cow eat",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Hay and grain",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Carrots",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Apples",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Beets",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Male cows are called_____________",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Bulls",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Calves",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Heifer",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Cow",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "What can dairy cows produce?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Milk",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Ice cream",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Swiss cheese",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Chocolate milk",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "154867",
+            "creatorName": "Ms. Weiler",
+            "avatarId": "79",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "21538066",
+                "udid": "5a2989aad4ccc9.80558125",
+                "journalName": "Ms. Weiler",
+                "journalCoverAvatar": "79",
+                "journalCoverColor": "1 0.67843137254902 0.26274509803922 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "202617609",
+                "fid": "",
+                "accountID": "48ED7821-198E-B0A7-B3AE-B9A36DC6C6EE",
+                "simpleAccountId": "6315594",
+                "pagesFlipped": 3130,
+                "nufComplete": 1,
+                "readingAge": 9.7,
+                "startingAge": 0,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 0,
+                "xpLevel": 1,
+                "dateLastLogin": 0,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Olivia",
+                "lastName": "Weiler",
+                "accountType": 1,
+                "dateModified": 1527260052,
+                "educatorPrefix": "Ms.",
+                "name": "Ms. Weiler"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "A baby cow is called a ______________",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Calf",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Puppy",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Cat",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Kitten",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "Female cows are called______________",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Heifers or dairy cows",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Bulls or steers",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Babys or calves",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Cats or kittens",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What does an older cow eat",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Hay and grain",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Carrots",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Apples",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Beets",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Male cows are called_____________",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Bulls",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Calves",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Heifer",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Cow",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "What can dairy cows produce?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Milk",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Ice cream",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Swiss cheese",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Chocolate milk",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

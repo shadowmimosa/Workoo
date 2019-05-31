@@ -1,0 +1,432 @@
+{
+    "publisherData": {
+        "modelId": "91",
+        "name": "ABDO Publishing",
+        "url": "http://abdopublishing.com//",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570820
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/25667/OEBPS/Images/1/3F0A47D2-2324-4EDC-B872-47F68480E514.jpg"
+            },
+            {
+                "page": "drm/7/25667/OEBPS/Images/1/F60EDC44-18E7-4D71-AD5E-03A6DEE3CFFA.jpg",
+                "audio": "drm/7/25667/OEBPS/Audio/1/page6.mp3"
+            },
+            {
+                "page": "drm/7/25667/OEBPS/Images/1/9C4A0A57-003E-4F45-A3A4-9253A849FA92.jpg"
+            },
+            {
+                "page": "drm/7/25667/OEBPS/Images/1/CD5F7371-0A81-4D91-96A1-429191D2D8D9.jpg",
+                "audio": "drm/7/25667/OEBPS/Audio/1/page8.mp3"
+            },
+            {
+                "page": "drm/7/25667/OEBPS/Images/1/347A7488-3E4C-437A-A5EE-EE02B16A69D7.jpg"
+            },
+            {
+                "page": "drm/7/25667/OEBPS/Images/1/9E186F03-1921-43CC-BD09-1CFB443947CE.jpg",
+                "audio": "drm/7/25667/OEBPS/Audio/1/page10.mp3"
+            },
+            {
+                "page": "drm/7/25667/OEBPS/Images/1/8CB8DF46-462F-40C1-B5F0-A628DFFBEB5B.jpg"
+            },
+            {
+                "page": "drm/7/25667/OEBPS/Images/1/7E8C3FD4-A75B-40B9-9042-33464FDC1E11.jpg",
+                "audio": "drm/7/25667/OEBPS/Audio/1/page12.mp3"
+            },
+            {
+                "page": "drm/7/25667/OEBPS/Images/1/DA7899BB-D738-4216-822E-EBDA362BA10D.jpg"
+            },
+            {
+                "page": "drm/7/25667/OEBPS/Images/1/C0A236D3-430F-4E39-BF28-89AB380C937C.jpg",
+                "audio": "drm/7/25667/OEBPS/Audio/1/page14.mp3"
+            },
+            {
+                "page": "drm/7/25667/OEBPS/Images/1/2D30B336-2E9C-472F-97AC-85D56D1E5A6B.jpg"
+            },
+            {
+                "page": "drm/7/25667/OEBPS/Images/1/0A7A55D7-4124-4DB0-949D-6BED396F3C8B.jpg",
+                "audio": "drm/7/25667/OEBPS/Audio/1/page16.mp3"
+            },
+            {
+                "page": "drm/7/25667/OEBPS/Images/1/8A7CAE33-7E77-4B9F-9CDA-FCF177EA325C.jpg"
+            },
+            {
+                "page": "drm/7/25667/OEBPS/Images/1/049C3610-AC9C-4D85-99D9-D5719ED9CB77.jpg",
+                "audio": "drm/7/25667/OEBPS/Audio/1/page18.mp3"
+            },
+            {
+                "page": "drm/7/25667/OEBPS/Images/1/916F0975-954C-485E-B3E9-46630DE4AC38.jpg"
+            },
+            {
+                "page": "drm/7/25667/OEBPS/Images/1/119A7FF2-138E-4397-83C5-FA9D4CDEEAE7.jpg",
+                "audio": "drm/7/25667/OEBPS/Audio/1/page20.mp3"
+            },
+            {
+                "page": "drm/7/25667/OEBPS/Images/1/525B4048-1937-4E19-BE78-870636B27E2C.jpg"
+            },
+            {
+                "page": "drm/7/25667/OEBPS/Images/1/AD8A5D7B-DF91-417B-A22B-D455C667CF88.jpg",
+                "audio": "drm/7/25667/OEBPS/Audio/1/page22.mp3"
+            },
+            {
+                "page": "drm/7/25667/OEBPS/Images/1/24ADC0A1-7E25-40F1-B7EC-2F7AE2D33B63.jpg"
+            },
+            {
+                "page": "drm/7/25667/OEBPS/Images/1/44DC5BFE-B503-4586-8E2B-2DCDF35EE3D8.jpg",
+                "audio": "drm/7/25667/OEBPS/Audio/1/page24.mp3"
+            },
+            {
+                "page": "drm/7/25667/OEBPS/Images/1/73C90B6C-67BC-4346-9197-A55BD34FBF95.jpg"
+            },
+            {
+                "page": "drm/7/25667/OEBPS/Images/1/78EE1C48-F86E-4E02-9286-38002F8B5066.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/25667/OEBPS/Images/1/0F68A521-ADA4-436C-B978-B245D0F9B852.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "25667",
+        "id": "25667",
+        "title": "Hermit Crabs",
+        "author": "Julie Murray",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "This title introduces readers to hermit crabs, which are popular family pets.",
+        "coverColorR": 217,
+        "coverColorG": 201,
+        "coverColorB": 185,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "ABDO Publishing",
+        "publisherId": "91",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "250L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 366,
+        "ar": "1.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pets",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.0554,
+        "contentHash": "ce4a0640372415f879d1",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373039
+    },
+    "userBook": {
+        "modelId": "46250489-25667",
+        "userId": "46250489",
+        "bookId": "25667",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311480,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311480,
+        "book": {
+            "modelId": "25667",
+            "title": "Hermit Crabs",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "ce4a0640372415f879d1"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "87915",
+            "user_id": "9457234",
+            "book_id": "25667",
+            "title": "Hermit Crabs",
+            "description": "",
+            "date_created": 1494288202,
+            "date_modified": 1494288634,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Where do hermit crabs live?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "In a tank",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Under the bed",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "In the kitchen",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Outside in the dirt",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What do hermit crabs like to dig in?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Sand",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Water",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Rubbish",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Grass",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What do hermit crabs need?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Food, fresh water and salt water",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Food and clothes",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Food and drink",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Food and friends",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What do hermit crabs like to climb on?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Rocks",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Trees",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Each other",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Walls",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                }
+            ],
+            "modelId": "87915",
+            "creatorName": "Mrs. Miles",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "9457234",
+                "udid": "57c149a35d77e7.81040422",
+                "journalName": "Mrs. Miles",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.94509803921569 0.66274509803922 0.92941176470588 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "823708745",
+                "fid": "",
+                "accountID": "B3A983DE-4143-648A-4A4D-94AD665ECCCD",
+                "simpleAccountId": "3451282",
+                "pagesFlipped": 293,
+                "nufComplete": 1,
+                "readingAge": 6,
+                "startingAge": 0,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 0,
+                "xpLevel": 1,
+                "dateLastLogin": 1533975730,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Amanda",
+                "lastName": "Miles",
+                "accountType": 1,
+                "dateModified": 1533975730,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Miles"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Where do hermit crabs live?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "In a tank",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Under the bed",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "In the kitchen",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Outside in the dirt",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What do hermit crabs like to dig in?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Sand",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Water",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Rubbish",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Grass",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What do hermit crabs need?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Food, fresh water and salt water",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Food and clothes",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Food and drink",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Food and friends",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What do hermit crabs like to climb on?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Rocks",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Trees",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Each other",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Walls",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            }
+        ]
+    }
+}

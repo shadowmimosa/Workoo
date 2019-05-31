@@ -1,0 +1,432 @@
+{
+    "publisherData": {
+        "modelId": "31",
+        "name": "Bellwether Media",
+        "url": "http://www.bellwethermedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539569528
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/13305/OEBPS/Images/1/282bd42f5967fef652274dc543626907.jpg"
+            },
+            {
+                "page": "drm/5/13305/OEBPS/Images/1/8323362da6aeb13ed89b5ac0d4f3d44d.jpg",
+                "audio": "drm/5/13305/OEBPS/Audio/1/aud4.mp3"
+            },
+            {
+                "page": "drm/5/13305/OEBPS/Images/1/168163340638e2770f02b70864b842a7.jpg"
+            },
+            {
+                "page": "drm/5/13305/OEBPS/Images/1/c67229218165ae3c22a6380125909d00.jpg",
+                "audio": "drm/5/13305/OEBPS/Audio/1/aud6.mp3"
+            },
+            {
+                "page": "drm/5/13305/OEBPS/Images/1/a948014336c2158fb9480722662861fd.jpg"
+            },
+            {
+                "page": "drm/5/13305/OEBPS/Images/1/400339d2cb11d345de0208a5ff5cae00.jpg",
+                "audio": "drm/5/13305/OEBPS/Audio/1/aud8.mp3"
+            },
+            {
+                "page": "drm/5/13305/OEBPS/Images/1/db603650279127f2d8d872e3f7a35606.jpg"
+            },
+            {
+                "page": "drm/5/13305/OEBPS/Images/1/f67e06604fc2ff867cb7692d123f4c6e.jpg",
+                "audio": "drm/5/13305/OEBPS/Audio/1/aud10.mp3"
+            },
+            {
+                "page": "drm/5/13305/OEBPS/Images/1/42f5d34dd336cd1d6c3b1db1a9126e02.jpg"
+            },
+            {
+                "page": "drm/5/13305/OEBPS/Images/1/22234bbcd68bbe646ca503363c9ce15a.jpg",
+                "audio": "drm/5/13305/OEBPS/Audio/1/aud12.mp3"
+            },
+            {
+                "page": "drm/5/13305/OEBPS/Images/1/9c09721ad44d3e12094f90d0d6d1c9df.jpg"
+            },
+            {
+                "page": "drm/5/13305/OEBPS/Images/1/35dee5553fb550696e84b435b8ab3ece.jpg",
+                "audio": "drm/5/13305/OEBPS/Audio/1/aud14.mp3"
+            },
+            {
+                "page": "drm/5/13305/OEBPS/Images/1/4e96d53572a885170cdad767712f98c8.jpg"
+            },
+            {
+                "page": "drm/5/13305/OEBPS/Images/1/403b30b042c72547f895c9262ef69490.jpg",
+                "audio": "drm/5/13305/OEBPS/Audio/1/aud16.mp3"
+            },
+            {
+                "page": "drm/5/13305/OEBPS/Images/1/d7a14e8d327dba5704072c664dfcc00e.jpg"
+            },
+            {
+                "page": "drm/5/13305/OEBPS/Images/1/943c5c9c031308cde2210e71d78022da.jpg",
+                "audio": "drm/5/13305/OEBPS/Audio/1/aud18.mp3"
+            },
+            {
+                "page": "drm/5/13305/OEBPS/Images/1/ab27ede6b071ff2e6855d1cce91aa181.jpg"
+            },
+            {
+                "page": "drm/5/13305/OEBPS/Images/1/d2efa8d7689cb461f60184e58e4bb5be.jpg",
+                "audio": "drm/5/13305/OEBPS/Audio/1/aud20.mp3"
+            },
+            {
+                "page": "drm/5/13305/OEBPS/Images/1/d1f2a5b7f359c18a31ff606b42542760.jpg"
+            },
+            {
+                "page": "drm/5/13305/OEBPS/Images/1/fe54f82cf1e8db221a7d3022ab3cdb1c.jpg",
+                "audio": "drm/5/13305/OEBPS/Audio/1/aud22.mp3"
+            },
+            {
+                "page": "drm/5/13305/OEBPS/Images/1/be6b30e647e3896e290f81c54b6f12e3.jpg"
+            },
+            {
+                "page": "drm/5/13305/OEBPS/Images/1/8c405b36e927e7819bed85ca2d42cbec.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/13305/OEBPS/Images/1/7eeb60f9d844c4ea4f071eaa87347b22.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "13305",
+        "id": "13305",
+        "title": "Super Cute! Baby Hippos",
+        "author": "Megan Borgert-Spaniol",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Open these books to treat yourself to some of the cutest shots of baby animals around.",
+        "coverColorR": 85,
+        "coverColorG": 164,
+        "coverColorB": 144,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Bellwether Media",
+        "publisherId": "31",
+        "age": 7,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "460L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 440,
+        "ar": "1.8",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Living Things",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.722,
+        "contentHash": "5f67279c41cc0c53c42f",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372661
+    },
+    "userBook": {
+        "modelId": "46250489-13305",
+        "userId": "46250489",
+        "bookId": "13305",
+        "currentPageIndex": 2,
+        "farthestPageIndex": 2,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 9,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559186929,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 11,
+        "dateModified": 1559186940,
+        "book": {
+            "modelId": "13305",
+            "title": "Super Cute! Baby Hippos",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "5f67279c41cc0c53c42f"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "48220",
+            "user_id": "12858985",
+            "book_id": "13305",
+            "title": "Baby Hippos",
+            "description": "",
+            "date_created": 1486473824,
+            "date_modified": 1503103517,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What is a baby hippo called?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Calf",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Hippopotamus",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Cattle",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Hippos",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "How long can a calf hold its breath for?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "40 seconds",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "50 seconds",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "1 hour",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "1 minute",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "When does mom and her calf join the herd?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "After 1 or 2 weeks",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "After 1 month",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "After 3 or 4 weeks",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "After 3 months",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What do the adults in the herd do?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Look out for predators",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Find food to eat",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Stay in the water",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Lays in the mud",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                }
+            ],
+            "modelId": "48220",
+            "creatorName": "Mr. Mcdonald",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "12858985",
+                "udid": "587fa53cb3eb76.43035235",
+                "journalName": "Mr. Mcdonald",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.15686274509804 0.47058823529412 0.60392156862745 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "487709287",
+                "fid": "",
+                "accountID": "ED2096AE-583B-187B-A091-CFF238938EBA",
+                "simpleAccountId": "4296100",
+                "pagesFlipped": 66,
+                "nufComplete": 1,
+                "readingAge": 9.86667,
+                "startingAge": 0,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 0,
+                "xpLevel": 1,
+                "dateLastLogin": 0,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Sean",
+                "lastName": "Mcdonald",
+                "accountType": 1,
+                "dateModified": 1489767745,
+                "educatorPrefix": "Mr.",
+                "name": "Mr. Mcdonald"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What is a baby hippo called?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Calf",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Hippopotamus",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Cattle",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Hippos",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "How long can a calf hold its breath for?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "40 seconds",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "50 seconds",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "1 hour",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "1 minute",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "When does mom and her calf join the herd?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "After 1 or 2 weeks",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "After 1 month",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "After 3 or 4 weeks",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "After 3 months",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What do the adults in the herd do?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Look out for predators",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Find food to eat",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Stay in the water",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Lays in the mud",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            }
+        ]
+    }
+}

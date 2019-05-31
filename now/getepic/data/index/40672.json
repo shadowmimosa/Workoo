@@ -1,0 +1,158 @@
+{
+    "publisherData": {
+        "modelId": "90083",
+        "name": "Child's World",
+        "url": "http://childsworld.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491261889
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/2/40672/OEBPS/Images/1/65972949-67CF-45AF-AFA5-C097C83244FE.jpg"
+            },
+            {
+                "page": "drm/2/40672/OEBPS/Images/1/F2E7D17B-7FF0-4333-A0E8-2F545A3D0470.jpg"
+            },
+            {
+                "page": "drm/2/40672/OEBPS/Images/1/229DFFD0-BF43-4DE5-8E2C-2E6DFC45F9C0.jpg"
+            },
+            {
+                "page": "drm/2/40672/OEBPS/Images/1/A95FE7B5-D965-4458-8F04-2E4D84508E66.jpg"
+            },
+            {
+                "page": "drm/2/40672/OEBPS/Images/1/1F480C54-3918-42C5-8590-E0573AC1F219.jpg"
+            },
+            {
+                "page": "drm/2/40672/OEBPS/Images/1/6C736C88-39DD-4132-B4C8-C1875771556A.jpg"
+            },
+            {
+                "page": "drm/2/40672/OEBPS/Images/1/8F138573-0F7E-42E1-8822-37D27898D0C8.jpg"
+            },
+            {
+                "page": "drm/2/40672/OEBPS/Images/1/57A8D129-69DD-49E4-8601-19094A273F17.jpg"
+            },
+            {
+                "page": "drm/2/40672/OEBPS/Images/1/E04B0A4C-D367-465B-BC25-FAE62E089BAC.jpg"
+            },
+            {
+                "page": "drm/2/40672/OEBPS/Images/1/2574D14A-06F1-49B1-BBC8-B0AB2970CD4E.jpg"
+            },
+            {
+                "page": "drm/2/40672/OEBPS/Images/1/0BB03329-1145-44EC-B637-78EFD87AB46B.jpg"
+            },
+            {
+                "page": "drm/2/40672/OEBPS/Images/1/A3B74B69-637A-4C99-983F-D78DA467F06C.jpg"
+            },
+            {
+                "page": "drm/2/40672/OEBPS/Images/1/A385EFB4-B052-48EC-B33B-61F4DBF9F702.jpg"
+            },
+            {
+                "page": "drm/2/40672/OEBPS/Images/1/74C8498C-14C2-4F05-86CF-4F970B8FE085.jpg"
+            },
+            {
+                "page": "drm/2/40672/OEBPS/Images/1/980F2F05-B0BB-465C-ACE8-3C6566220E53.jpg"
+            },
+            {
+                "page": "drm/2/40672/OEBPS/Images/1/87AAA89F-4A36-4861-AE07-1BB861129F3A.jpg"
+            },
+            {
+                "page": "drm/2/40672/OEBPS/Images/1/9D21CA0A-431D-4F72-92BD-C5D8E4A9EA26.jpg"
+            },
+            {
+                "page": "drm/2/40672/OEBPS/Images/1/27D250DF-3EC9-4F3F-9F1C-59F04BD2BA2A.jpg"
+            },
+            {
+                "page": "drm/2/40672/OEBPS/Images/1/8A1135D3-6A64-44D6-86CB-E220F81811D4.jpg"
+            },
+            {
+                "page": "drm/2/40672/OEBPS/Images/1/7772E921-A6CD-4691-990F-912BEBF062BE.jpg"
+            },
+            {
+                "page": "drm/2/40672/OEBPS/Images/1/A50241EC-AE97-4F8E-8278-B7618F28D452.jpg"
+            },
+            {
+                "page": "drm/2/40672/OEBPS/Images/1/2EC138BC-3D13-403A-9AEF-C52DB1760479.jpg"
+            },
+            {
+                "page": "drm/2/40672/OEBPS/Images/1/ECEE7ACA-B97D-40AC-83B7-DD05CDE144EF.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/2/40672/OEBPS/Images/1/2788553C-2386-4006-936D-A358426BF15F.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "40672",
+        "id": "40672",
+        "title": "Zigzag: The Sound of Z",
+        "author": "Alice K. Flanagan",
+        "illustrator": " ",
+        "numPages": 23,
+        "bookDescription": "Simple text and repetition of the letter 'z' help readers learn how to use this sound.",
+        "coverColorR": 203,
+        "coverColorG": 202,
+        "coverColorB": 178,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Child's World",
+        "publisherId": "90083",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "260L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 345,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "ABCs & 123s",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.9942,
+        "contentHash": "d49de0cecd96acfc12a1",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1555373751
+    },
+    "userBook": {
+        "modelId": "46250489-40672",
+        "userId": "46250489",
+        "bookId": "40672",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311635,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311635,
+        "book": {
+            "modelId": "40672",
+            "title": "Zigzag: The Sound of Z",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "d49de0cecd96acfc12a1"
+        }
+    },
+    "quiz": null
+}

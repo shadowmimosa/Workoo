@@ -1,0 +1,562 @@
+{
+    "publisherData": {
+        "modelId": "31",
+        "name": "Bellwether Media",
+        "url": "http://www.bellwethermedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539569528
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/6780/OEBPS/Images/1/9020943046e0117f3e33c12738b88c30.jpg",
+                "audio": "drm/0/6780/OEBPS/Audio/1/f6957328fbc120faa0b61e9019ad6a73.mp3"
+            },
+            {
+                "page": "drm/0/6780/OEBPS/Images/1/56cbb2324b6edadfb1248a8ea1ce70d6.jpg",
+                "audio": "drm/0/6780/OEBPS/Audio/1/945c5f000a92659a66fc351aaa7d4dc3.mp3"
+            },
+            {
+                "page": "drm/0/6780/OEBPS/Images/1/532f94a731563547bfa0c31332d26525.jpg"
+            },
+            {
+                "page": "drm/0/6780/OEBPS/Images/1/9f31ffbed87546c396832056dc8f95e0.jpg",
+                "audio": "drm/0/6780/OEBPS/Audio/1/2f2c89aae15f5f3c6dfef47c57e377e1.mp3"
+            },
+            {
+                "page": "drm/0/6780/OEBPS/Images/1/c1980bc94aa8adce10cd682afb907a64.jpg"
+            },
+            {
+                "page": "drm/0/6780/OEBPS/Images/1/9e3aeb8bebf0dab681f0061ef5c2c038.jpg",
+                "audio": "drm/0/6780/OEBPS/Audio/1/f5846ad3d4f644cae74509c49e004819.mp3"
+            },
+            {
+                "page": "drm/0/6780/OEBPS/Images/1/6ff6fa6c2f46c78c525b07615090e8ae.jpg"
+            },
+            {
+                "page": "drm/0/6780/OEBPS/Images/1/96375136b17d5ad7f23a742f3c472edb.jpg",
+                "audio": "drm/0/6780/OEBPS/Audio/1/dd16464469bc8c6b34d90379c507bea1.mp3"
+            },
+            {
+                "page": "drm/0/6780/OEBPS/Images/1/543cba7bc4988c16c5f3974e6af1856a.jpg"
+            },
+            {
+                "page": "drm/0/6780/OEBPS/Images/1/61eccb2123dd0a8bfc051aab2ece3774.jpg",
+                "audio": "drm/0/6780/OEBPS/Audio/1/5a875570cb4da8fbe5930281130ed51c.mp3"
+            },
+            {
+                "page": "drm/0/6780/OEBPS/Images/1/169d7527edac711104d8bc553337455b.jpg"
+            },
+            {
+                "page": "drm/0/6780/OEBPS/Images/1/b6e253f009c56a4661db120e1091a8a8.jpg",
+                "audio": "drm/0/6780/OEBPS/Audio/1/100c27277799484eb02160a2bbf19e0f.mp3"
+            },
+            {
+                "page": "drm/0/6780/OEBPS/Images/1/b76f2bdc3aed4f6bd6a60de9e48fd82b.jpg"
+            },
+            {
+                "page": "drm/0/6780/OEBPS/Images/1/12fbd31a05ccf1e6aee50d1b39f71ee2.jpg",
+                "audio": "drm/0/6780/OEBPS/Audio/1/9da76f6d57c5bda59f26e5ad841c7245.mp3"
+            },
+            {
+                "page": "drm/0/6780/OEBPS/Images/1/d39128575161facb6f55b58fe16851a7.jpg"
+            },
+            {
+                "page": "drm/0/6780/OEBPS/Images/1/51104a913fde4431ce3a05832befe179.jpg",
+                "audio": "drm/0/6780/OEBPS/Audio/1/9e80b431e173d5de78f99d7d91cc910c.mp3"
+            },
+            {
+                "page": "drm/0/6780/OEBPS/Images/1/f62561a7c7fc93a921b267603c439a9d.jpg"
+            },
+            {
+                "page": "drm/0/6780/OEBPS/Images/1/07bcb122d95e7559fc1a5416a10823ae.jpg",
+                "audio": "drm/0/6780/OEBPS/Audio/1/adf63ea5ade141723b373ce8ddcf01d1.mp3"
+            },
+            {
+                "page": "drm/0/6780/OEBPS/Images/1/9c1c3a6843186662f4c8805db360bc8d.jpg"
+            },
+            {
+                "page": "drm/0/6780/OEBPS/Images/1/6be631998207738ce501eb34512b5068.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/6780/OEBPS/Images/1/929ef31106582d58c88490545c6c3bcf.jpg",
+            "color": "#fefefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "6780",
+        "id": "6780",
+        "title": "Polar Bears: Animal Safari",
+        "author": "Kari Schuetz",
+        "illustrator": " ",
+        "numPages": 20,
+        "bookDescription": "This book explores how polar bears prey on seals and use their paws to paddle through water!",
+        "coverColorR": 113,
+        "coverColorG": 128,
+        "coverColorB": 152,
+        "version": 2,
+        "previewPercent": 20,
+        "publisher": "Bellwether Media",
+        "publisherId": "31",
+        "age": 6,
+        "pageNumOffset": 4,
+        "active": 1,
+        "audio": 1,
+        "lexile": "410L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 733,
+        "ar": "1.7",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Wild Things",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.726,
+        "contentHash": "1945e0bf267aafb65771",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372291
+    },
+    "userBook": {
+        "modelId": "46250489-6780",
+        "userId": "46250489",
+        "bookId": "6780",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 20,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559187012,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 1055,
+        "dateModified": 1559224803,
+        "book": {
+            "modelId": "6780",
+            "title": "Polar Bears: Animal Safari",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "1945e0bf267aafb65771"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "179661",
+            "user_id": "19372636",
+            "book_id": "6780",
+            "title": "Polar Bears",
+            "description": "",
+            "date_created": 1519413512,
+            "date_modified": 1522109716,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Polar bears are ______________.",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "The largest bears in the world",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "The smallest bears in the world",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Plant eaters",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "Where do polar bears live?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "the Arctic",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "in warm waters",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "in Australia",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "in North America",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Why do polar bears have pads on their feet?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "to keep them from slipping on the ice",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "to look cute",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "to help them swim faster",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "to help them climb trees",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Blubber ___________________.",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "is fat that keeps polar bears warm",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "is the food polar bears eat",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "is where polar bears live",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Blubber also helps polar bears _____________.",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "to float",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "to run fast",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "to jump",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "to catch food",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "What does the word \"predator\" mean?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "an animal that hunts other animals",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "an animal that gets eaten",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "a kind of fish",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "fat that keeps polar bears warm",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 5
+                },
+                {
+                    "title": "What does a polar bear eat?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "seals",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "fruits",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "brown bears",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "elephants",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 6
+                }
+            ],
+            "modelId": "179661",
+            "creatorName": "Mrs. Henry",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "19372636",
+                "udid": "59dbbff6c7c373.12492676",
+                "journalName": "Mrs. Henry",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.61176470588235 0.36078431372549 0.70588235294118 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "888785159",
+                "fid": "",
+                "accountID": "26AF9AB7-0537-F36F-62BB-BCA8DC9FF75B",
+                "simpleAccountId": "5843009",
+                "pagesFlipped": 604,
+                "nufComplete": 1,
+                "readingAge": 7,
+                "startingAge": 7,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 53,
+                "xpLevel": 2,
+                "dateLastLogin": 1544191096,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Colleen",
+                "lastName": "Henry",
+                "accountType": 1,
+                "dateModified": 1559308209,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Henry"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Polar bears are ______________.",
+                "quizQuestionChoices": [
+                    {
+                        "title": "The largest bears in the world",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "The smallest bears in the world",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Plant eaters",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "Where do polar bears live?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "the Arctic",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "in warm waters",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "in Australia",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "in North America",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Why do polar bears have pads on their feet?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "to keep them from slipping on the ice",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "to look cute",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "to help them swim faster",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "to help them climb trees",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Blubber ___________________.",
+                "quizQuestionChoices": [
+                    {
+                        "title": "is fat that keeps polar bears warm",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "is the food polar bears eat",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "is where polar bears live",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Blubber also helps polar bears _____________.",
+                "quizQuestionChoices": [
+                    {
+                        "title": "to float",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "to run fast",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "to jump",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "to catch food",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "What does the word \"predator\" mean?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "an animal that hunts other animals",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "an animal that gets eaten",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "a kind of fish",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "fat that keeps polar bears warm",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 5
+            },
+            {
+                "title": "What does a polar bear eat?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "seals",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "fruits",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "brown bears",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "elephants",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 6
+            }
+        ]
+    }
+}

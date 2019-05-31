@@ -1,0 +1,156 @@
+{
+    "publisherData": {
+        "modelId": "28",
+        "name": "Xist Publishing",
+        "url": "http://www.xistpublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539564197
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/64229/OEBPS/Images/1/d9182fa8031dc86a76f0d9f91705f0cb.jpg",
+                "audio": "drm/9/64229/OEBPS/Audio/1/Title.mp3"
+            },
+            {
+                "page": "drm/9/64229/OEBPS/Images/1/ae9aee23f8ddb2760d60fee933a9e3e3.jpg",
+                "audio": "drm/9/64229/OEBPS/Audio/1/Page 2.mp3"
+            },
+            {
+                "page": "drm/9/64229/OEBPS/Images/1/3a5ab76263f546f99a92a22c476c15ca.jpg",
+                "audio": "drm/9/64229/OEBPS/Audio/1/Page 3.mp3"
+            },
+            {
+                "page": "drm/9/64229/OEBPS/Images/1/8cbdee93df0634bad37427855b7e8953.jpg",
+                "audio": "drm/9/64229/OEBPS/Audio/1/Page 4.mp3"
+            },
+            {
+                "page": "drm/9/64229/OEBPS/Images/1/5770aac508274337ae069432a61a86f3.jpg",
+                "audio": "drm/9/64229/OEBPS/Audio/1/Page 5.mp3"
+            },
+            {
+                "page": "drm/9/64229/OEBPS/Images/1/aecad793821533ab55f4721451120f6f.jpg",
+                "audio": "drm/9/64229/OEBPS/Audio/1/Page 6.mp3"
+            },
+            {
+                "page": "drm/9/64229/OEBPS/Images/1/70a18c7d2c61ad41b8221d01dc3e4af3.jpg",
+                "audio": "drm/9/64229/OEBPS/Audio/1/Page 7.mp3"
+            },
+            {
+                "page": "drm/9/64229/OEBPS/Images/1/41beef1c9b7737c2f29d4ab7227ddd97.jpg",
+                "audio": "drm/9/64229/OEBPS/Audio/1/Page 8.mp3"
+            },
+            {
+                "page": "drm/9/64229/OEBPS/Images/1/c6a0bf396326c1cbbdd4f14a59a3e57d.jpg",
+                "audio": "drm/9/64229/OEBPS/Audio/1/Page 9.mp3"
+            },
+            {
+                "page": "drm/9/64229/OEBPS/Images/1/3044b5b63dc84a1656dd858975824600.jpg",
+                "audio": "drm/9/64229/OEBPS/Audio/1/Page 10.mp3"
+            },
+            {
+                "page": "drm/9/64229/OEBPS/Images/1/4d64a40cf9db5c9f69bbfabf758e159e.jpg",
+                "audio": "drm/9/64229/OEBPS/Audio/1/Page 11.mp3"
+            },
+            {
+                "page": "drm/9/64229/OEBPS/Images/1/4e13daa4d29dada24926dfb32de26904.jpg",
+                "audio": "drm/9/64229/OEBPS/Audio/1/Page 12.mp3"
+            },
+            {
+                "page": "drm/9/64229/OEBPS/Images/1/b6b81ecf6488ea252f0db267dd94b7e0.jpg",
+                "audio": "drm/9/64229/OEBPS/Audio/1/Page 13.mp3"
+            },
+            {
+                "page": "drm/9/64229/OEBPS/Images/1/2c607c5ebd35b9f013a55f26cb54046c.jpg",
+                "audio": "drm/9/64229/OEBPS/Audio/1/Page 14.mp3"
+            },
+            {
+                "page": "drm/9/64229/OEBPS/Images/1/05346a72286ddea0af2e3f82c410f03a.jpg",
+                "audio": "drm/9/64229/OEBPS/Audio/1/Page 15.mp3"
+            },
+            {
+                "page": "drm/9/64229/OEBPS/Images/1/f3c989cbb4844201f7e8080c622b2e40.jpg",
+                "audio": "drm/9/64229/OEBPS/Audio/1/Page 16.mp3"
+            },
+            {
+                "page": "drm/9/64229/OEBPS/Images/1/9cdf1d11923aec4c84d2e40f84450ce2.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/64229/OEBPS/Images/1/3760f8f9b61ce243d4978df64cf997b3.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "64229",
+        "id": "64229",
+        "title": "Cody Eats Everything",
+        "author": "Brenda Ponnay",
+        "illustrator": " ",
+        "numPages": 17,
+        "bookDescription": "Cody likes to eat things that maybe he shouldn't. Beginning readers will meet Cody and the things he likes to eat.",
+        "coverColorR": 176,
+        "coverColorG": 52,
+        "coverColorB": 57,
+        "version": 42041408,
+        "previewPercent": 20,
+        "publisher": "Xist Publishing",
+        "publisherId": "28",
+        "age": 4,
+        "pageNumOffset": -1,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 425,
+        "ar": "1.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "b",
+        "language": 1,
+        "rating": 75,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Dogs",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.6471,
+        "contentHash": "fba5b3013f884474a3cb",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1558049642
+    },
+    "userBook": {
+        "modelId": "46250489-64229",
+        "userId": "46250489",
+        "bookId": "64229",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559303557,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559303557,
+        "book": {
+            "modelId": "64229",
+            "title": "Cody Eats Everything",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "fba5b3013f884474a3cb"
+        }
+    },
+    "quiz": null
+}

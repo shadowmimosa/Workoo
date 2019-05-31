@@ -1,0 +1,177 @@
+{
+    "publisherData": {
+        "modelId": "122",
+        "name": "Blue Door Education",
+        "url": "https://bluedoor-education.squarespace.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491011404
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/52647/OEBPS/Images/1/77333ae0ff6f742a254e8ae14a9ad54c.jpg",
+                "audio": "drm/7/52647/OEBPS/Audio/1/"
+            },
+            {
+                "page": "drm/7/52647/OEBPS/Images/1/5a49c9911d91452a7ce403f47d20cdfc.jpg",
+                "audio": "drm/7/52647/OEBPS/Audio/1/Page 2.mp3"
+            },
+            {
+                "page": "drm/7/52647/OEBPS/Images/1/2b8dab7a54f9876eea048b57b79e5934.jpg",
+                "audio": "drm/7/52647/OEBPS/Audio/1/Page 3.mp3"
+            },
+            {
+                "page": "drm/7/52647/OEBPS/Images/1/baa16ed6cba2c822f0154ab9978c7c7b.jpg",
+                "audio": "drm/7/52647/OEBPS/Audio/1/Page 4.mp3"
+            },
+            {
+                "page": "drm/7/52647/OEBPS/Images/1/3c32b89d9e25664b66193fb0853f3f67.jpg",
+                "audio": "drm/7/52647/OEBPS/Audio/1/Page 5.mp3"
+            },
+            {
+                "page": "drm/7/52647/OEBPS/Images/1/0ef93fb3b7cece91ca813154699f669b.jpg"
+            },
+            {
+                "page": "drm/7/52647/OEBPS/Images/1/bcd0f0cf933cc236f87ca04f26bcbed0.jpg",
+                "audio": "drm/7/52647/OEBPS/Audio/1/Page 7.mp3"
+            },
+            {
+                "page": "drm/7/52647/OEBPS/Images/1/35265bd0e9c145f3bfd32cfbb84a4f58.jpg",
+                "audio": "drm/7/52647/OEBPS/Audio/1/Page 8.mp3"
+            },
+            {
+                "page": "drm/7/52647/OEBPS/Images/1/dad345c0f601e733e57c587ebffc1e37.jpg"
+            },
+            {
+                "page": "drm/7/52647/OEBPS/Images/1/720e20ac978dbea8852bb67a952761c9.jpg",
+                "audio": "drm/7/52647/OEBPS/Audio/1/Page 10.mp3"
+            },
+            {
+                "page": "drm/7/52647/OEBPS/Images/1/7d03537daff7022d7128578dd0d07b6a.jpg",
+                "audio": "drm/7/52647/OEBPS/Audio/1/Page 11.mp3"
+            },
+            {
+                "page": "drm/7/52647/OEBPS/Images/1/a39e45ec3409df930feafdfa45cb72dd.jpg",
+                "audio": "drm/7/52647/OEBPS/Audio/1/Page 12.mp3"
+            },
+            {
+                "page": "drm/7/52647/OEBPS/Images/1/911f0af320f3dcebffb9a32468ddd3c4.jpg",
+                "audio": "drm/7/52647/OEBPS/Audio/1/Page 13.mp3"
+            },
+            {
+                "page": "drm/7/52647/OEBPS/Images/1/96d376960aca271fcf454e89dae112a6.jpg",
+                "audio": "drm/7/52647/OEBPS/Audio/1/Page 14.mp3"
+            },
+            {
+                "page": "drm/7/52647/OEBPS/Images/1/f6a4cea96c058ab36529b3db89801cc7.jpg",
+                "audio": "drm/7/52647/OEBPS/Audio/1/Page 15.mp3"
+            },
+            {
+                "page": "drm/7/52647/OEBPS/Images/1/5e6310349ca42830604056e0a86522a6.jpg",
+                "audio": "drm/7/52647/OEBPS/Audio/1/Page 16.mp3"
+            },
+            {
+                "page": "drm/7/52647/OEBPS/Images/1/e67562d6d126214bda563b31390be08b.jpg",
+                "audio": "drm/7/52647/OEBPS/Audio/1/Page 17.mp3"
+            },
+            {
+                "page": "drm/7/52647/OEBPS/Images/1/7300bb66a92ee1dfe65d7e8a20cbb732.jpg",
+                "audio": "drm/7/52647/OEBPS/Audio/1/Page 18.mp3"
+            },
+            {
+                "page": "drm/7/52647/OEBPS/Images/1/c4aa60a3e59823d304426166ff23cc61.jpg"
+            },
+            {
+                "page": "drm/7/52647/OEBPS/Images/1/a0e9d82a34b956d117de4339d696655b.jpg",
+                "audio": "drm/7/52647/OEBPS/Audio/1/Page 20.mp3"
+            },
+            {
+                "page": "drm/7/52647/OEBPS/Images/1/6bc38bb2828bb984b419880e74b20305.jpg",
+                "audio": "drm/7/52647/OEBPS/Audio/1/Page 21.mp3"
+            },
+            {
+                "page": "drm/7/52647/OEBPS/Images/1/2e33dedf5270ea94872dd2d6830df871.jpg",
+                "audio": "drm/7/52647/OEBPS/Audio/1/Page 22.mp3"
+            },
+            {
+                "page": "drm/7/52647/OEBPS/Images/1/62fe444215d110972f062848f04465be.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/52647/OEBPS/Images/1/4a55e47ae793a72474a2d8ed0040d158.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "52647",
+        "id": "52647",
+        "title": "Left and Right",
+        "author": "Taylor Farley",
+        "illustrator": " ",
+        "numPages": 23,
+        "bookDescription": "I know my left and my right! Do you know you left and right?",
+        "coverColorR": 173,
+        "coverColorG": 185,
+        "coverColorB": 188,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Blue Door Education",
+        "publisherId": "122",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 345,
+        "ar": "-",
+        "fandp": "c",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 80,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Arts, Crafts, DIY",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "874d16e695b584adaa45",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1529977299
+    },
+    "userBook": {
+        "modelId": "46250489-52647",
+        "userId": "46250489",
+        "bookId": "52647",
+        "currentPageIndex": 24,
+        "farthestPageIndex": 24,
+        "favorited": 0,
+        "finishTime": 61,
+        "paid": 0,
+        "progress": 100,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 224,
+        "recommended": 0,
+        "lastModified": 1558937611,
+        "bookmarks": "",
+        "timesCompleted": 2,
+        "currentReadTime": 0,
+        "dateModified": 1559035569,
+        "book": {
+            "modelId": "52647",
+            "title": "Left and Right",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "874d16e695b584adaa45"
+        }
+    },
+    "quiz": null
+}

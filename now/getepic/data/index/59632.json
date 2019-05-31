@@ -1,0 +1,164 @@
+{
+    "publisherData": {
+        "modelId": "90390",
+        "name": "Willow Tree Books",
+        "url": "http://www.imaginethat.com/willow-tree-books/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1547063161
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/2/59632/OEBPS/Images/1/249aafc36627e800ab34f90da6482720.jpg"
+            },
+            {
+                "page": "drm/2/59632/OEBPS/Images/1/a3e31806a43b1ef0303e5f20ef6f6e55.jpg"
+            },
+            {
+                "page": "drm/2/59632/OEBPS/Images/1/86dbe2ccda40f4efd18f2adf874282d9.jpg"
+            },
+            {
+                "page": "drm/2/59632/OEBPS/Images/1/deac32db9f6a0c27f9e6a6dcdd04a369.jpg"
+            },
+            {
+                "page": "drm/2/59632/OEBPS/Images/1/bedc1670d0b4cdd15364d0c07cc487ac.jpg"
+            },
+            {
+                "page": "drm/2/59632/OEBPS/Images/1/0d8428a39ecc91f4734b2fee6ed4cd8a.jpg"
+            },
+            {
+                "page": "drm/2/59632/OEBPS/Images/1/05f50cfe16e042449da6efd4b1080dd8.jpg"
+            },
+            {
+                "page": "drm/2/59632/OEBPS/Images/1/2debbe114a19c00a22c77d85f7e74a1a.jpg"
+            },
+            {
+                "page": "drm/2/59632/OEBPS/Images/1/20190bacada21e01d55f96780f174fc3.jpg"
+            },
+            {
+                "page": "drm/2/59632/OEBPS/Images/1/4d2f64337eaacccc5d7ac9c1623824db.jpg"
+            },
+            {
+                "page": "drm/2/59632/OEBPS/Images/1/b0863a59079c5707357f999e3af2d83a.jpg"
+            },
+            {
+                "page": "drm/2/59632/OEBPS/Images/1/f3774923a8eb20458dfa673dd1e6d943.jpg"
+            },
+            {
+                "page": "drm/2/59632/OEBPS/Images/1/371a43011fbdcaf150351a960dbd6120.jpg"
+            },
+            {
+                "page": "drm/2/59632/OEBPS/Images/1/5d0455f3a1ebff76f9e43c4ca6c37126.jpg"
+            },
+            {
+                "page": "drm/2/59632/OEBPS/Images/1/3413e53b8b158ed6801ec2a975d068c6.jpg"
+            },
+            {
+                "page": "drm/2/59632/OEBPS/Images/1/7e5954c5e1b6c572899426ac479e03f5.jpg"
+            },
+            {
+                "page": "drm/2/59632/OEBPS/Images/1/7c55a36e32d0a3f16c39b450676bb454.jpg"
+            },
+            {
+                "page": "drm/2/59632/OEBPS/Images/1/74f71da42cbea5fd8051b26b28ea7226.jpg"
+            },
+            {
+                "page": "drm/2/59632/OEBPS/Images/1/a4c0a8dc40b8e1a89ce1114f92f9d862.jpg"
+            },
+            {
+                "page": "drm/2/59632/OEBPS/Images/1/09b6b2e590e76e2b8d35a61cb23e1283.jpg"
+            },
+            {
+                "page": "drm/2/59632/OEBPS/Images/1/0ff2957f63c5d290cb15dde7dd628319.jpg"
+            },
+            {
+                "page": "drm/2/59632/OEBPS/Images/1/986a061059f74eaaee5f7580c0ebb19a.jpg"
+            },
+            {
+                "page": "drm/2/59632/OEBPS/Images/1/511b14e4d4430e880aad95acdbdbedd6.jpg"
+            },
+            {
+                "page": "drm/2/59632/OEBPS/Images/1/54975e292a540d4836158113fc4a5a98.jpg"
+            },
+            {
+                "page": "drm/2/59632/OEBPS/Images/1/cdf3da6bf2f6f1877b99965d273bc116.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/2/59632/OEBPS/Images/1/c2d7bdb23f5c86417c5b1b3ebbacd580.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "59632",
+        "id": "59632",
+        "title": "Cat & Dog",
+        "author": "Helen Oswald",
+        "illustrator": "Zoe Waring",
+        "numPages": 25,
+        "bookDescription": "Cat slept in the day. Dog slept at night. But every evening they met for their daily scrap.",
+        "coverColorR": 99,
+        "coverColorG": 150,
+        "coverColorB": 162,
+        "version": 12309,
+        "previewPercent": 20,
+        "publisher": "Willow Tree Books",
+        "publisherId": "90390",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 375,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pets",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.8511,
+        "contentHash": "8dfcaf15720f34cd79c8",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1547079470
+    },
+    "userBook": {
+        "modelId": "46250489-59632",
+        "userId": "46250489",
+        "bookId": "59632",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559303054,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559303054,
+        "book": {
+            "modelId": "59632",
+            "title": "Cat & Dog",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "8dfcaf15720f34cd79c8"
+        }
+    },
+    "quiz": null
+}

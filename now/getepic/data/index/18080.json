@@ -1,0 +1,323 @@
+{
+    "publisherData": {
+        "modelId": "109",
+        "name": "JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/18080/OEBPS/Images/1/e88ea6e199a1fb8d580172286695e3dc.jpg"
+            },
+            {
+                "page": "drm/0/18080/OEBPS/Images/1/7996892ebbdf8bc8662c37a6fc88d51c.jpg",
+                "audio": "drm/0/18080/OEBPS/Audio/1/b7d44aeebf68cebddedde04e7a0702d0.mp3"
+            },
+            {
+                "page": "drm/0/18080/OEBPS/Images/1/3e7697d677771fafdc425744da9ebda8.jpg",
+                "audio": "drm/0/18080/OEBPS/Audio/1/00e8a1f6fac665ebdbae04250e33f53f.mp3"
+            },
+            {
+                "page": "drm/0/18080/OEBPS/Images/1/cf5858f6417d7108e511da7992da7e55.jpg",
+                "audio": "drm/0/18080/OEBPS/Audio/1/804e90c9613baa89e5ac7b2e22c25e4e.mp3"
+            },
+            {
+                "page": "drm/0/18080/OEBPS/Images/1/90a974ea89a7a68eedb2058bfaf62778.jpg"
+            },
+            {
+                "page": "drm/0/18080/OEBPS/Images/1/cf7d2147647a83ad3fdc18c2150c16d9.jpg",
+                "audio": "drm/0/18080/OEBPS/Audio/1/5a812f0244eb5e9167ace6ada8a0eeb9.mp3"
+            },
+            {
+                "page": "drm/0/18080/OEBPS/Images/1/70e1f84617ced8a65f9adc0ae3b7bb23.jpg"
+            },
+            {
+                "page": "drm/0/18080/OEBPS/Images/1/bdf30f71b97ad453e519870a3929d8b3.jpg",
+                "audio": "drm/0/18080/OEBPS/Audio/1/778770f59abda5aac3ce1c3a942039b6.mp3"
+            },
+            {
+                "page": "drm/0/18080/OEBPS/Images/1/0b2c5ce9f870dc3081c49e35ec73315c.jpg"
+            },
+            {
+                "page": "drm/0/18080/OEBPS/Images/1/99de153724525bc5f25fb54c7fa82cf8.jpg",
+                "audio": "drm/0/18080/OEBPS/Audio/1/e9a39c238b1edba90a344242f53fe0a6.mp3"
+            },
+            {
+                "page": "drm/0/18080/OEBPS/Images/1/ff723f26a318f9c89e0a77090fb33f87.jpg",
+                "audio": "drm/0/18080/OEBPS/Audio/1/9e83d6e11387c6c46863ee04e3108a6e.mp3"
+            },
+            {
+                "page": "drm/0/18080/OEBPS/Images/1/aced8ee3fecd5f2416d4ab32797c7aa6.jpg",
+                "audio": "drm/0/18080/OEBPS/Audio/1/707bade9c8a82f072864b993c05fc4de.mp3"
+            },
+            {
+                "page": "drm/0/18080/OEBPS/Images/1/1df06aa2d71b099b48ea54c96ca3af9a.jpg"
+            },
+            {
+                "page": "drm/0/18080/OEBPS/Images/1/3775f0ed5141f108659657a05f3fb308.jpg",
+                "audio": "drm/0/18080/OEBPS/Audio/1/a666269dfbb5518c85e725117aaa7420.mp3"
+            },
+            {
+                "page": "drm/0/18080/OEBPS/Images/1/05329dcd3c6ef74818827ea5a4fc8025.jpg"
+            },
+            {
+                "page": "drm/0/18080/OEBPS/Images/1/1eb140477bc825cc1fa2d6b8ad6876ae.jpg",
+                "audio": "drm/0/18080/OEBPS/Audio/1/f862dc4f03446133cd46e8d02c363369.mp3"
+            },
+            {
+                "page": "drm/0/18080/OEBPS/Images/1/d14012c2c411ef59d3a0ee303ce03ada.jpg",
+                "audio": "drm/0/18080/OEBPS/Audio/1/a6266da70823e0f1aff115f2bd24b499.mp3"
+            },
+            {
+                "page": "drm/0/18080/OEBPS/Images/1/08a64d387cd9074a3d84df2992cd4c74.jpg",
+                "audio": "drm/0/18080/OEBPS/Audio/1/356aab8cbc93bee372e9a8126d6bd155.mp3"
+            },
+            {
+                "page": "drm/0/18080/OEBPS/Images/1/b81aaa407db104b6a648fd62e4b93c65.jpg"
+            },
+            {
+                "page": "drm/0/18080/OEBPS/Images/1/de0ea54a52e762c43eafb0f09468e6e4.jpg",
+                "audio": "drm/0/18080/OEBPS/Audio/1/be837d685f5a1fdf986f8caed51ee3b8.mp3"
+            },
+            {
+                "page": "drm/0/18080/OEBPS/Images/1/708bf5eaef00882190fd65f5e5e41919.jpg"
+            },
+            {
+                "page": "drm/0/18080/OEBPS/Images/1/8af8ee5bf29454d620fde7acf8e354fc.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/18080/OEBPS/Images/1/892c60bf2addc18033f45988dc05587e.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18080",
+        "id": "18080",
+        "title": "Shape Hunters: Shapes at School",
+        "author": "Jenny Fretland Vanvoorst",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Shapes at School points out the shapes readers encounter in the classroom, in the lunchroom, and on the playground.",
+        "coverColorR": 166,
+        "coverColorG": 153,
+        "coverColorB": 161,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "JUMP",
+        "publisherId": "109",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "20L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 733,
+        "ar": "1.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 81,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "2558db432d2896809250",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372851
+    },
+    "userBook": {
+        "modelId": "46250489-18080",
+        "userId": "46250489",
+        "bookId": "18080",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311035,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311035,
+        "book": {
+            "modelId": "18080",
+            "title": "Shape Hunters: Shapes at School",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "2558db432d2896809250"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "397421",
+            "user_id": "1325727",
+            "book_id": "18080",
+            "title": "Shapes",
+            "description": "",
+            "date_created": 1556641224,
+            "date_modified": 1556641253,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "quizQuestionChoices": [
+                        {
+                            "correct": 1,
+                            "title": "Rectangular ",
+                            "id": 0
+                        },
+                        {
+                            "correct": 0,
+                            "title": "Circle",
+                            "id": 1
+                        }
+                    ],
+                    "title": "What shape is the paper? ",
+                    "id": 0
+                },
+                {
+                    "quizQuestionChoices": [
+                        {
+                            "correct": 1,
+                            "title": "Triangle ",
+                            "id": 0
+                        },
+                        {
+                            "correct": 0,
+                            "title": "Circle ",
+                            "id": 1
+                        }
+                    ],
+                    "title": "What shape is the sandwich cut into? ",
+                    "id": 1
+                },
+                {
+                    "quizQuestionChoices": [
+                        {
+                            "correct": 1,
+                            "title": "Circle",
+                            "id": 0
+                        },
+                        {
+                            "correct": 0,
+                            "title": "Triangle ",
+                            "id": 1
+                        }
+                    ],
+                    "title": "What shape is the hoop? ",
+                    "id": 2
+                }
+            ],
+            "modelId": "397421",
+            "creatorName": "Mrs. Bazinet",
+            "avatarId": "81",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "1325727",
+                "udid": "55d885af69f465.00881256",
+                "journalName": "Mrs. Bazinet",
+                "journalCoverAvatar": "81",
+                "journalCoverColor": "0.94509803921569 0.66274509803922 0.92941176470588 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "518842238",
+                "fid": "",
+                "accountID": "1894DF1A-0C30-6F8F-279D-D2EE09AEE268",
+                "simpleAccountId": "700118",
+                "pagesFlipped": 8967,
+                "nufComplete": 1,
+                "readingAge": 5.43333,
+                "startingAge": 5,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 503,
+                "xpLevel": 7,
+                "dateLastLogin": 1557855863,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Corrina",
+                "lastName": "Bazinet",
+                "accountType": 1,
+                "dateModified": 1558452824,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Bazinet"
+            }
+        },
+        "quizQuestions": [
+            {
+                "quizQuestionChoices": [
+                    {
+                        "correct": 1,
+                        "title": "Rectangular ",
+                        "id": 0
+                    },
+                    {
+                        "correct": 0,
+                        "title": "Circle",
+                        "id": 1
+                    }
+                ],
+                "title": "What shape is the paper? ",
+                "id": 0
+            },
+            {
+                "quizQuestionChoices": [
+                    {
+                        "correct": 1,
+                        "title": "Triangle ",
+                        "id": 0
+                    },
+                    {
+                        "correct": 0,
+                        "title": "Circle ",
+                        "id": 1
+                    }
+                ],
+                "title": "What shape is the sandwich cut into? ",
+                "id": 1
+            },
+            {
+                "quizQuestionChoices": [
+                    {
+                        "correct": 1,
+                        "title": "Circle",
+                        "id": 0
+                    },
+                    {
+                        "correct": 0,
+                        "title": "Triangle ",
+                        "id": 1
+                    }
+                ],
+                "title": "What shape is the hoop? ",
+                "id": 2
+            }
+        ]
+    }
+}

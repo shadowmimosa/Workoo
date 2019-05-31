@@ -1,0 +1,155 @@
+{
+    "publisherData": {
+        "modelId": "31",
+        "name": "Bellwether Media",
+        "url": "http://www.bellwethermedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539569528
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/35871/OEBPS/Images/1/CE7C5299-D482-4905-B290-D394912AA879.jpg"
+            },
+            {
+                "page": "drm/1/35871/OEBPS/Images/1/0CDA8EC6-B0DD-477B-A461-C987E516E7A1.jpg"
+            },
+            {
+                "page": "drm/1/35871/OEBPS/Images/1/DB8BAF07-ED4E-4243-945C-5FDB60415939.jpg"
+            },
+            {
+                "page": "drm/1/35871/OEBPS/Images/1/90C5F518-BA49-4180-B0A7-3BD7A04E3B8D.jpg"
+            },
+            {
+                "page": "drm/1/35871/OEBPS/Images/1/4D025FEE-A41A-420D-9A3C-033322EA700B.jpg"
+            },
+            {
+                "page": "drm/1/35871/OEBPS/Images/1/7400B9A4-8CBC-4DB5-813A-05D2897D1986.jpg"
+            },
+            {
+                "page": "drm/1/35871/OEBPS/Images/1/692AFC7E-3B06-46E7-BECD-F40019AC0D49.jpg"
+            },
+            {
+                "page": "drm/1/35871/OEBPS/Images/1/22FD6937-40BA-4863-8744-51994C8A05BC.jpg"
+            },
+            {
+                "page": "drm/1/35871/OEBPS/Images/1/19034FB6-A686-4CFA-8C9B-AF65BA2974CF.jpg"
+            },
+            {
+                "page": "drm/1/35871/OEBPS/Images/1/1D990162-ACF9-471C-BC76-E8DE13B6DF09.jpg"
+            },
+            {
+                "page": "drm/1/35871/OEBPS/Images/1/DDB535DB-3D93-4692-AFE8-8C85C265A0F3.jpg"
+            },
+            {
+                "page": "drm/1/35871/OEBPS/Images/1/D6D32CB0-08D5-4809-8CA9-C2371FCACD3B.jpg"
+            },
+            {
+                "page": "drm/1/35871/OEBPS/Images/1/24D62D98-3336-48F2-AABA-0484F78618F8.jpg"
+            },
+            {
+                "page": "drm/1/35871/OEBPS/Images/1/9C5F996D-B8A6-4111-BAA2-6C1CF1886BED.jpg"
+            },
+            {
+                "page": "drm/1/35871/OEBPS/Images/1/71238172-C089-4BA5-AB29-BF2932FA8FB7.jpg"
+            },
+            {
+                "page": "drm/1/35871/OEBPS/Images/1/3A8C8A03-51B9-439E-8300-5FCA6D4A394C.jpg"
+            },
+            {
+                "page": "drm/1/35871/OEBPS/Images/1/FF67824F-8A7C-44AF-9FCA-8AE1CA6A63CF.jpg"
+            },
+            {
+                "page": "drm/1/35871/OEBPS/Images/1/C5ACD6C2-6AFB-47B6-A57D-03AF4CDC18F6.jpg"
+            },
+            {
+                "page": "drm/1/35871/OEBPS/Images/1/FC68EE07-3D70-4E53-B634-FDE366B973F7.jpg"
+            },
+            {
+                "page": "drm/1/35871/OEBPS/Images/1/8B694D5B-3042-440C-8CC6-F7F94F00BA93.jpg"
+            },
+            {
+                "page": "drm/1/35871/OEBPS/Images/1/B916D396-49DB-4835-B9FA-FA37E7CE5CBF.jpg"
+            },
+            {
+                "page": "drm/1/35871/OEBPS/Images/1/7EA44524-B8F9-4AD2-8D62-CA39E7686BAD.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/35871/OEBPS/Images/1/522177B7-D661-45AB-A709-580671298AFD.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "35871",
+        "id": "35871",
+        "title": "Goats",
+        "author": "Emily K. Green",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "This book introduces children to how goats look and how they live on the farm.",
+        "coverColorR": 158,
+        "coverColorG": 135,
+        "coverColorB": 116,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Bellwether Media",
+        "publisherId": "31",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "270L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 403,
+        "ar": "1.3",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Farm Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.75,
+        "contentHash": "1b67155483616e561da6",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1555373438
+    },
+    "userBook": {
+        "modelId": "46250489-35871",
+        "userId": "46250489",
+        "bookId": "35871",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559312153,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559312153,
+        "book": {
+            "modelId": "35871",
+            "title": "Goats",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "1b67155483616e561da6"
+        }
+    },
+    "quiz": null
+}

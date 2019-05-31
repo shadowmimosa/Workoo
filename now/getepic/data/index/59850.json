@@ -1,0 +1,185 @@
+{
+    "publisherData": {
+        "modelId": "90236",
+        "name": "Abrams",
+        "url": "http://www.abramsbooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491009966
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/294061d02b3d33168b8ec68760265580.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/ef936da53338677d7b38f4cf7ab3a941.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/18011afece3381e338f3d8152b287f81.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/0b2e4bf676b9cfac1f0ae07c314fb7dd.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/c7f59b94612e5e85e6944821391cd137.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/b3e5f82d118f637ec5657353d16dc6ef.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/4efce60f5e237a380e2139a2fe4e2fbe.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/cd8c54fe9ab447345795cca2a4bf3785.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/87b8feed182371839bf4dfa57019d407.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/eddf76b5c2c581392b54ad2d9cc05edc.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/0287b3a06a6e60e992ff5cd38dc6c7f1.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/4788b6521b61e7e998678e90ce7e4d02.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/d48233fba53be712455ab31bee09f153.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/48c06f9761d157b87e7a642efb6ba73a.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/548691a8fd53cb16d59ae6141210f568.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/7d7ea03ff567d81d42a36f1e042b56df.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/0a8540076df6d84bb1f54d9bd6aae0ee.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/70a472eab557aa6378430a9c1b8a3e51.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/d09ade6cbf5e16ad5cd970115a8a8708.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/c37bbb3bdcec4e95d357fd5360e8ad5c.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/8417c0137607e080d306155e190965bb.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/53ecc265d6fbc876c0cc3dfb4f2c1ccf.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/b81f7f260e36cff66fcd8dc7d3b3695c.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/cc886bf8d4ac90b7e4c711bc5a3bc598.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/abb19b29736bfeacc1af1b9c6ed938d3.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/4bfad25f3113b4b11a62308ce80e7996.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/05f1ca28341597cd0c389acd00a42720.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/02e7d1070cb16ee0775cb3be42626bf0.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/24a024617b5db95b4434745aa978a447.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/0ccc31bc05938e7d461bdba44cf864cc.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/185d126b8dc5c0f4c7d8dd8d93a5c854.jpg"
+            },
+            {
+                "page": "drm/0/59850/OEBPS/Images/1/b1703b0865ca5b969233e86958672fb6.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/59850/OEBPS/Images/1/8e98c220f186232fdc8c72d83df1d2e9.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "59850",
+        "id": "59850",
+        "title": "My Old Pal, Oscar",
+        "author": "Amy Hest",
+        "illustrator": "Amy June Bates",
+        "numPages": 32,
+        "bookDescription": "After a young boy\u2019s pet passes away, he encounters an adorable stray dog. The boy slowly opens up to the joy of having a dog in his life.",
+        "coverColorR": 178,
+        "coverColorG": 193,
+        "coverColorB": 167,
+        "version": 221118101,
+        "previewPercent": 20,
+        "publisher": "Abrams",
+        "publisherId": "90236",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 586,
+        "ar": "1.8",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 85,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Loss",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "af8e727a208a65a5c287",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1549936844
+    },
+    "userBook": {
+        "modelId": "46250489-59850",
+        "userId": "46250489",
+        "bookId": "59850",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559303947,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559303947,
+        "book": {
+            "modelId": "59850",
+            "title": "My Old Pal, Oscar",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "af8e727a208a65a5c287"
+        }
+    },
+    "quiz": null
+}

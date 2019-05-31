@@ -1,0 +1,179 @@
+{
+    "publisherData": {
+        "modelId": "90401",
+        "name": "Pajama Press",
+        "url": "https://pajamapress.ca/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1551294450
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/5bb885e9b9c36eab4cffbc3ce8851dab.jpg"
+            },
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/fb4317be1b0b5020d3a0a559152a7067.jpg"
+            },
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/d9ae64544742f0e9e1865b4c4353a7aa.jpg"
+            },
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/83492f1666d1b87ea9653b35be26fa4d.jpg"
+            },
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/44b2b2419545500dae56dbd29f0f3211.jpg"
+            },
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/fbb650b52260fbee36f6fcb88b7c319b.jpg"
+            },
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/5314b36d5c0e5fb7d92c7f78b6c2c528.jpg"
+            },
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/fedd021c4597288198cdca17c6669c83.jpg"
+            },
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/6cda43288eaee7f43e26725dcd42b6c6.jpg"
+            },
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/c1622d8566ea4371af4fb3cbf3163bc4.jpg"
+            },
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/06ab0ed1f17d4e6c2990c8610caf84ff.jpg"
+            },
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/ec43b49eaad2c9007110c1d9ad19315b.jpg"
+            },
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/6bf837b456f036d5304678aa7eb14c81.jpg"
+            },
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/d1b94ccde50f38ca264c71f52bdd7e8b.jpg"
+            },
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/3d9984ed1997c0ac693884359b19c007.jpg"
+            },
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/b50acc1aa5d192e0cab57ff4923c3adc.jpg"
+            },
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/361f3af5724be646c3e86667f2e7c34e.jpg"
+            },
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/afb7bca2faeab5061624eec6e232fa5d.jpg"
+            },
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/a759a40c178456ededd671b2dff973ea.jpg"
+            },
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/b97fe3dffb81cae3995b8b39ac2f9bfc.jpg"
+            },
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/bd61e9c3c7cdc6182a02ba0539947808.jpg"
+            },
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/1ee6fb9c4d0539dc76e6020687184fa0.jpg"
+            },
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/231246c347e44b0df353f15b1f104b50.jpg"
+            },
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/84ef30ea6baef32cb816617018be1f85.jpg"
+            },
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/8146412b092df3b1a094a7aa0a9b2204.jpg"
+            },
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/f1fccf3ee5c1133e4d03fca53f4af8ba.jpg"
+            },
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/857ca9a0d02e26b1cad5448fa5aa91de.jpg"
+            },
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/7d6c5d738ae77a189de4febfc759fc09.jpg"
+            },
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/9a2bfbc519b98984e1057e42db756b10.jpg"
+            },
+            {
+                "page": "drm/7/60757/OEBPS/Images/1/98fbe0c9daf1b6e7b026fb48b100b578.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/60757/OEBPS/Images/1/b5de2c5431fa55e440d793f11e6290a9.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "60757",
+        "id": "60757",
+        "title": "Ben and the Scaredy-Dog",
+        "author": "Sarah Ellis",
+        "illustrator": "Kim La Fave",
+        "numPages": 30,
+        "bookDescription": "Ben is afraid of dogs, even his new neighbor's old scaredy-dog, Max. Can big, brave Ben overcome his fear and make a new kind of friend?",
+        "coverColorR": 236,
+        "coverColorG": 232,
+        "coverColorB": 227,
+        "version": 42477760,
+        "previewPercent": 20,
+        "publisher": "Pajama Press",
+        "publisherId": "90401",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "AD510L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 500,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 75,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Overcoming Challenges",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 0.8,
+        "contentHash": "316c7972742d54939d26",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1551492979
+    },
+    "userBook": {
+        "modelId": "46250489-60757",
+        "userId": "46250489",
+        "bookId": "60757",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559303420,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559303420,
+        "book": {
+            "modelId": "60757",
+            "title": "Ben and the Scaredy-Dog",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "316c7972742d54939d26"
+        }
+    },
+    "quiz": null
+}

@@ -1,0 +1,166 @@
+{
+    "publisherData": {
+        "modelId": "90324",
+        "name": "Gareth Stevens provided by The Rosen Publishing Group, Inc",
+        "url": "https://www.garethstevens.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1525129338
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/50405/OEBPS/Images/1/fe80fe17d657ada171f9e9fda344640a.jpg",
+                "audio": "drm/5/50405/OEBPS/Audio/1/OCK-011000.mp3"
+            },
+            {
+                "page": "drm/5/50405/OEBPS/Images/1/29a442c7186bbf681ee5421311eb9e20.jpg",
+                "audio": "drm/5/50405/OEBPS/Audio/1/OCK-011001.mp3"
+            },
+            {
+                "page": "drm/5/50405/OEBPS/Images/1/9280419e05bf701a93ab94d8eb4be37e.jpg"
+            },
+            {
+                "page": "drm/5/50405/OEBPS/Images/1/3c22ecc3b443cc68d4eb9166feb92f6f.jpg",
+                "audio": "drm/5/50405/OEBPS/Audio/1/OCK-011002.mp3"
+            },
+            {
+                "page": "drm/5/50405/OEBPS/Images/1/ee26824e478412ca5ee4f85c98582f27.jpg"
+            },
+            {
+                "page": "drm/5/50405/OEBPS/Images/1/b9fc90cf1fe56ec653b94b8d99386c57.jpg",
+                "audio": "drm/5/50405/OEBPS/Audio/1/OCK-011003.mp3"
+            },
+            {
+                "page": "drm/5/50405/OEBPS/Images/1/efefcabfbe8798f053612fc303412cf3.jpg"
+            },
+            {
+                "page": "drm/5/50405/OEBPS/Images/1/04290156997033768552d3eb9e50ef16.jpg",
+                "audio": "drm/5/50405/OEBPS/Audio/1/OCK-011004.mp3"
+            },
+            {
+                "page": "drm/5/50405/OEBPS/Images/1/27d0324b66b32287afd0dcdd369d80b5.jpg"
+            },
+            {
+                "page": "drm/5/50405/OEBPS/Images/1/af6676c370fdf3c63d61307968cc4af5.jpg",
+                "audio": "drm/5/50405/OEBPS/Audio/1/OCK-011005.mp3"
+            },
+            {
+                "page": "drm/5/50405/OEBPS/Images/1/c188d666f74a4266ae724677ac45314e.jpg"
+            },
+            {
+                "page": "drm/5/50405/OEBPS/Images/1/e38276f6d45735d026a71409007d7483.jpg",
+                "audio": "drm/5/50405/OEBPS/Audio/1/OCK-011006.mp3"
+            },
+            {
+                "page": "drm/5/50405/OEBPS/Images/1/9a77874ee7d98b5774b2ed4561be6c08.jpg"
+            },
+            {
+                "page": "drm/5/50405/OEBPS/Images/1/f1dadbd64b70e1091f2815f4b549b202.jpg",
+                "audio": "drm/5/50405/OEBPS/Audio/1/OCK-011007.mp3"
+            },
+            {
+                "page": "drm/5/50405/OEBPS/Images/1/2efa58141012cb57e03b339250355204.jpg"
+            },
+            {
+                "page": "drm/5/50405/OEBPS/Images/1/37d8e5006a06a9bb08cf659e8c804794.jpg",
+                "audio": "drm/5/50405/OEBPS/Audio/1/OCK-011008.mp3"
+            },
+            {
+                "page": "drm/5/50405/OEBPS/Images/1/e2c4417dd1f8b7b6994493ab76aaad62.jpg"
+            },
+            {
+                "page": "drm/5/50405/OEBPS/Images/1/e5d1f3e1512c65afb836957b02b51feb.jpg",
+                "audio": "drm/5/50405/OEBPS/Audio/1/OCK-011009.mp3"
+            },
+            {
+                "page": "drm/5/50405/OEBPS/Images/1/d324e927fabbec614fefc24e66ea48cd.jpg"
+            },
+            {
+                "page": "drm/5/50405/OEBPS/Images/1/d48f621b9ca78354a8ff9e5eb5dae647.jpg",
+                "audio": "drm/5/50405/OEBPS/Audio/1/OCK-011010.mp3"
+            },
+            {
+                "page": "drm/5/50405/OEBPS/Images/1/f8f2053dc58f516654b665481b662875.jpg"
+            },
+            {
+                "page": "drm/5/50405/OEBPS/Images/1/7517094b85dac35ed6045f329305f446.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/50405/OEBPS/Images/1/b4ed279ef270e11bafeb168b0ac16578.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "50405",
+        "id": "50405",
+        "title": "Cute and Cuddly: Lambs",
+        "author": "Katie Kawa",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Readers will learn where lambs live, what they eat, and how we have used their fur for hundreds of years.",
+        "coverColorR": 125,
+        "coverColorG": 142,
+        "coverColorB": 97,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Gareth Stevens provided by The Rosen Publishing Group, Inc",
+        "publisherId": "90324",
+        "age": 6,
+        "pageNumOffset": 1,
+        "active": 1,
+        "audio": 1,
+        "lexile": "280L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 403,
+        "ar": "0.8",
+        "fandp": "c",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 85,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Farm Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.0702,
+        "contentHash": "69a60521b276b26cf648",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374296
+    },
+    "userBook": {
+        "modelId": "46250489-50405",
+        "userId": "46250489",
+        "bookId": "50405",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559312037,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559312037,
+        "book": {
+            "modelId": "50405",
+            "title": "Cute and Cuddly: Lambs",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "69a60521b276b26cf648"
+        }
+    },
+    "quiz": null
+}

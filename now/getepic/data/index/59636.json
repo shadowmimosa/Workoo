@@ -1,0 +1,184 @@
+{
+    "publisherData": {
+        "modelId": "44",
+        "name": "National Geographic",
+        "url": "http://kids.nationalgeographic.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491261258
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/6/59636/OEBPS/Images/1/25097075e802b9e83d8daff2fc2110ab.jpg",
+                "audio": "drm/6/59636/OEBPS/Audio/1/9781426330292-01.mp3"
+            },
+            {
+                "page": "drm/6/59636/OEBPS/Images/1/b108379857200c028dff4ceb11b995be.jpg",
+                "audio": "drm/6/59636/OEBPS/Audio/1/9781426330292-02.mp3"
+            },
+            {
+                "page": "drm/6/59636/OEBPS/Images/1/1b4c97c9b738446997bffaa07c8f8458.jpg",
+                "audio": "drm/6/59636/OEBPS/Audio/1/9781426330292-03.mp3"
+            },
+            {
+                "page": "drm/6/59636/OEBPS/Images/1/7c34f3c386c5807c398726b2ce88ed25.jpg",
+                "audio": "drm/6/59636/OEBPS/Audio/1/9781426330292-04.mp3"
+            },
+            {
+                "page": "drm/6/59636/OEBPS/Images/1/056c4f6e236d2d2b77309fa9ebc7e38f.jpg",
+                "audio": "drm/6/59636/OEBPS/Audio/1/9781426330292-05.mp3"
+            },
+            {
+                "page": "drm/6/59636/OEBPS/Images/1/ee8a89188f49e1c2a3ddaf649fef8345.jpg",
+                "audio": "drm/6/59636/OEBPS/Audio/1/9781426330292-06.mp3"
+            },
+            {
+                "page": "drm/6/59636/OEBPS/Images/1/4a2d718ffa6987c87bd3ee0f07e8f94e.jpg",
+                "audio": "drm/6/59636/OEBPS/Audio/1/9781426330292-07.mp3"
+            },
+            {
+                "page": "drm/6/59636/OEBPS/Images/1/4bfcf76c7457f106380c373a5ba00c52.jpg",
+                "audio": "drm/6/59636/OEBPS/Audio/1/9781426330292-08.mp3"
+            },
+            {
+                "page": "drm/6/59636/OEBPS/Images/1/f6b7eab7b03d8a66964fcc5dbc1955e6.jpg",
+                "audio": "drm/6/59636/OEBPS/Audio/1/9781426330292-09.mp3"
+            },
+            {
+                "page": "drm/6/59636/OEBPS/Images/1/3bfea7b37579e993eaaab7806bf4f324.jpg",
+                "audio": "drm/6/59636/OEBPS/Audio/1/9781426330292-10.mp3"
+            },
+            {
+                "page": "drm/6/59636/OEBPS/Images/1/73cc86d3b47a64404cf5197aa37b35fd.jpg",
+                "audio": "drm/6/59636/OEBPS/Audio/1/9781426330292-11.mp3"
+            },
+            {
+                "page": "drm/6/59636/OEBPS/Images/1/89790e505bd63849cf8a5fc7a088fdc4.jpg",
+                "audio": "drm/6/59636/OEBPS/Audio/1/9781426330292-12.mp3"
+            },
+            {
+                "page": "drm/6/59636/OEBPS/Images/1/6c10e17e17bc5ff915fac22fc9382cc9.jpg",
+                "audio": "drm/6/59636/OEBPS/Audio/1/9781426330292-13.mp3"
+            },
+            {
+                "page": "drm/6/59636/OEBPS/Images/1/9f8deaa99b3b122908baab7f226626ef.jpg",
+                "audio": "drm/6/59636/OEBPS/Audio/1/9781426330292-14.mp3"
+            },
+            {
+                "page": "drm/6/59636/OEBPS/Images/1/b9b31767ac3a679e9cfc9f6e54c26566.jpg",
+                "audio": "drm/6/59636/OEBPS/Audio/1/9781426330292-15.mp3"
+            },
+            {
+                "page": "drm/6/59636/OEBPS/Images/1/fdd6430dbff89a991aaebfea5a11fadf.jpg",
+                "audio": "drm/6/59636/OEBPS/Audio/1/9781426330292-16.mp3"
+            },
+            {
+                "page": "drm/6/59636/OEBPS/Images/1/c1619e23b9749ad0cffa035f80711f1f.jpg",
+                "audio": "drm/6/59636/OEBPS/Audio/1/9781426330292-17.mp3"
+            },
+            {
+                "page": "drm/6/59636/OEBPS/Images/1/bf1ecd5fd09b755be517f81434d9f646.jpg",
+                "audio": "drm/6/59636/OEBPS/Audio/1/9781426330292-18.mp3"
+            },
+            {
+                "page": "drm/6/59636/OEBPS/Images/1/afb206b5ac2f2372220a4f1214ed26a0.jpg",
+                "audio": "drm/6/59636/OEBPS/Audio/1/9781426330292-19.mp3"
+            },
+            {
+                "page": "drm/6/59636/OEBPS/Images/1/c28471066eef0586d96958e49b22a988.jpg",
+                "audio": "drm/6/59636/OEBPS/Audio/1/9781426330292-20.mp3"
+            },
+            {
+                "page": "drm/6/59636/OEBPS/Images/1/8b3331a41e05e9240e4f3cc90789e545.jpg",
+                "audio": "drm/6/59636/OEBPS/Audio/1/9781426330292-21.mp3"
+            },
+            {
+                "page": "drm/6/59636/OEBPS/Images/1/34edd20fc9acbf6e835cad97ccd0885a.jpg",
+                "audio": "drm/6/59636/OEBPS/Audio/1/9781426330292-22.mp3"
+            },
+            {
+                "page": "drm/6/59636/OEBPS/Images/1/92f2c2a5b181d7a816b3ed11af435972.jpg",
+                "audio": "drm/6/59636/OEBPS/Audio/1/9781426330292-23.mp3"
+            },
+            {
+                "page": "drm/6/59636/OEBPS/Images/1/9c26c57185295ffe471dce24dbfd0c79.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/6/59636/OEBPS/Images/1/9c26c57185295ffe471dce24dbfd0c79.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "59636",
+        "id": "59636",
+        "title": "National Geographic Readers: Animal Homes (Pre-reader)",
+        "author": "Shira Evans",
+        "illustrator": " ",
+        "numPages": 24,
+        "bookDescription": "Learn all about animal abodes from cozy dens to towering trees.",
+        "coverColorR": 179,
+        "coverColorG": 176,
+        "coverColorB": 127,
+        "version": 2138963053,
+        "previewPercent": 10,
+        "publisher": "National Geographic",
+        "publisherId": "44",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 600,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Wild Things",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.6667,
+        "contentHash": "e03379d5902b8dd8be27",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374881
+    },
+    "userBook": {
+        "modelId": "46250489-59636",
+        "userId": "46250489",
+        "bookId": "59636",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310542,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310542,
+        "book": {
+            "modelId": "59636",
+            "title": "National Geographic Readers: Animal Homes (Pre-reader)",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "e03379d5902b8dd8be27"
+        }
+    },
+    "quiz": null
+}

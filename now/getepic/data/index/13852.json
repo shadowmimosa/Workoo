@@ -1,0 +1,442 @@
+{
+    "publisherData": {
+        "modelId": "107",
+        "name": "Rourke Educational Media",
+        "url": "http://rourkeeducationalmedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570193
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/2/13852/OEBPS/Images/1/57deae33cbc70aaf96e89195b91e275f.jpg",
+                "audio": "drm/2/13852/OEBPS/Audio/1/37bfcb98adb75788d71770738f66af2b.mp3"
+            },
+            {
+                "page": "drm/2/13852/OEBPS/Images/1/b0201aac61948316e58a35b53bad02a6.jpg",
+                "audio": "drm/2/13852/OEBPS/Audio/1/cb69049c4f7ba735dc8a65b254667538.mp3"
+            },
+            {
+                "page": "drm/2/13852/OEBPS/Images/1/8f31c601391a1926d56442c7cfd800f6.jpg"
+            },
+            {
+                "page": "drm/2/13852/OEBPS/Images/1/577c429a6444dee02f556fc694816243.jpg",
+                "audio": "drm/2/13852/OEBPS/Audio/1/28292e2d4dd473c37a6207ddff4054f3.mp3"
+            },
+            {
+                "page": "drm/2/13852/OEBPS/Images/1/1f494ed01e00c16a4fcb9d775850bff5.jpg"
+            },
+            {
+                "page": "drm/2/13852/OEBPS/Images/1/cc1c21c5527c8d46452d1dcef04c1804.jpg",
+                "audio": "drm/2/13852/OEBPS/Audio/1/7688a35092efaeb5770b993380b8239e.mp3"
+            },
+            {
+                "page": "drm/2/13852/OEBPS/Images/1/278050a2cf5f9df9529589f9c064c1fb.jpg"
+            },
+            {
+                "page": "drm/2/13852/OEBPS/Images/1/51ffaf0528bd086f3b125180a1da3f0f.jpg",
+                "audio": "drm/2/13852/OEBPS/Audio/1/d36ad8a114012d9d807232c1d4ca744c.mp3"
+            },
+            {
+                "page": "drm/2/13852/OEBPS/Images/1/a28c1e54ba44369d73fd1176bd1cf3de.jpg"
+            },
+            {
+                "page": "drm/2/13852/OEBPS/Images/1/d8ace261839f7ad1f534f5444b5f0289.jpg",
+                "audio": "drm/2/13852/OEBPS/Audio/1/f28ddfe262ebe26452635082b685a335.mp3"
+            },
+            {
+                "page": "drm/2/13852/OEBPS/Images/1/c1c4aacfd54a10cd08cacc017b8e93f8.jpg"
+            },
+            {
+                "page": "drm/2/13852/OEBPS/Images/1/39c5fe0770d0367310f93782fdb8715f.jpg",
+                "audio": "drm/2/13852/OEBPS/Audio/1/2a56e13298341b6d3f2b2e02c22c8e9e.mp3"
+            },
+            {
+                "page": "drm/2/13852/OEBPS/Images/1/d62f7402405cf8835bbd1c5893c86945.jpg"
+            },
+            {
+                "page": "drm/2/13852/OEBPS/Images/1/54e1453be29d2b3a05cadfcd7533ecf6.jpg",
+                "audio": "drm/2/13852/OEBPS/Audio/1/3ba4fc54a17410bde7896410508ee6ca.mp3"
+            },
+            {
+                "page": "drm/2/13852/OEBPS/Images/1/150aca86c6962f1bd4073205ab5d4bfe.jpg"
+            },
+            {
+                "page": "drm/2/13852/OEBPS/Images/1/7280a3dfe54d24cebfbb888282b97c74.jpg",
+                "audio": "drm/2/13852/OEBPS/Audio/1/40fbd14c86d9283fb2028b6d60fd92c7.mp3"
+            },
+            {
+                "page": "drm/2/13852/OEBPS/Images/1/285319e728b8da3b977b43a8c20da26a.jpg"
+            },
+            {
+                "page": "drm/2/13852/OEBPS/Images/1/fadfbda767c67d6e4672d7483d8620b5.jpg",
+                "audio": "drm/2/13852/OEBPS/Audio/1/d145708f33aad4a5d76c7cc5b38f05df.mp3"
+            },
+            {
+                "page": "drm/2/13852/OEBPS/Images/1/28d65ffff293ec242eec7c80ab66c54e.jpg"
+            },
+            {
+                "page": "drm/2/13852/OEBPS/Images/1/fce348bbf00fa31d4ebdeb41369f5dea.jpg",
+                "audio": "drm/2/13852/OEBPS/Audio/1/860d9edf5b7db286cb6c417d03d6d059.mp3"
+            },
+            {
+                "page": "drm/2/13852/OEBPS/Images/1/47e201da60fdee72272cf7a16ea9a376.jpg"
+            },
+            {
+                "page": "drm/2/13852/OEBPS/Images/1/8634d74023a472f3908a9ddcdb3572ea.jpg"
+            },
+            {
+                "page": "drm/2/13852/OEBPS/Images/1/f2640c698b6ba95d3749ac51c0ffa50f.jpg"
+            },
+            {
+                "page": "drm/2/13852/OEBPS/Images/1/9ed0f7319ee3158f7644cfed9405d2a3.jpg"
+            },
+            {
+                "page": "drm/2/13852/OEBPS/Images/1/a8b08bcc00e061ae615b2ad71d258935.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/2/13852/OEBPS/Images/1/f7cb5003770f4318878dbd47bd700b55.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "13852",
+        "id": "13852",
+        "title": "At Bat",
+        "author": "Precious McKenzie",
+        "illustrator": "Mike Byrne",
+        "numPages": 25,
+        "bookDescription": "The campers play baseball until a ball flies over the fence.",
+        "coverColorR": 168,
+        "coverColorG": 164,
+        "coverColorB": 116,
+        "version": 1,
+        "previewPercent": 20,
+        "publisher": "Rourke Educational Media",
+        "publisherId": "107",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 416,
+        "ar": "1.2",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "83",
+        "subjectDesc": "Baseball",
+        "subjectColor": "0573CD",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "ef903099434439f747f6",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372696
+    },
+    "userBook": {
+        "modelId": "46250489-13852",
+        "userId": "46250489",
+        "bookId": "13852",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310058,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310058,
+        "book": {
+            "modelId": "13852",
+            "title": "At Bat",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "ef903099434439f747f6"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "41771",
+            "user_id": "12754047",
+            "book_id": "13852",
+            "title": "At Bat",
+            "description": "",
+            "date_created": 1485296679,
+            "date_modified": 1497984595,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Who is at bat first?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Tucker",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Gigi",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Levi",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Freya",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What two teams are playing?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Bears and Bob cats",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Seals and Bears",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Bobcats and Dolphins",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Eagles and Sharks",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Why did Gigi get into trouble?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "The ball cracked the bus window. ",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "She laughed at her friends. ",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "She missed the ball. ",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "She wasn't listening. ",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Where are the teams playing?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Baseball field",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "In the backyard ",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "In the park",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "On the road",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                }
+            ],
+            "modelId": "41771",
+            "creatorName": "Mrs. Johal",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "12754047",
+                "udid": "5878005162b0b3.83393495",
+                "journalName": "Mrs. Johal",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.84705882352941 0.18039215686275 0.46274509803922 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "589820240",
+                "fid": "",
+                "accountID": "478DB79D-F57E-D346-E455-EB8E9333E629",
+                "simpleAccountId": "4262538",
+                "pagesFlipped": 339,
+                "nufComplete": 1,
+                "readingAge": 6.13333,
+                "startingAge": 0,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 0,
+                "xpLevel": 1,
+                "dateLastLogin": 0,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Geena",
+                "lastName": "Johal",
+                "accountType": 1,
+                "dateModified": 1527193704,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Johal"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Who is at bat first?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Tucker",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Gigi",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Levi",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Freya",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What two teams are playing?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Bears and Bob cats",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Seals and Bears",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Bobcats and Dolphins",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Eagles and Sharks",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Why did Gigi get into trouble?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "The ball cracked the bus window. ",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "She laughed at her friends. ",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "She missed the ball. ",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "She wasn't listening. ",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Where are the teams playing?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Baseball field",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "In the backyard ",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "In the park",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "On the road",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            }
+        ]
+    }
+}

@@ -1,0 +1,424 @@
+{
+    "publisherData": {
+        "modelId": "31",
+        "name": "Bellwether Media",
+        "url": "http://www.bellwethermedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539569528
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/3/35873/OEBPS/Images/1/9B79D94D-3C34-4DDC-AA49-FB32FF2BF830.jpg"
+            },
+            {
+                "page": "drm/3/35873/OEBPS/Images/1/9F03A797-11B3-466F-8F65-BB78400CC540.jpg"
+            },
+            {
+                "page": "drm/3/35873/OEBPS/Images/1/30C216C5-C371-40F2-902C-261E7BC33E6F.jpg"
+            },
+            {
+                "page": "drm/3/35873/OEBPS/Images/1/709EF265-2E0D-46D8-9990-DE9C17EB3D11.jpg"
+            },
+            {
+                "page": "drm/3/35873/OEBPS/Images/1/6AC0BD11-9415-45B8-A1E5-2188C502BF6F.jpg"
+            },
+            {
+                "page": "drm/3/35873/OEBPS/Images/1/ECA6F2A6-E5CD-4050-9200-66E61653E2E4.jpg"
+            },
+            {
+                "page": "drm/3/35873/OEBPS/Images/1/0770B2D3-90D1-43B3-805B-9A14D83C4981.jpg"
+            },
+            {
+                "page": "drm/3/35873/OEBPS/Images/1/54A0D8CA-4B97-4D7F-9893-159E95189817.jpg"
+            },
+            {
+                "page": "drm/3/35873/OEBPS/Images/1/80C674FB-65EF-4ACA-856F-A5EEF4CD9F69.jpg"
+            },
+            {
+                "page": "drm/3/35873/OEBPS/Images/1/69EDC6C3-45FD-4625-AB72-E144F1390766.jpg"
+            },
+            {
+                "page": "drm/3/35873/OEBPS/Images/1/4862CCE7-B4DB-4D1B-8B27-CEE752B1A246.jpg"
+            },
+            {
+                "page": "drm/3/35873/OEBPS/Images/1/2EFFB7BE-4F74-47D2-991B-4C0FF7AD8F6C.jpg"
+            },
+            {
+                "page": "drm/3/35873/OEBPS/Images/1/422B0191-6023-402D-AA7F-9F20E31C6F6B.jpg"
+            },
+            {
+                "page": "drm/3/35873/OEBPS/Images/1/95BF6853-9F85-4667-88B7-1F8AD1A196F0.jpg"
+            },
+            {
+                "page": "drm/3/35873/OEBPS/Images/1/A729D463-34EF-48C5-939F-FC6660EA05C1.jpg"
+            },
+            {
+                "page": "drm/3/35873/OEBPS/Images/1/1E80A620-7283-49AC-9E09-B546DC129D3E.jpg"
+            },
+            {
+                "page": "drm/3/35873/OEBPS/Images/1/05D2EF17-FD25-4C68-A1F7-02C46A889A3F.jpg"
+            },
+            {
+                "page": "drm/3/35873/OEBPS/Images/1/04AF9D19-54DA-48CE-92CD-B3487A3E27D2.jpg"
+            },
+            {
+                "page": "drm/3/35873/OEBPS/Images/1/1567F1CE-AD53-464C-A511-2ECF38C595DA.jpg"
+            },
+            {
+                "page": "drm/3/35873/OEBPS/Images/1/36366DD5-5DD3-423D-881D-C205141A9F5A.jpg"
+            },
+            {
+                "page": "drm/3/35873/OEBPS/Images/1/A19D76D3-3AD8-4B66-BD93-7C28920EED6A.jpg"
+            },
+            {
+                "page": "drm/3/35873/OEBPS/Images/1/63F8A27B-1828-4640-A6F5-14B57CD8DB7E.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/3/35873/OEBPS/Images/1/BA837383-0EB1-46B9-B8F8-E5610C295926.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "35873",
+        "id": "35873",
+        "title": "Pigs",
+        "author": "Emily K. Green",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "This book teaches children how pigs look, what pigs eat, and how pigs survive hot days.",
+        "coverColorR": 170,
+        "coverColorG": 181,
+        "coverColorB": 101,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Bellwether Media",
+        "publisherId": "31",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "310L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 403,
+        "ar": "1.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Farm Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.75,
+        "contentHash": "718c4ae05360e2b5895a",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1555373438
+    },
+    "userBook": {
+        "modelId": "46250489-35873",
+        "userId": "46250489",
+        "bookId": "35873",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559312055,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559312055,
+        "book": {
+            "modelId": "35873",
+            "title": "Pigs",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "718c4ae05360e2b5895a"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "17938",
+            "user_id": "10635445",
+            "book_id": "35873",
+            "title": "Pigs",
+            "description": "",
+            "date_created": 1477513149,
+            "date_modified": 1477513389,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What do you call a mother pig?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "sow",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "piglet",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "puppy",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What is a piglet?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "a baby pig",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "a daddy pig",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "a group of pigs",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "How does a pig keep cool?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "It rolls in the mud.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "It goes swimming.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "It has a glass of lemonade.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What two words describe a pig's hair?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "short and stiff",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "long and curly",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "fat and wavy",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "What do pigs eat?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "plants or meat",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "only plants",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "only meat",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "17938",
+            "creatorName": "Mrs. Colburn",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "10635445",
+                "udid": "57ed559028f7e4.89457291",
+                "journalName": "Mrs. Colburn",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.94509803921569 0.66274509803922 0.92941176470588 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "995453631",
+                "fid": "",
+                "accountID": "87D0F89E-0A62-24DC-B95B-50B2D73D3169",
+                "simpleAccountId": "3708787",
+                "pagesFlipped": 262,
+                "nufComplete": 1,
+                "readingAge": 7.86667,
+                "startingAge": 8,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 0,
+                "xpLevel": 1,
+                "dateLastLogin": 0,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Cortneigh",
+                "lastName": "Colburn",
+                "accountType": 1,
+                "dateModified": 1493833154,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Colburn"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What do you call a mother pig?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "sow",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "piglet",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "puppy",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What is a piglet?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "a baby pig",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "a daddy pig",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "a group of pigs",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "How does a pig keep cool?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "It rolls in the mud.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "It goes swimming.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "It has a glass of lemonade.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What two words describe a pig's hair?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "short and stiff",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "long and curly",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "fat and wavy",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "What do pigs eat?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "plants or meat",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "only plants",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "only meat",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

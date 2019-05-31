@@ -1,0 +1,177 @@
+{
+    "publisherData": {
+        "modelId": "29",
+        "name": "Lerner Publishing Group",
+        "url": "https://www.lernerbooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1523573683
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/48318/OEBPS/Images/1/70daf4415a443cbc7319679797bc3b25.jpg"
+            },
+            {
+                "page": "drm/8/48318/OEBPS/Images/1/c43fc633914721d4c4c93dd4a37892db.jpg"
+            },
+            {
+                "page": "drm/8/48318/OEBPS/Images/1/6f148b1b374d943f61850dc246e8cfc2.jpg"
+            },
+            {
+                "page": "drm/8/48318/OEBPS/Images/1/2efcc86e116b544241d7e128d4c60b92.jpg"
+            },
+            {
+                "page": "drm/8/48318/OEBPS/Images/1/05e10b30798958dbf4d7c1545a496b76.jpg"
+            },
+            {
+                "page": "drm/8/48318/OEBPS/Images/1/d6c83979ea4d7c0d94f7119f4606f94e.jpg"
+            },
+            {
+                "page": "drm/8/48318/OEBPS/Images/1/cdf676b185c7cc50e85919a84475c833.jpg"
+            },
+            {
+                "page": "drm/8/48318/OEBPS/Images/1/07fefdcf90b61193c3fa1a78d6ed3982.jpg"
+            },
+            {
+                "page": "drm/8/48318/OEBPS/Images/1/7d473cfa0f32b17c76e510a57e97a809.jpg"
+            },
+            {
+                "page": "drm/8/48318/OEBPS/Images/1/2178213fc525ac423db2cbb3a83a2a8f.jpg"
+            },
+            {
+                "page": "drm/8/48318/OEBPS/Images/1/5504044ce743b4f04148964af6a621d0.jpg"
+            },
+            {
+                "page": "drm/8/48318/OEBPS/Images/1/33f8fe41db0d1750a732721cb63c0e63.jpg"
+            },
+            {
+                "page": "drm/8/48318/OEBPS/Images/1/dcc573518cd057b22226bc52a10ea765.jpg"
+            },
+            {
+                "page": "drm/8/48318/OEBPS/Images/1/226fac8c7173808f7f7ecd6baf1c7541.jpg"
+            },
+            {
+                "page": "drm/8/48318/OEBPS/Images/1/d7d87cbf0a5662143d8abfa81ce02d97.jpg"
+            },
+            {
+                "page": "drm/8/48318/OEBPS/Images/1/6cb281bc61db4c799400d687efab58a2.jpg"
+            },
+            {
+                "page": "drm/8/48318/OEBPS/Images/1/c08e0386c78eef3ff55627166b8fde82.jpg"
+            },
+            {
+                "page": "drm/8/48318/OEBPS/Images/1/80817f6698ccd76cc3cb2f4d11f8cb5d.jpg"
+            },
+            {
+                "page": "drm/8/48318/OEBPS/Images/1/d2f162b722026cdde7f114e30da2e76f.jpg"
+            },
+            {
+                "page": "drm/8/48318/OEBPS/Images/1/51d679754d9b4d4eb7c1e6e77afec80b.jpg"
+            },
+            {
+                "page": "drm/8/48318/OEBPS/Images/1/e3c9eba6dfeb16ada7fd18afe3dd08f4.jpg"
+            },
+            {
+                "page": "drm/8/48318/OEBPS/Images/1/f11f6c6b45f48984d12e75824f502c03.jpg"
+            },
+            {
+                "page": "drm/8/48318/OEBPS/Images/1/78a8d2c16d10b69408e9ae124a3fe683.jpg"
+            },
+            {
+                "page": "drm/8/48318/OEBPS/Images/1/0dad3a4ad4e60594a75195217a4c6342.jpg"
+            },
+            {
+                "page": "drm/8/48318/OEBPS/Images/1/748a767c48af72978e5037b847b682f6.jpg"
+            },
+            {
+                "page": "drm/8/48318/OEBPS/Images/1/25084755b10696b7acf6a569f38eba04.jpg"
+            },
+            {
+                "page": "drm/8/48318/OEBPS/Images/1/fd1cf0dc0ce56cd2349f439c56df3540.jpg"
+            },
+            {
+                "page": "drm/8/48318/OEBPS/Images/1/a95c0c1976295456e253d0c4f2ed432c.jpg"
+            },
+            {
+                "page": "drm/8/48318/OEBPS/Images/1/e88f9af932585f4dc6358297d82c044a.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/48318/OEBPS/Images/1/d630f305adeec370450fb5a177a86bba.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "48318",
+        "id": "48318",
+        "title": "#8 The Clown in the Gown Drives the Car with the Star: A Book about Diphthongs and R-Controlled Vowels",
+        "author": "Brian P. Cleary",
+        "illustrator": "Jason Miskimins",
+        "numPages": 29,
+        "bookDescription": "Come along with me and learn all about reading! Brian P. Cleary's wacky sentences and Jason Miskimins's colorful art will make phonics fun!",
+        "coverColorR": 85,
+        "coverColorG": 88,
+        "coverColorB": 135,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Lerner Publishing Group",
+        "publisherId": "29",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 531,
+        "ar": "1.9",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "j",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "ABCs & 123s",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.75,
+        "contentHash": "fa8881c815ba594120f3",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374152,
+        "duration": 4
+    },
+    "userBook": {
+        "modelId": "46250489-48318",
+        "userId": "46250489",
+        "bookId": "48318",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311700,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311700,
+        "book": {
+            "modelId": "48318",
+            "title": "#8 The Clown in the Gown Drives the Car with the Star: A Book about Diphthongs and R-Controlled Vowels",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "fa8881c815ba594120f3"
+        }
+    },
+    "quiz": null
+}

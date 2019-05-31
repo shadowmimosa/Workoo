@@ -1,0 +1,422 @@
+{
+    "publisherData": {
+        "modelId": "107",
+        "name": "Rourke Educational Media",
+        "url": "http://rourkeeducationalmedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570193
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/13738/OEBPS/Images/1/09b8864319dc8da4e039eea033e64ed9.jpg",
+                "audio": "drm/8/13738/OEBPS/Audio/1/e7c6e43b01260b045eaa9179b74d2127.mp3"
+            },
+            {
+                "page": "drm/8/13738/OEBPS/Images/1/59b8cb9e75a3d6027e01729c216fe498.jpg"
+            },
+            {
+                "page": "drm/8/13738/OEBPS/Images/1/28f2511ea375c32c900383f0c73d6409.jpg",
+                "audio": "drm/8/13738/OEBPS/Audio/1/3f656f262ec561d69a606623ebf33618.mp3"
+            },
+            {
+                "page": "drm/8/13738/OEBPS/Images/1/00bb5b8a2c3e9d90b2fd776f4e9fc4ec.jpg",
+                "audio": "drm/8/13738/OEBPS/Audio/1/e8ef66e26f680159359a9f7f205ae880.mp3"
+            },
+            {
+                "page": "drm/8/13738/OEBPS/Images/1/7323bebb05e2bf435145ae56dc3c0b53.jpg"
+            },
+            {
+                "page": "drm/8/13738/OEBPS/Images/1/0786486f183a4d7a37643d64865468db.jpg",
+                "audio": "drm/8/13738/OEBPS/Audio/1/7907f479952ad2c3f33cdc1dac4b9a80.mp3"
+            },
+            {
+                "page": "drm/8/13738/OEBPS/Images/1/a2b3164febbf97574ec86be98947c86c.jpg"
+            },
+            {
+                "page": "drm/8/13738/OEBPS/Images/1/286c27606f3fc83fa91f71afddddb22b.jpg",
+                "audio": "drm/8/13738/OEBPS/Audio/1/c02d32fe307ea3e4193f5ddd36c41d60.mp3"
+            },
+            {
+                "page": "drm/8/13738/OEBPS/Images/1/b0a26a3bdf46efb7d3a8d3f005df5da0.jpg"
+            },
+            {
+                "page": "drm/8/13738/OEBPS/Images/1/a8bf0bce47595a7b68be4bd2ec10bc7e.jpg",
+                "audio": "drm/8/13738/OEBPS/Audio/1/a4f92423fe6a6bb770464c8403a74d75.mp3"
+            },
+            {
+                "page": "drm/8/13738/OEBPS/Images/1/dc25a15faa24d8ccdec045bbfc033c9a.jpg"
+            },
+            {
+                "page": "drm/8/13738/OEBPS/Images/1/adadb60ca0594442d490ed555fa48d37.jpg",
+                "audio": "drm/8/13738/OEBPS/Audio/1/6e7a108bc09f53ddc81da33056d75210.mp3"
+            },
+            {
+                "page": "drm/8/13738/OEBPS/Images/1/bef721d749ab931300ded740fa68a81f.jpg"
+            },
+            {
+                "page": "drm/8/13738/OEBPS/Images/1/6bd4508bbad9bcb40254646c8c460ae9.jpg",
+                "audio": "drm/8/13738/OEBPS/Audio/1/a068e8236121f3b5ee9fb15f73ca8efc.mp3"
+            },
+            {
+                "page": "drm/8/13738/OEBPS/Images/1/08311674a15edd01b44cdbab033ba32f.jpg"
+            },
+            {
+                "page": "drm/8/13738/OEBPS/Images/1/95aacd36090144894f0ee41e3cfe31f4.jpg",
+                "audio": "drm/8/13738/OEBPS/Audio/1/be0ef1d92f842bfe7eb7d5fc17d164c1.mp3"
+            },
+            {
+                "page": "drm/8/13738/OEBPS/Images/1/08db4c74cdecf88d8329c17918cf7402.jpg"
+            },
+            {
+                "page": "drm/8/13738/OEBPS/Images/1/7decd5c85ca3ed254b6c4e774bbbefa5.jpg",
+                "audio": "drm/8/13738/OEBPS/Audio/1/066fd63e0e8279f1b14b36c4bbfb4035.mp3"
+            },
+            {
+                "page": "drm/8/13738/OEBPS/Images/1/544076d94e2779c6ba410e5b830a0948.jpg"
+            },
+            {
+                "page": "drm/8/13738/OEBPS/Images/1/d1bf5ac0c977fd73fbf9462d7047d412.jpg",
+                "audio": "drm/8/13738/OEBPS/Audio/1/d0dbd30b816a6d33c3d1334589d2dd08.mp3"
+            },
+            {
+                "page": "drm/8/13738/OEBPS/Images/1/cc194911eee29bc0e7ae2be18757faa0.jpg"
+            },
+            {
+                "page": "drm/8/13738/OEBPS/Images/1/f7c375d96b28914cac0ab5220027bcac.jpg",
+                "audio": "drm/8/13738/OEBPS/Audio/1/276228ea277741d6b5f8bf2191d06c15.mp3"
+            },
+            {
+                "page": "drm/8/13738/OEBPS/Images/1/9639aeec9dd8bf00d7826a69165b5033.jpg"
+            },
+            {
+                "page": "drm/8/13738/OEBPS/Images/1/f8e3a73cb611203ba1753bc4c34f4ee5.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/13738/OEBPS/Images/1/720cc5beaa81e85b3370e0ca3a129377.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "13738",
+        "id": "13738",
+        "title": "Consumers and Producers",
+        "author": "Ellen Mitten",
+        "illustrator": " ",
+        "numPages": 24,
+        "bookDescription": "Learn how people are both producers and consumers.",
+        "coverColorR": 199,
+        "coverColorG": 143,
+        "coverColorB": 109,
+        "version": 1,
+        "previewPercent": 20,
+        "publisher": "Rourke Educational Media",
+        "publisherId": "107",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 880,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.0013,
+        "contentHash": "bba38da8122978e4da1c",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1557335954
+    },
+    "userBook": {
+        "modelId": "46250489-13738",
+        "userId": "46250489",
+        "bookId": "13738",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311072,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311072,
+        "book": {
+            "modelId": "13738",
+            "title": "Consumers and Producers",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "bba38da8122978e4da1c"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "180106",
+            "user_id": "6365007",
+            "book_id": "13738",
+            "title": "Consumers and Producers",
+            "description": "",
+            "date_created": 1519577256,
+            "date_modified": 1523314105,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What is something a producer makes that you can buy at the store?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "good",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "consumer",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "service",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What is someone called when they pay for a good or a service?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "consumer",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "producer",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "People who make goods or provide a service are called _________________?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "producers",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "consumers",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "profit",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "providers",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "When you sell cookie dough, you are selling a ______________?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "good",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "service",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "When you order a pizza, you are being a __________________?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "consumer",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "producer",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "180106",
+            "creatorName": "Mrs. Lisa",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "6365007",
+                "udid": "56ea1b688bdbc8.03008339",
+                "journalName": "Mrs. Lisa",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.15686274509804 0.47058823529412 0.60392156862745 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "304691688",
+                "fid": "",
+                "accountID": "F6FEA45E-31D6-B2AB-3DA7-EA264E94A690",
+                "simpleAccountId": "2406243",
+                "pagesFlipped": 660,
+                "nufComplete": 1,
+                "readingAge": 6.96667,
+                "startingAge": 0,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 38,
+                "xpLevel": 3,
+                "dateLastLogin": 1550790015,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Lisa",
+                "lastName": "Lisa",
+                "accountType": 1,
+                "dateModified": 1550790015,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Lisa"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What is something a producer makes that you can buy at the store?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "good",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "consumer",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "service",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What is someone called when they pay for a good or a service?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "consumer",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "producer",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "People who make goods or provide a service are called _________________?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "producers",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "consumers",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "profit",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "providers",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "When you sell cookie dough, you are selling a ______________?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "good",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "service",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "When you order a pizza, you are being a __________________?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "consumer",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "producer",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

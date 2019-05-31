@@ -1,0 +1,191 @@
+{
+    "publisherData": {
+        "modelId": "90073",
+        "name": "Arbordale",
+        "url": "https://www.arbordalepublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491011192
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/4345FBFE-4E67-47F9-9384-A7C2BE1EA3CB.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/D3EAA297-AD8A-4AA7-BE3F-5626D9095ABB.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/CE99D4E6-9B54-4142-B409-5192903767C7.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/0AC7BDDD-0A46-4978-9A2C-01983556521A.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/07ED030F-14DA-4345-A473-7E9B63F60A7A.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/DC1D5F5C-4B1C-49DD-B0ED-36FAB04288D6.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/DDEDFB44-CCB0-468E-957D-10ED6DD3FF0D.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/AC034226-7DCC-4475-A2C7-DF348A6741BD.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/4B9A47AC-5F83-4CD1-A3CE-52C4548A4572.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/EFC7A784-BCDD-4486-937E-DECD57264B4E.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/40F14B98-530C-4067-8968-3480B02D54C4.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/F1BDE3BC-91EE-4451-813E-C2F47BEA8F26.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/53B7C69F-629D-472F-A38D-0473BD48F14D.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/AD5FA55C-F44A-4016-8622-36223CA28F91.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/E1472ABB-519B-448F-BE50-B9EF3B29F1D3.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/32A1E054-9BE5-458E-9793-B8ADBD0646F7.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/89BC1A00-4B2A-4204-85DE-FCBB24B7CF46.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/1F117A18-66C2-4E3E-A947-093C2036BDC1.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/2F9253E4-06D3-4198-9CE4-7C9819D4319D.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/968042FF-65F4-4A60-A0E2-AD1D487C87E1.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/14945CE8-4B79-4FF4-B267-BE8A2260C046.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/5DE2C34B-8BD2-4539-B22A-C79992DCB65D.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/8D721E9A-493C-4F2E-A277-08775464383D.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/07C343C1-6358-4058-AA57-564EA850A581.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/2DA2745A-B1ED-4D4A-9A89-FE6383E8EE3C.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/D136213E-2224-440F-90C1-6142A07E7770.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/2A00A86D-42B3-439D-A518-60E332579C0E.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/E37AF151-7E08-4DDD-A6E2-9BFE5907B0BA.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/5B07241C-2BC5-4D04-8613-AECA1AB343F9.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/93F26448-95B4-491A-9754-6568882EDB5E.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/A22B9C18-8D41-44AF-9933-0BAD24D35B24.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/79BC86D8-16E5-48B2-84B2-DF45C063B7E0.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/EE057C83-9A9C-4F5A-95A6-7D234B060C26.jpg"
+            },
+            {
+                "page": "drm/5/41595/OEBPS/Images/1/0212BA1A-F987-4EEF-A55A-224D89A1EC25.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/41595/OEBPS/Images/1/05858BFE-0C74-4E88-AF18-346852E78B2E.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "41595",
+        "id": "41595",
+        "title": "My Half Day",
+        "author": "Dani Sneed, Doris Fisher",
+        "illustrator": "Karen Lee",
+        "numPages": 34,
+        "bookDescription": "The wacky fun continues as a young boy awakens to find a half-head of hair.",
+        "coverColorR": 132,
+        "coverColorG": 154,
+        "coverColorB": 122,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Arbordale",
+        "publisherId": "90073",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "530L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 623,
+        "ar": "3.2",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "ABCs & 123s",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.849,
+        "contentHash": "eb0eeeaaec5fa1647b30",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1492216787
+    },
+    "userBook": {
+        "modelId": "46250489-41595",
+        "userId": "46250489",
+        "bookId": "41595",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311706,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311706,
+        "book": {
+            "modelId": "41595",
+            "title": "My Half Day",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "eb0eeeaaec5fa1647b30"
+        }
+    },
+    "quiz": null
+}

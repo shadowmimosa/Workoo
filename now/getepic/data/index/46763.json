@@ -1,0 +1,185 @@
+{
+    "publisherData": {
+        "modelId": "10",
+        "name": "Kids Can Press",
+        "url": "http://www.kidscanpress.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539816186
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/fef58a5632052a7932f9eebbc0203b9e.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/cb50c2a2a938ebfb610b032b0912ad93.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/e11dbfb2e9f03032f9486fa257350afd.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/62b5eed58eb7292e2e4881c57b92b8f3.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/2cc3ec05437308a186885aa445d95137.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/b65646964f2e25de0fd26bdbbbc4cbc5.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/566fd038dcd6170490199849f93f593e.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/378998624032c74831cd48da1ffdfcd1.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/b0707aa6d7dfda95cb2254fe4a6c6a51.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/4a14a0769b193e421e0953754b6e2402.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/dd7a1a994ccedc0349e6ce17779f7f8a.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/22752f1c75367ff00f2d77dbea6915c7.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/1b1c46be75283dd9c5c5d9ab593b03b9.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/2bad1850a037b7c49b7f6a27331b915d.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/1b75d21715b8945ff6a38b696363b9b6.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/b7ead453788b4f4187bd7cad1b5e86ad.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/60484e55562d035a80d591e752efb0ff.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/9e5adc2295209768e6c949e06ebb90a3.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/8029b6cc932153af9fb5fc44865dc43a.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/1eee9f552e15a6c7dcf0afa6e73d2ea9.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/e7bc61e84046543910dab19f6949d448.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/a9c2baca0ccb88908b0cfc4a4c6f4cb9.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/c27c08c1937f09abf245a18ce71fc363.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/356cef7591a255fe57d06de7b52dec8c.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/a7559be7e603651a45a26308cdaa4e74.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/fbf9bdecea5cd4d5a46fe72fc7c3c5cf.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/fb382a9065965684bd05e39fe24ad2b1.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/29ae91c92ae00df1b3c5d25c8e3f9706.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/f9ecda29fc84cc03658c91bd5cf7e4da.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/06fc35d340dbf56c0e69298d854fde59.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/a65ee3775e9857c20ec11decf2c55d05.jpg"
+            },
+            {
+                "page": "drm/3/46763/OEBPS/Images/1/54a775fca1f47d7490f0c0fe425b3141.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/3/46763/OEBPS/Images/1/7dc3ea95f28791789b028a8f38d877c3.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "46763",
+        "id": "46763",
+        "title": "Stop Feedin' da Boids!",
+        "author": "James Sage",
+        "illustrator": "Pierre Pratt",
+        "numPages": 32,
+        "bookDescription": "When Swanda and her dog, Waldo, move to Brooklyn from the country, they miss the wildlife they left behind. Until they discover the pigeons.",
+        "coverColorR": 141,
+        "coverColorG": 153,
+        "coverColorB": 140,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Kids Can Press",
+        "publisherId": "10",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "690L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 533,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Funny",
+        "subjectColor": "FFD673",
+        "copyright": "",
+        "aspectRatio": 0.75,
+        "contentHash": "8c9c29c8b31f406230c8",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1507684317
+    },
+    "userBook": {
+        "modelId": "46250489-46763",
+        "userId": "46250489",
+        "bookId": "46763",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311081,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311081,
+        "book": {
+            "modelId": "46763",
+            "title": "Stop Feedin' da Boids!",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "8c9c29c8b31f406230c8"
+        }
+    },
+    "quiz": null
+}

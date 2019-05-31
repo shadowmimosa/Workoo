@@ -1,0 +1,155 @@
+{
+    "publisherData": {
+        "modelId": "31",
+        "name": "Bellwether Media",
+        "url": "http://www.bellwethermedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539569528
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/3/35863/OEBPS/Images/1/F1EA47BA-B79C-4A80-89A1-97C42F2EDFDC.jpg"
+            },
+            {
+                "page": "drm/3/35863/OEBPS/Images/1/CB42BA89-02CD-4C93-9BD9-8861D1D69081.jpg"
+            },
+            {
+                "page": "drm/3/35863/OEBPS/Images/1/CA23E37D-44F9-44B5-A9C5-98A63EC13B02.jpg"
+            },
+            {
+                "page": "drm/3/35863/OEBPS/Images/1/8D6B4DFA-3E02-4267-BCF0-21FCD05A2E44.jpg"
+            },
+            {
+                "page": "drm/3/35863/OEBPS/Images/1/C31E0BBB-9382-4585-890D-8E55620850AA.jpg"
+            },
+            {
+                "page": "drm/3/35863/OEBPS/Images/1/3D89CA60-D876-4C12-AA4A-DA450A82FB8A.jpg"
+            },
+            {
+                "page": "drm/3/35863/OEBPS/Images/1/A5317FFE-3FCE-4E27-B30D-9B3B9C9C8A8D.jpg"
+            },
+            {
+                "page": "drm/3/35863/OEBPS/Images/1/ADD57506-7E25-4B3D-AE24-F4CF8520E831.jpg"
+            },
+            {
+                "page": "drm/3/35863/OEBPS/Images/1/190BED45-BDF7-451B-B1A6-102115E79558.jpg"
+            },
+            {
+                "page": "drm/3/35863/OEBPS/Images/1/070F3927-6D2E-4ADB-BC0E-D2EF39D517AB.jpg"
+            },
+            {
+                "page": "drm/3/35863/OEBPS/Images/1/70766516-7EB0-4C32-8A1E-188BAC22892D.jpg"
+            },
+            {
+                "page": "drm/3/35863/OEBPS/Images/1/FDE90F64-F187-4575-9FC6-8F208AB3BB59.jpg"
+            },
+            {
+                "page": "drm/3/35863/OEBPS/Images/1/43A69CE3-7DD4-4FF1-A551-8CD66554899F.jpg"
+            },
+            {
+                "page": "drm/3/35863/OEBPS/Images/1/E343CDEF-27C2-4D7D-8395-893174B153E6.jpg"
+            },
+            {
+                "page": "drm/3/35863/OEBPS/Images/1/92CBCE83-1D42-4244-9113-A097BD1BF2CA.jpg"
+            },
+            {
+                "page": "drm/3/35863/OEBPS/Images/1/53A29A10-6E16-4206-B41B-A722547B2DAE.jpg"
+            },
+            {
+                "page": "drm/3/35863/OEBPS/Images/1/3EDF4E65-1A3D-4FE1-B83D-625F153A99AD.jpg"
+            },
+            {
+                "page": "drm/3/35863/OEBPS/Images/1/70DDE215-827B-4DE6-AFCD-590E1BF4AB1D.jpg"
+            },
+            {
+                "page": "drm/3/35863/OEBPS/Images/1/D61D7C57-9845-40C9-B361-9A5AA42C3EAF.jpg"
+            },
+            {
+                "page": "drm/3/35863/OEBPS/Images/1/F40D4E9A-7673-444B-8AE8-F7F3A21510F8.jpg"
+            },
+            {
+                "page": "drm/3/35863/OEBPS/Images/1/1FDC95C0-4FBB-4A95-A031-6DB5EA0D3A5F.jpg"
+            },
+            {
+                "page": "drm/3/35863/OEBPS/Images/1/032C0123-5558-40C3-816F-5F62D6E19581.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/3/35863/OEBPS/Images/1/8BA801F1-608C-439B-A1F7-5E02414AE969.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "35863",
+        "id": "35863",
+        "title": "Cats",
+        "author": "Hollie Endres",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Beginning readers will learn about the features and behaviors of farm cats.",
+        "coverColorR": 131,
+        "coverColorG": 106,
+        "coverColorB": 90,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Bellwether Media",
+        "publisherId": "31",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "330L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 403,
+        "ar": "1.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Farm Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.7216,
+        "contentHash": "b9b30bbf52b922d56544",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "2",
+        "panelStatus": 0,
+        "date_modified": 1555373437
+    },
+    "userBook": {
+        "modelId": "46250489-35863",
+        "userId": "46250489",
+        "bookId": "35863",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559312171,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559312171,
+        "book": {
+            "modelId": "35863",
+            "title": "Cats",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "b9b30bbf52b922d56544"
+        }
+    },
+    "quiz": null
+}

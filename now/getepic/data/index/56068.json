@@ -1,0 +1,155 @@
+{
+    "publisherData": {
+        "modelId": "90350",
+        "name": "Gray Duck",
+        "url": "http://grayduckbooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1536102481
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/56068/OEBPS/Images/1/2838e0482da46ac2bd625ef4633518a3.jpg"
+            },
+            {
+                "page": "drm/8/56068/OEBPS/Images/1/dfae4b8fadde11099662cba0ff9a651a.jpg"
+            },
+            {
+                "page": "drm/8/56068/OEBPS/Images/1/931656a590890ee37b2e8eb0a5c4252d.jpg"
+            },
+            {
+                "page": "drm/8/56068/OEBPS/Images/1/025bb8f17882bcf763cd3dcb6f974236.jpg"
+            },
+            {
+                "page": "drm/8/56068/OEBPS/Images/1/10171e83eea7af2bf93d5dc48de5bcbb.jpg"
+            },
+            {
+                "page": "drm/8/56068/OEBPS/Images/1/0aa9094ad02576afc4ef4c1998038979.jpg"
+            },
+            {
+                "page": "drm/8/56068/OEBPS/Images/1/89c261c4403beee613091222f8f87797.jpg"
+            },
+            {
+                "page": "drm/8/56068/OEBPS/Images/1/206313979301ebe7adecd761d6b00484.jpg"
+            },
+            {
+                "page": "drm/8/56068/OEBPS/Images/1/22ea39f204d3ac8d22317bd0556a3c77.jpg"
+            },
+            {
+                "page": "drm/8/56068/OEBPS/Images/1/963a4666ce667aa5b1c82244717b7c26.jpg"
+            },
+            {
+                "page": "drm/8/56068/OEBPS/Images/1/01a4423b93935aa9ce745942c22b3160.jpg"
+            },
+            {
+                "page": "drm/8/56068/OEBPS/Images/1/d01e25ce24a209bf17719a09b004f5ae.jpg"
+            },
+            {
+                "page": "drm/8/56068/OEBPS/Images/1/2699e75d69305b5a06897739c002fe3d.jpg"
+            },
+            {
+                "page": "drm/8/56068/OEBPS/Images/1/47f3e88e66697936ded52c69972c212e.jpg"
+            },
+            {
+                "page": "drm/8/56068/OEBPS/Images/1/3c2045f5bf7fb2787ce187ac48bb5ef4.jpg"
+            },
+            {
+                "page": "drm/8/56068/OEBPS/Images/1/1a4ffc668c165f81dc3269b94fdf2bc2.jpg"
+            },
+            {
+                "page": "drm/8/56068/OEBPS/Images/1/36f501d82ccd036090e03e440e4ddb45.jpg"
+            },
+            {
+                "page": "drm/8/56068/OEBPS/Images/1/84fa3804bdfdb95a5968ae177e39f048.jpg"
+            },
+            {
+                "page": "drm/8/56068/OEBPS/Images/1/37cc539f08b93258bdbadb616959ec5b.jpg"
+            },
+            {
+                "page": "drm/8/56068/OEBPS/Images/1/ae29a9e714e263ccaaa129c94d1920d1.jpg"
+            },
+            {
+                "page": "drm/8/56068/OEBPS/Images/1/15bd02d959fec333331225ba5990a0d4.jpg"
+            },
+            {
+                "page": "drm/8/56068/OEBPS/Images/1/65df3bbbb3e09675f75baef43b6ee754.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/56068/OEBPS/Images/1/9f9fe49b6eb5f9aac257554476786596.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "56068",
+        "id": "56068",
+        "title": "Siberian Husky Puppies",
+        "author": "Emmie Chang",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "The little Siberian Husky puppies in this book share about their big dreams for adulthood!",
+        "coverColorR": 192,
+        "coverColorG": 183,
+        "coverColorB": 171,
+        "version": 858927445,
+        "previewPercent": 20,
+        "publisher": "Gray Duck",
+        "publisherId": "90350",
+        "age": 6,
+        "pageNumOffset": 1,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 403,
+        "ar": "2.4",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 86,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Dogs",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.7747,
+        "contentHash": "599f99e933ea6eb9d4c4",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374659
+    },
+    "userBook": {
+        "modelId": "46250489-56068",
+        "userId": "46250489",
+        "bookId": "56068",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310722,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310722,
+        "book": {
+            "modelId": "56068",
+            "title": "Siberian Husky Puppies",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "599f99e933ea6eb9d4c4"
+        }
+    },
+    "quiz": null
+}

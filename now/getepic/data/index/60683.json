@@ -1,0 +1,209 @@
+{
+    "publisherData": {
+        "modelId": "90185",
+        "name": "Candlewick.",
+        "url": "http://www.candlewick.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1552002937
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/7ddb8fdd30b38782c56c10bd647f886d.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/ee0425339369159f4eb10304b9750a95.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/03c69826f27991e14b75d3710df57a47.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/d0919b867f36b62707c29bacae46fbb1.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/ea42de08c082134c8dcb4e396bc7bb47.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/5c48ccf6c5075b5091812113f945507c.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/61ff5cba28d55b7338b881f49dcfffba.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/02b44d8c9c2fbe89b14df19b1c3ea241.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/5ac3794a501d412ae61a2a4fec2c491d.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/08a2821889ddf0802823e3a7f72f44b8.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/7c1890f4dcaa2ba79a899cbc7dd56d51.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/7a1747b2de5852f5d7fda0b9ad9b0d22.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/7e9650d91c5c9f158110175bd6ebef9d.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/c28e93daebad1a9a009c7dfc464c2795.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/e5f4254ea08b685cb89d2db26860fc9b.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/2d566867979d9e275cac8c5aa05af0ec.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/6ff3afd31f05fe26fb1fe9f2a5ac9e3d.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/797eac7910aa36b7210ae38c448468ae.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/3868c4e306bbc88a549d62f7d7c715b2.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/3d9e4939f707f3edcd07f7c7a7b15bb0.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/248bee272168a6cf4ed639816de224cf.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/f6ab90dbe88550d40303bb811d157040.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/58fc120cd5b40026725415aef21cefae.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/9757c35e621f5e8c0517ed10d588a6f5.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/4a478af63af4bd78c06fad1e57aca4d8.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/9c7095e9e9c84f2660e646d91579c635.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/abf6b8d69823d79c312a1ff9694cc84c.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/a33cadd3a00597162291ae965051f40a.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/5099cf5297a4f0af62290cd35d94fb6c.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/3c204297b270e9fb0d5591b2ea2c0eab.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/dd9dd968b142548b809d0a00edcff13e.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/c2a8ab7f0a18544e84c6e5f6e7380a68.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/8f0be958670b449a0e6ac15afefbc861.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/edfa58bfa693f96e16e51670ee7e7b6a.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/edfae98ddd86444411919992f0069553.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/2f424f7f9cf4752bac23da755c60dbce.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/b967153e7a9a68ad691e68c2190434a2.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/8794cfabf500ee8db15f9ab8d1a9d212.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/b01c137acf5eb9395895f4ca443dba45.jpg"
+            },
+            {
+                "page": "drm/3/60683/OEBPS/Images/1/a3112bfd9cd748037c51badbd613c1c1.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/3/60683/OEBPS/Images/1/b79ceb3b18f1db7ee727f56bfc34cdd5.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "60683",
+        "id": "60683",
+        "title": "Return",
+        "author": "Aaron Becker",
+        "illustrator": " ",
+        "numPages": 40,
+        "bookDescription": "Failing to get the attention of her busy father, a lonely girl turns back to a fantastic world for friendship and adventure.",
+        "coverColorR": 95,
+        "coverColorG": 85,
+        "coverColorB": 80,
+        "version": 1508273455,
+        "previewPercent": 20,
+        "publisher": "Candlewick.",
+        "publisherId": "90185",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 733,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "91",
+        "subjectDesc": "Fairy Tales, Folk Tales & Myths",
+        "subjectColor": "F54444",
+        "copyright": "",
+        "aspectRatio": 1.1245,
+        "contentHash": "c35164260ebd22318f2e",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1557340272
+    },
+    "userBook": {
+        "modelId": "46250489-60683",
+        "userId": "46250489",
+        "bookId": "60683",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310353,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310353,
+        "book": {
+            "modelId": "60683",
+            "title": "Return",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "c35164260ebd22318f2e"
+        }
+    },
+    "quiz": null
+}

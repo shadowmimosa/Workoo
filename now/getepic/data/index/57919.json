@@ -1,0 +1,209 @@
+{
+    "publisherData": {
+        "modelId": "82",
+        "name": "Holiday House",
+        "url": "http://www.holidayhouse.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260666
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/fc45742131aec130f3826c74200beddc.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/2769b6d4b0bf63c129699f9f0aa48356.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/c303f6388fc7460967073add7079136c.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/4d1550c71b44f0df5d8ac0a62c52dc4c.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/79b3245efbdbec2efcb5509083ac4e56.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/540fdf7d5eabdf84004ce91e29dc2fa0.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/961f86176bf5f7285d0b386c96846050.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/3b77faa51e329259fdd35780a573b781.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/c9ab7c15946bd597b5bd7c1e3af973d9.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/b4b9bc1475438a1d8214f19334ee5cd2.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/ea8840d7dad9f144cb89fe21cd46e3ef.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/c7870d3da3f0a2db5be6e956e4184ea0.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/f77b21f54ad97ae736c7f2e723eaeaae.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/c53632c013a135302a99fb78839cc29d.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/32a9e68fda5c6dacaffe2e68c8ac5e12.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/d2b79dc2778885534119858aa306da2a.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/7f6d686b2ff1636d5495671ba0bb202e.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/e4046d5feec757eb181dcf078aba8649.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/15700f269c7f78c6b323c9c3383239c4.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/aba1e97e138a47baa7b403c178da8c45.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/02a4eca7795d13532f6732b6fb4af915.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/b1321f53be6b4c6d5b0b8c36492ef973.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/4b2091d50b93c32f71700e7682ad950d.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/af9d803bd1cbbf85f8a0630956380cec.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/a50693155d7202600a4230309d3a3368.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/842d05ec38ee701058a6dbe3426d8e68.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/4759e267cc819d57b5183091fcf0b8a9.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/ca2502948d0620995fbb2013d4d703de.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/8c828bab5fa023047d396ad8318a4a2a.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/bc18a4c9e845661e97c4d48ffd70d1d8.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/eeac229ccfedf4cd64b011a4a89fd91e.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/ef7cba7ba639820ec6fda1754fb4be76.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/977fcdc78e69dc913ddbdcd644d86b95.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/0243705d734eff93c0f510edb0b19081.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/92e17fe791ab875a8051fee9a23fa6a9.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/674c2044f39ca93689fedec1cc09db2a.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/ee0a5529e04206b090672e65aa4b9e86.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/bdab7fad1e008de8d7a3b0055bfde441.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/3ede1fc7f6a8abf795afdc433510a42e.jpg"
+            },
+            {
+                "page": "drm/9/57919/OEBPS/Images/1/80e52766f6a91eb924eb44a527ff6874.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/57919/OEBPS/Images/1/7806b6f90ec7efbfb8052d41db962b13.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "57919",
+        "id": "57919",
+        "title": "Who Will Bell the Cat?",
+        "author": "Patricia C. McKissack",
+        "illustrator": "CHRISTOPHER CYR",
+        "numPages": 40,
+        "bookDescription": "A cat enters a barn and terrorizes a community of mice. Smart Mouse and Friend Mouse think they solved the problem with a bell for the cat.",
+        "coverColorR": 118,
+        "coverColorG": 78,
+        "coverColorB": 81,
+        "version": 4338624,
+        "previewPercent": 10,
+        "publisher": "Holiday House",
+        "publisherId": "82",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "AD720L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 666,
+        "ar": "3.8",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "91",
+        "subjectDesc": "Fairy Tales, Folk Tales & Myths",
+        "subjectColor": "F54444",
+        "copyright": "",
+        "aspectRatio": 1.1944,
+        "contentHash": "030ec33240a4a9068809",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1556734347
+    },
+    "userBook": {
+        "modelId": "46250489-57919",
+        "userId": "46250489",
+        "bookId": "57919",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310279,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310279,
+        "book": {
+            "modelId": "57919",
+            "title": "Who Will Bell the Cat?",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "030ec33240a4a9068809"
+        }
+    },
+    "quiz": null
+}

@@ -1,0 +1,165 @@
+{
+    "publisherData": {
+        "modelId": "85",
+        "name": "Frederator Books",
+        "url": "http://frederatorbooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260454
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/10067/OEBPS/Images/1/2ddab349fdca5f4e7d31bcd6f194d136.jpg"
+            },
+            {
+                "page": "drm/7/10067/OEBPS/Images/1/e3ec14d084e7bae4b8e7260f7edcbbf5.jpg",
+                "audio": "drm/7/10067/OEBPS/Audio/1/01_TodayIsSpace.mp3"
+            },
+            {
+                "page": "drm/7/10067/OEBPS/Images/1/4ac86f4a52cf91cc20c4af7e6afd4dad.jpg"
+            },
+            {
+                "page": "drm/7/10067/OEBPS/Images/1/d3218140c225fd81c36968457e4cfdb0.jpg",
+                "audio": "drm/7/10067/OEBPS/Audio/1/02_QuestionHowMany.mp3"
+            },
+            {
+                "page": "drm/7/10067/OEBPS/Images/1/0c5ac88b9d46a9881d294cd5778243c7.jpg"
+            },
+            {
+                "page": "drm/7/10067/OEBPS/Images/1/ee0f1e9ec859a8af9bcd35d3890bbbad.jpg",
+                "audio": "drm/7/10067/OEBPS/Audio/1/03_YesterdayPurpleGravity.mp3"
+            },
+            {
+                "page": "drm/7/10067/OEBPS/Images/1/621093be1981b59ec49d81a8f4f0daa3.jpg"
+            },
+            {
+                "page": "drm/7/10067/OEBPS/Images/1/925c08b6f8b826396a815c55fa1b7d2b.jpg",
+                "audio": "drm/7/10067/OEBPS/Audio/1/04_ContraryToPopularBelief.mp3"
+            },
+            {
+                "page": "drm/7/10067/OEBPS/Images/1/3affaf0380f67a24ecedab975da8f786.jpg"
+            },
+            {
+                "page": "drm/7/10067/OEBPS/Images/1/075476891452759257d168fe65cd5597.jpg",
+                "audio": "drm/7/10067/OEBPS/Audio/1/05_YourMomWould-v2.mp3"
+            },
+            {
+                "page": "drm/7/10067/OEBPS/Images/1/9719917e036d54865d7c3439a9189a66.jpg"
+            },
+            {
+                "page": "drm/7/10067/OEBPS/Images/1/75385684839d70ed46738cb2f34bc268.jpg",
+                "audio": "drm/7/10067/OEBPS/Audio/1/06_SpaceChickensLoveTo.mp3"
+            },
+            {
+                "page": "drm/7/10067/OEBPS/Images/1/1c8e94640bd5862687219bf00480c16a.jpg"
+            },
+            {
+                "page": "drm/7/10067/OEBPS/Images/1/e1f97aee2a020f3d1bd3a44d622d83c4.jpg",
+                "audio": "drm/7/10067/OEBPS/Audio/1/07_OnSundayISaw.mp3"
+            },
+            {
+                "page": "drm/7/10067/OEBPS/Images/1/0ec11fff8b57655f7ead1a73ba8a1b1d.jpg"
+            },
+            {
+                "page": "drm/7/10067/OEBPS/Images/1/c2f47e15dd94e37cf242463ca3b1bccb.jpg",
+                "audio": "drm/7/10067/OEBPS/Audio/1/08_WhenIDriveATractor.mp3"
+            },
+            {
+                "page": "drm/7/10067/OEBPS/Images/1/1e678be03ee686bf7e3e51494540374e.jpg"
+            },
+            {
+                "page": "drm/7/10067/OEBPS/Images/1/69970b44d36e460bb2a0054f4a838d42.jpg",
+                "audio": "drm/7/10067/OEBPS/Audio/1/09_ITriedTrainingPurpleGravity.mp3"
+            },
+            {
+                "page": "drm/7/10067/OEBPS/Images/1/34a08776b8371324ec96d2aaf33e4ac7.jpg"
+            },
+            {
+                "page": "drm/7/10067/OEBPS/Images/1/ea180974e3ef4f89014e59ad3aa46413.jpg",
+                "audio": "drm/7/10067/OEBPS/Audio/1/10_MathTime.mp3"
+            },
+            {
+                "page": "drm/7/10067/OEBPS/Images/1/68502838576d5214342294bd727d6674.jpg"
+            },
+            {
+                "page": "drm/7/10067/OEBPS/Images/1/12c99ef54eb5d2279496bbcf1f690649.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/10067/OEBPS/Images/1/8f0f1a307b79c5a84f21f6440ab9caa3.jpg",
+            "color": "#fefefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "10067",
+        "id": "10067",
+        "title": "Catbug: Space Chicken!",
+        "author": "Jason James Johnson",
+        "illustrator": "Charis Jackson Barrios, Charis Jackson-Barrios",
+        "numPages": 22,
+        "bookDescription": "Get an exclusive glimpse into the wild and glamorous life of a Space Chicken. Shake your tail feather!!",
+        "coverColorR": 212,
+        "coverColorG": 168,
+        "coverColorB": 79,
+        "version": 63570016,
+        "previewPercent": 20,
+        "publisher": "Frederator Books",
+        "publisherId": "85",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 403,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 85,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Humorous Stories",
+        "subjectColor": "FFD673",
+        "copyright": "",
+        "aspectRatio": 0.7497,
+        "contentHash": "e801ef0eb375563ea717",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555957211
+    },
+    "userBook": {
+        "modelId": "46250489-10067",
+        "userId": "46250489",
+        "bookId": "10067",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559307274,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559307274,
+        "book": {
+            "modelId": "10067",
+            "title": "Catbug: Space Chicken!",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "e801ef0eb375563ea717"
+        }
+    },
+    "quiz": null
+}

@@ -1,0 +1,653 @@
+{
+    "publisherData": {
+        "modelId": "77",
+        "name": "Crow Cottage",
+        "url": "http://crowcottagepublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260202
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/c0135f7d1fa68690826a5c5f066be76b.jpg",
+                "audio": "drm/8/9158/OEBPS/Audio/1/db5b39bcaa3c4b75d9185f37e70aca6b.mp3"
+            },
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/9278ba79a01a0a5adc30baf9bdfbf6c7.jpg"
+            },
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/e1533546d0a4d8967b7c72e7b8175895.jpg",
+                "audio": "drm/8/9158/OEBPS/Audio/1/eee9823d8da62a913204da79d3435b00.mp3"
+            },
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/7a7c5952df31f80eb9bec3155ed30b5a.jpg",
+                "audio": "drm/8/9158/OEBPS/Audio/1/e57d0de09595bf40fb98cc6b0f947665.mp3"
+            },
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/7141835258fb8ae7584f001a3c4dd5b6.jpg"
+            },
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/7cdaa18b453dfb3aa9281915a94b8a64.jpg",
+                "audio": "drm/8/9158/OEBPS/Audio/1/84a3e2b34a7d816dcb5d9b3f2029fd0e.mp3"
+            },
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/297502c58c4599e95a2f756367a5cb2b.jpg"
+            },
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/d2b5e2f79a8b6c359497660d7ca8a11b.jpg",
+                "audio": "drm/8/9158/OEBPS/Audio/1/ced2b394628b01a98edf2fa491a937a1.mp3"
+            },
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/29c9f8ca350b547dabfef4867fd923a0.jpg"
+            },
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/119044e71b2c740ddeb40035e880e272.jpg",
+                "audio": "drm/8/9158/OEBPS/Audio/1/2c2882f9a1e2563e2eb46c7f4fc97931.mp3"
+            },
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/290d720b31ed78e428ea942312b39b9d.jpg"
+            },
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/e6fcada51eb7196c4375aee142f4d390.jpg",
+                "audio": "drm/8/9158/OEBPS/Audio/1/9eda3ff5e85f0b9a272836ffa72d7483.mp3"
+            },
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/db77edcf303f4a0fde9ac8439fb734dc.jpg"
+            },
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/34ea598e3939874a009dd0fd2239d0e3.jpg",
+                "audio": "drm/8/9158/OEBPS/Audio/1/eba5aa4bcb09acedb2bb59f9ff27b05b.mp3"
+            },
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/ffe0ebd28d05502009cc203e7852404a.jpg"
+            },
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/e4bd533ea120b0fe6c30ca89d7c417ba.jpg",
+                "audio": "drm/8/9158/OEBPS/Audio/1/91fbb91235a1eb14d785b866b73fcdb9.mp3"
+            },
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/0bc2f3c38bac8eeaf2a55781c0dcc3a0.jpg"
+            },
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/9a9929b149a2b23eb4d3594a796c6e02.jpg",
+                "audio": "drm/8/9158/OEBPS/Audio/1/c19032bf22e8e7ddd9d9d0bff7992b67.mp3"
+            },
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/595a3821857e91fd230e7f8cbbc4c2b6.jpg"
+            },
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/bebad8c19ad71ab6301af2d939ddc4f3.jpg",
+                "audio": "drm/8/9158/OEBPS/Audio/1/dd24070e442a966c87921722542e5103.mp3"
+            },
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/197d3329db4f5d1b866367634f8c1d85.jpg"
+            },
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/7a7a0b49bf27d945238cb084b8c2b440.jpg",
+                "audio": "drm/8/9158/OEBPS/Audio/1/fac0d62b1a643e4ad98c389632458c09.mp3"
+            },
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/e4c301df3c32d60747f63d6c66687078.jpg"
+            },
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/75211db2dfa99b62d55f6fa8c6191256.jpg"
+            },
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/30a1d1d2db05dbccadeec1312231cec3.jpg",
+                "audio": "drm/8/9158/OEBPS/Audio/1/651953ee514f61b970e8a226ae9dc982.mp3"
+            },
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/80c7c3cbba82a25d29640493add0a9fc.jpg",
+                "audio": "drm/8/9158/OEBPS/Audio/1/91ac338d655cef49d529f18403fb09b1.mp3"
+            },
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/641a05e7f5a108086e9fd0387cd7f9b8.jpg"
+            },
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/4d308f5c5a71c2635f2b5c62e8825533.jpg"
+            },
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/adb9cb223c0544ff027786d846f99da7.jpg",
+                "audio": "drm/8/9158/OEBPS/Audio/1/daa6808ec76f7f5d6871cbda0ff18066.mp3"
+            },
+            {
+                "page": "drm/8/9158/OEBPS/Images/1/bb098376e5d411f3d758ec60485bd574.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/9158/OEBPS/Images/1/d636274309f7623b655a4e4ce915942f.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "9158",
+        "id": "9158",
+        "title": "A Dog For a Friend",
+        "author": "Marilynn Reynolds",
+        "illustrator": "Stephen McCallum",
+        "numPages": 30,
+        "bookDescription": "A Dog for a Friend is a heartwarming story about the aching need for companionship that every child will identify with and understand.",
+        "coverColorR": 146,
+        "coverColorG": 139,
+        "coverColorB": 112,
+        "version": 2,
+        "previewPercent": 20,
+        "publisher": "Crow Cottage",
+        "publisherId": "77",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "570L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 550,
+        "ar": "3.9",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Daily Life",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 0.6689,
+        "contentHash": "283fe903453374b2e081",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1516240499
+    },
+    "userBook": {
+        "modelId": "46250489-9158",
+        "userId": "46250489",
+        "bookId": "9158",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311123,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311123,
+        "book": {
+            "modelId": "9158",
+            "title": "A Dog For a Friend",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "283fe903453374b2e081"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "44485",
+            "user_id": "1891180",
+            "book_id": "9158",
+            "title": "Dog for a friend",
+            "description": "",
+            "date_created": 1485883852,
+            "date_modified": 1505172303,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Who is in the story?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Jessie, mom and dad",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Dog",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "Where does the story take place?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "A farm",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "town",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "city",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What did Jessie want more than anything?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "a dog",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "a pig",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "a friend",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What does mom tell Jessie when she asks for a dog?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "She is too busy to take care of a dog.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Jessie is too little.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "They don't have enough money.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Why doesn't she like cats for pets?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "They don't come when they are called.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "They scratch Jessie.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "They don't fetch.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "What is wrong with one of the piglets?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "He is small and weaker",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "He is a bully",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 5
+                },
+                {
+                    "title": "Why did the piglet stop crying?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Mom took the piglet to her bed",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "The piglet fell asleep in his box",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Jessie took him to her room.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 6
+                },
+                {
+                    "title": "What did Jessie name the piglet?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Harold",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Amos",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Joe",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Buddy",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 7
+                },
+                {
+                    "title": "Did Harold grow up to be a big pig?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Yes",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "No",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 8
+                },
+                {
+                    "title": "What did Jessie get at the end of the story?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "A puppy",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "A piglet",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "A cow",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 9
+                }
+            ],
+            "modelId": "44485",
+            "creatorName": "Ms Adams",
+            "avatarId": "21",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "1891180",
+                "udid": "560d885f708b80.03771365",
+                "journalName": "Ms Adams",
+                "journalCoverAvatar": "21",
+                "journalCoverColor": "0.93725490196078 0.37647058823529 0.30196078431373 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "351868076",
+                "fid": "",
+                "accountID": "44898775-AD04-FA47-3A17-23BE56C81A6C",
+                "simpleAccountId": "887717",
+                "pagesFlipped": 5727,
+                "nufComplete": 1,
+                "readingAge": 8.16667,
+                "startingAge": 0,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 322,
+                "xpLevel": 5,
+                "dateLastLogin": 1537298115,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Jennifer",
+                "lastName": "Adams",
+                "accountType": 1,
+                "dateModified": 1537298115,
+                "educatorPrefix": "Ms",
+                "name": "Ms Adams"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Who is in the story?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Jessie, mom and dad",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Dog",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "Where does the story take place?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "A farm",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "town",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "city",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What did Jessie want more than anything?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "a dog",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "a pig",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "a friend",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What does mom tell Jessie when she asks for a dog?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "She is too busy to take care of a dog.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Jessie is too little.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "They don't have enough money.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Why doesn't she like cats for pets?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "They don't come when they are called.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "They scratch Jessie.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "They don't fetch.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "What is wrong with one of the piglets?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "He is small and weaker",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "He is a bully",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 5
+            },
+            {
+                "title": "Why did the piglet stop crying?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Mom took the piglet to her bed",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "The piglet fell asleep in his box",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Jessie took him to her room.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 6
+            },
+            {
+                "title": "What did Jessie name the piglet?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Harold",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Amos",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Joe",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Buddy",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 7
+            },
+            {
+                "title": "Did Harold grow up to be a big pig?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Yes",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "No",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 8
+            },
+            {
+                "title": "What did Jessie get at the end of the story?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "A puppy",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "A piglet",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "A cow",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 9
+            }
+        ]
+    }
+}

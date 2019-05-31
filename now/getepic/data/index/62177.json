@@ -1,0 +1,155 @@
+{
+    "publisherData": {
+        "modelId": "6",
+        "name": "Red Chair Press",
+        "url": "http://www.redchairpress.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491261597
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/62177/OEBPS/Images/1/cbe91d64932499142dba1ba1be427671.jpg"
+            },
+            {
+                "page": "drm/7/62177/OEBPS/Images/1/5de2aaaf5c42719d8632463e2246ce80.jpg"
+            },
+            {
+                "page": "drm/7/62177/OEBPS/Images/1/2c69bd6b72a28c5b148fdde4477bb79b.jpg"
+            },
+            {
+                "page": "drm/7/62177/OEBPS/Images/1/f0e520fe86b7a6634294649dbcb5ae90.jpg"
+            },
+            {
+                "page": "drm/7/62177/OEBPS/Images/1/d1d82e3c3c6f272387fdc8ab38e3bb1e.jpg"
+            },
+            {
+                "page": "drm/7/62177/OEBPS/Images/1/2a92be5d7734bd1411d69e1dd0d034a9.jpg"
+            },
+            {
+                "page": "drm/7/62177/OEBPS/Images/1/90ef9f90cb52822339363a9574daf750.jpg"
+            },
+            {
+                "page": "drm/7/62177/OEBPS/Images/1/4569b7bc1cbe0e80453121da5da17365.jpg"
+            },
+            {
+                "page": "drm/7/62177/OEBPS/Images/1/b83512c8886da85d2331dfd27cf61cea.jpg"
+            },
+            {
+                "page": "drm/7/62177/OEBPS/Images/1/2d7588b1939ecca70ee7b6a48dced8f9.jpg"
+            },
+            {
+                "page": "drm/7/62177/OEBPS/Images/1/c1dde3d63130c9b8d296d88b9c0022fb.jpg"
+            },
+            {
+                "page": "drm/7/62177/OEBPS/Images/1/74631b6c4a4240794aca2c454f9a1275.jpg"
+            },
+            {
+                "page": "drm/7/62177/OEBPS/Images/1/dc34508b7449459f9cba172bfa9fd8a0.jpg"
+            },
+            {
+                "page": "drm/7/62177/OEBPS/Images/1/1d1abf8850a11188a4a76cbed511435a.jpg"
+            },
+            {
+                "page": "drm/7/62177/OEBPS/Images/1/56ad3d9399c79ed738e5af9e25e7183d.jpg"
+            },
+            {
+                "page": "drm/7/62177/OEBPS/Images/1/49e1726870cf75fe64cc20146a2838ee.jpg"
+            },
+            {
+                "page": "drm/7/62177/OEBPS/Images/1/7669e0bdc05b9daebfafcaa489f1378f.jpg"
+            },
+            {
+                "page": "drm/7/62177/OEBPS/Images/1/e056d5741e463cd972a6683e9159e5d6.jpg"
+            },
+            {
+                "page": "drm/7/62177/OEBPS/Images/1/8e5d92c93a324a77892e6debb94260ad.jpg"
+            },
+            {
+                "page": "drm/7/62177/OEBPS/Images/1/5969a6f32a29b7cd8189729123c5ca59.jpg"
+            },
+            {
+                "page": "drm/7/62177/OEBPS/Images/1/e69cadc87c53a9b0942d929c6811b53f.jpg"
+            },
+            {
+                "page": "drm/7/62177/OEBPS/Images/1/6cf03efca421d2b28638288242fc35d8.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/62177/OEBPS/Images/1/b1b1c0715c15ae83cc647a2d6069f64f.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "62177",
+        "id": "62177",
+        "title": "Animal Detectives",
+        "author": "Wiley Blevins",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Discover how dogs, pigs, and even bees are used to sniff out danger.",
+        "coverColorR": 137,
+        "coverColorG": 100,
+        "coverColorB": 114,
+        "version": 2147483647,
+        "previewPercent": 20,
+        "publisher": "Red Chair Press",
+        "publisherId": "6",
+        "age": 6,
+        "pageNumOffset": 1,
+        "active": 1,
+        "audio": 0,
+        "lexile": "560L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 806,
+        "ar": "3.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 81,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Living Things",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "77d6cbeb62e6e8a6a78b",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555720735
+    },
+    "userBook": {
+        "modelId": "46250489-62177",
+        "userId": "46250489",
+        "bookId": "62177",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559303807,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559303807,
+        "book": {
+            "modelId": "62177",
+            "title": "Animal Detectives",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "77d6cbeb62e6e8a6a78b"
+        }
+    },
+    "quiz": null
+}

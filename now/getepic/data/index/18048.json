@@ -1,0 +1,435 @@
+{
+    "publisherData": {
+        "modelId": "109",
+        "name": "JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/18048/OEBPS/Images/1/55abd303113812de164783a87a550875.jpg"
+            },
+            {
+                "page": "drm/8/18048/OEBPS/Images/1/454de4530f12c4275ded2a1e7a0d8ebb.jpg",
+                "audio": "drm/8/18048/OEBPS/Audio/1/10b284e311e340cb5a84682ac07bc121.mp3"
+            },
+            {
+                "page": "drm/8/18048/OEBPS/Images/1/9618ea98320e3be5a447aa7b7a829d39.jpg",
+                "audio": "drm/8/18048/OEBPS/Audio/1/a7a381cf511bdae2119a378396366e9f.mp3"
+            },
+            {
+                "page": "drm/8/18048/OEBPS/Images/1/d59fb01910e9c4da0d3cb3c7030a25a6.jpg",
+                "audio": "drm/8/18048/OEBPS/Audio/1/18588e6d10a97c86d6302a9097aa92b3.mp3"
+            },
+            {
+                "page": "drm/8/18048/OEBPS/Images/1/af6320519a28dcdf0252aecb2c76c5ad.jpg"
+            },
+            {
+                "page": "drm/8/18048/OEBPS/Images/1/c3a1b575a950441cebb4734744a7a156.jpg",
+                "audio": "drm/8/18048/OEBPS/Audio/1/8e3557de0cd45d3d14538cf4b96b3f16.mp3"
+            },
+            {
+                "page": "drm/8/18048/OEBPS/Images/1/fbe590d24286457a7e86d9755f9767ca.jpg"
+            },
+            {
+                "page": "drm/8/18048/OEBPS/Images/1/e4df07e33e66bf5293bd57adb3d8f248.jpg",
+                "audio": "drm/8/18048/OEBPS/Audio/1/97bc5689c4e49dafe287c05068a8bb82.mp3"
+            },
+            {
+                "page": "drm/8/18048/OEBPS/Images/1/d185bcc97445a8e24c39481cb2c50e23.jpg",
+                "audio": "drm/8/18048/OEBPS/Audio/1/2eeaa02490e9a0111561380f9f9ca73b.mp3"
+            },
+            {
+                "page": "drm/8/18048/OEBPS/Images/1/8c45855b2eef766a8bf9b56e975b92b7.jpg",
+                "audio": "drm/8/18048/OEBPS/Audio/1/447327ed8ac25e4ebd49083fce80a418.mp3"
+            },
+            {
+                "page": "drm/8/18048/OEBPS/Images/1/0fbda33822bac96a7af053e541bc6859.jpg"
+            },
+            {
+                "page": "drm/8/18048/OEBPS/Images/1/737d22bce94c1ce3ec48bd8391e3f2ff.jpg",
+                "audio": "drm/8/18048/OEBPS/Audio/1/d4cb53cdf7a260076d4f533748b107ed.mp3"
+            },
+            {
+                "page": "drm/8/18048/OEBPS/Images/1/eb04c41e1b4e8ca156814df69c0f75ae.jpg"
+            },
+            {
+                "page": "drm/8/18048/OEBPS/Images/1/593430be1349784a20ba5092fc39be7e.jpg",
+                "audio": "drm/8/18048/OEBPS/Audio/1/8c47678a29df18a1abff7d05fef5ee04.mp3"
+            },
+            {
+                "page": "drm/8/18048/OEBPS/Images/1/aa151df92411f7e2a6bff1324a867b10.jpg"
+            },
+            {
+                "page": "drm/8/18048/OEBPS/Images/1/b413e294a967d34f34fdbfbf9e704878.jpg",
+                "audio": "drm/8/18048/OEBPS/Audio/1/7e545ff3ed6c7c44c67bc77b2c111dfc.mp3"
+            },
+            {
+                "page": "drm/8/18048/OEBPS/Images/1/9e9452e4e09d7806c063dbe940719f4c.jpg",
+                "audio": "drm/8/18048/OEBPS/Audio/1/4165198f820a0a3a81e85898b6e328c4.mp3"
+            },
+            {
+                "page": "drm/8/18048/OEBPS/Images/1/51b1b49d5743ef064b62c08c737416f5.jpg",
+                "audio": "drm/8/18048/OEBPS/Audio/1/ac3ea5739e8e2f13d6bd1205b7c6cf0a.mp3"
+            },
+            {
+                "page": "drm/8/18048/OEBPS/Images/1/5335d710477e9ea2ed0584ff587bdfef.jpg"
+            },
+            {
+                "page": "drm/8/18048/OEBPS/Images/1/d3de1fe32eb247b5a0db0bc102d9692b.jpg",
+                "audio": "drm/8/18048/OEBPS/Audio/1/852afd9319d919939f381cabbe05fd7c.mp3"
+            },
+            {
+                "page": "drm/8/18048/OEBPS/Images/1/a12f383fcbd1e7750ee800c276bfe2cd.jpg"
+            },
+            {
+                "page": "drm/8/18048/OEBPS/Images/1/c2f99df496121936b853b517ecbbde08.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/18048/OEBPS/Images/1/0155fe88469efd656fa343487369579e.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18048",
+        "id": "18048",
+        "title": "Holidays: Easter",
+        "author": "Rebecca Pettiford",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "In Easter, early readers will learn about the Christian holiday of Easter and the ways people celebrate it.",
+        "coverColorR": 196,
+        "coverColorG": 188,
+        "coverColorB": 166,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "JUMP",
+        "publisherId": "109",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "280L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 733,
+        "ar": "0.9",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Holiday",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "5875ec555a80fb72e82e",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372850
+    },
+    "userBook": {
+        "modelId": "46250489-18048",
+        "userId": "46250489",
+        "bookId": "18048",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310185,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310185,
+        "book": {
+            "modelId": "18048",
+            "title": "Holidays: Easter",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "5875ec555a80fb72e82e"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "56732",
+            "user_id": "8993669",
+            "book_id": "18048",
+            "title": "Easter",
+            "description": "",
+            "date_created": 1488202811,
+            "date_modified": 1499715976,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What season is Easter in?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Spring ",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Winter",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Summer",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Fall",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "Where do Christian go on Easter?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Church",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "The movies ",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "The park",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "School",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What is an egg a symbol of?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "New life",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Breakfast",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Chickens",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Farms",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "How are eggs colored?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Dye",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Paint",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Glitter",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Markers",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                }
+            ],
+            "modelId": "56732",
+            "creatorName": "Ms. Mackey",
+            "avatarId": "21",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "8993669",
+                "udid": "57a0e51f87eb74.00749641",
+                "journalName": "Ms. Mackey",
+                "journalCoverAvatar": "21",
+                "journalCoverColor": "0.12549019607843 0.92941176470588 0.96078431372549 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "496461986",
+                "fid": "",
+                "accountID": "F78EE303-D933-C85F-E09A-4A9B4E811C74",
+                "simpleAccountId": "3333213",
+                "pagesFlipped": 8311,
+                "nufComplete": 1,
+                "readingAge": 5.76667,
+                "startingAge": 6,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 33,
+                "xpLevel": 4,
+                "dateLastLogin": 1550778170,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Emma",
+                "lastName": "Mackey",
+                "accountType": 1,
+                "dateModified": 1556816558,
+                "educatorPrefix": "Ms.",
+                "name": "Ms. Mackey"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What season is Easter in?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Spring ",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Winter",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Summer",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Fall",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "Where do Christian go on Easter?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Church",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "The movies ",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "The park",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "School",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What is an egg a symbol of?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "New life",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Breakfast",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Chickens",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Farms",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "How are eggs colored?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Dye",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Paint",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Glitter",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Markers",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            }
+        ]
+    }
+}

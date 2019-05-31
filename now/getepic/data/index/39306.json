@@ -1,0 +1,155 @@
+{
+    "publisherData": {
+        "modelId": "90232",
+        "name": "The Creative Company",
+        "url": "http://www.thecreativecompany.us/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260095
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/6/39306/OEBPS/Images/1/7F652896-D4C4-4D21-A156-FB5863A7DD75.jpg"
+            },
+            {
+                "page": "drm/6/39306/OEBPS/Images/1/10AEEA33-643F-490D-8E08-629A0923D4F8.jpg"
+            },
+            {
+                "page": "drm/6/39306/OEBPS/Images/1/9CA3873B-9EB0-4FC1-B317-341DF3E9941D.jpg"
+            },
+            {
+                "page": "drm/6/39306/OEBPS/Images/1/425C0714-32ED-4331-AD4F-1D603505999C.jpg"
+            },
+            {
+                "page": "drm/6/39306/OEBPS/Images/1/7A5D34B5-D1A2-4BCF-BBF8-D6F402934984.jpg"
+            },
+            {
+                "page": "drm/6/39306/OEBPS/Images/1/C4228B01-8792-4DA6-AF69-3FEF6278A749.jpg"
+            },
+            {
+                "page": "drm/6/39306/OEBPS/Images/1/5F8E6E6E-9F10-4C7F-93D3-9071E8FAC267.jpg"
+            },
+            {
+                "page": "drm/6/39306/OEBPS/Images/1/92903D5F-7C86-44E5-822C-C3F3BF4DF921.jpg"
+            },
+            {
+                "page": "drm/6/39306/OEBPS/Images/1/06508D30-2432-4E9C-99F4-52387BAE9C29.jpg"
+            },
+            {
+                "page": "drm/6/39306/OEBPS/Images/1/60C26D82-D77D-4405-A33D-CD7ADBCC7144.jpg"
+            },
+            {
+                "page": "drm/6/39306/OEBPS/Images/1/87865FEC-D0C4-4D10-A725-61D64ED8E457.jpg"
+            },
+            {
+                "page": "drm/6/39306/OEBPS/Images/1/27FC356D-F1BA-47DD-80CA-4E9E68F65B66.jpg"
+            },
+            {
+                "page": "drm/6/39306/OEBPS/Images/1/04A5201A-CE0B-41E1-A269-145B7D9B7360.jpg"
+            },
+            {
+                "page": "drm/6/39306/OEBPS/Images/1/CAB0DFC0-5D64-4D1F-BDD3-2A7BC4DD063F.jpg"
+            },
+            {
+                "page": "drm/6/39306/OEBPS/Images/1/CDF32468-E212-4356-8CEE-109305BA0672.jpg"
+            },
+            {
+                "page": "drm/6/39306/OEBPS/Images/1/C1219943-AB05-4619-B57C-24CE54C1C8EE.jpg"
+            },
+            {
+                "page": "drm/6/39306/OEBPS/Images/1/29C9672B-1028-44F6-81B7-B9590C024B57.jpg"
+            },
+            {
+                "page": "drm/6/39306/OEBPS/Images/1/937E6DEB-300C-44BC-A4E5-0D09BD090ACE.jpg"
+            },
+            {
+                "page": "drm/6/39306/OEBPS/Images/1/823AD662-AF79-43C3-BB21-B2CF0545F513.jpg"
+            },
+            {
+                "page": "drm/6/39306/OEBPS/Images/1/7F05C897-0E96-4926-B59B-F7A1DEC29CCC.jpg"
+            },
+            {
+                "page": "drm/6/39306/OEBPS/Images/1/2C300D96-CE43-4DF5-92ED-8CED2D4FD899.jpg"
+            },
+            {
+                "page": "drm/6/39306/OEBPS/Images/1/AD4113C5-85E0-4AF6-A848-0B363D51C1AB.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/6/39306/OEBPS/Images/1/6B091222-4122-455F-BA94-60D56DD6CC60.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "39306",
+        "id": "39306",
+        "title": "Mil Mi-26",
+        "author": "Quinn M. Arnold",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "A high-interest introduction to the size, speed, and purpose of the world's largest helicopter.",
+        "coverColorR": 212,
+        "coverColorG": 182,
+        "coverColorB": 171,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "The Creative Company",
+        "publisherId": "90232",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "630L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 403,
+        "ar": "3.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Things That GO",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 0.9843,
+        "contentHash": "85ad066aeee68e1bb78a",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1555373685
+    },
+    "userBook": {
+        "modelId": "46250489-39306",
+        "userId": "46250489",
+        "bookId": "39306",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311894,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311894,
+        "book": {
+            "modelId": "39306",
+            "title": "Mil Mi-26",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "85ad066aeee68e1bb78a"
+        }
+    },
+    "quiz": null
+}

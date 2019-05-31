@@ -1,0 +1,140 @@
+{
+    "publisherData": {
+        "modelId": "90123",
+        "name": "Red Rocket Readers provided by Flying Start Books",
+        "url": "http://flyingstartbooks.com/red-rocket/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1549321001
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/28967/OEBPS/Images/1/CE73D86D-51D8-4B7F-B732-AC76E441D2C6.jpg"
+            },
+            {
+                "page": "drm/7/28967/OEBPS/Images/1/0240D141-0AE5-4811-8D54-2CFCF9DBB4DC.jpg"
+            },
+            {
+                "page": "drm/7/28967/OEBPS/Images/1/5D1071CF-26C8-4E04-A229-0E557B36292A.jpg"
+            },
+            {
+                "page": "drm/7/28967/OEBPS/Images/1/75CD130B-DAE0-48B3-9916-5579EA6A4D32.jpg"
+            },
+            {
+                "page": "drm/7/28967/OEBPS/Images/1/026C2BE9-766F-4C78-B97B-018E90330345.jpg"
+            },
+            {
+                "page": "drm/7/28967/OEBPS/Images/1/5B121715-2864-4CD2-B80D-73B0B7A20A60.jpg"
+            },
+            {
+                "page": "drm/7/28967/OEBPS/Images/1/7295FF40-5CE3-45A5-BDAA-6A225A0BDAC4.jpg"
+            },
+            {
+                "page": "drm/7/28967/OEBPS/Images/1/CC7AB13B-72AE-435D-BBD2-9A2728324D8C.jpg"
+            },
+            {
+                "page": "drm/7/28967/OEBPS/Images/1/F608AAE3-0FAA-4F92-BFB9-3B6D625F2C89.jpg"
+            },
+            {
+                "page": "drm/7/28967/OEBPS/Images/1/6A2E74E0-77C0-400F-A821-6CD9274B8C0D.jpg"
+            },
+            {
+                "page": "drm/7/28967/OEBPS/Images/1/E45A7778-4550-4466-BED2-175C4C22FE02.jpg"
+            },
+            {
+                "page": "drm/7/28967/OEBPS/Images/1/715BEB9D-32B0-45A6-B029-9A467DD9187A.jpg"
+            },
+            {
+                "page": "drm/7/28967/OEBPS/Images/1/DED707CE-07F8-4159-91D0-BF9833819570.jpg"
+            },
+            {
+                "page": "drm/7/28967/OEBPS/Images/1/448FCAA9-1C5B-4FE6-BFF1-02B9234C0342.jpg"
+            },
+            {
+                "page": "drm/7/28967/OEBPS/Images/1/4E8E9775-6FBA-4004-BB64-31979AA064FB.jpg"
+            },
+            {
+                "page": "drm/7/28967/OEBPS/Images/1/B98D87DC-A2E7-4F37-BF24-BB41E272AB00.jpg"
+            },
+            {
+                "page": "drm/7/28967/OEBPS/Images/1/17EE573F-49CB-4946-9FB1-E3FD1C7212CE.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/28967/OEBPS/Images/1/9153B847-B400-45BE-9E80-3AF94CB2C2E8.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "28967",
+        "id": "28967",
+        "title": "Push or Pull",
+        "author": "Pam Holden",
+        "illustrator": " ",
+        "numPages": 17,
+        "bookDescription": "Some things need a push to make them move. Some other things move when they are pulled. Which things can be moved by pushing them?",
+        "coverColorR": 54,
+        "coverColorG": 122,
+        "coverColorB": 163,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Red Rocket Readers provided by Flying Start Books",
+        "publisherId": "90123",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "360L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 566,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Things That GO",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 0.7426,
+        "contentHash": "a1cdea9451a8198f16a7",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1555373155
+    },
+    "userBook": {
+        "modelId": "46250489-28967",
+        "userId": "46250489",
+        "bookId": "28967",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311837,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311837,
+        "book": {
+            "modelId": "28967",
+            "title": "Push or Pull",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "a1cdea9451a8198f16a7"
+        }
+    },
+    "quiz": null
+}

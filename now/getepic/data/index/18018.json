@@ -1,0 +1,697 @@
+{
+    "publisherData": {
+        "modelId": "109",
+        "name": "JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/18018/OEBPS/Images/1/f28001b6270aa9e1afdb8d1dc7ee9f37.jpg"
+            },
+            {
+                "page": "drm/8/18018/OEBPS/Images/1/4dad833b081c0af0ce47eaeb05ad675c.jpg",
+                "audio": "drm/8/18018/OEBPS/Audio/1/fa233817676997b092bcf6ce579c9cd0.mp3"
+            },
+            {
+                "page": "drm/8/18018/OEBPS/Images/1/75ebbb0dfc40a57f88ab71e92c36f5cb.jpg",
+                "audio": "drm/8/18018/OEBPS/Audio/1/67a81adb2d936a4320e3b5cd9918c34e.mp3"
+            },
+            {
+                "page": "drm/8/18018/OEBPS/Images/1/da2d2bc1aa2b0728d80df5d3390a8c4e.jpg",
+                "audio": "drm/8/18018/OEBPS/Audio/1/550fc3004140fc23a43973f321108365.mp3"
+            },
+            {
+                "page": "drm/8/18018/OEBPS/Images/1/86258cdd785295005429e4c168c531f4.jpg"
+            },
+            {
+                "page": "drm/8/18018/OEBPS/Images/1/a4750a7fc7e601d1902ba11c9675b275.jpg",
+                "audio": "drm/8/18018/OEBPS/Audio/1/aa362766154e1acaded6692c89568c7c.mp3"
+            },
+            {
+                "page": "drm/8/18018/OEBPS/Images/1/19ad38432be0337cde1e5448912e46f9.jpg",
+                "audio": "drm/8/18018/OEBPS/Audio/1/3f80e17ed981160ab4dde49a1cc6ac43.mp3"
+            },
+            {
+                "page": "drm/8/18018/OEBPS/Images/1/5c3a6bba5cce58321892f3abcd63f164.jpg",
+                "audio": "drm/8/18018/OEBPS/Audio/1/d9466db1a393d9fd2b271557b3ee7b39.mp3"
+            },
+            {
+                "page": "drm/8/18018/OEBPS/Images/1/3e2865eb59c147291c573d699ae12ea6.jpg"
+            },
+            {
+                "page": "drm/8/18018/OEBPS/Images/1/b5e269c2aad0a53913c7d03516734930.jpg",
+                "audio": "drm/8/18018/OEBPS/Audio/1/e386225fcb66d8e9e055ee89fad3d6b5.mp3"
+            },
+            {
+                "page": "drm/8/18018/OEBPS/Images/1/cb2dbd6c09c0f1563f32967055f62e9c.jpg",
+                "audio": "drm/8/18018/OEBPS/Audio/1/8aee1f726a6d42d556eab38d212c18b0.mp3"
+            },
+            {
+                "page": "drm/8/18018/OEBPS/Images/1/724ade17cf13621d64d1b88c942c8bf9.jpg",
+                "audio": "drm/8/18018/OEBPS/Audio/1/e2c4dce2d739a9bcf421048d8c0f7b36.mp3"
+            },
+            {
+                "page": "drm/8/18018/OEBPS/Images/1/4f5ba4efe917d156fc5833ebfc65db25.jpg"
+            },
+            {
+                "page": "drm/8/18018/OEBPS/Images/1/f58aadf7a81448a540aa35e9041e9674.jpg",
+                "audio": "drm/8/18018/OEBPS/Audio/1/547a9ff2aaad2b8b90ebe37366a3b15c.mp3"
+            },
+            {
+                "page": "drm/8/18018/OEBPS/Images/1/475a63510bf358a47f3da5587540f40b.jpg"
+            },
+            {
+                "page": "drm/8/18018/OEBPS/Images/1/c9c7d2a0090d602f387220ee422c08bf.jpg",
+                "audio": "drm/8/18018/OEBPS/Audio/1/31e488c3a32d5234584b4f08263bfb4c.mp3"
+            },
+            {
+                "page": "drm/8/18018/OEBPS/Images/1/7d3f286ce32c21942833c8e41e5ec59a.jpg"
+            },
+            {
+                "page": "drm/8/18018/OEBPS/Images/1/b0ed03d6e68fccf1e23223a180c71be8.jpg",
+                "audio": "drm/8/18018/OEBPS/Audio/1/0129e8ea1056aece94432d55e390baf2.mp3"
+            },
+            {
+                "page": "drm/8/18018/OEBPS/Images/1/40d1d317550d6f83381d89935e16ae95.jpg"
+            },
+            {
+                "page": "drm/8/18018/OEBPS/Images/1/7fecd155123b78388b56aaea9bff994d.jpg"
+            },
+            {
+                "page": "drm/8/18018/OEBPS/Images/1/dcae21c8ad83b05f8d4d236c6c1e4023.jpg",
+                "audio": "drm/8/18018/OEBPS/Audio/1/694a6e99f2fae88d2c5f4098adee1f3e.mp3"
+            },
+            {
+                "page": "drm/8/18018/OEBPS/Images/1/04fd1ea988cac7b15782c030b316d332.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/18018/OEBPS/Images/1/249271566d89c662992ad91b4890f06f.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18018",
+        "id": "18018",
+        "title": "My First Pet: Hamsters",
+        "author": "Cari Meister",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "In Hamsters, early readers will learn how to care for a pet hamster and find out about some of their behaviors.",
+        "coverColorR": 209,
+        "coverColorG": 197,
+        "coverColorB": 168,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "JUMP",
+        "publisherId": "109",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "250L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 733,
+        "ar": "0.9",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pets",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "eaa341165c06afb36ea5",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372849
+    },
+    "userBook": {
+        "modelId": "46250489-18018",
+        "userId": "46250489",
+        "bookId": "18018",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311514,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311514,
+        "book": {
+            "modelId": "18018",
+            "title": "My First Pet: Hamsters",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "eaa341165c06afb36ea5"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "95635",
+            "user_id": "2588613",
+            "book_id": "18018",
+            "title": "Test",
+            "description": "",
+            "date_created": 1495045580,
+            "date_modified": 1510939167,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "True or false - Hamsters need to be cleaned by their owners",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "False",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "True",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "When we go to sleep, why are hamsters so active?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Because they are nocturnal.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Because they like bed times.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Because they ate too much.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "None of the above.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Do we have to feed hamsters? Why or why not?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "We need to feed hamsters because they are incapable of feeding themselves.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "We dont need to feed hamsters because they make their own food.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "We need to feed hamsters, though they can make their own food.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "We don need to feed hamsters because they don get hungry/",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Do we have to give hamsters water?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Yes",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "No",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Sometimes",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "True or false - We need to clean the hamster's cage",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "True",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "False",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "What is the definition of HAMSTER FOOD?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "A mix of pellets and seeds that you can buy at pet stores.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Food that we eat.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "None of the above",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "A mix of chicken, bones, and beef.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 5
+                },
+                {
+                    "title": "Which of these are supplies that you NEED for your hamster?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Hamster wheel",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Back scratcher",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Dirt",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "None of the above",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 6
+                },
+                {
+                    "title": "What is the definition of NOCTURNAL?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Awake at night and sleeping during the day.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Always awake.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Always sleeping.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Playful.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 7
+                },
+                {
+                    "title": "What is the definition of HAMSTER BALL?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "A clear ball with air holes for a hamster to stay inside and run.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "A ball that traps hamsters inside so they roll forever.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "A plastic wheel where hamsters run is place.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "A place where hamsters are kept so they don run away.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 8
+                },
+                {
+                    "title": "BONUS!!! How often should you clean a hamster's cage?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Once a week",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Twice a day",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Once a day",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Never",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 9
+                }
+            ],
+            "modelId": "95635",
+            "creatorName": "Mrs Austin",
+            "avatarId": "21",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "2588613",
+                "udid": "563f93814699a9.12190811",
+                "journalName": "Mrs Austin",
+                "journalCoverAvatar": "21",
+                "journalCoverColor": "0.11764705882353 0.91764705882353 0.64313725490196 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "345816185",
+                "fid": "",
+                "accountID": "12BFBD88-FDE3-622F-2875-116E85CC4A2B",
+                "simpleAccountId": "1104357",
+                "pagesFlipped": 92628,
+                "nufComplete": 1,
+                "readingAge": 8.5,
+                "startingAge": 9,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 5360,
+                "xpLevel": 27,
+                "dateLastLogin": 1543853286,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Ashley",
+                "lastName": "Austin",
+                "accountType": 1,
+                "dateModified": 1559244036,
+                "educatorPrefix": "Mrs",
+                "name": "Mrs Austin"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "True or false - Hamsters need to be cleaned by their owners",
+                "quizQuestionChoices": [
+                    {
+                        "title": "False",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "True",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "When we go to sleep, why are hamsters so active?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Because they are nocturnal.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Because they like bed times.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Because they ate too much.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "None of the above.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Do we have to feed hamsters? Why or why not?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "We need to feed hamsters because they are incapable of feeding themselves.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "We dont need to feed hamsters because they make their own food.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "We need to feed hamsters, though they can make their own food.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "We don need to feed hamsters because they don get hungry/",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Do we have to give hamsters water?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Yes",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "No",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Sometimes",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "True or false - We need to clean the hamster's cage",
+                "quizQuestionChoices": [
+                    {
+                        "title": "True",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "False",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "What is the definition of HAMSTER FOOD?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "A mix of pellets and seeds that you can buy at pet stores.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Food that we eat.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "None of the above",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "A mix of chicken, bones, and beef.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 5
+            },
+            {
+                "title": "Which of these are supplies that you NEED for your hamster?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Hamster wheel",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Back scratcher",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Dirt",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "None of the above",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 6
+            },
+            {
+                "title": "What is the definition of NOCTURNAL?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Awake at night and sleeping during the day.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Always awake.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Always sleeping.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Playful.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 7
+            },
+            {
+                "title": "What is the definition of HAMSTER BALL?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "A clear ball with air holes for a hamster to stay inside and run.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "A ball that traps hamsters inside so they roll forever.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "A plastic wheel where hamsters run is place.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "A place where hamsters are kept so they don run away.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 8
+            },
+            {
+                "title": "BONUS!!! How often should you clean a hamster's cage?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Once a week",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Twice a day",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Once a day",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Never",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 9
+            }
+        ]
+    }
+}

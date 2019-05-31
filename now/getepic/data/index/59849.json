@@ -1,0 +1,188 @@
+{
+    "publisherData": {
+        "modelId": "90236",
+        "name": "Abrams",
+        "url": "http://www.abramsbooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491009966
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/8236ebce251331e509ff29ad87242c6f.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/1e8518f0ebab7b3164b506ea747907aa.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/c07629cc003dabf385ad728d79f0e0aa.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/d192a53c1ade0de63d0141233daad11e.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/d15aee1e332638e2edb2acd587910683.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/fe877f39053c201f2b7cba0cde057d02.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/7171327b6f1d88537286f8ab61196f43.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/2dc03463f074927821df497d2202ebf5.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/a5c5955d3c79c7f56e9085c7404fa4a8.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/0ccdb3712dcfe0f07ad191c1b36558ec.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/837e4ac0c4e8c9005321fa555c60fc5b.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/bdb15d391149c9c78c1ddd70b3ab5d21.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/91de4ecb8866b2f4c162d0b37cc1e82d.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/ec91ab9650b049c85f27b7b87ff40d1c.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/0ae09603edc4c427878b56b0265f4f85.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/68193380d3ed422b6688f5a7ccf41904.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/3207f2e41b968aa8cde1f4bad87e136c.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/3ae85c9d2345d5604a64f13dc9dc6269.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/21cab4102a643c2b58f05ca9f1a92fa9.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/cbe3303605eca310e95ae1e3af4da216.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/daacf0bf15cd9aa15fc44408b54dbdd7.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/8f802d2bf5114fc6b21bb6f05af80ee5.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/26075a7e318f937ad6086cd66e29957a.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/c16cfe0d936aa897e5401c68af51b441.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/d5abe062cdd3448903eb8c536586c33d.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/2f86ce18baa5b6f58093b3b683307e50.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/f811a116d9b861493cfde706718b1f39.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/936622b74a4804db7e757d64b343a1e6.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/bf9c4949456cf8b0961696e77317eef9.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/302274e7b661cf447e88f4c309434b7f.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/8353bd1e1c68c1223cbca813a5e0456b.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/187193a342ae53e066558bc511d7d0a0.jpg"
+            },
+            {
+                "page": "drm/9/59849/OEBPS/Images/1/e9c6a889186cc66973f1c45de62a9cbf.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/59849/OEBPS/Images/1/b0577e926e36ced9fd0f633b65f6890a.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "59849",
+        "id": "59849",
+        "title": "The Grumpy Pets",
+        "author": "Kristine A Lombardi",
+        "illustrator": " ",
+        "numPages": 33,
+        "bookDescription": "Billy\u2019s a bit grumpy.  In hopes of cheering him up, his mom takes him to the animal rescue. He catches the eye of a grumpy pup.",
+        "coverColorR": 217,
+        "coverColorG": 218,
+        "coverColorB": 215,
+        "version": 221118101,
+        "previewPercent": 20,
+        "publisher": "Abrams",
+        "publisherId": "90236",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 605,
+        "ar": "1.4",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pets",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.2353,
+        "contentHash": "bca3a581b2f6b7044750",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1549907179
+    },
+    "userBook": {
+        "modelId": "46250489-59849",
+        "userId": "46250489",
+        "bookId": "59849",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559303768,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559303768,
+        "book": {
+            "modelId": "59849",
+            "title": "The Grumpy Pets",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "bca3a581b2f6b7044750"
+        }
+    },
+    "quiz": null
+}

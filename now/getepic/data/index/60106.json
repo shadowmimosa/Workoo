@@ -1,0 +1,132 @@
+{
+    "publisherData": {
+        "modelId": "2",
+        "name": "Twin Sisters IP, LLC.",
+        "url": "http://www.twinsisters.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1547683900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/6/60106/OEBPS/Images/1/5aaf62b637d5faf42474e61af01acc91.jpg",
+                "audio": "drm/6/60106/OEBPS/Audio/1/9781640339088_1.mp3"
+            },
+            {
+                "page": "drm/6/60106/OEBPS/Images/1/b42e87c2f535f3d9f98842684fb505ab.jpg",
+                "audio": "drm/6/60106/OEBPS/Audio/1/9781640339088_2.mp3"
+            },
+            {
+                "page": "drm/6/60106/OEBPS/Images/1/400d13a96e945e8490209c439d6619ee.jpg",
+                "audio": "drm/6/60106/OEBPS/Audio/1/9781640339088_3.mp3"
+            },
+            {
+                "page": "drm/6/60106/OEBPS/Images/1/1fc1c91c9f75c89c523c6d5658366fb3.jpg",
+                "audio": "drm/6/60106/OEBPS/Audio/1/9781640339088_4.mp3"
+            },
+            {
+                "page": "drm/6/60106/OEBPS/Images/1/162e0d02d79a9e9ca5e8d263ef35d158.jpg",
+                "audio": "drm/6/60106/OEBPS/Audio/1/9781640339088_5.mp3"
+            },
+            {
+                "page": "drm/6/60106/OEBPS/Images/1/744af6891328c091ce5695d13a9da1f5.jpg"
+            },
+            {
+                "page": "drm/6/60106/OEBPS/Images/1/9262ad6c77b877e17a2a16758ec5fcef.jpg",
+                "audio": "drm/6/60106/OEBPS/Audio/1/9781640339088_6.mp3"
+            },
+            {
+                "page": "drm/6/60106/OEBPS/Images/1/857a4cfc0bf64f4ea99a068e05ee0d91.jpg",
+                "audio": "drm/6/60106/OEBPS/Audio/1/9781640339088_7.mp3"
+            },
+            {
+                "page": "drm/6/60106/OEBPS/Images/1/aecea38ae5c39be6f5f18e74343e10c5.jpg",
+                "audio": "drm/6/60106/OEBPS/Audio/1/9781640339088_8.mp3"
+            },
+            {
+                "page": "drm/6/60106/OEBPS/Images/1/b3f6716620ca312d1cd4ae12b2ecb4dc.jpg",
+                "audio": "drm/6/60106/OEBPS/Audio/1/9781640339088_9.mp3"
+            },
+            {
+                "page": "drm/6/60106/OEBPS/Images/1/d2386fa50a73cb5aa0ae1460d6e31a17.jpg",
+                "audio": "drm/6/60106/OEBPS/Audio/1/9781640339088_10.mp3"
+            }
+        ],
+        "extra": {
+            "color": "#fffefe",
+            "copyright": ""
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "60106",
+        "id": "60106",
+        "title": "The Wheels On The Bus",
+        "author": "Karen Mitzo Hilderbrand, Kim Thompson",
+        "illustrator": "Ivy Dad",
+        "numPages": 11,
+        "bookDescription": "Kids will love to listen and sing-along with this classic children\u2019s song \u201cThe Wheels On The Bus!\u201d",
+        "coverColorR": 154,
+        "coverColorG": 166,
+        "coverColorB": 146,
+        "version": 29737376,
+        "previewPercent": 20,
+        "publisher": "Twin Sisters IP, LLC.",
+        "publisherId": "2",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 183,
+        "ar": "0.5",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "School",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 0.7742,
+        "contentHash": "dde9661eb57b5f48e3bb",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374904
+    },
+    "userBook": {
+        "modelId": "46250489-60106",
+        "userId": "46250489",
+        "bookId": "60106",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310257,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310257,
+        "book": {
+            "modelId": "60106",
+            "title": "The Wheels On The Bus",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "dde9661eb57b5f48e3bb"
+        }
+    },
+    "quiz": null
+}

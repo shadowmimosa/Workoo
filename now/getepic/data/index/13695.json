@@ -1,0 +1,976 @@
+{
+    "publisherData": {
+        "modelId": "32",
+        "name": "Pippin Properties, Inc",
+        "url": "http://www.pippinproperties.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491261530
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/db94fe3e4f9f69ab634bcbb127de1245.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/7f543e7b2e4ccbd6c1c1bcac445eeaf1.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/5ec70830f64a708076433a5e483d1282.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/fb6d760b07325b72beeccb252d4c11b4.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/505d1e439280d37658b1991764f0e14c.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/1a05c2a2c4109545953f7440a76d4602.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/ae4ee351e6ab83c321a9421259d578e9.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/98f14dadebadb5410612f3c4881c2443.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/8139d6770b13d235b53d8689dcb888a8.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/20da9419dcc5f18fd6c2eeb000d79b00.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/c1c9a011f0a02363955ea7a3613bed74.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/9e8a2dc23dbff69f2aa613b89f846a95.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/a70c7d5ea5e63adbba3df62780edea05.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/cf246ca26e2993085e8a01f1c2f0ce3f.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/25e0b7a51b554b4eb99b95f40ba991c1.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/f8f6959ca996621ce1e45f0e1874b68c.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/6498266dc1f169a58bcb2255bcac8f33.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/976739813006051f0e63584b53dcc593.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/b10edf08557681bfd134c8dc27124d5d.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/45e073020a4463053fc232f3e5eba313.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/a8960676d0d7da6a1e4b1e5420925e49.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/0f7cf2e75da4cf03f604e7382eee29dc.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/7ddaab99f4c5dac9f124584bc08292f1.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/9f6d38e0b0f0dbc16d162160d05db53e.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/b495fa0e6df3992a8d563a1810a04d69.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/abc50940e7045d3b9189e1f478d79cc4.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/7265bc4cbd2e901090af42d4835bcec8.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/c2fb84f7d840fd2971fb59f8962201df.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/889768ebb39425ea8de6510456768bbd.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/c2067b6f6c93d483c72ae149a5673a8a.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/f9dd0d69f2aa0f5e31184240ca2a21c4.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/4161f6ed7c0ee5456aef883f1f48a4fa.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/7e159a91057ea019470540b744477951.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/06318d1359784d06adf0a6f1c9ecab6b.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/9c6d564407e563b951d05b2484782b93.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/69e7968dc3f0ff947e735490fc8e0674.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/c453804fe709545f984375ba90cd40eb.jpg"
+            },
+            {
+                "page": "drm/5/13695/OEBPS/Images/1/5f06c62ae0886a4625ac56d32b0e312a.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/13695/OEBPS/Images/1/a98a70462ab29025bd2a3a506fcce593.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "13695",
+        "id": "13695",
+        "title": "Fluffy's Spring Vacation",
+        "author": "Kate McMullan",
+        "illustrator": " ",
+        "numPages": 38,
+        "bookDescription": "Fluffy the class guinea pig must deal with the unwanted attention of two cats, a visit to the hair salon, and a trip to the airport",
+        "coverColorR": 222,
+        "coverColorG": 179,
+        "coverColorB": 164,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Pippin Properties, Inc",
+        "publisherId": "32",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "400L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 696,
+        "ar": "2.2",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Daily Life",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 0.6667,
+        "contentHash": "28a14f612a7471085feb",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "0",
+        "panelStatus": 0,
+        "date_modified": 1556298449
+    },
+    "userBook": {
+        "modelId": "46250489-13695",
+        "userId": "46250489",
+        "bookId": "13695",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311121,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311121,
+        "book": {
+            "modelId": "13695",
+            "title": "Fluffy's Spring Vacation",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "28a14f612a7471085feb"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "64319",
+            "user_id": "5744368",
+            "book_id": "13695",
+            "title": "Fluffy's Spring Vacation",
+            "description": "",
+            "date_created": 1489081191,
+            "date_modified": 1521831841,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Who volunteered to take Fluffy home for spring vacation?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Emma",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Ms. Day",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Jack",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What pets did Emma have?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "2 cats and a dog",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "a hamster and 2 birds",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "a dog and snake",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "In the story, Jack and Jill told Fluffy \"You'll be sorry!\". What does that mean?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "You are going to regret this.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "You need to apologize for burping.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "You should brush your teeth.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Who protected Fluffy when the cats attacked him?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Skippy",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Scratchy",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Scruffy",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "What does the word brave mean? \"Fluffy was brave when the cats kidnapped him.\"",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "courageous",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "scared",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "sleepy",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "Where did Emma put Fluffy when they went to get a haircut?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "in a shoe box",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "in her purse",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "in a napkin",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 5
+                },
+                {
+                    "title": "Why did Fluffy see lots of guinea pigs at the salon?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "the mirror's reflection",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "it was \"bring your pet to the salon day\"",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "it was a pet salon",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 6
+                },
+                {
+                    "title": "What did Fluffy think was a cave in the salon?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "the washing machine",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "a mouse hole",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "the sink",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 7
+                },
+                {
+                    "title": "What did Fluffy think was a monster in the salon?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "the lady under the hair dryer",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "an alien",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "the shampoo bottle",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 8
+                },
+                {
+                    "title": "What did Fluffy think was a mountain in the salon?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "towels",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "the trash can",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "the broom",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 9
+                },
+                {
+                    "title": "What is an explorer?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "an adventurer",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "a teacher",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "a hairstylist",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 10
+                },
+                {
+                    "title": "What did Fluffy think was a rock in the salon?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "a nightstand",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "a chair",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "a newspaper",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 11
+                },
+                {
+                    "title": "What does it mean to \"take off\"? \"Fluffy took off when Jill got him out of his cage.\"",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "to run away",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "to go into space",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "the hide",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 12
+                },
+                {
+                    "title": "Where did Fluffy hide when the cats were chasing him?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "in the briefcase",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "under the bed",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "in the closet",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 13
+                },
+                {
+                    "title": "How did Emma's mother find Fluffy in the briefcase?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "the x-ray machine showed Fluffy",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Fluffy started to cry",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Her mom dropped the briefcase",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 14
+                },
+                {
+                    "title": "What does \"Beats me\" mean?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "I have no idea.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Someone hit me",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "I want eggs.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 15
+                },
+                {
+                    "title": "How did Fluffy get back to school?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "a taxi",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "a bus",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "an airplane",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 16
+                }
+            ],
+            "modelId": "64319",
+            "creatorName": "Mrs. Nichols",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "5744368",
+                "udid": "56d1bd47167712.96246389",
+                "journalName": "Mrs. Nichols",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.70588235294118 0.94509803921569 0.39607843137255 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "639687435",
+                "fid": "",
+                "accountID": "1735DBDA-8225-20D3-8165-3726C682B66A",
+                "simpleAccountId": "2203194",
+                "pagesFlipped": 20510,
+                "nufComplete": 1,
+                "readingAge": 6.5,
+                "startingAge": 7,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 3087,
+                "xpLevel": 27,
+                "dateLastLogin": 1556555289,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Whitney",
+                "lastName": "Nichols",
+                "accountType": 1,
+                "dateModified": 1556555289,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Nichols"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Who volunteered to take Fluffy home for spring vacation?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Emma",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Ms. Day",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Jack",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What pets did Emma have?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "2 cats and a dog",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "a hamster and 2 birds",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "a dog and snake",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "In the story, Jack and Jill told Fluffy \"You'll be sorry!\". What does that mean?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "You are going to regret this.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "You need to apologize for burping.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "You should brush your teeth.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Who protected Fluffy when the cats attacked him?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Skippy",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Scratchy",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Scruffy",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "What does the word brave mean? \"Fluffy was brave when the cats kidnapped him.\"",
+                "quizQuestionChoices": [
+                    {
+                        "title": "courageous",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "scared",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "sleepy",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "Where did Emma put Fluffy when they went to get a haircut?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "in a shoe box",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "in her purse",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "in a napkin",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 5
+            },
+            {
+                "title": "Why did Fluffy see lots of guinea pigs at the salon?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "the mirror's reflection",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "it was \"bring your pet to the salon day\"",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "it was a pet salon",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 6
+            },
+            {
+                "title": "What did Fluffy think was a cave in the salon?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "the washing machine",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "a mouse hole",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "the sink",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 7
+            },
+            {
+                "title": "What did Fluffy think was a monster in the salon?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "the lady under the hair dryer",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "an alien",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "the shampoo bottle",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 8
+            },
+            {
+                "title": "What did Fluffy think was a mountain in the salon?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "towels",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "the trash can",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "the broom",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 9
+            },
+            {
+                "title": "What is an explorer?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "an adventurer",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "a teacher",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "a hairstylist",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 10
+            },
+            {
+                "title": "What did Fluffy think was a rock in the salon?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "a nightstand",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "a chair",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "a newspaper",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 11
+            },
+            {
+                "title": "What does it mean to \"take off\"? \"Fluffy took off when Jill got him out of his cage.\"",
+                "quizQuestionChoices": [
+                    {
+                        "title": "to run away",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "to go into space",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "the hide",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 12
+            },
+            {
+                "title": "Where did Fluffy hide when the cats were chasing him?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "in the briefcase",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "under the bed",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "in the closet",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 13
+            },
+            {
+                "title": "How did Emma's mother find Fluffy in the briefcase?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "the x-ray machine showed Fluffy",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Fluffy started to cry",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Her mom dropped the briefcase",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 14
+            },
+            {
+                "title": "What does \"Beats me\" mean?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "I have no idea.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Someone hit me",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "I want eggs.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 15
+            },
+            {
+                "title": "How did Fluffy get back to school?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "a taxi",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "a bus",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "an airplane",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 16
+            }
+        ]
+    }
+}

@@ -1,0 +1,182 @@
+{
+    "publisherData": {
+        "modelId": "90401",
+        "name": "Pajama Press",
+        "url": "https://pajamapress.ca/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1551294450
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/cfbab613c7411ab7ada3d04c80c4c7d2.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/b978215e955bfa8baa0eb52c006517da.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/e0d765c4df479d7ca514bc177759efb4.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/4ad30b1bf278e19fbcece9723f8419c1.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/dfc42b8b2006f549d8df17ac3c5fb5b4.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/1df017e60ef88c4063d8ed2ffcbc1b07.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/e83888c9314feeaff2941ef407829079.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/88579feb43683e0da209436311d34333.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/345dca223ecf0eafbfd2a384a4b27d3d.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/c4db0595bac9162fdcac778f9ce358fe.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/ed4c6da97a719b86761b83d11879f3cd.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/8100e83464f5326eb5f3751bfa736ca4.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/1f03fd15e032b06a067a508c1c407757.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/887226accfa731388d197eee9e1071c7.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/5bd354d84af0380e9618f7fd07e7680b.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/aa5af8c13efed798f764fbace2cfbad0.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/888a0cfe4e47a923f5a31e5c8df1284d.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/ff401d3328c0143127afcaed1e7d69b3.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/583c3fd1b492ccc802d8e0244f9b507a.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/1d8357306f60ed5104c663fc0d318f7a.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/a3df5a35b8507e71a84ced57dd93be22.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/22abfd74e4c854daf89e7dc5be868ca6.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/b3fe16bab45e21fcc9852e8d083fa6e2.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/fe0bf7a7e1aaba4e1c68237d6918c6fe.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/aab5df598f748bd7f4008e478da76ef1.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/d054d422ac1b654fd0c41dd72c7f21f2.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/8b8f7f94612d2f80bec78219caa68844.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/dd4a75ab41f62a0c5cb4be076361b492.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/af61c7e34e95f5538312ad3870a09229.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/c42e6fc329cccc10486817a413fcdad2.jpg"
+            },
+            {
+                "page": "drm/3/64583/OEBPS/Images/1/0c3a9111b3b06fd1e01f1cf9ce3fa035.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/3/64583/OEBPS/Images/1/070321cc50e22402cf4930c188a695cf.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "64583",
+        "id": "64583",
+        "title": "Going for a Sea Bath",
+        "author": "Andr\u00e9e Poulin",
+        "illustrator": "Anne-Claire Delisle",
+        "numPages": 31,
+        "bookDescription": "When Leanne complains bath time is boring, her father has the idea to bring her a sea turtle. Leanne resolves the problem with an idea.",
+        "coverColorR": 93,
+        "coverColorG": 134,
+        "coverColorB": 147,
+        "version": 2147483647,
+        "previewPercent": 20,
+        "publisher": "Pajama Press",
+        "publisherId": "90401",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 516,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 75,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Family",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "f817737433d277395c20",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1558396028
+    },
+    "userBook": {
+        "modelId": "46250489-64583",
+        "userId": "46250489",
+        "bookId": "64583",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559309858,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559309858,
+        "book": {
+            "modelId": "64583",
+            "title": "Going for a Sea Bath",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "f817737433d277395c20"
+        }
+    },
+    "quiz": null
+}

@@ -1,0 +1,156 @@
+{
+    "publisherData": {
+        "modelId": "29",
+        "name": "Lerner Publishing Group",
+        "url": "https://www.lernerbooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1523573683
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/36130/OEBPS/Images/1/D77AA71F-70E1-4B0A-8CCA-E00F18F8D122.jpg"
+            },
+            {
+                "page": "drm/0/36130/OEBPS/Images/1/7FB9CF3D-2EB5-46E8-9941-FA1443E31860.jpg"
+            },
+            {
+                "page": "drm/0/36130/OEBPS/Images/1/CA6E6658-634F-4833-9E55-E75374F3138E.jpg"
+            },
+            {
+                "page": "drm/0/36130/OEBPS/Images/1/A37B076B-226A-46AD-AF56-FE76DF67454F.jpg"
+            },
+            {
+                "page": "drm/0/36130/OEBPS/Images/1/51E00773-AC5E-4986-BBE0-BC82773DD0A2.jpg"
+            },
+            {
+                "page": "drm/0/36130/OEBPS/Images/1/49871E27-1C7E-4A95-B315-33A155AE714C.jpg"
+            },
+            {
+                "page": "drm/0/36130/OEBPS/Images/1/D307A81D-6A67-46EC-AFED-2C83A2675B1C.jpg"
+            },
+            {
+                "page": "drm/0/36130/OEBPS/Images/1/3E32C5F3-2B1D-4D1D-9F34-5AC51BB47142.jpg"
+            },
+            {
+                "page": "drm/0/36130/OEBPS/Images/1/7991143F-7573-48E4-9E40-0FBEA12A8747.jpg"
+            },
+            {
+                "page": "drm/0/36130/OEBPS/Images/1/5A9EA2DA-6B80-4286-A9D5-4D55F7925038.jpg"
+            },
+            {
+                "page": "drm/0/36130/OEBPS/Images/1/87978115-1ABF-4CD1-95C9-2B854CC54414.jpg"
+            },
+            {
+                "page": "drm/0/36130/OEBPS/Images/1/BCFDF6D4-AEBD-4645-9E73-DC8C66E29B65.jpg"
+            },
+            {
+                "page": "drm/0/36130/OEBPS/Images/1/03FCD6BB-38F2-412C-B396-4D8532D92E8B.jpg"
+            },
+            {
+                "page": "drm/0/36130/OEBPS/Images/1/DBFB474B-ED5B-4135-881B-1816F9E74A8E.jpg"
+            },
+            {
+                "page": "drm/0/36130/OEBPS/Images/1/008FC171-56FA-46CC-9657-FB627B8F9800.jpg"
+            },
+            {
+                "page": "drm/0/36130/OEBPS/Images/1/0BC02D74-B5DD-41F6-A733-B55EABEF1409.jpg"
+            },
+            {
+                "page": "drm/0/36130/OEBPS/Images/1/7232B718-DC05-41C0-903D-3078F7966A3B.jpg"
+            },
+            {
+                "page": "drm/0/36130/OEBPS/Images/1/69B70E35-A554-4A88-9B73-6D6E0AF2AE98.jpg"
+            },
+            {
+                "page": "drm/0/36130/OEBPS/Images/1/B3FEDF70-76D3-4023-B69E-C5D356CE1D36.jpg"
+            },
+            {
+                "page": "drm/0/36130/OEBPS/Images/1/60D00B41-3F65-4A47-B009-214E07910635.jpg"
+            },
+            {
+                "page": "drm/0/36130/OEBPS/Images/1/0BCC47A7-7654-4434-9C0A-8400CB059683.jpg"
+            },
+            {
+                "page": "drm/0/36130/OEBPS/Images/1/56DC9B6A-4D80-4B30-8155-85F7024236C6.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/36130/OEBPS/Images/1/7F75A82F-D14D-4ADA-A395-807286A4864D.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "36130",
+        "id": "36130",
+        "title": "Monster Trucks on the Go",
+        "author": "Kerry Dinmont",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Carefully leveled text and fresh, vibrant photos engage young readers in learning about the incredible machines known as monster trucks.",
+        "coverColorR": 119,
+        "coverColorG": 147,
+        "coverColorB": 77,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Lerner Publishing Group",
+        "publisherId": "29",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "380L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 806,
+        "ar": "1.4",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "j",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Things That GO",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 0.9722,
+        "contentHash": "2e3518898e0f08bcd9a0",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1555373459,
+        "duration": 4
+    },
+    "userBook": {
+        "modelId": "46250489-36130",
+        "userId": "46250489",
+        "bookId": "36130",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311835,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311835,
+        "book": {
+            "modelId": "36130",
+            "title": "Monster Trucks on the Go",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "2e3518898e0f08bcd9a0"
+        }
+    },
+    "quiz": null
+}

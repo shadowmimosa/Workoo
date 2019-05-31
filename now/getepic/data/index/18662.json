@@ -1,0 +1,163 @@
+{
+    "publisherData": {
+        "modelId": "168",
+        "name": "Flower Pot Press",
+        "url": "http://www.flowerpotpress.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260414
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/2/18662/OEBPS/Images/1/e32b6f8c8efcb1e3f068d2ca6c52d9a7.jpg",
+                "audio": "drm/2/18662/OEBPS/Audio/1/6164a05ff3c6ad2aedd716293d2a35c2.mp3"
+            },
+            {
+                "page": "drm/2/18662/OEBPS/Images/1/06a79e10a1a1b6a1d5afe81a52e992de.jpg",
+                "audio": "drm/2/18662/OEBPS/Audio/1/5cd24195e6f0eef90bc656f7e1f44a04.mp3"
+            },
+            {
+                "page": "drm/2/18662/OEBPS/Images/1/28e8b5a6081b1568abe3f20f64177cdd.jpg"
+            },
+            {
+                "page": "drm/2/18662/OEBPS/Images/1/95f3d08b2d332c39dae3917ca6054a72.jpg",
+                "audio": "drm/2/18662/OEBPS/Audio/1/271daa200ff67c1de14992549de0f6df.mp3"
+            },
+            {
+                "page": "drm/2/18662/OEBPS/Images/1/64b2a10a77674c6ace9302074e64caba.jpg"
+            },
+            {
+                "page": "drm/2/18662/OEBPS/Images/1/bfe7df58861bd98a103915cc0b8b3686.jpg",
+                "audio": "drm/2/18662/OEBPS/Audio/1/5e80f416b47264e3ac4cd8ce5402e67f.mp3"
+            },
+            {
+                "page": "drm/2/18662/OEBPS/Images/1/bae614e3228ea6020b92bd81a709a627.jpg"
+            },
+            {
+                "page": "drm/2/18662/OEBPS/Images/1/e20414c05c70dea1f90ce1ef48e6dc46.jpg",
+                "audio": "drm/2/18662/OEBPS/Audio/1/56b8aca44dbdbd07b3ac175e40cc4884.mp3"
+            },
+            {
+                "page": "drm/2/18662/OEBPS/Images/1/34eef871f9d2235fc37d5fa5e20befe9.jpg"
+            },
+            {
+                "page": "drm/2/18662/OEBPS/Images/1/770adc7973111ca1182e60367e966a09.jpg",
+                "audio": "drm/2/18662/OEBPS/Audio/1/79542b9790fd34b9c2a7d4da07ddd4da.mp3"
+            },
+            {
+                "page": "drm/2/18662/OEBPS/Images/1/3bb9ac4e9f96c901f60702e8f715143d.jpg"
+            },
+            {
+                "page": "drm/2/18662/OEBPS/Images/1/984694b9195a21d79575dd47ca6f6c0d.jpg",
+                "audio": "drm/2/18662/OEBPS/Audio/1/dcc0924d07e49a942e3b7d3a2ee70178.mp3"
+            },
+            {
+                "page": "drm/2/18662/OEBPS/Images/1/a54f25d5379d2ced3848c616f5298b21.jpg"
+            },
+            {
+                "page": "drm/2/18662/OEBPS/Images/1/bdb66c41b98d04454231e686dfbb9da3.jpg",
+                "audio": "drm/2/18662/OEBPS/Audio/1/abd248d6fbafd7cd0f2b04a1fff3d913.mp3"
+            },
+            {
+                "page": "drm/2/18662/OEBPS/Images/1/e36c276a916301972a57d8b95d74a6e5.jpg"
+            },
+            {
+                "page": "drm/2/18662/OEBPS/Images/1/224639bedc991e805d2b45c7dd81e640.jpg",
+                "audio": "drm/2/18662/OEBPS/Audio/1/cd6d86bd390e37ea26745af8c78b5150.mp3"
+            },
+            {
+                "page": "drm/2/18662/OEBPS/Images/1/ecc653b09192859c54d3dd614409af8f.jpg"
+            },
+            {
+                "page": "drm/2/18662/OEBPS/Images/1/7b859e3d15fa3f866d999cc8b30aa645.jpg",
+                "audio": "drm/2/18662/OEBPS/Audio/1/67589b8bfadaf20f27c2ae1da8f8640e.mp3"
+            },
+            {
+                "page": "drm/2/18662/OEBPS/Images/1/5b536375fb7b5be76be189b29b41d755.jpg"
+            },
+            {
+                "page": "drm/2/18662/OEBPS/Images/1/549c4895fbb810df07d119bb70028d65.jpg",
+                "audio": "drm/2/18662/OEBPS/Audio/1/b4526c46b4e22271ec36f1332549245e.mp3"
+            },
+            {
+                "page": "drm/2/18662/OEBPS/Images/1/c9c10ca29a599b45dff56a43e4ab68dc.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/2/18662/OEBPS/Images/1/ef60209997263c1742799bd74c8d3de6.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18662",
+        "id": "18662",
+        "title": "Wild Animals",
+        "author": " ",
+        "illustrator": "Lisa M. Gardiner",
+        "numPages": 21,
+        "bookDescription": "The First Words series is an ideal learning tool for very young minds.",
+        "coverColorR": 137,
+        "coverColorG": 207,
+        "coverColorB": 131,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Flower Pot Press",
+        "publisherId": "168",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 315,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 81,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "912f8251f8757166deb1",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372870
+    },
+    "userBook": {
+        "modelId": "46250489-18662",
+        "userId": "46250489",
+        "bookId": "18662",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310753,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310753,
+        "book": {
+            "modelId": "18662",
+            "title": "Wild Animals",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "912f8251f8757166deb1"
+        }
+    },
+    "quiz": null
+}

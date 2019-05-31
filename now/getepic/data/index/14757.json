@@ -1,0 +1,152 @@
+{
+    "publisherData": {
+        "modelId": "7",
+        "name": "Blue Apple Books",
+        "url": "http://www.blueapplebooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491011372
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/14757/OEBPS/Images/1/5b6fd4ddc7110a1a56a963bf31938476.jpg"
+            },
+            {
+                "page": "drm/7/14757/OEBPS/Images/1/bbd71d68b8582a696ebc732b31caec4b.jpg"
+            },
+            {
+                "page": "drm/7/14757/OEBPS/Images/1/6c3cb2d3b41cf89a03d04e0f10b42526.jpg"
+            },
+            {
+                "page": "drm/7/14757/OEBPS/Images/1/3453470c1cf06f02bc9001b67470b06a.jpg"
+            },
+            {
+                "page": "drm/7/14757/OEBPS/Images/1/3ec801ef8d123f40b44256199dfa354f.jpg"
+            },
+            {
+                "page": "drm/7/14757/OEBPS/Images/1/462fadbcdf7e904caf895712fb3c382b.jpg"
+            },
+            {
+                "page": "drm/7/14757/OEBPS/Images/1/841803bb0ab47483a478370a065acff4.jpg"
+            },
+            {
+                "page": "drm/7/14757/OEBPS/Images/1/453887fe7d0cb551757a605f7d1575d6.jpg"
+            },
+            {
+                "page": "drm/7/14757/OEBPS/Images/1/1426a1b91e664629788130e76aafd6ab.jpg"
+            },
+            {
+                "page": "drm/7/14757/OEBPS/Images/1/0d25b3ba7c69f9c1b44decb217ed11d3.jpg"
+            },
+            {
+                "page": "drm/7/14757/OEBPS/Images/1/f40c2f2c79f080ddaf4a87033c6ac55d.jpg"
+            },
+            {
+                "page": "drm/7/14757/OEBPS/Images/1/c4a816b23e73454d982bee12ed8b5f88.jpg"
+            },
+            {
+                "page": "drm/7/14757/OEBPS/Images/1/0b8d279c8cc451067c11062eb36e603c.jpg"
+            },
+            {
+                "page": "drm/7/14757/OEBPS/Images/1/f998465ddf1caadf6034c5f9070085bf.jpg"
+            },
+            {
+                "page": "drm/7/14757/OEBPS/Images/1/ef3b957bce4c19e2a9061e2427ad120b.jpg"
+            },
+            {
+                "page": "drm/7/14757/OEBPS/Images/1/c951777ee0e3c36738001b8957172e04.jpg"
+            },
+            {
+                "page": "drm/7/14757/OEBPS/Images/1/7cb9e0d2d5883d78e20452cfef44957d.jpg"
+            },
+            {
+                "page": "drm/7/14757/OEBPS/Images/1/8ff2160ea55ee245c84e03bfed8012e8.jpg"
+            },
+            {
+                "page": "drm/7/14757/OEBPS/Images/1/9bcf4795ac1e082e02b0b061b978fec4.jpg"
+            },
+            {
+                "page": "drm/7/14757/OEBPS/Images/1/71f789a1d052c798c78319512b9129dd.jpg"
+            },
+            {
+                "page": "drm/7/14757/OEBPS/Images/1/213190c003696349813e5ece7288aee9.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/14757/OEBPS/Images/1/f5e7a05fcbbe09316e947a30a31fed9d.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "14757",
+        "id": "14757",
+        "title": "Can You Whoo, Too?",
+        "author": "Harriet Ziefert",
+        "illustrator": "Sophie Fatus",
+        "numPages": 21,
+        "bookDescription": "In farmyards, jungles, and oceans, almost every animal has something to say!",
+        "coverColorR": 76,
+        "coverColorG": 92,
+        "coverColorB": 132,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Blue Apple Books",
+        "publisherId": "7",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 385,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.8293,
+        "contentHash": "7a8f038af0d306a34ac5",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1513043569
+    },
+    "userBook": {
+        "modelId": "46250489-14757",
+        "userId": "46250489",
+        "bookId": "14757",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311065,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311065,
+        "book": {
+            "modelId": "14757",
+            "title": "Can You Whoo, Too?",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "7a8f038af0d306a34ac5"
+        }
+    },
+    "quiz": null
+}

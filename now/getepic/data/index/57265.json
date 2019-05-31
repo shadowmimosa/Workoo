@@ -1,0 +1,149 @@
+{
+    "publisherData": {
+        "modelId": "122",
+        "name": "Blue Door Education",
+        "url": "https://bluedoor-education.squarespace.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491011404
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/57265/OEBPS/Images/1/6062f844fbc5f57c2756ec591a89313a.jpg",
+                "audio": "drm/5/57265/OEBPS/Audio/1/x6062f844fbc5f57c2756ec591a89313a.mp3"
+            },
+            {
+                "page": "drm/5/57265/OEBPS/Images/1/e148049b1cc8fe625cefd4ec40d3e41d.jpg",
+                "audio": "drm/5/57265/OEBPS/Audio/1/xe148049b1cc8fe625cefd4ec40d3e41d.mp3"
+            },
+            {
+                "page": "drm/5/57265/OEBPS/Images/1/dc81f4409a7ed4dc691e77733ba2dd6b.jpg"
+            },
+            {
+                "page": "drm/5/57265/OEBPS/Images/1/75507dc88d9e4f4c083b3d033dd55a5c.jpg",
+                "audio": "drm/5/57265/OEBPS/Audio/1/x75507dc88d9e4f4c083b3d033dd55a5c.mp3"
+            },
+            {
+                "page": "drm/5/57265/OEBPS/Images/1/bd551509f2cf1cc663fd204a424548f1.jpg"
+            },
+            {
+                "page": "drm/5/57265/OEBPS/Images/1/5a14e4fa81d06d1e413b04ddad47d5db.jpg",
+                "audio": "drm/5/57265/OEBPS/Audio/1/x5a14e4fa81d06d1e413b04ddad47d5db.mp3"
+            },
+            {
+                "page": "drm/5/57265/OEBPS/Images/1/37cb576d84ae05e625a9aa3cf234ba5a.jpg"
+            },
+            {
+                "page": "drm/5/57265/OEBPS/Images/1/3b50d2002ff276776a5cc2c6e1eee6fb.jpg",
+                "audio": "drm/5/57265/OEBPS/Audio/1/x3b50d2002ff276776a5cc2c6e1eee6fb.mp3"
+            },
+            {
+                "page": "drm/5/57265/OEBPS/Images/1/ac925bfffcb1ac56fdb9dacce1728ee6.jpg"
+            },
+            {
+                "page": "drm/5/57265/OEBPS/Images/1/f7b64e48fb9160ea8fe06f6f9abb2b85.jpg",
+                "audio": "drm/5/57265/OEBPS/Audio/1/xf7b64e48fb9160ea8fe06f6f9abb2b85.mp3"
+            },
+            {
+                "page": "drm/5/57265/OEBPS/Images/1/bc3cd41a7cd4dd91bbb0ad21efe76258.jpg"
+            },
+            {
+                "page": "drm/5/57265/OEBPS/Images/1/6411fe11f799fb2d156a0257aaf572b3.jpg",
+                "audio": "drm/5/57265/OEBPS/Audio/1/x6411fe11f799fb2d156a0257aaf572b3.mp3"
+            },
+            {
+                "page": "drm/5/57265/OEBPS/Images/1/f53f433b8021808b0a9f24b334f814c2.jpg"
+            },
+            {
+                "page": "drm/5/57265/OEBPS/Images/1/1880cc637ee827de95bb16c93e6bad0b.jpg",
+                "audio": "drm/5/57265/OEBPS/Audio/1/x1880cc637ee827de95bb16c93e6bad0b.mp3"
+            },
+            {
+                "page": "drm/5/57265/OEBPS/Images/1/8e6df6cbfa163d2b150cb74a2a16b053.jpg"
+            },
+            {
+                "page": "drm/5/57265/OEBPS/Images/1/1c5d443aa008bff1617d52f74eef27a5.jpg",
+                "audio": "drm/5/57265/OEBPS/Audio/1/x1c5d443aa008bff1617d52f74eef27a5.mp3"
+            },
+            {
+                "page": "drm/5/57265/OEBPS/Images/1/1eae76a0b10600b89c7ff9f30ba671e2.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/57265/OEBPS/Images/1/0a5d36f979be0f99b4ae7eab5f902f53.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "57265",
+        "id": "57265",
+        "title": "Weather Words",
+        "author": "Taylor Farley",
+        "illustrator": " ",
+        "numPages": 17,
+        "bookDescription": "Eight words describe common weather conditions.",
+        "coverColorR": 151,
+        "coverColorG": 190,
+        "coverColorB": 180,
+        "version": 858927445,
+        "previewPercent": 20,
+        "publisher": "Blue Door Education",
+        "publisherId": "122",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 283,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 80,
+        "type": 1,
+        "subject": "84",
+        "subjectDesc": "Environment",
+        "subjectColor": "29E69B",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "5204f53fd27509a9aa0f",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1553809313
+    },
+    "userBook": {
+        "modelId": "46250489-57265",
+        "userId": "46250489",
+        "bookId": "57265",
+        "currentPageIndex": 18,
+        "farthestPageIndex": 18,
+        "favorited": 0,
+        "finishTime": 52,
+        "paid": 0,
+        "progress": 100,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 112,
+        "recommended": 0,
+        "lastModified": 1558938056,
+        "bookmarks": "",
+        "timesCompleted": 2,
+        "currentReadTime": 0,
+        "dateModified": 1559053193,
+        "book": {
+            "modelId": "57265",
+            "title": "Weather Words",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "5204f53fd27509a9aa0f"
+        }
+    },
+    "quiz": null
+}

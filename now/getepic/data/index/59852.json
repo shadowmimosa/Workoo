@@ -1,0 +1,161 @@
+{
+    "publisherData": {
+        "modelId": "90355",
+        "name": "Abrams Appleseed",
+        "url": "https://www.abramsbooks.com/imprints/abramsappleseed/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1536872223
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/2/59852/OEBPS/Images/1/c45b88415b266fb57a25149ed35c4acb.jpg"
+            },
+            {
+                "page": "drm/2/59852/OEBPS/Images/1/92ee63d14de30e4fdbd2c6daaa8db49b.jpg"
+            },
+            {
+                "page": "drm/2/59852/OEBPS/Images/1/ab73f650ed3d2eb29ac86d6b227357bd.jpg"
+            },
+            {
+                "page": "drm/2/59852/OEBPS/Images/1/1118beda742910b7554e7dc2fe09d8f2.jpg"
+            },
+            {
+                "page": "drm/2/59852/OEBPS/Images/1/f38f69551e738a3a45d25dfb7c741ab0.jpg"
+            },
+            {
+                "page": "drm/2/59852/OEBPS/Images/1/d5ecfd28eb9c38e500df62a657e2aa4f.jpg"
+            },
+            {
+                "page": "drm/2/59852/OEBPS/Images/1/7b2d875ca566a417baa22ebcc83e4785.jpg"
+            },
+            {
+                "page": "drm/2/59852/OEBPS/Images/1/67789c24de493596cf69311c8c14f889.jpg"
+            },
+            {
+                "page": "drm/2/59852/OEBPS/Images/1/71f647a1f5ca6591cb3638222ac8b6cf.jpg"
+            },
+            {
+                "page": "drm/2/59852/OEBPS/Images/1/b605a9122488a64621d3b6c767dc03f8.jpg"
+            },
+            {
+                "page": "drm/2/59852/OEBPS/Images/1/1681b0875318fbe92fbb8f0b8bd398c3.jpg"
+            },
+            {
+                "page": "drm/2/59852/OEBPS/Images/1/fb5cde9cb33de8091ce004e0109314c7.jpg"
+            },
+            {
+                "page": "drm/2/59852/OEBPS/Images/1/2338637ca595b9d7454050feba867312.jpg"
+            },
+            {
+                "page": "drm/2/59852/OEBPS/Images/1/69b057029fa5cdcb31133f8f8f578342.jpg"
+            },
+            {
+                "page": "drm/2/59852/OEBPS/Images/1/337915acb2db6f380f3ae538e09f16aa.jpg"
+            },
+            {
+                "page": "drm/2/59852/OEBPS/Images/1/a87a75f7577300aaf239dcc7cb587c6f.jpg"
+            },
+            {
+                "page": "drm/2/59852/OEBPS/Images/1/64178f671aaa10e2afd805c12865a077.jpg"
+            },
+            {
+                "page": "drm/2/59852/OEBPS/Images/1/2df59743f013f3b0be000628ebef8e69.jpg"
+            },
+            {
+                "page": "drm/2/59852/OEBPS/Images/1/7bd8dd46ddd2d76d207026157e877049.jpg"
+            },
+            {
+                "page": "drm/2/59852/OEBPS/Images/1/576fdd2893b37135afba60f197ef9564.jpg"
+            },
+            {
+                "page": "drm/2/59852/OEBPS/Images/1/9c1123231f8a56a9cf8bf756bfa53105.jpg"
+            },
+            {
+                "page": "drm/2/59852/OEBPS/Images/1/222ba2968d0db4da7c4c6aefea078a2c.jpg"
+            },
+            {
+                "page": "drm/2/59852/OEBPS/Images/1/6e377005434bbf8a5e2e4f02d99a6ddd.jpg"
+            },
+            {
+                "page": "drm/2/59852/OEBPS/Images/1/072c15a52f82ef3581c4a417335c3888.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/2/59852/OEBPS/Images/1/dfd4c6de03ab4ce3a839ef94866ebb6b.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "59852",
+        "id": "59852",
+        "title": "Barnyard Boogie!",
+        "author": "Tim McCanna",
+        "illustrator": "Allison Black",
+        "numPages": 24,
+        "bookDescription": "The Barnyard Band is performing today. Each animal musician knows what to do, but Cow can only moo!",
+        "coverColorR": 116,
+        "coverColorG": 136,
+        "coverColorB": 158,
+        "version": 15501824,
+        "previewPercent": 20,
+        "publisher": "Abrams Appleseed",
+        "publisherId": "90355",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 360,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 75,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Farm Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "c85c3955150f48854165",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1551485802
+    },
+    "userBook": {
+        "modelId": "46250489-59852",
+        "userId": "46250489",
+        "bookId": "59852",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310323,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310323,
+        "book": {
+            "modelId": "59852",
+            "title": "Barnyard Boogie!",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "c85c3955150f48854165"
+        }
+    },
+    "quiz": null
+}

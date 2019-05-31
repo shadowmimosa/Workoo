@@ -1,0 +1,162 @@
+{
+    "publisherData": {
+        "modelId": "168",
+        "name": "Flower Pot Press",
+        "url": "http://www.flowerpotpress.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260414
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/18670/OEBPS/Images/1/21d62f76a93c8e3ec5ee1e0756829c85.jpg",
+                "audio": "drm/0/18670/OEBPS/Audio/1/933a92e147bc3a2952b46ffc2adcfc6f.mp3"
+            },
+            {
+                "page": "drm/0/18670/OEBPS/Images/1/b1571d03356c8a50acd0dde9ea3e93e5.jpg",
+                "audio": "drm/0/18670/OEBPS/Audio/1/03cebe1ee060857ef953b0287831642a.mp3"
+            },
+            {
+                "page": "drm/0/18670/OEBPS/Images/1/8df68fb55abee3751cfabc6c5720abc1.jpg"
+            },
+            {
+                "page": "drm/0/18670/OEBPS/Images/1/dabd789c4bab67869582aacbc4a478a7.jpg",
+                "audio": "drm/0/18670/OEBPS/Audio/1/d55d38343c6f8e6a477a284b947db4bf.mp3"
+            },
+            {
+                "page": "drm/0/18670/OEBPS/Images/1/bfae6db0c138a8525e42b4f5b24d68a9.jpg"
+            },
+            {
+                "page": "drm/0/18670/OEBPS/Images/1/8d6663a1cfad7aa0b3fa7a5242a8b3c0.jpg",
+                "audio": "drm/0/18670/OEBPS/Audio/1/2641f06c35c9fe9803b1905f525491ce.mp3"
+            },
+            {
+                "page": "drm/0/18670/OEBPS/Images/1/d9d3f5bfddb720bcfaf7f95efaddb5f8.jpg"
+            },
+            {
+                "page": "drm/0/18670/OEBPS/Images/1/e90b2bb57719c50fa1e3fa0bdafc7684.jpg",
+                "audio": "drm/0/18670/OEBPS/Audio/1/68ba4f89b4e2429d7a58add49070015c.mp3"
+            },
+            {
+                "page": "drm/0/18670/OEBPS/Images/1/fa980c75dd7def5b396c4b8874c7b031.jpg"
+            },
+            {
+                "page": "drm/0/18670/OEBPS/Images/1/4e40cb88d7a53ea23e97895f60a7e307.jpg",
+                "audio": "drm/0/18670/OEBPS/Audio/1/2261664df5b751d82da32d9891a8997e.mp3"
+            },
+            {
+                "page": "drm/0/18670/OEBPS/Images/1/6db264dbbb51e00fc2609f724ef90ac9.jpg"
+            },
+            {
+                "page": "drm/0/18670/OEBPS/Images/1/22548c0d57c1fa27d912f4f0c51f6b31.jpg",
+                "audio": "drm/0/18670/OEBPS/Audio/1/19177ec92339fa1717352093bbcc56fe.mp3"
+            },
+            {
+                "page": "drm/0/18670/OEBPS/Images/1/748e3ffd128dd7fbcfa9208d648788e4.jpg"
+            },
+            {
+                "page": "drm/0/18670/OEBPS/Images/1/0cfff0527e46361dd1b30886e0065ff6.jpg",
+                "audio": "drm/0/18670/OEBPS/Audio/1/fddd9e27ad8e64d85f2916724eb122d6.mp3"
+            },
+            {
+                "page": "drm/0/18670/OEBPS/Images/1/1a61d47b1fdcc996f3ef80341987d16a.jpg"
+            },
+            {
+                "page": "drm/0/18670/OEBPS/Images/1/e7a9006c461c5e02cf1ee4ed17c099ee.jpg",
+                "audio": "drm/0/18670/OEBPS/Audio/1/b689e93729648026c0c5c47ea374d0aa.mp3"
+            },
+            {
+                "page": "drm/0/18670/OEBPS/Images/1/fad0b4b84a25d3383ae9ba0c81b653b3.jpg"
+            },
+            {
+                "page": "drm/0/18670/OEBPS/Images/1/627ef635e880d9a38f16202e0b96ca8d.jpg",
+                "audio": "drm/0/18670/OEBPS/Audio/1/a9947d3fbd7f0d7439f3ebdc125e1617.mp3"
+            },
+            {
+                "page": "drm/0/18670/OEBPS/Images/1/24dcb54f0548b826088f49427bd4caac.jpg"
+            },
+            {
+                "page": "drm/0/18670/OEBPS/Images/1/7b9ea1c33da67e12ba62c97ef708661a.jpg"
+            },
+            {
+                "page": "drm/0/18670/OEBPS/Images/1/9d3836b458375a9343e71c780287f19c.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/18670/OEBPS/Images/1/bc5642808bd2007fba0362a5be746638.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18670",
+        "id": "18670",
+        "title": "Early Concepts: Shapes",
+        "author": "Flowerpot Press",
+        "illustrator": " ",
+        "numPages": 21,
+        "bookDescription": "Expose your little one to shapes through this book illustrated with many pictures depicting shapes we encounter in life!",
+        "coverColorR": 221,
+        "coverColorG": 197,
+        "coverColorB": 184,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Flower Pot Press",
+        "publisherId": "168",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 315,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 81,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "92181b17fd581412de70",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372871
+    },
+    "userBook": {
+        "modelId": "46250489-18670",
+        "userId": "46250489",
+        "bookId": "18670",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310753,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310753,
+        "book": {
+            "modelId": "18670",
+            "title": "Early Concepts: Shapes",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "92181b17fd581412de70"
+        }
+    },
+    "quiz": null
+}

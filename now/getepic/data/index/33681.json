@@ -1,0 +1,155 @@
+{
+    "publisherData": {
+        "modelId": "109",
+        "name": "JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/33681/OEBPS/Images/1/2BCCB628-B735-4084-B1B4-21AEA6261E87.jpg"
+            },
+            {
+                "page": "drm/1/33681/OEBPS/Images/1/790EE75C-2CDB-4E1B-9B0E-A776F7881D67.jpg"
+            },
+            {
+                "page": "drm/1/33681/OEBPS/Images/1/E6E2193F-7E66-4AAA-8DCC-6FC597C72C6B.jpg"
+            },
+            {
+                "page": "drm/1/33681/OEBPS/Images/1/D1BD6E6B-6EEF-4667-9EFE-54896A369F28.jpg"
+            },
+            {
+                "page": "drm/1/33681/OEBPS/Images/1/4B56D8E8-8B2D-415B-9B75-8467D5D0114E.jpg"
+            },
+            {
+                "page": "drm/1/33681/OEBPS/Images/1/51B3FC74-111D-4635-8E43-B2B418C5D54E.jpg"
+            },
+            {
+                "page": "drm/1/33681/OEBPS/Images/1/488ACAAA-08E8-41DD-859A-4939D3CD57D2.jpg"
+            },
+            {
+                "page": "drm/1/33681/OEBPS/Images/1/269FB25A-3110-4DA2-B0DE-3F32BC816973.jpg"
+            },
+            {
+                "page": "drm/1/33681/OEBPS/Images/1/B94A7CB6-C592-419E-92E9-EEF2A02ABDC8.jpg"
+            },
+            {
+                "page": "drm/1/33681/OEBPS/Images/1/76FAAB7C-BAC7-4E3D-A20D-8B0271FC703D.jpg"
+            },
+            {
+                "page": "drm/1/33681/OEBPS/Images/1/417417AD-C936-4E57-B0C9-CCCAC8BFF3C1.jpg"
+            },
+            {
+                "page": "drm/1/33681/OEBPS/Images/1/5A360394-B02C-41C4-B7B1-670228B6F95F.jpg"
+            },
+            {
+                "page": "drm/1/33681/OEBPS/Images/1/72DB5039-14E6-4401-810A-D7C61ABF956B.jpg"
+            },
+            {
+                "page": "drm/1/33681/OEBPS/Images/1/B6B7095B-0F5C-47CE-B0A8-6656834DD8F8.jpg"
+            },
+            {
+                "page": "drm/1/33681/OEBPS/Images/1/976D1071-9744-4DAD-9DAE-7A560C1087E5.jpg"
+            },
+            {
+                "page": "drm/1/33681/OEBPS/Images/1/CD2ED89B-C0B0-4C7A-8848-C72FB1183A8B.jpg"
+            },
+            {
+                "page": "drm/1/33681/OEBPS/Images/1/BFC6F4F5-7831-466A-BB33-D9D874D237F1.jpg"
+            },
+            {
+                "page": "drm/1/33681/OEBPS/Images/1/B24D4705-44E5-46E9-8F86-F2C53FB9E9D8.jpg"
+            },
+            {
+                "page": "drm/1/33681/OEBPS/Images/1/10E7E3D2-F73C-4E1F-9EC5-43A42FE49A75.jpg"
+            },
+            {
+                "page": "drm/1/33681/OEBPS/Images/1/4CDE14A0-3731-44DF-9157-D91558C1E043.jpg"
+            },
+            {
+                "page": "drm/1/33681/OEBPS/Images/1/67F8BC54-23F0-4B56-8896-167EBE63645E.jpg"
+            },
+            {
+                "page": "drm/1/33681/OEBPS/Images/1/50F03B9C-09DF-41F1-AD1E-84CD94C35FE2.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/33681/OEBPS/Images/1/A701E4E4-7439-45EB-BDFE-FF9C74DDEF81.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "33681",
+        "id": "33681",
+        "title": "Machines At Work: Ambulances",
+        "author": "Cari Meister",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Learn about the parts of an ambulance that help their drivers save lives.",
+        "coverColorR": 189,
+        "coverColorG": 184,
+        "coverColorB": 194,
+        "version": 12309,
+        "previewPercent": 20,
+        "publisher": "JUMP",
+        "publisherId": "109",
+        "age": 5,
+        "pageNumOffset": 1,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 733,
+        "ar": "1.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Things That GO",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "4b3cd04f701dac15ef29",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373335
+    },
+    "userBook": {
+        "modelId": "46250489-33681",
+        "userId": "46250489",
+        "bookId": "33681",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559312023,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559312023,
+        "book": {
+            "modelId": "33681",
+            "title": "Machines At Work: Ambulances",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "4b3cd04f701dac15ef29"
+        }
+    },
+    "quiz": null
+}

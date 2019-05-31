@@ -1,0 +1,194 @@
+{
+    "publisherData": {
+        "modelId": "90387",
+        "name": "Houghton Mifflin Harcourt.",
+        "url": "https://www.hmhco.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1545162876
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/484d120ca92dddbb46efbb28e0c13d58.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/de824c644e49b6605cefa9d23ba75628.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/c6bca39164ad652d4e0dd1e54c5664ed.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/77d6299b3664b7e1e0a4d8f06ce19fb1.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/a9431a4262ccda93005a1bd63017382f.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/9957f52223af4c814343598c84b49532.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/72b21c93f21162ebb9075fccf6a4a63f.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/c9aac452d2c376ee0fce23bdefde2043.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/ef1585ed5b993f9f0d8f04219e42ebfb.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/126d26282d7c9a918b382cbbc898c540.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/53b1fbdd8a5b9701e4f9576ab4174734.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/41cf04ca56cd8687f16ea2fa8d21a643.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/d3c2ade7995a959282fbdd3c9bcf12ec.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/4d74789c60f9276eb9726a0f5bb4d366.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/03ac0060be8bf89ca3af4544f33db395.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/eec63064c63359b8d7bb52363f28e961.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/364c0b6bdcec756ce69d11d7df93aa75.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/59ead3926eabead89c0f129cfdb0af36.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/f3fdb007402ac14260bad686ee0973fb.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/407135c3f33b1d4fa5fc00fd654e77ef.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/0d1418322001fa87566d70ce0f13d472.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/6984969b8035a0bc6201094c8c8e781c.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/29025489e9379f0134f3fcf7a1b6d7a4.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/5ed8c65e121810510bd4f8929f1a50d2.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/2b57387955d9db21b72aaa92fc21178a.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/a0ab4a46281147745fe7b6fbd5a8f9d4.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/8ce15e20a39c2ef6c6b0ef5644bb305a.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/d6902902498190c2ae9ff80b610f75d2.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/3258dd6910a493fac7afadf482708789.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/cf0e028ec1a56771464b453b623afc31.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/8e1c44e19a5ec96b88075391a0c54a15.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/dd0de9def465988daf99ecc94c5e9c13.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/0fa98a22fbd0e7547c8abc9085470fe0.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/b21e1d826e4f747ad2a4fe5e0504cfbf.jpg"
+            },
+            {
+                "page": "drm/3/49433/OEBPS/Images/1/248537b9f0bb6ec11a4925eb6ed22177.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/3/49433/OEBPS/Images/1/d29a5d3c22b65f242420d80e1381a331.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "49433",
+        "id": "49433",
+        "title": "Sleep Like a Tiger",
+        "author": "Mary Logue",
+        "illustrator": "Pamela Zagarenski",
+        "numPages": 35,
+        "bookDescription": "\u201cDoes everything in the world go to sleep?\u201d the little girl asks.",
+        "coverColorR": 157,
+        "coverColorG": 161,
+        "coverColorB": 136,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Houghton Mifflin Harcourt.",
+        "publisherId": "90387",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 525,
+        "ar": "2.9",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Imagination",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 1.2226,
+        "contentHash": "e4e8348c9a4850f76b0e",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1552843655
+    },
+    "userBook": {
+        "modelId": "46250489-49433",
+        "userId": "46250489",
+        "bookId": "49433",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310270,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310270,
+        "book": {
+            "modelId": "49433",
+            "title": "Sleep Like a Tiger",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "e4e8348c9a4850f76b0e"
+        }
+    },
+    "quiz": null
+}

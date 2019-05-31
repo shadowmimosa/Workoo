@@ -1,0 +1,166 @@
+{
+    "publisherData": {
+        "modelId": "31",
+        "name": "Bellwether Media",
+        "url": "http://www.bellwethermedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539569528
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/47207/OEBPS/Images/1/0b6db0178cae1190460c558a10b7b55b.jpg",
+                "audio": "drm/7/47207/OEBPS/Audio/1/9781681033990-01.mp3"
+            },
+            {
+                "page": "drm/7/47207/OEBPS/Images/1/274299b37053afc5ac62f8474711b340.jpg",
+                "audio": "drm/7/47207/OEBPS/Audio/1/9781681033990-02.mp3"
+            },
+            {
+                "page": "drm/7/47207/OEBPS/Images/1/2399b38a16ed393067937e246eba8660.jpg"
+            },
+            {
+                "page": "drm/7/47207/OEBPS/Images/1/cfb5f9c3cb5c630a0dd2c3ba72705552.jpg",
+                "audio": "drm/7/47207/OEBPS/Audio/1/9781681033990-03.mp3"
+            },
+            {
+                "page": "drm/7/47207/OEBPS/Images/1/af01031c46bde51f6c86059f58d72155.jpg"
+            },
+            {
+                "page": "drm/7/47207/OEBPS/Images/1/3a2bd3a65cde8c72004e3205fdecbe66.jpg",
+                "audio": "drm/7/47207/OEBPS/Audio/1/9781681033990-04.mp3"
+            },
+            {
+                "page": "drm/7/47207/OEBPS/Images/1/e8e09674a66828e15e41481a55379449.jpg"
+            },
+            {
+                "page": "drm/7/47207/OEBPS/Images/1/7a418014939f4018ad9b04ee4cff1c31.jpg",
+                "audio": "drm/7/47207/OEBPS/Audio/1/9781681033990-05.mp3"
+            },
+            {
+                "page": "drm/7/47207/OEBPS/Images/1/e80df3df57b9eb24b9d68351d99eeccb.jpg"
+            },
+            {
+                "page": "drm/7/47207/OEBPS/Images/1/cb89abc2e817f3fd624a975987d4a80a.jpg",
+                "audio": "drm/7/47207/OEBPS/Audio/1/9781681033990-06.mp3"
+            },
+            {
+                "page": "drm/7/47207/OEBPS/Images/1/0a71d4d5365bb429ea41fcdea2596d12.jpg"
+            },
+            {
+                "page": "drm/7/47207/OEBPS/Images/1/14cf0efdf6fcf6f4b3402279027968a9.jpg",
+                "audio": "drm/7/47207/OEBPS/Audio/1/9781681033990-07.mp3"
+            },
+            {
+                "page": "drm/7/47207/OEBPS/Images/1/d470456a339c69a0a93835f3afd82527.jpg"
+            },
+            {
+                "page": "drm/7/47207/OEBPS/Images/1/991b848b9a8eee831dbcd39278507c8d.jpg",
+                "audio": "drm/7/47207/OEBPS/Audio/1/9781681033990-08.mp3"
+            },
+            {
+                "page": "drm/7/47207/OEBPS/Images/1/bfa9784c7871b38f4ac6d496727b08dc.jpg"
+            },
+            {
+                "page": "drm/7/47207/OEBPS/Images/1/b5a7f6509cc3bb5de7a6b9b610badba3.jpg",
+                "audio": "drm/7/47207/OEBPS/Audio/1/9781681033990-09.mp3"
+            },
+            {
+                "page": "drm/7/47207/OEBPS/Images/1/86a8b05bbca7f6297c29e6d55e35ee3c.jpg"
+            },
+            {
+                "page": "drm/7/47207/OEBPS/Images/1/47ab14eeb6e5cdbda0bb232f54a6d715.jpg",
+                "audio": "drm/7/47207/OEBPS/Audio/1/9781681033990-10.mp3"
+            },
+            {
+                "page": "drm/7/47207/OEBPS/Images/1/f881ea1fd7c624f7e26fec64056db5d8.jpg"
+            },
+            {
+                "page": "drm/7/47207/OEBPS/Images/1/f99a0cb953a621a85b8a7b9cc65a73f1.jpg",
+                "audio": "drm/7/47207/OEBPS/Audio/1/9781681033990-11.mp3"
+            },
+            {
+                "page": "drm/7/47207/OEBPS/Images/1/b6c0f8c49aef1568d77ee4c5f811867b.jpg"
+            },
+            {
+                "page": "drm/7/47207/OEBPS/Images/1/ca904f70345339aa84ba917cfecdfc13.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/47207/OEBPS/Images/1/c68c1dba6d6dae2f3a04a41ca938e68d.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "47207",
+        "id": "47207",
+        "title": "Amazing Trains: City Trains",
+        "author": "Christina Leighton",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Driving around a busy downtown area can be a hassle, especially during rush hour. City trains are the answer for many people!",
+        "coverColorR": 135,
+        "coverColorG": 136,
+        "coverColorB": 145,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Bellwether Media",
+        "publisherId": "31",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "440L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 806,
+        "ar": "1.6",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Things That GO",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 0.7222,
+        "contentHash": "cfbfa4267d20de4dfdc1",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374070
+    },
+    "userBook": {
+        "modelId": "46250489-47207",
+        "userId": "46250489",
+        "bookId": "47207",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311916,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311916,
+        "book": {
+            "modelId": "47207",
+            "title": "Amazing Trains: City Trains",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "cfbfa4267d20de4dfdc1"
+        }
+    },
+    "quiz": null
+}

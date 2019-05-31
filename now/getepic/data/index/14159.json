@@ -1,0 +1,662 @@
+{
+    "publisherData": {
+        "modelId": "161",
+        "name": "Weston Woods",
+        "url": "http://westonwoods.scholastic.com/products/westonwoods/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539568029
+    },
+    "epub": null,
+    "timePerPage": 2,
+    "book": {
+        "modelId": "14159",
+        "id": "14159",
+        "title": "Blueberries for Sal",
+        "author": "Robert McCloskey",
+        "illustrator": "Owen Jordan",
+        "numPages": 0,
+        "bookDescription": "Kuplink, kuplank, kuplunk go the blueberries into the pail of a little girl named Sal who just can't seem to pick as fast as she eats.",
+        "coverColorR": 139,
+        "coverColorG": 124,
+        "coverColorB": 107,
+        "version": 0,
+        "previewPercent": 10,
+        "publisher": "Weston Woods",
+        "publisherId": "161",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "AD600L",
+        "avgTime": "--",
+        "avgTimeInt": 0,
+        "ar": "4.1",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "m",
+        "language": 1,
+        "rating": 82,
+        "type": 2,
+        "subject": "90",
+        "subjectDesc": "Daily Life",
+        "subjectColor": "48D864",
+        "copyright": "\u00a9 1968 Weston Woods Studios.  All rights reserved.",
+        "aspectRatio": 0,
+        "contentHash": "",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1550897957,
+        "duration": 505
+    },
+    "userBook": {
+        "modelId": "46250489-14159",
+        "userId": "46250489",
+        "bookId": "14159",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310697,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310697,
+        "book": {
+            "modelId": "14159",
+            "title": "Blueberries for Sal",
+            "type": 2,
+            "active": 1,
+            "audio": 0,
+            "contentHash": ""
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "121551",
+            "user_id": "7781421",
+            "book_id": "14159",
+            "title": "Blueberries For Sal",
+            "description": "",
+            "date_created": 1506013421,
+            "date_modified": 1512155024,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Where did Little Sal and her mother go?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "to pick blueberries",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "to the park",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "to pick strawberries",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "to school",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What did Sal's mother want to do with the blueberries?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "can them",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "eat them",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "make pies",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "make jelly",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Who else was picking berries on Blueberry Hill?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Little Bear and Mother Bear",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "horses",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "wolves",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "dogs",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What did Little Sal do with the berries she picked?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "eat them",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "gave them to the bear",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "canned them",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "fed the birds",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "What happened to Little Sal and Little Bear while on Blueberry Hill?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "They got lost",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "They fell down",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "They ran away",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "They got hurt",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "What is another word for pail?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "bucket",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "shovel",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "spoon",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "light color",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 5
+                },
+                {
+                    "title": "How are Little Sal and Little Bear alike?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "They both were eating berries on Blueberry Hill and they got lost",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "They both ran away from home",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "They both were eating strawberries and playing",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "They both were jumping in the bushes",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 6
+                },
+                {
+                    "title": "Why did Mother Bear and Little Bear eat all of their berries?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "To grow big and store up food for the cold winter",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "To feel happy",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "To prepare for spring",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "To prepare for summer",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 7
+                },
+                {
+                    "title": "What does the word dropping mean is this sentence?\nLittle Sal was dropping her berries in her pail.",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "falling from a hand",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "something an animal leaves behind",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "running around",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "throwing into a pail",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 8
+                },
+                {
+                    "title": "What word will make this sentence correct?\nLittle Sal and her mother were ____________ on Blueberry Hill.",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "walking",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "picking",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "dropping",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "jogging",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 9
+                }
+            ],
+            "modelId": "121551",
+            "creatorName": "Mrs. Peake",
+            "avatarId": "81",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "7781421",
+                "udid": "5735fa9db0c724.83738593",
+                "journalName": "Mrs. Peake",
+                "journalCoverAvatar": "81",
+                "journalCoverColor": "0.70588235294118 0.94509803921569 0.39607843137255 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "720380441",
+                "fid": "",
+                "accountID": "3041474B-791A-2076-4E31-124D81BB60BE",
+                "simpleAccountId": "2865087",
+                "pagesFlipped": 1818,
+                "nufComplete": 1,
+                "readingAge": 7.26667,
+                "startingAge": 7,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 0,
+                "xpLevel": 1,
+                "dateLastLogin": 1541018460,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": " Susan",
+                "lastName": "Peake",
+                "accountType": 1,
+                "dateModified": 1559309930,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Peake"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Where did Little Sal and her mother go?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "to pick blueberries",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "to the park",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "to pick strawberries",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "to school",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What did Sal's mother want to do with the blueberries?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "can them",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "eat them",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "make pies",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "make jelly",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Who else was picking berries on Blueberry Hill?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Little Bear and Mother Bear",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "horses",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "wolves",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "dogs",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What did Little Sal do with the berries she picked?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "eat them",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "gave them to the bear",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "canned them",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "fed the birds",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "What happened to Little Sal and Little Bear while on Blueberry Hill?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "They got lost",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "They fell down",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "They ran away",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "They got hurt",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "What is another word for pail?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "bucket",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "shovel",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "spoon",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "light color",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 5
+            },
+            {
+                "title": "How are Little Sal and Little Bear alike?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "They both were eating berries on Blueberry Hill and they got lost",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "They both ran away from home",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "They both were eating strawberries and playing",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "They both were jumping in the bushes",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 6
+            },
+            {
+                "title": "Why did Mother Bear and Little Bear eat all of their berries?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "To grow big and store up food for the cold winter",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "To feel happy",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "To prepare for spring",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "To prepare for summer",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 7
+            },
+            {
+                "title": "What does the word dropping mean is this sentence?\nLittle Sal was dropping her berries in her pail.",
+                "quizQuestionChoices": [
+                    {
+                        "title": "falling from a hand",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "something an animal leaves behind",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "running around",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "throwing into a pail",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 8
+            },
+            {
+                "title": "What word will make this sentence correct?\nLittle Sal and her mother were ____________ on Blueberry Hill.",
+                "quizQuestionChoices": [
+                    {
+                        "title": "walking",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "picking",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "dropping",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "jogging",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 9
+            }
+        ]
+    }
+}

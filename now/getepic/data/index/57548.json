@@ -1,0 +1,185 @@
+{
+    "publisherData": {
+        "modelId": "84",
+        "name": "Charlesbridge",
+        "url": "http://www.charlesbridge.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491011648
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/064a20b7c4f9b7c09a5d7dfd53b70bf9.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/914612918f56cad72c3133b72ad2eb90.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/9de9ee78e855a6fe250fca74b405771e.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/6af87ee592feaa1a4d9c5b2b25cd6eed.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/5a021d1d87e3e622e5c7d532bbce3c79.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/9d5fe5cc2039b2be53eab44f0ce0f3e1.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/363e3648c9789ac76b6f3334d3b05237.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/68a9d5df4e57a48dabdbe4d56c4b52bb.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/396c3bde212107e763ec0039964c6bf3.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/c1f92df27898c2f95acd37295668adc8.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/6e26eda74b5f673185c88c4e9226ade3.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/d912587ff58b28571cd01c9578b967c4.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/c622efa3deaeef630c29ee514d31adc5.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/19052b52fbc877e035d342e35fa3f63e.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/75cab728b169d38f1f7b866948f182dc.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/ec6e8c54acf66bf47a8523e63914ee5e.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/60b3a380a957d8814eab2f5858b8f408.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/75bad611ab24bb9373c0d35d59e3856f.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/3932cecd173f970703de1ec2df8cde94.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/3d3cc7cc7d7125292a1fdf61710e6d3b.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/fe0a9e8c3ff6d8e3b1e714852c1ef34a.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/bf9b17cbacf053b395d084ae803c1e8a.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/af26c4ebf72f22dd4510e2e98e43ef20.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/ceeaed180b58d2b60a86ee075225b920.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/769501a02c2040666fc04a3908dfaa10.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/700f9f6394cc5a32d5867e998acefaa3.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/4a69f11c51818671d300b8e500a2ea3d.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/4b065e27ba26ebb87b1bb5732becc487.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/7791fa2e4dfe0fde5182bd94cb9b141a.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/99135916f9f959e4d308baaa20a6ba61.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/0423270da2b81db4f4c5a82f93580316.jpg"
+            },
+            {
+                "page": "drm/8/57548/OEBPS/Images/1/fad14b97d6a3dafee4c57ac322a63c5f.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/57548/OEBPS/Images/1/92f642694e1f6a553ff5bf1850385769.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "57548",
+        "id": "57548",
+        "title": "We Are Grateful",
+        "author": "Traci Sorell",
+        "illustrator": "Fran\u00e9 Lessac",
+        "numPages": 32,
+        "bookDescription": "The Cherokee community is grateful for blessings and challenges that each season brings.",
+        "coverColorR": 114,
+        "coverColorG": 89,
+        "coverColorB": 68,
+        "version": 12309,
+        "previewPercent": 20,
+        "publisher": "Charlesbridge",
+        "publisherId": "84",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "NC970L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 533,
+        "ar": "3.0",
+        "fandp": "l",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Cities & Cultures",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 0.9048,
+        "contentHash": "72abdf505f1893ecbfda",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1542825620
+    },
+    "userBook": {
+        "modelId": "46250489-57548",
+        "userId": "46250489",
+        "bookId": "57548",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310698,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310698,
+        "book": {
+            "modelId": "57548",
+            "title": "We Are Grateful",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "72abdf505f1893ecbfda"
+        }
+    },
+    "quiz": null
+}

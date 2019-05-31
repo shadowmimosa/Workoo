@@ -1,0 +1,209 @@
+{
+    "publisherData": {
+        "modelId": "76",
+        "name": "Brave Mouse Books",
+        "url": "http://www.ipgbook.com/brave-mouse-books-publisher-BMB.php",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1508279956
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/7dbd4c767765e3be854bc92e6acfb7bb.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/3f3a7f73be71c670f8f6600229fdf89e.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/b2208962d0d58a0c2956adade79e3305.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/c8399b937ce46cf05a95fb951c4ac4a9.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/dc98d97784c3ebcea3fbeb22f3562d89.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/4c1a167c13b4f99499946356a7b52973.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/234d61f2f3737931227166995f7e84a8.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/4e5bfc1b22c8fc2e1799f5a875f0f535.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/b60af4543291443bb0dc4d445c60c1bd.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/4d6433fc540154b9055be3d55bac4e1c.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/eaedcb8c7ac74fe398719fb045d78147.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/c934823c93aa1d301270b3296eb61e31.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/5b0930df63c756d991929cab7d5ad000.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/d190396dad68d1ed1655af00871ac078.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/79def2ca2b296d4b698f2e36dc81baed.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/4782e8be591fcf10a9164718161c6bc9.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/7a53696494260942944da77d7b692547.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/aab68750eaf4acc1b324e10f0806047a.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/e3d698b4369088a5f56877b78462adb4.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/71addf024a1acd39a22c54c3a2351522.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/7daf32cf936e325bcc7bdf67a6697f7a.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/5bce0e2486ad0ca6e0d281a59a018812.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/fe603978a98cf15a4b6ceeadddc70798.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/70a6315d24193b4cb62d80f9e883b260.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/d144030b012551241f4169f8d52768bf.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/a60b366302565f49d651f6dad7008b2b.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/59ca9067be4bf2ecdfa119568741b21c.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/5e34faeb4e4549914aad0474728f31ff.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/6027c958ddbb28ff06ad036563ba1d0f.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/76d93802cb3aecc371b24d3fef122a45.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/ca9db12f2f1126eea5d723ca7e1cc82b.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/7c554d92071e5cd6905e8264dbb65c72.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/ed8a68fc8a187e3e1e73379455baad60.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/d561569e25ca83a86b00fb85486bfb4a.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/9a693f75c7eb04f3ec09563ca4c6faa0.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/379dad3fcccfb747bf455ac02ccd097b.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/f1d3a247a0ea9c71111cf9cd94651d3c.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/ec519253d4e76aeb3948c2074c734aff.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/efc2eeb54a2149a20f27a56d5195ede8.jpg"
+            },
+            {
+                "page": "drm/7/10407/OEBPS/Images/1/a6eac0a9630ad3cf2b976fe7f4820a68.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/10407/OEBPS/Images/1/0fef59dcf7acfad2a5eec4aa13de757c.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "10407",
+        "id": "10407",
+        "title": "Princess Pig: A Short Vowel Adventure",
+        "author": "Molly Coxe",
+        "illustrator": " ",
+        "numPages": 40,
+        "bookDescription": "\"Let's play princess,\" said Pig. \"I'll give you three wishes,\" says Twig. But three wishes are not enough for Princess Pig. She wants more!",
+        "coverColorR": 176,
+        "coverColorG": 165,
+        "coverColorB": 158,
+        "version": 12309,
+        "previewPercent": 20,
+        "publisher": "Brave Mouse Books",
+        "publisherId": "76",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 733,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.7222,
+        "contentHash": "32f416678d068620ae97",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1538002558
+    },
+    "userBook": {
+        "modelId": "46250489-10407",
+        "userId": "46250489",
+        "bookId": "10407",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311017,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311017,
+        "book": {
+            "modelId": "10407",
+            "title": "Princess Pig: A Short Vowel Adventure",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "32f416678d068620ae97"
+        }
+    },
+    "quiz": null
+}

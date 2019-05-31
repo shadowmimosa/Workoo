@@ -1,0 +1,173 @@
+{
+    "publisherData": {
+        "modelId": "168",
+        "name": "Flower Pot Press",
+        "url": "http://www.flowerpotpress.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260414
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/18638/OEBPS/Images/1/06a73bc6f5d694ac6df1196d285577d1.jpg",
+                "audio": "drm/8/18638/OEBPS/Audio/1/d955f9251eb600bb41538047df325aaa.mp3"
+            },
+            {
+                "page": "drm/8/18638/OEBPS/Images/1/0383b640b2c5219979d3d190d1df13e3.jpg",
+                "audio": "drm/8/18638/OEBPS/Audio/1/4287f2302e47ef37ff61df6136485dd8.mp3"
+            },
+            {
+                "page": "drm/8/18638/OEBPS/Images/1/fc11d4f30e86fd05a6ab8f007bed880f.jpg",
+                "audio": "drm/8/18638/OEBPS/Audio/1/f4c478fd360f7aea39789e8b28367c0b.mp3"
+            },
+            {
+                "page": "drm/8/18638/OEBPS/Images/1/f372896ab70e41a50aeed7f95e175683.jpg",
+                "audio": "drm/8/18638/OEBPS/Audio/1/e753a6f4cd43151a5e0d8b1347fa16af.mp3"
+            },
+            {
+                "page": "drm/8/18638/OEBPS/Images/1/30b00b8ac5c740786946b360cc2bc8a0.jpg",
+                "audio": "drm/8/18638/OEBPS/Audio/1/7be0f561f4ff697c89ca6d74e6377e7e.mp3"
+            },
+            {
+                "page": "drm/8/18638/OEBPS/Images/1/1c8587531a8568cf8f23f7db30af8c6f.jpg",
+                "audio": "drm/8/18638/OEBPS/Audio/1/a87ca379aad2356036da5479ecea63a2.mp3"
+            },
+            {
+                "page": "drm/8/18638/OEBPS/Images/1/7f1f79ff33f3bff66610caae0f21242b.jpg",
+                "audio": "drm/8/18638/OEBPS/Audio/1/4db81f81a86c1f7265fc64e34d93cd4c.mp3"
+            },
+            {
+                "page": "drm/8/18638/OEBPS/Images/1/c859162d2d53ac980c9c5a27c776049a.jpg",
+                "audio": "drm/8/18638/OEBPS/Audio/1/a2dec373d76a6221d9b63cf6ada5cdfa.mp3"
+            },
+            {
+                "page": "drm/8/18638/OEBPS/Images/1/3ccba0d280430da25d80416aa89fce80.jpg",
+                "audio": "drm/8/18638/OEBPS/Audio/1/f93238c4abffa0c6a4d288fcea1525d8.mp3"
+            },
+            {
+                "page": "drm/8/18638/OEBPS/Images/1/1c35830f06783b0b54bfe69a41f47530.jpg",
+                "audio": "drm/8/18638/OEBPS/Audio/1/1398dfa96841eae149e695fb45cd459e.mp3"
+            },
+            {
+                "page": "drm/8/18638/OEBPS/Images/1/daf5a02161a70ecaa10106036136934c.jpg",
+                "audio": "drm/8/18638/OEBPS/Audio/1/4515a3f03b366ab07a5066abefb84bb1.mp3"
+            },
+            {
+                "page": "drm/8/18638/OEBPS/Images/1/3ab0f153222ecdcebe9212b0fdab9a2b.jpg",
+                "audio": "drm/8/18638/OEBPS/Audio/1/03d5197743a9b12704cad50b74f966f6.mp3"
+            },
+            {
+                "page": "drm/8/18638/OEBPS/Images/1/d6fbafa494f10e96226cf6a628716a22.jpg",
+                "audio": "drm/8/18638/OEBPS/Audio/1/e59aa8470da5d52b7d8484179ad60500.mp3"
+            },
+            {
+                "page": "drm/8/18638/OEBPS/Images/1/aefaf7b4c393e460db02d7e8780b0a18.jpg",
+                "audio": "drm/8/18638/OEBPS/Audio/1/260e3e9c57a8a904f80446cd7bf4e9fa.mp3"
+            },
+            {
+                "page": "drm/8/18638/OEBPS/Images/1/8f9a263c45af0e95505c5bf59b41d3a3.jpg",
+                "audio": "drm/8/18638/OEBPS/Audio/1/877ab7e0484255988d3d0a2e3b01e152.mp3"
+            },
+            {
+                "page": "drm/8/18638/OEBPS/Images/1/a03b7819e85bb508abf45468ac5b0d6f.jpg",
+                "audio": "drm/8/18638/OEBPS/Audio/1/9af0b353493879b28c32ec9b86f811b8.mp3"
+            },
+            {
+                "page": "drm/8/18638/OEBPS/Images/1/d2f2448e02a9014e78797dabcfe3847d.jpg",
+                "audio": "drm/8/18638/OEBPS/Audio/1/3c6510e98d4d08cce5af12ae2436b15b.mp3"
+            },
+            {
+                "page": "drm/8/18638/OEBPS/Images/1/23d9f574dc00ba6a3543f71f71d66c47.jpg",
+                "audio": "drm/8/18638/OEBPS/Audio/1/26ea1773bf056ad58875bea59f1663e1.mp3"
+            },
+            {
+                "page": "drm/8/18638/OEBPS/Images/1/8b46f65a56df2a61b5ec6728dd00c976.jpg",
+                "audio": "drm/8/18638/OEBPS/Audio/1/b6a97dc42a1df670e39a0b2a7ffebbce.mp3"
+            },
+            {
+                "page": "drm/8/18638/OEBPS/Images/1/eb30b216406bfbd0ece0e55b1c812fdb.jpg",
+                "audio": "drm/8/18638/OEBPS/Audio/1/98dfe08113f477e89ca7372d749db17e.mp3"
+            },
+            {
+                "page": "drm/8/18638/OEBPS/Images/1/7dc182e83138fb75ba27f8e95ca47348.jpg",
+                "audio": "drm/8/18638/OEBPS/Audio/1/a3fb59505d4e1a46413272ced3747442.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/18638/OEBPS/Images/1/ec3aed24419b163ce9ac03014df54f92.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18638",
+        "id": "18638",
+        "title": "Creatures Great and Small",
+        "author": " ",
+        "illustrator": "Lisa M. Gardiner",
+        "numPages": 21,
+        "bookDescription": "The First Words series is an ideal learning tool for very young minds.",
+        "coverColorR": 155,
+        "coverColorG": 154,
+        "coverColorB": 180,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Flower Pot Press",
+        "publisherId": "168",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 315,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 81,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "8f0b3a6a14c6980f0c18",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372869
+    },
+    "userBook": {
+        "modelId": "46250489-18638",
+        "userId": "46250489",
+        "bookId": "18638",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310817,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310817,
+        "book": {
+            "modelId": "18638",
+            "title": "Creatures Great and Small",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "8f0b3a6a14c6980f0c18"
+        }
+    },
+    "quiz": null
+}

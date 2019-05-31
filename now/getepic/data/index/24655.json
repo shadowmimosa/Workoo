@@ -1,0 +1,196 @@
+{
+    "publisherData": {
+        "modelId": "90075",
+        "name": "Harriet Ziefert Inc.",
+        "url": "http://www.blueapplebooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491952668
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/30778f1f641de3fbeb4087f42716abf8.jpg",
+                "audio": "drm/5/24655/OEBPS/Audio/1/aud3.mp3"
+            },
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/e8f2db80bdd641f75a63730b20779f35.jpg",
+                "audio": "drm/5/24655/OEBPS/Audio/1/aud4-5.mp3"
+            },
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/148e9c62ee62866afa9ca8383ef9a21e.jpg"
+            },
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/ed324a97e0a4c665b17e3d1be57299c3.jpg",
+                "audio": "drm/5/24655/OEBPS/Audio/1/aud6-7.mp3"
+            },
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/9ae909f81c4f2f819da6a385c92f330a.jpg"
+            },
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/8436f6c7b1b46ca2172ae46944e5fec3.jpg",
+                "audio": "drm/5/24655/OEBPS/Audio/1/aud8-9.mp3"
+            },
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/724746288f96e586684f035a6ce8ba74.jpg"
+            },
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/503422dbe25dd6a9f4d05895982c13e7.jpg",
+                "audio": "drm/5/24655/OEBPS/Audio/1/aud10-11.mp3"
+            },
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/0bbe88ffefeee49b2d1e1d5c18b09262.jpg"
+            },
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/5ce63453a3d1f19291d020a168e2f3a6.jpg",
+                "audio": "drm/5/24655/OEBPS/Audio/1/aud12-13.mp3"
+            },
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/41fac77dc096250312eb00d6736609e0.jpg"
+            },
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/5f9be4e374c13e69498240a33c7aeeb2.jpg",
+                "audio": "drm/5/24655/OEBPS/Audio/1/aud14.mp3"
+            },
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/fe19edeae49d9b07718abbdc47a97a93.jpg",
+                "audio": "drm/5/24655/OEBPS/Audio/1/aud15.mp3"
+            },
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/064495a25c2b3ff9f0b60e1b825389f7.jpg",
+                "audio": "drm/5/24655/OEBPS/Audio/1/aud16-17.mp3"
+            },
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/74809113b9e6d2def60447cf6f172ce8.jpg"
+            },
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/fe9e4707a45d7d37e6bc6c2e231afedf.jpg",
+                "audio": "drm/5/24655/OEBPS/Audio/1/aud18-19.mp3"
+            },
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/ecd63be78688bd070b71c50bbb1b5251.jpg"
+            },
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/9a704e7eb0757ac84a7d0e87f6cf9295.jpg",
+                "audio": "drm/5/24655/OEBPS/Audio/1/aud20-21.mp3"
+            },
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/5c90f51be2405c6f3c90c44d51a96ad9.jpg"
+            },
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/eeee7789d8855c81352d38cbea19117f.jpg",
+                "audio": "drm/5/24655/OEBPS/Audio/1/aud22-23.mp3"
+            },
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/e5416fbdac8065fdb05a35b205f8c539.jpg"
+            },
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/17d0a89de8d1328609d0b545d4217bae.jpg",
+                "audio": "drm/5/24655/OEBPS/Audio/1/aud24-25.mp3"
+            },
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/3893cf19de5d5597d0cb83b31eace6af.jpg"
+            },
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/b42413609bf3bed7c56d478ac6cc406a.jpg",
+                "audio": "drm/5/24655/OEBPS/Audio/1/aud26-27.mp3"
+            },
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/530bb8125d36ac51f5d3abc227e16be8.jpg"
+            },
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/09e2648031ee3ce97625634da0c1602d.jpg",
+                "audio": "drm/5/24655/OEBPS/Audio/1/aud28-29.mp3"
+            },
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/63206108d74937da66974fbcdc0c6047.jpg"
+            },
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/56a349f1c9a97155b33caab3c1269f27.jpg",
+                "audio": "drm/5/24655/OEBPS/Audio/1/aud30.mp3"
+            },
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/d0501a47711f353c451e1bce650970ec.jpg",
+                "audio": "drm/5/24655/OEBPS/Audio/1/aud31.mp3"
+            },
+            {
+                "page": "drm/5/24655/OEBPS/Images/1/515fde6aff7e8abdbb7effa35d8abbc2.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/24655/OEBPS/Images/1/95e9b256843e827a0e14f0e92fd0710e.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "24655",
+        "id": "24655",
+        "title": "We Are the Dogsharks",
+        "author": "Harriet Ziefert",
+        "illustrator": "Robert Wurzburg",
+        "numPages": 30,
+        "bookDescription": "Two stories in one: A Dogshark Day and Dogsharks Go to a Show",
+        "coverColorR": 182,
+        "coverColorG": 189,
+        "coverColorB": 179,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Harriet Ziefert Inc.",
+        "publisherId": "90075",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 500,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Funny",
+        "subjectColor": "FFD673",
+        "copyright": "",
+        "aspectRatio": 0.6667,
+        "contentHash": "2bceb53803904cf9c33c",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373014
+    },
+    "userBook": {
+        "modelId": "46250489-24655",
+        "userId": "46250489",
+        "bookId": "24655",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311089,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311089,
+        "book": {
+            "modelId": "24655",
+            "title": "We Are the Dogsharks",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "2bceb53803904cf9c33c"
+        }
+    },
+    "quiz": null
+}

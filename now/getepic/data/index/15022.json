@@ -1,0 +1,534 @@
+{
+    "publisherData": {
+        "modelId": "31",
+        "name": "Bellwether Media",
+        "url": "http://www.bellwethermedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539569528
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/2/15022/OEBPS/Images/1/9844d691455a44a9eb466d3c1f2a8bc2.jpg"
+            },
+            {
+                "page": "drm/2/15022/OEBPS/Images/1/f096e442a454f005ae3e0ad536a53cc4.jpg",
+                "audio": "drm/2/15022/OEBPS/Audio/1/aud4.mp3"
+            },
+            {
+                "page": "drm/2/15022/OEBPS/Images/1/869f34f1b5a8f8d396f2f2076d9756dc.jpg"
+            },
+            {
+                "page": "drm/2/15022/OEBPS/Images/1/a8c8516df332252eb3cd8c8b649ee88a.jpg",
+                "audio": "drm/2/15022/OEBPS/Audio/1/aud6.mp3"
+            },
+            {
+                "page": "drm/2/15022/OEBPS/Images/1/4d1e8b1b68f87c26a5afd7176f97ac0b.jpg"
+            },
+            {
+                "page": "drm/2/15022/OEBPS/Images/1/0cbf0f8caf110ac0058aed483a423a60.jpg",
+                "audio": "drm/2/15022/OEBPS/Audio/1/aud8.mp3"
+            },
+            {
+                "page": "drm/2/15022/OEBPS/Images/1/7d76f447064e899b5f43d0d92163663b.jpg"
+            },
+            {
+                "page": "drm/2/15022/OEBPS/Images/1/17343bc707b8d7c231712ad9675bac0b.jpg",
+                "audio": "drm/2/15022/OEBPS/Audio/1/aud10.mp3"
+            },
+            {
+                "page": "drm/2/15022/OEBPS/Images/1/829313a559adf1750bc36f23e3a2fcb0.jpg"
+            },
+            {
+                "page": "drm/2/15022/OEBPS/Images/1/a56bd7d583e762bcbae67ce5ac8e3f70.jpg",
+                "audio": "drm/2/15022/OEBPS/Audio/1/aud12.mp3"
+            },
+            {
+                "page": "drm/2/15022/OEBPS/Images/1/5cdacbd53e84deda7ea308dad706ccf9.jpg"
+            },
+            {
+                "page": "drm/2/15022/OEBPS/Images/1/08a6c86ef41993b9a798e5da4b8b8b05.jpg",
+                "audio": "drm/2/15022/OEBPS/Audio/1/aud14.mp3"
+            },
+            {
+                "page": "drm/2/15022/OEBPS/Images/1/49a4fb5e0e3dbaf55a978eac6f7dec65.jpg"
+            },
+            {
+                "page": "drm/2/15022/OEBPS/Images/1/169549165ffb4cf5e8540ebc76539366.jpg",
+                "audio": "drm/2/15022/OEBPS/Audio/1/aud16.mp3"
+            },
+            {
+                "page": "drm/2/15022/OEBPS/Images/1/868684e2b6401de204cbbfc80bbe2176.jpg"
+            },
+            {
+                "page": "drm/2/15022/OEBPS/Images/1/2bcd18d2e89739fa7c8276eac3662181.jpg",
+                "audio": "drm/2/15022/OEBPS/Audio/1/aud18.mp3"
+            },
+            {
+                "page": "drm/2/15022/OEBPS/Images/1/303606f1a32dbc2f54fe12266eaba1b3.jpg"
+            },
+            {
+                "page": "drm/2/15022/OEBPS/Images/1/dd6ee4ac5247ec519ed52fdac8713f62.jpg",
+                "audio": "drm/2/15022/OEBPS/Audio/1/aud20.mp3"
+            },
+            {
+                "page": "drm/2/15022/OEBPS/Images/1/7d01b2d264c001572f7ae259af94f233.jpg"
+            },
+            {
+                "page": "drm/2/15022/OEBPS/Images/1/6c74ba886df742e26fafc7625830633e.jpg",
+                "audio": "drm/2/15022/OEBPS/Audio/1/aud22.mp3"
+            },
+            {
+                "page": "drm/2/15022/OEBPS/Images/1/850e214bcee071bbb87b51f71b241b77.jpg"
+            },
+            {
+                "page": "drm/2/15022/OEBPS/Images/1/4b97a4f9d648d4430a16e872009adbd7.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/2/15022/OEBPS/Images/1/81bee0921c857deef449788bafa75197.jpg",
+            "color": "#faf01b"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "15022",
+        "id": "15022",
+        "title": "Super Cute! Baby Dogs",
+        "author": "Kari Schuetz",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Puppies are born in litters and love to wrestle with each other. Learn more about baby dogs and their mothers!",
+        "coverColorR": 126,
+        "coverColorG": 164,
+        "coverColorB": 113,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Bellwether Media",
+        "publisherId": "31",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "360L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 806,
+        "ar": "1.1",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Dogs",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.7233,
+        "contentHash": "7fa0cd830eb932c2e4e4",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372749
+    },
+    "userBook": {
+        "modelId": "46250489-15022",
+        "userId": "46250489",
+        "bookId": "15022",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559303353,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559303353,
+        "book": {
+            "modelId": "15022",
+            "title": "Super Cute! Baby Dogs",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "7fa0cd830eb932c2e4e4"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "170830",
+            "user_id": "16615620",
+            "book_id": "15022",
+            "title": "Super Cute Baby Dogs",
+            "description": "",
+            "date_created": 1517843778,
+            "date_modified": 1520544694,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "quizQuestionChoices": [
+                        {
+                            "correct": 1,
+                            "title": "Two(2)",
+                            "id": 0
+                        },
+                        {
+                            "correct": 0,
+                            "title": "One(1)",
+                            "id": 1
+                        },
+                        {
+                            "correct": 0,
+                            "title": "Three(3)",
+                            "id": 2
+                        },
+                        {
+                            "correct": 0,
+                            "title": "Four(4)",
+                            "id": 3
+                        }
+                    ],
+                    "title": "Baby dogs are called puppies. Dogs can be puppies until the are the age of...",
+                    "id": 0
+                },
+                {
+                    "quizQuestionChoices": [
+                        {
+                            "correct": 1,
+                            "title": "Litters",
+                            "id": 0
+                        },
+                        {
+                            "correct": 0,
+                            "title": "Packs",
+                            "id": 1
+                        },
+                        {
+                            "correct": 0,
+                            "title": "Herd",
+                            "id": 2
+                        },
+                        {
+                            "correct": 0,
+                            "title": "Army",
+                            "id": 3
+                        }
+                    ],
+                    "title": "Puppies are born in________.",
+                    "id": 1
+                },
+                {
+                    "quizQuestionChoices": [
+                        {
+                            "correct": 1,
+                            "title": "Lick",
+                            "id": 0
+                        },
+                        {
+                            "correct": 0,
+                            "title": "Bathe",
+                            "id": 1
+                        },
+                        {
+                            "correct": 0,
+                            "title": "Wipe",
+                            "id": 2
+                        },
+                        {
+                            "correct": 0,
+                            "title": "All are correct",
+                            "id": 3
+                        }
+                    ],
+                    "title": "Young puppies let mom _____ them clean.",
+                    "id": 2
+                },
+                {
+                    "quizQuestionChoices": [
+                        {
+                            "correct": 1,
+                            "title": "Wrestle, bite and scratch ",
+                            "id": 0
+                        },
+                        {
+                            "correct": 0,
+                            "title": "Wrestle, attack",
+                            "id": 1
+                        },
+                        {
+                            "correct": 0,
+                            "title": "Wrestle, plead",
+                            "id": 2
+                        },
+                        {
+                            "correct": 0,
+                            "title": "Wrestle, cry for mom",
+                            "id": 3
+                        }
+                    ],
+                    "title": "Brothers and sisters ________. They _________ ____ _______ to play.",
+                    "id": 3
+                },
+                {
+                    "quizQuestionChoices": [
+                        {
+                            "correct": 1,
+                            "title": "8",
+                            "id": 0
+                        },
+                        {
+                            "correct": 0,
+                            "title": "6",
+                            "id": 1
+                        },
+                        {
+                            "correct": 0,
+                            "title": "6 to 8",
+                            "id": 2
+                        },
+                        {
+                            "correct": 0,
+                            "title": "7",
+                            "id": 3
+                        }
+                    ],
+                    "title": "A puppy can leave mom at ___ weeks old",
+                    "id": 4
+                },
+                {
+                    "quizQuestionChoices": [
+                        {
+                            "correct": 1,
+                            "title": "Bonds",
+                            "id": 0
+                        },
+                        {
+                            "correct": 0,
+                            "title": "Plays",
+                            "id": 1
+                        },
+                        {
+                            "correct": 0,
+                            "title": "Rides around town",
+                            "id": 2
+                        },
+                        {
+                            "correct": 0,
+                            "title": "Sleeps",
+                            "id": 3
+                        }
+                    ],
+                    "title": "A puppy ______ with its owner",
+                    "id": 5
+                }
+            ],
+            "modelId": "170830",
+            "creatorName": "Christian W.",
+            "avatarId": "5",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "16615620",
+                "udid": "5995dae94a9277.05466242",
+                "journalName": "Christian W.",
+                "journalCoverAvatar": "5",
+                "journalCoverColor": "0.94509803921569 0.66274509803922 0.92941176470588 1",
+                "journalFrameImage": "6",
+                "journalCoverImage": "15",
+                "themeId": "4",
+                "code": "279528030",
+                "fid": "",
+                "accountID": "541378E6-5826-1B1B-317E-C20D18610230",
+                "simpleAccountId": "1250666",
+                "pagesFlipped": 6940,
+                "nufComplete": 1,
+                "readingAge": 8.16667,
+                "startingAge": 8,
+                "status": 9,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 6665,
+                "xpLevel": 34,
+                "dateLastLogin": 0,
+                "email": "",
+                "pin": "0815",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "Christian",
+                "lastName": "Wagnon",
+                "accountType": 1,
+                "dateModified": 1558539103
+            }
+        },
+        "quizQuestions": [
+            {
+                "quizQuestionChoices": [
+                    {
+                        "correct": 1,
+                        "title": "Two(2)",
+                        "id": 0
+                    },
+                    {
+                        "correct": 0,
+                        "title": "One(1)",
+                        "id": 1
+                    },
+                    {
+                        "correct": 0,
+                        "title": "Three(3)",
+                        "id": 2
+                    },
+                    {
+                        "correct": 0,
+                        "title": "Four(4)",
+                        "id": 3
+                    }
+                ],
+                "title": "Baby dogs are called puppies. Dogs can be puppies until the are the age of...",
+                "id": 0
+            },
+            {
+                "quizQuestionChoices": [
+                    {
+                        "correct": 1,
+                        "title": "Litters",
+                        "id": 0
+                    },
+                    {
+                        "correct": 0,
+                        "title": "Packs",
+                        "id": 1
+                    },
+                    {
+                        "correct": 0,
+                        "title": "Herd",
+                        "id": 2
+                    },
+                    {
+                        "correct": 0,
+                        "title": "Army",
+                        "id": 3
+                    }
+                ],
+                "title": "Puppies are born in________.",
+                "id": 1
+            },
+            {
+                "quizQuestionChoices": [
+                    {
+                        "correct": 1,
+                        "title": "Lick",
+                        "id": 0
+                    },
+                    {
+                        "correct": 0,
+                        "title": "Bathe",
+                        "id": 1
+                    },
+                    {
+                        "correct": 0,
+                        "title": "Wipe",
+                        "id": 2
+                    },
+                    {
+                        "correct": 0,
+                        "title": "All are correct",
+                        "id": 3
+                    }
+                ],
+                "title": "Young puppies let mom _____ them clean.",
+                "id": 2
+            },
+            {
+                "quizQuestionChoices": [
+                    {
+                        "correct": 1,
+                        "title": "Wrestle, bite and scratch ",
+                        "id": 0
+                    },
+                    {
+                        "correct": 0,
+                        "title": "Wrestle, attack",
+                        "id": 1
+                    },
+                    {
+                        "correct": 0,
+                        "title": "Wrestle, plead",
+                        "id": 2
+                    },
+                    {
+                        "correct": 0,
+                        "title": "Wrestle, cry for mom",
+                        "id": 3
+                    }
+                ],
+                "title": "Brothers and sisters ________. They _________ ____ _______ to play.",
+                "id": 3
+            },
+            {
+                "quizQuestionChoices": [
+                    {
+                        "correct": 1,
+                        "title": "8",
+                        "id": 0
+                    },
+                    {
+                        "correct": 0,
+                        "title": "6",
+                        "id": 1
+                    },
+                    {
+                        "correct": 0,
+                        "title": "6 to 8",
+                        "id": 2
+                    },
+                    {
+                        "correct": 0,
+                        "title": "7",
+                        "id": 3
+                    }
+                ],
+                "title": "A puppy can leave mom at ___ weeks old",
+                "id": 4
+            },
+            {
+                "quizQuestionChoices": [
+                    {
+                        "correct": 1,
+                        "title": "Bonds",
+                        "id": 0
+                    },
+                    {
+                        "correct": 0,
+                        "title": "Plays",
+                        "id": 1
+                    },
+                    {
+                        "correct": 0,
+                        "title": "Rides around town",
+                        "id": 2
+                    },
+                    {
+                        "correct": 0,
+                        "title": "Sleeps",
+                        "id": 3
+                    }
+                ],
+                "title": "A puppy ______ with its owner",
+                "id": 5
+            }
+        ]
+    }
+}

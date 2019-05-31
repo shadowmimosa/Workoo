@@ -1,0 +1,181 @@
+{
+    "publisherData": {
+        "modelId": "28",
+        "name": "Xist Publishing",
+        "url": "http://www.xistpublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539564197
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/63951/OEBPS/Images/1/f26e912679b0d8da616c28b456e226ad.jpg",
+                "audio": "drm/1/63951/OEBPS/Audio/1/9781532409363_01.mp3"
+            },
+            {
+                "page": "drm/1/63951/OEBPS/Images/1/9e0364cb248c04235674fd3667ab13be.jpg",
+                "audio": "drm/1/63951/OEBPS/Audio/1/9781532409363_02.mp3"
+            },
+            {
+                "page": "drm/1/63951/OEBPS/Images/1/68e9e214c69b99987b1c40933c02ccf7.jpg"
+            },
+            {
+                "page": "drm/1/63951/OEBPS/Images/1/07052fba5f11023a4db79a0831ac1958.jpg"
+            },
+            {
+                "page": "drm/1/63951/OEBPS/Images/1/69f750f3093a3cb88b51ee8241fa4e04.jpg",
+                "audio": "drm/1/63951/OEBPS/Audio/1/9781532409363_03.mp3"
+            },
+            {
+                "page": "drm/1/63951/OEBPS/Images/1/2c18f0b1e1edb8cc184677defe213ba3.jpg",
+                "audio": "drm/1/63951/OEBPS/Audio/1/9781532409363_04.mp3"
+            },
+            {
+                "page": "drm/1/63951/OEBPS/Images/1/a1586d3bc26c1463f8a6fa67a1eddcb8.jpg"
+            },
+            {
+                "page": "drm/1/63951/OEBPS/Images/1/48d64ac8a20e10e3273dff59d7c194e1.jpg",
+                "audio": "drm/1/63951/OEBPS/Audio/1/9781532409363_05.mp3"
+            },
+            {
+                "page": "drm/1/63951/OEBPS/Images/1/7a8c0b9b8ea92c3bdb62e4f7652727bb.jpg"
+            },
+            {
+                "page": "drm/1/63951/OEBPS/Images/1/ac341f1ea8dcf57e8ac3d6d20fd6ec00.jpg"
+            },
+            {
+                "page": "drm/1/63951/OEBPS/Images/1/1587b5a07cdc8549ff0fadce1be61bd6.jpg",
+                "audio": "drm/1/63951/OEBPS/Audio/1/9781532409363_06.mp3"
+            },
+            {
+                "page": "drm/1/63951/OEBPS/Images/1/122efbe54eadd7e6e065f88916bcdfa6.jpg",
+                "audio": "drm/1/63951/OEBPS/Audio/1/9781532409363_07.mp3"
+            },
+            {
+                "page": "drm/1/63951/OEBPS/Images/1/d554efe30371f715a3cfe27eebbad7dd.jpg"
+            },
+            {
+                "page": "drm/1/63951/OEBPS/Images/1/d23474075b5f130be0740ceb73e84a06.jpg"
+            },
+            {
+                "page": "drm/1/63951/OEBPS/Images/1/7f37ce81fcef30dfe8d8c6ea1da86a16.jpg",
+                "audio": "drm/1/63951/OEBPS/Audio/1/9781532409363_08.mp3"
+            },
+            {
+                "page": "drm/1/63951/OEBPS/Images/1/ad148efc04881f79d499b89254906dae.jpg"
+            },
+            {
+                "page": "drm/1/63951/OEBPS/Images/1/39640219a97adcc4286ddb710f4c5ccb.jpg",
+                "audio": "drm/1/63951/OEBPS/Audio/1/9781532409363_09.mp3"
+            },
+            {
+                "page": "drm/1/63951/OEBPS/Images/1/b356bd33f7150f9ccba5d7b4ac105db2.jpg",
+                "audio": "drm/1/63951/OEBPS/Audio/1/9781532409363_10.mp3"
+            },
+            {
+                "page": "drm/1/63951/OEBPS/Images/1/4859f11e5cc7ccb6cbe4fd62789a3956.jpg"
+            },
+            {
+                "page": "drm/1/63951/OEBPS/Images/1/1c4cdab76d78842990aabab56a1a149f.jpg",
+                "audio": "drm/1/63951/OEBPS/Audio/1/9781532409363_11.mp3"
+            },
+            {
+                "page": "drm/1/63951/OEBPS/Images/1/2ef30b8e97048f6d639bb2ad4cc07dd4.jpg"
+            },
+            {
+                "page": "drm/1/63951/OEBPS/Images/1/392a45a34587cae77463fb8a996ceadc.jpg"
+            },
+            {
+                "page": "drm/1/63951/OEBPS/Images/1/0cb5df73b77b884456c1d4ad1de20f95.jpg",
+                "audio": "drm/1/63951/OEBPS/Audio/1/9781532409363_12.mp3"
+            },
+            {
+                "page": "drm/1/63951/OEBPS/Images/1/a7ee16d75adb76df863b9f55454e1f22.jpg",
+                "audio": "drm/1/63951/OEBPS/Audio/1/9781532409363_13.mp3"
+            },
+            {
+                "page": "drm/1/63951/OEBPS/Images/1/93b1c6161ed86b8bb050f09070e753b4.jpg"
+            },
+            {
+                "page": "drm/1/63951/OEBPS/Images/1/41a9852538bea3d34c9db5802cccbf88.jpg",
+                "audio": "drm/1/63951/OEBPS/Audio/1/9781532409363_14.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/63951/OEBPS/Images/1/54c04db1ce542871dba269483fdf74cc.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "63951",
+        "id": "63951",
+        "title": "Monsters Move",
+        "author": "Juliana O'Neill",
+        "illustrator": "Adam Pryce",
+        "numPages": 26,
+        "bookDescription": "Funny monsters are ready to move. Can you move like the monsters?",
+        "coverColorR": 147,
+        "coverColorG": 191,
+        "coverColorB": 146,
+        "version": 2147483647,
+        "previewPercent": 20,
+        "publisher": "Xist Publishing",
+        "publisherId": "28",
+        "age": 4,
+        "pageNumOffset": 1,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "--",
+        "avgTimeInt": 0,
+        "ar": "1.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "c",
+        "language": 1,
+        "rating": 75,
+        "type": 1,
+        "subject": "91",
+        "subjectDesc": "Fantasy",
+        "subjectColor": "F54444",
+        "copyright": "",
+        "aspectRatio": 0.6667,
+        "contentHash": "72b1dc5cb4d27dd2485c",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1558484113
+    },
+    "userBook": {
+        "modelId": "46250489-63951",
+        "userId": "46250489",
+        "bookId": "63951",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559307283,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559307283,
+        "book": {
+            "modelId": "63951",
+            "title": "Monsters Move",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "72b1dc5cb4d27dd2485c"
+        }
+    },
+    "quiz": null
+}

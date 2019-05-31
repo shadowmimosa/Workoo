@@ -1,0 +1,156 @@
+{
+    "publisherData": {
+        "modelId": "29",
+        "name": "Lerner Publishing Group",
+        "url": "https://www.lernerbooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1523573683
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/36139/OEBPS/Images/1/BE60EA57-30E0-4A77-B782-32C35CE0121E.jpg"
+            },
+            {
+                "page": "drm/9/36139/OEBPS/Images/1/0E07F422-3667-401B-BAFF-18757C61AA39.jpg"
+            },
+            {
+                "page": "drm/9/36139/OEBPS/Images/1/92319E1A-9012-4458-A3E4-34EE8B1E21F2.jpg"
+            },
+            {
+                "page": "drm/9/36139/OEBPS/Images/1/AC32A570-54C7-4F2A-92C8-FE8DF00F2634.jpg"
+            },
+            {
+                "page": "drm/9/36139/OEBPS/Images/1/3C2C5A01-F3D9-4843-877D-0F77628E8230.jpg"
+            },
+            {
+                "page": "drm/9/36139/OEBPS/Images/1/09A87EF7-569D-4FDC-9470-D9644696D99D.jpg"
+            },
+            {
+                "page": "drm/9/36139/OEBPS/Images/1/02844E1D-54D2-4DD4-80CA-2547D89F6A76.jpg"
+            },
+            {
+                "page": "drm/9/36139/OEBPS/Images/1/782CBDE9-0381-4789-8243-DC7EF3459FD7.jpg"
+            },
+            {
+                "page": "drm/9/36139/OEBPS/Images/1/82C2352D-211F-403E-9BD2-A170AB3462DB.jpg"
+            },
+            {
+                "page": "drm/9/36139/OEBPS/Images/1/17679B4E-D8B1-4C17-A31B-2CF827391B25.jpg"
+            },
+            {
+                "page": "drm/9/36139/OEBPS/Images/1/470F9D8C-8042-41DB-A8AF-00F1A3D3DA02.jpg"
+            },
+            {
+                "page": "drm/9/36139/OEBPS/Images/1/65A3C07B-5DD3-41A1-80BA-7E7F8D69100D.jpg"
+            },
+            {
+                "page": "drm/9/36139/OEBPS/Images/1/D9E0A01B-EB83-4B70-8347-1C2215DB89D4.jpg"
+            },
+            {
+                "page": "drm/9/36139/OEBPS/Images/1/ED575D10-08C2-4396-84DC-3D13B7BA7E5C.jpg"
+            },
+            {
+                "page": "drm/9/36139/OEBPS/Images/1/90741B32-6784-473B-B359-C73DAC06D1E1.jpg"
+            },
+            {
+                "page": "drm/9/36139/OEBPS/Images/1/86328EB2-AEDC-4E9A-BE49-E5A514F3A3AF.jpg"
+            },
+            {
+                "page": "drm/9/36139/OEBPS/Images/1/65EFAF7B-35C3-487B-91FB-DE1D6B63A069.jpg"
+            },
+            {
+                "page": "drm/9/36139/OEBPS/Images/1/A976C648-673E-49BF-A281-71CC8AFF3326.jpg"
+            },
+            {
+                "page": "drm/9/36139/OEBPS/Images/1/E2295323-36EE-4656-BE9E-51E55442AADC.jpg"
+            },
+            {
+                "page": "drm/9/36139/OEBPS/Images/1/131E3D9E-4497-4E5C-9BE9-53768928B50C.jpg"
+            },
+            {
+                "page": "drm/9/36139/OEBPS/Images/1/8D777714-F539-4AFB-B077-62FA7EA89B6B.jpg"
+            },
+            {
+                "page": "drm/9/36139/OEBPS/Images/1/7050E287-E156-42A3-ADC0-82B78ADC2209.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/36139/OEBPS/Images/1/833C6F34-D089-4517-BC96-BA4DC3016F49.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "36139",
+        "id": "36139",
+        "title": "Big Rigs on the Go",
+        "author": "Anne Spaight",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Carefully leveled text and fresh, vibrant photos engage young readers in learning about what big rigs do.",
+        "coverColorR": 130,
+        "coverColorG": 144,
+        "coverColorB": 61,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Lerner Publishing Group",
+        "publisherId": "29",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "380L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 806,
+        "ar": "1.5",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "j",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Things That GO",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 0.9722,
+        "contentHash": "1e1fa1967622e855f2bf",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "0",
+        "panelStatus": 0,
+        "date_modified": 1555373460,
+        "duration": 4
+    },
+    "userBook": {
+        "modelId": "46250489-36139",
+        "userId": "46250489",
+        "bookId": "36139",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311846,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311846,
+        "book": {
+            "modelId": "36139",
+            "title": "Big Rigs on the Go",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "1e1fa1967622e855f2bf"
+        }
+    },
+    "quiz": null
+}

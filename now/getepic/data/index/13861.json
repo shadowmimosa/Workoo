@@ -1,0 +1,176 @@
+{
+    "publisherData": {
+        "modelId": "107",
+        "name": "Rourke Educational Media",
+        "url": "http://rourkeeducationalmedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570193
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/13861/OEBPS/Images/1/a547e3028f1275ceda31211634393f65.jpg",
+                "audio": "drm/1/13861/OEBPS/Audio/1/9e561590e012fdc650662d5fcbb0e87d.mp3"
+            },
+            {
+                "page": "drm/1/13861/OEBPS/Images/1/fd9193c8817f1968e53669d5c3480fe3.jpg",
+                "audio": "drm/1/13861/OEBPS/Audio/1/6d6b3774dc909b09af17219e0d32943b.mp3"
+            },
+            {
+                "page": "drm/1/13861/OEBPS/Images/1/0989f993d3d164928b6c601dee601112.jpg"
+            },
+            {
+                "page": "drm/1/13861/OEBPS/Images/1/60e2d66c1b790a95a4c05d6f69f31a10.jpg",
+                "audio": "drm/1/13861/OEBPS/Audio/1/0472874e3b097dd8be8793af5fe60046.mp3"
+            },
+            {
+                "page": "drm/1/13861/OEBPS/Images/1/61e1e2904f2a2b43350edde99f99e28e.jpg"
+            },
+            {
+                "page": "drm/1/13861/OEBPS/Images/1/ecf905a8bf4cb94f5542468a8c5fdf7b.jpg",
+                "audio": "drm/1/13861/OEBPS/Audio/1/069577281749718652783e05cc2e1dc4.mp3"
+            },
+            {
+                "page": "drm/1/13861/OEBPS/Images/1/e9c7e2349ea08b1b67e8eb818bea6556.jpg"
+            },
+            {
+                "page": "drm/1/13861/OEBPS/Images/1/cd9c83ea2ee32dda661f21b77c8abd1a.jpg",
+                "audio": "drm/1/13861/OEBPS/Audio/1/13af9af2e4ea1382e0c19c9d449aa389.mp3"
+            },
+            {
+                "page": "drm/1/13861/OEBPS/Images/1/eed6167215f9ad1b8f6a912e452e96a4.jpg"
+            },
+            {
+                "page": "drm/1/13861/OEBPS/Images/1/ecd1744cc06162584c3fbef2fc85a458.jpg",
+                "audio": "drm/1/13861/OEBPS/Audio/1/4d568d93ab29d2092e9e7413dfdcd912.mp3"
+            },
+            {
+                "page": "drm/1/13861/OEBPS/Images/1/8989d74023308c6690d2a68ab860ef1c.jpg"
+            },
+            {
+                "page": "drm/1/13861/OEBPS/Images/1/fc6e02fa5fb62410e6b1a2c862a481f4.jpg",
+                "audio": "drm/1/13861/OEBPS/Audio/1/2bb5e37ef76c8742e644da1feab81e20.mp3"
+            },
+            {
+                "page": "drm/1/13861/OEBPS/Images/1/c5f233bc3d87e1f8c46d39f517d1cee9.jpg"
+            },
+            {
+                "page": "drm/1/13861/OEBPS/Images/1/2d1461dcc328e84c1ea683edae17d04f.jpg",
+                "audio": "drm/1/13861/OEBPS/Audio/1/c662007906650bd9f98b637ec2ac1c7b.mp3"
+            },
+            {
+                "page": "drm/1/13861/OEBPS/Images/1/566ae887684aefa80abe1931e8b5d01c.jpg"
+            },
+            {
+                "page": "drm/1/13861/OEBPS/Images/1/d1a2f67d8246fab4bfc146f1d898a545.jpg",
+                "audio": "drm/1/13861/OEBPS/Audio/1/39d309ba738cb111e899807be07c7d2b.mp3"
+            },
+            {
+                "page": "drm/1/13861/OEBPS/Images/1/33785617e3a8ebd92fa3be1a7cabe8cb.jpg"
+            },
+            {
+                "page": "drm/1/13861/OEBPS/Images/1/9c32c6219c864237f947b79b3711aef1.jpg",
+                "audio": "drm/1/13861/OEBPS/Audio/1/24b126ac3d54e9d5c9ad31702271ef2f.mp3"
+            },
+            {
+                "page": "drm/1/13861/OEBPS/Images/1/5e130942707aba9dc87dd08e72b55cd4.jpg"
+            },
+            {
+                "page": "drm/1/13861/OEBPS/Images/1/9326c6005f682c6f86387b1b4d3f9728.jpg",
+                "audio": "drm/1/13861/OEBPS/Audio/1/38e14bcf68dee576d6a8f5df51f3f3e9.mp3"
+            },
+            {
+                "page": "drm/1/13861/OEBPS/Images/1/1ad0164d3f5dae715d0adebf557987f7.jpg"
+            },
+            {
+                "page": "drm/1/13861/OEBPS/Images/1/58d9a6d962d3b5201dc4b660c140816a.jpg",
+                "audio": "drm/1/13861/OEBPS/Audio/1/1526f772d3e50e4c198f1214b9edf1fa.mp3"
+            },
+            {
+                "page": "drm/1/13861/OEBPS/Images/1/4af503c31d447c1dee10140ae3253a65.jpg"
+            },
+            {
+                "page": "drm/1/13861/OEBPS/Images/1/282d6c4857f09a9099596a17802284bb.jpg"
+            },
+            {
+                "page": "drm/1/13861/OEBPS/Images/1/85052d407a567272d5babcc8db5f2bf0.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/13861/OEBPS/Images/1/89fd03d93ce1de57dfb9a4f9735f2053.jpg",
+            "color": "#a7014"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "13861",
+        "id": "13861",
+        "title": "Building With Shapes",
+        "author": "Carla Mooney",
+        "illustrator": " ",
+        "numPages": 25,
+        "bookDescription": "Learn about shapes, and try building new things by combining them!",
+        "coverColorR": 130,
+        "coverColorG": 151,
+        "coverColorB": 148,
+        "version": 1,
+        "previewPercent": 20,
+        "publisher": "Rourke Educational Media",
+        "publisherId": "107",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "330L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 833,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 81,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "76145df5cb14b8b41b2d",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1557335956
+    },
+    "userBook": {
+        "modelId": "46250489-13861",
+        "userId": "46250489",
+        "bookId": "13861",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311019,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311019,
+        "book": {
+            "modelId": "13861",
+            "title": "Building With Shapes",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "76145df5cb14b8b41b2d"
+        }
+    },
+    "quiz": null
+}

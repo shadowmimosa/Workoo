@@ -1,0 +1,537 @@
+{
+    "publisherData": {
+        "modelId": "88",
+        "name": "Flashlight Press with IPG",
+        "url": "http://www.ipgbook.com/flashlight-press-publisher-FLS.php",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1448311664
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/fd8cd3daa00fbee0056498584d9cb895.jpg",
+                "audio": "drm/2/7642/OEBPS/Audio/1/5sec.mp3"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/dfa4f7f7d6dc4dfa8c1d536f6fb23d6c.jpg",
+                "audio": "drm/2/7642/OEBPS/Audio/1/page006.mp3"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/2c7443775668263fa48734129effccb8.jpg"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/35c63527f587ed45de121093c804a6f1.jpg",
+                "audio": "drm/2/7642/OEBPS/Audio/1/page007.mp3"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/cee46a4996f7709638450dabc7bf02fd.jpg",
+                "audio": "drm/2/7642/OEBPS/Audio/1/page008.mp3"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/1c64518800a221164a7241f100ca5e04.jpg",
+                "audio": "drm/2/7642/OEBPS/Audio/1/page009.mp3"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/d66534829e23a14e29e5e0b03004d539.jpg",
+                "audio": "drm/2/7642/OEBPS/Audio/1/page010.mp3"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/c702183065d480d681c257f9479332db.jpg",
+                "audio": "drm/2/7642/OEBPS/Audio/1/page012.mp3"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/633ea9b943fe983352a5d34b67a2a650.jpg"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/53e7e6b07a33f8af2a43e34bfd3a49fa.jpg",
+                "audio": "drm/2/7642/OEBPS/Audio/1/page013.mp3"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/cf670ec18774b4e835102cfb1a21ee22.jpg",
+                "audio": "drm/2/7642/OEBPS/Audio/1/page014.mp3"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/0e0472862dc8d1045a501fda584c51a0.jpg",
+                "audio": "drm/2/7642/OEBPS/Audio/1/page015.mp3"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/ec6e034cbd6ba2a158a357ef738e6525.jpg",
+                "audio": "drm/2/7642/OEBPS/Audio/1/page016.mp3"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/5f1382bca6b3e65daefd6271bc98258b.jpg",
+                "audio": "drm/2/7642/OEBPS/Audio/1/page017.mp3"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/0f149f190554ed1a090913f2027c54f3.jpg",
+                "audio": "drm/2/7642/OEBPS/Audio/1/page018.mp3"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/4dd48c97da303d35518c4da9dc288888.jpg",
+                "audio": "drm/2/7642/OEBPS/Audio/1/page019.mp3"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/cfdf539b3f1f6da046ae07d78f3fd1e9.jpg",
+                "audio": "drm/2/7642/OEBPS/Audio/1/page020.mp3"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/9f35f58868d02a9a2a08b4eb49ed17c3.jpg",
+                "audio": "drm/2/7642/OEBPS/Audio/1/page021.mp3"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/1aaa55edc198e42edc9ce8d285bef341.jpg"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/56245aea37708a61229dc8f37ab6b9d8.jpg",
+                "audio": "drm/2/7642/OEBPS/Audio/1/page023.mp3"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/a95095d0742bda557e039321fe8edc03.jpg",
+                "audio": "drm/2/7642/OEBPS/Audio/1/page024.mp3"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/2e63d3791b90f73542115752af90d67f.jpg",
+                "audio": "drm/2/7642/OEBPS/Audio/1/page025.mp3"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/c8c2bd46aca161a900d4f09afe101740.jpg",
+                "audio": "drm/2/7642/OEBPS/Audio/1/page026.mp3"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/fabe847e914cdfc7ec8e3ae6f2450959.jpg",
+                "audio": "drm/2/7642/OEBPS/Audio/1/page027.mp3"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/76854b239bc42507f836f2f51785be96.jpg",
+                "audio": "drm/2/7642/OEBPS/Audio/1/page028.mp3"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/dd387db12fab513845050b715ae49233.jpg",
+                "audio": "drm/2/7642/OEBPS/Audio/1/page030.mp3"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/69a94c211722c467cd69a834f4ff611b.jpg"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/3a869dacf1a9a3e999eba46964335737.jpg",
+                "audio": "drm/2/7642/OEBPS/Audio/1/page031.mp3"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/b3ee276596b15c4fc436a399202af3af.jpg",
+                "audio": "drm/2/7642/OEBPS/Audio/1/page032.mp3"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/990506c583b3d9016757c06f76da0b68.jpg",
+                "audio": "drm/2/7642/OEBPS/Audio/1/page033.mp3"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/34b8ec1feba9da882035a6bd25eab1a8.jpg",
+                "audio": "drm/2/7642/OEBPS/Audio/1/page034.mp3"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/c1464b290beb9b4b2a12d1ce85b70712.jpg",
+                "audio": "drm/2/7642/OEBPS/Audio/1/page035.mp3"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/ffe5ee208bc7e243f2eec8e41d2898bd.jpg"
+            },
+            {
+                "page": "drm/2/7642/OEBPS/Images/1/c62ba86d289b792b7f73a43c21f2829f.jpg"
+            }
+        ],
+        "extra": {
+            "color": "#fffefe",
+            "copyright": ""
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "7642",
+        "id": "7642",
+        "title": "I Need My Monster",
+        "author": "Amanda Noll",
+        "illustrator": "Howard McWilliam",
+        "numPages": 34,
+        "bookDescription": "One night, when Ethan checks under his bed for his monster, Gabe, he finds a note from him instead: \"Gone fishing. Back in a week.\"",
+        "coverColorR": 53,
+        "coverColorG": 52,
+        "coverColorB": 37,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Flashlight Press with IPG",
+        "publisherId": "88",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "AD600L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 623,
+        "ar": "3.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "91",
+        "subjectDesc": "Science Fiction",
+        "subjectColor": "F54444",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "f9dc0d4e67203cc97f09",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1553620520
+    },
+    "userBook": {
+        "modelId": "46250489-7642",
+        "userId": "46250489",
+        "bookId": "7642",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559307274,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559307274,
+        "book": {
+            "modelId": "7642",
+            "title": "I Need My Monster",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "f9dc0d4e67203cc97f09"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "401683",
+            "user_id": "29855463",
+            "book_id": "7642",
+            "title": "qu78",
+            "description": "",
+            "date_created": 1556892945,
+            "date_modified": 1556892957,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What was the name of the boy's real monster?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Gabe",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Herbert",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Growler",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Frankenstein",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "Why did the boy need a monster?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "His monster went fishing.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "His monster went to the movies.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "His monster went to scare someone else.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "His monster got too old to scare.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Where did the boy's monster live?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Under the boy's bed.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "In the boy's closet.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "In the attic of the boy's house.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "In the cemetery.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What was the boy's name?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Ethan",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Gabe",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Homer",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Jake",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "How long was the boy's monster supposed to be gone?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "A week.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "One day.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "One week.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Two weeks.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "401683",
+            "creatorName": "Xamiyah P.",
+            "avatarId": "38",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "29855463",
+                "udid": "5b915beaa6bc62.83525164",
+                "journalName": "Xamiyah P.",
+                "journalCoverAvatar": "38",
+                "journalCoverColor": "0.11764705882353 0.91764705882353 0.64313725490196 1",
+                "journalFrameImage": "6",
+                "journalCoverImage": "15",
+                "themeId": "3",
+                "code": "882980347",
+                "fid": "",
+                "accountID": "BF20B496-4ACD-4D07-7035-1FFF6910A068",
+                "simpleAccountId": "1074099",
+                "pagesFlipped": 2024,
+                "nufComplete": 1,
+                "readingAge": 6.6,
+                "startingAge": 5,
+                "status": 0,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 1681,
+                "xpLevel": 12,
+                "dateLastLogin": 1558617987,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "Xamiyah",
+                "lastName": "Pinckney",
+                "accountType": 1,
+                "dateModified": 1558707274,
+                "grade": 0
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What was the name of the boy's real monster?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Gabe",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Herbert",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Growler",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Frankenstein",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "Why did the boy need a monster?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "His monster went fishing.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "His monster went to the movies.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "His monster went to scare someone else.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "His monster got too old to scare.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Where did the boy's monster live?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Under the boy's bed.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "In the boy's closet.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "In the attic of the boy's house.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "In the cemetery.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What was the boy's name?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Ethan",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Gabe",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Homer",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Jake",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "How long was the boy's monster supposed to be gone?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "A week.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "One day.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "One week.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Two weeks.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

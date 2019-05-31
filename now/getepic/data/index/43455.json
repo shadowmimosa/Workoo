@@ -1,0 +1,206 @@
+{
+    "publisherData": {
+        "modelId": "44",
+        "name": "National Geographic",
+        "url": "http://kids.nationalgeographic.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491261258
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/DCB1F39F-5EBE-4A78-BA71-26B53F81B97B.jpg",
+                "audio": "drm/5/43455/OEBPS/Audio/1/9781426312908-01.mp3"
+            },
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/A22F2034-88F6-425B-ABB2-13300E123F8C.jpg",
+                "audio": "drm/5/43455/OEBPS/Audio/1/9781426312908-02.mp3"
+            },
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/E10024B7-D483-4BD1-AA57-E0FABCB708F9.jpg",
+                "audio": "drm/5/43455/OEBPS/Audio/1/9781426312908-03.mp3"
+            },
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/3D5715E8-A3ED-4967-BD88-5872B0B1A145.jpg",
+                "audio": "drm/5/43455/OEBPS/Audio/1/9781426312908-04.mp3"
+            },
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/9CC78D4A-065F-4600-BE22-384E26FAD78E.jpg",
+                "audio": "drm/5/43455/OEBPS/Audio/1/9781426312908-05.mp3"
+            },
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/DA745E93-6CE7-415E-B79B-A43FCA181D16.jpg",
+                "audio": "drm/5/43455/OEBPS/Audio/1/9781426312908-06.mp3"
+            },
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/71CA4C20-BB41-448D-B392-6A136A32D964.jpg",
+                "audio": "drm/5/43455/OEBPS/Audio/1/9781426312908-07.mp3"
+            },
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/FBAABD7E-6B16-43B2-8D82-909DE0BD00CF.jpg",
+                "audio": "drm/5/43455/OEBPS/Audio/1/9781426312908-08.mp3"
+            },
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/25AA1A7D-B29A-46BB-87FC-408E814D1A5E.jpg",
+                "audio": "drm/5/43455/OEBPS/Audio/1/9781426312908-09.mp3"
+            },
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/0D6D668A-DE1B-49C0-BB57-C6CA0ADFCDC1.jpg",
+                "audio": "drm/5/43455/OEBPS/Audio/1/9781426312908-10.mp3"
+            },
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/FACF8614-52B1-4E2D-ADD4-6EB464F341FA.jpg",
+                "audio": "drm/5/43455/OEBPS/Audio/1/9781426312908-11.mp3"
+            },
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/99B5ACCD-99BD-4EBA-A0C2-1F67FEFD4F38.jpg",
+                "audio": "drm/5/43455/OEBPS/Audio/1/9781426312908-12.mp3"
+            },
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/D58B8D09-068A-4FE5-BB5B-599B6331AA46.jpg",
+                "audio": "drm/5/43455/OEBPS/Audio/1/9781426312908-13.mp3"
+            },
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/8B21BD9B-8422-4792-B7F6-8DC20037AE01.jpg",
+                "audio": "drm/5/43455/OEBPS/Audio/1/9781426312908-14.mp3"
+            },
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/6947DF83-9548-4D39-9EE8-E4C0D5C0300E.jpg"
+            },
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/60B02E47-0203-4B0E-8B76-EC0041D33CCC.jpg",
+                "audio": "drm/5/43455/OEBPS/Audio/1/9781426312908-15.mp3"
+            },
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/942481E8-8931-4D43-8B9F-2E50C017F7F3.jpg",
+                "audio": "drm/5/43455/OEBPS/Audio/1/9781426312908-16.mp3"
+            },
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/C4EC1989-7150-4371-83E6-C9803057791E.jpg",
+                "audio": "drm/5/43455/OEBPS/Audio/1/9781426312908-17.mp3"
+            },
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/4DC45DC3-6BEC-43EA-8E3A-4BB7BD91CFAB.jpg",
+                "audio": "drm/5/43455/OEBPS/Audio/1/9781426312908-18.mp3"
+            },
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/F634414A-6294-438C-9A16-7AE9F1E08A08.jpg",
+                "audio": "drm/5/43455/OEBPS/Audio/1/9781426312908-19.mp3"
+            },
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/DE9934F6-025C-44B9-8983-E669F51C3191.jpg",
+                "audio": "drm/5/43455/OEBPS/Audio/1/9781426312908-20.mp3"
+            },
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/AFAE9EEF-5D78-4ACF-A9C7-6D1FCFAB6511.jpg",
+                "audio": "drm/5/43455/OEBPS/Audio/1/9781426312908-21.mp3"
+            },
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/7EFDD7A3-38FE-4BB8-B274-FCABF1F07C29.jpg",
+                "audio": "drm/5/43455/OEBPS/Audio/1/9781426312908-22.mp3"
+            },
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/384F8949-0BAE-4104-9D50-D6C42CB3D9EC.jpg",
+                "audio": "drm/5/43455/OEBPS/Audio/1/9781426312908-23.mp3"
+            },
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/2A4C9C86-CBC9-41A7-92DC-838D208D6360.jpg",
+                "audio": "drm/5/43455/OEBPS/Audio/1/9781426312908-24.mp3"
+            },
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/6035FE10-6179-4536-88ED-2E863A89B730.jpg",
+                "audio": "drm/5/43455/OEBPS/Audio/1/9781426312908-25.mp3"
+            },
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/A99CCB3A-5AD0-472E-B568-D5DDD5537183.jpg",
+                "audio": "drm/5/43455/OEBPS/Audio/1/9781426312908-26.mp3"
+            },
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/0D122AAE-902D-4010-9073-7627E34A8B58.jpg",
+                "audio": "drm/5/43455/OEBPS/Audio/1/9781426312908-27.mp3"
+            },
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/BA2CA534-DBE5-4431-AE93-DF0E64ED177C.jpg"
+            },
+            {
+                "page": "drm/5/43455/OEBPS/Images/1/9466203B-23C0-4D8D-B452-EAF23A8B35EE.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/43455/OEBPS/Images/1/D4BCC705-FA32-4F6F-913E-4DF1FBF2A492.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "43455",
+        "id": "43455",
+        "title": "National Geographic Readers: Planes",
+        "author": "Amy Shields",
+        "illustrator": " ",
+        "numPages": 30,
+        "bookDescription": "How cool is a supersonic jet that can zip, dip, and zoom through the air? Or a helicopter that hovers as still as a hummingbird?",
+        "coverColorR": 141,
+        "coverColorG": 183,
+        "coverColorB": 161,
+        "version": 12309,
+        "previewPercent": 10,
+        "publisher": "National Geographic",
+        "publisherId": "44",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "540L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 916,
+        "ar": "2.8",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "i",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Things That GO",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 0.6683,
+        "contentHash": "86747aed0ac70e336b25",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373880
+    },
+    "userBook": {
+        "modelId": "46250489-43455",
+        "userId": "46250489",
+        "bookId": "43455",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311917,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311917,
+        "book": {
+            "modelId": "43455",
+            "title": "National Geographic Readers: Planes",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "86747aed0ac70e336b25"
+        }
+    },
+    "quiz": null
+}

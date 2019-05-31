@@ -1,0 +1,474 @@
+{
+    "publisherData": {
+        "modelId": "2",
+        "name": "Twin Sisters IP, LLC.",
+        "url": "http://www.twinsisters.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1547683900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/5584/OEBPS/Images/1/257b3840d4e29d51bd21cd967fcdd90c.jpg",
+                "audio": "drm/4/5584/OEBPS/Audio/1/d1d6b17eab1a5e0d8952523e2c72f45b.mp3"
+            },
+            {
+                "page": "drm/4/5584/OEBPS/Images/1/cad3d6f3e3a2604c05867e4b411c9f50.jpg",
+                "audio": "drm/4/5584/OEBPS/Audio/1/e5373aefa219f29e3cbcba6d03189a69.mp3"
+            },
+            {
+                "page": "drm/4/5584/OEBPS/Images/1/1903a9ad050db752f2a000802de4396e.jpg",
+                "audio": "drm/4/5584/OEBPS/Audio/1/8c7d8d52662039bf66eaa213f3f3ae2c.mp3"
+            },
+            {
+                "page": "drm/4/5584/OEBPS/Images/1/d2334a7ba1b624a753e07e54902d05cc.jpg",
+                "audio": "drm/4/5584/OEBPS/Audio/1/85426e80822a0aa036062ea2037a1839.mp3"
+            },
+            {
+                "page": "drm/4/5584/OEBPS/Images/1/755cb300ea5f8b30034e3ab0b14904ca.jpg",
+                "audio": "drm/4/5584/OEBPS/Audio/1/e1aad5f72c635139b02c24e72d5fa322.mp3"
+            },
+            {
+                "page": "drm/4/5584/OEBPS/Images/1/78d0683b1b35557f45b54029f7337e4f.jpg",
+                "audio": "drm/4/5584/OEBPS/Audio/1/eea7f3a48db55f067c30472cd9c98198.mp3"
+            },
+            {
+                "page": "drm/4/5584/OEBPS/Images/1/7cd435a154cc5a36a6aa40458bb751ab.jpg",
+                "audio": "drm/4/5584/OEBPS/Audio/1/71714a87e9f16f56348b586c5a930f81.mp3"
+            },
+            {
+                "page": "drm/4/5584/OEBPS/Images/1/bd535d17a6cab7c10acf2c63ffbe0bd1.jpg",
+                "audio": "drm/4/5584/OEBPS/Audio/1/457c82bd7f0576b3d2ca0612b8761f9b.mp3"
+            },
+            {
+                "page": "drm/4/5584/OEBPS/Images/1/1ba5f1048ea7f5959f65b1e26e941cb2.jpg",
+                "audio": "drm/4/5584/OEBPS/Audio/1/0bc5ed984b35a03f5b7c009bbd69d2c2.mp3"
+            },
+            {
+                "page": "drm/4/5584/OEBPS/Images/1/55a31d9bc5ac9a05e64845fa66f1ea4d.jpg",
+                "audio": "drm/4/5584/OEBPS/Audio/1/3508bc976e39ee3775d30a31a4b531c9.mp3"
+            },
+            {
+                "page": "drm/4/5584/OEBPS/Images/1/2c6dde55252146f95984d45396935d24.jpg",
+                "audio": "drm/4/5584/OEBPS/Audio/1/6a529a4e5bd7d93f2c214c03738bc729.mp3"
+            },
+            {
+                "page": "drm/4/5584/OEBPS/Images/1/22690c7d8a8f8da13445995ead5a809e.jpg",
+                "audio": "drm/4/5584/OEBPS/Audio/1/4a39319e1648d27bfe17dc0d1a504584.mp3"
+            },
+            {
+                "page": "drm/4/5584/OEBPS/Images/1/c5a25842e7470bb81f73840fbc022517.jpg",
+                "audio": "drm/4/5584/OEBPS/Audio/1/aabbba1e008f6c35351dae562bfa773c.mp3"
+            },
+            {
+                "page": "drm/4/5584/OEBPS/Images/1/d8443c81a9ec601856082323233f4a69.jpg",
+                "audio": "drm/4/5584/OEBPS/Audio/1/799d7319e43d2e27c009df1b68953d4c.mp3"
+            },
+            {
+                "page": "drm/4/5584/OEBPS/Images/1/1d2479abcef96eb1605def0dacafc725.jpg",
+                "audio": "drm/4/5584/OEBPS/Audio/1/5098b4216e5e12a2d6130fcdba07d750.mp3"
+            },
+            {
+                "page": "drm/4/5584/OEBPS/Images/1/712418fc40538a473d9c5929c2528f00.jpg"
+            },
+            {
+                "page": "drm/4/5584/OEBPS/Images/1/519b4d07fb54feb457c4da564f684180.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/5584/OEBPS/Images/1/ba4267c67b691eeb02d7cf2cee6c4b73.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "5584",
+        "id": "5584",
+        "title": "Hooray! It's Saturday!",
+        "author": "Kim Mitzo Thompson, Karen Mitzo Hilderbrand",
+        "illustrator": "Jenny Williams",
+        "numPages": 17,
+        "bookDescription": "All about the days of the week!",
+        "coverColorR": 171,
+        "coverColorG": 191,
+        "coverColorB": 164,
+        "version": 2,
+        "previewPercent": 20,
+        "publisher": "Twin Sisters IP, LLC.",
+        "publisherId": "2",
+        "age": 4,
+        "pageNumOffset": -1,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 425,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 81,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "ABCs & 123s",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.6672,
+        "contentHash": "d22b6bd8f53c74142010",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1516240379
+    },
+    "userBook": {
+        "modelId": "46250489-5584",
+        "userId": "46250489",
+        "bookId": "5584",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311662,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311662,
+        "book": {
+            "modelId": "5584",
+            "title": "Hooray! It's Saturday!",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "d22b6bd8f53c74142010"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "138335",
+            "user_id": "12713855",
+            "book_id": "5584",
+            "title": "Hooray! It\u2019s Saturday!",
+            "description": "",
+            "date_created": 1509583142,
+            "date_modified": 1513282807,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What day is her favorite day?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Saturday",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Sunday",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Friday",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Wednesday",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What do they do on Sunday?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "They go to the park.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "They play basketball.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "They watch movies.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "They play all day.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What does she do on Tuesday?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "She has a piano lesson.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "She goes to the grocery store.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "She  plays basketball.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "She has a violin lesson.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "When do her mother and grandmother go to the grocery store?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Thursday",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Friday",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Wednesday",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Saturday",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Who plays basketball on Wednesday?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Her brother.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Her sister.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Her father.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Her mother.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "138335",
+            "creatorName": "Mrs. \u00e9\u2122\u00b3",
+            "avatarId": "77",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "12713855",
+                "udid": "587626aec51c04.63689103",
+                "journalName": "Mrs. \u9673",
+                "journalCoverAvatar": "77",
+                "journalCoverColor": "0.97254901960784 0.84313725490196 0.38823529411765 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "575458820",
+                "fid": "",
+                "accountID": "F9426A16-BCFB-08EB-1AA3-9CAB1BA44F21",
+                "simpleAccountId": "4253274",
+                "pagesFlipped": 6980,
+                "nufComplete": 1,
+                "readingAge": 6.73333,
+                "startingAge": 7,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 146,
+                "xpLevel": 2,
+                "dateLastLogin": 1552637356,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "\u79cb\u7d05",
+                "lastName": "\u9673",
+                "accountType": 1,
+                "dateModified": 1552637356,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. \u9673"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What day is her favorite day?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Saturday",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Sunday",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Friday",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Wednesday",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What do they do on Sunday?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "They go to the park.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "They play basketball.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "They watch movies.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "They play all day.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What does she do on Tuesday?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "She has a piano lesson.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "She goes to the grocery store.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "She  plays basketball.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "She has a violin lesson.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "When do her mother and grandmother go to the grocery store?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Thursday",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Friday",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Wednesday",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Saturday",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Who plays basketball on Wednesday?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Her brother.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Her sister.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Her father.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Her mother.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

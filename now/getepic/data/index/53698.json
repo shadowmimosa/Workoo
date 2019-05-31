@@ -1,0 +1,194 @@
+{
+    "publisherData": {
+        "modelId": "90336",
+        "name": "Live Oak Media provided by Lerner Publishing Group",
+        "url": "https://www.lernerbooks.com/About-Lerner/Pages/LiveOakMedia.aspx",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1528852493
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/53698/OEBPS/Images/1/8c2ffe8bd8b9aae92f59badf04e3159c.jpg",
+                "audio": "drm/8/53698/OEBPS/Audio/1/Page 1.mp3"
+            },
+            {
+                "page": "drm/8/53698/OEBPS/Images/1/55d06e30e02c4bed24390f3957ef40a1.jpg",
+                "audio": "drm/8/53698/OEBPS/Audio/1/Page 4.mp3"
+            },
+            {
+                "page": "drm/8/53698/OEBPS/Images/1/3b12553a2029e5c7a20196d1081f8790.jpg",
+                "audio": "drm/8/53698/OEBPS/Audio/1/Page 5.mp3"
+            },
+            {
+                "page": "drm/8/53698/OEBPS/Images/1/0e90867664dc13cb08d99cd638462079.jpg"
+            },
+            {
+                "page": "drm/8/53698/OEBPS/Images/1/10dc983ead6174f1361d3fa038a5324d.jpg",
+                "audio": "drm/8/53698/OEBPS/Audio/1/Page 7.mp3"
+            },
+            {
+                "page": "drm/8/53698/OEBPS/Images/1/8bb78a7dc5808f02f42af5432a24aeda.jpg",
+                "audio": "drm/8/53698/OEBPS/Audio/1/Page 8.mp3"
+            },
+            {
+                "page": "drm/8/53698/OEBPS/Images/1/eecbcd120e286617755fd362df604870.jpg"
+            },
+            {
+                "page": "drm/8/53698/OEBPS/Images/1/ffacc77470b89d8ede6c888939c69b31.jpg",
+                "audio": "drm/8/53698/OEBPS/Audio/1/Page 10.mp3"
+            },
+            {
+                "page": "drm/8/53698/OEBPS/Images/1/62cd3f5470901ee225acbd00d4684a81.jpg"
+            },
+            {
+                "page": "drm/8/53698/OEBPS/Images/1/2f264ea89ebf2b8e39ffeb7b37d24c89.jpg",
+                "audio": "drm/8/53698/OEBPS/Audio/1/Page 12.mp3"
+            },
+            {
+                "page": "drm/8/53698/OEBPS/Images/1/664222a796fa8c850b3d0e5ac89d90f3.jpg",
+                "audio": "drm/8/53698/OEBPS/Audio/1/Page 13.mp3"
+            },
+            {
+                "page": "drm/8/53698/OEBPS/Images/1/ab9baee11d1eadae1e2aa59ea6295ae4.jpg",
+                "audio": "drm/8/53698/OEBPS/Audio/1/Page 14.mp3"
+            },
+            {
+                "page": "drm/8/53698/OEBPS/Images/1/e731ff20cd7ae34b9b6d8a1c40679e36.jpg"
+            },
+            {
+                "page": "drm/8/53698/OEBPS/Images/1/009d21b59699c8d0bb7af87b2035c975.jpg",
+                "audio": "drm/8/53698/OEBPS/Audio/1/Page 16.mp3"
+            },
+            {
+                "page": "drm/8/53698/OEBPS/Images/1/2016f2e94277794c48fe5f0c147c6db2.jpg"
+            },
+            {
+                "page": "drm/8/53698/OEBPS/Images/1/ea5f64042d3372732f163634898191c0.jpg",
+                "audio": "drm/8/53698/OEBPS/Audio/1/Page 18.mp3"
+            },
+            {
+                "page": "drm/8/53698/OEBPS/Images/1/2f9c919ffe917c95294a8385e9a47fbc.jpg",
+                "audio": "drm/8/53698/OEBPS/Audio/1/Page 19.mp3"
+            },
+            {
+                "page": "drm/8/53698/OEBPS/Images/1/ec31542dca64799fbadb15ab97b81d06.jpg"
+            },
+            {
+                "page": "drm/8/53698/OEBPS/Images/1/78bc17bc231de07b2a5198440ea841a9.jpg",
+                "audio": "drm/8/53698/OEBPS/Audio/1/Page 21.mp3"
+            },
+            {
+                "page": "drm/8/53698/OEBPS/Images/1/967fd131030cfda357ed4f61447e9522.jpg",
+                "audio": "drm/8/53698/OEBPS/Audio/1/Page 22.mp3"
+            },
+            {
+                "page": "drm/8/53698/OEBPS/Images/1/554845e65136ea95eb5078c183767857.jpg"
+            },
+            {
+                "page": "drm/8/53698/OEBPS/Images/1/d46a3854d15a7ec1f146fa82fa439de9.jpg",
+                "audio": "drm/8/53698/OEBPS/Audio/1/Page 24.mp3"
+            },
+            {
+                "page": "drm/8/53698/OEBPS/Images/1/4336a70e57659a3a24278f16ab5aeef5.jpg"
+            },
+            {
+                "page": "drm/8/53698/OEBPS/Images/1/c5afb28d1a0f4539e457c2aac22bad02.jpg"
+            },
+            {
+                "page": "drm/8/53698/OEBPS/Images/1/1d65806e70cd885190cba9139aec3af7.jpg",
+                "audio": "drm/8/53698/OEBPS/Audio/1/Page 27.mp3"
+            },
+            {
+                "page": "drm/8/53698/OEBPS/Images/1/8ffda9a5d3f0cc0276b8560a5ef44b3f.jpg",
+                "audio": "drm/8/53698/OEBPS/Audio/1/Page 28.mp3"
+            },
+            {
+                "page": "drm/8/53698/OEBPS/Images/1/005b69dae5015783ac2f53a1158229b3.jpg"
+            },
+            {
+                "page": "drm/8/53698/OEBPS/Images/1/87573577cd858f0d0ce7bb9a7b175939.jpg",
+                "audio": "drm/8/53698/OEBPS/Audio/1/Page 30.mp3"
+            },
+            {
+                "page": "drm/8/53698/OEBPS/Images/1/b21812ec31e6ceaab6cb30b8f32ee090.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/53698/OEBPS/Images/1/3865d6d6d8717574c0f7d4eed30d0cbc.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "53698",
+        "id": "53698",
+        "title": "A Picture Book of George Washington",
+        "author": "David A. Adler",
+        "illustrator": "John Wallner",
+        "numPages": 29,
+        "bookDescription": "A lively fife and drum playing Yankee-Doodle-Dandy welcome the listener.",
+        "coverColorR": 200,
+        "coverColorG": 207,
+        "coverColorB": 148,
+        "version": 858927445,
+        "previewPercent": 20,
+        "publisher": "Live Oak Media provided by Lerner Publishing Group",
+        "publisherId": "90336",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 483,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "85",
+        "subjectDesc": "People",
+        "subjectColor": "E63463",
+        "copyright": "",
+        "aspectRatio": 1.5088,
+        "contentHash": "2460b9e087bbf3080560",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1557781095
+    },
+    "userBook": {
+        "modelId": "46250489-53698",
+        "userId": "46250489",
+        "bookId": "53698",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559305099,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559305099,
+        "book": {
+            "modelId": "53698",
+            "title": "A Picture Book of George Washington",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "2460b9e087bbf3080560"
+        }
+    },
+    "quiz": null
+}

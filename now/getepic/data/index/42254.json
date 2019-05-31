@@ -1,0 +1,179 @@
+{
+    "publisherData": {
+        "modelId": "82",
+        "name": "Holiday House",
+        "url": "http://www.holidayhouse.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260666
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/2DF020A3-1F87-45D4-AEBB-8B3887386AB4.jpg"
+            },
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/0B6C65FB-FCA6-4E44-B574-B15AF041CC41.jpg"
+            },
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/07469890-BA68-4C43-A061-7364441A45A7.jpg"
+            },
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/6BE9C032-7A2E-44AA-99F1-A838024F2661.jpg"
+            },
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/258CD340-77B7-45BB-A0DA-951F3B7C58C8.jpg"
+            },
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/9DAA91E0-522C-455A-A50E-CB15548FE035.jpg"
+            },
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/CE1B98FE-0D2F-450A-89FD-4BBBB7231B01.jpg"
+            },
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/8601C08B-6B9B-4686-9AEB-1AC395826055.jpg"
+            },
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/79942492-910C-4F65-8856-56F32FCD680E.jpg"
+            },
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/83FE33C7-E62F-42CD-A5B6-D9EF31CD8E80.jpg"
+            },
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/D5356ACC-126B-43E1-8D0B-B1010EC38949.jpg"
+            },
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/297B6FDF-8199-4EE8-A6BD-A309AC075183.jpg"
+            },
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/FDF36794-E093-4AB7-BBCE-1B4A60243346.jpg"
+            },
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/992DA415-CE0A-47D1-A072-19B554BABBEA.jpg"
+            },
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/9F512A8A-23A0-4409-A524-8E811C869F6B.jpg"
+            },
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/A24482C9-8B60-4710-8B07-5368CCD5B016.jpg"
+            },
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/F2AAA8A1-125A-4F0A-A26A-7ADECAA2F910.jpg"
+            },
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/70AFCDF8-5E30-4248-92DC-CDF7E1F3FC72.jpg"
+            },
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/EC1D9C6E-BCFA-4D21-9D96-8AFAF92F4A3E.jpg"
+            },
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/1AB4FD09-4A80-41B9-B1B7-891DB353AE7F.jpg"
+            },
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/3B6A6CE2-7951-4335-809C-7F26062E4259.jpg"
+            },
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/84494E3B-E28C-40DA-B17A-21A55A9277A3.jpg"
+            },
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/7EC2DA33-53A1-400C-B7DF-777FA2CEAA78.jpg"
+            },
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/FEACCA13-435A-45D6-A7B1-C32DF9B52861.jpg"
+            },
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/3A6EE460-274A-4D4A-B600-0B0FD1B628B5.jpg"
+            },
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/60DEDB3B-AFF4-4130-8E36-6884EBE6B7D9.jpg"
+            },
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/B7F78B68-828F-494D-AE68-C9B5625C3725.jpg"
+            },
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/36E5D755-10FD-40D7-9E54-88FF22E508DD.jpg"
+            },
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/16D526B4-7194-488B-8362-AABA9D1D2CF8.jpg"
+            },
+            {
+                "page": "drm/4/42254/OEBPS/Images/1/D1984B9B-8D89-4385-96C7-4B8008CD9FBC.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/42254/OEBPS/Images/1/2E6646F8-D581-402D-9BB0-BE4DF152884B.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "42254",
+        "id": "42254",
+        "title": "My Dog, Bob",
+        "author": "Richard Torrey",
+        "illustrator": " ",
+        "numPages": 30,
+        "bookDescription": "Mimi's dog Truffles can fetch and sit and speak on command. Bob doesn't do any of those things. But he sure can make a great pizza!",
+        "coverColorR": 233,
+        "coverColorG": 224,
+        "coverColorB": 197,
+        "version": 0,
+        "previewPercent": 10,
+        "publisher": "Holiday House",
+        "publisherId": "82",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "320L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 500,
+        "ar": "1.2",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Dogs",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.7875,
+        "contentHash": "d2ca101b882f4b436411",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1513382446
+    },
+    "userBook": {
+        "modelId": "46250489-42254",
+        "userId": "46250489",
+        "bookId": "42254",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559309972,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559309972,
+        "book": {
+            "modelId": "42254",
+            "title": "My Dog, Bob",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "d2ca101b882f4b436411"
+        }
+    },
+    "quiz": null
+}

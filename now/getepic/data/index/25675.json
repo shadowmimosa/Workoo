@@ -1,0 +1,464 @@
+{
+    "publisherData": {
+        "modelId": "91",
+        "name": "ABDO Publishing",
+        "url": "http://abdopublishing.com//",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570820
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/25675/OEBPS/Images/1/843FC980-F3DA-4CFC-A13F-D295F2621948.jpg"
+            },
+            {
+                "page": "drm/5/25675/OEBPS/Images/1/7CFEDDC6-5459-4E4B-821B-74EBC6133DFB.jpg",
+                "audio": "drm/5/25675/OEBPS/Audio/1/page6.mp3"
+            },
+            {
+                "page": "drm/5/25675/OEBPS/Images/1/D9CA5240-B428-41E3-B54B-1D2C39D61658.jpg"
+            },
+            {
+                "page": "drm/5/25675/OEBPS/Images/1/60F4E83D-9D26-4F87-9CBA-CAA7AB41B51D.jpg",
+                "audio": "drm/5/25675/OEBPS/Audio/1/page8.mp3"
+            },
+            {
+                "page": "drm/5/25675/OEBPS/Images/1/8B144D35-EBE1-4672-9D5F-8BF7E65A7AB5.jpg"
+            },
+            {
+                "page": "drm/5/25675/OEBPS/Images/1/531B2553-AC60-48F2-A75C-067F8CE3AAB8.jpg"
+            },
+            {
+                "page": "drm/5/25675/OEBPS/Images/1/4D261BA8-8B49-4237-B6C2-0BCF6652DB82.jpg"
+            },
+            {
+                "page": "drm/5/25675/OEBPS/Images/1/1388C3F4-60E9-4A5B-8DC7-1C1C17F076B9.jpg",
+                "audio": "drm/5/25675/OEBPS/Audio/1/page12.mp3"
+            },
+            {
+                "page": "drm/5/25675/OEBPS/Images/1/9A61ED61-0B57-485D-BC2E-FF005475740F.jpg",
+                "audio": "drm/5/25675/OEBPS/Audio/1/page13.mp3"
+            },
+            {
+                "page": "drm/5/25675/OEBPS/Images/1/8649DC1D-EE7D-4BBD-86EE-1CDEAD7685FE.jpg",
+                "audio": "drm/5/25675/OEBPS/Audio/1/page14.mp3"
+            },
+            {
+                "page": "drm/5/25675/OEBPS/Images/1/E4ABDEB8-E7B0-422E-9F93-EC9F59DA769F.jpg"
+            },
+            {
+                "page": "drm/5/25675/OEBPS/Images/1/4F62ABAC-763F-4E43-B28A-1EBE904AF3D1.jpg",
+                "audio": "drm/5/25675/OEBPS/Audio/1/page16.mp3"
+            },
+            {
+                "page": "drm/5/25675/OEBPS/Images/1/D98AF47A-4186-44BA-A783-3F97E5E4FB3A.jpg"
+            },
+            {
+                "page": "drm/5/25675/OEBPS/Images/1/0957B501-6DB3-4FDD-8F1D-383D7D8C867B.jpg",
+                "audio": "drm/5/25675/OEBPS/Audio/1/page18.mp3"
+            },
+            {
+                "page": "drm/5/25675/OEBPS/Images/1/4AF76453-7B58-458E-B060-8ECF39819C5D.jpg"
+            },
+            {
+                "page": "drm/5/25675/OEBPS/Images/1/32CD9645-6E63-468E-8EBC-FCD1408CDF41.jpg",
+                "audio": "drm/5/25675/OEBPS/Audio/1/page20.mp3"
+            },
+            {
+                "page": "drm/5/25675/OEBPS/Images/1/519BBD5B-C3AD-4FBD-B573-85D3F8F0A46F.jpg"
+            },
+            {
+                "page": "drm/5/25675/OEBPS/Images/1/9D0FECF3-89CC-4C4A-B1FF-9ABEA0990B5A.jpg",
+                "audio": "drm/5/25675/OEBPS/Audio/1/page22.mp3"
+            },
+            {
+                "page": "drm/5/25675/OEBPS/Images/1/949852FF-C2F5-4FB0-8BAA-8D0D89492A56.jpg"
+            },
+            {
+                "page": "drm/5/25675/OEBPS/Images/1/03756B8D-6141-4D80-8418-C9AD249E732F.jpg",
+                "audio": "drm/5/25675/OEBPS/Audio/1/page24.mp3"
+            },
+            {
+                "page": "drm/5/25675/OEBPS/Images/1/6F39FC36-4AE7-4F2D-9E40-F07193BFE3A0.jpg"
+            },
+            {
+                "page": "drm/5/25675/OEBPS/Images/1/7031D0C9-2394-4B35-A725-B925D29FD7DA.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/25675/OEBPS/Images/1/B4653AE0-8EE4-4F81-8277-721F7D9B2F7A.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "25675",
+        "id": "25675",
+        "title": "Chickens",
+        "author": "Julie Murray",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Readers will learn about one of their favorite farm animals--chickens!",
+        "coverColorR": 207,
+        "coverColorG": 213,
+        "coverColorB": 198,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "ABDO Publishing",
+        "publisherId": "91",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "60L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 366,
+        "ar": "1.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Farm Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.0582,
+        "contentHash": "3c7cb19e34df15f5b206",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373040
+    },
+    "userBook": {
+        "modelId": "46250489-25675",
+        "userId": "46250489",
+        "bookId": "25675",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559312070,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559312070,
+        "book": {
+            "modelId": "25675",
+            "title": "Chickens",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "3c7cb19e34df15f5b206"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "68495",
+            "user_id": "13464653",
+            "book_id": "25675",
+            "title": "Chickens",
+            "description": "",
+            "date_created": 1490096040,
+            "date_modified": 1490096165,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Where do chickens live?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "farm",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "house",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "grassland",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "forest",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "True or False? Chickens can be many colors.",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "True",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "False",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Chickens have a red _________ and __________",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "wattle and comb",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "comb and brush",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "beard and hair",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "beak and comb",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Chickens stay in a coop to keep them ________?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "safe",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "warm",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "cool",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "together",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Chickens may eat grains, grass, and __________.",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "bugs",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "leaves",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "seeds",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "trees",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "68495",
+            "creatorName": "Mrs. Paulson",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "13464653",
+                "udid": "58a0f04aaf93d8.94064855",
+                "journalName": "Mrs. Paulson",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "1 0.67843137254902 0.26274509803922 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "413155296",
+                "fid": "",
+                "accountID": "3E379CBB-CB08-9961-6D24-7CAC84F2ECBA",
+                "simpleAccountId": "4457643",
+                "pagesFlipped": 2974,
+                "nufComplete": 1,
+                "readingAge": 6.7666666666667,
+                "startingAge": 6,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 39,
+                "xpLevel": 2,
+                "dateLastLogin": 1557491705,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Angie",
+                "lastName": "Paulson",
+                "accountType": 1,
+                "dateModified": 1559224556,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Paulson"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Where do chickens live?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "farm",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "house",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "grassland",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "forest",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "True or False? Chickens can be many colors.",
+                "quizQuestionChoices": [
+                    {
+                        "title": "True",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "False",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Chickens have a red _________ and __________",
+                "quizQuestionChoices": [
+                    {
+                        "title": "wattle and comb",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "comb and brush",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "beard and hair",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "beak and comb",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Chickens stay in a coop to keep them ________?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "safe",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "warm",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "cool",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "together",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Chickens may eat grains, grass, and __________.",
+                "quizQuestionChoices": [
+                    {
+                        "title": "bugs",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "leaves",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "seeds",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "trees",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

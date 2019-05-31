@@ -1,0 +1,185 @@
+{
+    "publisherData": {
+        "modelId": "10",
+        "name": "Kids Can Press",
+        "url": "http://www.kidscanpress.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539816186
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/0db8ac4ba3d88f8cd45a37d1245d1958.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/b91e5d3bd7bba9c10cba01bd3c4b0b52.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/d839431b0e315c9ff96178f1500e0ac0.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/a38bf3b44553f3111a002acb0d9ca136.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/b5275141d11f28371a8f0dd28f00f524.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/8df7235e012388aabd4adb6f00078e8e.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/fb7543c441772dab3d62f8d42f2ead35.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/05586705cb726c4620b5524990994c1f.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/7c3a0e7a8593855885d589131c28e662.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/1b0074b008c28115b586731b77ea1902.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/f4ac65109baa2c8a72a2eaaa66be63a1.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/b033f5e1624a93456a8a0081be0255ba.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/aa6a53e6271568c532000d17e5a7a070.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/cd24eb6c6ccf4f386a3e4d1e9aa30355.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/c20b60ac1da4e2f619431fd0c8a27a1f.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/96dd0cf7cd105091578208f6e880248a.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/dade44ec33682a8159b64ff06c6e11d1.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/c9492f2ab46d5b952119dcc576c31fc3.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/d997cdae6cce5cbedc24b2507b3fa210.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/bfbb0b78df60113e4c13c605fef25130.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/e7908affacbbd03d894b35b1fcdd0cae.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/58c44da3163501e433d81a356be3ceac.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/41b0e9795b25fedf6d4f5ce3c4f29930.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/7683a4a7d9a750a0a6a8174f53646da4.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/64ba76952cf8754cb7e051c9b92df4b5.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/36a7157129e31c94763747d50f423caf.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/bdd2ea5591b26d97ba52cc5cb91d8f7e.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/063e7c37108e050b7a6b80c4fe0e7994.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/e795d9da91e9134579136332cc485122.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/16f1aa2355de8069a84d9c01cb2b2064.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/d623e74d23912c2af6a3b41885b39592.jpg"
+            },
+            {
+                "page": "drm/4/46584/OEBPS/Images/1/63f586c51d72fe3fe564ecdc0b286a96.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/46584/OEBPS/Images/1/4a2daf34dac6e69d98c931795a8498b5.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "46584",
+        "id": "46584",
+        "title": "Different? Same!",
+        "author": "Heather Tekavec",
+        "illustrator": "Pippa Curnick",
+        "numPages": 32,
+        "bookDescription": "The zebra gallops, the bumblebee flies, the lemur leaps and the tiger prowls \u2014 \u201cBut look closer now \u2026 We all have STRIPES!\u201d",
+        "coverColorR": 185,
+        "coverColorG": 195,
+        "coverColorB": 188,
+        "version": 12309,
+        "previewPercent": 20,
+        "publisher": "Kids Can Press",
+        "publisherId": "10",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "300L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 586,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Wild Things",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.1111,
+        "contentHash": "24a80319d03dacc1e99d",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1556300580
+    },
+    "userBook": {
+        "modelId": "46250489-46584",
+        "userId": "46250489",
+        "bookId": "46584",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310728,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310728,
+        "book": {
+            "modelId": "46584",
+            "title": "Different? Same!",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "24a80319d03dacc1e99d"
+        }
+    },
+    "quiz": null
+}

@@ -1,0 +1,155 @@
+{
+    "publisherData": {
+        "modelId": "90232",
+        "name": "The Creative Company",
+        "url": "http://www.thecreativecompany.us/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260095
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/39448/OEBPS/Images/1/7D56B610-A2A5-40DF-992A-9F953A5CB2FC.jpg"
+            },
+            {
+                "page": "drm/8/39448/OEBPS/Images/1/3C39B648-6539-4261-9EBF-9A1474D85C7A.jpg"
+            },
+            {
+                "page": "drm/8/39448/OEBPS/Images/1/39ED406D-D22D-4081-A88D-509F752995D7.jpg"
+            },
+            {
+                "page": "drm/8/39448/OEBPS/Images/1/35BED6BC-4D4D-4A71-A7EE-B08F2E35E475.jpg"
+            },
+            {
+                "page": "drm/8/39448/OEBPS/Images/1/C7AAFCB8-CFB5-459A-A927-2C0CEBF49156.jpg"
+            },
+            {
+                "page": "drm/8/39448/OEBPS/Images/1/28510AF8-1D5A-45F7-8DB1-E4BC75B5BB72.jpg"
+            },
+            {
+                "page": "drm/8/39448/OEBPS/Images/1/E7A7B80B-96C1-47E8-BE61-EBB292AF0246.jpg"
+            },
+            {
+                "page": "drm/8/39448/OEBPS/Images/1/AC913AF5-0624-4C40-AA07-BE973FBF0CB7.jpg"
+            },
+            {
+                "page": "drm/8/39448/OEBPS/Images/1/68FB8418-5301-4803-915E-A3C57C0B27E1.jpg"
+            },
+            {
+                "page": "drm/8/39448/OEBPS/Images/1/E861285C-2215-407B-9515-6FAC57FD631A.jpg"
+            },
+            {
+                "page": "drm/8/39448/OEBPS/Images/1/A1363909-4D26-45FF-8C01-15D5985532D7.jpg"
+            },
+            {
+                "page": "drm/8/39448/OEBPS/Images/1/EA3F5341-E073-440A-BED8-54408E1838DF.jpg"
+            },
+            {
+                "page": "drm/8/39448/OEBPS/Images/1/6AED8363-BFD2-4B20-87C0-D38FEF42E5CD.jpg"
+            },
+            {
+                "page": "drm/8/39448/OEBPS/Images/1/ADE4B555-4B62-47A0-A025-20E5DD212786.jpg"
+            },
+            {
+                "page": "drm/8/39448/OEBPS/Images/1/BFD59411-A94B-441E-A191-2FC6908F2970.jpg"
+            },
+            {
+                "page": "drm/8/39448/OEBPS/Images/1/DD19ACCA-A84B-49ED-BC12-92B8C33B2958.jpg"
+            },
+            {
+                "page": "drm/8/39448/OEBPS/Images/1/41C2C04B-C2FF-41EB-806E-0A1E0D84C7EC.jpg"
+            },
+            {
+                "page": "drm/8/39448/OEBPS/Images/1/82FBAB67-6D7D-4462-A80B-689A16F430F7.jpg"
+            },
+            {
+                "page": "drm/8/39448/OEBPS/Images/1/DCA46605-07CE-43DC-AF3B-D90D6FDD4D33.jpg"
+            },
+            {
+                "page": "drm/8/39448/OEBPS/Images/1/139D21E5-B657-406C-A78E-616D904D3347.jpg"
+            },
+            {
+                "page": "drm/8/39448/OEBPS/Images/1/35084955-A414-43D6-8C1F-33278347A257.jpg"
+            },
+            {
+                "page": "drm/8/39448/OEBPS/Images/1/39934752-95F7-45BB-9E88-0C1BD2D00E53.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/39448/OEBPS/Images/1/059F77FD-9BFD-408C-A436-443274DBAED6.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "39448",
+        "id": "39448",
+        "title": "Pickup Trucks",
+        "author": "Kate Riggs",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "A kindergarten-level introduction to pickup trucks.",
+        "coverColorR": 128,
+        "coverColorG": 116,
+        "coverColorB": 120,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "The Creative Company",
+        "publisherId": "90232",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "330L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 366,
+        "ar": "1.5",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Things That GO",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 0.9556,
+        "contentHash": "1d2c444abfc85b29cce8",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1555373693
+    },
+    "userBook": {
+        "modelId": "46250489-39448",
+        "userId": "46250489",
+        "bookId": "39448",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311978,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311978,
+        "book": {
+            "modelId": "39448",
+            "title": "Pickup Trucks",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "1d2c444abfc85b29cce8"
+        }
+    },
+    "quiz": null
+}

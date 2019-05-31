@@ -1,0 +1,549 @@
+{
+    "publisherData": {
+        "modelId": "94",
+        "name": "Sleeping Bear Press",
+        "url": "http://sleepingbearpress.com",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491261794
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/9986c1808a64cca04205a61fa567d59d.jpg"
+            },
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/67aad7e6aaa8c2cbbc4968b344d733ff.jpg",
+                "audio": "drm/5/11595/OEBPS/Audio/1/aud6.mp3"
+            },
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/c298ff8e8c1ac7d2d68fa979b125dc77.jpg"
+            },
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/687ed13585b6dc44afff944ea485289b.jpg",
+                "audio": "drm/5/11595/OEBPS/Audio/1/aud8.mp3"
+            },
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/c6d3240e4c5c35bb52e94ffdbd82fd8d.jpg"
+            },
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/9328bc0c7959b89f4653d6837614d54e.jpg"
+            },
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/db4c9a29511a6c220a94b8bd5f57e1e7.jpg",
+                "audio": "drm/5/11595/OEBPS/Audio/1/aud11.mp3"
+            },
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/4489979f07c1e11b8d4cc5073276d18c.jpg",
+                "audio": "drm/5/11595/OEBPS/Audio/1/aud12.mp3"
+            },
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/1f917455e605032e4788d2bfa6f4e335.jpg",
+                "audio": "drm/5/11595/OEBPS/Audio/1/aud13.mp3"
+            },
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/ec584000d2abb0066b5ff10c832922f1.jpg",
+                "audio": "drm/5/11595/OEBPS/Audio/1/aud14.mp3"
+            },
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/2c51b82b6128e0f7a61cb3b8ad086b9a.jpg"
+            },
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/cc8708e087af965936972c64e35e8a3d.jpg"
+            },
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/43865117459ebe9a80dbbb9027b84a6e.jpg",
+                "audio": "drm/5/11595/OEBPS/Audio/1/aud17.mp3"
+            },
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/75bca9515a89d7a4269eb3d311dd6aab.jpg",
+                "audio": "drm/5/11595/OEBPS/Audio/1/aud18.mp3"
+            },
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/d9729335f0af17f84c0aa3f20d803ca0.jpg"
+            },
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/886f4eb3ffe8674945da3ccea82b6784.jpg",
+                "audio": "drm/5/11595/OEBPS/Audio/1/aud20.mp3"
+            },
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/570519c563a1f5054af71b0be2876274.jpg"
+            },
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/b30fc68b1fc02732bfcfe75a15af58cb.jpg",
+                "audio": "drm/5/11595/OEBPS/Audio/1/aud22.mp3"
+            },
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/917059ef6908834ecd8d6678bc2758c6.jpg",
+                "audio": "drm/5/11595/OEBPS/Audio/1/aud23.mp3"
+            },
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/81104f22ad656b0c6895adb5f52c86d5.jpg",
+                "audio": "drm/5/11595/OEBPS/Audio/1/aud24.mp3"
+            },
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/8388c03eda68a9242c53d4fb72e6926c.jpg",
+                "audio": "drm/5/11595/OEBPS/Audio/1/aud25.mp3"
+            },
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/54ea97cf57395c03f5bed15a2936a551.jpg"
+            },
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/28ce4230f41514d0cb322d5631df1e74.jpg",
+                "audio": "drm/5/11595/OEBPS/Audio/1/aud27.mp3"
+            },
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/17ce04a6674ade0a2b13ecd83efacbaf.jpg"
+            },
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/c079f5b917770192429853c98a1c1338.jpg",
+                "audio": "drm/5/11595/OEBPS/Audio/1/aud29.mp3"
+            },
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/dacf0bde4b801b91d9b18e87fbcde3b1.jpg"
+            },
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/be422569f62bf38357b3f0cde409f264.jpg",
+                "audio": "drm/5/11595/OEBPS/Audio/1/aud31.mp3"
+            },
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/77f1708c36a31d6dd8ef95642243fea3.jpg"
+            },
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/a400c28191a455d50f60d7cbcec98d01.jpg",
+                "audio": "drm/5/11595/OEBPS/Audio/1/aud33.mp3"
+            },
+            {
+                "page": "drm/5/11595/OEBPS/Images/1/34ad40c62933f1fdea646592c909a444.jpg",
+                "audio": "drm/5/11595/OEBPS/Audio/1/aud34.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/11595/OEBPS/Images/1/ffba888f1b08442af460e1f9dd8c826f.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "11595",
+        "id": "11595",
+        "title": "Memoirs of a Hamster",
+        "author": "Devin Scillian",
+        "illustrator": "Tim Bowers",
+        "numPages": 30,
+        "bookDescription": "A pet hamster is enticed by the family cat to venture outside his well-equipped cage to the sunroom only to quickly discover danger.",
+        "coverColorR": 136,
+        "coverColorG": 159,
+        "coverColorB": 161,
+        "version": 858927445,
+        "previewPercent": 20,
+        "publisher": "Sleeping Bear Press",
+        "publisherId": "94",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "540L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 500,
+        "ar": "2.9",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pets",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.2159,
+        "contentHash": "06bf362c281da9ebd9cf",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1532647549
+    },
+    "userBook": {
+        "modelId": "46250489-11595",
+        "userId": "46250489",
+        "bookId": "11595",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559305346,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559305346,
+        "book": {
+            "modelId": "11595",
+            "title": "Memoirs of a Hamster",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "06bf362c281da9ebd9cf"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "400071",
+            "user_id": "43115921",
+            "book_id": "11595",
+            "title": "Memoirs of a Hamster",
+            "description": "",
+            "date_created": 1556806895,
+            "date_modified": 1556806895,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What is the Fuzzyboy 360?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "a hamster wheel",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "a hamster ball",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "a treadmill",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What does Seymour think is nasty?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "a kiss from the little girl",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "his dirty cage",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "his food",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What does Seymour do with the 2nd yogurt drop?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "stuffs it in his cheek for later",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "hides it under the couch",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "buries it",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What room does Seymour try to find?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "The sunroom",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "The bathroom",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "The star room",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Who is Pearl?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "The pet cat",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "The pet dog",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "The little girl",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "Who is Hoover?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "The vacuum cleaner",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "The mop",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "The car",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 5
+                },
+                {
+                    "title": "How does Seymour get back in his cage?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "The little girl finds him and puts him back.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Pearl finds him and puts him back.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "He climbs back in.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 6
+                }
+            ],
+            "modelId": "400071",
+            "creatorName": "Su'morie H.",
+            "avatarId": "37",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "43115921",
+                "udid": "5ca2296f2aae49.44579469",
+                "journalName": "Su'morie H.",
+                "journalCoverAvatar": "37",
+                "journalCoverColor": "1 0.67843137254902 0.26274509803922 1",
+                "journalFrameImage": "18",
+                "journalCoverImage": "15",
+                "themeId": "0",
+                "code": "790619963",
+                "fid": "",
+                "accountID": "27DC8C4D-A08B-3D1C-6366-0351B9C345AE",
+                "simpleAccountId": "3944124",
+                "pagesFlipped": 1637,
+                "nufComplete": 1,
+                "readingAge": 5.7333333333333,
+                "startingAge": 7,
+                "status": 0,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 924,
+                "xpLevel": 12,
+                "dateLastLogin": 1559225831,
+                "email": "anon27292@gmail.com",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "Su'morie",
+                "lastName": "Holt-Sampson",
+                "accountType": 1,
+                "dateModified": 1559227483,
+                "grade": 2
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What is the Fuzzyboy 360?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "a hamster wheel",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "a hamster ball",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "a treadmill",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What does Seymour think is nasty?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "a kiss from the little girl",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "his dirty cage",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "his food",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What does Seymour do with the 2nd yogurt drop?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "stuffs it in his cheek for later",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "hides it under the couch",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "buries it",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What room does Seymour try to find?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "The sunroom",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "The bathroom",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "The star room",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Who is Pearl?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "The pet cat",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "The pet dog",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "The little girl",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "Who is Hoover?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "The vacuum cleaner",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "The mop",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "The car",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 5
+            },
+            {
+                "title": "How does Seymour get back in his cage?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "The little girl finds him and puts him back.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Pearl finds him and puts him back.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "He climbs back in.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 6
+            }
+        ]
+    }
+}

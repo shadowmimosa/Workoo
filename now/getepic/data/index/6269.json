@@ -1,0 +1,456 @@
+{
+    "publisherData": {
+        "modelId": "10",
+        "name": "Kids Can Press",
+        "url": "http://www.kidscanpress.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539816186
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/2f7acb381a71e85c7c70e643beacb094.jpg",
+                "audio": "drm/9/6269/OEBPS/Audio/1/6f60571246b2e8821306e98c3de8b44d.mp3"
+            },
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/cd44c10e67759ec29377d89c6341188c.jpg"
+            },
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/6d54052273b6cf9c75e5b896e7f1b125.jpg",
+                "audio": "drm/9/6269/OEBPS/Audio/1/1531a418d50ed21d09b28bfc758cc397.mp3"
+            },
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/ed1ebea096d95ad089b7f3c0e62df31d.jpg"
+            },
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/2d9842ac4b6523f4b48c8799073cba8d.jpg",
+                "audio": "drm/9/6269/OEBPS/Audio/1/f4e783be56312f9007b7ab4452aa7617.mp3"
+            },
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/2a1720a6983bf4ac1857ca5be8808ae1.jpg",
+                "audio": "drm/9/6269/OEBPS/Audio/1/3322571e5dbff6f50dad787b784ff518.mp3"
+            },
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/ab6f4ba8a6ac758122693047ee5e3428.jpg",
+                "audio": "drm/9/6269/OEBPS/Audio/1/6044074489cd72abbd3e359763b77d65.mp3"
+            },
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/bb9afd52f828cb3617e42a850ffcc97a.jpg",
+                "audio": "drm/9/6269/OEBPS/Audio/1/88cbc8c2edf32aa63d5f7abdd848714f.mp3"
+            },
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/bde461b3d551fee1877b7d54f85eb40a.jpg",
+                "audio": "drm/9/6269/OEBPS/Audio/1/7f0e980584ea4b160ab0674d371ba26d.mp3"
+            },
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/9a99e195473eae37302f16ed92aa858f.jpg",
+                "audio": "drm/9/6269/OEBPS/Audio/1/d547342cbebec041483bfd099a54adbb.mp3"
+            },
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/4f3ee65c018bc7f5b976325a3446f787.jpg",
+                "audio": "drm/9/6269/OEBPS/Audio/1/656697c82ebe8618f0f5693b4b02a6f8.mp3"
+            },
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/e746e2a6b7febdcb36c5ae517a3cbecb.jpg",
+                "audio": "drm/9/6269/OEBPS/Audio/1/2fe275544abfd1d4eb675a430a1cd3a9.mp3"
+            },
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/1c68f0d548bce1d2ea41649a9ed2a0e0.jpg",
+                "audio": "drm/9/6269/OEBPS/Audio/1/584ef9b7ab20086b01d295414997bf28.mp3"
+            },
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/6ff0bdd1e7bbb7aaec31a5ea77b2dc2a.jpg",
+                "audio": "drm/9/6269/OEBPS/Audio/1/ea187b56f27ae668cd698a184645db33.mp3"
+            },
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/55108b757418aed31af01db154995c2a.jpg",
+                "audio": "drm/9/6269/OEBPS/Audio/1/ae160ab277d4fe48fe1b319c8a1266b6.mp3"
+            },
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/247d0f2a1d8cc54f03ea8955dda442e6.jpg",
+                "audio": "drm/9/6269/OEBPS/Audio/1/cbd38a5b9d9afde004a27c790635a9ef.mp3"
+            },
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/1bf608b5481262f737e9d8b0cf2aff44.jpg",
+                "audio": "drm/9/6269/OEBPS/Audio/1/9ed8b1538257883f29c391288dfe5e8a.mp3"
+            },
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/5fe22e5d44e539d62567eb9edbf69108.jpg"
+            },
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/1d901ac98760f4927961217b99e570ed.jpg",
+                "audio": "drm/9/6269/OEBPS/Audio/1/319c13405f5ff441571f274ec5873e84.mp3"
+            },
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/d13c4e72c0776858ad1df7ac757e2f92.jpg",
+                "audio": "drm/9/6269/OEBPS/Audio/1/fe8c04156ce0add52e3c607741b0b5eb.mp3"
+            },
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/25e435a75ef15d7de23b65fe639ae0a2.jpg",
+                "audio": "drm/9/6269/OEBPS/Audio/1/77de47c45d84e3ffbab2f805e78747e4.mp3"
+            },
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/f5a5fed230fcf1283307e766bf3bc0c1.jpg",
+                "audio": "drm/9/6269/OEBPS/Audio/1/d4fa6dcef560af73a4abe25ba945e04b.mp3"
+            },
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/d362dcc9823c16b073d284f2df68a2d5.jpg",
+                "audio": "drm/9/6269/OEBPS/Audio/1/2371bc72259e86829ec86aeef7f48acd.mp3"
+            },
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/3a9a17d896e2d31169ea7a2723cb3770.jpg",
+                "audio": "drm/9/6269/OEBPS/Audio/1/3d0d7b6d035acfcd3f6b135bb0b20c42.mp3"
+            },
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/591a224f139bdd6d61a4c11eead2cdc0.jpg",
+                "audio": "drm/9/6269/OEBPS/Audio/1/acfcb7836c6bc827c840a6c1fac17e81.mp3"
+            },
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/cf26dcd4938468067dc56a56aa16286b.jpg",
+                "audio": "drm/9/6269/OEBPS/Audio/1/b72802aa14b8426014be448660936366.mp3"
+            },
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/468d009cd26ffe254603b54c068e5169.jpg"
+            },
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/08f3e846b88903605716e284d432b0d5.jpg",
+                "audio": "drm/9/6269/OEBPS/Audio/1/1ff1db261e12b966941649955d8f1c93.mp3"
+            },
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/c765b520038a720889976677e25513ed.jpg",
+                "audio": "drm/9/6269/OEBPS/Audio/1/b28efae9676e45d839ecef73e0161df8.mp3"
+            },
+            {
+                "page": "drm/9/6269/OEBPS/Images/1/bb79f8f8c959539c7a03745e02177e53.jpg",
+                "audio": "drm/9/6269/OEBPS/Audio/1/9781554538621-26x.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/6269/OEBPS/Images/1/d4959e27cc6f8969086a9f5e5c73dd24.jpg",
+            "color": "#fefefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "6269",
+        "id": "6269",
+        "title": "The Busy Beaver",
+        "author": "Nicholas Oldland",
+        "illustrator": "Nicholas Oldland",
+        "numPages": 30,
+        "bookDescription": "The busy but careless beaver spends his days following random impulses.",
+        "coverColorR": 162,
+        "coverColorG": 172,
+        "coverColorB": 151,
+        "version": 2,
+        "previewPercent": 20,
+        "publisher": "Kids Can Press",
+        "publisherId": "10",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "AD790L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 500,
+        "ar": "3.8",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Forest Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "fdb922822b6b96acb97a",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372254
+    },
+    "userBook": {
+        "modelId": "46250489-6269",
+        "userId": "46250489",
+        "bookId": "6269",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559309925,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559309925,
+        "book": {
+            "modelId": "6269",
+            "title": "The Busy Beaver",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "fdb922822b6b96acb97a"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "152429",
+            "user_id": "19220800",
+            "book_id": "6269",
+            "title": "The Busy Beaver",
+            "description": "",
+            "date_created": 1512659358,
+            "date_modified": 1514920802,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "The beaver was careless.  What does this mean?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "he didn't think about others",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "he liked trees",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What is one way the beaver hurt someone?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "He chewed on a moose's leg",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "He spent all of his money at a store",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Why was the beaver in the hospital?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "He dropped a tree on himself",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "He liked doctors",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Why did the animals run away from the beaver when he returned?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "They were scared he would hurt them",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "His breath smelled bad",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "How did the beaver show the bear he was sorry?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "By saying sorry and making him a vase",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "By sending an email",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "What is one thing the beaver did after fixing his mistakes?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Start a band",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Go skydiving",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 5
+                }
+            ],
+            "modelId": "152429",
+            "creatorName": "Ms. Russell",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "19220800",
+                "udid": "59d680c3f25f91.87962162",
+                "journalName": "Ms. Russell",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.11764705882353 0.91764705882353 0.64313725490196 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "169063694",
+                "fid": "",
+                "accountID": "0A95006D-D877-421E-87EC-681A17C60948",
+                "simpleAccountId": "5808545",
+                "pagesFlipped": 2020,
+                "nufComplete": 1,
+                "readingAge": 6,
+                "startingAge": 6,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 666,
+                "xpLevel": 12,
+                "dateLastLogin": 1550768070,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "J",
+                "lastName": "Russell",
+                "accountType": 1,
+                "dateModified": 1550768070,
+                "educatorPrefix": "Ms.",
+                "name": "Ms. Russell"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "The beaver was careless.  What does this mean?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "he didn't think about others",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "he liked trees",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What is one way the beaver hurt someone?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "He chewed on a moose's leg",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "He spent all of his money at a store",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Why was the beaver in the hospital?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "He dropped a tree on himself",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "He liked doctors",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Why did the animals run away from the beaver when he returned?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "They were scared he would hurt them",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "His breath smelled bad",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "How did the beaver show the bear he was sorry?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "By saying sorry and making him a vase",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "By sending an email",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "What is one thing the beaver did after fixing his mistakes?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Start a band",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Go skydiving",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 5
+            }
+        ]
+    }
+}

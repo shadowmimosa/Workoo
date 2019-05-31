@@ -1,0 +1,317 @@
+{
+    "publisherData": {
+        "modelId": "112",
+        "name": "Dover Publications",
+        "url": "http://store.doverpublications.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260243
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/CC0A3AAA-25AD-4C31-995E-BFF0B4D755E0.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/0AA3087A-C948-45E0-9900-97312F6BA1E9.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/DBEA48C3-F9EF-4506-91CF-F84DF63CAA0B.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/9FEA5CD7-CCDF-4FB1-9D0A-C13564143250.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/B05DD08D-2D58-498F-A6B9-EF24A2F132EE.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/BF95E63D-C67C-421C-B749-E6CAD3531D8A.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/88F73492-F347-4A00-9296-5FFD585671BB.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/F3F608BC-23D2-4F1D-AA56-12F0C2401AAF.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/40932806-DEA2-45C4-991F-E6C3519DDBAE.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/9F0E8071-5E70-4764-80BE-D8B6516E6AAF.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/89627222-2551-4784-AFF2-FE2D4E3174C8.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/AC277543-DF59-45A9-B446-988AC40CD4D3.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/1648C9B3-5399-46DE-9BEF-4B8C786181B8.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/5CE46411-FA42-425E-AA15-76BE27DA3330.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/5FBE2816-7401-4AFF-A6CC-6ACE48C4C6CA.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/CEEDBF20-6177-4967-B0A1-8417FA1108F5.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/EC9BA671-725E-4167-8F4C-1B4D27498A7D.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/4B8ACFC6-92E7-421B-A84B-50DCACB390BF.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/9F1461D4-C402-4D4B-9596-3FF17AAB1A56.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/F26BE9C2-FA16-44B2-92C9-95FF8D99421A.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/EDF47DAD-0020-49B5-BC65-7C5AE1219337.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/3B1D9DBA-EC47-4DA0-B430-3C64B0D95E21.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/E0D9FAAD-368D-46BE-9827-D0C08005C85D.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/5BD2C35C-7CA8-4065-8FD6-76621EFA69FC.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/6202AC88-5C32-4216-90D2-40ADBE2CB279.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/BF215B8A-4F8B-4DF7-A51D-458A37BA749C.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/1FBC468C-3FEC-44D6-BD34-ADF62B1D2C4A.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/2ABBD03D-0E3A-43AB-B265-DE72E089D724.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/088860EA-E83B-42D3-8545-7CEEE649A542.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/25164CD1-C461-4824-A68D-2D41E62F03FF.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/B3C872D5-3887-4047-8AFC-F512BFCA667D.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/B14731CF-A6BF-4234-8484-D49C80C306A8.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/D802275A-BF8F-4097-901F-9EFA42240A78.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/20CCA1D3-FFC4-4F3A-B682-332B9A268C6D.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/76702826-FFB5-4074-A171-4FF4DDF3E1E7.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/C1FFDF2E-CDE4-40A6-AF5B-A9B2B550907A.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/28645D3E-866A-435F-BA88-523F855ED8FA.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/4427D0A3-AB73-4A15-BCF2-F6F84FCAA5E8.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/F9A815C7-F012-4A7E-AE17-6CC37884579E.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/E1F87599-0338-4288-B9DF-4F7FA9ED4BDD.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/BFFA8175-64BF-4480-8762-53B95DC20144.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/F5F36BFE-452B-4BC6-9C4E-261FF3A363BB.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/02DD4462-FEA1-4F45-9DB7-3124E3C42986.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/5597E9A4-228A-49D4-B7A5-8280833312D6.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/9D9E9328-496E-4DC7-B67A-C47B34F1BEC8.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/D8A3AC6A-94A5-4622-983D-3DDC5B9E86FD.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/D7E95A52-9D01-4573-97F2-DCEECFE30387.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/8F30A9A2-566A-4645-AE48-F97AB76BE07C.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/86D9AC2B-D5C6-480C-9540-571E09E79E76.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/C37D4BB0-6BFA-406C-8D73-D2E9294C70F3.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/46961E36-6183-4F66-BED1-15138FEC8A8F.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/C41CD40B-D5F8-4239-B850-2CA41910F57F.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/E0771E27-B815-4A55-8FE4-298E6E9EBF6F.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/0D62B7BA-C068-40BA-9498-FD9993B94440.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/322DC690-3779-4BE7-BEC8-FEAD4B4B7A8C.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/7ADA4513-69B2-4FD6-8CA5-BFF709083837.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/121DB8EF-A78B-478E-ABB5-25C2BD24F494.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/1CB5DBFD-BE4C-4B0F-82F0-EC968D299166.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/50413292-6375-4A6F-AA80-F98FDF060C3E.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/73E00617-2872-4C2C-B2DF-CE86B2E0A683.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/4A67A2FF-4D70-4AA2-AF07-2ED1D8AF57DF.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/E97DF5E2-5008-4E4D-AF92-855AA5B56965.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/68CB44B7-6DF9-41E8-B0F3-7D66D1E044A4.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/32A10086-1D6C-4A4D-9CD8-BE6A1270EB96.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/8C40AEC8-FB34-43DC-B1A8-35A80C60546D.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/EDFED21A-9570-4681-983F-3BDBD8DB96C5.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/3651424F-2D29-46F6-AEC0-788E8561BFEF.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/31B9B986-7A00-4782-94DA-F5D1149031CD.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/C7E4BAEB-3A41-4C3A-B5AF-A5BDE3A039B0.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/E4454326-C166-4372-9689-5DC4715037DD.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/7AE1CFF8-AAAD-43F0-9E61-74271BE97558.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/529D4F21-593F-47CF-A16F-DB2BB8A71489.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/BA974DE2-6E0B-448F-8E85-43BC5DAA2FA6.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/8330AACD-15DB-4134-A6D3-194BBA317987.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/470EB8EC-C904-468E-A6EC-567C903A738F.jpg"
+            },
+            {
+                "page": "drm/0/12670/OEBPS/Images/1/D497FE63-91BB-4B8D-986F-797C8DBDEC1F.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/12670/OEBPS/Images/1/1EB8CE86-C0F3-408D-91BE-6BBE96A7ACFC.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "12670",
+        "id": "12670",
+        "title": "The Berenstain Bears' Storytime Treasury",
+        "author": "Jan Berenstain, Stan Berenstain",
+        "illustrator": " ",
+        "numPages": 76,
+        "bookDescription": "Illustrated tales, recounted in verse, include a journey through the four seasons, a series of bedtime rituals and a family picnic.",
+        "coverColorR": 172,
+        "coverColorG": 160,
+        "coverColorB": 97,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Dover Publications",
+        "publisherId": "112",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "15-30 mins",
+        "avgTimeInt": 1266,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 81,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Humorous Stories",
+        "subjectColor": "FFD673",
+        "copyright": "",
+        "aspectRatio": 0.7726,
+        "contentHash": "c5073f447dc11d690d56",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1519939804
+    },
+    "userBook": {
+        "modelId": "46250489-12670",
+        "userId": "46250489",
+        "bookId": "12670",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311737,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311737,
+        "book": {
+            "modelId": "12670",
+            "title": "The Berenstain Bears' Storytime Treasury",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "c5073f447dc11d690d56"
+        }
+    },
+    "quiz": null
+}

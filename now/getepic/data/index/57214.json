@@ -1,0 +1,149 @@
+{
+    "publisherData": {
+        "modelId": "122",
+        "name": "Blue Door Education",
+        "url": "https://bluedoor-education.squarespace.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491011404
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/57214/OEBPS/Images/1/26c927680c52fbf9c631b8df10c1fa9b.jpg",
+                "audio": "drm/4/57214/OEBPS/Audio/1/x26c927680c52fbf9c631b8df10c1fa9b.mp3"
+            },
+            {
+                "page": "drm/4/57214/OEBPS/Images/1/80fed748ff995d088b240a2370e762bf.jpg",
+                "audio": "drm/4/57214/OEBPS/Audio/1/x80fed748ff995d088b240a2370e762bf.mp3"
+            },
+            {
+                "page": "drm/4/57214/OEBPS/Images/1/4c204dc5aabd1fec05487783c7787344.jpg"
+            },
+            {
+                "page": "drm/4/57214/OEBPS/Images/1/04e7d89584d46bee06760332f2d4ee73.jpg",
+                "audio": "drm/4/57214/OEBPS/Audio/1/x04e7d89584d46bee06760332f2d4ee73.mp3"
+            },
+            {
+                "page": "drm/4/57214/OEBPS/Images/1/0cc0e8afb8eeb3171f55ef9dec8efc72.jpg"
+            },
+            {
+                "page": "drm/4/57214/OEBPS/Images/1/2d7916fc2b398284604afdb76f854668.jpg",
+                "audio": "drm/4/57214/OEBPS/Audio/1/x2d7916fc2b398284604afdb76f854668.mp3"
+            },
+            {
+                "page": "drm/4/57214/OEBPS/Images/1/5bb72996f7a4941f64e573a5f2eebe04.jpg"
+            },
+            {
+                "page": "drm/4/57214/OEBPS/Images/1/4dc1be3722185fbad39320b69db45d25.jpg",
+                "audio": "drm/4/57214/OEBPS/Audio/1/x4dc1be3722185fbad39320b69db45d25.mp3"
+            },
+            {
+                "page": "drm/4/57214/OEBPS/Images/1/ffbdd38539265fb2d0fc4336b1789a27.jpg"
+            },
+            {
+                "page": "drm/4/57214/OEBPS/Images/1/8909fe052402093da996f1a2d91d2a55.jpg",
+                "audio": "drm/4/57214/OEBPS/Audio/1/x8909fe052402093da996f1a2d91d2a55.mp3"
+            },
+            {
+                "page": "drm/4/57214/OEBPS/Images/1/c2ab36962f734dd9ef56711228829bab.jpg"
+            },
+            {
+                "page": "drm/4/57214/OEBPS/Images/1/acdf887d616e44db5b779776c068b3be.jpg",
+                "audio": "drm/4/57214/OEBPS/Audio/1/xacdf887d616e44db5b779776c068b3be.mp3"
+            },
+            {
+                "page": "drm/4/57214/OEBPS/Images/1/4a85e1228d329902ec1d3c76c8c71ac2.jpg"
+            },
+            {
+                "page": "drm/4/57214/OEBPS/Images/1/d8a0c3dbd75d718d51b18bb700f96ae3.jpg",
+                "audio": "drm/4/57214/OEBPS/Audio/1/xd8a0c3dbd75d718d51b18bb700f96ae3.mp3"
+            },
+            {
+                "page": "drm/4/57214/OEBPS/Images/1/5fab770002fe3dea630e36b091def3fb.jpg"
+            },
+            {
+                "page": "drm/4/57214/OEBPS/Images/1/ea7920f59baec2f972dee45d2b68b998.jpg",
+                "audio": "drm/4/57214/OEBPS/Audio/1/xea7920f59baec2f972dee45d2b68b998.mp3"
+            },
+            {
+                "page": "drm/4/57214/OEBPS/Images/1/a00dc648957e4c20893f3f042dcf054c.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/57214/OEBPS/Images/1/6251625173ed1c2839214872be28eb55.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "57214",
+        "id": "57214",
+        "title": "Green",
+        "author": "Sebastian Stratford",
+        "illustrator": " ",
+        "numPages": 17,
+        "bookDescription": "Young children will delight in this colorful book about green objects all around us.",
+        "coverColorR": 90,
+        "coverColorG": 151,
+        "coverColorB": 65,
+        "version": 858927445,
+        "previewPercent": 20,
+        "publisher": "Blue Door Education",
+        "publisherId": "122",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 255,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 81,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "03b21ddd65cad8eaf90e",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1539220696
+    },
+    "userBook": {
+        "modelId": "46250489-57214",
+        "userId": "46250489",
+        "bookId": "57214",
+        "currentPageIndex": 18,
+        "farthestPageIndex": 18,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 100,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559093723,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 20,
+        "dateModified": 1559093744,
+        "book": {
+            "modelId": "57214",
+            "title": "Green",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "03b21ddd65cad8eaf90e"
+        }
+    },
+    "quiz": null
+}

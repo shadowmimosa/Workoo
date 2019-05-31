@@ -1,0 +1,382 @@
+{
+    "publisherData": {
+        "modelId": "168",
+        "name": "Flower Pot Press",
+        "url": "http://www.flowerpotpress.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260414
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/6/17736/OEBPS/Images/1/176778884b87c93e5b07371dc63ac9ea.jpg",
+                "audio": "drm/6/17736/OEBPS/Audio/1/7e04164c769e6f5daac587daaeac857b.mp3"
+            },
+            {
+                "page": "drm/6/17736/OEBPS/Images/1/b04e7dd64f823ebcffdd4137dd31dda8.jpg",
+                "audio": "drm/6/17736/OEBPS/Audio/1/6d088f58858524e5dd273eecce683500.mp3"
+            },
+            {
+                "page": "drm/6/17736/OEBPS/Images/1/a14e3ec08004a74e031d375a4e8a99e9.jpg"
+            },
+            {
+                "page": "drm/6/17736/OEBPS/Images/1/ecc874920c11cb5973ac7ad5576b27b8.jpg",
+                "audio": "drm/6/17736/OEBPS/Audio/1/6f6e6c411a4be8edbb4c27db115d3709.mp3"
+            },
+            {
+                "page": "drm/6/17736/OEBPS/Images/1/5cd9bc6e60b2900ce5571b7d28fb33a5.jpg"
+            },
+            {
+                "page": "drm/6/17736/OEBPS/Images/1/ddb48b35df78ddb1e15097947f3552d5.jpg",
+                "audio": "drm/6/17736/OEBPS/Audio/1/6e744f02d42e27cf0635355449814c72.mp3"
+            },
+            {
+                "page": "drm/6/17736/OEBPS/Images/1/63fdc3252ef261742f0c68a03eb75ea6.jpg"
+            },
+            {
+                "page": "drm/6/17736/OEBPS/Images/1/6e263358bc812b2fdfda3526e9cd6729.jpg",
+                "audio": "drm/6/17736/OEBPS/Audio/1/ba108861e401846aae57aeaea3c504e0.mp3"
+            },
+            {
+                "page": "drm/6/17736/OEBPS/Images/1/ab92576040fd145741873c3a1183a245.jpg"
+            },
+            {
+                "page": "drm/6/17736/OEBPS/Images/1/0eb95d40aad9c9d2d3d92981edd0cb0c.jpg",
+                "audio": "drm/6/17736/OEBPS/Audio/1/c3f5f6b938760516019f10e608686828.mp3"
+            },
+            {
+                "page": "drm/6/17736/OEBPS/Images/1/a201e1ff1dce3cb275bd249917c374f3.jpg"
+            },
+            {
+                "page": "drm/6/17736/OEBPS/Images/1/796da8c4918ae98fd950c34db6992b2a.jpg",
+                "audio": "drm/6/17736/OEBPS/Audio/1/c5e3ba0c058a9d53640a115570c8c7b7.mp3"
+            },
+            {
+                "page": "drm/6/17736/OEBPS/Images/1/2da53bc8bd118047f653dc05873570ec.jpg"
+            },
+            {
+                "page": "drm/6/17736/OEBPS/Images/1/0ac96f3adbce8d57655b61941152884b.jpg",
+                "audio": "drm/6/17736/OEBPS/Audio/1/c24d0d635a28b1aac9746927499be36d.mp3"
+            },
+            {
+                "page": "drm/6/17736/OEBPS/Images/1/2dd15b894fbe3280bf93876cae63f810.jpg"
+            },
+            {
+                "page": "drm/6/17736/OEBPS/Images/1/c5c374c5fbeb6792148006da60aede25.jpg",
+                "audio": "drm/6/17736/OEBPS/Audio/1/baf7495fa3e1423a05bda8a54ea3efde.mp3"
+            },
+            {
+                "page": "drm/6/17736/OEBPS/Images/1/568ac5bd424d9ba96ee23ac21eb46a47.jpg"
+            },
+            {
+                "page": "drm/6/17736/OEBPS/Images/1/84ab58107917a112ebb31a6fcefecf30.jpg",
+                "audio": "drm/6/17736/OEBPS/Audio/1/d323c02ff59bfce10a9bb7adf23f7042.mp3"
+            },
+            {
+                "page": "drm/6/17736/OEBPS/Images/1/731b328156c6ae4314fbb8d042528a8e.jpg"
+            },
+            {
+                "page": "drm/6/17736/OEBPS/Images/1/9846a1c78355957037feb38086efd175.jpg",
+                "audio": "drm/6/17736/OEBPS/Audio/1/0e0648cf3b47e9d23d2eae94651a009f.mp3"
+            },
+            {
+                "page": "drm/6/17736/OEBPS/Images/1/73e8bde3cd312f600b24cecc33222b1a.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/6/17736/OEBPS/Images/1/73edec70d90dc996d2cb8f2535bb223d.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "17736",
+        "id": "17736",
+        "title": "On The Farm You Might See\u2026",
+        "author": " ",
+        "illustrator": "Lisa M. Gardiner",
+        "numPages": 21,
+        "bookDescription": "Find all kinds of Farm Animals in this beautifully illustrated First Words book",
+        "coverColorR": 165,
+        "coverColorG": 166,
+        "coverColorB": 163,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Flower Pot Press",
+        "publisherId": "168",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 385,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.0076,
+        "contentHash": "00e325d751d754f38a2a",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1516240684
+    },
+    "userBook": {
+        "modelId": "46250489-17736",
+        "userId": "46250489",
+        "bookId": "17736",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310795,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310795,
+        "book": {
+            "modelId": "17736",
+            "title": "On The Farm You Might See\u2026",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "00e325d751d754f38a2a"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "80540",
+            "user_id": "13307341",
+            "book_id": "17736",
+            "title": "On the Farm",
+            "description": "",
+            "date_created": 1493070765,
+            "date_modified": 1513019113,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What animal do you see on the farm?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Sheep",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Whale",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What animal makes milk on the farm?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Cow",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Horse",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What animal can you ride on the farm?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Horse",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Goat",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What animal makes a mess on the farm?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Pig",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Fish",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Which animal makes egg on the farms?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Hen",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Dog",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "80540",
+            "creatorName": "Teacher Profile",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "13307341",
+                "udid": "5898ad11ebe012.12456153",
+                "journalName": "Mrs. Whaley",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.97254901960784 0.84313725490196 0.38823529411765 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "527340287",
+                "fid": "",
+                "accountID": "2EF454A2-026E-AC98-CC84-4D6570907B3C",
+                "simpleAccountId": "4417879",
+                "pagesFlipped": 1665,
+                "nufComplete": 1,
+                "readingAge": 6.6,
+                "startingAge": 0,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 0,
+                "xpLevel": 1,
+                "dateLastLogin": 0,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Mara",
+                "lastName": "Whaley",
+                "accountType": 1,
+                "dateModified": 1502373952,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Whaley"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What animal do you see on the farm?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Sheep",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Whale",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What animal makes milk on the farm?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Cow",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Horse",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What animal can you ride on the farm?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Horse",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Goat",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What animal makes a mess on the farm?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Pig",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Fish",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Which animal makes egg on the farms?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Hen",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Dog",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

@@ -1,0 +1,182 @@
+{
+    "publisherData": {
+        "modelId": "66",
+        "name": "Cinco Puntos Press",
+        "url": "http://www.cincopuntos.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1509999794
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/ed22a9efd172ba2ab1e5f88cda631bbd.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/8adad0ea770b90be9d1f5331da10432f.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/6dbd17f8e6ffba943fbd73f720cf234b.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/b0b6c15896da8e8184895f87a05f8c66.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/5f1ca88326e35c84babf2fae1d27fee5.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/3e451f0405d0e0dff5bde79bf7dc3b57.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/082f39fe3cd92a388f88a21eb0560319.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/a90855c388794fdbd2442c70dd042483.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/d0674d9f7594d09bb5013bf206d356eb.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/6234eba9d3e7479ed778704ac6ac184f.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/2af04d2712ee4f13e3511746194161f5.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/3efbaa7eb349d9c15008d56c67930a8d.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/c39576a6dc27736e4b511d271690a132.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/5c662c00234c678c36ee5be54b12b6a5.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/98b2fda30a3893f27977d3b5d019bb87.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/dfd9aca37d46691a2a1b00700bc7bbfa.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/cfef1497a65d9a3590a841aa28ebcca4.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/1b6d548b715029dcccbd0ec40b674cfb.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/cb407baafa3e16ad67a42ffedb17975b.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/2f90cb1fc5d5c2aa1954177f953f7858.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/d1bf7cfc9fe773d1c9f3b9e56d028480.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/21eefafff3cf1d6f642407f55c7a6587.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/4b580c00265fac8b73ffbba7a42d666e.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/1483c7b42d55677ab977fad7d30a52b0.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/3397da1aa166b35c5ab123c3478859e5.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/98b0e5feae56c05432ed59aa78f9030c.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/6b910aefc43deb12eaa3dcde3dd7e523.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/feb5aecf398cbb7d2291fea5138a8d24.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/e5a4fe35b7c7eeb7f4801e8322fef130.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/b68274ff97413da2fcc14d51f7c843db.jpg"
+            },
+            {
+                "page": "drm/9/8399/OEBPS/Images/1/ea49d7a5e6c59b60828872596e761c26.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/8399/OEBPS/Images/1/9226f3e2e75382c0e50451bd3c8fca96.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "8399",
+        "id": "8399",
+        "title": "My Pet Rattlesnake",
+        "author": "Joe Hayes",
+        "illustrator": "Antonio Castro L.",
+        "numPages": 31,
+        "bookDescription": "This time it's the truth\u2014we swear! Joe's tall tales are always true. Ha!",
+        "coverColorR": 119,
+        "coverColorG": 157,
+        "coverColorB": 180,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Cinco Puntos Press",
+        "publisherId": "66",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "AD620L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 516,
+        "ar": "3.7",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pets",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.7727,
+        "contentHash": "64aa8d92c7df09f03aad",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "2",
+        "panelStatus": 0,
+        "date_modified": 1555372409
+    },
+    "userBook": {
+        "modelId": "46250489-8399",
+        "userId": "46250489",
+        "bookId": "8399",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311498,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311498,
+        "book": {
+            "modelId": "8399",
+            "title": "My Pet Rattlesnake",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "64aa8d92c7df09f03aad"
+        }
+    },
+    "quiz": null
+}

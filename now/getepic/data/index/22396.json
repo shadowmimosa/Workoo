@@ -1,0 +1,176 @@
+{
+    "publisherData": {
+        "modelId": "90050",
+        "name": "Amicus",
+        "url": "https://www.amicuspublishing.us/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491010374
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/6/22396/OEBPS/Images/1/83840FB4-5AF8-44B3-9CAC-EFD334E03070.jpg"
+            },
+            {
+                "page": "drm/6/22396/OEBPS/Images/1/95584481-70DE-41E4-9299-527BFBEC1B87.jpg"
+            },
+            {
+                "page": "drm/6/22396/OEBPS/Images/1/12870CA2-5EDC-4333-A146-C41611EC6294.jpg"
+            },
+            {
+                "page": "drm/6/22396/OEBPS/Images/1/F48C1F94-F0B6-4D14-8EEF-57DB3B77EA8B.jpg"
+            },
+            {
+                "page": "drm/6/22396/OEBPS/Images/1/6D53E134-D108-4FCA-B679-0EABAA9014E5.jpg"
+            },
+            {
+                "page": "drm/6/22396/OEBPS/Images/1/064A53EA-1777-45AA-AA7C-429FDB4F99AA.jpg"
+            },
+            {
+                "page": "drm/6/22396/OEBPS/Images/1/824117D1-DACB-4AED-B26E-8E7C26F2D8F6.jpg"
+            },
+            {
+                "page": "drm/6/22396/OEBPS/Images/1/242A4DD8-274B-4981-8AA2-1AF175D1D72E.jpg"
+            },
+            {
+                "page": "drm/6/22396/OEBPS/Images/1/33375458-8029-4943-80B0-7B34CB4EC3D3.jpg"
+            },
+            {
+                "page": "drm/6/22396/OEBPS/Images/1/E21749DD-1710-4A17-A97C-EE7047821DEB.jpg"
+            },
+            {
+                "page": "drm/6/22396/OEBPS/Images/1/D9C7B07E-FDFA-4DC5-999C-0085BEF7F14E.jpg"
+            },
+            {
+                "page": "drm/6/22396/OEBPS/Images/1/2E20C487-47EB-4C9F-B778-D67C8A45953F.jpg"
+            },
+            {
+                "page": "drm/6/22396/OEBPS/Images/1/E9C96233-F063-4C41-917F-A619E7225B97.jpg"
+            },
+            {
+                "page": "drm/6/22396/OEBPS/Images/1/F2479BEE-BC74-458E-965A-70EB7B276879.jpg"
+            },
+            {
+                "page": "drm/6/22396/OEBPS/Images/1/C9620372-5F81-4D88-9B29-628D3799D78D.jpg"
+            },
+            {
+                "page": "drm/6/22396/OEBPS/Images/1/9294E948-96A4-4576-80B4-0DA3AC4D05E5.jpg"
+            },
+            {
+                "page": "drm/6/22396/OEBPS/Images/1/059A617C-A8AA-4C38-BF63-6555EC65F239.jpg"
+            },
+            {
+                "page": "drm/6/22396/OEBPS/Images/1/A95787E5-75EF-4946-BDF9-F4B358562C1C.jpg"
+            },
+            {
+                "page": "drm/6/22396/OEBPS/Images/1/AA701E1C-0111-4091-AE83-A787B4B7DE85.jpg"
+            },
+            {
+                "page": "drm/6/22396/OEBPS/Images/1/261ECFAD-911F-42BB-BB4B-A15D8F5D8958.jpg"
+            },
+            {
+                "page": "drm/6/22396/OEBPS/Images/1/9AA1EC60-FAC4-417C-BF6F-A7B8F1245A65.jpg"
+            },
+            {
+                "page": "drm/6/22396/OEBPS/Images/1/83835E87-AAE7-4FBD-80F1-392E245C1A03.jpg"
+            },
+            {
+                "page": "drm/6/22396/OEBPS/Images/1/EB4328B2-1F2D-4CF4-9743-4DB62FF8A7B4.jpg"
+            },
+            {
+                "page": "drm/6/22396/OEBPS/Images/1/EFAF9639-A444-4097-AEF5-025834015482.jpg"
+            },
+            {
+                "page": "drm/6/22396/OEBPS/Images/1/77B2FE0E-1A4C-4926-BC3E-94838172B487.jpg"
+            },
+            {
+                "page": "drm/6/22396/OEBPS/Images/1/65F01272-109C-4727-B2D7-D6CF4F2286D8.jpg"
+            },
+            {
+                "page": "drm/6/22396/OEBPS/Images/1/8DA1C7BF-1939-45FB-9DF8-791456C48933.jpg"
+            },
+            {
+                "page": "drm/6/22396/OEBPS/Images/1/337661B9-E2FB-4E77-A307-DC8FAB06C586.jpg"
+            },
+            {
+                "page": "drm/6/22396/OEBPS/Images/1/5E56BEA9-9E04-4DC6-8C9B-120A6DD81C58.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/6/22396/OEBPS/Images/1/2051E367-0229-4C26-8408-250A6BAB366D.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "22396",
+        "id": "22396",
+        "title": "Movie Animals",
+        "author": "Connie Colwell Miller",
+        "illustrator": " ",
+        "numPages": 29,
+        "bookDescription": "Read about animals that work in movies, how they are trained, and what a day is like on a movie set.",
+        "coverColorR": 140,
+        "coverColorG": 130,
+        "coverColorB": 77,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Amicus",
+        "publisherId": "90050",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "500L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 531,
+        "ar": "3.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pets",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.6579,
+        "contentHash": "77ee555e6451561d4347",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1555372951
+    },
+    "userBook": {
+        "modelId": "46250489-22396",
+        "userId": "46250489",
+        "bookId": "22396",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311446,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311446,
+        "book": {
+            "modelId": "22396",
+            "title": "Movie Animals",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "77ee555e6451561d4347"
+        }
+    },
+    "quiz": null
+}

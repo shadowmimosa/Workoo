@@ -1,0 +1,155 @@
+{
+    "publisherData": {
+        "modelId": "90232",
+        "name": "The Creative Company",
+        "url": "http://www.thecreativecompany.us/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260095
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/39445/OEBPS/Images/1/DF0FA963-448F-4D68-93A2-48BE20F8D850.jpg"
+            },
+            {
+                "page": "drm/5/39445/OEBPS/Images/1/60983DF6-B467-47C0-A9BD-E2FA35F8C2DD.jpg"
+            },
+            {
+                "page": "drm/5/39445/OEBPS/Images/1/45FCB081-6A4A-4301-81DD-C64104BE70BE.jpg"
+            },
+            {
+                "page": "drm/5/39445/OEBPS/Images/1/F4D21DCE-F20A-4B81-A00A-51E2AE577D76.jpg"
+            },
+            {
+                "page": "drm/5/39445/OEBPS/Images/1/8D35902F-D6D4-4B66-A277-0667B95B5032.jpg"
+            },
+            {
+                "page": "drm/5/39445/OEBPS/Images/1/1119A70A-F577-45B4-BA6F-E9693A9547E8.jpg"
+            },
+            {
+                "page": "drm/5/39445/OEBPS/Images/1/B2505A02-96BE-479B-A81A-636B953E0089.jpg"
+            },
+            {
+                "page": "drm/5/39445/OEBPS/Images/1/5B3C0562-04AB-44A2-8A70-0D61342E7AC3.jpg"
+            },
+            {
+                "page": "drm/5/39445/OEBPS/Images/1/2FCB82D5-0647-4D66-8F37-F38266BCC62B.jpg"
+            },
+            {
+                "page": "drm/5/39445/OEBPS/Images/1/F1D0AB57-10B1-4545-B201-1EB13CA33D05.jpg"
+            },
+            {
+                "page": "drm/5/39445/OEBPS/Images/1/BBF2AEC1-9745-4741-AA7C-5CF63037728F.jpg"
+            },
+            {
+                "page": "drm/5/39445/OEBPS/Images/1/36D3F044-8B04-47E7-9D9F-71902B39233A.jpg"
+            },
+            {
+                "page": "drm/5/39445/OEBPS/Images/1/E1FFFE11-A33A-45EB-B9E3-B215DFC76E20.jpg"
+            },
+            {
+                "page": "drm/5/39445/OEBPS/Images/1/96811488-753D-4C0A-821D-DF15BC05C3AA.jpg"
+            },
+            {
+                "page": "drm/5/39445/OEBPS/Images/1/BE0D0100-9C98-446D-9358-FE61478DA142.jpg"
+            },
+            {
+                "page": "drm/5/39445/OEBPS/Images/1/F3D9BD15-4FE2-45B1-BDDF-3A5D4E98E5AB.jpg"
+            },
+            {
+                "page": "drm/5/39445/OEBPS/Images/1/D7AABBA8-4972-49F0-B762-61AB033BCA14.jpg"
+            },
+            {
+                "page": "drm/5/39445/OEBPS/Images/1/57214393-F780-4F43-903A-27E08B791C43.jpg"
+            },
+            {
+                "page": "drm/5/39445/OEBPS/Images/1/AEB8C9B8-B42C-41D0-ACCA-4B863A0B4261.jpg"
+            },
+            {
+                "page": "drm/5/39445/OEBPS/Images/1/003672F6-6AA8-43D8-9311-D500402352AB.jpg"
+            },
+            {
+                "page": "drm/5/39445/OEBPS/Images/1/5DC1B520-B746-456D-85F6-C55CD8E6DCF7.jpg"
+            },
+            {
+                "page": "drm/5/39445/OEBPS/Images/1/44900DB3-9CA6-4FC0-8B0B-58B3BAC2AC15.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/39445/OEBPS/Images/1/D784BDBA-1B48-4C39-86E4-EC684388CD5F.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "39445",
+        "id": "39445",
+        "title": "Big Rigs",
+        "author": "Quinn M. Arnold, Quinn A. Arnold",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "A kindergarten-level introduction to big rigs.",
+        "coverColorR": 131,
+        "coverColorG": 125,
+        "coverColorB": 116,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "The Creative Company",
+        "publisherId": "90232",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "390L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 366,
+        "ar": "1.4",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Things That GO",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 0.95,
+        "contentHash": "37663bf1f61dd2de4bec",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1555373693
+    },
+    "userBook": {
+        "modelId": "46250489-39445",
+        "userId": "46250489",
+        "bookId": "39445",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559312024,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559312024,
+        "book": {
+            "modelId": "39445",
+            "title": "Big Rigs",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "37663bf1f61dd2de4bec"
+        }
+    },
+    "quiz": null
+}

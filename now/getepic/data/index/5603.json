@@ -1,0 +1,277 @@
+{
+    "publisherData": {
+        "modelId": "2",
+        "name": "Twin Sisters IP, LLC.",
+        "url": "http://www.twinsisters.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1547683900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/093fbdf4bf28efeb0da85609e5937ab4.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud1.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/c24f713071b19feaebd840d16a7b2e63.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud2.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/4f1ec404485685284fe71aa7a1acb589.jpg"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/d71fd271de7c01879a89ff518d7d987f.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud4.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/1104b310d4ad66e277a2d4a18a3ea7db.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud5.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/5f51d71b5ab187939e23aa660cdd7bd7.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud7.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/8251b6431ba8d30203b6ea3bcd098fa7.jpg"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/9427e5087ddbd430f5cf277e81ae0b64.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud8.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/145a1bb47e17e08c56496f62f1d11612.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud9.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/7339b233ed8ec9428eee1f8998660a2c.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud11.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/ffe20a01dceecfddd9b7534b75612784.jpg"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/b8c57e3eed9ff2ffadb408269df47062.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud12.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/b36a32ceacc37d45220880dc37cd2aa4.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud13.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/1fb0e2f18cda2f8a7f574aafa51e8a81.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud14.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/78623a25e7b41f29559fc336faa71d98.jpg"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/2dcf091dfb40f80048471ca5ef376697.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud16.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/092f463115ebb4a340e310602b7827df.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud17.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/d5552ba2dd22e7f47ca15dcb22f6228b.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud18.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/10d22254882aa6dfc21b1d4583cb57c1.jpg"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/c9b26e0508025f14803ad35098e62218.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud20.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/82e200a9c804be2c4cbec8599e8c1108.jpg"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/2806ece2824467f89df2bed02afb3c07.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud22.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/88c0f82af96ab4bf6c2c88b281ffc4a7.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud23.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/726fec534ccc03fccee7957459a99aa8.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud24.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/ddd984f5479842788544a9a9b422b0c7.jpg"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/00820c8a87ecbf5853cf0baeac64eaeb.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud26.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/3deb834297eb063964793f14f7620b8a.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud27.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/f6af4f83be23232e424d3e1a3c84bfd3.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud28.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/a16e9bcb2a193d87f6c5ca34dddf6f08.jpg"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/8191105f58371ce329ce7f3421dcb307.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud30.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/31309c9e6ac97f4907f44e6fcf85f6ee.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud31.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/d5d3a72ad8719bc298a2a589071c8143.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud32.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/48b23130de6ead6f673e4c8ff5058682.jpg"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/eeaf087f0836c5cec1504a4ed89d6246.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud34.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/f0b88cc8021abb48f0d7ff83c3e5d610.jpg"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/62d5b897125d85accbb61e284b0b7e2a.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud36.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/b7717d19b12a12b47567d12f1d48c73b.jpg"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/11f769ecd3d3d6c361346f20a4e46c92.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud38.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/6572b7ba9b38c3de4bb525d25c2965ca.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud39.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/df12933f87fab3ccbe0b1907a90cdc82.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud40.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/933e118e108a122d331170fe46eefc87.jpg"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/0cd6d0b2b5483171684d2665c8cb5fdc.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud42.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/b9b75bb36a9a5847fac7db363d3c0865.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud43.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/0ed4532369c92004676cf01929744562.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud44.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/1a44fec113e15507231f0568c895ecf7.jpg"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/2691a539082296a1fee9d9b90f85fbc7.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud46.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/43e120d7bc7090faab08d175942092ee.jpg"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/fddd865548b727594da5a83aa0884dc2.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud48.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/eac4594da717a598ffaaed0e09016aa0.jpg"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/491fe4b11e20dfc7df3f266b42953401.jpg",
+                "audio": "drm/3/5603/OEBPS/Audio/1/aud50.mp3"
+            },
+            {
+                "page": "drm/3/5603/OEBPS/Images/1/1c504d035a2ec5abf473f345c9c31c8b.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/3/5603/OEBPS/Images/1/0a8056fa08a0b347be41a7f23605ca0d.jpg",
+            "color": "#fefefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "5603",
+        "id": "5603",
+        "title": "Bedtime Songs",
+        "author": "Kim Mitzo Thompson, Karen Mitzo Hilderbrand",
+        "illustrator": "Roberta Collier-Morales",
+        "numPages": 51,
+        "bookDescription": "A set of songs to sing to get to sleep.",
+        "coverColorR": 168,
+        "coverColorG": 188,
+        "coverColorB": 190,
+        "version": 12565,
+        "previewPercent": 20,
+        "publisher": "Twin Sisters IP, LLC.",
+        "publisherId": "2",
+        "age": 5,
+        "pageNumOffset": -1,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 850,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "ABCs & 123s",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.8146,
+        "contentHash": "b8916830fbabf1da8cab",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1554329479
+    },
+    "userBook": {
+        "modelId": "46250489-5603",
+        "userId": "46250489",
+        "bookId": "5603",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311636,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311636,
+        "book": {
+            "modelId": "5603",
+            "title": "Bedtime Songs",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "b8916830fbabf1da8cab"
+        }
+    },
+    "quiz": null
+}

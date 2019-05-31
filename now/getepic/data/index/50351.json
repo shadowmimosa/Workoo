@@ -1,0 +1,166 @@
+{
+    "publisherData": {
+        "modelId": "90324",
+        "name": "Gareth Stevens provided by The Rosen Publishing Group, Inc",
+        "url": "https://www.garethstevens.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1525129338
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/50351/OEBPS/Images/1/8c7709dc488f1b4d379a0945fa6e33fe.jpg",
+                "audio": "drm/1/50351/OEBPS/Audio/1/OCJ-008000.mp3"
+            },
+            {
+                "page": "drm/1/50351/OEBPS/Images/1/bff99a22f45573be1cbd73fd8c9d6b6a.jpg",
+                "audio": "drm/1/50351/OEBPS/Audio/1/OCJ-008001.mp3"
+            },
+            {
+                "page": "drm/1/50351/OEBPS/Images/1/8535c2d2b77c7e96a2c779cb2715752b.jpg"
+            },
+            {
+                "page": "drm/1/50351/OEBPS/Images/1/9a7c4bf826dabab0b418b6c27d911e28.jpg",
+                "audio": "drm/1/50351/OEBPS/Audio/1/OCJ-008002.mp3"
+            },
+            {
+                "page": "drm/1/50351/OEBPS/Images/1/c353fa80a5ee5bdf7043db7e33d96ec3.jpg"
+            },
+            {
+                "page": "drm/1/50351/OEBPS/Images/1/48a9308c7536eae95b66d985d898d3e7.jpg",
+                "audio": "drm/1/50351/OEBPS/Audio/1/OCJ-008003.mp3"
+            },
+            {
+                "page": "drm/1/50351/OEBPS/Images/1/5f9aad23057e8cb328878a515dfc8636.jpg"
+            },
+            {
+                "page": "drm/1/50351/OEBPS/Images/1/061706dd4ed215b3729b8ce50a1a43b8.jpg",
+                "audio": "drm/1/50351/OEBPS/Audio/1/OCJ-008004.mp3"
+            },
+            {
+                "page": "drm/1/50351/OEBPS/Images/1/adfcbace6e2f3a87c8edca29af5e2d7d.jpg"
+            },
+            {
+                "page": "drm/1/50351/OEBPS/Images/1/2aa4a488a22fbbd85d84d9b6ec2562fd.jpg",
+                "audio": "drm/1/50351/OEBPS/Audio/1/OCJ-008005.mp3"
+            },
+            {
+                "page": "drm/1/50351/OEBPS/Images/1/1c2cbef8d2a6b8cdc4153f30a99e2404.jpg"
+            },
+            {
+                "page": "drm/1/50351/OEBPS/Images/1/e6032dc80f9c6bab27b8ec8e06a771af.jpg",
+                "audio": "drm/1/50351/OEBPS/Audio/1/OCJ-008006.mp3"
+            },
+            {
+                "page": "drm/1/50351/OEBPS/Images/1/6b47ae81d346b5630a15b344d4cc585d.jpg"
+            },
+            {
+                "page": "drm/1/50351/OEBPS/Images/1/617e45065d490bb83d1bda8914474717.jpg",
+                "audio": "drm/1/50351/OEBPS/Audio/1/OCJ-008007.mp3"
+            },
+            {
+                "page": "drm/1/50351/OEBPS/Images/1/687e95a98c133cf640fd0f0eae3654d4.jpg"
+            },
+            {
+                "page": "drm/1/50351/OEBPS/Images/1/ecc4cb46359d50cf1ea1ead0eb12c210.jpg",
+                "audio": "drm/1/50351/OEBPS/Audio/1/OCJ-008008.mp3"
+            },
+            {
+                "page": "drm/1/50351/OEBPS/Images/1/e37b48f31ae9d6a03d05b3c36efb85b4.jpg"
+            },
+            {
+                "page": "drm/1/50351/OEBPS/Images/1/f4a90b3c5e35412fd6c0120fd3bf0b5e.jpg",
+                "audio": "drm/1/50351/OEBPS/Audio/1/OCJ-008009.mp3"
+            },
+            {
+                "page": "drm/1/50351/OEBPS/Images/1/19fbd9027a9c4485b2bd184488ea41da.jpg"
+            },
+            {
+                "page": "drm/1/50351/OEBPS/Images/1/698c1893568651c3621e25a95bf45e1d.jpg",
+                "audio": "drm/1/50351/OEBPS/Audio/1/OCJ-008010.mp3"
+            },
+            {
+                "page": "drm/1/50351/OEBPS/Images/1/aafc5ba67ee22b024e647be23bb94eee.jpg"
+            },
+            {
+                "page": "drm/1/50351/OEBPS/Images/1/21e8253ee19b72a0cc3755bb4fe2621e.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/50351/OEBPS/Images/1/db27cbdb91bad7b7900a0d1e5261d418.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "50351",
+        "id": "50351",
+        "title": "Happy Hermit Crabs",
+        "author": "Rose Carraway",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Hermit crabs have 10 legs and switch shells when they get too big for their current shell.",
+        "coverColorR": 99,
+        "coverColorG": 99,
+        "coverColorB": 78,
+        "version": 12309,
+        "previewPercent": 20,
+        "publisher": "Gareth Stevens provided by The Rosen Publishing Group, Inc",
+        "publisherId": "90324",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "280L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 403,
+        "ar": "0.9",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pets",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.0702,
+        "contentHash": "27fcddc1e15e888e634c",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374292
+    },
+    "userBook": {
+        "modelId": "46250489-50351",
+        "userId": "46250489",
+        "bookId": "50351",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311526,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311526,
+        "book": {
+            "modelId": "50351",
+            "title": "Happy Hermit Crabs",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "27fcddc1e15e888e634c"
+        }
+    },
+    "quiz": null
+}

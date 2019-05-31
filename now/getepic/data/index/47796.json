@@ -1,0 +1,205 @@
+{
+    "publisherData": {
+        "modelId": "28",
+        "name": "Xist Publishing",
+        "url": "http://www.xistpublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539564197
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/e12bcedcb0d0f35405c627851191665e.jpg",
+                "audio": "drm/6/47796/OEBPS/Audio/1/title.mp3"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/d9296899327247e4fbbab120aa004b31.jpg",
+                "audio": "drm/6/47796/OEBPS/Audio/1/1.mp3"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/e4a1a0c20c3de1f92581ea97b235b372.jpg"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/9fc930a362d0214f5cdb952135c65757.jpg"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/088286330d8a3853cf57a3f581c9d7ae.jpg",
+                "audio": "drm/6/47796/OEBPS/Audio/1/2.mp3"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/47171b340882eeec6997c4bce9a095ef.jpg",
+                "audio": "drm/6/47796/OEBPS/Audio/1/ 3.mp3"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/baac3f09f78c47ad88132c2011ee7f84.jpg"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/2e360b165d5c809db515530eda4e7a33.jpg"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/dab01abb0fc97f6e8d4029b1ad866087.jpg",
+                "audio": "drm/6/47796/OEBPS/Audio/1/4.mp3"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/979f393eb967aa7dc5c17329d0c8550e.jpg"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/36feeffa80c980a34700fa08d6c508c7.jpg",
+                "audio": "drm/6/47796/OEBPS/Audio/1/5.mp3"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/8bce5a73b75a7d0b3bbd0f66a586abfc.jpg"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/bf5a2e794ef49a8385d9fd81c2cc7999.jpg",
+                "audio": "drm/6/47796/OEBPS/Audio/1/6.mp3"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/903e196736ae944ec33437ea028e1a50.jpg",
+                "audio": "drm/6/47796/OEBPS/Audio/1/7.mp3"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/c31b0125e72992b7718e033434977c19.jpg"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/ef3676bca3d7d3aea3aacc0142aeb664.jpg",
+                "audio": "drm/6/47796/OEBPS/Audio/1/8.mp3"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/7a46978a26d3df94f17885e668bb9e8f.jpg"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/39d1f4d539a14e290fac25a1aaa1c665.jpg",
+                "audio": "drm/6/47796/OEBPS/Audio/1/9.mp3"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/b712eda84df87305927796fbe2269c54.jpg"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/87add659d79686cd46de8c00807765d4.jpg",
+                "audio": "drm/6/47796/OEBPS/Audio/1/10.mp3"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/be0a286f3ad0c1e9f278da89bce426b1.jpg"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/4e0e2e7f69395262af76bcca4ea1789c.jpg",
+                "audio": "drm/6/47796/OEBPS/Audio/1/11.mp3"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/e4e39266e1be2360a28094010c3cf3fe.jpg"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/f0bac67afca9cf88b83c1a114a667e36.jpg",
+                "audio": "drm/6/47796/OEBPS/Audio/1/12.mp3"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/fd696401c79f72f23c7a8a8bd9b29744.jpg"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/052d843e5633fa5adc2d0738511ad88d.jpg"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/d24f5caee994c4d1869a7bdfaa182378.jpg",
+                "audio": "drm/6/47796/OEBPS/Audio/1/13.mp3"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/b0e74ff6a7b6023a870c8a6e815bb553.jpg",
+                "audio": "drm/6/47796/OEBPS/Audio/1/14.mp3"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/31d66cda4fcdde9a963b107d0ef4416c.jpg"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/b206c87e3e50c4d50d2383f7f470a941.jpg"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/53602a2e92cfd5def2efb6aea80cfa92.jpg",
+                "audio": "drm/6/47796/OEBPS/Audio/1/15.mp3"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/cbd3da45ea1a1ff25c58528a586084fc.jpg",
+                "audio": "drm/6/47796/OEBPS/Audio/1/16.mp3"
+            },
+            {
+                "page": "drm/6/47796/OEBPS/Images/1/5e5130cd642704f844804d69132fd101.jpg"
+            }
+        ],
+        "extra": {
+            "color": "#ffffff",
+            "copyright": ""
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "47796",
+        "id": "47796",
+        "title": "Discover Sewing",
+        "author": "Katrina Streza",
+        "illustrator": " ",
+        "numPages": 33,
+        "bookDescription": "Children who would love to learn to sew or are interested in fabric and other craft materials will learn all about sewing in this book.",
+        "coverColorR": 190,
+        "coverColorG": 213,
+        "coverColorB": 209,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Xist Publishing",
+        "publisherId": "28",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 550,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Daily Life",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 0.6665,
+        "contentHash": "293dd5a08071d9af4855",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374113
+    },
+    "userBook": {
+        "modelId": "46250489-47796",
+        "userId": "46250489",
+        "bookId": "47796",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311256,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311256,
+        "book": {
+            "modelId": "47796",
+            "title": "Discover Sewing",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "293dd5a08071d9af4855"
+        }
+    },
+    "quiz": null
+}

@@ -1,0 +1,428 @@
+{
+    "publisherData": {
+        "modelId": "109",
+        "name": "JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/12680/OEBPS/Images/1/807fc6938088f36f6fa86a88b4633b8f.jpg",
+                "audio": "drm/0/12680/OEBPS/Audio/1/7dc039084d1eb0b4af93a03cecacd7d4.mp3"
+            },
+            {
+                "page": "drm/0/12680/OEBPS/Images/1/ab7cc30fdfd8c2857ab065bce071fa6f.jpg",
+                "audio": "drm/0/12680/OEBPS/Audio/1/c7db34d5b82bee2a786bffbf5a7209f8.mp3"
+            },
+            {
+                "page": "drm/0/12680/OEBPS/Images/1/0d15a7fe8600a783ecaf1cae0cb098ac.jpg",
+                "audio": "drm/0/12680/OEBPS/Audio/1/e7f828788566f4d30baf0921d812e77a.mp3"
+            },
+            {
+                "page": "drm/0/12680/OEBPS/Images/1/57df8b745f4ac5f9011d270ef0ee71ea.jpg",
+                "audio": "drm/0/12680/OEBPS/Audio/1/7494d1d2034a0c1a7f4f2cefc5426b56.mp3"
+            },
+            {
+                "page": "drm/0/12680/OEBPS/Images/1/e3964e339ee65da7790969409cc9f0c1.jpg",
+                "audio": "drm/0/12680/OEBPS/Audio/1/3c89540e216feb86488559b4512aa4dc.mp3"
+            },
+            {
+                "page": "drm/0/12680/OEBPS/Images/1/cc2f0c77b9bbb751333701502fab96e3.jpg",
+                "audio": "drm/0/12680/OEBPS/Audio/1/01caa1046af32b9b917c42b5b66b56fa.mp3"
+            },
+            {
+                "page": "drm/0/12680/OEBPS/Images/1/a993e88276bf4440994065615e4a2395.jpg"
+            },
+            {
+                "page": "drm/0/12680/OEBPS/Images/1/9b7860e61037c5b428d3fc8de0ae6c60.jpg",
+                "audio": "drm/0/12680/OEBPS/Audio/1/6a16fb49acaa83819089d25d1e9522d9.mp3"
+            },
+            {
+                "page": "drm/0/12680/OEBPS/Images/1/bba0160fa30d2d8f70b6abf361703bb4.jpg"
+            },
+            {
+                "page": "drm/0/12680/OEBPS/Images/1/cbbb1dc308cc176fe1fabb03922462c3.jpg",
+                "audio": "drm/0/12680/OEBPS/Audio/1/7b6836408843adfd10cc934b854dc355.mp3"
+            },
+            {
+                "page": "drm/0/12680/OEBPS/Images/1/c11cd3793182602e3e4d995902921338.jpg",
+                "audio": "drm/0/12680/OEBPS/Audio/1/0ca8c3b8974405eb16bf795c21f00a33.mp3"
+            },
+            {
+                "page": "drm/0/12680/OEBPS/Images/1/03d15a9bf2807a6ee509eba711ccc4d3.jpg",
+                "audio": "drm/0/12680/OEBPS/Audio/1/88700ea09821678c76b22df6720b7c9d.mp3"
+            },
+            {
+                "page": "drm/0/12680/OEBPS/Images/1/bb754ef376b1d70683d7649259bd42a3.jpg"
+            },
+            {
+                "page": "drm/0/12680/OEBPS/Images/1/75965b086f2f0b6de1065feb373e759b.jpg",
+                "audio": "drm/0/12680/OEBPS/Audio/1/b4b4156c145a0347e1ff60c0e312ca90.mp3"
+            },
+            {
+                "page": "drm/0/12680/OEBPS/Images/1/50d77e6a2aa8a118cfb5a116f66a9bbc.jpg"
+            },
+            {
+                "page": "drm/0/12680/OEBPS/Images/1/abf9e4fe0f9811b9397ba71c85b185db.jpg",
+                "audio": "drm/0/12680/OEBPS/Audio/1/a5bf2bbba6e71e74349bb7d70e1aa872.mp3"
+            },
+            {
+                "page": "drm/0/12680/OEBPS/Images/1/788d1bf498b46164c1f7309687a96723.jpg",
+                "audio": "drm/0/12680/OEBPS/Audio/1/6a93208d390e049a12abffc16bee2951.mp3"
+            },
+            {
+                "page": "drm/0/12680/OEBPS/Images/1/4170789d40c94e0636b6417b091d4527.jpg",
+                "audio": "drm/0/12680/OEBPS/Audio/1/79106aeed02e563678497bab4afe0928.mp3"
+            },
+            {
+                "page": "drm/0/12680/OEBPS/Images/1/b4d08cf99d27bf3200d8952ef26aacb8.jpg"
+            },
+            {
+                "page": "drm/0/12680/OEBPS/Images/1/645fc42260d0ee4f6df9395bc7efe348.jpg"
+            },
+            {
+                "page": "drm/0/12680/OEBPS/Images/1/9a64b031b713a3331076cb4de106c1f5.jpg"
+            },
+            {
+                "page": "drm/0/12680/OEBPS/Images/1/558080f2e32fc87ce828dc2bb2af566d.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/12680/OEBPS/Images/1/a96260952fa294f7b5ec68bfe46d44fb.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "12680",
+        "id": "12680",
+        "title": "Ducks",
+        "author": "Wendy Strobel Dieker",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "A ducks narrates this photo-illustrated book describing the body parts and behavior of ducks on a farm.",
+        "coverColorR": 213,
+        "coverColorG": 216,
+        "coverColorB": 202,
+        "version": 2,
+        "previewPercent": 20,
+        "publisher": "JUMP",
+        "publisherId": "109",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "370L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 806,
+        "ar": "0.8",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Farm Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.9977,
+        "contentHash": "443798b5037cd1b268d5",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372634
+    },
+    "userBook": {
+        "modelId": "46250489-12680",
+        "userId": "46250489",
+        "bookId": "12680",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559312107,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559312107,
+        "book": {
+            "modelId": "12680",
+            "title": "Ducks",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "443798b5037cd1b268d5"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "123085",
+            "user_id": "18262384",
+            "book_id": "12680",
+            "title": "Ducks",
+            "description": "",
+            "date_created": 1506431390,
+            "date_modified": 1512587014,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What is a male duck called?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Drake",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Boy duck",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Father Duck",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "Why are ducks such good swimmers?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "They have webbed feet.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "They like to swim.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "They have strong wings.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Do ducks eat frogs?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Yes",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "No",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Why do ducks have oily feathers?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "The oil helps them float.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "The oil make their feathers shiny.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "The oil tastes good.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "How old are the ducklings when they learn how to swim?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "2 weeks old",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "2 years old",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "2 months old",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "123085",
+            "creatorName": "Mrs. McCullough",
+            "avatarId": "80",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "18262384",
+                "udid": "59c113a2cc4d94.24144759",
+                "journalName": "Mrs. McCullough",
+                "journalCoverAvatar": "80",
+                "journalCoverColor": "0.84705882352941 0.18039215686275 0.46274509803922 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "75345663",
+                "fid": "",
+                "accountID": "91E73C77-86AD-433E-157B-E9F66C0C41EB",
+                "simpleAccountId": "5630676",
+                "pagesFlipped": 1304,
+                "nufComplete": 1,
+                "readingAge": 6.36667,
+                "startingAge": 6,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 830,
+                "xpLevel": 9,
+                "dateLastLogin": 1557421502,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Kristine",
+                "lastName": "McCullough",
+                "accountType": 1,
+                "dateModified": 1559147228,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. McCullough"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What is a male duck called?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Drake",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Boy duck",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Father Duck",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "Why are ducks such good swimmers?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "They have webbed feet.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "They like to swim.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "They have strong wings.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Do ducks eat frogs?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Yes",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "No",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Why do ducks have oily feathers?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "The oil helps them float.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "The oil make their feathers shiny.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "The oil tastes good.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "How old are the ducklings when they learn how to swim?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "2 weeks old",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "2 years old",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "2 months old",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

@@ -1,0 +1,380 @@
+{
+    "publisherData": {
+        "modelId": "91",
+        "name": "ABDO Publishing",
+        "url": "http://abdopublishing.com//",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570820
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/25635/OEBPS/Images/1/FAAD672C-23BE-4685-AF9C-53E142D297B5.jpg"
+            },
+            {
+                "page": "drm/5/25635/OEBPS/Images/1/D827AFD3-8E98-4336-8989-0DB4DB1D5432.jpg",
+                "audio": "drm/5/25635/OEBPS/Audio/1/page6.mp3"
+            },
+            {
+                "page": "drm/5/25635/OEBPS/Images/1/307639A4-BD61-4D8A-B6AA-6E32F441B50A.jpg"
+            },
+            {
+                "page": "drm/5/25635/OEBPS/Images/1/3F3AB6E8-15FE-4B9F-95F4-2850B388A3D2.jpg",
+                "audio": "drm/5/25635/OEBPS/Audio/1/page8.mp3"
+            },
+            {
+                "page": "drm/5/25635/OEBPS/Images/1/44763D83-85FF-4911-B744-34F528762B43.jpg"
+            },
+            {
+                "page": "drm/5/25635/OEBPS/Images/1/84D4C1F2-85C8-4F84-AEE2-CD6E8968831E.jpg",
+                "audio": "drm/5/25635/OEBPS/Audio/1/page10.mp3"
+            },
+            {
+                "page": "drm/5/25635/OEBPS/Images/1/14DB4C12-1706-4555-9012-A7F70E30F1B7.jpg"
+            },
+            {
+                "page": "drm/5/25635/OEBPS/Images/1/0680B4AC-75CA-4B67-B164-DB4361E05429.jpg",
+                "audio": "drm/5/25635/OEBPS/Audio/1/page12.mp3"
+            },
+            {
+                "page": "drm/5/25635/OEBPS/Images/1/2BF3AACA-A0C2-4989-B278-0EB689E5069A.jpg"
+            },
+            {
+                "page": "drm/5/25635/OEBPS/Images/1/39294A95-0FF5-4189-B9A9-E6AA6EB3B871.jpg",
+                "audio": "drm/5/25635/OEBPS/Audio/1/page14.mp3"
+            },
+            {
+                "page": "drm/5/25635/OEBPS/Images/1/5FBEC9B9-8748-46E6-B5C4-BD3AB79A2CA1.jpg"
+            },
+            {
+                "page": "drm/5/25635/OEBPS/Images/1/FD67D775-1F71-405D-B8E5-288B7C26C320.jpg",
+                "audio": "drm/5/25635/OEBPS/Audio/1/page16.mp3"
+            },
+            {
+                "page": "drm/5/25635/OEBPS/Images/1/A3B41CD6-C8EA-48C8-A2EE-D0CD8045CE40.jpg"
+            },
+            {
+                "page": "drm/5/25635/OEBPS/Images/1/A8C33683-4D8F-4E17-877C-E300E6E29FEE.jpg",
+                "audio": "drm/5/25635/OEBPS/Audio/1/page18.mp3"
+            },
+            {
+                "page": "drm/5/25635/OEBPS/Images/1/D5E014B3-F7F0-4144-83BC-2EB6AD94C151.jpg"
+            },
+            {
+                "page": "drm/5/25635/OEBPS/Images/1/67904354-95A6-4DB5-90CD-15F6EEF9F884.jpg",
+                "audio": "drm/5/25635/OEBPS/Audio/1/page20.mp3"
+            },
+            {
+                "page": "drm/5/25635/OEBPS/Images/1/4AA9B1EF-AD16-4D49-91E5-19DB851D295C.jpg"
+            },
+            {
+                "page": "drm/5/25635/OEBPS/Images/1/D1D8B86B-4DF4-4A68-8920-6A293E6B2541.jpg",
+                "audio": "drm/5/25635/OEBPS/Audio/1/page22.mp3"
+            },
+            {
+                "page": "drm/5/25635/OEBPS/Images/1/229440AA-0739-4C87-B04C-B0CA6494784E.jpg"
+            },
+            {
+                "page": "drm/5/25635/OEBPS/Images/1/0542AB80-E23F-46EC-966E-A4C7F8DBF88A.jpg",
+                "audio": "drm/5/25635/OEBPS/Audio/1/page24.mp3"
+            },
+            {
+                "page": "drm/5/25635/OEBPS/Images/1/7FC3FBDC-AD96-4237-9E8A-B9B2EF4CA983.jpg"
+            },
+            {
+                "page": "drm/5/25635/OEBPS/Images/1/F0211D24-51E8-42EC-A679-26C7CB9BD2FF.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/25635/OEBPS/Images/1/D9292630-570F-4D85-BCF1-BB647EE4191E.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "25635",
+        "id": "25635",
+        "title": "Birds",
+        "author": "Julie Murray",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "This title introduces readers to birds, which are popular family pets.",
+        "coverColorR": 224,
+        "coverColorG": 235,
+        "coverColorB": 230,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "ABDO Publishing",
+        "publisherId": "91",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "110L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 366,
+        "ar": "1.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pets",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.061,
+        "contentHash": "7cd47293427248f119a1",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373038
+    },
+    "userBook": {
+        "modelId": "46250489-25635",
+        "userId": "46250489",
+        "bookId": "25635",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559309930,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559309930,
+        "book": {
+            "modelId": "25635",
+            "title": "Birds",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "7cd47293427248f119a1"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "107987",
+            "user_id": "11632717",
+            "book_id": "25635",
+            "title": "Birds",
+            "description": "",
+            "date_created": 1497037410,
+            "date_modified": 1505429963,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Many birds have ______ colors.",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Bright",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Beautiful",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Boring",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Bad",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "Lovebirds live in _____.",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Pairs",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "A Herd",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "A Log",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "None of Above",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Birds need ____ and _____.",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Food and Water",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Nests and Eggs",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Pets",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "All of Above",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                }
+            ],
+            "modelId": "107987",
+            "creatorName": "Mr. Mojica",
+            "avatarId": "75",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "11632717",
+                "udid": "581b5ea32a0a13.65263521",
+                "journalName": "Mr. Mojica",
+                "journalCoverAvatar": "75",
+                "journalCoverColor": "0.84705882352941 0.18039215686275 0.46274509803922 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "784543357",
+                "fid": "",
+                "accountID": "E975CA65-99C3-9D30-D38D-1A0D7A9765AB",
+                "simpleAccountId": "3951668",
+                "pagesFlipped": 1067,
+                "nufComplete": 1,
+                "readingAge": 11,
+                "startingAge": 0,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 0,
+                "xpLevel": 1,
+                "dateLastLogin": 1544845132,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Ruben",
+                "lastName": "Mojica",
+                "accountType": 1,
+                "dateModified": 1544845132,
+                "educatorPrefix": "Mr.",
+                "name": "Mr. Mojica"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Many birds have ______ colors.",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Bright",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Beautiful",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Boring",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Bad",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "Lovebirds live in _____.",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Pairs",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "A Herd",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "A Log",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "None of Above",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Birds need ____ and _____.",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Food and Water",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Nests and Eggs",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Pets",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "All of Above",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            }
+        ]
+    }
+}

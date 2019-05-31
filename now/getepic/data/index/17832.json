@@ -1,0 +1,481 @@
+{
+    "publisherData": {
+        "modelId": "85",
+        "name": "Frederator Books",
+        "url": "http://frederatorbooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260454
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/2/17832/OEBPS/Images/1/b17799c00ffb581f8f6e825f5e50383c.jpg"
+            },
+            {
+                "page": "drm/2/17832/OEBPS/Images/1/69986ad899eba4e5668bb8038bb4ea46.jpg",
+                "audio": "drm/2/17832/OEBPS/Audio/1/f5338b0cc14628c42be929f676980147.mp3"
+            },
+            {
+                "page": "drm/2/17832/OEBPS/Images/1/3d53e1698d7fc2101c62d2fa687def89.jpg"
+            },
+            {
+                "page": "drm/2/17832/OEBPS/Images/1/eadfb52917e9de100dc7926e0ed3f685.jpg",
+                "audio": "drm/2/17832/OEBPS/Audio/1/fe39f279667248fa33fc6c517077ace1.mp3"
+            },
+            {
+                "page": "drm/2/17832/OEBPS/Images/1/06ec5bc848292bce4bcb40e5df21a607.jpg"
+            },
+            {
+                "page": "drm/2/17832/OEBPS/Images/1/548a5641ff6aacd63501ac88af9a532f.jpg",
+                "audio": "drm/2/17832/OEBPS/Audio/1/88a1a99567a1d8575a9a3f0b1a3cfc31.mp3"
+            },
+            {
+                "page": "drm/2/17832/OEBPS/Images/1/f1486d16abfc84ffd4f547ec4e2013af.jpg"
+            },
+            {
+                "page": "drm/2/17832/OEBPS/Images/1/ad705db54afffb35ff809d00a93ae646.jpg",
+                "audio": "drm/2/17832/OEBPS/Audio/1/34413dc867ad349dd04826f6b1ac5838.mp3"
+            },
+            {
+                "page": "drm/2/17832/OEBPS/Images/1/dc9e67620e810b19e411e47f77303900.jpg"
+            },
+            {
+                "page": "drm/2/17832/OEBPS/Images/1/6899d7da8a667f4b3e98682718a50413.jpg",
+                "audio": "drm/2/17832/OEBPS/Audio/1/1c921c81b4e650f9051a3690c58037bc.mp3"
+            },
+            {
+                "page": "drm/2/17832/OEBPS/Images/1/633891f4b0863ad638c60477cc9ec91b.jpg"
+            },
+            {
+                "page": "drm/2/17832/OEBPS/Images/1/d5bb9cc665612534761e5230e868cd61.jpg",
+                "audio": "drm/2/17832/OEBPS/Audio/1/16aa829bdbbdde3fa52c8d8ee841090b.mp3"
+            },
+            {
+                "page": "drm/2/17832/OEBPS/Images/1/1708523e066e6c5f2316c8e766e8ee8a.jpg"
+            },
+            {
+                "page": "drm/2/17832/OEBPS/Images/1/2ff3442bdc3ab2b693ac8deea03b20c9.jpg",
+                "audio": "drm/2/17832/OEBPS/Audio/1/ac73286f27ca807a059c6ee1789283fb.mp3"
+            },
+            {
+                "page": "drm/2/17832/OEBPS/Images/1/6c5c15041f56a9e3850d20ad9031730f.jpg"
+            },
+            {
+                "page": "drm/2/17832/OEBPS/Images/1/217ba2a23ccfb79074a05edbea4a767a.jpg",
+                "audio": "drm/2/17832/OEBPS/Audio/1/ba7cd2c642659dec63c45ea9f417224b.mp3"
+            },
+            {
+                "page": "drm/2/17832/OEBPS/Images/1/7f0575ea7813ef98f024839ef5b6fcb5.jpg"
+            },
+            {
+                "page": "drm/2/17832/OEBPS/Images/1/f5162c2acc805dabe4630fe250e69370.jpg",
+                "audio": "drm/2/17832/OEBPS/Audio/1/71b110341e48d7fe9f242c829284a9c9.mp3"
+            },
+            {
+                "page": "drm/2/17832/OEBPS/Images/1/6bf4c2d3a383213782e46932d1397cf7.jpg"
+            },
+            {
+                "page": "drm/2/17832/OEBPS/Images/1/26c40622154870b88a2f426b2d671edf.jpg",
+                "audio": "drm/2/17832/OEBPS/Audio/1/ada1059651c9c955e2670c42acaf7155.mp3"
+            },
+            {
+                "page": "drm/2/17832/OEBPS/Images/1/9583a2aea2f23dd117c71509ad37af22.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/2/17832/OEBPS/Images/1/f77600824c3c0e59498d3546001a4b3b.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "17832",
+        "id": "17832",
+        "title": "Letters from Catbug",
+        "author": "Jason James Johnson",
+        "illustrator": "Emily Jourdan",
+        "numPages": 21,
+        "bookDescription": "Catbug writes letters to all his friends: super muscle guys, squawking cockatiels, and blurpleberries!",
+        "coverColorR": 202,
+        "coverColorG": 197,
+        "coverColorB": 90,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Frederator Books",
+        "publisherId": "85",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 385,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 85,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Humorous Stories",
+        "subjectColor": "FFD673",
+        "copyright": "",
+        "aspectRatio": 0.7505,
+        "contentHash": "992387fdbdcde938e950",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1522177266
+    },
+    "userBook": {
+        "modelId": "46250489-17832",
+        "userId": "46250489",
+        "bookId": "17832",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559303906,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559303906,
+        "book": {
+            "modelId": "17832",
+            "title": "Letters from Catbug",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "992387fdbdcde938e950"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "189303",
+            "user_id": "16802571",
+            "book_id": "17832",
+            "title": "Catbug Quiz",
+            "description": "",
+            "date_created": 1520993128,
+            "date_modified": 1525285963,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "How does each letter end?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Love, Catbug",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Hello, Bugcat",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Goodbye, Catbug",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Love, Mrs. Truran",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What is kind of word is BUUUUURP?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "An onomatopoeia",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Alliteration",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Rhyme",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Rhythm",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Many of Catbug's letters are",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Silly",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Sad",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Angry",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Sleepy",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Catbug says a hug is like",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "A shortcake with whipped cream",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "A warm blanket",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "A pumpkin patch",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "A swimming pool",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "What is Catbug's favorite thing to bake?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Peanut Butter Squares",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Apple Pie",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Brownies",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Chocolate Chip Cookies",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "189303",
+            "creatorName": "Mrs. Truran",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "16802571",
+                "udid": "599ccba13d1243.09767330",
+                "journalName": "Mrs. Truran",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.70588235294118 0.94509803921569 0.39607843137255 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "214751246",
+                "fid": "",
+                "accountID": "60E0A0B1-0354-961D-B596-8EEC5F1A3499",
+                "simpleAccountId": "5412684",
+                "pagesFlipped": 3636,
+                "nufComplete": 1,
+                "readingAge": 5.8333333333333,
+                "startingAge": 6,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 82,
+                "xpLevel": 6,
+                "dateLastLogin": 1559130438,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Jessica",
+                "lastName": "Truran",
+                "accountType": 1,
+                "dateModified": 1559130438,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Truran"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "How does each letter end?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Love, Catbug",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Hello, Bugcat",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Goodbye, Catbug",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Love, Mrs. Truran",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What is kind of word is BUUUUURP?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "An onomatopoeia",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Alliteration",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Rhyme",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Rhythm",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Many of Catbug's letters are",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Silly",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Sad",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Angry",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Sleepy",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Catbug says a hug is like",
+                "quizQuestionChoices": [
+                    {
+                        "title": "A shortcake with whipped cream",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "A warm blanket",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "A pumpkin patch",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "A swimming pool",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "What is Catbug's favorite thing to bake?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Peanut Butter Squares",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Apple Pie",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Brownies",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Chocolate Chip Cookies",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

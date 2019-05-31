@@ -1,0 +1,195 @@
+{
+    "publisherData": {
+        "modelId": "90336",
+        "name": "Live Oak Media provided by Lerner Publishing Group",
+        "url": "https://www.lernerbooks.com/About-Lerner/Pages/LiveOakMedia.aspx",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1528852493
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/21e193afda5b7c7ebf2dcf30d05ea9cc.jpg",
+                "audio": "drm/3/52143/OEBPS/Audio/1/page4_5.mp3"
+            },
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/050522ccd26e8635099c9ef1f1c8225c.jpg",
+                "audio": "drm/3/52143/OEBPS/Audio/1/page6_7.mp3"
+            },
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/08ffeb1bd76f5ee2f87183ad3632af77.jpg"
+            },
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/2600d36641a35c8cf313f775c7045fc1.jpg",
+                "audio": "drm/3/52143/OEBPS/Audio/1/page8_9.mp3"
+            },
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/770dc2184b1a33a6e8a568c953908ba1.jpg"
+            },
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/974e572f6e76bc668e4a87d5e01ee4e2.jpg",
+                "audio": "drm/3/52143/OEBPS/Audio/1/page10_11.mp3"
+            },
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/fc0cb9b938971440dbb167ae121a788b.jpg"
+            },
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/ac89a9a5549a11fbebc0db07ff8e9bc9.jpg",
+                "audio": "drm/3/52143/OEBPS/Audio/1/page12_13.mp3"
+            },
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/9e3baf4524845df5078f151f1dad29b3.jpg"
+            },
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/caa312a3127ffb35ed9d89730b4864b9.jpg",
+                "audio": "drm/3/52143/OEBPS/Audio/1/page14_15.mp3"
+            },
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/09fce20f017b69a74c7c88399f035239.jpg"
+            },
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/ca998432c27f7ca896ec920e0761cfaf.jpg",
+                "audio": "drm/3/52143/OEBPS/Audio/1/page16_17.mp3"
+            },
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/5932dc0f3c5341ed67d7b94efb339037.jpg"
+            },
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/a64f7733764252aa0a72dec41d28ec81.jpg",
+                "audio": "drm/3/52143/OEBPS/Audio/1/page18_19.mp3"
+            },
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/83ec830a3ab21db6ad038fe2c7ff692a.jpg"
+            },
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/628a04a801bf78d8a549cbe9ef8f8d11.jpg",
+                "audio": "drm/3/52143/OEBPS/Audio/1/page20_21.mp3"
+            },
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/1d283271bfbe1124b77dbbaf2b8164f9.jpg"
+            },
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/60e3d68b984f1df0ab9aa0d201a87e38.jpg",
+                "audio": "drm/3/52143/OEBPS/Audio/1/page22_23.mp3"
+            },
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/e8895179fabc4fab1f64950dad4e587b.jpg"
+            },
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/2ac60dc3103a5f4ea95094d0232e7927.jpg",
+                "audio": "drm/3/52143/OEBPS/Audio/1/page24_25.mp3"
+            },
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/e85b773de407cc5220ff69289a2b8623.jpg"
+            },
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/aefec3540bd70e6b9c3c6e75d7ec9936.jpg",
+                "audio": "drm/3/52143/OEBPS/Audio/1/page26_27.mp3"
+            },
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/31aa7ef4eae56ed9ffcff8a3f93efa2d.jpg"
+            },
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/ae8bddfd153241026f2e33e752d2ab63.jpg",
+                "audio": "drm/3/52143/OEBPS/Audio/1/page28_29.mp3"
+            },
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/bc87ee93f92ca6aa1f21e820b88728aa.jpg"
+            },
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/03ae1cdd272f51dee817b326d3fb487b.jpg",
+                "audio": "drm/3/52143/OEBPS/Audio/1/page30_31.mp3"
+            },
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/b52f065dfc899fa3756fb4bccba5363b.jpg"
+            },
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/6f96a43649ca48a0e91e1d7efd19e389.jpg",
+                "audio": "drm/3/52143/OEBPS/Audio/1/page32_33.mp3"
+            },
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/5f9e476d89ab03965a2824bf2886ba49.jpg"
+            },
+            {
+                "page": "drm/3/52143/OEBPS/Images/1/68951467282057a48bba43a6ca54a44b.jpg",
+                "audio": "drm/3/52143/OEBPS/Audio/1/page34_35.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/3/52143/OEBPS/Images/1/ddc2db79eb1e290907409d75db6adc3d.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "52143",
+        "id": "52143",
+        "title": "Apples",
+        "author": "Gail Gibbons",
+        "illustrator": " ",
+        "numPages": 30,
+        "bookDescription": "Explains how apples were brought to America, how they grow, their traditional use and cultural significance, and some of the varieties grown",
+        "coverColorR": 210,
+        "coverColorG": 177,
+        "coverColorB": 88,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Live Oak Media provided by Lerner Publishing Group",
+        "publisherId": "90336",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 550,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 80,
+        "type": 1,
+        "subject": "84",
+        "subjectDesc": "Food",
+        "subjectColor": "29E69B",
+        "copyright": "",
+        "aspectRatio": 0.9679,
+        "contentHash": "f89ffa187e77aeda9b40",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1556293829
+    },
+    "userBook": {
+        "modelId": "46250489-52143",
+        "userId": "46250489",
+        "bookId": "52143",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559307272,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559307272,
+        "book": {
+            "modelId": "52143",
+            "title": "Apples",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "f89ffa187e77aeda9b40"
+        }
+    },
+    "quiz": null
+}

@@ -1,0 +1,488 @@
+{
+    "publisherData": {
+        "modelId": "109",
+        "name": "JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/18044/OEBPS/Images/1/cbc14786f541ea14062fcdb7e280742e.jpg"
+            },
+            {
+                "page": "drm/4/18044/OEBPS/Images/1/fa10e8abae2c89ed941232eac0ed9247.jpg",
+                "audio": "drm/4/18044/OEBPS/Audio/1/cf2d80396d4d0f9d13d13ef473204c0d.mp3"
+            },
+            {
+                "page": "drm/4/18044/OEBPS/Images/1/e70d44d162a19cd32daf09e17bd1c16a.jpg",
+                "audio": "drm/4/18044/OEBPS/Audio/1/8104b78ef35ef1220621e75b24740870.mp3"
+            },
+            {
+                "page": "drm/4/18044/OEBPS/Images/1/4c4f17be17a08f467e97395558bdf5a0.jpg",
+                "audio": "drm/4/18044/OEBPS/Audio/1/d842bba00b3acb20cb4619f9326319e4.mp3"
+            },
+            {
+                "page": "drm/4/18044/OEBPS/Images/1/c88ea7a14f167af0b7132719cdb1bd44.jpg",
+                "audio": "drm/4/18044/OEBPS/Audio/1/8f448b27333602dd65d8ced35ec87769.mp3"
+            },
+            {
+                "page": "drm/4/18044/OEBPS/Images/1/dfc64da23e549971393dd3dc0436fa4d.jpg",
+                "audio": "drm/4/18044/OEBPS/Audio/1/f4dfa8172693ba0ee71fb5e515e7cd73.mp3"
+            },
+            {
+                "page": "drm/4/18044/OEBPS/Images/1/66e9540ba5cb3a3ac6b1aedc2aff8570.jpg"
+            },
+            {
+                "page": "drm/4/18044/OEBPS/Images/1/92b659d7029ae7a3e0d337036afa819b.jpg",
+                "audio": "drm/4/18044/OEBPS/Audio/1/b7004c117347f59d75a0c01536441695.mp3"
+            },
+            {
+                "page": "drm/4/18044/OEBPS/Images/1/cdad9afd1ef5057920f2cf0c8fa4f39c.jpg",
+                "audio": "drm/4/18044/OEBPS/Audio/1/1edf58b263417a4b26a37eb998188df4.mp3"
+            },
+            {
+                "page": "drm/4/18044/OEBPS/Images/1/b55f1c4db530a0e712a9c5c7bdd1e5a7.jpg",
+                "audio": "drm/4/18044/OEBPS/Audio/1/a0c9581808e2bd981a48c24e1721e924.mp3"
+            },
+            {
+                "page": "drm/4/18044/OEBPS/Images/1/68e894f99a8d9634a9cf8fd8e231abf5.jpg"
+            },
+            {
+                "page": "drm/4/18044/OEBPS/Images/1/71df3fbecc0fe8a11bab687adaa562f5.jpg",
+                "audio": "drm/4/18044/OEBPS/Audio/1/0017c3e4f65688d857192f5b959d2508.mp3"
+            },
+            {
+                "page": "drm/4/18044/OEBPS/Images/1/8f7a052ecb7aba323e21263a141d2227.jpg"
+            },
+            {
+                "page": "drm/4/18044/OEBPS/Images/1/0d87412f09a5ec77b06027d0e299a1b4.jpg",
+                "audio": "drm/4/18044/OEBPS/Audio/1/485534c45bcff2d2fecb3b8131078443.mp3"
+            },
+            {
+                "page": "drm/4/18044/OEBPS/Images/1/2df2282ec758262972f23b36adccd859.jpg"
+            },
+            {
+                "page": "drm/4/18044/OEBPS/Images/1/0d23b55289153e78fbae42daf579bd00.jpg",
+                "audio": "drm/4/18044/OEBPS/Audio/1/d8b21d8e8499036d6f408ee6498eaa58.mp3"
+            },
+            {
+                "page": "drm/4/18044/OEBPS/Images/1/c9fff81f36f3ec59e5343609571e51ab.jpg"
+            },
+            {
+                "page": "drm/4/18044/OEBPS/Images/1/53c459e8c9da7eb9720f8fa1dbf39cf8.jpg",
+                "audio": "drm/4/18044/OEBPS/Audio/1/74a513928e9657f12cb62f0f26ddf355.mp3"
+            },
+            {
+                "page": "drm/4/18044/OEBPS/Images/1/e9d7585d31aad7d485d3d2a44aaca9ed.jpg"
+            },
+            {
+                "page": "drm/4/18044/OEBPS/Images/1/eef042d4a60d714e033c5f51b0a5835b.jpg",
+                "audio": "drm/4/18044/OEBPS/Audio/1/silence.mp3"
+            },
+            {
+                "page": "drm/4/18044/OEBPS/Images/1/cbd0ca3ea0b96d36c834612f1364c17c.jpg",
+                "audio": "drm/4/18044/OEBPS/Audio/1/e58624c168653248a8b8e2d405d14cfb.mp3"
+            },
+            {
+                "page": "drm/4/18044/OEBPS/Images/1/7292c81ca843271da3d8001ad3722d3b.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/18044/OEBPS/Images/1/a9943b0df66eafb5c40c5d378df4f249.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18044",
+        "id": "18044",
+        "title": "Machines at Work: School Buses",
+        "author": "Allan Morey",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "In School Buses, early readers will learn about the parts of a school bus that help keep students safe as they travel to and from school.",
+        "coverColorR": 150,
+        "coverColorG": 138,
+        "coverColorB": 123,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "JUMP",
+        "publisherId": "109",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "310L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 733,
+        "ar": "0.9",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Things That GO",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "2b04f296ad0a4a9ce5ba",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372850
+    },
+    "userBook": {
+        "modelId": "46250489-18044",
+        "userId": "46250489",
+        "bookId": "18044",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311839,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311839,
+        "book": {
+            "modelId": "18044",
+            "title": "Machines at Work: School Buses",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "2b04f296ad0a4a9ce5ba"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "122427",
+            "user_id": "16400441",
+            "book_id": "18044",
+            "title": "School buses",
+            "description": "",
+            "date_created": 1506287294,
+            "date_modified": 1511203897,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What color is a school bus?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "yellow",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "brown",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "white",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "green",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "Where do you go to get pick up for a school bus?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "bus stop",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "bus route",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "corner",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "stop sign",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What color are the flashing lights?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "red",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "blue",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "green",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "yellow",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What does the video camera do?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "keeps kids safe",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "nothing",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "there is no camera",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "plays movies",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "What is the back door used for?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "emergencies",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "nothing",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "to leave the bus",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "it does not open",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "122427",
+            "creatorName": "Mr. White",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "16400441",
+                "udid": "5988af02474533.07307113",
+                "journalName": "Mr. White",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.94509803921569 0.66274509803922 0.92941176470588 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "477220473",
+                "fid": "",
+                "accountID": "7D92204C-D11A-7FF5-F132-5C19F7D0288E",
+                "simpleAccountId": "5347543",
+                "pagesFlipped": 1028,
+                "nufComplete": 1,
+                "readingAge": 6.03333,
+                "startingAge": 0,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 76,
+                "xpLevel": 2,
+                "dateLastLogin": 1545165642,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Spencer",
+                "lastName": "White",
+                "accountType": 1,
+                "dateModified": 1545240286,
+                "educatorPrefix": "Mr.",
+                "name": "Mr. White"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What color is a school bus?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "yellow",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "brown",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "white",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "green",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "Where do you go to get pick up for a school bus?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "bus stop",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "bus route",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "corner",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "stop sign",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What color are the flashing lights?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "red",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "blue",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "green",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "yellow",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What does the video camera do?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "keeps kids safe",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "nothing",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "there is no camera",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "plays movies",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "What is the back door used for?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "emergencies",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "nothing",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "to leave the bus",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "it does not open",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

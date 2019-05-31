@@ -1,0 +1,402 @@
+{
+    "publisherData": {
+        "modelId": "91",
+        "name": "ABDO Publishing",
+        "url": "http://abdopublishing.com//",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570820
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/25819/OEBPS/Images/1/0466DFBC-31D5-4B33-A3B9-133B0DB05A1A.jpg"
+            },
+            {
+                "page": "drm/9/25819/OEBPS/Images/1/03886BCD-1D9F-4F9F-939E-EDC38AA7DAD4.jpg",
+                "audio": "drm/9/25819/OEBPS/Audio/1/page6.mp3"
+            },
+            {
+                "page": "drm/9/25819/OEBPS/Images/1/D978272B-2A20-4426-9D18-D2DD8857E823.jpg"
+            },
+            {
+                "page": "drm/9/25819/OEBPS/Images/1/624DEAB3-C819-42A3-9185-BF8C94FF0D9D.jpg",
+                "audio": "drm/9/25819/OEBPS/Audio/1/page8.mp3"
+            },
+            {
+                "page": "drm/9/25819/OEBPS/Images/1/044F9197-D594-4108-93AD-019718D402A6.jpg"
+            },
+            {
+                "page": "drm/9/25819/OEBPS/Images/1/5CB2651A-6D0F-4E05-8912-3DA87AC1EB25.jpg",
+                "audio": "drm/9/25819/OEBPS/Audio/1/page10.mp3"
+            },
+            {
+                "page": "drm/9/25819/OEBPS/Images/1/D9D11283-D18E-4A24-9338-75507CAFF156.jpg"
+            },
+            {
+                "page": "drm/9/25819/OEBPS/Images/1/712B3BC3-F108-4EE2-8D2D-78678F6780C7.jpg",
+                "audio": "drm/9/25819/OEBPS/Audio/1/page12.mp3"
+            },
+            {
+                "page": "drm/9/25819/OEBPS/Images/1/391AD660-50AE-46C9-BDC1-DE8ECBD10316.jpg"
+            },
+            {
+                "page": "drm/9/25819/OEBPS/Images/1/1826A6CB-519A-42D4-A32D-37AAF2CA4693.jpg",
+                "audio": "drm/9/25819/OEBPS/Audio/1/page14.mp3"
+            },
+            {
+                "page": "drm/9/25819/OEBPS/Images/1/D9AEDA4E-C8A8-4C95-B003-254AAF590006.jpg"
+            },
+            {
+                "page": "drm/9/25819/OEBPS/Images/1/9F8E0D6A-E384-439C-B351-5B1D065F8193.jpg",
+                "audio": "drm/9/25819/OEBPS/Audio/1/page16.mp3"
+            },
+            {
+                "page": "drm/9/25819/OEBPS/Images/1/795606F1-741C-407D-BA3B-729B2D01540C.jpg"
+            },
+            {
+                "page": "drm/9/25819/OEBPS/Images/1/5A15B650-BB50-41A1-B0E7-01DCD0289246.jpg",
+                "audio": "drm/9/25819/OEBPS/Audio/1/page18.mp3"
+            },
+            {
+                "page": "drm/9/25819/OEBPS/Images/1/398CF8D9-6E20-4077-AF5A-EBDB2E587823.jpg"
+            },
+            {
+                "page": "drm/9/25819/OEBPS/Images/1/76BC007B-E7EA-42C7-9422-52659AFE378A.jpg",
+                "audio": "drm/9/25819/OEBPS/Audio/1/page20.mp3"
+            },
+            {
+                "page": "drm/9/25819/OEBPS/Images/1/B56F2524-3286-4413-AFBB-0E70DCF48CE5.jpg"
+            },
+            {
+                "page": "drm/9/25819/OEBPS/Images/1/AA82326B-25E9-4573-B6D6-E5A3D1839ACA.jpg",
+                "audio": "drm/9/25819/OEBPS/Audio/1/page22.mp3"
+            },
+            {
+                "page": "drm/9/25819/OEBPS/Images/1/8B1BC04B-28F4-4889-9310-7F226EDBDD99.jpg"
+            },
+            {
+                "page": "drm/9/25819/OEBPS/Images/1/BE629AD2-ADAE-44B2-91E2-19C45020108C.jpg",
+                "audio": "drm/9/25819/OEBPS/Audio/1/page24.mp3"
+            },
+            {
+                "page": "drm/9/25819/OEBPS/Images/1/5A8AFE43-B195-4C8F-AA9B-614D9AD051C9.jpg"
+            },
+            {
+                "page": "drm/9/25819/OEBPS/Images/1/DAAAF3A1-04FC-4524-A674-AE04C0918C7F.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/25819/OEBPS/Images/1/3E6263E0-043E-4B3A-94CC-821121CA31F0.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "25819",
+        "id": "25819",
+        "title": "Gray Wolves",
+        "author": "Grace Hansen",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Early readers can delve into the wild world of gray wolves with this title.",
+        "coverColorR": 142,
+        "coverColorG": 146,
+        "coverColorB": 122,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "ABDO Publishing",
+        "publisherId": "91",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "460L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 403,
+        "ar": "2.1",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Wild Things",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.2121,
+        "contentHash": "6ebb80d55b6d4ff2cb8a",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373045
+    },
+    "userBook": {
+        "modelId": "46250489-25819",
+        "userId": "46250489",
+        "bookId": "25819",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559305585,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559305585,
+        "book": {
+            "modelId": "25819",
+            "title": "Gray Wolves",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "6ebb80d55b6d4ff2cb8a"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "182697",
+            "user_id": "19935365",
+            "book_id": "25819",
+            "title": "Gray Wolves",
+            "description": "",
+            "date_created": 1519923309,
+            "date_modified": 1522870362,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "The wolves live in a home called a.......?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "den",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "prey",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "pup",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "The fur color of a Gray Wolf is only gray.",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "False",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "True",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Gray Wolves hunt in packs of 6-10 wolves. ",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "True",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "False",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "The male and female leaders of a wolf pack are called the alpha pair.",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "True",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "False",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "How do Gray Wolves communicate (talk to each other). ?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "howl",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "bark",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "use their paws",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "182697",
+            "creatorName": "Camila A.",
+            "avatarId": "27",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "19935365",
+                "udid": "59e92a281f89b4.83336646",
+                "journalName": "Camila A.",
+                "journalCoverAvatar": "27",
+                "journalCoverColor": "0.61176470588235 0.36078431372549 0.70588235294118 1",
+                "journalFrameImage": "8",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "623954052",
+                "fid": "",
+                "accountID": "D41AD59D-4754-4B0A-AEF4-50FFD95B23D1",
+                "simpleAccountId": "5949494",
+                "pagesFlipped": 1668,
+                "nufComplete": 1,
+                "readingAge": 6.7,
+                "startingAge": 8,
+                "status": 0,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 898,
+                "xpLevel": 9,
+                "dateLastLogin": 0,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "Camila",
+                "lastName": "Alexandra",
+                "accountType": 1,
+                "dateModified": 1558293391
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "The wolves live in a home called a.......?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "den",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "prey",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "pup",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "The fur color of a Gray Wolf is only gray.",
+                "quizQuestionChoices": [
+                    {
+                        "title": "False",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "True",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Gray Wolves hunt in packs of 6-10 wolves. ",
+                "quizQuestionChoices": [
+                    {
+                        "title": "True",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "False",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "The male and female leaders of a wolf pack are called the alpha pair.",
+                "quizQuestionChoices": [
+                    {
+                        "title": "True",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "False",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "How do Gray Wolves communicate (talk to each other). ?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "howl",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "bark",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "use their paws",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

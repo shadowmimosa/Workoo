@@ -1,0 +1,178 @@
+{
+    "publisherData": {
+        "modelId": "90312",
+        "name": "Houghton Mifflin Harcourt",
+        "url": "https://www.hmhco.com/",
+        "checkout": 0,
+        "educationalEnabled": 0,
+        "dateModified": 1523564869
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/59354/OEBPS/Images/1/0386494c83cbaf72f25911186f74211b.jpg",
+                "audio": "drm/4/59354/OEBPS/Audio/1/9780547768274_Title.mp3"
+            },
+            {
+                "page": "drm/4/59354/OEBPS/Images/1/b8918083a0d1f20b0957e217a827bf97.jpg"
+            },
+            {
+                "page": "drm/4/59354/OEBPS/Images/1/8398d3c4c02b13f3e735f9370825e74c.jpg",
+                "audio": "drm/4/59354/OEBPS/Audio/1/9780547768274_3.mp3"
+            },
+            {
+                "page": "drm/4/59354/OEBPS/Images/1/58813dc78f8450835a323f2d91ff772d.jpg",
+                "audio": "drm/4/59354/OEBPS/Audio/1/9780547768274_4-5.mp3"
+            },
+            {
+                "page": "drm/4/59354/OEBPS/Images/1/14e3bc3c18d0f29684735651ce7e82cc.jpg"
+            },
+            {
+                "page": "drm/4/59354/OEBPS/Images/1/3e03506eb5168d9d348f151e4432c918.jpg",
+                "audio": "drm/4/59354/OEBPS/Audio/1/9780547768274_6-7.mp3"
+            },
+            {
+                "page": "drm/4/59354/OEBPS/Images/1/351fbaa7852da1fa487145c6b9e7829b.jpg"
+            },
+            {
+                "page": "drm/4/59354/OEBPS/Images/1/70110f09a660a52e8e2b4556bc062605.jpg",
+                "audio": "drm/4/59354/OEBPS/Audio/1/9780547768274_8-9.mp3"
+            },
+            {
+                "page": "drm/4/59354/OEBPS/Images/1/b816748c928a2d37ded731e8bb2a4fd2.jpg"
+            },
+            {
+                "page": "drm/4/59354/OEBPS/Images/1/64a85d82b25f91a314eeeb68bf95be14.jpg",
+                "audio": "drm/4/59354/OEBPS/Audio/1/9780547768274_10-11.mp3"
+            },
+            {
+                "page": "drm/4/59354/OEBPS/Images/1/9b35ab12a87c9339e3a0a21cde57dc85.jpg"
+            },
+            {
+                "page": "drm/4/59354/OEBPS/Images/1/e334efd3c68309efcddb1f74a0b61256.jpg",
+                "audio": "drm/4/59354/OEBPS/Audio/1/9780547768274_12-13.mp3"
+            },
+            {
+                "page": "drm/4/59354/OEBPS/Images/1/bd33c5c1b3cbdc20b152e7312770a256.jpg"
+            },
+            {
+                "page": "drm/4/59354/OEBPS/Images/1/666dcbcd1b30612614992152a6808398.jpg",
+                "audio": "drm/4/59354/OEBPS/Audio/1/9780547768274_14-15.mp3"
+            },
+            {
+                "page": "drm/4/59354/OEBPS/Images/1/8152e4808e65f1dc9cd0f10269aa2bef.jpg"
+            },
+            {
+                "page": "drm/4/59354/OEBPS/Images/1/119d9e1431035559b91574c4dd4bac75.jpg",
+                "audio": "drm/4/59354/OEBPS/Audio/1/9780547768274_16-17.mp3"
+            },
+            {
+                "page": "drm/4/59354/OEBPS/Images/1/cdc0fc713a115362bbcc9ef4b870287a.jpg"
+            },
+            {
+                "page": "drm/4/59354/OEBPS/Images/1/3a83df0f67726aeb2eb641d75cb593e8.jpg",
+                "audio": "drm/4/59354/OEBPS/Audio/1/9780547768274_18-19.mp3"
+            },
+            {
+                "page": "drm/4/59354/OEBPS/Images/1/2a816ada8e975fb583f60fde84452e01.jpg"
+            },
+            {
+                "page": "drm/4/59354/OEBPS/Images/1/469fde6644bfbcc856c220dab0964311.jpg",
+                "audio": "drm/4/59354/OEBPS/Audio/1/9780547768274_20-21.mp3"
+            },
+            {
+                "page": "drm/4/59354/OEBPS/Images/1/305faaf9ef8927d77dc56bc8ec149902.jpg"
+            },
+            {
+                "page": "drm/4/59354/OEBPS/Images/1/224e03dd868c068593adb351c26c41c5.jpg",
+                "audio": "drm/4/59354/OEBPS/Audio/1/9780547768274_22-23.mp3"
+            },
+            {
+                "page": "drm/4/59354/OEBPS/Images/1/982d2bfe31bf871f2927b3aac13fbb23.jpg"
+            },
+            {
+                "page": "drm/4/59354/OEBPS/Images/1/8c72c8c7876b8f38239d11cb722256f7.jpg",
+                "audio": "drm/4/59354/OEBPS/Audio/1/9780547768274_24.mp3"
+            },
+            {
+                "page": "drm/4/59354/OEBPS/Images/1/c9fffdf589297be67124721acf89445d.jpg",
+                "audio": "drm/4/59354/OEBPS/Audio/1/9780547768274_25Outro Song.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/59354/OEBPS/Images/1/e095f0c47897220d5505aa0c99c0bdf5.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "59354",
+        "id": "59354",
+        "title": "Curious George Goes to the Zoo",
+        "author": "Cynthia Platt",
+        "illustrator": "Mary O'Keefe Young",
+        "numPages": 25,
+        "bookDescription": "George is going to visit a new kind of zoo. George befriends a baby rhino just in time for her special birthday party!",
+        "coverColorR": 212,
+        "coverColorG": 222,
+        "coverColorB": 78,
+        "version": 582187729,
+        "previewPercent": 20,
+        "publisher": "Houghton Mifflin Harcourt",
+        "publisherId": "90312",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "530L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 375,
+        "ar": "3.1",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Humorous Stories",
+        "subjectColor": "FFD673",
+        "copyright": "2011",
+        "aspectRatio": 1,
+        "contentHash": "0f54443e7586969358a2",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374866
+    },
+    "userBook": {
+        "modelId": "46250489-59354",
+        "userId": "46250489",
+        "bookId": "59354",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310521,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310521,
+        "book": {
+            "modelId": "59354",
+            "title": "Curious George Goes to the Zoo",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "0f54443e7586969358a2"
+        }
+    },
+    "quiz": null
+}

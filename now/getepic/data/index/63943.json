@@ -1,0 +1,121 @@
+{
+    "publisherData": {
+        "modelId": "28",
+        "name": "Xist Publishing",
+        "url": "http://www.xistpublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539564197
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/3/63943/OEBPS/Images/1/c65e3075e20a74f53a8b3fc8233fa8bc.jpg",
+                "audio": "drm/3/63943/OEBPS/Audio/1/9781532409547_01.mp3"
+            },
+            {
+                "page": "drm/3/63943/OEBPS/Images/1/db7f44f56e13bcd07cb929411d517bba.jpg",
+                "audio": "drm/3/63943/OEBPS/Audio/1/9781532409547_02.mp3"
+            },
+            {
+                "page": "drm/3/63943/OEBPS/Images/1/3d0c67d27bc09814b7f056d61411eb2e.jpg"
+            },
+            {
+                "page": "drm/3/63943/OEBPS/Images/1/96a7374fb28eac5c865c0fd1e7850ea7.jpg",
+                "audio": "drm/3/63943/OEBPS/Audio/1/9781532409547_03.mp3"
+            },
+            {
+                "page": "drm/3/63943/OEBPS/Images/1/37b6b1d3e000b3de79ea7a727e865dce.jpg"
+            },
+            {
+                "page": "drm/3/63943/OEBPS/Images/1/ce178749b0384ff9bad03217f656e39b.jpg",
+                "audio": "drm/3/63943/OEBPS/Audio/1/9781532409547_04.mp3"
+            },
+            {
+                "page": "drm/3/63943/OEBPS/Images/1/7b6f286e05d99a7f40e9c0431b571e18.jpg"
+            },
+            {
+                "page": "drm/3/63943/OEBPS/Images/1/a5de9bd37464719e32f55aa276758cd8.jpg",
+                "audio": "drm/3/63943/OEBPS/Audio/1/9781532409547_05.mp3"
+            },
+            {
+                "page": "drm/3/63943/OEBPS/Images/1/798df81b541ff46256ed772d0b3529ce.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/3/63943/OEBPS/Images/1/14a959f9b1cc324df5027f23908db2de.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "63943",
+        "id": "63943",
+        "title": "Discover Colors: Pink",
+        "author": "Xist Publishing",
+        "illustrator": " ",
+        "numPages": 9,
+        "bookDescription": "Beginning readers identify things that are the color pink in this very simple 12-page reader.",
+        "coverColorR": 229,
+        "coverColorG": 229,
+        "coverColorB": 229,
+        "version": 1293873515,
+        "previewPercent": 20,
+        "publisher": "Xist Publishing",
+        "publisherId": "28",
+        "age": 4,
+        "pageNumOffset": -1,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 225,
+        "ar": "1.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "a",
+        "language": 1,
+        "rating": 75,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.6471,
+        "contentHash": "cd0508799d795d396130",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1559173972
+    },
+    "userBook": {
+        "modelId": "46250489-63943",
+        "userId": "46250489",
+        "bookId": "63943",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559309823,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559309823,
+        "book": {
+            "modelId": "63943",
+            "title": "Discover Colors: Pink",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "cd0508799d795d396130"
+        }
+    },
+    "quiz": null
+}

@@ -1,0 +1,167 @@
+{
+    "publisherData": {
+        "modelId": "109",
+        "name": "JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/18000/OEBPS/Images/1/9b95814bb7d073ead2ab1d0830c91dcd.jpg"
+            },
+            {
+                "page": "drm/0/18000/OEBPS/Images/1/49bde2535f4096f2987a621aa710f310.jpg",
+                "audio": "drm/0/18000/OEBPS/Audio/1/51a3ade1a86a63f51e9e235231cc3289.mp3"
+            },
+            {
+                "page": "drm/0/18000/OEBPS/Images/1/be06bbe880d9ed7f8786f8f2d773f7df.jpg",
+                "audio": "drm/0/18000/OEBPS/Audio/1/2a31537cfc3f5d01cafbe2d6da6309a7.mp3"
+            },
+            {
+                "page": "drm/0/18000/OEBPS/Images/1/59929e993c86da87a63c04add4618110.jpg",
+                "audio": "drm/0/18000/OEBPS/Audio/1/5ac192b4ec6d14c3eee05d4860a2dfe7.mp3"
+            },
+            {
+                "page": "drm/0/18000/OEBPS/Images/1/91277ce6396d7003285f2dfb3559aa59.jpg"
+            },
+            {
+                "page": "drm/0/18000/OEBPS/Images/1/0bed6fffd6630e18b9be53dbcee76d41.jpg",
+                "audio": "drm/0/18000/OEBPS/Audio/1/52e2c85a78f08860fc255d75dd96e8aa.mp3"
+            },
+            {
+                "page": "drm/0/18000/OEBPS/Images/1/e372ae0e99bd600beaaaa1178dfc7ee7.jpg"
+            },
+            {
+                "page": "drm/0/18000/OEBPS/Images/1/0cd04e21b8578e0a0cd4c1040110783a.jpg",
+                "audio": "drm/0/18000/OEBPS/Audio/1/a73e79444969d5db49bf5fb643502539.mp3"
+            },
+            {
+                "page": "drm/0/18000/OEBPS/Images/1/eccb78c9d8f33df1e1af29edaa70fbc1.jpg"
+            },
+            {
+                "page": "drm/0/18000/OEBPS/Images/1/d0b8b51f2c9244ca44298d667328bedf.jpg",
+                "audio": "drm/0/18000/OEBPS/Audio/1/3d3ea8329ec77123cf68238abd7f6dc4.mp3"
+            },
+            {
+                "page": "drm/0/18000/OEBPS/Images/1/3997f2ba1a47936f56c770c37d92f484.jpg"
+            },
+            {
+                "page": "drm/0/18000/OEBPS/Images/1/417c4fb652a5feed84781b5bbdd06752.jpg",
+                "audio": "drm/0/18000/OEBPS/Audio/1/b48008fd490ba5ef362e9bfd406fc419.mp3"
+            },
+            {
+                "page": "drm/0/18000/OEBPS/Images/1/25aa698016ead95e624b4d4c1bd99283.jpg"
+            },
+            {
+                "page": "drm/0/18000/OEBPS/Images/1/dca63dc43c1db8b4df573af6abbb5cbd.jpg",
+                "audio": "drm/0/18000/OEBPS/Audio/1/74bc84326289a9f99509de695cf172be.mp3"
+            },
+            {
+                "page": "drm/0/18000/OEBPS/Images/1/fb57e80b31ba41ef35f245c6673affee.jpg"
+            },
+            {
+                "page": "drm/0/18000/OEBPS/Images/1/ff96e679d7cc37a69a96b2d2bedb720a.jpg",
+                "audio": "drm/0/18000/OEBPS/Audio/1/80ed3e1c9e433b9ce99e400a878f2d69.mp3"
+            },
+            {
+                "page": "drm/0/18000/OEBPS/Images/1/45fd49f418bfd387d132d22ac2235abf.jpg",
+                "audio": "drm/0/18000/OEBPS/Audio/1/e328d3e557dab4f9b835de8e40db555d.mp3"
+            },
+            {
+                "page": "drm/0/18000/OEBPS/Images/1/a93f88bdcbc1ab26a3a477419eae69a1.jpg",
+                "audio": "drm/0/18000/OEBPS/Audio/1/8ae2a25d729dd16a0c31b9f63129b8c7.mp3"
+            },
+            {
+                "page": "drm/0/18000/OEBPS/Images/1/d65ae4b13ebbf3d8ddf067f65668f503.jpg"
+            },
+            {
+                "page": "drm/0/18000/OEBPS/Images/1/7e2c84aacd395bb3882516cf8c034a57.jpg"
+            },
+            {
+                "page": "drm/0/18000/OEBPS/Images/1/397e4cf3151247312e5ff7aab5a3e123.jpg",
+                "audio": "drm/0/18000/OEBPS/Audio/1/a2012d193c4024548934015da5300b30.mp3"
+            },
+            {
+                "page": "drm/0/18000/OEBPS/Images/1/1c234d9fb10dc9921eeea769dc9156d6.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/18000/OEBPS/Images/1/e34753c2006bfc3f0e3870ff5ae5c471.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18000",
+        "id": "18000",
+        "title": "My First Pet: Birds",
+        "author": "Cari Meister",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "In Birds, early readers will learn how to care for a pet bird and find out which types of birds make good pets.",
+        "coverColorR": 195,
+        "coverColorG": 175,
+        "coverColorB": 132,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "JUMP",
+        "publisherId": "109",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "310L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 733,
+        "ar": "0.9",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pets",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "1310474d3c3c75116e6e",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372848
+    },
+    "userBook": {
+        "modelId": "46250489-18000",
+        "userId": "46250489",
+        "bookId": "18000",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311381,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311381,
+        "book": {
+            "modelId": "18000",
+            "title": "My First Pet: Birds",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "1310474d3c3c75116e6e"
+        }
+    },
+    "quiz": null
+}

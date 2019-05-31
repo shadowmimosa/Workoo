@@ -1,0 +1,578 @@
+{
+    "publisherData": {
+        "modelId": "10",
+        "name": "Kids Can Press",
+        "url": "http://www.kidscanpress.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539816186
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/9710b3c56846b9af1da9bf2b1dd95dd1.jpg",
+                "audio": "drm/8/6268/OEBPS/Audio/1/38b496ca37e96abc7836b3c9013f4d13.mp3"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/44d0edd9f281e53dd39576e3ed3a6698.jpg"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/d80e1174e4e4841a856a256a464aa082.jpg",
+                "audio": "drm/8/6268/OEBPS/Audio/1/d1022347e95fcf90fa36ccba2fd3b35a.mp3"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/fded6a48bd2dd7e0b33628927f606334.jpg",
+                "audio": "drm/8/6268/OEBPS/Audio/1/bd11a7956ca8d112713df3c74dd889cb.mp3"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/0bee642d266b106b0c57c898b1f6e3d0.jpg",
+                "audio": "drm/8/6268/OEBPS/Audio/1/a238719a7cb574919d8cf1c8f84297e4.mp3"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/29e2eb71f8848c1226110b9fa9f28a5a.jpg",
+                "audio": "drm/8/6268/OEBPS/Audio/1/ce23fbeed274e5448bdd692973a73d97.mp3"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/612883b8ea79fc1583246f056c7a2b31.jpg",
+                "audio": "drm/8/6268/OEBPS/Audio/1/035ac6a6baf7149d9d4e5b582e16d22a.mp3"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/e7e61726438416a90e5e563f99a22a4c.jpg",
+                "audio": "drm/8/6268/OEBPS/Audio/1/ba1f61ed119a64bbfebb81280546084c.mp3"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/d27c92424229e76bff60a4a49fe936a5.jpg"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/3b3a8b18cfa488690bebbcf12674b37d.jpg",
+                "audio": "drm/8/6268/OEBPS/Audio/1/1fb0ca07aad2df2593c43f25347f5e2d.mp3"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/c33949b2de07393ffa0d2a55b0079afe.jpg",
+                "audio": "drm/8/6268/OEBPS/Audio/1/ba3335dfead53e7d8d0b92931b17bf48.mp3"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/260127a3042d0606ea90c573473f6a0f.jpg",
+                "audio": "drm/8/6268/OEBPS/Audio/1/25c5549b4dec9d7ec354463e70b7634e.mp3"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/0023fdcb0a25b7e11e33581fdf41592e.jpg",
+                "audio": "drm/8/6268/OEBPS/Audio/1/356340e4f82fe2468ba9711e45bfbdc2.mp3"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/684cd0abd08d9087bd9cce8c1a5098ae.jpg",
+                "audio": "drm/8/6268/OEBPS/Audio/1/23070744ef65f328e61c09fe7347a97f.mp3"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/db2221bbf8080706cb8e5e4069217159.jpg",
+                "audio": "drm/8/6268/OEBPS/Audio/1/9ef4e2bd8cbdadbd2f4af3933de7297b.mp3"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/57a44aa260ab56447254760d0010e1b1.jpg",
+                "audio": "drm/8/6268/OEBPS/Audio/1/414d777597efd59049b934736a903887.mp3"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/cc38bdc72b4d8b695d565a81571d4637.jpg",
+                "audio": "drm/8/6268/OEBPS/Audio/1/d58d7f541573a1e88d43ba35d5e31a56.mp3"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/d0b4800e3dcd5d7ce208d2f437e7be88.jpg",
+                "audio": "drm/8/6268/OEBPS/Audio/1/43fbb675bd60324d4796ef2c21334fc9.mp3"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/fdd49e2deddf3e210e0fcb5488d1fe60.jpg",
+                "audio": "drm/8/6268/OEBPS/Audio/1/d0dc2b7d51f994cccb0e56cb5394e01d.mp3"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/2946749c4539e0ff200e55269fefd77e.jpg",
+                "audio": "drm/8/6268/OEBPS/Audio/1/f171e85b32651648f2e18eb21f9948f0.mp3"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/3a2234f3dbc52c352778141461ff6500.jpg"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/f0be8a61caecf477a900189b2c8d8877.jpg",
+                "audio": "drm/8/6268/OEBPS/Audio/1/78ed662152f14e128dd05860a7f77dc8.mp3"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/3d6ea76d5e6f5687dd0269d8e45cc485.jpg",
+                "audio": "drm/8/6268/OEBPS/Audio/1/8b8f1e48aaf75e47b7b68dc6800c19b4.mp3"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/085a043f772abab7f24edca18fc7e699.jpg",
+                "audio": "drm/8/6268/OEBPS/Audio/1/400885e69eca7263f63275ef855f1254.mp3"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/691176227e188a144e62215e6fd8d8c8.jpg",
+                "audio": "drm/8/6268/OEBPS/Audio/1/d8387a7635a35307ad3c03083a5945ac.mp3"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/765ee8c6ed7bf89eebc77bc364a32b4c.jpg",
+                "audio": "drm/8/6268/OEBPS/Audio/1/50db95c53b93cc32e17d38319f01e14f.mp3"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/a20f0c005084829fffe186a2219d004a.jpg"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/9c056a6cb1600b1227a4d511939b6a96.jpg",
+                "audio": "drm/8/6268/OEBPS/Audio/1/8b2b7fc042ad6cb9483a7c8846ff77dd.mp3"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/a1d1b7c4180c62503612b544a45ac3ee.jpg",
+                "audio": "drm/8/6268/OEBPS/Audio/1/5506d45f10e3e078675975248e4a7c16.mp3"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/a0a35f8b06c4f837a0e6f475d25c53b1.jpg"
+            },
+            {
+                "page": "drm/8/6268/OEBPS/Images/1/f14e910b326243c660daafe912209d31.jpg",
+                "audio": "drm/8/6268/OEBPS/Audio/1/361bf4fbf083229e12b09fa76bdf652b.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/6268/OEBPS/Images/1/c8be710e431f226b774d4d8c3e2b9a21.jpg",
+            "color": "#fefefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "6268",
+        "id": "6268",
+        "title": "Small Saul",
+        "author": "Ashley Spires",
+        "illustrator": "Ashley Spires",
+        "numPages": 31,
+        "bookDescription": "Ahoy there! Will this sweet little pirate find his place aboard The Rusty Squid or will he be forced to walk the plank?",
+        "coverColorR": 204,
+        "coverColorG": 209,
+        "coverColorB": 198,
+        "version": 2,
+        "previewPercent": 20,
+        "publisher": "Kids Can Press",
+        "publisherId": "10",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "AD680L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 516,
+        "ar": "4.1",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "86",
+        "subjectDesc": "Action",
+        "subjectColor": "59E6FF",
+        "copyright": "",
+        "aspectRatio": 0.8,
+        "contentHash": "5836c212519101cdb44d",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1516684443
+    },
+    "userBook": {
+        "modelId": "46250489-6268",
+        "userId": "46250489",
+        "bookId": "6268",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310174,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310174,
+        "book": {
+            "modelId": "6268",
+            "title": "Small Saul",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "5836c212519101cdb44d"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "397167",
+            "user_id": "32827997",
+            "book_id": "6268",
+            "title": "More Asking and Answering Questions",
+            "description": "",
+            "date_created": 1556635685,
+            "date_modified": 1556635685,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What did Small Saul love?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Sea",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Peanut Butter",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Cleaning",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Baking cakes",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What school did Small Saul attend?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Pirate",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Elementary School",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Dance",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Cooking",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Why was Small Saul different from the other pirates?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Not rough and tough",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Wore an eye patch",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Had a long bread",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Had a beg leg",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Who pushed Small Saul over board?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Captian",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Sea gull",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Shark",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Windy",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "How did Small Saul feel in the end of the story?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Happy to be sailing again",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Sad because he wasn't a real pirate",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Sad because missed his family",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Happy to have won the cooking contest",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "How did the pirate crew feel at the end of the story?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Happy to have Small Saul back",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Sad to have to share their treasure",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Happy to have a new ship",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Sad because the cake was gone",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 5
+                }
+            ],
+            "modelId": "397167",
+            "creatorName": "Kirsten G.",
+            "avatarId": "1",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "32827997",
+                "udid": "5bbbac96e956c7.97566650",
+                "journalName": "Kirsten G.",
+                "journalCoverAvatar": "1",
+                "journalCoverColor": "0.84705882352941 0.18039215686275 0.46274509803922 1",
+                "journalFrameImage": "10",
+                "journalCoverImage": "15",
+                "themeId": "0",
+                "code": "419245062",
+                "fid": "",
+                "accountID": "34AA756B-A234-ED05-5A69-3D03396B1B4D",
+                "simpleAccountId": "8415649",
+                "pagesFlipped": 1623,
+                "nufComplete": 1,
+                "readingAge": 6.93333,
+                "startingAge": 8,
+                "status": 0,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 1712,
+                "xpLevel": 17,
+                "dateLastLogin": 1557945019,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "Kirsten",
+                "lastName": "Glasscock",
+                "accountType": 1,
+                "dateModified": 1558540901,
+                "grade": 3
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What did Small Saul love?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Sea",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Peanut Butter",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Cleaning",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Baking cakes",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What school did Small Saul attend?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Pirate",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Elementary School",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Dance",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Cooking",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Why was Small Saul different from the other pirates?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Not rough and tough",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Wore an eye patch",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Had a long bread",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Had a beg leg",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Who pushed Small Saul over board?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Captian",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Sea gull",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Shark",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Windy",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "How did Small Saul feel in the end of the story?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Happy to be sailing again",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Sad because he wasn't a real pirate",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Sad because missed his family",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Happy to have won the cooking contest",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "How did the pirate crew feel at the end of the story?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Happy to have Small Saul back",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Sad to have to share their treasure",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Happy to have a new ship",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Sad because the cake was gone",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 5
+            }
+        ]
+    }
+}

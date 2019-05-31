@@ -1,0 +1,175 @@
+{
+    "publisherData": {
+        "modelId": "107",
+        "name": "Rourke Educational Media",
+        "url": "http://rourkeeducationalmedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570193
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/18710/OEBPS/Images/1/bd270a9c3d77a62af9f8581541ccc244.jpg",
+                "audio": "drm/0/18710/OEBPS/Audio/1/75e0b9e4587710eb8f967e9ed2f8b026.mp3"
+            },
+            {
+                "page": "drm/0/18710/OEBPS/Images/1/ea4ee7470f9c5fcce578a0d1eefb9c1c.jpg",
+                "audio": "drm/0/18710/OEBPS/Audio/1/f265e99a5b93c826f31d554e68cce5b0.mp3"
+            },
+            {
+                "page": "drm/0/18710/OEBPS/Images/1/eb24eb2ea731a0d08ef1531c5233764e.jpg"
+            },
+            {
+                "page": "drm/0/18710/OEBPS/Images/1/aef39f182ec43f20b71a831d7d81f999.jpg",
+                "audio": "drm/0/18710/OEBPS/Audio/1/a8d7f9ae9edc783a7c8f4dd0a0bb19c4.mp3"
+            },
+            {
+                "page": "drm/0/18710/OEBPS/Images/1/0e94dd93d05b6203118607c350e3de75.jpg"
+            },
+            {
+                "page": "drm/0/18710/OEBPS/Images/1/47f7df00cbac1cbdb052b10e24ce166c.jpg",
+                "audio": "drm/0/18710/OEBPS/Audio/1/b86042e64ed920193b3ab6f88273793a.mp3"
+            },
+            {
+                "page": "drm/0/18710/OEBPS/Images/1/2acfdce16851d9ab86d33198cb05abe9.jpg"
+            },
+            {
+                "page": "drm/0/18710/OEBPS/Images/1/2bdab7a2f877912fa0e782bb13d5431f.jpg",
+                "audio": "drm/0/18710/OEBPS/Audio/1/6d743d00c11491d31f91f02474fdad82.mp3"
+            },
+            {
+                "page": "drm/0/18710/OEBPS/Images/1/3a58c1eaa3ae77286022a2f294097151.jpg"
+            },
+            {
+                "page": "drm/0/18710/OEBPS/Images/1/33c69da9c2b9c3aba37b14a42cdb0241.jpg",
+                "audio": "drm/0/18710/OEBPS/Audio/1/47d2f8d184d2a430289297d52f4ee38c.mp3"
+            },
+            {
+                "page": "drm/0/18710/OEBPS/Images/1/cbf7777a46a34c9e9811315bf4faeaab.jpg"
+            },
+            {
+                "page": "drm/0/18710/OEBPS/Images/1/8e1f5ef3ecb5721532e21e24d1367ac8.jpg",
+                "audio": "drm/0/18710/OEBPS/Audio/1/05bcbc82efca87ee9e120cf6864ef221.mp3"
+            },
+            {
+                "page": "drm/0/18710/OEBPS/Images/1/4384d1dbbe9c1442f5239839a87c3503.jpg"
+            },
+            {
+                "page": "drm/0/18710/OEBPS/Images/1/80dfca897aeb6ea3629bb637b0149e66.jpg",
+                "audio": "drm/0/18710/OEBPS/Audio/1/19ea53a17e2f285c660839cf55a5327c.mp3"
+            },
+            {
+                "page": "drm/0/18710/OEBPS/Images/1/8689a8039252db64fa6da7b1480def7e.jpg"
+            },
+            {
+                "page": "drm/0/18710/OEBPS/Images/1/7c244be78b2663eca2a7581af06ca4a9.jpg",
+                "audio": "drm/0/18710/OEBPS/Audio/1/9fb9349e01b3a9a84c49db5684aae60b.mp3"
+            },
+            {
+                "page": "drm/0/18710/OEBPS/Images/1/919bbd5511c0b6c8d2115f2261d9f2de.jpg"
+            },
+            {
+                "page": "drm/0/18710/OEBPS/Images/1/c76138f4ab827fd528ac07b29cc9a08c.jpg",
+                "audio": "drm/0/18710/OEBPS/Audio/1/2cf889c37142701ad83459658649affc.mp3"
+            },
+            {
+                "page": "drm/0/18710/OEBPS/Images/1/98c34af789a2cb84254f577a6117bd8d.jpg"
+            },
+            {
+                "page": "drm/0/18710/OEBPS/Images/1/5c6ce2b29e63e1e5481493113ddb7b5d.jpg",
+                "audio": "drm/0/18710/OEBPS/Audio/1/a29f153f651f4bfec445549ef70d28db.mp3"
+            },
+            {
+                "page": "drm/0/18710/OEBPS/Images/1/9667cc05967d2b787300cce0cb5d0cc1.jpg"
+            },
+            {
+                "page": "drm/0/18710/OEBPS/Images/1/0fec5ad4413643b78a2ec8a4fdca12f6.jpg"
+            },
+            {
+                "page": "drm/0/18710/OEBPS/Images/1/b6676a391566c2f2522bed26241d9d30.jpg"
+            },
+            {
+                "page": "drm/0/18710/OEBPS/Images/1/7e3974f180f197fb3c009919f0d63cd2.jpg"
+            },
+            {
+                "page": "drm/0/18710/OEBPS/Images/1/e276705c01bef2d728e6755c52bc6062.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/18710/OEBPS/Images/1/8ce16d93cad472ae0902f8abc16fc397.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18710",
+        "id": "18710",
+        "title": "Off To The Yogurt Factory",
+        "author": "Precious McKenzie",
+        "illustrator": " ",
+        "numPages": 25,
+        "bookDescription": "The campers learn where yummy yogurt comes from.",
+        "coverColorR": 171,
+        "coverColorG": 174,
+        "coverColorB": 150,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Rourke Educational Media",
+        "publisherId": "107",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 416,
+        "ar": "1.6",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Daily Life",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "f7058dac13c419eaf6f1",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372872
+    },
+    "userBook": {
+        "modelId": "46250489-18710",
+        "userId": "46250489",
+        "bookId": "18710",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311150,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311150,
+        "book": {
+            "modelId": "18710",
+            "title": "Off To The Yogurt Factory",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "f7058dac13c419eaf6f1"
+        }
+    },
+    "quiz": null
+}

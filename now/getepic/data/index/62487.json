@@ -1,0 +1,167 @@
+{
+    "publisherData": {
+        "modelId": "94",
+        "name": "Sleeping Bear Press",
+        "url": "http://sleepingbearpress.com",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491261794
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/62487/OEBPS/Images/1/0836e74f2a97984c5a4e1e73400376ec.jpg"
+            },
+            {
+                "page": "drm/7/62487/OEBPS/Images/1/d932fa73b274228ef8b2c3bd91c6d5db.jpg"
+            },
+            {
+                "page": "drm/7/62487/OEBPS/Images/1/f51c34e164d763bcdef032244239bda1.jpg"
+            },
+            {
+                "page": "drm/7/62487/OEBPS/Images/1/1257b3772a4f08747d2af839e14dc08a.jpg"
+            },
+            {
+                "page": "drm/7/62487/OEBPS/Images/1/6a4df12497135bf96ed0a44b6d1e1e5f.jpg"
+            },
+            {
+                "page": "drm/7/62487/OEBPS/Images/1/98fc05ded1800e4ce0f46cadd180ece8.jpg"
+            },
+            {
+                "page": "drm/7/62487/OEBPS/Images/1/3c07f9280e249ff9d7faf3a9933fee78.jpg"
+            },
+            {
+                "page": "drm/7/62487/OEBPS/Images/1/9963ce7d122cbaa59e709413a2418ed9.jpg"
+            },
+            {
+                "page": "drm/7/62487/OEBPS/Images/1/549f0844250818782c29e561924bfb6d.jpg"
+            },
+            {
+                "page": "drm/7/62487/OEBPS/Images/1/2fbd9ea63ec861b41c55c7af574379a5.jpg"
+            },
+            {
+                "page": "drm/7/62487/OEBPS/Images/1/ab723ead398daaa992bf726441ab500b.jpg"
+            },
+            {
+                "page": "drm/7/62487/OEBPS/Images/1/d556251cfa29f192dfe22f2d37585cbf.jpg"
+            },
+            {
+                "page": "drm/7/62487/OEBPS/Images/1/a866c21e1cfd11d4ed5f34367a8ad363.jpg"
+            },
+            {
+                "page": "drm/7/62487/OEBPS/Images/1/d626c89b30f74a3d47fcb4e270db8597.jpg"
+            },
+            {
+                "page": "drm/7/62487/OEBPS/Images/1/634a9b27aabfae4a69fa2d4dfc28e812.jpg"
+            },
+            {
+                "page": "drm/7/62487/OEBPS/Images/1/3b5ed80bc418a8f4053da588a3f22c90.jpg"
+            },
+            {
+                "page": "drm/7/62487/OEBPS/Images/1/da5cea65eca72c6a0793f58200925253.jpg"
+            },
+            {
+                "page": "drm/7/62487/OEBPS/Images/1/6f6eaa0de86e45858ce1cb6d41e3fb0e.jpg"
+            },
+            {
+                "page": "drm/7/62487/OEBPS/Images/1/da799c5e8f0f4e27e4296ce01f30da63.jpg"
+            },
+            {
+                "page": "drm/7/62487/OEBPS/Images/1/833e71bccf6a4331bd81b7777fc3767f.jpg"
+            },
+            {
+                "page": "drm/7/62487/OEBPS/Images/1/19649225c7e84abd1095178f126a6e1e.jpg"
+            },
+            {
+                "page": "drm/7/62487/OEBPS/Images/1/497b069536f1841be64021cadb9f9af7.jpg"
+            },
+            {
+                "page": "drm/7/62487/OEBPS/Images/1/aca9546c9889f0e6dea159badbbb67d7.jpg"
+            },
+            {
+                "page": "drm/7/62487/OEBPS/Images/1/0ff560e0cda1f1fbafc0721d4f9a3671.jpg"
+            },
+            {
+                "page": "drm/7/62487/OEBPS/Images/1/38ad91f81664cb1d81dd91943f9ae222.jpg"
+            },
+            {
+                "page": "drm/7/62487/OEBPS/Images/1/5b403ca0086a69719072c192ead64cfe.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/62487/OEBPS/Images/1/293ba4c4948d60d12f06aa53763081de.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "62487",
+        "id": "62487",
+        "title": "Little Yellow Truck",
+        "author": "Eve Bunting",
+        "illustrator": "Kevin Zimmer",
+        "numPages": 26,
+        "bookDescription": "A little yellow pickup truck longs to be included when larger more powerful vehicles help to build a children's park.",
+        "coverColorR": 147,
+        "coverColorG": 160,
+        "coverColorB": 136,
+        "version": 2147483647,
+        "previewPercent": 20,
+        "publisher": "Sleeping Bear Press",
+        "publisherId": "94",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "570L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 476,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 75,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Overcoming Challenges",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "eafed5a642a209108a7c",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1559089055
+    },
+    "userBook": {
+        "modelId": "46250489-62487",
+        "userId": "46250489",
+        "bookId": "62487",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559307300,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559307300,
+        "book": {
+            "modelId": "62487",
+            "title": "Little Yellow Truck",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "eafed5a642a209108a7c"
+        }
+    },
+    "quiz": null
+}

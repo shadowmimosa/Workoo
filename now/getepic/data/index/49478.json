@@ -1,0 +1,179 @@
+{
+    "publisherData": {
+        "modelId": "90312",
+        "name": "Houghton Mifflin Harcourt",
+        "url": "https://www.hmhco.com/",
+        "checkout": 0,
+        "educationalEnabled": 0,
+        "dateModified": 1523564869
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/13bfa9ba0c8e48549c0416ce963535fb.jpg"
+            },
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/f27b05d8f6ad609aae782d6dd1c3e29e.jpg"
+            },
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/ac3c6c7767e705254f37a04f21e798ed.jpg"
+            },
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/37edf2a893b85a9d491ccdde58d4749b.jpg"
+            },
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/e7193135623e512236fea1260a2f630d.jpg"
+            },
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/8fafce889476ca6f4ec49bcff03f4892.jpg"
+            },
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/6133bb3e382851a0cfc1db6f4ea90209.jpg"
+            },
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/a01a5964460e2f4ec4398fab68ad196d.jpg"
+            },
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/24db32ee6139c529ecb8ad576b01bfe7.jpg"
+            },
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/8b76620586de0961cc21fd37f992a417.jpg"
+            },
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/d33911f0ac85e84c63cca44b029e5ff3.jpg"
+            },
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/e52748974d52478019e5cffb73513313.jpg"
+            },
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/087a7a123909cca285be447a1a3f7d06.jpg"
+            },
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/19af90d2643bad9af7dcbfc250b5b187.jpg"
+            },
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/9ee4d8ed4589eb8f0022f7dec5f9edc7.jpg"
+            },
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/ffc7a730ad1db5ebf6d470395f761b4f.jpg"
+            },
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/612699d273c94a3ac90a2985dfcae558.jpg"
+            },
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/21209c3a264960fb75e7f9b14444d652.jpg"
+            },
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/1b9937c04ffe40a107fab3169e6ea900.jpg"
+            },
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/c14d0da630bc0d3153cd390a1853fbec.jpg"
+            },
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/de3e3cc657a256cb4388e6f9ad6aa81f.jpg"
+            },
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/d2b41fc7243bf4cd6a45e1e24a289cce.jpg"
+            },
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/5e680d70a8fb7864f169476729b55ef1.jpg"
+            },
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/c80107189b41c9195415ebd4819b0e7c.jpg"
+            },
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/b766524253c76a44ccba281f01b2f518.jpg"
+            },
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/4e63f476bf2188568393afde07682f63.jpg"
+            },
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/471fde4ec0721e23d842c8a56a3ff2ae.jpg"
+            },
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/ade2cf642aae3973a46beb30239abe48.jpg"
+            },
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/83a9d70a72df0e70ffb27c0e92a38a23.jpg"
+            },
+            {
+                "page": "drm/8/49478/OEBPS/Images/1/c5a4e41b30db795285f0a3a1052162d0.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/49478/OEBPS/Images/1/a7903774302f0a084c2a3aa8dc5d594e.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "49478",
+        "id": "49478",
+        "title": "Ella Sarah Gets Dressed",
+        "author": "Margaret Chodos-Irvine",
+        "illustrator": " ",
+        "numPages": 30,
+        "bookDescription": "Ella Sarah may be little, but she has a BIG sense of style--and it isn't at all like that of her mother, father, and older sister.",
+        "coverColorR": 204,
+        "coverColorG": 186,
+        "coverColorB": 94,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Houghton Mifflin Harcourt",
+        "publisherId": "90312",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "810L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 500,
+        "ar": "2.6",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Family",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 0.8883,
+        "contentHash": "e8257c1c514bcf2a6587",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "3",
+        "panelStatus": 0,
+        "date_modified": 1552843417
+    },
+    "userBook": {
+        "modelId": "46250489-49478",
+        "userId": "46250489",
+        "bookId": "49478",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310347,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310347,
+        "book": {
+            "modelId": "49478",
+            "title": "Ella Sarah Gets Dressed",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "e8257c1c514bcf2a6587"
+        }
+    },
+    "quiz": null
+}

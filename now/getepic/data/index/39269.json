@@ -1,0 +1,179 @@
+{
+    "publisherData": {
+        "modelId": "90233",
+        "name": "Groundwood Books",
+        "url": "http://groundwoodbooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260566
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/DEC5C10C-87E2-484A-B90A-61734D9BF5DB.jpg"
+            },
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/D3CB77E8-451E-476F-B38B-5F8D7D7AABD7.jpg"
+            },
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/E3892296-C396-4A11-AC02-6DC2BBB97200.jpg"
+            },
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/801717BC-264E-4B59-A6CE-36125355E16F.jpg"
+            },
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/10D5EF98-8817-4731-B517-3E069466FAC7.jpg"
+            },
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/6620FB10-60B3-417F-A4BB-377EF69ABA55.jpg"
+            },
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/924F57C7-EC73-4D28-870A-8998999FCBEB.jpg"
+            },
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/9CB59F1F-14C0-41E4-9FA1-83E7660ADF63.jpg"
+            },
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/1020A035-E381-464D-B7AF-C9C2C4CC8DFE.jpg"
+            },
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/2A5140A7-9D70-4955-ACB6-811CA4E92C04.jpg"
+            },
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/BB974934-B37E-4E12-9AA5-B14C30D30A3D.jpg"
+            },
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/95663695-66D0-4DA9-99E9-FDFEFCDF039C.jpg"
+            },
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/128C8000-C540-470F-84E0-812B34F0679F.jpg"
+            },
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/E887A416-8350-42A9-96F4-0FDF797D2072.jpg"
+            },
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/DB556BAF-7991-4757-8222-6725CFA5235A.jpg"
+            },
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/56BC7526-0B02-4706-883D-09CD11F5D683.jpg"
+            },
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/23B178D3-EA00-4B66-94EC-0C1BE9B1C6C0.jpg"
+            },
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/A89086DB-2D32-4E41-919B-F02F7D61A8EB.jpg"
+            },
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/87DB774A-378F-4E7B-8DF8-5A64A2432073.jpg"
+            },
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/233F0665-1D36-4753-9D4E-C4D605517BEE.jpg"
+            },
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/4010B017-C226-4A83-877F-6A2592D7695A.jpg"
+            },
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/AB69DD36-79EE-49F7-BF24-6EE47D90DF49.jpg"
+            },
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/5C4626CB-C8F2-4B54-8484-7C81D15FF983.jpg"
+            },
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/263A443F-5B6C-4A57-8CCE-525794F9E901.jpg"
+            },
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/1F7E9B81-B610-4B48-B975-9C1E674CE052.jpg"
+            },
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/59C5C677-FB52-4F5B-9406-1383261ADD02.jpg"
+            },
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/847016F3-693A-4B0D-814A-9B985B231EE6.jpg"
+            },
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/012401BB-9722-48F4-9E89-F1BD95777754.jpg"
+            },
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/A0730C27-F7C4-4D88-8DC7-8D809B9050F9.jpg"
+            },
+            {
+                "page": "drm/9/39269/OEBPS/Images/1/3E6FAE7B-C71F-460B-96A9-8367CD48D5A3.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/39269/OEBPS/Images/1/10AF85EA-CF28-4EC4-ADA7-14698B4BD1D5.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "39269",
+        "id": "39269",
+        "title": "Buddy and Earl",
+        "author": "Maureen Fergus",
+        "illustrator": "Carey Sookocheff",
+        "numPages": 30,
+        "bookDescription": "When a small, prickly creature says he is a pirate\u2014and that Buddy is a pirate too\u2014the two mismatched friends are off on a grand adventure.",
+        "coverColorR": 223,
+        "coverColorG": 150,
+        "coverColorB": 77,
+        "version": 12309,
+        "previewPercent": 20,
+        "publisher": "Groundwood Books",
+        "publisherId": "90233",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "520L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 500,
+        "ar": "2.8",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pets",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.8572,
+        "contentHash": "82957573b02d15f68327",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "2",
+        "panelStatus": 0,
+        "date_modified": 1555373682
+    },
+    "userBook": {
+        "modelId": "46250489-39269",
+        "userId": "46250489",
+        "bookId": "39269",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311497,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311497,
+        "book": {
+            "modelId": "39269",
+            "title": "Buddy and Earl",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "82957573b02d15f68327"
+        }
+    },
+    "quiz": null
+}

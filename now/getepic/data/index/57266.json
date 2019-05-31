@@ -1,0 +1,137 @@
+{
+    "publisherData": {
+        "modelId": "90050",
+        "name": "Amicus",
+        "url": "https://www.amicuspublishing.us/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491010374
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/6/57266/OEBPS/Images/1/916ab8a9852cd51078780dd57d0ee80e.jpg"
+            },
+            {
+                "page": "drm/6/57266/OEBPS/Images/1/3b6d7cf072a787c991a9b3f8da63ba64.jpg"
+            },
+            {
+                "page": "drm/6/57266/OEBPS/Images/1/562d2377c19539a35fb2a425f605178d.jpg"
+            },
+            {
+                "page": "drm/6/57266/OEBPS/Images/1/65e7aa35c17d369165495c11254f2731.jpg"
+            },
+            {
+                "page": "drm/6/57266/OEBPS/Images/1/0f1c7263425c06a05159dd2f3e571665.jpg"
+            },
+            {
+                "page": "drm/6/57266/OEBPS/Images/1/96e84ccd5508fdaa0b120314764a360b.jpg"
+            },
+            {
+                "page": "drm/6/57266/OEBPS/Images/1/8254d29271a20ee58c6806099b75ed09.jpg"
+            },
+            {
+                "page": "drm/6/57266/OEBPS/Images/1/b0d683b28482e5b1b9a59a2b32832caa.jpg"
+            },
+            {
+                "page": "drm/6/57266/OEBPS/Images/1/d21878a10a9ee3a47cf0b69e3830e930.jpg"
+            },
+            {
+                "page": "drm/6/57266/OEBPS/Images/1/e23e17ea88d040fa95b4e51dda312ec3.jpg"
+            },
+            {
+                "page": "drm/6/57266/OEBPS/Images/1/f27da35814dfbb7ef665c277d964dd5b.jpg"
+            },
+            {
+                "page": "drm/6/57266/OEBPS/Images/1/8ed8a843d41e29e63dd76bcf734ac734.jpg"
+            },
+            {
+                "page": "drm/6/57266/OEBPS/Images/1/29e6f28667609d884109ccfc4a26cd35.jpg"
+            },
+            {
+                "page": "drm/6/57266/OEBPS/Images/1/070a81331a386f4d95dacf72fe5b9c3c.jpg"
+            },
+            {
+                "page": "drm/6/57266/OEBPS/Images/1/c55b5250c55786608660c176664d1b79.jpg"
+            },
+            {
+                "page": "drm/6/57266/OEBPS/Images/1/4a8ea3280fcb988355cbb88fa3830065.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/6/57266/OEBPS/Images/1/a15270105e4ebe66d9e4fdc9296eb811.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "57266",
+        "id": "57266",
+        "title": "Guinea Pigs",
+        "author": "Mari Schuh",
+        "illustrator": " ",
+        "numPages": 16,
+        "bookDescription": "Want to learn more about the furry, scaly, and feathered animals we call pets?",
+        "coverColorR": 185,
+        "coverColorG": 171,
+        "coverColorB": 140,
+        "version": 4452000,
+        "previewPercent": 20,
+        "publisher": "Amicus",
+        "publisherId": "90050",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "310L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 293,
+        "ar": "1.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 85,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pets",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.8733,
+        "contentHash": "52867a518ec69dd3f574",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374718
+    },
+    "userBook": {
+        "modelId": "46250489-57266",
+        "userId": "46250489",
+        "bookId": "57266",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311505,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311505,
+        "book": {
+            "modelId": "57266",
+            "title": "Guinea Pigs",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "52867a518ec69dd3f574"
+        }
+    },
+    "quiz": null
+}

@@ -1,0 +1,177 @@
+{
+    "publisherData": {
+        "modelId": "90175",
+        "name": "Sesame Workshop Books",
+        "url": "http://www.sesameworkshop.org/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1545257836
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/49754/OEBPS/Images/1/c8281ca6cde440f00c283114ea97aa77.jpg",
+                "audio": "drm/4/49754/OEBPS/Audio/1/9781618313188_00.mp3"
+            },
+            {
+                "page": "drm/4/49754/OEBPS/Images/1/3e05213d89b3ae9e4f0a9a4566022d31.jpg",
+                "audio": "drm/4/49754/OEBPS/Audio/1/9781618313188_01.mp3"
+            },
+            {
+                "page": "drm/4/49754/OEBPS/Images/1/4d39f0829785b30eb5676e82f644c8ef.jpg"
+            },
+            {
+                "page": "drm/4/49754/OEBPS/Images/1/389dac0f20cc0f12a8b0823c80f16155.jpg",
+                "audio": "drm/4/49754/OEBPS/Audio/1/9781618313188_02.mp3"
+            },
+            {
+                "page": "drm/4/49754/OEBPS/Images/1/f9b0b0e95b57b0fd8e31cdd085d18af9.jpg"
+            },
+            {
+                "page": "drm/4/49754/OEBPS/Images/1/860ab9b380fb99977e429f33c61a41f2.jpg",
+                "audio": "drm/4/49754/OEBPS/Audio/1/9781618313188_03.mp3"
+            },
+            {
+                "page": "drm/4/49754/OEBPS/Images/1/f74a5cedcf69035d1661495a8ff8e4e7.jpg"
+            },
+            {
+                "page": "drm/4/49754/OEBPS/Images/1/64d85953088aa95398c2dc241819a116.jpg",
+                "audio": "drm/4/49754/OEBPS/Audio/1/9781618313188_04.mp3"
+            },
+            {
+                "page": "drm/4/49754/OEBPS/Images/1/3ef0a1a9465b60501dedb69157b52c02.jpg"
+            },
+            {
+                "page": "drm/4/49754/OEBPS/Images/1/9254e34a9db702b2b815a9dbbc0bac5f.jpg",
+                "audio": "drm/4/49754/OEBPS/Audio/1/9781618313188_05.mp3"
+            },
+            {
+                "page": "drm/4/49754/OEBPS/Images/1/f9beff68ce6c1781f5729eb4e1c6a974.jpg"
+            },
+            {
+                "page": "drm/4/49754/OEBPS/Images/1/48b540dc05f5902a4aae18a25d5074a6.jpg",
+                "audio": "drm/4/49754/OEBPS/Audio/1/9781618313188_06.mp3"
+            },
+            {
+                "page": "drm/4/49754/OEBPS/Images/1/85ec32fa6d6b868050fd160d18dcd8d7.jpg"
+            },
+            {
+                "page": "drm/4/49754/OEBPS/Images/1/7942662586373d5d076fd60b9f4ce0ed.jpg",
+                "audio": "drm/4/49754/OEBPS/Audio/1/9781618313188_07.mp3"
+            },
+            {
+                "page": "drm/4/49754/OEBPS/Images/1/f44d53e281192c11fb835b3338b71165.jpg"
+            },
+            {
+                "page": "drm/4/49754/OEBPS/Images/1/95cdb679d49fdaf17466a7727be9b18c.jpg",
+                "audio": "drm/4/49754/OEBPS/Audio/1/9781618313188_08.mp3"
+            },
+            {
+                "page": "drm/4/49754/OEBPS/Images/1/7ba1355bca5f4cc159d2532cfdd6975f.jpg"
+            },
+            {
+                "page": "drm/4/49754/OEBPS/Images/1/62ec9287ffbdeb1345fee57c25e12567.jpg",
+                "audio": "drm/4/49754/OEBPS/Audio/1/9781618313188_09.mp3"
+            },
+            {
+                "page": "drm/4/49754/OEBPS/Images/1/5ee5841166217c4f15e98d007b705421.jpg"
+            },
+            {
+                "page": "drm/4/49754/OEBPS/Images/1/2ee7b1e08c14e84bdccaee058ed51f9a.jpg",
+                "audio": "drm/4/49754/OEBPS/Audio/1/9781618313188_10.mp3"
+            },
+            {
+                "page": "drm/4/49754/OEBPS/Images/1/57a5966c03a3a2639048cfd9217cea65.jpg"
+            },
+            {
+                "page": "drm/4/49754/OEBPS/Images/1/64d48db17296c99bfb9248600120d8e2.jpg",
+                "audio": "drm/4/49754/OEBPS/Audio/1/9781618313188_11.mp3"
+            },
+            {
+                "page": "drm/4/49754/OEBPS/Images/1/f5176394ecb8664a8a3a7c022753785b.jpg"
+            },
+            {
+                "page": "drm/4/49754/OEBPS/Images/1/91ac6ffc6f00bbf8bb8b1496e622ea6d.jpg",
+                "audio": "drm/4/49754/OEBPS/Audio/1/9781618313188_12.mp3"
+            },
+            {
+                "page": "drm/4/49754/OEBPS/Images/1/ef86eb1bec5888593b4547a858103a17.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/49754/OEBPS/Images/1/dfbc6169e7642972fc7d20e20a5a1fa2.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "49754",
+        "id": "49754",
+        "title": "Elmo's Christmas Countdown",
+        "author": "Meg McLaughlin",
+        "illustrator": "Tom Leigh",
+        "numPages": 25,
+        "bookDescription": "Christmas is in trouble! Will Elmo and Elf find the numbers for the counter-downer? Or will Christmas be cancelled?",
+        "coverColorR": 117,
+        "coverColorG": 113,
+        "coverColorB": 129,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Sesame Workshop Books",
+        "publisherId": "90175",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 375,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "ABCs & 123s",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.8,
+        "contentHash": "f5c3af61ec235fb2120d",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1523469405
+    },
+    "userBook": {
+        "modelId": "46250489-49754",
+        "userId": "46250489",
+        "bookId": "49754",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311548,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311548,
+        "book": {
+            "modelId": "49754",
+            "title": "Elmo's Christmas Countdown",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "f5c3af61ec235fb2120d"
+        }
+    },
+    "quiz": null
+}

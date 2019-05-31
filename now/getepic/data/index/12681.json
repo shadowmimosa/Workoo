@@ -1,0 +1,461 @@
+{
+    "publisherData": {
+        "modelId": "109",
+        "name": "JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/12681/OEBPS/Images/1/46294e7e2ec2289725bd6d776dde01e6.jpg",
+                "audio": "drm/1/12681/OEBPS/Audio/1/0d0f57a8047191af191a8304fe7a9497.mp3"
+            },
+            {
+                "page": "drm/1/12681/OEBPS/Images/1/869c1183ace6443bab939ffc896ca294.jpg",
+                "audio": "drm/1/12681/OEBPS/Audio/1/06243242a992523d9a6cb70c71ae6a5d.mp3"
+            },
+            {
+                "page": "drm/1/12681/OEBPS/Images/1/112528ffba008fc3bac4b9d34d33c1b2.jpg",
+                "audio": "drm/1/12681/OEBPS/Audio/1/1846b338c9bb2b97ef868615f79cda3d.mp3"
+            },
+            {
+                "page": "drm/1/12681/OEBPS/Images/1/c14da46ecfa516cad14a5dcdc3cf5b37.jpg",
+                "audio": "drm/1/12681/OEBPS/Audio/1/f9369fa141a5f6bd884cedf955f6613b.mp3"
+            },
+            {
+                "page": "drm/1/12681/OEBPS/Images/1/6422753ad9973bf3a1ee4d207cb27deb.jpg",
+                "audio": "drm/1/12681/OEBPS/Audio/1/22d4deb410d8d69de73a02c203f6afa0.mp3"
+            },
+            {
+                "page": "drm/1/12681/OEBPS/Images/1/bf0f5a3572ab18d35f43c718172fe463.jpg",
+                "audio": "drm/1/12681/OEBPS/Audio/1/68b1269727c622494605c458fa11ed39.mp3"
+            },
+            {
+                "page": "drm/1/12681/OEBPS/Images/1/7cd877071541aebf34ada8324a80f420.jpg"
+            },
+            {
+                "page": "drm/1/12681/OEBPS/Images/1/9d7ec99d63578ebb85d4a0500dff957c.jpg",
+                "audio": "drm/1/12681/OEBPS/Audio/1/91b9c67de56e296166b58155b8c62f69.mp3"
+            },
+            {
+                "page": "drm/1/12681/OEBPS/Images/1/04a97a048ca47155aad92768e2e54cb1.jpg",
+                "audio": "drm/1/12681/OEBPS/Audio/1/32d63fbc9e7b2a941b0e89088de827a8.mp3"
+            },
+            {
+                "page": "drm/1/12681/OEBPS/Images/1/1b1e6c1cec4dadc9e83edc76c53ec997.jpg",
+                "audio": "drm/1/12681/OEBPS/Audio/1/e07f06d579ab9ab7252194c0af3c06e4.mp3"
+            },
+            {
+                "page": "drm/1/12681/OEBPS/Images/1/9eb9ec94fc5fb3f737b16f5bd944ffda.jpg"
+            },
+            {
+                "page": "drm/1/12681/OEBPS/Images/1/ec51744540a9ce63341aa3022b86ab10.jpg",
+                "audio": "drm/1/12681/OEBPS/Audio/1/cd59d63be88e7c7f9e3c3cf343564a45.mp3"
+            },
+            {
+                "page": "drm/1/12681/OEBPS/Images/1/17ba0c05047f4b71093c971bc2b3fcbb.jpg"
+            },
+            {
+                "page": "drm/1/12681/OEBPS/Images/1/8c8e69cc3021580e5002d499e83806bf.jpg",
+                "audio": "drm/1/12681/OEBPS/Audio/1/1d4a26e5b4f2140d3422e58bfcff3ddf.mp3"
+            },
+            {
+                "page": "drm/1/12681/OEBPS/Images/1/585e801ce114113f79f7574eea85b555.jpg",
+                "audio": "drm/1/12681/OEBPS/Audio/1/6cac9395134e088650fc5a2a5399ec6f.mp3"
+            },
+            {
+                "page": "drm/1/12681/OEBPS/Images/1/a7d2c8883c37783858457857e17a3f6a.jpg",
+                "audio": "drm/1/12681/OEBPS/Audio/1/0f3974d1204813c3676e7d9c10d86ab6.mp3"
+            },
+            {
+                "page": "drm/1/12681/OEBPS/Images/1/602060e28ed24520a8899389dd47f810.jpg",
+                "audio": "drm/1/12681/OEBPS/Audio/1/8ead552989a11722b8dd0d5d46b01ff7.mp3"
+            },
+            {
+                "page": "drm/1/12681/OEBPS/Images/1/24d3eac2ea198b13f4044551283a1c1e.jpg",
+                "audio": "drm/1/12681/OEBPS/Audio/1/04416fa49be3ad2832a61fee4b3be768.mp3"
+            },
+            {
+                "page": "drm/1/12681/OEBPS/Images/1/3ba1aefbffe730724af40f2049f866a0.jpg"
+            },
+            {
+                "page": "drm/1/12681/OEBPS/Images/1/2bbfa6488e7b07f829102e9b7fe71f8a.jpg"
+            },
+            {
+                "page": "drm/1/12681/OEBPS/Images/1/c3043cd5c75f6723533829528aeaa906.jpg"
+            },
+            {
+                "page": "drm/1/12681/OEBPS/Images/1/cc3c903a4891daacf4cd9acdc17c6d1c.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/12681/OEBPS/Images/1/135f505a211d166dc37c8935c624cc6c.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "12681",
+        "id": "12681",
+        "title": "Horses",
+        "author": "Cari Meister",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "A horse narrates this photo-illustrated book describing the body parts and behavior of horses on a farm.",
+        "coverColorR": 186,
+        "coverColorG": 169,
+        "coverColorB": 135,
+        "version": 2,
+        "previewPercent": 20,
+        "publisher": "JUMP",
+        "publisherId": "109",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "350L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 806,
+        "ar": "0.8",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Farm Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "82008e6138249cae02df",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372635
+    },
+    "userBook": {
+        "modelId": "46250489-12681",
+        "userId": "46250489",
+        "bookId": "12681",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559312028,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559312028,
+        "book": {
+            "modelId": "12681",
+            "title": "Horses",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "82008e6138249cae02df"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "79131",
+            "user_id": "14791946",
+            "book_id": "12681",
+            "title": "Animals on the Farm Horses",
+            "description": "",
+            "date_created": 1492701141,
+            "date_modified": 1492701457,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Where can horses live?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "On a farm",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "In outer space.",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What do horses do with their tails?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Swish away bugs.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Wave hi to their friends.",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "When the horse's ears are up, how do they feel?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "happy",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "mad",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "sad",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "When the horse's ears are back,  how do they feel?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "mad",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "happy",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "sad",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "What do horses have to cover their body?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "hair",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "scales",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "feathers",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "What is the long, thick hair on the head and neck of a horse?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "mane",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "tail",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "hoof",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 5
+                }
+            ],
+            "modelId": "79131",
+            "creatorName": "Ms. Sanchez",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "14791946",
+                "udid": "58f8bb5f62f6f1.22483328",
+                "journalName": "Ms. Sanchez",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.12549019607843 0.92941176470588 0.96078431372549 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "394360960",
+                "fid": "",
+                "accountID": "47CB86AE-F15C-E3C5-55BC-EA442F39DE04",
+                "simpleAccountId": "4813656",
+                "pagesFlipped": 1576,
+                "nufComplete": 1,
+                "readingAge": 6.13333,
+                "startingAge": 0,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 221,
+                "xpLevel": 6,
+                "dateLastLogin": 0,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Jacquelyn",
+                "lastName": "Sanchez",
+                "accountType": 1,
+                "dateModified": 1558018805,
+                "educatorPrefix": "Ms.",
+                "name": "Ms. Sanchez"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Where can horses live?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "On a farm",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "In outer space.",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What do horses do with their tails?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Swish away bugs.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Wave hi to their friends.",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "When the horse's ears are up, how do they feel?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "happy",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "mad",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "sad",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "When the horse's ears are back,  how do they feel?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "mad",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "happy",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "sad",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "What do horses have to cover their body?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "hair",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "scales",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "feathers",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "What is the long, thick hair on the head and neck of a horse?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "mane",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "tail",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "hoof",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 5
+            }
+        ]
+    }
+}

@@ -1,0 +1,195 @@
+{
+    "publisherData": {
+        "modelId": "90350",
+        "name": "Gray Duck",
+        "url": "http://grayduckbooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1536102481
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/770cf8617444a0a9780b4eb2acea54fb.jpg",
+                "audio": "drm/1/56081/OEBPS/Audio/1/3sec.mp3"
+            },
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/844eef392ab33aff38741c3e13470a68.jpg",
+                "audio": "drm/1/56081/OEBPS/Audio/1/9781948052160_4-5_Mixed.mp3"
+            },
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/eab0f1426cb0db65d69f8a2c2ca2c1bb.jpg"
+            },
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/b3b091d67fb6dae6c170b00a3559b999.jpg",
+                "audio": "drm/1/56081/OEBPS/Audio/1/9781948052160_6-7_mixed.mp3"
+            },
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/1b815925f683051228fb9462ad378658.jpg"
+            },
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/b02d7b901076bc6dcd2ca2b28cb94451.jpg"
+            },
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/1caab42cb83f709ba1830854248b8e71.jpg",
+                "audio": "drm/1/56081/OEBPS/Audio/1/9781948052160_8-9_mixed.mp3"
+            },
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/78eeba27f0fdf5f15ed0d00e3cf5db32.jpg",
+                "audio": "drm/1/56081/OEBPS/Audio/1/9781948052160_10-11_mixed.mp3"
+            },
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/5d4583c7736921e63e7770535fd49b03.jpg",
+                "audio": "drm/1/56081/OEBPS/Audio/1/5sec_SILENT_AUDIO.mp3"
+            },
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/7a88725db3c7bbcfa34c7868a2233621.jpg",
+                "audio": "drm/1/56081/OEBPS/Audio/1/9781948052160_12-13_Mixed.mp3"
+            },
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/2dd33cf6878f2f2a98b7591f318156da.jpg"
+            },
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/ea5e2aff4ee9acaa09592e93c60e4a83.jpg",
+                "audio": "drm/1/56081/OEBPS/Audio/1/9781948052160_14-15_Mixed.mp3"
+            },
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/32251d3492b1455bbfcdad22631a95d8.jpg",
+                "audio": "drm/1/56081/OEBPS/Audio/1/3sec.mp3"
+            },
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/e738a16f883a8dc4df133110658f7500.jpg"
+            },
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/ed81d5b197367dd2d85dc1d8408bb648.jpg",
+                "audio": "drm/1/56081/OEBPS/Audio/1/9781948052160_16-17_mixed.mp3"
+            },
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/6694972a08a2b4a7513154ad4e875f6e.jpg",
+                "audio": "drm/1/56081/OEBPS/Audio/1/9781948052160_18-19_Mixed.mp3"
+            },
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/504db13809de7bb9782b3bd0d370f7a9.jpg"
+            },
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/357566d2f05062459a5edd5f1b31884e.jpg",
+                "audio": "drm/1/56081/OEBPS/Audio/1/9781948052160_20-21_mixed.mp3"
+            },
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/81b51e7eee9b2d4e944b7fc96d301f15.jpg"
+            },
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/179a146fc2e5a69128a3b9846f312211.jpg",
+                "audio": "drm/1/56081/OEBPS/Audio/1/9781948052160_22-23_mixed.mp3"
+            },
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/b1cdb79e644f52b586630e781a4fa906.jpg"
+            },
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/3f1746af64f0c2b263d71b6209bac8ec.jpg",
+                "audio": "drm/1/56081/OEBPS/Audio/1/9781948052160_24-25_Mixed.mp3"
+            },
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/7f36be5b1f54b3ef13cc8131c748054c.jpg"
+            },
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/689296cf0938bf20ac84b423e217dc59.jpg",
+                "audio": "drm/1/56081/OEBPS/Audio/1/9781948052160_26-27_mixed.mp3"
+            },
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/8b0a5977567467592de4ba06682450d2.jpg"
+            },
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/21ac7c61d827412c91b0c28f1473a86b.jpg",
+                "audio": "drm/1/56081/OEBPS/Audio/1/9781948052160_28-29_mixed.mp3"
+            },
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/42fd60d32cc89473dbd9fae941fa5d9e.jpg"
+            },
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/2881992fc20cfc6c08791165e021b909.jpg"
+            },
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/8864f206357fb86160694065c6d32a59.jpg"
+            },
+            {
+                "page": "drm/1/56081/OEBPS/Images/1/4097ee1255078b81d16784198075914f.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/56081/OEBPS/Images/1/3d11d156ae8cc3b38e2da8e2b59ce339.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "56081",
+        "id": "56081",
+        "title": "Brachiosaurus",
+        "author": "Jon Alan",
+        "illustrator": " ",
+        "numPages": 30,
+        "bookDescription": "Meet a dinosaur that knows how to strike a pose! To stand tall, Brachiosaurus puts its shoulders back and holds its long neck up high.",
+        "coverColorR": 125,
+        "coverColorG": 144,
+        "coverColorB": 134,
+        "version": 43168832,
+        "previewPercent": 20,
+        "publisher": "Gray Duck",
+        "publisherId": "90350",
+        "age": 6,
+        "pageNumOffset": 1,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "15-30 mins",
+        "avgTimeInt": 1100,
+        "ar": "2.9",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pre-Historic",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.7762,
+        "contentHash": "f5b211e01cf32e82aba5",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374661
+    },
+    "userBook": {
+        "modelId": "46250489-56081",
+        "userId": "46250489",
+        "bookId": "56081",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310614,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310614,
+        "book": {
+            "modelId": "56081",
+            "title": "Brachiosaurus",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "f5b211e01cf32e82aba5"
+        }
+    },
+    "quiz": null
+}

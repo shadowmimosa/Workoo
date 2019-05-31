@@ -1,0 +1,173 @@
+{
+    "publisherData": {
+        "modelId": "107",
+        "name": "Rourke Educational Media",
+        "url": "http://rourkeeducationalmedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570193
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/3/13763/OEBPS/Images/1/3e33eafac2c9b0a235f807af943fdbc1.jpg",
+                "audio": "drm/3/13763/OEBPS/Audio/1/c51608498eba79d1e63b24fb183c211f.mp3"
+            },
+            {
+                "page": "drm/3/13763/OEBPS/Images/1/2640a1678f04994cde7829880a2cca0c.jpg"
+            },
+            {
+                "page": "drm/3/13763/OEBPS/Images/1/c1dca5fb05b4fadd1e93e870cbe30dae.jpg",
+                "audio": "drm/3/13763/OEBPS/Audio/1/8d74ee2aa8f4361c65bb69ab354d80fe.mp3"
+            },
+            {
+                "page": "drm/3/13763/OEBPS/Images/1/c7de47803d37172ac6528e406c8c31c9.jpg",
+                "audio": "drm/3/13763/OEBPS/Audio/1/4663dea1d1aa1fa6d63bb84080405f1e.mp3"
+            },
+            {
+                "page": "drm/3/13763/OEBPS/Images/1/0f5eced2eb41fe8895d730d9f677826a.jpg"
+            },
+            {
+                "page": "drm/3/13763/OEBPS/Images/1/b55876c1caf2162a74d0d19132264550.jpg",
+                "audio": "drm/3/13763/OEBPS/Audio/1/a9fc0d8536e1c6ac8a3930d5a6dc6b17.mp3"
+            },
+            {
+                "page": "drm/3/13763/OEBPS/Images/1/ef6c699ae58ecd3101c915c80eafd6f4.jpg"
+            },
+            {
+                "page": "drm/3/13763/OEBPS/Images/1/f6427f24fa9e9ae8e4f71b224a441228.jpg",
+                "audio": "drm/3/13763/OEBPS/Audio/1/3fcce612940a74c9a06f1b0ec65aa9a2.mp3"
+            },
+            {
+                "page": "drm/3/13763/OEBPS/Images/1/bf3d6202f23f9412706c6da3eeaa3597.jpg"
+            },
+            {
+                "page": "drm/3/13763/OEBPS/Images/1/05dcb805f3d5e74363a8df4e4f23b4ae.jpg",
+                "audio": "drm/3/13763/OEBPS/Audio/1/aba10e947e9734462854b88a90f84e98.mp3"
+            },
+            {
+                "page": "drm/3/13763/OEBPS/Images/1/8787c77d3131100ba50c169425277149.jpg"
+            },
+            {
+                "page": "drm/3/13763/OEBPS/Images/1/b23fddd520a41d76fa41c4847cb3e9eb.jpg",
+                "audio": "drm/3/13763/OEBPS/Audio/1/9146a59640d00a24ce5ac31d8e36ee55.mp3"
+            },
+            {
+                "page": "drm/3/13763/OEBPS/Images/1/259c26d79cd7467fc0dded4b69d748f5.jpg"
+            },
+            {
+                "page": "drm/3/13763/OEBPS/Images/1/035e9c1c97b6cade8f085d3bef8865d9.jpg",
+                "audio": "drm/3/13763/OEBPS/Audio/1/cf91dfdc452e283a7d4cb32137670d06.mp3"
+            },
+            {
+                "page": "drm/3/13763/OEBPS/Images/1/22ca84c9586d43519e7b33fa1709366c.jpg"
+            },
+            {
+                "page": "drm/3/13763/OEBPS/Images/1/95af5977aadb69e63a9aa1b1aae518d0.jpg",
+                "audio": "drm/3/13763/OEBPS/Audio/1/dc1f361bf4972bdfd725884f90ab6bd5.mp3"
+            },
+            {
+                "page": "drm/3/13763/OEBPS/Images/1/b22b8a82b7bb59af74cd44379223e936.jpg"
+            },
+            {
+                "page": "drm/3/13763/OEBPS/Images/1/7678b4ec20db0eb75b829257fa3fd076.jpg",
+                "audio": "drm/3/13763/OEBPS/Audio/1/0f74739153a2a8bb37a065983b77212f.mp3"
+            },
+            {
+                "page": "drm/3/13763/OEBPS/Images/1/810c19626cd64ee0619aa3b893b5e037.jpg"
+            },
+            {
+                "page": "drm/3/13763/OEBPS/Images/1/1b95bb6789732c4881596ca1492912b6.jpg",
+                "audio": "drm/3/13763/OEBPS/Audio/1/0fd6e4e0d63b45289130b33769bebc54.mp3"
+            },
+            {
+                "page": "drm/3/13763/OEBPS/Images/1/0906561dcb4880594167670ab1828e58.jpg"
+            },
+            {
+                "page": "drm/3/13763/OEBPS/Images/1/e1dc6ad222e2795781a849930920ad7d.jpg",
+                "audio": "drm/3/13763/OEBPS/Audio/1/b0e7bae98c3bfb7c510d6336635db58f.mp3"
+            },
+            {
+                "page": "drm/3/13763/OEBPS/Images/1/02d43e40cb7d1483f02125d6422a53ea.jpg"
+            },
+            {
+                "page": "drm/3/13763/OEBPS/Images/1/c1b79112dbbda82155c720e38bd6e770.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/3/13763/OEBPS/Images/1/5a6c86cfba058544ee7058be43b94093.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "13763",
+        "id": "13763",
+        "title": "Left or Right?",
+        "author": "Susan Markowitz Meredith",
+        "illustrator": " ",
+        "numPages": 24,
+        "bookDescription": "Discover the difference between left and right.",
+        "coverColorR": 138,
+        "coverColorG": 141,
+        "coverColorB": 75,
+        "version": 1,
+        "previewPercent": 20,
+        "publisher": "Rourke Educational Media",
+        "publisherId": "107",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 880,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "8afc667bca397b1864fe",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372690
+    },
+    "userBook": {
+        "modelId": "46250489-13763",
+        "userId": "46250489",
+        "bookId": "13763",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310756,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310756,
+        "book": {
+            "modelId": "13763",
+            "title": "Left or Right?",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "8afc667bca397b1864fe"
+        }
+    },
+    "quiz": null
+}

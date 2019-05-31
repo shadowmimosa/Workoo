@@ -1,0 +1,155 @@
+{
+    "publisherData": {
+        "modelId": "109",
+        "name": "JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/33797/OEBPS/Images/1/2EDA7257-E6C8-4B7B-B7D7-233020C66C99.jpg"
+            },
+            {
+                "page": "drm/7/33797/OEBPS/Images/1/424DA49E-5D0A-4BBD-9361-AD3311DE0A7D.jpg"
+            },
+            {
+                "page": "drm/7/33797/OEBPS/Images/1/3A4B2C1E-B1BD-43CB-A0D0-2001061A1C1F.jpg"
+            },
+            {
+                "page": "drm/7/33797/OEBPS/Images/1/FF9D5C99-AAFB-4BD1-BB6F-A4F4013359CA.jpg"
+            },
+            {
+                "page": "drm/7/33797/OEBPS/Images/1/2E58C4B5-6D1D-468F-9D82-40F87FDCDCAF.jpg"
+            },
+            {
+                "page": "drm/7/33797/OEBPS/Images/1/DFA04578-F0CC-4F4A-B46B-8C1674989E3F.jpg"
+            },
+            {
+                "page": "drm/7/33797/OEBPS/Images/1/A9127A89-5D50-42DB-ADFA-791CC3D985A4.jpg"
+            },
+            {
+                "page": "drm/7/33797/OEBPS/Images/1/FD594A87-DCAD-4950-BAAF-0844967845B2.jpg"
+            },
+            {
+                "page": "drm/7/33797/OEBPS/Images/1/01354AEE-AE26-48F8-808E-B97E9D24F1CD.jpg"
+            },
+            {
+                "page": "drm/7/33797/OEBPS/Images/1/B25F05A2-0ADC-4B0D-8D05-0C678D4117CD.jpg"
+            },
+            {
+                "page": "drm/7/33797/OEBPS/Images/1/61EB642A-D9D3-47F5-B7F5-2D72C3941E5F.jpg"
+            },
+            {
+                "page": "drm/7/33797/OEBPS/Images/1/C38DBC1A-DDE8-4598-BDAE-3F9E8376C5A4.jpg"
+            },
+            {
+                "page": "drm/7/33797/OEBPS/Images/1/C0F613CB-82E9-4D37-9337-D0FB4636A29B.jpg"
+            },
+            {
+                "page": "drm/7/33797/OEBPS/Images/1/A542777F-9022-461F-A5BA-B42905AC8DD3.jpg"
+            },
+            {
+                "page": "drm/7/33797/OEBPS/Images/1/A25EFF1A-4B25-48B2-A51F-3AB2A94B98AF.jpg"
+            },
+            {
+                "page": "drm/7/33797/OEBPS/Images/1/E235D190-86CA-4424-BB4F-F1AA4C78EF03.jpg"
+            },
+            {
+                "page": "drm/7/33797/OEBPS/Images/1/65AF90AD-DB7C-4C16-B24B-F65315CB66AA.jpg"
+            },
+            {
+                "page": "drm/7/33797/OEBPS/Images/1/27B81B0C-0F96-4E92-B1AD-EBFBCB08B06E.jpg"
+            },
+            {
+                "page": "drm/7/33797/OEBPS/Images/1/958B4CE1-B74C-455A-817D-2E8A4F3F1036.jpg"
+            },
+            {
+                "page": "drm/7/33797/OEBPS/Images/1/3E1C51FB-7B35-4314-B2A9-6EC4B0062911.jpg"
+            },
+            {
+                "page": "drm/7/33797/OEBPS/Images/1/1DC377E6-969A-477E-9A1F-1D8EEDFD9D19.jpg"
+            },
+            {
+                "page": "drm/7/33797/OEBPS/Images/1/C0D83EF5-66A9-4EB0-9E25-4793D7B8A415.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/33797/OEBPS/Images/1/64360419-6CB3-4377-9695-E5CBB91848ED.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "33797",
+        "id": "33797",
+        "title": "Math It! Measure It!",
+        "author": "Nadia Higgins",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Learn about the importance of exact measurements by exploring a variety of real-world examples using both the imperial and metric systems.",
+        "coverColorR": 210,
+        "coverColorG": 210,
+        "coverColorB": 176,
+        "version": 12309,
+        "previewPercent": 20,
+        "publisher": "JUMP",
+        "publisherId": "109",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "480L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 403,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "ABCs & 123s",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.8333,
+        "contentHash": "47882d01e8e2a6f01523",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373340
+    },
+    "userBook": {
+        "modelId": "46250489-33797",
+        "userId": "46250489",
+        "bookId": "33797",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311540,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311540,
+        "book": {
+            "modelId": "33797",
+            "title": "Math It! Measure It!",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "47882d01e8e2a6f01523"
+        }
+    },
+    "quiz": null
+}

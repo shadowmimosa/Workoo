@@ -1,0 +1,173 @@
+{
+    "publisherData": {
+        "modelId": "168",
+        "name": "Flower Pot Press",
+        "url": "http://www.flowerpotpress.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260414
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/18644/OEBPS/Images/1/ae7d21b50bbc34385c5c16f112c83728.jpg",
+                "audio": "drm/4/18644/OEBPS/Audio/1/70522a9abeaf0b9ef852fffaaaac161e.mp3"
+            },
+            {
+                "page": "drm/4/18644/OEBPS/Images/1/e2d68829034f4a3436381848201b80c9.jpg",
+                "audio": "drm/4/18644/OEBPS/Audio/1/fc3f3cd4e06a7553be763c2ed919c834.mp3"
+            },
+            {
+                "page": "drm/4/18644/OEBPS/Images/1/988f1626017f939d002f0e50651d55fe.jpg",
+                "audio": "drm/4/18644/OEBPS/Audio/1/0a5e28043530311505cdde0a725153fa.mp3"
+            },
+            {
+                "page": "drm/4/18644/OEBPS/Images/1/246c85118bc4844155cb6696a86ce049.jpg",
+                "audio": "drm/4/18644/OEBPS/Audio/1/b2a2d340e675a71c8f1803b67eb6b892.mp3"
+            },
+            {
+                "page": "drm/4/18644/OEBPS/Images/1/21b01b7770f4b4e6ed096de75f9ea023.jpg",
+                "audio": "drm/4/18644/OEBPS/Audio/1/fdcdb86e42d1bb7b4f3d338cc88cce67.mp3"
+            },
+            {
+                "page": "drm/4/18644/OEBPS/Images/1/834c095f3c64968db3ad3eeabfd1edf3.jpg",
+                "audio": "drm/4/18644/OEBPS/Audio/1/1f3ae2f4e13bad9315494fd4db40cd96.mp3"
+            },
+            {
+                "page": "drm/4/18644/OEBPS/Images/1/7a6f83b5630f2b0d90a620b8eaad5757.jpg",
+                "audio": "drm/4/18644/OEBPS/Audio/1/6990fb5dfa22f11e2d030ae5a6489705.mp3"
+            },
+            {
+                "page": "drm/4/18644/OEBPS/Images/1/6e63078813057de72c2da0e75a845aa3.jpg",
+                "audio": "drm/4/18644/OEBPS/Audio/1/19e19dcba3830576408055512f5ee5c4.mp3"
+            },
+            {
+                "page": "drm/4/18644/OEBPS/Images/1/6cbfac9ad0c75c77ea0dc85175f0aadb.jpg",
+                "audio": "drm/4/18644/OEBPS/Audio/1/194e6ca97ca41bc0f695235138f4fa74.mp3"
+            },
+            {
+                "page": "drm/4/18644/OEBPS/Images/1/e53c402fa05df79dae9264739a8a3a6d.jpg",
+                "audio": "drm/4/18644/OEBPS/Audio/1/ed1e67ee41640f04289cb60edd38084d.mp3"
+            },
+            {
+                "page": "drm/4/18644/OEBPS/Images/1/f5cbaabdd8bed37a11a64ea218553dd5.jpg",
+                "audio": "drm/4/18644/OEBPS/Audio/1/752d7fc72e7d75d53e131f610ba2d192.mp3"
+            },
+            {
+                "page": "drm/4/18644/OEBPS/Images/1/d52fa2a8569307e3520fef0f58374add.jpg",
+                "audio": "drm/4/18644/OEBPS/Audio/1/cd588c4abbcc9f267076bff521ea0d14.mp3"
+            },
+            {
+                "page": "drm/4/18644/OEBPS/Images/1/d16686df449013bc36739fb984513f60.jpg",
+                "audio": "drm/4/18644/OEBPS/Audio/1/8db29bb33905c25a75aaef24db3ec26b.mp3"
+            },
+            {
+                "page": "drm/4/18644/OEBPS/Images/1/eabc80d146ede22de640b02ad3693931.jpg",
+                "audio": "drm/4/18644/OEBPS/Audio/1/db21c09ebe4e053e39f6521c9fb3c5bf.mp3"
+            },
+            {
+                "page": "drm/4/18644/OEBPS/Images/1/3faf91ec029acda7c751b3da6f946d1a.jpg",
+                "audio": "drm/4/18644/OEBPS/Audio/1/b00a0327946c9673a3e0bc69d674af92.mp3"
+            },
+            {
+                "page": "drm/4/18644/OEBPS/Images/1/ef11b39f9d2d0797785f007905232d52.jpg",
+                "audio": "drm/4/18644/OEBPS/Audio/1/2a5e98a8825a3230ee751b11dcae1c00.mp3"
+            },
+            {
+                "page": "drm/4/18644/OEBPS/Images/1/b93f2377119fb03be373d9e83492d3ce.jpg",
+                "audio": "drm/4/18644/OEBPS/Audio/1/43f47e8ddb97c7a341e39ea6f626eb59.mp3"
+            },
+            {
+                "page": "drm/4/18644/OEBPS/Images/1/417fe515cc2566df3b6dc8af501ab6a7.jpg",
+                "audio": "drm/4/18644/OEBPS/Audio/1/efddc8664702b787556ed834c8eeff27.mp3"
+            },
+            {
+                "page": "drm/4/18644/OEBPS/Images/1/9208834c5d2f98c1a4d1f94f80b3102c.jpg",
+                "audio": "drm/4/18644/OEBPS/Audio/1/eea417054f29d64595093ef91c815613.mp3"
+            },
+            {
+                "page": "drm/4/18644/OEBPS/Images/1/67414b3e68794cf7cec8ffbafc8313ec.jpg",
+                "audio": "drm/4/18644/OEBPS/Audio/1/b8e406ee3cf66dcc52a64d82d3eeb53e.mp3"
+            },
+            {
+                "page": "drm/4/18644/OEBPS/Images/1/7ce4b15b259bfe63da59f38347592407.jpg",
+                "audio": "drm/4/18644/OEBPS/Audio/1/a18761829b2c207b132bd5d10c7d86eb.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/18644/OEBPS/Images/1/06b868e4980c3d710a33c18364c332d0.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18644",
+        "id": "18644",
+        "title": "Things That Work",
+        "author": " ",
+        "illustrator": "Lisa M. Gardiner",
+        "numPages": 21,
+        "bookDescription": "The First Words series is an ideal learning tool for very young minds.",
+        "coverColorR": 144,
+        "coverColorG": 68,
+        "coverColorB": 52,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Flower Pot Press",
+        "publisherId": "168",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 315,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 81,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "f086ea5fc1e3ed84d16f",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372870
+    },
+    "userBook": {
+        "modelId": "46250489-18644",
+        "userId": "46250489",
+        "bookId": "18644",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310884,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310884,
+        "book": {
+            "modelId": "18644",
+            "title": "Things That Work",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "f086ea5fc1e3ed84d16f"
+        }
+    },
+    "quiz": null
+}

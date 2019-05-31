@@ -1,0 +1,664 @@
+{
+    "publisherData": {
+        "modelId": "109",
+        "name": "JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/33801/OEBPS/Images/1/B0E025F7-11AC-4244-B200-4A508A538A6F.jpg"
+            },
+            {
+                "page": "drm/1/33801/OEBPS/Images/1/70A223C5-F79F-4B77-8D45-168D0B9AFED8.jpg"
+            },
+            {
+                "page": "drm/1/33801/OEBPS/Images/1/C48CD38B-7C05-49C2-8F11-703301426BC1.jpg"
+            },
+            {
+                "page": "drm/1/33801/OEBPS/Images/1/6D7AC65D-57E7-4D67-9F66-063F5005B4B1.jpg"
+            },
+            {
+                "page": "drm/1/33801/OEBPS/Images/1/7C73061A-D0FB-4C93-BC85-F0560D2D8C87.jpg"
+            },
+            {
+                "page": "drm/1/33801/OEBPS/Images/1/35775EAE-E0A3-4E8A-9CB8-AD2B3FEF5FEA.jpg"
+            },
+            {
+                "page": "drm/1/33801/OEBPS/Images/1/C3B43D4C-AB5E-4408-B976-8448A81502C2.jpg"
+            },
+            {
+                "page": "drm/1/33801/OEBPS/Images/1/55B7F815-8230-4BAD-93A4-4A2A381BEB5E.jpg"
+            },
+            {
+                "page": "drm/1/33801/OEBPS/Images/1/C9268844-8ADE-4B73-9854-FC31AF93EEFE.jpg"
+            },
+            {
+                "page": "drm/1/33801/OEBPS/Images/1/ED7424F7-1E6B-4F7F-9D7D-F4ADDD145AE5.jpg"
+            },
+            {
+                "page": "drm/1/33801/OEBPS/Images/1/BC9DC37A-D77D-4BCA-9CB1-5DF4AFBACBA0.jpg"
+            },
+            {
+                "page": "drm/1/33801/OEBPS/Images/1/25DE9780-2E89-480C-B7C8-9F7004DD688D.jpg"
+            },
+            {
+                "page": "drm/1/33801/OEBPS/Images/1/BA1AA9D7-97F4-4549-8876-325703162FB3.jpg"
+            },
+            {
+                "page": "drm/1/33801/OEBPS/Images/1/BD55E48D-DA3E-40DA-A532-C566064F0D8D.jpg"
+            },
+            {
+                "page": "drm/1/33801/OEBPS/Images/1/6828029C-8443-458C-A2D9-C4C8F484F80C.jpg"
+            },
+            {
+                "page": "drm/1/33801/OEBPS/Images/1/B24C33FD-AC49-445F-8858-CAEDC9A43931.jpg"
+            },
+            {
+                "page": "drm/1/33801/OEBPS/Images/1/3A16E7FC-AC6E-46CB-BC55-D92846383582.jpg"
+            },
+            {
+                "page": "drm/1/33801/OEBPS/Images/1/987502A2-430A-4D80-B964-4078CABF69A5.jpg"
+            },
+            {
+                "page": "drm/1/33801/OEBPS/Images/1/F59757BC-5912-43CF-91FB-C1078309B0FE.jpg"
+            },
+            {
+                "page": "drm/1/33801/OEBPS/Images/1/696AF808-E857-4301-B951-748C2CD789AF.jpg"
+            },
+            {
+                "page": "drm/1/33801/OEBPS/Images/1/1F3A11C4-B7C4-4B67-AC91-347AFAB471B0.jpg"
+            },
+            {
+                "page": "drm/1/33801/OEBPS/Images/1/A19FC4FE-536F-4BD9-B885-D96A897B3ADD.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/33801/OEBPS/Images/1/65C9CF8F-7272-48AA-B797-3D6D816B217C.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "33801",
+        "id": "33801",
+        "title": "Math It! Weigh It!",
+        "author": "Nadia Higgins",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Early fluent readers learn about weighing in both the imperial and metric systems by exploring a variety of real-world examples.",
+        "coverColorR": 207,
+        "coverColorG": 188,
+        "coverColorB": 172,
+        "version": 12309,
+        "previewPercent": 20,
+        "publisher": "JUMP",
+        "publisherId": "109",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "480L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 403,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "ABCs & 123s",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.8333,
+        "contentHash": "8572f4bdd6ff9300cdce",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373340
+    },
+    "userBook": {
+        "modelId": "46250489-33801",
+        "userId": "46250489",
+        "bookId": "33801",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311571,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311571,
+        "book": {
+            "modelId": "33801",
+            "title": "Math It! Weigh It!",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "8572f4bdd6ff9300cdce"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "82206",
+            "user_id": "579276",
+            "book_id": "33801",
+            "title": "Weight and Mass Comprehension Quiz",
+            "description": "",
+            "date_created": 1493323557,
+            "date_modified": 1501204047,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Which is the correct definition of a dial scale?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "a scale that uses a needle that points to numbers to show weight",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "multiples of 10",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "an electronic scale that uses numbers",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What is weight?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "a measurement that shows how heavy things are",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "a form of division",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "the density of an object",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "The metric system makes it easy to switch from one unit to another. All units are in multiples of ______?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "10",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "2",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "17",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "20",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "1 ton = How many pounds?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "2000 lbs",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "1 lb",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "400 lbs",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "500 lbs",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "How many cups = 1 gallon?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "16",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "4",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "3",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "12",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "The book made a connection to why weight is important in the real world when you travel. What object was being measured with a dial scale?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "a suitcase",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "a dog",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "his jacket",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 5
+                },
+                {
+                    "title": "Which customary unit would be the best option when measuring a human's weight?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "pounds",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "ounces",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "gallons",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 6
+                },
+                {
+                    "title": "Which metric unit would be the best option when measuring a paperclip?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "grams",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "kilograms",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 7
+                },
+                {
+                    "title": "1 kilogram = _______ grams",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "1,000",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "1,000,000",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "30",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 8
+                },
+                {
+                    "title": "1 pound = 16 ounces\nIf Alfie the rabbit now weighs 20 ounces, which answer below is another way we can state that?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "1 pound 4 ounces",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "4 pounds",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "1 pound 9 ounces",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "2 pounds 1 ounce",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 9
+                }
+            ],
+            "modelId": "82206",
+            "creatorName": "Ms. Bouhajja",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "579276",
+                "udid": "54dd48ce2ac0f3.21745764",
+                "journalName": "Ms. Bouhajja",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.11764705882353 0.91764705882353 0.64313725490196 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "77231292",
+                "fid": "",
+                "accountID": "42CD3A87-9A10-6FB3-34F3-A5006B509CAE",
+                "simpleAccountId": "353563",
+                "pagesFlipped": 9567,
+                "nufComplete": 1,
+                "readingAge": 8.0333333333333,
+                "startingAge": 8,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 211,
+                "xpLevel": 3,
+                "dateLastLogin": 1558649932,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Saida",
+                "lastName": "Bouhajja",
+                "accountType": 1,
+                "dateModified": 1559313076,
+                "educatorPrefix": "Ms.",
+                "name": "Ms. Bouhajja"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Which is the correct definition of a dial scale?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "a scale that uses a needle that points to numbers to show weight",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "multiples of 10",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "an electronic scale that uses numbers",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What is weight?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "a measurement that shows how heavy things are",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "a form of division",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "the density of an object",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "The metric system makes it easy to switch from one unit to another. All units are in multiples of ______?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "10",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "2",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "17",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "20",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "1 ton = How many pounds?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "2000 lbs",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "1 lb",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "400 lbs",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "500 lbs",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "How many cups = 1 gallon?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "16",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "4",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "3",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "12",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "The book made a connection to why weight is important in the real world when you travel. What object was being measured with a dial scale?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "a suitcase",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "a dog",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "his jacket",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 5
+            },
+            {
+                "title": "Which customary unit would be the best option when measuring a human's weight?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "pounds",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "ounces",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "gallons",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 6
+            },
+            {
+                "title": "Which metric unit would be the best option when measuring a paperclip?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "grams",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "kilograms",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 7
+            },
+            {
+                "title": "1 kilogram = _______ grams",
+                "quizQuestionChoices": [
+                    {
+                        "title": "1,000",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "1,000,000",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "30",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 8
+            },
+            {
+                "title": "1 pound = 16 ounces\nIf Alfie the rabbit now weighs 20 ounces, which answer below is another way we can state that?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "1 pound 4 ounces",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "4 pounds",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "1 pound 9 ounces",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "2 pounds 1 ounce",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 9
+            }
+        ]
+    }
+}

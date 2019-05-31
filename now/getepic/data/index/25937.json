@@ -1,0 +1,475 @@
+{
+    "publisherData": {
+        "modelId": "91",
+        "name": "ABDO Publishing",
+        "url": "http://abdopublishing.com//",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570820
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/25937/OEBPS/Images/1/BFF1284C-6D60-4DA3-A007-57BE9F46E979.jpg"
+            },
+            {
+                "page": "drm/7/25937/OEBPS/Images/1/F700A429-2D25-4A19-983A-9DF03D6C7F97.jpg",
+                "audio": "drm/7/25937/OEBPS/Audio/1/page6.mp3"
+            },
+            {
+                "page": "drm/7/25937/OEBPS/Images/1/44013AF1-3372-4DFA-A3BD-A200DA47C5CF.jpg",
+                "audio": "drm/7/25937/OEBPS/Audio/1/page7.mp3"
+            },
+            {
+                "page": "drm/7/25937/OEBPS/Images/1/6D9C9A64-FF23-49B4-BFE8-C970A3C87531.jpg",
+                "audio": "drm/7/25937/OEBPS/Audio/1/page8.mp3"
+            },
+            {
+                "page": "drm/7/25937/OEBPS/Images/1/243C4F8A-F8E9-4F5A-AAF5-8E8641F896E2.jpg"
+            },
+            {
+                "page": "drm/7/25937/OEBPS/Images/1/238ABB3E-9443-4746-9010-84F7CCCB88D5.jpg",
+                "audio": "drm/7/25937/OEBPS/Audio/1/page10.mp3"
+            },
+            {
+                "page": "drm/7/25937/OEBPS/Images/1/8B9BD12E-6C6D-4297-AA12-1F228C014F91.jpg"
+            },
+            {
+                "page": "drm/7/25937/OEBPS/Images/1/A03AA8E1-A71B-4B57-B069-964242880FEC.jpg",
+                "audio": "drm/7/25937/OEBPS/Audio/1/page12.mp3"
+            },
+            {
+                "page": "drm/7/25937/OEBPS/Images/1/A2E74056-5514-4632-863D-C7D581154A9A.jpg"
+            },
+            {
+                "page": "drm/7/25937/OEBPS/Images/1/642DEBAA-BD58-43FB-8746-79DB4D5ADF67.jpg",
+                "audio": "drm/7/25937/OEBPS/Audio/1/page14.mp3"
+            },
+            {
+                "page": "drm/7/25937/OEBPS/Images/1/A288ED59-7706-4BFC-8D8C-B93AF7D5D4C9.jpg"
+            },
+            {
+                "page": "drm/7/25937/OEBPS/Images/1/ED9A40A9-0AB2-492A-A807-64C30BB7D93B.jpg",
+                "audio": "drm/7/25937/OEBPS/Audio/1/page16.mp3"
+            },
+            {
+                "page": "drm/7/25937/OEBPS/Images/1/C2A6DA9B-5A32-4951-9832-B4A338E84867.jpg"
+            },
+            {
+                "page": "drm/7/25937/OEBPS/Images/1/D55F241C-9728-4A8B-AA63-F729FDEE9DCC.jpg",
+                "audio": "drm/7/25937/OEBPS/Audio/1/page18.mp3"
+            },
+            {
+                "page": "drm/7/25937/OEBPS/Images/1/7BB248E1-E0BB-4867-9CC4-57B216826A56.jpg"
+            },
+            {
+                "page": "drm/7/25937/OEBPS/Images/1/F4C2F216-DF1F-434D-A7C4-BF0339525C38.jpg",
+                "audio": "drm/7/25937/OEBPS/Audio/1/page20.mp3"
+            },
+            {
+                "page": "drm/7/25937/OEBPS/Images/1/0A917B7C-9D31-466A-8556-ECA2C952062E.jpg"
+            },
+            {
+                "page": "drm/7/25937/OEBPS/Images/1/56278CF1-226A-4046-92FA-C4247E6EFAE1.jpg",
+                "audio": "drm/7/25937/OEBPS/Audio/1/page22.mp3"
+            },
+            {
+                "page": "drm/7/25937/OEBPS/Images/1/206D0FB8-9710-4878-A202-44333C8E71C8.jpg"
+            },
+            {
+                "page": "drm/7/25937/OEBPS/Images/1/0D3C5E0E-E0E6-43CB-B3D8-A45208C5BEA8.jpg",
+                "audio": "drm/7/25937/OEBPS/Audio/1/page24.mp3"
+            },
+            {
+                "page": "drm/7/25937/OEBPS/Images/1/3F5966CA-6020-4AF9-80B8-9958F959FBCA.jpg"
+            },
+            {
+                "page": "drm/7/25937/OEBPS/Images/1/AE93839E-5AC2-470F-B07B-BA55E2591C5D.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/25937/OEBPS/Images/1/A5CFE1F5-C764-4C2D-BB5C-4C442B53CB70.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "25937",
+        "id": "25937",
+        "title": "Hexagons",
+        "author": "Teddy Borth",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "These six-sided wonders are hiding all around us!",
+        "coverColorR": 199,
+        "coverColorG": 209,
+        "coverColorB": 198,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "ABDO Publishing",
+        "publisherId": "91",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "140L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 366,
+        "ar": "1.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.0899,
+        "contentHash": "8c96f8df647cc7682dd1",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373049
+    },
+    "userBook": {
+        "modelId": "46250489-25937",
+        "userId": "46250489",
+        "bookId": "25937",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310841,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310841,
+        "book": {
+            "modelId": "25937",
+            "title": "Hexagons",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "8c96f8df647cc7682dd1"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "180250",
+            "user_id": "10272249",
+            "book_id": "25937",
+            "title": "Hexagons",
+            "description": "",
+            "date_created": 1519618799,
+            "date_modified": 1522360496,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "A hexagon has how many sides?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "6",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "3",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "5",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "7",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "A hexagon has how many angles?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "6",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "3",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "7",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "9",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "A hexagon is found on a",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "soccer ball",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "football",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "baseball",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "tennis ball",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Which animal has a hexagon on their body?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "turtle",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "cat",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "dog",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "fish",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Which of these is shaped like a hexagon",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "pencil",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "crayon",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "marker",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "180250",
+            "creatorName": "Mrs. Wuwert",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "10272249",
+                "udid": "57e148fb3e8fe7.40907207",
+                "journalName": "Ms. Wuwert",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.61176470588235 0.36078431372549 0.70588235294118 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "593882000",
+                "fid": "",
+                "accountID": "0FB5D0AD-58C0-FFC7-B7A5-B607D6330A84",
+                "simpleAccountId": "3627485",
+                "pagesFlipped": 15312,
+                "nufComplete": 1,
+                "readingAge": 5.6666666666667,
+                "startingAge": 5,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 1826,
+                "xpLevel": 20,
+                "dateLastLogin": 1559128381,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Suzanne",
+                "lastName": "Wuwert",
+                "accountType": 1,
+                "dateModified": 1559128381,
+                "educatorPrefix": "Ms.",
+                "name": "Ms. Wuwert"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "A hexagon has how many sides?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "6",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "3",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "5",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "7",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "A hexagon has how many angles?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "6",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "3",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "7",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "9",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "A hexagon is found on a",
+                "quizQuestionChoices": [
+                    {
+                        "title": "soccer ball",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "football",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "baseball",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "tennis ball",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Which animal has a hexagon on their body?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "turtle",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "cat",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "dog",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "fish",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Which of these is shaped like a hexagon",
+                "quizQuestionChoices": [
+                    {
+                        "title": "pencil",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "crayon",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "marker",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

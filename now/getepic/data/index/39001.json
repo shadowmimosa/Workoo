@@ -1,0 +1,179 @@
+{
+    "publisherData": {
+        "modelId": "90230",
+        "name": "Tanglewood Publishing",
+        "url": "http://www.tanglewoodbooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491261862
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/83D58CB9-031C-4CDD-8F22-4366C74194F2.jpg"
+            },
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/8D58275E-2AE3-44A4-ABAE-56CAD4B107D6.jpg"
+            },
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/A4BDAF06-607B-4CDC-B168-129ACEFC8FF6.jpg"
+            },
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/338683D8-FD07-4351-8274-DD468A176A00.jpg"
+            },
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/11FA7D81-0199-4751-9A0A-E40BFD20AD48.jpg"
+            },
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/993D9E3A-47CB-4CCB-8E9A-BCD453449BF4.jpg"
+            },
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/C8FDBD25-E048-41A3-A577-DF1FF7E6747A.jpg"
+            },
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/91FA6840-A4F6-439E-B876-A0226DB21467.jpg"
+            },
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/96C1886B-E752-4224-97AB-340B26B285BA.jpg"
+            },
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/F9C7D624-FE75-461F-91B9-FB738A9DE992.jpg"
+            },
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/B5D2F7E7-73AE-46DB-B455-FE8F7A0870F4.jpg"
+            },
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/7D192131-5D80-4D7F-BBEA-6E5907A77C9C.jpg"
+            },
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/A2DC9487-AD0F-4B07-BC20-16753745C090.jpg"
+            },
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/68475514-AEB8-4249-8126-C634FEDF4E4D.jpg"
+            },
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/F4C291E8-91ED-41CB-8125-211A445D8125.jpg"
+            },
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/3914FEBD-1D37-4E6B-87E0-15ED7FDFD03C.jpg"
+            },
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/877C3CB6-7357-45E4-B616-8F4CE8024E05.jpg"
+            },
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/0FA4725A-55C6-4519-AC14-1540BA55D286.jpg"
+            },
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/DBD742A1-40DA-4294-B65B-CDD5E42152D9.jpg"
+            },
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/8A8C9435-1A90-4EB8-9CAD-4D8BADD1F5A3.jpg"
+            },
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/A22AAD4F-CB33-4FD9-83BB-FF3DDCBDFBC6.jpg"
+            },
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/778404FA-6483-45E4-9978-B14D1A72429E.jpg"
+            },
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/3F2B8244-8750-4424-82DA-2E734939C325.jpg"
+            },
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/3E0F36E4-C1C8-45E2-867B-6A1AE5907227.jpg"
+            },
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/EDF2C927-A58A-4A51-BF15-91B3A1DF8CC2.jpg"
+            },
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/A51EAA21-4AB2-497C-B4DB-F7AF5983D96E.jpg"
+            },
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/6FD2AF0A-92FA-4389-9465-12BB3D761FC8.jpg"
+            },
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/3D676E63-8F8D-4ED8-BFE6-DC95A79BE71F.jpg"
+            },
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/DCF3AA5D-2D25-4CB2-A9BD-6AF63E1716A0.jpg"
+            },
+            {
+                "page": "drm/1/39001/OEBPS/Images/1/44B6A290-B9D3-4192-A54A-DCBDAFD55ED1.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/39001/OEBPS/Images/1/330B6FA9-3CE3-4304-8327-9B677E8E955A.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "39001",
+        "id": "39001",
+        "title": "The Kissing Hand",
+        "author": "Audrey Penn",
+        "illustrator": "Ruth Harper, Nancy M. Leak",
+        "numPages": 30,
+        "bookDescription": "School is starting in the forest, but Chester Raccoon does not want to go.",
+        "coverColorR": 134,
+        "coverColorG": 149,
+        "coverColorB": 115,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Tanglewood Publishing",
+        "publisherId": "90230",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "AD540L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 450,
+        "ar": "2.7",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Parents",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 0.7983,
+        "contentHash": "7e5db241bff08223408c",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1555373663
+    },
+    "userBook": {
+        "modelId": "46250489-39001",
+        "userId": "46250489",
+        "bookId": "39001",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310281,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310281,
+        "book": {
+            "modelId": "39001",
+            "title": "The Kissing Hand",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "7e5db241bff08223408c"
+        }
+    },
+    "quiz": null
+}

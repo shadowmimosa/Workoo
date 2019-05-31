@@ -1,0 +1,654 @@
+{
+    "publisherData": {
+        "modelId": "107",
+        "name": "Rourke Educational Media",
+        "url": "http://rourkeeducationalmedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570193
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/18694/OEBPS/Images/1/880817493dd03904026f0d1a94d9f517.jpg",
+                "audio": "drm/4/18694/OEBPS/Audio/1/e7866b60a380d7bd6b282b77256e2d79.mp3"
+            },
+            {
+                "page": "drm/4/18694/OEBPS/Images/1/1e0c5d2798d0befe58c5645aa0a5a069.jpg",
+                "audio": "drm/4/18694/OEBPS/Audio/1/f401ccf12fcb750b0009136744a0d538.mp3"
+            },
+            {
+                "page": "drm/4/18694/OEBPS/Images/1/a4def54f0c2995bd296d9b30f37611bb.jpg"
+            },
+            {
+                "page": "drm/4/18694/OEBPS/Images/1/36926e58e78b872106f5583e1da6d152.jpg",
+                "audio": "drm/4/18694/OEBPS/Audio/1/21dd87dbcf26c0e9189bd2fed03db1bb.mp3"
+            },
+            {
+                "page": "drm/4/18694/OEBPS/Images/1/f96c7429ae52e1b5e76be90569e9b9ed.jpg"
+            },
+            {
+                "page": "drm/4/18694/OEBPS/Images/1/8d8c6cd088d73c984420b16bd875e667.jpg",
+                "audio": "drm/4/18694/OEBPS/Audio/1/06b4bbc81e2fce4346b1db8ada53c45a.mp3"
+            },
+            {
+                "page": "drm/4/18694/OEBPS/Images/1/add3cfe06e92f581a2bced1c6383d658.jpg"
+            },
+            {
+                "page": "drm/4/18694/OEBPS/Images/1/5029dca7c791d7c0747cb2a062388bd7.jpg",
+                "audio": "drm/4/18694/OEBPS/Audio/1/81501e642b92127ceb7d2ce915ae1bf2.mp3"
+            },
+            {
+                "page": "drm/4/18694/OEBPS/Images/1/d180b936970c52e46796d8284c00837b.jpg"
+            },
+            {
+                "page": "drm/4/18694/OEBPS/Images/1/c901817510426bce782462fbb7a7f8ec.jpg",
+                "audio": "drm/4/18694/OEBPS/Audio/1/afd64dfb6e0438d049396c5619da164e.mp3"
+            },
+            {
+                "page": "drm/4/18694/OEBPS/Images/1/a1f5785261f83c321dfe1acf784cccbe.jpg"
+            },
+            {
+                "page": "drm/4/18694/OEBPS/Images/1/18636c2aadc034bd0520fcc0d42a8221.jpg",
+                "audio": "drm/4/18694/OEBPS/Audio/1/03f7ea52c94b846067276ebc83ae8748.mp3"
+            },
+            {
+                "page": "drm/4/18694/OEBPS/Images/1/c3a9a3376a7feb12fd30d364e0566db4.jpg"
+            },
+            {
+                "page": "drm/4/18694/OEBPS/Images/1/278b3a4c1ecfd411413f25e73f58adbe.jpg",
+                "audio": "drm/4/18694/OEBPS/Audio/1/82729965580afd81c2a72c936691c075.mp3"
+            },
+            {
+                "page": "drm/4/18694/OEBPS/Images/1/43bd9707b6019aad014fc0d6a6d88b49.jpg"
+            },
+            {
+                "page": "drm/4/18694/OEBPS/Images/1/20ac6da02e2ad5752b06a7421df6df18.jpg",
+                "audio": "drm/4/18694/OEBPS/Audio/1/594b85ee7b6732159556aad2cf6d7546.mp3"
+            },
+            {
+                "page": "drm/4/18694/OEBPS/Images/1/5c98528ee8ebce149015e8f0bf998994.jpg"
+            },
+            {
+                "page": "drm/4/18694/OEBPS/Images/1/c1c50aec44cf84734e7a5df0cf3a0d9d.jpg",
+                "audio": "drm/4/18694/OEBPS/Audio/1/9cc720c44f01fc482a767391e8030935.mp3"
+            },
+            {
+                "page": "drm/4/18694/OEBPS/Images/1/1f8fe7813829f78a0ef01dffe9b87565.jpg"
+            },
+            {
+                "page": "drm/4/18694/OEBPS/Images/1/4b6ff980a4e53eef5a7ff6a558e77299.jpg",
+                "audio": "drm/4/18694/OEBPS/Audio/1/f57fb24cc18edf9856e9eec0961cb9f3.mp3"
+            },
+            {
+                "page": "drm/4/18694/OEBPS/Images/1/f5aa3008fabf1694c34b1a82f1f8cab4.jpg"
+            },
+            {
+                "page": "drm/4/18694/OEBPS/Images/1/13338a05054282a6f75474248664b9b8.jpg"
+            },
+            {
+                "page": "drm/4/18694/OEBPS/Images/1/577e2be59657a8a592664ccffebc79d7.jpg"
+            },
+            {
+                "page": "drm/4/18694/OEBPS/Images/1/94a56a6469d2d865627db7b8900b776b.jpg"
+            },
+            {
+                "page": "drm/4/18694/OEBPS/Images/1/f074db11f9dc9a0b111ef8fcf2d6edbb.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/18694/OEBPS/Images/1/e139d18761002c5632be3dca2d13bc8b.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18694",
+        "id": "18694",
+        "title": "River Rafting",
+        "author": "Meg Greve",
+        "illustrator": " ",
+        "numPages": 25,
+        "bookDescription": "The campers ride a raft down a raging river.",
+        "coverColorR": 181,
+        "coverColorG": 188,
+        "coverColorB": 163,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Rourke Educational Media",
+        "publisherId": "107",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 416,
+        "ar": "1.9",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Daily Life",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "9f193a149356678437fd",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372871
+    },
+    "userBook": {
+        "modelId": "46250489-18694",
+        "userId": "46250489",
+        "bookId": "18694",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311148,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311148,
+        "book": {
+            "modelId": "18694",
+            "title": "River Rafting",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "9f193a149356678437fd"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "101839",
+            "user_id": "10595938",
+            "book_id": "18694",
+            "title": "River Rafting",
+            "description": "",
+            "date_created": 1495800435,
+            "date_modified": 1496169260,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Where were the students going for their summer trip?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "River rafting",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "camping by the river",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "hiking in the mountains",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What did Counselor Nixi mean by ride the rapids?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "They were going to ride down the river!",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "They were gong to take videos of river water",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "going to the park and floating paper boats.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What happens to the roof of the bus when it hit the Water?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "The Roof rips off!",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "The wheels pop off!",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "The kids scream!",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What did the Counselor mean by the word raging?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "The Water is flowing very fast.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "She is angry about the bus hitting the water.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "The bus is turning over under the water.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Why was Henry concerned about the stick sticking up out of the water?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "I could cause their raft to rip",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "It would be something for them to grab hold of",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "It look like a snake",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "How did the group save themselves from trouble after the stick ripped teh raft?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "They rowed to the riverbank and fixed the rip.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "They began to cry and shout HELP!",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "The group asked the Councelor to take them home",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 5
+                },
+                {
+                    "title": "What did  Ollie say he would rather do next time they go on a trip.",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Have Recess instead",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Go to the Museum",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Play soccer",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 6
+                },
+                {
+                    "title": "Which is the definition of a raft?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "A inflatable or wooden boat with a flat bottom",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "A tube you get inside of to float or swim",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "A flat float with no sides",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 7
+                },
+                {
+                    "title": "What is the definition of rapids?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "A place in the river where the water rushes very fast",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "A place where water falls from a mountain",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "A pool of water near the ocean",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 8
+                },
+                {
+                    "title": "What was the meaning of the word Rock at the beginning of the story?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "When something moves from side to side.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "When something is hard and solid.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Something you find on the ground.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 9
+                }
+            ],
+            "modelId": "101839",
+            "creatorName": "Mrs. Coomer",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "10595938",
+                "udid": "57ec209dec8664.78150432",
+                "journalName": "Mrs. Morgan",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.93725490196078 0.37647058823529 0.30196078431373 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "595472265",
+                "fid": "",
+                "accountID": "9CACB7FF-80D8-05EF-8954-E3E8A1CEECE9",
+                "simpleAccountId": "3699845",
+                "pagesFlipped": 60957,
+                "nufComplete": 1,
+                "readingAge": 6,
+                "startingAge": 6,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 76,
+                "xpLevel": 2,
+                "dateLastLogin": 1557165543,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Genie",
+                "lastName": "Morgan",
+                "accountType": 1,
+                "dateModified": 1557165543,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Morgan"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Where were the students going for their summer trip?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "River rafting",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "camping by the river",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "hiking in the mountains",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What did Counselor Nixi mean by ride the rapids?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "They were going to ride down the river!",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "They were gong to take videos of river water",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "going to the park and floating paper boats.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What happens to the roof of the bus when it hit the Water?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "The Roof rips off!",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "The wheels pop off!",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "The kids scream!",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What did the Counselor mean by the word raging?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "The Water is flowing very fast.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "She is angry about the bus hitting the water.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "The bus is turning over under the water.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Why was Henry concerned about the stick sticking up out of the water?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "I could cause their raft to rip",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "It would be something for them to grab hold of",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "It look like a snake",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "How did the group save themselves from trouble after the stick ripped teh raft?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "They rowed to the riverbank and fixed the rip.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "They began to cry and shout HELP!",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "The group asked the Councelor to take them home",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 5
+            },
+            {
+                "title": "What did  Ollie say he would rather do next time they go on a trip.",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Have Recess instead",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Go to the Museum",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Play soccer",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 6
+            },
+            {
+                "title": "Which is the definition of a raft?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "A inflatable or wooden boat with a flat bottom",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "A tube you get inside of to float or swim",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "A flat float with no sides",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 7
+            },
+            {
+                "title": "What is the definition of rapids?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "A place in the river where the water rushes very fast",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "A place where water falls from a mountain",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "A pool of water near the ocean",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 8
+            },
+            {
+                "title": "What was the meaning of the word Rock at the beginning of the story?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "When something moves from side to side.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "When something is hard and solid.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Something you find on the ground.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 9
+            }
+        ]
+    }
+}

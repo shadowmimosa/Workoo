@@ -1,0 +1,204 @@
+{
+    "publisherData": {
+        "modelId": "90336",
+        "name": "Live Oak Media provided by Lerner Publishing Group",
+        "url": "https://www.lernerbooks.com/About-Lerner/Pages/LiveOakMedia.aspx",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1528852493
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/305f12d8b06f9a90bb17999cea1f2b27.jpg",
+                "audio": "drm/0/45750/OEBPS/Audio/1/page6_7.mp3"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/7477c854a376337d55fb3805c8c07bbf.jpg",
+                "audio": "drm/0/45750/OEBPS/Audio/1/page8_9.mp3"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/e3cfdbda93f5cc526e9179a8e5e8a253.jpg"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/6a037e559d46fce4a63cedfa98f2ffd6.jpg",
+                "audio": "drm/0/45750/OEBPS/Audio/1/page10_11.mp3"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/464239a19a4615dc9d4c67e5d5e28a58.jpg"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/348b7a9e1665f36c39e0c8619b57b564.jpg",
+                "audio": "drm/0/45750/OEBPS/Audio/1/page12_13.mp3"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/114ebf82f97e25c367fdb5b288b37ce0.jpg"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/38738d2fedd8ca99831f1c9c9b8ab264.jpg",
+                "audio": "drm/0/45750/OEBPS/Audio/1/page14_15.mp3"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/52e855db622b6df06071e6be62f0a5f9.jpg"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/d00a7d4551d964d09a43e2a1982d0534.jpg",
+                "audio": "drm/0/45750/OEBPS/Audio/1/page16_17.mp3"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/17b377517c1a9ce5f9fed851450a6a82.jpg"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/92c7ecbf4069a61d2b1fd1c3ffd3b465.jpg",
+                "audio": "drm/0/45750/OEBPS/Audio/1/page18_19.mp3"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/65686233e8515181a5d6f90eeff4ad57.jpg"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/648e71472467a83deeb030dc6a40622f.jpg",
+                "audio": "drm/0/45750/OEBPS/Audio/1/page20_21.mp3"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/24267c2411bb9864bd20a63b7299d535.jpg"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/3c67c2e309eb7df3dae5e293138a5518.jpg",
+                "audio": "drm/0/45750/OEBPS/Audio/1/page22_23.mp3"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/a82d92e00c73a27a7d28e95f9b5022ba.jpg"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/6b7b136ffe4e520f6a654383db203b8c.jpg",
+                "audio": "drm/0/45750/OEBPS/Audio/1/page24_25.mp3"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/b0acce3a7089c86ec53f598cfe22946d.jpg"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/8f4bfd03675196008038e5a8d0c5b38b.jpg",
+                "audio": "drm/0/45750/OEBPS/Audio/1/page26_27.mp3"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/8075364546bb5c92e2c0863fef8e6568.jpg"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/c7e21dd355abdabc07f762e742f8823c.jpg",
+                "audio": "drm/0/45750/OEBPS/Audio/1/page28_29.mp3"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/73e8c804f1f85f9c2fdf2ec15ccc0a3e.jpg"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/3f2265c1591fbf749b0be2695ee3b8ce.jpg",
+                "audio": "drm/0/45750/OEBPS/Audio/1/page30_31.mp3"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/7ffc11c5981bb0816eed0bba8e582bd9.jpg"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/71ec8c3c79e4ce740eab0f88557b9bae.jpg",
+                "audio": "drm/0/45750/OEBPS/Audio/1/page32_33.mp3"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/7a06d3b443d7483e3d81485a1a75b14f.jpg"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/1e1c6414c1378a1e34c799c9bc9b9f15.jpg",
+                "audio": "drm/0/45750/OEBPS/Audio/1/page34_35.mp3"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/48ca863b9e9e589b7e0fc83865300dfe.jpg"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/16ce65737f35c8ce625feaf8b2c792b2.jpg",
+                "audio": "drm/0/45750/OEBPS/Audio/1/page36_37.mp3"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/f9ce63fc8dac52d3f9116b3e8194f906.jpg"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/d31b1996de3249f686623f2c93201722.jpg"
+            },
+            {
+                "page": "drm/0/45750/OEBPS/Images/1/e6127cc3bcf97ecf59c04359431bd4ab.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/45750/OEBPS/Images/1/8b9c6f01fc49846b7a2a083c844bff52.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "45750",
+        "id": "45750",
+        "title": "Count on Culebra: Go From 1 to 10 in Spanish",
+        "author": "Ann Whitford Paul",
+        "illustrator": "Ethan Long",
+        "numPages": 33,
+        "bookDescription": "In this third book about the four friends bilingual counting and vocabulary are the backdrop for a humorous tale.",
+        "coverColorR": 208,
+        "coverColorG": 190,
+        "coverColorB": 150,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Live Oak Media provided by Lerner Publishing Group",
+        "publisherId": "90336",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 605,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 81,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "ABCs & 123s",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.9729,
+        "contentHash": "00ceda0215ff881ffb72",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373969
+    },
+    "userBook": {
+        "modelId": "46250489-45750",
+        "userId": "46250489",
+        "bookId": "45750",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311696,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311696,
+        "book": {
+            "modelId": "45750",
+            "title": "Count on Culebra: Go From 1 to 10 in Spanish",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "00ceda0215ff881ffb72"
+        }
+    },
+    "quiz": null
+}

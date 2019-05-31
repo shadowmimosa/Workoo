@@ -1,0 +1,429 @@
+{
+    "publisherData": {
+        "modelId": "90119",
+        "name": "Kaiken",
+        "url": "http://www.rovio.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260986
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/27817/OEBPS/Images/1/2981E3A5-ED9C-4B0F-98AA-C34F47BD2363.jpg"
+            },
+            {
+                "page": "drm/7/27817/OEBPS/Images/1/41F5F939-597F-4BD7-B8F6-FFE5DDEA26C7.jpg"
+            },
+            {
+                "page": "drm/7/27817/OEBPS/Images/1/63AC91EE-6584-4315-B701-D84D81146920.jpg"
+            },
+            {
+                "page": "drm/7/27817/OEBPS/Images/1/35CB22B1-0A35-412D-B534-59B8CBAC6494.jpg"
+            },
+            {
+                "page": "drm/7/27817/OEBPS/Images/1/CCE4D7E7-5E06-40E5-B91B-EACA46EB698C.jpg"
+            },
+            {
+                "page": "drm/7/27817/OEBPS/Images/1/C5202934-63E6-4208-BDCD-536EB30F75B5.jpg"
+            },
+            {
+                "page": "drm/7/27817/OEBPS/Images/1/A0D1EF3A-E25A-4E8F-9C8D-070C1A5D6EB7.jpg"
+            },
+            {
+                "page": "drm/7/27817/OEBPS/Images/1/7EF2E2AA-BF63-4688-AC25-37D1B16F41E0.jpg"
+            },
+            {
+                "page": "drm/7/27817/OEBPS/Images/1/9BE561BA-C73E-4912-9DCC-AC33079C8867.jpg"
+            },
+            {
+                "page": "drm/7/27817/OEBPS/Images/1/6FAD1316-E7CF-4F04-880D-7BE42F7D5C03.jpg"
+            },
+            {
+                "page": "drm/7/27817/OEBPS/Images/1/43FA27ED-81E1-47BD-8961-63F430F1A543.jpg"
+            },
+            {
+                "page": "drm/7/27817/OEBPS/Images/1/8367EBB6-2906-4811-B951-39A512F90A0C.jpg"
+            },
+            {
+                "page": "drm/7/27817/OEBPS/Images/1/D536A64F-00CD-4147-83F2-1B380D887D99.jpg"
+            },
+            {
+                "page": "drm/7/27817/OEBPS/Images/1/48DB94E4-A926-406D-B592-B2CB74A15A3E.jpg"
+            },
+            {
+                "page": "drm/7/27817/OEBPS/Images/1/FE7F62CE-FBAA-4634-A22D-8E5DFF1AA3CC.jpg"
+            },
+            {
+                "page": "drm/7/27817/OEBPS/Images/1/3E3A59A4-3B68-4C42-80AE-4C51B36E3004.jpg"
+            },
+            {
+                "page": "drm/7/27817/OEBPS/Images/1/9E91D259-733B-422A-805C-84F5FCC6F1F3.jpg"
+            },
+            {
+                "page": "drm/7/27817/OEBPS/Images/1/A9B547E6-17A1-4E6F-9D91-661AE88C44F6.jpg"
+            },
+            {
+                "page": "drm/7/27817/OEBPS/Images/1/6E4D159F-3003-4EAE-A6DE-CA3CB90EEDB6.jpg"
+            },
+            {
+                "page": "drm/7/27817/OEBPS/Images/1/9DB5045A-33B2-44E4-B458-03BAEC63E58A.jpg"
+            },
+            {
+                "page": "drm/7/27817/OEBPS/Images/1/2FEC43B9-3CC0-437B-95EC-6BEBB90501AE.jpg"
+            },
+            {
+                "page": "drm/7/27817/OEBPS/Images/1/0DAB4679-D7CB-49D2-AF7C-A7AC54E51604.jpg"
+            },
+            {
+                "page": "drm/7/27817/OEBPS/Images/1/DDC195DB-9C18-4406-BB16-5E2D6AC1D1D9.jpg"
+            },
+            {
+                "page": "drm/7/27817/OEBPS/Images/1/0F3635F8-FCC4-491F-87E9-C7BB3C9CAB3C.jpg"
+            },
+            {
+                "page": "drm/7/27817/OEBPS/Images/1/43CB243A-6210-41A0-BE11-3BD0EA655EF9.jpg"
+            },
+            {
+                "page": "drm/7/27817/OEBPS/Images/1/CE56F80E-2DD3-4C4E-9A05-56B4BB235A94.jpg"
+            },
+            {
+                "page": "drm/7/27817/OEBPS/Images/1/F6E8B45E-1451-4C10-AE38-C01EFEBF9C8A.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/27817/OEBPS/Images/1/0D0106D6-0590-44F7-93E6-4169F2163071.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "27817",
+        "id": "27817",
+        "title": "Angry Birds: Stella's Eggventure",
+        "author": "Sari Peltoniemi",
+        "illustrator": "Rovio animation artists",
+        "numPages": 27,
+        "bookDescription": "Stella must fight with the Pigs from Angry Birds to protect the eggs.",
+        "coverColorR": 161,
+        "coverColorG": 156,
+        "coverColorB": 158,
+        "version": 2147483647,
+        "previewPercent": 20,
+        "publisher": "Kaiken",
+        "publisherId": "90119",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 495,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Humorous Stories",
+        "subjectColor": "FFD673",
+        "copyright": "",
+        "aspectRatio": 0.9489,
+        "contentHash": "ed9f64609760d4342cbd",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1556931031
+    },
+    "userBook": {
+        "modelId": "46250489-27817",
+        "userId": "46250489",
+        "bookId": "27817",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311776,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311776,
+        "book": {
+            "modelId": "27817",
+            "title": "Angry Birds: Stella's Eggventure",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "ed9f64609760d4342cbd"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "30610",
+            "user_id": "12273969",
+            "book_id": "27817",
+            "title": "Stella's Eggventure",
+            "description": "",
+            "date_created": 1481134024,
+            "date_modified": 1500312890,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What is Stella's favorite thing to do?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "blowing soap bubbles",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "blowing water bubbles",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "blowing dirty bubbles",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "How many bubbles did she blow before she heard noises close by?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "96",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "97",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "98",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Who was making the noises?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Piggies",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Birds",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Corporal Pig",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What did the piggies want to steal?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Eggs",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Iron",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "How did Stella stop the piggies.",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "She blew a soap bubbles and led them to a ravine",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "She pushed them over the cliff",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "She tricked them into falling into a big hole",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "30610",
+            "creatorName": "Mr. Deloney",
+            "avatarId": "81",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "12273969",
+                "udid": "58484c514406a9.33276499",
+                "journalName": "Mr. Deloney",
+                "journalCoverAvatar": "81",
+                "journalCoverColor": "0.84705882352941 0.18039215686275 0.46274509803922 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "496801112",
+                "fid": "",
+                "accountID": "42550693-B9AC-6CD4-18B1-5FAC746E54D0",
+                "simpleAccountId": "4116190",
+                "pagesFlipped": 364,
+                "nufComplete": 1,
+                "readingAge": 1.36667,
+                "startingAge": 0,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 0,
+                "xpLevel": 1,
+                "dateLastLogin": 0,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Parker",
+                "lastName": "Deloney",
+                "accountType": 1,
+                "dateModified": 1481215244,
+                "educatorPrefix": "Mr.",
+                "name": "Mr. Deloney"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What is Stella's favorite thing to do?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "blowing soap bubbles",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "blowing water bubbles",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "blowing dirty bubbles",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "How many bubbles did she blow before she heard noises close by?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "96",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "97",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "98",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Who was making the noises?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Piggies",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Birds",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Corporal Pig",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What did the piggies want to steal?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Eggs",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Iron",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "How did Stella stop the piggies.",
+                "quizQuestionChoices": [
+                    {
+                        "title": "She blew a soap bubbles and led them to a ravine",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "She pushed them over the cliff",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "She tricked them into falling into a big hole",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

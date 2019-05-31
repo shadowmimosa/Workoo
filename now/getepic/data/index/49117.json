@@ -1,0 +1,182 @@
+{
+    "publisherData": {
+        "modelId": "90236",
+        "name": "Abrams",
+        "url": "http://www.abramsbooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491009966
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/4f44947da4999b993ef1c99e68cf3995.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/a4122e95796f2fd950701c6ce3ae9553.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/9c910c2c6d98cd3e1dfeacb2c71416d0.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/2e4ecaf90ad94c876598bdbc6d195b2f.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/0a201df1f7a4c1926140f7cbf0a0df85.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/08f56f8928a3437b7945ba32e59e92cb.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/a220623d07b72a629f9464eb1b46aeaf.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/e8d813bb94dd48f16ea982a3273c89c0.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/70425bb2b340457ab6e0ae1d92c122c8.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/6ea578fb3c168150f615c08b5c3709ba.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/19d22897403d1181ac69080ef94310da.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/02674157af4526a4654ceaf6e860f139.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/b157883d4325cb7e1f449325d4980e92.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/3c0c646818327a009c3dceea356cfe4a.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/aa63f3c484779e02f6baa81ff93ee6ea.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/714c24e0b8459bdf9981ba5b4a16aaf1.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/09611604f80e52a964d04de86210d223.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/9217a56b2a9a0f23625a453a0a0dd2e8.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/1da4f8fe44d45d534a3d3d333eedc199.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/c7783a7a7c4a4ea3bbdda48f7de7e29a.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/b8f195c08f1053ee9006c698ff424c87.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/769b6b3eb019a65ed7904ee234075bb5.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/4101552692685bed0d3be50b57b438a9.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/c0a94f3bbd799a736209d383055b4874.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/c9ab9d8464574c02112d34fe4300a7c1.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/560338035623763eba336733e4d5d536.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/e77084a750625a5fae9bf605393735d8.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/880e42d1b7452176e215e9a5a658a024.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/5f340b3e238e1c224c2a24a4842afa43.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/254d488106aea030eb8933fcea320845.jpg"
+            },
+            {
+                "page": "drm/7/49117/OEBPS/Images/1/4605359771aac36e405b3df322cfce88.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/49117/OEBPS/Images/1/1f037e9563172fdb7104e71c26f6f98e.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "49117",
+        "id": "49117",
+        "title": "Hello Kitty: What Will You Be A to Z?",
+        "author": "sanrio",
+        "illustrator": " ",
+        "numPages": 31,
+        "bookDescription": "One day on her walk home from school, Hello Kitty thinks of all the nice people she has met and all the interesting things they do.",
+        "coverColorR": 207,
+        "coverColorG": 155,
+        "coverColorB": 124,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Abrams",
+        "publisherId": "90236",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 568,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "ABCs & 123s",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.8986,
+        "contentHash": "bc244eb7115c7ccbab7b",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1527096294
+    },
+    "userBook": {
+        "modelId": "46250489-49117",
+        "userId": "46250489",
+        "bookId": "49117",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311690,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311690,
+        "book": {
+            "modelId": "49117",
+            "title": "Hello Kitty: What Will You Be A to Z?",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "bc244eb7115c7ccbab7b"
+        }
+    },
+    "quiz": null
+}

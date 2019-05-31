@@ -1,0 +1,171 @@
+{
+    "publisherData": {
+        "modelId": "122",
+        "name": "Blue Door Education",
+        "url": "https://bluedoor-education.squarespace.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491011404
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/61885/OEBPS/Images/1/6751df94bc424aaedece86e4c3fb8d77.jpg",
+                "audio": "drm/5/61885/OEBPS/Audio/1/9781949354638cover.mp3"
+            },
+            {
+                "page": "drm/5/61885/OEBPS/Images/1/2e6ddc6690c1d423c0653a7c7b61f3e2.jpg",
+                "audio": "drm/5/61885/OEBPS/Audio/1/9781949354638page2.mp3"
+            },
+            {
+                "page": "drm/5/61885/OEBPS/Images/1/1aafa5a6a9466652e3ae6ba2e766f3b7.jpg"
+            },
+            {
+                "page": "drm/5/61885/OEBPS/Images/1/fe8b59f9b2e32b49b14e8cdf826b7122.jpg",
+                "audio": "drm/5/61885/OEBPS/Audio/1/9781949354638page4.mp3"
+            },
+            {
+                "page": "drm/5/61885/OEBPS/Images/1/40c1f12eecf5a7ddc88b119f805fc98e.jpg"
+            },
+            {
+                "page": "drm/5/61885/OEBPS/Images/1/a29f53210496882a2db64c1a7d39b00c.jpg"
+            },
+            {
+                "page": "drm/5/61885/OEBPS/Images/1/0b56589a058bd5caa6cc4f4e136948a3.jpg",
+                "audio": "drm/5/61885/OEBPS/Audio/1/9781949354638page7.mp3"
+            },
+            {
+                "page": "drm/5/61885/OEBPS/Images/1/5fccee8db7627d11887f1dd8aaaf26d1.jpg"
+            },
+            {
+                "page": "drm/5/61885/OEBPS/Images/1/09ddd151b729eb16e87e6dd8f0fb712a.jpg",
+                "audio": "drm/5/61885/OEBPS/Audio/1/9781949354638page9.mp3"
+            },
+            {
+                "page": "drm/5/61885/OEBPS/Images/1/cbc6fc4e46491a98161faaa05edfb47a.jpg",
+                "audio": "drm/5/61885/OEBPS/Audio/1/9781949354638page10.mp3"
+            },
+            {
+                "page": "drm/5/61885/OEBPS/Images/1/4b45a8c3c9e493d530308da7dd9e24fb.jpg"
+            },
+            {
+                "page": "drm/5/61885/OEBPS/Images/1/78b76066c819851ad7fad98e06d94ea3.jpg",
+                "audio": "drm/5/61885/OEBPS/Audio/1/9781949354638page12.mp3"
+            },
+            {
+                "page": "drm/5/61885/OEBPS/Images/1/eb23e661ef1c94d149973d0fc62cf877.jpg"
+            },
+            {
+                "page": "drm/5/61885/OEBPS/Images/1/58c3561db7ac5cb2df163699ea8ded55.jpg"
+            },
+            {
+                "page": "drm/5/61885/OEBPS/Images/1/c9b6e8cf073986cd0a312e2282eb31de.jpg",
+                "audio": "drm/5/61885/OEBPS/Audio/1/9781949354638page15.mp3"
+            },
+            {
+                "page": "drm/5/61885/OEBPS/Images/1/566769e4e1aca550ab7e57ca0987e457.jpg",
+                "audio": "drm/5/61885/OEBPS/Audio/1/9781949354638page16.mp3"
+            },
+            {
+                "page": "drm/5/61885/OEBPS/Images/1/5f8fc21b26904dac3b6384d8c7d3bda8.jpg"
+            },
+            {
+                "page": "drm/5/61885/OEBPS/Images/1/1bf39d4ab335023143663f30bdb826ac.jpg",
+                "audio": "drm/5/61885/OEBPS/Audio/1/9781949354638page18.mp3"
+            },
+            {
+                "page": "drm/5/61885/OEBPS/Images/1/6c1973596073645092a0b731a79ed819.jpg"
+            },
+            {
+                "page": "drm/5/61885/OEBPS/Images/1/dfe8bef73699b83e685438bb0e8da2e6.jpg",
+                "audio": "drm/5/61885/OEBPS/Audio/1/9781949354638page20.mp3"
+            },
+            {
+                "page": "drm/5/61885/OEBPS/Images/1/45c937059d1aa366a3a865c7e776a2cd.jpg"
+            },
+            {
+                "page": "drm/5/61885/OEBPS/Images/1/f713b542d871a2196240ad927107c9c2.jpg",
+                "audio": "drm/5/61885/OEBPS/Audio/1/9781949354638page22.mp3"
+            },
+            {
+                "page": "drm/5/61885/OEBPS/Images/1/7996ae57b12efd2138f48aabaeebacc7.jpg",
+                "audio": "drm/5/61885/OEBPS/Audio/1/9781949354638page23.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/61885/OEBPS/Images/1/aa2df2d48b493e88987e23abe8ca7b8d.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "61885",
+        "id": "61885",
+        "title": "Little Stars Camping",
+        "author": "Taylor Farley",
+        "illustrator": " ",
+        "numPages": 23,
+        "bookDescription": "If you and your family like the outdoors. You will love to learn about the cool things we do when we eat and sleep outside under the stars.",
+        "coverColorR": 95,
+        "coverColorG": 122,
+        "coverColorB": 96,
+        "version": 157696528,
+        "previewPercent": 20,
+        "publisher": "Blue Door Education",
+        "publisherId": "122",
+        "age": 4,
+        "pageNumOffset": -1,
+        "active": 1,
+        "audio": 1,
+        "lexile": "200L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 690,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "c",
+        "language": 1,
+        "rating": 75,
+        "type": 1,
+        "subject": "86",
+        "subjectDesc": "Exploration",
+        "subjectColor": "59E6FF",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "87bcdf834c012697c2e9",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1557271980
+    },
+    "userBook": {
+        "modelId": "46250489-61885",
+        "userId": "46250489",
+        "bookId": "61885",
+        "currentPageIndex": 24,
+        "farthestPageIndex": 24,
+        "favorited": 0,
+        "finishTime": 395,
+        "paid": 0,
+        "progress": 100,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 395,
+        "recommended": 0,
+        "lastModified": 1558937816,
+        "bookmarks": "",
+        "timesCompleted": 1,
+        "currentReadTime": 0,
+        "dateModified": 1559036035,
+        "book": {
+            "modelId": "61885",
+            "title": "Little Stars Camping",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "87bcdf834c012697c2e9"
+        }
+    },
+    "quiz": null
+}

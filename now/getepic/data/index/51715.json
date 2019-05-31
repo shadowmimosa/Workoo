@@ -1,0 +1,140 @@
+{
+    "publisherData": {
+        "modelId": "90328",
+        "name": "ABDO Zoom an imprint of ABDO Publishing",
+        "url": "http://abdopublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1527111766
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/51715/OEBPS/Images/1/9762dab3ae7fc015a78ca4240ff7bc64.jpg"
+            },
+            {
+                "page": "drm/5/51715/OEBPS/Images/1/b7258747ffc44c26926ad52275f1a39c.jpg"
+            },
+            {
+                "page": "drm/5/51715/OEBPS/Images/1/732e6248d02148fd6aa3559b9ddc8efe.jpg"
+            },
+            {
+                "page": "drm/5/51715/OEBPS/Images/1/0b331d8089a587ec80c10123cf9811f7.jpg"
+            },
+            {
+                "page": "drm/5/51715/OEBPS/Images/1/046c2a13a24571603989b8e25b3e705f.jpg"
+            },
+            {
+                "page": "drm/5/51715/OEBPS/Images/1/1bc6636097d4d8a9c20c93dd50f421d1.jpg"
+            },
+            {
+                "page": "drm/5/51715/OEBPS/Images/1/8dba8b910af73cc4ec122e13d42b8cf1.jpg"
+            },
+            {
+                "page": "drm/5/51715/OEBPS/Images/1/9ce7392c32f439e23246a77d2578ee91.jpg"
+            },
+            {
+                "page": "drm/5/51715/OEBPS/Images/1/64b9e02455b918fe50895f235a699d74.jpg"
+            },
+            {
+                "page": "drm/5/51715/OEBPS/Images/1/4b33f691a32a8232cc13a1df839744eb.jpg"
+            },
+            {
+                "page": "drm/5/51715/OEBPS/Images/1/230efa422259d63db099bd74efc512e8.jpg"
+            },
+            {
+                "page": "drm/5/51715/OEBPS/Images/1/7976d0bbff3f3968d919b74a326d54e8.jpg"
+            },
+            {
+                "page": "drm/5/51715/OEBPS/Images/1/020e59efe0673a48100b1958d11ed5fc.jpg"
+            },
+            {
+                "page": "drm/5/51715/OEBPS/Images/1/508bfa45bbe7325398b2d54107efb66c.jpg"
+            },
+            {
+                "page": "drm/5/51715/OEBPS/Images/1/db9d4149aa7fbddb32a75d5268e3f009.jpg"
+            },
+            {
+                "page": "drm/5/51715/OEBPS/Images/1/730a8d39856690f6bcaae1f198ffc1c7.jpg"
+            },
+            {
+                "page": "drm/5/51715/OEBPS/Images/1/0b50e6e2278991f2bab2ef1308fa3b0a.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/51715/OEBPS/Images/1/8652ec531d38747740f3b2726cff730a.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "51715",
+        "id": "51715",
+        "title": "Mae Jemison",
+        "author": "Jennifer Strand",
+        "illustrator": " ",
+        "numPages": 17,
+        "bookDescription": "An astronaut and the first African-American woman to go to space, Mae Jemison was a pioneering space explorer.",
+        "coverColorR": 156,
+        "coverColorG": 155,
+        "coverColorB": 172,
+        "version": 2147483647,
+        "previewPercent": 20,
+        "publisher": "ABDO Zoom an imprint of ABDO Publishing",
+        "publisherId": "90328",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "480L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 623,
+        "ar": "2.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "84",
+        "subjectDesc": "Science",
+        "subjectColor": "29E69B",
+        "copyright": "",
+        "aspectRatio": 0.9696,
+        "contentHash": "44602c9b5bb85060cdae",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555541399
+    },
+    "userBook": {
+        "modelId": "46250489-51715",
+        "userId": "46250489",
+        "bookId": "51715",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310729,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310729,
+        "book": {
+            "modelId": "51715",
+            "title": "Mae Jemison",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "44602c9b5bb85060cdae"
+        }
+    },
+    "quiz": null
+}

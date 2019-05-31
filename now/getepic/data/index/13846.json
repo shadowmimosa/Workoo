@@ -1,0 +1,492 @@
+{
+    "publisherData": {
+        "modelId": "107",
+        "name": "Rourke Educational Media",
+        "url": "http://rourkeeducationalmedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570193
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/6/13846/OEBPS/Images/1/dd27f087fe0260881935f34ef851d58d.jpg",
+                "audio": "drm/6/13846/OEBPS/Audio/1/d17a711abb585446c9a7bee2dcbbcb07.mp3"
+            },
+            {
+                "page": "drm/6/13846/OEBPS/Images/1/97afd0dbf39c9d427bbff4c763edef28.jpg",
+                "audio": "drm/6/13846/OEBPS/Audio/1/268e166ede8a46a67c4af38c6c1c87e6.mp3"
+            },
+            {
+                "page": "drm/6/13846/OEBPS/Images/1/4e5ab7c0042738a7dcce85041b3f3b5f.jpg"
+            },
+            {
+                "page": "drm/6/13846/OEBPS/Images/1/610dec10336d23955ed4a5375a401833.jpg",
+                "audio": "drm/6/13846/OEBPS/Audio/1/ba2e10a02e1eaccb14d8adf26ff8ec8b.mp3"
+            },
+            {
+                "page": "drm/6/13846/OEBPS/Images/1/79f3b9cb64af50d1a555187e16f7fdf6.jpg"
+            },
+            {
+                "page": "drm/6/13846/OEBPS/Images/1/f48346222d268823095088bef884de2c.jpg",
+                "audio": "drm/6/13846/OEBPS/Audio/1/15e6f7303af4900bbeb45783aa4944cd.mp3"
+            },
+            {
+                "page": "drm/6/13846/OEBPS/Images/1/55df4352877965665f3be48c6cff1d4a.jpg"
+            },
+            {
+                "page": "drm/6/13846/OEBPS/Images/1/eeb480cabbabed7c6a37eda9fa48efaf.jpg",
+                "audio": "drm/6/13846/OEBPS/Audio/1/e1b8f92911355652911b7b21143a7b9e.mp3"
+            },
+            {
+                "page": "drm/6/13846/OEBPS/Images/1/e309bea5ae551667bf6874cb0269a4db.jpg"
+            },
+            {
+                "page": "drm/6/13846/OEBPS/Images/1/f1af193c5f03e4c1b11b4d2bac23fe8e.jpg",
+                "audio": "drm/6/13846/OEBPS/Audio/1/4afe711f24b39dde0e7b2533bbb227e2.mp3"
+            },
+            {
+                "page": "drm/6/13846/OEBPS/Images/1/7b7216536ed91f077a1887bb0fd52c42.jpg"
+            },
+            {
+                "page": "drm/6/13846/OEBPS/Images/1/2ec9cb2b3cd9f381beee343a899fe826.jpg",
+                "audio": "drm/6/13846/OEBPS/Audio/1/28f294e0a88743c4214f506f8efad5c5.mp3"
+            },
+            {
+                "page": "drm/6/13846/OEBPS/Images/1/461f41b2f3bdc213811de624b9020786.jpg"
+            },
+            {
+                "page": "drm/6/13846/OEBPS/Images/1/50308637089b13ffef627200f8835470.jpg",
+                "audio": "drm/6/13846/OEBPS/Audio/1/5f0dd9b29cc68b263ef414bc8ca29884.mp3"
+            },
+            {
+                "page": "drm/6/13846/OEBPS/Images/1/e7293e9af3b1223ebb162d46c5713d1e.jpg"
+            },
+            {
+                "page": "drm/6/13846/OEBPS/Images/1/039131bb6a966e5a094a76b08dcb323e.jpg",
+                "audio": "drm/6/13846/OEBPS/Audio/1/19c94fd2468d8bf7a6e95475860c0b75.mp3"
+            },
+            {
+                "page": "drm/6/13846/OEBPS/Images/1/44a73ec25a47b4f3c2075624f92bc899.jpg"
+            },
+            {
+                "page": "drm/6/13846/OEBPS/Images/1/3a132f9734d1214cce3c4b9d13f57daa.jpg",
+                "audio": "drm/6/13846/OEBPS/Audio/1/775e6cf0412e16bd49985e4592ac7cbe.mp3"
+            },
+            {
+                "page": "drm/6/13846/OEBPS/Images/1/89ef84bea45588f6dcd4f97c4b27b876.jpg"
+            },
+            {
+                "page": "drm/6/13846/OEBPS/Images/1/817051b2c6a1b338dbb99eb1a3ebe3ce.jpg",
+                "audio": "drm/6/13846/OEBPS/Audio/1/0fc75d0e40e0a5d71342ca065530181e.mp3"
+            },
+            {
+                "page": "drm/6/13846/OEBPS/Images/1/538e378ace57dfc7b157cce07242400e.jpg"
+            },
+            {
+                "page": "drm/6/13846/OEBPS/Images/1/9b9bb4b8f2b653910e3c93217ff1d552.jpg"
+            },
+            {
+                "page": "drm/6/13846/OEBPS/Images/1/45f1cd49cccd6f8cee699483e01ff4e5.jpg"
+            },
+            {
+                "page": "drm/6/13846/OEBPS/Images/1/12813ec667a5eb2110e7ec72604029f3.jpg"
+            },
+            {
+                "page": "drm/6/13846/OEBPS/Images/1/2d343045a49987bc0758cc8446f40267.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/6/13846/OEBPS/Images/1/681c99d03b708e958a33266e03444c25.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "13846",
+        "id": "13846",
+        "title": "Clean Teeth, Dirty Teeth",
+        "author": "Joann Cleland",
+        "illustrator": " ",
+        "numPages": 25,
+        "bookDescription": "Sing along to the tune of Row, Row, Row Your Boat and learn how eating and sleeping requires us to brush and floss every day.",
+        "coverColorR": 166,
+        "coverColorG": 162,
+        "coverColorB": 146,
+        "version": 1,
+        "previewPercent": 20,
+        "publisher": "Rourke Educational Media",
+        "publisherId": "107",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 916,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "83747a0df090b8e46390",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1557337699
+    },
+    "userBook": {
+        "modelId": "46250489-13846",
+        "userId": "46250489",
+        "bookId": "13846",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 26,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 520,
+        "recommended": 0,
+        "lastModified": 1558925660,
+        "bookmarks": "",
+        "timesCompleted": 2,
+        "currentReadTime": 910,
+        "dateModified": 1559021765,
+        "book": {
+            "modelId": "13846",
+            "title": "Clean Teeth, Dirty Teeth",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "83747a0df090b8e46390"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "174148",
+            "user_id": "21601274",
+            "book_id": "13846",
+            "title": "Clean Teeth, Dirty Teeth",
+            "description": "",
+            "date_created": 1518449079,
+            "date_modified": 1522197256,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What builds at night?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "plaque",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "cavities",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "bad breath",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "dreams",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "When we eat what do we leave?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "tiny crumbs",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "gunk",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "seeds",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "oranges",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "When you eat a sweet treat what coats your teeth?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "sugar",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "floss",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "dentist",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "gums",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What should you do  to kill germs, clean your gums, and not get cavities?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Get the toothbrush and the floss",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Get the toothbrush",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Get the floss",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Get the mouthwash",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "If you take care of your teeth who will be proud of you?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "dentist",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "mom",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "dad",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "teacher",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "174148",
+            "creatorName": "Zaylen G.",
+            "avatarId": "1",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "21601274",
+                "udid": "5a2dc5833524d7.30073684",
+                "journalName": "Zaylen G.",
+                "journalCoverAvatar": "1",
+                "journalCoverColor": "0.70588235294118 0.94509803921569 0.39607843137255 1",
+                "journalFrameImage": "18",
+                "journalCoverImage": "15",
+                "themeId": "10",
+                "code": "171518336",
+                "fid": "",
+                "accountID": "3CB4A6B1-4319-E02B-B630-28C44B2B75A3",
+                "simpleAccountId": "3242577",
+                "pagesFlipped": 1568,
+                "nufComplete": 1,
+                "readingAge": 7.86667,
+                "startingAge": 6,
+                "status": 0,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 958,
+                "xpLevel": 19,
+                "dateLastLogin": 0,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "Zaylen",
+                "lastName": "Gilchrist-Jones",
+                "accountType": 1,
+                "dateModified": 1559133695
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What builds at night?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "plaque",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "cavities",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "bad breath",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "dreams",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "When we eat what do we leave?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "tiny crumbs",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "gunk",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "seeds",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "oranges",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "When you eat a sweet treat what coats your teeth?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "sugar",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "floss",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "dentist",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "gums",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What should you do  to kill germs, clean your gums, and not get cavities?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Get the toothbrush and the floss",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Get the toothbrush",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Get the floss",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Get the mouthwash",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "If you take care of your teeth who will be proud of you?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "dentist",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "mom",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "dad",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "teacher",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

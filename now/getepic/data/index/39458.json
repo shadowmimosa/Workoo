@@ -1,0 +1,424 @@
+{
+    "publisherData": {
+        "modelId": "90232",
+        "name": "The Creative Company",
+        "url": "http://www.thecreativecompany.us/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260095
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/39458/OEBPS/Images/1/3C3844E6-B2CC-4CC6-BC09-DD7DABEEFCD5.jpg"
+            },
+            {
+                "page": "drm/8/39458/OEBPS/Images/1/49F95F6E-8EB6-4F35-A5B4-147D899F81D4.jpg"
+            },
+            {
+                "page": "drm/8/39458/OEBPS/Images/1/5A96DB0F-89CD-41C9-A505-F95DA8FA2D52.jpg"
+            },
+            {
+                "page": "drm/8/39458/OEBPS/Images/1/A353BB69-50BA-458A-BEA5-12F7FEB3909D.jpg"
+            },
+            {
+                "page": "drm/8/39458/OEBPS/Images/1/EF2627B1-52C4-4D4E-8568-BDBCC8D05615.jpg"
+            },
+            {
+                "page": "drm/8/39458/OEBPS/Images/1/FD369B37-A65B-42E6-A016-87A3BBCA00B6.jpg"
+            },
+            {
+                "page": "drm/8/39458/OEBPS/Images/1/958D391D-F024-4A53-A1D0-466277AE1983.jpg"
+            },
+            {
+                "page": "drm/8/39458/OEBPS/Images/1/1C3EB90C-9523-4E1D-89C2-C57357CF1434.jpg"
+            },
+            {
+                "page": "drm/8/39458/OEBPS/Images/1/C34F1667-5785-4C17-A14D-3A92066466C5.jpg"
+            },
+            {
+                "page": "drm/8/39458/OEBPS/Images/1/CAC8545C-E83F-4F17-9703-5EDB2586803E.jpg"
+            },
+            {
+                "page": "drm/8/39458/OEBPS/Images/1/19F9A763-85A4-4894-A6DA-4A5DB8FD17D3.jpg"
+            },
+            {
+                "page": "drm/8/39458/OEBPS/Images/1/EBE8FD06-ADEE-42D0-8158-26C0BEC8CD58.jpg"
+            },
+            {
+                "page": "drm/8/39458/OEBPS/Images/1/C657002F-916D-4612-B9E4-08235FB1AE95.jpg"
+            },
+            {
+                "page": "drm/8/39458/OEBPS/Images/1/04BA2277-2220-43C4-9AFB-97B198AB8242.jpg"
+            },
+            {
+                "page": "drm/8/39458/OEBPS/Images/1/798674AD-563A-4C23-B1DC-26A1A644EC8A.jpg"
+            },
+            {
+                "page": "drm/8/39458/OEBPS/Images/1/C7E89EFD-C065-4DF6-9BF2-C6D7FE4DA194.jpg"
+            },
+            {
+                "page": "drm/8/39458/OEBPS/Images/1/363DCAF8-BD3D-4368-A1FE-0F9D98B2509E.jpg"
+            },
+            {
+                "page": "drm/8/39458/OEBPS/Images/1/84554D9B-274F-407C-91A6-2A7ECFEAC760.jpg"
+            },
+            {
+                "page": "drm/8/39458/OEBPS/Images/1/097BF99C-9247-4575-9BDC-0CC2E51B9349.jpg"
+            },
+            {
+                "page": "drm/8/39458/OEBPS/Images/1/04C1E546-F08A-4004-A02E-5E55DB11E7AF.jpg"
+            },
+            {
+                "page": "drm/8/39458/OEBPS/Images/1/0B43A854-4DE2-4BC6-9FE9-6420D8E37001.jpg"
+            },
+            {
+                "page": "drm/8/39458/OEBPS/Images/1/2DD15E7A-FD6F-4385-8215-5D388C75FFDA.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/39458/OEBPS/Images/1/C965CC3D-B6F8-4044-9443-19D7D7D335A1.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "39458",
+        "id": "39458",
+        "title": "Sheep",
+        "author": "Quinn M Arnold, Quinn A. Arnold",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "A kindergarten-level introduction to sheep.",
+        "coverColorR": 193,
+        "coverColorG": 182,
+        "coverColorB": 172,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "The Creative Company",
+        "publisherId": "90232",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "370L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 366,
+        "ar": "1.3",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Farm Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.9565,
+        "contentHash": "4aa95e845e58725b2f42",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1555373694
+    },
+    "userBook": {
+        "modelId": "46250489-39458",
+        "userId": "46250489",
+        "bookId": "39458",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559312172,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559312172,
+        "book": {
+            "modelId": "39458",
+            "title": "Sheep",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "4aa95e845e58725b2f42"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "400775",
+            "user_id": "13022673",
+            "book_id": "39458",
+            "title": "Sheep",
+            "description": "",
+            "date_created": 1556819314,
+            "date_modified": 1556819628,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What is a group of sheep called?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "flock",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "group",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "puddle",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What is a sheep's hair called?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "fleece",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "flock",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "kids",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Why do sheep cut their hair?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "To stay cool",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "To be silly",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "To have a fun haircut",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What shape are the sheep's eyes?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "rectangle",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "circle",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "square",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "What are baby sheep called?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "lambs",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "kids",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "babies",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "400775",
+            "creatorName": "Mrs. Moore",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "13022673",
+                "udid": "588919e1ec92e1.84729924",
+                "journalName": "Mrs. Moore",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.97254901960784 0.84313725490196 0.38823529411765 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "922238348",
+                "fid": "",
+                "accountID": "50C87F7F-E20B-6F66-0162-B8D53ADAA063",
+                "simpleAccountId": "4342659",
+                "pagesFlipped": 107143,
+                "nufComplete": 1,
+                "readingAge": 5.56667,
+                "startingAge": 5,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 399,
+                "xpLevel": 6,
+                "dateLastLogin": 1556796385,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Stacey",
+                "lastName": "Moore",
+                "accountType": 1,
+                "dateModified": 1556796385,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Moore"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What is a group of sheep called?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "flock",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "group",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "puddle",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What is a sheep's hair called?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "fleece",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "flock",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "kids",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Why do sheep cut their hair?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "To stay cool",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "To be silly",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "To have a fun haircut",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What shape are the sheep's eyes?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "rectangle",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "circle",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "square",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "What are baby sheep called?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "lambs",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "kids",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "babies",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

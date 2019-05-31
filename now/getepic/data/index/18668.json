@@ -1,0 +1,171 @@
+{
+    "publisherData": {
+        "modelId": "168",
+        "name": "Flower Pot Press",
+        "url": "http://www.flowerpotpress.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260414
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/18668/OEBPS/Images/1/32d10bc9612d4952ef6931632c7f7ad9.jpg",
+                "audio": "drm/8/18668/OEBPS/Audio/1/848e97a5ad6d3b81c3e2e364b64f4142.mp3"
+            },
+            {
+                "page": "drm/8/18668/OEBPS/Images/1/9cc7f11d7d73b2fef796fa70378ed66c.jpg",
+                "audio": "drm/8/18668/OEBPS/Audio/1/60ba46e31ac18b91ebc35a96ba2979d0.mp3"
+            },
+            {
+                "page": "drm/8/18668/OEBPS/Images/1/b2136fcaa26013009b7b4e77a1cccb3c.jpg",
+                "audio": "drm/8/18668/OEBPS/Audio/1/a85fafddc41551b11551af5cb99b0731.mp3"
+            },
+            {
+                "page": "drm/8/18668/OEBPS/Images/1/86947024ec4bda6c28dcb03e3c9e4cb6.jpg",
+                "audio": "drm/8/18668/OEBPS/Audio/1/7fc33f8c44c3413a3f0fd0799f2e3fff.mp3"
+            },
+            {
+                "page": "drm/8/18668/OEBPS/Images/1/7c6994cdb0fddc3a6b4a4e26e7c9f1fa.jpg",
+                "audio": "drm/8/18668/OEBPS/Audio/1/f2995d1d3521b03d3ff7c17bef7acaad.mp3"
+            },
+            {
+                "page": "drm/8/18668/OEBPS/Images/1/caee61def7ef6fc41a751586236fe8da.jpg",
+                "audio": "drm/8/18668/OEBPS/Audio/1/5ecbef81c2d1069b3bf53896166599f0.mp3"
+            },
+            {
+                "page": "drm/8/18668/OEBPS/Images/1/caf875117356a7df20561fd6cdd00156.jpg",
+                "audio": "drm/8/18668/OEBPS/Audio/1/0fde4bd6087493f900e1e33d4b1ec49d.mp3"
+            },
+            {
+                "page": "drm/8/18668/OEBPS/Images/1/62eb60a3238e15864cd3becc0aef4063.jpg",
+                "audio": "drm/8/18668/OEBPS/Audio/1/9e3c71fe446b805ea98f9d3decead7e2.mp3"
+            },
+            {
+                "page": "drm/8/18668/OEBPS/Images/1/3f8c7aaab820e7e84437b101d8e11cbb.jpg",
+                "audio": "drm/8/18668/OEBPS/Audio/1/2f5623eb1b88a4e921d938d82005f007.mp3"
+            },
+            {
+                "page": "drm/8/18668/OEBPS/Images/1/f43ca95b922c72c815f73c2ccdad1265.jpg",
+                "audio": "drm/8/18668/OEBPS/Audio/1/a568b8f40725dd6e24120759351889ab.mp3"
+            },
+            {
+                "page": "drm/8/18668/OEBPS/Images/1/47b4f61e3e5f9bb16b80139c7023eb2c.jpg",
+                "audio": "drm/8/18668/OEBPS/Audio/1/bcecc1e217b176fb2ce28c58058eb75c.mp3"
+            },
+            {
+                "page": "drm/8/18668/OEBPS/Images/1/7fd81990971441c3b398b40b53a857b1.jpg",
+                "audio": "drm/8/18668/OEBPS/Audio/1/86c5157d24232f2b5aa89c19c94320e9.mp3"
+            },
+            {
+                "page": "drm/8/18668/OEBPS/Images/1/dd6d44d3cb4d80f386589b8c0028eb24.jpg",
+                "audio": "drm/8/18668/OEBPS/Audio/1/d0d227fe544fcccc7a87f86ff594a555.mp3"
+            },
+            {
+                "page": "drm/8/18668/OEBPS/Images/1/956a0e7be686e766c38c71d166a7a600.jpg",
+                "audio": "drm/8/18668/OEBPS/Audio/1/a68214d283599db4c77da0b53f2fd915.mp3"
+            },
+            {
+                "page": "drm/8/18668/OEBPS/Images/1/731335b60d507743b94cc59d07849e09.jpg",
+                "audio": "drm/8/18668/OEBPS/Audio/1/f16a27d35a195e57eb1a9f8667d23bef.mp3"
+            },
+            {
+                "page": "drm/8/18668/OEBPS/Images/1/89601187b7db6aeef67a29bb69a985b2.jpg",
+                "audio": "drm/8/18668/OEBPS/Audio/1/4ae50a4e6193b128f2081f5f1ca0ea95.mp3"
+            },
+            {
+                "page": "drm/8/18668/OEBPS/Images/1/62dfad6697b0849f33ce6257d42de57a.jpg",
+                "audio": "drm/8/18668/OEBPS/Audio/1/88ad12de8313272fb0daa651e5918fc4.mp3"
+            },
+            {
+                "page": "drm/8/18668/OEBPS/Images/1/b3f21de028660cc573254e4acf01611d.jpg",
+                "audio": "drm/8/18668/OEBPS/Audio/1/6f9248e20b1e142095e4599ea1b8c563.mp3"
+            },
+            {
+                "page": "drm/8/18668/OEBPS/Images/1/424bef1f235adeb0e378838f6ff75874.jpg",
+                "audio": "drm/8/18668/OEBPS/Audio/1/c7a1d2b8ed1116de245f10b972662c33.mp3"
+            },
+            {
+                "page": "drm/8/18668/OEBPS/Images/1/428ea69d5055e674e5ed5cab869e9793.jpg"
+            },
+            {
+                "page": "drm/8/18668/OEBPS/Images/1/d4afe71dd95ac33c20168ac43db871a7.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/18668/OEBPS/Images/1/cb7f0a08ba57f9087c9c7aa6ba436bb1.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18668",
+        "id": "18668",
+        "title": "Early Concepts: Letters",
+        "author": "Flowerpot Press",
+        "illustrator": " ",
+        "numPages": 21,
+        "bookDescription": "Expose your little one to all of the letters of the alphabet through this book illustrated with pictures.",
+        "coverColorR": 209,
+        "coverColorG": 212,
+        "coverColorB": 193,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Flower Pot Press",
+        "publisherId": "168",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 315,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 81,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "ABCs & 123s",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "21abc3cb1974bc906baf",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372871
+    },
+    "userBook": {
+        "modelId": "46250489-18668",
+        "userId": "46250489",
+        "bookId": "18668",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311643,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311643,
+        "book": {
+            "modelId": "18668",
+            "title": "Early Concepts: Letters",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "21abc3cb1974bc906baf"
+        }
+    },
+    "quiz": null
+}

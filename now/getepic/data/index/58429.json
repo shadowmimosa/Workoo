@@ -1,0 +1,185 @@
+{
+    "publisherData": {
+        "modelId": "84",
+        "name": "Charlesbridge",
+        "url": "http://www.charlesbridge.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491011648
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/6a931eab666e8247615e74c85d6e9be8.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/06ce7a93dfdb223168de39ec7489c377.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/040597cf7216d6fc185395206e3b23fe.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/7d8cebf009286d6c88564f79e718dc1c.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/6876d84a07a925132ff7a471b8cafda2.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/34248d2374d5bd831033686fa43597a7.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/4027b261943d2ce5bd9a4b253a408ed2.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/9b7bfdfd4b4d3b9273981815effc3e01.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/16d9d488b0032d976ee9b387785a717a.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/a5c6738d98f2b3d74e3ff736fb0c4cf4.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/4b027751083d280b061da27f56d31cb0.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/ee0e9f097c60a20c1d02e877e256fd67.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/7d161d5ee26322f1b231f3adf3479ca4.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/0bc83315cfc07e5128210a1fe7bf2d39.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/321729d5caa6b17d8bb429dcdc1d6404.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/11b5d33ab377015e09398f623d19ee2f.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/aafe392338c802e2ce2de86b4d11e256.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/9b334e21d608153acd878a21ba96b69b.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/4e785e5a7b4912bbf5f6c476a41353c2.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/b8696b63e1257d4a04cf797e2c9e1849.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/d7e4074933ee791f7601228fb98f1d06.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/78ec5aa228f01c872ecb392423d58e42.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/8dbc46e926d27b2d22aeb0413c773b2d.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/0da59dfde5485f43b4f22b62799f0a67.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/c7f9ee34c67e2ca8f18e3c40976d6476.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/e659d635c3cc93c0abeadf21ac4dffe6.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/cecc9ecb05d45c335e90bffe07915127.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/abbc1f4a4c738403a74cf01956ce626f.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/6b5e54cb37f2f3f0906d01a626f9b80e.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/16a33bb772a188bbebcc7fe7dd725fb9.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/49008a95435e9ac9e3177367a59dd3b9.jpg"
+            },
+            {
+                "page": "drm/9/58429/OEBPS/Images/1/4327d16fdc7ad77ba9bad242ac939f72.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/58429/OEBPS/Images/1/0356415c74a589c8791a93eff2306e29.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "58429",
+        "id": "58429",
+        "title": "Santa Retires",
+        "author": "David Biedrzycki",
+        "illustrator": "David Biedrzycki",
+        "numPages": 32,
+        "bookDescription": "Vacation is so much fun that Santa decides to retire, much to the reindeer and elves\u2019 dismay.",
+        "coverColorR": 167,
+        "coverColorG": 167,
+        "coverColorB": 160,
+        "version": 12309,
+        "previewPercent": 20,
+        "publisher": "Charlesbridge",
+        "publisherId": "84",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "AD540L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 586,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "l",
+        "language": 1,
+        "rating": 85,
+        "type": 1,
+        "subject": "88",
+        "subjectDesc": "Humorous Stories",
+        "subjectColor": "FFD673",
+        "copyright": "",
+        "aspectRatio": 1.25,
+        "contentHash": "1e103abc941029f379fc",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1542333790
+    },
+    "userBook": {
+        "modelId": "46250489-58429",
+        "userId": "46250489",
+        "bookId": "58429",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311747,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311747,
+        "book": {
+            "modelId": "58429",
+            "title": "Santa Retires",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "1e103abc941029f379fc"
+        }
+    },
+    "quiz": null
+}

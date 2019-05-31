@@ -1,0 +1,777 @@
+{
+    "publisherData": {
+        "modelId": "5",
+        "name": "Kane Press",
+        "url": "http://www.kanepress.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1501029640
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/16f8eabf1743beb37cb511bb21790c16.jpg",
+                "audio": "drm/5/14825/OEBPS/Audio/1/MakeaWish_Title.mp3"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/89a2b9e967d73ce134131eed41a34549.jpg"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/fa8e661290387b6eff079ab21c5e8b83.jpg"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/e1abfb0b4c7ecb7e13bea3efbf767833.jpg",
+                "audio": "drm/5/14825/OEBPS/Audio/1/MakeaWish_04-05.mp3"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/16112922680a30e0b757039440870743.jpg"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/c6d28216f140b7c97155f9a9b51ace25.jpg",
+                "audio": "drm/5/14825/OEBPS/Audio/1/MakeaWish_06-07.mp3"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/47240311c5da9a47f599c9357393afed.jpg"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/096290817e633c82d9306c811196168b.jpg",
+                "audio": "drm/5/14825/OEBPS/Audio/1/MakeaWish_08-09.mp3"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/39fe75c803caca49647a20ffb17111e0.jpg"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/15ccc52d7d747633a4ca62f75cc81350.jpg",
+                "audio": "drm/5/14825/OEBPS/Audio/1/MakeaWish_10-11.mp3"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/d77fdedeb524fe11f7c68111ec476620.jpg"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/68818bb07c9e7f5ed9f2e7907119c213.jpg",
+                "audio": "drm/5/14825/OEBPS/Audio/1/MakeaWish_12-13.mp3"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/cd9c7031ac04a81d42db16cd731e433d.jpg"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/0e7efd73330888e753b7fe9e01d4e5f0.jpg",
+                "audio": "drm/5/14825/OEBPS/Audio/1/MakeaWish_14-15.mp3"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/8ba8f43f1f2f0ed6f84303a7fa9681fd.jpg"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/690e49019e8cf0f2cdcc78ef6f22a18b.jpg",
+                "audio": "drm/5/14825/OEBPS/Audio/1/MakeaWish_16-17.mp3"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/b938636169d5a22d9e2237968b6217d8.jpg"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/55329706b459b014811c287db02f50ef.jpg",
+                "audio": "drm/5/14825/OEBPS/Audio/1/MakeaWish_18-19.mp3"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/7c0438a51f891b92c2f08e7f0d27e5a9.jpg"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/286e8050f63498fd7741ce48b6fafb0f.jpg",
+                "audio": "drm/5/14825/OEBPS/Audio/1/MakeaWish_20-21.mp3"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/923a96bd13354cc62846d9515c7c4b3e.jpg"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/6fe523b70febe921a5a144dd64eb4c4a.jpg",
+                "audio": "drm/5/14825/OEBPS/Audio/1/MakeaWish_22-23.mp3"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/011febf04a5b4be9d85eedb49ff9a445.jpg"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/1c2684382e8d73a3383cf9be45e3403e.jpg",
+                "audio": "drm/5/14825/OEBPS/Audio/1/MakeaWish_24-25.mp3"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/cafbbb1fad5dd2fa7a6f024a9781d8bf.jpg"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/c5da3bbcd82b35ad43d45464246a1692.jpg",
+                "audio": "drm/5/14825/OEBPS/Audio/1/MakeaWish_26-27.mp3"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/03477a172b0702690d39d9fd4b2265ce.jpg"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/65972fa8b64f5adccc1dd5bea5762103.jpg",
+                "audio": "drm/5/14825/OEBPS/Audio/1/MakeaWish_28-29.mp3"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/0b4108c48b99d5d5496c30bfc32988d9.jpg"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/5a0957611b87ad29238dae222d413a8e.jpg",
+                "audio": "drm/5/14825/OEBPS/Audio/1/MakeaWish_30.mp3"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/882e8c4eca95a5335c1f54382466998a.jpg"
+            },
+            {
+                "page": "drm/5/14825/OEBPS/Images/1/e319d8a9cccf016291ce53961b271c9b.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/14825/OEBPS/Images/1/c8457f707eee5b27cec07599f3582b0e.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "14825",
+        "id": "14825",
+        "title": "Make A Wish, Albert!",
+        "author": "Lori Haskins Houran",
+        "illustrator": "Deborah Melmon",
+        "numPages": 32,
+        "bookDescription": "Today is Albert\u2019s birthday and he can barely sit still! There is a lot of fun plans, but will the day end with one special surprise?",
+        "coverColorR": 113,
+        "coverColorG": 155,
+        "coverColorB": 128,
+        "version": 858927445,
+        "previewPercent": 20,
+        "publisher": "Kane Press",
+        "publisherId": "5",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "AD490L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 533,
+        "ar": "2.2",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "38ec6a1151250b56ec06",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372734
+    },
+    "userBook": {
+        "modelId": "46250489-14825",
+        "userId": "46250489",
+        "bookId": "14825",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310810,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310810,
+        "book": {
+            "modelId": "14825",
+            "title": "Make A Wish, Albert!",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "38ec6a1151250b56ec06"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "140770",
+            "user_id": "16964326",
+            "book_id": "14825",
+            "title": "Make A Wish Quiz-Questions",
+            "description": "",
+            "date_created": 1510088017,
+            "date_modified": 1518044131,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Who is the main character in the story?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Albert",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "George Washington",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Leo",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Mother",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What was the family celebrating?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Albert's birthday",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Christmas",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Dad's birthday",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Easter",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Where was the party held?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "At home",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "At a waterpark",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "At a restaurant",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "At school",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What was Albert doing at the beginning of the story?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Jumping in the bed",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Riding a scooter",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Baking a cake",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Blowing up balloons",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "What was Leo doing outside?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Riding a scooter",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Homework",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Planting a garden",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Washing a car",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "What present did Albert's parents give him?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "A helmet",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "A scooter",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "New clothes",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "A gift card",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 5
+                },
+                {
+                    "title": "Why was Albert nervous about riding the scooter?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "He didn't know how to ride.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "It was too small for him.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "He thought it was going to break.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "He didn't like the scooter.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 6
+                },
+                {
+                    "title": "How did Albert feel about his birthday?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Excited",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Nervous",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Scared",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Happy",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 7
+                },
+                {
+                    "title": "What was Albert's mother doing in the kitchen?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "She was making a cake.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "She was blowing up balloons.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "She was creating a card.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "She was riding a scooter.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 8
+                },
+                {
+                    "title": "What gift did Albert wish for when he blew out the candles on his cake?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "A scooter",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "A new bike",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "A basketball",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "A trip to Hawaii",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 9
+                }
+            ],
+            "modelId": "140770",
+            "creatorName": "JARON N.",
+            "avatarId": "27",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "16964326",
+                "udid": "59a07ccc7677c4.56580996",
+                "journalName": "JARON N.",
+                "journalCoverAvatar": "27",
+                "journalCoverColor": "0.11764705882353 0.91764705882353 0.64313725490196 1",
+                "journalFrameImage": "6",
+                "journalCoverImage": "15",
+                "themeId": "4",
+                "code": "489275302",
+                "fid": "",
+                "accountID": "3BC4CF44-4EA4-41EC-153D-2413C94715E1",
+                "simpleAccountId": "5428672",
+                "pagesFlipped": 1254,
+                "nufComplete": 1,
+                "readingAge": 7.46667,
+                "startingAge": 11,
+                "status": 2,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 839,
+                "xpLevel": 14,
+                "dateLastLogin": 0,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "JARON",
+                "lastName": "NATHAN",
+                "accountType": 1,
+                "dateModified": 1558640280
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Who is the main character in the story?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Albert",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "George Washington",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Leo",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Mother",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What was the family celebrating?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Albert's birthday",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Christmas",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Dad's birthday",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Easter",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Where was the party held?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "At home",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "At a waterpark",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "At a restaurant",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "At school",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What was Albert doing at the beginning of the story?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Jumping in the bed",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Riding a scooter",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Baking a cake",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Blowing up balloons",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "What was Leo doing outside?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Riding a scooter",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Homework",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Planting a garden",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Washing a car",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "What present did Albert's parents give him?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "A helmet",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "A scooter",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "New clothes",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "A gift card",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 5
+            },
+            {
+                "title": "Why was Albert nervous about riding the scooter?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "He didn't know how to ride.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "It was too small for him.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "He thought it was going to break.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "He didn't like the scooter.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 6
+            },
+            {
+                "title": "How did Albert feel about his birthday?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Excited",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Nervous",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Scared",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Happy",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 7
+            },
+            {
+                "title": "What was Albert's mother doing in the kitchen?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "She was making a cake.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "She was blowing up balloons.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "She was creating a card.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "She was riding a scooter.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 8
+            },
+            {
+                "title": "What gift did Albert wish for when he blew out the candles on his cake?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "A scooter",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "A new bike",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "A basketball",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "A trip to Hawaii",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 9
+            }
+        ]
+    }
+}

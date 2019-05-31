@@ -1,0 +1,152 @@
+{
+    "publisherData": {
+        "modelId": "90050",
+        "name": "Amicus",
+        "url": "https://www.amicuspublishing.us/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491010374
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/22448/OEBPS/Images/1/C0EFD129-EB9A-429D-A7A5-E9F64907E88A.jpg"
+            },
+            {
+                "page": "drm/8/22448/OEBPS/Images/1/F2F836CE-2DDB-47B0-9CBA-ADFD5A9ACAB3.jpg"
+            },
+            {
+                "page": "drm/8/22448/OEBPS/Images/1/48D2E7FA-A008-4528-B396-44E434C1FCB6.jpg"
+            },
+            {
+                "page": "drm/8/22448/OEBPS/Images/1/22AF1A94-0F6B-4F25-BD21-C7DC1E3754C3.jpg"
+            },
+            {
+                "page": "drm/8/22448/OEBPS/Images/1/EFEE95ED-CC4A-47E7-97F4-88000BFE84C6.jpg"
+            },
+            {
+                "page": "drm/8/22448/OEBPS/Images/1/2AB8DD27-9F46-44C2-92D0-830B91CE6DF8.jpg"
+            },
+            {
+                "page": "drm/8/22448/OEBPS/Images/1/359649A4-D409-4282-9B96-8DFAF317F0FD.jpg"
+            },
+            {
+                "page": "drm/8/22448/OEBPS/Images/1/B65CCE88-073D-40AD-AFEF-D9FFB1B140A6.jpg"
+            },
+            {
+                "page": "drm/8/22448/OEBPS/Images/1/FBEE9EA2-5DA8-4B2F-A485-B4055887E6BA.jpg"
+            },
+            {
+                "page": "drm/8/22448/OEBPS/Images/1/320BAB70-CD35-4483-A0B9-5D9CD9975205.jpg"
+            },
+            {
+                "page": "drm/8/22448/OEBPS/Images/1/49D7D5DB-72FA-458F-A95C-F5CEC8D3977B.jpg"
+            },
+            {
+                "page": "drm/8/22448/OEBPS/Images/1/341F4004-65C7-4B85-BE5C-733EABB0C131.jpg"
+            },
+            {
+                "page": "drm/8/22448/OEBPS/Images/1/2DD7BDA2-D86A-4FA8-9E15-0E47EEEAFB0F.jpg"
+            },
+            {
+                "page": "drm/8/22448/OEBPS/Images/1/B07E9161-3F97-461E-99CB-4E12848F400C.jpg"
+            },
+            {
+                "page": "drm/8/22448/OEBPS/Images/1/655DE66A-844C-4F15-BE17-787B5AAC0CDC.jpg"
+            },
+            {
+                "page": "drm/8/22448/OEBPS/Images/1/D7670780-BC77-4B31-8DB1-591CC3C334A7.jpg"
+            },
+            {
+                "page": "drm/8/22448/OEBPS/Images/1/24953146-7ED8-4B96-ACBC-94FCB1089833.jpg"
+            },
+            {
+                "page": "drm/8/22448/OEBPS/Images/1/F4E0AF82-718D-4B65-A27E-EEAF29392FDE.jpg"
+            },
+            {
+                "page": "drm/8/22448/OEBPS/Images/1/0C4F29DC-C137-40DC-AFE7-24874F57D84C.jpg"
+            },
+            {
+                "page": "drm/8/22448/OEBPS/Images/1/D8BA38F6-FED7-49E0-8818-A21CBFAF41C5.jpg"
+            },
+            {
+                "page": "drm/8/22448/OEBPS/Images/1/1FA1A0DA-5EC3-4F9E-A793-4CD5B4329C01.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/22448/OEBPS/Images/1/8D3B00BF-AB36-4DEE-9441-B649F418F07B.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "22448",
+        "id": "22448",
+        "title": "Do You Really Want A Guinea Pig?",
+        "author": "Bridget Heos",
+        "illustrator": "Katya Longhi",
+        "numPages": 21,
+        "bookDescription": "A mischievous guinea pig teaches a young boy the responsibility\u2014and the joys\u2014of caring for a pet guinea pig. Includes a quiz.",
+        "coverColorR": 206,
+        "coverColorG": 206,
+        "coverColorB": 196,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Amicus",
+        "publisherId": "90050",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "370L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 385,
+        "ar": "2.7",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pets",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.0909,
+        "contentHash": "009124abfe89ffe41792",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1555372953
+    },
+    "userBook": {
+        "modelId": "46250489-22448",
+        "userId": "46250489",
+        "bookId": "22448",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311500,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311500,
+        "book": {
+            "modelId": "22448",
+            "title": "Do You Really Want A Guinea Pig?",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "009124abfe89ffe41792"
+        }
+    },
+    "quiz": null
+}

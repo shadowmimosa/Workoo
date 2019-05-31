@@ -1,0 +1,156 @@
+{
+    "publisherData": {
+        "modelId": "90347",
+        "name": "Tadpole Books an imprint of JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1533154085
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/2/58842/OEBPS/Images/1/a50318481119cd7895890c608c0514ea.jpg",
+                "audio": "drm/2/58842/OEBPS/Audio/1/xa50318481119cd7895890c608c0514ea.mp3"
+            },
+            {
+                "page": "drm/2/58842/OEBPS/Images/1/4ffd75d590457a4c73e23fce9bced881.jpg",
+                "audio": "drm/2/58842/OEBPS/Audio/1/x4ffd75d590457a4c73e23fce9bced881.mp3"
+            },
+            {
+                "page": "drm/2/58842/OEBPS/Images/1/0d2070af6b4f34e9c1294cf2b2c0e79f.jpg",
+                "audio": "drm/2/58842/OEBPS/Audio/1/x0d2070af6b4f34e9c1294cf2b2c0e79f.mp3"
+            },
+            {
+                "page": "drm/2/58842/OEBPS/Images/1/22744ce159647a31ca1411b46547eeeb.jpg",
+                "audio": "drm/2/58842/OEBPS/Audio/1/x22744ce159647a31ca1411b46547eeeb.mp3"
+            },
+            {
+                "page": "drm/2/58842/OEBPS/Images/1/0897031d3600869965c575c504fa4aa0.jpg",
+                "audio": "drm/2/58842/OEBPS/Audio/1/x0897031d3600869965c575c504fa4aa0.mp3"
+            },
+            {
+                "page": "drm/2/58842/OEBPS/Images/1/57b0f1e7795b972ff652d9397173cdcc.jpg",
+                "audio": "drm/2/58842/OEBPS/Audio/1/x57b0f1e7795b972ff652d9397173cdcc.mp3"
+            },
+            {
+                "page": "drm/2/58842/OEBPS/Images/1/3088826958984aebf17c54c769163f43.jpg",
+                "audio": "drm/2/58842/OEBPS/Audio/1/x3088826958984aebf17c54c769163f43.mp3"
+            },
+            {
+                "page": "drm/2/58842/OEBPS/Images/1/e74dc195ebbbf0c00f9d748d8461b66c.jpg",
+                "audio": "drm/2/58842/OEBPS/Audio/1/xe74dc195ebbbf0c00f9d748d8461b66c.mp3"
+            },
+            {
+                "page": "drm/2/58842/OEBPS/Images/1/a0b0aabd3cb8028aa78a3d64a374df20.jpg",
+                "audio": "drm/2/58842/OEBPS/Audio/1/xa0b0aabd3cb8028aa78a3d64a374df20.mp3"
+            },
+            {
+                "page": "drm/2/58842/OEBPS/Images/1/0fb42f14c2880ac5163c81395d3dc4f4.jpg",
+                "audio": "drm/2/58842/OEBPS/Audio/1/x0fb42f14c2880ac5163c81395d3dc4f4.mp3"
+            },
+            {
+                "page": "drm/2/58842/OEBPS/Images/1/d91a2bb13494a2f6e36c1a94d33d2f2f.jpg",
+                "audio": "drm/2/58842/OEBPS/Audio/1/xd91a2bb13494a2f6e36c1a94d33d2f2f.mp3"
+            },
+            {
+                "page": "drm/2/58842/OEBPS/Images/1/cc49fa88aab54a3def3593ae6ac18119.jpg",
+                "audio": "drm/2/58842/OEBPS/Audio/1/xcc49fa88aab54a3def3593ae6ac18119.mp3"
+            },
+            {
+                "page": "drm/2/58842/OEBPS/Images/1/2a9a9631b6a63d7434ba2e55de18fb86.jpg",
+                "audio": "drm/2/58842/OEBPS/Audio/1/x2a9a9631b6a63d7434ba2e55de18fb86.mp3"
+            },
+            {
+                "page": "drm/2/58842/OEBPS/Images/1/6373d64642ae79b6bb3ad449dd0085bb.jpg",
+                "audio": "drm/2/58842/OEBPS/Audio/1/x6373d64642ae79b6bb3ad449dd0085bb.mp3"
+            },
+            {
+                "page": "drm/2/58842/OEBPS/Images/1/079a63e690aa8be352cd8579594c3959.jpg",
+                "audio": "drm/2/58842/OEBPS/Audio/1/x079a63e690aa8be352cd8579594c3959.mp3"
+            },
+            {
+                "page": "drm/2/58842/OEBPS/Images/1/dcb06baec7853374ee96902fbe3d6d3c.jpg",
+                "audio": "drm/2/58842/OEBPS/Audio/1/xdcb06baec7853374ee96902fbe3d6d3c.mp3"
+            },
+            {
+                "page": "drm/2/58842/OEBPS/Images/1/3fccd2195e89c3b1906a1fe145a13f65.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/2/58842/OEBPS/Images/1/3fccd2195e89c3b1906a1fe145a13f65.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "58842",
+        "id": "58842",
+        "title": "Fire Station",
+        "author": "Erica Donner",
+        "illustrator": " ",
+        "numPages": 17,
+        "bookDescription": "Fire Station takes readers on a trip to the fire station while providing them with a supportive first nonfiction reading experience.",
+        "coverColorR": 146,
+        "coverColorG": 156,
+        "coverColorB": 154,
+        "version": 848838779,
+        "previewPercent": 20,
+        "publisher": "Tadpole Books an imprint of JUMP",
+        "publisherId": "90347",
+        "age": 5,
+        "pageNumOffset": -1,
+        "active": 1,
+        "audio": 1,
+        "lexile": "150L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 566,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "d",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Profession",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 0.7222,
+        "contentHash": "5953ca18324832f7d020",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374827
+    },
+    "userBook": {
+        "modelId": "46250489-58842",
+        "userId": "46250489",
+        "bookId": "58842",
+        "currentPageIndex": 18,
+        "farthestPageIndex": 18,
+        "favorited": 0,
+        "finishTime": 50,
+        "paid": 0,
+        "progress": 100,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 50,
+        "recommended": 0,
+        "lastModified": 1559095263,
+        "bookmarks": "",
+        "timesCompleted": 1,
+        "currentReadTime": 0,
+        "dateModified": 1559095315,
+        "book": {
+            "modelId": "58842",
+            "title": "Fire Station",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "5953ca18324832f7d020"
+        }
+    },
+    "quiz": null
+}

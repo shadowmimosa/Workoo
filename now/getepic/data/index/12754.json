@@ -1,0 +1,510 @@
+{
+    "publisherData": {
+        "modelId": "109",
+        "name": "JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/12754/OEBPS/Images/1/24eff477f24617833e48760fd2ddb18e.jpg",
+                "audio": "drm/4/12754/OEBPS/Audio/1/c4c761c54640009a96fc21ba10d2ce55.mp3"
+            },
+            {
+                "page": "drm/4/12754/OEBPS/Images/1/bff4a19bc9d2e9d00433dcc5bf526898.jpg",
+                "audio": "drm/4/12754/OEBPS/Audio/1/8854c0d70f0064224bb0ad1b7dc4341f.mp3"
+            },
+            {
+                "page": "drm/4/12754/OEBPS/Images/1/8d632876be1ec85e3076efa89baa58b8.jpg",
+                "audio": "drm/4/12754/OEBPS/Audio/1/1bbcff32a871d5e809cf4a74070a3f7f.mp3"
+            },
+            {
+                "page": "drm/4/12754/OEBPS/Images/1/41f68b74c5d1a4b4029bf9056c7287cc.jpg",
+                "audio": "drm/4/12754/OEBPS/Audio/1/d1c4f129a494247ad69e101fe65e389e.mp3"
+            },
+            {
+                "page": "drm/4/12754/OEBPS/Images/1/d149f41ae374982013d058c6c44cf261.jpg"
+            },
+            {
+                "page": "drm/4/12754/OEBPS/Images/1/d6ca8f1ee5e475d368af7789ca5fea52.jpg",
+                "audio": "drm/4/12754/OEBPS/Audio/1/97ed98b5b17a06d259c288760c96e98d.mp3"
+            },
+            {
+                "page": "drm/4/12754/OEBPS/Images/1/7bd25f1399ff9373a15ccfdb11cf3162.jpg",
+                "audio": "drm/4/12754/OEBPS/Audio/1/bb4df5d3d6ce5ffeb9f9c9d5a4681c6f.mp3"
+            },
+            {
+                "page": "drm/4/12754/OEBPS/Images/1/05a41a39a29919c2d1c25b4286774dd2.jpg",
+                "audio": "drm/4/12754/OEBPS/Audio/1/de24fdcf779e4df45a0e2661f2a5da55.mp3"
+            },
+            {
+                "page": "drm/4/12754/OEBPS/Images/1/8b94b7202ee857650f1e0a41211a7f4c.jpg"
+            },
+            {
+                "page": "drm/4/12754/OEBPS/Images/1/3515c6ad016362b49697f3e5257507b7.jpg",
+                "audio": "drm/4/12754/OEBPS/Audio/1/3d06b87729ff249967f77ea7cb3d2c4d.mp3"
+            },
+            {
+                "page": "drm/4/12754/OEBPS/Images/1/f822b3c62dcc00085b1d1644f90298b3.jpg"
+            },
+            {
+                "page": "drm/4/12754/OEBPS/Images/1/48bafd4d788ee624ad3bdd4615d49931.jpg",
+                "audio": "drm/4/12754/OEBPS/Audio/1/b82b890d37804523345a6a79f0b5d312.mp3"
+            },
+            {
+                "page": "drm/4/12754/OEBPS/Images/1/57d2cfff710594b154ce992ff3bd9ce1.jpg"
+            },
+            {
+                "page": "drm/4/12754/OEBPS/Images/1/906760a2aa9a150c6771f4891b821d51.jpg",
+                "audio": "drm/4/12754/OEBPS/Audio/1/07fe0278d524b3e1169d18b617d47b1c.mp3"
+            },
+            {
+                "page": "drm/4/12754/OEBPS/Images/1/6ecc243dc7ed137949a819be24f7cb71.jpg"
+            },
+            {
+                "page": "drm/4/12754/OEBPS/Images/1/6d08ae2fa873c45dfbd1572f9bdc8bdc.jpg",
+                "audio": "drm/4/12754/OEBPS/Audio/1/2f04e63313c8a009dcc1ce41a34737e9.mp3"
+            },
+            {
+                "page": "drm/4/12754/OEBPS/Images/1/6eb498b09f8229eead91b57ed57b39ea.jpg"
+            },
+            {
+                "page": "drm/4/12754/OEBPS/Images/1/dc9b4ad7e12f7638d6ad0f8c2dd517ab.jpg",
+                "audio": "drm/4/12754/OEBPS/Audio/1/2254fc562187e9b4932ef0f13f236e83.mp3"
+            },
+            {
+                "page": "drm/4/12754/OEBPS/Images/1/f470643ffd1b7498707e83163c871221.jpg"
+            },
+            {
+                "page": "drm/4/12754/OEBPS/Images/1/3c934e702b6b959402917a322904f1c2.jpg"
+            },
+            {
+                "page": "drm/4/12754/OEBPS/Images/1/78f7734e25c1377a02f5a46bb4f59986.jpg"
+            },
+            {
+                "page": "drm/4/12754/OEBPS/Images/1/81be31cdb5acd93962789d5274fe6322.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/12754/OEBPS/Images/1/830922d85618857bfabd338d7a445534.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "12754",
+        "id": "12754",
+        "title": "Spring",
+        "author": "Emily C. Dawson",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "This photo-illustrated book describes how spring weather affects the actions of animals, the growth of plants, and the activities of people.",
+        "coverColorR": 226,
+        "coverColorG": 186,
+        "coverColorB": 153,
+        "version": 2,
+        "previewPercent": 20,
+        "publisher": "JUMP",
+        "publisherId": "109",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "350L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 806,
+        "ar": "0.8",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Daily Life",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "95e3d5df93f12d1ad02a",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372636
+    },
+    "userBook": {
+        "modelId": "46250489-12754",
+        "userId": "46250489",
+        "bookId": "12754",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311233,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311233,
+        "book": {
+            "modelId": "12754",
+            "title": "Spring",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "95e3d5df93f12d1ad02a"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "74433",
+            "user_id": "9447476",
+            "book_id": "12754",
+            "title": "Spring",
+            "description": "",
+            "date_created": 1491402801,
+            "date_modified": 1501634472,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What season was the story about?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Spring",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Winter",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Summer",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What melts in the spring?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Snow",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Flowers",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Wind",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What do birds make in the spring?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Nests",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Twigs",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Web",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What color are robin eggs?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "blue",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "green",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "yellow",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "In the spring, are the days long or short?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Long",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Short",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "Why does it get muddy in the spring?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Because it rains",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Because it snows",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Because it is sunny",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 5
+                },
+                {
+                    "title": "What kind weather do you need to fly a kite?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Windy",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Rainy",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Sunny",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 6
+                }
+            ],
+            "modelId": "74433",
+            "creatorName": "Ms. Woods",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "9447476",
+                "udid": "57c0a30fdecf09.13842485",
+                "journalName": "Ms. Woods",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.12549019607843 0.92941176470588 0.96078431372549 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "575650059",
+                "fid": "",
+                "accountID": "489A2DFA-220B-46EA-6226-308E3F53060D",
+                "simpleAccountId": "3448383",
+                "pagesFlipped": 2687,
+                "nufComplete": 1,
+                "readingAge": 6.2,
+                "startingAge": 5,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 0,
+                "xpLevel": 1,
+                "dateLastLogin": 0,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Marilyn",
+                "lastName": "Woods",
+                "accountType": 1,
+                "dateModified": 1492614647,
+                "educatorPrefix": "Ms.",
+                "name": "Ms. Woods"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What season was the story about?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Spring",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Winter",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Summer",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What melts in the spring?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Snow",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Flowers",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Wind",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What do birds make in the spring?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Nests",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Twigs",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Web",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What color are robin eggs?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "blue",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "green",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "yellow",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "In the spring, are the days long or short?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Long",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Short",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "Why does it get muddy in the spring?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Because it rains",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Because it snows",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Because it is sunny",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 5
+            },
+            {
+                "title": "What kind weather do you need to fly a kite?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Windy",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Rainy",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Sunny",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 6
+            }
+        ]
+    }
+}

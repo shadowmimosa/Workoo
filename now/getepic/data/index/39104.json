@@ -1,0 +1,489 @@
+{
+    "publisherData": {
+        "modelId": "28",
+        "name": "Xist Publishing",
+        "url": "http://www.xistpublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539564197
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/3760303D-4A52-4259-BA8E-3E6A1AD6253C.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/F41A37FD-C36C-45F1-A83C-B1891876618E.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/CAC33FB9-5785-4D43-8929-18D5CE73BBA5.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/9B17E9ED-6586-4223-A9CB-2DAFB4CF25F1.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/FA268D27-DBEC-4C28-9F0F-20D808FE756F.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/6B8C7737-879D-4ECE-8458-A2F58D9781D8.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/DF420FE9-E1A6-4924-BA05-19664464781C.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/250F829C-EDBD-4EDB-81F3-EC722D375904.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/2F40FAF5-7D54-48BA-A024-B4C6BC64B6B7.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/C4778A3E-AA02-4251-912D-65192BDCBF40.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/E4A4C476-68D4-4D4A-8137-795E42727A8B.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/C9B8B734-E47F-4150-8932-AE758803256A.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/73D74ABD-A31B-4C6D-A0C0-E95B11907D76.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/0C86C90A-68A0-42C9-B7C1-1D5E7F7DE25F.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/D05C433C-3B6F-4ED5-8295-7EE1BC08F5E8.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/C426E77D-750E-445B-B6B7-3478174D2DF1.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/0864787E-F634-4180-A55C-B4F7D3069860.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/B6949FCE-D9BD-4684-8425-B9A03C2C9A6A.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/1F123917-6BDF-44C9-8558-0532EC7F5FD1.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/A9C5FFB2-E4B4-47BF-90C0-2AE6D1574777.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/9C8EDB60-B6F6-469F-B5D5-C5BA4BBD0B9D.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/1F194F21-64F8-434F-A671-4A3CB7722F08.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/CB80CD19-383B-418F-9BDA-7E26CE00C072.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/9779F693-088C-4CDD-8E19-99A63719C11C.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/4DB07297-FF2F-4743-A32D-F1B86A01D9BD.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/0215DC68-4608-43BB-A8FE-615159712BAA.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/A3912FB0-D832-44E0-A27A-802FA2E45F8A.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/9F97C3DD-F4F4-4A6F-BA61-7C3FC67F7106.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/E5A8C7A9-4991-4617-A876-EA650AB650F8.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/0CFCA628-4B43-4C15-B0AC-1E76D3708462.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/A7C5F6AE-B462-485B-A567-034F6534ED36.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/1BB9D2AF-3158-4C96-966B-FEAF3CDD11B6.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/D720410E-FE35-40F1-AEBE-887F66102D41.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/F4F56DF9-B5EB-4C15-8DB6-3BA75DC235CA.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/EAB39B6E-6DD1-4F71-936F-B2E4D22DF341.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/AFBD708D-D5D3-44BC-8DBF-27888749BF0F.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/DD991222-68C3-4C9F-9C26-BE51F6F554F9.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/AA132EFC-9A3A-45BE-97CF-95EB111818F5.jpg"
+            },
+            {
+                "page": "drm/4/39104/OEBPS/Images/1/D6F5D402-6F98-41C1-B454-45A910612D1A.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/39104/OEBPS/Images/1/1BA62A80-0F7C-4B8A-BCA6-3D1C229A2B64.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "39104",
+        "id": "39104",
+        "title": "My Favorite Animal: Horses",
+        "author": "Victoria Marcos",
+        "illustrator": " ",
+        "numPages": 39,
+        "bookDescription": "Learn all about horses in this informational book.",
+        "coverColorR": 119,
+        "coverColorG": 135,
+        "coverColorB": 110,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Xist Publishing",
+        "publisherId": "28",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 715,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Farm Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.75,
+        "contentHash": "644e768ff276675e9c87",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1555373671
+    },
+    "userBook": {
+        "modelId": "46250489-39104",
+        "userId": "46250489",
+        "bookId": "39104",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559312146,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559312146,
+        "book": {
+            "modelId": "39104",
+            "title": "My Favorite Animal: Horses",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "644e768ff276675e9c87"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "177665",
+            "user_id": "15625149",
+            "book_id": "39104",
+            "title": "Horses",
+            "description": "",
+            "date_created": 1519148280,
+            "date_modified": 1523996399,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "An adult female horse is called a ?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Mare",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Stallion",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "An adult male horse is called a ?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "stallion",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "foal",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "A young horse is called a?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "foal",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "mare",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Who leads the herd of horses?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Stallion",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Work horse",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "How many breeds of horses are there?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "400",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "300",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "What is placed in a horse's mouth to help a rider communicate?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "bit",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "toothbrush",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 5
+                },
+                {
+                    "title": "What does Nellie have that these horses do not?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Swayback",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Barn",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 6
+                }
+            ],
+            "modelId": "177665",
+            "creatorName": "Ms. Dunn",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "15625149",
+                "udid": "592da193348776.75660616",
+                "journalName": "Ms. Dunn",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.97254901960784 0.84313725490196 0.38823529411765 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "518162730",
+                "fid": "",
+                "accountID": "A0685DDB-E6BD-2238-7F71-EC736DBCE36B",
+                "simpleAccountId": "5076035",
+                "pagesFlipped": 815,
+                "nufComplete": 1,
+                "readingAge": 8.63333,
+                "startingAge": 0,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 38,
+                "xpLevel": 4,
+                "dateLastLogin": 1547750031,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Bonnie",
+                "lastName": "Dunn",
+                "accountType": 1,
+                "dateModified": 1551452629,
+                "educatorPrefix": "Ms.",
+                "name": "Ms. Dunn"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "An adult female horse is called a ?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Mare",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Stallion",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "An adult male horse is called a ?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "stallion",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "foal",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "A young horse is called a?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "foal",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "mare",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Who leads the herd of horses?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Stallion",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Work horse",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "How many breeds of horses are there?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "400",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "300",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "What is placed in a horse's mouth to help a rider communicate?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "bit",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "toothbrush",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 5
+            },
+            {
+                "title": "What does Nellie have that these horses do not?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Swayback",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Barn",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 6
+            }
+        ]
+    }
+}

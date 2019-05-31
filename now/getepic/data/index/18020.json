@@ -1,0 +1,167 @@
+{
+    "publisherData": {
+        "modelId": "109",
+        "name": "JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/18020/OEBPS/Images/1/c1d51e2d58811b5cb505066ed298f01b.jpg"
+            },
+            {
+                "page": "drm/0/18020/OEBPS/Images/1/10d2184bbd47c00765d37d37ced841c8.jpg",
+                "audio": "drm/0/18020/OEBPS/Audio/1/b278fa17f39a9a4c68c22f283843def9.mp3"
+            },
+            {
+                "page": "drm/0/18020/OEBPS/Images/1/382a10da0c73427173d062a3665b9554.jpg",
+                "audio": "drm/0/18020/OEBPS/Audio/1/04618bd4ae9c6e745258cc07b303e82e.mp3"
+            },
+            {
+                "page": "drm/0/18020/OEBPS/Images/1/f9938015b86ca9fa934cc15d2d284719.jpg",
+                "audio": "drm/0/18020/OEBPS/Audio/1/6a8b215d957a4d8aa4e3fa6dce7aecb0.mp3"
+            },
+            {
+                "page": "drm/0/18020/OEBPS/Images/1/56c65b2bf7ccb8f9ada5bc1d47284757.jpg"
+            },
+            {
+                "page": "drm/0/18020/OEBPS/Images/1/2a07e397fc60ea9e3c46f027ad7d1c97.jpg",
+                "audio": "drm/0/18020/OEBPS/Audio/1/062c66f83d522cb9abd63618716eb740.mp3"
+            },
+            {
+                "page": "drm/0/18020/OEBPS/Images/1/ba679439505511e1512b6def070fed26.jpg",
+                "audio": "drm/0/18020/OEBPS/Audio/1/20de0258241385ef87d1a68619015101.mp3"
+            },
+            {
+                "page": "drm/0/18020/OEBPS/Images/1/e010a120384c961ebd8a8e2ce56df4c5.jpg",
+                "audio": "drm/0/18020/OEBPS/Audio/1/a6f6267265243f6abaaae8c257d649ff.mp3"
+            },
+            {
+                "page": "drm/0/18020/OEBPS/Images/1/eca258865c14d1a0e2a3c3c89e39dff4.jpg"
+            },
+            {
+                "page": "drm/0/18020/OEBPS/Images/1/78af95fded08213167379097a2fbc27f.jpg",
+                "audio": "drm/0/18020/OEBPS/Audio/1/e5c7ce0cd20116d1cebe5b844b804254.mp3"
+            },
+            {
+                "page": "drm/0/18020/OEBPS/Images/1/53a2d41c960460493c5471e2a1f12026.jpg"
+            },
+            {
+                "page": "drm/0/18020/OEBPS/Images/1/a7e3b9404e65ab8c0357b6fd3ea4af8e.jpg",
+                "audio": "drm/0/18020/OEBPS/Audio/1/208ad4d402bc0cf516f0a75f309c2c80.mp3"
+            },
+            {
+                "page": "drm/0/18020/OEBPS/Images/1/2f210a4bde5478d1bc1bb2693e79b16d.jpg"
+            },
+            {
+                "page": "drm/0/18020/OEBPS/Images/1/db71930ed4b8980ed31f0a10a206d991.jpg",
+                "audio": "drm/0/18020/OEBPS/Audio/1/acb85643600db61ae869535773172404.mp3"
+            },
+            {
+                "page": "drm/0/18020/OEBPS/Images/1/b943d1238595b2ca42148dfb7c854c1d.jpg"
+            },
+            {
+                "page": "drm/0/18020/OEBPS/Images/1/8387fa5f4b27c478108c0174ed664972.jpg",
+                "audio": "drm/0/18020/OEBPS/Audio/1/a357547d9c246dc944c778ee6246495e.mp3"
+            },
+            {
+                "page": "drm/0/18020/OEBPS/Images/1/7cfba348ca0fdcffa5c576552bb2c71c.jpg"
+            },
+            {
+                "page": "drm/0/18020/OEBPS/Images/1/4a4badcbe3f80fe7c8d7eb68ce103d07.jpg",
+                "audio": "drm/0/18020/OEBPS/Audio/1/4d0ed81022290cb780761865287e253c.mp3"
+            },
+            {
+                "page": "drm/0/18020/OEBPS/Images/1/b0f823a2b636cb43e35a1dcfa6fd70bd.jpg"
+            },
+            {
+                "page": "drm/0/18020/OEBPS/Images/1/02302d632c4c53008c901f90d3ddb0f7.jpg"
+            },
+            {
+                "page": "drm/0/18020/OEBPS/Images/1/0b84968409135eb00bef16bb111cbf8f.jpg",
+                "audio": "drm/0/18020/OEBPS/Audio/1/6111a228f1cf35ac741370e217b5de85.mp3"
+            },
+            {
+                "page": "drm/0/18020/OEBPS/Images/1/f9b62567f35c5a16aee5db32ff6aff2b.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/18020/OEBPS/Images/1/01e790cb614c27dc3cbcd7812568ffd7.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18020",
+        "id": "18020",
+        "title": "My First Pet: Rabbits",
+        "author": "Cari Meister",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Early readers will learn all about the responsibilities of having a rabbit, and find out how they can keep their pet healthy and happy.",
+        "coverColorR": 196,
+        "coverColorG": 191,
+        "coverColorB": 162,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "JUMP",
+        "publisherId": "109",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "250L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 733,
+        "ar": "0.9",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pets",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "bec66d4b0fadc8098917",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372849
+    },
+    "userBook": {
+        "modelId": "46250489-18020",
+        "userId": "46250489",
+        "bookId": "18020",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559309947,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559309947,
+        "book": {
+            "modelId": "18020",
+            "title": "My First Pet: Rabbits",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "bec66d4b0fadc8098917"
+        }
+    },
+    "quiz": null
+}

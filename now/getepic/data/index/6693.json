@@ -1,0 +1,346 @@
+{
+    "publisherData": {
+        "modelId": "31",
+        "name": "Bellwether Media",
+        "url": "http://www.bellwethermedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539569528
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/3/6693/OEBPS/Images/1/35455c68906105130620b30d2a33e119.jpg"
+            },
+            {
+                "page": "drm/3/6693/OEBPS/Images/1/a4f5c11a90ec05e728fe5be1d9baaf69.jpg"
+            },
+            {
+                "page": "drm/3/6693/OEBPS/Images/1/a6166b0d7cd0fa33845b76d70e0de8c4.jpg"
+            },
+            {
+                "page": "drm/3/6693/OEBPS/Images/1/fc2e7f4e737b2d4eb8f628366183930f.jpg"
+            },
+            {
+                "page": "drm/3/6693/OEBPS/Images/1/90607bb8100fa9f6163f1072407eb088.jpg"
+            },
+            {
+                "page": "drm/3/6693/OEBPS/Images/1/b5623f108c9051ba8f43d35325b28aea.jpg"
+            },
+            {
+                "page": "drm/3/6693/OEBPS/Images/1/6f79b97f98df26aea11198a38c1c8eb9.jpg"
+            },
+            {
+                "page": "drm/3/6693/OEBPS/Images/1/2077895d5baaf24835612ddb0fa9efe6.jpg"
+            },
+            {
+                "page": "drm/3/6693/OEBPS/Images/1/631a5d0c9c60f57f2592473d909d2630.jpg"
+            },
+            {
+                "page": "drm/3/6693/OEBPS/Images/1/91d1e91f16791e64c4750870ef5dbb2e.jpg"
+            },
+            {
+                "page": "drm/3/6693/OEBPS/Images/1/927bb5540b95a52cfb23c69b1c26291b.jpg"
+            },
+            {
+                "page": "drm/3/6693/OEBPS/Images/1/d50e4d254f5a254d428bbf984691523b.jpg"
+            },
+            {
+                "page": "drm/3/6693/OEBPS/Images/1/cc5e0eb1da2931f164658ce30018017f.jpg"
+            },
+            {
+                "page": "drm/3/6693/OEBPS/Images/1/886bd712e9f01eb621e555df3e5de850.jpg"
+            },
+            {
+                "page": "drm/3/6693/OEBPS/Images/1/0a872228e43b3b7bf606a1f8c71267e1.jpg"
+            },
+            {
+                "page": "drm/3/6693/OEBPS/Images/1/816438a5ec4a39e9b9a7ea1fd8c41611.jpg"
+            },
+            {
+                "page": "drm/3/6693/OEBPS/Images/1/7f0569b0ffc3f93c1446de5afe3ad07e.jpg"
+            },
+            {
+                "page": "drm/3/6693/OEBPS/Images/1/ff468fbac81d107885635baeeff2bcdc.jpg"
+            },
+            {
+                "page": "drm/3/6693/OEBPS/Images/1/6895d3e450d3f172444a15d1b2e47f42.jpg"
+            },
+            {
+                "page": "drm/3/6693/OEBPS/Images/1/8a16058f8cce72885d6f11a68adfb8c0.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/3/6693/OEBPS/Images/1/f2d55f59a89cc1e1bb248ec37e1844c4.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 4,
+    "book": {
+        "modelId": "6693",
+        "id": "6693",
+        "title": "Caring for your Dog: Pet Care Library",
+        "author": "Derek Zobel",
+        "illustrator": " ",
+        "numPages": 20,
+        "bookDescription": "Training and taking care of your dog can be a challenging and rewarding task!",
+        "coverColorR": 134,
+        "coverColorG": 136,
+        "coverColorB": 115,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Bellwether Media",
+        "publisherId": "31",
+        "age": 8,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 866,
+        "ar": "3.6",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Dogs",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.7227,
+        "contentHash": "347253769f95672b1f5b",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1555372283
+    },
+    "userBook": {
+        "modelId": "46250489-6693",
+        "userId": "46250489",
+        "bookId": "6693",
+        "currentPageIndex": 2,
+        "farthestPageIndex": 2,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 10,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559202240,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 306,
+        "dateModified": 1559202548,
+        "book": {
+            "modelId": "6693",
+            "title": "Caring for your Dog: Pet Care Library",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "347253769f95672b1f5b"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "167859",
+            "user_id": "10334272",
+            "book_id": "6693",
+            "title": "Caring For Your Pet",
+            "description": "",
+            "date_created": 1517263071,
+            "date_modified": 1523573166,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "How many years does the average dog live?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "10-15 years",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "1 year",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What does the word breed mean?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "A kind of dog",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "A colour of dog.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "A type of dog food.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "How many breeds of dog are there?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "More than 400",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "More than 600",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Why do small dogs live longer than big dogs?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": ".Their bodies don't have to work as hard",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Their fur is thin.",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 3
+                }
+            ],
+            "modelId": "167859",
+            "creatorName": "Mr. Furlotte",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "10334272",
+                "udid": "57e2c740684702.47711382",
+                "journalName": "Mr. Furlotte",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.84705882352941 0.18039215686275 0.46274509803922 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "608846838",
+                "fid": "",
+                "accountID": "2F8957F0-B526-62AD-1D79-17FE928148AA",
+                "simpleAccountId": "3638753",
+                "pagesFlipped": 724,
+                "nufComplete": 1,
+                "readingAge": 7.36667,
+                "startingAge": 0,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 0,
+                "xpLevel": 1,
+                "dateLastLogin": 0,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Ron",
+                "lastName": "Furlotte",
+                "accountType": 1,
+                "dateModified": 1517518531,
+                "educatorPrefix": "Mr.",
+                "name": "Mr. Furlotte"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "How many years does the average dog live?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "10-15 years",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "1 year",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What does the word breed mean?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "A kind of dog",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "A colour of dog.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "A type of dog food.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "How many breeds of dog are there?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "More than 400",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "More than 600",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Why do small dogs live longer than big dogs?",
+                "quizQuestionChoices": [
+                    {
+                        "title": ".Their bodies don't have to work as hard",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Their fur is thin.",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 3
+            }
+        ]
+    }
+}

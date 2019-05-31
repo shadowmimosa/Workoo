@@ -1,0 +1,152 @@
+{
+    "publisherData": {
+        "modelId": "108",
+        "name": "BeachHouse",
+        "url": "http://www.beachhousepublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491011238
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/64027/OEBPS/Images/1/9b964203d4b485f58691b72ba0b18da6.jpg"
+            },
+            {
+                "page": "drm/7/64027/OEBPS/Images/1/0d048c278737b219e42cb75e0cc9ffed.jpg"
+            },
+            {
+                "page": "drm/7/64027/OEBPS/Images/1/c32a93b7e83523f60c72941a2ab777d5.jpg"
+            },
+            {
+                "page": "drm/7/64027/OEBPS/Images/1/945a69d923b1b0aadf4f2c9fd6a63baf.jpg"
+            },
+            {
+                "page": "drm/7/64027/OEBPS/Images/1/2a0613ddf294da0a33c4358ef2b38924.jpg"
+            },
+            {
+                "page": "drm/7/64027/OEBPS/Images/1/af356122e3e84fa5677d78c8bcd72714.jpg"
+            },
+            {
+                "page": "drm/7/64027/OEBPS/Images/1/2a6dae906825ae4517599ec62deb99c5.jpg"
+            },
+            {
+                "page": "drm/7/64027/OEBPS/Images/1/a0906e67ae0be04f758b656398d56b42.jpg"
+            },
+            {
+                "page": "drm/7/64027/OEBPS/Images/1/1c349fad41a6c14a3251ecca1ed7a681.jpg"
+            },
+            {
+                "page": "drm/7/64027/OEBPS/Images/1/d1d9394dbdc8326940ccd78fdcf355a4.jpg"
+            },
+            {
+                "page": "drm/7/64027/OEBPS/Images/1/a8d52f58670ad55cbcf4f92a384e467d.jpg"
+            },
+            {
+                "page": "drm/7/64027/OEBPS/Images/1/8e6c0f36b2aa81a0f501649f9c86a695.jpg"
+            },
+            {
+                "page": "drm/7/64027/OEBPS/Images/1/3fe85baa3ac2bc13a7271be4eb6cf9e3.jpg"
+            },
+            {
+                "page": "drm/7/64027/OEBPS/Images/1/d0f8f117c5bf1412cca44983dab84bf2.jpg"
+            },
+            {
+                "page": "drm/7/64027/OEBPS/Images/1/4068ba27a4f57efd1582856cf6a34b17.jpg"
+            },
+            {
+                "page": "drm/7/64027/OEBPS/Images/1/d1f96d3b000e82cfaef703089c94815e.jpg"
+            },
+            {
+                "page": "drm/7/64027/OEBPS/Images/1/af6588728cfad6bbab93502207b70f91.jpg"
+            },
+            {
+                "page": "drm/7/64027/OEBPS/Images/1/51fdafd03144451f299a2914887390e8.jpg"
+            },
+            {
+                "page": "drm/7/64027/OEBPS/Images/1/9783b1311f4cd0261d2eece3f70df51b.jpg"
+            },
+            {
+                "page": "drm/7/64027/OEBPS/Images/1/1ef1fe76161fb83c563851af4112c2e5.jpg"
+            },
+            {
+                "page": "drm/7/64027/OEBPS/Images/1/c808249fb2146edf7a17ff8a718b135e.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/64027/OEBPS/Images/1/69728660ebf94a8e820da756099de2f1.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "64027",
+        "id": "64027",
+        "title": "Dogs at the Beach",
+        "author": "Jane Gillespie",
+        "illustrator": "Kat Uno",
+        "numPages": 21,
+        "bookDescription": "All kinds of dogs can be seen on beaches across Hawaii, and this book is a rhyming ode to these furry friends.",
+        "coverColorR": 153,
+        "coverColorG": 163,
+        "coverColorB": 153,
+        "version": 1578078403,
+        "previewPercent": 20,
+        "publisher": "BeachHouse",
+        "publisherId": "108",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 315,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 86,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Dogs",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.8333,
+        "contentHash": "693279ace37519449d79",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1557189531
+    },
+    "userBook": {
+        "modelId": "46250489-64027",
+        "userId": "46250489",
+        "bookId": "64027",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559304079,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559304079,
+        "book": {
+            "modelId": "64027",
+            "title": "Dogs at the Beach",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "693279ace37519449d79"
+        }
+    },
+    "quiz": null
+}

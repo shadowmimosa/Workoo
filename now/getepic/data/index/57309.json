@@ -1,0 +1,137 @@
+{
+    "publisherData": {
+        "modelId": "90050",
+        "name": "Amicus",
+        "url": "https://www.amicuspublishing.us/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491010374
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/57309/OEBPS/Images/1/b86b35c8fca0c22be791be07cd33d50d.jpg"
+            },
+            {
+                "page": "drm/9/57309/OEBPS/Images/1/f2a03843503d295fcab8df85c253fdf5.jpg"
+            },
+            {
+                "page": "drm/9/57309/OEBPS/Images/1/e688c1b7718cc42d162d087f394e9146.jpg"
+            },
+            {
+                "page": "drm/9/57309/OEBPS/Images/1/96ed91f793d32394904b7ae2d5f919f1.jpg"
+            },
+            {
+                "page": "drm/9/57309/OEBPS/Images/1/6554d6272a058de857a434d09a7e7d5c.jpg"
+            },
+            {
+                "page": "drm/9/57309/OEBPS/Images/1/55416b39e93b22ebb0fba8be00aa4b8d.jpg"
+            },
+            {
+                "page": "drm/9/57309/OEBPS/Images/1/cc484ff89c9326f48ae124a0be262c8b.jpg"
+            },
+            {
+                "page": "drm/9/57309/OEBPS/Images/1/aa8414559ab58575338d8d36046e049b.jpg"
+            },
+            {
+                "page": "drm/9/57309/OEBPS/Images/1/52a1bb9adbd1d3fd2b7527673e930ca1.jpg"
+            },
+            {
+                "page": "drm/9/57309/OEBPS/Images/1/8177ae787be5aeea97d8d1445bef0e39.jpg"
+            },
+            {
+                "page": "drm/9/57309/OEBPS/Images/1/2c1bed26e28135a92cb4ee7ad165757f.jpg"
+            },
+            {
+                "page": "drm/9/57309/OEBPS/Images/1/c451711787ba02b0c850a72eead44f35.jpg"
+            },
+            {
+                "page": "drm/9/57309/OEBPS/Images/1/68ac6a3ef9a10e743140bb0d2fec49f8.jpg"
+            },
+            {
+                "page": "drm/9/57309/OEBPS/Images/1/db2cae66f5edfe0f464b8a219b44e465.jpg"
+            },
+            {
+                "page": "drm/9/57309/OEBPS/Images/1/03b9db78d2ccfc2ed79f1a2cb3204716.jpg"
+            },
+            {
+                "page": "drm/9/57309/OEBPS/Images/1/acde70c7ea1454ce9d5377b1233204ee.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/57309/OEBPS/Images/1/8d30020bec645671a66a2a5f01509c83.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "57309",
+        "id": "57309",
+        "title": "Rabbits",
+        "author": "Mari Schuh",
+        "illustrator": " ",
+        "numPages": 16,
+        "bookDescription": "Want to learn more about the furry, scaly, and feathered animals we call pets?",
+        "coverColorR": 217,
+        "coverColorG": 202,
+        "coverColorB": 167,
+        "version": 4390912,
+        "previewPercent": 20,
+        "publisher": "Amicus",
+        "publisherId": "90050",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "230L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 586,
+        "ar": "0.8",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 85,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pets",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.8733,
+        "contentHash": "af8cf1f272ed4dbc379d",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374720
+    },
+    "userBook": {
+        "modelId": "46250489-57309",
+        "userId": "46250489",
+        "bookId": "57309",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311506,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311506,
+        "book": {
+            "modelId": "57309",
+            "title": "Rabbits",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "af8cf1f272ed4dbc379d"
+        }
+    },
+    "quiz": null
+}

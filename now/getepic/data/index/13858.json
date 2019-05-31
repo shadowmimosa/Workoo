@@ -1,0 +1,487 @@
+{
+    "publisherData": {
+        "modelId": "107",
+        "name": "Rourke Educational Media",
+        "url": "http://rourkeeducationalmedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570193
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/13858/OEBPS/Images/1/c0ac532497fced7c5c014eb32b86bf26.jpg",
+                "audio": "drm/8/13858/OEBPS/Audio/1/7cc0ff427c3361ad17c3136611201a41.mp3"
+            },
+            {
+                "page": "drm/8/13858/OEBPS/Images/1/6f3981477ef8cced0b578ef8feeec913.jpg",
+                "audio": "drm/8/13858/OEBPS/Audio/1/66dc67d32bb4080088172a7bc3e56782.mp3"
+            },
+            {
+                "page": "drm/8/13858/OEBPS/Images/1/a5a211eb4e2fc4c1c0cb99c13bff53f0.jpg"
+            },
+            {
+                "page": "drm/8/13858/OEBPS/Images/1/67514ad4ae62640c896ec8d1ff4e7f1f.jpg",
+                "audio": "drm/8/13858/OEBPS/Audio/1/87966138a7e8d97d30138dd804732fa3.mp3"
+            },
+            {
+                "page": "drm/8/13858/OEBPS/Images/1/3d6dbf34db6cd5abbd08bd681f7640e9.jpg"
+            },
+            {
+                "page": "drm/8/13858/OEBPS/Images/1/d8bdb83e452b767e0025ccf407d842fa.jpg",
+                "audio": "drm/8/13858/OEBPS/Audio/1/b40eac1929113d059e744cff5b538040.mp3"
+            },
+            {
+                "page": "drm/8/13858/OEBPS/Images/1/e86b7bcad93c11dd098d15ccc115d39d.jpg"
+            },
+            {
+                "page": "drm/8/13858/OEBPS/Images/1/8076c5fdff7f4cf3e0e8cc1eea63b67e.jpg",
+                "audio": "drm/8/13858/OEBPS/Audio/1/b2f6f61887d614efa2393410ace9f17b.mp3"
+            },
+            {
+                "page": "drm/8/13858/OEBPS/Images/1/b913ea0ed5ed86f341b06fad6171fa2c.jpg"
+            },
+            {
+                "page": "drm/8/13858/OEBPS/Images/1/3f9441c5003648edd007090ad73159ae.jpg",
+                "audio": "drm/8/13858/OEBPS/Audio/1/088d70a77f25033622eb3ffc28e38e38.mp3"
+            },
+            {
+                "page": "drm/8/13858/OEBPS/Images/1/cb6b0589d6ef5aca09487325003eea8b.jpg"
+            },
+            {
+                "page": "drm/8/13858/OEBPS/Images/1/4448b07fa3c899e1d185fb65e733aa85.jpg",
+                "audio": "drm/8/13858/OEBPS/Audio/1/c089cb1842360ef86cb3da4bd9eb4b1a.mp3"
+            },
+            {
+                "page": "drm/8/13858/OEBPS/Images/1/801bff51a280d4c2a1a49a484faabfed.jpg"
+            },
+            {
+                "page": "drm/8/13858/OEBPS/Images/1/3bf19163e5de7195155632829d01e486.jpg",
+                "audio": "drm/8/13858/OEBPS/Audio/1/7dbb8178cb95b8f49d7b835d7a304fc8.mp3"
+            },
+            {
+                "page": "drm/8/13858/OEBPS/Images/1/dfcb0705fa1133f2605fe7fa1ef6967e.jpg"
+            },
+            {
+                "page": "drm/8/13858/OEBPS/Images/1/bac80fe94cf2a88def4c3ea3ccf98d33.jpg",
+                "audio": "drm/8/13858/OEBPS/Audio/1/f005414c414424e56235507c47008662.mp3"
+            },
+            {
+                "page": "drm/8/13858/OEBPS/Images/1/f58b5307fb7939762b5176e53c5176fb.jpg"
+            },
+            {
+                "page": "drm/8/13858/OEBPS/Images/1/69fd0a5e5bee1b63486b8be495c2f044.jpg",
+                "audio": "drm/8/13858/OEBPS/Audio/1/40015f6e73338585eed8905da6591083.mp3"
+            },
+            {
+                "page": "drm/8/13858/OEBPS/Images/1/ecd3ce1cdf2cd595bf4bb966460b8aec.jpg"
+            },
+            {
+                "page": "drm/8/13858/OEBPS/Images/1/cb24913310117028a39f57409d8b1091.jpg",
+                "audio": "drm/8/13858/OEBPS/Audio/1/d5278a75f0b4d8e1b5f4e22eed217709.mp3"
+            },
+            {
+                "page": "drm/8/13858/OEBPS/Images/1/25d92f8554234001687fcea00d7ce805.jpg"
+            },
+            {
+                "page": "drm/8/13858/OEBPS/Images/1/08d4305bc0d12541369a6d55110b5f95.jpg",
+                "audio": "drm/8/13858/OEBPS/Audio/1/17a78761fc482f7a62a6ea1619f9a7a8.mp3"
+            },
+            {
+                "page": "drm/8/13858/OEBPS/Images/1/915a81e920adbe703ba3bfd6c73ad4b5.jpg"
+            },
+            {
+                "page": "drm/8/13858/OEBPS/Images/1/81e9007ebb35a36621ef151ee529263c.jpg"
+            },
+            {
+                "page": "drm/8/13858/OEBPS/Images/1/d1a9260f106be0d95cbbc1506dbb7be2.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/13858/OEBPS/Images/1/3959b9f1e74823b2ebaf52a683defa5f.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "13858",
+        "id": "13858",
+        "title": "Telling Time",
+        "author": "Ann H. Matzke",
+        "illustrator": " ",
+        "numPages": 25,
+        "bookDescription": "Learn the concepts of hour, minutes, seconds, and times of day!",
+        "coverColorR": 153,
+        "coverColorG": 158,
+        "coverColorB": 135,
+        "version": 1,
+        "previewPercent": 20,
+        "publisher": "Rourke Educational Media",
+        "publisherId": "107",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "490L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 833,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "593eec428a4c8a748cff",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372696
+    },
+    "userBook": {
+        "modelId": "46250489-13858",
+        "userId": "46250489",
+        "bookId": "13858",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310755,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310755,
+        "book": {
+            "modelId": "13858",
+            "title": "Telling Time",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "593eec428a4c8a748cff"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "114713",
+            "user_id": "16944940",
+            "book_id": "13858",
+            "title": "Telling Time",
+            "description": "",
+            "date_created": 1503859174,
+            "date_modified": 1511812639,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What was the book about?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Telling Time",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Recess",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Food",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Shapes",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "Which hand is the hour hand?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Short hand",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Long hand",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Skinny second hand",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Which hand is the minute hand?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Long hand",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Skinny second hand",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Short hand",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "How many seconds are in one minute?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "60",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "30",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "10",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "15",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Which do we use for before noon?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "A. M.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "P. M.",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "Which do we use for afternoon and night?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "P.M.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "A.M.",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 5
+                }
+            ],
+            "modelId": "114713",
+            "creatorName": "Miss Karlin",
+            "avatarId": "76",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "16944940",
+                "udid": "59a0382eee0281.07628874",
+                "journalName": "Miss Karlin",
+                "journalCoverAvatar": "76",
+                "journalCoverColor": "0.94509803921569 0.66274509803922 0.92941176470588 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "725699279",
+                "fid": "",
+                "accountID": "B0D0E17C-1E3C-1C86-BD1A-A9B0BCC8EE89",
+                "simpleAccountId": "5427598",
+                "pagesFlipped": 105,
+                "nufComplete": 1,
+                "readingAge": 6.93333,
+                "startingAge": 0,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 0,
+                "xpLevel": 1,
+                "dateLastLogin": 1543519546,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Kendra",
+                "lastName": "Karlin",
+                "accountType": 1,
+                "dateModified": 1558548041,
+                "educatorPrefix": "Miss",
+                "name": "Miss Karlin"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What was the book about?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Telling Time",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Recess",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Food",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Shapes",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "Which hand is the hour hand?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Short hand",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Long hand",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Skinny second hand",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Which hand is the minute hand?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Long hand",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Skinny second hand",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Short hand",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "How many seconds are in one minute?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "60",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "30",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "10",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "15",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Which do we use for before noon?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "A. M.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "P. M.",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "Which do we use for afternoon and night?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "P.M.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "A.M.",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 5
+            }
+        ]
+    }
+}

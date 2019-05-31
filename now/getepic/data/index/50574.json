@@ -1,0 +1,155 @@
+{
+    "publisherData": {
+        "modelId": "3",
+        "name": "Bearport Publishing",
+        "url": "http://www.bearportpublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1543615453
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/50574/OEBPS/Images/1/c1c3d82d80d633a40abdd956f6b465b8.jpg"
+            },
+            {
+                "page": "drm/4/50574/OEBPS/Images/1/579747d72dd27eaa2445110436ea119e.jpg"
+            },
+            {
+                "page": "drm/4/50574/OEBPS/Images/1/9fbee6e3a9d2e076356c96c9147d984c.jpg"
+            },
+            {
+                "page": "drm/4/50574/OEBPS/Images/1/faa5fcb9c51a937c777be122d88b425d.jpg"
+            },
+            {
+                "page": "drm/4/50574/OEBPS/Images/1/d4f7386e93dc02e4fb7ddc5b706b3ec6.jpg"
+            },
+            {
+                "page": "drm/4/50574/OEBPS/Images/1/15cf3a315ce844e123628df8d906773e.jpg"
+            },
+            {
+                "page": "drm/4/50574/OEBPS/Images/1/dc2f827bd11cb2a2734d54e36b438276.jpg"
+            },
+            {
+                "page": "drm/4/50574/OEBPS/Images/1/da333e7613f67490c57b9ac31dc0f65b.jpg"
+            },
+            {
+                "page": "drm/4/50574/OEBPS/Images/1/f96307b3d482fdf15914d207ac9c676e.jpg"
+            },
+            {
+                "page": "drm/4/50574/OEBPS/Images/1/58fe04c0695db87bd8caeab7380003af.jpg"
+            },
+            {
+                "page": "drm/4/50574/OEBPS/Images/1/20e062cf0aa4c331dd062120eefe090a.jpg"
+            },
+            {
+                "page": "drm/4/50574/OEBPS/Images/1/05354bc00e024ebbf755b46c60ce2d95.jpg"
+            },
+            {
+                "page": "drm/4/50574/OEBPS/Images/1/df16a53bbc8d561176bf24be9f16c55a.jpg"
+            },
+            {
+                "page": "drm/4/50574/OEBPS/Images/1/03c173efc0dd391417cce2e436bf0eb4.jpg"
+            },
+            {
+                "page": "drm/4/50574/OEBPS/Images/1/345eccd68369d2a11324909b24195623.jpg"
+            },
+            {
+                "page": "drm/4/50574/OEBPS/Images/1/f8a8d5d6b65a879fc4f00babb88af59b.jpg"
+            },
+            {
+                "page": "drm/4/50574/OEBPS/Images/1/91e8d97dc3868c74223d3afc86a77cc5.jpg"
+            },
+            {
+                "page": "drm/4/50574/OEBPS/Images/1/3c98174ce9e621882e34ff8caec98de3.jpg"
+            },
+            {
+                "page": "drm/4/50574/OEBPS/Images/1/5bb16b841dd75b9405f079cc2f92e691.jpg"
+            },
+            {
+                "page": "drm/4/50574/OEBPS/Images/1/f704a6720f28a2dd4748953a9131dd24.jpg"
+            },
+            {
+                "page": "drm/4/50574/OEBPS/Images/1/6cfc5e02307009992de4318ee5310298.jpg"
+            },
+            {
+                "page": "drm/4/50574/OEBPS/Images/1/9ecd7f59648e9590c1c3796541bfefc7.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/50574/OEBPS/Images/1/675bf4c75db8483d057ec03636315f5c.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "50574",
+        "id": "50574",
+        "title": "Angora Rabbit",
+        "author": "Joyce Markovics",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "What's that giant furball with ears? It's an angora rabbit! This unusual rabbit has very long, extra-soft fur.",
+        "coverColorR": 157,
+        "coverColorG": 173,
+        "coverColorB": 148,
+        "version": 12309,
+        "previewPercent": 20,
+        "publisher": "Bearport Publishing",
+        "publisherId": "3",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "510L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 806,
+        "ar": "2.2",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pets",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.9375,
+        "contentHash": "b4e31fdd87ba221fa153",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374310
+    },
+    "userBook": {
+        "modelId": "46250489-50574",
+        "userId": "46250489",
+        "bookId": "50574",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311520,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311520,
+        "book": {
+            "modelId": "50574",
+            "title": "Angora Rabbit",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "b4e31fdd87ba221fa153"
+        }
+    },
+    "quiz": null
+}

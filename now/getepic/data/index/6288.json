@@ -1,0 +1,777 @@
+{
+    "publisherData": {
+        "modelId": "10",
+        "name": "Kids Can Press",
+        "url": "http://www.kidscanpress.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539816186
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/b61d2e28a5e913be9d974ccd9acd51f3.jpg",
+                "audio": "drm/8/6288/OEBPS/Audio/1/d32dd76128afc2eebb318e841bed9ea9.mp3"
+            },
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/744e7a3f14ea127727c7d359436b042e.jpg"
+            },
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/f39532736a3704e4b7afee5c55fe6b9d.jpg",
+                "audio": "drm/8/6288/OEBPS/Audio/1/5bfc20b6ec18321ad24fde527c1f139f.mp3"
+            },
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/ebaa689a5a605c86b7ec371c91516d1f.jpg"
+            },
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/0662c7e004b59e0fd16d64b2f87e195e.jpg",
+                "audio": "drm/8/6288/OEBPS/Audio/1/6471e0933d23c8bfd050bf138feced5e.mp3"
+            },
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/96ffb6012caab01259396b05d4d096a5.jpg"
+            },
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/d65144d60e631424f6b5615dd4c6be0a.jpg",
+                "audio": "drm/8/6288/OEBPS/Audio/1/cbe2bf6d34993235649100f9982dddda.mp3"
+            },
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/212934dd458ad7ac478c319ed969cfa9.jpg"
+            },
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/911a441c0f5365a6b586be4bc67695e5.jpg",
+                "audio": "drm/8/6288/OEBPS/Audio/1/72c00c92ad73cf89e2a7f5e6459069ce.mp3"
+            },
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/3ec68b95ca7575e27b74450592e5afc9.jpg",
+                "audio": "drm/8/6288/OEBPS/Audio/1/347f499d3d5d61a43c2feec5ba3e7e34.mp3"
+            },
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/195f3f2d65164707485fff2fd94f73c1.jpg",
+                "audio": "drm/8/6288/OEBPS/Audio/1/557636bc618daa5a0a21c01b0b1b8216.mp3"
+            },
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/47663f06b749389dc21cb25acc022391.jpg",
+                "audio": "drm/8/6288/OEBPS/Audio/1/1f24e028e6bb673dbdd9ab2dcae3e38f.mp3"
+            },
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/5a825742dace0d4fe86efe21f63ab02c.jpg"
+            },
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/88b79c75a173c04cfbe0ff6718bbeeba.jpg"
+            },
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/5b6f3a89a0ebbbb1685a86599c675363.jpg",
+                "audio": "drm/8/6288/OEBPS/Audio/1/8b95713f881eba0937f740b8c84fc6b5.mp3"
+            },
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/52aaee3d88c554a2607dbb6bd62fd65e.jpg"
+            },
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/7762531381c5bca5842ea1fc12a36729.jpg",
+                "audio": "drm/8/6288/OEBPS/Audio/1/bd4037541678085656d60133144e033b.mp3"
+            },
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/f277dc4ceb1b3e063f0bb433ae969f3c.jpg"
+            },
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/d1b891ff7459b417303a12df32950a6b.jpg",
+                "audio": "drm/8/6288/OEBPS/Audio/1/915054956d53cb3d6cc086c4ac9b3d70.mp3"
+            },
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/f491be8a37d382f11dd5d73bb8e18537.jpg",
+                "audio": "drm/8/6288/OEBPS/Audio/1/23f58dfe16c4ce8597b27f5abfd3024a.mp3"
+            },
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/b763e742dd646a9fcd7c7524dff2127a.jpg",
+                "audio": "drm/8/6288/OEBPS/Audio/1/7ccdaeafac1cd1c4a2bc6df78e497c11.mp3"
+            },
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/1a809a5bec841999397446c01f0133c3.jpg",
+                "audio": "drm/8/6288/OEBPS/Audio/1/3b8d618989abe71974c192e3f65ad71f.mp3"
+            },
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/5e5a1712bc94ea52a79afd712ddff995.jpg"
+            },
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/b773eedc74e7ee2c67699ef689057941.jpg",
+                "audio": "drm/8/6288/OEBPS/Audio/1/d1d98ac177e629a8ad72264535af007d.mp3"
+            },
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/104092d2056d2e0630ab2a3b0e125d3f.jpg",
+                "audio": "drm/8/6288/OEBPS/Audio/1/6e0eed34484e5b24a09d3aaca05d8923.mp3"
+            },
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/98bdae9d0c36a72f077bede8cd33e8af.jpg",
+                "audio": "drm/8/6288/OEBPS/Audio/1/6d6f1736f1097ba7ac66e9ba7c5d9a3c.mp3"
+            },
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/5097f90953c6b2a6df3c5c21c9e57107.jpg"
+            },
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/930d4d319ff167a9d28a11db5b41b8c8.jpg",
+                "audio": "drm/8/6288/OEBPS/Audio/1/ca62e806d1a9960d8e74531bdc2107d0.mp3"
+            },
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/3e06d241a7403ca901102e7d3c180e3a.jpg"
+            },
+            {
+                "page": "drm/8/6288/OEBPS/Images/1/3ad0c7b0fc29a9944d08ca10518bbe70.jpg",
+                "audio": "drm/8/6288/OEBPS/Audio/1/9781554539864-19.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/6288/OEBPS/Images/1/12420414764ad530803cbe1e4a230588.jpg",
+            "color": "#fefefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "6288",
+        "id": "6288",
+        "title": "Suki's Kimono",
+        "author": "Chieri Uegaki",
+        "illustrator": "Stephane Jorisch",
+        "numPages": 30,
+        "bookDescription": "The joyful story of a young girl who dances to her own drumbeat, and in doing so teaches others about the richness of diversity.",
+        "coverColorR": 208,
+        "coverColorG": 221,
+        "coverColorB": 218,
+        "version": 2,
+        "previewPercent": 20,
+        "publisher": "Kids Can Press",
+        "publisherId": "10",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "690L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 550,
+        "ar": "3.9",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Identity",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 0.7353,
+        "contentHash": "d0468a34100e5482fc44",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1516684461
+    },
+    "userBook": {
+        "modelId": "46250489-6288",
+        "userId": "46250489",
+        "bookId": "6288",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310514,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310514,
+        "book": {
+            "modelId": "6288",
+            "title": "Suki's Kimono",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "d0468a34100e5482fc44"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "177601",
+            "user_id": "4390918",
+            "book_id": "6288",
+            "title": "Suki's Kimono",
+            "description": "",
+            "date_created": 1519144578,
+            "date_modified": 1523996210,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "On the first day of school, Suki's sisters told her to...",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "wear something new",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "stop pretending to be a dancer",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "loosen her obi",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "not talk to them at school",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What did Suki's grandma give her as a souvenir at the festival?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "a pale pink linen handkerchief",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "two bright blue hair ribbons",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "a tiny geisha doll",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "a small taiko drum",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Suki's sisters walked ahead of her on the way to school and ...",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "pretended they didn't know her",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "showed Suki a new way to school",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "did not talk to any of their friends",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "tried to make Suki walk faster",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What happened when Suki arrived at school?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Some children giggled and pointed at her kimono.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "None of her friends would talk to her.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "She tripped and ripped her kimono.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "She noticed that one of her hair ribbons was missing.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "In the classroom, Suki sat near the window, and ...",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "a boy near her snatched her sleeves",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "she told the boy next to her not to touch her shoes",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "she watched a butterfly float past the window",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "her friend Penny sat across the room",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "What did Suki share when it was her turn to speak?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "She showed the others how to festival girls danced.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "She taught the others how to fold a paper butterfly.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "She told the others what the name \"Suki\" meant.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "She sang her grandma's favorite song.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 5
+                },
+                {
+                    "title": "When Suki forgot the next dance step, she ...",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "made it up",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "blushed in shame",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "sat down in a hurry",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "just waved her arms",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 6
+                },
+                {
+                    "title": "After dancing, why did Suki think she was in trouble?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "The room was very quiet, and everyone was watching her.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Mrs. Paggio told her to sit down.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "She had broken part of her new shoe.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "The principal was standing in the doorway.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 7
+                },
+                {
+                    "title": "When Suki sat down after dancing, Mrs. Paggio said that ...",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Suki's dance was wonderful.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "she knew Suki's grandma would be proud.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "she would love to visit Japan.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Suki should become a dancer.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 8
+                },
+                {
+                    "title": "What did Yumi and Mari complain about on the way home?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "No one had noticed their new clothes.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "They sat next to boys who pulled their hair.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Suki walked too slow in her red geta.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "They both had teachers who were mean and nasty.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 9
+                }
+            ],
+            "modelId": "177601",
+            "creatorName": "Mrs. Ellis",
+            "avatarId": "80",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "4390918",
+                "udid": "56a13a42003216.17856520",
+                "journalName": "Mrs. Ellis",
+                "journalCoverAvatar": "80",
+                "journalCoverColor": "0.97254901960784 0.84313725490196 0.38823529411765 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "808276887",
+                "fid": "",
+                "accountID": "C5394E27-05DB-887B-5C93-1CF525DF55C6",
+                "simpleAccountId": "1726734",
+                "pagesFlipped": 5618,
+                "nufComplete": 1,
+                "readingAge": 7.53333,
+                "startingAge": 8,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 101,
+                "xpLevel": 15,
+                "dateLastLogin": 1553107663,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Kambri",
+                "lastName": "Ellis",
+                "accountType": 1,
+                "dateModified": 1557764090,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Ellis"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "On the first day of school, Suki's sisters told her to...",
+                "quizQuestionChoices": [
+                    {
+                        "title": "wear something new",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "stop pretending to be a dancer",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "loosen her obi",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "not talk to them at school",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What did Suki's grandma give her as a souvenir at the festival?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "a pale pink linen handkerchief",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "two bright blue hair ribbons",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "a tiny geisha doll",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "a small taiko drum",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Suki's sisters walked ahead of her on the way to school and ...",
+                "quizQuestionChoices": [
+                    {
+                        "title": "pretended they didn't know her",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "showed Suki a new way to school",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "did not talk to any of their friends",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "tried to make Suki walk faster",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What happened when Suki arrived at school?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Some children giggled and pointed at her kimono.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "None of her friends would talk to her.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "She tripped and ripped her kimono.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "She noticed that one of her hair ribbons was missing.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "In the classroom, Suki sat near the window, and ...",
+                "quizQuestionChoices": [
+                    {
+                        "title": "a boy near her snatched her sleeves",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "she told the boy next to her not to touch her shoes",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "she watched a butterfly float past the window",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "her friend Penny sat across the room",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "What did Suki share when it was her turn to speak?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "She showed the others how to festival girls danced.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "She taught the others how to fold a paper butterfly.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "She told the others what the name \"Suki\" meant.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "She sang her grandma's favorite song.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 5
+            },
+            {
+                "title": "When Suki forgot the next dance step, she ...",
+                "quizQuestionChoices": [
+                    {
+                        "title": "made it up",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "blushed in shame",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "sat down in a hurry",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "just waved her arms",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 6
+            },
+            {
+                "title": "After dancing, why did Suki think she was in trouble?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "The room was very quiet, and everyone was watching her.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Mrs. Paggio told her to sit down.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "She had broken part of her new shoe.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "The principal was standing in the doorway.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 7
+            },
+            {
+                "title": "When Suki sat down after dancing, Mrs. Paggio said that ...",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Suki's dance was wonderful.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "she knew Suki's grandma would be proud.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "she would love to visit Japan.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Suki should become a dancer.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 8
+            },
+            {
+                "title": "What did Yumi and Mari complain about on the way home?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "No one had noticed their new clothes.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "They sat next to boys who pulled their hair.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Suki walked too slow in her red geta.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "They both had teachers who were mean and nasty.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 9
+            }
+        ]
+    }
+}

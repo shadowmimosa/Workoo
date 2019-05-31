@@ -1,0 +1,557 @@
+{
+    "publisherData": {
+        "modelId": "90196",
+        "name": "Kids Learning Tube",
+        "url": "https://www.youtube.com/channel/UC7EFWpvc1wYuUwrtZ_BLi9A",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1523404338
+    },
+    "epub": null,
+    "timePerPage": 2,
+    "book": {
+        "modelId": "37234",
+        "id": "37234",
+        "title": "Planets Song for Kids / Solar System Song",
+        "author": "Kids Learning Tube",
+        "illustrator": " ",
+        "numPages": 0,
+        "bookDescription": "This is a song for children about the 8 planets in our solar system. It's colorful, fun and a great learning tool!",
+        "coverColorR": 59,
+        "coverColorG": 42,
+        "coverColorB": 34,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Kids Learning Tube",
+        "publisherId": "90196",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "--",
+        "avgTimeInt": 0,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 4,
+        "subject": "84",
+        "subjectDesc": "Science",
+        "subjectColor": "29E69B",
+        "copyright": "",
+        "aspectRatio": 0,
+        "contentHash": "",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1519861953,
+        "duration": 212
+    },
+    "userBook": {
+        "modelId": "46250489-37234",
+        "userId": "46250489",
+        "bookId": "37234",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310730,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310730,
+        "book": {
+            "modelId": "37234",
+            "title": "Planets Song for Kids / Solar System Song",
+            "type": 4,
+            "active": 1,
+            "audio": 0,
+            "contentHash": ""
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "398023",
+            "user_id": "42395727",
+            "book_id": "37234",
+            "title": "PLANETS",
+            "description": "",
+            "date_created": 1556657159,
+            "date_modified": 1556657159,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What is the biggest planet?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Jupiter",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Mars",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Venus",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Earth",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What is jupiter's red spot?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "A raging storm.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "A  really hot place",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Part of the sun",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Ask a question",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What is the only planet people can live on?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Earth",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Saturn",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Jupiter",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "The sun",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What planet has rings?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Saturn",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Mars",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Sun",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Earth",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "What are Saturn's rings made of?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Dust and Icy Chunks",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Rock and minerals",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Garbage and food",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Nothing",
+                            "id": 3,
+                            "correct": 0
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "Which planet is known as the icy planet?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Uranus",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Neptune",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "None of the above",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "None",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 5
+                },
+                {
+                    "title": "How many planets are in the solar system?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "None featured here.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "9",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "7",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "10",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 6
+                },
+                {
+                    "title": "What do the planets do?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Revolve around the sun.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Stay put.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Do bumper boats.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Move freely.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 7
+                }
+            ],
+            "modelId": "398023",
+            "creatorName": "Jayden J.",
+            "avatarId": "39",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "42395727",
+                "udid": "5c93c46ee74eb4.49061136",
+                "journalName": "Jayden J.",
+                "journalCoverAvatar": "39",
+                "journalCoverColor": "0.12549019607843 0.92941176470588 0.96078431372549 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "0",
+                "code": "366176250",
+                "fid": "",
+                "accountID": "8665761a-0535-4c14-bc1c-c8b7e48f8e3f",
+                "simpleAccountId": "11105325",
+                "pagesFlipped": 21,
+                "nufComplete": 1,
+                "readingAge": 5.5666666666667,
+                "startingAge": 6,
+                "status": 0,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 68,
+                "xpLevel": 2,
+                "dateLastLogin": 1559244592,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "Jayden",
+                "lastName": "J",
+                "accountType": 1,
+                "dateModified": 1559244764,
+                "grade": 1
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What is the biggest planet?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Jupiter",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Mars",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Venus",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Earth",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What is jupiter's red spot?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "A raging storm.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "A  really hot place",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Part of the sun",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Ask a question",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What is the only planet people can live on?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Earth",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Saturn",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Jupiter",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "The sun",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What planet has rings?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Saturn",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Mars",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Sun",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Earth",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "What are Saturn's rings made of?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Dust and Icy Chunks",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Rock and minerals",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Garbage and food",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Nothing",
+                        "id": 3,
+                        "correct": 0
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "Which planet is known as the icy planet?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Uranus",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Neptune",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "None of the above",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "None",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 5
+            },
+            {
+                "title": "How many planets are in the solar system?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "None featured here.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "9",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "7",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "10",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 6
+            },
+            {
+                "title": "What do the planets do?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Revolve around the sun.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Stay put.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Do bumper boats.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Move freely.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 7
+            }
+        ]
+    }
+}

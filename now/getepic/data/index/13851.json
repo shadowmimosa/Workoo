@@ -1,0 +1,402 @@
+{
+    "publisherData": {
+        "modelId": "107",
+        "name": "Rourke Educational Media",
+        "url": "http://rourkeeducationalmedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570193
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/13851/OEBPS/Images/1/0ef04d73e7ea34e0aee6ffcf70664468.jpg",
+                "audio": "drm/1/13851/OEBPS/Audio/1/f3292cfbf6fb381748b9357d3c962a59.mp3"
+            },
+            {
+                "page": "drm/1/13851/OEBPS/Images/1/f7c780dc50499d8e3fc38a8046d0c90d.jpg",
+                "audio": "drm/1/13851/OEBPS/Audio/1/95a52689791f2c14c7892120b69c80b3.mp3"
+            },
+            {
+                "page": "drm/1/13851/OEBPS/Images/1/7d39981598c83ff69e6feb363a623490.jpg"
+            },
+            {
+                "page": "drm/1/13851/OEBPS/Images/1/f36cc589aa7420b9c269171350046f67.jpg",
+                "audio": "drm/1/13851/OEBPS/Audio/1/f4af233ec37a412e50776ae8c3e3261c.mp3"
+            },
+            {
+                "page": "drm/1/13851/OEBPS/Images/1/710d4cc117ab6202c670586b877640c9.jpg"
+            },
+            {
+                "page": "drm/1/13851/OEBPS/Images/1/d7ffbeb54fd43fd9e019a4a4c5cc7888.jpg",
+                "audio": "drm/1/13851/OEBPS/Audio/1/01dc906b361889debaa52e7a4d31942c.mp3"
+            },
+            {
+                "page": "drm/1/13851/OEBPS/Images/1/d746d516816f523ce41d39cc4270c5e1.jpg"
+            },
+            {
+                "page": "drm/1/13851/OEBPS/Images/1/265b119d5cdf556be34f2a451c72bb2c.jpg",
+                "audio": "drm/1/13851/OEBPS/Audio/1/9361f37d5fd686017a760767ab805917.mp3"
+            },
+            {
+                "page": "drm/1/13851/OEBPS/Images/1/8060523e259920f5cc4549c93b41cd31.jpg"
+            },
+            {
+                "page": "drm/1/13851/OEBPS/Images/1/b7a06f383016901a0bc035d68d5cd2bb.jpg",
+                "audio": "drm/1/13851/OEBPS/Audio/1/0c555db8b72ab940436d9f548dbe6b97.mp3"
+            },
+            {
+                "page": "drm/1/13851/OEBPS/Images/1/75ec17083f074dc33e32bb2734cb7138.jpg"
+            },
+            {
+                "page": "drm/1/13851/OEBPS/Images/1/f1e710630afde3caccb6d9ab52397b28.jpg",
+                "audio": "drm/1/13851/OEBPS/Audio/1/aab14856a823729ec97476e4e6e7a365.mp3"
+            },
+            {
+                "page": "drm/1/13851/OEBPS/Images/1/ffe7730a59e3920adb577b0e3be80c7c.jpg"
+            },
+            {
+                "page": "drm/1/13851/OEBPS/Images/1/83338fae5e043aeb6eb55f88cdc2407e.jpg",
+                "audio": "drm/1/13851/OEBPS/Audio/1/780b2e73de3e8cea449a14b0181ab4b2.mp3"
+            },
+            {
+                "page": "drm/1/13851/OEBPS/Images/1/aba9dbf831beebdc1e8ce817515059ea.jpg"
+            },
+            {
+                "page": "drm/1/13851/OEBPS/Images/1/c18185583f8a591a42b608666a35d15e.jpg",
+                "audio": "drm/1/13851/OEBPS/Audio/1/da1a0d098c7a8dcac6ded5676b86853b.mp3"
+            },
+            {
+                "page": "drm/1/13851/OEBPS/Images/1/52c2978cbbea8b353bd6ab1b596cb242.jpg"
+            },
+            {
+                "page": "drm/1/13851/OEBPS/Images/1/9372d611cdd9b4be9611123c0534c120.jpg",
+                "audio": "drm/1/13851/OEBPS/Audio/1/5cab3d1c42bdc4950c84828d5c38ce30.mp3"
+            },
+            {
+                "page": "drm/1/13851/OEBPS/Images/1/2ecccb87bf7464d4b19ebd4aa7f1179a.jpg"
+            },
+            {
+                "page": "drm/1/13851/OEBPS/Images/1/de80c95ab8c77ebf004910ff6724469d.jpg",
+                "audio": "drm/1/13851/OEBPS/Audio/1/b27c122b4ac4522a1cbf5b199167d045.mp3"
+            },
+            {
+                "page": "drm/1/13851/OEBPS/Images/1/a5e818fb31ba0e08c47fc0856ecd75cf.jpg"
+            },
+            {
+                "page": "drm/1/13851/OEBPS/Images/1/ddad2f4c99a7850d9e750ff286196134.jpg"
+            },
+            {
+                "page": "drm/1/13851/OEBPS/Images/1/0eb2af85dd76bcec9ad2143b442f4779.jpg"
+            },
+            {
+                "page": "drm/1/13851/OEBPS/Images/1/07887cf3cc5b7e220677f5a89392b6d8.jpg"
+            },
+            {
+                "page": "drm/1/13851/OEBPS/Images/1/6e33858f0df7687c8b2dc8aa1a520611.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/13851/OEBPS/Images/1/59cb339664aaefb281c300e766f6f828.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "13851",
+        "id": "13851",
+        "title": "Wet and Wild Waterpark",
+        "author": "Meg Greve",
+        "illustrator": "Marc Mones",
+        "numPages": 25,
+        "bookDescription": "A magical waterpark entertains the campers on a hot, hot day.",
+        "coverColorR": 154,
+        "coverColorG": 152,
+        "coverColorB": 162,
+        "version": 1,
+        "previewPercent": 20,
+        "publisher": "Rourke Educational Media",
+        "publisherId": "107",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 416,
+        "ar": "1.9",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Daily Life",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "9ad5c7f19f676e3f1e6e",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372696
+    },
+    "userBook": {
+        "modelId": "46250489-13851",
+        "userId": "46250489",
+        "bookId": "13851",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559309930,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559309930,
+        "book": {
+            "modelId": "13851",
+            "title": "Wet and Wild Waterpark",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "9ad5c7f19f676e3f1e6e"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "111073",
+            "user_id": "12718293",
+            "book_id": "13851",
+            "title": "Wet and Wild Waterpark",
+            "description": "",
+            "date_created": 1498748528,
+            "date_modified": 1510690087,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What was the problem in the story?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "The kids were hot and the pool had holes in it.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "The kids couldn't go to the waterpark.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "It was going to rain and the kids had no umbrella.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "Who helped the kids find a way to cool off?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Counselor Lou",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Counselor Nico",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Counselor Patty",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What did Counselor Lou do to help the kids cool off?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "He waved his wand and made a waterpark.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "He took them to a waterpark.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "He took them swimming at a lake.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Why did Counselor Lou have to stop the fun at the waterpark?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Will's boat was going to go down the wild waterfall ride.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "A wave in the wave pool was getting too big.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "It started raining.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 3
+                }
+            ],
+            "modelId": "111073",
+            "creatorName": "Teacher Profile",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "12718293",
+                "udid": "58765c69297355.95121229",
+                "journalName": "Mrs. Adler",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.84705882352941 0.18039215686275 0.46274509803922 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "684145480",
+                "fid": "",
+                "accountID": "6A5D7125-158A-6826-5E26-3CDCB66A0C7A",
+                "simpleAccountId": "4254117",
+                "pagesFlipped": 542,
+                "nufComplete": 1,
+                "readingAge": 5.16667,
+                "startingAge": 0,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 0,
+                "xpLevel": 1,
+                "dateLastLogin": 0,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Aubrey",
+                "lastName": "Adler",
+                "accountType": 1,
+                "dateModified": 1529869740,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Adler"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What was the problem in the story?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "The kids were hot and the pool had holes in it.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "The kids couldn't go to the waterpark.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "It was going to rain and the kids had no umbrella.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "Who helped the kids find a way to cool off?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Counselor Lou",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Counselor Nico",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Counselor Patty",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What did Counselor Lou do to help the kids cool off?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "He waved his wand and made a waterpark.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "He took them to a waterpark.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "He took them swimming at a lake.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Why did Counselor Lou have to stop the fun at the waterpark?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Will's boat was going to go down the wild waterfall ride.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "A wave in the wave pool was getting too big.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "It started raining.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 3
+            }
+        ]
+    }
+}

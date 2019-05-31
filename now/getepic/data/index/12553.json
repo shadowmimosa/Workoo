@@ -1,0 +1,168 @@
+{
+    "publisherData": {
+        "modelId": "109",
+        "name": "JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/3/12553/OEBPS/Images/1/5d46071694ca5168cee3196da177f978.jpg",
+                "audio": "drm/3/12553/OEBPS/Audio/1/8fc68d33fa0887fbe9ca686412eb9116.mp3"
+            },
+            {
+                "page": "drm/3/12553/OEBPS/Images/1/f95428f9c1ba512a700bd8199ad80e7b.jpg",
+                "audio": "drm/3/12553/OEBPS/Audio/1/4dbbdeca6847ca247b5c8b71cecbd7c1.mp3"
+            },
+            {
+                "page": "drm/3/12553/OEBPS/Images/1/6abc748efad790ba6de042b155a8799d.jpg",
+                "audio": "drm/3/12553/OEBPS/Audio/1/a1276553bf20d6ccaf6980319079d644.mp3"
+            },
+            {
+                "page": "drm/3/12553/OEBPS/Images/1/4da1960dd66e5c44dc05a93d1829c250.jpg",
+                "audio": "drm/3/12553/OEBPS/Audio/1/1c4f9796cb658a15d1caff25194263d1.mp3"
+            },
+            {
+                "page": "drm/3/12553/OEBPS/Images/1/efc7b8cef5b6342446adc5d79d627f38.jpg",
+                "audio": "drm/3/12553/OEBPS/Audio/1/c9538eaa7b1016626b997eec60b7a952.mp3"
+            },
+            {
+                "page": "drm/3/12553/OEBPS/Images/1/d0e91fdd3a0ad5963a6d75bed55ba19b.jpg",
+                "audio": "drm/3/12553/OEBPS/Audio/1/d4f5e41c668dd43f5421e618fdd04e58.mp3"
+            },
+            {
+                "page": "drm/3/12553/OEBPS/Images/1/bade60ce9ad797d29c69b8d108274dbe.jpg",
+                "audio": "drm/3/12553/OEBPS/Audio/1/49396e0b75353d31759bfb57b8cb7bed.mp3"
+            },
+            {
+                "page": "drm/3/12553/OEBPS/Images/1/16e4fe259c6a1b650ad366a4486159dd.jpg",
+                "audio": "drm/3/12553/OEBPS/Audio/1/5c72129a4207e337e765265bdb448b6e.mp3"
+            },
+            {
+                "page": "drm/3/12553/OEBPS/Images/1/bc907035a10faa4ac67c868cb2bc2b10.jpg"
+            },
+            {
+                "page": "drm/3/12553/OEBPS/Images/1/27355796a10498d1b3b15ef773ab5429.jpg",
+                "audio": "drm/3/12553/OEBPS/Audio/1/92d95080453321fe2ff55469eb04dc7f.mp3"
+            },
+            {
+                "page": "drm/3/12553/OEBPS/Images/1/3b857b886577d086a50fa32bbe1f0690.jpg"
+            },
+            {
+                "page": "drm/3/12553/OEBPS/Images/1/aa9cf8240b62fe5a2bd0916390364e21.jpg",
+                "audio": "drm/3/12553/OEBPS/Audio/1/dd416458c92537f00c8f46b9b936adcd.mp3"
+            },
+            {
+                "page": "drm/3/12553/OEBPS/Images/1/30ab34b5cc3c6e083ae0cd8af2709329.jpg"
+            },
+            {
+                "page": "drm/3/12553/OEBPS/Images/1/04e37bbfb16fa2f882f1cd21e330d989.jpg",
+                "audio": "drm/3/12553/OEBPS/Audio/1/628c4eca40c6c6e7f1039d9a17fb5c52.mp3"
+            },
+            {
+                "page": "drm/3/12553/OEBPS/Images/1/7cbf001e7d1b3defbf7ffb2b55dc8d82.jpg"
+            },
+            {
+                "page": "drm/3/12553/OEBPS/Images/1/7746c4495b2efcac0d567d3bd826f61f.jpg",
+                "audio": "drm/3/12553/OEBPS/Audio/1/55a6200898c245374d3061cbb51a65c6.mp3"
+            },
+            {
+                "page": "drm/3/12553/OEBPS/Images/1/32fd9f27f8993b2a92c416e1959f92a8.jpg"
+            },
+            {
+                "page": "drm/3/12553/OEBPS/Images/1/521b51463f61a10005a65d92a570e052.jpg",
+                "audio": "drm/3/12553/OEBPS/Audio/1/827e8ad861ee7c35754ba57af4418c73.mp3"
+            },
+            {
+                "page": "drm/3/12553/OEBPS/Images/1/b18d220d40ed85d2329c165cdff64200.jpg"
+            },
+            {
+                "page": "drm/3/12553/OEBPS/Images/1/ce0a536b113cf3f82bcd6f40eb3855d0.jpg"
+            },
+            {
+                "page": "drm/3/12553/OEBPS/Images/1/487b1179f7d9082e7ef634a9c4d455d0.jpg"
+            },
+            {
+                "page": "drm/3/12553/OEBPS/Images/1/59b558faa6be323ea89868a79015882c.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/3/12553/OEBPS/Images/1/d97f176497089d226f5696076e6767a7.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "12553",
+        "id": "12553",
+        "title": "Chickens",
+        "author": "Cari Meister",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "A hen narrates this photo-illustrated book describing the body parts and behavior of chickens on a farm.",
+        "coverColorR": 208,
+        "coverColorG": 181,
+        "coverColorB": 148,
+        "version": 2,
+        "previewPercent": 20,
+        "publisher": "JUMP",
+        "publisherId": "109",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "400L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 806,
+        "ar": "1.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Farm Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "f7c2d45c10f3600022b7",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372632
+    },
+    "userBook": {
+        "modelId": "46250489-12553",
+        "userId": "46250489",
+        "bookId": "12553",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559312129,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559312129,
+        "book": {
+            "modelId": "12553",
+            "title": "Chickens",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "f7c2d45c10f3600022b7"
+        }
+    },
+    "quiz": null
+}

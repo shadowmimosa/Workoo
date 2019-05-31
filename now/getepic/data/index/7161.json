@@ -1,0 +1,131 @@
+{
+    "publisherData": {
+        "modelId": "36",
+        "name": "Crabtree Publishing Company",
+        "url": "http://www.crabtreebooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1501029627
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/7161/OEBPS/Images/1/eae69aa0c4dd816f7e9af868cf830ffd.jpg"
+            },
+            {
+                "page": "drm/1/7161/OEBPS/Images/1/7b9740472a4f3e7d633c2912694fdf65.jpg"
+            },
+            {
+                "page": "drm/1/7161/OEBPS/Images/1/fe8df41be5ec8f6023df524a2ca532fc.jpg"
+            },
+            {
+                "page": "drm/1/7161/OEBPS/Images/1/f82f2725ae8652f41185720b39f2796f.jpg"
+            },
+            {
+                "page": "drm/1/7161/OEBPS/Images/1/597d512f3866ecef2e015a6de83a5002.jpg"
+            },
+            {
+                "page": "drm/1/7161/OEBPS/Images/1/7ba712b3b8ca203c34df3f88fe45ae5e.jpg"
+            },
+            {
+                "page": "drm/1/7161/OEBPS/Images/1/8f9acdf1ff694686f45d76dfa8b6e10b.jpg"
+            },
+            {
+                "page": "drm/1/7161/OEBPS/Images/1/a472060d3fd3b64211e69623e1730d4f.jpg"
+            },
+            {
+                "page": "drm/1/7161/OEBPS/Images/1/19828d2ecfeb497fba3fa2b394f64cf9.jpg"
+            },
+            {
+                "page": "drm/1/7161/OEBPS/Images/1/6c940ea334a21c1f5fc3b8680b4bfc1d.jpg"
+            },
+            {
+                "page": "drm/1/7161/OEBPS/Images/1/9bb70cadf4f501e3e90868d39188536d.jpg"
+            },
+            {
+                "page": "drm/1/7161/OEBPS/Images/1/26532c79a4bcc8a9b5fbc3df85157d58.jpg"
+            },
+            {
+                "page": "drm/1/7161/OEBPS/Images/1/986066c1ae4d3995bc7a7a136935ed94.jpg"
+            },
+            {
+                "page": "drm/1/7161/OEBPS/Images/1/28590facea5406693a4b8a00fafd7f99.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/7161/OEBPS/Images/1/72bcd598d1b83fd7b18f92d101374836.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "7161",
+        "id": "7161",
+        "title": "My Big and Small Pets",
+        "author": "Bobbie Kalman",
+        "illustrator": " ",
+        "numPages": 14,
+        "bookDescription": "A book about big and small pets.",
+        "coverColorR": 176,
+        "coverColorG": 177,
+        "coverColorB": 125,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Crabtree Publishing Company",
+        "publisherId": "36",
+        "age": 6,
+        "pageNumOffset": 1,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 256,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "d",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Pets",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "1e9fbfb8c7dd846badd9",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1555372320
+    },
+    "userBook": {
+        "modelId": "46250489-7161",
+        "userId": "46250489",
+        "bookId": "7161",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311528,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311528,
+        "book": {
+            "modelId": "7161",
+            "title": "My Big and Small Pets",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "1e9fbfb8c7dd846badd9"
+        }
+    },
+    "quiz": null
+}

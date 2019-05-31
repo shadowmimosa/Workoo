@@ -1,0 +1,202 @@
+{
+    "publisherData": {
+        "modelId": "90380",
+        "name": "Macmillan..",
+        "url": "http://www.macmillan.com/",
+        "checkout": 0,
+        "educationalEnabled": 0,
+        "dateModified": 1553528923
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/47db34390fa5bbb8973e00f1775c1ac5.jpg",
+                "audio": "drm/7/13027/OEBPS/Audio/1/ThePout-PoutFish-01.mp3"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/6db95850a937505129283f9263db11bd.jpg"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/239516b61b2a79d134c44b4767e2b474.jpg",
+                "audio": "drm/7/13027/OEBPS/Audio/1/ThePout-PoutFish-02.mp3"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/f1784db2bc17a4c9e03672e2a0119f40.jpg",
+                "audio": "drm/7/13027/OEBPS/Audio/1/ThePout-PoutFish-03.mp3"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/d0cf05f97af0038924d4615e467299d0.jpg"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/84338fc49fb1a6b3807a9807ac08612a.jpg",
+                "audio": "drm/7/13027/OEBPS/Audio/1/ThePout-PoutFish-04.mp3"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/72ac71f4819c8764268b350cd46be828.jpg"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/db9f3c75c972e0c93a28d185e58ceb36.jpg",
+                "audio": "drm/7/13027/OEBPS/Audio/1/ThePout-PoutFish-05.mp3"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/787386da60e8ed84f1d865d1c27ed52d.jpg"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/a97afa7ca0cf67ac034767d562912685.jpg",
+                "audio": "drm/7/13027/OEBPS/Audio/1/ThePout-PoutFish-06.mp3"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/8687e5182f181cc1ea57ee3e68329e92.jpg"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/036dd60ad48ec8220b6c3dbc49103027.jpg",
+                "audio": "drm/7/13027/OEBPS/Audio/1/ThePout-PoutFish-07.mp3"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/370f8e84428bb87d0147e381c26e5e8e.jpg"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/cb1ad644e042de4a333efbfaff4f2377.jpg",
+                "audio": "drm/7/13027/OEBPS/Audio/1/ThePout-PoutFish-08.mp3"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/d6bdb39a8dd65a88e61fdae8cbd95f61.jpg"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/8d4024266bdd423ab64a798b83d2f127.jpg",
+                "audio": "drm/7/13027/OEBPS/Audio/1/ThePout-PoutFish-09.mp3"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/9ab1574632274405f42687719e13de09.jpg"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/bdcd704a6846c3df0cbd4aa198e2652b.jpg",
+                "audio": "drm/7/13027/OEBPS/Audio/1/ThePout-PoutFish-10.mp3"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/3ef755bcb1ae55b9e912705fb20e6dc0.jpg"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/0f8d7bbe5a07589517621135a6c1ba00.jpg",
+                "audio": "drm/7/13027/OEBPS/Audio/1/ThePout-PoutFish-11.mp3"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/d32a13301d6c408e126500b4260e7d56.jpg"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/ebbd5b33480734e01b5d7fca91ae5aac.jpg",
+                "audio": "drm/7/13027/OEBPS/Audio/1/ThePout-PoutFish-12.mp3"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/4b0f22fd15dd5736dc07d496efa2f4df.jpg"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/71c200695bdfe84e4ffd9529eb9912e2.jpg",
+                "audio": "drm/7/13027/OEBPS/Audio/1/ThePout-PoutFish-13.mp3"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/af81d62d2dc0a4db0fc592b19ac75500.jpg"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/bfcb6ac0c1ec3b96862b18852efbd417.jpg",
+                "audio": "drm/7/13027/OEBPS/Audio/1/ThePout-PoutFish-14.mp3"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/eeb23077e7c3282deb53411eb964b91d.jpg"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/635e86fd4856017fc8f4447bc37e5b2c.jpg",
+                "audio": "drm/7/13027/OEBPS/Audio/1/ThePout-PoutFish-15.mp3"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/fec5a78bbbda5d1c229e74f590398a4c.jpg"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/83df194f9bdb81a86f48f553d90a57cd.jpg",
+                "audio": "drm/7/13027/OEBPS/Audio/1/ThePout-PoutFish-16.mp3"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/c36922a4b79271a7a731405c9b33e1f0.jpg"
+            },
+            {
+                "page": "drm/7/13027/OEBPS/Images/1/c4b7ef6b4859a25e4ceea0d0a9b65037.jpg",
+                "audio": "drm/7/13027/OEBPS/Audio/1/ThePout-PoutFish-17.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/13027/OEBPS/Images/1/8ef6ac0ca982dc8b0acce3380a20d452.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "13027",
+        "id": "13027",
+        "title": "The Pout-Pout Fish",
+        "author": "Deborah Diesen",
+        "illustrator": "Dan Hanna",
+        "numPages": 32,
+        "bookDescription": "Swim along with the pout-pout fish as he discovers that being glum and spreading \"dreary wearies\" isn't really his destiny.",
+        "coverColorR": 186,
+        "coverColorG": 207,
+        "coverColorB": 190,
+        "version": 12309,
+        "previewPercent": 20,
+        "publisher": "Macmillan..",
+        "publisherId": "90380",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 533,
+        "ar": "3.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Life Lessons",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 1,
+        "contentHash": "695d07c8b70942ff6eae",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1558139120
+    },
+    "userBook": {
+        "modelId": "46250489-13027",
+        "userId": "46250489",
+        "bookId": "13027",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310173,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310173,
+        "book": {
+            "modelId": "13027",
+            "title": "The Pout-Pout Fish",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "695d07c8b70942ff6eae"
+        }
+    },
+    "quiz": null
+}

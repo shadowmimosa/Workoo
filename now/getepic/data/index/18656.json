@@ -1,0 +1,424 @@
+{
+    "publisherData": {
+        "modelId": "168",
+        "name": "Flower Pot Press",
+        "url": "http://www.flowerpotpress.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260414
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/6/18656/OEBPS/Images/1/361b8520e6a04cfa310f79cb5043338c.jpg",
+                "audio": "drm/6/18656/OEBPS/Audio/1/5b6ff27a51c2ffbbdc357074dab4755c.mp3"
+            },
+            {
+                "page": "drm/6/18656/OEBPS/Images/1/1f26ddd3a136d8f277e134f6e1288556.jpg",
+                "audio": "drm/6/18656/OEBPS/Audio/1/6c481b4e1df81dd1fd13531833a57b42.mp3"
+            },
+            {
+                "page": "drm/6/18656/OEBPS/Images/1/b72b85ef680d9d82dee79ea2f2beafee.jpg"
+            },
+            {
+                "page": "drm/6/18656/OEBPS/Images/1/ce68ca2db47b6c4e9ea60d376ce97c1a.jpg",
+                "audio": "drm/6/18656/OEBPS/Audio/1/fa28d210252fc2aab843abea9f8b14ee.mp3"
+            },
+            {
+                "page": "drm/6/18656/OEBPS/Images/1/f3dc1d5e6479a6dc3046f29e9ee9e07f.jpg"
+            },
+            {
+                "page": "drm/6/18656/OEBPS/Images/1/b57b999b845e0f2448cd4dee4e13ce3e.jpg",
+                "audio": "drm/6/18656/OEBPS/Audio/1/0b5224b6dbb0b04821477cf737af3403.mp3"
+            },
+            {
+                "page": "drm/6/18656/OEBPS/Images/1/5d9fef871b9c4961f9ff6052211907f3.jpg"
+            },
+            {
+                "page": "drm/6/18656/OEBPS/Images/1/afa5e39518b68f3edb5cd2fda5b8384d.jpg",
+                "audio": "drm/6/18656/OEBPS/Audio/1/662c20a94d3d4a989ff673c74d771305.mp3"
+            },
+            {
+                "page": "drm/6/18656/OEBPS/Images/1/60d6ef0af35f64d85670b6546a486e7b.jpg"
+            },
+            {
+                "page": "drm/6/18656/OEBPS/Images/1/bb2c21ba59f797f996dc1ffab6f86f9f.jpg",
+                "audio": "drm/6/18656/OEBPS/Audio/1/cf18b4b76217bdeb181d50d717c08fec.mp3"
+            },
+            {
+                "page": "drm/6/18656/OEBPS/Images/1/2533295b93ccab79c5be81e26c74622f.jpg"
+            },
+            {
+                "page": "drm/6/18656/OEBPS/Images/1/4f792fa61510a1b6e4c4d394c7d38f0d.jpg",
+                "audio": "drm/6/18656/OEBPS/Audio/1/05e2f3fbffe8e634c49b52fc51da2970.mp3"
+            },
+            {
+                "page": "drm/6/18656/OEBPS/Images/1/e1e96f8a1b9c015ec7afb7177508abe7.jpg"
+            },
+            {
+                "page": "drm/6/18656/OEBPS/Images/1/c8c54e4d5eee29b584a37dbabc632e90.jpg",
+                "audio": "drm/6/18656/OEBPS/Audio/1/28b6d92b762716be4de71d66911519cd.mp3"
+            },
+            {
+                "page": "drm/6/18656/OEBPS/Images/1/f3d188fae73a9467851fbe3a108aceb4.jpg"
+            },
+            {
+                "page": "drm/6/18656/OEBPS/Images/1/021a375a2c8d4fc6a681d1c6656628fd.jpg",
+                "audio": "drm/6/18656/OEBPS/Audio/1/3929549d4e9a297b70fbfffba4168275.mp3"
+            },
+            {
+                "page": "drm/6/18656/OEBPS/Images/1/10ec72aeee1f563f868466bedf9e3fb7.jpg"
+            },
+            {
+                "page": "drm/6/18656/OEBPS/Images/1/cc97e79745613c9de1e44b2e5156d935.jpg",
+                "audio": "drm/6/18656/OEBPS/Audio/1/f656f22217a427e2578eb1eec2f4aece.mp3"
+            },
+            {
+                "page": "drm/6/18656/OEBPS/Images/1/fb60047ac59e25364c5bda3eaab421b9.jpg"
+            },
+            {
+                "page": "drm/6/18656/OEBPS/Images/1/5766f68ee13a0b6d97eb4b3d59152b54.jpg",
+                "audio": "drm/6/18656/OEBPS/Audio/1/f3f844bb7ce07f8898ecb002919b0880.mp3"
+            },
+            {
+                "page": "drm/6/18656/OEBPS/Images/1/d446553b8aad34ae68b8945766a6c7ce.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/6/18656/OEBPS/Images/1/6a589de954c88a7ceb7b26ee9fbae6df.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18656",
+        "id": "18656",
+        "title": "People",
+        "author": " ",
+        "illustrator": "Lisa M. Gardiner",
+        "numPages": 21,
+        "bookDescription": "The First Words series is an ideal learning tool for very young minds.",
+        "coverColorR": 118,
+        "coverColorG": 174,
+        "coverColorB": 181,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Flower Pot Press",
+        "publisherId": "168",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 315,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 81,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Learning Concepts",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "ed8d06b435d2d10ca6f0",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372870
+    },
+    "userBook": {
+        "modelId": "46250489-18656",
+        "userId": "46250489",
+        "bookId": "18656",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310985,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310985,
+        "book": {
+            "modelId": "18656",
+            "title": "People",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "ed8d06b435d2d10ca6f0"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "92713",
+            "user_id": "5034048",
+            "book_id": "18656",
+            "title": "Who do I meet?",
+            "description": "",
+            "date_created": 1494802635,
+            "date_modified": 1506561265,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Who is the first person in the book?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "bus driver",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "teacher",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "police officer",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "Who is a trash collector?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "a person who helps clean up",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "a person who drives a bus",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What does a farmer do?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Grow food for me",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Keeps me safe",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What does a soldier do?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Protects me",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "drives me",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "What does a teacher do?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "helps me learn",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "sells flowers",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "What does a doctor do?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "helps me be healthy",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "sells flowers",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 5
+                }
+            ],
+            "modelId": "92713",
+            "creatorName": "Mrs. Caywood",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "5034048",
+                "udid": "56b7f7dbf0e1a7.41574965",
+                "journalName": "Mrs. Caywood",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.84705882352941 0.18039215686275 0.46274509803922 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "873539109",
+                "fid": "",
+                "accountID": "C46B7470-13F9-D0F6-D85E-08EFD5D59C1F",
+                "simpleAccountId": "1959166",
+                "pagesFlipped": 1085,
+                "nufComplete": 1,
+                "readingAge": 7.9,
+                "startingAge": 8,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 58,
+                "xpLevel": 1,
+                "dateLastLogin": 1556841761,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Caywood",
+                "lastName": "Caywood",
+                "accountType": 1,
+                "dateModified": 1559141430,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Caywood"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Who is the first person in the book?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "bus driver",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "teacher",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "police officer",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "Who is a trash collector?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "a person who helps clean up",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "a person who drives a bus",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What does a farmer do?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Grow food for me",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Keeps me safe",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What does a soldier do?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Protects me",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "drives me",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "What does a teacher do?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "helps me learn",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "sells flowers",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "What does a doctor do?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "helps me be healthy",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "sells flowers",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 5
+            }
+        ]
+    }
+}

@@ -1,0 +1,162 @@
+{
+    "publisherData": {
+        "modelId": "90327",
+        "name": "ABDO Kids an imprint of ABDO Publishing",
+        "url": "http://abdopublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1527111706
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/25301/OEBPS/Images/1/5DDC7EDC-C369-4A0A-9772-D9D662DC0CE6.jpg",
+                "audio": "drm/1/25301/OEBPS/Audio/1/page1.mp3"
+            },
+            {
+                "page": "drm/1/25301/OEBPS/Images/1/8674CCA7-2DF6-4B83-823E-FFC4F967EE35.jpg",
+                "audio": "drm/1/25301/OEBPS/Audio/1/page4.mp3"
+            },
+            {
+                "page": "drm/1/25301/OEBPS/Images/1/954D9C19-22E7-4867-A1C8-0E9D7DE7EC47.jpg"
+            },
+            {
+                "page": "drm/1/25301/OEBPS/Images/1/1098DF10-0D6B-4907-AD83-134B474C8AF7.jpg",
+                "audio": "drm/1/25301/OEBPS/Audio/1/page6.mp3"
+            },
+            {
+                "page": "drm/1/25301/OEBPS/Images/1/8B837CAC-4A85-47D5-A478-A1B1B81AA5BE.jpg"
+            },
+            {
+                "page": "drm/1/25301/OEBPS/Images/1/22065FA1-FB85-4CE1-B3AF-4E25D69EDE01.jpg",
+                "audio": "drm/1/25301/OEBPS/Audio/1/page8.mp3"
+            },
+            {
+                "page": "drm/1/25301/OEBPS/Images/1/014CDC90-27EB-4225-9C2D-D0024CCE1FE7.jpg"
+            },
+            {
+                "page": "drm/1/25301/OEBPS/Images/1/B7E3638D-F02D-493E-8A44-90E37DD59614.jpg",
+                "audio": "drm/1/25301/OEBPS/Audio/1/page10.mp3"
+            },
+            {
+                "page": "drm/1/25301/OEBPS/Images/1/8AEB2844-225B-4487-85CA-8A724815DF66.jpg"
+            },
+            {
+                "page": "drm/1/25301/OEBPS/Images/1/E4E9BCE6-D222-4252-8278-EC25A08CF176.jpg",
+                "audio": "drm/1/25301/OEBPS/Audio/1/page12.mp3"
+            },
+            {
+                "page": "drm/1/25301/OEBPS/Images/1/5045BD41-411E-4421-90CA-9A65FB62DCEE.jpg"
+            },
+            {
+                "page": "drm/1/25301/OEBPS/Images/1/03D89280-34C3-4629-99AE-434AA95C40D9.jpg",
+                "audio": "drm/1/25301/OEBPS/Audio/1/page14.mp3"
+            },
+            {
+                "page": "drm/1/25301/OEBPS/Images/1/DADD6E85-4703-4F8C-A665-C6F1215D794E.jpg"
+            },
+            {
+                "page": "drm/1/25301/OEBPS/Images/1/019802F2-2138-4EA3-BF58-8AA9A9F3AEF0.jpg",
+                "audio": "drm/1/25301/OEBPS/Audio/1/page16.mp3"
+            },
+            {
+                "page": "drm/1/25301/OEBPS/Images/1/157170E7-5A4F-41EA-A50D-66DB78A0FAFF.jpg"
+            },
+            {
+                "page": "drm/1/25301/OEBPS/Images/1/2B7EE103-AD72-4D3F-B0A9-3ACDBE1F08AD.jpg",
+                "audio": "drm/1/25301/OEBPS/Audio/1/page18.mp3"
+            },
+            {
+                "page": "drm/1/25301/OEBPS/Images/1/F4CD3715-AF8E-4498-965B-20E88806852D.jpg"
+            },
+            {
+                "page": "drm/1/25301/OEBPS/Images/1/FA515A31-948D-42CF-B762-C102E51E4EE9.jpg",
+                "audio": "drm/1/25301/OEBPS/Audio/1/page20.mp3"
+            },
+            {
+                "page": "drm/1/25301/OEBPS/Images/1/EABC2701-FA68-4DE2-910B-ADBCEEFBF9DF.jpg"
+            },
+            {
+                "page": "drm/1/25301/OEBPS/Images/1/F496185B-6905-4FFE-B5B9-F392994D369E.jpg"
+            },
+            {
+                "page": "drm/1/25301/OEBPS/Images/1/43BE6D74-49DF-45FC-B91A-463201970164.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/25301/OEBPS/Images/1/FAB95518-A427-45A6-BAAD-802531916694.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "25301",
+        "id": "25301",
+        "title": "Zendaya",
+        "author": "Lucas Diver",
+        "illustrator": " ",
+        "numPages": 21,
+        "bookDescription": "Zendaya is a quadruple threat as a singer, dancer, actor, and author!",
+        "coverColorR": 165,
+        "coverColorG": 161,
+        "coverColorB": 112,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "ABDO Kids an imprint of ABDO Publishing",
+        "publisherId": "90327",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "350L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 385,
+        "ar": "2.0",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 85,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Profession",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 1.2064,
+        "contentHash": "38542b0b85e7193b44ae",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373025
+    },
+    "userBook": {
+        "modelId": "46250489-25301",
+        "userId": "46250489",
+        "bookId": "25301",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310648,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310648,
+        "book": {
+            "modelId": "25301",
+            "title": "Zendaya",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "38542b0b85e7193b44ae"
+        }
+    },
+    "quiz": null
+}

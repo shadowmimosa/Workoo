@@ -1,0 +1,177 @@
+{
+    "publisherData": {
+        "modelId": "29",
+        "name": "Lerner Publishing Group",
+        "url": "https://www.lernerbooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1523573683
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/48309/OEBPS/Images/1/db4360c6e14ab7286f5ffb8d47942ff3.jpg"
+            },
+            {
+                "page": "drm/9/48309/OEBPS/Images/1/f2d5540b44623f76026fd3f24c0e8230.jpg"
+            },
+            {
+                "page": "drm/9/48309/OEBPS/Images/1/894f25b61815772975a3be8dc4c335e5.jpg"
+            },
+            {
+                "page": "drm/9/48309/OEBPS/Images/1/3673221cc647f8c740f5e1586c432b5c.jpg"
+            },
+            {
+                "page": "drm/9/48309/OEBPS/Images/1/e49c8e957f81823636639d97153fa362.jpg"
+            },
+            {
+                "page": "drm/9/48309/OEBPS/Images/1/e61af6dec930e5ee53c797ddb16f1172.jpg"
+            },
+            {
+                "page": "drm/9/48309/OEBPS/Images/1/b0f2ca36c2d69bd8ee9ed6f3083f7c60.jpg"
+            },
+            {
+                "page": "drm/9/48309/OEBPS/Images/1/cabfb4399a5ded2729594a156aa0c070.jpg"
+            },
+            {
+                "page": "drm/9/48309/OEBPS/Images/1/67745bc84b3b9686c5a8e6edd0250033.jpg"
+            },
+            {
+                "page": "drm/9/48309/OEBPS/Images/1/3c6c10ca397a24faec63f1e7f848e8ea.jpg"
+            },
+            {
+                "page": "drm/9/48309/OEBPS/Images/1/5f0a1c349f61039b3bfe7cf7131e59f5.jpg"
+            },
+            {
+                "page": "drm/9/48309/OEBPS/Images/1/c6fd80c756d70bca7a859f0de2c90ce3.jpg"
+            },
+            {
+                "page": "drm/9/48309/OEBPS/Images/1/87a48aacf5c413105cb41f39154a68ee.jpg"
+            },
+            {
+                "page": "drm/9/48309/OEBPS/Images/1/925466e37c6edadc8562d55b4e38e950.jpg"
+            },
+            {
+                "page": "drm/9/48309/OEBPS/Images/1/dedbf4467693ac7a9bca9d76b851680b.jpg"
+            },
+            {
+                "page": "drm/9/48309/OEBPS/Images/1/961a9650f743e45948d11faf89350d20.jpg"
+            },
+            {
+                "page": "drm/9/48309/OEBPS/Images/1/88b67276548f92e70abdd7aa52233c84.jpg"
+            },
+            {
+                "page": "drm/9/48309/OEBPS/Images/1/fb85bf87b0d67ace9ca725d9363fc3c7.jpg"
+            },
+            {
+                "page": "drm/9/48309/OEBPS/Images/1/a0552f6133983d9abbe85430e80ebf3b.jpg"
+            },
+            {
+                "page": "drm/9/48309/OEBPS/Images/1/0d67ba62bd2939dda6f6239d0c373538.jpg"
+            },
+            {
+                "page": "drm/9/48309/OEBPS/Images/1/e25adfea3c4def18e351dd1c622e61b6.jpg"
+            },
+            {
+                "page": "drm/9/48309/OEBPS/Images/1/d3fe849cc66a26196237884f07d6efb9.jpg"
+            },
+            {
+                "page": "drm/9/48309/OEBPS/Images/1/38c29e562bf4f3b3c8266180978c1bb0.jpg"
+            },
+            {
+                "page": "drm/9/48309/OEBPS/Images/1/c52cba0348a89c7791843eb7f7b8d4de.jpg"
+            },
+            {
+                "page": "drm/9/48309/OEBPS/Images/1/572792cbb16ed1effe271062e07821fb.jpg"
+            },
+            {
+                "page": "drm/9/48309/OEBPS/Images/1/5b8b49fa7c1224c6f6cb7c2f57f05ccf.jpg"
+            },
+            {
+                "page": "drm/9/48309/OEBPS/Images/1/8a00aa2ccf329b1678bbf4b948ecf9a8.jpg"
+            },
+            {
+                "page": "drm/9/48309/OEBPS/Images/1/47962878c01121eabb885acbfa52f5af.jpg"
+            },
+            {
+                "page": "drm/9/48309/OEBPS/Images/1/26cd776767ef79e1c9102408e27513c0.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/48309/OEBPS/Images/1/378b376f9f058586d640e0d1204484dc.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "48309",
+        "id": "48309",
+        "title": "#4 The Frail Snail on the Trail: A Long Vowel Sounds Book with Consonant Blends",
+        "author": "Brian P. Cleary",
+        "illustrator": "Jason Miskimins",
+        "numPages": 29,
+        "bookDescription": "Come along with me and learn all about reading! Brian P. Cleary's wacky sentences and Jason Miskimins's colorful art will make phonics fun!",
+        "coverColorR": 84,
+        "coverColorG": 140,
+        "coverColorB": 79,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Lerner Publishing Group",
+        "publisherId": "29",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 531,
+        "ar": "2.1",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "j",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "ABCs & 123s",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.75,
+        "contentHash": "87e9212e71ba1a9ce054",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374151,
+        "duration": 4
+    },
+    "userBook": {
+        "modelId": "46250489-48309",
+        "userId": "46250489",
+        "bookId": "48309",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311703,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311703,
+        "book": {
+            "modelId": "48309",
+            "title": "#4 The Frail Snail on the Trail: A Long Vowel Sounds Book with Consonant Blends",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "87e9212e71ba1a9ce054"
+        }
+    },
+    "quiz": null
+}

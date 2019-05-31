@@ -1,0 +1,134 @@
+{
+    "publisherData": {
+        "modelId": "90050",
+        "name": "Amicus",
+        "url": "https://www.amicuspublishing.us/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491010374
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/61829/OEBPS/Images/1/3a12a0f38ec6f03f46c0e7299e5bfe8a.jpg"
+            },
+            {
+                "page": "drm/9/61829/OEBPS/Images/1/7a9ecdd70613c999d7a12cc671ce55d1.jpg"
+            },
+            {
+                "page": "drm/9/61829/OEBPS/Images/1/72f58712831719a07b4ace6b95bbb1e0.jpg"
+            },
+            {
+                "page": "drm/9/61829/OEBPS/Images/1/9ca52b5eb8ab0f1a790896c08d5c13af.jpg"
+            },
+            {
+                "page": "drm/9/61829/OEBPS/Images/1/929eff94c30089ec527e9c39b06d812f.jpg"
+            },
+            {
+                "page": "drm/9/61829/OEBPS/Images/1/864281ecaf30a0afce1d89187f1e994f.jpg"
+            },
+            {
+                "page": "drm/9/61829/OEBPS/Images/1/6d9a6d2df32b4856e9cc6202b428fae5.jpg"
+            },
+            {
+                "page": "drm/9/61829/OEBPS/Images/1/512e6eb6feeccacb05eee9cbf877b27d.jpg"
+            },
+            {
+                "page": "drm/9/61829/OEBPS/Images/1/eec109a5fd350481f79a5ff3cb4249c1.jpg"
+            },
+            {
+                "page": "drm/9/61829/OEBPS/Images/1/208945fcaf773c1fb7d1a6fb6b29989f.jpg"
+            },
+            {
+                "page": "drm/9/61829/OEBPS/Images/1/71c808721d0a4ca6b5c7be38500aa556.jpg"
+            },
+            {
+                "page": "drm/9/61829/OEBPS/Images/1/bc54643d2d3090d1bd314f35a998f5b2.jpg"
+            },
+            {
+                "page": "drm/9/61829/OEBPS/Images/1/e37665741f6b9dbcf214ea43b6065ec6.jpg"
+            },
+            {
+                "page": "drm/9/61829/OEBPS/Images/1/13e78db4ac0ef8afb01e3c689e13511d.jpg"
+            },
+            {
+                "page": "drm/9/61829/OEBPS/Images/1/c6140db903013d1427c3313c22b78c94.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/61829/OEBPS/Images/1/ade6fd9e704e3dff92abaec6021884f0.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "61829",
+        "id": "61829",
+        "title": "Baby Farm Animals: Puppies",
+        "author": "Anastasia Suen",
+        "illustrator": " ",
+        "numPages": 15,
+        "bookDescription": "Invites early readers to look for new vocabulary words and pictures of baby dogs. Gives simple facts about puppies living on a farm.",
+        "coverColorR": 179,
+        "coverColorG": 173,
+        "coverColorB": 174,
+        "version": 1583135443,
+        "previewPercent": 20,
+        "publisher": "Amicus",
+        "publisherId": "90050",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "230L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 416,
+        "ar": "0.9",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 85,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Dogs",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.875,
+        "contentHash": "17feca7b5e9ec80b82bf",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1556322218
+    },
+    "userBook": {
+        "modelId": "46250489-61829",
+        "userId": "46250489",
+        "bookId": "61829",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559305016,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559305016,
+        "book": {
+            "modelId": "61829",
+            "title": "Baby Farm Animals: Puppies",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "17feca7b5e9ec80b82bf"
+        }
+    },
+    "quiz": null
+}

@@ -1,0 +1,173 @@
+{
+    "publisherData": {
+        "modelId": "107",
+        "name": "Rourke Educational Media",
+        "url": "http://rourkeeducationalmedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539570193
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/18570/OEBPS/Images/1/efeb89b247f4d3cd28f34a3ff81bb680.jpg",
+                "audio": "drm/0/18570/OEBPS/Audio/1/0037328bb77ebe8f31a65ecff11b37c6.mp3"
+            },
+            {
+                "page": "drm/0/18570/OEBPS/Images/1/008973bb3808a88fcdcc6f5b1a0b0ae7.jpg",
+                "audio": "drm/0/18570/OEBPS/Audio/1/1edfef6ea55cc24701fce0ac0f6dedb3.mp3"
+            },
+            {
+                "page": "drm/0/18570/OEBPS/Images/1/894fef206b8056cb475ba30d25e7c282.jpg"
+            },
+            {
+                "page": "drm/0/18570/OEBPS/Images/1/72451687c551d67cc52809c88324456a.jpg",
+                "audio": "drm/0/18570/OEBPS/Audio/1/7ddb2d489dc48f6602156e1ff73a94e0.mp3"
+            },
+            {
+                "page": "drm/0/18570/OEBPS/Images/1/8d5fd9462446b4458fb0892c5faa8f9d.jpg"
+            },
+            {
+                "page": "drm/0/18570/OEBPS/Images/1/1016ebb8dd0583fd24e53f9457bace2f.jpg",
+                "audio": "drm/0/18570/OEBPS/Audio/1/2890a9991d961d83c10f2e17b2dbee31.mp3"
+            },
+            {
+                "page": "drm/0/18570/OEBPS/Images/1/f8ec0c19100e1f0196b20e92f5a56435.jpg"
+            },
+            {
+                "page": "drm/0/18570/OEBPS/Images/1/cf52181207a8c14fc63a382a99d60e16.jpg",
+                "audio": "drm/0/18570/OEBPS/Audio/1/fda82c85d720d2dd571d2858cd35ac2d.mp3"
+            },
+            {
+                "page": "drm/0/18570/OEBPS/Images/1/ac4244a305e1633e337de520e9ccfbed.jpg"
+            },
+            {
+                "page": "drm/0/18570/OEBPS/Images/1/3252ef532acef99769b742373b19bad3.jpg",
+                "audio": "drm/0/18570/OEBPS/Audio/1/2ecad317b515b62f8757a954992d035e.mp3"
+            },
+            {
+                "page": "drm/0/18570/OEBPS/Images/1/eb3d24d52fa2eeec3e38c772e43c8f1f.jpg"
+            },
+            {
+                "page": "drm/0/18570/OEBPS/Images/1/7454e3122f6454ba915a64768b536781.jpg",
+                "audio": "drm/0/18570/OEBPS/Audio/1/c424406967212d18c8e0ab7788f11471.mp3"
+            },
+            {
+                "page": "drm/0/18570/OEBPS/Images/1/c7fa9cff98915344ad7dea91cd9c88cc.jpg"
+            },
+            {
+                "page": "drm/0/18570/OEBPS/Images/1/7edd8ad22a658c417385106f5d4ad576.jpg",
+                "audio": "drm/0/18570/OEBPS/Audio/1/6ed2673712104428d7d054c6a0e6a254.mp3"
+            },
+            {
+                "page": "drm/0/18570/OEBPS/Images/1/9a7ad29f1ac382e05eb9af24d47ba175.jpg"
+            },
+            {
+                "page": "drm/0/18570/OEBPS/Images/1/9468e16de26b0c7764833e8d9a284fbf.jpg",
+                "audio": "drm/0/18570/OEBPS/Audio/1/3cfb41bd050ff0768bc61c85a600fa80.mp3"
+            },
+            {
+                "page": "drm/0/18570/OEBPS/Images/1/d324adac095f5e2b064c4ac51ea06c6e.jpg"
+            },
+            {
+                "page": "drm/0/18570/OEBPS/Images/1/c43ee86d9af3ed8d942aa2762b0b14c0.jpg",
+                "audio": "drm/0/18570/OEBPS/Audio/1/870e7da77f24fb0a9a0ea653143d66e9.mp3"
+            },
+            {
+                "page": "drm/0/18570/OEBPS/Images/1/e231ad1e5d239190091beb7cc333bfad.jpg"
+            },
+            {
+                "page": "drm/0/18570/OEBPS/Images/1/2a889f7eb104c4d7c774a7391e3b6f5d.jpg",
+                "audio": "drm/0/18570/OEBPS/Audio/1/015815978951c7f356994ae1356d9103.mp3"
+            },
+            {
+                "page": "drm/0/18570/OEBPS/Images/1/44dabb2fbb12a8a69de9b6459733353f.jpg"
+            },
+            {
+                "page": "drm/0/18570/OEBPS/Images/1/90458744c7b10a290bf4a59f8700ec9a.jpg",
+                "audio": "drm/0/18570/OEBPS/Audio/1/a5e9d185606539ad245115f994cc3272.mp3"
+            },
+            {
+                "page": "drm/0/18570/OEBPS/Images/1/72fbcdc19611620038758ad6722b210a.jpg"
+            },
+            {
+                "page": "drm/0/18570/OEBPS/Images/1/87896fd22dabfcf97db57c0516600062.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/18570/OEBPS/Images/1/6bd0e74df2ef6296c9ef664f55a1260c.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18570",
+        "id": "18570",
+        "title": "Plus 2, Minus 2",
+        "author": "Ann Matzke",
+        "illustrator": " ",
+        "numPages": 24,
+        "bookDescription": "Plus 2, Minus 2 relates counting by 2 to addition and subtraction.",
+        "coverColorR": 109,
+        "coverColorG": 159,
+        "coverColorB": 154,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Rourke Educational Media",
+        "publisherId": "107",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 800,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 81,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "ABCs & 123s",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "bd1828f31edd33e0fc2a",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372867
+    },
+    "userBook": {
+        "modelId": "46250489-18570",
+        "userId": "46250489",
+        "bookId": "18570",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311538,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311538,
+        "book": {
+            "modelId": "18570",
+            "title": "Plus 2, Minus 2",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "bd1828f31edd33e0fc2a"
+        }
+    },
+    "quiz": null
+}

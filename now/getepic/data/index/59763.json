@@ -1,0 +1,209 @@
+{
+    "publisherData": {
+        "modelId": "10",
+        "name": "Kids Can Press",
+        "url": "http://www.kidscanpress.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539816186
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/ff86fcc39551a42e20326cf684d4b532.jpg",
+                "audio": "drm/3/59763/OEBPS/Audio/1/9781525300745_cover.mp3"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/c83570c0152afb998f2729437f01c414.jpg"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/333aa342d053dafd7ace8efd9c93b92b.jpg",
+                "audio": "drm/3/59763/OEBPS/Audio/1/9781525300745_2.mp3"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/9ae46be6ef6735bd77e845ced8749c69.jpg",
+                "audio": "drm/3/59763/OEBPS/Audio/1/9781525300745_3.mp3"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/2c829c0a08d4dc472ec2ffbffe66e176.jpg",
+                "audio": "drm/3/59763/OEBPS/Audio/1/9781525300745_4.mp3"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/00767d7bc379e4278ac2eaea9e7e7e52.jpg"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/e7ce6df58cc092f2657d29b8594bcdc5.jpg",
+                "audio": "drm/3/59763/OEBPS/Audio/1/9781525300745_6.mp3"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/9cb47582bc8b5a94dfe5a1601700b9d2.jpg",
+                "audio": "drm/3/59763/OEBPS/Audio/1/9781525300745_7.mp3"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/d47a0e3d68d340fd8952e15b05a8fec8.jpg",
+                "audio": "drm/3/59763/OEBPS/Audio/1/9781525300745_8.mp3"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/dd9028ed61cb48a1b0b90844a1faacf7.jpg",
+                "audio": "drm/3/59763/OEBPS/Audio/1/9781525300745_9.mp3"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/ffb7ab43bf4ac203042eb16e00957751.jpg"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/2af7fca7c4384da92fffa1ecb2cad075.jpg",
+                "audio": "drm/3/59763/OEBPS/Audio/1/9781525300745_11.mp3"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/c7a66cc4613e245e8ed6e5bd09c80224.jpg",
+                "audio": "drm/3/59763/OEBPS/Audio/1/9781525300745_12.mp3"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/641bc1142b846686b12dfe81ff4d1ca6.jpg",
+                "audio": "drm/3/59763/OEBPS/Audio/1/9781525300745_13.mp3"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/ef606595bfce50bad86563a235f725c1.jpg",
+                "audio": "drm/3/59763/OEBPS/Audio/1/9781525300745_14.mp3"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/6c157ec1bfd8c9d10e352ba1d2eaf91d.jpg",
+                "audio": "drm/3/59763/OEBPS/Audio/1/9781525300745_15.mp3"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/568d1d38ed60c0e438bb04198f838459.jpg",
+                "audio": "drm/3/59763/OEBPS/Audio/1/9781525300745_16.mp3"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/6d46665498fb5ee8269d069b2668cecb.jpg",
+                "audio": "drm/3/59763/OEBPS/Audio/1/9781525300745_17.mp3"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/7d3a4af53c57195e45d5935accb6cb92.jpg",
+                "audio": "drm/3/59763/OEBPS/Audio/1/9781525300745_18.mp3"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/18c8d81f440da46bb3b521a1b3af98f0.jpg",
+                "audio": "drm/3/59763/OEBPS/Audio/1/9781525300745_19.mp3"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/f7c9069d4ebef1320a267f54fd71fc34.jpg",
+                "audio": "drm/3/59763/OEBPS/Audio/1/9781525300745_20.mp3"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/44478d31151587dac15dd1358cbb9bc4.jpg"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/4309cd403816680a41a24fcb73fafe88.jpg",
+                "audio": "drm/3/59763/OEBPS/Audio/1/9781525300745_22.mp3"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/ba08c6e62684f09f6f6ae53d1043cbe4.jpg",
+                "audio": "drm/3/59763/OEBPS/Audio/1/9781525300745_23.mp3"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/dfac5b1a1caa6db0f266f659b8f99f70.jpg"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/093bf02206e4d5f90fc63752fd27501f.jpg",
+                "audio": "drm/3/59763/OEBPS/Audio/1/9781525300745_25.mp3"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/281f6eeeb10a7a8e54b7741270eb6696.jpg",
+                "audio": "drm/3/59763/OEBPS/Audio/1/9781525300745_26.mp3"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/0d628d9a636e7ddcdea1c3b99cef9d0d.jpg",
+                "audio": "drm/3/59763/OEBPS/Audio/1/9781525300745_27.mp3"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/eba5b38bd3a432cd9f7ce08478410740.jpg"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/07859968c5205697c433df2eb44dbf7e.jpg",
+                "audio": "drm/3/59763/OEBPS/Audio/1/9781525300745_29.mp3"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/70d8cc1f2c9702ed405b76e78b613a67.jpg"
+            },
+            {
+                "page": "drm/3/59763/OEBPS/Images/1/11d073ed54a2520da72ab3e6249c6332.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/3/59763/OEBPS/Images/1/9d7f0e3f1f8de48b4ce98fbccd34afeb.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "59763",
+        "id": "59763",
+        "title": "The Day Dad Joined My Soccer Team",
+        "author": "Maureen Fergus",
+        "illustrator": "Mike Lowery",
+        "numPages": 32,
+        "bookDescription": "What\u2019s a boy to do with a dad like this?",
+        "coverColorR": 144,
+        "coverColorG": 180,
+        "coverColorB": 140,
+        "version": 888745131,
+        "previewPercent": 20,
+        "publisher": "Kids Can Press",
+        "publisherId": "10",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 533,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "83",
+        "subjectDesc": "Soccer",
+        "subjectColor": "0573CD",
+        "copyright": "",
+        "aspectRatio": 1.1128,
+        "contentHash": "ed711fc9a1523f1d2c62",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1549503945
+    },
+    "userBook": {
+        "modelId": "46250489-59763",
+        "userId": "46250489",
+        "bookId": "59763",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310203,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310203,
+        "book": {
+            "modelId": "59763",
+            "title": "The Day Dad Joined My Soccer Team",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "ed711fc9a1523f1d2c62"
+        }
+    },
+    "quiz": null
+}

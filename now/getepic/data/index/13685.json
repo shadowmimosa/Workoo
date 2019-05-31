@@ -1,0 +1,766 @@
+{
+    "publisherData": {
+        "modelId": "32",
+        "name": "Pippin Properties, Inc",
+        "url": "http://www.pippinproperties.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491261530
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/30b546c59b4f1c9d71c0b70567c17f8d.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/b9c2235c0f1da313c13bf718678fb587.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/8be886321d6b0f52aedf65c04e8bf0b2.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/d55f94c4a06acb762fe8448e0a606739.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/4ed5c30ae9aea05187400a3f4acf80c1.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/fa3fc88404d9d36635cc3acd9cb853b5.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/accf74e0b54a35b786d7bfbd42fc0a1a.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/0704fc2f48b6c674ee6d28ecd4ad1cc0.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/612a96d42f81220af3c92811f06b40f6.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/cbb69da56df4ae7cbe31900da446c4ab.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/9dfd5a9682984c883194ff5b60e450e3.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/9c09fa091e06c43523ad859f99b4a9bb.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/29d4df0e57fcb50fa785237652a8ef1f.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/69ea4b9c8e2826689ea349a957861c48.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/c164266123321436e37456ed0d29e186.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/aa63103c058565068aa0499b6e727aee.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/ac4ac6b733767038a4c8ed37983ec827.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/3db03e75e6c6a5254cdff0ef6b163d76.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/541a44cf90c4c8262019df8466229226.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/ac391208408aaf35fb67c077bf304de5.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/a96ee3a5e3784fa3ad152ee7db6d8846.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/71874f2cd6e3cb056ae388da1ca321e5.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/d16943e1c96f47857dc4193d13cda78c.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/3cb2e08528e0c28718cc878efaba08f7.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/d9c55d077e7b68117b92209625ace4fd.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/51ac300401cd50801ad6a464b2816b6a.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/cf5e4c4cd3ba61187147ca6c8fac213a.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/fc2ba00c77e74ac309ffd8549add8177.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/81bd9830f4b5bf78e3ef334988334185.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/bb9b8f115f2bc3a2a5f8063eb8d2d417.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/868076da4e9db8a35bd093fae90ecff4.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/3d8e3e68e55dbf067f0289cd6b5b2d7d.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/e61954870c30f90ad95b5223818e5083.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/29ed1648cd5bbc7097005c96c06a2271.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/85d4630a557064e6eb791ee92a5444a8.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/d4007455dfd0f06750feaf2621d85e4f.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/abfe77676793fab067fde23f495e5e0e.jpg"
+            },
+            {
+                "page": "drm/5/13685/OEBPS/Images/1/39e975f712cefe0f17807dc4e8484f06.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/13685/OEBPS/Images/1/4f08e214d39ee0281fa57f52810f0345.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "13685",
+        "id": "13685",
+        "title": "Fluffy's Funny Field Trip",
+        "author": "Kate McMullan",
+        "illustrator": "Mavis Smith",
+        "numPages": 38,
+        "bookDescription": "When Fluffy smells food inside Ms. Day\u00b9s handbag, he climbs inside. Soon, Fluffy is on his way to a fun-filled day at the planetarium!",
+        "coverColorR": 179,
+        "coverColorG": 161,
+        "coverColorB": 158,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Pippin Properties, Inc",
+        "publisherId": "32",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "460L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 696,
+        "ar": "2.1",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Daily Life",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 0.6667,
+        "contentHash": "64536ec1484b46cc74c2",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1555372685
+    },
+    "userBook": {
+        "modelId": "46250489-13685",
+        "userId": "46250489",
+        "bookId": "13685",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311298,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311298,
+        "book": {
+            "modelId": "13685",
+            "title": "Fluffy's Funny Field Trip",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "64536ec1484b46cc74c2"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "72895",
+            "user_id": "5744368",
+            "book_id": "13685",
+            "title": "Fluffy's Funny Field Trip",
+            "description": "",
+            "date_created": 1490969799,
+            "date_modified": 1507236041,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Where did Fluffy's class go on a field trip to?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "the planetarium",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "the aquarium",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "the museum",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What did Fluffy do when he climbed inside Ms. Day's purse?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "He ate her apple",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "He fell asleep",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "He called someone on the phone",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What is a constellation?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "star pictures",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "the sky",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "a drawing",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What did Emma say a constellation looked like?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "a connect-the-dots puzzle",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "a word search",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "paintings",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "What is Pegasus?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "a horse with wings",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "a giant guinea pig",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "a bear",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "What constellation resembles a handled object for dipping water?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "the Little and Big Dipper",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "a Pot and Pan",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Dip and Dots",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 5
+                },
+                {
+                    "title": "What constellation is the Big Dipper a greater part of?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "the Great Bear",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "the Scary Pig",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "the Flying Unicorn",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 6
+                },
+                {
+                    "title": "What happened to Fluffy in the show?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "He fell asleep",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "He got lost",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "He got in trouble for being too loud",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 7
+                },
+                {
+                    "title": "Who did Fluffy teach constellations to in his dream?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "other guinea pigs",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Emma's class",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Ms. Day",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 8
+                },
+                {
+                    "title": "Which of the following is not a constellation that Fluffy talked about during his dream?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "the fuzzy blanket",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "the giant carrot",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "the great pig",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 9
+                },
+                {
+                    "title": "Who was the \"Great Pig\" named after?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Fluffy",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Fluffy's dad",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Ms. Day",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 10
+                },
+                {
+                    "title": "What did Pegasus and Pigasus fight over at the end of the story?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "the giant carrot",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "the small pig",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "a horse",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 11
+                }
+            ],
+            "modelId": "72895",
+            "creatorName": "Mrs. Nichols",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "5744368",
+                "udid": "56d1bd47167712.96246389",
+                "journalName": "Mrs. Nichols",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.70588235294118 0.94509803921569 0.39607843137255 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "639687435",
+                "fid": "",
+                "accountID": "1735DBDA-8225-20D3-8165-3726C682B66A",
+                "simpleAccountId": "2203194",
+                "pagesFlipped": 20510,
+                "nufComplete": 1,
+                "readingAge": 6.5,
+                "startingAge": 7,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 3087,
+                "xpLevel": 27,
+                "dateLastLogin": 1556555289,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Whitney",
+                "lastName": "Nichols",
+                "accountType": 1,
+                "dateModified": 1556555289,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Nichols"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Where did Fluffy's class go on a field trip to?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "the planetarium",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "the aquarium",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "the museum",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What did Fluffy do when he climbed inside Ms. Day's purse?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "He ate her apple",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "He fell asleep",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "He called someone on the phone",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What is a constellation?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "star pictures",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "the sky",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "a drawing",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What did Emma say a constellation looked like?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "a connect-the-dots puzzle",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "a word search",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "paintings",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "What is Pegasus?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "a horse with wings",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "a giant guinea pig",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "a bear",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "What constellation resembles a handled object for dipping water?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "the Little and Big Dipper",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "a Pot and Pan",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Dip and Dots",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 5
+            },
+            {
+                "title": "What constellation is the Big Dipper a greater part of?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "the Great Bear",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "the Scary Pig",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "the Flying Unicorn",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 6
+            },
+            {
+                "title": "What happened to Fluffy in the show?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "He fell asleep",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "He got lost",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "He got in trouble for being too loud",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 7
+            },
+            {
+                "title": "Who did Fluffy teach constellations to in his dream?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "other guinea pigs",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Emma's class",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Ms. Day",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 8
+            },
+            {
+                "title": "Which of the following is not a constellation that Fluffy talked about during his dream?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "the fuzzy blanket",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "the giant carrot",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "the great pig",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 9
+            },
+            {
+                "title": "Who was the \"Great Pig\" named after?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Fluffy",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Fluffy's dad",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Ms. Day",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 10
+            },
+            {
+                "title": "What did Pegasus and Pigasus fight over at the end of the story?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "the giant carrot",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "the small pig",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "a horse",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 11
+            }
+        ]
+    }
+}

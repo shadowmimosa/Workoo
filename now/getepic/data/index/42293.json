@@ -1,0 +1,182 @@
+{
+    "publisherData": {
+        "modelId": "82",
+        "name": "Holiday House",
+        "url": "http://www.holidayhouse.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260666
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/5D67913D-F8D4-492C-B1BE-1202D29A27AD.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/2AB47F20-740D-4301-9AF5-A4E85AE364EB.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/6E799429-483D-4D60-A19E-8D77D5A01987.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/A08750A7-F7E9-4278-BF15-2F532787ACCA.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/76D60915-FE08-4196-9B15-A763D2A5BFE3.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/DEBD2724-005B-4AC6-A1F5-A00AFD3F220D.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/9F03A11C-C61C-4103-B26F-FD5ECE9D82F7.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/A60EBBB1-07AF-4498-93E0-70FB337BF511.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/50A78DD3-7E94-4A93-9906-18A16FFF2130.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/670E4806-F886-42C2-A0A9-E6E6B31D3E84.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/99817A4F-57B4-4DF1-9ACB-C0BDE2B0C01E.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/F5620E6F-A0FD-4FA8-A397-58EEE1673C20.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/EB9AF7C1-B338-47B6-8264-CE9C24593515.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/58731463-6025-4DE6-AE25-B0FE43E43A5A.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/514123B6-4906-4451-BF3B-B65EFCB0BC23.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/EEFB2C23-7AE9-4A01-97B2-CA0670020749.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/4A10F795-1D25-4B87-9B1A-B83003848E11.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/37818AA8-7A3E-4C91-B9AE-5831F74580F9.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/A31AAC63-C9F5-4D11-AD29-4779AF7A3150.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/37EA60CF-6EB9-4837-9C34-9E6A12962756.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/32C25157-0AA5-4F74-9FAD-00155DCC3E85.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/734AC46E-36E4-467D-BB6B-A223E2253699.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/42B8D66C-8425-4BFB-A7F5-4A911424C644.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/C5BAC283-264D-406D-92B0-C37A00C19402.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/BCAD4273-DF54-45D4-BCED-C5C63C3DBAF2.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/5744B57F-9805-4647-B7C6-68FED13FCE08.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/F55121C5-6DD4-4C90-8880-A7BDC89454C2.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/274F298C-1D07-43D4-9E7B-C43BAEB4AEC3.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/73F00028-8D5A-43B7-8C2F-5F1C19D73DE5.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/BF822EAE-2BA8-463C-8564-1A32AEA0AA6F.jpg"
+            },
+            {
+                "page": "drm/3/42293/OEBPS/Images/1/894B0796-F186-4461-AB1E-8D3502D6A35D.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/3/42293/OEBPS/Images/1/97CD29CD-AEF8-48EE-871A-55B7F3EAEC6F.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "42293",
+        "id": "42293",
+        "title": "Pizza-Pie Snowman",
+        "author": "Valeri Gorbachev",
+        "illustrator": " ",
+        "numPages": 31,
+        "bookDescription": "One snowy day, Pinky is heading to town to get a pizza for himself and his mother. Pinky won't let anything stand in the way of his mission!",
+        "coverColorR": 202,
+        "coverColorG": 187,
+        "coverColorB": 139,
+        "version": 0,
+        "previewPercent": 10,
+        "publisher": "Holiday House",
+        "publisherId": "82",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "AD610L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 568,
+        "ar": "2.9",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Daily Life",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 0.7761,
+        "contentHash": "de70ab175fd3188a6e5f",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1513382446
+    },
+    "userBook": {
+        "modelId": "46250489-42293",
+        "userId": "46250489",
+        "bookId": "42293",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311354,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311354,
+        "book": {
+            "modelId": "42293",
+            "title": "Pizza-Pie Snowman",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "de70ab175fd3188a6e5f"
+        }
+    },
+    "quiz": null
+}

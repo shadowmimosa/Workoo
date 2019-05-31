@@ -1,0 +1,155 @@
+{
+    "publisherData": {
+        "modelId": "90321",
+        "name": "Windmill Books an imprint of The Rosen Publishing Group, Inc",
+        "url": "https://rosenpublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1525128961
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/54088/OEBPS/Images/1/f78bac9a98d06f6b276b81dfba5ef689.jpg"
+            },
+            {
+                "page": "drm/8/54088/OEBPS/Images/1/e98a43072b945a4e55e43f59e213deaf.jpg"
+            },
+            {
+                "page": "drm/8/54088/OEBPS/Images/1/03be2ccf49e5ab508e486f31b9bb4611.jpg"
+            },
+            {
+                "page": "drm/8/54088/OEBPS/Images/1/aa739da56182ee8caf9c9cb77676106f.jpg"
+            },
+            {
+                "page": "drm/8/54088/OEBPS/Images/1/ff598cce2604b6292f56d75bdc13b4a9.jpg"
+            },
+            {
+                "page": "drm/8/54088/OEBPS/Images/1/5d40dc89c12fcc20b23fc3f0ae52fd7c.jpg"
+            },
+            {
+                "page": "drm/8/54088/OEBPS/Images/1/b5b72c25cc67a50541a75be7d989ddcb.jpg"
+            },
+            {
+                "page": "drm/8/54088/OEBPS/Images/1/c0560899f6c85450374c9f342a5c5757.jpg"
+            },
+            {
+                "page": "drm/8/54088/OEBPS/Images/1/d54c062daea8e9f9db576ac8d4e0f9bb.jpg"
+            },
+            {
+                "page": "drm/8/54088/OEBPS/Images/1/b9ab846cf0ed89bb361bf91eb52c150a.jpg"
+            },
+            {
+                "page": "drm/8/54088/OEBPS/Images/1/2760c2fbb21fa1d27abe7f29db322872.jpg"
+            },
+            {
+                "page": "drm/8/54088/OEBPS/Images/1/faf4faa0cdd3dab1f3376fa0c02d42d9.jpg"
+            },
+            {
+                "page": "drm/8/54088/OEBPS/Images/1/1257a71014f901f599b1d686475048da.jpg"
+            },
+            {
+                "page": "drm/8/54088/OEBPS/Images/1/0aadbb99c8718aebcf03118131da3e1c.jpg"
+            },
+            {
+                "page": "drm/8/54088/OEBPS/Images/1/8f28912977d54879e7c023e916d77ac3.jpg"
+            },
+            {
+                "page": "drm/8/54088/OEBPS/Images/1/e50bacf943cc44b5a2e8fae41c44776b.jpg"
+            },
+            {
+                "page": "drm/8/54088/OEBPS/Images/1/3c264992bbb6ec611b507984c539403c.jpg"
+            },
+            {
+                "page": "drm/8/54088/OEBPS/Images/1/d68e6e431ea3ae09ccae21f264892a93.jpg"
+            },
+            {
+                "page": "drm/8/54088/OEBPS/Images/1/7b6c2c5e72125cb435f5c7e139d9f54e.jpg"
+            },
+            {
+                "page": "drm/8/54088/OEBPS/Images/1/dbf7e62df4bdd941899dfad4702b61e4.jpg"
+            },
+            {
+                "page": "drm/8/54088/OEBPS/Images/1/455e4814c53fd42b96a3caf54a20b8c2.jpg"
+            },
+            {
+                "page": "drm/8/54088/OEBPS/Images/1/17e0621eb1721e7def5b3bd4a0d768a1.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/54088/OEBPS/Images/1/94a4598eb6b23fa434e277e3b8a3efe7.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "54088",
+        "id": "54088",
+        "title": "Drawing",
+        "author": "Paul Calver",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Drawing is a great artistic outlet. And all one needs is a piece of paper and a pencil!",
+        "coverColorR": 130,
+        "coverColorG": 153,
+        "coverColorB": 162,
+        "version": 12309,
+        "previewPercent": 20,
+        "publisher": "Windmill Books an imprint of The Rosen Publishing Group, Inc",
+        "publisherId": "90321",
+        "age": 6,
+        "pageNumOffset": 1,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 403,
+        "ar": "-",
+        "fandp": "h",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "Arts, Crafts, DIY",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.9982,
+        "contentHash": "a3a1e11bb9aa1b3d7f48",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374546
+    },
+    "userBook": {
+        "modelId": "46250489-54088",
+        "userId": "46250489",
+        "bookId": "54088",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310720,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310720,
+        "book": {
+            "modelId": "54088",
+            "title": "Drawing",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "a3a1e11bb9aa1b3d7f48"
+        }
+    },
+    "quiz": null
+}

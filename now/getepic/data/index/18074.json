@@ -1,0 +1,169 @@
+{
+    "publisherData": {
+        "modelId": "109",
+        "name": "JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/4/18074/OEBPS/Images/1/676f5396956efe35f0ee5bb8932daa83.jpg"
+            },
+            {
+                "page": "drm/4/18074/OEBPS/Images/1/199ce537bb1261054bb92aa452986f14.jpg",
+                "audio": "drm/4/18074/OEBPS/Audio/1/e5008b7db7230ade24466fab543a38ca.mp3"
+            },
+            {
+                "page": "drm/4/18074/OEBPS/Images/1/539012c98038f0fc81a470b50a3eef76.jpg",
+                "audio": "drm/4/18074/OEBPS/Audio/1/70a6c698836161f00ac4d51ca45ec812.mp3"
+            },
+            {
+                "page": "drm/4/18074/OEBPS/Images/1/6e05845eac14c8c054a9c12de2463de4.jpg",
+                "audio": "drm/4/18074/OEBPS/Audio/1/6b207a83b9d3517c5dfaa9d0acf429d4.mp3"
+            },
+            {
+                "page": "drm/4/18074/OEBPS/Images/1/e31900b11fd25cb2f97a3466bed8bf01.jpg"
+            },
+            {
+                "page": "drm/4/18074/OEBPS/Images/1/f48adb68ccdbd7c765389bf1d15d9e6c.jpg",
+                "audio": "drm/4/18074/OEBPS/Audio/1/e609959bee09e7f2a94b87526a2209d9.mp3"
+            },
+            {
+                "page": "drm/4/18074/OEBPS/Images/1/8f3a9d7b834d124dfeaf8ee7f347493e.jpg"
+            },
+            {
+                "page": "drm/4/18074/OEBPS/Images/1/93b0325908ba075d1e90d8487f15e6a5.jpg",
+                "audio": "drm/4/18074/OEBPS/Audio/1/60c91cbafa17e19e3c766cfd0f2b1c8b.mp3"
+            },
+            {
+                "page": "drm/4/18074/OEBPS/Images/1/a124ec5cb2998b7fa9c215dfe989f754.jpg",
+                "audio": "drm/4/18074/OEBPS/Audio/1/86ec6f6bb716b778067d6fa7b5a58738.mp3"
+            },
+            {
+                "page": "drm/4/18074/OEBPS/Images/1/25238a1d7647a10ee373d2f9746dd499.jpg",
+                "audio": "drm/4/18074/OEBPS/Audio/1/0573720e6115b91b612c55067b5e3aeb.mp3"
+            },
+            {
+                "page": "drm/4/18074/OEBPS/Images/1/cb5b68eaccfea1a0203ab061844a3a38.jpg"
+            },
+            {
+                "page": "drm/4/18074/OEBPS/Images/1/e7ca175876ff6e4accd5e82bbf6d80ed.jpg",
+                "audio": "drm/4/18074/OEBPS/Audio/1/0240816f93439847ba51441d6acded0e.mp3"
+            },
+            {
+                "page": "drm/4/18074/OEBPS/Images/1/85c8a8e200296b9485f35f3e757d3020.jpg",
+                "audio": "drm/4/18074/OEBPS/Audio/1/9a9edc266d6987453ee4a505c1197ccb.mp3"
+            },
+            {
+                "page": "drm/4/18074/OEBPS/Images/1/d4b2d0070656aa02c216fc8d26b30500.jpg",
+                "audio": "drm/4/18074/OEBPS/Audio/1/abd2c9a62111af9c8529f3e69e10ca57.mp3"
+            },
+            {
+                "page": "drm/4/18074/OEBPS/Images/1/67380ec701fff17682be3ef20fe39e22.jpg"
+            },
+            {
+                "page": "drm/4/18074/OEBPS/Images/1/826c5bc2a74753b2c92b10b147513fe1.jpg",
+                "audio": "drm/4/18074/OEBPS/Audio/1/f3374e72baa105483df66f4a93b68a40.mp3"
+            },
+            {
+                "page": "drm/4/18074/OEBPS/Images/1/63d286f637f1054a3d6ce2729baf7175.jpg"
+            },
+            {
+                "page": "drm/4/18074/OEBPS/Images/1/7f91f7d1d0c9e00aa63ee40563edb815.jpg",
+                "audio": "drm/4/18074/OEBPS/Audio/1/551274276441e0a64ef58c371f45b9df.mp3"
+            },
+            {
+                "page": "drm/4/18074/OEBPS/Images/1/ce2857fc8aeac2d8f9f2a7dff1089333.jpg"
+            },
+            {
+                "page": "drm/4/18074/OEBPS/Images/1/f8fabba2e3679d99ba25d809255baa70.jpg",
+                "audio": "drm/4/18074/OEBPS/Audio/1/silence.mp3"
+            },
+            {
+                "page": "drm/4/18074/OEBPS/Images/1/5095c80938c975c2e15f3218dcc3c1c4.jpg",
+                "audio": "drm/4/18074/OEBPS/Audio/1/23b4dae34aef79fe21b2f51a07254d85.mp3"
+            },
+            {
+                "page": "drm/4/18074/OEBPS/Images/1/4228414f2dc5d905b6610dadb7fcb46b.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/4/18074/OEBPS/Images/1/b5543f310188e4406e70d22be0db9754.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "18074",
+        "id": "18074",
+        "title": "Reptile World: Pythons",
+        "author": "Cari Meister",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "In Pythons, beginning readers will learn how pythons get heat energy from the sun and food energy from their prey.",
+        "coverColorR": 154,
+        "coverColorG": 151,
+        "coverColorB": 112,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "JUMP",
+        "publisherId": "109",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 733,
+        "ar": "0.9",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Wild Things",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 1.0025,
+        "contentHash": "a8f6ad2364b7acd49183",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372851
+    },
+    "userBook": {
+        "modelId": "46250489-18074",
+        "userId": "46250489",
+        "bookId": "18074",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310035,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310035,
+        "book": {
+            "modelId": "18074",
+            "title": "Reptile World: Pythons",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "a8f6ad2364b7acd49183"
+        }
+    },
+    "quiz": null
+}

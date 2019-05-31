@@ -1,0 +1,624 @@
+{
+    "publisherData": {
+        "modelId": "109",
+        "name": "JUMP",
+        "url": "http://www.jumplibrary.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491260900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/33795/OEBPS/Images/1/B5E25462-A2AA-4AC2-9DA0-820C1BF2099E.jpg"
+            },
+            {
+                "page": "drm/5/33795/OEBPS/Images/1/9703A626-23B4-4C24-B531-D79FCBF00B3E.jpg"
+            },
+            {
+                "page": "drm/5/33795/OEBPS/Images/1/E32E9D52-9AC1-4AB0-AC22-8F8C1FBAE9A5.jpg"
+            },
+            {
+                "page": "drm/5/33795/OEBPS/Images/1/77D7424B-D15B-4CEB-A37C-BCC66448A63A.jpg"
+            },
+            {
+                "page": "drm/5/33795/OEBPS/Images/1/24E72814-FE88-4698-BF09-8DD9572BAD9D.jpg"
+            },
+            {
+                "page": "drm/5/33795/OEBPS/Images/1/262D3021-9F7C-484E-A491-51A83525A0BE.jpg"
+            },
+            {
+                "page": "drm/5/33795/OEBPS/Images/1/74D43E3C-082F-4492-864A-08AE4C34C4F4.jpg"
+            },
+            {
+                "page": "drm/5/33795/OEBPS/Images/1/54892DB8-251E-4F1C-88ED-219C9C1B913C.jpg"
+            },
+            {
+                "page": "drm/5/33795/OEBPS/Images/1/7645E407-74F8-44AE-8126-4CCF60A9AD6D.jpg"
+            },
+            {
+                "page": "drm/5/33795/OEBPS/Images/1/38B94BF1-78FF-4546-BA5F-A3DEF9B32D1E.jpg"
+            },
+            {
+                "page": "drm/5/33795/OEBPS/Images/1/CCE1DC72-7996-4B61-AD34-DCEF61AB0CDD.jpg"
+            },
+            {
+                "page": "drm/5/33795/OEBPS/Images/1/CD67BE1F-D307-47EE-84D2-BB549183856E.jpg"
+            },
+            {
+                "page": "drm/5/33795/OEBPS/Images/1/3507BC0A-0293-4E27-BF8E-1F70B7BD574F.jpg"
+            },
+            {
+                "page": "drm/5/33795/OEBPS/Images/1/6036F778-AC48-478E-AFBE-39E0C58129B7.jpg"
+            },
+            {
+                "page": "drm/5/33795/OEBPS/Images/1/9A6FCFCF-A7BF-490D-8849-64BA7810D0AA.jpg"
+            },
+            {
+                "page": "drm/5/33795/OEBPS/Images/1/040D3DE9-AA65-4ED0-B8BF-CF69176601BF.jpg"
+            },
+            {
+                "page": "drm/5/33795/OEBPS/Images/1/5790A8D1-6AC1-414A-BC2C-DED1D2C45F7F.jpg"
+            },
+            {
+                "page": "drm/5/33795/OEBPS/Images/1/EF4CC523-79E8-47D8-9D21-7145DF9876A9.jpg"
+            },
+            {
+                "page": "drm/5/33795/OEBPS/Images/1/9DDC04C4-5D7D-4A1C-BDEE-F76F531BBBE2.jpg"
+            },
+            {
+                "page": "drm/5/33795/OEBPS/Images/1/7A9BD9C4-134E-4F82-9D4D-B8C82896A736.jpg"
+            },
+            {
+                "page": "drm/5/33795/OEBPS/Images/1/BB347FFF-CE97-4B71-81AD-D871B98F19B5.jpg"
+            },
+            {
+                "page": "drm/5/33795/OEBPS/Images/1/9157EAB9-2D87-4FF0-B324-7FDEB9A78CFD.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/33795/OEBPS/Images/1/F44AB240-A4FD-42F7-B7D8-D2205BD88468.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "33795",
+        "id": "33795",
+        "title": "Math It! Guess It!",
+        "author": "Nadia Higgins",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "In Guess It!, early fluent readers learn about the usefulness of estimating by exploring a variety of real-world examples.",
+        "coverColorR": 218,
+        "coverColorG": 204,
+        "coverColorB": 197,
+        "version": 12309,
+        "previewPercent": 20,
+        "publisher": "JUMP",
+        "publisherId": "109",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "420L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 403,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "ABCs & 123s",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.8333,
+        "contentHash": "d80b15069a62440bd105",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555373340
+    },
+    "userBook": {
+        "modelId": "46250489-33795",
+        "userId": "46250489",
+        "bookId": "33795",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311659,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311659,
+        "book": {
+            "modelId": "33795",
+            "title": "Math It! Guess It!",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "d80b15069a62440bd105"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "139709",
+            "user_id": "20562037",
+            "book_id": "33795",
+            "title": "Can you guess it?",
+            "description": "",
+            "date_created": 1509910085,
+            "date_modified": 1517255815,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "In math class, do you always need to have the correct answer?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Sometimes an estimate is the best answer.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Yes, you do.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "No, you don't.",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What is an estimate?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "An estimate is a smart guess.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "An estimate is a guess.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "An estimate is an exact answer.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "I really don't know.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "Estimate for me, how long does it take the average student to walk home?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "It  takes about 30 minutes at the most.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "It take about 5 hours to walk home.",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "We are all fast walkers, we can do it in about 5 seconds",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "We don't walk home.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Estimates are used when numbers are really large and would take too long to count.",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "True",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "False",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Estimation is a strategy to use to check and see your exact answer is close.",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Absolutely",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "I don't think so.",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 4
+                },
+                {
+                    "title": "Estimation takes a long time to figure out.",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "False",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "True",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 5
+                },
+                {
+                    "title": "We can use objects to help us estimate sizes, values, and distances.",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Definitely",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Maybe",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "I think so.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "I don't know about that.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 6
+                },
+                {
+                    "title": "Do you need an exact answer when comparing prices?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "no",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "yes",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 7
+                },
+                {
+                    "title": "What does it mean to round a number?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Rounding is when you substitute the value of one number with an easier close number.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Rounding a number means you guess at a number.",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 8
+                },
+                {
+                    "title": "When should you use estimation instead of an exact calculation?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "You should use estimation when you do not need to know the exact value in order to solve a problem.",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "You should use estimation when you want an easier problem",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Never it's not accurate.",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "I am not sure.",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 9
+                }
+            ],
+            "modelId": "139709",
+            "creatorName": "Mrs. Schies",
+            "avatarId": "79",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "20562037",
+                "udid": "59ff631f221925.37613347",
+                "journalName": "Mrs. Schies",
+                "journalCoverAvatar": "79",
+                "journalCoverColor": "0.93725490196078 0.37647058823529 0.30196078431373 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "265865768",
+                "fid": "",
+                "accountID": "1B27E329-F05C-7A3E-B3EE-07B4E9E9FD05",
+                "simpleAccountId": "6087933",
+                "pagesFlipped": 303,
+                "nufComplete": 1,
+                "readingAge": 9.76667,
+                "startingAge": 11,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 269,
+                "xpLevel": 6,
+                "dateLastLogin": 1555069320,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Donna",
+                "lastName": "Schies",
+                "accountType": 1,
+                "dateModified": 1559313691,
+                "educatorPrefix": "Mrs.",
+                "name": "Mrs. Schies"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "In math class, do you always need to have the correct answer?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Sometimes an estimate is the best answer.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Yes, you do.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "No, you don't.",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What is an estimate?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "An estimate is a smart guess.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "An estimate is a guess.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "An estimate is an exact answer.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "I really don't know.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "Estimate for me, how long does it take the average student to walk home?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "It  takes about 30 minutes at the most.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "It take about 5 hours to walk home.",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "We are all fast walkers, we can do it in about 5 seconds",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "We don't walk home.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Estimates are used when numbers are really large and would take too long to count.",
+                "quizQuestionChoices": [
+                    {
+                        "title": "True",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "False",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Estimation is a strategy to use to check and see your exact answer is close.",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Absolutely",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "I don't think so.",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 4
+            },
+            {
+                "title": "Estimation takes a long time to figure out.",
+                "quizQuestionChoices": [
+                    {
+                        "title": "False",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "True",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 5
+            },
+            {
+                "title": "We can use objects to help us estimate sizes, values, and distances.",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Definitely",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Maybe",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "I think so.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "I don't know about that.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 6
+            },
+            {
+                "title": "Do you need an exact answer when comparing prices?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "no",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "yes",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 7
+            },
+            {
+                "title": "What does it mean to round a number?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Rounding is when you substitute the value of one number with an easier close number.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Rounding a number means you guess at a number.",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 8
+            },
+            {
+                "title": "When should you use estimation instead of an exact calculation?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "You should use estimation when you do not need to know the exact value in order to solve a problem.",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "You should use estimation when you want an easier problem",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Never it's not accurate.",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "I am not sure.",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 9
+            }
+        ]
+    }
+}

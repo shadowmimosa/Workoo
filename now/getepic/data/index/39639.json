@@ -1,0 +1,506 @@
+{
+    "publisherData": {
+        "modelId": "28",
+        "name": "Xist Publishing",
+        "url": "http://www.xistpublishing.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539564197
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/61943A3F-CBD4-41B0-886D-0E58D20082D8.jpg",
+                "audio": "drm/9/39639/OEBPS/Audio/1/aud1.mp3"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/AC395EB1-C646-4F08-B208-11F20E018E58.jpg"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/D7DB4295-2A4D-439B-B9AF-E84AE02D0052.jpg",
+                "audio": "drm/9/39639/OEBPS/Audio/1/aud3.mp3"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/D1F6C9F6-ED26-4408-9772-0AC3235EAF44.jpg",
+                "audio": "drm/9/39639/OEBPS/Audio/1/aud4.mp3"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/A55114AF-031B-4570-8E50-DF2C47247214.jpg"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/48908420-5870-4913-AD2F-FFF4170FA378.jpg",
+                "audio": "drm/9/39639/OEBPS/Audio/1/aud6.mp3"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/8BF07EE3-DBDC-4114-9CD2-036D6DE384B7.jpg",
+                "audio": "drm/9/39639/OEBPS/Audio/1/aud7.mp3"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/B7803906-CE31-4639-AC2D-EA23132AE1B0.jpg",
+                "audio": "drm/9/39639/OEBPS/Audio/1/aud8.mp3"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/67D0A733-33D2-40EA-9110-3DCD2B51E5E6.jpg"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/0810A34C-3581-4A81-90DA-A74A24515165.jpg",
+                "audio": "drm/9/39639/OEBPS/Audio/1/aud10.mp3"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/98A54183-2921-431E-A365-CB7EE87E7955.jpg",
+                "audio": "drm/9/39639/OEBPS/Audio/1/11.mp3"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/9CF20192-6F7F-4DDF-81C1-92C70B675456.jpg"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/A7890C65-9393-4C09-8148-63D3276A569E.jpg",
+                "audio": "drm/9/39639/OEBPS/Audio/1/aud13.mp3"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/F9FAA459-1A39-4B60-8250-70A6C6043B21.jpg",
+                "audio": "drm/9/39639/OEBPS/Audio/1/aud14.mp3"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/598ACFD7-31BF-4376-BC9C-76AED3BFA2B4.jpg"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/91B03DFC-80EE-4B3C-B0F3-9E07079CC1A8.jpg"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/819CA5DF-B188-4366-9983-DA7216D47372.jpg",
+                "audio": "drm/9/39639/OEBPS/Audio/1/aud17.mp3"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/5E375A41-E15D-45A5-8EEA-00F47CF9661A.jpg",
+                "audio": "drm/9/39639/OEBPS/Audio/1/aud18.mp3"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/AB5FEFEF-8D49-45B8-8BC6-57A51CB31E4A.jpg"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/4DB0DCE9-4AFF-4341-902C-E709AACC5706.jpg",
+                "audio": "drm/9/39639/OEBPS/Audio/1/aud20.mp3"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/6A2B0F10-0D44-48FA-BC8E-9756508C85CB.jpg"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/F40669D4-DAF5-43E6-BEC5-565EB2DD6E82.jpg",
+                "audio": "drm/9/39639/OEBPS/Audio/1/aud22.mp3"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/DD8B70FB-1626-4F91-B63A-198BDC36DCE4.jpg"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/DF2254DC-D0A3-4FAC-82F7-220480739562.jpg"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/3A2E3C30-A8EF-4044-82ED-74EDA3CF18E0.jpg",
+                "audio": "drm/9/39639/OEBPS/Audio/1/aud25.mp3"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/2A11B0E2-00E5-4326-A337-06BC4EE2E641.jpg",
+                "audio": "drm/9/39639/OEBPS/Audio/1/aud26.mp3"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/841D978D-F8C4-4BB6-988F-C0D6B922F091.jpg"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/3CCE8F5C-93D8-4343-9F56-D758C92D56A3.jpg"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/A3555BCA-3B82-45C0-AC6A-F3C7E2452C94.jpg",
+                "audio": "drm/9/39639/OEBPS/Audio/1/aud29.mp3"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/B879D3A5-FE0A-4838-BF36-E21D3B5E9AB2.jpg"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/96B6F774-21A7-4542-9778-D9555BA12562.jpg",
+                "audio": "drm/9/39639/OEBPS/Audio/1/aud31.mp3"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/FAA133D9-E16D-478A-9E15-D2E9C31C4BD3.jpg",
+                "audio": "drm/9/39639/OEBPS/Audio/1/aud32.mp3"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/C4B5E5BF-26FC-423F-9477-4847447E2A5A.jpg"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/966E3B27-6CA0-4625-9102-8D2F022E4AD7.jpg"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/5FCD94E0-0173-4E96-895D-2CE32F92D47A.jpg",
+                "audio": "drm/9/39639/OEBPS/Audio/1/aud35.mp3"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/EA1667B9-06AE-46C3-A0D7-D3B19AB5F221.jpg"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/612CB0C8-6CD0-4803-9B44-492CC7688647.jpg",
+                "audio": "drm/9/39639/OEBPS/Audio/1/aud37.mp3"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/A4621738-81EE-4C48-8462-3139A25C2264.jpg",
+                "audio": "drm/9/39639/OEBPS/Audio/1/aud38.mp3"
+            },
+            {
+                "page": "drm/9/39639/OEBPS/Images/1/C6B2A84D-3DBE-4E17-B8B7-BFF1242378FF.jpg",
+                "audio": "drm/9/39639/OEBPS/Audio/1/aud39.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/9/39639/OEBPS/Images/1/8747AD30-FDC2-49C6-B147-C76A17843698.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "39639",
+        "id": "39639",
+        "title": "My Favorite Animal: Sharks",
+        "author": "Victoria Marcos",
+        "illustrator": " ",
+        "numPages": 39,
+        "bookDescription": "Learn all about sharks in this fun and informational text.",
+        "coverColorR": 29,
+        "coverColorG": 90,
+        "coverColorB": 98,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Xist Publishing",
+        "publisherId": "28",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 715,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Sea Life",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.8197,
+        "contentHash": "127a5831062937adb16e",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1557336122
+    },
+    "userBook": {
+        "modelId": "46250489-39639",
+        "userId": "46250489",
+        "bookId": "39639",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559307273,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559307273,
+        "book": {
+            "modelId": "39639",
+            "title": "My Favorite Animal: Sharks",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "127a5831062937adb16e"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "185090",
+            "user_id": "19722528",
+            "book_id": "39639",
+            "title": "Sharks!",
+            "description": "",
+            "date_created": 1520350638,
+            "date_modified": 1524775410,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "Sharks are a type of what?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "fish",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "dog",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "bird",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "dolphin",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What do Sharks breath out of?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Gills",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Mouth",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "A hole at the top",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What can Sharks smell from miles away?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Blood",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Mud",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Chocolate",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Rain",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "When do most sharks hunt?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "night",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "early morning",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "when it is light out",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 3
+                },
+                {
+                    "title": "Shark pups are born with a full set of teeth",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "True",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "False",
+                            "correct": 0,
+                            "id": 1
+                        }
+                    ],
+                    "id": 4
+                }
+            ],
+            "modelId": "185090",
+            "creatorName": "Raylen F.",
+            "avatarId": "39",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "19722528",
+                "udid": "59e4c64d961b69.90334582",
+                "journalName": "Raylen F.",
+                "journalCoverAvatar": "39",
+                "journalCoverColor": "0.0980392 0.305882 0.521569 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "132759476",
+                "fid": "",
+                "accountID": "8298DE15-09E4-165E-98BE-9977FAAFCE12",
+                "simpleAccountId": "3577910",
+                "pagesFlipped": 193,
+                "nufComplete": 1,
+                "readingAge": 5.7,
+                "startingAge": 7,
+                "status": 2,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 387,
+                "xpLevel": 6,
+                "dateLastLogin": 0,
+                "email": "",
+                "pin": "1234",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "Raylen",
+                "lastName": "Fowler",
+                "accountType": 1,
+                "dateModified": 1559222389
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "Sharks are a type of what?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "fish",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "dog",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "bird",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "dolphin",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What do Sharks breath out of?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Gills",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Mouth",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "A hole at the top",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What can Sharks smell from miles away?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Blood",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Mud",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Chocolate",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Rain",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "When do most sharks hunt?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "night",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "early morning",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "when it is light out",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 3
+            },
+            {
+                "title": "Shark pups are born with a full set of teeth",
+                "quizQuestionChoices": [
+                    {
+                        "title": "True",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "False",
+                        "correct": 0,
+                        "id": 1
+                    }
+                ],
+                "id": 4
+            }
+        ]
+    }
+}

@@ -1,0 +1,185 @@
+{
+    "publisherData": {
+        "modelId": "2",
+        "name": "Twin Sisters IP, LLC.",
+        "url": "http://www.twinsisters.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1547683900
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/60895/OEBPS/Images/1/f17261a0d5cae2def44a8335ea336e84.jpg",
+                "audio": "drm/5/60895/OEBPS/Audio/1/Title.mp3"
+            },
+            {
+                "page": "drm/5/60895/OEBPS/Images/1/7b3d4c286dc0409d6da674a5ba38ef21.jpg",
+                "audio": "drm/5/60895/OEBPS/Audio/1/Page 4.mp3"
+            },
+            {
+                "page": "drm/5/60895/OEBPS/Images/1/3f3746945bc05c49bd5fd0e0904f4537.jpg",
+                "audio": "drm/5/60895/OEBPS/Audio/1/Page 5.mp3"
+            },
+            {
+                "page": "drm/5/60895/OEBPS/Images/1/5d09aa8ddb6b19fd19023b572a14dfdc.jpg",
+                "audio": "drm/5/60895/OEBPS/Audio/1/Page 6.mp3"
+            },
+            {
+                "page": "drm/5/60895/OEBPS/Images/1/e201dd61326ae837f33c8ceb302277db.jpg",
+                "audio": "drm/5/60895/OEBPS/Audio/1/Page 7.mp3"
+            },
+            {
+                "page": "drm/5/60895/OEBPS/Images/1/827c1fb20d3e8ac4a34aa5a766fa822b.jpg",
+                "audio": "drm/5/60895/OEBPS/Audio/1/Page 8.mp3"
+            },
+            {
+                "page": "drm/5/60895/OEBPS/Images/1/b577720f3f52d1fbb9c323820e8fd6f5.jpg",
+                "audio": "drm/5/60895/OEBPS/Audio/1/Page 9.mp3"
+            },
+            {
+                "page": "drm/5/60895/OEBPS/Images/1/6fac5714e0a3e491af9a72a08867de4a.jpg",
+                "audio": "drm/5/60895/OEBPS/Audio/1/Page 10.mp3"
+            },
+            {
+                "page": "drm/5/60895/OEBPS/Images/1/4110082f7cdf3206273ca743ca6b87c4.jpg",
+                "audio": "drm/5/60895/OEBPS/Audio/1/Page 11.mp3"
+            },
+            {
+                "page": "drm/5/60895/OEBPS/Images/1/dbba1dfae76f23c1c6a1c9ec637a0244.jpg",
+                "audio": "drm/5/60895/OEBPS/Audio/1/Page 12.mp3"
+            },
+            {
+                "page": "drm/5/60895/OEBPS/Images/1/5868abeb63fadd708575391334723fd0.jpg",
+                "audio": "drm/5/60895/OEBPS/Audio/1/Page 13.mp3"
+            },
+            {
+                "page": "drm/5/60895/OEBPS/Images/1/04745e11a5b5dc80bac75708d914767c.jpg",
+                "audio": "drm/5/60895/OEBPS/Audio/1/Page 14.mp3"
+            },
+            {
+                "page": "drm/5/60895/OEBPS/Images/1/113c914cdd1913451ba6e9c48d5e4f2f.jpg",
+                "audio": "drm/5/60895/OEBPS/Audio/1/Page 15.mp3"
+            },
+            {
+                "page": "drm/5/60895/OEBPS/Images/1/1b134c1a94ce48e7240372818ad2ad67.jpg",
+                "audio": "drm/5/60895/OEBPS/Audio/1/Page 16.mp3"
+            },
+            {
+                "page": "drm/5/60895/OEBPS/Images/1/da400bbc06fab588c2ede649d1688819.jpg",
+                "audio": "drm/5/60895/OEBPS/Audio/1/Page 17.mp3"
+            },
+            {
+                "page": "drm/5/60895/OEBPS/Images/1/99e48e9cd48843f99313500ac8f8631f.jpg",
+                "audio": "drm/5/60895/OEBPS/Audio/1/Page 18.mp3"
+            },
+            {
+                "page": "drm/5/60895/OEBPS/Images/1/a03944b29036389c2446f6c6a4b8983c.jpg",
+                "audio": "drm/5/60895/OEBPS/Audio/1/Page 19.mp3"
+            },
+            {
+                "page": "drm/5/60895/OEBPS/Images/1/104c2b7adfe87baf05ec7b2784aacc81.jpg",
+                "audio": "drm/5/60895/OEBPS/Audio/1/Page 20.mp3"
+            },
+            {
+                "page": "drm/5/60895/OEBPS/Images/1/467cbf4e69a227a161eb2cc8c17c16e3.jpg",
+                "audio": "drm/5/60895/OEBPS/Audio/1/Page 21.mp3"
+            },
+            {
+                "page": "drm/5/60895/OEBPS/Images/1/e4e64b141623d9cb14d3d02157323248.jpg",
+                "audio": "drm/5/60895/OEBPS/Audio/1/Page 22.mp3"
+            },
+            {
+                "page": "drm/5/60895/OEBPS/Images/1/c6cea08d5df9b8baf4dbf98ee38fae8f.jpg",
+                "audio": "drm/5/60895/OEBPS/Audio/1/Page 23.mp3"
+            },
+            {
+                "page": "drm/5/60895/OEBPS/Images/1/9b6ff1d81a0a7070200f5e817c73b369.jpg",
+                "audio": "drm/5/60895/OEBPS/Audio/1/Page 24.mp3"
+            },
+            {
+                "page": "drm/5/60895/OEBPS/Images/1/ab518584e76f5d8683276e827c4e35d1.jpg",
+                "audio": "drm/5/60895/OEBPS/Audio/1/Page 25.mp3"
+            },
+            {
+                "page": "drm/5/60895/OEBPS/Images/1/49ad03d3707a19b4bffb7437fc022c12.jpg",
+                "audio": "drm/5/60895/OEBPS/Audio/1/Page 26.mp3"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/60895/OEBPS/Images/1/f881e7026f818fc2c9eb154be03e1788.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "60895",
+        "id": "60895",
+        "title": "On The Farm",
+        "author": "Christopher Nicholas",
+        "illustrator": "Drew-Brooke-Cormack",
+        "numPages": 24,
+        "bookDescription": "When Little Bear\u2019s Mommy is in bed with the flu, Daddy bear decides to make breakfast.",
+        "coverColorR": 151,
+        "coverColorG": 124,
+        "coverColorB": 106,
+        "version": 2147483647,
+        "previewPercent": 20,
+        "publisher": "Twin Sisters IP, LLC.",
+        "publisherId": "2",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 400,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 81,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Farm Animals",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.7742,
+        "contentHash": "4ebd03d5ea3a3ff81d63",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555374929
+    },
+    "userBook": {
+        "modelId": "46250489-60895",
+        "userId": "46250489",
+        "bookId": "60895",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559303818,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559303818,
+        "book": {
+            "modelId": "60895",
+            "title": "On The Farm",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "4ebd03d5ea3a3ff81d63"
+        }
+    },
+    "quiz": null
+}

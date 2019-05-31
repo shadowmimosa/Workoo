@@ -1,0 +1,155 @@
+{
+    "publisherData": {
+        "modelId": "90050",
+        "name": "Amicus",
+        "url": "https://www.amicuspublishing.us/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491010374
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/8/22428/OEBPS/Images/1/56C310E3-9650-4764-94DF-5E463DDA99F3.jpg"
+            },
+            {
+                "page": "drm/8/22428/OEBPS/Images/1/D7631F03-DFAE-4B3B-81A4-EF8C77FC57D8.jpg"
+            },
+            {
+                "page": "drm/8/22428/OEBPS/Images/1/267B2AB1-46FD-4B72-9E98-841B4AB8B6D7.jpg"
+            },
+            {
+                "page": "drm/8/22428/OEBPS/Images/1/6B26751F-14CB-4576-B38F-2ADA399A3173.jpg"
+            },
+            {
+                "page": "drm/8/22428/OEBPS/Images/1/D095AC07-5BA6-4615-89D9-8612068B478A.jpg"
+            },
+            {
+                "page": "drm/8/22428/OEBPS/Images/1/42A91996-2554-4BC7-9C8D-EA239F25AC7E.jpg"
+            },
+            {
+                "page": "drm/8/22428/OEBPS/Images/1/7F0F06EC-EF56-4675-ADD9-249F9B7B618E.jpg"
+            },
+            {
+                "page": "drm/8/22428/OEBPS/Images/1/D420C053-597B-45A9-BDDD-29C5A7A74D56.jpg"
+            },
+            {
+                "page": "drm/8/22428/OEBPS/Images/1/EA74D852-5387-4D9A-B156-21E78D33E99B.jpg"
+            },
+            {
+                "page": "drm/8/22428/OEBPS/Images/1/FB66C59C-A471-4BBB-93D6-0DE8EAC3598E.jpg"
+            },
+            {
+                "page": "drm/8/22428/OEBPS/Images/1/61D71C7B-2226-4475-9636-4B28574531DC.jpg"
+            },
+            {
+                "page": "drm/8/22428/OEBPS/Images/1/C9EC92B6-EE65-47FA-A928-309B7CD7DD6B.jpg"
+            },
+            {
+                "page": "drm/8/22428/OEBPS/Images/1/45105995-D6A5-44AF-A81F-DB76F7B4D0B2.jpg"
+            },
+            {
+                "page": "drm/8/22428/OEBPS/Images/1/A50558F6-AF9C-4DB2-BE93-87B720413A80.jpg"
+            },
+            {
+                "page": "drm/8/22428/OEBPS/Images/1/CE3F98D6-FC67-4D5A-AE5B-ADB014C2DE13.jpg"
+            },
+            {
+                "page": "drm/8/22428/OEBPS/Images/1/293F2B8B-A1A4-478E-8DE2-B30CC80A9FC1.jpg"
+            },
+            {
+                "page": "drm/8/22428/OEBPS/Images/1/606C2948-F48A-4E53-B950-7536A44492CF.jpg"
+            },
+            {
+                "page": "drm/8/22428/OEBPS/Images/1/41549264-1942-425C-820F-66FD70667A92.jpg"
+            },
+            {
+                "page": "drm/8/22428/OEBPS/Images/1/92060F32-01C9-4981-B202-AD22A926A74D.jpg"
+            },
+            {
+                "page": "drm/8/22428/OEBPS/Images/1/96366616-9C27-40D5-902B-E33197880F44.jpg"
+            },
+            {
+                "page": "drm/8/22428/OEBPS/Images/1/056FB205-E12D-4BE1-96B7-808450156E98.jpg"
+            },
+            {
+                "page": "drm/8/22428/OEBPS/Images/1/0DE8DE8D-0CA1-4A93-B096-5B58DC4A7C16.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/8/22428/OEBPS/Images/1/3573A448-DA35-466E-A943-73C5CFE3755F.jpg",
+            "color": "#fffefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "22428",
+        "id": "22428",
+        "title": "Around The Moon 1,2,3: A Space Counting Book",
+        "author": "Tracey E. Dils",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Introduces the moon, planets, and other objects in space, while teaching the concept of counting to ten.",
+        "coverColorR": 116,
+        "coverColorG": 133,
+        "coverColorB": 125,
+        "version": 12309,
+        "previewPercent": 20,
+        "publisher": "Amicus",
+        "publisherId": "90050",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "420L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 268,
+        "ar": "1.6",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 83,
+        "type": 1,
+        "subject": "87",
+        "subjectDesc": "ABCs & 123s",
+        "subjectColor": "956FCD",
+        "copyright": "",
+        "aspectRatio": 0.8603,
+        "contentHash": "2bf1800752b83f6f83a0",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1555372952
+    },
+    "userBook": {
+        "modelId": "46250489-22428",
+        "userId": "46250489",
+        "bookId": "22428",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311635,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311635,
+        "book": {
+            "modelId": "22428",
+            "title": "Around The Moon 1,2,3: A Space Counting Book",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "2bf1800752b83f6f83a0"
+        }
+    },
+    "quiz": null
+}

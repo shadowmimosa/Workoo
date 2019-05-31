@@ -1,0 +1,349 @@
+{
+    "publisherData": {
+        "modelId": "162",
+        "name": "Scholastic Audio",
+        "url": "http://www.scholastic.com/home/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1543451983
+    },
+    "epub": null,
+    "timePerPage": 2,
+    "book": {
+        "modelId": "14524",
+        "id": "14524",
+        "title": "Pigsty",
+        "author": "Mark Teague",
+        "illustrator": "Skip Hinnant",
+        "numPages": 0,
+        "bookDescription": "Wendell Flutz's room isn't a mess. It's a total pigsty. But Wendell's mother can't get him to clean it up.",
+        "coverColorR": 136,
+        "coverColorG": 94,
+        "coverColorB": 97,
+        "version": 0,
+        "previewPercent": 10,
+        "publisher": "Scholastic Audio",
+        "publisherId": "162",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "AD590L",
+        "avgTime": "--",
+        "avgTimeInt": 0,
+        "ar": "2.8",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "k",
+        "language": 1,
+        "rating": 83,
+        "type": 2,
+        "subject": "88",
+        "subjectDesc": "Humorous Stories",
+        "subjectColor": "FFD673",
+        "copyright": "\u00a9 2007 Scholastic Audio Books.  All rights reserved.",
+        "aspectRatio": 0,
+        "contentHash": "",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "0",
+        "panelStatus": 0,
+        "date_modified": 1549314774,
+        "duration": 304
+    },
+    "userBook": {
+        "modelId": "46250489-14524",
+        "userId": "46250489",
+        "bookId": "14524",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311743,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311743,
+        "book": {
+            "modelId": "14524",
+            "title": "Pigsty",
+            "type": 2,
+            "active": 1,
+            "audio": 0,
+            "contentHash": ""
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "398519",
+            "user_id": "43621409",
+            "book_id": "14524",
+            "title": "Pigsty",
+            "description": "",
+            "date_created": 1556721391,
+            "date_modified": 1556721391,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "What day of the week did Wendell find the first pig in his room?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Monday",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Sunday",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Tuesday ",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Wednesday",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "What did they use for a trampoline?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Wendell\u2019s bed",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Another pig",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "A blanket",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "A trampoline ",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "How did Wendell feel about the pigs at the end of the week?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "He did not like them. ",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "He loved playing games with them. ",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "He thought they were fun. ",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "He blamed them for the mess. ",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "What happened to the pigs at the end of the story?",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "They went back to the farm. ",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "They got mad a Wendell. ",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "The had a party. ",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "They invited more pigs to come play. ",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 3
+                }
+            ],
+            "modelId": "398519",
+            "creatorName": "Brianna R.",
+            "avatarId": "38",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "43621409",
+                "udid": "5cabcbee0fa322.31149385",
+                "journalName": "Brianna R.",
+                "journalCoverAvatar": "38",
+                "journalCoverColor": "0.15686274509804 0.47058823529412 0.60392156862745 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "1",
+                "code": "153228572",
+                "fid": "",
+                "accountID": "307aaef3-dd95-4cdb-8c10-bfa2c60911b0",
+                "simpleAccountId": "11413211",
+                "pagesFlipped": 1498,
+                "nufComplete": 1,
+                "readingAge": 8,
+                "startingAge": 7,
+                "status": 0,
+                "isParent": 0,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 64,
+                "xpLevel": 9,
+                "dateLastLogin": 1558102694,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 1,
+                "firstName": "Brianna",
+                "lastName": "Reasoner",
+                "accountType": 1,
+                "dateModified": 1558104351,
+                "grade": 2
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "What day of the week did Wendell find the first pig in his room?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Monday",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Sunday",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Tuesday ",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Wednesday",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "What did they use for a trampoline?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Wendell\u2019s bed",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Another pig",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "A blanket",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "A trampoline ",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "How did Wendell feel about the pigs at the end of the week?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "He did not like them. ",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "He loved playing games with them. ",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "He thought they were fun. ",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "He blamed them for the mess. ",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "What happened to the pigs at the end of the story?",
+                "quizQuestionChoices": [
+                    {
+                        "title": "They went back to the farm. ",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "They got mad a Wendell. ",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "The had a party. ",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "They invited more pigs to come play. ",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 3
+            }
+        ]
+    }
+}

@@ -1,0 +1,140 @@
+{
+    "publisherData": {
+        "modelId": "90123",
+        "name": "Red Rocket Readers provided by Flying Start Books",
+        "url": "http://flyingstartbooks.com/red-rocket/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1549321001
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/7/35487/OEBPS/Images/1/C506BE2D-7330-47D6-AC61-C87C31830B95.jpg"
+            },
+            {
+                "page": "drm/7/35487/OEBPS/Images/1/CC5F01FE-5B31-4B9F-9A64-6DD786702101.jpg"
+            },
+            {
+                "page": "drm/7/35487/OEBPS/Images/1/AA6FF0C5-B81E-4FCC-9E9D-9B61C83BCE5C.jpg"
+            },
+            {
+                "page": "drm/7/35487/OEBPS/Images/1/A05310C2-AD6D-41F9-9C10-EB5FFE510250.jpg"
+            },
+            {
+                "page": "drm/7/35487/OEBPS/Images/1/D0AEEAC9-5839-47B5-9D18-1F2FB1C0C718.jpg"
+            },
+            {
+                "page": "drm/7/35487/OEBPS/Images/1/AE37401F-1208-466E-AB50-FAFEEB69B493.jpg"
+            },
+            {
+                "page": "drm/7/35487/OEBPS/Images/1/54014385-1DCE-4F5F-BC5A-0EB18235F626.jpg"
+            },
+            {
+                "page": "drm/7/35487/OEBPS/Images/1/CCE25E4A-82D4-44D1-A911-E0B54D361D8F.jpg"
+            },
+            {
+                "page": "drm/7/35487/OEBPS/Images/1/48E97665-9A4A-4848-82EF-E914DD6E4E6B.jpg"
+            },
+            {
+                "page": "drm/7/35487/OEBPS/Images/1/57A3B959-ADCD-432B-9D93-5215532E6A83.jpg"
+            },
+            {
+                "page": "drm/7/35487/OEBPS/Images/1/CCED87FB-687C-4995-9487-4FA496B5306A.jpg"
+            },
+            {
+                "page": "drm/7/35487/OEBPS/Images/1/40EDB708-E00B-4C38-A6E2-4421E35490DB.jpg"
+            },
+            {
+                "page": "drm/7/35487/OEBPS/Images/1/CEDD2384-F40D-41E3-BA9E-DACA1B3480A1.jpg"
+            },
+            {
+                "page": "drm/7/35487/OEBPS/Images/1/539FB1ED-8033-4289-ADFC-54CF3D6A136C.jpg"
+            },
+            {
+                "page": "drm/7/35487/OEBPS/Images/1/C9ED58D6-93E1-4C85-97F0-00B6D2162775.jpg"
+            },
+            {
+                "page": "drm/7/35487/OEBPS/Images/1/EBD64811-47B2-4437-B4EA-2EFE56664ABD.jpg"
+            },
+            {
+                "page": "drm/7/35487/OEBPS/Images/1/55A77ECB-BB04-4018-8971-3CFFDA6CA394.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/7/35487/OEBPS/Images/1/07299007-8AD8-41EB-92F1-A2180EB741A3.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "35487",
+        "id": "35487",
+        "title": "Toys That Can Go",
+        "author": "Pam Holden",
+        "illustrator": " ",
+        "numPages": 17,
+        "bookDescription": "Some toys are fun to play with because they move. Do you have any toys that you push or pull to make them go?",
+        "coverColorR": 160,
+        "coverColorG": 107,
+        "coverColorB": 119,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Red Rocket Readers provided by Flying Start Books",
+        "publisherId": "90123",
+        "age": 5,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "70L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 566,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "89",
+        "subjectDesc": "Things That GO",
+        "subjectColor": "34C56B",
+        "copyright": "",
+        "aspectRatio": 0.7423,
+        "contentHash": "94aedccaab8d714951c1",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "",
+        "panelStatus": 0,
+        "date_modified": 1555373406
+    },
+    "userBook": {
+        "modelId": "46250489-35487",
+        "userId": "46250489",
+        "bookId": "35487",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559311981,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559311981,
+        "book": {
+            "modelId": "35487",
+            "title": "Toys That Can Go",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "94aedccaab8d714951c1"
+        }
+    },
+    "quiz": null
+}

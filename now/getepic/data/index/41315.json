@@ -1,0 +1,192 @@
+{
+    "publisherData": {
+        "modelId": "90336",
+        "name": "Live Oak Media provided by Lerner Publishing Group",
+        "url": "https://www.lernerbooks.com/About-Lerner/Pages/LiveOakMedia.aspx",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1528852493
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/5CCCC396-9908-426B-AAE7-D6A2DEBA59DF.jpg"
+            },
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/9E1EA940-C611-4E1F-92CC-2AEFA5B6979A.jpg"
+            },
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/99E4C1B7-232D-4513-BA2D-12D32729AA13.jpg",
+                "audio": "drm/5/41315/OEBPS/Audio/1/page1.mp3"
+            },
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/21BF7F08-ABB3-4BD4-A5D0-1724BDCB9393.jpg"
+            },
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/34D3159F-4827-41C8-A621-D8C25DF380AA.jpg"
+            },
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/7D3633C6-9758-4067-952C-02C3D30562EC.jpg",
+                "audio": "drm/5/41315/OEBPS/Audio/1/page10_11.mp3"
+            },
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/103189D1-94D7-45B3-A7FA-5E1F22736EA5.jpg"
+            },
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/EDB53195-55CA-4107-A359-220A96D59963.jpg",
+                "audio": "drm/5/41315/OEBPS/Audio/1/page12_13.mp3"
+            },
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/C7867EF9-A06B-42EE-A14D-20EF0C204487.jpg"
+            },
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/E3DA716E-8579-48CA-9D02-366CAB2176B6.jpg",
+                "audio": "drm/5/41315/OEBPS/Audio/1/page14_15.mp3"
+            },
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/66C2587B-C3AE-4977-AAEA-383759FDC75D.jpg"
+            },
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/8708C5F5-7979-45ED-91D4-ED2E1713D15D.jpg",
+                "audio": "drm/5/41315/OEBPS/Audio/1/page16_17.mp3"
+            },
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/0622770F-EBDD-4089-AFAE-0D9C1DA50E7A.jpg"
+            },
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/31EB8881-9642-444B-8555-E1A6C8013EC1.jpg",
+                "audio": "drm/5/41315/OEBPS/Audio/1/page18_19.mp3"
+            },
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/3F79CB0D-D5A5-400A-96C3-9CE4D1845A47.jpg"
+            },
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/D97AD316-D5E8-4CE9-92B7-BFD911865C41.jpg",
+                "audio": "drm/5/41315/OEBPS/Audio/1/page20_21.mp3"
+            },
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/CBE4B7CE-2943-4844-B217-1A71B424AE58.jpg"
+            },
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/88BDA6D5-E83D-4D2E-91F6-378D1E1BF04D.jpg",
+                "audio": "drm/5/41315/OEBPS/Audio/1/page22_23.mp3"
+            },
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/4BF75275-3FB6-443F-8BDB-4B3A099ADF56.jpg"
+            },
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/49357723-FFCA-4B4F-BFE9-556782A630BF.jpg",
+                "audio": "drm/5/41315/OEBPS/Audio/1/page24_25.mp3"
+            },
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/A09DB388-2BF2-468D-89CD-9BEBDE69B62C.jpg"
+            },
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/5E344B45-E632-4F1A-8B57-F507EB3ECBA0.jpg",
+                "audio": "drm/5/41315/OEBPS/Audio/1/page26_27.mp3"
+            },
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/CAEB3805-0169-42CC-89BD-9270E8C66424.jpg"
+            },
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/E25C86FB-6575-46FE-9927-D4CD0A5E5B3B.jpg",
+                "audio": "drm/5/41315/OEBPS/Audio/1/page28_29.mp3"
+            },
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/96F5F356-8648-437B-8949-F4EC460C71BF.jpg"
+            },
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/0F898858-934D-4602-849F-D4994635287B.jpg",
+                "audio": "drm/5/41315/OEBPS/Audio/1/page30_31.mp3"
+            },
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/93D37F16-9466-4196-86C3-680036E197DC.jpg"
+            },
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/97970CBD-CA84-44A3-BE0E-266E1A928D42.jpg",
+                "audio": "drm/5/41315/OEBPS/Audio/1/page32_33.mp3"
+            },
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/247B2DDC-218D-4320-9A83-DB05457AE62F.jpg"
+            },
+            {
+                "page": "drm/5/41315/OEBPS/Images/1/8A43AF66-5899-43C8-8DB0-FC381D3A3551.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/5/41315/OEBPS/Images/1/9EB02AF9-892B-42D9-BE46-26B9D697B24F.jpg",
+            "color": "#fefefe"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "41315",
+        "id": "41315",
+        "title": "A Child's Calendar",
+        "author": "John Updike",
+        "illustrator": "Trina Schart Hyman",
+        "numPages": 30,
+        "bookDescription": "Twelve poems follow a family and their friends through the seasons. A Caldecott Honor Book.",
+        "coverColorR": 77,
+        "coverColorG": 83,
+        "coverColorB": 83,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Live Oak Media provided by Lerner Publishing Group",
+        "publisherId": "90336",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 550,
+        "ar": "3.6",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 81,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Growing Up",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 0.8782,
+        "contentHash": "658b108c4719d19f4b9e",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1549585643
+    },
+    "userBook": {
+        "modelId": "46250489-41315",
+        "userId": "46250489",
+        "bookId": "41315",
+        "currentPageIndex": 9,
+        "farthestPageIndex": 9,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 29,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1558682921,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 32,
+        "dateModified": 1558682980,
+        "book": {
+            "modelId": "41315",
+            "title": "A Child's Calendar",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "658b108c4719d19f4b9e"
+        }
+    },
+    "quiz": null
+}

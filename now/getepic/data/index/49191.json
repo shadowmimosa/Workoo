@@ -1,0 +1,203 @@
+{
+    "publisherData": {
+        "modelId": "90236",
+        "name": "Abrams",
+        "url": "http://www.abramsbooks.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1491009966
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/de0ca0341e4e112e82877bec47042c41.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/979c8c576bfa41f322d25043c36029bc.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/37504b4c25fe329f738581bd1edb1198.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/6395abcf60b6478699fcbab8f7a70ff3.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/c8ff77095f3bdce1bb508687b1bb24fa.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/21bc8f61fd7d08ebc41c836f0ec3be1e.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/c39548dbe9e5abe6751f117383c017e3.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/d3b68143819d9ee59fa72e429d92bca0.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/a28bf68347fb6677b651b0941d3a8ea0.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/9c59762fa90d78cc5901341219689a6e.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/21b28a74ddb802216badec2da670ee0b.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/e6820bec63d4cf39db80557571726d2a.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/7943faf198f6adda0f14b1639066cb6a.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/2601c1e849ce60c809269ab2930a347e.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/b1f5e1ca9d3521c23c2eefe0c7501c08.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/32ad5890b3fb17b935c93df4de32a6e6.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/7f0a4f46909f579021dcca19e7518d42.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/a27cce35761bc06cc55feb25c8dc57c1.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/8640d9b5325049d1793c90341c569fde.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/342cdf2d44030a874d586d82ca47672a.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/51e9f9315953d79738207682d205f78c.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/013aad6ccff677c017bab0c8ffeddaa6.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/7e6b113c5c6304604b701568c23e5119.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/c309d11084cf0d263f3cfe4f5acf5705.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/fb9fba6478d97d34dbda297ef414248c.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/7ae67e811ab76043750d227da031794a.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/209f8afaae5c86b84d64a5e5fb9bdced.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/3e281613bf34445d3bf9176a5b33b510.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/e0cfbed1ef8a6c7598e78b58801ce2f0.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/2bf0b44b81781172c709549fbbb0fcf3.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/95b083dd5498f2d982de9705950507f2.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/ac4a15fa46401185f0f33dda4e078bf0.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/17563621141c07eb821558c52a6139e4.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/9cdb0b3b92e242872539284cf9fc34dc.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/6f04c38b6acf19c28e23d4cb13c88bf3.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/710139e07f478ab50548c6c7ca5362f1.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/b797474cb7571a9e27b47381b6be61f7.jpg"
+            },
+            {
+                "page": "drm/1/49191/OEBPS/Images/1/e01f41cf3eb58d64f16f00ec5741b8b2.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/1/49191/OEBPS/Images/1/ab85c17bd3a9377da75f2df0fb897b22.jpg",
+            "color": "#ffffff"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "49191",
+        "id": "49191",
+        "title": "100 Things I Love to Do with You",
+        "author": "Amy Schwartz",
+        "illustrator": " ",
+        "numPages": 38,
+        "bookDescription": "Here is a warm picture of a collection of\r\nthings to do with the one you love.",
+        "coverColorR": 223,
+        "coverColorG": 201,
+        "coverColorB": 175,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Abrams",
+        "publisherId": "90236",
+        "age": 4,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 0,
+        "lexile": "-",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 570,
+        "ar": "-",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 82,
+        "type": 1,
+        "subject": "90",
+        "subjectDesc": "Friendship",
+        "subjectColor": "48D864",
+        "copyright": "",
+        "aspectRatio": 0.7736,
+        "contentHash": "d9449809552bdbeaacdb",
+        "payPerView": 0,
+        "highlightingEnabled": 0,
+        "highlightingStatus": "3",
+        "panelStatus": 0,
+        "date_modified": 1527096294
+    },
+    "userBook": {
+        "modelId": "46250489-49191",
+        "userId": "46250489",
+        "bookId": "49191",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559310317,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559310317,
+        "book": {
+            "modelId": "49191",
+            "title": "100 Things I Love to Do with You",
+            "type": 1,
+            "active": 1,
+            "audio": 0,
+            "contentHash": "d9449809552bdbeaacdb"
+        }
+    },
+    "quiz": null
+}

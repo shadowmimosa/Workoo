@@ -1,0 +1,402 @@
+{
+    "publisherData": {
+        "modelId": "31",
+        "name": "Bellwether Media",
+        "url": "http://www.bellwethermedia.com/",
+        "checkout": 0,
+        "educationalEnabled": 1,
+        "dateModified": 1539569528
+    },
+    "epub": {
+        "spine": [
+            {
+                "page": "drm/0/15020/OEBPS/Images/1/3a7e633155dbb2e418130789f7ad058d.jpg"
+            },
+            {
+                "page": "drm/0/15020/OEBPS/Images/1/e03a45e6f9d28385b251da3bcb0e1475.jpg",
+                "audio": "drm/0/15020/OEBPS/Audio/1/aud4.mp3"
+            },
+            {
+                "page": "drm/0/15020/OEBPS/Images/1/752b8e334c540153a6df1011c5c73989.jpg"
+            },
+            {
+                "page": "drm/0/15020/OEBPS/Images/1/26190b5e2fd66f31b8203f078a10c4b5.jpg",
+                "audio": "drm/0/15020/OEBPS/Audio/1/aud6.mp3"
+            },
+            {
+                "page": "drm/0/15020/OEBPS/Images/1/8eb2094c5df90e47131c08bc7f5085ea.jpg"
+            },
+            {
+                "page": "drm/0/15020/OEBPS/Images/1/26298eff37273e0c5b834b304c055f50.jpg",
+                "audio": "drm/0/15020/OEBPS/Audio/1/aud8.mp3"
+            },
+            {
+                "page": "drm/0/15020/OEBPS/Images/1/4ec3fa292df40a7f6a67f3798baa0a19.jpg"
+            },
+            {
+                "page": "drm/0/15020/OEBPS/Images/1/88bcf40b1e331ace4a0d8379a0e60d2b.jpg",
+                "audio": "drm/0/15020/OEBPS/Audio/1/aud10.mp3"
+            },
+            {
+                "page": "drm/0/15020/OEBPS/Images/1/5c055d1a2d0223a2b13fad98963415a9.jpg"
+            },
+            {
+                "page": "drm/0/15020/OEBPS/Images/1/d7ea348218094e970795244e31c23521.jpg",
+                "audio": "drm/0/15020/OEBPS/Audio/1/aud12.mp3"
+            },
+            {
+                "page": "drm/0/15020/OEBPS/Images/1/4e33c94ca8423be8513757f0bbb26d15.jpg"
+            },
+            {
+                "page": "drm/0/15020/OEBPS/Images/1/a8c0ec1ce9af72d877aa64eadc9233f2.jpg",
+                "audio": "drm/0/15020/OEBPS/Audio/1/aud14.mp3"
+            },
+            {
+                "page": "drm/0/15020/OEBPS/Images/1/2a481b70526f719b9bbabd641196c8ab.jpg"
+            },
+            {
+                "page": "drm/0/15020/OEBPS/Images/1/6f6eb9b74e284852509184d8ccc1f9c8.jpg",
+                "audio": "drm/0/15020/OEBPS/Audio/1/aud16.mp3"
+            },
+            {
+                "page": "drm/0/15020/OEBPS/Images/1/dbbedda3c8032ae63a3eb40686a3bbda.jpg"
+            },
+            {
+                "page": "drm/0/15020/OEBPS/Images/1/76247739496d95a34c4e07d2f8291531.jpg",
+                "audio": "drm/0/15020/OEBPS/Audio/1/aud18.mp3"
+            },
+            {
+                "page": "drm/0/15020/OEBPS/Images/1/98ca2ffee742927b9f2871249290ffbe.jpg"
+            },
+            {
+                "page": "drm/0/15020/OEBPS/Images/1/279368007f31ca2e1f4c5d066bd58966.jpg",
+                "audio": "drm/0/15020/OEBPS/Audio/1/aud20.mp3"
+            },
+            {
+                "page": "drm/0/15020/OEBPS/Images/1/881cda21064608754da14c0e9167e7fb.jpg"
+            },
+            {
+                "page": "drm/0/15020/OEBPS/Images/1/77c1d54d84b5e7002d15d7b60c743a0b.jpg",
+                "audio": "drm/0/15020/OEBPS/Audio/1/aud22.mp3"
+            },
+            {
+                "page": "drm/0/15020/OEBPS/Images/1/b854b0f90dc96fffd0cfb3756e081bfe.jpg"
+            },
+            {
+                "page": "drm/0/15020/OEBPS/Images/1/1b10f8161bc34fb78e65d6a24d8752c3.jpg"
+            }
+        ],
+        "extra": {
+            "copyright": "drm/0/15020/OEBPS/Images/1/8f7d05424e487f0502ca4631372fa5bb.jpg",
+            "color": "#faf01b"
+        }
+    },
+    "timePerPage": 2,
+    "book": {
+        "modelId": "15020",
+        "id": "15020",
+        "title": "Super Cute! Baby Cats",
+        "author": "Bethany Olson",
+        "illustrator": " ",
+        "numPages": 22,
+        "bookDescription": "Kittens like to snuggle together to keep warm. Learn more about baby cats--and their mothers!",
+        "coverColorR": 164,
+        "coverColorG": 133,
+        "coverColorB": 137,
+        "version": 0,
+        "previewPercent": 20,
+        "publisher": "Bellwether Media",
+        "publisherId": "31",
+        "age": 6,
+        "pageNumOffset": 0,
+        "active": 1,
+        "audio": 1,
+        "lexile": "420L",
+        "avgTime": "5-20 mins",
+        "avgTimeInt": 806,
+        "ar": "1.4",
+        "fandp": "-",
+        "dra": "-",
+        "gr": "-",
+        "language": 1,
+        "rating": 84,
+        "type": 1,
+        "subject": "97",
+        "subjectDesc": "Cats",
+        "subjectColor": "C72F8B",
+        "copyright": "",
+        "aspectRatio": 0.7233,
+        "contentHash": "b508ae4a8ef581fb8c84",
+        "payPerView": 0,
+        "highlightingEnabled": 1,
+        "highlightingStatus": "4",
+        "panelStatus": 0,
+        "date_modified": 1556655353
+    },
+    "userBook": {
+        "modelId": "46250489-15020",
+        "userId": "46250489",
+        "bookId": "15020",
+        "currentPageIndex": 0,
+        "farthestPageIndex": 0,
+        "favorited": 0,
+        "finishTime": 0,
+        "paid": 0,
+        "progress": 0,
+        "rated": 0,
+        "rating": 0,
+        "readTime": 0,
+        "recommended": 0,
+        "lastModified": 1559304997,
+        "bookmarks": "",
+        "timesCompleted": 0,
+        "currentReadTime": 0,
+        "dateModified": 1559304997,
+        "book": {
+            "modelId": "15020",
+            "title": "Super Cute! Baby Cats",
+            "type": 1,
+            "active": 1,
+            "audio": 1,
+            "contentHash": "b508ae4a8ef581fb8c84"
+        }
+    },
+    "quiz": {
+        "quiz": {
+            "id": "111561",
+            "user_id": "9115503",
+            "book_id": "15020",
+            "title": "Kittens",
+            "description": "",
+            "date_created": 1500054399,
+            "date_modified": 1502215984,
+            "state": 1,
+            "visibility": 1,
+            "published": 1,
+            "status": 0,
+            "date_marked_to_review": null,
+            "marked_to_review": "0",
+            "quizQuestions": [
+                {
+                    "title": "When kittens are happy they ______",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Purr",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Cry",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Drink",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 0
+                },
+                {
+                    "title": "How does the mother carry her kittens ",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "With her mouth",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "With her hands",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "In a basket",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "title": "What is a baby cat called ",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "Kitten",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "Cat",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "Dog",
+                            "correct": 0,
+                            "id": 2
+                        },
+                        {
+                            "title": "Puppy",
+                            "correct": 0,
+                            "id": 3
+                        }
+                    ],
+                    "id": 2
+                },
+                {
+                    "title": "Why do kittens cuddle? ",
+                    "quizQuestionChoices": [
+                        {
+                            "title": "To stay warm ",
+                            "correct": 1,
+                            "id": 0
+                        },
+                        {
+                            "title": "To play",
+                            "correct": 0,
+                            "id": 1
+                        },
+                        {
+                            "title": "To eat ",
+                            "correct": 0,
+                            "id": 2
+                        }
+                    ],
+                    "id": 3
+                }
+            ],
+            "modelId": "111561",
+            "creatorName": "Ms. Ferraco",
+            "avatarId": "34",
+            "owner": {
+                "modelClass": "User",
+                "modelId": "9115503",
+                "udid": "57ac8786e654d4.73771093",
+                "journalName": "Ms. Ferraco",
+                "journalCoverAvatar": "34",
+                "journalCoverColor": "0.70588235294118 0.94509803921569 0.39607843137255 1",
+                "journalFrameImage": "1",
+                "journalCoverImage": "15",
+                "themeId": "18",
+                "code": "98310362",
+                "fid": "",
+                "accountID": "97F9B144-F6EC-F720-AB1B-87607D6DB35D",
+                "simpleAccountId": "3374154",
+                "pagesFlipped": 1494,
+                "nufComplete": 1,
+                "readingAge": 7.66667,
+                "startingAge": 0,
+                "status": 0,
+                "isParent": 1,
+                "isDefault": 0,
+                "nufStep": 0,
+                "xp": 0,
+                "xpLevel": 1,
+                "dateLastLogin": 1542061383,
+                "email": "",
+                "pin": "",
+                "numKudos": 0,
+                "validated": 0,
+                "firstName": "Tammy",
+                "lastName": "Ferraco",
+                "accountType": 1,
+                "dateModified": 1542061383,
+                "educatorPrefix": "Ms.",
+                "name": "Ms. Ferraco"
+            }
+        },
+        "quizQuestions": [
+            {
+                "title": "When kittens are happy they ______",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Purr",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Cry",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Drink",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 0
+            },
+            {
+                "title": "How does the mother carry her kittens ",
+                "quizQuestionChoices": [
+                    {
+                        "title": "With her mouth",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "With her hands",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "In a basket",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 1
+            },
+            {
+                "title": "What is a baby cat called ",
+                "quizQuestionChoices": [
+                    {
+                        "title": "Kitten",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "Cat",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "Dog",
+                        "correct": 0,
+                        "id": 2
+                    },
+                    {
+                        "title": "Puppy",
+                        "correct": 0,
+                        "id": 3
+                    }
+                ],
+                "id": 2
+            },
+            {
+                "title": "Why do kittens cuddle? ",
+                "quizQuestionChoices": [
+                    {
+                        "title": "To stay warm ",
+                        "correct": 1,
+                        "id": 0
+                    },
+                    {
+                        "title": "To play",
+                        "correct": 0,
+                        "id": 1
+                    },
+                    {
+                        "title": "To eat ",
+                        "correct": 0,
+                        "id": 2
+                    }
+                ],
+                "id": 3
+            }
+        ]
+    }
+}
