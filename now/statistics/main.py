@@ -90,7 +90,7 @@ class Query(object):
                 os.makedirs("./log/")
                 self.init_log()
                 return
-            handler.setLevel(logging.info)
+            handler.setLevel(logging.INFO)
             formatter = logging.Formatter(
                 '%(asctime)s - %(funcName)s - %(levelname)s - %(message)s')
             handler.setFormatter(formatter)
