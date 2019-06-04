@@ -6,6 +6,8 @@ import random
 import os
 import json
 import hashlib
+import logging
+from logging.handlers import RotatingFileHandler
 
 
 def get_bookid():
@@ -117,6 +119,7 @@ def get_bookid():
 
 class Query(object):
     def __init__(self, x=10000, y=11000):
+        self.init_log()
         self.getdata_url = "https://www.getepic.com/webapi/index.php?class=WebBook&method=getFullDataForWeb&bookId={}&dev=web"
         self.getdata_header = {
             "Host":
@@ -166,6 +169,32 @@ class Query(object):
         self.timestamp = self.format_timestamp()
         self.run()
 
+    def init_log(self):
+
+        logger = logging.getLogger(__name__)
+        logger.setLevel(level=logging.INFO)
+        # try:
+
+        #     handler = RotatingFileHandler(
+        #         "./log/run_info.log", maxBytes=1024 * 1024, backupCount=3)
+        #     # handler = loggingFileHandler("./log/run_info.log")
+        # except FileNotFoundError as exc:
+        #     os.makedirs("./log/")
+        #     self.init_log()
+        #     return
+        # handler.setLevel(logging.INFO)
+        # formatter = logging.Formatter(
+        #     '%(asctime)s - %(funcName)s - %(levelname)s - %(message)s')
+        # handler.setFormatter(formatter)
+
+        console = logging.StreamHandler()
+        console.setLevel(logging.ERROR)
+
+        # logger.addHandler(handler)
+        logger.addHandler(console)
+
+        self.logger = logger
+
     def init_pool(self):
         proxyHost = "http-dyn.abuyun.com"
         proxyPort = "9020"
@@ -191,13 +220,13 @@ class Query(object):
         urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
         # 设置重连次数
-        requests.adapters.DEFAULT_RETRIES = 25
+        requests.adapters.DEFAULT_RETRIES = 60
         # 设置连接活跃状态为False
         session = requests.session()
         session.keep_alive = False
         session.verify = False
 
-        adapter = requests.adapters.HTTPAdapter(max_retries=3)
+        adapter = requests.adapters.HTTPAdapter(max_retries=30)
         # 将重试规则挂载到http和https请求
         session.mount('http://', adapter)
         session.mount('https://', adapter)
@@ -216,7 +245,8 @@ class Query(object):
 
         sesscion_a = self.get_session()
 
-        print("---> 开始请求网址：{}".format(url))
+        # print("---> 开始请求网址：{}".format(url))
+        self.logger.info("---> 开始请求网址：{}".format(url))
         start_time = time.time()
         retry_count = 5
         while retry_count > 0:
@@ -236,34 +266,30 @@ class Query(object):
                                 data=data,
                                 timeout=(3.2, 10),
                                 proxies=self.proxies)
-                        print(resp)
                         retry_count = 0
                     except Exception as exc:
-                        print(
+                        self.logger.error(
                             "---> The error is {}, and the website is {}. Now try again just one time."
                             .format(exc, url))
                         retry_count -= 1
 
                 except ValueError as exc:
                     retry_count -= 1
-                    if exc.args[0] == "no proxy":
-                        print("no proxy now, run deal re without proxy")
-
-                        try:
-                            if not data:
-                                resp = sesscion_a.get(
-                                    url, headers=header, timeout=(3.2, 30))
-                            else:
-                                resp = sesscion_a.post(
-                                    url,
-                                    headers=header,
-                                    data=data,
-                                    timeout=(3.2, 30))
-                        except Exception as exc:
-                            print(
-                                "---> The error is {}, and the website is {}. Now try again just one time."
-                                .format(exc, url))
-                            self.deal_re(url=url, header=header, data=data)
+                    try:
+                        if not data:
+                            resp = sesscion_a.get(
+                                url, headers=header, timeout=(3.2, 30))
+                        else:
+                            resp = sesscion_a.post(
+                                url,
+                                headers=header,
+                                data=data,
+                                timeout=(3.2, 30))
+                    except Exception as exc:
+                        self.logger.error(
+                            "---> The error is {}, and the website is {}. Now try again just one time."
+                            .format(exc, url))
+                        self.deal_re(url=url, header=header, data=data)
             else:
                 try:
                     if not data:
@@ -275,7 +301,7 @@ class Query(object):
                     retry_count = 0
                 except Exception as exc:
                     retry_count -= 1
-                    print(
+                    self.logger.error(
                         "---> The error is {}, and the website is {}. Now try again just one time."
                         .format(exc, url))
                     self.deal_re(url=url, header=header, data=data)
@@ -285,23 +311,26 @@ class Query(object):
         try:
             if resp.status_code == 200:
                 magic_time = end_time - start_time
-                print("--->Info: Request successful. It takes {:.3} seconds".format(magic_time))
-
+                self.logger.info(
+                    "--->Info: Request successful. It takes {:.3} seconds".
+                    format(magic_time))
                 if byte:
                     return resp.content
                 else:
                     return resp.text
             elif resp.status_code == 401:
-                print("--->Warning: Retrying because error code 401")
+                self.logger.warning(
+                    "--->Warning: Retrying because error code 401")
                 resp = self.deal_re(
                     byte=byte, url=url, header=header, data=data)
             elif resp.status_code == 503:
                 print(resp.text)
             else:
-                print("--->Info {} 请求失败！状态码为{}，共耗时{:.3}秒".format(
+                self.logger.error("--->Info {} 请求失败！状态码为{}，共耗时{:.3}秒".format(
                     url, resp.status_code, end_time - start_time))
         except UnboundLocalError as exc:
-            print("deal re is error, the error is {}".format(exc))
+            self.logger.error(
+                "--->Error: deal re is error, the error is {}".format(exc))
             return None
 
     def format_timestamp(self):
@@ -328,11 +357,12 @@ class Query(object):
         except TypeError as exc:
             self.book_detail = None
             if exc == "the JSON object must be str, bytes or bytearray, not NoneType":
-                print("---> Error: The format of the response does not match")
+                self.logger.error(
+                    "---> Error: The format of the response does not match")
         finally:
             self.book_detail = data["result"]
             if self.book_detail == None:
-                print("---> Info: Book Id is wrong")
+                self.logger.info("---> Info: Book Id is wrong")
             else:
                 self.save_detail()
                 # self.save_info() # 改为，有音频的才下载
@@ -348,8 +378,9 @@ class Query(object):
         self.save_media(resp)
 
     def spider_main(self):
-        self.get_info()  
-
+        self.get_info()
+        time.sleep(random.randint(2, 5))
+        return  # 先下载 detail
         if self.book_detail:
             self.has_audio = (True if (
                 self.book_detail["userBook"]["book"]["audio"] == 1) else None)
@@ -358,7 +389,7 @@ class Query(object):
                 keywords = ["page", "audio"]
                 self.save_info()
             else:
-                print("--->Info: Not audio, return now")
+                self.logger.info("--->Info: Not audio, return now")
                 return
                 keywords = ["page"]
 
@@ -372,16 +403,22 @@ class Query(object):
                         if self.asset_path:
                             self.get_media()
                         else:
-                            print("--->Info: The {} not found".format(keyword))
+                            self.logger.info(
+                                "--->Info: The {} not found".format(keyword))
 
     def run(self):
         if self.x == self.y:
-            if os.path.exists("./data/books/{}".format(self.x)):
+            if os.path.exists("./data/index/{}".format(self.x)):
                 return
             else:
                 self.bookid = self.x
                 self.pic_count = -1
-                self.spider_main()
+                while True:
+                    try:
+                        self.spider_main()
+                        break
+                    except:
+                        continue
         else:
             for index in range(self.x, self.y):
                 if os.path.exists("./data/books/{}".format(index)):
@@ -392,15 +429,21 @@ class Query(object):
                     self.spider_main()
 
     def save_detail(self):
-        try:
-            with open(
-                    self.detail_path.format(self.bookid), "w",
-                    encoding="utf-8") as fn:
-                fn.write(json.dumps(self.book_detail, indent=4))
-        except FileNotFoundError as exc:
-            print("---> Error: The file path can't found, building it now")
-            os.makedirs(self.detail_path.replace("{}.json", ""))
-            self.save_detail()
+        if os.path.exists(self.detail_path.format(self.bookid)):
+            self.logger.error("exists already, pass")
+        else:
+            try:
+                with open(
+                        self.detail_path.format(self.bookid),
+                        "w",
+                        encoding="utf-8") as fn:
+                    fn.write(json.dumps(self.book_detail, indent=4))
+                self.logger.error("save detail now")
+            except FileNotFoundError as exc:
+                self.logger.warning(
+                    "---> Warning: The file path can't found, building it now")
+                os.makedirs(self.detail_path.replace("{}.json", ""))
+                self.save_detail()
 
     def extract_info(self):
         self.book_info = {
@@ -420,7 +463,8 @@ class Query(object):
                 self.extract_info()
                 fn.write(json.dumps(self.book_info, indent=4))
         except FileNotFoundError as exc:
-            print("---> Error: The file path can't found, building it now")
+            self.logger.warning(
+                "---> Warning: The file path can't found, building it now")
             os.makedirs(
                 self.info_path.format(self.bookid).replace("info.json", ""))
             self.save_info()
@@ -430,7 +474,7 @@ class Query(object):
 
         if sign != "jpg":
             if sign != "mp3":
-                print("---> Error: File format does not conform")
+                self.logger.error("---> Error: File format does not conform")
                 with open("./data/error.txt", "w", encoding="utf-8") as fn:
                     fn.write(sign, self.bookid)
                 return
@@ -443,7 +487,8 @@ class Query(object):
                                            sign), "wb") as fn:
                 fn.write(content)
         except FileNotFoundError as exc:
-            print("---> Error: The file path can't found, building it now")
+            self.logger.warning(
+                "---> Warning: The file path can't found, building it now")
             os.makedirs(
                 self.media_path.replace("{}.{}", "").format(self.bookid, sign))
             self.save_media(content)
@@ -455,7 +500,8 @@ class Query(object):
                     encoding="utf-8") as fn:
                 self.book_detail = json.loads(fn.read())
         except FileNotFoundError as exc:
-            print("---> Error: The file path can't found, building it now")
+            self.logger.warning(
+                "---> Warning: The file path can't found, building it now")
             os.makedirs(self.detail_path.replace("{}.json", ""))
             self.read_info()
 
@@ -475,6 +521,11 @@ def single_process():
             break
 
 
+def get_bookids():
+    for index in range(33600, 70000):
+        yield index
+
+
 def multi_processes(processes=10):
     """多进程，默认最多 10 个进程"""
 
@@ -482,7 +533,9 @@ def multi_processes(processes=10):
 
     pool = Pool(processes)
 
-    yield_id = get_bookid()
+    # yield_id = get_bookid()
+    yield_id = get_bookids()
+
     while True:
         try:
             bookid = next(yield_id)
@@ -500,8 +553,9 @@ def multi_processes(processes=10):
 
 def main():
     # Query(10000, 10002)
+    # Query(67)
     # single_process()
-    multi_processes(20)
+    multi_processes(30)
 
 
 if __name__ == "__main__":

@@ -1,2 +1,21 @@
-now/yue_pic/data.7z
-now/getepic/data/books/
+# Windows:
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python:
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+# Repo:
+data/books
+
+# Linux: 
+nohup.out
+
+# Compress
+.7z
