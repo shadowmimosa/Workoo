@@ -7,6 +7,7 @@ import logging
 import sys
 import json
 from urllib import request
+from logging.handlers import RotatingFileHandler
 
 
 class LuckyLottery(object):
@@ -32,26 +33,29 @@ class LuckyLottery(object):
     def init_log(self):
 
         logger = logging.getLogger(__name__)
+        logger.propagate = False
         logger.setLevel(level=logging.INFO)
-        # try:
+        if not logger.handlers:
+            try:
+                handler = RotatingFileHandler(
+                    "./log/run_info.log",
+                    maxBytes=10 * 1024 * 1024,
+                    backupCount=100)
+                # handler = loggingFileHandler("./log/run_info.log")
+            except FileNotFoundError as exc:
+                os.makedirs("./log/")
+                self.init_log()
+                return
+            handler.setLevel(logging.WARNING)
+            formatter = logging.Formatter(
+                '%(asctime)s - %(funcName)s - %(levelname)s - %(message)s')
+            handler.setFormatter(formatter)
 
-        #     handler = RotatingFileHandler(
-        #         "./log/run_info.log", maxBytes=1024 * 1024, backupCount=3)
-        #     # handler = loggingFileHandler("./log/run_info.log")
-        # except FileNotFoundError as exc:
-        #     os.makedirs("./log/")
-        #     self.init_log()
-        #     return
-        # handler.setLevel(logging.INFO)
-        # formatter = logging.Formatter(
-        #     '%(asctime)s - %(funcName)s - %(levelname)s - %(message)s')
-        # handler.setFormatter(formatter)
+            console = logging.StreamHandler()
+            console.setLevel(logging.INFO)
 
-        console = logging.StreamHandler()
-        console.setLevel(logging.INFO)
-
-        # logger.addHandler(handler)
-        logger.addHandler(console)
+            logger.addHandler(handler)
+            logger.addHandler(console)
 
         self.logger = logger
 
@@ -212,7 +216,12 @@ class LuckyLottery(object):
         return needed
 
     def run(self):
+        start_time = time.time()
         resp = self.deal_re(url=self.url, header=self.header)
+        end_time =time.time()-start_time
+        if end_time<3:
+            self.logger.info("--->Info: magic_time {} now".format(int(4-end_time)))
+            time.sleep(int(4-end_time))
         self.data = json.loads(resp)
         return self.data_clean()
         print(resp)
