@@ -308,7 +308,7 @@ class Query(object):
                     "年", "-").replace("月", "-").replace("日", "").replace(
                         "<br", "")
                 self.json_["电话支持"] = "{}（{}）".format(tel_date,
-                                                     self.caltime(tel_date))
+                                                     self.caltime(tel_date).days)
             elif result_text.find("AppleCare") != -1:
                 self.json_["电话支持"] = "延长保修"
 
@@ -323,7 +323,7 @@ class Query(object):
                         "年", "-").replace("月", "-").replace("日", "").replace(
                             "<br", "")
                     self.json_["硬件保修"] = "{}（{}）".format(
-                        hard_date_num, self.caltime(hard_date_num))
+                        hard_date_num, self.caltime(hard_date_num).days)
             else:
                 self.json_["硬件保修"] = "延长保修"
         else:
