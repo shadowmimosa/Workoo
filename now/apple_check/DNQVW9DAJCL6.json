@@ -1,0 +1,38 @@
+{
+    "DISPUTE_MESSAGE": "<div class=\"sosumi\">如果您认为针对您的产品所显示的信息不正确，您可以<a href=\"https://getsupport.apple.com/?caller=wc&PGF=PGF66001&category_id=SC0200\" id=\"hardware-epop\" target=\"_blank\">在线提交购买凭证<span class=\"a11y\">在新窗口中打开<\/span><\/a>。您的销售收据需要用于 Apple 有限保修、AppleCare Protection Plan 全方位服务计划和 AppleCare+ 服务计划验证，因此请务必将它放在一个安全的地方。无论您有没有注册，Apple 的有限保修都不受影响。<br><br><font color=\"black\"><b>重要信息：<\/b>Apple 有限保修、AppleCare Protection Plan 全方位服务计划和 AppleCare+ 服务计划的权益是对消费者权益法所赋予权利的补充（<a href=\"http://www.apple.com/legal/warranty/Additional_Legal_Rights_for_Consumers.html\" target=\"_blank\" onclick=\"s_objectID=\"http://www.apple.com/legal/warranty/Additional_Legal_Rights_for_Consumers.html_1\";return this.s_oc?this.s_oc(e):true\">查看详细信息<span class=\"a11y\">Apple 产品和消费者权益法权利<\/span><\/a>）。如果您认为自己援引的消费者权益法合理，请<a href=\"https://support.apple.com/zh-cn/HT201232\" onclick=\"s_objectID=\"https://support.apple.com/en-us/HT201232_1\";return this.s_oc?this.s_oc(e):true\">联系我们<\/a>。<\/font><br><br><a href=\"https://support.apple.com/zh-cn/HT202696\" target=\"_blank\" onclick=\"s_objectID=\"https://support.apple.com/en-us/HT202696_2\";return this.s_oc?this.s_oc(e):true\">进一步了解<span class=\"a11y\">在新窗口中打开<\/span><\/a>您的服务保障或估计的购买日期。<br><br>没有看到您的 AppleCare 计划？<a href=\"https://support.apple.com/zh-cn/HT202695\" target=\"_blank\">请了解该怎么做<\/a>。<\/div>",
+    "results": [{
+        "resultText": "借助已验证的购买日期，Apple 可以快速找到您的产品，并提供您需要的帮助。",
+        "resultId": "registration",
+        "showButton": false,
+        "buttonLink": "",
+        "status": "green",
+        "resultLabel": "有效购买日期",
+        "buttonLabel": ""
+    }, {
+        "resultText": "您可以通过 Apple Advisor（技术顾问）购买电话技术支持服务。",
+        "resultId": "iphone",
+        "showButton": true,
+        "buttonLink": "https://getsupport.apple.com/?sn=DNQVW9DAJCL6&locale=zh_CN",
+        "status": "yellow",
+        "resultLabel": "电话技术支持：已过期",
+        "buttonLabel": "联系 Apple 支持"
+    }, {
+        "resultText": "这个产品可能有资格获得消费者权益法保障服务。Apple 有限保修和 AppleCare 产品范围内的权益不影响消费者权益法所赋予的权利（<a href=\"http://www.apple.com/legal/warranty/Additional_Legal_Rights_for_Consumers.html\" data-analytics=\"legal details\" class=\"inline\" target=\"_blank\">查看详细信息<\/a>）。<br/>服务提醒：我们的记录显示，您的产品存在相关的服务历史记录，并且可能享有消费者权益法赋予的其他权利。",
+        "resultId": "hardware",
+        "showButton": true,
+        "buttonLink": "https://getsupport.apple.com/?sn=DNQVW9DAJCL6&locale=zh_CN",
+        "status": "blue",
+        "resultLabel": "维修和服务保障情况：消费者权益法可适用",
+        "buttonLabel": "安排维修"
+    }],
+    "COVERAGE_STATUS": "phone=n,hwcov=n-OO,agrelig=n,ppielig=n",
+    "IS_REGISTERED": "Y",
+    "IS_LOANER": "N",
+    "productInfo": {
+        "PROD_DESCR": "iPhone X",
+        "LINK_TEXT": "检查其他序列号",
+        "PROD_IMAGE_URL": "https://km.support.apple.com/kb/securedImage.jsp?configcode=JCL6&size=240x240",
+        "SERIAL_ID": "DNQVW9DAJCL6",
+        "PRODUCT_LABEL": "序列号： "
+    }
+}

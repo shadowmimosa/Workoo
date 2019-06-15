@@ -1,0 +1,325 @@
+序列号：KGYF	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KGYG	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：银色
+序列号：KGYH	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KJNF	手机型号：Beats X, Sacai	内存：	颜色：
+序列号：KC4Q	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular	内存：64GB	颜色：银色
+序列号：KC43	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular	内存：64GB	颜色：深空灰色
+序列号：KC47	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular	内存：64GB	颜色：深空灰色
+序列号：KC48	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular	内存：64GB	颜色：深空灰色
+序列号：KC5F	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular	内存：256GB	颜色：银色
+序列号：KC5G	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular	内存：256GB	颜色：银色
+序列号：KC5J	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular	内存：512GB	颜色：深空灰色
+序列号：KC5N	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular	内存：512GB	颜色：深空灰色
+序列号：KC5P	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular	内存：512GB	颜色：深空灰色
+序列号：KC5Q	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular	内存：512GB	颜色：银色
+序列号：KC5V	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular	内存：512GB	颜色：银色
+序列号：KC5W	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular	内存：512GB	颜色：银色
+序列号：KC50	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular	内存：256GB	颜色：深空灰色
+序列号：KC51	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular	内存：256GB	颜色：深空灰色
+序列号：KC58	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular	内存：256GB	颜色：银色
+序列号：KC6N	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular	内存：1TB	颜色：深空灰色
+序列号：KC6R	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular	内存：1TB	颜色：深空灰色
+序列号：KC6T	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular	内存：1TB	颜色：深空灰色
+序列号：KC6V	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular	内存：1TB	颜色：银色
+序列号：KC6Y	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular	内存：1TB	颜色：银色
+序列号：KC70	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular	内存：1TB	颜色：银色
+序列号：KDHC	手机型号：Apple Watch Series 4 GPS Nike+ 44mm (4th?gen)	内存：16GB	颜色：银色
+序列号：KDHD	手机型号：Apple Watch Series 4 GPS Nike+ 44mm (4th?gen)	内存：16GB	颜色：深空灰色
+序列号：KDH0	手机型号：Apple Watch Series 4 GPS Aluminum 44mm?(4th gen)	内存：16GB	颜色：Space Gray
+序列号：KDH1	手机型号：Apple Watch Series 4 GPS Aluminum 44mm?(4th gen)	内存：16GB	颜色：金色
+序列号：KDH2	手机型号：Apple Watch Series 4 GPS Aluminum 40mm?(4th gen)	内存：16GB	颜色：银色
+序列号：KDH3	手机型号：Apple Watch Series 4 GPS Aluminum 40mm?(4th gen)	内存：16GB	颜色：深空灰色
+序列号：KDH4	手机型号：Apple Watch Series 4 GPS Aluminum 40mm?(4th gen)	内存：16GB	颜色：金色
+序列号：KDTG	手机型号：Apple Watch Series 4 Stainless Steel 44mm?(4th gen)	内存：16GB	颜色：Silver
+序列号：KDTH	手机型号：Apple Watch Series 4 Cellular Aluminum?40mm (4th gen)	内存：16GB	颜色：银色
+序列号：KDTJ	手机型号：Apple Watch Series 4 Cellular Aluminum?40mm (4th gen)	内存：16GB	颜色：Space Gray
+序列号：KDTK	手机型号：Apple Watch Series 4 Cellular Aluminum?40mm (4th gen)	内存：16GB	颜色：Gold
+序列号：KDTL	手机型号：Apple Watch Series 4 Stainless Steel 40mm?(4th gen)	内存：16GB	颜色：Silver
+序列号：KDTM	手机型号：Apple Watch Series 4 Stainless Steel 40mm?(4th gen)	内存：16GB	颜色：Stainless Steel Space Black
+序列号：KDTN	手机型号：Apple Watch Series 4 Stainless Steel 40mm?(4th gen)	内存：16GB	颜色：Silver
+序列号：KDTP	手机型号：Apple Watch Series 4 Cellular Aluminum?44mm (4th gen)	内存：16GB	颜色：银色
+序列号：KDTQ	手机型号：Apple Watch Series 4 Cellular Aluminum?44mm (4th gen)	内存：16GB	颜色：Space Gray Aluminum
+序列号：KDTR	手机型号：Apple Watch Series 4 Cellular Aluminum?44mm (4th gen)	内存：16GB	颜色：Gold Aluminum
+序列号：KDTT	手机型号：Apple Watch Series 4 Stainless Steel 44mm?(4th gen)	内存：16GB	颜色：Silver
+序列号：KDTV	手机型号：Apple Watch Series 4 Stainless Steel 44mm?(4th gen)	内存：16GB	颜色：Stainless Steel Space Black
+序列号：KDTW	手机型号：Apple Watch Series 4 Stainless Steel 44mm?(4th gen)	内存：16GB	颜色：Silver
+序列号：KDTX	手机型号：Apple Watch Series 4 Cellular Nike+ 40mm?(4th gen)	内存：16GB	颜色：银色
+序列号：KDT2	手机型号：Apple Watch Series 4 Cellular Aluminum?40mm (4th gen)	内存：16GB	颜色：深空灰色
+序列号：KDT3	手机型号：Apple Watch Series 4 Cellular Aluminum?40mm (4th gen)	内存：16GB	颜色：Gold
+序列号：KDT4	手机型号：Apple Watch Series 4 Stainless Steel 40mm?(4th gen)	内存：16GB	颜色：Silver
+序列号：KDT5	手机型号：Apple Watch Series 4 Stainless Steel 40mm?(4th gen)	内存：16GB	颜色：Space Black
+序列号：KDT6	手机型号：Apple Watch Series 4 Stainless Steel 40mm?(4th gen)	内存：16GB	颜色：Silver
+序列号：KDT7	手机型号：Apple Watch Series 4 Cellular Aluminum?44mm (4th gen)	内存：16GB	颜色：Silver Aluminum
+序列号：KDT8	手机型号：Apple Watch Series 4 Cellular Aluminum?44mm (4th gen)	内存：16GB	颜色：Space Gray Aluminum
+序列号：KDT9	手机型号：Apple Watch Series 4 Cellular Aluminum?44mm (4th gen)	内存：16GB	颜色：Gold Aluminum
+序列号：KDV3	手机型号：Apple Watch Series 4 Cellular Nike+ 40mm?(4th gen)	内存：16GB	颜色：银色
+序列号：KDV4	手机型号：Apple Watch Series 4 Cellular Nike+ 40mm?(4th gen)	内存：16GB	颜色：深空灰色
+序列号：KDV5	手机型号：Apple Watch Series 4 Cellular Nike+ 44mm?(4th gen)	内存：16GB	颜色：银色
+序列号：KDV6	手机型号：Apple Watch Series 4 Cellular Nike+ 44mm?(4th gen)	内存：16GB	颜色：深空灰色
+序列号：KDV7	手机型号：Apple Watch Series 4 Hermès 40mm (4th?gen)	内存：16GB	颜色：Stainless Steel
+序列号：KDV9	手机型号：Apple Watch Series 4 Hermès 40mm (4th?gen)	内存：16GB	颜色：Silver
+序列号：KD6J	手机型号：iPad Pro 11-inch Wi-Fi	内存：64GB	颜色：深空灰色
+序列号：KD6K	手机型号：iPad Pro 11-inch Wi-Fi	内存：64GB	颜色：银色
+序列号：KD6L	手机型号：iPad Pro 11-inch Wi-Fi	内存：256GB	颜色：深空灰色
+序列号：KD6M	手机型号：iPad Pro 11-inch Wi-Fi	内存：256GB	颜色：银色
+序列号：KD6N	手机型号：iPad Pro 11-inch Wi-Fi	内存：512GB	颜色：深空灰色
+序列号：KD6P	手机型号：iPad Pro 11-inch Wi-Fi	内存：512GB	颜色：银色
+序列号：KD6Q	手机型号：iPad Pro 11-inch Wi-Fi	内存：1TB	颜色：深空灰色
+序列号：KD6R	手机型号：iPad Pro 11-inch Wi-Fi	内存：1TB	颜色：银色
+序列号：KD7V	手机型号：iPad Pro 11-inch Wi-Fi + Cellular	内存：64GB	颜色：深空灰色
+序列号：KD7Y	手机型号：iPad Pro 11-inch Wi-Fi + Cellular	内存：64GB	颜色：深空灰色
+序列号：KD8H	手机型号：iPad Pro 11-inch Wi-Fi + Cellular	内存：256GB	颜色：银色
+序列号：KD8J	手机型号：iPad Pro 11-inch Wi-Fi + Cellular	内存：256GB	颜色：银色
+序列号：KD8K	手机型号：iPad Pro 11-inch Wi-Fi + Cellular	内存：512GB	颜色：深空灰色
+序列号：KD8Q	手机型号：iPad Pro 11-inch Wi-Fi + Cellular	内存：512GB	颜色：银色
+序列号：KD8V	手机型号：iPad Pro 11-inch Wi-Fi + Cellular	内存：512GB	颜色：银色
+序列号：KD8W	手机型号：iPad Pro 11-inch Wi-Fi + Cellular	内存：	颜色：
+序列号：KD8X	手机型号：iPad Pro 11-inch Wi-Fi + Cellular	内存：1TB	颜色：深空灰色
+序列号：KD80	手机型号：iPad Pro 11-inch Wi-Fi + Cellular	内存：64GB	颜色：深空灰色
+序列号：KD81	手机型号：iPad Pro 11-inch Wi-Fi + Cellular	内存：64GB	颜色：银色
+序列号：KD84	手机型号：iPad Pro 11-inch Wi-Fi + Cellular	内存：64GB	颜色：银色
+序列号：KD85	手机型号：iPad Pro 11-inch Wi-Fi + Cellular	内存：64GB	颜色：银色
+序列号：KD86	手机型号：iPad Pro 11-inch Wi-Fi + Cellular	内存：256GB	颜色：深空灰色
+序列号：KD89	手机型号：iPad Pro 11-inch Wi-Fi + Cellular	内存：256GB	颜色：深空灰色
+序列号：KD91	手机型号：iPad Pro 11-inch Wi-Fi + Cellular	内存：1TB	颜色：深空灰色
+序列号：KD96	手机型号：iPad Pro 11-inch Wi-Fi + Cellular	内存：1TB	颜色：银色
+序列号：KD97	手机型号：iPad Pro 11-inch Wi-Fi + Cellular	内存：1TB	颜色：银色
+序列号：KD99	手机型号：Apple Watch Series 4 GPS Aluminum 44mm?(4th gen)	内存：16GB	颜色：银色
+序列号：KJNC	手机型号：Beats X, Sacai	内存：	颜色：
+序列号：KJND	手机型号：Beats X, Sacai	内存：	颜色：
+序列号：KPFP	手机型号：iPhone XS	内存：64GB	颜色：深空灰色
+序列号：KPFQ	手机型号：iPhone XS	内存：64GB	颜色：银色
+序列号：KPFR	手机型号：iPhone XS	内存：64GB	颜色：金色
+序列号：KPFT	手机型号：iPhone XS	内存：256GB	颜色：深空灰色
+序列号：KPFV	手机型号：iPhone XS	内存：256GB	颜色：银色
+序列号：KPFW	手机型号：iPhone XS	内存：256GB	颜色：金色
+序列号：KPFX	手机型号：iPhone XS	内存：512GB	颜色：深空灰色
+序列号：KPFY	手机型号：iPhone XS	内存：512GB	颜色：银色
+序列号：KPGC	手机型号：iPhone XS	内存：64GB	颜色：深空灰色
+序列号：KPGD	手机型号：iPhone XS	内存：64GB	颜色：银色
+序列号：KPGF	手机型号：iPhone XS	内存：64GB	颜色：金色
+序列号：KPGG	手机型号：iPhone XS	内存：256GB	颜色：深空灰色
+序列号：KPGH	手机型号：iPhone XS	内存：256GB	颜色：银色
+序列号：KPGM	手机型号：iPhone XS	内存：512GB	颜色：金色
+序列号：KPGN	手机型号：iPhone XS	内存：64GB	颜色：深空灰色
+序列号：KPGP	手机型号：iPhone XS	内存：64GB	颜色：银色
+序列号：KPGQ	手机型号：iPhone XS	内存：64GB	颜色：金色
+序列号：KPGT	手机型号：iPhone XS	内存：256GB	颜色：深空灰色
+序列号：KPGY	手机型号：iPhone XS	内存：512GB	颜色：银色
+序列号：KPG0	手机型号：iPhone XS	内存：512GB	颜色：金色
+序列号：KPG1	手机型号：iPhone XS	内存：64GB	颜色：深空灰色
+序列号：KPG2	手机型号：iPhone XS	内存：64GB	颜色：银色
+序列号：KPG3	手机型号：iPhone XS	内存：64GB	颜色：金色
+序列号：KPG4	手机型号：iPhone XS	内存：256GB	颜色：深空灰色
+序列号：KPG5	手机型号：iPhone XS	内存：256GB	颜色：银色
+序列号：KPG6	手机型号：iPhone XS	内存：256GB	颜色：金色
+序列号：KPG7	手机型号：iPhone XS	内存：512GB	颜色：深空灰色
+序列号：KPG8	手机型号：iPhone XS	内存：512GB	颜色：银色
+序列号：KPG9	手机型号：iPhone XS	内存：512G	颜色：金色
+序列号：KPHC	手机型号：iPhone XS Max	内存：64GB	颜色：深空灰色
+序列号：KPHD	手机型号：iPhone XS Max	内存：64GB	颜色：银色
+序列号：KPHF	手机型号：iPhone XS Max	内存：64GB	颜色：金色
+序列号：KPHG	手机型号：iPhone XS Max	内存：256GB	颜色：深空灰色
+序列号：KPHH	手机型号：iPhone XS Max	内存：256GB	颜色：银色
+序列号：KPHJ	手机型号：iPhone XS Max	内存：256GB	颜色：金色
+序列号：KPHK	手机型号：iPhone XS Max	内存：512GB	颜色：深空灰色
+序列号：KPHL	手机型号：iPhone XS Max	内存：512GB	颜色：银色
+序列号：KPHM	手机型号：iPhone XS Max	内存：512GB	颜色：金色
+序列号：KPHN	手机型号：iPhone XS Max	内存：64GB	颜色：深空灰色
+序列号：KPHP	手机型号：iPhone XS Max	内存：64GB	颜色：银色
+序列号：KPHQ	手机型号：iPhone XS Max	内存：64GB	颜色：金色
+序列号：KPHR	手机型号：iPhone XS Max	内存：256GB	颜色：深空灰色
+序列号：KPHT	手机型号：iPhone XS Max	内存：256GB	颜色：银色
+序列号：KPHV	手机型号：iPhone XS Max	内存：256GB	颜色：金色
+序列号：KPHW	手机型号：iPhone XS Max	内存：512GB	颜色：深空灰色
+序列号：KPHX	手机型号：iPhone XS Max	内存：512GB	颜色：银色
+序列号：KPHY	手机型号：iPhone XS Max	内存：512GB	颜色：金色
+序列号：KPH0	手机型号：iPhone XS	内存：512GB	颜色：金色
+序列号：KPH1	手机型号：iPhone XS Max	内存：64GB	颜色：深空灰色
+序列号：KPH2	手机型号：iPhone XS Max	内存：64GB	颜色：银色
+序列号：KPH3	手机型号：iPhone XS Max	内存：64GB	颜色：金色
+序列号：KPH4	手机型号：iPhone XS Max	内存：256GB	颜色：深空灰色
+序列号：KPH5	手机型号：iPhone XS Max	内存：256GB	颜色：银色
+序列号：KPH6	手机型号：iPhone XS Max	内存：256GB	颜色：金色
+序列号：KPH7	手机型号：iPhone XS Max	内存：512GB	颜色：深空灰色
+序列号：KPH8	手机型号：iPhone XS Max	内存：512GB	颜色：银色
+序列号：KPH9	手机型号：iPhone XS Max	内存：512GB	颜色：金色
+序列号：KPJ0	手机型号：iPhone XS Max	内存：64GB	颜色：深空灰色
+序列号：KPJ1	手机型号：iPhone XS Max	内存：64GB	颜色：银色
+序列号：KPJ2	手机型号：iPhone XS Max	内存：64GB	颜色：金色
+序列号：KPJ3	手机型号：iPhone XS Max	内存：256GB	颜色：深空灰色
+序列号：KPJ4	手机型号：iPhone XS Max	内存：256GB	颜色：银色
+序列号：KPJ5	手机型号：iPhone XS Max	内存：256GB	颜色：金色
+序列号：KPJ6	手机型号：iPhone XS Max	内存：512GB	颜色：深空灰色
+序列号：KPJ7	手机型号：iPhone XS Max	内存：512GB	颜色：银色
+序列号：KPJ8	手机型号：iPhone XS Max	内存：512GB	颜色：金色
+序列号：KQCC	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQCD	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQCJ	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：银色
+序列号：KQCK	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQCL	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQCM	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQCN	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQCP	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQCQ	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQCR	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQCT	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQC0	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQC1	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQC6	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQC7	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQC8	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQC9	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQ1X	手机型号：MacBook Pro (13-inch, 2018, Four Thunderbolt 3 Ports)	内存：	颜色：
+序列号：KQ20	手机型号：MacBook Pro (13-inch, 2018, Four Thunderbolt 3 Ports)	内存：	颜色：
+序列号：KQ21	手机型号：MacBook Pro (13-inch, 2018, Four Thunderbolt 3 Ports)	内存：	颜色：
+序列号：KQ22	手机型号：MacBook Pro (13-inch, 2018, Four Thunderbolt 3 Ports)	内存：	颜色：
+序列号：KQ23	手机型号：MacBook Pro (13-inch, 2018, Four Thunderbolt 3 Ports)	内存：	颜色：
+序列号：KQ24	手机型号：MacBook Pro (13-inch, 2018, Four Thunderbolt 3 Ports)	内存：	颜色：
+序列号：KQ25	手机型号：MacBook Pro (13-inch, 2018, Four Thunderbolt 3 Ports)	内存：	颜色：
+序列号：KQ26	手机型号：MacBook Pro (13-inch, 2018, Four Thunderbolt 3 Ports)	内存：	颜色：
+序列号：KQ27	手机型号：MacBook Pro (13-inch, 2018, Four Thunderbolt 3 Ports)	内存：	颜色：
+序列号：KQ9V	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQ9W	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQ9X	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQ9Y	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KDV8	手机型号：Apple Watch Series 4 Hermès 44mm (4th?gen)	内存：16GB	颜色：Stainless Steel
+序列号：KC4L	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular	内存：64GB	颜色：银色
+序列号：KC4V	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular	内存：64GB	颜色：银色
+序列号：KDH8	手机型号：Apple Watch Series 4 GPS Nike+ 40mm (4th?gen)	内存：16GB	颜色：银色
+序列号：KDH9	手机型号：Apple Watch Series 4 GPS Nike+ 40mm (4th?gen)	内存：16GB	颜色：深空灰色
+序列号：KDVC	手机型号：Apple Watch Series 4 Hermès 44mm (4th?gen)	内存：16GB	颜色：Silver
+序列号：KD8C	手机型号：iPad Pro 11-inch Wi-Fi + Cellular	内存：256GB	颜色：深空灰色
+序列号：KD8D	手机型号：iPad Pro 11-inch Wi-Fi + Cellular	内存：256GB	颜色：银色
+序列号：KD8N	手机型号：iPad Pro 11-inch Wi-Fi + Cellular	内存：512GB	颜色：深空灰色
+序列号：KD8P	手机型号：iPad Pro 11-inch Wi-Fi + Cellular	内存：512GB	颜色：深空灰色
+序列号：KD92	手机型号：iPad Pro 11-inch Wi-Fi + Cellular	内存：1TB	颜色：深空灰色
+序列号：KD93	手机型号：iPad Pro 11-inch Wi-Fi + Cellular	内存：1TB	颜色：银色
+序列号：KK9C	手机型号：MacBook Pro (13-inch, 2018, Four Thunderbolt 3 Ports)	内存：	颜色：
+序列号：KK98	手机型号：MacBook Pro (13-inch, 2018, Four Thunderbolt 3 Ports)	内存：	颜色：
+序列号：KK99	手机型号：MacBook Pro (13-inch, 2018, Four Thunderbolt 3 Ports)	内存：	颜色：
+序列号：KC4W	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular	内存：256GB	颜色：深空灰色
+序列号：KDTC	手机型号：Apple Watch Series 4 Stainless Steel 44mm?(4th gen)	内存：16GB	颜色：Silver
+序列号：KDTD	手机型号：Apple Watch Series 4 Stainless Steel 44mm?(4th gen)	内存：16GB	颜色：Stainless Steel Space Black
+序列号：KDT1	手机型号：Apple Watch Series 4 Cellular Aluminum?40mm (4th gen)	内存：16GB	颜色：Silver
+序列号：KDV0	手机型号：Apple Watch Series 4 Cellular Nike+ 44mm?(4th gen)	内存：16GB	颜色：银色
+序列号：KDV1	手机型号：Apple Watch Series 4 Cellular Nike+ 44mm?(4th gen)	内存：16GB	颜色：深空灰色
+序列号：KDTY	手机型号：Apple Watch Series 4 Cellular Nike+ 40mm?(4th gen)	内存：16GB	颜色：深空灰色
+序列号：KPGJ	手机型号：iPhone XS	内存：256GB	颜色：金色
+序列号：KPGK	手机型号：iPhone XS	内存：512GB	颜色：深空灰色
+序列号：KPGL	手机型号：iPhone XS	内存：512GB	颜色：银色
+序列号：KPGV	手机型号：iPhone XS	内存：256GB	颜色：银色
+序列号：KPGW	手机型号：iPhone XS	内存：256GB	颜色：金色
+序列号：KPGX	手机型号：iPhone XS	内存：512GB	颜色：深空灰色
+序列号：KQCX	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQC2	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQC3	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQC4	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQC5	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQ9Q	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：银色
+序列号：KQCV	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQCW	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQFL	手机型号：iMac (21.5-inch, 2017)	内存：	颜色：
+序列号：KQ1Y	手机型号：MacBook Pro (13-inch, 2018, Four Thunderbolt 3 Ports)	内存：	颜色：
+序列号：KQ9T	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQCF	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQCG	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQCH	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KQ9R	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KWJ2	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：KXKC	手机型号：iPhone XR	内存：128GB	颜色：黄色
+序列号：KXKD	手机型号：iPhone XR	内存：128GB	颜色：珊瑚色
+序列号：KXKF	手机型号：iPhone XR	内存：128GB	颜色：蓝色
+序列号：KXKG	手机型号：iPhone XR	内存：256GB	颜色：黑色
+序列号：KXKH	手机型号：iPhone XR	内存：256GB	颜色：白色
+序列号：KXKJ	手机型号：iPhone XR	内存：256GB	颜色：红色
+序列号：KXKK	手机型号：iPhone XR	内存：256GB	颜色：黄色
+序列号：KXKL	手机型号：iPhone XR	内存：256GB	颜色：珊瑚色
+序列号：KXKM	手机型号：iPhone XR	内存：256GB	颜色：蓝色
+序列号：KXKN	手机型号：iPhone XR	内存：64GB	颜色：黑色
+序列号：KXKP	手机型号：iPhone XR	内存：64GB	颜色：白色
+序列号：KXKQ	手机型号：iPhone XR	内存：64GB	颜色：红色
+序列号：KXKR	手机型号：iPhone XR	内存：64GB	颜色：黄色
+序列号：KXKT	手机型号：iPhone XR	内存：64GB	颜色：珊瑚色
+序列号：KXKV	手机型号：iPhone XR	内存：64GB	颜色：蓝色
+序列号：KXKW	手机型号：iPhone XR	内存：128GB	颜色：黑色
+序列号：KXKX	手机型号：iPhone XR	内存：64GB	颜色：黑色
+序列号：KXKY	手机型号：iPhone XR	内存：128GB	颜色：白色
+序列号：KXK1	手机型号：iPhone XR	内存：64GB	颜色：黑色
+序列号：KXK2	手机型号：iPhone XR	内存：64GB	颜色：白色
+序列号：KXK3	手机型号：iPhone XR	内存：64GB	颜色：红色
+序列号：KXK4	手机型号：iPhone XR	内存：64GB	颜色：黄色
+序列号：KXK5	手机型号：iPhone XR	内存：64GB	颜色：珊瑚色
+序列号：KXK6	手机型号：iPhone XR	内存：128GB	颜色：黑色
+序列号：KXK7	手机型号：iPhone XR	内存：64GB	颜色：蓝色
+序列号：KXK8	手机型号：iPhone XR	内存：128GB	颜色：白色
+序列号：KXK9	手机型号：iPhone XR	内存：128GB	颜色：红色
+序列号：KXLC	手机型号：iPhone XR	内存：64GB	颜色：蓝色
+序列号：KXLD	手机型号：iPhone XR	内存：256GB	颜色：红色
+序列号：KXLF	手机型号：iPhone XR	内存：128GB	颜色：黑色
+序列号：KXLG	手机型号：iPhone XR	内存：256GB	颜色：黄色
+序列号：KXLH	手机型号：iPhone XR	内存：128GB	颜色：白色
+序列号：KXLJ	手机型号：iPhone XR	内存：256GB	颜色：珊瑚色
+序列号：KXLK	手机型号：iPhone XR	内存：256GB	颜色：蓝色
+序列号：KXLL	手机型号：iPhone XR	内存：128GB	颜色：红色
+序列号：KXLM	手机型号：iPhone XR	内存：128GB	颜色：黄色
+序列号：KXLN	手机型号：iPhone XR	内存：128GB	颜色：珊瑚色
+序列号：KXLP	手机型号：iPhone XR	内存：128GB	颜色：蓝色
+序列号：KXLQ	手机型号：iPhone XR	内存：256GB	颜色：黑色
+序列号：KXLR	手机型号：iPhone XR	内存：256GB	颜色：白色
+序列号：KXLT	手机型号：iPhone XR	内存：256GB	颜色：红色
+序列号：KXLV	手机型号：iPhone XR	内存：256GB	颜色：黄色
+序列号：KXLW	手机型号：iPhone XR	内存：256GB	颜色：珊瑚色
+序列号：KXLX	手机型号：iPhone XR	内存：256GB	颜色：蓝色
+序列号：KXLY	手机型号：iPhone XR	内存：64GB	颜色：黑色
+序列号：KXL0	手机型号：iPhone XR	内存：128GB	颜色：红色
+序列号：KXL1	手机型号：iPhone XR	内存：64GB	颜色：白色
+序列号：KXL2	手机型号：iPhone XR	内存：128GB	颜色：黄色
+序列号：KXL3	手机型号：iPhone XR	内存：64GB	颜色：红色
+序列号：KXL4	手机型号：iPhone XR	内存：128GB	颜色：珊瑚色
+序列号：KXL5	手机型号：iPhone XR	内存：64GB	颜色：黄色
+序列号：KXL6	手机型号：iPhone XR	内存：128GB	颜色：蓝色
+序列号：KXL7	手机型号：iPhone XR	内存：64GB	颜色：珊瑚色
+序列号：KXL8	手机型号：iPhone XR	内存：256GB	颜色：黑色
+序列号：KXL9	手机型号：iPhone XR	内存：256GB	颜色：白色
+序列号：KXMC	手机型号：iPhone XR	内存：128GB	颜色：蓝色
+序列号：KXMD	手机型号：iPhone XR	内存：256GB	颜色：黑色
+序列号：KXMF	手机型号：iPhone XR	内存：256GB	颜色：白色
+序列号：KXMG	手机型号：iPhone XR	内存：256GB	颜色：红色
+序列号：KXMH	手机型号：iPhone XR	内存：256GB	颜色：黄色
+序列号：KXMJ	手机型号：iPhone XR	内存：256GB	颜色：珊瑚色
+序列号：KXMK	手机型号：iPhone XR	内存：256GB	颜色：蓝色
+序列号：KXM0	手机型号：iPhone XR	内存：64GB	颜色：白色
+序列号：KXM1	手机型号：iPhone XR	内存：64GB	颜色：红色
+序列号：KXM2	手机型号：iPhone XR	内存：64GB	颜色：黄色
+序列号：KXM3	手机型号：iPhone XR	内存：64GB	颜色：珊瑚色
+序列号：KXM4	手机型号：iPhone XR	内存：64GB	颜色：蓝色
+序列号：KXM5	手机型号：iPhone XR	内存：128GB	颜色：黑色
+序列号：KXM6	手机型号：iPhone XR	内存：128GB	颜色：白色
+序列号：KXM7	手机型号：iPhone XR	内存：128GB	颜色：红色
+序列号：KXM8	手机型号：iPhone XR	内存：128GB	颜色：黄色
+序列号：KXM9	手机型号：iPhone XR	内存：128GB	颜色：珊瑚色
+序列号：KY5Y	手机型号：Solo3 Wireless, Satin Gold or Silver	内存：	颜色：
+序列号：KY60	手机型号：Solo3 Wireless, Satin Gold or Silver	内存：	颜色：
+序列号：K0Q9	手机型号：Smart Keyboard	内存：	颜色：
+序列号：K141	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：
+序列号：K48M	手机型号：iPad Wi-Fi + 3G	内存：	颜色：
+序列号：K7MC	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi	内存：	颜色：
+序列号：K7M9	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi	内存：64GB	颜色：深空灰色
+序列号：K7RG	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi	内存：256GB	颜色：深空灰色
+序列号：K7RH	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi	内存：256GB	颜色：银色
+序列号：K822	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi	内存：512GB	颜色：深空灰色
+序列号：K823	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi	内存：512GB	颜色：银色
+序列号：K824	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi	内存：1TB	颜色：深空灰色
+序列号：K825	手机型号：iPad Pro 12.9-inch (3rd generation) Wi-Fi	内存：1TB	颜色：银色
+
+序列号：LCM6	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：深空灰色
+序列号：LC73	手机型号：Solo3 Wireless, Chinese New Year - Blade Gray	内存：	颜色：
+序列号：LC8J	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：LC8K	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：LC8L	手机型号：MacBook Pro (15-inch, 2018)	内存：	颜色：
+序列号：LHPC	手机型号：Mac mini (2018)	内存：	颜色：
+
+
+
+

@@ -1815,3 +1815,33 @@
 2019-06-12 13:01:17,921 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=353001091289737 请求失败！状态码为500，共耗时2.91秒
 2019-06-12 13:02:27,176 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=353001091289737 请求失败！状态码为500，共耗时5.67秒
 2019-06-12 13:04:36,626 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=353001091289737 请求失败！状态码为500，共耗时2.85秒
+2019-06-15 21:49:39,216 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=354877093092222 请求失败！状态码为500，共耗时2.43秒
+2019-06-15 21:50:23,907 - deal_re - ERROR - ---> The error is HTTPSConnectionPool(host='checkcoverage.apple.com', port=443): Read timed out., and the website is https://checkcoverage.apple.com/cn/zh/?sn=354877093092222. Now try again just one time.
+2019-06-15 21:50:25,405 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=354877093092222 请求失败！状态码为500，共耗时1.5秒
+2019-06-15 21:50:34,745 - deal_re - ERROR - ---> The error is HTTPSConnectionPool(host='checkcoverage.apple.com', port=443): Read timed out., and the website is https://checkcoverage.apple.com/cn/zh/?sn=354877093092222. Now try again just one time.
+2019-06-15 21:50:36,906 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=354877093092222 请求失败！状态码为500，共耗时2.16秒
+2019-06-15 21:50:44,934 - deal_re - ERROR - ---> The error is HTTPSConnectionPool(host='checkcoverage.apple.com', port=443): Read timed out., and the website is https://checkcoverage.apple.com/cn/zh/?sn=354877093092222. Now try again just one time.
+2019-06-15 21:50:47,995 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=354877093092222 请求失败！状态码为500，共耗时3.06秒
+2019-06-15 21:50:50,262 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=354877093092222 请求失败！状态码为500，共耗时50.4秒
+2019-06-15 21:56:23,934 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=359402084361182 请求失败！状态码为403，共耗时2.42秒
+2019-06-15 21:56:45,592 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=359402084361182 请求失败！状态码为500，共耗时4.44秒
+2019-06-15 22:02:03,498 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=359402084361182 请求失败！状态码为403，共耗时0.992秒
+2019-06-15 22:02:13,906 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=359402084361182 请求失败！状态码为403，共耗时2.26秒
+2019-06-15 22:02:35,571 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=359402084361182 请求失败！状态码为403，共耗时0.574秒
+2019-06-15 22:04:32,444 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=358729093966622 请求失败！状态码为403，共耗时2.13秒
+2019-06-15 22:05:26,364 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=358729093966622 请求失败！状态码为403，共耗时1.99秒
+2019-06-15 22:06:54,792 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=358729093966622 请求失败！状态码为403，共耗时5.41秒
+2019-06-15 22:07:56,539 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=356724081713963 请求失败！状态码为403，共耗时4.09秒
+2019-06-15 22:10:32,263 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=356724081713963 请求失败！状态码为500，共耗时1.45秒
+2019-06-15 22:10:46,783 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=356724081713963 请求失败！状态码为403，共耗时0.851秒
+2019-06-15 22:11:01,586 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=356724081713963 请求失败！状态码为403，共耗时2.2秒
+2019-06-15 22:12:11,529 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=356724081713963 请求失败！状态码为403，共耗时2.38秒
+2019-06-15 22:12:31,644 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=356724081713963 请求失败！状态码为500，共耗时1.54秒
+2019-06-15 22:31:19,087 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=356724081713963 请求失败！状态码为403，共耗时3.85秒
+2019-06-15 22:31:52,101 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=356724081713963 请求失败！状态码为403，共耗时6.45秒
+2019-06-15 22:32:11,838 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=356724081713963 请求失败！状态码为403，共耗时1.1秒
+2019-06-15 22:35:10,624 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=356724081713963 请求失败！状态码为403，共耗时1.12秒
+2019-06-15 22:36:01,572 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=356724081713963 请求失败！状态码为403，共耗时5.66秒
+2019-06-15 22:36:30,625 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=356724081713963 请求失败！状态码为403，共耗时2.08秒
+2019-06-15 22:52:24,888 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=DNQVW9DAJCL6 请求失败！状态码为403，共耗时0.818秒
+2019-06-15 22:52:54,634 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=DNQVW9DAJCL6 请求失败！状态码为403，共耗时6.52秒

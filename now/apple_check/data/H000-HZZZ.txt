@@ -1,0 +1,602 @@
+序列号：H03M	手机型号：MacBook Pro (15-inch, Late 2016)	内存：	颜色：银色
+序列号：H03Q	手机型号：MacBook Pro (15-inch, Late 2016)	内存：	颜色：银色
+序列号：H03T	手机型号：MacBook Pro (15-inch, 2016)	内存：	颜色：银色
+序列号：H040	手机型号：MacBook Pro (15-inch, Late 2016)	内存：	颜色：银色
+序列号：H0HJ	手机型号：iMac (21.5-inch, Late 2013)	内存：	颜色：
+序列号：H0KF	手机型号：iMac (Retina 4K, 21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：H0N6	手机型号：iMac (21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：H0P6	手机型号：iMac (21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：H0P7	手机型号：iMac (Retina 4K, 21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：H0Q3	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H0Q4	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H0Q5	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H15R	手机型号：iMac (Retina 4K, 21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：H18W	手机型号：Beats X	内存：0GB	颜色：白色
+序列号：H18X	手机型号：Beats X	内存：0GB	颜色：蓝色
+序列号：H1DK	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：H1DN	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：H1DP	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：H1DQ	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：H1DV	手机型号：Apple TV (4th generation)	内存：32GB	颜色：黑色
+序列号：H1DW	手机型号：Apple TV (4th generation)	内存：64GB	颜色：黑色
+序列号：H1DX	手机型号：iMac (21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：H1DY	手机型号：iMac (21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：H1F1	手机型号：iMac (21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：H1F2	手机型号：iMac (21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：H1F3	手机型号：iMac (Retina 4K, 21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：H1F5	手机型号：iMac (Retina 4K, 21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：H1F7	手机型号：iMac (Retina 4K, 21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：H1F8	手机型号：iMac (Retina 4K, 21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：H1F9	手机型号：iMac (Retina 4K, 21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：H1H9	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H1M9	手机型号：iPad Pro (9.7-inch)	内存：32GB	颜色：深空灰色
+序列号：H1MC	手机型号：iPad Pro (9.7-inch)	内存：32GB	颜色：银色
+序列号：H1MD	手机型号：iPad Pro (9.7-inch)	内存：32GB	颜色：金色
+序列号：H1MJ	手机型号：iPad Pro (9.7-inch)	内存：128GB	颜色：深空灰色
+序列号：H1MK	手机型号：iPad Pro (9.7-inch)	内存：128GB	颜色：银色
+序列号：H1ML	手机型号：iPad Pro (9.7-inch)	内存：128GB	颜色：金色
+序列号：H1MM	手机型号：iPad Pro (9.7-inch)	内存：256GB	颜色：深空灰色
+序列号：H1MW	手机型号：iPad Pro (9.7-inch)	内存：256GB	颜色：玫瑰金色
+序列号：H1WK	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：H1WR	手机型号：iMac (21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：H226	手机型号：iMac (21.5-inch, Late 2013)	内存：	颜色：
+序列号：H23F	手机型号：iPad Pro (9.7-inch, Wi-Fi + Cellular)	内存：32GB	颜色：深空灰色
+序列号：H23X	手机型号：iPad Pro (9.7-inch, Wi-Fi + Cellular)	内存：32GB	颜色：银色
+序列号：H23Y	手机型号：iPad Pro (9.7-inch, Wi-Fi + Cellular)	内存：32GB	颜色：金色
+序列号：H240	手机型号：iPad Pro (9.7-inch, Wi-Fi + Cellular)	内存：32GB	颜色：玫瑰金色
+序列号：H245	手机型号：iPad Pro (9.7-inch, Wi-Fi + Cellular)	内存：128GB	颜色：深空灰色
+序列号：H246	手机型号：iPad Pro (9.7-inch, Wi-Fi + Cellular)	内存：128GB	颜色：银色
+序列号：H247	手机型号：iPad Pro (9.7-inch, Wi-Fi + Cellular)	内存：128GB	颜色：金色
+序列号：H248	手机型号：iPad Pro (9.7-inch, Wi-Fi + Cellular)	内存：128GB	颜色：玫瑰金色
+序列号：H256	手机型号：iPad Pro (9.7-inch, Wi-Fi + Cellular)	内存：32GB	颜色：玫瑰金色
+序列号：H258	手机型号：iPad Pro (9.7-inch, Wi-Fi + Cellular)	内存：128GB	颜色：玫瑰金色
+序列号：H259	手机型号：iPad Pro (9.7-inch, Wi-Fi + Cellular)	内存：256GB	颜色：玫瑰金色
+序列号：H25M	手机型号：iMac (21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：H25N	手机型号：iMac (Retina 4K, 21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：H28H	手机型号：iMac (Retina 4K, 21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：H2KW	手机型号：iMac (21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：H2XG	手机型号：iPhone SE	内存：16GB	颜色：深空灰色
+序列号：H2XH	手机型号：iPhone SE	内存：16GB	颜色：银色
+序列号：H2XJ	手机型号：iPhone SE	内存：16GB	颜色：深空灰色
+序列号：H2XK	手机型号：iPhone SE	内存：16GB	颜色：银色
+序列号：H2XL	手机型号：iPhone SE	内存：64GB	颜色：深空灰色
+序列号：H2XM	手机型号：iPhone SE	内存：64GB	颜色：银色
+序列号：H2XN	手机型号：iPhone SE	内存：64GB	颜色：深空灰色
+序列号：H2XP	手机型号：iPhone SE	内存：64GB	颜色：银色
+序列号：H2XQ	手机型号：iPhone SE	内存：16GB	颜色：金色
+序列号：H2XR	手机型号：iPhone SE	内存：16GB	颜色：玫瑰金色
+序列号：H2XT	手机型号：iPhone SE	内存：64GB	颜色：金色
+序列号：H2XV	手机型号：iPhone SE	内存：64GB	颜色：玫瑰金色
+序列号：H2XW	手机型号：iPhone SE	内存：16GB	颜色：金色
+序列号：H2XX	手机型号：iPhone SE	内存：16GB	颜色：玫瑰金色
+序列号：H2Y7	手机型号：iPhone SE	内存：64GB	颜色：金色
+序列号：H2Y8	手机型号：iPhone SE	内存：64GB	颜色：玫瑰金色
+序列号：H2YQ	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H3GN	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H3GP	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H3GQ	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H3GR	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H3GT	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H3GV	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H3GW	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H3GX	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H3GY	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H3H0	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H3H1	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H3H2	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H3H3	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H3H4	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H3H5	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H3H7	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H3H8	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H3H9	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H3HC	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H3HD	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H3HF	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H3HG	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H3HH	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H3HJ	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H3QD	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：H3QF	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：H3QJ	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：H3R5	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：银色
+序列号：H3R6	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：玫瑰金色
+序列号：H3R7	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：玫瑰金色
+序列号：H3RJ	手机型号：iMac (Retina 4K, 21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：H4JM	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H4LL	手机型号：Studio Wireless	内存：	颜色：
+序列号：H4LM	手机型号：Studio Wireless	内存：	颜色：
+序列号：H4LP	手机型号：Studio Wireless	内存：	颜色：
+序列号：H4LQ	手机型号：Studio Wireless	内存：	颜色：
+序列号：H4LR	手机型号：Studio Wireless	内存：	颜色：
+序列号：H4LV	手机型号：Studio Wireless	内存：	颜色：
+序列号：H4LY	手机型号：Studio Wireless	内存：	颜色：
+序列号：H4M0	手机型号：Studio Wireless	内存：	颜色：
+序列号：H4M2	手机型号：Studio Wireless	内存：	颜色：
+序列号：H4M5	手机型号：Studio Wireless	内存：	颜色：
+序列号：H4M7	手机型号：Solo2 Wireless	内存：	颜色：
+序列号：H4M8	手机型号：Solo2 Wireless	内存：	颜色：
+序列号：H4M9	手机型号：Solo2 Wireless	内存：	颜色：
+序列号：H4MD	手机型号：Solo2 Wireless	内存：	颜色：
+序列号：H4MF	手机型号：Solo2 Wireless	内存：	颜色：
+序列号：H4MG	手机型号：Solo2 Wireless	内存：	颜色：
+序列号：H4MH	手机型号：Solo2 Wireless	内存：	颜色：
+序列号：H4MJ	手机型号：Solo2 Wireless	内存：	颜色：
+序列号：H4ML	手机型号：Solo2 Wireless	内存：	颜色：
+序列号：H4MM	手机型号：Solo2 Wireless	内存：	颜色：
+序列号：H4MN	手机型号：Solo2 Wireless	内存：	颜色：
+序列号：H4MR	手机型号：Solo2 Wireless	内存：	颜色：
+序列号：H4NC	手机型号：Powerbeats2 Wireless	内存：	颜色：
+序列号：H569	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：H5DN	手机型号：iMac (Retina 5K, 27-inch, Late 2014)	内存：	颜色：银色
+序列号：H682	手机型号：iMac (Retina 5K, 27-inch, Late 2014)	内存：	颜色：银色
+序列号：H7JY	手机型号：iMac (21.5-inch, 2017)	内存：	颜色：银色
+序列号：H7K0	手机型号：iMac (21.5-inch, 2017)	内存：	颜色：银色
+序列号：H7VF	手机型号：iMac (21.5-inch, 2017)	内存：	颜色：银色
+序列号：H7VG	手机型号：iMac (21.5-inch, 2017)	内存：	颜色：银色
+序列号：H84M	手机型号：Mac mini (Late 2014)	内存：	颜色：银色
+序列号：H8CY	手机型号：Smart Keyboard	内存：	颜色：
+序列号：H8D0	手机型号：Smart Keyboard	内存：	颜色：
+序列号：H8D1	手机型号：Smart Keyboard	内存：	颜色：
+序列号：H8D2	手机型号：Smart Keyboard	内存：	颜色：
+序列号：H8D3	手机型号：Smart Keyboard	内存：	颜色：
+序列号：H8D4	手机型号：Smart Keyboard	内存：	颜色：
+序列号：H8D5	手机型号：Smart Keyboard	内存：	颜色：
+序列号：H8D6	手机型号：Smart Keyboard	内存：	颜色：
+序列号：H8KX	手机型号：iMac (21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：H8KY	手机型号：iMac (Retina 4K, 21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：H8L0	手机型号：iMac (Retina 4K, 21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：H8L6	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H8TT	手机型号：AirPods	内存：	颜色：白色
+序列号：H8VD	手机型号：Solo3 Wireless	内存：0GB	颜色：Gloss Black
+序列号：H8VF	手机型号：Solo3 Wireless	内存：0GB	颜色：Gloss White
+序列号：H8VG	手机型号：Solo3 Wireless	内存：0GB	颜色：银色
+序列号：H8VH	手机型号：Solo3 Wireless	内存：0GB	颜色：金色
+序列号：H8VJ	手机型号：Solo3 Wireless	内存：0GB	颜色：玫瑰金色
+序列号：H8VT	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：H8VV	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：H8VW	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：H8VX	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：HC5R	手机型号：Powerbeats2 Wireless	内存：	颜色：
+序列号：HCL5	手机型号：Mac mini (Late 2014)	内存：	颜色：银色
+序列号：HD21	手机型号：Smart Keyboard	内存：	颜色：
+序列号：HD22	手机型号：Smart Keyboard	内存：	颜色：
+序列号：HD23	手机型号：Smart Keyboard	内存：	颜色：
+序列号：HD24	手机型号：Smart Keyboard	内存：	颜色：
+序列号：HD25	手机型号：Smart Keyboard	内存：	颜色：
+序列号：HD26	手机型号：Smart Keyboard	内存：	颜色：
+序列号：HD27	手机型号：Smart Keyboard	内存：	颜色：
+序列号：HD28	手机型号：Smart Keyboard	内存：	颜色：
+序列号：HD29	手机型号：Smart Keyboard	内存：	颜色：
+序列号：HD2C	手机型号：Smart Keyboard	内存：	颜色：
+序列号：HD2F	手机型号：Smart Keyboard	内存：	颜色：
+序列号：HD7X	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：HD80	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：HD8M	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：银色
+序列号：HD98	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：HDNK	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：银色
+序列号：HDV5	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：HDX5	手机型号：Apple Watch Series 2 Aluminum 38mm (2nd gen)	内存：8GB	颜色：Silver
+序列号：HDX7	手机型号：Apple Watch Series 2 Aluminum 38mm (2nd gen)	内存：8GB	颜色：Rose Gold
+序列号：HDX9	手机型号：Apple Watch Series 2 Aluminum 38mm (2nd gen)	内存：8GB	颜色：Gold
+序列号：HDXD	手机型号：Apple Watch Series 2 Stainless Steel 38mm (2nd gen)	内存：8GB	颜色：White Stainless Steel
+序列号：HDXL	手机型号：Apple Watch Series 2 Stainless Steel 38mm (2nd gen)	内存：8GB	颜色：Space Black Stainless Steel
+序列号：HDXP	手机型号：Apple Watch Series 2 Edition 38mm (2nd gen)	内存：8GB	颜色：White Ceramic
+序列号：HDXV	手机型号：Apple Watch Series 2 Aluminum 42mm (2nd gen)	内存：8GB	颜色：Silver
+序列号：HDXX	手机型号：Apple Watch Series 2 Aluminum 42mm (2nd gen)	内存：8GB	颜色：Rose Gold
+序列号：HDY0	手机型号：Apple Watch Series 2 Aluminum 42mm (2nd gen)	内存：8GB	颜色：Gold
+序列号：HDY2	手机型号：Apple Watch Series 2 Edition 42mm (2nd gen)	内存：8GB	颜色：White Ceramic
+序列号：HDY3	手机型号：Apple Watch Series 2 Stainless Steel 42mm (2nd gen)	内存：8GB	颜色：Silver Stainless Steel
+序列号：HDY9	手机型号：Apple Watch Series 2 Stainless Steel 42mm (2nd gen)	内存：8GB	颜色：Space Black Stainless Steel
+序列号：HDYF	手机型号：Apple Watch Series 2 Hermès 42mm (2nd gen)	内存：8GB	颜色：Space Gray Stainless Steel
+序列号：HDYM	手机型号：Apple Watch Series 2 Hermès 38mm (2nd gen)	内存：8GB	颜色：Space Gray Stainless Steel
+序列号：HF12	手机型号：Apple Watch Series 1 38mm (2nd gen)	内存：8GB	颜色：Silver
+序列号：HF1C	手机型号：Apple Watch Series 1 38mm (2nd gen)	内存：8GB	颜色：Rose Gold
+序列号：HF1D	手机型号：Apple Watch Series 1 38mm (2nd gen)	内存：8GB	颜色：Yellow Gold
+序列号：HF1G	手机型号：Apple Watch Series 1 42mm (2nd gen)	内存：8GB	颜色：Silver
+序列号：HF1H	手机型号：Apple Watch Series 1 42mm (2nd gen)	内存：8GB	颜色：Rose Gold
+序列号：HF1J	手机型号：Apple Watch Series 1 42mm (2nd gen)	内存：8GB	颜色：Yellow Gold
+序列号：HF1L	手机型号：Apple Watch Series 2 Nike + 38mm (2nd gen)	内存：8GB	颜色：Silver
+序列号：HF1N	手机型号：Apple Watch Series 2 Nike + 42mm (2nd gen)	内存：8GB	颜色：Silver
+序列号：HF1P	手机型号：MacBook Pro (13-inch, Late 2016, Four Thunderbolt 3 Ports)	内存：	颜色：深空灰色
+序列号：HF1Q	手机型号：MacBook Pro (13-inch, Late 2016, Four Thunderbolt 3 Ports)	内存：	颜色：银色
+序列号：HF1R	手机型号：MacBook Pro (13-inch, Late 2016, Four Thunderbolt 3 Ports)	内存：	颜色：深空灰色
+序列号：HF1T	手机型号：MacBook Pro (13-inch, Late 2016, Four Thunderbolt 3 Ports)	内存：	颜色：银色
+序列号：HF41	手机型号：Smart Keyboard	内存：	颜色：
+序列号：HF42	手机型号：Smart Keyboard	内存：	颜色：
+序列号：HF43	手机型号：Smart Keyboard	内存：	颜色：
+序列号：HF4F	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：HF4H	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：HF6H	手机型号：Apple Watch Series 2 Aluminum 38mm (2nd gen)	内存：8GB	颜色：银色
+序列号：HF6J	手机型号：Apple Watch Series 2 Aluminum 38mm (2nd gen)	内存：8GB	颜色：Rose Gold
+序列号：HF6K	手机型号：Apple Watch Series 2 Aluminum 38mm (2nd gen)	内存：8GB	颜色：Gold
+序列号：HF6L	手机型号：Apple Watch Series 2 Stainless Steel 38mm (2nd gen)	内存：8GB	颜色：白色
+序列号：HF6M	手机型号：Apple Watch Series 2 Stainless Steel 38mm (2nd gen)	内存：8GB	颜色：深空灰色
+序列号：HF6N	手机型号：Apple Watch Series 2 Edition 38mm (2nd gen)	内存：8GB	颜色：白色
+序列号：HF6Q	手机型号：Apple Watch Series 2 Aluminum 42mm (2nd gen)	内存：8GB	颜色：Silver
+序列号：HF6R	手机型号：Apple Watch Series 2 Aluminum 42mm (2nd gen)	内存：8GB	颜色：Rose Gold
+序列号：HF6T	手机型号：Apple Watch Series 2 Aluminum 42mm (2nd gen)	内存：8GB	颜色：Yellow Gold
+序列号：HF6V	手机型号：Apple Watch Series 2 Stainless Steel 42mm (2nd gen)	内存：8GB	颜色：白色
+序列号：HF6W	手机型号：Apple Watch Series 2 Stainless Steel 42mm (2nd gen)	内存：8GB	颜色：Black Stainless Steel
+序列号：HF6X	手机型号：Apple Watch Series 2 Edition 42mm (2nd gen)	内存：8GB	颜色：White Ceramic
+序列号：HF70	手机型号：Apple Watch Series 2 Nike + 38mm (2nd gen)	内存：8GB	颜色：银色
+序列号：HF72	手机型号：Apple Watch Series 2 Nike + 42mm (2nd gen)	内存：8GB	颜色：Silver
+序列号：HF74	手机型号：Apple Watch Series 2 Hermès 38mm (2nd gen)	内存：8GB	颜色：深空灰色
+序列号：HF75	手机型号：Apple Watch Series 2 Hermès 42mm (2nd gen)	内存：8GB	颜色：深空灰色
+序列号：HF9N	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：HF9V	手机型号：Smart Keyboard	内存：	颜色：
+序列号：HFCN	手机型号：Smart Keyboard	内存：	颜色：
+序列号：HFCV	手机型号：Smart Keyboard	内存：	颜色：
+序列号：HFCW	手机型号：Smart Keyboard	内存：	颜色：
+序列号：HFG7	手机型号：MacBook Pro (Retina, 15-inch, Mid 2015)	内存：	颜色：银色
+序列号：HFLM	手机型号：iPhone 6s	内存：32GB	颜色：深空灰色
+序列号：HFLN	手机型号：iPhone 6s	内存：32GB	颜色：银色
+序列号：HFLP	手机型号：iPhone 6s	内存：32GB	颜色：金色
+序列号：HFLQ	手机型号：iPhone 6s	内存：32GB	颜色：玫瑰金色
+序列号：HFLR	手机型号：iPhone 6s	内存：32GB	颜色：深空灰色
+序列号：HFLT	手机型号：iPhone 6s	内存：32GB	颜色：银色
+序列号：HFLV	手机型号：iPhone 6s	内存：32GB	颜色：金色
+序列号：HFLW	手机型号：iPhone 6s	内存：32GB	颜色：玫瑰金色
+序列号：HFLX	手机型号：iPhone 6s Plus	内存：32GB	颜色：深空灰色
+序列号：HFLY	手机型号：iPhone 6s Plus	内存：32GB	颜色：银色
+序列号：HFM0	手机型号：iPhone 6s Plus	内存：32GB	颜色：金色
+序列号：HFM1	手机型号：iPhone 6s Plus	内存：32GB	颜色：玫瑰金色
+序列号：HFM2	手机型号：iPhone 6s Plus	内存：32GB	颜色：深空灰色
+序列号：HFM3	手机型号：iPhone 6s Plus	内存：32GB	颜色：银色
+序列号：HFXY	手机型号：iPhone 7 Plus	内存：128GB	颜色：金色
+序列号：HFY0	手机型号：iPhone 7 Plus	内存：128GB	颜色：玫瑰金色
+序列号：HFY1	手机型号：iPhone 7 Plus	内存：128GB	颜色：亮黑色
+序列号：HFY2	手机型号：iPhone 7 Plus	内存：256GB	颜色：黑色
+序列号：HFY3	手机型号：iPhone 7 Plus	内存：256GB	颜色：银色
+序列号：HFY4	手机型号：iPhone 7 Plus	内存：256GB	颜色：金色
+序列号：HFY5	手机型号：iPhone 7 Plus	内存：256GB	颜色：玫瑰金色
+序列号：HFY6	手机型号：iPhone 7 Plus	内存：256GB	颜色：亮黑色
+序列号：HFY7	手机型号：iPhone 7 Plus	内存：128GB	颜色：黑色
+序列号：HFY8	手机型号：iPhone 7 Plus	内存：128GB	颜色：银色
+序列号：HFY9	手机型号：iPhone 7 Plus	内存：128GB	颜色：金色
+序列号：HFYC	手机型号：iPhone 7 Plus	内存：128GB	颜色：玫瑰金色
+序列号：HFYD	手机型号：iPhone 7 Plus	内存：128GB	颜色：亮黑色
+序列号：HFYF	手机型号：iPhone 7 Plus	内存：256GB	颜色：黑色
+序列号：HFYG	手机型号：iPhone 7 Plus	内存：256GB	颜色：银色
+序列号：HFYH	手机型号：iPhone 7 Plus	内存：256GB	颜色：金色
+序列号：HFYJ	手机型号：iPhone 7 Plus	内存：256GB	颜色：玫瑰金色
+序列号：HFYK	手机型号：iPhone 7 Plus	内存：256GB	颜色：亮黑色
+序列号：HFYL	手机型号：iPhone 7 Plus	内存：128GB	颜色：黑色
+序列号：HFYM	手机型号：iPhone 7 Plus	内存：128GB	颜色：银色
+序列号：HFYN	手机型号：iPhone 7 Plus	内存：128GB	颜色：金色
+序列号：HFYP	手机型号：iPhone 7 Plus	内存：128GB	颜色：玫瑰金色
+序列号：HFYQ	手机型号：iPhone 7 Plus	内存：128GB	颜色：亮黑色
+序列号：HFYT	手机型号：iPhone 7 Plus	内存：256GB	颜色：黑色
+序列号：HFYV	手机型号：iPhone 7 Plus	内存：256GB	颜色：银色
+序列号：HFYW	手机型号：iPhone 7 Plus	内存：256GB	颜色：金色
+序列号：HFYX	手机型号：iPhone 7 Plus	内存：256GB	颜色：玫瑰金色
+序列号：HFYY	手机型号：iPhone 7 Plus	内存：256GB	颜色：亮黑色
+序列号：HG00	手机型号：iPhone 7 Plus	内存：32GB	颜色：黑色
+序列号：HG01	手机型号：iPhone 7 Plus	内存：32GB	颜色：银色
+序列号：HG02	手机型号：iPhone 7 Plus	内存：32GB	颜色：金色
+序列号：HG03	手机型号：iPhone 7 Plus	内存：32GB	颜色：玫瑰金色
+序列号：HG04	手机型号：iPhone 7 Plus	内存：32GB	颜色：黑色
+序列号：HG05	手机型号：iPhone 7 Plus	内存：32GB	颜色：银色
+序列号：HG06	手机型号：iPhone 7 Plus	内存：32GB	颜色：金色
+序列号：HG07	手机型号：iPhone 7 Plus	内存：32GB	颜色：玫瑰金色
+序列号：HG08	手机型号：iPhone 7 Plus	内存：32GB	颜色：黑色
+序列号：HG09	手机型号：iPhone 7 Plus	内存：32GB	颜色：银色
+序列号：HG0C	手机型号：iPhone 7 Plus	内存：32GB	颜色：金色
+序列号：HG0F	手机型号：iPhone 7 Plus	内存：32GB	颜色：玫瑰金色
+序列号：HG57	手机型号：Smart Keyboard	内存：	颜色：
+序列号：HG5D	手机型号：iPad Air 2	内存：32GB	颜色：深空灰色
+序列号：HG5F	手机型号：iPad Air 2	内存：32GB	颜色：银色
+序列号：HG5G	手机型号：iPad Air 2	内存：32GB	颜色：金色
+序列号：HG6R	手机型号：iPad Air 2 Wi-Fi + Cellular	内存：32GB	颜色：深空灰色
+序列号：HG6T	手机型号：iPad Air 2 Wi-Fi + Cellular	内存：32GB	颜色：银色
+序列号：HG6V	手机型号：iPad Air 2 Wi-Fi + Cellular	内存：32GB	颜色：金色
+序列号：HG6W	手机型号：iPhone 7	内存：32GB	颜色：黑色
+序列号：HG6X	手机型号：iPhone 7	内存：32GB	颜色：银色
+序列号：HG6Y	手机型号：iPhone 7	内存：32GB	颜色：金色
+序列号：HG70	手机型号：iPhone 7	内存：32GB	颜色：玫瑰金色
+序列号：HG71	手机型号：iPhone 7	内存：128GB	颜色：黑色
+序列号：HG72	手机型号：iPhone 7	内存：128GB	颜色：银色
+序列号：HG73	手机型号：iPhone 7	内存：128GB	颜色：金色
+序列号：HG74	手机型号：iPhone 7	内存：128GB	颜色：玫瑰金色
+序列号：HG75	手机型号：iPhone 7	内存：128GB	颜色：亮黑色
+序列号：HG76	手机型号：iPhone 7	内存：256GB	颜色：黑色
+序列号：HG77	手机型号：iPhone 7	内存：256GB	颜色：银色
+序列号：HG78	手机型号：iPhone 7	内存：256GB	颜色：金色
+序列号：HG79	手机型号：iPhone 7	内存：256GB	颜色：玫瑰金色
+序列号：HG7D	手机型号：iPhone 7	内存：256GB	颜色：亮黑色
+序列号：HG7F	手机型号：iPhone 7	内存：32GB	颜色：黑色
+序列号：HG7G	手机型号：iPhone 7	内存：32GB	颜色：银色
+序列号：HG7H	手机型号：iPhone 7	内存：32GB	颜色：金色
+序列号：HG7J	手机型号：iPhone 7	内存：32GB	颜色：玫瑰金色
+序列号：HG7K	手机型号：iPhone 7	内存：128GB	颜色：黑色
+序列号：HG7L	手机型号：iPhone 7	内存：128GB	颜色：银色
+序列号：HG7M	手机型号：iPhone 7	内存：128GB	颜色：金色
+序列号：HG7N	手机型号：iPhone 7	内存：128GB	颜色：玫瑰金色
+序列号：HG7P	手机型号：iPhone 7	内存：128GB	颜色：亮黑色
+序列号：HG7Q	手机型号：iPhone 7	内存：256GB	颜色：黑色
+序列号：HG7X	手机型号：iPhone 7	内存：32GB	颜色：黑色
+序列号：HG7Y	手机型号：iPhone 7	内存：32GB	颜色：银色
+序列号：HG80	手机型号：iPhone 7	内存：32GB	颜色：金色
+序列号：HG81	手机型号：iPhone 7	内存：32GB	颜色：玫瑰金色
+序列号：HG82	手机型号：iPhone 7	内存：128GB	颜色：黑色
+序列号：HG83	手机型号：iPhone 7	内存：128GB	颜色：银色
+序列号：HG84	手机型号：iPhone 7	内存：128GB	颜色：金色
+序列号：HG85	手机型号：iPhone 7	内存：128GB	颜色：玫瑰金色
+序列号：HG86	手机型号：iPhone 7	内存：128GB	颜色：亮黑色
+序列号：HG87	手机型号：iPhone 7	内存：256GB	颜色：黑色
+序列号：HG88	手机型号：iPhone 7	内存：256GB	颜色：银色
+序列号：HG89	手机型号：iPhone 7	内存：256GB	颜色：金色
+序列号：HGC5	手机型号：iPad mini 4 Wi-Fi + Cellular	内存：32GB	颜色：金色
+序列号：HGJ1	手机型号：iPad mini 4	内存：32GB	颜色：深空灰色
+序列号：HGJ2	手机型号：iPad mini 4	内存：32GB	颜色：银色
+序列号：HGJ3	手机型号：iPad mini 4	内存：32GB	颜色：金色
+序列号：HH21	手机型号：MacBook (Retina, 12-inch, 2017)	内存：	颜色：深空灰色
+序列号：HH22	手机型号：MacBook (Retina, 12-inch, 2017)	内存：	颜色：深空灰色
+序列号：HH23	手机型号：MacBook (Retina, 12-inch, 2017)	内存：	颜色：银色
+序列号：HH24	手机型号：MacBook (Retina, 12-inch, 2017)	内存：	颜色：银色
+序列号：HH25	手机型号：MacBook (Retina, 12-inch, 2017)	内存：	颜色：金色
+序列号：HH26	手机型号：MacBook (Retina, 12-inch, 2017)	内存：	颜色：金色
+序列号：HH27	手机型号：MacBook (Retina, 12-inch, 2017)	内存：	颜色：玫瑰金色
+序列号：HH28	手机型号：MacBook (Retina, 12-inch, 2017)	内存：	颜色：玫瑰金色
+序列号：HH29	手机型号：MacBook (Retina, 12-inch, 2017)	内存：	颜色：深空灰色
+序列号：HH2C	手机型号：MacBook (Retina, 12-inch, 2017)	内存：	颜色：深空灰色
+序列号：HH2D	手机型号：MacBook (Retina, 12-inch, 2017)	内存：	颜色：银色
+序列号：HH2F	手机型号：MacBook (Retina, 12-inch, 2017)	内存：	颜色：银色
+序列号：HH2G	手机型号：MacBook (Retina, 12-inch, 2017)	内存：	颜色：金色
+序列号：HH2H	手机型号：MacBook (Retina, 12-inch, 2017)	内存：	颜色：金色
+序列号：HH2J	手机型号：MacBook (Retina, 12-inch, 2017)	内存：	颜色：玫瑰金色
+序列号：HH2K	手机型号：MacBook (Retina, 12-inch, 2017)	内存：	颜色：玫瑰金色
+序列号：HHMG	手机型号：iMac (21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：HHYK	手机型号：Apple Watch Series 2 Nike + 38mm (2nd gen)	内存：8GB	颜色：Space Gray
+序列号：HHYL	手机型号：Apple Watch Series 2 Nike + 42mm (2nd gen)	内存：8GB	颜色：Space Gray
+序列号：HJ7X	手机型号：iPhone 7 Smart Battery Case	内存：0GB	颜色：黑色
+序列号：HJ7Y	手机型号：iPhone 7 Smart Battery Case	内存：0GB	颜色：白色
+序列号：HJ80	手机型号：iPhone 7 Smart Battery Case	内存：0GB	颜色：红色
+序列号：HJJF	手机型号：Smart Keyboard	内存：	颜色：
+序列号：HJLC	手机型号：Apple Watch Series 2 Nike + 38mm (2nd gen)	内存：8GB	颜色：Space Gray
+序列号：HJLD	手机型号：Apple Watch Series 2 Nike + 42mm (2nd gen)	内存：8GB	颜色：Space Gray
+序列号：HJLF	手机型号：Apple Watch Series 1 38mm (2nd gen)	内存：8GB	颜色：Space Gray
+序列号：HJLG	手机型号：Apple Watch Series 1 42mm (2nd gen)	内存：8GB	颜色：Space Gray
+序列号：HJLJ	手机型号：Apple Watch Series 2 Aluminum 42mm (2nd gen)	内存：8GB	颜色：Space Gray
+序列号：HJLL	手机型号：Apple Watch Series 2 Aluminum 38mm (2nd gen)	内存：8GB	颜色：Space Gray
+序列号：HJLR	手机型号：Apple Watch Series 2 Aluminum 38mm (2nd gen)	内存：8GB	颜色：Space Gray
+序列号：HJLT	手机型号：Apple Watch Series 2 Aluminum 42mm (2nd gen)	内存：8GB	颜色：Space Gray
+序列号：HJRN	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：HK2Q	手机型号：Solo3 Wireless	内存：0GB	颜色：Ultra Violet
+序列号：HK2R	手机型号：Solo3 Wireless	内存：0GB	颜色：红色
+序列号：HK32	手机型号：urBeats (2nd generation)	内存：	颜色：
+序列号：HKJH	手机型号：Studio Wireless	内存：	颜色：
+序列号：HKJJ	手机型号：Studio Wireless	内存：	颜色：
+序列号：HLF9	手机型号：iPad (5th generation)	内存：32GB	颜色：深空灰色
+序列号：HLFC	手机型号：iPad (5th generation)	内存：32GB	颜色：银色
+序列号：HLFD	手机型号：iPad (5th generation)	内存：128GB	颜色：深空灰色
+序列号：HLFF	手机型号：iPad (5th generation)	内存：128GB	颜色：银色
+序列号：HLJJ	手机型号：iPad (5th generation) Wi-Fi + Cellular	内存：32GB	颜色：深空灰色
+序列号：HLJK	手机型号：iPad (5th generation) Wi-Fi + Cellular	内存：32GB	颜色：银色
+序列号：HLJL	手机型号：iPad (5th generation) Wi-Fi + Cellular	内存：128GB	颜色：深空灰色
+序列号：HLJM	手机型号：iPad (5th generation) Wi-Fi + Cellular	内存：128GB	颜色：银色
+序列号：HLWV	手机型号：iMac (Retina 4K, 21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：HMC6	手机型号：Solo3 Wireless	内存：0GB	颜色：黑色
+序列号：HMHT	手机型号：Studio Wireless	内存：	颜色：
+序列号：HND6	手机型号：iPad Pro (12.9-inch) (2nd generation) Wi-Fi	内存：256GB	颜色：深空灰色
+序列号：HND7	手机型号：iPad Pro (12.9-inch) (2nd generation) Wi-Fi	内存：256GB	颜色：银色
+序列号：HND8	手机型号：iPad Pro (12.9-inch) (2nd generation) Wi-Fi	内存：256GB	颜色：金色
+序列号：HNM4	手机型号：Apple TV 4K (5th generation)	内存：64GB	颜色：黑色
+序列号：HP34	手机型号：iPad Pro (12.9-inch) (2nd generation) Wi-Fi + Cellular	内存：256GB	颜色：深空灰色
+序列号：HP35	手机型号：iPad Pro (12.9-inch) (2nd generation) Wi-Fi + Cellular	内存：256GB	颜色：银色
+序列号：HP36	手机型号：iPad Pro (12.9-inch) (2nd generation) Wi-Fi + Cellular	内存：256GB	颜色：金色
+序列号：HP3L	手机型号：iPad Pro (12.9-inch) (2nd generation) Wi-Fi + Cellular	内存：256GB	颜色：深空灰色
+序列号：HP50	手机型号：iPad Pro (10.5-inch) Wi-Fi	内存：256GB	颜色：深空灰色
+序列号：HP51	手机型号：iPad Pro (10.5-inch) Wi-Fi	内存：256GB	颜色：银色
+序列号：HP52	手机型号：iPad Pro (10.5-inch) Wi-Fi	内存：256GB	颜色：金色
+序列号：HP53	手机型号：iPad Pro (10.5-inch) Wi-Fi	内存：256GB	颜色：玫瑰金色
+序列号：HP61	手机型号：iPad (5th generation) Wi-Fi + Cellular	内存：32GB	颜色：金色
+序列号：HP83	手机型号：iPad Pro (10.5-inch) Wi-Fi	内存：512GB	颜色：深空灰色
+序列号：HP84	手机型号：iPad Pro (10.5-inch) Wi-Fi	内存：512GB	颜色：银色
+序列号：HPDV	手机型号：iPad Pro (10.5-inch) Wi-Fi + Cellular	内存：256GB	颜色：深空灰色
+序列号：HPDW	手机型号：iPad Pro (10.5-inch) Wi-Fi + Cellular	内存：256GB	颜色：银色
+序列号：HPDX	手机型号：iPad Pro (10.5-inch) Wi-Fi + Cellular	内存：256GB	颜色：金色
+序列号：HPDY	手机型号：iPad Pro (10.5-inch) Wi-Fi + Cellular	内存：256GB	颜色：玫瑰金色
+序列号：HPF8	手机型号：iPad Pro (10.5-inch) Wi-Fi + Cellular	内存：256GB	颜色：深空灰色
+序列号：HPF9	手机型号：iPad Pro (10.5-inch) Wi-Fi + Cellular	内存：256GB	颜色：银色
+序列号：HPFC	手机型号：iPad Pro (10.5-inch) Wi-Fi + Cellular	内存：256GB	颜色：金色
+序列号：HPFD	手机型号：iPad Pro (10.5-inch) Wi-Fi + Cellular	内存：256GB	颜色：玫瑰金色
+序列号：HPJ4	手机型号：iPad Pro (12.9-inch) (2nd generation) Wi-Fi	内存：512GB	颜色：深空灰色
+序列号：HPJ5	手机型号：iPad Pro (12.9-inch) (2nd generation) Wi-Fi	内存：512GB	颜色：银色
+序列号：HPJ6	手机型号：iPad Pro (12.9-inch) (2nd generation) Wi-Fi	内存：512GB	颜色：金色
+序列号：HPQG	手机型号：iPad Pro (12.9-inch) (2nd generation) Wi-Fi + Cellular	内存：512GB	颜色：深空灰色
+序列号：HPQH	手机型号：iPad Pro (12.9-inch) (2nd generation) Wi-Fi + Cellular	内存：512GB	颜色：银色
+序列号：HPQJ	手机型号：iPad Pro (12.9-inch) (2nd generation) Wi-Fi + Cellular	内存：512GB	颜色：金色
+序列号：HPT5	手机型号：iPad Pro (10.5-inch) Wi-Fi + Cellular	内存：512GB	颜色：银色
+序列号：HPT6	手机型号：iPad Pro (10.5-inch) Wi-Fi + Cellular	内存：512GB	颜色：金色
+序列号：HPT7	手机型号：iPad Pro (10.5-inch) Wi-Fi + Cellular	内存：512GB	颜色：玫瑰金色
+序列号：HPT8	手机型号：iPad Pro (10.5-inch) Wi-Fi + Cellular	内存：512GB	颜色：深空灰色
+序列号：HPXP	手机型号：iPhone 7	内存：	颜色：
+序列号：HPXQ	手机型号：iPhone 7	内存：	颜色：
+序列号：HPXR	手机型号：iPhone 7	内存：	颜色：
+序列号：HPXT	手机型号：iPhone 7	内存：	颜色：
+序列号：HPY1	手机型号：iPhone 7	内存：256GB	颜色：红色
+序列号：HPY2	手机型号：iPhone 7	内存：128GB	颜色：金色
+序列号：HPY3	手机型号：iPhone 7	内存：	颜色：
+序列号：HPY4	手机型号：iPhone 7	内存：	颜色：
+序列号：HPY5	手机型号：iPhone 7	内存：	颜色：红色
+序列号：HPY6	手机型号：iPhone 7 Plus	内存：	颜色：
+序列号：HPY7	手机型号：iPhone 7 Plus	内存：	颜色：
+序列号：HPY8	手机型号：iPhone 7 Plus	内存：	颜色：
+序列号：HPY9	手机型号：iPhone 7 Plus	内存：	颜色：红色
+序列号：HPYC	手机型号：iPhone 7 Plus	内存：	颜色：
+序列号：HPYF	手机型号：iPhone 7 Plus	内存：	颜色：
+序列号：HPYG	手机型号：iPhone 7 Plus	内存：	颜色：
+序列号：HPYH	手机型号：iPhone 7 Plus	内存：	颜色：
+序列号：HPYJ	手机型号：iPhone 7 Plus	内存：	颜色：
+序列号：HPYK	手机型号：iPhone 7 Plus	内存：	颜色：
+序列号：HPYL	手机型号：iPhone 7 Plus	内存：	颜色：
+序列号：HPYM	手机型号：iPhone 7 Plus	内存：	颜色：
+序列号：HPYN	手机型号：iPhone 7 Plus	内存：	颜色：
+序列号：HPYP	手机型号：iPhone 7 Plus	内存：	颜色：
+序列号：HQ9T	手机型号：iMac (21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：HQ9V	手机型号：iMac (21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：HQ9W	手机型号：iMac (21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：HQK8	手机型号：HomePod (Early 2018)	内存：0GB	颜色：黑色
+序列号：HRMD	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：金色
+序列号：HRMF	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：深空灰色
+序列号：HRMG	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：玫瑰金色
+序列号：HTD5	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：深空灰色
+序列号：HTD6	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：深空灰色
+序列号：HTD7	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：银色
+序列号：HTD8	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：银色
+序列号：HTD9	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：深空灰色
+序列号：HTDC	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：银色
+序列号：HTDD	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：深空灰色
+序列号：HTDF	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：深空灰色
+序列号：HTDG	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：银色
+序列号：HTDH	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：银色
+序列号：HTVK	手机型号：iPhone SE	内存：32GB	颜色：深空灰色
+序列号：HTVL	手机型号：iPhone SE	内存：32GB	颜色：深空灰色
+序列号：HTVM	手机型号：iPhone SE	内存：32GB	颜色：银色
+序列号：HTVN	手机型号：iPhone SE	内存：32GB	颜色：银色
+序列号：HTVQ	手机型号：iPhone SE	内存：32GB	颜色：金色
+序列号：HTVR	手机型号：iPhone SE	内存：32GB	颜色：金色
+序列号：HTVT	手机型号：iPhone SE	内存：32GB	颜色：玫瑰金色
+序列号：HTVV	手机型号：iPhone SE	内存：32GB	颜色：玫瑰金色
+序列号：HTVW	手机型号：iPhone SE	内存：128GB	颜色：深空灰色
+序列号：HTVX	手机型号：iPhone SE	内存：128GB	颜色：深空灰色
+序列号：HTW0	手机型号：iPhone SE	内存：128GB	颜色：银色
+序列号：HTW1	手机型号：iPhone SE	内存：128GB	颜色：银色
+序列号：HTW2	手机型号：iPhone SE	内存：128GB	颜色：金色
+序列号：HTW3	手机型号：iPhone SE	内存：128GB	颜色：金色
+序列号：HTW4	手机型号：iPhone SE	内存：128GB	颜色：玫瑰金色
+序列号：HTW5	手机型号：iPhone SE	内存：128GB	颜色：玫瑰金色
+序列号：HTYF	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：HTYP	手机型号：Solo3 Wireless	内存：0GB	颜色：Asphalt Gray
+序列号：HTYR	手机型号：Solo3 Wireless	内存：0GB	颜色：Brick Red
+序列号：HTYY	手机型号：Powerbeats3 Wireless	内存：0GB	颜色：Asphalt Gray
+序列号：HV01	手机型号：Powerbeats3 Wireless	内存：0GB	颜色：Brick Red
+序列号：HV22	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：深空灰色
+序列号：HV27	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：银色
+序列号：HV29	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：深空灰色
+序列号：HV2D	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：银色
+序列号：HV2F	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：深空灰色
+序列号：HV2G	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：银色
+序列号：HV2H	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：深空灰色
+序列号：HV2J	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：银色
+序列号：HV2K	手机型号：MacBook Pro (Retina, 15-inch, Mid 2015)	内存：	颜色：银色
+序列号：HV2L	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：深空灰色
+序列号：HV2M	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：深空灰色
+序列号：HV2N	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：银色
+序列号：HV2P	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：银色
+序列号：HV2Q	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：深空灰色
+序列号：HV2R	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：深空灰色
+序列号：HV2T	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：银色
+序列号：HV2V	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：银色
+序列号：HV2W	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：深空灰色
+序列号：HV2X	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：银色
+序列号：HV36	手机型号：MacBook Pro (Retina, 15-inch, Mid 2015)	内存：	颜色：银色
+序列号：HV37	手机型号：MacBook Pro (Retina, 15-inch, Mid 2015)	内存：	颜色：银色
+序列号：HV59	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：HV5D	手机型号：MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)	内存：	颜色：深空灰色
+序列号：HV5L	手机型号：MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)	内存：	颜色：银色
+序列号：HV5M	手机型号：MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)	内存：	颜色：银色
+序列号：HV5N	手机型号：MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)	内存：	颜色：银色
+序列号：HV90	手机型号：Studio Wireless	内存：	颜色：
+序列号：HWCG	手机型号：MacBook Pro (15-inch, 2016)	内存：	颜色：银色
+序列号：HWCH	手机型号：MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)	内存：	颜色：银色
+序列号：HWH2	手机型号：MacBook Pro (13-inch, 2016, Four Thunderbolt 3 Ports)	内存：	颜色：银色
+序列号：HX87	手机型号：iMac Pro (2017)	内存：	颜色：深空灰色
+序列号：HX8F	手机型号：iMac Pro (2017)	内存：	颜色：深空灰色
+序列号：HX96	手机型号：iPhone 7	内存：128GB	颜色：红色
+序列号：HX97	手机型号：iPhone 7	内存：256GB	颜色：红色
+序列号：HX98	手机型号：iPhone 7	内存：128GB	颜色：红色
+序列号：HX99	手机型号：iPhone 7	内存：256GB	颜色：红色
+序列号：HX9C	手机型号：iPhone 7	内存：128GB	颜色：红色
+序列号：HX9D	手机型号：iPhone 7	内存：256GB	颜色：红色
+序列号：HX9F	手机型号：iPhone 7 Plus	内存：128GB	颜色：红色
+序列号：HX9G	手机型号：iPhone 7 Plus	内存：128GB	颜色：红色
+序列号：HX9H	手机型号：iPhone 7 Plus	内存：128GB	颜色：红色
+序列号：HX9J	手机型号：iPhone 7 Plus	内存：256GB	颜色：红色
+序列号：HX9K	手机型号：iPhone 7 Plus	内存：256GB	颜色：红色
+序列号：HX9L	手机型号：iPhone 7 Plus	内存：256GB	颜色：红色
+序列号：HX9P	手机型号：Powerbeats3 Wireless	内存：0GB	颜色：Break Blue
+序列号：HX9R	手机型号：Powerbeats3 Wireless	内存：0GB	颜色：Turf Green
+序列号：HX9T	手机型号：Solo3 Wireless	内存：0GB	颜色：Break Blue
+序列号：HX9W	手机型号：Solo3 Wireless	内存：0GB	颜色：Turf Green
+序列号：HXD3	手机型号：MacBook Pro (15-inch, 2016)	内存：	颜色：银色
+序列号：HXD5	手机型号：MacBook Pro (13-inch, 2016, Four Thunderbolt 3 Ports)	内存：	颜色：银色
+序列号：HXF8	手机型号：MacBook Pro (15-inch, 2016)	内存：	颜色：银色
+序列号：HXR5	手机型号：iPhone 6	内存：32GB	颜色：深空灰色
+序列号：HXR6	手机型号：iPhone 6	内存：32GB	颜色：金色
+序列号：HY8Y	手机型号：Powerbeats3 Wireless	内存：	颜色：
+序列号：HYFK	手机型号：iPhone 6	内存：32GB	颜色：深空灰色
+序列号：HYFL	手机型号：iPhone 6	内存：32GB	颜色：金色
+序列号：HYGQ	手机型号：iMac (21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：HYJ0	手机型号：Solo3 Wireless	内存：0GB	颜色：Line
+序列号：HYP5	手机型号：MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)	内存：	颜色：银色
+序列号：HYVM	手机型号：MacBook Air (11-inch, Early 2015)	内存：	颜色：银色
+序列号：H03Y	手机型号：MacBook Pro (15-inch, Late 2016)	内存：	颜色：银色
+序列号：H1MV	手机型号：iPad Pro (9.7-inch)	内存：128GB	颜色：玫瑰金色
+序列号：H249	手机型号：iPad Pro (9.7-inch, Wi-Fi + Cellular)	内存：256GB	颜色：深空灰色
+序列号：H24C	手机型号：iPad Pro (9.7-inch, Wi-Fi + Cellular)	内存：256GB	颜色：银色
+序列号：H24D	手机型号：iPad Pro (9.7-inch, Wi-Fi + Cellular)	内存：256GB	颜色：金色
+序列号：H24F	手机型号：iPad Pro (9.7-inch, Wi-Fi + Cellular)	内存：256GB	颜色：玫瑰金色
+序列号：H3H6	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：H3QK	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：H3QW	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：银色
+序列号：H3QX	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：玫瑰金色
+序列号：H3QY	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：玫瑰金色
+序列号：H8L1	手机型号：iMac (Retina 4K, 21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：H8L2	手机型号：iMac (Retina 4K, 21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：H8L3	手机型号：iMac (Retina 4K, 21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：H8L5	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：HDQX	手机型号：Powerbeats3 Wireless	内存：0GB	颜色：Flash Blue
+序列号：HDR2	手机型号：Powerbeats3 Wireless	内存：0GB	颜色：Siren Red
+序列号：HDR3	手机型号：Powerbeats3 Wireless	内存：0GB	颜色：Shock Yellow
+序列号：HDV4	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：HFCP	手机型号：Smart Keyboard	内存：	颜色：
+序列号：HFCQ	手机型号：Smart Keyboard	内存：	颜色：
+序列号：HFCR	手机型号：Smart Keyboard	内存：	颜色：
+序列号：HFCT	手机型号：Smart Keyboard	内存：	颜色：
+序列号：HFM4	手机型号：iPhone 6s Plus	内存：32GB	颜色：金色
+序列号：HFM5	手机型号：iPhone 6s Plus	内存：32GB	颜色：玫瑰金色
+序列号：HFXW	手机型号：iPhone 7 Plus	内存：128GB	颜色：黑色
+序列号：HFXX	手机型号：iPhone 7 Plus	内存：128GB	颜色：银色
+序列号：HG7R	手机型号：iPhone 7	内存：256GB	颜色：银色
+序列号：HG7T	手机型号：iPhone 7	内存：256GB	颜色：金色
+序列号：HG7V	手机型号：iPhone 7	内存：256GB	颜色：玫瑰金色
+序列号：HG7W	手机型号：iPhone 7	内存：256GB	颜色：亮黑色
+序列号：HG8C	手机型号：iPhone 7	内存：256GB	颜色：玫瑰金色
+序列号：HG8D	手机型号：iPhone 7	内存：256GB	颜色：亮黑色
+序列号：HGC3	手机型号：iPad mini 4 Wi-Fi + Cellular	内存：32GB	颜色：深空灰色
+序列号：HGC4	手机型号：iPad mini 4 Wi-Fi + Cellular	内存：32GB	颜色：银色
+序列号：HMHV	手机型号：Powerbeats3 Wireless	内存：0GB	颜色：Safari
+序列号：HMMF	手机型号：MacBook Pro (Retina, 15-inch, Mid 2015)	内存：	颜色：银色
+序列号：HMMQ	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：HN8P	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：HP3M	手机型号：iPad Pro (12.9-inch) (2nd generation) Wi-Fi + Cellular	内存：256GB	颜色：银色
+序列号：HP3P	手机型号：iPad Pro (12.9-inch) (2nd generation) Wi-Fi + Cellular	内存：256GB	颜色：金色
+序列号：HP9X	手机型号：iPad (5th generation)	内存：32GB	颜色：金色
+序列号：HP9Y	手机型号：iPad (5th generation)	内存：128GB	颜色：金色
+序列号：HPRF	手机型号：iPad Pro (12.9-inch) (2nd generation) Wi-Fi + Cellular	内存：512GB	颜色：金色
+序列号：HPT4	手机型号：iPad Pro (10.5-inch) Wi-Fi + Cellular	内存：512GB	颜色：深空灰色
+序列号：HPT9	手机型号：iPad Pro (10.5-inch) Wi-Fi + Cellular	内存：512GB	颜色：银色
+序列号：HPTC	手机型号：iPad Pro (10.5-inch) Wi-Fi + Cellular	内存：512GB	颜色：金色
+序列号：HPTD	手机型号：iPad Pro (10.5-inch) Wi-Fi + Cellular	内存：512GB	颜色：玫瑰金色
+序列号：HPXN	手机型号：iPhone 7	内存：32GB	颜色：银色
+序列号：HPXV	手机型号：iPhone 7	内存：	颜色：
+序列号：HPXW	手机型号：iPhone 7	内存：256GB	颜色：红色
+序列号：HPXX	手机型号：iPhone 7	内存：	颜色：
+序列号：HPY0	手机型号：iPhone 7	内存：	颜色：
+序列号：HV5G	手机型号：MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)	内存：256GB	颜色：深空灰色
+序列号：HV5H	手机型号：MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)	内存：	颜色：深空灰色
+序列号：HV5J	手机型号：MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)	内存：	颜色：深空灰色
+序列号：HV5K	手机型号：MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)	内存：	颜色：深空灰色
+序列号：H1MN	手机型号：iPad Pro (9.7-inch)	内存：256GB	颜色：银色
+序列号：H1MP	手机型号：iPad Pro (9.7-inch)	内存：256GB	颜色：金色
+序列号：H1MR	手机型号：iPad Pro (9.7-inch)	内存：32GB	颜色：玫瑰金色
+序列号：HP49	手机型号：MacBook Pro (13-inch, 2016, Four Thunderbolt 3 Ports)	内存：	颜色：深空灰色
+序列号：HP4D	手机型号：MacBook Pro (13-inch, 2016, Four Thunderbolt 3 Ports)	内存：	颜色：银色
+序列号：HP85	手机型号：iPad Pro (10.5-inch) Wi-Fi	内存：512GB	颜色：金色
+序列号：HP86	手机型号：iPad Pro (10.5-inch) Wi-Fi	内存：512GB	颜色：玫瑰金色
+序列号：HPR8	手机型号：iPad Pro (12.9-inch) (2nd generation) Wi-Fi + Cellular	内存：512GB	颜色：深空灰色
+序列号：HPR9	手机型号：iPad Pro (12.9-inch) (2nd generation) Wi-Fi + Cellular	内存：512GB	颜色：银色
+
+

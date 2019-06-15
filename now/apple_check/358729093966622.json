@@ -1,0 +1,26 @@
+{
+	"DISPUTE_MESSAGE": "<div class=\"sosumi\">如果您认为针对您的产品所显示的信息不正确，您可以<a href=\"https://getsupport.apple.com/?caller=wc&PGF=PGF66001&category_id=SC0200\" id=\"hardware-epop\" target=\"_blank\">在线提交购买凭证<span class=\"a11y\">在新窗口中打开<\/span><\/a>。您的销售收据需要用于 Apple 有限保修、AppleCare Protection Plan 全方位服务计划和 AppleCare+ 服务计划验证，因此请务必将它放在一个安全的地方。无论您有没有注册，Apple 的有限保修都不受影响。<br><br><font color=\"black\"><b>重要信息：<\/b>Apple 有限保修、AppleCare Protection Plan 全方位服务计划和 AppleCare+ 服务计划的权益是对消费者权益法所赋予权利的补充（<a href=\"http://www.apple.com/legal/warranty/Additional_Legal_Rights_for_Consumers.html\" target=\"_blank\" onclick=\"s_objectID=\"http://www.apple.com/legal/warranty/Additional_Legal_Rights_for_Consumers.html_1\";return this.s_oc?this.s_oc(e):true\">查看详细信息<span class=\"a11y\">Apple 产品和消费者权益法权利<\/span><\/a>）。如果您认为自己援引的消费者权益法合理，请<a href=\"https://support.apple.com/zh-cn/HT201232\" onclick=\"s_objectID=\"https://support.apple.com/en-us/HT201232_1\";return this.s_oc?this.s_oc(e):true\">联系我们<\/a>。<\/font><br><br><a href=\"https://support.apple.com/zh-cn/HT202696\" target=\"_blank\" onclick=\"s_objectID=\"https://support.apple.com/en-us/HT202696_2\";return this.s_oc?this.s_oc(e):true\">进一步了解<span class=\"a11y\">在新窗口中打开<\/span><\/a>您的服务保障或估计的购买日期。<br><br>没有看到您的 AppleCare 计划？<a href=\"https://support.apple.com/zh-cn/HT202695\" target=\"_blank\">请了解该怎么做<\/a>。<\/div>",
+	
+	"results": [{
+		"resultText": "由于您还没有注册设备，我们无法显示详细的保障信息。请联系您的 Apple 产品零售商或无线运营商以注册这台设备。<br/><a href=\"https://checkcoverage.apple.com?sn={0}\" target=\"_blank\">查找无线运营商并查看服务选项<span class=\"a11y\">在新窗口中打开<\/span><\/a><br/><span class=\"sosumi\">注：无论设备注册与否，保修服务均不受影响。请<a href=\"https://support.apple.com/zh-cn/HT201232\" class=\"inline\" target=\"_blank\">联系我们<span class=\"a11y\">在新窗口中打开<\/span><\/a>以了解更多信息。<\/span>",
+		"resultId": "iphonenotactivated",
+		"showButton": true,
+		"buttonLink": "https://getsupport.apple.com/?sn=358729093966622&cn=CHN",
+		"status": "yellow",
+		"resultLabel": "请激活您的 iPhone",
+		"buttonLabel": "服务选项"
+	}],
+
+	"COVERAGE_STATUS": "phone=n,hwcov=n-LI,agrelig=n,ppielig=n",
+
+	"IS_REGISTERED": "N",
+	"IS_LOANER": "N",
+
+	"productInfo": {
+		"PROD_DESCR": "iPhone XS Max",
+		"LINK_TEXT": "检查其他序列号",
+		"PROD_IMAGE_URL": "https://km.support.apple.com/kb/securedImage.jsp?configcode=KPJ4&size=240x240",
+		"SERIAL_ID": "358729093966622",
+		"PRODUCT_LABEL": "IMEI： "
+	}
+}

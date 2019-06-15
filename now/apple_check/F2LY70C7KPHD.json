@@ -1,0 +1,46 @@
+{
+    "DISPUTE_MESSAGE": "<div class=\"sosumi\">如果您认为针对您的产品所显示的信息不正确，您可以<a href=\"https://getsupport.apple.com/?caller=wc&PGF=PGF66001&category_id=SC0200\" id=\"hardware-epop\" target=\"_blank\">在线提交购买凭证<span class=\"a11y\">在新窗口中打开<\/span><\/a>。您的销售收据需要用于 Apple 有限保修、AppleCare Protection Plan 全方位服务计划和 AppleCare+ 服务计划验证，因此请务必将它放在一个安全的地方。无论您有没有注册，Apple 的有限保修都不受影响。<br><br><font color=\"black\"><b>重要信息：<\/b>Apple 有限保修、AppleCare Protection Plan 全方位服务计划和 AppleCare+ 服务计划的权益是对消费者权益法所赋予权利的补充（<a href=\"http://www.apple.com/legal/warranty/Additional_Legal_Rights_for_Consumers.html\" target=\"_blank\" onclick=\"s_objectID=\"http://www.apple.com/legal/warranty/Additional_Legal_Rights_for_Consumers.html_1\";return this.s_oc?this.s_oc(e):true\">查看详细信息<span class=\"a11y\">Apple 产品和消费者权益法权利<\/span><\/a>）。如果您认为自己援引的消费者权益法合理，请<a href=\"https://support.apple.com/zh-cn/HT201232\" onclick=\"s_objectID=\"https://support.apple.com/en-us/HT201232_1\";return this.s_oc?this.s_oc(e):true\">联系我们<\/a>。<\/font><br><br><a href=\"https://support.apple.com/zh-cn/HT202696\" target=\"_blank\" onclick=\"s_objectID=\"https://support.apple.com/en-us/HT202696_2\";return this.s_oc?this.s_oc(e):true\">进一步了解<span class=\"a11y\">在新窗口中打开<\/span><\/a>您的服务保障或估计的购买日期。<br><br>没有看到您的 AppleCare 计划？<a href=\"https://support.apple.com/zh-cn/HT202695\" target=\"_blank\">请了解该怎么做<\/a>。<\/div>",
+    "results": [{
+        "resultText": "借助已验证的购买日期，Apple 可以快速找到您的产品，并提供您需要的帮助。",
+        "resultId": "registration",
+        "showButton": false,
+        "buttonLink": "",
+        "status": "green",
+        "resultLabel": "有效购买日期",
+        "buttonLabel": ""
+    }, {
+        "resultText": "您的产品可享受电话技术支持服务。<br/><a href=\"http://www.apple.com/support/country/index.html?dest=applecare\" data-metrics-event-name=\"exit\" data-metrics-event-value=\"{track_more}\" target=\"_blank\">关于 AppleCare+ 服务计划的更多信息<span class=\"a11y\">在新窗口中打开<\/span><\/a>",
+        "resultId": "iphone",
+        "showButton": true,
+        "buttonLink": "https://getsupport.apple.com/?sn=F2LY70C7KPHD&locale=zh_CN",
+        "status": "green",
+        "resultLabel": "电话技术支持：有效",
+        "buttonLabel": "联系 Apple 支持"
+    }, {
+        "resultText": "我们会根据关于符合条件的硬件维修和服务的规定，为您的产品提供保障。<br/><a href=\"https://support.apple.com/zh-cn/HT202696\" target=\"_blank\" data-metrics-event-name=\"exit\" data-metrics-event-value=\"{track_learn}\">了解您产品的 Apple 保障范围信息<span class=\"a11y\">在新窗口中打开<\/span><\/a><br/>服务提醒：我们的记录显示，您的产品存在相关的服务历史记录，并且可能享有消费者权益法赋予的其他权利。",
+        "resultId": "hardware",
+        "showButton": true,
+        "buttonLink": "https://getsupport.apple.com/?sn=F2LY70C7KPHD&locale=zh_CN",
+        "status": "green",
+        "resultLabel": "维修和服务保障情况：有效（有次数限制）",
+        "buttonLabel": "安排维修"
+    }, {
+        "resultText": "购买 AppleCare+ 服务计划后，您的 iPhone 可获得长达两年的产品服务和支持，包括最多两次针对意外损坏的保修，每次都会收取一定的服务费。",
+        "resultId": "app",
+        "showButton": false,
+        "buttonLink": "",
+        "status": "green",
+        "resultLabel": "在 AppleCare+ 服务计划的保障范围内",
+        "buttonLabel": ""
+    }],
+    "COVERAGE_STATUS": "phone=y,hwcov=y-PE,agrelig=n,ppielig=n",
+    "IS_REGISTERED": "Y",
+    "IS_LOANER": "N",
+    "productInfo": {
+        "PROD_DESCR": "iPhone XS Max",
+        "LINK_TEXT": "检查其他序列号",
+        "PROD_IMAGE_URL": "https://km.support.apple.com/kb/securedImage.jsp?configcode=KPHD&size=240x240",
+        "SERIAL_ID": "F2LY70C7KPHD",
+        "PRODUCT_LABEL": "序列号： "
+    }
+}

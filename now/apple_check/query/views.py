@@ -16,7 +16,7 @@ def query(request):
                 if query_data:
                     json_ = {
                         "status": "success",
-                        "imei":imei,
+                        # "imei":imei,
                         "msg": query_data
                     }
                     return HttpResponse(

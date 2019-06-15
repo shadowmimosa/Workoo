@@ -1,0 +1,497 @@
+序列号：DC79	手机型号：MacBook Pro (17-inch, Mid 2010)	内存：	颜色：
+序列号：DC7C	手机型号：MacBook Pro (17-inch, Mid 2010)	内存：	颜色：
+序列号：DCMJ	手机型号：iPod shuffle (4th generation)	内存：	颜色：
+序列号：DCMK	手机型号：iPod shuffle (4th generation)	内存：2GB	颜色：粉色
+序列号：DCMN	手机型号：iPod nano (6th generation)	内存：8GB	颜色：银色
+序列号：DCMP	手机型号：iPod nano (6th generation)	内存：16GB	颜色：银色
+序列号：DCP7	手机型号：iPod touch (4th generation)	内存：8GB	颜色：黑色
+序列号：DCP9	手机型号：iPod touch (4th generation)	内存：32GB	颜色：黑色
+序列号：DCPC	手机型号：iPod touch (4th generation)	内存：64GB	颜色：黑色
+序列号：DCV9	手机型号：MacBook Pro (17-inch, Mid 2010)	内存：	颜色：
+序列号：DCVC	手机型号：MacBook Pro (17-inch, Mid 2010)	内存：	颜色：
+序列号：DD6H	手机型号：Mac mini (Mid 2010)	内存：	颜色：
+序列号：DD6K	手机型号：Mac mini Server (Mid 2010)	内存：	颜色：
+序列号：DD6L	手机型号：Mac mini (Mid 2010)	内存：	颜色：
+序列号：DD6N	手机型号：Mac mini Server (Mid 2010)	内存：	颜色：
+序列号：DD6Y	手机型号：MacBook Pro (17-inch, Mid 2010)	内存：	颜色：
+序列号：DDHM	手机型号：MacBook Pro (17-inch, Mid 2010)	内存：	颜色：
+序列号：DDHN	手机型号：MacBook Pro (17-inch, Mid 2010)	内存：	颜色：
+序列号：DDJF	手机型号：Mac mini Server (Mid 2010)	内存：	颜色：
+序列号：DDJT	手机型号：MacBook Pro (17-inch, Mid 2010)	内存：	颜色：
+序列号：DDJV	手机型号：MacBook Pro (17-inch, Mid 2010)	内存：	颜色：
+序列号：DDJW	手机型号：MacBook Pro (17-inch, Mid 2010)	内存：	颜色：
+序列号：DDJX	手机型号：MacBook Pro (17-inch, Mid 2010)	内存：	颜色：
+序列号：DDK0	手机型号：MacBook Pro (17-inch, Mid 2010)	内存：	颜色：
+序列号：DDK1	手机型号：MacBook Pro (17-inch, Mid 2010)	内存：	颜色：
+序列号：DDK2	手机型号：MacBook Pro (17-inch, Mid 2010)	内存：	颜色：
+序列号：DDK3	手机型号：MacBook Pro (17-inch, Mid 2010)	内存：	颜色：
+序列号：DDK4	手机型号：MacBook Pro (17-inch, Mid 2010)	内存：	颜色：
+序列号：DDP7	手机型号：iPhone 4 (CDMA)	内存：16GB	颜色：黑色
+序列号：DDP8	手机型号：iPhone 4 (CDMA)	内存：16GB	颜色：白色
+序列号：DDP9	手机型号：iPhone 4 (CDMA)	内存：32GB	颜色：黑色
+序列号：DDPC	手机型号：iPhone 4 (CDMA)	内存：32GB	颜色：白色
+序列号：DDQ9	手机型号：Mac mini (Mid 2010)	内存：	颜色：
+序列号：DDQW	手机型号：MacBook Air (11-inch, Late 2010)	内存：	颜色：
+序列号：DDQX	手机型号：MacBook Air (11-inch, Late 2010)	内存：	颜色：
+序列号：DDQY	手机型号：MacBook Air (11-inch, Late 2010)	内存：	颜色：
+序列号：DDR0	手机型号：MacBook Air (11-inch, Late 2010)	内存：	颜色：
+序列号：DDR1	手机型号：MacBook Air (13-inch, Late 2010)	内存：	颜色：
+序列号：DDR2	手机型号：MacBook Air (13-inch, Late 2010)	内存：	颜色：
+序列号：DDR3	手机型号：MacBook Air (13-inch, Late 2010)	内存：	颜色：
+序列号：DDR4	手机型号：MacBook Air (13-inch, Late 2010)	内存：	颜色：
+序列号：DDR5	手机型号：Apple TV (2nd generation)	内存：	颜色：
+序列号：DDVN	手机型号：Mac mini (Mid 2010)	内存：	颜色：
+序列号：DDVX	手机型号：iPod nano (6th generation)	内存：8GB	颜色：Graphite
+序列号：DDVY	手机型号：iPod nano (6th generation)	内存：8GB	颜色：蓝色
+序列号：DDW0	手机型号：iPod nano (6th generation)	内存：8GB	颜色：绿色
+序列号：DDW1	手机型号：iPod nano (6th generation)	内存：	颜色：
+序列号：DDW2	手机型号：iPod nano (6th generation)	内存：8GB	颜色：粉色
+序列号：DDW3	手机型号：iPod nano (6th generation)	内存：	颜色：
+序列号：DDW4	手机型号：iPod nano (6th generation)	内存：16GB	颜色：Graphite
+序列号：DDW5	手机型号：iPod nano (6th generation)	内存：16GB	颜色：蓝色
+序列号：DDW6	手机型号：iPod nano (6th generation)	内存：16GB	颜色：绿色
+序列号：DDW7	手机型号：iPod nano (6th generation)	内存：	颜色：
+序列号：DDW8	手机型号：iPod nano (6th generation)	内存：16GB	颜色：粉色
+序列号：DDW9	手机型号：iPod nano (6th generation)	内存：	颜色：
+序列号：DF8V	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DF8X	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DF8Y	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DF91	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DF92	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DF93	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DFDK	手机型号：Mac mini (Mid 2010)	内存：	颜色：
+序列号：DFDM	手机型号：iPod shuffle (4th generation)	内存：	颜色：
+序列号：DFDN	手机型号：iPod shuffle (4th generation)	内存：2GB	颜色：绿色
+序列号：DFDP	手机型号：iPod shuffle (4th generation)	内存：	颜色：
+序列号：DFHW	手机型号：iPad 2	内存：16GB	颜色：黑色
+序列号：DFHY	手机型号：iPad 2	内存：32GB	颜色：黑色
+序列号：DFJ0	手机型号：iPad 2	内存：64GB	颜色：黑色
+序列号：DFJ1	手机型号：iPad 2 Wi-Fi + 3G	内存：16GB	颜色：黑色
+序列号：DFJ2	手机型号：iPad 2 Wi-Fi + 3G	内存：32GB	颜色：黑色
+序列号：DFJ3	手机型号：iPad 2 Wi-Fi + 3G	内存：64GB	颜色：黑色
+序列号：DH2G	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DH2H	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DH2L	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DH2M	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DHJF	手机型号：iMac (21.5-inch, Mid 2011)	内存：	颜色：
+序列号：DHJH	手机型号：Apple TV (2nd generation)	内存：	颜色：
+序列号：DHJK	手机型号：Apple TV (2nd generation)	内存：	颜色：
+序列号：DHJM	手机型号：Apple TV (2nd generation)	内存：	颜色：
+序列号：DHJN	手机型号：iMac (21.5-inch, Mid 2011)	内存：	颜色：
+序列号：DHJP	手机型号：iMac (27-inch, Mid 2011)	内存：	颜色：
+序列号：DHJQ	手机型号：iMac (27-inch, Mid 2011)	内存：	颜色：
+序列号：DHJR	手机型号：iMac (21.5-inch, Mid 2011)	内存：	颜色：
+序列号：DHJT	手机型号：iMac (21.5-inch, Mid 2011)	内存：	颜色：
+序列号：DHJV	手机型号：iMac (27-inch, Mid 2011)	内存：	颜色：
+序列号：DHJW	手机型号：iMac (27-inch, Mid 2011)	内存：	颜色：
+序列号：DHVV	手机型号：MacBook Pro (17-inch, Mid 2010)	内存：	颜色：
+序列号：DHYC	手机型号：MacBook Pro (17-inch, Mid 2010)	内存：	颜色：
+序列号：DJ5F	手机型号：MacBook Air (13-inch, Late 2010)	内存：	颜色：
+序列号：DJ5G	手机型号：MacBook Air (13-inch, Late 2010)	内存：	颜色：
+序列号：DJ5H	手机型号：MacBook Air (11-inch, Late 2010)	内存：	颜色：
+序列号：DJ5J	手机型号：MacBook Air (11-inch, Late 2010)	内存：	颜色：
+序列号：DJ67	手机型号：MacBook Air (11-inch, Late 2010)	内存：	颜色：
+序列号：DJ8R	手机型号：iPad (3rd generation)	内存：32GB	颜色：黑色
+序列号：DJ8T	手机型号：iPad (3rd generation)	内存：16GB	颜色：黑色
+序列号：DJ8V	手机型号：iPad (3rd generation)	内存：64GB	颜色：黑色
+序列号：DJD0	手机型号：Mac mini (Mid 2011)	内存：	颜色：
+序列号：DJD1	手机型号：Mac mini (Mid 2011)	内存：	颜色：
+序列号：DJD2	手机型号：Mac mini (Mid 2011)	内存：	颜色：
+序列号：DJD3	手机型号：Mac mini (Mid 2011)	内存：	颜色：
+序列号：DJDK	手机型号：MacBook Air (13-inch, Late 2010)	内存：	颜色：
+序列号：DJDL	手机型号：MacBook Air (11-inch, Late 2010)	内存：	颜色：
+序列号：DJFD	手机型号：iPod touch (5th generation)	内存：32GB	颜色：粉色
+序列号：DJFF	手机型号：iPod touch (5th generation)	内存：64GB	颜色：粉色
+序列号：DJGN	手机型号：iLife '11	内存：	颜色：
+序列号：DJGR	手机型号：Apple Thunderbolt Display (27-inch)	内存：	颜色：
+序列号：DJHF	手机型号：iPad 2 Wi-Fi + 3G (Verizon)	内存：16GB	颜色：黑色
+序列号：DJHG	手机型号：iPad 2 Wi-Fi + 3G (Verizon)	内存：32GB	颜色：黑色
+序列号：DJHH	手机型号：iPad 2 Wi-Fi + 3G (Verizon)	内存：64GB	颜色：黑色
+序列号：DJLQ	手机型号：MacBook Air (13-inch, Late 2010)	内存：	颜色：
+序列号：DJQK	手机型号：MacBook Pro (17-inch, Mid 2010)	内存：	颜色：
+序列号：DJWQ	手机型号：MacBook Air (13-inch, Mid 2011)	内存：	颜色：
+序列号：DJWR	手机型号：MacBook Air (13-inch, Mid 2011)	内存：	颜色：
+序列号：DJWV	手机型号：MacBook Air (13-inch, Mid 2011)	内存：	颜色：
+序列号：DJY7	手机型号：Mac mini Server (Mid 2011)	内存：	颜色：
+序列号：DJY8	手机型号：MacBook Air (11-inch, Mid 2011)	内存：	颜色：
+序列号：DJY9	手机型号：MacBook Air (11-inch, Mid 2011)	内存：	颜色：
+序列号：DJYC	手机型号：MacBook Air (11-inch, Mid 2011)	内存：	颜色：
+序列号：DJYD	手机型号：MacBook Air (11-inch, Mid 2011)	内存：	颜色：
+序列号：DK9H	手机型号：MacBook Pro (17-inch, Mid 2010)	内存：	颜色：
+序列号：DK9J	手机型号：MacBook Pro (17-inch, Mid 2010)	内存：	颜色：
+序列号：DK9K	手机型号：MacBook Pro (17-inch, Mid 2010)	内存：	颜色：
+序列号：DKDJ	手机型号：Mac mini Server (Mid 2011)	内存：	颜色：
+序列号：DKL9	手机型号：iMac (21.5-inch, Late 2011)	内存：	颜色：
+序列号：DKLH	手机型号：iMac (21.5-inch, Late 2011)	内存：	颜色：
+序列号：DKNV	手机型号：iPad 2 Wi-Fi + 3G	内存：16GB	颜色：白色
+序列号：DKNW	手机型号：iPad 2 Wi-Fi + 3G	内存：32GB	颜色：白色
+序列号：DKNY	手机型号：iPad 2 Wi-Fi + 3G	内存：64GB	颜色：白色
+序列号：DKPH	手机型号：iPad 2	内存：16GB	颜色：白色
+序列号：DKPJ	手机型号：iPad 2	内存：32GB	颜色：白色
+序列号：DKPK	手机型号：iPad 2	内存：64GB	颜色：白色
+序列号：DKPL	手机型号：iPad 2 Wi-Fi + 3G (Verizon)	内存：16GB	颜色：白色
+序列号：DKPM	手机型号：iPad 2 Wi-Fi + 3G (Verizon)	内存：32GB	颜色：白色
+序列号：DKPN	手机型号：iPad 2 Wi-Fi + 3G (Verizon)	内存：64GB	颜色：白色
+序列号：DKQ1	手机型号：MacBook Pro (Retina, Mid 2012)	内存：	颜色：
+序列号：DKQ2	手机型号：MacBook Pro (Retina, Mid 2012)	内存：	颜色：
+序列号：DKQ4	手机型号：MacBook Pro (Retina, Mid 2012)	内存：	颜色：
+序列号：DKQ5	手机型号：MacBook Pro (Retina, Mid 2012)	内存：	颜色：
+序列号：DL8M	手机型号：iMac (21.5-inch, Mid 2011)	内存：	颜色：
+序列号：DL8N	手机型号：iMac (21.5-inch, Mid 2011)	内存：	颜色：
+序列号：DL8P	手机型号：iMac (27-inch, Mid 2011)	内存：	颜色：
+序列号：DL8Q	手机型号：iMac (27-inch, Mid 2011)	内存：	颜色：
+序列号：DLN5	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DLN6	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DLN7	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DLN8	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DLN9	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DLNC	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DM72	手机型号：AirPort Extreme 802.11n (5th Generation)	内存：	颜色：
+序列号：DM73	手机型号：AirPort Time Capsule 802.11n (4th Generation)	内存：	颜色：
+序列号：DM74	手机型号：AirPort Time Capsule 802.11n (4th Generation)	内存：	颜色：
+序列号：DM75	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DMC8	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DMC9	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DMDG	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DMDH	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DMDJ	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DMGG	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DMGH	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DMLF	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DMLH	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DMLJ	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DMMF	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DMMH	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DMMJ	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DMP0	手机型号：iMac (21.5-inch, Mid 2011)	内存：	颜色：
+序列号：DMPG	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DMPK	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DMPL	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DMPM	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DMPN	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DMPP	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DMPQ	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DMPR	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DMQP	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DMQT	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DMQW	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DMR2	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DMR4	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DMR5	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DMR7	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DMR8	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DMR9	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DMRC	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DMW4	手机型号：MacBook Air (13-inch, Late 2010)	内存：	颜色：
+序列号：DMW8	手机型号：iMac (27-inch, Mid 2011)	内存：	颜色：
+序列号：DN00	手机型号：MacBook Air (11-inch, Late 2010)	内存：	颜色：
+序列号：DNC3	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DNCM	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DNCN	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DNCR	手机型号：iMac (21.5-inch, Late 2012)	内存：	颜色：
+序列号：DNCT	手机型号：iMac (21.5-inch, Late 2012)	内存：	颜色：
+序列号：DNCV	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：DNCW	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：DNGD	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DNGF	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DNGG	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DNGH	手机型号：iMac (27-inch, Mid 2011)	内存：	颜色：
+序列号：DNH5	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DNHY	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DNJ9	手机型号：iMac (27-inch, Mid 2011)	内存：	颜色：
+序列号：DNKM	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DNKN	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DNKP	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DNKQ	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DNKY	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DNM4	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DNML	手机型号：iMac (21.5-inch, Late 2012)	内存：	颜色：
+序列号：DNMM	手机型号：iMac (21.5-inch, Late 2012)	内存：	颜色：
+序列号：DNMN	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：DNMP	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：DNMW	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DNND	手机型号：AirPort Extreme 802.11n (4th Generation)	内存：	颜色：
+序列号：DNNF	手机型号：AirPort Extreme 802.11n (4th Generation)	内存：	颜色：
+序列号：DNNG	手机型号：AirPort Extreme 802.11n (4th Generation)	内存：	颜色：
+序列号：DNNH	手机型号：AirPort Extreme 802.11n (4th Generation)	内存：	颜色：
+序列号：DNNJ	手机型号：AirPort Extreme 802.11n (4th Generation)	内存：	颜色：
+序列号：DNQR	手机型号：iPad (3rd Generation) Wi-Fi + Cellular (Verizon)	内存：16GB	颜色：黑色
+序列号：DNQT	手机型号：iPad (3rd Generation) Wi-Fi + Cellular (Verizon)	内存：32GB	颜色：黑色
+序列号：DNQV	手机型号：iPad (3rd Generation) Wi-Fi + Cellular (Verizon)	内存：64GB	颜色：黑色
+序列号：DNQW	手机型号：iPod touch (4th generation)	内存：8GB	颜色：白色
+序列号：DNQY	手机型号：iPod touch (4th generation)	内存：32GB	颜色：白色
+序列号：DP0N	手机型号：iPhone 4 (8GB)	内存：8GB	颜色：黑色
+序列号：DP0V	手机型号：iPhone 4 CDMA (8GB)	内存：8GB	颜色：黑色
+序列号：DPM0	手机型号：iMac (21.5-inch, Mid 2011)	内存：	颜色：
+序列号：DPM1	手机型号：iMac (27-inch, Mid 2011)	内存：	颜色：
+序列号：DPM2	手机型号：iMac (27-inch, Mid 2011)	内存：	颜色：
+序列号：DPMW	手机型号：iPhone 4 (8GB)	内存：8GB	颜色：白色
+序列号：DPNG	手机型号：iPhone 4 CDMA (8GB)	内存：8GB	颜色：白色
+序列号：DPNK	手机型号：iMac (21.5-inch, Late 2011)	内存：	颜色：
+序列号：DPNT	手机型号：iMac (21.5-inch, Mid 2011)	内存：	颜色：
+序列号：DPNV	手机型号：iMac (27-inch, Mid 2011)	内存：	颜色：
+序列号：DPNW	手机型号：iMac (21.5-inch, Late 2011)	内存：	颜色：
+序列号：DQQ6	手机型号：MacBook Air (11-inch, Late 2010)	内存：	颜色：
+序列号：DR53	手机型号：MacBook Pro (Retina, 13-inch, Late 2012)	内存：	颜色：
+序列号：DR54	手机型号：MacBook Pro (Retina, 13-inch, Late 2012)	内存：	颜色：
+序列号：DR55	手机型号：MacBook Pro (Retina, 13-inch, Late 2012)	内存：	颜色：
+序列号：DR56	手机型号：MacBook Pro (Retina, 13-inch, Late 2012)	内存：	颜色：
+序列号：DR7W	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DRHF	手机型号：MacBook Air (11-inch, Mid 2011)	内存：	颜色：
+序列号：DRHN	手机型号：Apple TV (3rd generation)	内存：	颜色：
+序列号：DRHR	手机型号：Mac mini Server (Mid 2011)	内存：	颜色：
+序列号：DRHT	手机型号：Mac mini (Mid 2011)	内存：	颜色：
+序列号：DRJ7	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DRJ9	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DRJC	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DRJD	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DRJF	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DRJG	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DRJH	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DRJJ	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DRJK	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DRJL	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DRJM	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DRJN	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DRKG	手机型号：MacBook Air (13-inch, Mid 2011)	内存：	颜色：
+序列号：DRKH	手机型号：MacBook Air (11-inch, Mid 2011)	内存：	颜色：
+序列号：DRQ4	手机型号：MacBook Air (13-inch, Mid 2011)	内存：	颜色：
+序列号：DRV6	手机型号：MacBook Air (11-inch, Mid 2012)	内存：	颜色：
+序列号：DRV7	手机型号：MacBook Air (11-inch, Mid 2012)	内存：	颜色：
+序列号：DRV8	手机型号：MacBook Air (11-inch, Mid 2012)	内存：	颜色：
+序列号：DRV9	手机型号：MacBook Air (11-inch, Mid 2012)	内存：	颜色：
+序列号：DRVC	手机型号：MacBook Air (13-inch, Mid 2012)	内存：	颜色：
+序列号：DRVD	手机型号：MacBook Air (13-inch, Mid 2012)	内存：	颜色：
+序列号：DRVF	手机型号：MacBook Air (13-inch, Mid 2012)	内存：	颜色：
+序列号：DRVG	手机型号：MacBook Air (13-inch, Mid 2012)	内存：	颜色：
+序列号：DRVP	手机型号：iMac (27-inch, Mid 2011)	内存：	颜色：
+序列号：DRW1	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DRW5	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DRW6	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DRWD	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DT4J	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DT54	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DT55	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DT56	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DT57	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DT58	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DT59	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DT5C	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DT5D	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DT5F	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DT5G	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DT5H	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DT5J	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DT5L	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DT5N	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DT5P	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DT5Q	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DT5V	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DT5Y	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DT60	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DT62	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DT63	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DT64	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DT66	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DT67	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DT68	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DT69	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DT6D	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DT6J	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DT6L	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DT6N	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DT6P	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DT75	手机型号：iPod touch (4th generation)	内存：8GB	颜色：黑色
+序列号：DT77	手机型号：iPod touch (4th generation)	内存：32GB	颜色：黑色
+序列号：DT78	手机型号：iPod touch (4th generation)	内存：64GB	颜色：黑色
+序列号：DT9V	手机型号：iPhone 4s	内存：16GB	颜色：黑色
+序列号：DT9Y	手机型号：iPhone 4s	内存：16GB	颜色：黑色
+序列号：DTC0	手机型号：iPhone 4s	内存：16GB	颜色：黑色
+序列号：DTC1	手机型号：iPhone 4s	内存：16GB	颜色：黑色
+序列号：DTCJ	手机型号：Mac mini (Mid 2011)	内存：	颜色：
+序列号：DTCK	手机型号：Mac mini (Mid 2011)	内存：	颜色：
+序列号：DTCL	手机型号：Mac mini Server (Mid 2011)	内存：	颜色：
+序列号：DTCM	手机型号：Mac mini (Mid 2011)	内存：	颜色：
+序列号：DTCT	手机型号：Mac mini Server (Mid 2011)	内存：	颜色：
+序列号：DTCV	手机型号：Mac mini Server (Mid 2011)	内存：	颜色：
+序列号：DTD0	手机型号：iPhone 4s	内存：16GB	颜色：白色
+序列号：DTD1	手机型号：iPhone 4s	内存：16GB	颜色：白色
+序列号：DTD2	手机型号：iPhone 4s	内存：16GB	颜色：白色
+序列号：DTD3	手机型号：iPhone 4s	内存：16GB	颜色：白色
+序列号：DTD5	手机型号：iPhone 4s	内存：32GB	颜色：黑色
+序列号：DTD6	手机型号：iPhone 4s	内存：32GB	颜色：黑色
+序列号：DTD7	手机型号：iPhone 4s	内存：32GB	颜色：黑色
+序列号：DTD8	手机型号：iPhone 4s	内存：32GB	颜色：黑色
+序列号：DTDC	手机型号：iPhone 4s	内存：32GB	颜色：白色
+序列号：DTDD	手机型号：iPhone 4s	内存：32GB	颜色：白色
+序列号：DTDF	手机型号：iPhone 4s	内存：32GB	颜色：白色
+序列号：DTDG	手机型号：iPhone 4s	内存：32GB	颜色：白色
+序列号：DTDK	手机型号：iPhone 4s	内存：64GB	颜色：黑色
+序列号：DTDL	手机型号：iPhone 4s	内存：64GB	颜色：黑色
+序列号：DTDM	手机型号：iPhone 4s	内存：64GB	颜色：黑色
+序列号：DTDN	手机型号：iPhone 4s	内存：64GB	颜色：黑色
+序列号：DTDR	手机型号：iPhone 4s	内存：64GB	颜色：白色
+序列号：DTDT	手机型号：iPhone 4s	内存：64GB	颜色：白色
+序列号：DTDV	手机型号：iPhone 4s	内存：64GB	颜色：白色
+序列号：DTDW	手机型号：iPhone 4s	内存：64GB	颜色：白色
+序列号：DTF9	手机型号：iPhone 4s	内存：16GB	颜色：黑色
+序列号：DTFC	手机型号：iPhone 4s	内存：16GB	颜色：白色
+序列号：DTFD	手机型号：iPhone 4s	内存：32GB	颜色：黑色
+序列号：DTFF	手机型号：iPhone 4s	内存：32GB	颜色：白色
+序列号：DTFG	手机型号：iPhone 4s	内存：64GB	颜色：黑色
+序列号：DTFH	手机型号：iPhone 4s	内存：64GB	颜色：白色
+序列号：DTJT	手机型号：MacBook Air (13-inch, Mid 2011)	内存：	颜色：
+序列号：DTJV	手机型号：MacBook Air (13-inch, Mid 2011)	内存：	颜色：
+序列号：DTJW	手机型号：MacBook Air (11-inch, Mid 2011)	内存：	颜色：
+序列号：DTJY	手机型号：MacBook Air (11-inch, Mid 2011)	内存：	颜色：
+序列号：DTK0	手机型号：MacBook Air (13-inch, Mid 2011)	内存：	颜色：
+序列号：DTK1	手机型号：MacBook Air (11-inch, Mid 2011)	内存：	颜色：
+序列号：DTK2	手机型号：MacBook Air (11-inch, Mid 2011)	内存：	颜色：
+序列号：DTTN	手机型号：iPhone 5	内存：16GB	颜色：黑色
+序列号：DTTP	手机型号：iPhone 5	内存：16GB	颜色：白色
+序列号：DTTQ	手机型号：iPhone 5	内存：32GB	颜色：黑色
+序列号：DTTR	手机型号：iPhone 5	内存：32GB	颜色：白色
+序列号：DTWD	手机型号：iPhone 5 (GSM, CDMA)	内存：16GB	颜色：黑色
+序列号：DTWF	手机型号：iPhone 5 (GSM, CDMA)	内存：16GB	颜色：白色
+序列号：DTWG	手机型号：iPhone 5 (GSM, CDMA)	内存：32GB	颜色：黑色
+序列号：DTWH	手机型号：iPhone 5 (GSM, CDMA)	内存：32GB	颜色：白色
+序列号：DTY3	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：DTY4	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：DV10	手机型号：MacBook Pro (17-inch, Late 2011)	内存：	颜色：
+序列号：DV11	手机型号：MacBook Pro (17-inch, Late 2011)	内存：	颜色：
+序列号：DV13	手机型号：MacBook Pro (13-inch, Late 2011)	内存：	颜色：
+序列号：DV14	手机型号：MacBook Pro (13-inch, Late 2011)	内存：	颜色：
+序列号：DV16	手机型号：MacBook Pro (13-inch, Late 2011)	内存：	颜色：
+序列号：DV17	手机型号：MacBook Pro (13-inch, Late 2011)	内存：	颜色：
+序列号：DV2R	手机型号：AirPort Express 802.11n (2nd Generation)	内存：	颜色：
+序列号：DV30	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：DV31	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：DV33	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：DV35	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：DV7L	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DV7M	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DV7N	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DV7P	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DV8H	手机型号：MacBook (13-inch, Mid 2010)	内存：	颜色：
+序列号：DVD1	手机型号：iPad (3rd generation)	内存：16GB	颜色：白色
+序列号：DVD2	手机型号：iPad (3rd generation)	内存：32GB	颜色：白色
+序列号：DVD3	手机型号：iPad (3rd generation)	内存：64GB	颜色：白色
+序列号：DVGC	手机型号：iPad (3rd Generation) Wi-Fi + Cellular (Verizon)	内存：16GB	颜色：白色
+序列号：DVGD	手机型号：iPad (3rd Generation) Wi-Fi + Cellular (Verizon)	内存：32GB	颜色：白色
+序列号：DVGF	手机型号：iPad (3rd Generation) Wi-Fi + Cellular (Verizon)	内存：64GB	颜色：白色
+序列号：DVGG	手机型号：iPad (3rd generation) Wi-Fi + Cellular	内存：16GB	颜色：黑色
+序列号：DVGH	手机型号：iPad (3rd generation) Wi-Fi + Cellular	内存：32GB	颜色：黑色
+序列号：DVGJ	手机型号：iPad (3rd generation) Wi-Fi + Cellular	内存：64GB	颜色：黑色
+序列号：DVGK	手机型号：iPad (3rd generation) Wi-Fi + Cellular	内存：16GB	颜色：白色
+序列号：DVGL	手机型号：iPad (3rd generation) Wi-Fi + Cellular	内存：32GB	颜色：白色
+序列号：DVGM	手机型号：iPad (3rd generation) Wi-Fi + Cellular	内存：64GB	颜色：白色
+序列号：DVHJ	手机型号：MacBook Pro (13-inch, Late 2011)	内存：	颜色：
+序列号：DVHK	手机型号：MacBook Pro (13-inch, Late 2011)	内存：	颜色：
+序列号：DVHL	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DVHM	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DVHN	手机型号：MacBook Pro (17-inch, Late 2011)	内存：	颜色：
+序列号：DVHP	手机型号：MacBook Pro (13-inch, Late 2011)	内存：	颜色：
+序列号：DVHQ	手机型号：MacBook Pro (13-inch, Late 2011)	内存：	颜色：
+序列号：DVHR	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DVHV	手机型号：MacBook Pro (17-inch, Late 2011)	内存：	颜色：
+序列号：DVHW	手机型号：MacBook Pro (17-inch, Late 2011)	内存：	颜色：
+序列号：DW13	手机型号：MacBook Pro (13-inch, Late 2011)	内存：	颜色：
+序列号：DW1C	手机型号：MacBook Air (11-inch, Mid 2011)	内存：	颜色：
+序列号：DW1N	手机型号：MacBook Air (13-inch, Mid 2011)	内存：	颜色：
+序列号：DW33	手机型号：Mac mini (Mid 2011)	内存：	颜色：
+序列号：DW34	手机型号：Mac mini (Mid 2011)	内存：	颜色：
+序列号：DW35	手机型号：Mac mini (Mid 2011)	内存：	颜色：
+序列号：DW36	手机型号：Mac mini (Mid 2011)	内存：	颜色：
+序列号：DW37	手机型号：Mac mini (Mid 2011)	内存：	颜色：
+序列号：DW38	手机型号：Mac mini (Mid 2011)	内存：	颜色：
+序列号：DW39	手机型号：Mac mini Server (Mid 2011)	内存：	颜色：
+序列号：DW3C	手机型号：Mac mini (Mid 2011)	内存：	颜色：
+序列号：DW3D	手机型号：Mac mini Server (Mid 2011)	内存：	颜色：
+序列号：DW3G	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DW3H	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DW3J	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DW47	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DW48	手机型号：MacBook Pro (17-inch, Late 2011)	内存：	颜色：
+序列号：DW4H	手机型号：MacBook Air (13-inch, Mid 2011)	内存：	颜色：
+序列号：DW4J	手机型号：MacBook Air (11-inch, Mid 2011)	内存：	颜色：
+序列号：DWTP	手机型号：iMac (21.5-inch, Mid 2011)	内存：	颜色：
+序列号：DWTQ	手机型号：iMac (21.5-inch, Mid 2011)	内存：	颜色：
+序列号：DWTR	手机型号：iMac (27-inch, Mid 2011)	内存：	颜色：
+序列号：DWWM	手机型号：MacBook Air (11-inch, Mid 2011)	内存：	颜色：
+序列号：DWWN	手机型号：MacBook Air (11-inch, Mid 2011)	内存：	颜色：
+序列号：DWYL	手机型号：Mac mini (Late 2012)	内存：	颜色：
+序列号：DWYM	手机型号：Mac mini (Late 2012)	内存：	颜色：
+序列号：DWYN	手机型号：Mac mini Server (Late 2012)	内存：	颜色：
+序列号：DY1J	手机型号：MacBook Pro (13-inch, Late 2011)	内存：	颜色：
+序列号：DY1K	手机型号：MacBook Pro (13-inch, Late 2011)	内存：	颜色：
+序列号：DY1L	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DY1M	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DY1N	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DY1P	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DY1Q	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DY1R	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DY1T	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DY1V	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DY1W	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DY1Y	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DY20	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DY21	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DY22	手机型号：MacBook Pro (17-inch, Late 2011)	内存：	颜色：
+序列号：DY23	手机型号：MacBook Pro (17-inch, Late 2011)	内存：	颜色：
+序列号：DY24	手机型号：MacBook Pro (17-inch, Late 2011)	内存：	颜色：
+序列号：DY25	手机型号：MacBook Pro (17-inch, Late 2011)	内存：	颜色：
+序列号：DY26	手机型号：MacBook Pro (17-inch, Late 2011)	内存：	颜色：
+序列号：DY2M	手机型号：MacBook Air (11-inch, Mid 2011)	内存：	颜色：
+序列号：DY3G	手机型号：Mac mini (Late 2012)	内存：	颜色：
+序列号：DY3H	手机型号：Mac mini (Late 2012)	内存：	颜色：
+序列号：DY3J	手机型号：Mac mini Server (Late 2012)	内存：	颜色：
+序列号：DY5K	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DY5P	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DY5Q	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DY5Y	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DY60	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DY6C	手机型号：MacBook Pro (13-inch, Late 2011)	内存：	颜色：
+序列号：DY6F	手机型号：iMac (27-inch, Mid 2011)	内存：	颜色：
+序列号：DY77	手机型号：MacBook Pro (13-inch, Late 2011)	内存：	颜色：
+序列号：DY7G	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DYG6	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DYG7	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DYL1	手机型号：MacBook Pro (13-inch, Late 2011)	内存：	颜色：
+序列号：DYL2	手机型号：MacBook Pro (13-inch, Late 2011)	内存：	颜色：
+序列号：DYQJ	手机型号：Mac mini (Mid 2011)	内存：	颜色：
+序列号：DYR1	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DJQL	手机型号：MacBook Pro (17-inch, Mid 2010)	内存：	颜色：
+序列号：DJWT	手机型号：MacBook Air (13-inch, Mid 2011)	内存：	颜色：
+序列号：DNR0	手机型号：iPod touch (4th generation)	内存：64GB	颜色：
+序列号：DNRD	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DNTK	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DNVK	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DNVY	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DNWY	手机型号：iMac (21.5-inch, Mid 2011)	内存：	颜色：
+序列号：DNY0	手机型号：iMac (27-inch, Mid 2011)	内存：	颜色：
+序列号：DRW2	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DRW3	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DRW4	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DT5R	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DT5T	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DT5W	手机型号：MacBook Pro (17-inch, Early 2011)	内存：	颜色：
+序列号：DT61	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DT65	手机型号：MacBook Pro (13-inch, Early 2011)	内存：	颜色：
+序列号：DT6C	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DT6F	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DT6G	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DT6H	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DT6K	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DT6M	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DT6R	手机型号：MacBook Pro (15-inch, Early 2011)	内存：	颜色：
+序列号：DY5R	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DY5T	手机型号：MacBook Pro (13-inch, Late 2011)	内存：	颜色：
+序列号：DY5V	手机型号：MacBook Pro (13-inch, Late 2011)	内存：	颜色：
+序列号：DY5W	手机型号：MacBook Pro (17-inch, Late 2011)	内存：	颜色：
+序列号：DYG8	手机型号：MacBook Pro (17-inch, Late 2011)	内存：	颜色：
+序列号：DYK9	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DYKC	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DYL0	手机型号：MacBook Pro (13-inch, Late 2011)	内存：	颜色：
+序列号：DYKC	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：DYL0	手机型号：MacBook Pro (13-inch, Late 2011)	内存：	颜色：
+

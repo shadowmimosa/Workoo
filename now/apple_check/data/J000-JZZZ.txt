@@ -1,0 +1,328 @@
+序列号：J0DH	手机型号：iMac (21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：J0DJ	手机型号：iMac (21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：J0DK	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：J1D9	手机型号：iPhone 7	内存：	颜色：
+序列号：J1DC	手机型号：iPhone 7	内存：	颜色：
+序列号：J1DD	手机型号：iPhone 7 Plus	内存：	颜色：
+序列号：J1DF	手机型号：iPhone 7 Plus	内存：	颜色：
+序列号：J1G5	手机型号：iMac (Retina 4K, 21.5-inch, 2017)	内存：	颜色：银色
+序列号：J1G6	手机型号：iMac (Retina 4K, 21.5-inch, 2017)	内存：	颜色：银色
+序列号：J1G7	手机型号：iMac (Retina 4K, 21.5-inch, 2017)	内存：	颜色：银色
+序列号：J1G9	手机型号：iMac (Retina 4K, 21.5-inch, 2017)	内存：	颜色：银色
+序列号：J1GC	手机型号：iMac (Retina 4K, 21.5-inch, 2017)	内存：	颜色：银色
+序列号：J1GD	手机型号：iMac (Retina 4K, 21.5-inch, 2017)	内存：	颜色：银色
+序列号：J1GF	手机型号：iMac (Retina 4K, 21.5-inch, 2017)	内存：	颜色：银色
+序列号：J1GG	手机型号：iMac (Retina 5K, 27-inch, 2017)	内存：	颜色：银色
+序列号：J1GH	手机型号：iMac (Retina 5K, 27-inch, 2017)	内存：	颜色：银色
+序列号：J1GJ	手机型号：iMac (Retina 5K, 27-inch, 2017)	内存：	颜色：银色
+序列号：J1GK	手机型号：iMac (Retina 5K, 27-inch, 2017)	内存：	颜色：银色
+序列号：J1GL	手机型号：iMac (Retina 5K, 27-inch, 2017)	内存：	颜色：银色
+序列号：J1GM	手机型号：iMac (Retina 5K, 27-inch, 2017)	内存：	颜色：银色
+序列号：J1GN	手机型号：iMac (Retina 5K, 27-inch, 2017)	内存：	颜色：银色
+序列号：J1GP	手机型号：iMac (Retina 5K, 27-inch, 2017)	内存：	颜色：银色
+序列号：J1GQ	手机型号：iMac (Retina 5K, 27-inch, 2017)	内存：	颜色：银色
+序列号：J1GR	手机型号：iMac (Retina 5K, 27-inch, 2017)	内存：	颜色：银色
+序列号：J1GT	手机型号：iMac (Retina 5K, 27-inch, 2017)	内存：	颜色：银色
+序列号：J1GV	手机型号：iMac (Retina 5K, 27-inch, 2017)	内存：	颜色：银色
+序列号：J1WF	手机型号：Apple TV 4K (5th generation)	内存：32GB	颜色：黑色
+序列号：J1WK	手机型号：MacBook Air (13-inch, 2017)	内存：	颜色：银色
+序列号：J1WL	手机型号：MacBook Air (13-inch, 2017)	内存：	颜色：银色
+序列号：J1WM	手机型号：MacBook Air (13-inch, 2017)	内存：	颜色：银色
+序列号：J1WT	手机型号：MacBook Air (13-inch, 2017)	内存：	颜色：银色
+序列号：J1WV	手机型号：MacBook Air (13-inch, 2017)	内存：	颜色：银色
+序列号：J21W	手机型号：MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)	内存：	颜色：银色
+序列号：J262	手机型号：iPad Pro (12.9-inch) (2nd generation) Wi-Fi	内存：64GB	颜色：深空灰色
+序列号：J263	手机型号：iPad Pro (12.9-inch) (2nd generation) Wi-Fi	内存：64GB	颜色：银色
+序列号：J264	手机型号：iPad Pro (12.9-inch) (2nd generation) Wi-Fi	内存：64GB	颜色：金色
+序列号：J265	手机型号：HomePod (Early 2018)	内存：0GB	颜色：白色
+序列号：J28K	手机型号：iPad Pro (10.5-inch) Wi-Fi	内存：64GB	颜色：深空灰色
+序列号：J28L	手机型号：iPad Pro (10.5-inch) Wi-Fi	内存：64GB	颜色：银色
+序列号：J28M	手机型号：iPad Pro (10.5-inch) Wi-Fi	内存：64GB	颜色：金色
+序列号：J28N	手机型号：iPad Pro (10.5-inch) Wi-Fi	内存：64GB	颜色：玫瑰金色
+序列号：J294	手机型号：iPad Pro (12.9-inch) (2nd generation) Wi-Fi + Cellular	内存：64GB	颜色：深空灰色
+序列号：J295	手机型号：iPad Pro (12.9-inch) (2nd generation) Wi-Fi + Cellular	内存：64GB	颜色：银色
+序列号：J296	手机型号：iPad Pro (12.9-inch) (2nd generation) Wi-Fi + Cellular	内存：64GB	颜色：金色
+序列号：J299	手机型号：iPad Pro (12.9-inch) (2nd generation) Wi-Fi + Cellular	内存：64GB	颜色：深空灰色
+序列号：J29C	手机型号：iPad Pro (12.9-inch) (2nd generation) Wi-Fi + Cellular	内存：64GB	颜色：银色
+序列号：J29D	手机型号：iPad Pro (12.9-inch) (2nd generation) Wi-Fi + Cellular	内存：64GB	颜色：金色
+序列号：J2D1	手机型号：iPad Pro (10.5-inch) Wi-Fi + Cellular	内存：64GB	颜色：深空灰色
+序列号：J2D2	手机型号：iPad Pro (10.5-inch) Wi-Fi + Cellular	内存：64GB	颜色：银色
+序列号：J2D3	手机型号：iPad Pro (10.5-inch) Wi-Fi + Cellular	内存：64GB	颜色：金色
+序列号：J2D4	手机型号：iPad Pro (10.5-inch) Wi-Fi + Cellular	内存：64GB	颜色：金色
+序列号：J2GJ	手机型号：iMac (Retina 5K, 27-inch, 2017)	内存：	颜色：银色
+序列号：J2K6	手机型号：Powerbeats3 Wireless	内存：0GB	颜色：Trophy Gold
+序列号：J2VW	手机型号：urBeats3	内存：	颜色：
+序列号：J2VX	手机型号：urBeats3	内存：	颜色：
+序列号：J2VY	手机型号：urBeats3	内存：	颜色：
+序列号：J2W0	手机型号：urBeats3	内存：	颜色：灰色
+序列号：J3RW	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：J3RY	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：J4NY	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：J5KM	手机型号：iPhone 7	内存：32GB	颜色：亮黑色
+序列号：J5KN	手机型号：iPhone 7	内存：32GB	颜色：亮黑色
+序列号：J5KW	手机型号：MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)	内存：	颜色：银色
+序列号：J5WY	手机型号：Apple Watch Series 3 GPS Aluminum 38mm (3rd gen)	内存：8GB	颜色：Silver Aluminum
+序列号：J5X0	手机型号：Apple Watch Series 3 GPS Aluminum 38mm (3rd gen)	内存：8GB	颜色：Space Gray
+序列号：J5X1	手机型号：Apple Watch Series 3 GPS Aluminum 38mm (3rd gen)	内存：8GB	颜色：Gold
+序列号：J5X2	手机型号：Apple Watch Series 3 GPS Nike+ 38mm (3rd gen)	内存：8GB	颜色：Space Gray
+序列号：J5X3	手机型号：Apple Watch Series 3 GPS Aluminum 42mm (3rd gen)	内存：8GB	颜色：Silver Aluminum
+序列号：J5X4	手机型号：Apple Watch Series 3 GPS Aluminum 42mm (3rd gen)	内存：8GB	颜色：Space Gray
+序列号：J5X5	手机型号：Apple Watch Series 3 GPS Aluminum 42mm (3rd gen)	内存：8GB	颜色：Gold
+序列号：J5X6	手机型号：Apple Watch Series 3 GPS Nike+ 42mm (3rd gen)	内存：8GB	颜色：Space Gray
+序列号：J608	手机型号：iMac (Retina 4K, 21.5-inch, 2017)	内存：	颜色：
+序列号：J609	手机型号：iMac (Retina 5K, 27-inch, 2017)	内存：	颜色：
+序列号：J60C	手机型号：iMac (Retina 5K, 27-inch, 2017)	内存：	颜色：
+序列号：J64G	手机型号：MacBook (Retina, 12-inch, 2017)	内存：	颜色：
+序列号：J64H	手机型号：MacBook (Retina, 12-inch, 2017)	内存：	颜色：金色
+序列号：J64J	手机型号：MacBook (Retina, 12-inch, 2017)	内存：	颜色：
+序列号：J65G	手机型号：MacBook (Retina, 12-inch, 2017)	内存：	颜色：
+序列号：J69C	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：
+序列号：J6CP	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：深空灰色
+序列号：J6CQ	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：银色
+序列号：J6DT	手机型号：Apple Watch Series 3 Cellular Aluminum 38mm (3rd gen)	内存：16GB	颜色：Silver
+序列号：J6DV	手机型号：Apple Watch Series 3 Cellular Aluminum 38mm (3rd gen)	内存：16GB	颜色：Space Gray
+序列号：J6DW	手机型号：Apple Watch Series 3 Cellular Aluminum 38mm (3rd gen)	内存：16GB	颜色：Gold
+序列号：J6DY	手机型号：Apple Watch Series 3 Stainless Steel 38mm (3rd gen)	内存：16GB	颜色：Silver
+序列号：J6F1	手机型号：Apple Watch Series 3 Stainless Steel 38mm (3rd gen)	内存：16GB	颜色：Space Black Stainless Steel
+序列号：J6FD	手机型号：Apple Watch Series 3 Edition 38mm (3rd gen)	内存：16GB	颜色：白色
+序列号：J6FH	手机型号：Apple Watch Series 3 Edition 38mm (3rd gen)	内存：16GB	颜色：灰色
+序列号：J6FJ	手机型号：Apple Watch Series 3 Cellular Nike+ 38mm (3rd gen)	内存：16GB	颜色：银色
+序列号：J6FK	手机型号：Apple Watch Series 3 Cellular Nike+ 38mm (3rd gen)	内存：16GB	颜色：Space Gray
+序列号：J6FL	手机型号：Apple Watch Series 3 Hermès 38mm (3rd gen)	内存：16GB	颜色：Silver
+序列号：J6GD	手机型号：Apple Watch Series 3 Cellular Aluminum 42mm (3rd gen)	内存：16GB	颜色：Silver
+序列号：J6GF	手机型号：Apple Watch Series 3 Cellular Aluminum 42mm (3rd gen)	内存：16GB	颜色：Space Gray
+序列号：J6GG	手机型号：Apple Watch Series 3 Cellular Aluminum 42mm (3rd gen)	内存：16GB	颜色：Gold
+序列号：J6GH	手机型号：Apple Watch Series 3 Stainless Steel 42mm (3rd gen)	内存：16GB	颜色：Silver
+序列号：J6GJ	手机型号：Apple Watch Series 3 Stainless Steel 42mm (3rd gen)	内存：16GB	颜色：Space Black Stainless Steel
+序列号：J6GL	手机型号：Apple Watch Series 3 Edition 42mm (3rd gen)	内存：16GB	颜色：白色
+序列号：J6GM	手机型号：Apple Watch Series 3 Edition 42mm (3rd gen)	内存：16GB	颜色：Gray Ceramic
+序列号：J6GN	手机型号：Apple Watch Series 3 Cellular Nike+ 42mm (3rd gen)	内存：16GB	颜色：Silver
+序列号：J6GP	手机型号：Apple Watch Series 3 Cellular Nike+ 42mm (3rd gen)	内存：16GB	颜色：Space Gray
+序列号：J6GQ	手机型号：Apple Watch Series 3 Hermès 42mm (3rd gen)	内存：16GB	颜色：Silver
+序列号：J6GR	手机型号：Apple Watch Series 3 Cellular Aluminum 38mm (3rd gen)	内存：16GB	颜色：Silver
+序列号：J6GT	手机型号：Apple Watch Series 3 Cellular Aluminum 38mm (3rd gen)	内存：16GB	颜色：Space Gray
+序列号：J6GV	手机型号：Apple Watch Series 3 Cellular Aluminum 38mm (3rd gen)	内存：16GB	颜色：Gold
+序列号：J6H5	手机型号：Apple Watch Series 3 Stainless Steel 38mm (3rd gen)	内存：16GB	颜色：Silver
+序列号：J6H6	手机型号：Apple Watch Series 3 Stainless Steel 38mm (3rd gen)	内存：16GB	颜色：Stainless Steel Space Black
+序列号：J6H8	手机型号：Apple Watch Series 3 Edition 38mm (3rd gen)	内存：16GB	颜色：白色
+序列号：J6H9	手机型号：Apple Watch Series 3 Edition 38mm (3rd gen)	内存：16GB	颜色：灰色
+序列号：J6HC	手机型号：Apple Watch Series 3 Cellular Nike+ 38mm (3rd gen)	内存：16GB	颜色：Silver
+序列号：J6HD	手机型号：Apple Watch Series 3 Cellular Nike+ 38mm (3rd gen)	内存：16GB	颜色：深空灰色
+序列号：J6HF	手机型号：Apple Watch Series 3 Hermès 38mm (3rd gen)	内存：16GB	颜色：Silver
+序列号：J6HW	手机型号：Apple Watch Series 3 Cellular Aluminum 42mm (3rd gen)	内存：16GB	颜色：Silver
+序列号：J6HX	手机型号：Apple Watch Series 3 Cellular Aluminum 42mm (3rd gen)	内存：16GB	颜色：Space Gray
+序列号：J6HY	手机型号：Apple Watch Series 3 Cellular Aluminum 42mm (3rd gen)	内存：16GB	颜色：Gold
+序列号：J6J0	手机型号：Apple Watch Series 3 Stainless Steel 42mm (3rd gen)	内存：16GB	颜色：Silver
+序列号：J6J1	手机型号：Apple Watch Series 3 Stainless Steel 42mm (3rd gen)	内存：16GB	颜色：Stainless Steel Space Black
+序列号：J6J3	手机型号：Apple Watch Series 3 Edition 42mm (3rd gen)	内存：16GB	颜色：白色
+序列号：J6J4	手机型号：Apple Watch Series 3 Edition 42mm (3rd gen)	内存：16GB	颜色：灰色
+序列号：J6J5	手机型号：Apple Watch Series 3 Cellular Nike+ 42mm (3rd gen)	内存：16GB	颜色：Silver
+序列号：J6J6	手机型号：Apple Watch Series 3 Cellular Nike+ 42mm (3rd gen)	内存：16GB	颜色：Space Gray
+序列号：J6J7	手机型号：Apple Watch Series 3 Hermès 42mm (3rd gen)	内存：16GB	颜色：Silver
+序列号：J6M9	手机型号：Apple Watch Series 3 Cellular Aluminum 38mm (3rd gen)	内存：16GB	颜色：Silver
+序列号：J6MC	手机型号：Apple Watch Series 3 Cellular Aluminum 38mm (3rd gen)	内存：16GB	颜色：Space Gray
+序列号：J6MD	手机型号：Apple Watch Series 3 Cellular Aluminum 38mm (3rd gen)	内存：16GB	颜色：Gold
+序列号：J6MF	手机型号：Apple Watch Series 3 Stainless Steel 38mm (3rd gen)	内存：16GB	颜色：Silver
+序列号：J6MG	手机型号：Apple Watch Series 3 Stainless Steel 38mm (3rd gen)	内存：16GB	颜色：Stainless Steel Space Black
+序列号：J6MJ	手机型号：Apple Watch Series 3 Edition 38mm (3rd gen)	内存：16GB	颜色：白色
+序列号：J6MK	手机型号：Apple Watch Series 3 Edition 38mm (3rd gen)	内存：16GB	颜色：灰色
+序列号：J6ML	手机型号：Apple Watch Series 3 Cellular Nike+ 38mm (3rd gen)	内存：16GB	颜色：银色
+序列号：J6MM	手机型号：Apple Watch Series 3 Cellular Nike+ 38mm (3rd gen)	内存：16GB	颜色：Space Gray
+序列号：J6MN	手机型号：Apple Watch Series 3 Hermès 38mm (3rd gen)	内存：16GB	颜色：Silver
+序列号：J6MP	手机型号：Apple Watch Series 3 Cellular Aluminum 42mm (3rd gen)	内存：16GB	颜色：Silver
+序列号：J6MQ	手机型号：Apple Watch Series 3 Cellular Aluminum 42mm (3rd gen)	内存：16GB	颜色：Space Gray
+序列号：J6MR	手机型号：Apple Watch Series 3 Cellular Aluminum 42mm (3rd gen)	内存：16GB	颜色：Gold
+序列号：J6MT	手机型号：Apple Watch Series 3 Stainless Steel 42mm (3rd gen)	内存：16GB	颜色：Silver
+序列号：J6MV	手机型号：Apple Watch Series 3 Stainless Steel 42mm (3rd gen)	内存：16GB	颜色：Stainless Steel Space Black
+序列号：J6MX	手机型号：Apple Watch Series 3 Edition 42mm (3rd gen)	内存：16GB	颜色：白色
+序列号：J6MY	手机型号：Apple Watch Series 3 Edition 42mm (3rd gen)	内存：16GB	颜色：灰色
+序列号：J6N0	手机型号：Apple Watch Series 3 Cellular Nike+ 42mm (3rd gen)	内存：16GB	颜色：银色
+序列号：J6N1	手机型号：Apple Watch Series 3 Cellular Nike+ 42mm (3rd gen)	内存：16GB	颜色：深空灰色
+序列号：J6NF	手机型号：Apple Watch Series 3 Hermès 42mm (3rd gen)	内存：16GB	颜色：Silver
+序列号：J762	手机型号：MacBook Air (11-inch, Early 2015)	内存：	颜色：银色
+序列号：J86T	手机型号：Smart Keyboard	内存：	颜色：
+序列号：J8DY	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：
+序列号：J8F0	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：
+序列号：J8F1	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：银色
+序列号：J8F2	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：
+序列号：J8KC	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：
+序列号：J8MR	手机型号：Apple Watch Series 3 GPS Nike+ 38mm (3rd gen)	内存：8GB	颜色：Silver
+序列号：J8MT	手机型号：Apple Watch Series 3 GPS Nike+ 42mm (3rd gen)	内存：8GB	颜色：Silver
+序列号：J8N7	手机型号：MacBook Air (13-inch, 2017)	内存：	颜色：银色
+序列号：J8XG	手机型号：MacBook Air (13-inch, 2017)	内存：	颜色：银色
+序列号：J8XH	手机型号：MacBook Air (13-inch, 2017)	内存：	颜色：银色
+序列号：J925	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：深空灰色
+序列号：J926	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：
+序列号：J931	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：深空灰色
+序列号：J932	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：深空灰色
+序列号：J933	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：
+序列号：J934	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：
+序列号：J935	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：
+序列号：J936	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：
+序列号：J937	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：
+序列号：J938	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：
+序列号：J939	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：
+序列号：J93C	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：
+序列号：J93D	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：深空灰色
+序列号：J93F	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：
+序列号：J93G	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：深空灰色
+序列号：J93M	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：
+序列号：J93N	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：
+序列号：J93P	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：
+序列号：J9HX	手机型号：MacBook Air (13-inch, 2017)	内存：	颜色：银色
+序列号：J9J1	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：深空灰色
+序列号：J9J2	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：
+序列号：J9J4	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：
+序列号：J9J5	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：深空灰色
+序列号：J9J6	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：深空灰色
+序列号：J9J7	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：深空灰色
+序列号：J9J8	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：深空灰色
+序列号：J9J9	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：
+序列号：J9JD	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：
+序列号：J9JF	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：
+序列号：J9JG	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：
+序列号：J9JQ	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：深空灰色
+序列号：J9JR	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：深空灰色
+序列号：J9JT	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：深空灰色
+序列号：J9JV	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：
+序列号：J9JW	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：
+序列号：J9JX	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：
+序列号：J9JY	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：
+序列号：J9K0	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：深空灰色
+序列号：J9K1	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：
+序列号：J9K2	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：深空灰色
+序列号：J9K3	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：深空灰色
+序列号：J9K5	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：
+序列号：J9K6	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：
+序列号：J9K7	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：
+序列号：J9K8	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：
+序列号：J9K9	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：深空灰色
+序列号：J9KC	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：
+序列号：J9TN	手机型号：MacBook Air (13-inch, 2017)	内存：	颜色：银色
+序列号：J9TP	手机型号：MacBook Air (13-inch, 2017)	内存：	颜色：银色
+序列号：J9TQ	手机型号：MacBook Air (13-inch, 2017)	内存：	颜色：银色
+序列号：J9X4	手机型号：iMac (Retina 4K, 21.5-inch, 2017)	内存：	颜色：
+序列号：J9X5	手机型号：iMac (Retina 4K, 21.5-inch, 2017)	内存：	颜色：
+序列号：J9X6	手机型号：iMac (Retina 5K, 27-inch, 2017)	内存：	颜色：
+序列号：J9X7	手机型号：iMac (Retina 5K, 27-inch, 2017)	内存：	颜色：
+序列号：J9X8	手机型号：iMac (Retina 5K, 27-inch, 2017)	内存：	颜色：
+序列号：J9X9	手机型号：iMac (Retina 5K, 27-inch, 2017)	内存：	颜色：
+序列号：J9XC	手机型号：iMac (Retina 5K, 27-inch, 2017)	内存：	颜色：
+序列号：J9XD	手机型号：MacBook (Retina, 12-inch, 2017)	内存：	颜色：
+序列号：JC5J	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：玫瑰金色
+序列号：JC5L	手机型号：iMac (Retina 5K, 27-inch, 2017)	内存：	颜色：
+序列号：JC67	手机型号：iPhone 8	内存：64GB	颜色：深空灰色
+序列号：JC68	手机型号：iPhone 8	内存：64GB	颜色：银色
+序列号：JC69	手机型号：iPhone 8	内存：64GB	颜色：金色
+序列号：JC6C	手机型号：iPhone 8	内存：64GB	颜色：深空灰色
+序列号：JC6D	手机型号：iPhone 8	内存：64GB	颜色：银色
+序列号：JC6F	手机型号：iPhone 8	内存：64GB	颜色：金色
+序列号：JC6G	手机型号：iPhone 8	内存：64GB	颜色：深空灰色
+序列号：JC6H	手机型号：iPhone 8	内存：64GB	颜色：银色
+序列号：JC6J	手机型号：iPhone 8	内存：64GB	颜色：金色
+序列号：JC6K	手机型号：iPhone 8	内存：256GB	颜色：深空灰色
+序列号：JC6L	手机型号：iPhone 8	内存：256GB	颜色：银色
+序列号：JC6M	手机型号：iPhone 8	内存：256GB	颜色：金色
+序列号：JC6N	手机型号：iPhone 8	内存：256GB	颜色：深空灰色
+序列号：JC6V	手机型号：iPhone 8	内存：256GB	颜色：金色
+序列号：JC9H	手机型号：MacBook Air (13-inch, 2017)	内存：	颜色：银色
+序列号：JCCR	手机型号：iMac (Retina 5K, 27-inch, 2017)	内存：	颜色：
+序列号：JCCT	手机型号：iMac (Retina 5K, 27-inch, 2017)	内存：	颜色：银色
+序列号：JCD6	手机型号：MacBook Air (13-inch, 2017)	内存：	颜色：银色
+序列号：JCL6	手机型号：iPhone X	内存：256GB	颜色：深空灰色
+序列号：JCL7	手机型号：iPhone X	内存：256GB	颜色：银色
+序列号：JCL8	手机型号：iPhone X	内存：256GB	颜色：深空灰色
+序列号：JCL9	手机型号：iPhone X	内存：256GB	颜色：银色
+序列号：JCLC	手机型号：iPhone X	内存：256GB	颜色：深空灰色
+序列号：JCLD	手机型号：iPhone X	内存：256GB	颜色：银色
+序列号：JCLF	手机型号：iPhone X	内存：64GB	颜色：深空灰色
+序列号：JCLG	手机型号：iPhone X	内存：64GB	颜色：银色
+序列号：JCLH	手机型号：iPhone X	内存：64GB	颜色：深空灰色
+序列号：JCLJ	手机型号：iPhone X	内存：64GB	颜色：银色
+序列号：JCLK	手机型号：iPhone X	内存：64GB	颜色：深空灰色
+序列号：JCLL	手机型号：iPhone X	内存：64GB	颜色：银色
+序列号：JCLM	手机型号：iPhone 8 Plus	内存：256GB	颜色：深空灰色
+序列号：JCLN	手机型号：iPhone 8 Plus	内存：256GB	颜色：银色
+序列号：JCLP	手机型号：iPhone 8 Plus	内存：256GB	颜色：金色
+序列号：JCLQ	手机型号：iPhone 8 Plus	内存：256GB	颜色：深空灰色
+序列号：JCLR	手机型号：iPhone 8 Plus	内存：256GB	颜色：银色
+序列号：JCLT	手机型号：iPhone 8 Plus	内存：256GB	颜色：金色
+序列号：JCLV	手机型号：iPhone 8 Plus	内存：256GB	颜色：深空灰色
+序列号：JCLW	手机型号：iPhone 8 Plus	内存：256GB	颜色：银色
+序列号：JCLX	手机型号：iPhone 8 Plus	内存：256GB	颜色：金色
+序列号：JCLY	手机型号：iPhone 8 Plus	内存：64GB	颜色：深空灰色
+序列号：JCM0	手机型号：iPhone 8 Plus	内存：64GB	颜色：银色
+序列号：JCM1	手机型号：iPhone 8 Plus	内存：64GB	颜色：金色
+序列号：JCM2	手机型号：iPhone 8 Plus	内存：64GB	颜色：深空灰色
+序列号：JCM3	手机型号：iPhone 8 Plus	内存：64GB	颜色：银色
+序列号：JCM4	手机型号：iPhone 8 Plus	内存：64GB	颜色：金色
+序列号：JCM5	手机型号：iPhone 8 Plus	内存：64GB	颜色：深空灰色
+序列号：JCM6	手机型号：iPhone 8 Plus	内存：64GB	颜色：银色
+序列号：JCM7	手机型号：iPhone 8 Plus	内存：64GB	颜色：金色
+序列号：JCND	手机型号：iMac (Retina 5K, 27-inch, 2017)	内存：	颜色：银色
+序列号：JG2X	手机型号：Apple TV (4th generation)	内存：32GB	颜色：黑色
+序列号：JGDR	手机型号：iMac (21.5-inch, 2017)	内存：	颜色：
+序列号：JGDT	手机型号：iMac (Retina 4K, 21.5-inch, 2017)	内存：	颜色：
+序列号：JHTD	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：
+序列号：JHTF	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：
+序列号：JJ3D	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：银色
+序列号：JJ3F	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：深空灰色
+序列号：JJ3G	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：
+序列号：JJ3H	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：
+序列号：JJ3J	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：银色
+序列号：JKF9	手机型号：iMac (Retina 4K, 21.5-inch, 2017)	内存：	颜色：
+序列号：JKHD	手机型号：MacBook Air (13-inch, 2017)	内存：	颜色：
+序列号：JKHF	手机型号：MacBook Air (13-inch, 2017)	内存：	颜色：
+序列号：JKXH	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：银色
+序列号：JKXM	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：
+序列号：JL53	手机型号：iMac Pro (2017)	内存：	颜色：
+序列号：JL54	手机型号：iMac Pro (2017)	内存：	颜色：深空灰色
+序列号：JL55	手机型号：iMac Pro (2017)	内存：	颜色：
+序列号：JLCN	手机型号：iMac Pro (2017)	内存：	颜色：深空灰色
+序列号：JLCP	手机型号：iMac Pro (2017)	内存：	颜色：深空灰色
+序列号：JLCR	手机型号：iMac Pro (2017)	内存：	颜色：深空灰色
+序列号：JLCT	手机型号：iMac Pro (2017)	内存：	颜色：深空灰色
+序列号：JLCV	手机型号：iMac Pro (2017)	内存：	颜色：
+序列号：JLCW	手机型号：iMac Pro (2017)	内存：	颜色：
+序列号：JLCX	手机型号：iMac Pro (2017)	内存：	颜色：
+序列号：JLCY	手机型号：iMac Pro (2017)	内存：	颜色：深空灰色
+序列号：JLD0	手机型号：iMac Pro (2017)	内存：	颜色：
+序列号：JLD1	手机型号：iMac Pro (2017)	内存：	颜色：
+序列号：JLD2	手机型号：iMac Pro (2017)	内存：	颜色：
+序列号：JM3R	手机型号：iMac (Retina 5K, 27-inch, 2017)	内存：	颜色：
+序列号：JM3V	手机型号：iMac (Retina 5K, 27-inch, 2017)	内存：	颜色：
+序列号：JNGD	手机型号：iMac (Retina 5K, 27-inch, 2017)	内存：	颜色：
+序列号：JNGF	手机型号：iMac (Retina 5K, 27-inch, 2017)	内存：	颜色：
+序列号：JP10	手机型号：iMac (Retina 4K, 21.5-inch, 2017)	内存：	颜色：银色
+序列号：J0DG	手机型号：iMac (21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：J2H6	手机型号：iPad Pro (10.5-inch) Wi-Fi + Cellular	内存：64GB	颜色：深空灰色
+序列号：J2H7	手机型号：iPad Pro (10.5-inch) Wi-Fi + Cellular	内存：64GB	颜色：银色
+序列号：J2H8	手机型号：iPad Pro (10.5-inch) Wi-Fi + Cellular	内存：64GB	颜色：金色
+序列号：J2HF	手机型号：iPad Pro (10.5-inch) Wi-Fi + Cellular	内存：64GB	颜色：玫瑰金色
+序列号：J5KP	手机型号：iPhone 7	内存：32GB	颜色：亮黑色
+序列号：J5KQ	手机型号：iPhone 7 Plus	内存：32GB	颜色：亮黑色
+序列号：J5KR	手机型号：iPhone 7 Plus	内存：32GB	颜色：亮黑色
+序列号：J5KT	手机型号：iPhone 7 Plus	内存：32GB	颜色：亮黑色
+序列号：J93H	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：
+序列号：J93J	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：
+序列号：J93K	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：
+序列号：J93L	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：
+序列号：J9JH	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：深空灰色
+序列号：J9JM	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：
+序列号：J9JN	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：深空灰色
+序列号：J9JP	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：深空灰色
+序列号：JC6P	手机型号：iPhone 8	内存：256GB	颜色：银色
+序列号：JC6Q	手机型号：iPhone 8	内存：256GB	颜色：金色
+序列号：JC6R	手机型号：iPhone 8	内存：256GB	颜色：深空灰色
+序列号：JC6T	手机型号：iPhone 8	内存：256GB	颜色：银色
+序列号：JCPR	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：银色
+序列号：JCYQ	手机型号：MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)	内存：	颜色：
+序列号：JD04	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：
+序列号：JFRR	手机型号：iMac (21.5-inch, 2017)	内存：	颜色：
+序列号：J1G8	手机型号：iMac (Retina 4K, 21.5-inch, 2017)	内存：	颜色：银色
+序列号：JD06	手机型号：MacBook Pro (15-inch, 2017)	内存：	颜色：
+序列号：JD9D	手机型号：MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)	内存：	颜色：
+序列号：JFLY	手机型号：MacBook Air (13-inch, 2017)	内存：	颜色：银色
+序列号：JFPW	手机型号：iMac (Retina 4K, 21.5-inch, 2017)	内存：	颜色：
+
+

@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
+import sys
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -75,26 +76,28 @@ WSGI_APPLICATION = 'query_service.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-#DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.mysql',
-#        'NAME': 'query_service',  # 新建数据库名
-#        'USER': 'root',  # 数据库登录名
-#        'PASSWORD': 'shadow',  # 数据库登录密码
-#        'HOST': '127.0.0.1',  # 数据库所在服务器ip地址
-#        'PORT': '3306',  # 监听端口 默认3306即可
-#    }
-#}
-DATABASES = {
+if sys.platform=="win32":
+    DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'testos',  # 新建数据库名
+        'NAME': 'query_service',  # 新建数据库名
         'USER': 'root',  # 数据库登录名
-        'PASSWORD': 'BuleCook@556',  # 数据库登录密码
+        'PASSWORD': 'shadow',  # 数据库登录密码
         'HOST': '127.0.0.1',  # 数据库所在服务器ip地址
         'PORT': '3306',  # 监听端口 默认3306即可
     }
-}
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': 'testos',  # 新建数据库名
+            'USER': 'root',  # 数据库登录名
+            'PASSWORD': 'BuleCook@556',  # 数据库登录密码
+            'HOST': '127.0.0.1',  # 数据库所在服务器ip地址
+            'PORT': '3306',  # 监听端口 默认3306即可
+        }
+    }
 # DATABASES = {                                                                   
 #     'default': {                                                                
 #         'ENGINE': 'django.db.backends.sqlite3',                                 

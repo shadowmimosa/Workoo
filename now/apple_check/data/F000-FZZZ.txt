@@ -1,0 +1,831 @@
+序列号：F0GM	手机型号：iPod nano (7th generation)	内存：16GB	颜色：粉色
+序列号：F0GN	手机型号：iPod nano (7th generation)	内存：	颜色：
+序列号：F0GP	手机型号：iPod nano (7th generation)	内存：16GB	颜色：蓝色
+序列号：F0GQ	手机型号：iPod nano (7th generation)	内存：16GB	颜色：绿色
+序列号：F0GR	手机型号：iPod nano (7th generation)	内存：16GB	颜色：Purple
+序列号：F0GT	手机型号：iPod nano (7th generation)	内存：16GB	颜色：银色
+序列号：F0GV	手机型号：iPod nano (7th generation)	内存：16GB	颜色：Slate
+序列号：F0K6	手机型号：MacBook Pro (15-inch, Late 2011)	内存：	颜色：
+序列号：F13Y	手机型号：MacBook Pro (17-inch, Late 2011)	内存：	颜色：
+序列号：F140	手机型号：MacBook Pro (17-inch, Late 2011)	内存：	颜色：
+序列号：F14R	手机型号：MacBook Air (13-inch, Mid 2011)	内存：	颜色：
+序列号：F14V	手机型号：MacBook Air (13-inch, Mid 2011)	内存：	颜色：
+序列号：F182	手机型号：iPad (4th generation)	内存：16GB	颜色：黑色
+序列号：F183	手机型号：iPad (4th generation)	内存：32GB	颜色：黑色
+序列号：F184	手机型号：iPad (4th generation)	内存：64GB	颜色：黑色
+序列号：F185	手机型号：iPad (4th generation)	内存：16GB	颜色：白色
+序列号：F186	手机型号：iPad (4th generation)	内存：32GB	颜色：白色
+序列号：F187	手机型号：iPad (4th generation)	内存：64GB	颜色：白色
+序列号：F188	手机型号：iPad (4th generation) Wi-Fi + Cellular	内存：16GB	颜色：黑色
+序列号：F189	手机型号：iPad (4th generation) Wi-Fi + Cellular	内存：32GB	颜色：黑色
+序列号：F18C	手机型号：iPad (4th generation) Wi-Fi + Cellular	内存：64GB	颜色：黑色
+序列号：F18D	手机型号：iPad (4th generation) Wi-Fi + Cellular	内存：16GB	颜色：白色
+序列号：F18F	手机型号：iPad (4th generation) Wi-Fi + Cellular	内存：32GB	颜色：白色
+序列号：F18G	手机型号：iPad (4th generation) Wi-Fi + Cellular	内存：64GB	颜色：白色
+序列号：F18P	手机型号：iPad (4th generation) Wi-Fi + Cellular (MM)	内存：16GB	颜色：黑色
+序列号：F18W	手机型号：iPad (4th generation) Wi-Fi + Cellular (MM)	内存：32GB	颜色：黑色
+序列号：F18Y	手机型号：iPad (4th generation) Wi-Fi + Cellular (MM)	内存：64GB	颜色：黑色
+序列号：F190	手机型号：iPad (4th generation) Wi-Fi + Cellular (MM)	内存：16GB	颜色：白色
+序列号：F191	手机型号：iPad (4th generation) Wi-Fi + Cellular (MM)	内存：32GB	颜色：白色
+序列号：F192	手机型号：iPad (4th generation) Wi-Fi + Cellular (MM)	内存：64GB	颜色：白色
+序列号：F193	手机型号：iPad mini	内存：16GB	颜色：黑色
+序列号：F194	手机型号：iPad mini	内存：32GB	颜色：黑色
+序列号：F195	手机型号：iPad mini	内存：64GB	颜色：黑色
+序列号：F196	手机型号：iPad mini	内存：16GB	颜色：白色
+序列号：F197	手机型号：iPad mini	内存：32GB	颜色：白色
+序列号：F198	手机型号：iPad mini	内存：64GB	颜色：白色
+序列号：F199	手机型号：iPad mini Wi-Fi + Cellular	内存：16GB	颜色：黑色
+序列号：F19C	手机型号：iPad mini Wi-Fi + Cellular	内存：32GB	颜色：黑色
+序列号：F19D	手机型号：iPad mini Wi-Fi + Cellular	内存：64GB	颜色：黑色
+序列号：F19F	手机型号：iPad mini Wi-Fi + Cellular	内存：16GB	颜色：白色
+序列号：F19G	手机型号：iPad mini Wi-Fi + Cellular	内存：32GB	颜色：白色
+序列号：F19H	手机型号：iPad mini Wi-Fi + Cellular	内存：64GB	颜色：白色
+序列号：F19J	手机型号：iPad mini Wi-Fi + Cellular (MM)	内存：16GB	颜色：黑色
+序列号：F19K	手机型号：iPad mini Wi-Fi + Cellular (MM)	内存：32GB	颜色：黑色
+序列号：F19L	手机型号：iPad mini Wi-Fi + Cellular (MM)	内存：64GB	颜色：黑色
+序列号：F19M	手机型号：iPad mini Wi-Fi + Cellular (MM)	内存：16GB	颜色：白色
+序列号：F19N	手机型号：iPad mini Wi-Fi + Cellular (MM)	内存：32GB	颜色：白色
+序列号：F19P	手机型号：iPad mini Wi-Fi + Cellular (MM)	内存：64GB	颜色：白色
+序列号：F1G3	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F1G4	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F24T	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F298	手机型号：MacBook Pro (13-inch, Late 2011)	内存：	颜色：
+序列号：F299	手机型号：MacBook Pro (13-inch, Late 2011)	内存：	颜色：
+序列号：F29N	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：F2FV	手机型号：MacBook Air (13-inch, Mid 2012)	内存：	颜色：
+序列号：F2GC	手机型号：Apple Thunderbolt Display (27-inch)	内存：	颜色：
+序列号：F2J4	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F2J5	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F2JP	手机型号：MacBook Air (11-inch, Mid 2011)	内存：	颜色：
+序列号：F2JQ	手机型号：MacBook Air (13-inch, Mid 2011)	内存：	颜色：
+序列号：F38R	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F38T	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F38W	手机型号：iPhone 5	内存：64GB	颜色：黑色
+序列号：F38Y	手机型号：iPhone 5	内存：64GB	颜色：白色
+序列号：F39C	手机型号：iPhone 5 (GSM, CDMA)	内存：64GB	颜色：黑色
+序列号：F39D	手机型号：iPhone 5 (GSM, CDMA)	内存：64GB	颜色：白色
+序列号：F447	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：F4J2	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：F4JL	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：F4JR	手机型号：iPod touch (5th generation)	内存：32GB	颜色：黄色
+序列号：F4JT	手机型号：iPod touch (5th generation)	内存：64GB	颜色：黄色
+序列号：F4JW	手机型号：iPod touch (5th generation)	内存：32GB	颜色：蓝色
+序列号：F4JY	手机型号：iPod touch (5th generation)	内存：64GB	颜色：蓝色
+序列号：F4K1	手机型号：iPod touch (5th generation)	内存：32GB	颜色：银色
+序列号：F4K2	手机型号：iPod touch (5th generation)	内存：64GB	颜色：银色
+序列号：F4K4	手机型号：iPod touch (5th generation)	内存：32GB	颜色：黑色
+序列号：F4K5	手机型号：iPod touch (5th generation)	内存：64GB	颜色：黑色
+序列号：F4LP	手机型号：iPod nano (7th generation)	内存：16GB	颜色：红色
+序列号：F4MC	手机型号：Mac Pro (Mid 2012)	内存：	颜色：
+序列号：F4MD	手机型号：Mac Pro (Mid 2012)	内存：	颜色：
+序列号：F4MF	手机型号：Mac Pro Server (Mid 2012)	内存：	颜色：
+序列号：F4MG	手机型号：Mac Pro (Mid 2012)	内存：	颜色：
+序列号：F4MH	手机型号：Mac Pro (Mid 2012)	内存：	颜色：
+序列号：F4MJ	手机型号：Mac Pro Server (Mid 2012)	内存：	颜色：
+序列号：F4RT	手机型号：iPod shuffle (4th generation, Late 2012)	内存：2GB	颜色：粉色
+序列号：F4RV	手机型号：iPod shuffle (4th generation, Late 2012)	内存：	颜色：
+序列号：F4RW	手机型号：iPod shuffle (4th generation, Late 2012)	内存：	颜色：
+序列号：F4RY	手机型号：iPod shuffle (4th generation, Late 2012)	内存：	颜色：
+序列号：F4T0	手机型号：iPod shuffle (4th generation, Late 2012)	内存：	颜色：
+序列号：F4T1	手机型号：iPod shuffle (4th generation, Late 2012)	内存：2GB	颜色：银色
+序列号：F4VF	手机型号：iPod shuffle (4th generation, Late 2012)	内存：2GB	颜色：Slate
+序列号：F4VG	手机型号：iPod shuffle (4th generation, Late 2012)	内存：2GB	颜色：红色
+序列号：F4Y5	手机型号：iPod touch (5th generation)	内存：32GB	颜色：红色
+序列号：F4Y6	手机型号：iPod touch (5th generation)	内存：64GB	颜色：红色
+序列号：F4YD	手机型号：iPad Air WiFi + Cellular	内存：16GB	颜色：深空灰色
+序列号：F4YF	手机型号：iPad Air WiFi + Cellular	内存：32GB	颜色：深空灰色
+序列号：F4YG	手机型号：iPad Air WiFi + Cellular	内存：64GB	颜色：深空灰色
+序列号：F4YH	手机型号：iPad Air WiFi + Cellular	内存：16GB	颜色：银色
+序列号：F4YJ	手机型号：iPad Air WiFi + Cellular	内存：32GB	颜色：银色
+序列号：F4YK	手机型号：iPad Air WiFi + Cellular	内存：64GB	颜色：银色
+序列号：F4YY	手机型号：Mac Pro (Mid 2012)	内存：	颜色：
+序列号：F500	手机型号：Mac Pro (Mid 2012)	内存：	颜色：
+序列号：F501	手机型号：Mac Pro Server (Mid 2012)	内存：	颜色：
+序列号：F51R	手机型号：MacBook Pro (Retina, Mid 2012)	内存：	颜色：
+序列号：F569	手机型号：MacBook Air (11-inch, Mid 2012)	内存：	颜色：
+序列号：F56C	手机型号：MacBook Air (11-inch, Mid 2012)	内存：	颜色：
+序列号：F56D	手机型号：MacBook Air (13-inch, Mid 2012)	内存：	颜色：
+序列号：F56F	手机型号：MacBook Air (13-inch, Mid 2012)	内存：	颜色：
+序列号：F56G	手机型号：MacBook Air (11-inch, Mid 2012)	内存：	颜色：
+序列号：F56H	手机型号：MacBook Air (13-inch, Mid 2012)	内存：	颜色：
+序列号：F56J	手机型号：MacBook Air (13-inch, Mid 2012)	内存：	颜色：
+序列号：F57H	手机型号：MacBook Air (11-inch, Mid 2012)	内存：	颜色：
+序列号：F57J	手机型号：MacBook Air (13-inch, Mid 2012)	内存：	颜色：
+序列号：F5MV	手机型号：MacBook Air (11-inch, Mid 2012)	内存：	颜色：
+序列号：F5MW	手机型号：MacBook Air (13-inch, Mid 2012)	内存：	颜色：
+序列号：F5N7	手机型号：MacBook Air (11-inch, Mid 2013)	内存：	颜色：
+序列号：F5N8	手机型号：MacBook Air (11-inch, Mid 2013)	内存：	颜色：
+序列号：F5V7	手机型号：MacBook Air (13-inch, Mid 2013)	内存：	颜色：
+序列号：F5V8	手机型号：MacBook Air (13-inch, Mid 2013)	内存：	颜色：
+序列号：F5WV	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：F5WW	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：F5Y1	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：F5Y2	手机型号：MacBook Pro (Retina, Mid 2012)	内存：	颜色：
+序列号：F5Y3	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：F5Y4	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：F5Y5	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F5Y6	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F5Y7	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F5Y8	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F5Y9	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F5YC	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F5YD	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F5YF	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F5YG	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F5YH	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F5YJ	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F5YK	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F5YL	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F5YM	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F5YN	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F5YP	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F5YV	手机型号：MacBook Air	内存：	颜色：
+序列号：F5YW	手机型号：MacBook Air	内存：	颜色：
+序列号：F610	手机型号：iMac (27-inch, Mid 2011)	内存：	颜色：
+序列号：F611	手机型号：iMac (21.5-inch, Mid 2011)	内存：	颜色：
+序列号：F637	手机型号：iPad mini	内存：16GB	颜色：黑色
+序列号：F638	手机型号：iPad mini	内存：16GB	颜色：白色
+序列号：F648	手机型号：Mac Pro (Mid 2012)	内存：	颜色：
+序列号：F649	手机型号：Mac Pro (Mid 2012)	内存：	颜色：
+序列号：F64C	手机型号：Mac Pro (Mid 2012)	内存：	颜色：
+序列号：F64D	手机型号：Mac Pro (Mid 2012)	内存：	颜色：
+序列号：F64F	手机型号：Mac Pro (Mid 2012)	内存：	颜色：
+序列号：F67D	手机型号：MacBook Air (11-inch, Mid 2012)	内存：	颜色：
+序列号：F67F	手机型号：MacBook Air (11-inch, Mid 2012)	内存：	颜色：
+序列号：F67G	手机型号：MacBook Air (13-inch, Mid 2012)	内存：	颜色：
+序列号：F67H	手机型号：MacBook Air (13-inch, Mid 2012)	内存：	颜色：
+序列号：F67J	手机型号：MacBook Air (13-inch, Mid 2012)	内存：	颜色：
+序列号：F67K	手机型号：MacBook Air (11-inch, Mid 2012)	内存：	颜色：
+序列号：F67M	手机型号：MacBook Air (11-inch, Mid 2012)	内存：	颜色：
+序列号：F67P	手机型号：MacBook Air (13-inch, Mid 2012)	内存：	颜色：
+序列号：F686	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F687	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F68C	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：F68D	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：F693	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：F694	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：F6L9	手机型号：MacBook Pro (Retina, Mid 2012)	内存：	颜色：
+序列号：F6LH	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：F6LJ	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：F6T5	手机型号：MacBook Air	内存：	颜色：
+序列号：F6T6	手机型号：MacBook Air	内存：	颜色：
+序列号：F6T9	手机型号：Mac Pro (Mid 2012)	内存：	颜色：
+序列号：F6TC	手机型号：Mac Pro (Mid 2012)	内存：	颜色：
+序列号：F6TD	手机型号：Mac Pro (Mid 2012)	内存：	颜色：
+序列号：F6TF	手机型号：Mac Pro (Mid 2012)	内存：	颜色：
+序列号：F6TG	手机型号：Mac Pro (Mid 2012)	内存：	颜色：
+序列号：F6TN	手机型号：MacBook Air (13-inch, Mid 2012)	内存：	颜色：
+序列号：F6VG	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：F75Y	手机型号：MacBook Air (13-inch, Mid 2011)	内存：	颜色：
+序列号：F760	手机型号：MacBook Air (13-inch, Mid 2012)	内存：	颜色：
+序列号：F761	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F762	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F775	手机型号：MacBook Pro (Retina, 13-inch, Late 2012)	内存：	颜色：
+序列号：F776	手机型号：MacBook Pro (Retina, 13-inch, Late 2012)	内存：	颜色：
+序列号：F7C1	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：F7F5	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F7F6	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F7YF	手机型号：MacBook Pro (Retina, 13-inch, Late 2012)	内存：	颜色：
+序列号：F88G	手机型号：MacBook Air (11-inch, Mid 2012)	内存：	颜色：
+序列号：F88K	手机型号：MacBook Air (11-inch, Mid 2012)	内存：	颜色：
+序列号：F88V	手机型号：MacBook Air (11-inch, Mid 2012)	内存：	颜色：
+序列号：F897	手机型号：MacBook Pro (Retina, 13-inch, Late 2012)	内存：	颜色：
+序列号：F8D5	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：F8G8	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F8G9	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F8GH	手机型号：iPhone 5 (GSM, CDMA)	内存：16GB	颜色：黑色
+序列号：F8GJ	手机型号：iPhone 5 (GSM, CDMA)	内存：16GB	颜色：白色
+序列号：F8GK	手机型号：iPhone 5 (GSM, CDMA)	内存：32GB	颜色：黑色
+序列号：F8GL	手机型号：iPhone 5 (GSM, CDMA)	内存：32GB	颜色：白色
+序列号：F8GM	手机型号：iPhone 5 (GSM, CDMA)	内存：64GB	颜色：黑色
+序列号：F8GN	手机型号：iPhone 5 (GSM, CDMA)	内存：64GB	颜色：白色
+序列号：F8H2	手机型号：iPhone 5 (GSM, CDMA)	内存：16GB	颜色：黑色
+序列号：F8H4	手机型号：iPhone 5 (GSM, CDMA)	内存：16GB	颜色：白色
+序列号：F8H5	手机型号：iPhone 5 (GSM, CDMA)	内存：32GB	颜色：黑色
+序列号：F8H6	手机型号：iPhone 5 (GSM, CDMA)	内存：32GB	颜色：白色
+序列号：F8H7	手机型号：iPhone 5 (GSM, CDMA)	内存：64GB	颜色：黑色
+序列号：F8J5	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：F8J7	手机型号：iMac (21.5-inch, Late 2013)	内存：	颜色：
+序列号：F8J8	手机型号：iMac (21.5-inch, Late 2013)	内存：	颜色：
+序列号：F8J9	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：F8JC	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：F8JY	手机型号：MacBook Pro (Retina, Mid 2012)	内存：	颜色：
+序列号：F8QM	手机型号：iMac (21.5-inch, Late 2012)	内存：	颜色：
+序列号：F8QN	手机型号：iMac (21.5-inch, Late 2012)	内存：	颜色：
+序列号：F8QQ	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：F8V6	手机型号：MacBook Pro (Retina, 13-inch, Late 2012)	内存：	颜色：
+序列号：F8V7	手机型号：MacBook Pro (Retina, 13-inch, Late 2012)	内存：	颜色：
+序列号：F8V8	手机型号：MacBook Pro (Retina, 13-inch, Late 2012)	内存：	颜色：
+序列号：F90Y	手机型号：MacBook Air (13-inch, Mid 2012)	内存：	颜色：
+序列号：F910	手机型号：MacBook Air (11-inch, Mid 2012)	内存：	颜色：
+序列号：F96T	手机型号：iPod touch (4th generation)	内存：16GB	颜色：黑色
+序列号：F96V	手机型号：iPod touch (4th generation)	内存：16GB	颜色：白色
+序列号：F96W	手机型号：MacBook Pro (Retina, Mid 2012)	内存：	颜色：
+序列号：F973	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：F97M	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F9F1	手机型号：MacBook Pro (Retina, Mid 2012)	内存：	颜色：
+序列号：F9F2	手机型号：MacBook Pro (Retina, Mid 2012)	内存：	颜色：
+序列号：F9H5	手机型号：AirPort Time Capsule 802.11ac	内存：2TB	颜色：
+序列号：F9H6	手机型号：AirPort Time Capsule 802.11ac	内存：3TB	颜色：
+序列号：F9JT	手机型号：MacBook Pro (Retina, 13-inch, Late 2012)	内存：	颜色：
+序列号：F9K9	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：F9Q0	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：F9RK	手机型号：Mac mini (Late 2012)	内存：	颜色：
+序列号：F9VM	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：F9VN	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：F9VQ	手机型号：MacBook Pro (Retina, 13-inch, Late 2012)	内存：	颜色：
+序列号：F9VV	手机型号：Mac mini (Late 2012)	内存：	颜色：
+序列号：F9VW	手机型号：Mac mini (Late 2012)	内存：	颜色：
+序列号：F9VY	手机型号：Mac mini Server (Late 2012)	内存：	颜色：
+序列号：F9W0	手机型号：Mac mini (Late 2012)	内存：	颜色：
+序列号：F9W1	手机型号：Mac mini (Late 2012)	内存：	颜色：
+序列号：F9W2	手机型号：Mac mini (Late 2012)	内存：	颜色：
+序列号：F9W3	手机型号：Mac mini Server (Late 2012)	内存：	颜色：
+序列号：FC08	手机型号：Mac mini Server (Late 2012)	内存：	颜色：
+序列号：FC6M	手机型号：iMac (21.5-inch, Late 2012)	内存：	颜色：
+序列号：FC6N	手机型号：iMac (21.5-inch, Late 2012)	内存：	颜色：
+序列号：FC6P	手机型号：iMac (21.5-inch, Late 2012)	内存：	颜色：
+序列号：FCCW	手机型号：Mac mini Server (Late 2012)	内存：	颜色：
+序列号：FCM5	手机型号：iPad mini 2	内存：16GB	颜色：深空灰色
+序列号：FCM6	手机型号：iPad mini 2	内存：32GB	颜色：深空灰色
+序列号：FCM7	手机型号：iPad mini 2	内存：64GB	颜色：银色
+序列号：FCM8	手机型号：iPad mini 2	内存：16GB	颜色：银色
+序列号：FCM9	手机型号：iPad mini 2	内存：32GB	颜色：银色
+序列号：FCMC	手机型号：iPad mini 2	内存：64GB	颜色：银色
+序列号：FCMM	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：FCQ3	手机型号：MacBook Pro (Retina, Mid 2012)	内存：	颜色：
+序列号：FCQT	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：FCY8	手机型号：iPad (4th generation) Wi-Fi + Cellular (MM)	内存：128GB	颜色：黑色
+序列号：FCY9	手机型号：iPad (4th generation) Wi-Fi + Cellular (MM)	内存：128GB	颜色：白色
+序列号：FCYC	手机型号：iPad (4th generation) Wi-Fi + Cellular	内存：128GB	颜色：黑色
+序列号：FCYD	手机型号：iPad (4th generation) Wi-Fi + Cellular	内存：128GB	颜色：白色
+序列号：FCYF	手机型号：iPad (4th generation)	内存：128GB	颜色：黑色
+序列号：FCYG	手机型号：iPad (4th generation)	内存：128GB	颜色：黑色
+序列号：FD55	手机型号：iMac (21.5-inch, Late 2012)	内存：	颜色：
+序列号：FD56	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FD57	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FD58	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FD59	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FD5V	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：FD5Y	手机型号：iMac (21.5-inch, Late 2012)	内存：	颜色：
+序列号：FD9G	手机型号：Mac mini (Late 2012)	内存：	颜色：
+序列号：FD9H	手机型号：Mac mini (Late 2012)	内存：	颜色：
+序列号：FD9J	手机型号：Mac mini (Late 2012)	内存：	颜色：
+序列号：FD9K	手机型号：Mac mini (Late 2012)	内存：	颜色：
+序列号：FDWK	手机型号：Mac mini (Late 2012)	内存：	颜色：
+序列号：FF54	手机型号：Apple TV (3rd generation)	内存：	颜色：
+序列号：FF7L	手机型号：iMac (21.5-inch, Late 2012)	内存：	颜色：
+序列号：FF9R	手机型号：iPhone 5s	内存：16GB	颜色：深空灰色
+序列号：FF9V	手机型号：iPhone 5s	内存：16GB	颜色：银色
+序列号：FF9Y	手机型号：iPhone 5s	内存：16GB	颜色：深空灰色
+序列号：FFCJ	手机型号：iPod touch 16 GB (5th generation, Mid 2013)	内存：16GB	颜色：银色
+序列号：FFDN	手机型号：iPhone 5s	内存：16GB	颜色：银色
+序列号：FFDP	手机型号：iPhone 5s	内存：32GB	颜色：深空灰色
+序列号：FFDQ	手机型号：iPhone 5s	内存：16GB	颜色：金色
+序列号：FFDR	手机型号：iPhone 5s	内存：16GB	颜色：金色
+序列号：FFFJ	手机型号：iPhone 5s	内存：32GB	颜色：深空灰色
+序列号：FFFK	手机型号：iPhone 5s	内存：32GB	颜色：银色
+序列号：FFFL	手机型号：iPhone 5s	内存：32GB	颜色：银色
+序列号：FFFM	手机型号：iPhone 5s	内存：32GB	颜色：金色
+序列号：FFFN	手机型号：iPhone 5s	内存：32GB	颜色：金色
+序列号：FFFP	手机型号：iPhone 5s	内存：64GB	颜色：银色
+序列号：FFFQ	手机型号：iPhone 5s	内存：64GB	颜色：深空灰色
+序列号：FFFR	手机型号：iPhone 5s	内存：64GB	颜色：深空灰色
+序列号：FFFT	手机型号：iPhone 5s	内存：64GB	颜色：银色
+序列号：FFFV	手机型号：iPhone 5s	内存：64GB	颜色：金色
+序列号：FFFW	手机型号：iPhone 5s	内存：64GB	颜色：金色
+序列号：FFG8	手机型号：iPhone 5s	内存：16GB	颜色：深空灰色
+序列号：FFG9	手机型号：iPhone 5s	内存：16GB	颜色：银色
+序列号：FFGC	手机型号：iPhone 5s	内存：16GB	颜色：金色
+序列号：FFGD	手机型号：iPhone 5s	内存：32GB	颜色：深空灰色
+序列号：FFGF	手机型号：iPhone 5s	内存：32GB	颜色：银色
+序列号：FFGG	手机型号：iPhone 5s	内存：32GB	颜色：金色
+序列号：FFGH	手机型号：iPhone 5s	内存：64GB	颜色：深空灰色
+序列号：FFGJ	手机型号：iPhone 5s	内存：64GB	颜色：银色
+序列号：FFGK	手机型号：iPhone 5s	内存：64GB	颜色：金色
+序列号：FFHG	手机型号：iPhone 5c	内存：16GB	颜色：白色
+序列号：FFHH	手机型号：iPhone 5c	内存：16GB	颜色：白色
+序列号：FFHJ	手机型号：iPhone 5c	内存：16GB	颜色：黄色
+序列号：FFHK	手机型号：iPhone 5c	内存：16GB	颜色：黄色
+序列号：FFHL	手机型号：iPhone 5c	内存：16GB	颜色：蓝色
+序列号：FFHM	手机型号：iPhone 5c	内存：16GB	颜色：蓝色
+序列号：FFHN	手机型号：iPhone 5c	内存：16GB	颜色：绿色
+序列号：FFHP	手机型号：iPhone 5c	内存：16GB	颜色：绿色
+序列号：FFHQ	手机型号：iPhone 5c	内存：16GB	颜色：粉色
+序列号：FFHR	手机型号：iPhone 5c	内存：16GB	颜色：粉色
+序列号：FFM8	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：FFM9	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：FFMC	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：FFMD	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：FFMF	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：FFMG	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：FFMJ	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：FFMK	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：FFML	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：FFMM	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：FFMN	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：FFRP	手机型号：MacBook Pro (Retina, 13-inch, Early 2013)	内存：	颜色：
+序列号：FFRR	手机型号：MacBook Pro (Retina, 13-inch, Early 2013)	内存：	颜色：
+序列号：FFT0	手机型号：MacBook Pro (Retina, 15-inch, Early 2013)	内存：	颜色：
+序列号：FFT1	手机型号：MacBook Pro (Retina, 15-inch, Early 2013)	内存：	颜色：
+序列号：FFT2	手机型号：MacBook Pro (Retina, 15-inch, Early 2013)	内存：	颜色：
+序列号：FFT3	手机型号：MacBook Pro (Retina, 15-inch, Early 2013)	内存：	颜色：
+序列号：FFT4	手机型号：MacBook Pro (Retina, 15-inch, Early 2013)	内存：	颜色：
+序列号：FFT5	手机型号：iPhone 5c	内存：16GB	颜色：白色
+序列号：FFT6	手机型号：iPhone 5c	内存：16GB	颜色：黄色
+序列号：FFT7	手机型号：iPhone 5c	内存：16GB	颜色：蓝色
+序列号：FFTM	手机型号：iPhone 5c	内存：16GB	颜色：绿色
+序列号：FFTN	手机型号：iPhone 5c	内存：16GB	颜色：粉色
+序列号：FFVW	手机型号：iMac (21.5-inch, Late 2012)	内存：	颜色：
+序列号：FFVY	手机型号：iMac (21.5-inch, Late 2012)	内存：	颜色：
+序列号：FFW0	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：FFW1	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：FFYV	手机型号：iMac (21.5-inch, Early 2013)	内存：	颜色：
+序列号：FFYW	手机型号：iMac (21.5-inch, Early 2013)	内存：	颜色：
+序列号：FGC4	手机型号：iMac (21.5-inch, Late 2012)	内存：	颜色：
+序列号：FGFH	手机型号：MacBook Pro (Retina, 15-inch, Early 2013)	内存：	颜色：
+序列号：FGFJ	手机型号：MacBook Pro (Retina, 15-inch, Early 2013)	内存：	颜色：
+序列号：FGFK	手机型号：MacBook Pro (Retina, 15-inch, Early 2013)	内存：	颜色：
+序列号：FGFL	手机型号：MacBook Pro (Retina, 15-inch, Early 2013)	内存：	颜色：
+序列号：FGM8	手机型号：MacBook Pro (Retina, 13-inch, Early 2013)	内存：	颜色：
+序列号：FGML	手机型号：Mac mini (Late 2012)	内存：	颜色：
+序列号：FGMR	手机型号：iMac (21.5-inch, Late 2012)	内存：	颜色：
+序列号：FGMT	手机型号：iMac (21.5-inch, Late 2012)	内存：	颜色：
+序列号：FGMW	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：FGMY	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：FGN5	手机型号：MacBook Pro (Retina, 13-inch, Early 2013)	内存：	颜色：
+序列号：FGN6	手机型号：MacBook Pro (Retina, 13-inch, Early 2013)	内存：	颜色：
+序列号：FGN7	手机型号：MacBook Pro (Retina, 15-inch, Early 2013)	内存：	颜色：
+序列号：FGPJ	手机型号：MacBook Pro (Retina, 13-inch, Early 2013)	内存：	颜色：
+序列号：FGPL	手机型号：iMac (21.5-inch, Early 2013)	内存：	颜色：
+序列号：FGPM	手机型号：iMac (21.5-inch, Early 2013)	内存：	颜色：
+序列号：FGRP	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：FGWF	手机型号：MacBook Pro (Retina, 15-inch, Early 2013)	内存：	颜色：
+序列号：FGWG	手机型号：MacBook Pro (Retina, 15-inch, Early 2013)	内存：	颜色：
+序列号：FGWH	手机型号：MacBook Pro (Retina, 15-inch, Early 2013)	内存：	颜色：
+序列号：FGYY	手机型号：MacBook Pro (Retina, 13-inch, Late 2013)	内存：	颜色：
+序列号：FH00	手机型号：MacBook Pro (Retina, 13-inch, Late 2013)	内存：	颜色：
+序列号：FH01	手机型号：MacBook Pro (Retina, 13-inch, Late 2013)	内存：	颜色：
+序列号：FH02	手机型号：MacBook Pro (Retina, 13-inch, Late 2013)	内存：	颜色：
+序列号：FH03	手机型号：MacBook Pro (Retina, 13-inch, Late 2013)	内存：	颜色：
+序列号：FH04	手机型号：MacBook Pro (Retina, 13-inch, Late 2013)	内存：	颜色：
+序列号：FH05	手机型号：MacBook Pro (Retina, 13-inch, Late 2013)	内存：	颜色：
+序列号：FH1D	手机型号：iPhone 5	内存：32GB	颜色：黑色
+序列号：FH1F	手机型号：iPhone 5	内存：32GB	颜色：白色
+序列号：FH1G	手机型号：iPhone 5	内存：64GB	颜色：黑色
+序列号：FH1H	手机型号：iPhone 5	内存：64GB	颜色：白色
+序列号：FH51	手机型号：MacBook Air (11-inch, Mid 2013)	内存：	颜色：
+序列号：FH52	手机型号：MacBook Air (11-inch, Mid 2013)	内存：	颜色：
+序列号：FH53	手机型号：MacBook Air (13-inch, Mid 2013)	内存：	颜色：
+序列号：FHCH	手机型号：MacBook Pro (Retina, 13-inch, Early 2013)	内存：	颜色：
+序列号：FHCQ	手机型号：MacBook Pro (Retina, 15-inch, Early 2013)	内存：	颜色：
+序列号：FHCR	手机型号：MacBook Pro (Retina, 15-inch, Early 2013)	内存：	颜色：
+序列号：FHCV	手机型号：iMac (27-inch, Mid 2011)	内存：	颜色：
+序列号：FHN0	手机型号：MacBook Pro (Retina, 13-inch, Early 2013)	内存：	颜色：
+序列号：FHP7	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：FJ1R	手机型号：AirPort Extreme 802.11ac	内存：	颜色：
+序列号：FJ47	手机型号：MacBook Pro (Retina, 15-inch, Early 2013)	内存：	颜色：
+序列号：FJDH	手机型号：iPod shuffle (4th generation, Late 2012)	内存：	颜色：
+序列号：FJQ1	手机型号：iPod nano (7th generation)	内存：16GB	颜色：深空灰色
+序列号：FJQQ	手机型号：iMac (21.5-inch, Early 2013)	内存：	颜色：
+序列号：FJVJ	手机型号：MacBook Pro (Retina, 15-inch, Early 2013)	内存：	颜色：
+序列号：FK10	手机型号：iPad Air	内存：16GB	颜色：深空灰色
+序列号：FK11	手机型号：iPad Air	内存：32GB	颜色：深空灰色
+序列号：FK12	手机型号：iPad Air	内存：64GB	颜色：深空灰色
+序列号：FK13	手机型号：iPad Air	内存：128GB	颜色：深空灰色
+序列号：FK14	手机型号：iPad Air	内存：16GB	颜色：银色
+序列号：FK15	手机型号：iPad Air	内存：32GB	颜色：银色
+序列号：FK16	手机型号：iPad Air	内存：64GB	颜色：银色
+序列号：FK17	手机型号：iPad Air	内存：128GB	颜色：银色
+序列号：FKYC	手机型号：iPad Air WiFi + Cellular	内存：128GB	颜色：深空灰色
+序列号：FKYH	手机型号：iPad Air WiFi + Cellular	内存：128GB	颜色：银色
+序列号：FKYN	手机型号：MacBook Air (11-inch, Mid 2013)	内存：	颜色：
+序列号：FKYP	手机型号：MacBook Air (11-inch, Mid 2013)	内存：	颜色：
+序列号：FKYQ	手机型号：MacBook Air (13-inch, Mid 2013)	内存：	颜色：
+序列号：FKYR	手机型号：MacBook Air (13-inch, Mid 2013)	内存：	颜色：
+序列号：FL01	手机型号：iPhone 5c	内存：16GB	颜色：白色
+序列号：FL02	手机型号：iPhone 5c	内存：16GB	颜色：黄色
+序列号：FL03	手机型号：iPhone 5c	内存：16GB	颜色：蓝色
+序列号：FL04	手机型号：iPhone 5c	内存：16GB	颜色：绿色
+序列号：FL05	手机型号：iPhone 5c	内存：16GB	颜色：粉色
+序列号：FL85	手机型号：MacBook Pro (Retina, 13-inch, Late 2012)	内存：	颜色：
+序列号：FL8M	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：FLFP	手机型号：iPhone 5c	内存：32GB	颜色：绿色
+序列号：FLFT	手机型号：iPhone 5c	内存：32GB	颜色：白色
+序列号：FLFV	手机型号：iPhone 5c	内存：32GB	颜色：黄色
+序列号：FLFW	手机型号：iPhone 5c	内存：32GB	颜色：蓝色
+序列号：FLFY	手机型号：iPhone 5c	内存：32GB	颜色：绿色
+序列号：FLG0	手机型号：iPhone 5c	内存：32GB	颜色：粉色
+序列号：FLG2	手机型号：iPhone 5c	内存：32GB	颜色：粉色
+序列号：FLHH	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：FLMH	手机型号：iMac (21.5-inch, Early 2013)	内存：	颜色：
+序列号：FLMJ	手机型号：iPad mini 2 WiFi + Cellular	内存：16GB	颜色：深空灰色
+序列号：FLMK	手机型号：iPad mini 2 WiFi + Cellular	内存：16GB	颜色：银色
+序列号：FLML	手机型号：iPad mini 2 WiFi + Cellular	内存：32GB	颜色：深空灰色
+序列号：FLMM	手机型号：iPad mini 2 WiFi + Cellular	内存：32GB	颜色：银色
+序列号：FLMN	手机型号：iPad mini 2 WiFi + Cellular	内存：64GB	颜色：深空灰色
+序列号：FLMP	手机型号：iPad mini 2 WiFi + Cellular	内存：64GB	颜色：银色
+序列号：FLMQ	手机型号：iPad mini 2 WiFi + Cellular	内存：128GB	颜色：深空灰色
+序列号：FLMR	手机型号：iPad mini 2 WiFi + Cellular	内存：128GB	颜色：银色
+序列号：FLNH	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：FLNJ	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：FLNK	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：FM1N	手机型号：iPhone 5c	内存：32GB	颜色：白色
+序列号：FM1P	手机型号：iPhone 5c	内存：32GB	颜色：白色
+序列号：FM1Q	手机型号：iPhone 5c	内存：32GB	颜色：黄色
+序列号：FM1R	手机型号：iPhone 5c	内存：32GB	颜色：黄色
+序列号：FM1T	手机型号：iPhone 5c	内存：32GB	颜色：蓝色
+序列号：FM1V	手机型号：iPhone 5c	内存：32GB	颜色：蓝色
+序列号：FM1W	手机型号：iPhone 5c	内存：32GB	颜色：绿色
+序列号：FM1Y	手机型号：iPhone 5c	内存：32GB	颜色：绿色
+序列号：FM20	手机型号：iPhone 5c	内存：32GB	颜色：粉色
+序列号：FM21	手机型号：iPhone 5c	内存：32GB	颜色：粉色
+序列号：FM23	手机型号：MacBook Air (13-inch, Mid 2013)	内存：	颜色：
+序列号：FM3Y	手机型号：MacBook Air (13-inch, Mid 2013)	内存：	颜色：
+序列号：FM72	手机型号：MacBook Air (11-inch, Early 2014)	内存：	颜色：
+序列号：FM74	手机型号：MacBook Air (13-inch, Mid 2013)	内存：	颜色：
+序列号：FM89	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：FM8L	手机型号：iMac (21.5-inch, Late 2012)	内存：	颜色：
+序列号：FM8M	手机型号：iMac (21.5-inch, Late 2012)	内存：	颜色：
+序列号：FM8N	手机型号：iMac (21.5-inch, Late 2012)	内存：	颜色：
+序列号：FM8P	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：FM8Q	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：FMJF	手机型号：iPod touch (5th generation)	内存：32GB	颜色：深空灰色
+序列号：FMJG	手机型号：iPod touch (5th generation)	内存：64GB	颜色：深空灰色
+序列号：FML3	手机型号：iPhone 4s (8GB)	内存：8GB	颜色：黑色
+序列号：FML4	手机型号：iPhone 4s (8GB)	内存：8GB	颜色：黑色
+序列号：FML5	手机型号：iPhone 4s (8GB)	内存：8GB	颜色：黑色
+序列号：FML6	手机型号：iPhone 4s (8GB)	内存：8GB	颜色：黑色
+序列号：FML7	手机型号：iPhone 4s (8GB)	内存：8GB	颜色：黑色
+序列号：FML8	手机型号：iPhone 4s (8GB)	内存：8GB	颜色：白色
+序列号：FML9	手机型号：iPhone 4s (8GB)	内存：8GB	颜色：白色
+序列号：FMLC	手机型号：iPhone 4s (8GB)	内存：8GB	颜色：白色
+序列号：FMLD	手机型号：iPhone 4s (8GB)	内存：8GB	颜色：白色
+序列号：FMLF	手机型号：iPhone 4s (8GB)	内存：8GB	颜色：白色
+序列号：FMR5	手机型号：MacBook Air (11-inch, Mid 2013)	内存：	颜色：
+序列号：FMR6	手机型号：MacBook Air (11-inch, Mid 2013)	内存：	颜色：
+序列号：FMR7	手机型号：MacBook Air (13-inch, Mid 2013)	内存：	颜色：
+序列号：FMR8	手机型号：MacBook Air (13-inch, Mid 2013)	内存：	颜色：
+序列号：FMR9	手机型号：MacBook Air (11-inch, Mid 2013)	内存：	颜色：
+序列号：FMRC	手机型号：MacBook Air (11-inch, Mid 2013)	内存：	颜色：
+序列号：FMRD	手机型号：MacBook Air (11-inch, Mid 2013)	内存：	颜色：
+序列号：FMRF	手机型号：MacBook Air (11-inch, Mid 2013)	内存：	颜色：
+序列号：FMRG	手机型号：MacBook Air (11-inch, Mid 2013)	内存：	颜色：
+序列号：FMRJ	手机型号：MacBook Air (13-inch, Mid 2013)	内存：	颜色：
+序列号：FMRK	手机型号：MacBook Air (13-inch, Mid 2013)	内存：	颜色：
+序列号：FMRL	手机型号：MacBook Air (13-inch, Mid 2013)	内存：	颜色：
+序列号：FMRM	手机型号：MacBook Air (11-inch, Mid 2013)	内存：	颜色：
+序列号：FMRN	手机型号：MacBook Air (11-inch, Mid 2013)	内存：	颜色：
+序列号：FMRV	手机型号：MacBook Air (13-inch, Mid 2013)	内存：	颜色：
+序列号：FMRW	手机型号：MacBook Air (13-inch, Mid 2013)	内存：	颜色：
+序列号：FMRY	手机型号：MacBook Air (13-inch, Mid 2013)	内存：	颜色：
+序列号：FN3Y	手机型号：MacBook Air (13-inch, Mid 2013)	内存：	颜色：
+序列号：FN40	手机型号：MacBook Air (13-inch, Mid 2013)	内存：	颜色：
+序列号：FN5M	手机型号：MacBook Air (11-inch, Mid 2013)	内存：	颜色：
+序列号：FN7F	手机型号：MacBook Air (11-inch, Mid 2013)	内存：	颜色：
+序列号：FN7G	手机型号：MacBook Air (13-inch, Mid 2013)	内存：	颜色：
+序列号：FN7Q	手机型号：iPad mini 2 WiFi + Cellular	内存：32GB	颜色：银色
+序列号：FNDD	手机型号：iPhone 5c	内存：16GB	颜色：白色
+序列号：FNDF	手机型号：iPhone 5c	内存：16GB	颜色：黄色
+序列号：FNDG	手机型号：iPhone 5c	内存：16GB	颜色：蓝色
+序列号：FNDH	手机型号：iPhone 5c	内存：16GB	颜色：绿色
+序列号：FNDJ	手机型号：iPhone 5c	内存：16GB	颜色：粉色
+序列号：FNDK	手机型号：iPhone 5c	内存：32GB	颜色：白色
+序列号：FNDL	手机型号：iPhone 5c	内存：32GB	颜色：黄色
+序列号：FNDM	手机型号：iPhone 5c	内存：32GB	颜色：蓝色
+序列号：FNDN	手机型号：iPhone 5c	内存：32GB	颜色：绿色
+序列号：FNDP	手机型号：iPhone 5c	内存：32GB	颜色：粉色
+序列号：FNJJ	手机型号：iPhone 5s	内存：16GB	颜色：深空灰色
+序列号：FNJK	手机型号：iPhone 5s	内存：16GB	颜色：银色
+序列号：FNJL	手机型号：iPhone 5s	内存：16GB	颜色：金色
+序列号：FNJM	手机型号：iPhone 5s	内存：32GB	颜色：深空灰色
+序列号：FNJN	手机型号：iPhone 5s	内存：32GB	颜色：银色
+序列号：FNJP	手机型号：iPhone 5s	内存：32GB	颜色：金色
+序列号：FNJQ	手机型号：iPhone 5s	内存：64GB	颜色：深空灰色
+序列号：FNJR	手机型号：iPhone 5s	内存：64GB	颜色：银色
+序列号：FNJT	手机型号：iPhone 5s	内存：64GB	颜色：金色
+序列号：FNLQ	手机型号：iPhone 5c	内存：16GB	颜色：白色
+序列号：FNLR	手机型号：iPhone 5c	内存：16GB	颜色：黄色
+序列号：FNLT	手机型号：iPhone 5c	内存：16GB	颜色：蓝色
+序列号：FNLV	手机型号：iPhone 5c	内存：16GB	颜色：绿色
+序列号：FNLW	手机型号：iPhone 5c	内存：16GB	颜色：粉色
+序列号：FNLY	手机型号：iPhone 5c	内存：32GB	颜色：白色
+序列号：FNM0	手机型号：iPhone 5c	内存：32GB	颜色：黄色
+序列号：FNM1	手机型号：iPhone 5c	内存：32GB	颜色：蓝色
+序列号：FNM2	手机型号：iPhone 5c	内存：32GB	颜色：绿色
+序列号：FNM3	手机型号：iPhone 5c	内存：32GB	颜色：粉色
+序列号：FNNK	手机型号：iPhone 5s	内存：16GB	颜色：深空灰色
+序列号：FNNL	手机型号：iPhone 5s	内存：16GB	颜色：银色
+序列号：FNNM	手机型号：iPhone 5s	内存：16GB	颜色：金色
+序列号：FNNN	手机型号：iPhone 5s	内存：32GB	颜色：深空灰色
+序列号：FNNP	手机型号：iPhone 5s	内存：32GB	颜色：银色
+序列号：FNNQ	手机型号：iPhone 5s	内存：32GB	颜色：金色
+序列号：FNNR	手机型号：iPhone 5s	内存：64GB	颜色：深空灰色
+序列号：FP14	手机型号：Mac mini Server (Late 2012)	内存：	颜色：
+序列号：FP2N	手机型号：MacBook Air (11-inch, Mid 2013)	内存：	颜色：
+序列号：FP2P	手机型号：MacBook Air (13-inch, Mid 2013)	内存：	颜色：
+序列号：FP39	手机型号：Mac mini Server (Late 2012)	内存：	颜色：
+序列号：FP6K	手机型号：iPhone 5s	内存：16GB	颜色：金色
+序列号：FP6L	手机型号：iPhone 5s	内存：32GB	颜色：深空灰色
+序列号：FP6M	手机型号：iPhone 5s	内存：32GB	颜色：银色
+序列号：FP6N	手机型号：iPhone 5s	内存：32GB	颜色：金色
+序列号：FP6P	手机型号：iPhone 5s	内存：64GB	颜色：深空灰色
+序列号：FP6Q	手机型号：iPhone 5s	内存：64GB	颜色：深空灰色
+序列号：FP6R	手机型号：iPhone 5s	内存：64GB	颜色：金色
+序列号：FP84	手机型号：iPad mini Wi-Fi	内存：16GB	颜色：黑色
+序列号：FPDV	手机型号：iMac (21.5-inch, Late 2013)	内存：	颜色：
+序列号：FPDY	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：FPF0	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：FPFL	手机型号：iPad mini Wi-Fi + Cellular (MM)	内存：16GB	颜色：深空灰色
+序列号：FQ0Y	手机型号：iPhone 5c	内存：16GB	颜色：白色
+序列号：FQ10	手机型号：iPhone 5c	内存：16GB	颜色：黄色
+序列号：FQ15	手机型号：iPhone 5c	内存：32GB	颜色：黄色
+序列号：FQ16	手机型号：iPhone 5c	内存：32GB	颜色：蓝色
+序列号：FQ17	手机型号：iPhone 5c	内存：32GB	颜色：绿色
+序列号：FQ18	手机型号：iPhone 5c	内存：32GB	颜色：粉色
+序列号：FQL9	手机型号：MacBook Air (13-inch, Mid 2013)	内存：	颜色：
+序列号：FQLC	手机型号：MacBook Air (13-inch, Mid 2013)	内存：	颜色：
+序列号：FQLD	手机型号：MacBook Air (13-inch, Mid 2013)	内存：	颜色：
+序列号：FQLF	手机型号：MacBook Air (13-inch, Mid 2013)	内存：	颜色：
+序列号：FQMV	手机型号：iMac (21.5-inch, Late 2013)	内存：	颜色：
+序列号：FQMW	手机型号：iMac (21.5-inch, Late 2013)	内存：	颜色：
+序列号：FQMY	手机型号：iMac (21.5-inch, Late 2013)	内存：	颜色：
+序列号：FQN0	手机型号：iMac (21.5-inch, Late 2013)	内存：	颜色：
+序列号：FQPG	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：FQPH	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：FQPJ	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：FQPK	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：FQPL	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：FQPM	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：FQPN	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：FQPP	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：FQRR	手机型号：iPad mini 2	内存：0GB	颜色：银色
+序列号：FQRT	手机型号：iPad mini 2	内存：0GB	颜色：银色
+序列号：FQRY	手机型号：iPad mini 2	内存：0GB	颜色：银色
+序列号：FQT0	手机型号：iPad mini 2	内存：0GB	颜色：银色
+序列号：FR1M	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FR1Q	手机型号：iMac (21.5-inch, Late 2013)	内存：	颜色：
+序列号：FR1R	手机型号：iMac (21.5-inch, Late 2013)	内存：	颜色：
+序列号：FR1T	手机型号：iMac (21.5-inch, Late 2013)	内存：	颜色：
+序列号：FR1V	手机型号：iMac (21.5-inch, Late 2013)	内存：	颜色：
+序列号：FR1W	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：FR20	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：FR21	手机型号：iMac (21.5-inch, Late 2013)	内存：	颜色：
+序列号：FR22	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：FR2W	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：FR8D	手机型号：MacBook Pro (Retina, 15-inch, Early 2013)	内存：	颜色：
+序列号：FR8F	手机型号：iPhone 5c	内存：16GB	颜色：白色
+序列号：FR8G	手机型号：iPhone 5c	内存：16GB	颜色：黄色
+序列号：FR8H	手机型号：iPhone 5c	内存：16GB	颜色：蓝色
+序列号：FR8J	手机型号：iPhone 5c	内存：16GB	颜色：绿色
+序列号：FR8M	手机型号：iPhone 5c	内存：16GB	颜色：粉色
+序列号：FR8N	手机型号：iPhone 5c	内存：32GB	颜色：白色
+序列号：FR8P	手机型号：iPhone 5c	内存：32GB	颜色：黄色
+序列号：FR8W	手机型号：iPhone 5c	内存：16GB	颜色：黄色
+序列号：FR8Y	手机型号：iPhone 5c	内存：16GB	颜色：蓝色
+序列号：FR90	手机型号：iPhone 5c	内存：16GB	颜色：绿色
+序列号：FR91	手机型号：iPhone 5c	内存：16GB	颜色：粉色
+序列号：FR92	手机型号：iPhone 5c	内存：32GB	颜色：白色
+序列号：FR93	手机型号：iPhone 5c	内存：32GB	颜色：黄色
+序列号：FR94	手机型号：iPhone 5c	内存：32GB	颜色：蓝色
+序列号：FR95	手机型号：iPhone 5c	内存：32GB	颜色：绿色
+序列号：FR96	手机型号：iPhone 5c	内存：32GB	颜色：粉色
+序列号：FR97	手机型号：iPhone 5s	内存：16GB	颜色：深空灰色
+序列号：FR98	手机型号：iPhone 5s	内存：16GB	颜色：银色
+序列号：FR99	手机型号：iPhone 5s	内存：16GB	颜色：金色
+序列号：FR9C	手机型号：iPhone 5s	内存：32GB	颜色：深空灰色
+序列号：FR9D	手机型号：iPhone 5s	内存：32GB	颜色：银色
+序列号：FR9F	手机型号：iPhone 5s	内存：32GB	颜色：金色
+序列号：FR9G	手机型号：iPhone 5s	内存：64GB	颜色：深空灰色
+序列号：FR9H	手机型号：iPhone 5s	内存：64GB	颜色：银色
+序列号：FR9J	手机型号：iPhone 5s	内存：64GB	颜色：金色
+序列号：FR9K	手机型号：iPhone 5s	内存：16GB	颜色：深空灰色
+序列号：FR9L	手机型号：iPhone 5s	内存：16GB	颜色：银色
+序列号：FR9M	手机型号：iPhone 5s	内存：16GB	颜色：金色
+序列号：FR9N	手机型号：iPhone 5s	内存：32GB	颜色：深空灰色
+序列号：FR9P	手机型号：iPhone 5s	内存：32GB	颜色：银色
+序列号：FR9Q	手机型号：iPhone 5s	内存：32GB	颜色：金色
+序列号：FR9R	手机型号：iPhone 5s	内存：64GB	颜色：深空灰色
+序列号：FR9T	手机型号：iPhone 5s	内存：64GB	颜色：银色
+序列号：FR9V	手机型号：iPhone 5s	内存：64GB	颜色：金色
+序列号：FRC4	手机型号：iPhone 5s	内存：16GB	颜色：深空灰色
+序列号：FRC5	手机型号：iPhone 5s	内存：16GB	颜色：银色
+序列号：FRC6	手机型号：iPhone 5s	内存：16GB	颜色：金色
+序列号：FRC7	手机型号：iPhone 5s	内存：32GB	颜色：深空灰色
+序列号：FRC8	手机型号：iPhone 5s	内存：32GB	颜色：银色
+序列号：FRC9	手机型号：iPhone 5s	内存：32GB	颜色：金色
+序列号：FRCC	手机型号：iPhone 5s	内存：64GB	颜色：深空灰色
+序列号：FRCD	手机型号：iPhone 5s	内存：64GB	颜色：银色
+序列号：FRCF	手机型号：iPhone 5s	内存：64GB	颜色：金色
+序列号：FRDM	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FRDY	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：FRF0	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：FRF1	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：FRF2	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：FRF3	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：FRF4	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：FRF5	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：FRF6	手机型号：MacBook Pro (Retina, 13-inch, Late 2013)	内存：	颜色：
+序列号：FRF7	手机型号：MacBook Pro (Retina, 13-inch, Late 2013)	内存：	颜色：
+序列号：FRFP	手机型号：Mac mini (Late 2012)	内存：	颜色：
+序列号：FRG2	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FRG3	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FRM7	手机型号：iMac (21.5-inch, Late 2013)	内存：	颜色：
+序列号：FRM8	手机型号：iMac (21.5-inch, Late 2013)	内存：	颜色：
+序列号：FRM9	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：FRQC	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：FRQH	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FRQJ	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FRQK	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FRQL	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FRWG	手机型号：iPad mini 2	内存：0GB	颜色：银色
+序列号：FRWH	手机型号：iPad mini 2	内存：0GB	颜色：银色
+序列号：FRWJ	手机型号：iPad mini 2	内存：0GB	颜色：银色
+序列号：FRWL	手机型号：iPad mini 2	内存：0GB	颜色：银色
+序列号：FRWP	手机型号：iPad mini 2	内存：0GB	颜色：银色
+序列号：FRWQ	手机型号：iPad mini 2	内存：0GB	颜色：银色
+序列号：FRWR	手机型号：iPad mini 2	内存：0GB	颜色：银色
+序列号：FRWT	手机型号：iPad mini 2	内存：0GB	颜色：银色
+序列号：FRWV	手机型号：iPad mini 2	内存：128GB	颜色：深空灰色
+序列号：FRWW	手机型号：iPad mini 2	内存：0GB	颜色：银色
+序列号：FRWY	手机型号：iPad mini 2	内存：0GB	颜色：银色
+序列号：FRY0	手机型号：iPad mini 2	内存：0GB	颜色：银色
+序列号：FRY1	手机型号：iPad mini 2	内存：64GB	颜色：银色
+序列号：FRYN	手机型号：iPad mini 2 WiFi + Cellular	内存：0GB	颜色：银色
+序列号：FT14	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：FT30	手机型号：MacBook Air (11-inch, Mid 2013)	内存：	颜色：
+序列号：FT3F	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：FT3H	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：FT4M	手机型号：iMac (21.5-inch, Late 2013)	内存：	颜色：
+序列号：FT4N	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：FT4P	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FT4Q	手机型号：MacBook Pro (Retina, 13-inch, Late 2013)	内存：	颜色：
+序列号：FT4R	手机型号：MacBook Pro (Retina, 13-inch, Late 2013)	内存：	颜色：
+序列号：FT4T	手机型号：MacBook Pro (Retina, 13-inch, Late 2013)	内存：	颜色：
+序列号：FT4V	手机型号：MacBook Pro (Retina, 13-inch, Late 2013)	内存：	颜色：
+序列号：FT95	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：FT96	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：FT97	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：FT98	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：FT99	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：FT9C	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：FT9D	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：FTC9	手机型号：MacBook Pro (Retina, 13-inch, Late 2013)	内存：	颜色：
+序列号：FTCD	手机型号：MacBook Pro (Retina, 13-inch, Late 2013)	内存：	颜色：
+序列号：FTCH	手机型号：MacBook Pro (Retina, 13-inch, Late 2013)	内存：	颜色：
+序列号：FTCK	手机型号：MacBook Pro (Retina, 13-inch, Late 2013)	内存：	颜色：
+序列号：FTCL	手机型号：MacBook Pro (Retina, 13-inch, Late 2013)	内存：	颜色：
+序列号：FTK0	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FTK1	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FTPH	手机型号：MacBook Pro (Retina, 13-inch, Late 2013)	内存：	颜色：
+序列号：FTPJ	手机型号：MacBook Pro (Retina, 13-inch, Late 2013)	内存：	颜色：
+序列号：FTPK	手机型号：MacBook Pro (Retina, 13-inch, Late 2013)	内存：	颜色：
+序列号：FTPL	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FTPM	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FTPN	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FTPP	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FTPQ	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FTPR	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FTPT	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FTPV	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FTPW	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FTPY	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FTQ4	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：FTT4	手机型号：MacBook Pro (Retina, 13-inch, Late 2013)	内存：	颜色：
+序列号：FTTJ	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FTTN	手机型号：iPad Air WiFi + Cellular TD-LTE	内存：16GB	颜色：深空灰色
+序列号：FTTT	手机型号：iPad Air WiFi + Cellular TD-LTE	内存：16GB	颜色：银色
+序列号：FTTW	手机型号：iPad Air WiFi + Cellular TD-LTE	内存：32GB	颜色：银色
+序列号：FTVD	手机型号：iPad mini 2 WiFi + Cellular	内存：16GB	颜色：银色
+序列号：FTVG	手机型号：iPad mini (Retina) WiFi + Cellular TD-LTE	内存：32GB	颜色：银色
+序列号：FVGW	手机型号：iMac (21.5-inch, Late 2013)	内存：	颜色：
+序列号：FVH3	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：FVH4	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：FVH5	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：FVH6	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：FVH7	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：FVWQ	手机型号：MacBook Pro (Retina, 13-inch, Late 2013)	内存：	颜色：
+序列号：FVYN	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FW56	手机型号：Mac mini (Late 2012)	内存：	颜色：
+序列号：FW57	手机型号：Mac mini (Late 2012)	内存：	颜色：
+序列号：FWFY	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FWHW	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FWJH	手机型号：iMac (21.5-inch, Late 2013)	内存：	颜色：
+序列号：FWKF	手机型号：MacBook Pro (Retina, 13-inch, Late 2013)	内存：	颜色：
+序列号：FWKK	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FWKL	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FWL4	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：FWQ5	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：FWQ6	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：FWQ7	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：FWW6	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：银色
+序列号：FY0T	手机型号：iMac (21.5-inch, Mid 2014)	内存：	颜色：银色
+序列号：FY0V	手机型号：iMac (21.5-inch, Mid 2014)	内存：	颜色：银色
+序列号：FY10	手机型号：iMac (Retina 5K, 27-inch, Mid 2015)	内存：	颜色：银色
+序列号：FY11	手机型号：iMac (Retina 5K, 27-inch, Late 2014)	内存：	颜色：银色
+序列号：FY13	手机型号：iMac (Retina 5K, 27-inch, Mid 2015)	内存：	颜色：银色
+序列号：FY14	手机型号：iMac (Retina 5K, 27-inch, Late 2014)	内存：	颜色：银色
+序列号：FY15	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：FY3Y	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：FY40	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：FY67	手机型号：iMac (Retina 5K, 27-inch, Mid 2015)	内存：	颜色：
+序列号：FY69	手机型号：iMac (21.5-inch, Mid 2014)	内存：	颜色：
+序列号：FY6F	手机型号：iMac (Retina 5K, 27-inch, Late 2014)	内存：	颜色：银色
+序列号：FY9D	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：FY9F	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：FYG9	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：FYGC	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：FYGD	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：FYGF	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：FYW8	手机型号：iPhone 5c (8GB)	内存：8GB	颜色：白色
+序列号：FYW9	手机型号：iPhone 5c (8GB)	内存：8GB	颜色：黄色
+序列号：FYWC	手机型号：iPhone 5c (8GB)	内存：16GB	颜色：蓝色
+序列号：FYWD	手机型号：iPhone 5c (8GB)	内存：8GB	颜色：绿色
+序列号：FYWF	手机型号：iPhone 5c (8GB)	内存：8GB	颜色：粉色
+序列号：FYWM	手机型号：iPhone 5c (8GB)	内存：8GB	颜色：白色
+序列号：FYWN	手机型号：iPhone 5c (8GB)	内存：8GB	颜色：黄色
+序列号：FYWP	手机型号：iPhone 5c (8GB)	内存：8GB	颜色：蓝色
+序列号：FYWQ	手机型号：iPhone 5c (8GB)	内存：8GB	颜色：绿色
+序列号：FYWR	手机型号：iPhone 5c (8GB)	内存：8GB	颜色：粉色
+序列号：FYY1	手机型号：iPhone 5c (8GB)	内存：8GB	颜色：白色
+序列号：FYY2	手机型号：iPhone 5c (8GB)	内存：8GB	颜色：黄色
+序列号：FYY3	手机型号：iPhone 5c (8GB)	内存：8GB	颜色：蓝色
+序列号：FYY4	手机型号：iPhone 5c (8GB)	内存：8GB	颜色：绿色
+序列号：FYY5	手机型号：iPhone 5c (8GB)	内存：8GB	颜色：粉色
+序列号：FYYD	手机型号：iPhone 5c (8GB)	内存：8GB	颜色：白色
+序列号：FYYF	手机型号：iPhone 5c (8GB)	内存：8GB	颜色：黄色
+序列号：FYYG	手机型号：iPhone 5c (8GB)	内存：8GB	颜色：蓝色
+序列号：FYYH	手机型号：iPhone 5c (8GB)	内存：8GB	颜色：绿色
+序列号：FYYJ	手机型号：iPhone 5c (8GB)	内存：8GB	颜色：粉色
+序列号：F69W	手机型号：MacBook Pro (Retina, Mid 2012)	内存：	颜色：
+序列号：F8H8	手机型号：iPhone 5 (GSM, CDMA)	内存：64GB	颜色：白色
+序列号：F8J2	手机型号：iMac (21.5-inch, Late 2013)	内存：	颜色：
+序列号：F8J3	手机型号：iMac (21.5-inch, Late 2013)	内存：	颜色：
+序列号：F8J4	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：F9RL	手机型号：Mac mini (Late 2012)	内存：	颜色：
+序列号：F9RM	手机型号：Mac mini (Late 2012)	内存：	颜色：
+序列号：F9RN	手机型号：iMac (21.5-inch, Late 2012)	内存：	颜色：
+序列号：F9V1	手机型号：MacBook Pro (Retina, 13-inch, Late 2012)	内存：	颜色：
+序列号：FG1F	手机型号：MacBook Pro (Retina, 13-inch, Early 2013)	内存：	颜色：
+序列号：FG1H	手机型号：MacBook Pro (Retina, 15-inch, Early 2013)	内存：	颜色：
+序列号：FG1J	手机型号：MacBook Pro (Retina, 15-inch, Early 2013)	内存：	颜色：
+序列号：FG28	手机型号：MacBook Pro (Retina, 13-inch, Early 2013)	内存：	颜色：
+序列号：FG46	手机型号：iMac (21.5-inch, Late 2012)	内存：	颜色：
+序列号：FG47	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：FG7Q	手机型号：MacBook Pro (Retina, 13-inch, Late 2012)	内存：	颜色：
+序列号：FG7R	手机型号：MacBook Pro (Retina, 13-inch, Late 2012)	内存：	颜色：
+序列号：FH12	手机型号：iPad mini 2	内存：128GB	颜色：深空灰色
+序列号：FH13	手机型号：iPad mini 2	内存：128GB	颜色：银色
+序列号：FH19	手机型号：iPhone 5	内存：16GB	颜色：黑色
+序列号：FH1C	手机型号：iPhone 5	内存：16GB	颜色：白色
+序列号：FL8N	手机型号：iMac (21.5-inch, Late 2012)	内存：	颜色：
+序列号：FL94	手机型号：MacBook Pro (Retina, 15-inch, Early 2013)	内存：	颜色：
+序列号：FL98	手机型号：MacBook Pro (15-inch, Mid 2012)	内存：	颜色：
+序列号：FLCG	手机型号：MacBook Air	内存：	颜色：
+序列号：FLFL	手机型号：iPhone 5c	内存：32GB	颜色：白色
+序列号：FLFM	手机型号：iPhone 5c	内存：32GB	颜色：黄色
+序列号：FLFN	手机型号：iPhone 5c	内存：32GB	颜色：蓝色
+序列号：FMLG	手机型号：iMac (21.5-inch, Late 2012)	内存：	颜色：
+序列号：FMLH	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：FMLJ	手机型号：MacBook Pro (Retina, 13-inch, Late 2012)	内存：	颜色：
+序列号：FMLK	手机型号：MacBook Pro (Retina, 15-inch, Early 2013)	内存：	颜色：
+序列号：FNNT	手机型号：iPhone 5s	内存：64GB	颜色：银色
+序列号：FNNV	手机型号：iPhone 5s	内存：64GB	颜色：金色
+序列号：FP12	手机型号：iMac (21.5-inch, Late 2012)	内存：	颜色：
+序列号：FP13	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：FP3C	手机型号：MacBook Air (11-inch, Mid 2013)	内存：	颜色：
+序列号：FP62	手机型号：iMac (27-inch, Late 2012)	内存：	颜色：
+序列号：FP6H	手机型号：iPhone 5s	内存：16GB	颜色：深空灰色
+序列号：FP6J	手机型号：iPhone 5s	内存：16GB	颜色：银色
+序列号：FPF1	手机型号：iMac (21.5-inch, Late 2013)	内存：	颜色：
+序列号：FPF2	手机型号：iMac (21.5-inch, Late 2013)	内存：	颜色：
+序列号：FPF3	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：FPF4	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：FQ11	手机型号：iPhone 5c	内存：16GB	颜色：蓝色
+序列号：FQ12	手机型号：iPhone 5c	内存：16GB	颜色：绿色
+序列号：FQ13	手机型号：iPhone 5c	内存：16GB	颜色：粉色
+序列号：FQ14	手机型号：iPhone 5c	内存：32GB	颜色：白色
+序列号：FR8Q	手机型号：iPhone 5c	内存：32GB	颜色：蓝色
+序列号：FR8R	手机型号：iPhone 5c	内存：16GB	颜色：绿色
+序列号：FR8T	手机型号：iPhone 5c	内存：32GB	颜色：粉色
+序列号：FR8V	手机型号：iPhone 5c	内存：16GB	颜色：白色
+序列号：FRY9	手机型号：iPad mini 2 WiFi + Cellular	内存：128GB	颜色：深空灰色
+序列号：FMRH	手机型号：MacBook Air (13-inch, Mid 2013)	内存：	颜色：
+序列号：FRYF	手机型号：iPad mini 2 WiFi + Cellular	内存：64GB	颜色：银色
+序列号：FRYG	手机型号：iPad mini 2 WiFi + Cellular	内存：128GB	颜色：银色
+序列号：FRYH	手机型号：iPad mini 2 WiFi + Cellular	内存：16GB	颜色：深空灰色
+序列号：FVH8	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：FVH9	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：FVN4	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：FVVW	手机型号：MacBook Pro (Retina, 13-inch, Late 2013)	内存：	颜色：
+序列号：FWQ8	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：FWW3	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：银色
+序列号：FWW4	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：银色
+序列号：FWW5	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：银色
+序列号：FRQF	手机型号：MacBook Pro (Retina, 13-inch, Late 2013)	内存：	颜色：
+序列号：F69Y	手机型号：MacBook Pro (Retina, Mid 2012)	内存：	颜色：
+序列号：F6DN	手机型号：MacBook Pro (Retina, Mid 2012)	内存：	颜色：
+序列号：F6F3	手机型号：MacBook Pro (Retina, Mid 2012)	内存：	颜色：
+序列号：FLCF	手机型号：MacBook Air	内存：	颜色：
+
+

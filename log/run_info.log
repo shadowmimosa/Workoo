@@ -1,0 +1,6 @@
+2019-06-06 22:02:23,782 - deal_re - ERROR - --->Info https://checkcoverage.apple.com 请求失败！状态码为302，共耗时6.25秒
+2019-06-06 22:05:04,881 - deal_re - ERROR - --->Info https://www.baidu.com 请求失败！状态码为403，共耗时2.2秒
+2019-06-06 22:05:34,154 - deal_re - ERROR - --->Info https://www.baidu.com 请求失败！状态码为403，共耗时1.05秒
+2019-06-12 13:09:54,049 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=353001091289737 请求失败！状态码为403，共耗时0.792秒
+2019-06-15 21:39:38,576 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=354877093092222 请求失败！状态码为403，共耗时8.49秒
+2019-06-15 21:43:56,271 - deal_re - ERROR - --->Info https://checkcoverage.apple.com/cn/zh/?sn=354877093092222 请求失败！状态码为403，共耗时2.78秒

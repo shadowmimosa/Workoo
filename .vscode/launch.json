@@ -15,7 +15,7 @@
       "name": "Python: Django",
       "type": "python",
       "request": "launch",
-      "program": "${workspaceFolder}\\query_service\\manage.py",
+      "program": "${workspaceFolder}\\now\\apple_check\\manage.py",
       "args": ["runserver", "--noreload", "--nothreading"],
       "django": true
     },
