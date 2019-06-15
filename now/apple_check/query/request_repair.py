@@ -27,7 +27,7 @@ class Query(object):
             "Accept-Encoding": "gzip, deflate, br",
             "Accept-Language": "zh-CN,zh;q=0.9"
         }
-        self.tel_pattern = re.compile(r"预计到期日.*日")
+        self.tel_pattern = re.compile(r"预计到期日.*日<br")
         # self.tel_extend = re.compile(r"AppleCare+")
 
     def init_log(self):
@@ -305,7 +305,8 @@ class Query(object):
 
             if tel_support:
                 tel_date = tel_support.group().split("：")[-1].replace(
-                    "年", "-").replace("月", "-").replace("日", "")
+                    "年", "-").replace("月", "-").replace("日", "").replace(
+                        "<br", "")
                 self.json_["电话支持"] = "{}（{}）".format(tel_date,
                                                      self.caltime(tel_date))
             elif result_text.find("AppleCare") != -1:
@@ -319,7 +320,8 @@ class Query(object):
                 hard_date = re.search(self.tel_pattern, result_hard_text)
                 if hard_date:
                     hard_date_num = hard_date.group().split("：")[-1].replace(
-                        "年", "-").replace("月", "-").replace("日", "")
+                        "年", "-").replace("月", "-").replace("日", "").replace(
+                            "<br", "")
                     self.json_["硬件保修"] = "{}（{}）".format(
                         hard_date_num, self.caltime(hard_date_num))
             else:
