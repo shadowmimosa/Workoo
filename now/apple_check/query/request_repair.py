@@ -53,7 +53,7 @@ class Query(object):
             handler.setFormatter(formatter)
 
             console = logging.StreamHandler()
-            console.setLevel(logging.WARNING)
+            console.setLevel(logging.INFO)
 
             logger.addHandler(handler)
             logger.addHandler(console)
@@ -277,7 +277,7 @@ class Query(object):
         #     json_[value["resultId"]] = value["resultLabel"]
         self.data_clean()
 
-        print(self.json_)
+        # print(self.json_)
         return self.json_
 
     #计算两个日期相差天数，自定义函数名，和两个日期的变量名。
