@@ -5,6 +5,7 @@ from django.shortcuts import render
 
 from django.http.response import JsonResponse
 import json
+import time
 
 
 def query(request):
@@ -12,8 +13,12 @@ def query(request):
         try:
             imei = request.GET.get('imei')
             if imei:
+                start_time = time.time()
                 query_data = request_repair.main(imei)
                 if query_data:
+                    magic_time = time.time() - start_time
+                    if magic_time < 5:
+                        time.sleep(5 - magic_time)
                     json_ = {
                         "status": "success",
                         # "imei":imei,
