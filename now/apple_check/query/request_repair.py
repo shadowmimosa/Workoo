@@ -363,7 +363,10 @@ class Query(object):
         if "-" in self.json_["硬件保修"]:
             day = self.json_["硬件保修"]
             if "iPhone" in self.json_["设备名称"]:
-                self.json_["激活时间"] = self.get_day(day, 1)
+                try:
+                    self.json_["激活时间"] = self.get_day(day, 1)
+                except Exception as exc:
+                    print("666")
                 print(7)
             elif "iPad" in self.json_["设备名称"]:
                 self.json_["激活时间"] = self.get_day(day, 1)
