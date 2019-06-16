@@ -354,8 +354,11 @@ class Query(object):
         # a = type(day)
         # b = type(datetime.timedelta(days=year))
         try:
-            if isinstance(day, str):
-                day = datetime.datetime.strptime(day, "%Y-%m-%d")
+            try:
+                if isinstance(day, str):
+                    day = datetime.datetime.strptime(day, "%Y-%m-%d")
+            except:
+                return "777"
             return (day - datetime.timedelta(days=365)).strftime('%Y-%m-%d')
         except:
             return "666"
