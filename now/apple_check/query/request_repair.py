@@ -353,10 +353,12 @@ class Query(object):
     def get_day(self, day=datetime.date.today(), year=1):
         # a = type(day)
         # b = type(datetime.timedelta(days=year))
-        if isinstance(day, str):
-            day = datetime.datetime.strptime(day, "%Y-%m-%d")
-
-        return (day - datetime.timedelta(days=365)).strftime('%Y-%m-%d')
+        try:
+            if isinstance(day, str):
+                day = datetime.datetime.strptime(day, "%Y-%m-%d")
+            return (day - datetime.timedelta(days=365)).strftime('%Y-%m-%d')
+        except:
+            return "666"
 
     def activation(self):
         print(6)
