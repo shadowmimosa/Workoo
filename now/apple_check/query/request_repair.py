@@ -353,6 +353,8 @@ class Query(object):
     def get_day(self, day=datetime.date.today(), year=1):
         # a = type(day)
         # b = type(datetime.timedelta(days=year))
+        if isinstance(day, str):
+            day = time.strptime(day, "%Y-%m-%d")
 
         return (day - datetime.timedelta(days=year)).strftime('%Y-%m-%d')
 
