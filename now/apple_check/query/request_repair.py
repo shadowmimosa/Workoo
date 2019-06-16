@@ -271,7 +271,7 @@ class Query(object):
         self.result = json.loads(
             re.search(self.pattern, resp4.text).group().replace(
                 "\"responseJson\",", "").replace(");", ""))
-        print(self.result)
+        # print(self.result)
 
         # for value in result:
         #     json_[value["resultId"]] = value["resultLabel"]
@@ -307,8 +307,9 @@ class Query(object):
                 tel_date = tel_support.group().split("：")[-1].replace(
                     "年", "-").replace("月", "-").replace("日", "").replace(
                         "<br", "")
-                self.json_["电话支持"] = "{}（{}）".format(tel_date,
-                                                     self.caltime(tel_date).days)
+                self.json_["电话支持"] = "{}（{}）".format(
+                    tel_date,
+                    self.caltime(tel_date).days)
             elif result_text.find("AppleCare") != -1:
                 self.json_["电话支持"] = "延长保修"
 
@@ -323,7 +324,8 @@ class Query(object):
                         "年", "-").replace("月", "-").replace("日", "").replace(
                             "<br", "")
                     self.json_["硬件保修"] = "{}（{}）".format(
-                        hard_date_num, self.caltime(hard_date_num).days)
+                        hard_date_num,
+                        self.caltime(hard_date_num).days)
             else:
                 self.json_["硬件保修"] = "延长保修"
         else:
@@ -348,12 +350,24 @@ class Query(object):
         self.json_["设备名称"] = info["PROD_DESCR"]
         self.json_["颜色内存"] = "稍等"
 
+    def get_day(self, year):
+        return datetime.date.today() - datetime.timedelta(days=year)
+
+    def activation(self):
+        if "iPhone" in self.json_["设备名称"]:
+            self.json_["激活时间"] = self.get_day(1)
+        elif "iPad" in self.json_["设备名称"]:
+            self.json_["激活时间"] = self.get_day(1)
+        elif "Mac" in self.json_["设备名称"]:
+            self.json_["激活时间"] = self.get_day(2)
+
     def data_clean(self):
         self.json_ = {}
         self.info_base()
         print(5)
         if self.result["IS_REGISTERED"] == "Y":
             self.json_["是否激活"] = "已激活"
+            self.json_["激活时间"] = ""
 
             self.tel_support()
             self.hardware()
@@ -373,6 +387,8 @@ def get_judge():
 
 
 def main(imei="353001091289737"):
+    a = Query().get_day(1)
+    print(a)
     return Query().spider_main(imei)
 
 
