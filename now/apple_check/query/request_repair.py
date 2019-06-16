@@ -391,7 +391,7 @@ class Query(object):
         print(5)
         if self.result["IS_REGISTERED"] == "Y":
             self.json_["是否激活"] = "已激活"
-            # self.json_["激活时间"] = ""
+            self.json_["激活时间"] = ""
 
             self.tel_support()
             self.hardware()
