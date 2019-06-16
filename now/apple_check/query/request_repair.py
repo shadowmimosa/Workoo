@@ -349,6 +349,7 @@ class Query(object):
 
         self.json_["设备名称"] = info["PROD_DESCR"]
         self.json_["颜色内存"] = "稍等"
+        self.activation()
 
     def get_day(self, year):
         return datetime.date.today() - datetime.timedelta(days=year)
