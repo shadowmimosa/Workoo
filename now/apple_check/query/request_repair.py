@@ -7,7 +7,7 @@ import os
 import base64
 import json
 import re
-from bs4 import BeautifulSoup
+# from bs4 import BeautifulSoup
 import datetime
 
 
@@ -349,24 +349,26 @@ class Query(object):
 
         self.json_["设备名称"] = info["PROD_DESCR"]
         self.json_["颜色内存"] = "稍等"
-        self.activation()
 
-    def get_day(self, year):
-        return (datetime.date.today() - datetime.timedelta(days=year)).strftime('%Y-%m-%d')
+    def get_day(self, days=datetime.date.today(), year=1):
+        return (days - datetime.timedelta(days=year)).strftime('%Y-%m-%d')
 
     def activation(self):
         print(6)
-        if "iPhone" in self.json_["设备名称"]:
-            self.json_["激活时间"] = self.get_day(1)
-            print(7)
-        elif "iPad" in self.json_["设备名称"]:
-            self.json_["激活时间"] = self.get_day(1)
-            print(8)
-        elif "Mac" in self.json_["设备名称"]:
-            self.json_["激活时间"] = self.get_day(2)
-            print(9)
+        if "-" in self.json_["硬件保修"]:
+            if "iPhone" in self.json_["设备名称"]:
+                self.json_["激活时间"] = self.get_day(1)
+                print(7)
+            elif "iPad" in self.json_["设备名称"]:
+                self.json_["激活时间"] = self.get_day(1)
+                print(8)
+            elif "Mac" in self.json_["设备名称"]:
+                self.json_["激活时间"] = self.get_day(2)
+                print(9)
         else:
-            self.json_["激活时间"] = "666"
+            self.json_.pop("激活时间")
+        # else:
+        #     self.json_["激活时间"] = "666"
     def data_clean(self):
         self.json_ = {}
         self.info_base()
@@ -382,6 +384,8 @@ class Query(object):
                 self.json_["是否延保"] = "是"
             else:
                 self.json_["是否延保"] = "否"
+            
+            self.activation()
 
         elif self.result["IS_REGISTERED"] == "N":
             self.json_["是否激活"] = self.result["results"][0]["resultLabel"]
