@@ -355,20 +355,25 @@ class Query(object):
         return datetime.date.today() - datetime.timedelta(days=year)
 
     def activation(self):
+        print(6)
         if "iPhone" in self.json_["设备名称"]:
             self.json_["激活时间"] = self.get_day(1)
+            print(7)
         elif "iPad" in self.json_["设备名称"]:
             self.json_["激活时间"] = self.get_day(1)
+            print(8)
         elif "Mac" in self.json_["设备名称"]:
             self.json_["激活时间"] = self.get_day(2)
-
+            print(9)
+        else:
+            self.json_["激活时间"] = "666"
     def data_clean(self):
         self.json_ = {}
         self.info_base()
         print(5)
         if self.result["IS_REGISTERED"] == "Y":
             self.json_["是否激活"] = "已激活"
-            self.json_["激活时间"] = ""
+            # self.json_["激活时间"] = ""
 
             self.tel_support()
             self.hardware()
