@@ -358,7 +358,7 @@ class Query(object):
                 if isinstance(day, str):
                     print(type(day))
                     print(day)
-                    day = datetime.datetime.strptime(day, "%Y-%m-%d")
+                    day = datetime.datetime.strptime(day.split("（")[0], "%Y-%m-%d")
             except:
                 return "777"
             return (day - datetime.timedelta(days=365)).strftime('%Y-%m-%d')
