@@ -352,7 +352,7 @@ class Query(object):
         self.activation()
 
     def get_day(self, year):
-        return datetime.date.today() - datetime.timedelta(days=year)
+        return (datetime.date.today() - datetime.timedelta(days=year)).strftime('%Y-%m-%d')
 
     def activation(self):
         print(6)
@@ -393,8 +393,9 @@ def get_judge():
 
 
 def main(imei="353001091289737"):
-    a = Query().get_day(1)
-    print(a)
+    # a = Query().get_day(1)
+    # b = type(a)
+    # print(a)
     return Query().spider_main(imei)
 
 
