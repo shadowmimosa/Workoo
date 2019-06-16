@@ -356,6 +356,8 @@ class Query(object):
         try:
             try:
                 if isinstance(day, str):
+                    print(type(day))
+                    print(day)
                     day = datetime.datetime.strptime(day, "%Y-%m-%d")
             except:
                 return "777"
