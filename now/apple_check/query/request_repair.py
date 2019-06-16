@@ -390,8 +390,10 @@ class Query(object):
                 self.json_["是否延保"] = "是"
             else:
                 self.json_["是否延保"] = "否"
-
-            self.activation()
+            try:
+                self.activation()
+            except Exception as exc:
+                print("the error is {}".format(exc))
 
         elif self.result["IS_REGISTERED"] == "N":
             self.json_["是否激活"] = self.result["results"][0]["resultLabel"]
