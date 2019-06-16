@@ -354,7 +354,7 @@ class Query(object):
         # a = type(day)
         # b = type(datetime.timedelta(days=year))
         if isinstance(day, str):
-            day = time.strptime(day, "%Y-%m-%d")
+            day = datetime.datetime.strptime(day, "%Y-%m-%d")
 
         return (day - datetime.timedelta(days=year)).strftime('%Y-%m-%d')
 
@@ -403,7 +403,7 @@ def get_judge():
 
 
 def main(imei="353001091289737"):
-    # a = Query().get_day(1)
+    # a = Query().get_day("2019-06-09", 1)
     # b = type(a)
     # print(a)
     return Query().spider_main(imei)
