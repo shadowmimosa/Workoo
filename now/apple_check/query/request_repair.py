@@ -350,20 +350,24 @@ class Query(object):
         self.json_["设备名称"] = info["PROD_DESCR"]
         self.json_["颜色内存"] = "稍等"
 
-    def get_day(self, days=datetime.date.today(), year=1):
-        return (days - datetime.timedelta(days=year)).strftime('%Y-%m-%d')
+    def get_day(self, day=datetime.date.today(), year=1):
+        # a = type(day)
+        # b = type(datetime.timedelta(days=year))
+
+        return (day - datetime.timedelta(days=year)).strftime('%Y-%m-%d')
 
     def activation(self):
         print(6)
         if "-" in self.json_["硬件保修"]:
+            day = self.json_["硬件保修"]
             if "iPhone" in self.json_["设备名称"]:
-                self.json_["激活时间"] = self.get_day(1)
+                self.json_["激活时间"] = self.get_day(day, 1)
                 print(7)
             elif "iPad" in self.json_["设备名称"]:
-                self.json_["激活时间"] = self.get_day(1)
+                self.json_["激活时间"] = self.get_day(day, 1)
                 print(8)
             elif "Mac" in self.json_["设备名称"]:
-                self.json_["激活时间"] = self.get_day(2)
+                self.json_["激活时间"] = self.get_day(day, 2)
                 print(9)
         else:
             self.json_.pop("激活时间")
@@ -384,7 +388,7 @@ class Query(object):
                 self.json_["是否延保"] = "是"
             else:
                 self.json_["是否延保"] = "否"
-            
+
             self.activation()
 
         elif self.result["IS_REGISTERED"] == "N":
