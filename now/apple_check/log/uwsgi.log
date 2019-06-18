@@ -1,0 +1,36 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Jun 16 14:21:00 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-11) on 16 June 2019 06:05:24
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: aliyun
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/xuan/git/Workoo/now/apple_check
+writing pidfile to /home/xuan/git/Workoo/now/apple_check//uwsgi/uwsgi.pid
+detected binary path: /home/xuan/.local/share/virtualenvs/Workoo-7ULLtGnf/bin/uwsgi
+chdir() to /home/xuan/git/Workoo/now/apple_check/
+your processes number limit is 4096
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Listen queue size is greater than the system max net.core.somaxconn (128).
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Jun 16 14:22:14 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-11) on 16 June 2019 06:05:24
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: aliyun
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/xuan/git/Workoo/now/apple_check
+writing pidfile to /home/xuan/git/Workoo/now/apple_check//uwsgi/uwsgi.pid
+detected binary path: /home/xuan/.local/share/virtualenvs/Workoo-7ULLtGnf/bin/uwsgi
+chdir() to /home/xuan/git/Workoo/now/apple_check/
+your processes number limit is 4096
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Listen queue size is greater than the system max net.core.somaxconn (128).
