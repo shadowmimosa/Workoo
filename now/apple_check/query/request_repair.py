@@ -337,8 +337,6 @@ class Query(object):
             self.json_["是否官换"] = "是"
 
     def get_memory(self):
-        self.json_ = {}
-        self.json_["SN"] = "********JC6N"
         sn = self.json_["SN"][-1:-5:-1][-1::-1]
         sn_0 = sn[0].upper()
         if sn_0 in ["D", "F", "H", "J", "K"]:
@@ -358,6 +356,7 @@ class Query(object):
         info = self.result["productInfo"]
         print(2)
         if "IMEI" in info["PRODUCT_LABEL"]:
+            print(9)
             self.json_["IMEI"] = info["SERIAL_ID"]
             self.json_["SN"] = "********{}".format(
                 info["PROD_IMAGE_URL"].split("=")[1].split("&")[0])
