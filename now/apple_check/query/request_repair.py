@@ -339,7 +339,7 @@ class Query(object):
     def get_memory(self):
         sn = self.json_["SN"][-1:-5:-1][-1::-1]
         sn_0 = sn[0].upper()
-        if sn_0 in ["D", "F", "H", "J", "K"]:
+        if sn_0 in ["D", "F", "G", "H", "J", "K"]:
             filename = "{}000-{}ZZZ.txt".format(sn_0, sn_0)
             with open("./data/{}".format(filename), "r", encoding="gbk") as fn:
                 alllines = fn.readlines()

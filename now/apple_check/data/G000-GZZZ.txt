@@ -1,0 +1,1008 @@
+序列号：G05T	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：G07J	手机型号：iPhone 5c	内存：8GB	颜色：白色
+序列号：G07K	手机型号：iPhone 5c	内存：8GB	颜色：黄色
+序列号：G07L	手机型号：iPhone 5c	内存：8GB	颜色：蓝色
+序列号：G07M	手机型号：iPhone 5c	内存：8GB	颜色：绿色
+序列号：G07N	手机型号：iPhone 5c	内存：8GB	颜色：粉色
+序列号：G07P	手机型号：iPhone 5c (8GB)	内存：8GB	颜色：白色
+序列号：G07Q	手机型号：iPhone 5c (8GB)	内存：8GB	颜色：黄色
+序列号：G084	手机型号：MacBook Air (11-inch, Early 2014)	内存：	颜色：
+序列号：G085	手机型号：MacBook Air (13-inch, Early 2014)	内存：	颜色：
+序列号：G086	手机型号：MacBook Air (13-inch, Early 2014)	内存：	颜色：
+序列号：G1HV	手机型号：Mac mini (Late 2014)	内存：	颜色：银色
+序列号：G1HW	手机型号：Mac mini (Late 2014)	内存：	颜色：银色
+序列号：G1HY	手机型号：Mac mini (Late 2014)	内存：	颜色：银色
+序列号：G1J0	手机型号：Mac mini (Late 2014)	内存：	颜色：银色
+序列号：G1J1	手机型号：Mac mini (Late 2014)	内存：	颜色：银色
+序列号：G1J2	手机型号：Mac mini (Late 2014)	内存：	颜色：银色
+序列号：G1LJ	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：G1LK	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：G1LL	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：G1LM	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：G1LN	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：G1LP	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：G1LQ	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：G1LR	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：G1LT	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：G1LV	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：G1LW	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：G1LY	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：G1M0	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：G1M1	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：G22Q	手机型号：iPod touch (5th generation)	内存：16GB	颜色：粉色
+序列号：G22R	手机型号：iPod touch (5th generation)	内存：16GB	颜色：黄色
+序列号：G22T	手机型号：iPod touch (5th generation)	内存：16GB	颜色：蓝色
+序列号：G22V	手机型号：iPod touch (5th generation)	内存：16GB	颜色：银色
+序列号：G22W	手机型号：iPod touch (5th generation)	内存：16GB	颜色：红色
+序列号：G22Y	手机型号：iPod touch (5th generation)	内存：16GB	颜色：深空灰色
+序列号：G2CC	手机型号：MacBook Air (13-inch, Early 2014)	内存：	颜色：
+序列号：G2CD	手机型号：MacBook Air (13-inch, Early 2014)	内存：	颜色：
+序列号：G2CF	手机型号：MacBook Air (11-inch, Early 2014)	内存：	颜色：
+序列号：G2D5	手机型号：iPhone 5c	内存：8GB	颜色：白色
+序列号：G2D7	手机型号：iPhone 5c (8GB)	内存：8GB	颜色：蓝色
+序列号：G2D8	手机型号：iPhone 5c	内存：8GB	颜色：绿色
+序列号：G2D9	手机型号：iPhone 5c	内存：8GB	颜色：粉色
+序列号：G2DJ	手机型号：iPhone 5c	内存：8GB	颜色：白色
+序列号：G2DK	手机型号：iPhone 5c	内存：8GB	颜色：黄色
+序列号：G2DL	手机型号：iPhone 5c	内存：8GB	颜色：蓝色
+序列号：G2DM	手机型号：iPhone 5c (8GB)	内存：8GB	颜色：绿色
+序列号：G2DN	手机型号：iPhone 5c	内存：8GB	颜色：粉色
+序列号：G2GH	手机型号：MacBook Air (11-inch, Early 2014)	内存：	颜色：
+序列号：G2GJ	手机型号：MacBook Air (11-inch, Early 2014)	内存：	颜色：
+序列号：G2GK	手机型号：MacBook Air (13-inch, Early 2014)	内存：	颜色：
+序列号：G2GL	手机型号：MacBook Air (13-inch, Early 2014)	内存：	颜色：
+序列号：G2GM	手机型号：MacBook Air (13-inch, Early 2014)	内存：	颜色：
+序列号：G2GN	手机型号：MacBook Air (13-inch, Early 2014)	内存：	颜色：
+序列号：G2PY	手机型号：MacBook Air (11-inch, Early 2014)	内存：	颜色：
+序列号：G2Q0	手机型号：MacBook Air (11-inch, Early 2014)	内存：	颜色：
+序列号：G354	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：G356	手机型号：MacBook Air (13-inch, Early 2014)	内存：	颜色：
+序列号：G3FY	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：G3QC	手机型号：MacBook Pro (Retina, 15-inch, Mid 2014)	内存：	颜色：
+序列号：G3QD	手机型号：MacBook Pro (Retina, 15-inch, Mid 2014)	内存：	颜色：
+序列号：G3QG	手机型号：MacBook Pro (Retina, 15-inch, Mid 2014)	内存：	颜色：
+序列号：G3QH	手机型号：MacBook Pro (Retina, 13-inch, Mid 2014)	内存：	颜色：
+序列号：G3QJ	手机型号：MacBook Pro (Retina, 13-inch, Mid 2014)	内存：	颜色：
+序列号：G3QK	手机型号：MacBook Pro (Retina, 13-inch, Mid 2014)	内存：	颜色：
+序列号：G3QL	手机型号：MacBook Pro (Retina, 13-inch, Mid 2014)	内存：	颜色：
+序列号：G3QN	手机型号：MacBook Pro (Retina, 15-inch, Mid 2014)	内存：	颜色：
+序列号：G3QP	手机型号：MacBook Pro (Retina, 15-inch, Mid 2014)	内存：	颜色：
+序列号：G3QQ	手机型号：MacBook Pro (Retina, 13-inch, Mid 2014)	内存：	颜色：
+序列号：G3QR	手机型号：MacBook Pro (Retina, 13-inch, Mid 2014)	内存：	颜色：
+序列号：G3QT	手机型号：MacBook Pro (Retina, 13-inch, Mid 2014)	内存：	颜色：
+序列号：G430	手机型号：Mac mini (Late 2012)	内存：	颜色：
+序列号：G4FY	手机型号：MacBook Air (11-inch, Early 2014)	内存：	颜色：
+序列号：G4H0	手机型号：MacBook Air (11-inch, Early 2014)	内存：	颜色：
+序列号：G4H1	手机型号：MacBook Air (13-inch, Early 2014)	内存：	颜色：
+序列号：G4H2	手机型号：MacBook Air (13-inch, Early 2014)	内存：	颜色：
+序列号：G4H3	手机型号：MacBook Air (13-inch, Early 2014)	内存：	颜色：
+序列号：G4H4	手机型号：MacBook Air (11-inch, Early 2014)	内存：	颜色：
+序列号：G4HK	手机型号：MacBook Air (11-inch, Early 2014)	内存：	颜色：
+序列号：G4HM	手机型号：MacBook Air (11-inch, Early 2014)	内存：	颜色：
+序列号：G4HN	手机型号：MacBook Air (13-inch, Early 2014)	内存：	颜色：
+序列号：G4HP	手机型号：MacBook Air (13-inch, Early 2014)	内存：	颜色：
+序列号：G4JQ	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：G4N6	手机型号：MacBook Pro (Retina, 13-inch, Late 2013)	内存：	颜色：
+序列号：G4N7	手机型号：MacBook Pro (Retina, 13-inch, Late 2013)	内存：	颜色：
+序列号：G56J	手机型号：iMac (21.5-inch, Mid 2014)	内存：	颜色：银色
+序列号：G56K	手机型号：iMac (21.5-inch, Mid 2014)	内存：	颜色：银色
+序列号：G584	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：G58J	手机型号：MacBook Air (11-inch, Early 2014)	内存：	颜色：
+序列号：G58K	手机型号：MacBook Air (13-inch, Early 2014)	内存：	颜色：
+序列号：G5HL	手机型号：MacBook Pro (Retina, 15-inch, Late 2013)	内存：	颜色：
+序列号：G5MC	手机型号：iPhone 6	内存：16GB	颜色：深空灰色
+序列号：G5MD	手机型号：iPhone 6	内存：16GB	颜色：银色
+序列号：G5MF	手机型号：iPhone 6	内存：16GB	颜色：金色
+序列号：G5MG	手机型号：iPhone 6	内存：64GB	颜色：深空灰色
+序列号：G5MH	手机型号：iPhone 6	内存：64GB	颜色：银色
+序列号：G5MJ	手机型号：iPhone 6	内存：64GB	颜色：金色
+序列号：G5MK	手机型号：iPhone 6	内存：128GB	颜色：深空灰色
+序列号：G5ML	手机型号：iPhone 6	内存：128GB	颜色：银色
+序列号：G5MM	手机型号：iPhone 6	内存：128GB	颜色：金色
+序列号：G5MN	手机型号：iPhone 6	内存：16GB	颜色：深空灰色
+序列号：G5MP	手机型号：iPhone 6	内存：16GB	颜色：银色
+序列号：G5MQ	手机型号：iPhone 6	内存：16GB	颜色：金色
+序列号：G5MR	手机型号：iPhone 6	内存：64GB	颜色：深空灰色
+序列号：G5MT	手机型号：iPhone 6	内存：64GB	颜色：银色
+序列号：G5MV	手机型号：iPhone 6	内存：64GB	颜色：金色
+序列号：G5MW	手机型号：iPhone 6	内存：128GB	颜色：深空灰色
+序列号：G5MY	手机型号：iPhone 6	内存：128GB	颜色：银色
+序列号：G5N0	手机型号：iPhone 6	内存：128GB	颜色：金色
+序列号：G5QF	手机型号：iPhone 6 Plus	内存：16GB	颜色：深空灰色
+序列号：G5QG	手机型号：iPhone 6 Plus	内存：16GB	颜色：银色
+序列号：G5QH	手机型号：iPhone 6 Plus	内存：16GB	颜色：金色
+序列号：G5QJ	手机型号：iPhone 6 Plus	内存：64GB	颜色：深空灰色
+序列号：G5QK	手机型号：iPhone 6 Plus	内存：64GB	颜色：银色
+序列号：G5QL	手机型号：iPhone 6 Plus	内存：64GB	颜色：金色
+序列号：G5QM	手机型号：iPhone 6 Plus	内存：128GB	颜色：深空灰色
+序列号：G5QN	手机型号：iPhone 6 Plus	内存：128GB	颜色：银色
+序列号：G5QP	手机型号：iPhone 6 Plus	内存：128GB	颜色：金色
+序列号：G5QQ	手机型号：iPhone 6 Plus	内存：16GB	颜色：深空灰色
+序列号：G5QR	手机型号：iPhone 6 Plus	内存：16GB	颜色：银色
+序列号：G5QT	手机型号：iPhone 6 Plus	内存：16GB	颜色：金色
+序列号：G5QV	手机型号：iPhone 6 Plus	内存：64GB	颜色：深空灰色
+序列号：G5R2	手机型号：iPhone 6 Plus	内存：128GB	颜色：金色
+序列号：G5RK	手机型号：MacBook Air (11-inch, Early 2014)	内存：	颜色：
+序列号：G5RL	手机型号：MacBook Air (11-inch, Early 2014)	内存：	颜色：
+序列号：G5RM	手机型号：MacBook Air (11-inch, Early 2014)	内存：	颜色：
+序列号：G5RN	手机型号：MacBook Air (13-inch, Early 2014)	内存：	颜色：
+序列号：G5RP	手机型号：MacBook Air (13-inch, Early 2014)	内存：	颜色：
+序列号：G5RQ	手机型号：MacBook Air (13-inch, Early 2014)	内存：	颜色：
+序列号：G5T6	手机型号：iPhone 6s Smart Battery Case	内存：0GB	颜色：黑色
+序列号：G5T7	手机型号：iPhone 6s Smart Battery Case	内存：0GB	颜色：白色
+序列号：G5T8	手机型号：iPhone 6s Smart Battery Case	内存：0GB	颜色：黑色
+序列号：G5T9	手机型号：iPhone 6s Smart Battery Case	内存：0GB	颜色：白色
+序列号：G5TG	手机型号：iPad mini 3 Wi-Fi + Cellular (China)	内存：16GB	颜色：深空灰色
+序列号：G5TH	手机型号：iPad mini 3 Wi-Fi + Cellular (China)	内存：16GB	颜色：银色
+序列号：G5TJ	手机型号：iPad mini 3 Wi-Fi + Cellular (China)	内存：16GB	颜色：金色
+序列号：G5TK	手机型号：iPad mini 3 Wi-Fi + Cellular (China)	内存：64GB	颜色：深空灰色
+序列号：G5TL	手机型号：iPad mini 3 Wi-Fi + Cellular (China)	内存：64GB	颜色：银色
+序列号：G5TM	手机型号：iPad mini 3 Wi-Fi + Cellular (China)	内存：64GB	颜色：金色
+序列号：G5TN	手机型号：iPad mini 3 Wi-Fi + Cellular (China)	内存：128GB	颜色：深空灰色
+序列号：G5TP	手机型号：iPad mini 3 Wi-Fi + Cellular (China)	内存：64GB	颜色：金色
+序列号：G5TQ	手机型号：iPad mini 3 Wi-Fi + Cellular (China)	内存：128GB	颜色：金色
+序列号：G5V1	手机型号：iPad mini 3	内存：16GB	颜色：深空灰色
+序列号：G5V2	手机型号：iPad mini 3	内存：16GB	颜色：银色
+序列号：G5V3	手机型号：iPad mini 3	内存：16GB	颜色：金色
+序列号：G5V4	手机型号：iPad mini 3	内存：64GB	颜色：深空灰色
+序列号：G5V9	手机型号：iPad mini 3	内存：128GB	颜色：金色
+序列号：G5VJ	手机型号：iPad Air 2	内存：16GB	颜色：深空灰色
+序列号：G5VT	手机型号：iPad Air 2	内存：16GB	颜色：银色
+序列号：G5VV	手机型号：iPad Air 2	内存：16GB	颜色：金色
+序列号：G5VW	手机型号：iPad Air 2	内存：64GB	颜色：深空灰色
+序列号：G5VY	手机型号：iPad Air 2	内存：64GB	颜色：银色
+序列号：G5W0	手机型号：iPad Air 2	内存：64GB	颜色：金色
+序列号：G5W1	手机型号：iPad Air 2	内存：128GB	颜色：深空灰色
+序列号：G5W2	手机型号：iPad Air 2	内存：128GB	颜色：银色
+序列号：G5W3	手机型号：iPad Air 2	内存：128GB	颜色：金色
+序列号：G5W4	手机型号：iMac (21.5-inch, Mid 2014)	内存：	颜色：银色
+序列号：G5W5	手机型号：iMac (21.5-inch, Mid 2014)	内存：	颜色：银色
+序列号：G5W6	手机型号：iMac (21.5-inch, Mid 2014)	内存：	颜色：银色
+序列号：G5W8	手机型号：iPad mini 3 Wi-Fi + Cellular	内存：16GB	颜色：银色
+序列号：G5WQ	手机型号：iPad Air 2 Wi-Fi + Cellular	内存：16GB	颜色：深空灰色
+序列号：G5WR	手机型号：iPad Air 2 Wi-Fi + Cellular	内存：16GB	颜色：银色
+序列号：G5WT	手机型号：iPad Air 2 Wi-Fi + Cellular	内存：16GB	颜色：金色
+序列号：G5Y1	手机型号：iPad mini 3 Wi-Fi + Cellular	内存：16GB	颜色：深空灰色
+序列号：G5Y2	手机型号：iPad mini 3 Wi-Fi + Cellular	内存：16GB	颜色：金色
+序列号：G5Y3	手机型号：iPad mini 3 Wi-Fi + Cellular	内存：64GB	颜色：深空灰色
+序列号：G5Y4	手机型号：iPad mini 3 Wi-Fi + Cellular	内存：64GB	颜色：银色
+序列号：G5Y5	手机型号：iPad mini 3 Wi-Fi + Cellular	内存：64GB	颜色：金色
+序列号：G5YH	手机型号：iPad mini 3 Wi-Fi + Cellular	内存：128GB	颜色：深空灰色
+序列号：G5YJ	手机型号：iPad mini 3 Wi-Fi + Cellular	内存：128GB	颜色：银色
+序列号：G5YK	手机型号：iPad mini 3 Wi-Fi + Cellular	内存：128GB	颜色：金色
+序列号：G5YL	手机型号：iPad Air 2 Wi-Fi + Cellular	内存：64GB	颜色：深空灰色
+序列号：G5YM	手机型号：iPad Air 2 Wi-Fi + Cellular	内存：64GB	颜色：银色
+序列号：G5YN	手机型号：iPad Air 2 Wi-Fi + Cellular	内存：64GB	颜色：金色
+序列号：G5YP	手机型号：iPad Air 2 Wi-Fi + Cellular	内存：128GB	颜色：深空灰色
+序列号：G5YQ	手机型号：iPad Air 2 Wi-Fi + Cellular	内存：128GB	颜色：银色
+序列号：G5YR	手机型号：iPad Air 2 Wi-Fi + Cellular	内存：128GB	颜色：金色
+序列号：G6D3	手机型号：MacBook Air (11-inch, Early 2014)	内存：	颜色：
+序列号：G6D4	手机型号：MacBook Air (13-inch, Early 2014)	内存：	颜色：
+序列号：G6D5	手机型号：MacBook Air (13-inch, Early 2014)	内存：	颜色：
+序列号：G6DP	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：G6PM	手机型号：MacBook Air (13-inch, Mid 2013)	内存：	颜色：
+序列号：G70Y	手机型号：Powerbeats (1st generation)	内存：	颜色：
+序列号：G710	手机型号：Powerbeats (1st generation)	内存：	颜色：
+序列号：G711	手机型号：Powerbeats (1st generation)	内存：	颜色：
+序列号：G712	手机型号：Beatbox	内存：	颜色：
+序列号：G713	手机型号：Wireless (1.5)	内存：	颜色：
+序列号：G714	手机型号：Wireless (1.5)	内存：	颜色：
+序列号：G715	手机型号：Solo HD	内存：	颜色：
+序列号：G716	手机型号：Solo HD	内存：	颜色：
+序列号：G717	手机型号：Solo HD	内存：	颜色：
+序列号：G718	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G719	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G71C	手机型号：Solo HD	内存：	颜色：
+序列号：G71D	手机型号：Tour (1st generation)	内存：	颜色：
+序列号：G71F	手机型号：Tour (1st generation)	内存：	颜色：
+序列号：G71G	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G71H	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G71J	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G71K	手机型号：Mixr	内存：	颜色：
+序列号：G71L	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G71M	手机型号：Mixr	内存：	颜色：
+序列号：G71N	手机型号：Mixr	内存：	颜色：
+序列号：G71P	手机型号：Pro	内存：	颜色：
+序列号：G71Q	手机型号：Pro	内存：	颜色：
+序列号：G71R	手机型号：Pro	内存：	颜色：
+序列号：G71T	手机型号：Heartbeats (2nd generation)	内存：	颜色：
+序列号：G71V	手机型号：Heartbeats (2nd generation)	内存：	颜色：
+序列号：G71W	手机型号：Tour (2nd generation)	内存：	颜色：
+序列号：G71Y	手机型号：Executive	内存：	颜色：
+序列号：G720	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G721	手机型号：Beatbox Portable (1st generation)	内存：	颜色：
+序列号：G722	手机型号：Beatbox Portable (1st generation)	内存：	颜色：
+序列号：G723	手机型号：Beatbox Portable (3rd generation)	内存：	颜色：
+序列号：G724	手机型号：urBeats (2nd generation)	内存：	颜色：
+序列号：G725	手机型号：Pill 1.0	内存：	颜色：
+序列号：G726	手机型号：Pill 1.0	内存：	颜色：
+序列号：G727	手机型号：Pill 1.0	内存：	颜色：
+序列号：G729	手机型号：Pro	内存：	颜色：
+序列号：G72D	手机型号：Studio (2nd generation)	内存：	颜色：
+序列号：G72F	手机型号：urBeats (2nd generation)	内存：	颜色：
+序列号：G72G	手机型号：Solo HD	内存：	颜色：
+序列号：G72H	手机型号：Solo HD	内存：	颜色：
+序列号：G72J	手机型号：Studio (2nd generation)	内存：	颜色：
+序列号：G72K	手机型号：Solo HD	内存：	颜色：
+序列号：G72L	手机型号：Solo HD	内存：	颜色：
+序列号：G72M	手机型号：urBeats (2nd generation)	内存：	颜色：
+序列号：G72N	手机型号：Beatbox Portable (2nd generation)	内存：	颜色：
+序列号：G72P	手机型号：Beatbox Portable (2nd generation)	内存：	颜色：
+序列号：G72Q	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G72R	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G72T	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G72V	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G72W	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G72Y	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G730	手机型号：Solo HD	内存：	颜色：
+序列号：G731	手机型号：urBeats (2nd generation)	内存：	颜色：
+序列号：G732	手机型号：Studio (2nd generation)	内存：	颜色：
+序列号：G733	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G734	手机型号：Pill 1.0	内存：	颜色：
+序列号：G735	手机型号：Tour (2nd generation)	内存：	颜色：
+序列号：G736	手机型号：Pill 1.0	内存：	颜色：
+序列号：G737	手机型号：Pill 2.0	内存：	颜色：
+序列号：G738	手机型号：Pill 2.0	内存：	颜色：
+序列号：G739	手机型号：Pill 2.0	内存：	颜色：
+序列号：G73C	手机型号：Pill XL	内存：	颜色：
+序列号：G73D	手机型号：Pill XL	内存：	颜色：
+序列号：G73F	手机型号：Pill XL	内存：	颜色：
+序列号：G73G	手机型号：Mixr	内存：	颜色：
+序列号：G73H	手机型号：Mixr	内存：	颜色：
+序列号：G73J	手机型号：Mixr	内存：	颜色：
+序列号：G73K	手机型号：Mixr	内存：	颜色：
+序列号：G73L	手机型号：Mixr	内存：	颜色：
+序列号：G73M	手机型号：Wireless (1.5)	内存：	颜色：
+序列号：G73N	手机型号：Tour (2nd generation)	内存：	颜色：
+序列号：G73P	手机型号：urBeats (2nd generation)	内存：	颜色：
+序列号：G73Q	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G73R	手机型号：Studio Wireless	内存：	颜色：
+序列号：G73T	手机型号：Studio Wireless	内存：	颜色：
+序列号：G73V	手机型号：Studio Wireless	内存：	颜色：
+序列号：G743	手机型号：Powerbeats (1st generation)	内存：	颜色：
+序列号：G744	手机型号：Powerbeats (1st generation)	内存：	颜色：
+序列号：G745	手机型号：Powerbeats (1st generation)	内存：	颜色：
+序列号：G746	手机型号：Executive	内存：	颜色：
+序列号：G747	手机型号：Solo 2	内存：	颜色：
+序列号：G748	手机型号：Solo 2	内存：	颜色：
+序列号：G749	手机型号：Solo 2	内存：	颜色：
+序列号：G74C	手机型号：Pill 1.0	内存：	颜色：
+序列号：G74D	手机型号：Pill 1.0	内存：	颜色：
+序列号：G74F	手机型号：Pill 1.0	内存：	颜色：
+序列号：G74G	手机型号：Pill 1.0	内存：	颜色：
+序列号：G74H	手机型号：Pill 1.0	内存：	颜色：
+序列号：G74J	手机型号：Pro	内存：	颜色：
+序列号：G74K	手机型号：Powerbeats (1st generation)	内存：	颜色：
+序列号：G74L	手机型号：Solo HD	内存：	颜色：
+序列号：G74M	手机型号：Solo 2	内存：	颜色：
+序列号：G74N	手机型号：Studio (2nd generation)	内存：	颜色：
+序列号：G74Q	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G74R	手机型号：Solo HD	内存：	颜色：
+序列号：G74T	手机型号：Solo HD	内存：	颜色：
+序列号：G74V	手机型号：Solo HD	内存：	颜色：
+序列号：G74W	手机型号：Solo HD	内存：	颜色：
+序列号：G74Y	手机型号：Solo HD	内存：	颜色：
+序列号：G750	手机型号：Solo HD	内存：	颜色：
+序列号：G751	手机型号：Solo HD	内存：	颜色：
+序列号：G752	手机型号：Pill 2.0	内存：	颜色：
+序列号：G753	手机型号：Pill 2.0	内存：	颜色：
+序列号：G754	手机型号：Pill 1.0	内存：	颜色：
+序列号：G755	手机型号：Studio (2nd generation)	内存：	颜色：
+序列号：G756	手机型号：urBeats (2nd generation)	内存：	颜色：
+序列号：G757	手机型号：urBeats (2nd generation)	内存：	颜色：
+序列号：G758	手机型号：urBeats (2nd generation)	内存：	颜色：
+序列号：G759	手机型号：urBeats (2nd generation)	内存：	颜色：
+序列号：G75C	手机型号：urBeats (2nd generation)	内存：	颜色：
+序列号：G75D	手机型号：Mixr	内存：	颜色：
+序列号：G75F	手机型号：Wireless (1.5)	内存：	颜色：
+序列号：G75G	手机型号：Wireless (1.5)	内存：	颜色：
+序列号：G75H	手机型号：Pill 2.0	内存：	颜色：
+序列号：G75J	手机型号：Solo HD	内存：	颜色：
+序列号：G75K	手机型号：Pro	内存：	颜色：
+序列号：G75L	手机型号：Studio (2nd generation)	内存：	颜色：
+序列号：G75M	手机型号：Solo HD	内存：	颜色：
+序列号：G75T	手机型号：Studio Wireless	内存：	颜色：
+序列号：G75Y	手机型号：Studio (2nd generation)	内存：	颜色：
+序列号：G760	手机型号：Studio (2nd generation)	内存：	颜色：
+序列号：G761	手机型号：Mixr	内存：	颜色：
+序列号：G762	手机型号：Studio (2nd generation)	内存：	颜色：
+序列号：G763	手机型号：Tour (2nd generation)	内存：	颜色：
+序列号：G764	手机型号：Studio Wireless	内存：8GB	颜色：Matte Black
+序列号：G765	手机型号：Studio Wireless	内存：	颜色：
+序列号：G766	手机型号：Solo HD	内存：	颜色：
+序列号：G768	手机型号：Mixr	内存：	颜色：
+序列号：G76C	手机型号：urBeats (2nd generation)	内存：	颜色：
+序列号：G76D	手机型号：urBeats (2nd generation)	内存：	颜色：
+序列号：G76F	手机型号：urBeats (2nd generation)	内存：	颜色：
+序列号：G76G	手机型号：Wireless (1.5)	内存：	颜色：
+序列号：G76H	手机型号：urBeats (2nd generation)	内存：	颜色：
+序列号：G76J	手机型号：Solo HD	内存：	颜色：
+序列号：G76K	手机型号：Solo HD	内存：	颜色：
+序列号：G76L	手机型号：Studio (2nd generation)	内存：	颜色：
+序列号：G76M	手机型号：Studio (2nd generation)	内存：	颜色：
+序列号：G76N	手机型号：Studio (2nd generation)	内存：	颜色：
+序列号：G76P	手机型号：Pill 2.0	内存：	颜色：
+序列号：G76Q	手机型号：Pill 2.0	内存：	颜色：
+序列号：G76R	手机型号：Pill 2.0	内存：	颜色：
+序列号：G76T	手机型号：Mixr	内存：	颜色：
+序列号：G76V	手机型号：Solo HD	内存：	颜色：
+序列号：G777	手机型号：Solo 2	内存：	颜色：
+序列号：G778	手机型号：Solo 2	内存：	颜色：
+序列号：G779	手机型号：Powerbeats2 Wireless	内存：	颜色：
+序列号：G77C	手机型号：Studio (2nd generation)	内存：	颜色：
+序列号：G77D	手机型号：Studio (2nd generation)	内存：	颜色：
+序列号：G77F	手机型号：Studio (2nd generation)	内存：	颜色：
+序列号：G77G	手机型号：Studio (2nd generation)	内存：	颜色：
+序列号：G77H	手机型号：Studio (2nd generation)	内存：	颜色：
+序列号：G77M	手机型号：Powerbeats2 Wireless	内存：	颜色：
+序列号：G77N	手机型号：Pill 2.0	内存：	颜色：
+序列号：G77T	手机型号：Studio (2nd generation)	内存：	颜色：
+序列号：G77W	手机型号：Studio (2nd generation)	内存：	颜色：
+序列号：G77Y	手机型号：Mixr	内存：	颜色：
+序列号：G780	手机型号：Mixr	内存：	颜色：
+序列号：G781	手机型号：Mixr	内存：	颜色：
+序列号：G782	手机型号：Mixr	内存：	颜色：
+序列号：G783	手机型号：Mixr	内存：	颜色：
+序列号：G784	手机型号：Mixr	内存：	颜色：
+序列号：G786	手机型号：Pill XL	内存：	颜色：
+序列号：G787	手机型号：Pill XL	内存：	颜色：
+序列号：G78L	手机型号：Tour (2nd generation)	内存：	颜色：
+序列号：G78M	手机型号：Tour (2nd generation)	内存：	颜色：
+序列号：G78N	手机型号：Tour (2nd generation)	内存：	颜色：
+序列号：G78P	手机型号：Tour (2nd generation)	内存：	颜色：
+序列号：G78W	手机型号：Pill 2.0	内存：	颜色：
+序列号：G79C	手机型号：Pill 2.0	内存：	颜色：
+序列号：G79M	手机型号：Studio Wireless	内存：	颜色：
+序列号：G79N	手机型号：Studio Wireless	内存：	颜色：
+序列号：G79P	手机型号：Pill 2.0	内存：	颜色：
+序列号：G7CN	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7CP	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7CQ	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7CR	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7CT	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7CV	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7CY	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7D0	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7D1	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7D2	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7D3	手机型号：Solo HD	内存：	颜色：
+序列号：G7D4	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7D5	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7D6	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7D7	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7D8	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7D9	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7DC	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7DD	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7DF	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7DG	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7DH	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7DJ	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7DK	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7DL	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7DM	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7DN	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7DP	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7DQ	手机型号：Pill 1.0	内存：	颜色：
+序列号：G7DR	手机型号：Pill 1.0	内存：	颜色：
+序列号：G7DT	手机型号：Powerbeats (1st generation)	内存：	颜色：
+序列号：G7DV	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7DW	手机型号：Solo HD	内存：	颜色：
+序列号：G7DY	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7F0	手机型号：Executive	内存：	颜色：
+序列号：G7F1	手机型号：Pill 1.0	内存：	颜色：
+序列号：G7F2	手机型号：Pill 1.0	内存：	颜色：
+序列号：G7F3	手机型号：Pill 1.0	内存：	颜色：
+序列号：G7F4	手机型号：Pill 1.0	内存：	颜色：
+序列号：G7F5	手机型号：Pill 1.0	内存：	颜色：
+序列号：G7F6	手机型号：Executive	内存：	颜色：
+序列号：G7F7	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7F8	手机型号：Pill 1.0	内存：	颜色：
+序列号：G7F9	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7FC	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7FD	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7FF	手机型号：Pill 1.0	内存：	颜色：
+序列号：G7FG	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7FH	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7FJ	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7FK	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7FL	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7FM	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7FN	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7FP	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7FQ	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7FR	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7FT	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7K3	手机型号：Studio (2nd generation)	内存：	颜色：
+序列号：G7K6	手机型号：Pill 2.0	内存：	颜色：
+序列号：G7K7	手机型号：Pro	内存：	颜色：
+序列号：G7K8	手机型号：Diddybeats	内存：	颜色：
+序列号：G7K9	手机型号：Diddybeats	内存：	颜色：
+序列号：G7KC	手机型号：Diddybeats	内存：	颜色：
+序列号：G7KD	手机型号：Diddybeats	内存：	颜色：
+序列号：G7KF	手机型号：Diddybeats	内存：	颜色：
+序列号：G7KQ	手机型号：Solo (1st generation)	内存：	颜色：
+序列号：G7KR	手机型号：Solo (1st generation)	内存：	颜色：
+序列号：G7KT	手机型号：Solo HD	内存：	颜色：
+序列号：G7KV	手机型号：Solo HD	内存：	颜色：
+序列号：G7L0	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7L1	手机型号：iBeats	内存：	颜色：
+序列号：G7L2	手机型号：iBeats	内存：	颜色：
+序列号：G7L3	手机型号：iBeats	内存：	颜色：
+序列号：G7L4	手机型号：iBeats	内存：	颜色：
+序列号：G7L5	手机型号：Heartbeats (1st generation)	内存：	颜色：
+序列号：G7L7	手机型号：Heartbeats (1st generation)	内存：	颜色：
+序列号：G7L8	手机型号：Heartbeats (1st generation)	内存：	颜色：
+序列号：G7LD	手机型号：Solo (1st generation)	内存：	颜色：
+序列号：G7LG	手机型号：Beatbox Portable (1st generation)	内存：	颜色：
+序列号：G7LH	手机型号：Beatbox Portable (1st generation)	内存：	颜色：
+序列号：G7LJ	手机型号：Beatbox	内存：	颜色：
+序列号：G7LL	手机型号：Heartbeats (2nd generation)	内存：	颜色：
+序列号：G7LM	手机型号：Heartbeats (2nd generation)	内存：	颜色：
+序列号：G7LN	手机型号：Mixr	内存：	颜色：
+序列号：G7LP	手机型号：Mixr	内存：	颜色：
+序列号：G7LQ	手机型号：Powerbeats (1st generation)	内存：	颜色：
+序列号：G7LR	手机型号：Powerbeats (1st generation)	内存：	颜色：
+序列号：G7LT	手机型号：Powerbeats (1st generation)	内存：	颜色：
+序列号：G7LV	手机型号：Pro	内存：	颜色：
+序列号：G7LW	手机型号：Pro	内存：	颜色：
+序列号：G7LY	手机型号：Solo HD	内存：	颜色：
+序列号：G7M1	手机型号：Solo HD	内存：	颜色：
+序列号：G7M3	手机型号：Solo HD	内存：	颜色：
+序列号：G7M5	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7M6	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7M7	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7M8	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7M9	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7MD	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7MG	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7MH	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7MJ	手机型号：Studio (1st generation)	内存：	颜色：
+序列号：G7ML	手机型号：Tour (1st generation)	内存：	颜色：
+序列号：G7MM	手机型号：Tour (1st generation)	内存：	颜色：
+序列号：G7MN	手机型号：Wireless (1.5)	内存：	颜色：
+序列号：G7MP	手机型号：Wireless (1.5)	内存：	颜色：
+序列号：G7MQ	手机型号：iBeats	内存：	颜色：
+序列号：G7RD	手机型号：MacBook Pro (Retina, 13-inch, Mid 2014)	内存：	颜色：
+序列号：G7RF	手机型号：MacBook Pro (Retina, 13-inch, Mid 2014)	内存：	颜色：
+序列号：G7YQ	手机型号：MacBook Pro (Retina, 13-inch, Mid 2014)	内存：	颜色：
+序列号：G7YR	手机型号：MacBook Pro (Retina, 13-inch, Mid 2014)	内存：	颜色：
+序列号：G829	手机型号：MacBook Air (13-inch, Early 2014)	内存：	颜色：
+序列号：G85Y	手机型号：MacBook Pro (Retina, 15-inch, Mid 2014)	内存：	颜色：
+序列号：G86P	手机型号：MacBook Pro (Retina, 15-inch, Mid 2014)	内存：	颜色：
+序列号：G86Q	手机型号：MacBook Pro (Retina, 15-inch, Mid 2014)	内存：	颜色：
+序列号：G86R	手机型号：MacBook Pro (Retina, 15-inch, Mid 2014)	内存：	颜色：
+序列号：G8F4	手机型号：MacBook Pro (Retina, 15-inch, Mid 2014)	内存：	颜色：
+序列号：G8GC	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：G8GD	手机型号：Mac Pro (Late 2013)	内存：	颜色：
+序列号：G8J1	手机型号：MacBook Air (13-inch, Early 2014)	内存：	颜色：
+序列号：G8J7	手机型号：MacBook Pro (Retina, 15-inch, Mid 2014)	内存：	颜色：
+序列号：G8L0	手机型号：MacBook Pro (Retina, 13-inch, Mid 2014)	内存：	颜色：
+序列号：G8L1	手机型号：MacBook Pro (Retina, 15-inch, Mid 2014)	内存：	颜色：
+序列号：G8L2	手机型号：iMac (21.5-inch, Mid 2014)	内存：	颜色：银色
+序列号：G8PM	手机型号：Solo2 Wireless	内存：	颜色：
+序列号：G8PN	手机型号：Solo2 Wireless	内存：	颜色：白色
+序列号：G8PP	手机型号：Solo2 Wireless	内存：	颜色：
+序列号：G8PQ	手机型号：Pill 2.0	内存：	颜色：
+序列号：G8PR	手机型号：Studio Wireless	内存：	颜色：
+序列号：G8PT	手机型号：Solo2 Wireless	内存：	颜色：
+序列号：G8Q1	手机型号：Solo 2	内存：	颜色：
+序列号：G8Q2	手机型号：Solo 2	内存：	颜色：
+序列号：G8Q3	手机型号：Solo 2	内存：	颜色：
+序列号：G8Q4	手机型号：Solo 2	内存：	颜色：
+序列号：G8Q5	手机型号：Solo 2	内存：	颜色：
+序列号：G8WL	手机型号：MacBook Pro (Retina, 15-inch, Mid 2015)	内存：	颜色：银色
+序列号：G8WM	手机型号：MacBook Pro (Retina, 15-inch, Mid 2015)	内存：	颜色：银色
+序列号：G8WN	手机型号：MacBook Pro (Retina, 15-inch, Mid 2015)	内存：	颜色：银色
+序列号：G8WP	手机型号：MacBook Pro (Retina, 15-inch, Mid 2015)	内存：	颜色：银色
+序列号：G8WQ	手机型号：MacBook Pro (Retina, 15-inch, Mid 2015)	内存：	颜色：银色
+序列号：G940	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：G941	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：G942	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：G943	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：G944	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：G96K	手机型号：MacBook Pro (Retina, 15-inch, Mid 2014)	内存：	颜色：
+序列号：G96L	手机型号：MacBook Pro (Retina, 15-inch, Mid 2014)	内存：	颜色：
+序列号：G96M	手机型号：MacBook Pro (Retina, 15-inch, Mid 2014)	内存：	颜色：
+序列号：G96N	手机型号：MacBook Pro (Retina, 15-inch, Mid 2014)	内存：	颜色：
+序列号：G96V	手机型号：MacBook Pro (Retina, 13-inch, Mid 2014)	内存：	颜色：
+序列号：G96W	手机型号：MacBook Pro (Retina, 13-inch, Mid 2014)	内存：	颜色：
+序列号：G96Y	手机型号：MacBook Pro (Retina, 13-inch, Mid 2014)	内存：	颜色：
+序列号：G970	手机型号：MacBook Pro (Retina, 13-inch, Mid 2014)	内存：	颜色：
+序列号：G971	手机型号：MacBook Pro (Retina, 13-inch, Mid 2014)	内存：	颜色：
+序列号：G972	手机型号：MacBook Pro (Retina, 13-inch, Mid 2014)	内存：	颜色：
+序列号：G973	手机型号：MacBook Pro (Retina, 15-inch, Mid 2014)	内存：	颜色：
+序列号：G974	手机型号：MacBook Pro (Retina, 15-inch, Mid 2014)	内存：	颜色：
+序列号：G99D	手机型号：Apple Watch (38mm Aluminum)	内存：8GB	颜色：Silver
+序列号：G99F	手机型号：Apple Watch (38mm Aluminum)	内存：8GB	颜色：Space Gray
+序列号：G9FL	手机型号：MacBook Pro (Retina, 13-inch, Mid 2014)	内存：	颜色：
+序列号：G9FM	手机型号：MacBook Pro (Retina, 13-inch, Mid 2014)	内存：	颜色：
+序列号：G9FN	手机型号：MacBook Pro (Retina, 13-inch, Mid 2014)	内存：	颜色：
+序列号：G9FP	手机型号：MacBook Pro (Retina, 13-inch, Mid 2014)	内存：	颜色：
+序列号：G9FQ	手机型号：MacBook Pro (Retina, 13-inch, Mid 2014)	内存：	颜色：
+序列号：G9FR	手机型号：MacBook Pro (Retina, 13-inch, Mid 2014)	内存：	颜色：
+序列号：G9FT	手机型号：MacBook Pro (Retina, 15-inch, Mid 2014)	内存：	颜色：
+序列号：G9HM	手机型号：Apple Watch (38mm Stainless Steel)	内存：8GB	颜色：Silver Stainless Steel
+序列号：G9HN	手机型号：Apple Watch (38mm Stainless Steel)	内存：8GB	颜色：Black Stainless Steel
+序列号：G9HP	手机型号：Apple Watch 38mm Gold (1st gen)	内存：8GB	颜色：红色
+序列号：G9HQ	手机型号：Apple Watch 38mm Gold (1st gen)	内存：8GB	颜色：灰色
+序列号：G9J5	手机型号：AppleWatch (42mm Aluminum)	内存：8GB	颜色：Silver
+序列号：G9J6	手机型号：AppleWatch (42mm Aluminum)	内存：8GB	颜色：Space Gray
+序列号：G9J8	手机型号：Apple Watch (42mm Stainless Steel)	内存：8GB	颜色：Polished Stainless Steel
+序列号：G9JC	手机型号：Apple Watch (42mm Stainless Steel)	内存：8GB	颜色：Black Stainless Steel
+序列号：G9JD	手机型号：Apple Watch (42mm Gold)	内存：8GB	颜色：白色
+序列号：G9JF	手机型号：Apple Watch (42mm Gold)	内存：8GB	颜色：深空灰色
+序列号：G9JN	手机型号：MacBook Pro (Retina, 15-inch, Mid 2014)	内存：	颜色：
+序列号：G9L6	手机型号：MacBook Pro (Retina, 15-inch, Mid 2014)	内存：	颜色：
+序列号：G9L7	手机型号：MacBook Pro (Retina, 15-inch, Mid 2014)	内存：	颜色：
+序列号：G9L8	手机型号：MacBook Pro (Retina, 15-inch, Mid 2014)	内存：	颜色：
+序列号：G9L9	手机型号：MacBook Pro (Retina, 15-inch, Mid 2014)	内存：	颜色：
+序列号：G9LG	手机型号：Solo 2	内存：	颜色：
+序列号：G9LH	手机型号：Solo 2	内存：	颜色：
+序列号：G9LJ	手机型号：Pill 2.0	内存：	颜色：
+序列号：G9RM	手机型号：Apple TV (4th generation)	内存：32GB	颜色：黑色
+序列号：GC22	手机型号：Wireless (1st generation)	内存：	颜色：
+序列号：GC8J	手机型号：Powerbeats (1st generation)	内存：	颜色：
+序列号：GC8K	手机型号：Powerbeats (1st generation)	内存：	颜色：
+序列号：GC8L	手机型号：Powerbeats (1st generation)	内存：	颜色：
+序列号：GC8M	手机型号：urBeats (1st generation)	内存：	颜色：
+序列号：GC8N	手机型号：urBeats (1st generation)	内存：	颜色：
+序列号：GC8P	手机型号：Solo HD	内存：	颜色：
+序列号：GC8Q	手机型号：Solo HD	内存：	颜色：
+序列号：GC8R	手机型号：Wireless (1st generation)	内存：	颜色：
+序列号：GCLR	手机型号：Apple Watch 42mm Gold (1st gen)	内存：8GB	颜色：蓝色
+序列号：GCLT	手机型号：Apple Watch 38mm Gold (1st gen)	内存：8GB	颜色：白色
+序列号：GCN1	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：深空灰色
+序列号：GCN2	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：深空灰色
+序列号：GCN3	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：深空灰色
+序列号：GCN4	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：深空灰色
+序列号：GCN6	手机型号：Studio Wireless	内存：	颜色：
+序列号：GCNF	手机型号：Pill 2.0	内存：	颜色：
+序列号：GCNK	手机型号：Powerbeats2 Wireless	内存：	颜色：
+序列号：GCNL	手机型号：Pro	内存：	颜色：
+序列号：GCNM	手机型号：Pro	内存：	颜色：
+序列号：GCNN	手机型号：Pro	内存：	颜色：
+序列号：GCNP	手机型号：Pro	内存：	颜色：
+序列号：GCNQ	手机型号：Pro	内存：	颜色：
+序列号：GCNR	手机型号：Pro	内存：	颜色：
+序列号：GCNT	手机型号：Pro	内存：	颜色：
+序列号：GCNW	手机型号：Solo 2	内存：	颜色：
+序列号：GCP0	手机型号：Studio Wireless	内存：	颜色：
+序列号：GCP2	手机型号：Studio Wireless	内存：	颜色：
+序列号：GCP3	手机型号：Tour (2nd generation)	内存：	颜色：
+序列号：GCP4	手机型号：urBeats (2nd generation)	内存：	颜色：
+序列号：GCTM	手机型号：iMac (Retina 5K, 27-inch, Late 2014)	内存：	颜色：银色
+序列号：GCVG	手机型号：Mac mini (Late 2014)	内存：	颜色：银色
+序列号：GCVH	手机型号：Mac mini (Late 2014)	内存：	颜色：银色
+序列号：GCVJ	手机型号：Mac mini (Late 2014)	内存：	颜色：银色
+序列号：GCVN	手机型号：Mac mini (Late 2014)	内存：	颜色：银色
+序列号：GCVP	手机型号：Mac mini (Late 2014)	内存：	颜色：银色
+序列号：GCVQ	手机型号：Mac mini (Late 2014)	内存：	颜色：银色
+序列号：GCVV	手机型号：Mac mini (Late 2014)	内存：	颜色：银色
+序列号：GCVW	手机型号：Mac mini (Late 2014)	内存：	颜色：银色
+序列号：GCVY	手机型号：Mac mini (Late 2014)	内存：	颜色：银色
+序列号：GCW0	手机型号：Mac mini (Late 2014)	内存：	颜色：银色
+序列号：GCW1	手机型号：Mac mini (Late 2014)	内存：	颜色：银色
+序列号：GDJL	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：GDJM	手机型号：MacBook Pro (Retina, 13-inch, Mid 2014)	内存：	颜色：
+序列号：GDL2	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：GDPP	手机型号：MacBook Pro (Retina, 15-inch, Mid 2014)	内存：	颜色：
+序列号：GDQY	手机型号：iMac (Retina 5K, 27-inch, Late 2014)	内存：	颜色：银色
+序列号：GDR3	手机型号：iMac (Retina 5K, 27-inch, Late 2014)	内存：	颜色：银色
+序列号：GDR4	手机型号：iMac (Retina 5K, 27-inch, Late 2014)	内存：	颜色：银色
+序列号：GDR5	手机型号：iMac (Retina 5K, 27-inch, Late 2014)	内存：	颜色：银色
+序列号：GDR6	手机型号：iMac (Retina 5K, 27-inch, Late 2014)	内存：	颜色：银色
+序列号：GDR7	手机型号：iMac (Retina 5K, 27-inch, Late 2014)	内存：	颜色：银色
+序列号：GDR8	手机型号：iMac (Retina 5K, 27-inch, Late 2014)	内存：	颜色：银色
+序列号：GDR9	手机型号：iMac (Retina 5K, 27-inch, Late 2014)	内存：	颜色：银色
+序列号：GDRC	手机型号：iMac (Retina 5K, 27-inch, Late 2014)	内存：	颜色：银色
+序列号：GF1J	手机型号：iMac (21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：GF1K	手机型号：iMac (21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：GF1L	手机型号：iMac (21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：GF1M	手机型号：iMac (21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：GF1N	手机型号：Mac mini (Late 2014)	内存：	颜色：银色
+序列号：GF1Q	手机型号：Mac mini (Late 2014)	内存：	颜色：银色
+序列号：GF1T	手机型号：Mac mini (Late 2014)	内存：	颜色：银色
+序列号：GF65	手机型号：MacBook Pro (13-inch, Mid 2012)	内存：	颜色：
+序列号：GF82	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：金色
+序列号：GF83	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：金色
+序列号：GF84	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：金色
+序列号：GF85	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：金色
+序列号：GFFQ	手机型号：iMac (Retina 5K, 27-inch, Late 2014)	内存：	颜色：银色
+序列号：GFJM	手机型号：urBeats (2nd generation)	内存：	颜色：
+序列号：GFJN	手机型号：urBeats (2nd generation)	内存：	颜色：
+序列号：GFJP	手机型号：urBeats (2nd generation)	内存：	颜色：
+序列号：GFWK	手机型号：MacBook Air (11-inch, Early 2015)	内存：	颜色：银色
+序列号：GFWL	手机型号：MacBook Air (11-inch, Early 2015)	内存：	颜色：银色
+序列号：GFWM	手机型号：MacBook Air (11-inch, Early 2015)	内存：	颜色：银色
+序列号：GFWN	手机型号：MacBook Air (11-inch, Early 2015)	内存：	颜色：银色
+序列号：GFWP	手机型号：MacBook Air (11-inch, Early 2015)	内存：	颜色：银色
+序列号：GG77	手机型号：iMac (21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：GG78	手机型号：iMac (Retina 4K, 21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：GG79	手机型号：iMac (21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：GG7C	手机型号：iMac (Retina 4K, 21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：GG7J	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：GG7L	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：GG7N	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：GG7Q	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：GG7R	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：GG7T	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：GG7V	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：GG80	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：GG81	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：GG82	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：GGK2	手机型号：iPod touch (6th generation)	内存：16GB	颜色：粉色
+序列号：GGK3	手机型号：iPod touch (6th generation)	内存：16GB	颜色：金色
+序列号：GGK4	手机型号：iPod touch (6th generation)	内存：16GB	颜色：蓝色
+序列号：GGK5	手机型号：iPod touch (6th generation)	内存：16GB	颜色：银色
+序列号：GGK6	手机型号：iPod touch (6th generation)	内存：16GB	颜色：深空灰色
+序列号：GGK7	手机型号：iPod touch (6th generation)	内存：16GB	颜色：红色
+序列号：GGK8	手机型号：iPod touch (6th generation)	内存：32GB	颜色：粉色
+序列号：GGK9	手机型号：iPod touch (6th generation)	内存：32GB	颜色：金色
+序列号：GGNJ	手机型号：iPod touch (6th generation)	内存：32GB	颜色：蓝色
+序列号：GGNK	手机型号：iPod touch (6th generation)	内存：32GB	颜色：银色
+序列号：GGNL	手机型号：iPod touch (6th generation)	内存：32GB	颜色：深空灰色
+序列号：GGNM	手机型号：iPod touch (6th generation)	内存：32GB	颜色：红色
+序列号：GGNN	手机型号：iPod touch (6th generation)	内存：64GB	颜色：粉色
+序列号：GGNP	手机型号：iPod touch (6th generation)	内存：64GB	颜色：金色
+序列号：GGNQ	手机型号：iPod touch (6th generation)	内存：64GB	颜色：蓝色
+序列号：GGNR	手机型号：iPod touch (6th generation)	内存：64GB	颜色：银色
+序列号：GGNT	手机型号：iPod touch (6th generation)	内存：64GB	颜色：深空灰色
+序列号：GGNW	手机型号：iPod touch (6th generation)	内存：64GB	颜色：红色
+序列号：GH6W	手机型号：Apple Watch 38mm Gold (1st gen)	内存：8GB	颜色：深空灰色
+序列号：GH82	手机型号：Solo2 Wireless	内存：	颜色：
+序列号：GH83	手机型号：Solo2 Wireless	内存：	颜色：
+序列号：GH84	手机型号：Solo2 Wireless	内存：	颜色：
+序列号：GHFF	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：GHJH	手机型号：iMac (21.5-inch, Late 2013)	内存：	颜色：
+序列号：GHK9	手机型号：iPad mini 4	内存：16GB	颜色：深空灰色
+序列号：GHKC	手机型号：iPad mini 4	内存：16GB	颜色：银色
+序列号：GHKD	手机型号：iPad mini 4	内存：16GB	颜色：金色
+序列号：GHKF	手机型号：iPad mini 4	内存：64GB	颜色：深空灰色
+序列号：GHKG	手机型号：iPad mini 4	内存：64GB	颜色：银色
+序列号：GHKH	手机型号：iPad mini 4	内存：64GB	颜色：金色
+序列号：GHKJ	手机型号：iPad mini 4	内存：128GB	颜色：深空灰色
+序列号：GHKK	手机型号：iPad mini 4	内存：128GB	颜色：银色
+序列号：GHKL	手机型号：iPad mini 4	内存：128GB	颜色：金色
+序列号：GHMG	手机型号：iPad mini 4 Wi-Fi + Cellular	内存：16GB	颜色：深空灰色
+序列号：GHMM	手机型号：iPad mini 4 Wi-Fi + Cellular	内存：64GB	颜色：金色
+序列号：GHMN	手机型号：iPad mini 4 Wi-Fi + Cellular	内存：128GB	颜色：深空灰色
+序列号：GHMP	手机型号：iPad mini 4 Wi-Fi + Cellular	内存：128GB	颜色：银色
+序列号：GHMQ	手机型号：iPad mini 4 Wi-Fi + Cellular	内存：128GB	颜色：金色
+序列号：GHPC	手机型号：urBeats (2nd generation)	内存：	颜色：
+序列号：GHPD	手机型号：urBeats (2nd generation)	内存：	颜色：
+序列号：GHPF	手机型号：urBeats (2nd generation)	内存：	颜色：
+序列号：GHPG	手机型号：urBeats (2nd generation)	内存：	颜色：银色
+序列号：GHPH	手机型号：urBeats (2nd generation)	内存：	颜色：
+序列号：GHPJ	手机型号：urBeats (2nd generation)	内存：	颜色：
+序列号：GHPK	手机型号：urBeats (2nd generation)	内存：	颜色：
+序列号：GHPL	手机型号：urBeats (2nd generation)	内存：	颜色：
+序列号：GJDC	手机型号：Mac mini (Late 2014)	内存：	颜色：银色
+序列号：GJDM	手机型号：iMac (Retina 5K, 27-inch, Late 2014)	内存：	颜色：银色
+序列号：GJDN	手机型号：iMac (Retina 5K, 27-inch, Late 2014)	内存：	颜色：银色
+序列号：GJDP	手机型号：iMac (Retina 5K, 27-inch, Late 2014)	内存：	颜色：银色
+序列号：GJDQ	手机型号：iMac (Retina 5K, 27-inch, Late 2014)	内存：	颜色：银色
+序列号：GK61	手机型号：iPod nano (7th generation, Mid 2015)	内存：16GB	颜色：金色
+序列号：GK62	手机型号：iPod nano (7th generation, Mid 2015)	内存：16GB	颜色：蓝色
+序列号：GK63	手机型号：iPod nano (7th generation, Mid 2015)	内存：16GB	颜色：
+序列号：GKJM	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：GKJN	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：GKJQ	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：银色
+序列号：GKJR	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：银色
+序列号：GKJT	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：GKJV	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：GKJY	手机型号：MacBook Air (11-inch, Early 2015)	内存：	颜色：银色
+序列号：GKK0	手机型号：MacBook Air (11-inch, Early 2015)	内存：	颜色：银色
+序列号：GKK2	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：深空灰色
+序列号：GKK3	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：深空灰色
+序列号：GKK4	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：金色
+序列号：GKK5	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：金色
+序列号：GL1Q	手机型号：iMac (Retina 5K, 27-inch, Mid 2015)	内存：	颜色：银色
+序列号：GL1R	手机型号：iMac (Retina 5K, 27-inch, Mid 2015)	内存：	颜色：银色
+序列号：GL1T	手机型号：iMac (Retina 5K, 27-inch, Mid 2015)	内存：	颜色：银色
+序列号：GL1V	手机型号：iMac (Retina 5K, 27-inch, Mid 2015)	内存：	颜色：银色
+序列号：GL1W	手机型号：iMac (Retina 5K, 27-inch, Mid 2015)	内存：	颜色：银色
+序列号：GL20	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：
+序列号：GL21	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：GL22	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：GL23	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：GL24	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：
+序列号：GL25	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：GL26	手机型号：MacBook Air (11-inch, Early 2015)	内存：	颜色：
+序列号：GL27	手机型号：MacBook Air (11-inch, Early 2015)	内存：	颜色：银色
+序列号：GL28	手机型号：MacBook Air (11-inch, Early 2015)	内存：	颜色：银色
+序列号：GL29	手机型号：MacBook Air (11-inch, Early 2015)	内存：	颜色：银色
+序列号：GL2C	手机型号：MacBook Air (11-inch, Early 2015)	内存：	颜色：
+序列号：GL2D	手机型号：MacBook Air (11-inch, Early 2015)	内存：	颜色：
+序列号：GL2F	手机型号：MacBook Air (11-inch, Early 2015)	内存：	颜色：银色
+序列号：GL2H	手机型号：MacBook Air (11-inch, Early 2015)	内存：	颜色：银色
+序列号：GL34	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：GL35	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：GL36	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：
+序列号：GL37	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：GL5M	手机型号：Powerbeats2 Wireless	内存：	颜色：
+序列号：GL5N	手机型号：Powerbeats2 Wireless	内存：	颜色：
+序列号：GL5P	手机型号：Powerbeats2 Wireless	内存：	颜色：
+序列号：GL5Q	手机型号：Powerbeats2 Wireless	内存：	颜色：
+序列号：GL69	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：银色
+序列号：GL6C	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：银色
+序列号：GL6D	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：深空灰色
+序列号：GL6F	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：深空灰色
+序列号：GL6G	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：金色
+序列号：GLC4	手机型号：Powerbeats2 Wireless	内存：	颜色：
+序列号：GLC5	手机型号：Powerbeats2 Wireless	内存：	颜色：
+序列号：GLC6	手机型号：Powerbeats2 Wireless	内存：	颜色：
+序列号：GLC7	手机型号：Solo2 Wireless	内存：	颜色：
+序列号：GM0V	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：GM0W	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：GM0Y	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：GM10	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：GM11	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：GM12	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：GM13	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：GM14	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：GM15	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：GM16	手机型号：iPod touch (6th generation)	内存：128GB	颜色：粉色
+序列号：GM17	手机型号：iPod touch (6th generation)	内存：128GB	颜色：金色
+序列号：GM18	手机型号：iPod touch (6th generation)	内存：128GB	颜色：蓝色
+序列号：GM19	手机型号：iPod touch (6th generation)	内存：128GB	颜色：银色
+序列号：GM1C	手机型号：iPod touch (6th generation)	内存：128GB	颜色：深空灰色
+序列号：GM1D	手机型号：iPod touch (6th generation)	内存：128GB	颜色：红色
+序列号：GM38	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：GM6M	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：GM9G	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：GMC3	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：GMC5	手机型号：MacBook Air (11-inch, Early 2015)	内存：	颜色：银色
+序列号：GMC6	手机型号：MacBook Air (11-inch, Early 2015)	内存：	颜色：银色
+序列号：GMC7	手机型号：MacBook Air (11-inch, Early 2015)	内存：	颜色：银色
+序列号：GMC8	手机型号：MacBook Air (11-inch, Early 2015)	内存：	颜色：银色
+序列号：GMC9	手机型号：MacBook Air (11-inch, Early 2015)	内存：	颜色：银色
+序列号：GMLG	手机型号：iPad Pro	内存：32GB	颜色：金色
+序列号：GMLL	手机型号：iPad Pro	内存：128GB	颜色：深空灰色
+序列号：GMLM	手机型号：iPad Pro	内存：128GB	颜色：银色
+序列号：GMLN	手机型号：iPad Pro	内存：128GB	颜色：金色
+序列号：GMLT	手机型号：iPad Pro	内存：256GB	颜色：深空灰色
+序列号：GMLV	手机型号：iPad Pro	内存：256GB	颜色：银色
+序列号：GMLW	手机型号：iPad Pro	内存：256GB	颜色：金色
+序列号：GMW3	手机型号：iPad Pro Wi-Fi + Cellular	内存：128GB	颜色：深空灰色
+序列号：GMW4	手机型号：iPad Pro Wi-Fi + Cellular	内存：128GB	颜色：银色
+序列号：GMW5	手机型号：iPad Pro Wi-Fi + Cellular	内存：128GB	颜色：金色
+序列号：GMW6	手机型号：iPad Pro Wi-Fi + Cellular	内存：256GB	颜色：深空灰色
+序列号：GMW7	手机型号：iPad Pro Wi-Fi + Cellular	内存：256GB	颜色：银色
+序列号：GMW8	手机型号：iPad Pro Wi-Fi + Cellular	内存：256GB	颜色：金色
+序列号：GMYQ	手机型号：Studio Wireless	内存：	颜色：
+序列号：GMYR	手机型号：Studio Wireless	内存：	颜色：
+序列号：GMYT	手机型号：Studio Wireless	内存：	颜色：
+序列号：GMYV	手机型号：Studio Wireless	内存：	颜色：
+序列号：GMYW	手机型号：Studio Wireless	内存：	颜色：
+序列号：GMYY	手机型号：Studio Wireless	内存：	颜色：
+序列号：GN02	手机型号：Mac mini (Late 2014)	内存：	颜色：银色
+序列号：GN8C	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：GNJG	手机型号：MacBook Air (11-inch, Early 2015)	内存：	颜色：银色
+序列号：GNJJ	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：GNJK	手机型号：MacBook Air (11-inch, Early 2015)	内存：	颜色：银色
+序列号：GNJL	手机型号：MacBook Air (11-inch, Early 2015)	内存：	颜色：银色
+序列号：GNKM	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：GNL0	手机型号：Mac mini (Late 2014)	内存：	颜色：银色
+序列号：GP4H	手机型号：MacBook Pro (Retina, 15-inch, Mid 2015)	内存：	颜色：银色
+序列号：GP4J	手机型号：MacBook Pro (Retina, 15-inch, Mid 2015)	内存：	颜色：银色
+序列号：GP4L	手机型号：MacBook Air (13-inch, Early 2014)	内存：	颜色：
+序列号：GP4M	手机型号：MacBook Air (13-inch, Early 2014)	内存：	颜色：
+序列号：GP4N	手机型号：MacBook Air (11-inch, Early 2014)	内存：	颜色：
+序列号：GP4P	手机型号：MacBook Air (11-inch, Early 2014)	内存：	颜色：
+序列号：GPJN	手机型号：iMac (Retina 5K, 27-inch, Late 2014)	内存：	颜色：银色
+序列号：GPKK	手机型号：Studio Wireless	内存：	颜色：
+序列号：GPKL	手机型号：Studio Wireless	内存：	颜色：
+序列号：GPLM	手机型号：MacBook Pro (Retina, 15-inch, Mid 2015)	内存：	颜色：银色
+序列号：GPLN	手机型号：MacBook Pro (Retina, 15-inch, Mid 2015)	内存：	颜色：银色
+序列号：GPLP	手机型号：MacBook Pro (Retina, 15-inch, Mid 2015)	内存：	颜色：银色
+序列号：GQ17	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：GQ65	手机型号：Powerbeats3 Wireless	内存：0GB	颜色：黑色
+序列号：GQ66	手机型号：Powerbeats3 Wireless	内存：0GB	颜色：白色
+序列号：GQCL	手机型号：MacBook Pro (Retina, 15-inch, Mid 2015)	内存：	颜色：银色
+序列号：GQCM	手机型号：MacBook Pro (Retina, 15-inch, Mid 2015)	内存：	颜色：银色
+序列号：GQCP	手机型号：MacBook Pro (Retina, 15-inch, Mid 2015)	内存：	颜色：银色
+序列号：GQCQ	手机型号：MacBook Pro (Retina, 15-inch, Mid 2015)	内存：	颜色：银色
+序列号：GQCR	手机型号：MacBook Pro (Retina, 15-inch, Mid 2015)	内存：	颜色：银色
+序列号：GQCT	手机型号：MacBook Pro (Retina, 15-inch, Mid 2015)	内存：	颜色：银色
+序列号：GQCX	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：GQDV	手机型号：EP	内存：	颜色：黑色
+序列号：GQDX	手机型号：EP	内存：	颜色：
+序列号：GQDY	手机型号：EP	内存：	颜色：
+序列号：GQF0	手机型号：EP	内存：	颜色：
+序列号：GQF7	手机型号：Solo 2	内存：	颜色：
+序列号：GQF8	手机型号：Solo 2	内存：	颜色：
+序列号：GQF9	手机型号：Solo 2	内存：	颜色：
+序列号：GQQT	手机型号：Siri Remote	内存：	颜色：
+序列号：GQR4	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：GQR5	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：GQR6	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：GR18	手机型号：Solo 2	内存：	颜色：
+序列号：GR6H	手机型号：Studio Wireless	内存：	颜色：
+序列号：GR79	手机型号：Apple Watch (38mm Aluminum)	内存：8GB	颜色：Rose Gold
+序列号：GR7C	手机型号：Apple Watch (38mm Aluminum)	内存：8GB	颜色：Yellow Gold
+序列号：GR7M	手机型号：AppleWatch (42mm Aluminum)	内存：8GB	颜色：Rose Gold
+序列号：GR7N	手机型号：AppleWatch (42mm Aluminum)	内存：8GB	颜色：Yellow Gold
+序列号：GR7R	手机型号：Apple Watch (38mm Hermès)	内存：8GB	颜色：Polished Stainless Steel
+序列号：GR81	手机型号：Apple Watch (42mm Hermès)	内存：8GB	颜色：Polished Stainless Steel
+序列号：GR88	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：银色
+序列号：GR89	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：银色
+序列号：GR8C	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：深空灰色
+序列号：GR8D	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：深空灰色
+序列号：GR8F	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：金色
+序列号：GR8G	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：金色
+序列号：GR8J	手机型号：iPhone 6s Smart Battery Case	内存：	颜色：
+序列号：GR8K	手机型号：iPhone 6s Smart Battery Case	内存：	颜色：
+序列号：GR8L	手机型号：iPhone 6s Smart Battery Case	内存：	颜色：
+序列号：GR8M	手机型号：iPhone 6s Smart Battery Case	内存：	颜色：
+序列号：GR8N	手机型号：iPhone 6s Smart Battery Case	内存：	颜色：
+序列号：GR8P	手机型号：iPhone 6s Smart Battery Case	内存：	颜色：
+序列号：GR8Q	手机型号：iPhone 6s Smart Battery Case	内存：	颜色：
+序列号：GR8R	手机型号：iPhone 6s Smart Battery Case	内存：	颜色：
+序列号：GRT3	手机型号：Apple Watch (42mm Gold)	内存：8GB	颜色：蓝色
+序列号：GRTV	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：GRWD	手机型号：iPhone 6s Plus	内存：16GB	颜色：深空灰色
+序列号：GRWF	手机型号：iPhone 6s Plus	内存：16GB	颜色：深空灰色
+序列号：GRWH	手机型号：iPhone 6s Plus	内存：16GB	颜色：银色
+序列号：GRWJ	手机型号：iPhone 6s Plus	内存：16GB	颜色：银色
+序列号：GRWL	手机型号：iPhone 6s Plus	内存：16GB	颜色：金色
+序列号：GRWM	手机型号：iPhone 6s Plus	内存：16GB	颜色：金色
+序列号：GRWP	手机型号：iPhone 6s Plus	内存：16GB	颜色：玫瑰金色
+序列号：GRWY	手机型号：iPhone 6s Plus	内存：64GB	颜色：银色
+序列号：GRX1	手机型号：iPhone 6s Plus	内存：64GB	颜色：金色
+序列号：GRX2	手机型号：iPhone 6s Plus	内存：64GB	颜色：金色
+序列号：GRX4	手机型号：iPhone 6s Plus	内存：64GB	颜色：玫瑰金色
+序列号：GRX5	手机型号：iPhone 6s Plus	内存：64GB	颜色：玫瑰金色
+序列号：GRX7	手机型号：iPhone 6s Plus	内存：128GB	颜色：深空灰色
+序列号：GRX8	手机型号：iPhone 6s Plus	内存：128GB	颜色：深空灰色
+序列号：GRXC	手机型号：iPhone 6s Plus	内存：128GB	颜色：银色
+序列号：GRXD	手机型号：iPhone 6s Plus	内存：128GB	颜色：银色
+序列号：GRXG	手机型号：iPhone 6s Plus	内存：128GB	颜色：金色
+序列号：GRXH	手机型号：iPhone 6s Plus	内存：128GB	颜色：金色
+序列号：GRXK	手机型号：iPhone 6s Plus	内存：128GB	颜色：玫瑰金色
+序列号：GRXL	手机型号：iPhone 6s Plus	内存：128GB	颜色：玫瑰金色
+序列号：GRXQ	手机型号：iPhone 6s	内存：16GB	颜色：深空灰色
+序列号：GRXR	手机型号：iPhone 6s	内存：16GB	颜色：银色
+序列号：GRXT	手机型号：iPhone 6s	内存：16GB	颜色：金色
+序列号：GRY0	手机型号：iPhone 6s	内存：64GB	颜色：玫瑰金色
+序列号：GRY1	手机型号：iPhone 6s	内存：128GB	颜色：深空灰色
+序列号：GRY2	手机型号：iPhone 6s	内存：128GB	颜色：银色
+序列号：GRY3	手机型号：iPhone 6s	内存：128GB	颜色：金色
+序列号：GRY4	手机型号：iPhone 6s	内存：128GB	颜色：玫瑰金色
+序列号：GRY5	手机型号：iPhone 6s	内存：16GB	颜色：深空灰色
+序列号：GRY6	手机型号：iPhone 6s	内存：16GB	颜色：银色
+序列号：GRY7	手机型号：iPhone 6s	内存：16GB	颜色：金色
+序列号：GRY8	手机型号：iPhone 6s	内存：16GB	颜色：玫瑰金色
+序列号：GRY9	手机型号：iPhone 6s	内存：64GB	颜色：深空灰色
+序列号：GRYC	手机型号：iPhone 6s	内存：64GB	颜色：银色
+序列号：GRYD	手机型号：iPhone 6s	内存：64GB	颜色：金色
+序列号：GRYF	手机型号：iPhone 6s	内存：64GB	颜色：玫瑰金色
+序列号：GRYG	手机型号：iPhone 6s	内存：128GB	颜色：深空灰色
+序列号：GRYH	手机型号：iPhone 6s	内存：128GB	颜色：银色
+序列号：GRYJ	手机型号：iPhone 6s	内存：128GB	颜色：金色
+序列号：GRYK	手机型号：iPhone 6s	内存：128GB	颜色：玫瑰金色
+序列号：GTDX	手机型号：MacBook Pro (13-inch, Late 2016, Four Thunderbolt 3 Ports)	内存：	颜色：深空灰色
+序列号：GTDY	手机型号：MacBook Pro (15-inch, Late 2016)	内存：	颜色：深空灰色
+序列号：GTF1	手机型号：MacBook Pro (15-inch, Late 2016)	内存：	颜色：深空灰色
+序列号：GTFJ	手机型号：MacBook Pro (13-inch, Late 2016, Four Thunderbolt 3 Ports)	内存：	颜色：深空灰色
+序列号：GTFK	手机型号：MacBook Pro (13-inch, 2016, Four Thunderbolt 3 Ports)	内存：	颜色：银色
+序列号：GTFL	手机型号：MacBook Pro (15-inch, Late 2016)	内存：	颜色：深空灰色
+序列号：GTFM	手机型号：MacBook Pro (15-inch, Late 2016)	内存：	颜色：深空灰色
+序列号：GTFN	手机型号：MacBook Pro (15-inch, 2016)	内存：	颜色：深空灰色
+序列号：GTGW	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：银色
+序列号：GTHR	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：银色
+序列号：GTHT	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：深空灰色
+序列号：GTHV	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：深空灰色
+序列号：GTHW	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：银色
+序列号：GTHX	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：银色
+序列号：GTHY	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：银色
+序列号：GTJ0	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：银色
+序列号：GTJ1	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：金色
+序列号：GTJ2	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：金色
+序列号：GTJ3	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：深空灰色
+序列号：GTJ4	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：深空灰色
+序列号：GTJ6	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：银色
+序列号：GTJ7	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：银色
+序列号：GTJ8	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：银色
+序列号：GTJ9	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：银色
+序列号：GTJC	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：金色
+序列号：GTJD	手机型号：MacBook (Retina, 12-inch, Early 2016)	内存：	颜色：金色
+序列号：GTVM	手机型号：Solo2 Wireless	内存：	颜色：
+序列号：GTVN	手机型号：Powerbeats2 Wireless	内存：	颜色：
+序列号：GV7V	手机型号：iMac (Retina 5K, 27-inch, Late 2014)	内存：	颜色：银色
+序列号：GVC1	手机型号：MacBook Pro (13-inch, Late 2016, Two Thunderbolt 3 ports)	内存：	颜色：深空灰色
+序列号：GVC8	手机型号：MacBook Pro (13-inch, Late 2016, Two Thunderbolt 3 ports)	内存：	颜色：深空灰色
+序列号：GVKC	手机型号：Powerbeats2 Wireless	内存：	颜色：
+序列号：GVKD	手机型号：Solo2 Wireless	内存：	颜色：
+序列号：GW0V	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：GW0W	手机型号：iMac (27-inch, Late 2013)	内存：	颜色：
+序列号：GWDN	手机型号：MacBook Pro (Retina, 15-inch, Mid 2015)	内存：	颜色：银色
+序列号：GWDP	手机型号：MacBook Pro (Retina, 15-inch, Mid 2015)	内存：	颜色：银色
+序列号：GWJ2	手机型号：Apple Pencil	内存：	颜色：
+序列号：GWL6	手机型号：Solo2 Wireless	内存：	颜色：
+序列号：GWL7	手机型号：Solo2 Wireless	内存：	颜色：
+序列号：GWL8	手机型号：urBeats (2nd generation)	内存：	颜色：玫瑰金色
+序列号：GWLC	手机型号：Studio Wireless	内存：	颜色：
+序列号：GWTJ	手机型号：Apple Pencil	内存：	颜色：
+序列号：GWTL	手机型号：Smart Keyboard	内存：8GB	颜色：Dark Gray
+序列号：GXD0	手机型号：Siri Remote	内存：	颜色：
+序列号：GXD2	手机型号：Siri Remote	内存：	颜色：
+序列号：GXD3	手机型号：Siri Remote	内存：	颜色：
+序列号：GXD4	手机型号：Siri Remote	内存：	颜色：
+序列号：GXH8	手机型号：Apple TV (4th generation)	内存：64GB	颜色：黑色
+序列号：GXHN	手机型号：Siri Remote	内存：	颜色：
+序列号：GXPX	手机型号：iPad Pro (9.7-inch, Wi-Fi + Cellular)	内存：32GB	颜色：深空灰色
+序列号：GXPY	手机型号：iPad Pro (9.7-inch, Wi-Fi + Cellular)	内存：32GB	颜色：银色
+序列号：GXQ0	手机型号：iPad Pro (9.7-inch, Wi-Fi + Cellular)	内存：32GB	颜色：金色
+序列号：GXQ4	手机型号：iPad Pro (9.7-inch, Wi-Fi + Cellular)	内存：128GB	颜色：深空灰色
+序列号：GXQ5	手机型号：iPad Pro (9.7-inch, Wi-Fi + Cellular)	内存：128GB	颜色：银色
+序列号：GXQ6	手机型号：iPad Pro (9.7-inch, Wi-Fi + Cellular)	内存：128GB	颜色：金色
+序列号：GXQ7	手机型号：iPad Pro (9.7-inch, Wi-Fi + Cellular)	内存：256GB	颜色：深空灰色
+序列号：GXQ8	手机型号：iPad Pro (9.7-inch, Wi-Fi + Cellular)	内存：256GB	颜色：银色
+序列号：GXQ9	手机型号：iPad Pro (9.7-inch, Wi-Fi + Cellular)	内存：256GB	颜色：金色
+序列号：GY0W	手机型号：Siri Remote	内存：	颜色：
+序列号：GY25	手机型号：MacBook Pro (13-inch, Late 2016, Two Thunderbolt 3 ports)	内存：	颜色：银色
+序列号：GY6N	手机型号：MacBook Pro (13-inch, Late 2016, Two Thunderbolt 3 ports)	内存：	颜色：银色
+序列号：GYFH	手机型号：MacBook Pro (13-inch, Late 2016, Four Thunderbolt 3 Ports)	内存：	颜色：银色
+序列号：GYGR	手机型号：MacBook Pro (13-inch, Late 2016, Four Thunderbolt 3 Ports)	内存：	颜色：银色
+序列号：G07R	手机型号：iPhone 5c (8GB)	内存：8GB	颜色：蓝色
+序列号：G07T	手机型号：iPhone 5c (8GB)	内存：8GB	颜色：绿色
+序列号：G07V	手机型号：iPhone 5c (8GB)	内存：8GB	颜色：粉色
+序列号：G5QW	手机型号：iPhone 6 Plus	内存：64GB	颜色：银色
+序列号：G5QY	手机型号：iPhone 6 Plus	内存：64GB	颜色：金色
+序列号：G5R0	手机型号：iPhone 6 Plus	内存：128GB	颜色：深空灰色
+序列号：G5R1	手机型号：iPhone 6 Plus	内存：128GB	颜色：银色
+序列号：G5V5	手机型号：iPad mini 3	内存：64GB	颜色：银色
+序列号：G5V6	手机型号：iPad mini 3	内存：64GB	颜色：金色
+序列号：G5V7	手机型号：iPad mini 3	内存：128GB	颜色：深空灰色
+序列号：G5V8	手机型号：iPad mini 3	内存：128GB	颜色：银色
+序列号：G96P	手机型号：MacBook Pro (Retina, 15-inch, Mid 2014)	内存：	颜色：
+序列号：G96Q	手机型号：MacBook Pro (Retina, 15-inch, Mid 2014)	内存：	颜色：
+序列号：G96R	手机型号：MacBook Pro (Retina, 13-inch, Mid 2014)	内存：	颜色：
+序列号：G96T	手机型号：MacBook Pro (Retina, 13-inch, Mid 2014)	内存：	颜色：
+序列号：GG7D	手机型号：iMac (21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：GG7F	手机型号：iMac (Retina 4K, 21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：GG7G	手机型号：iMac (21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：GG7H	手机型号：iMac (Retina 4K, 21.5-inch, Late 2015)	内存：	颜色：银色
+序列号：GHMH	手机型号：iPad mini 4 Wi-Fi + Cellular	内存：32GB	颜色：银色
+序列号：GHMJ	手机型号：iPad mini 4 Wi-Fi + Cellular	内存：16GB	颜色：金色
+序列号：GHMK	手机型号：iPad mini 4 Wi-Fi + Cellular	内存：64GB	颜色：深空灰色
+序列号：GHML	手机型号：iPad mini 4 Wi-Fi + Cellular	内存：64GB	颜色：银色
+序列号：GHPM	手机型号：urBeats (2nd generation)	内存：	颜色：
+序列号：GHPN	手机型号：urBeats (2nd generation)	内存：8GB	颜色：Matte Black
+序列号：GHRN	手机型号：Mac mini (Late 2014)	内存：	颜色：银色
+序列号：GHV0	手机型号：Studio (2nd generation)	内存：	颜色：
+序列号：GKJG	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：GL6H	手机型号：MacBook (Retina, 12-inch, Early 2015)	内存：	颜色：金色
+序列号：GLC8	手机型号：Solo2 Wireless	内存：	颜色：
+序列号：GLC9	手机型号：Solo2 Wireless	内存：	颜色：
+序列号：GLCN	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：GLCP	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：GLCQ	手机型号：MacBook Air (11-inch, Early 2015)	内存：	颜色：银色
+序列号：GLK7	手机型号：MacBook Air (13-inch, Early 2014)	内存：	颜色：
+序列号：GLK8	手机型号：MacBook Air (13-inch, Early 2014)	内存：	颜色：
+序列号：GLK9	手机型号：MacBook Air (11-inch, Early 2014)	内存：	颜色：
+序列号：GMD3	手机型号：MacBook Air (13-inch, Early 2015)	内存：	颜色：银色
+序列号：GMDF	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：GMLD	手机型号：iPad Pro	内存：32GB	颜色：深空灰色
+序列号：GMLF	手机型号：iPad Pro	内存：32GB	颜色：银色
+序列号：GN24	手机型号：MacBook Pro (Retina, 13-inch, Early 2015)	内存：	颜色：银色
+序列号：GQ18	手机型号：iMac (Retina 5K, 27-inch, Late 2015)	内存：	颜色：银色
+序列号：GQ62	手机型号：MacBook Pro (Retina, 15-inch, Mid 2015)	内存：	颜色：银色
+序列号：GQ63	手机型号：MacBook Pro (Retina, 15-inch, Mid 2015)	内存：	颜色：银色
+序列号：GQ64	手机型号：MacBook Pro (Retina, 15-inch, Mid 2015)	内存：	颜色：银色
+序列号：GRWQ	手机型号：iPhone 6s Plus	内存：16GB	颜色：玫瑰金色
+序列号：GRWT	手机型号：iPhone 6s Plus	内存：64GB	颜色：深空灰色
+序列号：GRWV	手机型号：iPhone 6s Plus	内存：64GB	颜色：深空灰色
+序列号：GRWX	手机型号：iPhone 6s Plus	内存：64GB	颜色：银色
+序列号：GRXV	手机型号：iPhone 6s	内存：16GB	颜色：玫瑰金色
+序列号：GRXW	手机型号：iPhone 6s	内存：64GB	颜色：深空灰色
+序列号：GRXX	手机型号：iPhone 6s	内存：64GB	颜色：银色
+序列号：GRXY	手机型号：iPhone 6s	内存：64GB	颜色：金色
+序列号：G083	手机型号：MacBook Air (11-inch, Early 2014)	内存：	颜色：
+序列号：G770	手机型号：urBeats (2nd generation)	内存：	颜色：
+序列号：G774	手机型号：Powerbeats2 Wireless	内存：	颜色：
+序列号：G776	手机型号：Powerbeats2 Wireless	内存：	颜色：
+序列号：G775	手机型号：Powerbeats2 Wireless	内存：	颜色：
+
+
