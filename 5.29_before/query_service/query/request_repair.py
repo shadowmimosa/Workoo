@@ -128,9 +128,9 @@ class RepairSalt(object):
         }
         self.zhima_url = "http://webapi.http.zhimacangku.com/getip?num=1&type=1&pro=&city=0&yys=0&port=1&pack=55163&ts=0&ys=0&cs=0&lb=1&sb=0&pb=45&mr=1&regions="
 
-        # self.proxies=False
-        # self.init_abuyun()
-        self.init_zhima()
+        # self.proxies = False
+        self.init_abuyun()
+        # self.init_zhima()
 
     def init_abuyun(self):
         proxyHost = "http-dyn.abuyun.com"
@@ -291,6 +291,9 @@ class RepairSalt(object):
                 resp = self.deal_re(
                     byte=byte, url=url, header=header, data=data)
             elif resp.status_code == 503:
+                print(resp.text)
+            elif resp.status_code == 429:
+                print(resp)
                 print(resp.text)
             else:
                 print("---> {} 请求失败！状态码为{}，共耗时{:.3}秒\n".format(

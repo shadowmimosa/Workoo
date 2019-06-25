@@ -1,0 +1,4639 @@
+{
+    "success": 1,
+    "result": {
+        "categories": [
+            {
+                "modelId": "5cf011cc0321e",
+                "categoryId": "6",
+                "rank": 1000,
+                "name": "Recommended For You",
+                "bookIds": "14357,14238,14193,14282,14289,14527,14138,14327,14161,14348,14449,14099,14119,14392,14236,14177,14243,14272,14374,14259,14159,14266,14246,14254,14168,14534,14122,14324,14510,14458,14410,14512,14532,14126,14195,14146,48691,14190,14120,14124,14303,14413,14382,14444,14335,48687,36604,62535,48684,14386",
+                "bookData": [],
+                "userId": "46250489",
+                "featured": 0,
+                "spotlight": 0,
+                "browse": 1,
+                "hasChildren": 0,
+                "icon": "",
+                "bookTypes": [
+                    2
+                ],
+                "filterType": null,
+                "filterIndex": null,
+                "filterCode": null,
+                "books": [
+                    {
+                        "modelId": "14357",
+                        "title": "Emily's First 100 Days Of School",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.3",
+                        "lexileLevel": "650L",
+                        "grLevel": "M",
+                        "isConverted": [
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "fandpLevel": "M",
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14238",
+                        "title": "The Snowy Day",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.5",
+                        "lexileLevel": "500L",
+                        "grLevel": "J",
+                        "fandpLevel": "K",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "20",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14193",
+                        "title": "Petunia",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.1",
+                        "lexileLevel": "510L",
+                        "grLevel": "M",
+                        "isConverted": [
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "fandpLevel": "M",
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14282",
+                        "title": "Too Many Toys",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.0",
+                        "lexileLevel": "600L",
+                        "grLevel": "L",
+                        "isConverted": [
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "fandpLevel": "L",
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14289",
+                        "title": "Voyage to the Bunny Planet",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14527",
+                        "title": "Super Fly Guy",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "1.7",
+                        "lexileLevel": "360L",
+                        "grLevel": "H",
+                        "fandpLevel": "H",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "14",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14138",
+                        "title": "The Most Wonderful Egg in the World",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.4",
+                        "lexileLevel": "620L",
+                        "grLevel": "K",
+                        "fandpLevel": "M",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14327",
+                        "title": "Danny and the Dinosaur",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.3",
+                        "lexileLevel": "400L",
+                        "grLevel": "J",
+                        "fandpLevel": "J",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "18",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14161",
+                        "title": "Boy Who Cried Wolf",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.7",
+                        "lexileLevel": "430L",
+                        "isConverted": [
+                            "lexile_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "grLevel": "K",
+                        "fandpLevel": "K",
+                        "draLevel": "20",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14348",
+                        "title": "Duck on a Bike",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.0",
+                        "lexileLevel": "440L",
+                        "grLevel": "J",
+                        "fandpLevel": "I",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "16",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14449",
+                        "title": "The Little Red Hen",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.9",
+                        "lexileLevel": "480L",
+                        "isConverted": [
+                            "lexile_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "grLevel": "J",
+                        "fandpLevel": "L",
+                        "draLevel": "24",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14099",
+                        "title": "All the World",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.5",
+                        "isConverted": [
+                            "accelerated_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "380L",
+                        "grLevel": "K",
+                        "fandpLevel": "K",
+                        "draLevel": "20",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14119",
+                        "title": "Max's Chocolate Chicken",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "1.9",
+                        "lexileLevel": "500L",
+                        "grLevel": "K",
+                        "fandpLevel": "I",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "14",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14392",
+                        "title": "He's Got the Whole World in his Hands",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "0.1",
+                        "isConverted": [
+                            "accelerated_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "170L",
+                        "grLevel": "A",
+                        "fandpLevel": "A",
+                        "draLevel": "1",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14236",
+                        "title": "Smile for Auntie",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14177",
+                        "title": "The Owl and the Pussy-Cat",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14243",
+                        "title": "Spoon",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.3",
+                        "lexileLevel": "520L",
+                        "grLevel": "K",
+                        "fandpLevel": "J",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "18",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14272",
+                        "title": "This Land Is Your Land",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "4.7",
+                        "lexileLevel": "830L",
+                        "isConverted": [
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "grLevel": "R",
+                        "fandpLevel": "R",
+                        "draLevel": "40",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14374",
+                        "title": "Giraffes Can't Dance",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.8",
+                        "lexileLevel": "570L",
+                        "grLevel": "M",
+                        "fandpLevel": "O",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "34",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14259",
+                        "title": "The Tale of Two Bad Mice",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14159",
+                        "title": "Blueberries for Sal",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "4.1",
+                        "lexileLevel": "600L",
+                        "grLevel": "M",
+                        "fandpLevel": "P",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "38",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14266",
+                        "title": "The Teacher from the Black Lagoon",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.4",
+                        "lexileLevel": "490L",
+                        "grLevel": "K",
+                        "fandpLevel": "J",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "18",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14246",
+                        "title": "Stone Soup",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.3",
+                        "lexileLevel": "550L",
+                        "grLevel": "M",
+                        "fandpLevel": "M",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14254",
+                        "title": "T Is for Terrible",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "1.4",
+                        "lexileLevel": "120L",
+                        "isConverted": [
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "grLevel": "F",
+                        "fandpLevel": "F",
+                        "draLevel": "10",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14168",
+                        "title": "Open Wide: Tooth School Inside",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "4.3",
+                        "lexileLevel": "600L",
+                        "grLevel": "Q",
+                        "isConverted": [
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "fandpLevel": "Q",
+                        "draLevel": "40",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14534",
+                        "title": "When Sophie Gets Angry - Really, Really Angry",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "1.4",
+                        "lexileLevel": "340L",
+                        "grLevel": "K",
+                        "fandpLevel": "F",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "10",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14122",
+                        "title": "Millions of Cats",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.5",
+                        "lexileLevel": "580L",
+                        "grLevel": "K",
+                        "fandpLevel": "N",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14324",
+                        "title": "Antarctic Antics",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.6",
+                        "lexileLevel": "630L",
+                        "isConverted": [
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "grLevel": "N",
+                        "fandpLevel": "N",
+                        "draLevel": "30",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14510",
+                        "title": "Clifford's Christmas",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "1.9",
+                        "lexileLevel": "380L",
+                        "grLevel": "K",
+                        "fandpLevel": "I",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "14",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14458",
+                        "title": "The Magic School Bus: Lost in the Solar System",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.7",
+                        "lexileLevel": "570L",
+                        "grLevel": "P",
+                        "fandpLevel": "N",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "30",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14410",
+                        "title": "I Lost My Bear",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.1",
+                        "lexileLevel": "450L",
+                        "grLevel": "I",
+                        "isConverted": [
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "fandpLevel": "I",
+                        "draLevel": "16",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14512",
+                        "title": "Clifford's Happy Easter",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14532",
+                        "title": "There Was An Old Lady Who Swallowed Some Leaves",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.4",
+                        "lexileLevel": "350L",
+                        "grLevel": "J",
+                        "isConverted": [
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "fandpLevel": "J",
+                        "draLevel": "18",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14126",
+                        "title": "Miss Nelson Has a Field Day",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14195",
+                        "title": "A Picture for Harold's Room",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14146",
+                        "title": "My Senator and Me",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "5.1",
+                        "lexileLevel": "750L",
+                        "grLevel": "T",
+                        "isConverted": [
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "fandpLevel": "T",
+                        "draLevel": "50",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "48691",
+                        "title": "Supertruck",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.5",
+                        "isConverted": [
+                            "accelerated_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "370L",
+                        "grLevel": "K",
+                        "fandpLevel": "K",
+                        "draLevel": "20",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14190",
+                        "title": "Chicken Little",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.3",
+                        "lexileLevel": "500L",
+                        "grLevel": "J",
+                        "isConverted": [
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "fandpLevel": "J",
+                        "draLevel": "18",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14120",
+                        "title": "Max's Christmas",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.7",
+                        "isConverted": [
+                            "accelerated_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "420L",
+                        "grLevel": "D",
+                        "fandpLevel": "K",
+                        "draLevel": "20",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14124",
+                        "title": "May I Bring a Friend?",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "1.9",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "230L",
+                        "grLevel": "I",
+                        "fandpLevel": "I",
+                        "draLevel": "14",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14303",
+                        "title": "Will I Have a Friend?",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14413",
+                        "title": "I'm Dirty",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "1.4",
+                        "lexileLevel": "400L",
+                        "grLevel": "F",
+                        "isConverted": [
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "fandpLevel": "F",
+                        "draLevel": "10",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14382",
+                        "title": "Goose",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14444",
+                        "title": "Little Bear's Visit",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.3",
+                        "lexileLevel": "BR460L",
+                        "grLevel": "J",
+                        "fandpLevel": "J",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "18",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14335",
+                        "title": "Dinosaur Bones",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.6",
+                        "lexileLevel": "600L",
+                        "grLevel": "N",
+                        "isConverted": [
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "fandpLevel": "N",
+                        "draLevel": "30",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "48687",
+                        "title": "Leo: A Ghost Story",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.2",
+                        "isConverted": [
+                            "accelerated_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "540L",
+                        "grLevel": "M",
+                        "fandpLevel": "M",
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "36604",
+                        "title": "Henry and Mudge Under the Yellow Moon",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "62535",
+                        "title": "Misunderstood Shark-Friends Don't Eat Friends",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.4",
+                        "lexileLevel": "500L",
+                        "grLevel": "J",
+                        "isConverted": [
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "fandpLevel": "J",
+                        "draLevel": "18",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "48684",
+                        "title": "Groovy Joe: Ice Cream & Dinosaurs",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "1.5",
+                        "lexileLevel": "330L",
+                        "grLevel": "G",
+                        "isConverted": [
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "fandpLevel": "G",
+                        "draLevel": "12",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14386",
+                        "title": "Happy Birthday, Moon",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    }
+                ]
+            },
+            {
+                "modelId": "5cf011cc42193",
+                "categoryId": "6",
+                "rank": 999,
+                "name": "Popular",
+                "bookIds": "14178,14247,14416,14430,14158,14449,14109,14112,14096,14198,14189,14385,14360,14401,14122,14529,14110,14363,14418,14171,14410,14167,14256,14136,14324,14510,14272,14448,14095,14159,14377,14242,14254,14521,14444,14506,36604,62533,36600,14140,14411,14356,14121,14137,36603,14194,62305,14362,14286,14340",
+                "bookData": [],
+                "userId": "46250489",
+                "featured": 0,
+                "spotlight": 0,
+                "browse": 1,
+                "hasChildren": 0,
+                "icon": "",
+                "bookTypes": [
+                    2
+                ],
+                "filterType": null,
+                "filterIndex": null,
+                "filterCode": null,
+                "books": [
+                    {
+                        "modelId": "14178",
+                        "title": "Cat and Canary",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14247",
+                        "title": "Stone Soup",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.6",
+                        "lexileLevel": "560L",
+                        "grLevel": "M",
+                        "fandpLevel": "N",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "30",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14416",
+                        "title": "I'm Fast",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.0",
+                        "lexileLevel": "450L",
+                        "grLevel": "L",
+                        "isConverted": [
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "fandpLevel": "L",
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14430",
+                        "title": "Jonah and the Great Fish",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14158",
+                        "title": "Not So Fast Songololo",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.0",
+                        "isConverted": [
+                            "accelerated_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "490L",
+                        "grLevel": "M",
+                        "fandpLevel": "L",
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14449",
+                        "title": "The Little Red Hen",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.9",
+                        "lexileLevel": "480L",
+                        "isConverted": [
+                            "lexile_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "grLevel": "J",
+                        "fandpLevel": "L",
+                        "draLevel": "24",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14109",
+                        "title": "Madeline's Rescue",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.2",
+                        "lexileLevel": "460L",
+                        "grLevel": "K",
+                        "fandpLevel": "M",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14112",
+                        "title": "Make Way for Ducklings",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "4.1",
+                        "lexileLevel": "710L",
+                        "grLevel": "P",
+                        "isConverted": [
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "fandpLevel": "P",
+                        "draLevel": "38",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14096",
+                        "title": "A Letter to Amy",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.4",
+                        "lexileLevel": "430L",
+                        "grLevel": "K",
+                        "fandpLevel": "J",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "18",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14198",
+                        "title": "Click Clack Moo: Cows That Type",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.3",
+                        "lexileLevel": "470L",
+                        "grLevel": "M",
+                        "fandpLevel": "J",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "18",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14189",
+                        "title": "Pet Show!",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.2",
+                        "lexileLevel": "300L",
+                        "grLevel": "K",
+                        "fandpLevel": "J",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "18",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14385",
+                        "title": "Hansel and Gretel",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.9",
+                        "lexileLevel": "600L",
+                        "grLevel": "O",
+                        "isConverted": [
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "fandpLevel": "O",
+                        "draLevel": "34",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14360",
+                        "title": "First The Egg",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14401",
+                        "title": "How Do Dinosaurs Eat Their Food?",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "1.7",
+                        "lexileLevel": "490L",
+                        "grLevel": "I",
+                        "fandpLevel": "H",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "14",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14122",
+                        "title": "Millions of Cats",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.5",
+                        "lexileLevel": "580L",
+                        "grLevel": "K",
+                        "fandpLevel": "N",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14529",
+                        "title": "There Was an Old Lady Who Swallowed a Bell!",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.6",
+                        "lexileLevel": "420L",
+                        "grLevel": "L",
+                        "fandpLevel": "K",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "20",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14110",
+                        "title": "Apt. #3",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.6",
+                        "lexileLevel": "510L",
+                        "grLevel": "M",
+                        "fandpLevel": "K",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "20",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14363",
+                        "title": "Fletcher and the Falling Leaves",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.2",
+                        "lexileLevel": "570L",
+                        "grLevel": "M",
+                        "isConverted": [
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "fandpLevel": "M",
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14418",
+                        "title": "In the Small, Small Pond",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14171",
+                        "title": "Burt Dow: Deep Water Man",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "5.5",
+                        "lexileLevel": "920L",
+                        "isConverted": [
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "grLevel": "U",
+                        "fandpLevel": "U",
+                        "draLevel": "50",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14410",
+                        "title": "I Lost My Bear",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.1",
+                        "lexileLevel": "450L",
+                        "grLevel": "I",
+                        "isConverted": [
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "fandpLevel": "I",
+                        "draLevel": "16",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14167",
+                        "title": "Bugs! Bugs! Bugs!",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14256",
+                        "title": "The Tale of Mr. Jeremy Fisher",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14136",
+                        "title": "Noisy Nora",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14324",
+                        "title": "Antarctic Antics",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.6",
+                        "lexileLevel": "630L",
+                        "isConverted": [
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "grLevel": "N",
+                        "fandpLevel": "N",
+                        "draLevel": "30",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14510",
+                        "title": "Clifford's Christmas",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "1.9",
+                        "lexileLevel": "380L",
+                        "grLevel": "K",
+                        "fandpLevel": "I",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "14",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14272",
+                        "title": "This Land Is Your Land",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "4.7",
+                        "lexileLevel": "830L",
+                        "isConverted": [
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "grLevel": "R",
+                        "fandpLevel": "R",
+                        "draLevel": "40",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14448",
+                        "title": "The Little Old Lady Who Was Not Afraid of Anything",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.5",
+                        "lexileLevel": "710L",
+                        "grLevel": "N",
+                        "isConverted": [
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "fandpLevel": "N",
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14095",
+                        "title": "Little Red Lighthouse and the Great Gray Bridge",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.9",
+                        "lexileLevel": "530L",
+                        "grLevel": "M",
+                        "fandpLevel": "L",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "24",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14159",
+                        "title": "Blueberries for Sal",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "4.1",
+                        "lexileLevel": "600L",
+                        "grLevel": "M",
+                        "fandpLevel": "P",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "38",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14377",
+                        "title": "Goldilocks and the Three Bears",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.1",
+                        "lexileLevel": "520L",
+                        "grLevel": "M",
+                        "fandpLevel": "M",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14242",
+                        "title": "Splat the Cat",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "1.9",
+                        "lexileLevel": "500L",
+                        "grLevel": "I",
+                        "isConverted": [
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "fandpLevel": "I",
+                        "draLevel": "14",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14254",
+                        "title": "T Is for Terrible",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "1.4",
+                        "lexileLevel": "120L",
+                        "isConverted": [
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "grLevel": "F",
+                        "fandpLevel": "F",
+                        "draLevel": "10",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14521",
+                        "title": "The Little Red Hen",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.9",
+                        "lexileLevel": "470L",
+                        "grLevel": "K",
+                        "fandpLevel": "L",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "24",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14444",
+                        "title": "Little Bear's Visit",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.3",
+                        "lexileLevel": "BR460L",
+                        "grLevel": "J",
+                        "fandpLevel": "J",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "18",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14506",
+                        "title": "Clifford at the Circus",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.1",
+                        "lexileLevel": "480L",
+                        "grLevel": "M",
+                        "fandpLevel": "I",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "16",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "36604",
+                        "title": "Henry and Mudge Under the Yellow Moon",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "62533",
+                        "title": "Misunderstood Shark",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.0",
+                        "lexileLevel": "480L",
+                        "grLevel": "I",
+                        "isConverted": [
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "fandpLevel": "I",
+                        "draLevel": "16",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "36600",
+                        "title": "Happy Endings: A Story About Suffixes",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14140",
+                        "title": "Norman the Doorman",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "5.2",
+                        "lexileLevel": "890L",
+                        "grLevel": "T",
+                        "isConverted": [
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "fandpLevel": "T",
+                        "draLevel": "50",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14411",
+                        "title": "I Stink!",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14356",
+                        "title": "The Elves and the Shoemaker",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14121",
+                        "title": "Attic of the Wind",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14137",
+                        "title": "Morris's Disappearing Bag",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.4",
+                        "lexileLevel": "450L",
+                        "grLevel": "I",
+                        "fandpLevel": "J",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "18",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "36603",
+                        "title": "Henry and Mudge in the Sparkle Days",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14194",
+                        "title": "Children Make Terrible Pets",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "62305",
+                        "title": "Leo The Late Bloomer",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "0.1",
+                        "isConverted": [
+                            "accelerated_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "120L",
+                        "grLevel": "I",
+                        "fandpLevel": "A",
+                        "draLevel": "1",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14362",
+                        "title": "Five Creatures",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14286",
+                        "title": "A Very Brave Witch",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "1.4",
+                        "lexileLevel": "120L",
+                        "isConverted": [
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "grLevel": "F",
+                        "fandpLevel": "F",
+                        "draLevel": "10",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14340",
+                        "title": "Dooby Dooby Moo",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.1",
+                        "lexileLevel": "490L",
+                        "grLevel": "M",
+                        "fandpLevel": "M",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "28",
+                        "contentHash": ""
+                    }
+                ]
+            },
+            {
+                "modelId": "5cf011cc72b81",
+                "categoryId": "6",
+                "rank": 998,
+                "name": "All Time Favorites",
+                "bookIds": "14131,14492,14478,14297,14102,14479,14345,14447,14176,14374,14159,14351,14524,14458,14396,14373,14510,14257,14253,14412,14444,14457,14433,16109,14509,14188,14321,14506,14507",
+                "bookData": [],
+                "userId": "46250489",
+                "featured": 0,
+                "spotlight": 0,
+                "browse": 1,
+                "hasChildren": 0,
+                "icon": "",
+                "bookTypes": [
+                    2
+                ],
+                "filterType": null,
+                "filterIndex": null,
+                "filterCode": null,
+                "books": [
+                    {
+                        "modelId": "14131",
+                        "title": "Miss Nelson Is Missing!",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.7",
+                        "lexileLevel": "BR320L",
+                        "grLevel": "L",
+                        "fandpLevel": "K",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "20",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14492",
+                        "title": "A Bad Case of Stripes",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.8",
+                        "lexileLevel": "610L",
+                        "grLevel": "P",
+                        "fandpLevel": "O",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "34",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14478",
+                        "title": "Clifford the Big Red Dog",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "1.2",
+                        "lexileLevel": "370L",
+                        "grLevel": "J",
+                        "fandpLevel": "F",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "10",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14297",
+                        "title": "Where the Wild Things Are",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.4",
+                        "lexileLevel": "740L",
+                        "grLevel": "J",
+                        "fandpLevel": "M",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14102",
+                        "title": "Lon Po Po: A Red Riding Hood Story From China",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.5",
+                        "lexileLevel": "670L",
+                        "grLevel": "S",
+                        "fandpLevel": "N",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14479",
+                        "title": "The Velveteen Rabbit",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.5",
+                        "lexileLevel": "820L",
+                        "grLevel": "Q",
+                        "fandpLevel": "N",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14345",
+                        "title": "Doctor De Soto",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.6",
+                        "lexileLevel": "560L",
+                        "grLevel": "N",
+                        "fandpLevel": "N",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "30",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14447",
+                        "title": "The Little House",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14176",
+                        "title": "Caps for Sale",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.1",
+                        "lexileLevel": "480L",
+                        "grLevel": "K",
+                        "fandpLevel": "M",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14374",
+                        "title": "Giraffes Can't Dance",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.8",
+                        "lexileLevel": "570L",
+                        "grLevel": "M",
+                        "fandpLevel": "O",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "34",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14159",
+                        "title": "Blueberries for Sal",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "4.1",
+                        "lexileLevel": "600L",
+                        "grLevel": "M",
+                        "fandpLevel": "P",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "38",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14351",
+                        "title": "Each Peach Pear Plum",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "1.5",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "140L",
+                        "grLevel": "G",
+                        "fandpLevel": "G",
+                        "draLevel": "12",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14524",
+                        "title": "Pigsty",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.8",
+                        "lexileLevel": "590L",
+                        "grLevel": "K",
+                        "fandpLevel": "L",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "24",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14458",
+                        "title": "The Magic School Bus: Lost in the Solar System",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.7",
+                        "lexileLevel": "570L",
+                        "grLevel": "P",
+                        "fandpLevel": "N",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "30",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14396",
+                        "title": "Hi! Fly Guy",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "1.5",
+                        "lexileLevel": "380L",
+                        "grLevel": "I",
+                        "fandpLevel": "G",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "12",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14373",
+                        "title": "Giggle, Giggle, Quack",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14510",
+                        "title": "Clifford's Christmas",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "1.9",
+                        "lexileLevel": "380L",
+                        "grLevel": "K",
+                        "fandpLevel": "I",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "14",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14257",
+                        "title": "The Tale of Peter Rabbit",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14253",
+                        "title": "Sylvester and the Magic Pebble",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14412",
+                        "title": "I Want My Hat Back",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "1.0",
+                        "lexileLevel": "230L",
+                        "grLevel": "J",
+                        "fandpLevel": "E",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "8",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14444",
+                        "title": "Little Bear's Visit",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.3",
+                        "lexileLevel": "BR460L",
+                        "grLevel": "J",
+                        "fandpLevel": "J",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "18",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14457",
+                        "title": "The Magic School Bus: Inside the Earth",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.6",
+                        "lexileLevel": "500L",
+                        "grLevel": "P",
+                        "fandpLevel": "N",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "30",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14433",
+                        "title": "A Kiss for Little Bear",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "16109",
+                        "title": "Cloudy With a Chance of Meatballs",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14509",
+                        "title": "Clifford's Birthday Party",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.5",
+                        "lexileLevel": "450L",
+                        "grLevel": "M",
+                        "fandpLevel": "K",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "20",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14188",
+                        "title": "Chicka, Chicka 1,2,3",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14321",
+                        "title": "Creepy Carrots",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14506",
+                        "title": "Clifford at the Circus",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.1",
+                        "lexileLevel": "480L",
+                        "grLevel": "M",
+                        "fandpLevel": "I",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "16",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14507",
+                        "title": "Clifford Takes a Trip",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.0",
+                        "lexileLevel": "500L",
+                        "grLevel": "L",
+                        "fandpLevel": "I",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "16",
+                        "contentHash": ""
+                    }
+                ]
+            },
+            {
+                "modelId": "5cf011cc98b04",
+                "categoryId": "6",
+                "rank": 997,
+                "name": "Daily Life",
+                "bookIds": "14505,14448,14330,14243,14120,14439,14308,14425,48690,14119,48694,48687,14522,14195,14191,14418,14302,14277,14523,14182,14296,14376,14143,14110,55890,55886,14149,14440,55887,36601,36602,36603,55891,36604,62305,62355,54226,53155,62041,48691,14236,14386,48683,14520,14145,14482,14408,14159,14136,14095",
+                "bookData": [],
+                "userId": "46250489",
+                "featured": 0,
+                "spotlight": 0,
+                "browse": 1,
+                "hasChildren": 0,
+                "icon": "",
+                "bookTypes": [
+                    2
+                ],
+                "filterType": null,
+                "filterIndex": null,
+                "filterCode": null,
+                "books": [
+                    {
+                        "modelId": "14505",
+                        "title": "The Biggest, Best Snowman",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.6",
+                        "lexileLevel": "480L",
+                        "grLevel": "L",
+                        "fandpLevel": "N",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "30",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14448",
+                        "title": "The Little Old Lady Who Was Not Afraid of Anything",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.5",
+                        "lexileLevel": "710L",
+                        "grLevel": "N",
+                        "isConverted": [
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "fandpLevel": "N",
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14330",
+                        "title": "The Day of the Dead",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.2",
+                        "isConverted": [
+                            "accelerated_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "530L",
+                        "grLevel": "M",
+                        "fandpLevel": "M",
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14243",
+                        "title": "Spoon",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.3",
+                        "lexileLevel": "520L",
+                        "grLevel": "K",
+                        "fandpLevel": "J",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "18",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14120",
+                        "title": "Max's Christmas",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.7",
+                        "isConverted": [
+                            "accelerated_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "420L",
+                        "grLevel": "D",
+                        "fandpLevel": "K",
+                        "draLevel": "20",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14439",
+                        "title": "Lemonade in Winter",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14308",
+                        "title": "Yo! Yes?",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14425",
+                        "title": "Joey Runs Away",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "48690",
+                        "title": "Stick and Stone",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.1",
+                        "isConverted": [
+                            "accelerated_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "250L",
+                        "grLevel": "I",
+                        "fandpLevel": "I",
+                        "draLevel": "16",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14119",
+                        "title": "Max's Chocolate Chicken",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "1.9",
+                        "lexileLevel": "500L",
+                        "grLevel": "K",
+                        "fandpLevel": "I",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "14",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "48694",
+                        "title": "The Very First Thanksgiving Day",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.9",
+                        "lexileLevel": "800L",
+                        "grLevel": "O",
+                        "isConverted": [
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "fandpLevel": "O",
+                        "draLevel": "34",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "48687",
+                        "title": "Leo: A Ghost Story",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.2",
+                        "isConverted": [
+                            "accelerated_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "540L",
+                        "grLevel": "M",
+                        "fandpLevel": "M",
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14522",
+                        "title": "The Littlest Pumpkin",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.8",
+                        "lexileLevel": "620L",
+                        "grLevel": "J",
+                        "fandpLevel": "O",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "34",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14195",
+                        "title": "A Picture for Harold's Room",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14191",
+                        "title": "Peter's Chair",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "1.8",
+                        "lexileLevel": "500L",
+                        "grLevel": "J",
+                        "fandpLevel": "H",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "14",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14418",
+                        "title": "In the Small, Small Pond",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14302",
+                        "title": "Wilfrid Gordon McDonald Partridge",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.5",
+                        "lexileLevel": "560L",
+                        "grLevel": "N",
+                        "fandpLevel": "N",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14277",
+                        "title": "Time of Wonder",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "5.1",
+                        "lexileLevel": "940L",
+                        "grLevel": "S",
+                        "fandpLevel": "T",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "50",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14523",
+                        "title": "Peter Cottontail",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14182",
+                        "title": "Charlie Needs a Cloak",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.3",
+                        "lexileLevel": "500L",
+                        "grLevel": "I",
+                        "fandpLevel": "J",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "18",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14296",
+                        "title": "The Wheels on the Bus",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14376",
+                        "title": "Goggles!",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "1.8",
+                        "lexileLevel": "440L",
+                        "grLevel": "J",
+                        "fandpLevel": "H",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "14",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14143",
+                        "title": "Musical Max",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14110",
+                        "title": "Apt. #3",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.6",
+                        "lexileLevel": "510L",
+                        "grLevel": "M",
+                        "fandpLevel": "K",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "20",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "55890",
+                        "title": "You Can Read",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.5",
+                        "isConverted": [
+                            "accelerated_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "380L",
+                        "grLevel": "K",
+                        "fandpLevel": "K",
+                        "draLevel": "20",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "55886",
+                        "title": "Spare Dog Parts",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.4",
+                        "isConverted": [
+                            "accelerated_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "570L",
+                        "grLevel": "M",
+                        "fandpLevel": "M",
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14149",
+                        "title": "Benjamin and Tulip",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14440",
+                        "title": "Lentil",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "55887",
+                        "title": "What Matters",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.3",
+                        "isConverted": [
+                            "accelerated_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "560L",
+                        "grLevel": "M",
+                        "fandpLevel": "M",
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "36601",
+                        "title": "Henry and Mudge in Puddle Trouble",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "36602",
+                        "title": "Henry and Mudge in the Green Time",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "36603",
+                        "title": "Henry and Mudge in the Sparkle Days",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "55891",
+                        "title": "You Hold Me Up",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "0.1",
+                        "isConverted": [
+                            "accelerated_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "50L",
+                        "grLevel": "A",
+                        "fandpLevel": "A",
+                        "draLevel": "1",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "36604",
+                        "title": "Henry and Mudge Under the Yellow Moon",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "62305",
+                        "title": "Leo The Late Bloomer",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "0.1",
+                        "isConverted": [
+                            "accelerated_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "120L",
+                        "grLevel": "I",
+                        "fandpLevel": "A",
+                        "draLevel": "1",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "62355",
+                        "title": "We Found A Hat",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "0.1",
+                        "isConverted": [
+                            "accelerated_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "140L",
+                        "grLevel": "G",
+                        "fandpLevel": "A",
+                        "draLevel": "1",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "54226",
+                        "title": "What Does a Zoologist Do?",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "53155",
+                        "title": "Fiesta Fiasco",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "62041",
+                        "title": "The Case for Loving: The Fight for Interracial Marriage",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "4.1",
+                        "isConverted": [
+                            "accelerated_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "720L",
+                        "grLevel": "P",
+                        "fandpLevel": "P",
+                        "draLevel": "38",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "48691",
+                        "title": "Supertruck",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.5",
+                        "isConverted": [
+                            "accelerated_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "370L",
+                        "grLevel": "K",
+                        "fandpLevel": "K",
+                        "draLevel": "20",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14236",
+                        "title": "Smile for Auntie",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14386",
+                        "title": "Happy Birthday, Moon",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "48683",
+                        "title": "Friendshape",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.6",
+                        "isConverted": [
+                            "accelerated_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "390L",
+                        "grLevel": "K",
+                        "fandpLevel": "K",
+                        "draLevel": "20",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14520",
+                        "title": "I Miss You, Stinky Face",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.1",
+                        "lexileLevel": "610L",
+                        "grLevel": "M",
+                        "fandpLevel": "M",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14145",
+                        "title": "My Garden",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14482",
+                        "title": "I Love You, Stinky Face",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "4.2",
+                        "lexileLevel": "810L",
+                        "grLevel": "N",
+                        "fandpLevel": "P",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "38",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14408",
+                        "title": "I Like Me!",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14159",
+                        "title": "Blueberries for Sal",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "4.1",
+                        "lexileLevel": "600L",
+                        "grLevel": "M",
+                        "fandpLevel": "P",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "38",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14136",
+                        "title": "Noisy Nora",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14095",
+                        "title": "Little Red Lighthouse and the Great Gray Bridge",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.9",
+                        "lexileLevel": "530L",
+                        "grLevel": "M",
+                        "fandpLevel": "L",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "24",
+                        "contentHash": ""
+                    }
+                ]
+            },
+            {
+                "modelId": "5cf011ccb5fec",
+                "categoryId": "6",
+                "rank": 996,
+                "name": "School",
+                "bookIds": "14296,14303,14128,14126,14576,14577,14574,14575,62087,14233,48689,36590",
+                "bookData": [],
+                "userId": "46250489",
+                "featured": 0,
+                "spotlight": 0,
+                "browse": 1,
+                "hasChildren": 0,
+                "icon": "",
+                "bookTypes": [
+                    2
+                ],
+                "filterType": null,
+                "filterIndex": null,
+                "filterCode": null,
+                "books": [
+                    {
+                        "modelId": "14296",
+                        "title": "The Wheels on the Bus",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14303",
+                        "title": "Will I Have a Friend?",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14128",
+                        "title": "Miss Nelson Is Back",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14126",
+                        "title": "Miss Nelson Has a Field Day",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14576",
+                        "title": "Ready, Freddy: Don't Sit On My Lunch!",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.2",
+                        "lexileLevel": "640L",
+                        "grLevel": "L",
+                        "fandpLevel": "M",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14577",
+                        "title": "Ready, Freddy: Halloween Fraidy-Cat",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.3",
+                        "lexileLevel": "570L",
+                        "grLevel": "N",
+                        "fandpLevel": "M",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14574",
+                        "title": "Ready, Freddy: Tooth Trouble",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.3",
+                        "lexileLevel": "640L",
+                        "grLevel": "L",
+                        "fandpLevel": "M",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14575",
+                        "title": "Ready, Freddy: Homework Hassles",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.5",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "610L",
+                        "grLevel": "N",
+                        "fandpLevel": "N",
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "62087",
+                        "title": "Grace For President",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.4",
+                        "isConverted": [
+                            "accelerated_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "570L",
+                        "grLevel": "N",
+                        "fandpLevel": "M",
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14233",
+                        "title": "Shrinking Violet",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "48689",
+                        "title": "School's First Day of School",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.4",
+                        "isConverted": [
+                            "accelerated_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "580L",
+                        "grLevel": "M",
+                        "fandpLevel": "M",
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "36590",
+                        "title": "Countdown to Kindergarten",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    }
+                ]
+            },
+            {
+                "modelId": "5cf011ccd27f4",
+                "categoryId": "6",
+                "rank": 995,
+                "name": "Non-Fiction",
+                "bookIds": "14411,14244,19626,14168,14427,14290,54143,54145,54142,54228,54229,55890,55872,54147,14146,54144,61141,55887,61183,14118,61165,61171,61203,55891,61189,61179,61153,61159,61197,61175,54226,61193,53205,53200,53201,14360,14335,52522,49099,14115,49071,49070,14237,49047,54057,55889,14293,49064,49100,55823",
+                "bookData": [],
+                "userId": "46250489",
+                "featured": 0,
+                "spotlight": 0,
+                "browse": 1,
+                "hasChildren": 0,
+                "icon": "",
+                "bookTypes": [
+                    2
+                ],
+                "filterType": null,
+                "filterIndex": null,
+                "filterCode": null,
+                "books": [
+                    {
+                        "modelId": "14411",
+                        "title": "I Stink!",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14244",
+                        "title": "The Star-Spangled Banner",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "19626",
+                        "title": "The Tiny Seed",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14168",
+                        "title": "Open Wide: Tooth School Inside",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "4.3",
+                        "lexileLevel": "600L",
+                        "grLevel": "Q",
+                        "isConverted": [
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "fandpLevel": "Q",
+                        "draLevel": "40",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14427",
+                        "title": "John, Paul, George, and Ben",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.7",
+                        "lexileLevel": "660L",
+                        "grLevel": "P",
+                        "fandpLevel": "N",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "30",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14290",
+                        "title": "Waiting for Wings",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "54143",
+                        "title": "Let's Learn Division",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "54145",
+                        "title": "Let's Learn Addition",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "54142",
+                        "title": "What Do Physicists Do?",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "54228",
+                        "title": "Let's Learn Multiplication",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "54229",
+                        "title": "Advanced Phonics",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "55890",
+                        "title": "You Can Read",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "2.5",
+                        "isConverted": [
+                            "accelerated_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "380L",
+                        "grLevel": "K",
+                        "fandpLevel": "K",
+                        "draLevel": "20",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "55872",
+                        "title": "The Littlest Sled Dog",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.5",
+                        "isConverted": [
+                            "accelerated_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "590L",
+                        "grLevel": "N",
+                        "fandpLevel": "N",
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "54147",
+                        "title": "Learn Your States and Capitals",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14146",
+                        "title": "My Senator and Me",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "5.1",
+                        "lexileLevel": "750L",
+                        "grLevel": "T",
+                        "isConverted": [
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "fandpLevel": "T",
+                        "draLevel": "50",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "54144",
+                        "title": "Let's Learn Subtraction",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "61141",
+                        "title": "Dinosaurs: Where Did All The Dinosaurs Go?",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "55887",
+                        "title": "What Matters",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.3",
+                        "isConverted": [
+                            "accelerated_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "560L",
+                        "grLevel": "M",
+                        "fandpLevel": "M",
+                        "draLevel": "28",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "61183",
+                        "title": "Let's Go On A Dinosaur Dig",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14118",
+                        "title": "Ashanti to Zulu",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "4.9",
+                        "lexileLevel": "900L",
+                        "grLevel": "P",
+                        "fandpLevel": "S",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "40",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "61165",
+                        "title": "Dinosaurs: Tyrannosaurus Rex Didn't Get His Supper",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "61171",
+                        "title": "Dinosaurs: I'm Not A Dinosaur",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "61203",
+                        "title": "Dinosaurs: I Found A Fossil",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "55891",
+                        "title": "You Hold Me Up",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "0.1",
+                        "isConverted": [
+                            "accelerated_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "50L",
+                        "grLevel": "A",
+                        "fandpLevel": "A",
+                        "draLevel": "1",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "61189",
+                        "title": "Dinosaurs: Plesiosaurus, Do You Like To Swim?",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "61179",
+                        "title": "Dinosaurs: The Brachiosaurus Rap",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "61153",
+                        "title": "Dinosaurs: It's The Three-Horned Dinosaur",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "61159",
+                        "title": "Dinosaurs: What Colors Were The Dinosaurs?",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "61197",
+                        "title": "Dinosaurs: When I Grow Up I Want To Be A Paleontologist",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "61175",
+                        "title": "Dinosaurs: I Am Stegosaurus",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "54226",
+                        "title": "What Does a Zoologist Do?",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "61193",
+                        "title": "Dinosaurs: Good Things Come In Small Packages",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "53205",
+                        "title": "The Pumpkin Book",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "53200",
+                        "title": "Pigs",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "53201",
+                        "title": "Polar Bears",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14360",
+                        "title": "First The Egg",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14335",
+                        "title": "Dinosaur Bones",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "3.6",
+                        "lexileLevel": "600L",
+                        "grLevel": "N",
+                        "isConverted": [
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "fandpLevel": "N",
+                        "draLevel": "30",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "52522",
+                        "title": "Alligators and Crocodiles",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "49099",
+                        "title": "I'm The Great White Shark",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14115",
+                        "title": "Martin's Big Words",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "49071",
+                        "title": "Blue Whale, Blue Whale",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "49070",
+                        "title": "It's The Dolphin Symphony",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14237",
+                        "title": "Snowflake Bentley",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "4.4",
+                        "lexileLevel": "830L",
+                        "grLevel": "Q",
+                        "fandpLevel": "Q",
+                        "isConverted": [
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "draLevel": "40",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "49047",
+                        "title": "What Is A Spider?",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "54057",
+                        "title": "Save the Sea Turtles",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "55889",
+                        "title": "Wolf Island",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "5.1",
+                        "isConverted": [
+                            "accelerated_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "880L",
+                        "grLevel": "T",
+                        "fandpLevel": "T",
+                        "draLevel": "50",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "14293",
+                        "title": "What Do You Do with a Tail Like This?",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "49064",
+                        "title": "Manatees Are Lovable Huge Things",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "49100",
+                        "title": "Sea Otter Won't You Play With Me?",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "",
+                        "isConverted": [
+                            "accelerated_level",
+                            "lexile_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "",
+                        "grLevel": "",
+                        "fandpLevel": "",
+                        "draLevel": "",
+                        "contentHash": ""
+                    },
+                    {
+                        "modelId": "55823",
+                        "title": "The Seal Garden",
+                        "type": 2,
+                        "active": 1,
+                        "audio": 0,
+                        "arLevel": "6.1",
+                        "isConverted": [
+                            "accelerated_level",
+                            "guided_reading_level",
+                            "fandp_level",
+                            "dra_level"
+                        ],
+                        "lexileLevel": "980L",
+                        "grLevel": "W",
+                        "fandpLevel": "W",
+                        "draLevel": "70",
+                        "contentHash": ""
+                    }
+                ]
+            }
+        ],
+        "recommendedRows": [],
+        "deleteModelKeys": [
+            "PlaylistCategory"
+        ],
+        "caching": "no-cache"
+    },
+    "messages": []
+}

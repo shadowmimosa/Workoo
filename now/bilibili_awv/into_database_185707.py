@@ -9,6 +9,7 @@ import time
 from logging.handlers import RotatingFileHandler
 from pymysql.err import InternalError
 import re
+import sys
 
 
 class BiliDeal(object):
@@ -309,17 +310,43 @@ def multi_query(processes=10):
 
 
 class DataClean():
-    def __init__(self):
+    def __init__(self, sign):
         self.sql_sel_info = "SELECT * FROM `av_info` WHERE `id` = {};"
         self.sql_sel_comment = "SELECT * FROM `comment_{}` WHERE `avid` = {};"
         self.sql_sel_count = "SELECT * FROM `comment_count` WHERE `content` = '{}' LIMIT 1;"
         self.sql_insert_count = "INSERT INTO `bili_awv`.`comment_count`(`content`, `count`) VALUES ('{}', '{}');"
         self.sql_update_count = "UPDATE `bili_awv`.`comment_count` SET`count` = {} WHERE `id` = {};"
         self.sql_insert_count_multi = "INSERT INTO `bili_awv`.`comment_count_{}`(`content`, `count`) VALUES ('{}', NULL);"
+
+        self.sql_sel_comment_by_time = "SELECT * FROM `bili_awv`.`comment_total` WHERE id = {}"
+        self.sql_insert_word_by_time = "INSERT INTO `bili_awv`.`word_{}_{}`(`content`) VALUES ('{}');"
+        self.expression = re.compile(r"\[.*\]")
+
+        if sign == 1:
+            self.name = ["2015", "0"]
+        elif sign == 2:
+            self.name = ["2015", "1"]
+        elif sign == 3:
+            self.name = ["2016", "0"]
+        elif sign == 4:
+            self.name = ["2016", "1"]
+        elif sign == 5:
+            self.name = ["2017", "0"]
+        elif sign == 6:
+            self.name = ["2017", "1"]
+        elif sign == 7:
+            self.name = ["2018", "0"]
+        elif sign == 8:
+            self.name = ["2018", "1"]
+        elif sign == 9:
+            self.name = ["2019", "0"]
+
+        self.sql_insert_comment = ""
         self.init_log()
         self.init_mysql()
         self.df = pd.DataFrame(columns=["avid", "content"])
         # self.run()
+        # self.multi_run()
         # self.ecnu_cursor.close()
 
     def init_log(self):
@@ -352,6 +379,21 @@ class DataClean():
 
         self.logger = logger
 
+    def build_table(self):
+        sql = """
+        CREATE TABLE `bili_awv`.`word_{}_{}`  (
+        `id` int(20) NOT NULL AUTO_INCREMENT,
+        `content` varchar(255) NOT NULL,
+        PRIMARY KEY (`id`)
+        ) ENGINE = INNODB DEFAULT CHARSET = UTF8MB4;
+        """
+        for i in [2015, 2016, 2017, 2018, 2019]:
+            for j in [0, 1]:
+                if i == 2019 and j == 1:
+                    break
+                else:
+                    self.ecnu_cursor.execute(sql.format(i, j))
+
     def init_mysql(self):
         try:
             self.ecnu_mysql = pymysql.connect(
@@ -362,7 +404,8 @@ class DataClean():
                 database="bili_awv",
                 use_unicode=True,
                 charset="utf8mb4",
-                autocommit=True)
+                autocommit=True,
+                max_allowed_packet="1000M")
         except pymysql.err.OperationalError as exc:
             print('登录失败！TimeoutError!')
             os._exit(0)
@@ -454,40 +497,124 @@ class DataClean():
                 print("--->Info: the {} is successful".format(index))
         self.df.to_csv("./data/raw_{}.csv".format(int(time.time())))
 
+    def deal_expression(self, content):
+        return re.sub(self.expression, " ", content)
+
     def multi_run(self, index):
-        self.ecnu_cursor.execute(self.sql_sel_info.format(index))
-        self.ecnu_cursor.execute(self.sql_sel_info.format(index))
-        count = self.ecnu_cursor.fetchone()
+        # self.build_table()
+        # sql = "INSERT INTO `comment_count_backup`(`content`, `count`) VALUES (\"%s\", %s);"
 
-        if self.judge_count(count):
-            avid = count[1]
-        else:
-            return
+        # start_time = time.time()
+        # for index in range(0,1000):
+        #     self.ecnu_cursor.execute(sql % ("当时", "22"))
+        # end_time = time.time() - start_time
+        # print(end_time)
 
-        self.ecnu_cursor.execute(self.sql_sel_comment.format(avid % 128, avid))
-        data = self.ecnu_cursor.fetchall()
+        # start_time = time.time()
+        # a = []
+        # time1 = time.time()
+        # for index in range(0,1000):
+        #     a.append(('66', '222'))
+        # print(time.time()-time1)
+        # self.ecnu_cursor.executemany(sql, a)
+        # end_time = time.time() - start_time
+        # print(end_time)
 
-        for value in data:
-            sign = ""
-            zh = value[3]
-            # zh = '当时最喜欢这段了！歌也贼好听！'
-            for singe in zh:
-                if self.check_zh(singe):
-                    sign += singe
-                    if len(sign) == 2:
+        # self.ecnu_cursor.execute(self.sql_sel_info.format(index))
+        # count = self.ecnu_cursor.fetchone()
 
-                        self.ecnu_cursor.execute(
-                            self.sql_insert_count_multi.format(
-                                index % 5, sign))
+        # if self.judge_count(count):
+        #     avid = count[1]
+        # else:
+        #     return
 
-                        sign = sign[-1]
-                else:
-                    sign = ""
+        # self.ecnu_cursor.execute(self.sql_sel_comment.format(avid % 128, avid))
+        # data = self.ecnu_cursor.fetchall()
+
+        # for value in data:
+        #     sign = ""
+        #     zh = value[2]
+        #     # zh = '当时最喜欢这段了！歌也贼好听！'
+        #     # start_time = time.time()
+        #     for singe in zh:
+        #         if self.check_zh(singe):
+        #             sign += singe
+        #             if len(sign) == 2:
+        #                 # time1 = time.time()
+        #                 # self.ecnu_cursor.execute(
+        #                 #     self.sql_insert_count_multi.format(
+        #                 #         index % 5, sign))
+        #                 self.ecnu_cursor.execute(
+        #                     self.sql_insert_word_by_time.format(
+        #                         self.name[0], self.name[1], sign))
+        #                 # print(time.time() - time1)
+        #                 sign = sign[-1]
+        #         else:
+        #             sign = ""
+        #     # print(time.time() - start_time)
+
+        self.ecnu_cursor.execute(self.sql_sel_comment_by_time.format(index))
+        data = self.ecnu_cursor.fetchone()
+        sign = ""
+        # zh1 = self.deal_expression('当时最喜欢这段了！歌也贼好听！[小电视_66]')
+        zh = self.deal_expression(data[2])
+        # zh = '当时最喜欢这段了！歌也贼好听！[小电视_66]'
+        # start_time = time.time()
+        for singe in zh:
+            if self.check_zh(singe):
+                sign += singe
+                if len(sign) == 2:
+                    # time1 = time.time()
+                    # self.ecnu_cursor.execute(
+                    #     self.sql_insert_count_multi.format(
+                    #         index % 5, sign))
+                    self.ecnu_cursor.execute(
+                        self.sql_insert_word_by_time.format(
+                            self.name[0], self.name[1], sign))
+                    # print(time.time() - time1)
+                    sign = sign[-1]
+            else:
+                sign = ""
+            # print(time.time() - start_time)
 
 
-def multi_clean(processes=10):
-    for index in range(179507, 185707):
-        DataClean().multi_run(index)
+def multi_clean(processes=10, sign=""):
+    sign = int(sign)
+    if sign == 1:
+        start = 1077941
+        end = 1270364
+    elif sign == 2:
+        start = 1270364
+        end = 1600413
+    elif sign == 3:
+        start = 1600413
+        end = 1952308
+    elif sign == 4:
+        start = 1952308
+        end = 2632851
+    elif sign == 5:
+        start = 2632851
+        end = 3102311
+    elif sign == 6:
+        start = 3102311
+        end = 3923200
+    elif sign == 7:
+        start = 3923200
+        end = 4510143
+    elif sign == 8:
+        start = 4510143
+        end = 5428588
+    elif sign == 9:
+        start = 5428588
+
+    q = DataClean(sign)
+    try:
+        for index in range(start, end):
+            q.multi_run(index)
+    except NameError:
+        for index in range(start, 6846683):
+            q.multi_run(index)
+
     # from multiprocessing import Process, Queue, Pool, freeze_support
 
     # pool = Pool(processes)
@@ -505,13 +632,13 @@ def multi_clean(processes=10):
 
 
 def main(arg):
-
+    sign = sys.argv[1]
     # BiliDeal()
     if arg == "multi":
         multi_query(4)
     elif arg == "data_clean":
         # DataClean()
-        multi_clean(1)
+        multi_clean(1, sign)
 
 
 if __name__ == "__main__":

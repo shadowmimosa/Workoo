@@ -29,7 +29,7 @@ class BiliDeal(object):
             "Host": "api.bilibili.com",
         }
         self.init_mysql()
-        self.sql_insert_comment = 'INSERT INTO `bili_awv`.`comment_{}`(`avid`, `num`, `content`) VALUES ({}, {}, "{}");'
+        self.sql_insert_comment = 'INSERT INTO `bili_awv`.`comment_{}`(`avid`, `num`, `content`, `time`) VALUES ({}, {}, "{}", {});'
         self.sql_update_info = "UPDATE `bili_awv`.`av_info` SET `count` = {} WHERE `avid` = {};"
         self.run()
         self.ecnu_cursor.close()
@@ -46,6 +46,7 @@ class BiliDeal(object):
                 charset="utf8mb4",
                 autocommit=True)
         except pymysql.err.OperationalError as exc:
+            print(exc)
             print('登录失败！TimeoutError!')
             os._exit(0)
         else:
@@ -86,7 +87,7 @@ class BiliDeal(object):
         proxyPort = "9020"
         # 代理隧道验证信息
         proxyUser = "H23W005A02J5V10D"
-        proxyPass = "CB31E09182BA20C4"
+        proxyPass = "5FDF530C49CD925F"
 
         proxyMeta = "http://%(user)s:%(pass)s@%(host)s:%(port)s" % {
             "host": proxyHost,
@@ -154,6 +155,8 @@ class BiliDeal(object):
                                 timeout=(2, 6),
                                 proxies=self.proxies)
                         if resp.status_code != 200:
+                            print("It's {} now".format(resp.status_code))
+                            time.sleep(0.5)
                             retry_count -= 1
                         else:
                             retry_count = 0
@@ -221,6 +224,7 @@ class BiliDeal(object):
             `avid` VARCHAR ( 20 ) NOT NULL,
             `num` VARCHAR ( 20 ) NOT NULL,
             `content` VARCHAR ( 2048 ) NOT NULL,
+            `time` VARCHAR ( 20 ) NOT NULL,
             PRIMARY KEY ( `id` )
             ) ENGINE = INNODB DEFAULT CHARSET = UTF8MB4;"""
 
@@ -240,10 +244,11 @@ class BiliDeal(object):
             for value in content:
                 # comment = value["content"]["message"].encode("utf-8")
                 comment = value["content"]["message"].replace("\\", "\\\\")
+                timestamps = value["ctime"]
                 # print(comment)
                 # self.ecnu_cursor.execute(r"INSERT INTO `bili_awv`.`comment_111`(`avid`, `content`) VALUES (17842287, '\\' );")
                 sql = self.sql_insert_comment.format(
-                    self.avid % 128, self.avid, self.pagenum, comment)
+                    self.avid % 128, self.avid, self.pagenum, comment, timestamps)
                 # sql = """INSERT INTO `bili_awv`.`comment_111` ( `avid`, `content` )
                 #         VALUES
                 #         	( 17842287, '\\\\(//∇//)\\\\' );"""
@@ -278,7 +283,7 @@ class BiliDeal(object):
         # self.bulid_table()
         # self.av_into_data()
 
-        sql = 'SELECT * FROM `bili_awv`.`av_info` WHERE  `id` = {} limit 1'
+        sql = 'SELECT * FROM `bili_awv`.`av_info` WHERE  `id` = {} limit 1;'
 
         # for index in range(180393, 210543):
         try:
@@ -292,13 +297,25 @@ class BiliDeal(object):
         else:
             print("--->Info: the {} is successful".format(self.index))
 
+        # for index in range(1, 305925):
+        #     try:
+        #         self.ecnu_cursor.execute(sql.format(index))
+        #         self.avid = self.ecnu_cursor.fetchone()[1]
+        #         self.get_comment()
+        #     except Exception as exc:
+        #         self.logger.error(
+        #             "--->Error: the {} is error, check it. the message is {}".
+        #             format(index, exc))
+        #     else:
+        #         print("--->Info: the {} is successful".format(index))
+
 
 def multi_query(processes=10):
     from multiprocessing import Process, Queue, Pool, freeze_support
 
     pool = Pool(processes)
 
-    for index in range(190031, 210543):
+    for index in range(1, 305925):
         try:
             pool.apply_async(BiliDeal, (index, ))
         except Exception as exc:
@@ -507,11 +524,12 @@ def multi_clean(processes=10):
 def main(arg):
 
     # BiliDeal()
-    if arg == "multi":
-        multi_query(4)
-    elif arg == "data_clean":
-        # DataClean()
-        multi_clean(1)
+    multi_query(3)
+    # if arg == "multi":
+    #     multi_query(4)
+    # elif arg == "data_clean":
+    #     # DataClean()
+    #     multi_clean(1)
 
 
 if __name__ == "__main__":
