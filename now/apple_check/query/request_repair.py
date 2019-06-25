@@ -336,6 +336,25 @@ class Query(object):
         else:
             self.json_["是否官换"] = "是"
 
+    def get_memory(self):
+        self.json_ = {}
+        self.json_["SN"] = "********JC6N"
+        sn = self.json_["SN"][-1:-5:-1][-1::-1]
+        sn_0 = sn[0].upper()
+        if sn_0 in ["D", "F", "H", "J", "K"]:
+            filename = "{}000-{}ZZZ.txt".format(sn_0, sn_0)
+            with open(
+                    "C:/Users/ShadowMimosa/Documents/GitRepository/Workoo/now/apple_check/data/{}"
+                    .format(filename),
+                    "r",
+                    encoding="gbk") as fn:
+                alllines = fn.readlines()
+                for line in alllines:
+                    if sn in line:
+                        return line.split("内存：")[-1].replace("\t颜色："," ").replace("\n","")
+
+                return ""
+
     def info_base(self):
         print("1")
         info = self.result["productInfo"]
@@ -348,7 +367,7 @@ class Query(object):
             self.json_["SN"] = info["SERIAL_ID"]
 
         self.json_["设备名称"] = info["PROD_DESCR"]
-        self.json_["颜色内存"] = "稍等"
+        self.json_["颜色内存"] = self.get_memory()
 
     def get_day(self, day=datetime.date.today(), year=1):
         # a = type(day)
@@ -358,7 +377,8 @@ class Query(object):
                 if isinstance(day, str):
                     print(type(day))
                     print(day)
-                    day = datetime.datetime.strptime(day.split("（")[0], "%Y-%m-%d")
+                    day = datetime.datetime.strptime(
+                        day.split("（")[0], "%Y-%m-%d")
             except:
                 return "777"
             return (day - datetime.timedelta(days=365)).strftime('%Y-%m-%d')
@@ -423,4 +443,5 @@ def main(imei="353001091289737"):
 
 if __name__ == "__main__":
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
+    # a = Query().get_memory()
     main()
