@@ -343,15 +343,13 @@ class Query(object):
         sn_0 = sn[0].upper()
         if sn_0 in ["D", "F", "H", "J", "K"]:
             filename = "{}000-{}ZZZ.txt".format(sn_0, sn_0)
-            with open(
-                    "C:/Users/ShadowMimosa/Documents/GitRepository/Workoo/now/apple_check/data/{}"
-                    .format(filename),
-                    "r",
-                    encoding="gbk") as fn:
+            with open("./data/{}".format(filename), "r", encoding="gbk") as fn:
                 alllines = fn.readlines()
                 for line in alllines:
                     if sn in line:
-                        return line.split("内存：")[-1].replace("\t颜色："," ").replace("\n","")
+                        return line.split("内存：")[-1].replace("\t颜色：",
+                                                             " ").replace(
+                                                                 "\n", "")
 
                 return ""
 
