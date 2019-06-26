@@ -17,6 +17,9 @@ class Query(object):
         self.proxies = False
         self.proxies = self.init_abuyun()
         self.pattern = re.compile(r'"responseJson",.*}\);')
+        # self.pattern_500 = re.compile(
+        #     r'Classify\("cs.services/GlobalObject"\)\.set\(\{[\s\S]*}')
+        self.pattern_500 = re.compile(r"errorType.*,")
         self.headers = {
             "Host": "checkcoverage.apple.com",
             "Upgrade-Insecure-Requests": "1",
@@ -184,6 +187,22 @@ class Query(object):
                 return resp
             elif resp.status_code == 302:
                 return resp.headers
+            elif resp.status_code == 500:
+                try:
+                    content = re.search(self.pattern_500, resp.text).group()
+                except AttributeError:
+                    print("search 500 not found")
+                except:
+                    print("search 500 error")
+                else:
+
+                    # error_type = json.loads(
+                    #     content.replace(
+                    #         "Classify(\"cs.services/GlobalObject\").set(",
+                    #         "").replace(");", ""))["errorType"]
+                    error_type = content.split(" ")[-1].replace(",", "")
+                    if "snError" in error_type:
+                        return "snError"
             else:
                 self.logger.error("--->Info {} 请求失败！状态码为{}，共耗时{:.3}秒".format(
                     url, resp.status_code, end_time - start_time))
@@ -268,6 +287,8 @@ class Query(object):
             })
         if resp4 == None:
             return
+        elif resp4 == "snError":
+            return "snError"
         self.result = json.loads(
             re.search(self.pattern, resp4.text).group().replace(
                 "\"responseJson\",", "").replace(");", ""))
@@ -432,9 +453,10 @@ def get_judge():
 
 
 def main(imei="353001091289737"):
-    a = Query().get_day("2019-06-09", 1)
-    b = type(a)
-    print(a)
+    # a = Query().get_day("2019-06-09", 1)
+    # b = type(a)
+    # print(a)
+    # a = Query().spider_main("356733080202589")
     return Query().spider_main(imei)
 
 

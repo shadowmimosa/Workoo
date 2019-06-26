@@ -15,7 +15,9 @@ def query(request):
             if imei:
                 start_time = time.time()
                 query_data = request_repair.main(imei)
-                if query_data:
+                if query_data == "snError":
+                    return HttpResponse("SN Error")
+                elif enumerate(query_data, dict):
                     magic_time = time.time() - start_time
                     if magic_time < 5:
                         time.sleep(5 - magic_time)
