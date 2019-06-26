@@ -16,19 +16,14 @@ def query(request):
                 start_time = time.time()
                 query_data = request_repair.main(imei)
                 magic_time = time.time() - start_time
+                json_ = {"status": "success", "msg": "null"}
 
                 if query_data == "snError":
-                    json_ = {
-                        "status": "success",
-                        # "imei":imei,
-                        "msg": "序列号已更换"
-                    }
+                    json_["msg"] = "序列号已更换"
+                elif query_data == "captchaError":
+                    json_["msg"] = "验证码错误，请重试"
                 elif isinstance(query_data, dict):
-                    json_ = {
-                        "status": "success",
-                        # "imei":imei,
-                        "msg": query_data
-                    }
+                    json_["msg"] = query_data
                 else:
                     return HttpResponse("403 error")
 

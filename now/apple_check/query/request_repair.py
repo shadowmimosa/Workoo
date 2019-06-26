@@ -203,6 +203,8 @@ class Query(object):
                     error_type = content.split(" ")[-1].replace(",", "")
                     if "snError" in error_type:
                         return "snError"
+                    elif "captchaError" in error_type:
+                        return "captchaError"
             else:
                 self.logger.error("--->Info {} 请求失败！状态码为{}，共耗时{:.3}秒".format(
                     url, resp.status_code, end_time - start_time))
@@ -281,7 +283,7 @@ class Query(object):
             header=header,
             data={
                 "sno": imei,
-                "ans": self.get_3023(),
+                "ans": "asdx", #self.get_3023(),
                 "captchaMode": "image",
                 "CSRFToken": self.serch(resp1.text)
             })
@@ -289,6 +291,9 @@ class Query(object):
             return
         elif resp4 == "snError":
             return "snError"
+        elif resp4 == "captchaError":
+            return "captchaError"
+            
         self.result = json.loads(
             re.search(self.pattern, resp4.text).group().replace(
                 "\"responseJson\",", "").replace(");", ""))
