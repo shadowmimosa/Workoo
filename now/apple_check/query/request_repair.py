@@ -283,7 +283,7 @@ class Query(object):
             header=header,
             data={
                 "sno": imei,
-                "ans": "asdx", #self.get_3023(),
+                "ans": self.get_3023(),
                 "captchaMode": "image",
                 "CSRFToken": self.serch(resp1.text)
             })
@@ -293,7 +293,7 @@ class Query(object):
             return "snError"
         elif resp4 == "captchaError":
             return "captchaError"
-            
+
         self.result = json.loads(
             re.search(self.pattern, resp4.text).group().replace(
                 "\"responseJson\",", "").replace(");", ""))
