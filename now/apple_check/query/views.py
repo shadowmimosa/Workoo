@@ -24,8 +24,8 @@ def query(request):
                     return HttpResponse(
                         json.dumps(json_, ensure_ascii=False),
                         content_type="application/json;charset=utf-8")
-                        
-                elif enumerate(query_data, dict):
+                    
+                elif isinstance(query_data, dict):
                     magic_time = time.time() - start_time
                     if magic_time < 5:
                         time.sleep(5 - magic_time)
