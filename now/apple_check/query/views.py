@@ -16,7 +16,15 @@ def query(request):
                 start_time = time.time()
                 query_data = request_repair.main(imei)
                 if query_data == "snError":
-                    return HttpResponse("SN Error")
+                    json_ = {
+                        "status": "success",
+                        # "imei":imei,
+                        "msg": "序列号已更换"
+                    }
+                    return HttpResponse(
+                        json.dumps(json_, ensure_ascii=False),
+                        content_type="application/json;charset=utf-8")
+                        
                 elif enumerate(query_data, dict):
                     magic_time = time.time() - start_time
                     if magic_time < 5:
