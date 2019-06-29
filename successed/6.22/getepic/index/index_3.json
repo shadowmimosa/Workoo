@@ -1,0 +1,12 @@
+{
+    "success": 1,
+    "result": {
+        "categories": [],
+        "recommendedRows": [],
+        "deleteModelKeys": [
+            "PlaylistCategory"
+        ],
+        "caching": "no-cache"
+    },
+    "messages": []
+}

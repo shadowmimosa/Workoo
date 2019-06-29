@@ -1,0 +1,35 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <title>IMEI 查询</title>
+
+    {% comment %} <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"> {% endcomment %}
+</head>
+
+<body  no-repeat>
+
+<div class="container wrap1" style="height:450px;">
+    {% comment %} <h3 class="mg-b20 text-center">Welcome</h3> {% endcomment %}
+    <div class="col-sm-8 col-md-5 center-auto pd-sm-50 pd-xs-20 main_content">
+        
+        <p class="text-center font16">IMEI 查询</p>
+        
+        
+        <form action="{% url 'service:query' %}" role="form" method="POST" id="login_form">{% csrf_token %}
+            <div class="form-group mg-t20">
+                <i class="icon-user icon_font"></i>
+                <input type="text" class="login_input" name="imei" id="imei" placeholder="请输入 IMEI">
+            </div>
+            
+            <button class="login_btn" id="login_submit" type="submit" value="Login" >查 询</button>
+            
+        </form>
+    
+    </div>
+
+</div>
+
+</boby>
+</html>
