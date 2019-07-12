@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['*','0.0.0.0','127.0.0.1']
 
 # Application definition
 
+# SECURE_SSL_REDIRECT = False
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -38,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # 'sslserver',
     'query',
 ]
 
@@ -68,7 +70,6 @@ TEMPLATES = [
         },
     },
 ]
-print(TEMPLATES[0]["DIRS"])
 
 WSGI_APPLICATION = 'query_service.wsgi.application'
 
@@ -91,9 +92,9 @@ else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'NAME': 'testos',  # 新建数据库名
+            'NAME': 'wechat',  # 新建数据库名
             'USER': 'root',  # 数据库登录名
-            'PASSWORD': 'BuleCook@556',  # 数据库登录密码
+            'PASSWORD': 'Aliyun@2000',  # 数据库登录密码
             'HOST': '127.0.0.1',  # 数据库所在服务器ip地址
             'PORT': '3306',  # 监听端口 默认3306即可
         }
@@ -103,9 +104,10 @@ else:
 #         'ENGINE': 'django.db.backends.sqlite3',                                 
 #         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),                           
 #     }                                                                           
-# } 
-STATIC_ROOT = os.path.join(BASE_DIR, "static")
-print(STATIC_ROOT)
+# }
+ 
+# STATIC_ROOT = os.path.join(BASE_DIR, "static")
+# print(STATIC_ROOT)
 
 
 # Password validation

@@ -16,4 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-urlpatterns = [path('', include('query.urls', namespace='service'))]
+urlpatterns = [
+    path('wx/', include('wechat.urls', namespace='wechat')),
+    path('', include('query.urls', namespace='service'))
+]
