@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title>用户充值</title>
+    <link rel="stylesheet" type="text/css" href="http://www.xheducation.com/ms/static/aui/css/aui.css" />
+    <style>
+        p {
+            margin:5px;
+        }
+    </style>
+</head>
+<body>
+<div class="aui-content-padded">
+    <input type="hidden" name="userId" value="8030" id="userId">
+    <!--<ul class="aui-list aui-form-list">
+        <li class="aui-list-item">
+            <div class="aui-list-item-inner">
+                <div class="aui-list-item-label">
+                    SN
+                </div>
+                <div class="aui-list-item-input">
+                    <input type="text" placeholder="SN" id="sn">
+                </div>
+            </div>
+        </li>
+    </ul>-->
+    <div style="margin-top:15px;">
+        <h2 class="aui-text-primary" style="text-align:center">充值余额</h2>
+        <p><div class="aui-btn aui-btn-primary aui-btn-block" onclick="pay('10')">充值10元</div></p>
+        <p><div class="aui-btn aui-btn-primary aui-btn-block" onclick="pay('30')">充值30元</div></p>
+        <p><div class="aui-btn aui-btn-primary aui-btn-block" onclick="pay('50')">充值50元</div></p>
+        <p><div class="aui-btn aui-btn-primary aui-btn-block" onclick="pay('100')">充值100元(赠送10元)</div></p>
+        <p><div class="aui-btn aui-btn-primary aui-btn-block" onclick="pay('500')">充值500元(赠送100元)</div></p>
+    </div>
+    {% comment %} <div style="margin-top:15px;">
+        <h2 class="aui-text-success" style="text-align:center">会员包月</h2>
+        <p><div class="aui-btn aui-btn-success aui-btn-block" onclick="payMonth('100','1')">1个月100元</div></p>
+        <p><div class="aui-btn aui-btn-success aui-btn-block" onclick="payMonth('200','3')">3个月200元</div></p>
+        <p><div class="aui-btn aui-btn-success aui-btn-block" onclick="payMonth('300','6')">6个月300元</div></p>
+        <h3 class="aui-text-success" style="text-align:center">包月会员每天免费查询次数</h3>
+        <p class="aui-text-success" style="text-align:center">保修/官换:300次</p>
+        <p class="aui-text-success" style="text-align:center">ID激活锁:100次</p>
+        <p class="aui-text-success" style="text-align:center">正在维修:100次</p>
+    </div> {% endcomment %}
+    <div style="margin-top:20px; margin-left:20px;" id="result">
+
+    </div>
+</div>
+
+<script src="http://www.xheducation.com/ms/static/js/jquery.min.js?v=2.1.4"></script>
+<script src="http://www.xheducation.com/ms/static/aui/script/aui-dialog.js"></script>
+<script>
+    var dialog = new auiDialog({});
+
+
+    // 解码
+    function decodeUnicode(str) {
+        str = str.replace(/\\/g, "%");
+        return unescape(str);
+    }
+</script>
+{% comment %} <script type="text/javascript">
+    var List = JSON.parse("{{ List|escapejs }}");
+    alert(List);
+</script> {% endcomment %}
+<script type="text/javascript">
+    var prepay_id ;
+    var paySign ;
+    var appId ;
+    var timeStamp ;
+    var nonceStr ;
+    var packageStr ;
+    var signType ;
+    function pay(fee){
+        var url = '/wx/pay/';
+        $.ajax({
+            type:"post",
+            url:url,
+            dataType:"json",
+            data:{openId:"{{ openid|safe }}",totalFee:fee},
+            success:function(data) {
+                if(data.resultCode == 'SUCCESS'){
+                    appId = data.appId;
+                    paySign = data.paySign;
+                    timeStamp = data.timeStamp;
+                    nonceStr = data.nonceStr;
+                    packageStr = data.package;
+                    signType = data.signType;
+                    callpay();
+                }else{
+                    alert("统一下单失败");
+                }
+            }
+        });
+    }
+
+    function payMonth(fee,month){
+        var url = '/wx';
+        $.ajax({
+            type:"post",
+            url:url,
+            dataType:"json",
+            data:{openId:'oE3g76A_28JzqVHcOyG9UoSm-Nxw',totalFee:fee, months:month},
+            success:function(data) {
+                if(data.resultCode == 'SUCCESS'){
+                    appId = data.appId;
+                    paySign = data.paySign;
+                    timeStamp = data.timeStamp;
+                    nonceStr = data.nonceStr;
+                    packageStr = data.package;
+                    signType = data.signType;
+                    callpay();
+                }else{
+                    alert("统一下单失败");
+                }
+            }
+        });
+    }
+
+    function onBridgeReady(){
+        WeixinJSBridge.invoke(
+            'getBrandWCPayRequest', {
+                "appId":appId,     //公众号名称，由商户传入
+                "paySign":paySign,         //微信签名
+                "timeStamp":timeStamp, //时间戳，自1970年以来的秒数
+                "nonceStr":nonceStr , //随机串
+                "package":packageStr,  //预支付交易会话标识
+                "signType":signType     //微信签名方式
+            },
+
+            function(res){
+                if(res.err_msg == "get_brand_wcpay_request:ok"  ) {
+                    //window.location.replace("success.html");
+                    alert('支付成功');
+                }else if(res.err_msg == "get_brand_wcpay_request:cancel"){
+                    alert('支付取消');
+                }else if(res.err_msg == "get_brand_wcpay_request:fail" ){
+                    alert(JSON.stringify(res));
+                } //使用以上方式判断前端返回,微信团队郑重提示：res.err_msg将在用户支付成功后返回    ok，但并不保证它绝对可靠。
+            }
+        );
+    }
+    function callpay(){
+        if (typeof WeixinJSBridge == "undefined"){
+            if( document.addEventListener ){
+                document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+            }else if (document.attachEvent){
+                document.attachEvent('WeixinJSBridgeReady', onBridgeReady);
+                document.attachEvent('onWeixinJSBridgeReady', onBridgeReady);
+            }
+        }else{
+            onBridgeReady();
+        }
+    }
+</script>
+
+</body>
+</html>

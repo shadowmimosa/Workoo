@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title>用户充值</title>
+    <link rel="stylesheet" type="text/css" href="css/aui.css" />
+    <link rel="stylesheet" href="css/jquery-labelauty.css">
+    <style>
+        p {
+            margin: 5px 5px 10px 5px;
+        }
+
+        h2 {
+            margin: 30px 5px 0px 5px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+            display: inline-block;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        input.labelauty+label {
+            font: 12px "Microsoft Yahei";
+            margin: 0px 5px 0px 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="aui-content-padded">
+        <form>
+            <ul class="aui-list aui-form-list">
+                <li class="aui-list-item">
+                    <div class="aui-list-item-inner">
+                        <div class="aui-list-item-label">
+                            充值金额
+                        </div>
+                        <div class="aui-list-item-input">
+                            <input type="text" placeholder="元" id="sn">
+                        </div>
+                        <!-- <div class="aui-list-item-input">
+                            <input type="button" placeholder="支付">
+                        </div> -->
+                    </div>
+                </li>
+            </ul>
+            <input type="submit" placeholder="支付">
+            <p class="aui-text-default" style="text-align: center;font-size: x-small">
+                自动充值手续费为1%（腾讯收取）支持信用卡支付365天24小时自动充值，请在充值栏内自定金额进行充值。</p>
+
+            <ul class="dowebok">
+                <li><input type="radio" name="radio" data-labelauty="1个月 50元" onclick="pay('50')"></li>
+                <li><input type="radio" name="radio" data-labelauty="3个月 100元"></li>
+                <li><input type="radio" name="radio" data-labelauty="6个月 200元"></li>
+                <li><input type="radio" name="radio" data-labelauty="Id无限查询(imei) 80元"></li>
+            </ul>
+            <p class="aui-text-default" style="text-align: center;font-size: x-small">注：包月会员每日免费查询id锁、id黑白、保修查询50次</p>
+            <h2 style="text-align: center">充值金额送会员</h2>
+            <ul class="dowebok">
+                <li><input type="radio" name="radio" data-labelauty="充值200</br>送一个月会员"></li>
+                <li><input type="radio" name="radio" data-labelauty="充值500</br>送3个月会员"></li>
+                <li><input type="radio" name="radio" data-labelauty="充值1000</br>送1年会员"></li>
+            </ul>
+            <!-- <input type="submit" value="submit" style="display: block" margin-right> -->
+            <!-- <input type="submit"
+                style="width:100px; line-height:40px; background-color:#00a0e9; border:none; display:block; float:left; color:#fff;"
+                value="submit" margin：50px/> -->
+        </form>
+    </div>
+
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery-labelauty.js"></script>
+    <script>
+        $(function () {
+            $(':input').labelauty();
+        });
+    </script>
+
+    <script type="text/javascript">
+        var prepay_id;
+        var paySign;
+        var appId;
+        var timeStamp;
+        var nonceStr;
+        var packageStr;
+        var signType;
+
+        function pay(fee) {
+            var url = '/wx/pay/';
+            $.ajax({
+                type: "post",
+                url: url,
+                dataType: "json",
+                data: {
+                    openId: "{{ openid|safe }}",
+                    totalFee: fee
+                },
+                success: function (data) {
+                    if (data.resultCode == 'SUCCESS') {
+                        appId = data.appId;
+                        paySign = data.paySign;
+                        timeStamp = data.timeStamp;
+                        nonceStr = data.nonceStr;
+                        packageStr = data.package;
+                        signType = data.signType;
+                        callpay();
+                    } else {
+                        alert("统一下单失败");
+                    }
+                }
+            });
+        }
+
+        function onBridgeReady() {
+            WeixinJSBridge.invoke(
+                'getBrandWCPayRequest', {
+                    "appId": appId, //公众号名称，由商户传入
+                    "paySign": paySign, //微信签名
+                    "timeStamp": timeStamp, //时间戳，自1970年以来的秒数
+                    "nonceStr": nonceStr, //随机串
+                    "package": packageStr, //预支付交易会话标识
+                    "signType": signType //微信签名方式
+                },
+
+                function (res) {
+                    if (res.err_msg == "get_brand_wcpay_request:ok") {
+                        //window.location.replace("success.html");
+                        alert('支付成功');
+                    } else if (res.err_msg == "get_brand_wcpay_request:cancel") {
+                        alert('支付取消');
+                    } else if (res.err_msg == "get_brand_wcpay_request:fail") {
+                        alert(JSON.stringify(res));
+                    } //使用以上方式判断前端返回,微信团队郑重提示：res.err_msg将在用户支付成功后返回    ok，但并不保证它绝对可靠。
+                }
+            );
+        }
+
+        function callpay() {
+            if (typeof WeixinJSBridge == "undefined") {
+                if (document.addEventListener) {
+                    document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+                } else if (document.attachEvent) {
+                    document.attachEvent('WeixinJSBridgeReady', onBridgeReady);
+                    document.attachEvent('onWeixinJSBridgeReady', onBridgeReady);
+                }
+            } else {
+                onBridgeReady();
+            }
+        }
+    </script>
+
+</body>
+
+</html>

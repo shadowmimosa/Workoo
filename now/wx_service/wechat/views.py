@@ -2,6 +2,7 @@ from django.http import HttpResponse
 from django.shortcuts import render
 from django.http.response import JsonResponse
 from django.views.generic.base import View
+from django.views.generic import TemplateView
 from django.views.decorators.csrf import csrf_exempt
 from django.utils.encoding import smart_str
 import hashlib
@@ -9,7 +10,10 @@ import json
 import time
 
 # from wechat.analysis import Analysis
-from .analysis import Analysis
+from .utils.analysis import Analysis
+from .utils.service import WxPay
+from .utils.service import oauth_wx
+from .utils.set_button import SetButton
 
 #微信的介入验证是GET方法
 #微信正常的收发消息是POST方法
@@ -51,4 +55,70 @@ def check_signature(request):
         analysisObj = Analysis(smart_str(request.body))
         toWxData = analysisObj.prase(smart_str(request.body))
         print(toWxData)
+        if isinstance(toWxData, tuple):
+            if toWxData[0] == "RECHARGE":
+                return render(request, 'wechat/home.html',
+                              {"openid": toWxData[1]})
+        else:
+            return HttpResponse(smart_str(toWxData))
+
+
+@csrf_exempt
+def wx_pay(request):
+    if request.method == "GET":
+        code = request.GET.get('code', None)
+        state = request.GET.get('state', None)
+        openid = oauth_wx(code)
+        ret = {"openid": openid}
+        return render(request, 'wechat/home.html', ret)
+
+        # ret = {"openid": "omFm91TlajGX2aYF9mDptN623vPM"}
+        # return render(request, 'wechat/home.html', ret)
+        pass
+    elif request.method == "POST":
+        print(request.body)
+        print(request.POST)
+        openid = request.POST.get("openId")
+        fee = request.POST.get("totalFee")
+
+        data = WxPay(openid, fee).unified_order()
+
+        return HttpResponse(
+            json.dumps(data, ensure_ascii=False),
+            content_type="application/json;charset=utf-8")
+
+
+@csrf_exempt
+def result(request):
+    if request.method == "GET":
+        return HttpResponse("666")
+    elif request.method == "POST":
+        print("result is {}".format(request.body))
+        print(request.POST)
+
+        data = WxPay().trans_xml_to_dict(request.body)
+        if data["return_code"] == "SUCCESS":
+            out_trade_no = data["out_trade_no"]
+            openid = data["openid"]
+            fee = data["cash_fee"]
+            WxPay().update_order(out_trade_no, openid, fee)
+
+        else:
+            pass
+        toWxData = WxPay().trans_dict_to_xml({
+            "return_code": "SUCCESS",
+            "return_msg": "OK"
+        })
         return HttpResponse(smart_str(toWxData))
+
+
+def judge(request):
+    print(1)
+    return TemplateView.as_view(
+        template_name='MP_verify_eCuMRMZfC1i8hSsw.txt',
+        content_type='text/plain')
+
+
+def set_button(request):
+    SetButton().button()
+    return HttpResponse("666")

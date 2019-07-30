@@ -14,8 +14,8 @@ import datetime
 class Query(object):
     def __init__(self, bookid=None):
         self.init_log()
-        self.proxies = False
-        self.proxies = self.init_abuyun()
+        # self.proxies = False
+        self.init_abuyun()
         self.pattern = re.compile(r'"responseJson",.*}\);')
         # self.pattern_500 = re.compile(
         #     r'Classify\("cs.services/GlobalObject"\)\.set\(\{[\s\S]*}')
@@ -88,7 +88,7 @@ class Query(object):
 
         # 代理隧道验证信息
         proxyUser = "H23W005A02J5V10D"
-        proxyPass = "CB31E09182BA20C4"
+        proxyPass = "D873899954E2B063"
 
         proxyMeta = "http://%(user)s:%(pass)s@%(host)s:%(port)s" % {
             "host": proxyHost,

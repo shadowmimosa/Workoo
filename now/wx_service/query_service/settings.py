@@ -13,9 +13,12 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 import os
 import sys
 
+CELERY_BROKER_URL = 'amqp://guest@localhost//'
+CELERY_RESULT_BACKEND = 'amqp://guest@localhost//'
+CELERY_TASK_SERIALIZER = 'json'
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
@@ -24,10 +27,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '%3a2+m=1v*42kb(b=w=58+voywmbyg!@#5j@^lw5g&^c-krm%i'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
+# DEBUG = True
 
-ALLOWED_HOSTS = ['*','0.0.0.0','127.0.0.1']
-
+ALLOWED_HOSTS = ['*', '0.0.0.0', '127.0.0.1']
 
 # Application definition
 
@@ -41,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # 'sslserver',
     'query',
+    'wechat',
 ]
 
 MIDDLEWARE = [
@@ -58,7 +62,7 @@ ROOT_URLCONF = 'query_service.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR,  'query/templates')],
+        'DIRS': [os.path.join(BASE_DIR, 'query/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -73,20 +77,19 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'query_service.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-if sys.platform=="win32":
+if sys.platform == "win32":
     DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'query_service',  # 新建数据库名
-        'USER': 'root',  # 数据库登录名
-        'PASSWORD': 'shadow',  # 数据库登录密码
-        'HOST': '127.0.0.1',  # 数据库所在服务器ip地址
-        'PORT': '3306',  # 监听端口 默认3306即可
-    }
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': 'query_service',  # 新建数据库名
+            'USER': 'root',  # 数据库登录名
+            'PASSWORD': 'shadow',  # 数据库登录密码
+            'HOST': '127.0.0.1',  # 数据库所在服务器ip地址
+            'PORT': '3306',  # 监听端口 默认3306即可
+        }
     }
 else:
     DATABASES = {
@@ -99,35 +102,37 @@ else:
             'PORT': '3306',  # 监听端口 默认3306即可
         }
     }
-# DATABASES = {                                                                   
-#     'default': {                                                                
-#         'ENGINE': 'django.db.backends.sqlite3',                                 
-#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),                           
-#     }                                                                           
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
 # }
- 
+
 # STATIC_ROOT = os.path.join(BASE_DIR, "static")
 # print(STATIC_ROOT)
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+        'NAME':
+        'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+        'NAME':
+        'django.contrib.auth.password_validation.MinimumLengthValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+        'NAME':
+        'django.contrib.auth.password_validation.CommonPasswordValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+        'NAME':
+        'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
@@ -141,7 +146,6 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = False
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>神州物联</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+
+    <link rel="stylesheet" href="http://m2m.jiutianshop.com/static/index/css/mui.min.css">
+    <link href="http://m2m.jiutianshop.com/static/index/css/hsereStyle.css?time=1564402718" rel="stylesheet"
+        type="text/css">
+
+</head>
+
+<body class="bg_color_dark">
+
+    <!--侧滑菜单容器-->
+    <div id="offCanvasWrapper" class="mui-off-canvas-wrap mui-draggable">
+        <!--菜单部分-->
+        <aside id="offCanvasSide" class="mui-off-canvas-right">
+            <div id="offCanvasSideScroll" class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate-right" href="/index-index-index.html">
+                                回到首页
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate-right" href="/index-index-data.html">
+                                流量查询
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate-right" href="http://m2m.jiutianshop.com/index/index/recharge">
+                                流量充值
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate-right" href="/index-index-intelligent.html">
+                                智能诊断
+                            </a>
+                        </li>
+                        <!--<li class="mui-table-view-cell">-->
+                        <!--<a class="mui-navigate-right" href="/index-index-bindtel.html">-->
+                        <!--手机绑定-->
+                        <!--</a>-->
+                        <!--</li>-->
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate-right" href="/index-index-order.html">
+                                历史订单
+                            </a>
+                        </li>
+                        <!--<li class="mui-table-view-cell">-->
+                        <!--<a class="mui-navigate-right" href="/index-index-cardfind.html">-->
+                        <!--实名认证-->
+                        <!--</a>-->
+                        <!--</li>-->
+
+                    </ul>
+                </div>
+            </div>
+        </aside>
+
+
+        <div class="mui-inner-wrap">
+            <header class="mui-bar mui-bar-nav">
+                <a class="mui-action-back mui-icon mui-icon-back mui-pull-left hsere_top_back">
+                    <span>返回</span>
+                </a>
+                <a id="offCanvasBtn" href="#offCanvasSide"
+                    class="mui-icon mui-action-menu mui-icon-bars mui-pull-right hsere_top_menu"></a>
+                <h1 class="mui-title">余额充值</h1>
+            </header>
+
+            <div id="offCanvasContentScroll" class="mui-content mui-scroll-wrapper inner_bg_dark">
+                <div class="mui-scroll">
+                    <div class="data_plan_box">
+                        <ul class="clearfix">
+                            <li class="dataPlanItem active" data-id="1">
+                                <a href="javascript:;">
+                                    <h4>50元</h4>
+                                    <span>赠送<b>3</b>元</span>
+                                </a>
+                            </li>
+                            <li class="dataPlanItem" data-id="2">
+                                <a href="javascript:;">
+                                    <h4>100元</h4>
+                                    <span>赠送<b>8</b>元</span>
+                                </a>
+                            </li>
+                            <li class="dataPlanItem" data-id="3">
+                                <a href="javascript:;">
+                                    <h4>200元</h4>
+                                    <span>赠送<b>20</b>元</span>
+                                </a>
+                            </li>
+                            <li class="dataPlanItem" data-id="4">
+                                <a href="javascript:;">
+                                    <h4>300元</h4>
+                                    <span>赠送<b>35</b>元</span>
+                                </a>
+                            </li>
+                            <li class="dataPlanItem" data-id="5">
+                                <a href="javascript:;">
+                                    <h4>500元</h4>
+                                    <span>赠送<b>65</b>元</span>
+                                </a>
+                            </li>
+                            <li class="dataPlanItem" data-id="6">
+                                <a href="javascript:;">
+                                    <h4>1000元</h4>
+                                    <span>赠送<b>150</b>元</span>
+                                </a>
+                            </li>
+
+
+                        </ul>
+                        <div style="height: 20px"></div>
+
+                        <div class="submit_button_wrapper">
+                            <span class="submit_button">微信支付</span>
+                        </div>
+                    </div>
+
+                    <div class="recharge_instruction">
+                        <h2>使用说明:</h2>
+                        <p> <span
+                                style="color: rgb(255, 192, 0); font-size: 14px;">1、余额充值是神洲物联推出的优惠活动，充值最高折扣可达8折以下，账户余额仅供流量充值使用。</span>
+                        </p>
+                        <p><span style="color: rgb(255, 192, 0); font-size: 14px;">2、余额不是流量充值，需要您自行充值流量。</span></p>
+                        <p><span style="color: rgb(255, 192, 0); font-size: 14px;">3、如果您充值了余额可以在充值流量的时候使用余额支付。</span>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <!-- off-canvas backdrop -->
+            <div class="mui-off-canvas-backdrop"></div>
+        </div>
+
+    </div>
+
+    <div id="loadingImg" class="loading">
+        <img src="/static/index/image/icon/loading.gif" alt="">
+        <p>支付中，请稍后...</p>
+    </div>
+
+    <!--<div id="loadingImgPay" class="loading">-->
+    <!--<img src="/static/index/image/icon/loading.gif" alt="">-->
+    <!--<p>支付成功...</p>-->
+    <!--</div>-->
+    <script src="http://m2m.jiutianshop.com/static/index/js/mui.min.js"></script>
+    <script src="http://m2m.jiutianshop.com/static/platform/js/jquery-1.10.1.min.js" type="text/javascript"></script>
+    <script src="http://m2m.jiutianshop.com/static/platform/js/vue.min.js" type="text/javascript"></script>
+    <script src="http://m2m.jiutianshop.com/static/platform/js/common.js?1564402718" type="text/javascript"></script>
+    <script>
+        mui.init({
+            swipeBack: true //启用右滑关闭功能
+        });
+
+
+        ////////////////////////////////   公共部分开始  /////////////////////////////////////////
+        //侧滑容器父节点
+        var offCanvasWrapper = mui('#offCanvasWrapper');
+        //主界面容器
+        var offCanvasInner = offCanvasWrapper[0].querySelector('.mui-inner-wrap');
+        //菜单容器
+        var offCanvasSide = document.getElementById("offCanvasSide");
+
+        //Android暂不支持整体移动动画
+        if (!mui.os.android) {
+            //        document.getElementById("move-togger").classList.remove('mui-hidden');
+            var spans = document.querySelectorAll('.android-only');
+            for (var i = 0, len = spans.length; i < len; i++) {
+                spans[i].style.display = "none";
+            }
+        }
+
+        //侧滑容器的class列表，增加.mui-slide-in即可实现菜单移动、主界面不动的效果；
+        var classList = offCanvasWrapper[0].classList;
+
+        //侧滑动画移动效果；
+        offCanvasSide.classList.remove('mui-transitioning');
+        offCanvasSide.setAttribute('style', '');
+        classList.remove('mui-slide-in');
+        classList.remove('mui-scalable');
+        offCanvasWrapper[0].insertBefore(offCanvasSide, offCanvasWrapper[0].firstElementChild);
+        classList.add('mui-scalable');
+
+        offCanvasWrapper.offCanvas().refresh();
+
+        //主界面和侧滑菜单界面均支持区域滚动；
+        mui('#offCanvasSideScroll').scroll();
+        mui('#offCanvasContentScroll').scroll();
+
+
+        //实现ios平台的侧滑关闭页面；
+        if (mui.os.plus && mui.os.ios) {
+            offCanvasWrapper[0].addEventListener('shown', function (e) { //菜单显示完成事件
+                plus.webview.currentWebview().setStyle({
+                    'popGesture': 'none'
+                });
+            });
+            offCanvasWrapper[0].addEventListener('hidden', function (e) { //菜单关闭完成事件
+                plus.webview.currentWebview().setStyle({
+                    'popGesture': 'close'
+                });
+            });
+        }
+
+        // 添加所有a标签的跳转支持
+        mui("body").on('tap', 'a', function () {
+            var href = this.href;
+            mui.openWindow({
+                url: href
+            });
+        });
+        mui("body").on('tap', '#sub', function () {
+            $("input").blur();
+            $("#myForm").submit();
+        });
+        ////////////////////////////////   公共部分结束  /////////////////////////////////////////
+
+
+        var vm_data = {
+            "id": '1',
+        };
+
+        var vm = new Vue({
+            el: 'body',
+            data: vm_data
+        });
+        mui("body").on('tap', '.dataPlanItem', function () {
+            $("input").blur();
+            vm_data.id = $(this).attr("data-id");
+
+
+
+            var dataPlanItem = document.getElementsByClassName("dataPlanItem");
+            for (var i = 0; i < dataPlanItem.length; i++) {
+                dataPlanItem[i].className = dataPlanItem[i].className.replace('active', '');
+            }
+            this.className += ' active';
+
+
+        });
+
+        mui("body").on('tap', '.submit_button', function () {
+            if (confirm("确认充值？")) {
+                var loadingImg = $("#loadingImg");
+                loadingImg.show();
+
+                $.ajax({
+                    url: "/index-index-addbalanceorder.html", // 跳转到 action
+                    data: {
+                        id: vm_data.id
+                    },
+                    type: 'post',
+                    cache: false,
+                    dataType: 'json',
+                    success: function (data) {
+                        if (data.status == true || data.status == 1) {
+                            loadingImg.hide();
+                            var res = jsApiCall(data.data, data.jumpUrl);
+
+                        } else {
+                            loadingImg.hide();
+                            alert(data.info);
+                            if (data.jumpUrl) {
+                                jumpUrl(data.jumpUrl);
+                            }
+                        }
+                    },
+                    error: function () {
+                        loadingImg.hide();
+                        // view("异常！");
+                        mui.toast("服务器异常", "fail", 2000);
+                    }
+                });
+            }
+
+        });
+
+        function jsApiCall(data, jumpUrl) {
+            WeixinJSBridge.invoke(
+                'getBrandWCPayRequest',
+                data,
+                function (res) {
+                    if (res.err_msg == 'get_brand_wcpay_request:cancel') {
+                        $(".payment_pop").animate({
+                            top: "100vh"
+                        }, 450);
+                        $(".pop_mask").css('display', 'none');
+                        alert("您已取消了此次支付");
+
+                        return;
+                    } else if (res.err_msg == 'get_brand_wcpay_request:fail') {
+
+                        if (res.err_desc == "不允许跨号支付") {
+                            return "no";
+                        } else {
+                            alert(res.err_code + res.err_desc + res.err_msg);
+                        }
+
+                        return;
+                    } else if (res.err_msg == 'get_brand_wcpay_request:ok') {
+                        //alert("支付成功！");
+                        location.href = jumpUrl;
+
+                    } else {
+                        alert("未知错误" + res.error_msg);
+                        return;
+                    }
+
+                }
+            );
+        }
+    </script>
+</body>
+
+</html>
