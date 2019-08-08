@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>神州物联</title>
+    <title>用户充值</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -15,132 +15,82 @@
 
 </head>
 
-<body class="bg_color_dark">
+<body>
+    <div class="mui-inner-wrap">
+        <header class="mui-bar mui-bar-nav">
+            <a class="mui-action-back mui-icon mui-icon-back mui-pull-left hsere_top_back">
+                <span>返回</span>
+            </a>
+            <a id="offCanvasBtn" href="#offCanvasSide"
+                class="mui-icon mui-action-menu mui-icon-bars mui-pull-right hsere_top_menu"></a>
+            <h1 class="mui-title">余额充值</h1>
+        </header>
 
-    <!--侧滑菜单容器-->
-    <div id="offCanvasWrapper" class="mui-off-canvas-wrap mui-draggable">
-        <!--菜单部分-->
-        <aside id="offCanvasSide" class="mui-off-canvas-right">
-            <div id="offCanvasSideScroll" class="mui-scroll-wrapper">
-                <div class="mui-scroll">
-                    <ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
-                        <li class="mui-table-view-cell">
-                            <a class="mui-navigate-right" href="/index-index-index.html">
-                                回到首页
+        <div id="offCanvasContentScroll" class="mui-content mui-scroll-wrapper inner_bg_dark">
+            <div class="mui-scroll">
+                <div class="data_plan_box">
+                    <ul class="clearfix">
+                        <li class="dataPlanItem active" data-id="1">
+                            <a href="javascript:;">
+                                <h4>50元</h4>
+                                <span>赠送<b>3</b>元</span>
                             </a>
                         </li>
-                        <li class="mui-table-view-cell">
-                            <a class="mui-navigate-right" href="/index-index-data.html">
-                                流量查询
+                        <li class="dataPlanItem" data-id="2">
+                            <a href="javascript:;">
+                                <h4>100元</h4>
+                                <span>赠送<b>8</b>元</span>
                             </a>
                         </li>
-                        <li class="mui-table-view-cell">
-                            <a class="mui-navigate-right" href="http://m2m.jiutianshop.com/index/index/recharge">
-                                流量充值
+                        <li class="dataPlanItem" data-id="3">
+                            <a href="javascript:;">
+                                <h4>200元</h4>
+                                <span>赠送<b>20</b>元</span>
                             </a>
                         </li>
-                        <li class="mui-table-view-cell">
-                            <a class="mui-navigate-right" href="/index-index-intelligent.html">
-                                智能诊断
+                        <li class="dataPlanItem" data-id="4">
+                            <a href="javascript:;">
+                                <h4>300元</h4>
+                                <span>赠送<b>35</b>元</span>
                             </a>
                         </li>
-                        <!--<li class="mui-table-view-cell">-->
-                        <!--<a class="mui-navigate-right" href="/index-index-bindtel.html">-->
-                        <!--手机绑定-->
-                        <!--</a>-->
-                        <!--</li>-->
-                        <li class="mui-table-view-cell">
-                            <a class="mui-navigate-right" href="/index-index-order.html">
-                                历史订单
+                        <li class="dataPlanItem" data-id="5">
+                            <a href="javascript:;">
+                                <h4>500元</h4>
+                                <span>赠送<b>65</b>元</span>
                             </a>
                         </li>
-                        <!--<li class="mui-table-view-cell">-->
-                        <!--<a class="mui-navigate-right" href="/index-index-cardfind.html">-->
-                        <!--实名认证-->
-                        <!--</a>-->
-                        <!--</li>-->
+                        <li class="dataPlanItem" data-id="6">
+                            <a href="javascript:;">
+                                <h4>1000元</h4>
+                                <span>赠送<b>150</b>元</span>
+                            </a>
+                        </li>
+
 
                     </ul>
-                </div>
-            </div>
-        </aside>
+                    <div style="height: 20px"></div>
 
-
-        <div class="mui-inner-wrap">
-            <header class="mui-bar mui-bar-nav">
-                <a class="mui-action-back mui-icon mui-icon-back mui-pull-left hsere_top_back">
-                    <span>返回</span>
-                </a>
-                <a id="offCanvasBtn" href="#offCanvasSide"
-                    class="mui-icon mui-action-menu mui-icon-bars mui-pull-right hsere_top_menu"></a>
-                <h1 class="mui-title">余额充值</h1>
-            </header>
-
-            <div id="offCanvasContentScroll" class="mui-content mui-scroll-wrapper inner_bg_dark">
-                <div class="mui-scroll">
-                    <div class="data_plan_box">
-                        <ul class="clearfix">
-                            <li class="dataPlanItem active" data-id="1">
-                                <a href="javascript:;">
-                                    <h4>50元</h4>
-                                    <span>赠送<b>3</b>元</span>
-                                </a>
-                            </li>
-                            <li class="dataPlanItem" data-id="2">
-                                <a href="javascript:;">
-                                    <h4>100元</h4>
-                                    <span>赠送<b>8</b>元</span>
-                                </a>
-                            </li>
-                            <li class="dataPlanItem" data-id="3">
-                                <a href="javascript:;">
-                                    <h4>200元</h4>
-                                    <span>赠送<b>20</b>元</span>
-                                </a>
-                            </li>
-                            <li class="dataPlanItem" data-id="4">
-                                <a href="javascript:;">
-                                    <h4>300元</h4>
-                                    <span>赠送<b>35</b>元</span>
-                                </a>
-                            </li>
-                            <li class="dataPlanItem" data-id="5">
-                                <a href="javascript:;">
-                                    <h4>500元</h4>
-                                    <span>赠送<b>65</b>元</span>
-                                </a>
-                            </li>
-                            <li class="dataPlanItem" data-id="6">
-                                <a href="javascript:;">
-                                    <h4>1000元</h4>
-                                    <span>赠送<b>150</b>元</span>
-                                </a>
-                            </li>
-
-
-                        </ul>
-                        <div style="height: 20px"></div>
-
-                        <div class="submit_button_wrapper">
-                            <span class="submit_button">微信支付</span>
-                        </div>
+                    <div class="submit_button_wrapper">
+                        <span class="submit_button">微信支付</span>
                     </div>
-
-                    <div class="recharge_instruction">
-                        <h2>使用说明:</h2>
-                        <p> <span
-                                style="color: rgb(255, 192, 0); font-size: 14px;">1、余额充值是神洲物联推出的优惠活动，充值最高折扣可达8折以下，账户余额仅供流量充值使用。</span>
-                        </p>
-                        <p><span style="color: rgb(255, 192, 0); font-size: 14px;">2、余额不是流量充值，需要您自行充值流量。</span></p>
-                        <p><span style="color: rgb(255, 192, 0); font-size: 14px;">3、如果您充值了余额可以在充值流量的时候使用余额支付。</span>
-                        </p>
-                    </div>
-
                 </div>
+
+                <div class="recharge_instruction">
+                    <h2>使用说明:</h2>
+                    <p> <span
+                            style="color: rgb(255, 192, 0); font-size: 14px;">1、余额充值是神洲物联推出的优惠活动，充值最高折扣可达8折以下，账户余额仅供流量充值使用。</span>
+                    </p>
+                    <p><span style="color: rgb(255, 192, 0); font-size: 14px;">2、余额不是流量充值，需要您自行充值流量。</span></p>
+                    <p><span style="color: rgb(255, 192, 0); font-size: 14px;">3、如果您充值了余额可以在充值流量的时候使用余额支付。</span>
+                    </p>
+                </div>
+
             </div>
-            <!-- off-canvas backdrop -->
-            <div class="mui-off-canvas-backdrop"></div>
         </div>
+        <!-- off-canvas backdrop -->
+        <div class="mui-off-canvas-backdrop"></div>
+    </div>
 
     </div>
 

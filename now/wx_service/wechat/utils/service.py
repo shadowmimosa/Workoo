@@ -9,9 +9,9 @@ from decimal import Decimal
 from django.shortcuts import render
 from bs4 import BeautifulSoup
 
-from wechat.models import UserInfo, TransactionInfo
+from wechat.models import UserInfo, TransactionInfo, MonthInfo
 # from now.wx_service.wechat.managers import UserInfo, TransactionInfo
-from wechat.utils.common import get_event
+from wechat.utils.common import get_event, free_time
 
 
 class DealService(object):
@@ -28,7 +28,7 @@ class DealService(object):
         resp = self.requests.run(
             "http://39.105.2.213:80/query/?imei={}".format(self.imei),
             header={})
-
+        print(resp)
         return True, json.loads(resp)
 
     def id_activate(self):
@@ -43,7 +43,7 @@ class DealService(object):
             "http://132.232.235.229:39005/query/?imei={}".format(self.imei),
             header={})
 
-        return True, json.loads(resp)
+        return Titem.loads(resp)
 
     def id_with_imei(self):
         resp = self.requests.run(
@@ -132,13 +132,62 @@ class DealService(object):
 
         return True, resp
 
-    def extended_information(self):
-        return False, "请稍后"
+    def guarantee_query(self):
+        resp = self.requests.run(
+            "http://api.3023data.com/apple/coverage?sn={}&lang=zh".format(
+                self.imei),
+            header={"key": self.appkey})
+        data = json.loads(resp)
+
+        if data["code"] == 0:
+            return True, data
+        else:
+            return False, "请联系客服"
+
+    def id_query(self):
+        resp = self.requests.run(
+            "http://api.3023data.com/apple/activationlock?sn={}".format(
+                self.imei),
+            header={"key": self.appkey})
+        data = json.loads(resp)
+
+        if data["code"] == 0:
+            return True, data["data"]
+        else:
+            return False, "请联系客服"
+
+    def id_black_white_(self):
+        resp = self.requests.run(
+            "http://api.3023data.com/apple/icloud?sn={}".format(self.imei),
+            header={"key": self.appkey})
+        data = json.loads(resp)
+
+        if data["code"] == 0:
+            return True, data["data"]
+        else:
+            return False, "请联系客服"
+
+    def type_check(self):
+        resp = self.requests.run(
+            "https://api.ifreeicloud.co.uk/?key=TGR-GEB-PQ2-474-BXO-986-6V7-PSK&imei={}&service=0"
+            .format(self.imei),
+            header={})
+
+        return True, resp
 
     def recharge(self):
         print("RECHARGE")
 
-    def move_services(self):
+    def move_services(self, sign, imei):
+        if sign == 1:
+            self.guarantee_query(imei)
+        elif sign == 2:
+            self.id_query(imei)
+        elif sign == 3:
+            self.id_black_white_(imei)
+        elif sign == 4:
+            self.type_check(imei)
+
         return False, "请稍后"
 
     def bulid_order_id(self):
@@ -153,10 +202,12 @@ class DealService(object):
                      fee=None,
                      order_type=-1,
                      status=1):
-        if fee == None:
-            fee = self.fee
+        # if fee == None:
+        #     fee = self.fee
         if out_trade_no == None:
             out_trade_no = self.bulid_order_id()
+        if fee == None:
+            fee = self.fee
         TransactionInfo.objects.insert_transaction(
             out_trade_no=out_trade_no,
             openid=self.openid,
@@ -171,46 +222,148 @@ class DealService(object):
         UserInfo.objects.update_balance(self.openid, "{:.2f}".format(
             Decimal(0 - fee)))
 
+    def judge_balance(self):
+        self.fee = float(self.click_list[self.current]["count"])
+        self.balance = float(UserInfo.objects.query_balance(self.openid))
+        if self.balance >= self.fee:
+            return 1
+        else:
+            return 0
+
+    def judge_free(self):
+        if self.current in ["GUARANTEE", "ID_ACTIVATE", "ID_BLACK_WHITE"]:
+            if UserInfo.objects.query_count(self.openid, self.current):
+                return True
+            else:
+                return False
+
+    def judge_user(self):
+        month_list = [
+            "GUARANTEE", "ID_ACTIVATE", "ID_BLACK_WHITE", "ID_WITH_IMEI"
+        ]
+        if self.current in month_list:
+            if self.judge_free():
+                return 4
+            else:
+                return_code = MonthInfo.objects.query_user(self.openid)
+                if self.current == month_list[3] and return_code == 2:
+                    return 3
+                elif self.current != month_list[3] and return_code == 1:
+                    return 2
+
+        return self.judge_balance()
+
+    def deal_query(self):
+        pass
+
     def main(self):
         # a = "self." + self.current
         # print(a)
         # globals()[a]()
         # locals()[a]()
-        if self.event_key == None:
-            self.fee = float(self.click_list[self.current]["count"])
-            self.balance = float(UserInfo.objects.query_balance(self.openid))
-            if self.balance < self.fee:
-                return "余额不足，请充值"
-            else:
-                status, info_ = eval("self.{}".format(self.current.lower()))()
-                if status:
-                    if isinstance(info_, str):
-                        final = info_.replace("<br>", "\n").replace(
-                            "<font color=FF0000>",
-                            "").replace("</font>}",
-                                        "").replace("[", "").replace("]", "")
-                    elif isinstance(info_, dict):
-                        final = ""
-                        for key, value in info_.items():
-                            final += "{}: {}\n".format(key, value)
+        # if self.event_key == None:
+        return_code = self.judge_user()
+        if return_code == 0:
+            return "余额不足，请充值"
+        else:
+            status, info_ = eval("self.{}".format(self.current.lower()))()
+            if status:
+                if isinstance(info_, str):
+                    final = info_.replace("<br>", "\n").replace(
+                        "<font color=FF0000>",
+                        "").replace("</font>}", "").replace("[", "").replace(
+                            "]", "")
+                elif isinstance(info_, dict):
+                    final = ""
+                    for key, value in info_.items():
+                        final += "{}: {}\n".format(key, value)
 
+                if return_code == 2:
+                    self.insert_order(order_type=2)
+                    MonthInfo.objects.add_count(self.openid)
+                elif return_code == 3:
+                    self.insert_order(order_type=3)
+                elif return_code == 4:
+                    self.insert_order(order_type=4)
+                    UserInfo.objects.update_count(self.openid, self.current)
+                else:
                     self.insert_order()
                     self.deduction_fee()
+            else:
+                final = info_
+                if return_code > 1:
+                    self.insert_order(order_type=return_code, status=0)
                 else:
-                    final = info_
                     self.insert_order(status=0)
 
-                return final
+            return final
 
-        else:
-            return eval("self.{}".format(self.event_key.lower()))()
+        # else:
+        #     return eval("self.{}".format(self.event_key.lower()))()
+
+
+class AccountInfo(object):
+    """
+    我的账号:123456
+    当前金额：10元 
+    包月状态：非会员/  包月会员：2019年10月1日
+    扫二维码推荐人数：1人
+    微信客服：aifengchaxun1
+    ——每日免费剩余次数——
+    {保修查询今日免费次数} 1/1
+    {ID锁查询今日免费次数} 1/1
+    {ID黑白今日免费次数} 1/1
+    """
+
+    def __init__(self, openid):
+        self.openid = openid
+
+    def money_info(self):
+        balance = UserInfo.objects.query_balance(self.openid)
+        return "剩余金额: {}".format(balance)
+
+    def month_info(self):
+        status = MonthInfo.objects.query_user(openid=self.openid, sign="days")
+        if isinstance(status, tuple):
+            if status[0] == 1:
+                month = "包月会员"
+            elif status[0] == 2:
+                month = "包月会员"
+            elif status[0] == -1:
+                month = "包月会员"
+            return "包月会员: {}".format(status[-1])
+        elif status == 0:
+            return "包月状态: 非会员"
+
+    def people_info(self):
+        pass
+
+    def free_info(self):
+        times = free_time()
+
+        return "\n".join(("{{保修查询今日免费次数}} {}/{}".format(
+            UserInfo.objects.query_count(self.openid, "GUARANTEE"),
+            times), "{{ID锁查询今日免费次数}} {}/{}".format(
+                UserInfo.objects.query_count(self.openid, "ID_ACTIVATE"),
+                times), "{{ID黑白今日免费次数}} {}/{}".format(
+                    UserInfo.objects.query_count(self.openid,
+                                                 "ID_BLACK_WHITE"), times)))
+
+    def account_information(self):
+        return "\n".join((self.money_info(), self.month_info(),
+                          "微信客服: aifengchaxun1", "——每日免费剩余次数——",
+                          self.free_info()))
 
 
 class WxPay(object):
-    def __init__(self, openid="omFm91TlajGX2aYF9mDptN623vPM", fee=1):
+    def __init__(self,
+                 openid="omFm91TlajGX2aYF9mDptN623vPM",
+                 fee=1,
+                 order_type=1):
         self.key = "AifengchaxunWeiXinzhifumishi6691"
         self.openid = openid
         self.fee = fee
+        self.order_type = order_type
         self.requests = Query()
         self.DS = DealService(openid=openid)
 
@@ -251,8 +404,42 @@ class WxPay(object):
             random.choices(string.ascii_letters + string.digits, k=length))
 
     def update_order(self, out_trade_no, openid, fee, status=1):
+        order_type = TransactionInfo.objects.query_type(
+            out_trade_no=out_trade_no)
         TransactionInfo.objects.update_status(out_trade_no, status)
-        UserInfo.objects.update_balance(openid, fee / 100)
+
+        first_, last_ = str(order_type)[0], str(order_type)[1]
+
+        if first_ == 1:
+            UserInfo.objects.update_balance(openid, float(fee) / 100 * 0.99)
+        elif first_ == "2":
+            if last_ == "1":
+                MonthInfo.objects.insert_user(openid=openid, months=1)
+            elif last_ == "2":
+                MonthInfo.objects.insert_user(openid=openid, months=3)
+            elif last_ == "3":
+                MonthInfo.objects.insert_user(openid=openid, months=6)
+            elif last_ == "4":
+                MonthInfo.objects.insert_user(openid=openid, months=1, _type=2)
+        elif first_ == "3":
+            if last_ == "1":
+                month = 1
+            elif last_ == "2":
+                month = 3
+            elif last_ == "3":
+                month = 12
+            MonthInfo.objects.insert_user(openid=openid, months=month)
+            UserInfo.objects.update_balance(openid, float(fee) / 100)
+
+        # if order_type == 1:
+        #     UserInfo.objects.update_balance(openid, float(fee) / 100 * 0.99)
+        # elif order_type == 2:
+        #     # 包月
+        #     MonthInfo.objects.insert_user()
+        #     pass
+        # elif order_type == 3:
+        #     # 充值送包月
+        #     pass
 
     def unified_order(self):
         out_trade_no = self.DS.bulid_order_id()
@@ -279,7 +466,7 @@ class WxPay(object):
             package = "prepay_id={}".format(result["prepay_id"])
             params = {
                 "appId": "wxb3c3f15d73d9c9b8",
-                "timeStamp": int(time.time()),
+                "timeStamp": str(int(time.time())),
                 "nonceStr": self.random_str(),
                 "package": package,
                 "signType": "MD5"
@@ -290,7 +477,7 @@ class WxPay(object):
             self.DS.insert_order(
                 out_trade_no=out_trade_no,
                 fee=self.fee,
-                order_type=1,
+                order_type=self.order_type,
                 status=0)
         else:
             params = {"resultCode": "FAIL"}

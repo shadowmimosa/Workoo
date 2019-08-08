@@ -54,5 +54,22 @@
     },
     "MOVE_SERVICES": {
         "name": "更多查询服务"
+    },
+    "GUARANTEE_QUERY": {
+        "name": "保修查询",
+        "count": "0.1"
+    },
+    "ID_QUERY": {
+        "name": "ID查询",
+        "count": "0.15"
+    },
+    "ID_BLACK_WHITE_": {
+        "name": "ID黑白查询",
+        "count": "0.35"
+    },
+    "TYPE_CHECK": {
+        "name": "型号检查",
+        "count": "0.15"
     }
+
 }

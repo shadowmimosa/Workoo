@@ -6,7 +6,7 @@ from xml.etree import ElementTree as ET
 from django.utils.encoding import smart_str
 from django.db.utils import IntegrityError
 from wechat.models import UserInfo, TransactionInfo
-from wechat.utils.service import DealService
+from wechat.utils.service import DealService, AccountInfo
 from wechat.utils.common import get_event
 from wechat.tasks import main
 from query_service.mycelery import app
@@ -16,53 +16,35 @@ from query_service.mycelery import app
 # from now.wx_service.wechat.utils.service import DealService
 # from now.wx_service.wechat.models import UserInfo, TransactionInfo
 
-event_list = get_event()
-
 
 class Analysis:
     def __init__(self, xmlData):
         print("接收到的数据：" + xmlData)
-    
-    def judge_imei(self,content):
-        # sn_pattern = re.compile(r"^[0-9a-zA-Z]{11,12}$")
-        # imei_pattern = re.compile(r"^[0-9]{15}$")
-        # imei = re.match(r"^[0-9]{15}$",content)
-        if re.match(r"^[0-9]{15}$",content) != None:
-            return content
-        elif re.match(r"^[0-9a-zA-Z]{11,12}$",content)!=None:
-            return content
-        else:
-            return
-        # sn = re.match(r"^[0-9a-zA-Z]{11,12}$",content)
+        self.xmlData = ET.fromstring(xmlData)
+        self.msgType = self.xmlData.find("MsgType").text
+        self.toUserName = self.xmlData.find("ToUserName").text
+        self.fromUserName = self.xmlData.find("FromUserName").text
+        self.deal = DealServer(self.fromUserName)
 
-    def prase(self, xmlText):
-        xmlData = ET.fromstring(xmlText)
-        msgType = xmlData.find("MsgType").text
-        toUserName = xmlData.find("ToUserName").text
-        fromUserName = xmlData.find("FromUserName").text
+    def reply(self, xmlText=None):
+        if xmlText == None:
+            xmlData = self.xmlData
+            msgType = self.msgType
+            toUserName = self.toUserName
+            openid = self.fromUserName
+            fromUserName = self.fromUserName
+        else:
+            xmlData = ET.fromstring(xmlText)
+            msgType = xmlData.find("MsgType").text
+            toUserName = xmlData.find("ToUserName").text
+            openid = xmlData.find("FromUserName").text
 
         if msgType == 'text':
-            openid = xmlData.find("FromUserName").text
             content = xmlData.find("Content").text
-            try:
-                current = UserInfo.objects.query_current(openid)
-            except UserInfo.DoesNotExist:
-                reply_content = "请在菜单栏选择要查询的项目"
-            else:
-                # imei = xmlData.find("Content").text
-                imei = self.judge_imei(content)
-                if imei!=None:
-                    if sys.platform == "win32":
-                        reply_content = DealService(
-                            openid=openid, current=current, imei=imei).main()
-                    else:
-                        reply_content = "爱锋妹正在为您查询中····· \n注意：请勿重复提交信息 \n如超过5分钟未出结果请联系客服 315523827"
-                        main.delay(toUserName, openid, current, imei)
-                else:
-                    reply_content = "请输入正确的 IMEI 或 SN"
+            reply_content = self.deal.text(content)
 
-            TextMsgObj = TextMsg(toUserName, fromUserName, reply_content)
-            return TextMsgObj.structReply()
+            return TextMsg(toUserName, fromUserName,
+                           reply_content).structReply()
 
         elif msgType == 'image':
             mediaId = xmlData.find("MediaId").text
@@ -71,37 +53,132 @@ class Analysis:
             return ImageMsgObj.structReply()
 
         elif msgType == 'event':
-            openid = xmlData.find("FromUserName").text
             eventKey = xmlData.find("EventKey").text
 
-            try:
-                UserInfo.objects.insert_user(openid, current=eventKey)
-            except IntegrityError as exc:
-                if exc.args[0] == 1062 and "Duplicate entry" in exc.args[1]:
-                    UserInfo.objects.update_current(openid, eventKey)
-                    return TextMsg(toUserName, fromUserName,
-                                   "请在菜单栏选择要查询的项目").structReply()
-                else:
-                    return TextMsg(toUserName, fromUserName,
-                                   "出现错误，请联系管理员").structReply()
-            finally:
-                try:
-                    reply_content = "已切换{} \n等待时间: 5-30 秒 \n单价: {} 元 \n请勿重复提交 \n请发送 15 位 imei 或 12 位序列号查询".format(
-                        event_list[eventKey]["name"],
-                        event_list[eventKey]["count"])
-                except KeyError as exc:
-                    if exc.args[0] == "count":
-                        if eventKey == "RECHARGE":
-                            return eventKey, openid
-                        else:
-                            TextMsgObj = TextMsg(toUserName, fromUserName,
-                                                 "该服务还没准备好哦，请稍后")
-                        # return "is_render", openid
-                else:
-                    TextMsgObj = TextMsg(toUserName, fromUserName,
-                                         reply_content)
+            reply_content = self.deal.event(eventKey)
 
-                return TextMsgObj.structReply()
+            return TextMsg(toUserName, fromUserName,
+                           reply_content).structReply()
+
+
+class DealServer(object):
+    def __init__(self, openid):
+        self.openid = openid
+        self.sn_pattern = re.compile(r"^[0-9a-zA-Z]{11,12}$")
+        self.imei_pattern = re.compile(r"^[0-9]{15}$")
+        self.event_list = get_event()
+
+    def judge_imei(self, content):
+        return re.match(self.imei_pattern, content) or re.match(
+            self.sn_pattern, content)
+
+    def judge_text(self, content):
+        """判断文本格式
+
+        `return`:  
+            
+            0: 格式错误
+            1: 更多服务
+            2: 批量查询
+            3: 单个查询
+        """
+        content = content.replace(" ", "")
+        if UserInfo.objects.query_current(self.openid) == "MOVE_SERVICES":
+            if content in ["1", "2", "3", "4"]:
+                return 1
+            else:
+                return 0
+        elif "\n" in content:
+            return 2
+        elif self.judge_imei(content):
+            return 3
+        else:
+            return 0
+
+    def do_server(self, imei):
+        if sys.platform == "win32":
+            reply_content = "\n\n".join((DealService(
+                openid=self.openid, current=self.current,
+                imei=imei).main(), AccountInfo(self.openid).money_info()))
+        else:
+            reply_content = "爱锋妹正在为您查询中····· \n注意：请勿重复提交信息 \n如超过5分钟未出结果请联系客服 aifengchaxun1"
+            main.delay("gh_8218d7e02312", self.openid, current, imei)
+
+        return reply_content
+
+    def text(self, content):
+        code = self.judge_text(content)
+
+        if code == 1:
+            sign = int(content.replace("\n", ""))
+            if sign == 1:
+                event_key = "GUARANTEE_QUERY"
+            elif sign == 2:
+                event_key = "ID_QUERY"
+            elif sign == 3:
+                event_key = "ID_BLACK_WHITE_"
+            elif sign == 4:
+                event_key = "TYPE_CHECK"
+
+            UserInfo.objects.update_current(self.openid, event_key)
+
+            return "已切换{} \n等待时间: 5-30 秒 \n单价: {} 元 \n请勿重复提交 \n请发送 15 位 imei 或 12 位序列号查询".format(
+                self.event_list[event_key]["name"],
+                self.event_list[event_key]["count"])
+        elif code == 2 or code == 3:
+
+            try:
+                self.current = UserInfo.objects.query_current(self.openid)
+            except UserInfo.DoesNotExist:
+                reply_content = "请在菜单栏选择要查询的项目"
+            else:
+                if code == 2:
+                    reply_content = ""
+                    imei_list = content.split("\n")
+                    for value in imei_list:
+                        reply_content = "\n".join(
+                            (reply_content,
+                             self.do_server(value.replace(" ", ""))))
+                elif code == 3:
+                    imei = content.replace(" ", "")
+                    reply_content = self.do_server(imei)
+
+                return reply_content
+
+        elif code == 0:
+            return "请输入正确的 IMEI 或 SN"
+
+    def event(self, event_key):
+
+        # try:
+        #     UserInfo.objects.insert_user(self.openid, current=event_key)
+        # except IntegrityError as exc:
+        #     if exc.args[0] == 1062 and "Duplicate entry" in exc.args[1]:
+        #         UserInfo.objects.update_current(self.openid, event_key)
+        #     else:
+        #         return "出现错误，请联系管理员"
+        if UserInfo.objects.query_current(self.openid):
+            UserInfo.objects.update_current(self.openid, event_key)
+        else:
+            UserInfo.objects.insert_user(self.openid, current=event_key)
+
+        if event_key == "MOVE_SERVICES":
+            return "回复数字切换查询\n1、保修查询\n2、ID查询\n3、ID黑白查询\n4、苹果型号查询"
+        elif event_key == "EXTENDED_QR_CODE":
+            return "该服务还没准备好哦，请稍后"
+        elif event_key == "ACCOUNT_INFORMATION":
+            return AccountInfo(openid=self.openid).account_information()
+        else:
+            try:
+                reply_content = "已切换{} \n等待时间: 5-30 秒 \n单价: {} 元 \n请勿重复提交 \n请发送 15 位 imei 或 12 位序列号查询".format(
+                    self.event_list[event_key]["name"],
+                    self.event_list[event_key]["count"])
+            except KeyError as exc:
+                return "出现错误，请联系管理员"
+                # if exc.args[0] == "count":
+                #     "该服务还没准备好哦，请稍后"
+            else:
+                return reply_content
 
 
 class TextMsg:
@@ -123,7 +200,6 @@ class TextMsg:
                 </xml>
                 """.format(self._fromUser, self._toUser, self._nowTime,
                            content)  #前面两个参数的顺序需要特别注意
-        #    "感谢您的关注，公众号尚处于开发过程中，请稍后查询，谢谢")  #前面两个参数的顺序需要特别注意
 
         return text
 
@@ -168,4 +244,4 @@ if __name__ == "__main__":
                 <EventKey><![CDATA[EVENTKEY]]></EventKey>
             </xml>
             """
-    Analysis().prase(smart_str(body))
+    Analysis().reply(smart_str(body))

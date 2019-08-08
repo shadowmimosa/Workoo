@@ -5,7 +5,7 @@ import json
 from celery import shared_task
 
 from wechat.utils.common import AccessToken
-from wechat.utils.service import DealService
+from wechat.utils.service import DealService, AccountInfo
 from wechat.utils.request import Query
 
 # from wechat.utils.analysis import TextMsg
@@ -32,8 +32,14 @@ def main(weid, openid, current, imei):
     resp = Query().run(
         path=url,
         header={},
-        data=bytes(json.dumps(data, ensure_ascii=False), encoding='utf-8'))
+        data=bytes(
+            "\n\n".join((json.dumps(data, ensure_ascii=False),
+                       AccountInfo(openid).money_info())),
+            encoding='utf-8'))
 
     print(resp)
     # if json.loads(resp)["errcode"]==0:
     #     pass
+
+# nohup celery -A query_service.mycelery worker -l info &
+# uwsgi --ini uwsgi/uwsgi.ini
