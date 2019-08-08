@@ -1,0 +1,75 @@
+{
+    "GUARANTEE": {
+        "name": "保修信息查询",
+        "count": "0.1"
+    },
+    "ID_ACTIVATE": {
+        "name": "Id激活锁查询",
+        "count": "0.1"
+    },
+    "ID_BLACK_WHITE": {
+        "name": "Id黑白查询",
+        "count": "0.2"
+    },
+    "ID_WITH_IMEI": {
+        "name": "id无限查询（imei）",
+        "count": "0.2"
+    },
+    "MAC_MACHINE": {
+        "name": "苹果验机报告查询",
+        "count": "1.99"
+    },
+    "NETWORK_LOCK": {
+        "name": "网络锁查询",
+        "count": "0.49"
+    },
+    "SERVICE_PROVIDE": {
+        "name": "运营商查询",
+        "count": "0.95"
+    },
+    "OFFICIAL_CHANGE": {
+        "name": "官换机查询",
+        "count": "0.2"
+    },
+    "MAC_REPAIR": {
+        "name": "苹果维修查询",
+        "count": "0.2"
+    },
+    "OVER_PROTECTION": {
+        "name": "过保激活时间查询",
+        "count": "1.5"
+    },
+    "IMEI_EACH": {
+        "name": "序列号/imei互查",
+        "count": "0.45"
+    },
+    "EXTENDED_QR_CODE": {
+        "name": "推广二维码/送金额"
+    },
+    "ACCOUNT_INFORMATION": {
+        "name": "我的账户信息"
+    },
+    "RECHARGE": {
+        "name": "在线充值"
+    },
+    "MOVE_SERVICES": {
+        "name": "更多查询服务"
+    },
+    "GUARANTEE_QUERY": {
+        "name": "保修查询",
+        "count": "0.1"
+    },
+    "ID_QUERY": {
+        "name": "ID查询",
+        "count": "0.15"
+    },
+    "ID_BLACK_WHITE_": {
+        "name": "ID黑白查询",
+        "count": "0.35"
+    },
+    "TYPE_CHECK": {
+        "name": "型号检查",
+        "count": "0.15"
+    }
+
+}

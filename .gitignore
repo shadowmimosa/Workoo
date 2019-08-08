@@ -19,4 +19,7 @@ nohup.out
 
 # Compress
 .7z
-5.30/yue_pic/data.7z
+
+# special
+successed/5.30/yue_pic/data.7z
+successed/6.28/sac/data/info.json

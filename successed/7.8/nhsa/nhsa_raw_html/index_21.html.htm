@@ -1,0 +1,2432 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>标准手术与操作信息</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <link href="/jbzd/lib/css/bootstrap.min.css?v=20190608v5" rel="stylesheet" type="text/css" />
+<link href="/jbzd/lib/css/font-awesome.min.css?v=20190608v5" rel="stylesheet" type="text/css" />
+<link href="/jbzd/lib/css/AdminLTE.css?v=20190608v5" rel="stylesheet" type="text/css" />
+<link href="/jbzd/lib/css/style/validator.css?v=20190608v5" rel="stylesheet" type="text/css" />
+<link href="/jbzd/lib/css/skins/skin-blue.css?v=201904100850" rel="stylesheet" type="text/css" />
+<link href="/jbzd/lib/plugins/jqgrid/ui.jqgrid.css?v=201903188" rel="stylesheet" />
+<link href="/jbzd/lib/plugins/artDialog/ui-dialog.css?v=20190608v5" rel="stylesheet" />
+<link href="/jbzd/lib/css/body.css?v=20190608v5" rel="stylesheet" type="text/css">
+<link href="/jbzd/lib/plugins/fullcalendar/fullcalendar.min.css?v=20190608v5" rel="stylesheet" />
+<link href="/jbzd/lib/css/baseCss.css?v=2019051501" rel="stylesheet" type="text/css">
+<link href="/jbzd/lib/css/homeCommon.css?v=20190608v5" rel="stylesheet" type="text/css">
+<link href="/jbzd/lib/css/user-layout.css?v=20190608v5" rel="stylesheet" type="text/css">
+<link href="/jbzd/lib/css/common.css?v=20190608v5" rel="stylesheet" type="text/css">
+<link href="/jbzd/lib/css/zTreeStyle.css" rel="stylesheet" type="text/css">
+<link href="/jbzd/lib/css/twoSplit.css?v=20190608v5" rel="stylesheet" type="text/css">
+<link href="/jbzd/lib/plugins/bootstrap-switch/bootstrap-switch.min.css?v=20190608v5" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+    <script src="/jbzd/lib/js/html5shiv.min.js"></script>
+    <script src="/jbzd/lib/js/respond.min.js"></script>
+<![endif]-->
+<style type="text/css">
+    *{
+        font-size:17px
+    }
+
+    div.textalign1{
+        font-size:17px
+    }
+
+    div.textalign{
+        font-size:17px
+    }
+    .textinput {
+        font-size: 15px;
+    }
+
+    select.textinput {
+        font-size: 13px;
+    }
+
+
+    .btn-sm {
+        font-size: 17px;
+    }
+
+    span.required {
+		color: red;
+		margin-right: 6px;
+	}
+	div.ccl-window {
+	   width: 1024px;
+	   height: 600px;
+	   margin: auto;
+	   margin-top: 20px;
+	   -moz-border-radius: 5px;      /* Gecko browsers */
+       -webkit-border-radius: 5px;   /* Webkit browsers */
+       border-radius:5px;            /* W3C syntax */
+       background-color: #ffffff;
+	}
+	div.ccl-header {
+	   height: 40px;
+	   padding: 10px;
+	   border-bottom: 1px solid #dddfe0;
+	}
+	div.ccl-header * {
+	   display: inline-block;
+	}
+	span.ccl-title {
+	   font-weight: 500;
+	   font-size: 18px;
+	   font-family: "å®ä½","Source Sans Pro",sans-serif;
+	}
+	iframe.ccl-iframe {
+	   width: 100%;
+	   height: 560px;
+	   -moz-border-radius: 5px;      /* Gecko browsers */
+       -webkit-border-radius: 5px;   /* Webkit browsers */
+       border-radius:5px;            /* W3C syntax */
+	}
+
+	/* æ°å¢ç¼è¾å¼¹çª  ä¿å­ å³é­ æé® å±ä¸­ æ ·å¼ */
+	.modal-footer {
+    padding: 15px;
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+    }
+
+    div.ccl-window button.close {
+        color: #000;
+    }
+    [v-cloak] {
+        display: none;
+    }
+    .ui-jqgrid tr.jqgrow td:first-child
+    {
+        white-space: nowrap !important;
+        word-break:break-all;
+
+    }
+</style>
+    <link href="/jbzd/lib/css/process.css?v=2018081806" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        .box {
+            width: 20px;
+            height: 20px;
+            border: 1px solid #ddd;
+            line-height: 20px;
+            text-align: center;
+        }
+        /*加号*/
+        .plus-icon {
+            display: inline-block;
+            background:grey;
+            height: 12px;
+            position: relative;
+            width: 2px;
+        }
+
+        .minus-icon {
+            display: inline-block;
+            background: red;
+            height: 12px;
+            position: relative;
+            width: 2px;
+            transform: rotateZ(90deg);
+            text-align: center;
+            line-height: 20px;
+        }
+    </style>
+</head>
+<body>
+<section class="content">
+    <div>
+        <div id="classicont">
+            <div class="els-doc-h1"></div>
+            <div id="第22章" class="Chapter">
+                <div class="els-doc-h2">第22章</div>
+                <div class="els-doc-h3">用于特殊目的的编码</div>
+            </div>
+            
+                
+                    
+                        <!--节目-->
+                        <div class="Block" id="U00-U49">
+                            <div class="els-highlight">
+                                    对新发生的不明原因疾病的或紧急情况的临时安排(U00-U49)
+                            </div>
+                        </div>
+                    
+                    
+
+                    
+                    <!--肿瘤形态学-->
+                    
+                    
+                    
+                    
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U04" style="cursor:default" id="U04">U04</a>
+                <span>严重急性呼吸道综合征[SARS]</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U04.9" style="cursor:default" id="U04.9">U04.9</a>
+                <span>未特指的严重急性呼吸道综合征</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+        
+        
+            
+                
+                    <div class="els-doc-con" id="119f0382-7938-11e9-9611-8cec4bd010f3" data-flag="0">
+                        <div class="els-doc-con-left">
+                            
+                                
+                                
+                                
+                                    <a class="code" style="cursor:default" name="U04.900" >U04.900</a>
+                                    <span>严重急性呼吸道综合征</span>
+                                
+                            
+
+                        </div>
+                    </div>
+                
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+
+        
+    
+
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U06" style="cursor:default" id="U06">U06</a>
+                <span>紧急使用U06</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U06.0" style="cursor:default" id="U06.0">U06.0</a>
+                <span>紧急使用U06.0</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U06.1" style="cursor:default" id="U06.1">U06.1</a>
+                <span>紧急使用U06.1</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U06.2" style="cursor:default" id="U06.2">U06.2</a>
+                <span>紧急使用U06.2</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U06.3" style="cursor:default" id="U06.3">U06.3</a>
+                <span>紧急使用U06.3</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U06.4" style="cursor:default" id="U06.4">U06.4</a>
+                <span>紧急使用U06.4</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U06.5" style="cursor:default" id="U06.5">U06.5</a>
+                <span>紧急使用U06.5</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U06.6" style="cursor:default" id="U06.6">U06.6</a>
+                <span>紧急使用U06.6</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U06.7" style="cursor:default" id="U06.7">U06.7</a>
+                <span>紧急使用U06.7</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U06.8" style="cursor:default" id="U06.8">U06.8</a>
+                <span>紧急使用U06.8</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U06.9" style="cursor:default" id="U06.9">U06.9</a>
+                <span>紧急使用U06.9</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+        
+        
+            
+                
+                    <div class="els-doc-con" id="119f0945-7938-11e9-9611-8cec4bd010f3" data-flag="0">
+                        <div class="els-doc-con-left">
+                            
+                                
+                                
+                                
+                                    <a class="code" style="cursor:default" name="U06.900" >U06.900</a>
+                                    <span>兹卡病毒病</span>
+                                
+                            
+
+                        </div>
+                    </div>
+                
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+
+        
+    
+
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U07" style="cursor:default" id="U07">U07</a>
+                <span>紧急使用U07</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U07.0" style="cursor:default" id="U07.0">U07.0</a>
+                <span>紧急使用U07.0</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U07.1" style="cursor:default" id="U07.1">U07.1</a>
+                <span>紧急使用U07.1</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U07.2" style="cursor:default" id="U07.2">U07.2</a>
+                <span>紧急使用U07.2</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U07.3" style="cursor:default" id="U07.3">U07.3</a>
+                <span>紧急使用U07.3</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U07.4" style="cursor:default" id="U07.4">U07.4</a>
+                <span>紧急使用U07.4</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U07.5" style="cursor:default" id="U07.5">U07.5</a>
+                <span>紧急使用U07.5</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U07.6" style="cursor:default" id="U07.6">U07.6</a>
+                <span>紧急使用U07.6</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U07.7" style="cursor:default" id="U07.7">U07.7</a>
+                <span>紧急使用U07.7</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U07.8" style="cursor:default" id="U07.8">U07.8</a>
+                <span>紧急使用U07.8</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U07.9" style="cursor:default" id="U07.9">U07.9</a>
+                <span>紧急使用U07.9</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+
+        
+    
+
+                
+                    
+                        <!--节目-->
+                        <div class="Block" id="U82-U85">
+                            <div class="els-highlight">
+                                    对微生物和抗肿瘤药物产生的抗药性(U82-U85)
+                            </div>
+                        </div>
+                    
+                    
+
+                    
+                    <!--肿瘤形态学-->
+                    
+                    
+                    
+                    
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U82" style="cursor:default" id="U82">U82</a>
+                <span>对β-内酰胺类抗生素耐药</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U82.0" style="cursor:default" id="U82.0">U82.0</a>
+                <span>对青霉素耐药</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+        
+        
+            
+                
+                    <div class="els-doc-con" id="119f100e-7938-11e9-9611-8cec4bd010f3" data-flag="0">
+                        <div class="els-doc-con-left">
+                            
+                                
+                                
+                                
+                                    <a class="code" style="cursor:default" name="U82.000" >U82.000</a>
+                                    <span>耐青霉素</span>
+                                
+                            
+
+                        </div>
+                    </div>
+                
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+        
+        
+            
+                
+                    <div class="els-doc-con" id="119f1089-7938-11e9-9611-8cec4bd010f3" data-flag="0">
+                        <div class="els-doc-con-left">
+                            
+                                
+                                
+                                
+                                    <a class="code" style="cursor:default" name="U82.001" >U82.001</a>
+                                    <span>耐阿莫西林抗生素</span>
+                                
+                            
+
+                        </div>
+                    </div>
+                
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+        
+        
+            
+                
+                    <div class="els-doc-con" id="119f10fd-7938-11e9-9611-8cec4bd010f3" data-flag="0">
+                        <div class="els-doc-con-left">
+                            
+                                
+                                
+                                
+                                    <a class="code" style="cursor:default" name="U82.002" >U82.002</a>
+                                    <span>耐氨苄西林抗生素</span>
+                                
+                            
+
+                        </div>
+                    </div>
+                
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U82.1" style="cursor:default" id="U82.1">U82.1</a>
+                <span>对甲氧苯青霉素耐药</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+        
+        
+            
+                
+                    <div class="els-doc-con" id="119f11ef-7938-11e9-9611-8cec4bd010f3" data-flag="0">
+                        <div class="els-doc-con-left">
+                            
+                                
+                                    <a class="code" onclick="openDetail('119f11ef-7938-11e9-9611-8cec4bd010f3')" name="U82.100" >U82.100</a>
+                                    <span>耐甲氧西林抗生素</span>
+
+                                
+                                
+                                
+                            
+
+                        </div>
+                    </div>
+                
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+        
+        
+            
+                
+                
+                    <div class="els-doc-con" name="119f11ef-7938-11e9-9611-8cec4bd010f3" style="display: none">
+                        <div class="els-doc-con-left">
+                            <a class="code" name="U82.100x001" >U82.100x001</a>
+                            <span>耐甲氧西林金黄色葡萄球菌(MRSA)</span>
+                                
+                        </div>
+                    </div>
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+        
+        
+            
+                
+                    <div class="els-doc-con" id="119f12de-7938-11e9-9611-8cec4bd010f3" data-flag="0">
+                        <div class="els-doc-con-left">
+                            
+                                
+                                
+                                
+                                    <a class="code" style="cursor:default" name="U82.101" >U82.101</a>
+                                    <span>耐氯唑西林抗生素</span>
+                                
+                            
+
+                        </div>
+                    </div>
+                
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+        
+        
+            
+                
+                    <div class="els-doc-con" id="119f1359-7938-11e9-9611-8cec4bd010f3" data-flag="0">
+                        <div class="els-doc-con-left">
+                            
+                                
+                                
+                                
+                                    <a class="code" style="cursor:default" name="U82.102" >U82.102</a>
+                                    <span>耐氟氯西林抗生素</span>
+                                
+                            
+
+                        </div>
+                    </div>
+                
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+        
+        
+            
+                
+                    <div class="els-doc-con" id="119f13d4-7938-11e9-9611-8cec4bd010f3" data-flag="0">
+                        <div class="els-doc-con-left">
+                            
+                                
+                                
+                                
+                                    <a class="code" style="cursor:default" name="U82.103" >U82.103</a>
+                                    <span>耐苯唑西林抗生素</span>
+                                
+                            
+
+                        </div>
+                    </div>
+                
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U82.2" style="cursor:default" id="U82.2">U82.2</a>
+                <span>对β-内酰胺(ESBL)类耐药</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+        
+        
+            
+                
+                    <div class="els-doc-con" id="119f14ca-7938-11e9-9611-8cec4bd010f3" data-flag="0">
+                        <div class="els-doc-con-left">
+                            
+                                
+                                    <a class="code" onclick="openDetail('119f14ca-7938-11e9-9611-8cec4bd010f3')" name="U82.200" >U82.200</a>
+                                    <span>耐广谱β-内酰胺酶</span>
+
+                                
+                                
+                                
+                            
+
+                        </div>
+                    </div>
+                
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+        
+        
+            
+                
+                
+                    <div class="els-doc-con" name="119f14ca-7938-11e9-9611-8cec4bd010f3" style="display: none">
+                        <div class="els-doc-con-left">
+                            <a class="code" name="U82.200x001" >U82.200x001</a>
+                            <span>产超广谱β-内酰胺酶肺炎克雷伯菌(ESBLs)</span>
+                                
+                        </div>
+                    </div>
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+        
+        
+            
+                
+                
+                    <div class="els-doc-con" name="119f14ca-7938-11e9-9611-8cec4bd010f3" style="display: none">
+                        <div class="els-doc-con-left">
+                            <a class="code" name="U82.200x002" >U82.200x002</a>
+                            <span>产超广谱β-内酰胺酶大肠埃希菌(ESBLs)</span>
+                                
+                        </div>
+                    </div>
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U82.8" style="cursor:default" id="U82.8">U82.8</a>
+                <span>对其他β-内酰胺类抗生素耐药</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+        
+        
+            
+                
+                    <div class="els-doc-con" id="119f16bc-7938-11e9-9611-8cec4bd010f3" data-flag="0">
+                        <div class="els-doc-con-left">
+                            
+                                
+                                    <a class="code" onclick="openDetail('119f16bc-7938-11e9-9611-8cec4bd010f3')" name="U82.800" >U82.800</a>
+                                    <span>耐其他β-内酰胺类抗生素</span>
+
+                                
+                                
+                                
+                            
+
+                        </div>
+                    </div>
+                
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+        
+        
+            
+                
+                
+                    <div class="els-doc-con" name="119f16bc-7938-11e9-9611-8cec4bd010f3" style="display: none">
+                        <div class="els-doc-con-left">
+                            <a class="code" name="U82.800x001" >U82.800x001</a>
+                            <span>耐碳青霉烯类的鲍曼不动杆菌(CRAB)</span>
+                                
+                        </div>
+                    </div>
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+        
+        
+            
+                
+                
+                    <div class="els-doc-con" name="119f16bc-7938-11e9-9611-8cec4bd010f3" style="display: none">
+                        <div class="els-doc-con-left">
+                            <a class="code" name="U82.800x002" >U82.800x002</a>
+                            <span>耐碳青霉烯类的铜绿假单胞菌(CRPA)</span>
+                                
+                        </div>
+                    </div>
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+        
+        
+            
+                
+                
+                    <div class="els-doc-con" name="119f16bc-7938-11e9-9611-8cec4bd010f3" style="display: none">
+                        <div class="els-doc-con-left">
+                            <a class="code" name="U82.800x003" >U82.800x003</a>
+                            <span>耐碳青霉烯类的肠杆菌科菌(CRE)</span>
+                                
+                        </div>
+                    </div>
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U82.9" style="cursor:default" id="U82.9">U82.9</a>
+                <span>对β-内酰胺类抗生素耐药，未特指</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+        
+        
+            
+                
+                    <div class="els-doc-con" id="119f1929-7938-11e9-9611-8cec4bd010f3" data-flag="0">
+                        <div class="els-doc-con-left">
+                            
+                                
+                                
+                                
+                                    <a class="code" style="cursor:default" name="U82.900" >U82.900</a>
+                                    <span>耐β-内酰胺类抗生素，未特指</span>
+                                
+                            
+
+                        </div>
+                    </div>
+                
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+
+        
+    
+
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U83" style="cursor:default" id="U83">U83</a>
+                <span>对其他抗生素耐药</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U83.0" style="cursor:default" id="U83.0">U83.0</a>
+                <span>对万古霉素耐药</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+        
+        
+            
+                
+                    <div class="els-doc-con" id="119f1a93-7938-11e9-9611-8cec4bd010f3" data-flag="0">
+                        <div class="els-doc-con-left">
+                            
+                                
+                                    <a class="code" onclick="openDetail('119f1a93-7938-11e9-9611-8cec4bd010f3')" name="U83.000" >U83.000</a>
+                                    <span>耐万古霉素</span>
+
+                                
+                                
+                                
+                            
+
+                        </div>
+                    </div>
+                
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+        
+        
+            
+                
+                
+                    <div class="els-doc-con" name="119f1a93-7938-11e9-9611-8cec4bd010f3" style="display: none">
+                        <div class="els-doc-con-left">
+                            <a class="code" name="U83.000x001" >U83.000x001</a>
+                            <span>耐万古霉素肠球菌(VRE)</span>
+                                
+                        </div>
+                    </div>
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U83.1" style="cursor:default" id="U83.1">U83.1</a>
+                <span>对其他与万古霉素有关的抗生素耐药</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+        
+        
+            
+                
+                    <div class="els-doc-con" id="119f1bfd-7938-11e9-9611-8cec4bd010f3" data-flag="0">
+                        <div class="els-doc-con-left">
+                            
+                                
+                                
+                                
+                                    <a class="code" style="cursor:default" name="U83.100" >U83.100</a>
+                                    <span>耐其他万古霉素相关类抗生素</span>
+                                
+                            
+
+                        </div>
+                    </div>
+                
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U83.2" style="cursor:default" id="U83.2">U83.2</a>
+                <span>对喹诺酮耐药</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+        
+        
+            
+                
+                    <div class="els-doc-con" id="119f1cf3-7938-11e9-9611-8cec4bd010f3" data-flag="0">
+                        <div class="els-doc-con-left">
+                            
+                                
+                                
+                                
+                                    <a class="code" style="cursor:default" name="U83.200" >U83.200</a>
+                                    <span>耐喹诺酮类抗生素</span>
+                                
+                            
+
+                        </div>
+                    </div>
+                
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U83.7" style="cursor:default" id="U83.7">U83.7</a>
+                <span>对多种抗生素耐药</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+        
+        
+            
+                
+                    <div class="els-doc-con" id="119f1de8-7938-11e9-9611-8cec4bd010f3" data-flag="0">
+                        <div class="els-doc-con-left">
+                            
+                                
+                                
+                                
+                                    <a class="code" style="cursor:default" name="U83.700" >U83.700</a>
+                                    <span>耐多种抗生素</span>
+                                
+                            
+
+                        </div>
+                    </div>
+                
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U83.8" style="cursor:default" id="U83.8">U83.8</a>
+                <span>对其他单一指定抗生素耐药</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+        
+        
+            
+                
+                    <div class="els-doc-con" id="119f1f1c-7938-11e9-9611-8cec4bd010f3" data-flag="0">
+                        <div class="els-doc-con-left">
+                            
+                                
+                                
+                                
+                                    <a class="code" style="cursor:default" name="U83.800" >U83.800</a>
+                                    <span>耐其他特指单一抗生素</span>
+                                
+                            
+
+                        </div>
+                    </div>
+                
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U83.9" style="cursor:default" id="U83.9">U83.9</a>
+                <span>对未特指的抗生素耐药</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+        
+        
+            
+                
+                    <div class="els-doc-con" id="119f206d-7938-11e9-9611-8cec4bd010f3" data-flag="0">
+                        <div class="els-doc-con-left">
+                            
+                                
+                                
+                                
+                                    <a class="code" style="cursor:default" name="U83.900" >U83.900</a>
+                                    <span>耐其他抗生素的菌株</span>
+                                
+                            
+
+                        </div>
+                    </div>
+                
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+
+        
+    
+
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U84" style="cursor:default" id="U84">U84</a>
+                <span>对其他抗菌药耐药</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U84.0" style="cursor:default" id="U84.0">U84.0</a>
+                <span>对抗寄生虫药物耐药</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+        
+        
+            
+                
+                    <div class="els-doc-con" id="119f21e2-7938-11e9-9611-8cec4bd010f3" data-flag="0">
+                        <div class="els-doc-con-left">
+                            
+                                
+                                
+                                
+                                    <a class="code" style="cursor:default" name="U84.000" >U84.000</a>
+                                    <span>耐抗寄生虫药物</span>
+                                
+                            
+
+                        </div>
+                    </div>
+                
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U84.1" style="cursor:default" id="U84.1">U84.1</a>
+                <span>对抗真菌药物耐药</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+        
+        
+            
+                
+                    <div class="els-doc-con" id="119f22f6-7938-11e9-9611-8cec4bd010f3" data-flag="0">
+                        <div class="els-doc-con-left">
+                            
+                                
+                                
+                                
+                                    <a class="code" style="cursor:default" name="U84.100" >U84.100</a>
+                                    <span>耐抗真菌药物</span>
+                                
+                            
+
+                        </div>
+                    </div>
+                
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U84.2" style="cursor:default" id="U84.2">U84.2</a>
+                <span>对抗病毒药物耐药</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+        
+        
+            
+                
+                    <div class="els-doc-con" id="119f23f6-7938-11e9-9611-8cec4bd010f3" data-flag="0">
+                        <div class="els-doc-con-left">
+                            
+                                
+                                
+                                
+                                    <a class="code" style="cursor:default" name="U84.200" >U84.200</a>
+                                    <span>耐抗病毒药物</span>
+                                
+                            
+
+                        </div>
+                    </div>
+                
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U84.3" style="cursor:default" id="U84.3">U84.3</a>
+                <span>抗结核病药物耐药</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+        
+        
+            
+                
+                    <div class="els-doc-con" id="119f2559-7938-11e9-9611-8cec4bd010f3" data-flag="0">
+                        <div class="els-doc-con-left">
+                            
+                                
+                                
+                                
+                                    <a class="code" style="cursor:default" name="U84.300" >U84.300</a>
+                                    <span>耐抗结核药物</span>
+                                
+                            
+
+                        </div>
+                    </div>
+                
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U84.7" style="cursor:default" id="U84.7">U84.7</a>
+                <span>对多种抗菌药物耐药</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+        
+        
+            
+                
+                    <div class="els-doc-con" id="119f266e-7938-11e9-9611-8cec4bd010f3" data-flag="0">
+                        <div class="els-doc-con-left">
+                            
+                                
+                                
+                                
+                                    <a class="code" style="cursor:default" name="U84.700" >U84.700</a>
+                                    <span>耐多种抗菌药物</span>
+                                
+                            
+
+                        </div>
+                    </div>
+                
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U84.8" style="cursor:default" id="U84.8">U84.8</a>
+                <span>对其他特指抗菌药耐药</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+        
+        
+            
+                
+                    <div class="els-doc-con" id="119f277f-7938-11e9-9611-8cec4bd010f3" data-flag="0">
+                        <div class="els-doc-con-left">
+                            
+                                
+                                
+                                
+                                    <a class="code" style="cursor:default" name="U84.800" >U84.800</a>
+                                    <span>耐其他特指抗菌药物</span>
+                                
+                            
+
+                        </div>
+                    </div>
+                
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U84.9" style="cursor:default" id="U84.9">U84.9</a>
+                <span>对未特指的抗菌药物耐药</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+        
+        
+            
+                
+                    <div class="els-doc-con" id="119f287f-7938-11e9-9611-8cec4bd010f3" data-flag="0">
+                        <div class="els-doc-con-left">
+                            
+                                
+                                
+                                
+                                    <a class="code" style="cursor:default" name="U84.900" >U84.900</a>
+                                    <span>耐抗菌药物</span>
+                                
+                            
+
+                        </div>
+                    </div>
+                
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+        
+        
+            
+                
+                    <div class="els-doc-con" id="119f28fd-7938-11e9-9611-8cec4bd010f3" data-flag="0">
+                        <div class="els-doc-con-left">
+                            
+                                
+                                
+                                
+                                    <a class="code" style="cursor:default" name="U84.901" >U84.901</a>
+                                    <span>药物抵抗</span>
+                                
+                            
+
+                        </div>
+                    </div>
+                
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+
+        
+    
+
+        
+    
+        
+        
+        
+            <div class="els-doc-h4">
+                <a name="U85" style="cursor:default" id="U85">U85</a>
+                <span>对抗肿瘤药物耐药</span>
+            </div>
+        
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+        
+        
+            
+                
+                    <div class="els-doc-con" id="119f29fa-7938-11e9-9611-8cec4bd010f3" data-flag="0">
+                        <div class="els-doc-con-left">
+                            
+                                
+                                
+                                
+                                    <a class="code" style="cursor:default" name="U85.x00" >U85.x00</a>
+                                    <span>耐抗肿瘤药物</span>
+                                
+                            
+
+                        </div>
+                    </div>
+                
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+        
+        
+            
+                
+                    <div class="els-doc-con" id="119f2a78-7938-11e9-9611-8cec4bd010f3" data-flag="0">
+                        <div class="els-doc-con-left">
+                            
+                                
+                                
+                                
+                                    <a class="code" style="cursor:default" name="U85.x01" >U85.x01</a>
+                                    <span>抗肿瘤药物无效</span>
+                                
+                            
+
+                        </div>
+                    </div>
+                
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+        
+        
+        
+        
+        
+            
+                
+                    <div class="els-doc-con" id="119f2af3-7938-11e9-9611-8cec4bd010f3" data-flag="0">
+                        <div class="els-doc-con-left">
+                            
+                                
+                                
+                                
+                                    <a class="code" style="cursor:default" name="U85.x02" >U85.x02</a>
+                                    <span>难治性癌症</span>
+                                
+                            
+
+                        </div>
+                    </div>
+                
+                
+            
+            
+        
+        <!--肿瘤形态学-->
+        
+        
+        
+    
+
+        
+    
+
+                
+            
+        </div>
+    </div>
+</section>
+</body>
+<script>
+	var ctx="/jbzd";
+    var systemIsNeedUseCa = "";
+</script>
+<script src="/jbzd/lib/js/jquery.min.js?v=2018101701" type="text/javascript"></script>
+<script src="/jbzd/lib/plugins/jquery-ui-1.11.4.custom/jquery-ui-custom.min.js?v=2018101701" type="text/javascript"></script>
+<script src="/jbzd/lib/js/bootstrap.min.js?v=2018101701" type="text/javascript"></script>
+<script src="/jbzd/lib/plugins/slimScroll/jquery.slimscroll.min.js?v=2018101701"></script>
+<script src="/jbzd/lib/js/app.js?v=2018101701" type="text/javascript"></script>
+<script src="/jbzd/lib/plugins/jqgrid/jquery.jqGrid.min.js?v=2019043002" type="text/javascript"></script>
+<script src="/jbzd/lib/js/jquery.tablednd.js?v=2018101701" type="text/javascript"></script>
+<script src="/jbzd/lib/js/splitScreen.js?v=2019050602"></script>
+<script src="/jbzd/lib/js/HNApp.js?v=2018101702"></script>
+<script src="/jbzd/lib/plugins/input-mask/jquery.inputmask.js?v=2018101701"></script>
+<script src="/jbzd/lib/js/jquery.form.js?v=2018101701"></script>
+<script src="/jbzd/lib/plugins/input-mask/jquery.inputmask.date.extensions.js?v=2018101701"></script>
+<script src="/jbzd/lib/plugins/input-mask/jquery.inputmask.extensions.js?v=2018101701"></script>
+<script src="/jbzd/lib/plugins/artDialog/dialog.js?v=2018101701"></script>
+<script src="/jbzd/lib/plugins/artDialog/dialog-plus.js?v=2018101701"></script>
+<script src="/jbzd/lib/js/validate/formValidator.js?v=2018101701"></script>
+<script src="/jbzd/lib/js/validate/formValidatorRegex.js?v=2018101701"></script>
+<script src="/jbzd/lib/plugins/My97DatePicker/WdatePicker.js?v=2018101701"></script>
+<script src="/jbzd/lib/js/template.js?v=2018101701"></script>
+<script src="/jbzd/lib/js/moreNoMore.js?v=2018101701"></script>
+<script src="/jbzd/lib/plugins/fullcalendar/moment.min.js?v=2018101701"></script>
+<script src="/jbzd/lib/plugins/fullcalendar/fullcalendar.js?v=2018101701"></script>
+<script src="/jbzd/lib/js/HNJqgridUtil.js?v=20190524"></script>
+<script src="/jbzd/lib/js/jquery.jqprint-0.3.js?v=2018101701"></script>
+<script src="/jbzd/lib/plugins/echarts/echarts.min.js?v=2019101701"></script>
+<script src="/jbzd/lib/plugins/echarts/theme/macarons.js?v=2018101701"></script>
+<script src="/jbzd/lib/plugins/jquery.cookie.js?v=2018101701"></script>
+<script src="/jbzd/lib/js/moreAndMore.js?v=2018101701"></script>
+<script src="/jbzd/lib/js/common.js?v=2018092007"></script>
+<script src="/jbzd/lib/plugins/bootstrap-switch/bootstrap-switch.js?v=2018101701"></script>
+<script src="/jbzd/lib/js/countDownTime.js?v=201201810170180810"></script>
+<script src="/jbzd/lib/js/md5.js?v=2018101701"></script>
+<script src="/jbzd/lib/js/jquery.ztree.all.min.js"></script>
+<script src="/jbzd/lib/js/els.js"></script>
+
+<script src="/jbzd/lib/js/rsa/jsbn.js" type="text/javascript"></script>
+<script src="/jbzd/lib/js/rsa/jsbn2.js" type="text/javascript"></script>
+<script src="/jbzd/lib/js/rsa/prng4.js" type="text/javascript"></script>
+<script src="/jbzd/lib/js/rsa/rng.js" type="text/javascript"></script>
+<script src="/jbzd/lib/js/rsa/rsa.js" type="text/javascript"></script>
+<script src="/jbzd/lib/js/rsa/rsa2.js" type="text/javascript"></script>
+<script>
+    $(function () {
+        // è¿ä¸ªæ¯åå°çæå¹¶è¿åçRSAä¿¡æ¯ï¼å¬é¥ï¼
+        var RSADo = {
+            "modulus": "8cefc5eaa2132420a239759341f58bf0c1298c4ca4a0b6dd71baf4919f9c30c2413b6d47cc88abf6be4f4b70597ce0cbd8b17d34b235a25f4e094420d941bbf4934427ed4e2196bb9312ae6f1e2266bf7b30be77d29bfc017d569d8ba81edad41b7060ea69403f05ec2e5519b1709597e39a36f30d912d54fd4a6c399d05efc3",
+            "publicExponent": "10001"
+        }
+        rsa = new RSAKey()
+        rsa.setPublic(RSADo.modulus, RSADo.publicExponent)
+        //è·åå½åé¡µé¢çæè¦ãå¨å±åéã
+        currentPageUrlMD5 = hex_md5('/jbzd/WEB-INF/views/home/dataWesterSearchDetail.jsp');
+        pageCookieMD5 = hex_md5('/jbzd/WEB-INF/views/home/dataWesterSearchDetail.jsppage');
+        //ä¾æ®æè¦è·åcookie
+        var cookie = getQueryCookie(currentPageUrlMD5);
+        //ä¾æ®cookieååç»å®æ¥è¯¢æ¡ä»¶
+        if(cookie) {
+            cookie = JSON.parse(cookie);
+            $.each(cookie, function(i, v){
+                if(v) {
+                    if($("#"+i).length == 1){
+                        $("#"+i).val(v);
+                    }else{
+                        $('input[name="'+i+'"][value="'+v+'"]').click();
+                    }
+                }
+            });
+        }
+        //è·åjqgridé¡µæ°
+        //é»è®¤ç¬¬ä¸é¡µ
+        jqPage = 1;
+        var pageCookie = getQueryCookie(pageCookieMD5);
+        if(pageCookie) {
+            jqPage = pageCookie;
+        }
+    })
+</script>
+
+<script src="/jbzd/lib/js/validate/jquery.validate.js"></script>
+<script src="/jbzd/lib/js/validate.expand.js?v=2"></script>
+<script src="/jbzd/lib/js/createStatus.js?v=20180821  "></script>
+<script type="text/javascript">
+
+
+    function GetQueryString(name)
+    {
+        var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if(r!=null)return  unescape(r[2]); return null;
+    }
+
+
+    // 返回
+    function back() {
+        history.go(-1);
+    }
+
+
+    //展开
+    function openDetail(icdId) {
+        //data-title="close"
+        var opFlag= $('#'+icdId).attr("data-flag");
+        if(opFlag=="1")
+        {
+            $('div[name='+ icdId+ ']').css("display","none")
+            $('#'+icdId).attr("data-flag","0");
+        }
+        else
+        {
+            $('div[name='+ icdId+ ']').css("display","")
+            $('#'+icdId).attr("data-flag","1");
+        }
+
+
+    }
+</script>
+</html>
