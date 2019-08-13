@@ -1,4 +1,6 @@
+import io
 import json
+from PIL import Image
 from wechat.utils.request import Query
 from wechat.utils.common import AccessToken
 
@@ -24,17 +26,14 @@ class QrCode(object):
         }
 
         resp = self.request.run(
-            path=self.ticket_path.format(self.token()),
-            header={},
-            data=data)
+            path=self.ticket_path.format(self.token()), header={}, data=data)
         response = json.loads(resp)
         if "errcode" in data.keys():
             if response["errcode"] == 40001:
                 AccessToken().get_token()
                 response = json.loads(
                     self.request.run(
-                        path=self.ticket_path.format(
-                            self.token()),
+                        path=self.ticket_path.format(self.token()),
                         header={},
                         data=data))
 
@@ -64,15 +63,24 @@ class QrCode(object):
         #     # params=params,
         #     files=files)
         resp = self.request.run(
-            path=self.upload_path.format(self.token(), "image"),
-            files=files)
+            path=self.upload_path.format(self.token(), "image"), files=files)
         print(resp)
 
         return json.loads(resp)["media_id"]
 
+    def compose_pic(self):
+        qrcode = Image.open(io.BytesIO(self.qrcode)).resize((800, 800))
+        init_pic = Image.open("./static/wechat/images/init.jpg")
+        init_pic.paste(qrcode, (460, 1600))
+        byte_io = io.BytesIO()
+        init_pic.save(byte_io, 'jpeg')
+        byte_io.seek(0)
+        self.qrcode = byte_io
+
     def run(self):
         self.get_ticket()
         self.get_qrcode()
+        self.compose_pic()
         return self.upload_media()
         # print(
         #     self.request.run(

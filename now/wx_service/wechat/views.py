@@ -75,8 +75,8 @@ def wx_pay(request):
         # ret = {"openid": "omFm91TlajGX2aYF9mDptN623vPM"}
         # return render(request, 'wechat/home.html', ret)
     elif request.method == "POST":
-        print(request.body)
-        print(request.POST)
+        # print(request.body)
+        # print(request.POST)
         openid = request.POST.get("openId")
         fee = request.POST.get("totalFee")
 
@@ -126,8 +126,8 @@ def wx_pay_(request):
             elif id_ == "recharge_1000":
                 order_type = 33
             fee = int(id_.replace("recharge_", ""))
-        print("openid is {}".format(openid))
-        print(id_, fee, openid)
+        # print("openid is {}".format(openid))
+        # print(id_, fee, openid)
 
         data = WxPay(openid, fee, order_type).unified_order()
 
@@ -141,8 +141,8 @@ def result(request):
     if request.method == "GET":
         return HttpResponse("666")
     elif request.method == "POST":
-        print("result is {}".format(request.body))
-        print(request.POST)
+        # print("result is {}".format(request.body))
+        # print(request.POST)
 
         data = WxPay().trans_xml_to_dict(request.body)
         if data["return_code"] == "SUCCESS":
@@ -272,7 +272,7 @@ def update_count(request):
 
 
 def backdoor(request):
-    
+
     return HttpResponse("backdoor")
 
 

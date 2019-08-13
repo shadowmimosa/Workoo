@@ -66,7 +66,7 @@ class Analysis:
                     UserInfo.objects.insert_promoter(openid, eventKey)
                     UserInfo.objects.update_promotions(eventKey)
                     DealService(openid=openid).insert_order(
-                        fee="1.99", order_type=4)
+                        fee="1.99", order_type=5)
             elif event_type == "SCAN":
                 reply_content = "感谢关注"
             else:

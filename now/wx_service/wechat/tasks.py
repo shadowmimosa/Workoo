@@ -26,17 +26,15 @@ def main(weid, openid, current, imei):
         "touser": openid,
         "msgtype": "text",
         "text": {
-            "content": str(reply_content)
+            "content":
+            "\n\n".join((str(reply_content), AccountInfo(openid).money_info()))
         }
     }
     print(data)
     resp = Query().run(
         path=url,
         header={},
-        data=bytes(
-            "\n\n".join((json.dumps(data, ensure_ascii=False),
-                         AccountInfo(openid).money_info())),
-            encoding='utf-8'))
+        data=bytes(json.dumps(data, ensure_ascii=False), encoding='utf-8'))
 
     print(resp)
 
@@ -56,10 +54,7 @@ def qr_code(openid):
         "https://api.weixin.qq.com/cgi-bin/message/custom/send?access_token={}"
         .format(AccessToken().judge_token()),
         header={},
-        data=bytes(
-            "\n\n".join((json.dumps(data, ensure_ascii=False),
-                         AccountInfo(openid).money_info())),
-            encoding='utf-8'))
+        data=bytes(json.dumps(data, ensure_ascii=False), encoding='utf-8'))
 
 
 # nohup celery -A query_service.mycelery worker -l info &

@@ -15,7 +15,6 @@ class AccessToken(object):
         url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxb3c3f15d73d9c9b8&secret=9a25d8f131d23c3ccfeb650618118d46"
         timestamp = int(time.time())
         resp = Query().run(path=url, header={})
-        print(resp)
         data = json.loads(resp)
         # data["timestamp"] = timestamp + data["expires_in"]
         data["timestamp"] = timestamp + 7000

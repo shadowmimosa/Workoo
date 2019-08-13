@@ -37,16 +37,26 @@ class UserInfo(BaseTable):
 
 
 class TransactionInfo(BaseTable):
-    class Meta:
-        """
-        `type`
+    """
+    `type`
 
-            -1: 扣费
-            1: 充值
-            2: 扣包月次数
-            3: 手动充值
-            4: 推广充值
-        """
+        -1: 扣费
+        # 1: 充值
+        10: 充值
+        21: 包月1
+        22: 包月2
+        23: 包月3
+        24: 包月4
+        31: 充值送包月1
+        32: 充值送包月2
+        33: 充值送包月3
+        2: 扣包月次数
+        3: 手动充值
+        # 4: 推广充值
+        4: 每日免费
+        5: 推广充值
+    """
+    class Meta:
         verbose_name = '交易信息'
         db_table = 'transaction_info'
 
@@ -61,13 +71,13 @@ class TransactionInfo(BaseTable):
 
 
 class MonthInfo(BaseTable):
-    class Meta:
-        """
-        `type`
+    """
+    `type`
 
-            1: 包月中
-            -1: 包月过期
-        """
+        1: 包月中
+        -1: 包月过期
+    """
+    class Meta:
         verbose_name = '包月信息'
         db_table = 'month_info'
 
