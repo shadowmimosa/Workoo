@@ -63,6 +63,18 @@ class UserInfoManager(models.Manager):
             Decimal(float(obj.balance) + float(balance)))
         obj.save()
 
+    def insert_promoter(self, openid, promoter):
+        self.create(openid=openid, promoter=promoter)
+
+    def query_promotions(self, openid):
+        return self.get(openid__exact=openid).promotions
+
+    def update_promotions(self, openid):
+        obj = self.get(openid__exact=openid)
+        obj.promotions = int(obj.promotions) + 1
+        obj.save()
+        self.update_balance(openid, "1.99")
+
 
 class TransactionInfoManager(models.Manager):
     def query_type(self, out_trade_no):
@@ -120,7 +132,16 @@ class MonthInfoManager(models.Manager):
             return 1
 
     def insert_user(self, openid, months=1, _type=1):
-        self.create(openid=openid, months=months, type=_type)
+        # obj = self.get(openid__exact=openid, type__exact="1")
+        # obj.months = int(obj.months) + int(months)
+        # obj.save()
+        try:
+            obj = self.get(openid__exact=openid, type__exact="1")
+        except ObjectDoesNotExist:
+            self.create(openid=openid, months=months, type=_type)
+        else:
+            obj.months = int(obj.months) + int(months)
+            obj.save()
 
     def add_count(self, openid):
         obj = self.get(openid__exact=openid, type__exact="1")
@@ -179,6 +200,7 @@ class ConfigInfoManager(models.Manager):
             self.create(
                 token="None",
                 free="1",
+                count="50",
                 monthly=
                 '{"month_1": 50, "month_3": 100, "month_6": 200, "month_imei": 80}',
                 event=json.dumps({
@@ -287,4 +309,9 @@ class ConfigInfoManager(models.Manager):
     def update_event(self, content):
         obj = self.get(id__exact=1)
         obj.event = json.dumps(content, ensure_ascii=False)
+        obj.save()
+
+    def update_count(self, count):
+        obj = self.get(id__exact=1)
+        obj.count = int(count)
         obj.save()

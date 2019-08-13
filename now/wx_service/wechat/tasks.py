@@ -7,6 +7,7 @@ from celery import shared_task
 from wechat.utils.common import AccessToken
 from wechat.utils.service import DealService, AccountInfo
 from wechat.utils.request import Query
+from wechat.utils.qr_code import QrCode
 
 # from wechat.utils.analysis import TextMsg
 # from now.wx_service.wechat.utils.analysis import TextMsg
@@ -34,12 +35,33 @@ def main(weid, openid, current, imei):
         header={},
         data=bytes(
             "\n\n".join((json.dumps(data, ensure_ascii=False),
-                       AccountInfo(openid).money_info())),
+                         AccountInfo(openid).money_info())),
             encoding='utf-8'))
 
     print(resp)
-    # if json.loads(resp)["errcode"]==0:
-    #     pass
+
+
+@shared_task
+def qr_code(openid):
+    media_id = QrCode(openid).run()
+    data = {
+        "touser": openid,
+        "msgtype": "image",
+        "image": {
+            "media_id": media_id
+        }
+    }
+    resp = Query().run(
+        path=
+        "https://api.weixin.qq.com/cgi-bin/message/custom/send?access_token={}"
+        .format(AccessToken().judge_token()),
+        header={},
+        data=bytes(
+            "\n\n".join((json.dumps(data, ensure_ascii=False),
+                         AccountInfo(openid).money_info())),
+            encoding='utf-8'))
+
 
 # nohup celery -A query_service.mycelery worker -l info &
+# celery worker -A tasks --loglevel=info -P gevent -c 100
 # uwsgi --ini uwsgi/uwsgi.ini

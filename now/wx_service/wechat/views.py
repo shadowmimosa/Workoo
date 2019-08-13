@@ -5,16 +5,18 @@ from django.views.generic.base import View
 from django.views.generic import TemplateView
 from django.views.decorators.csrf import csrf_exempt
 from django.utils.encoding import smart_str
+from django.db.utils import ProgrammingError
 import hashlib
 import json
 import time
 
 # from wechat.analysis import Analysis
 from .utils.analysis import Analysis
-from .utils.service import WxPay
-from .utils.service import oauth_wx
+from .utils.service import WxPay, oauth_wx, insert_balance
 from .utils.set_button import SetButton
 from .utils.common import monthly_price, free_time, get_event
+from wechat.models import ConfigInfo, MonthInfo
+from .utils.qr_code import QrCode
 
 #微信的介入验证是GET方法
 #微信正常的收发消息是POST方法
@@ -72,7 +74,6 @@ def wx_pay(request):
 
         # ret = {"openid": "omFm91TlajGX2aYF9mDptN623vPM"}
         # return render(request, 'wechat/home.html', ret)
-        pass
     elif request.method == "POST":
         print(request.body)
         print(request.POST)
@@ -81,6 +82,54 @@ def wx_pay(request):
 
         data = WxPay(openid, fee).unified_order()
         # data = {"status": 1}
+
+        return HttpResponse(
+            json.dumps(data, ensure_ascii=False),
+            content_type="application/json;charset=utf-8")
+
+
+@csrf_exempt
+def wx_pay_(request):
+    if request.method == "GET":
+        code = request.GET.get('code', None)
+        state = request.GET.get('state', None)
+        # openid = oauth_wx(code)
+        # ret["openid"] = openid
+        ret = monthly_price()
+        ret["openid"] = "omFm91TlajGX2aYF9mDptN623vPM"
+        return render(request, 'wechat/wxRecharge.html', ret)
+    elif request.method == "POST":
+        print(request.body)
+        print(request.POST)
+
+        openid = request.POST.get("openId")
+        id_ = request.POST.get("id")
+        fee = 0
+        if id_ == "recharge_0":
+            fee = request.POST.get("sn")
+            order_type = 10
+        elif "month" in id_:
+            if id_ == "month_1":
+                order_type = 21
+            elif id_ == "month_3":
+                order_type = 22
+            elif id_ == "month_6":
+                order_type = 23
+            elif id_ == "month_imei":
+                order_type = 24
+            fee = monthly_price(id_)
+        else:
+            if id_ == "recharge_200":
+                order_type = 31
+            elif id_ == "recharge_500":
+                order_type = 32
+            elif id_ == "recharge_1000":
+                order_type = 33
+            fee = int(id_.replace("recharge_", ""))
+        print("openid is {}".format(openid))
+        print(id_, fee, openid)
+
+        data = WxPay(openid, fee, order_type).unified_order()
 
         return HttpResponse(
             json.dumps(data, ensure_ascii=False),
@@ -120,7 +169,7 @@ def judge(request):
 
 @csrf_exempt
 def change_price(request):
-    """修改包月金额
+    """修改包月金额及接口价格
     
     `example`
 
@@ -133,9 +182,10 @@ def change_price(request):
     item = request.GET.get("item")
     price = request.GET.get("price")
 
-    if item in ["month_1","month_3","month_6","month_imei"]:
+    if item in ["month_1", "month_3", "month_6", "month_imei"]:
         return HttpResponse(
-            json.dumps(monthly_price(item=item, price=price), ensure_ascii=False),
+            json.dumps(
+                monthly_price(item=item, price=price), ensure_ascii=False),
             content_type="application/json;charset=utf-8")
     else:
         return HttpResponse(
@@ -143,6 +193,7 @@ def change_price(request):
             content_type="application/json;charset=utf-8")
 
 
+@csrf_exempt
 def change_count(request):
     """修改每天免费次数
     
@@ -159,47 +210,70 @@ def change_count(request):
 
 @csrf_exempt
 def update_balance(request):
-    pass
+    """修改用户余额
+    
+    `example`
+
+        /wx/update?openid=omFm91TlajGX2aYF9mDptN623vPM&count=50
+
+    """
+    if request.method == "GET":
+        openid = request.GET.get("openid")
+        count = request.GET.get("count")
+
+        return HttpResponse(
+            json.dumps(insert_balance(openid, count), ensure_ascii=False),
+            content_type="application/json;charset=utf-8")
 
 
 @csrf_exempt
-def wx_pay_(request):
-    if request.method == "POST":
-        print(request.body)
-        print(request.POST)
+def update_months(request):
+    """用户包月
+    
+    `example`
 
-        openid = request.POST.get("openId")
-        id_ = request.POST.get("id")
-        fee = 0
-        if id_ == "recharge_0":
-            fee = request.POST.get("sn")
-            order_type = 1
-        elif "month" in id_:
-            if id_ == "month_1":
-                order_type = 21
-            elif id_ == "month_3":
-                order_type = 22
-            elif id_ == "month_6":
-                order_type = 23
-            elif id_ == "month_imei":
-                order_type = 24
-            fee = monthly_price(id_)
+        /wx/month?openid=omFm91TlajGX2aYF9mDptN623vPM&months=1
+
+    """
+    if request.method == "GET":
+        openid = request.GET.get("openid")
+        months = request.GET.get("months")
+        try:
+            MonthInfo.objects.insert_user(openid, months=months)
+        except:
+            msg = {"status": "failed"}
         else:
-            if id_ == "recharge_200":
-                order_type = 31
-            elif id_ == "recharge_500":
-                order_type = 32
-            elif id_ == "recharge_1000":
-                order_type = 33
-            fee = int(id_.replace("recharge_", ""))
-        print("openid is {}".format(openid))
-        print(id_, fee, openid)
-
-        data = WxPay(openid, fee, order_type).unified_order()
-
+            msg = {"status": "success"}
         return HttpResponse(
-            json.dumps(data, ensure_ascii=False),
+            json.dumps(msg, ensure_ascii=False),
             content_type="application/json;charset=utf-8")
+
+
+@csrf_exempt
+def update_count(request):
+    """更新会员免费次数
+    
+    `example`
+
+        /wx/count?counts=50
+
+    """
+    if request.method == "GET":
+        counts = request.GET.get("counts")
+        try:
+            ConfigInfo.objects.update_count(counts)
+        except:
+            msg = {"status": "failed"}
+        else:
+            msg = {"status": "success"}
+        return HttpResponse(
+            json.dumps(msg, ensure_ascii=False),
+            content_type="application/json;charset=utf-8")
+
+
+def backdoor(request):
+    
+    return HttpResponse("backdoor")
 
 
 def set_button(request):
@@ -210,9 +284,9 @@ def set_button(request):
 def update(request):
     openid = request.GET.get("openid")
     WxPay().update_order(
-        out_trade_no="36671BC0AE00FFA61B7B393092AE4BCA",
+        out_trade_no="B8A2D25C5C928386871235D16130614F",
         openid=openid,
-        fee=100)
+        fee="0.8")
 
     return HttpResponse("777")
 
@@ -226,3 +300,16 @@ def wx_page(request):
         ret = monthly_price()
         ret["openid"] = "omFm91TlajGX2aYF9mDptN623vPM"
         return render(request, 'wechat/wxRecharge.html', ret)
+
+
+def debug(request):
+    # QrCode("test3").run()
+    data = WxPay("omFm91TlajGX2aYF9mDptN623vPM", "0.8", "10").unified_order()
+    return HttpResponse("debug")
+
+
+try:
+    ConfigInfo.objects.init()
+    print("init Config successed")
+except ProgrammingError:
+    print("init Config failed")

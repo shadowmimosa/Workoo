@@ -23,6 +23,10 @@ class DealService(object):
         self.click_list = get_event()
         self.appkey = "6a09c7c5a7419c00baa32242c9bf17f7"
         self.requests = Query()
+        try:
+            self.fee = get_event()[self.current]["count"]
+        except:
+            pass
 
     def guarantee(self):
         resp = self.requests.run(
@@ -61,6 +65,8 @@ class DealService(object):
 
         if data["code"] == 0:
             return True, data["data"]
+        elif data["code"] == 302312:
+            return False, data["message"]
         else:
             return False, "请联系客服"
 
@@ -96,6 +102,8 @@ class DealService(object):
 
         if data["code"] == 0:
             return True, data["data"]
+        elif data["code"] == 302312:
+            return False, data["message"]
         else:
             return False, "请联系客服"
 
@@ -107,6 +115,8 @@ class DealService(object):
 
         if data["code"] == 0:
             return True, data["data"]
+        elif data["code"] == 302312:
+            return False, data["message"]
         else:
             return False, "请联系客服"
 
@@ -141,6 +151,8 @@ class DealService(object):
 
         if data["code"] == 0:
             return True, data
+        elif data["code"] == 302312:
+            return False, data["message"]
         else:
             return False, "请联系客服"
 
@@ -153,6 +165,8 @@ class DealService(object):
 
         if data["code"] == 0:
             return True, data["data"]
+        elif data["code"] == 302312:
+            return False, data["message"]
         else:
             return False, "请联系客服"
 
@@ -164,6 +178,8 @@ class DealService(object):
 
         if data["code"] == 0:
             return True, data["data"]
+        elif data["code"] == 302312:
+            return False, data["message"]
         else:
             return False, "请联系客服"
 
@@ -223,6 +239,8 @@ class DealService(object):
             Decimal(0 - fee)))
 
     def judge_balance(self):
+        print(self.click_list)
+        print(self.current)
         self.fee = float(self.click_list[self.current]["count"])
         self.balance = float(UserInfo.objects.query_balance(self.openid))
         if self.balance >= self.fee:
@@ -318,6 +336,9 @@ class AccountInfo(object):
     def __init__(self, openid):
         self.openid = openid
 
+    def my_openid(self):
+        return "我的账号: {}".format(self.openid)
+
     def money_info(self):
         balance = UserInfo.objects.query_balance(self.openid)
         return "剩余金额: {}".format(balance)
@@ -335,6 +356,10 @@ class AccountInfo(object):
         elif status == 0:
             return "包月状态: 非会员"
 
+    def promotions_info(self):
+        return "扫二维码推荐人数：{}人".format(
+            UserInfo.objects.query_promotions(self.openid))
+
     def people_info(self):
         pass
 
@@ -350,9 +375,10 @@ class AccountInfo(object):
                                                  "ID_BLACK_WHITE"), times)))
 
     def account_information(self):
-        return "\n".join((self.money_info(), self.month_info(),
-                          "微信客服: aifengchaxun1", "——每日免费剩余次数——",
-                          self.free_info()))
+        return "\n".join(
+            (self.my_openid(), self.money_info(), self.month_info(),
+             self.promotions_info(), "微信客服: aifengchaxun1", "——每日免费剩余次数——",
+             self.free_info()))
 
 
 class WxPay(object):
@@ -410,7 +436,7 @@ class WxPay(object):
 
         first_, last_ = str(order_type)[0], str(order_type)[1]
 
-        if first_ == 1:
+        if first_ == "1":
             UserInfo.objects.update_balance(openid, float(fee) / 100 * 0.99)
         elif first_ == "2":
             if last_ == "1":
@@ -449,7 +475,7 @@ class WxPay(object):
             "nonce_str": self.random_str(),
             "body": "爱锋查询充值",
             "out_trade_no": out_trade_no,
-            "total_fee": int(self.fee) * 100,
+            "total_fee": int(float(self.fee) * 100),
             "spbill_create_ip": "39.105.2.213",
             "notify_url": "39.105.2.213/wx/pay/result/",
             "trade_type": "JSAPI",
@@ -490,6 +516,24 @@ def oauth_wx(code):
     resp = Query().run(token_url, header={})
     data = json.loads(resp)
     return data["openid"]
+
+
+def insert_balance(openid, count):
+    def bulid_order_id(openid):
+        raw_str = "{}{}{}".format(openid, time.time(), random.randint(0, 100))
+        md5 = hashlib.md5()
+        md5.update(raw_str.encode("utf-8"))
+        return md5.hexdigest().upper()
+
+    try:
+        UserInfo.objects.update_balance(openid=openid, balance=count)
+        TransactionInfo.objects.insert_transaction(
+            bulid_order_id(openid), openid, count, 3, 1)
+    except Exception as exc:
+        print(exc)
+        return {"status": "failed"}
+    else:
+        return {"status": "success"}
 
 
 if __name__ == "__main__":

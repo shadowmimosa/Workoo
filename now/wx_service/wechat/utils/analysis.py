@@ -8,8 +8,8 @@ from django.db.utils import IntegrityError
 from wechat.models import UserInfo, TransactionInfo
 from wechat.utils.service import DealService, AccountInfo
 from wechat.utils.common import get_event
-from wechat.tasks import main
-from query_service.mycelery import app
+from wechat.utils.qr_code import QrCode
+from wechat.tasks import main, qr_code
 
 # from now.wx_service.wechat.tasks import main
 # from now.wx_service.query_service.mycelery import app
@@ -53,10 +53,24 @@ class Analysis:
             return ImageMsgObj.structReply()
 
         elif msgType == 'event':
-            eventKey = xmlData.find("EventKey").text
-
-            reply_content = self.deal.event(eventKey)
-
+            event_type = xmlData.find("Event").text
+            eventKey = xmlData.find("EventKey").text.replace("qrscene_", "")
+            print(event_type)
+            if event_type == "CLICK":
+                reply_content = self.deal.event(eventKey)
+            elif event_type == "subscribe":
+                reply_content = "感谢关注"
+                if eventKey == None:
+                    UserInfo.objects.insert_promoter(openid, eventKey)
+                elif not UserInfo.objects.query_current(openid):
+                    UserInfo.objects.insert_promoter(openid, eventKey)
+                    UserInfo.objects.update_promotions(eventKey)
+                    DealService(openid=openid).insert_order(
+                        fee="1.99", order_type=4)
+            elif event_type == "SCAN":
+                reply_content = "感谢关注"
+            else:
+                reply_content = "感谢关注"
             return TextMsg(toUserName, fromUserName,
                            reply_content).structReply()
 
@@ -102,7 +116,16 @@ class DealServer(object):
                 imei=imei).main(), AccountInfo(self.openid).money_info()))
         else:
             reply_content = "爱锋妹正在为您查询中····· \n注意：请勿重复提交信息 \n如超过5分钟未出结果请联系客服 aifengchaxun1"
-            main.delay("gh_8218d7e02312", self.openid, current, imei)
+            main.delay("gh_8218d7e02312", self.openid, self.current, imei)
+
+        return reply_content
+
+    def do_qrcode(self):
+        if sys.platform == "win32":
+            reply_content = QrCode(self.openid).run()
+        else:
+            reply_content = "您的专属推荐码已生成！\n点击菜单\n→推荐二维码码送金额\n→将生成的专属推荐码\n→转发朋友圈/好友/通讯群\n→新用户扫码\n→送1.99元"
+            qr_code.delay(self.openid)
 
         return reply_content
 
@@ -165,7 +188,7 @@ class DealServer(object):
         if event_key == "MOVE_SERVICES":
             return "回复数字切换查询\n1、保修查询\n2、ID查询\n3、ID黑白查询\n4、苹果型号查询"
         elif event_key == "EXTENDED_QR_CODE":
-            return "该服务还没准备好哦，请稍后"
+            return self.do_qrcode()
         elif event_key == "ACCOUNT_INFORMATION":
             return AccountInfo(openid=self.openid).account_information()
         else:

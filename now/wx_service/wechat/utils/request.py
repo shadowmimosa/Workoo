@@ -71,6 +71,7 @@ class Query(object):
             data = kwargs.get("data")
         except:
             data = None
+        files = kwargs.get("files")
 
         sesscion_a = self.get_session()
 
@@ -80,21 +81,24 @@ class Query(object):
         retry_count = 5
         while retry_count > 0:
             try:
-                if not data:
-                    resp = sesscion_a.get(
-                        url,
-                        headers=header,
-                        allow_redirects=False,
-                        timeout=(4, 14))
-                elif isinstance(data, dict):
+
+                if isinstance(data, dict):
                     resp = sesscion_a.post(
                         url,
                         headers=header,
                         data=json.dumps(data),
                         timeout=(4, 14))
-                else:
+                elif isinstance(files, dict):
+                    resp = sesscion_a.post(url, files=files, timeout=(4, 14))
+                elif data:
                     resp = sesscion_a.post(
                         url, headers=header, data=data, timeout=(4, 14))
+                else:
+                    resp = sesscion_a.get(
+                        url,
+                        headers=header,
+                        allow_redirects=False,
+                        timeout=(4, 14))
                 retry_count = 0
             except Exception as exc:
                 retry_count -= 1
@@ -120,6 +124,9 @@ class Query(object):
                 "--->Error: deal re is error, the error is {}".format(exc))
             return None
 
-    def run(self, path, header, data=None):
-        resp = self.deal_re(url=path, header=header, data=data)
-        return resp.text
+    def run(self, path, sign=None, header={}, **kwargs):
+        resp = self.deal_re(url=path, header=header, **kwargs)
+        if sign:
+            return resp.content
+        else:
+            return resp.text

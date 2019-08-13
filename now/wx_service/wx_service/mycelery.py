@@ -3,8 +3,8 @@ import os
 from celery import Celery
 
 # set the default Django settings module for the 'celery' program.
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'query_service.settings')
-app = Celery('query_service')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'wx_service.settings')
+app = Celery('wx_service')
 
 # Using a string here means the worker don't have to serialize
 # the configuration object to child processes.
