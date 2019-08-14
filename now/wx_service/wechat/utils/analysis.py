@@ -110,14 +110,24 @@ class DealServer(object):
             return 0
 
     def do_server(self, imei):
-        if sys.platform == "win32":
-            reply_content = "\n\n".join((DealService(
-                openid=self.openid, current=self.current,
-                imei=imei).main(), AccountInfo(self.openid).money_info()))
-        else:
-            reply_content = "爱锋妹正在为您查询中····· \n注意：请勿重复提交信息 \n如超过5分钟未出结果请联系客服 aifengchaxun1"
-            main.delay("gh_8218d7e02312", self.openid, self.current, imei)
+        print(self.current)
+        if self.current in [
+                "GUARANTEE", "ID_ACTIVATE", "ID_BLACK_WHITE", "ID_WITH_IMEI",
+                "MAC_MACHINE", "NETWORK_LOCK", "SERVICE_PROVIDE",
+                "OFFICIAL_CHANGE", "MAC_REPAIR", "OVER_PROTECTION",
+                "IMEI_EACH", "GUARANTEE_QUERY", "ID_QUERY", "ID_BLACK_WHITE_",
+                "TYPE_CHECK"
+        ]:
 
+            if sys.platform == "win32":
+                reply_content = "\n\n".join((DealService(
+                    openid=self.openid, current=self.current,
+                    imei=imei).main(), AccountInfo(self.openid).money_info()))
+            else:
+                reply_content = "爱锋妹正在为您查询中····· \n注意：请勿重复提交信息 \n如超过5分钟未出结果请联系客服 aifengchaxun1"
+                main.delay("gh_8218d7e02312", self.openid, self.current, imei)
+        else:
+            reply_content = "请在菜单栏选择要查询的项目111"
         return reply_content
 
     def do_qrcode(self):
@@ -158,10 +168,15 @@ class DealServer(object):
                 if code == 2:
                     reply_content = ""
                     imei_list = content.split("\n")
-                    for value in imei_list:
-                        reply_content = "\n".join(
-                            (reply_content,
-                             self.do_server(value.replace(" ", ""))))
+                    if len(imei_list) > 5:
+                        reply_content = "请输入五个以内IMEI"
+                    else:
+                        for value in imei_list:
+                            reply_content = self.do_server(value.replace(" ", ""))
+                            time.sleep(0.5)
+                            # reply_content = "\n".join(
+                            #     (reply_content,
+                            #      self.do_server(value.replace(" ", ""))))
                 elif code == 3:
                     imei = content.replace(" ", "")
                     reply_content = self.do_server(imei)

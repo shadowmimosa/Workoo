@@ -57,6 +57,8 @@ def qr_code(openid):
         data=bytes(json.dumps(data, ensure_ascii=False), encoding='utf-8'))
 
 
-# nohup celery -A query_service.mycelery worker -l info &
+# nohup celery -A wx_service.mycelery worker -l info &
 # celery worker -A tasks --loglevel=info -P gevent -c 100
+# celery multi start w1 -A wx_service.mycelery -l info  -c 10 --logfile=./log/celerylog.log --pidfile=./celery/celerypid.pid
+
 # uwsgi --ini uwsgi/uwsgi.ini

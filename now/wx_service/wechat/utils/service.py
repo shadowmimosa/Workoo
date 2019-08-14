@@ -14,6 +14,236 @@ from wechat.models import UserInfo, TransactionInfo, MonthInfo
 from wechat.utils.common import get_event, free_time
 
 
+class DataClean(object):
+    def __init__(self):
+        pass
+
+    def ifreeicloud(self, content):
+        """
+        """
+        data = json.loads(content)
+        if data["success"] == True:
+            return data["response"].replace("<br>", "\n").replace(
+                "Find My iPhone", "找到我的iPhone"
+            ).replace(
+                '<span style=\"color:red;\">ON</span>', "ON （开启）").replace(
+                    '<span style=\"color:green;\">OFF</span>', "OFF（关闭）"
+                ).replace("iCloud Status", "iCloud状态").replace(
+                    '<span style=\"color:red;\">Lost Mode</span>', "丢失模式"
+                ).replace("Model Number", "型号").replace("Model", "型号").replace(
+                    "Identifier", "类型").replace("Order", "型号").replace(
+                        "Network", "网络"
+                    ).replace("Activated", "已激活").replace(
+                        "Purchase Date", "购买日期"
+                    ).replace("Repairs & Service Coverage", "维修和服务范围").replace(
+                        "Technical Support", "技术支持"
+                    ).replace(
+                        "Manufacturer",
+                        "制造商").replace(
+                            "Foxconn",
+                            "富士康").replace("<sup>Valid</sup>", "有效").replace(
+                                "<sup>", ""
+                            ).replace(
+                                "</sup>",
+                                "").replace(
+                                    '<span style=\"color:green;\">Yes</span>',
+                                    "是").replace(
+                                        '<span style=\"color:red;\">No</span>',
+                                        "否").replace(
+                                            '<span style=\"color:red;\">',
+                                            "").replace("</span>", "")
+        else:
+            return data["error"]
+
+    def applecheck(self, content):
+        data = content.split("Result:")[-1]
+
+        return data.replace("<br>", "\n").replace("Model", "型号").replace(
+            "Serial Number",
+            "序列号").replace("Valid Purchase Date", "有效购买日期").replace(
+                "Purchase Date",
+                "购买日期").replace("Activation Status", "激活状态").replace(
+                    "Warranty Status", "保修状态"
+                ).replace("Telephone Technical Support", "电话技术支持").replace(
+                    "Repairs and Service Coverage", "维修和服务范围").replace(
+                        "AppleCare Eligible",
+                        "AppleCare符合条件").replace("Registered", "注册").replace(
+                            "Replaced",
+                            "替换").replace("Replaced", "替换").replace(
+                                "Loaner", "借用者").replace(
+                                    "Find My iPhone", "找到我的iPhone").replace(
+                                        "SIMLock Status", "SIMLock状态"
+                                    ).replace(
+                                        "Repairs and Service Expiration Date",
+                                        "维修和服务有效期").replace(
+                                            "Repairs and Service Expires In",
+                                            "维修和服务到期时间").replace(
+                                                "<font color=008000>",
+                                                "").replace("</font>",
+                                                            "").replace(
+                                                                "}", "")
+
+    def data3023(self, content):
+        keylist = {
+            "imei": "IMEI",
+            "sn": "序列号",
+            "description": "型号（整合）",
+            "model": "型号",
+            "storage": "容量",
+            "color": "颜色",
+            "type": "网络类型",
+            "number": "网络型号（参考）",
+            "identifier": "产品类型",
+            "order": "零件编号（参考）",
+            "network": "支持网络（参考）",
+            "status": "设备状态",
+            # "status": "设备状态（normal、refurbished）",
+            "activated": {
+                "name": "激活状态",
+                "true": "是",
+                "false": "否"
+            },
+            "purchase": {
+                "date": "激活日期（预估购买日期）",
+                "validated": {
+                    "name": "有效购买日期",
+                    "true": "是（已验证）",
+                    "false": "未验证"
+                },
+            },
+            # "coverage": "保修结束日期",
+            "coverage": {
+                "name": "保修结束日期",
+                "expired": "已过期",
+                "active": "未过期"
+            },
+            "daysleft": "保修剩余（天）",
+            "support": {
+                "name": "技术支持",
+                "expired": "已过期",
+                "active": "未过期"
+            },
+            "applecare": {
+                "name": "是否延保",
+                "true": "是",
+                "false": "否"
+            },
+            "loaner": {
+                "name": "借出设备",
+                "Y": "是",
+                "N": "否"
+            },
+            "manufacture": {
+                "date": "生产日期",
+                "factory": "产地",
+            },
+            "manufacturer": "制造商（生产工厂）",
+            "img": "设备图片",
+            # 2
+            "status": "维修状态",
+            # "status": "维修状态（none、once repaired、under repair）",
+            "sales": "销售代码",
+            # 3
+            "capacity": "容量",
+            "production": {
+                "start": "生产日期",
+                "end": "end",
+                "origin": "产地"
+            },
+            # 4
+            "locked": {
+                "name": "激活锁",
+                "true": "开启（On）",
+                "false": "关闭（Off）"
+            },
+            "time": "time",
+            # 5
+            "icloud": {
+                "name": "ID黑白",
+                "Clean/Off": "Clean/Off（白）",
+                "Lost": "Lost（黑）"
+            },
+            # 6
+            "simlock": {
+                "name": "网络锁",
+                "locked": "有锁",
+                "unlocked": "无锁"
+            }
+        }
+
+        data = json.loads(content)
+
+        reply = ""
+        if data["code"] == 0:
+            if "data" in data.keys():
+                if isinstance(data["data"], str):
+                    return True, data["data"].replace("<br>", "\n")
+                else:
+                    detail = data["data"]
+            else:
+                detail = data
+            for key in detail.keys():
+                if key in keylist.keys():
+                    if isinstance(detail[key], str):
+                        if isinstance(keylist[key], dict):
+                            try:
+                                reply = "\n".join((reply, ": ".join(
+                                    (keylist[key]["name"],
+                                     keylist[key][detail[key]]))))
+                            except KeyError:
+                                reply = "\n".join((reply, ": ".join(
+                                    (keylist[key]["name"], detail[key]))))
+                        else:
+                            reply = "\n".join((reply, ": ".join(
+                                (keylist[key], detail[key]))))
+                    elif isinstance(detail[key], dict):
+                        for _key in detail[key].keys():
+                            if _key in keylist[key].keys():
+                                if isinstance(detail[key][_key], str):
+                                    reply = "\n".join((reply, ": ".join(
+                                        (keylist[key][_key],
+                                         detail[key][_key]))))
+                    elif detail[key] is True:
+                        try:
+                            reply = "\n".join((reply, ": ".join(
+                                (keylist[key]["name"], keylist[key]["true"]))))
+                        except KeyError:
+                            reply = "\n".join((reply, ": ".join(
+                                (keylist[key], detail[key]))))
+
+                    elif detail[key] is False:
+                        try:
+                            reply = "\n".join((reply, ": ".join(
+                                (keylist[key]["name"],
+                                 keylist[key]["false"]))))
+                        except KeyError:
+                            reply = "\n".join((reply, ": ".join(
+                                (keylist[key], detail[key]))))
+            return True, reply
+        elif data["code"] in [302311, 302312, 302315]:
+            return True, data["message"]
+        else:
+            return False, "请联系客服"
+
+    def imeicheck(self, content):
+        return content.replace("<br>", "\n").replace("Model", "型号").replace(
+            "Serial Number", "序列号").replace("Estimated Purchase Date",
+                                            "预计购买日期")
+
+    def deal_detail(self, content):
+        if isinstance(content, str):
+            if "=>" in content:
+                temp_1 = content.split("，")
+                data = {"name": temp_1[0]}
+                temp_2 = temp_1[-1].split("、")
+                for value in temp_2:
+                    temp = value.split("=>")
+                    data[temp[0]] = temp[-1]
+                return data
+
+    # def deal_name(self):
+
+
 class DealService(object):
     def __init__(self, **kwargs):
         self.openid = kwargs.get("openid")
@@ -23,6 +253,7 @@ class DealService(object):
         self.click_list = get_event()
         self.appkey = "6a09c7c5a7419c00baa32242c9bf17f7"
         self.requests = Query()
+        self.dc = DataClean()
         try:
             self.fee = get_event()[self.current]["count"]
         except:
@@ -36,18 +267,25 @@ class DealService(object):
         return True, json.loads(resp)
 
     def id_activate(self):
+        # resp = self.requests.run(
+        #     "http://132.232.235.229:39005/query/?imei={}".format(self.imei),
+        #     header={})
         resp = self.requests.run(
-            "http://132.232.235.229:39005/query/?imei={}".format(self.imei),
-            header={})
+            "https://api.ifreeicloud.co.uk/?key=TGR-GEB-PQ2-474-BXO-986-6V7-PSK&imei={}&service=125"
+            .format(self.imei))
 
-        return True, json.loads(resp)
+        return True, self.dc.ifreeicloud(resp)
 
     def id_black_white(self):
-        resp = self.requests.run(
-            "http://132.232.235.229:39005/query/?imei={}".format(self.imei),
-            header={})
+        # resp = self.requests.run(
+        #     "http://132.232.235.229:39005/query/?imei={}".format(self.imei),
+        #     header={})
 
-        return Titem.loads(resp)
+        resp = self.requests.run(
+            "https://api.ifreeicloud.co.uk/?key=TGR-GEB-PQ2-474-BXO-986-6V7-PSK&imei={}&service=60"
+            .format(self.imei))
+
+        return True, self.dc.ifreeicloud(resp)
 
     def id_with_imei(self):
         resp = self.requests.run(
@@ -63,12 +301,7 @@ class DealService(object):
             header={"key": self.appkey})
         data = json.loads(resp)
 
-        if data["code"] == 0:
-            return True, data["data"]
-        elif data["code"] == 302312:
-            return False, data["message"]
-        else:
-            return False, "请联系客服"
+        return self.dc.data3023(resp)
 
     def network_lock(self):
 
@@ -78,8 +311,7 @@ class DealService(object):
             header={})
 
         if "SUCCESS" in resp or "ERROR" in resp:
-            data = resp.split("Result:")[-1]
-            return True, data
+            return True, self.dc.applecheck(resp)
         else:
             return False, "请联系客服"
 
@@ -89,8 +321,7 @@ class DealService(object):
             .format(self.imei),
             header={})
         if "SUCCESS" in resp or "ERROR" in resp:
-            data = resp.split("Result:")[-1]
-            return True, data
+            return True, self.dc.applecheck(resp)
         else:
             return False, "请联系客服"
 
@@ -98,98 +329,69 @@ class DealService(object):
         resp = self.requests.run(
             "http://api.3023data.com/apple/appraisal?sn={}".format(self.imei),
             header={"key": self.appkey})
-        data = json.loads(resp)
-
-        if data["code"] == 0:
-            return True, data["data"]
-        elif data["code"] == 302312:
-            return False, data["message"]
-        else:
-            return False, "请联系客服"
+        return self.dc.data3023(resp)
 
     def mac_repair(self):
         resp = self.requests.run(
             "http://api.3023data.com/apple/repair?sn={}".format(self.imei),
             header={"key": self.appkey})
-        data = json.loads(resp)
+        # data = json.loads(resp)
 
-        if data["code"] == 0:
-            return True, data["data"]
-        elif data["code"] == 302312:
-            return False, data["message"]
-        else:
-            return False, "请联系客服"
+        # if data["code"] == 0:
+        #     return True, data["data"]
+        # elif data["code"] == 302312:
+        #     return False, data["message"]
+        # else:
+        #     return False, "请联系客服"
+        return self.dc.data3023(resp)
 
     def over_protection(self):
         resp = self.requests.run(
             "https://api.ifreeicloud.co.uk/?key=TGR-GEB-PQ2-474-BXO-986-6V7-PSK&imei={}&service=140"
             .format(self.imei),
             header={})
-        data = json.loads(resp)
 
-        if data["success"] == True and data["status"] == "Successful":
-            return True, data["response"]
-        elif data["success"] == False:
-            return False, data["error"]
-        else:
-            return False, "请联系客服"
+        return True, self.dc.ifreeicloud(resp)
+        # if data["success"] == True and data["status"] == "Successful":
+        #     return True, data["response"]
+        # elif data["success"] == False:
+        #     return False, data["error"]
+        # else:
+        #     return False, "请联系客服"
 
     def imei_each(self):
         resp = self.requests.run(
             "https://imeicheck.info/user/api/getdata?IMEI={}&ACCESS_KEY=qpo9wb1a5g&SERVICE_ID=3"
-            .format(self.imei),
-            header={})
+            .format(self.imei))
 
-        return True, resp
+        return True, self.dc.imeicheck(resp)
 
     def guarantee_query(self):
         resp = self.requests.run(
             "http://api.3023data.com/apple/coverage?sn={}&lang=zh".format(
                 self.imei),
             header={"key": self.appkey})
-        data = json.loads(resp)
-
-        if data["code"] == 0:
-            return True, data
-        elif data["code"] == 302312:
-            return False, data["message"]
-        else:
-            return False, "请联系客服"
+        return self.dc.data3023(resp)
 
     def id_query(self):
         resp = self.requests.run(
             "http://api.3023data.com/apple/activationlock?sn={}".format(
                 self.imei),
             header={"key": self.appkey})
-        data = json.loads(resp)
-
-        if data["code"] == 0:
-            return True, data["data"]
-        elif data["code"] == 302312:
-            return False, data["message"]
-        else:
-            return False, "请联系客服"
+        return self.dc.data3023(resp)
 
     def id_black_white_(self):
         resp = self.requests.run(
             "http://api.3023data.com/apple/icloud?sn={}".format(self.imei),
             header={"key": self.appkey})
-        data = json.loads(resp)
-
-        if data["code"] == 0:
-            return True, data["data"]
-        elif data["code"] == 302312:
-            return False, data["message"]
-        else:
-            return False, "请联系客服"
+        return self.dc.data3023(resp)
 
     def type_check(self):
         resp = self.requests.run(
             "https://api.ifreeicloud.co.uk/?key=TGR-GEB-PQ2-474-BXO-986-6V7-PSK&imei={}&service=0"
-            .format(self.imei),
-            header={})
+            .format(self.imei))
 
-        return True, resp
+        return True, self.dc.ifreeicloud(resp)
 
     def recharge(self):
         print("RECHARGE")
@@ -239,7 +441,7 @@ class DealService(object):
             Decimal(0 - fee)))
 
     def judge_balance(self):
-        print(self.click_list)
+        # print(self.click_list)
         print(self.current)
         self.fee = float(self.click_list[self.current]["count"])
         self.balance = float(UserInfo.objects.query_balance(self.openid))
@@ -287,10 +489,11 @@ class DealService(object):
             status, info_ = eval("self.{}".format(self.current.lower()))()
             if status:
                 if isinstance(info_, str):
-                    final = info_.replace("<br>", "\n").replace(
-                        "<font color=FF0000>",
-                        "").replace("</font>}", "").replace("[", "").replace(
-                            "]", "")
+                    # final = info_.replace("<br>", "\n").replace(
+                    #     "<font color=FF0000>",
+                    #     "").replace("</font>}", "").replace("[", "").replace(
+                    #         "]", "")
+                    final = info_
                 elif isinstance(info_, dict):
                     final = ""
                     for key, value in info_.items():
