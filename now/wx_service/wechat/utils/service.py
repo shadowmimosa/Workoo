@@ -79,9 +79,11 @@ class DataClean(object):
                                             "Repairs and Service Expires In",
                                             "维修和服务到期时间").replace(
                                                 "<font color=008000>",
-                                                "").replace("</font>",
-                                                            "").replace(
-                                                                "}", "")
+                                                "").replace(
+                                                    "<font color=FF0000>",
+                                                    "").replace("</font>",
+                                                                "").replace(
+                                                                    "}", "")
 
     def data3023(self, content):
         keylist = {
