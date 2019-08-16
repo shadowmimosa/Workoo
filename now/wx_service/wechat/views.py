@@ -262,7 +262,8 @@ def update_count(request):
         counts = request.GET.get("counts")
         try:
             ConfigInfo.objects.update_count(counts)
-        except:
+        except Exception as exc:
+            print(exc)
             msg = {"status": "failed"}
         else:
             msg = {"status": "success"}

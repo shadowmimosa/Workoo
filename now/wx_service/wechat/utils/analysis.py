@@ -65,7 +65,7 @@ class Analysis:
                 elif not UserInfo.objects.query_current(openid):
                     UserInfo.objects.insert_promoter(openid, eventKey)
                     UserInfo.objects.update_promotions(eventKey)
-                    DealService(openid=openid).insert_order(
+                    DealService(openid=eventKey).insert_order(
                         fee="1.99", order_type=5)
             elif event_type == "SCAN":
                 reply_content = "感谢关注"

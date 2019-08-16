@@ -50,7 +50,9 @@ class DataClean(object):
                                     "是").replace(
                                         '<span style=\"color:red;\">No</span>',
                                         "否").replace(
-                                            '<span style=\"color:red;\">',
+                                            '<span style=\"color:red;\">', ""
+                                        ).replace(
+                                            '<span style=\"color:green;\">',
                                             "").replace("</span>", "")
         else:
             return data["error"]
@@ -98,7 +100,14 @@ class DataClean(object):
             "identifier": "产品类型",
             "order": "零件编号（参考）",
             "network": "支持网络（参考）",
-            "status": "设备状态",
+            "status": {
+                "name": "设备/维修状态",
+                "none": "无",
+                "once repaired": "曾经维修",
+                "under repair": "正在维修",
+                "normal": "normal",
+                "refurbished": "refurbished",
+            },
             # "status": "设备状态（normal、refurbished）",
             "activated": {
                 "name": "激活状态",
@@ -140,9 +149,9 @@ class DataClean(object):
                 "factory": "产地",
             },
             "manufacturer": "制造商（生产工厂）",
-            "img": "设备图片",
+            # "img": "设备图片",
             # 2
-            "status": "维修状态",
+            # "status": "维修状态",
             # "status": "维修状态（none、once repaired、under repair）",
             "sales": "销售代码",
             # 3
@@ -262,11 +271,16 @@ class DealService(object):
             pass
 
     def guarantee(self):
+        # resp = self.requests.run(
+        #     "http://39.105.2.213:80/query/?imei={}".format(self.imei),
+        #     header={})
+        # return True, json.loads(resp)
         resp = self.requests.run(
-            "http://39.105.2.213:80/query/?imei={}".format(self.imei),
-            header={})
-        print(resp)
-        return True, json.loads(resp)
+            "http://api.3023data.com/apple/coverage?sn={}".format(self.imei),
+            header={"key": self.appkey})
+        data = json.loads(resp)
+
+        return self.dc.data3023(resp)
 
     def id_activate(self):
         # resp = self.requests.run(

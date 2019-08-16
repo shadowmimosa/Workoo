@@ -109,6 +109,10 @@ def free_time(sign=None):
             return {"status": "success"}
 
 
+def get_count():
+    return ConfigInfo.objects.query_count()
+
+
 if __name__ == "__main__":
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
     print(AccessToken())

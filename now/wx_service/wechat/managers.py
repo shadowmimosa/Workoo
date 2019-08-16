@@ -159,7 +159,7 @@ class MonthInfoManager(models.Manager):
             -1: 包月且次数不足
             -2: 包月已过期
         """
-
+        from wechat.utils.common import get_count
         if self.judge_type(openid) == 1:
             return_code = self.judge_time()
             if return_code == None:
@@ -169,7 +169,7 @@ class MonthInfoManager(models.Manager):
             else:
                 if sign == None:
                     if self.type == 1:
-                        if int(self.obj.count) < 50:
+                        if int(self.obj.count) < get_count():
                             return 1
                         else:
                             return -1
@@ -177,7 +177,7 @@ class MonthInfoManager(models.Manager):
                         return 2
                 else:
                     if self.type == 1:
-                        if int(self.obj.count) < 50:
+                        if int(self.obj.count) < get_count():
                             return 1, return_code
                         else:
                             return -1, return_code
@@ -310,6 +310,9 @@ class ConfigInfoManager(models.Manager):
         obj = self.get(id__exact=1)
         obj.event = json.dumps(content, ensure_ascii=False)
         obj.save()
+
+    def query_count(self):
+        return int(self.get(id__exact=1).count)
 
     def update_count(self, count):
         obj = self.get(id__exact=1)

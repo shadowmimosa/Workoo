@@ -49,13 +49,13 @@ class Query(object):
         urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
         # 设置重连次数
-        requests.adapters.DEFAULT_RETRIES = 60
+        requests.adapters.DEFAULT_RETRIES = 10
         # 设置连接活跃状态为False
         session = requests.session()
         session.keep_alive = False
         session.verify = False
 
-        adapter = requests.adapters.HTTPAdapter(max_retries=30)
+        adapter = requests.adapters.HTTPAdapter(max_retries=3)
         # 将重试规则挂载到http和https请求
         session.mount('http://', adapter)
         session.mount('https://', adapter)
@@ -87,18 +87,18 @@ class Query(object):
                         url,
                         headers=header,
                         data=json.dumps(data),
-                        timeout=(4, 14))
+                        timeout=(10, 60))
                 elif isinstance(files, dict):
-                    resp = sesscion_a.post(url, files=files, timeout=(4, 14))
+                    resp = sesscion_a.post(url, files=files, timeout=(10, 60))
                 elif data:
                     resp = sesscion_a.post(
-                        url, headers=header, data=data, timeout=(4, 14))
+                        url, headers=header, data=data, timeout=(10, 60))
                 else:
                     resp = sesscion_a.get(
                         url,
                         headers=header,
                         allow_redirects=False,
-                        timeout=(4, 14))
+                        timeout=(10, 60))
                 retry_count = 0
             except Exception as exc:
                 retry_count -= 1
