@@ -4,7 +4,9 @@
 <head>
     <meta charset="utf-8">
     <title>余额充值</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no"> -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
@@ -13,8 +15,24 @@
     <link href="{% static 'wechat/css/hsereStyle.css' %}" rel="stylesheet" type="text/css">
     <!-- <link rel="stylesheet" href="css/mui.min.css">
     <link href="css/hsereStyle.css" rel="stylesheet" type="text/css"> -->
+    <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+
 
 </head>
+<!-- <script>
+    (function (doc, win) {
+        var docEl = doc.documentElement;
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
+        recalc = function () {
+            var clientWidth = docEl.clientWidth;
+            if (!clientWidth) return;
+            docEl.style.fontSize = 50 * (clientWidth / 375) + 'px';
+        };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    }(document, window));
+</script> -->
 
 <body class="bg_color_dark">
 
@@ -34,7 +52,8 @@
                 <div class="mui-scroll">
                     <div class="data_plan_box">
                         <div class="">
-                            <p class="aui-text-default" style="font-size: 14px; text-align: center; margin: 0px 10px 10px 10px">
+                            <p class="aui-text-default"
+                                style="font-size: 14px; text-align: center; margin: 0px 10px 10px 10px">
                                 自动充值手续费为1%（腾讯收取）支持信用卡支付365天24小时自动充值，请在充值栏内自定金额进行充值。
                             </p>
                             </br>

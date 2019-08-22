@@ -18,7 +18,7 @@ urlpatterns = [
     # path('backdoor/', views.backdoor),
     # path('set_button', views.set_button),
     # path('insert', views.update),
-    # path('page', views.wx_page),
+    path('page', views.wx_page),
     # path('debug', views.debug),
 ]
 # path(

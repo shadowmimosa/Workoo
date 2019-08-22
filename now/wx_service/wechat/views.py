@@ -93,10 +93,10 @@ def wx_pay_(request):
     if request.method == "GET":
         code = request.GET.get('code', None)
         state = request.GET.get('state', None)
-        # openid = oauth_wx(code)
-        # ret["openid"] = openid
-        ret = monthly_price()
-        ret["openid"] = "omFm91TlajGX2aYF9mDptN623vPM"
+        openid = oauth_wx(code)
+        ret["openid"] = openid
+        # ret = monthly_price()
+        # ret["openid"] = "omFm91TlajGX2aYF9mDptN623vPM"
         return render(request, 'wechat/wxRecharge.html', ret)
     elif request.method == "POST":
         print(request.body)

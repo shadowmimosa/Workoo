@@ -172,9 +172,25 @@ def test_replace():
     a = data.keys()
     print(a)
 
+def run_html():
+    from bs4 import BeautifulSoup
+    import codecs
+    import requests
+    import wget
+    import ssl
+    ssl._create_default_https_context = ssl._create_unverified_context
+
+    target = "http://www.biqukan.com/1_1094/5403177.html"
+    filenanme = wget.download(url=target)
+    with open(filenanme,'r',encoding='gbk') as f:
+        bf = BeautifulSoup(f,features="html.parser")
+        texts = bf.find_all('div',class_='showtxt')
+        print(texts)
+
 
 if __name__ == "__main__":
-    test_replace()
+    run_html()
+    # test_replace()
     # test_int()
     # test_format()
     # test_format_1()

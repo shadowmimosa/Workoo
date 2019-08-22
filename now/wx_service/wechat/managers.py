@@ -131,6 +131,16 @@ class MonthInfoManager(models.Manager):
             self.type = 1
             return 1
 
+    def query_count(self):
+        today = "20{}".format(time.strftime("%y-%m-%d"))
+        date = str(self.obj.update_time).split(" ")[0]
+        if today != date:
+            self.obj.count = 0
+            self.obj.save()
+            return 0
+        else:
+            return self.obj.count
+
     def insert_user(self, openid, months=1, _type=1):
         # obj = self.get(openid__exact=openid, type__exact="1")
         # obj.months = int(obj.months) + int(months)
@@ -169,7 +179,7 @@ class MonthInfoManager(models.Manager):
             else:
                 if sign == None:
                     if self.type == 1:
-                        if int(self.obj.count) < get_count():
+                        if int(self.query_count()) < get_count():
                             return 1
                         else:
                             return -1
@@ -177,7 +187,7 @@ class MonthInfoManager(models.Manager):
                         return 2
                 else:
                     if self.type == 1:
-                        if int(self.obj.count) < get_count():
+                        if int(self.query_count()) < get_count():
                             return 1, return_code
                         else:
                             return -1, return_code
