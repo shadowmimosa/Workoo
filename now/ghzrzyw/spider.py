@@ -122,12 +122,15 @@ class DealGhzrzyw(object):
         self.info = self.info.append(info_, ignore_index=True)
 
     def run(self):
-        for page in range(9000):
-            self.main(self.url.format(page + 1))
-            time.sleep(random.randint(0, 5))
+        try:
+            for page in range(9000):
+                self.main(self.url.format(page + 1))
+                time.sleep(random.randint(0, 5))
 
-        self.info.to_excel("./data.xlsx", index=False)
-        # self.info.to_excel("./{}.xlsx".format(time.time()), index=False)
+            self.info.to_excel("./data.xlsx", index=False)
+        except Exception as exc:
+            print("---> Error: the error is {}, the page is {}".format(exc, ))
+            pass
 
 
 if __name__ == "__main__":
