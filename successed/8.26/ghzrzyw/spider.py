@@ -126,11 +126,10 @@ class DealGhzrzyw(object):
             for page in range(9000):
                 self.main(self.url.format(page + 1))
                 time.sleep(random.randint(0, 5))
-
             self.info.to_excel("./data.xlsx", index=False)
         except Exception as exc:
-            print("---> Error: the error is {}, the page is {}".format(exc, ))
-            pass
+            self.info.to_excel("./dirty_data.xlsx", index=False)
+            print("---> Error: the error is {}, the page is {}".format(exc, page))
 
 
 if __name__ == "__main__":

@@ -131,8 +131,7 @@ class Query(object):
         else:
             return resp.text
 def main():
-    resp = Query().run(path="https://www.zhipin.com/gongsi/?ka=header_brand")
-
+    resp = Query().run(path="")
     print(resp)
 
 
