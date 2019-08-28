@@ -130,10 +130,31 @@ class Query(object):
             return resp.content
         else:
             return resp.text
+
+
 def main():
     resp = Query().run(path="")
     print(resp)
 
 
+class Parent(object):
+    x = 1
+
+
+class Child1(Parent):
+    pass
+
+
+class Child2(Parent):
+    pass
+
+
+print(Parent.x, Child1.x, Child2.x)
+Child1.x = 2
+print(Parent.x, Child1.x, Child2.x)
+Parent.x = 3
+print(Parent.x, Child1.x, Child2.x)
+
 if __name__ == "__main__":
-    main()
+    # main()
+    pass
