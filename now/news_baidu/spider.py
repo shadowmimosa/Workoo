@@ -285,7 +285,8 @@ def data_clean():
 def to_excel():
 
     data = pd.read_sql("select * from `baidu_news`.`data`;", ecnu_mysql)
-    # data.sort_values(by=["city", "keyword", "year"], inplace=True)
+    data.sort_values(by=["省份", "时间"], inplace=True)
+    # data = data.reindex(range(1, 1000))
     # data.drop(['id'], axis=1, inplace=True)
     # data.rename(
     #     columns={
@@ -293,7 +294,7 @@ def to_excel():
     #         'year': '时间',
     #     },
     #     inplace=True)
-    data.to_excel("./data.xlsx")
+    data.to_excel("./data.xlsx", index=False)
     # info_ = pd.DataFrame(columns=["省份","时间","雾霾","大气污染"])
     # for city in          [
     #             "河北", "宁夏", "内蒙古", "江西", "广西", "江苏", "云南 ", "河南", "黑龙江", "山东",
