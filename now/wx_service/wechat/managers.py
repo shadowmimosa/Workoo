@@ -63,7 +63,7 @@ class UserInfoManager(models.Manager):
             Decimal(float(obj.balance) + float(balance)))
         obj.save()
 
-    def insert_promoter(self, openid, promoter):
+    def insert_promoter(self, openid, promoter="null"):
         self.create(openid=openid, promoter=promoter)
 
     def query_promotions(self, openid):

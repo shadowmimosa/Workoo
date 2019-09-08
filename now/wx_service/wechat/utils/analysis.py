@@ -54,14 +54,16 @@ class Analysis:
 
         elif msgType == 'event':
             event_type = xmlData.find("Event").text
-            eventKey = xmlData.find("EventKey").text.replace("qrscene_", "")
-            print(event_type)
+            eventKey = xmlData.find("EventKey").text
+            if eventKey != None:
+                eventKey = eventKey.replace("qrscene_", "")
+            print("---> Info: the event's type is {}".format(event_type))
             if event_type == "CLICK":
                 reply_content = self.deal.event(eventKey)
             elif event_type == "subscribe":
                 reply_content = "感谢关注"
                 if eventKey == None:
-                    UserInfo.objects.insert_promoter(openid, eventKey)
+                    UserInfo.objects.insert_promoter(openid)
                 elif not UserInfo.objects.query_current(openid):
                     UserInfo.objects.insert_promoter(openid, eventKey)
                     UserInfo.objects.update_promotions(eventKey)
@@ -172,7 +174,8 @@ class DealServer(object):
                         reply_content = "请输入五个以内IMEI"
                     else:
                         for value in imei_list:
-                            reply_content = self.do_server(value.replace(" ", ""))
+                            reply_content = self.do_server(
+                                value.replace(" ", ""))
                             time.sleep(0.5)
                             # reply_content = "\n".join(
                             #     (reply_content,
