@@ -268,7 +268,11 @@ class DealGhzrzyw(object):
                 resp = self.request.run(path.format(page), header=self.header)
                 for item in json.loads(resp):
                     if item.get("projectTypeName") == "网上竞价":
-                        eval(deal_command)
+                        time.sleep(random.randint(1, 4))
+                        try:
+                            eval(deal_command)
+                        except Exception as exc:
+                            print("--->Error: the error is {}".format(exc))
 
 
 DEBUG = False
