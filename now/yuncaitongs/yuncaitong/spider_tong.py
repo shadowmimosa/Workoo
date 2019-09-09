@@ -161,6 +161,12 @@ class DealGhzrzyw(object):
         for item in tech:
             return item.get("remark")
 
+    def get_service(self, content):
+        if content == None:
+            return
+        else:
+            return content.replace("'", "").replace('"', '')
+
     def deal_detail(self, path):
         header = self.header
         header["Referer"] = path.replace("sson?v=201804280000", "shtml")
@@ -205,7 +211,7 @@ class DealGhzrzyw(object):
                 "型号": item.get("model"),
                 "url": header["Referer"],
                 "招标平台": "云采通 高校采购联盟",
-                "售后服务": item.get("service"),
+                "售后服务": self.get_service(item.get("service")),
             })
 
         self.ecnu_cursor.execute(
