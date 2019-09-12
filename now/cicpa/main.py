@@ -172,6 +172,7 @@ class DealCicpa(object):
     def get_staff_list(self):
 
         for page in range(1, 1000):
+            print("--->Info: Staff page is {}".format(page))
             resp = self.request.run(
                 self.staff_list,
                 header=self.header,
@@ -213,6 +214,7 @@ class DealCicpa(object):
 
     def main(self):
         for page in range(1, 700):
+            print("--->Info: Office page is {}".format(page))
             self.get_office_list(page)
 
         self.office_info.to_csv("./data/office.csv", index=False)
