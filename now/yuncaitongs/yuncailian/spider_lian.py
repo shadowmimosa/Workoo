@@ -497,33 +497,39 @@ class DealGhzrzyw(object):
         resp = self.request.run(path, header=self.header)
         data = json.loads(resp)
         for self.item in data["rows"]:
-            if self.judge_type() == True:
-                self.page_url = "http://ex.chinapsp.cn/gzhydz/single-pages/notice-content.html?Id={}".format(
-                    self.item.get("Id"))
-                self.get_session_id(self.item["ProjectId"])
+            try:
+                if self.judge_type() == True:
+                    self.page_url = "http://ex.chinapsp.cn/gzhydz/single-pages/notice-content.html?Id={}".format(
+                        self.item.get("Id"))
+                    self.get_session_id(self.item["ProjectId"])
 
-                # if self.item_type == 1:
-                #     self.deal_detail()
-                # elif self.item_type == 2:
-                #     self.result_detail()
+                    # if self.item_type == 1:
+                    #     self.deal_detail()
+                    # elif self.item_type == 2:
+                    #     self.result_detail()
 
-                try:
-                    if self.item_type == 1:
-                        self.deal_detail()
-                    elif self.item_type == 2:
-                        self.result_detail()
-                except Exception as exc:
-                    print("--->Error: the error is {}".format(exc))
+                    try:
+                        if self.item_type == 1:
+                            self.deal_detail()
+                        elif self.item_type == 2:
+                            self.result_detail()
+                    except Exception as exc:
+                        print("--->Error: the error is {}".format(exc))
 
-                self.close_session()
-                time.sleep(random.randint(1, 3))
-            else:
-                print("--->Info: 类型不符")
+                    self.close_session()
+                    time.sleep(random.randint(1, 3))
+                else:
+                    print("--->Info: 类型不符")
+            except Exception as exc:
+                print("--->Error: the error is {}".format(exc))
 
     def run(self):
         for self.mode in [0]:  # mode in [0, 1]
-            for page in range(1, ):
-                self.main(self.page_path.format(page, self.mode))
+            for page in range(1, 700):
+                try:
+                    self.main(self.page_path.format(page, self.mode))
+                except Exception as exc:
+                    print("--->Error: the error is {}".format(exc))
 
 
 DEBUG = False
