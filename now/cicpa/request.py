@@ -122,6 +122,7 @@ class Query(object):
                 self.logger.info(
                     "--->Info: Request successful. It takes {:.3} seconds".
                     format(magic_time))
+                time.sleep(1.5)
                 return resp
             else:
                 self.logger.error("--->Info {} 请求失败！状态码为{}，共耗时{:.3}秒".format(
