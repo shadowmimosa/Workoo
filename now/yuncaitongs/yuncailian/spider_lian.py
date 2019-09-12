@@ -502,18 +502,18 @@ class DealGhzrzyw(object):
                     self.item.get("Id"))
                 self.get_session_id(self.item["ProjectId"])
 
-                if self.item_type == 1:
-                    self.deal_detail()
-                elif self.item_type == 2:
-                    self.result_detail()
+                # if self.item_type == 1:
+                #     self.deal_detail()
+                # elif self.item_type == 2:
+                #     self.result_detail()
 
-                # try:
-                #     if self.item_type == 1:
-                #         self.deal_detail()
-                #     elif self.item_type == 2:
-                #         self.result_detail()
-                # except Exception as exc:
-                #     print("--->Error: the error is {}".format(exc))
+                try:
+                    if self.item_type == 1:
+                        self.deal_detail()
+                    elif self.item_type == 2:
+                        self.result_detail()
+                except Exception as exc:
+                    print("--->Error: the error is {}".format(exc))
 
                 self.close_session()
                 time.sleep(random.randint(1, 3))
@@ -522,7 +522,7 @@ class DealGhzrzyw(object):
 
     def run(self):
         for self.mode in [0]:  # mode in [0, 1]
-            for page in range(1, 3):
+            for page in range(1, ):
                 self.main(self.page_path.format(page, self.mode))
 
 
