@@ -212,7 +212,7 @@ class DealCicpa(object):
             # a = pd.read_html(resp)
 
     def main(self):
-        for page in range(1, 2):
+        for page in range(1, 700):
             self.get_office_list(page)
 
         self.office_info.to_csv("./data/office.csv", index=False)
