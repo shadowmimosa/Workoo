@@ -72,8 +72,11 @@ class DealCicpa(object):
 
     def run(self):
         while True:
-            self.main()
-            time.sleep(59)
+            try:
+                self.main()
+            except Exception as exc:
+                print("--->Info: the error is {}".format(exc))
+            time.sleep(58)
 
 
 if __name__ == "__main__":
