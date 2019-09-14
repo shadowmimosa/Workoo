@@ -522,9 +522,9 @@ class DealGhzrzyw(object):
             except Exception as exc:
                 print("--->Error: the error is {}".format(exc))
 
-    def run(self):
+    def run(self, pages):
         for self.mode in [0]:  # mode in [0, 1]
-            for page in range(1, 700):
+            for page in range(1, pages):
                 try:
                     self.main(self.page_path.format(page, self.mode))
                 except Exception as exc:
