@@ -115,7 +115,6 @@ class DealGhzrzyw(object):
         self.request = Query()
         self.pattarn = re.compile(r"FR.SessionMgr.register\(.*contentPane\);")
         self.init_sql()
-        self.run()
 
     def init_sql(self):
         from config import DATABASES
@@ -535,4 +534,5 @@ class DealGhzrzyw(object):
 DEBUG = False
 if __name__ == "__main__":
     os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    DealGhzrzyw()
+    pages = 10
+    DealGhzrzyw().run(pages)

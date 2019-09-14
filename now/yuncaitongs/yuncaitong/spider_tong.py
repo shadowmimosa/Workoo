@@ -115,7 +115,6 @@ class DealGhzrzyw(object):
         self.insert_tr_json = insert_sql = "INSERT INTO `bidpython`.`tb_bid_json` ( `shot`, `platform_name`, `inviter_number`, `url`, `json_kv`, `create_time` ) VALUES ( '', '云采通 高校采购联盟', '{}', '{}', '{}', '{}');"
         self.init_sql()
         self.request = Query()
-        self.run()
 
     def init_sql(self):
         from config import DATABASES
@@ -168,6 +167,7 @@ class DealGhzrzyw(object):
             return content.replace("'", "").replace('"', '')
 
     def deal_detail(self, path):
+        path = "https://www.yuncaitong.cn/publish/2019/09/05/16CFF72BF6D22A916FCC4BEE76BA2873.sson?v=201804280000"
         header = self.header
         header["Referer"] = path.replace("sson?v=201804280000", "shtml")
         resp = self.request.run(path, header=header)
@@ -176,9 +176,6 @@ class DealGhzrzyw(object):
         itme_name = data.get("publish").get("subject")
         item_code = data.get("enquiry").get("code")
 
-        if self.judge_already(item_code) != True:
-            return
-
         item_starttime = time.strftime(
             '%Y-%m-%d %H:%M:%S',
             time.localtime(int(data.get("publish").get("timeBegin")) / 1000))
@@ -186,7 +183,7 @@ class DealGhzrzyw(object):
             '%Y-%m-%d %H:%M:%S',
             time.localtime(int(data.get("publish").get("timeEnd")) / 1000))
 
-        item_subject = data.get("org").get("name")
+        item_subject = data.get("publish").get("depName")
         if data.get("enquiry").get("budgetOpen") == True:
             item_budget = data.get("enquiry").get("budget")
         else:
@@ -213,7 +210,6 @@ class DealGhzrzyw(object):
                 "招标平台": "云采通 高校采购联盟",
                 "售后服务": self.get_service(item.get("service")),
             })
-
         self.ecnu_cursor.execute(
             self.insert_tr_json.format(
                 item_code, header["Referer"],
@@ -229,10 +225,7 @@ class DealGhzrzyw(object):
         data = json.loads(resp)
         itme_name = data.get("publish").get("subject")
         item_code = data.get("enquiry").get("code")
-        item_subject = data.get("org").get("name")
-
-        if self.judge_already(item_code) != True:
-            return
+        item_subject = data.get("publish").get("depName")
 
         item_starttime = time.strftime(
             '%Y-%m-%d %H:%M:%S',
@@ -253,7 +246,7 @@ class DealGhzrzyw(object):
                                           item_price, header["Referer"],
                                           item_subject, item_winner))
 
-    def run(self):
+    def run(self, pages):
         command = "self.{}(self.get_path(item['createTime'], item['id']))"
 
         for index, path in enumerate([self.page_path, self.result_path]):
@@ -264,18 +257,22 @@ class DealGhzrzyw(object):
                 self.sign = 1
                 deal_command = command.format("result_detail")
 
-            for page in range(0, 2500):
+            for page in range(0, pages):
                 resp = self.request.run(path.format(page), header=self.header)
                 for item in json.loads(resp):
                     if item.get("projectTypeName") == "网上竞价":
-                        time.sleep(random.randint(1, 4))
-                        try:
-                            eval(deal_command)
-                        except Exception as exc:
-                            print("--->Error: the error is {}".format(exc))
+                        # time.sleep(random.randint(1, 4))
+                        time.sleep(1)
+                        if self.judge_already(item.get("projectCode")):
+                            # eval(deal_command)
+                            try:
+                                eval(deal_command)
+                            except Exception as exc:
+                                print("--->Error: the error is {}".format(exc))
 
 
-DEBUG = False
+DEBUG = True
 if __name__ == "__main__":
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
-    DealGhzrzyw()
+    pages = 10
+    DealGhzrzyw().run(pages)
