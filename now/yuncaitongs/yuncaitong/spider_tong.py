@@ -270,8 +270,11 @@ class DealGhzrzyw(object):
                             except Exception as exc:
                                 print("--->Error: the error is {}".format(exc))
 
+                        # else:
+                        #     print("--->Info: the {} in database alreadly".format(item.get("projectCode")))
 
-DEBUG = True
+
+DEBUG = False
 if __name__ == "__main__":
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
     pages = 10
