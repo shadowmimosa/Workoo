@@ -47,12 +47,13 @@ class DealCicpa(object):
             "硕士研究生人数", "本科人数", "大专及以下人数", "加入国际网络", "境外分支机构", "是否具有内部培训资格",
             "继续教育完成率(上一年度)", "处罚/惩戒信息(披露时限:自2016年至今)", "被检查信息", "参与公益活动", "其它"
         ])
-        self.staff_info = pd.DataFrame([
-            "姓名", "性别", "所内职务", "是否党员", "学历", "学位", "所学专业", "毕业学校",
+        self.staff_info = pd.DataFrame(columns=[
+            "姓名", "性别", "出生日期", "所内职务", "是否党员", "学历", "学位", "所学专业", "毕业学校",
             "资格取得方式(考试/考核)", "全科合格证书号", "全科合格年份	", "考核批准文号", "批准时间",
             "注册会计师证书编号", "是否合伙人(股东)", "批准注册文件号", "批准注册时间", "所在事务所", "本年度应完成学时",
             "本年度已完成学时", "处罚/惩戒信息", "参加公益活动"
         ])
+        self.office_num = 0
         self.key = None
         self.value = None
 
@@ -149,7 +150,7 @@ class DealCicpa(object):
             soup.find(attrs={
                 "class": "detail_table"
             }).contents)
-        self.info = {}
+
         other_content = ""
         for item in tr_list:
             if not isinstance(item, str):
@@ -180,14 +181,35 @@ class DealCicpa(object):
 
             soup = BeautifulSoup(resp, "lxml")
 
-            href_list = soup.find(attrs={
-                "id": "pertable"
-            }).find_all(attrs={"href": "#"})
+            # href_list = soup.find(attrs={
+            #     "id": "pertable"
+            # }).find_all(attrs={"href": "#"})
+            table_obj = soup.find(attrs={"id": "pertable"})
 
-            for item in href_list:
-                self.staff_href = item.attrs.get("onclick").replace(
-                    "getPerDetails('", "").split(",")[0].replace("'", "")
-                self.get_staff_info()
+            tr_list = self.remove_character(table_obj.contents)
+
+            for tr in tr_list:
+                self.info = {}
+                if tr.attrs.get("class") is None:
+                    # if "table_header" not in tr.attrs.get("class"):
+                    td_list = self.remove_character(tr.contents)
+                    for index, td in enumerate(td_list):
+                        if index == 1:
+                            self.staff_href = td.find("a").attrs.get(
+                                "onclick").replace("getPerDetails('",
+                                                   "").split(",")[0].replace(
+                                                       "'", "")
+                        elif index == 4:
+                            self.info["出生日期"] = self.deal_text(td.text)
+
+                    self.get_staff_info()
+
+            # for item in href_list:
+            #     self.info = {}
+            #     self.info["出生日期"] = ""
+            #     self.staff_href = item.attrs.get("onclick").replace(
+            #         "getPerDetails('", "").split(",")[0].replace("'", "")
+            #     self.get_staff_info()
 
             if "disabled>下一页</" in resp:
                 break
@@ -200,6 +222,8 @@ class DealCicpa(object):
         tr_list = soup.find_all(attrs={"class": "rsTr"})
 
         for item in tr_list:
+            self.office_num += 1
+            print("--->Info: Office number is {}".format(self.office_num))
             self.office_href = item.find(attrs={
                 "align": "left"
             }).find("a")["href"].replace("javascript:viewDetail(", "").replace(
@@ -217,8 +241,8 @@ class DealCicpa(object):
             print("--->Info: Office page is {}".format(page))
             self.get_office_list(page)
 
-        self.office_info.to_csv("./data/office.csv", index=False)
-        self.staff_info.to_csv("./data/staff.csv", index=False)
+        self.office_info.to_csv("./data/office.xlsx", index=False)
+        self.staff_info.to_csv("./data/staff.xlsx", index=False)
 
 
 if __name__ == "__main__":
