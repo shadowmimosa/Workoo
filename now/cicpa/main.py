@@ -237,12 +237,15 @@ class DealCicpa(object):
             # a = pd.read_html(resp)
 
     def main(self):
-        for page in range(1, 700):
-            print("--->Info: Office page is {}".format(page))
-            self.get_office_list(page)
+        try:
+            for page in range(1, 700):
+                print("--->Info: Office page is {}".format(page))
+                self.get_office_list(page)
+        except Exception as exc:
+            print("--->Error: the error is {}".format(exc))
 
         self.office_info.to_csv("./data/office.xlsx", index=False)
-        self.staff_info.to_csv("./data/staff.xlsx", index=False)
+        self.staff_info.to_csv("./data/staff.xlsx", index=False)            
 
 
 if __name__ == "__main__":
