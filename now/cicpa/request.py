@@ -114,7 +114,7 @@ class Query(object):
                 gb_encode = [
                     "gb2312", "GB2312", "gb18030", "GB18030", "GBK", "gbk"
                 ]
-                
+
                 if resp.apparent_encoding in gb_encode:
                     resp.encoding = "gbk"
 
@@ -134,6 +134,8 @@ class Query(object):
 
     def run(self, path, sign=None, header={}, **kwargs):
         resp = self.deal_re(url=path, header=header, **kwargs)
+        if resp is None:
+            return ""
         if sign:
             return resp.content
         else:

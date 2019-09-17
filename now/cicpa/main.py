@@ -213,6 +213,8 @@ class DealCicpa(object):
 
             if "disabled>下一页</" in resp:
                 break
+            elif "下一页" not in resp:
+                break
 
     def get_office_list(self, page):
 
@@ -244,8 +246,8 @@ class DealCicpa(object):
         except Exception as exc:
             print("--->Error: the error is {}".format(exc))
 
-        self.office_info.to_csv("./data/office.xlsx", index=False)
-        self.staff_info.to_csv("./data/staff.xlsx", index=False)            
+        self.office_info.to_excel("./data/office.xlsx", index=False)
+        self.staff_info.to_excel("./data/staff.xlsx", index=False)
 
 
 if __name__ == "__main__":
