@@ -149,7 +149,9 @@ class Query(object):
         resp = self.deal_re(url=path, header=header, **kwargs)
         if resp is None:
             return ""
-        if sign:
+        elif isinstance(resp, str):
+            return resp
+        elif sign:
             return resp.content
         else:
             return resp.text
