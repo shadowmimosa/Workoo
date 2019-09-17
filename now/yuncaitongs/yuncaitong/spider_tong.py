@@ -167,7 +167,7 @@ class DealGhzrzyw(object):
             return content.replace("'", "").replace('"', '')
 
     def deal_detail(self, path):
-        path = "https://www.yuncaitong.cn/publish/2019/09/05/16CFF72BF6D22A916FCC4BEE76BA2873.sson?v=201804280000"
+        # path = "https://www.yuncaitong.cn/publish/{}.sson?v=201804280000".format(path)
         header = self.header
         header["Referer"] = path.replace("sson?v=201804280000", "shtml")
         resp = self.request.run(path, header=header)
@@ -267,11 +267,12 @@ class DealGhzrzyw(object):
                             # eval(deal_command)
                             try:
                                 eval(deal_command)
+                                print(item.get("projectCode"))
                             except Exception as exc:
                                 print("--->Error: the error is {}".format(exc))
 
-                        # else:
-                        #     print("--->Info: the {} in database alreadly".format(item.get("projectCode")))
+                        else:
+                            print("--->Info: the {} in database alreadly".format(item.get("projectCode")))
 
 
 DEBUG = False
