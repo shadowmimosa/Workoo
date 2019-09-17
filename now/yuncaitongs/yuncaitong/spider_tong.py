@@ -184,6 +184,8 @@ class DealGhzrzyw(object):
             time.localtime(int(data.get("publish").get("timeEnd")) / 1000))
 
         item_subject = data.get("publish").get("depName")
+        if item_subject is None:
+            item_subject = data.get("org").get("name")
         if data.get("enquiry").get("budgetOpen") == True:
             item_budget = data.get("enquiry").get("budget")
         else:
