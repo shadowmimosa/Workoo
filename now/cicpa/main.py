@@ -265,13 +265,16 @@ class DealCicpa(object):
             try:
                 self.get_office_list(page)
             except Exception as exc:
-                print("--->Error: the error is {}".format(exc))
-                self.office_info.to_excel("./data/office_error.xlsx", index=False)
-                self.staff_info.to_excel("./data/staff_error.xlsx", index=False)
+                print("--->Error: the error is {}, the page is {}".format(
+                    exc, page))
+                self.office_info.to_excel(
+                    "./data/office_error.xlsx", index=False)
+                self.staff_info.to_excel(
+                    "./data/staff_error.xlsx", index=False)
                 continue
 
         self.office_info.to_excel("./data/office.xlsx", index=False)
-        self.staff_info.to_excel("./data/staff.xlsx", index=False)        
+        self.staff_info.to_excel("./data/staff.xlsx", index=False)
 
 
 if __name__ == "__main__":
