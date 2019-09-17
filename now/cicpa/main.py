@@ -1,3 +1,4 @@
+import time
 import collections
 import pandas as pd
 from bs4 import BeautifulSoup
@@ -8,7 +9,9 @@ from request import Query
 class DealCicpa(object):
     def __init__(self):
         self.office_list = "http://cmispub.cicpa.org.cn/cicpa2_web/OfficeIndexAction.do"
+        self.office_path_before = "http://cmispub.cicpa.org.cn/cicpa2_web/002/{},{}/7.shtml"
         self.office_path = "http://cmispub.cicpa.org.cn/cicpa2_web/09/{}.shtml"
+
         # self.staff_list = "http://cmispub.cicpa.org.cn/cicpa2_web/public/query/swszs/%20/{}.html"
         self.staff_list = "http://cmispub.cicpa.org.cn/cicpa2_web/OfficeIndexAction.do"
         self.staff_path = "http://cmispub.cicpa.org.cn/cicpa2_web/07/{}.shtml"
@@ -31,7 +34,7 @@ class DealCicpa(object):
             "Pragma":
             "no-cache",
             "Cookie":
-            "JSESSIONID=20636A349152117A0D9175D885A7B600; cookiee=20111116"
+            "JSESSIONID=AEE4B3114FBA5176021022B050D84B0B; cookiee=20111116"
         }
         self.data = "pageSize=15&pageNum={}&method=indexQuery&queryType=1&isStock=00&ascGuid=00&offName=&offAllcode=&personNum="
         self.staff_data = "method=getPersons&offGuid={}&pageNum={}&pageSize=10&title=&age=&stuexpCode="
@@ -92,13 +95,27 @@ class DealCicpa(object):
                 except AttributeError as exc:
                     pass
 
+    def deal_resp(self, path, header, data=None):
+        while True:
+            resp = self.request.run(path, header=header, data=data)
+
+            if "错误异常页面" in resp:
+                time.sleep(5)
+                continue
+            else:
+                return resp
+
     def get_office_info(self):
-        resp = self.request.run(
-            self.office_path.format(self.office_href), header=self.header)
+        resp = self.deal_resp(
+            self.office_path_before.format(self.office_href, self.office_id),
+            self.header)
+        resp = self.deal_resp(
+            self.office_path.format(self.office_href), self.header)
         table_obj = BeautifulSoup(resp,
                                   "lxml").find(attrs={"class": "detail_table"})
 
         tr_list = self.remove_character(table_obj.contents)
+        return
         self.info = {}
         other_content = ""
         for item in tr_list:
@@ -141,8 +158,7 @@ class DealCicpa(object):
             self.info, ignore_index=True)
 
     def get_staff_info(self):
-
-        resp = self.request.run(
+        resp = self.deal_resp(
             self.staff_path.format(self.staff_href), header=self.header)
         soup = BeautifulSoup(resp, "lxml")
 
@@ -174,7 +190,7 @@ class DealCicpa(object):
 
         for page in range(1, 1000):
             print("--->Info: Staff page is {}".format(page))
-            resp = self.request.run(
+            resp = self.deal_resp(
                 self.staff_list,
                 header=self.header,
                 data=self.staff_data.format(self.office_href, page))
@@ -217,8 +233,7 @@ class DealCicpa(object):
                 break
 
     def get_office_list(self, page):
-
-        resp = self.request.run(
+        resp = self.deal_resp(
             self.office_list, header=self.header, data=self.data.format(page))
         soup = BeautifulSoup(resp, "lxml")
         tr_list = soup.find_all(attrs={"class": "rsTr"})
@@ -226,20 +241,21 @@ class DealCicpa(object):
         for item in tr_list:
             self.office_num += 1
             print("--->Info: Office number is {}".format(self.office_num))
+            self.office_id = item.find(attrs={"style": "width: 10%;"}).text
             self.office_href = item.find(attrs={
                 "align": "left"
             }).find("a")["href"].replace("javascript:viewDetail(", "").replace(
                 "'", "").split(",")[0]
 
             self.get_office_info()
-            self.get_staff_list()
+            # self.get_staff_list()
 
             # c = pd.read_html(table_obj.prettify())[0]
             # c.to_csv("c.csv")
             # a = pd.read_html(resp)
 
     def main(self):
-        for page in range(1, 700):
+        for page in range(2, 700):
             print("--->Info: Office page is {}".format(page))
             self.get_office_list(page)
         # try:

@@ -122,8 +122,21 @@ class Query(object):
                 self.logger.info(
                     "--->Info: Request successful. It takes {:.3} seconds".
                     format(magic_time))
-                time.sleep(1.5)
                 return resp
+            elif resp.status_code == 302:
+                gb_encode = [
+                    "gb2312", "GB2312", "gb18030", "GB18030", "GBK", "gbk"
+                ]
+
+                if resp.apparent_encoding in gb_encode:
+                    resp.encoding = "gbk"
+
+                magic_time = end_time - start_time
+                self.logger.info(
+                    "--->Info: Request is 302. It takes {:.3} seconds".format(
+                        magic_time))
+                return resp.headers["Location"]
+
             else:
                 self.logger.error("--->Info {} 请求失败！状态码为{}，共耗时{:.3}秒".format(
                     url, resp.status_code, end_time - start_time))
