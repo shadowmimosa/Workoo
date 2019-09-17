@@ -100,7 +100,10 @@ class DealCicpa(object):
             resp = self.request.run(path, header=header, data=data)
 
             if "错误异常页面" in resp:
-                time.sleep(5)
+                time.sleep(30)
+                continue
+            elif "网站底部页面" not in resp:
+                time.sleep(30)
                 continue
             else:
                 return resp
@@ -257,15 +260,18 @@ class DealCicpa(object):
         # for page in range(2, 700):
         #     print("--->Info: Office page is {}".format(page))
         #     self.get_office_list(page)
-        try:
-            for page in range(1, 700):
-                print("--->Info: Office page is {}".format(page))
+        for page in range(1, 700):
+            print("--->Info: Office page is {}".format(page))
+            try:
                 self.get_office_list(page)
-        except Exception as exc:
-            print("--->Error: the error is {}".format(exc))
+            except Exception as exc:
+                print("--->Error: the error is {}".format(exc))
+                self.office_info.to_excel("./data/office_error.xlsx", index=False)
+                self.staff_info.to_excel("./data/staff_error.xlsx", index=False)
+                continue
 
         self.office_info.to_excel("./data/office.xlsx", index=False)
-        self.staff_info.to_excel("./data/staff.xlsx", index=False)
+        self.staff_info.to_excel("./data/staff.xlsx", index=False)        
 
 
 if __name__ == "__main__":
