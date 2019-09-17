@@ -115,7 +115,6 @@ class DealCicpa(object):
                                   "lxml").find(attrs={"class": "detail_table"})
 
         tr_list = self.remove_character(table_obj.contents)
-        return
         self.info = {}
         other_content = ""
         for item in tr_list:
@@ -248,7 +247,7 @@ class DealCicpa(object):
                 "'", "").split(",")[0]
 
             self.get_office_info()
-            # self.get_staff_list()
+            self.get_staff_list()
 
             # c = pd.read_html(table_obj.prettify())[0]
             # c.to_csv("c.csv")
