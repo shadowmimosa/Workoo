@@ -1,5 +1,5 @@
 import time
-import collections
+import random
 import pandas as pd
 from bs4 import BeautifulSoup
 
@@ -102,10 +102,11 @@ class DealCicpa(object):
             if "错误异常页面" in resp:
                 time.sleep(30)
                 continue
-            elif "网站底部页面" not in resp:
-                time.sleep(30)
-                continue
+            # elif "中国注册会计师协会行业管理信息系统" not in resp:
+            #     time.sleep(30)
+            #     continue
             else:
+                time.sleep(random.uniform(0, 3))
                 return resp
 
     def get_office_info(self):
