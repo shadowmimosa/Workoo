@@ -263,7 +263,7 @@ class DealCicpa(object):
         # for page in range(2, 700):
         #     print("--->Info: Office page is {}".format(page))
         #     self.get_office_list(page)
-        for page in range(48, 91):
+        for page in range(211, 221):
             print("--->Info: Office page is {}".format(page))
             try:
                 self.get_office_list(page)
