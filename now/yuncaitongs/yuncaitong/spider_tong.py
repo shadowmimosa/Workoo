@@ -228,6 +228,8 @@ class DealGhzrzyw(object):
         itme_name = data.get("publish").get("subject")
         item_code = data.get("enquiry").get("code")
         item_subject = data.get("publish").get("depName")
+        if item_subject is None:
+            item_subject = data.get("org").get("name")
 
         item_starttime = time.strftime(
             '%Y-%m-%d %H:%M:%S',
