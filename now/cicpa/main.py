@@ -241,7 +241,9 @@ class DealCicpa(object):
         soup = BeautifulSoup(resp, "lxml")
         tr_list = soup.find_all(attrs={"class": "rsTr"})
 
-        for item in tr_list:
+        for index, item in enumerate(tr_list):
+            # if index < 13:
+            #     continue
             self.office_num += 1
             print("--->Info: Office number is {}".format(self.office_num))
             self.office_id = item.find(attrs={"style": "width: 10%;"}).text
@@ -261,7 +263,7 @@ class DealCicpa(object):
         # for page in range(2, 700):
         #     print("--->Info: Office page is {}".format(page))
         #     self.get_office_list(page)
-        for page in range(1, 700):
+        for page in range(48, 91):
             print("--->Info: Office page is {}".format(page))
             try:
                 self.get_office_list(page)
