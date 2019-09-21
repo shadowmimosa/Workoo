@@ -136,7 +136,8 @@ class Query(object):
                     "--->Info: Request is 302. It takes {:.3} seconds".format(
                         magic_time))
                 return resp.headers["Location"]
-
+            elif resp.status_code >= 500:
+                return 502
             else:
                 self.logger.error("--->Info {} 请求失败！状态码为{}，共耗时{:.3}秒".format(
                     url, resp.status_code, end_time - start_time))
@@ -150,6 +151,8 @@ class Query(object):
         if resp is None:
             return ""
         elif isinstance(resp, str):
+            return resp
+        elif isinstance(resp, int):
             return resp
         elif sign:
             return resp.content

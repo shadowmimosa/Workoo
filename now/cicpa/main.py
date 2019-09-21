@@ -105,8 +105,16 @@ class DealCicpa(object):
             # elif "中国注册会计师协会行业管理信息系统" not in resp:
             #     time.sleep(30)
             #     continue
+            elif resp == 502:
+                self.office_info.to_excel(
+                    "./data/office_502.xlsx", index=False)
+                self.staff_info.to_excel("./data/staff_502.xlsx", index=False)
+                print("Sleep Now")
+                time.sleep(57600)
+                continue
             else:
-                time.sleep(random.uniform(0, 3))
+                # time.sleep(random.uniform(0, 3))
+
                 return resp
 
     def get_office_info(self):
@@ -263,7 +271,7 @@ class DealCicpa(object):
         # for page in range(2, 700):
         #     print("--->Info: Office page is {}".format(page))
         #     self.get_office_list(page)
-        for page in range(381, 461):
+        for page in range(130, 330):
             print("--->Info: Office page is {}".format(page))
             try:
                 self.get_office_list(page)
