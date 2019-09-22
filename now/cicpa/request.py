@@ -138,6 +138,8 @@ class Query(object):
                 return resp.headers["Location"]
             elif resp.status_code >= 500:
                 return 502
+            elif resp.status_code >= 400 and resp.status_code < 500:
+                return 400
             else:
                 self.logger.error("--->Info {} 请求失败！状态码为{}，共耗时{:.3}秒".format(
                     url, resp.status_code, end_time - start_time))

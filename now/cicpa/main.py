@@ -112,6 +112,10 @@ class DealCicpa(object):
                 print("Sleep Now")
                 time.sleep(57600)
                 continue
+            elif resp == 400:
+                time.sleep(5)
+                print("Continue Now")
+                continue            
             else:
                 # time.sleep(random.uniform(0, 3))
 
@@ -271,7 +275,10 @@ class DealCicpa(object):
         # for page in range(2, 700):
         #     print("--->Info: Office page is {}".format(page))
         #     self.get_office_list(page)
-        for page in range(130, 330):
+        for page in range(480, 615):
+        # for page in [
+        #         150, 162, 172, 173, 181, 201, 221, 267, 272, 274, 276, 323
+        # ]:
             print("--->Info: Office page is {}".format(page))
             try:
                 self.get_office_list(page)
