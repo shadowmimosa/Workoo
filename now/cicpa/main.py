@@ -99,27 +99,30 @@ class DealCicpa(object):
         while True:
             resp = self.request.run(path, header=header, data=data)
 
-            if "错误异常页面" in resp:
-                time.sleep(30)
-                continue
-            # elif "中国注册会计师协会行业管理信息系统" not in resp:
-            #     time.sleep(30)
-            #     continue
-            elif resp == 502:
-                self.office_info.to_excel(
-                    "./data/office_502.xlsx", index=False)
-                self.staff_info.to_excel("./data/staff_502.xlsx", index=False)
-                print("Sleep Now")
-                time.sleep(57600)
-                continue
-            elif resp == 400:
-                time.sleep(5)
-                print("Continue Now")
-                continue            
-            else:
-                # time.sleep(random.uniform(0, 3))
+            if isinstance(resp, str):
+                if "错误异常页面" in resp:
+                    time.sleep(30)
+                    continue
+                # elif "中国注册会计师协会行业管理信息系统" not in resp:
+                #     time.sleep(30)
+                #     continue
+                else:
+                    # time.sleep(random.uniform(0, 3))
 
-                return resp
+                    return resp
+            elif isinstance(resp, int):
+                if resp == 502:
+                    self.office_info.to_excel(
+                        "./data/office_502.xlsx", index=False)
+                    self.staff_info.to_excel(
+                        "./data/staff_502.xlsx", index=False)
+                    print("Sleep Now")
+                    time.sleep(57600)
+                    continue
+                elif resp == 400:
+                    time.sleep(5)
+                    print("Continue Now")
+                    continue
 
     def get_office_info(self):
         resp = self.deal_resp(
