@@ -122,7 +122,7 @@ class DealCicpa(object):
                 elif resp == 400:
                     time.sleep(5)
                     print("Continue Now")
-                    continue
+                    return 
 
     def get_office_info(self):
         resp = self.deal_resp(
