@@ -1,5 +1,6 @@
 import os
 import time
+import json
 import random
 import pymysql
 import platform
@@ -8,14 +9,11 @@ from bs4 import BeautifulSoup
 
 from request import Query
 
+system = platform.system()
 
-
-
-a = platform.system()
-
-if platform.system() == "Linux":
+if system == "Linux":
     DEBUG = False
-elif system_version == "Windows":
+elif system == "Windows":
     DEBUG = True
 
 
@@ -47,9 +45,9 @@ class DealCicpa(object):
             "Pragma":
             "no-cache",
             "Cookie":
-            "JSESSIONID=AEE4B3114FBA5176021022B050D84B0B; cookiee=20111116"
+            "JSESSIONID=9C598286F3C9C53743C395CD797D79DD; cookiee=20111116"
         }
-        self.data = "pageSize=15&pageNum={}&method=indexQuery&queryType=1&isStock=00&ascGuid=0000010F84968569DDB2CD9ADD2CAA43&offName=&offAllcode=&personNum="
+        self.data = "pageSize=15&pageNum={}&method=indexQuery&queryType=1&isStock=00&ascGuid={}&offName=&offAllcode=&personNum="
         self.staff_data = "method=getPersons&offGuid={}&pageNum={}&pageSize=10&title=&age=&stuexpCode="
 
         self.request = Query()
@@ -213,9 +211,29 @@ class DealCicpa(object):
         self.info["其它"] = other_content
         self.info["处罚/惩戒信息"] = self.info["处罚/惩戒信息(披露时限:自2016年至今)"]
 
-        status = self.judge_already(0, self.info["证书编号"])
+        if "证书编号" in self.info.keys():
+            status = self.judge_already(0, self.info["证书编号"])
+        else:
+            status = False
+
         if status is True:
             self.ecnu_cursor.execute(self.insert_office.format(**self.info))
+            self.office_key_id = self.ecnu_cursor.lastrowid
+
+            if DEBUG:
+                self.get_staff_list()
+            else:
+                try:
+                    self.get_staff_list()
+                except Exception as exc:
+                    print(
+                        "--->Error: the staff list is wrong, the error is {}".
+                        format(exc))
+        elif status is False:
+            print("--->Info: dirty data")
+            self.ecnu_cursor.execute(
+                "INSERT INTO `workoo`.`cicpa_offices`(`dirty_content`) VALUES ('{}');"
+                .format(json.dumps(self.info, ensure_ascii=False)))
             self.office_key_id = self.ecnu_cursor.lastrowid
 
             if DEBUG:
@@ -248,8 +266,13 @@ class DealCicpa(object):
                 print("--->Info: person count is ok")
 
     def get_staff_info(self):
+
         resp = self.deal_resp(
-            self.staff_path.format(self.staff_href), header=self.header)
+            "http://cmispub.cicpa.org.cn/cicpa2_web/public/query/sws/p/{}.html"
+            .format(self.staff_href),
+            header=self.header)
+
+        resp = self.deal_resp(resp, header=self.header)
         soup = BeautifulSoup(resp, "lxml")
 
         tr_list = self.remove_character(
@@ -332,9 +355,11 @@ class DealCicpa(object):
             elif "下一页" not in resp:
                 break
 
-    def get_office_list(self, page):
+    def get_office_list(self, page, code):
         resp = self.deal_resp(
-            self.office_list, header=self.header, data=self.data.format(page))
+            self.office_list,
+            header=self.header,
+            data=self.data.format(page, code))
         soup = BeautifulSoup(resp, "lxml")
         tr_list = soup.find_all(attrs={"class": "rsTr"})
 
@@ -360,14 +385,16 @@ class DealCicpa(object):
                         format(exc))
 
     def main(self):
-        for page in range(1, 300):
+        code = "0000010F8496859888BBD1029F822843" # shenzhen
+        # code = "0000010F84968569DDB2CD9ADD2CAA43"  # guangdong
+        for page in range(40, 300):
             print("--->Info: Office page is {}".format(page))
 
             if DEBUG:
-                self.get_office_list(page)
+                self.get_office_list(page, code)
             else:
                 try:
-                    self.get_office_list(page)
+                    self.get_office_list(page, code)
                 except Exception as exc:
                     print("--->Error: the error is {}, the page is {}".format(
                         exc, page))
