@@ -3,13 +3,14 @@ import time
 import pymysql
 import pandas as pd
 
-DEBUG = False
+DEBUG = True
 
 
 class DealCicpa(object):
     def __init__(self):
 
-        self.select_sql = "SELECT * FROM `workoo`.`whalebj`;"
+        # self.select_sql = "SELECT * FROM `workoo`.`whalebj`;"
+        self.select_sql = "SELECT * FROM `uki`.`api`;"
         self.init_sql()
 
     def init_sql(self):
@@ -30,6 +31,7 @@ class DealCicpa(object):
             self.ecnu_cursor = ecnu_mysql.cursor()
 
     def check_time(self, content):
+        return True
         clock = content.split(" ")[-1].split(":")[0]
         if clock >= 14 and clock <= 20:
             return True
@@ -38,7 +40,7 @@ class DealCicpa(object):
         self.ecnu_cursor.execute(self.select_sql)
 
         info_ = pd.read_sql(self.select_sql, self.ecnu_mysql)
-        info_.to_excel("./data.xlsx", index=False)
+        info_.to_excel("./api.xlsx", index=False)
 
 
 if __name__ == "__main__":

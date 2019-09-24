@@ -5,10 +5,33 @@ from bs4 import BeautifulSoup
 
 from request import Query
 
-DEBUG = False
+DEBUG = True
 
 
+def timer(func):
+    '''
+    @summary: cal the time of the fucntion
+    @param : None
+    @return: return the res of the func
+    '''
+
+    def wrapper(*args, **kw):
+        start_time = time.time()
+        # start_time = datetime.datetime.now()
+        res = func(*args, **kw)
+        over_time = time.time()
+        # over_time = datetime.datetime.now()
+        print('current Function {0} run time is {1}'.format(
+            func.__name__, over_time - start_time))
+        # print ('current Function {0} run time is {1}'.format(func.__name__ , (over_time - start_time).total_seconds()))
+        return res
+
+    return wrapper
+
+
+@timer
 class DealCicpa(object):
+    @timer
     def __init__(self):
         self.path = "http://www.whalebj.com/xzjc/"
 
@@ -27,6 +50,7 @@ class DealCicpa(object):
         self.request = Query()
         self.init_sql()
 
+    @timer
     def init_sql(self):
         from config import DATABASES
         try:
@@ -43,17 +67,22 @@ class DealCicpa(object):
         else:
             self.ecnu_cursor = ecnu_mysql.cursor()
 
+    @timer
     def remove_character(self, content):
         if isinstance(content, str):
             return content.replace("；", "")
             # .replace("辆","").replace("；","")
-
+    @timer
     def main(self):
         resp = self.request.run(self.path, header=self.header)
 
+        start_time = time.time()
         soup = BeautifulSoup(resp, "lxml")
         obj_list = soup.find(attrs={"id": "Label_Msg"}).contents
+        over_time = time.time()
+        print(' {0} run time is {1}'.format("soup", over_time - start_time))
 
+        start_time = time.time()
         for item in obj_list:
             if isinstance(item, str):
                 if "：" in item:
@@ -67,16 +96,26 @@ class DealCicpa(object):
                 elif "截止目前为止" in item:
                     time_ = item.split("（")[-1].replace("）", "")
 
+        over_time = time.time()
+        print(' {0} run time is {1}'.format("for", over_time - start_time))
+
+        start_time = time.time()
         self.ecnu_cursor.execute(
             self.insert_sql.format(time_, num, in_, leave))
+        over_time = time.time()
+        print(' {0} run time is {1}'.format("sql", over_time - start_time))
 
+    @timer
     def run(self):
-        while True:
-            try:
-                self.main()
-            except Exception as exc:
-                print("--->Info: the error is {}".format(exc))
-            time.sleep(58)
+        # while True:
+            # try:
+        start_time = time.time()
+        self.main()
+        over_time = time.time()
+        print(' {0} run time is {1}'.format("main", over_time - start_time))
+            # except Exception as exc:
+            #     print("--->Info: the error is {}".format(exc))
+        time.sleep(58)
 
 
 if __name__ == "__main__":
