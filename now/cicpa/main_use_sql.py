@@ -2,12 +2,21 @@ import os
 import time
 import random
 import pymysql
+import platform
 import pandas as pd
 from bs4 import BeautifulSoup
 
 from request import Query
 
-DEBUG = True
+
+
+
+a = platform.system()
+
+if platform.system() == "Linux":
+    DEBUG = False
+elif system_version == "Windows":
+    DEBUG = True
 
 
 class DealCicpa(object):
