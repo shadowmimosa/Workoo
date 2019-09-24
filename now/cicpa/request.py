@@ -100,14 +100,15 @@ class Query(object):
                         allow_redirects=False,
                         timeout=(2, 6))
                 retry_count = 0
-            # except 
+            # except
             # except Exception as exc:
             #     retry_count -= 1
             #     self.logger.error(
             #         "---> The error is {}, and the website is {}. Now try again just one time."
             #         .format(exc, url))
             #     # self.deal_re(url=url, header=header, data=data)
-
+            except AttributeError:
+                pass
         end_time = time.time()
 
         try:
