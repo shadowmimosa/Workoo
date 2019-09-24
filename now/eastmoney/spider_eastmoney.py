@@ -2,13 +2,18 @@ import os
 import time
 import random
 import pymysql
-import pandas as pd
+import platform
 import bs4
 from bs4 import BeautifulSoup
 
 from request import Query
 
-DEBUG = True
+system = platform.system()
+
+if system == "Linux":
+    DEBUG = False
+elif system == "Windows":
+    DEBUG = True
 
 
 class DealEastmoney(object):
