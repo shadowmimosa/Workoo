@@ -387,7 +387,7 @@ class DealCicpa(object):
     def main(self):
         code = "0000010F8496859888BBD1029F822843" # shenzhen
         # code = "0000010F84968569DDB2CD9ADD2CAA43"  # guangdong
-        for page in range(40, 300):
+        for page in range(1, 22):
             print("--->Info: Office page is {}".format(page))
 
             if DEBUG:
