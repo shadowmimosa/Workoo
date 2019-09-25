@@ -197,7 +197,7 @@ class DealEastmoney(object):
 
     def main(self):
         self.get_id()
-        page = 15
+        page = 1
         while True:
             path = self.page_path.format(self.guba_id, page)
             # self.deal_page(path)
