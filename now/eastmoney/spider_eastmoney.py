@@ -3,6 +3,8 @@ import time
 import pymysql
 import traceback
 
+from types import MethodType, FunctionType
+
 from config import DEBUG
 from utils.request import Query
 from utils.soup import DealSoup
@@ -58,8 +60,9 @@ class DealEastmoney(object):
             self.ecnu_cursor = ecnu_mysql.cursor()
 
     def judge_already(self, author, post_time, title):
-        if self.ecnu_cursor.execute(
-                self.judge_time_sql.format(post_time, author, title)) == 0:
+        if self.run_func(self.ecnu_cursor.execute,
+                         self.judge_time_sql.format(post_time, author,
+                                                    title)) == 0:
             return True
         else:
             return
@@ -80,11 +83,22 @@ class DealEastmoney(object):
                     print("400 now, try it")
                     continue
 
+    def deal_soup(self, *args, **kwargs):
+        return self.run_func(self.soup, *args, **kwargs)
+
     def get_id(self):
         self.ecnu_cursor.execute(self.select_id_sql)
         # c = "{0:06d}".format(a[0])
 
         self.guba_id = "{:0>6}".format(self.ecnu_cursor.fetchone()[0])
+
+    def deal_text(self, content: str):
+        if isinstance(content, str):
+            return content.replace("'", "\'")
+        else:
+            print(
+                "--->Error: the text is wrong, the type is {}, the text is {}".
+                format(type(content, content)))
 
     def deal_time(self, post: str):
         post = post.replace(":", " ").replace("-", " ")
@@ -109,35 +123,52 @@ class DealEastmoney(object):
         else:
             print("--->Error: the time is wrong")
 
-    def deal_detail(self, item):
-        try:
-            read_count = self.soup(item, {"class": "l1 a1"}).text
-            comment_count = self.soup(item, {"class": "l2 a2"}).text
-            title = self.soup(self.soup(item, {"class": "l3 a3"}),
-                              "a")["title"]
-            author = self.soup(item, {"class": "l4 a4"}).text
-            post_time = self.deal_time(
-                self.soup(item, {
-                    "class": "l5 a5"
-                }).text)
-        except Exception as exc:
-            print()
+    def insert_comment(self, read_count, comment_count, title, author,
+                       post_time):
+        if self.run_func(self.judge_already, author, post_time, title):
+            if self.run_func(
+                    self.ecnu_cursor.execute,
+                    self.insert_comment_sql.format(
+                        self.guba_id, read_count, comment_count, title, author,
+                        post_time)) is None:
+                print(
+                    "--->Info: the title, author is {}, {}, retry now".format(
+                        title, author))
+                self.run_func(
+                    self.ecnu_cursor.execute,
+                    self.insert_comment_sql.format(
+                        self.guba_id, read_count, comment_count,
+                        self.run_func(self.deal_text, title),
+                        self.run_func(self.deal_text, author), post_time))
 
-        if self.judge_already(author, post_time, title):
-            self.ecnu_cursor.execute(
-                self.insert_comment_sql.format(self.guba_id, read_count,
-                                               comment_count, title, author,
-                                               post_time))
+            else:
+                print("--->Info: insert successful")
+
         else:
             print("--->Info: existed already")
 
+    def deal_detail(self, item):
+        read_count = self.deal_soup(item, {"class": "l1 a1"}).text
+        comment_count = self.deal_soup(item, {"class": "l2 a2"}).text
+        title = self.deal_soup(self.deal_soup(item, {"class": "l3 a3"}),
+                               "a")["title"]
+        author = self.deal_soup(item, {"class": "l4 a4"}).text
+        post_time = self.run_func(
+            self.deal_time,
+            self.deal_soup(item, {
+                "class": "l5 a5"
+            }).text)
+
+        self.run_func(self.insert_comment, read_count, comment_count, title,
+                      author, post_time)
+
     def deal_page(self, parh):
         resp = self.deal_resp(parh, self.header)
-        comment_divs = self.soup(
+        comment_divs = self.deal_soup(
             resp, attr={"class": "articleh"}, all_tag=True)
 
         for comment_div in comment_divs:
-            comment_em = self.soup(comment_div, "em")
+            comment_em = self.deal_soup(comment_div, "em")
             if comment_em is not None:
                 if comment_em.text in ["讨论", "悬赏", "公告", "资讯", "置顶"]:
                     continue
@@ -146,30 +177,29 @@ class DealEastmoney(object):
                 elif "qa" in comment_em.attrs["class"]:
                     continue
 
-            self.deal_detail(comment_div)
-
-    def test(self, name):
-        if name > "":
-            print(name)
-        else:
-            print(name)
+            self.run_func(self.deal_detail, comment_div)
 
     def run_func(self, func, *args, **kwargs):
-        if not DEBUG:
-            func(*args, **kwargs)
+        if isinstance(func, (MethodType, FunctionType)):
+            if DEBUG:
+                return func(*args, **kwargs)
+            else:
+                try:
+                    return func(*args, **kwargs)
+                except:
+                    print(
+                        "--->Error: The function {} is wrong, the error is {}".
+                        format(func.__name__, traceback.format_exc()))
+
         else:
-            try:
-                func(*args, **kwargs)
-            except:
-                print("--->Error: The function {} is wrong, the error is {}".
-                      format(func.__name__, traceback.format_exc()))
+            print("--->Error: The type {} is wrong, the func is {}".format(
+                type(func), func))
 
     def main(self):
         self.get_id()
         page = 15
         while True:
             path = self.page_path.format(self.guba_id, page)
-            # self.run_func(self.test, page)
             # self.deal_page(path)
             self.run_func(self.deal_page, path)
 
