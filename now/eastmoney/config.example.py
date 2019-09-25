@@ -1,3 +1,12 @@
+import platform
+
+system = platform.system()
+
+if system == "Linux":
+    DEBUG = False
+elif system == "Windows":
+    DEBUG = True
+
 DATABASES = {
     "debug": {
         "host": "127.0.0.1",
