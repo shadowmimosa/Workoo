@@ -154,23 +154,24 @@ class DealEastmoney(object):
         else:
             print(name)
 
-    def run_func(self, func, *args):
+    def run_func(self, func, *args, **kwargs):
         if not DEBUG:
-            func(*args)
+            func(*args, **kwargs)
         else:
             try:
-                func(*args)
+                func(*args, **kwargs)
             except:
-                print("--->Error: the {} is wrong, the error is {}".format(
-                    func.__name__, traceback.format_exc()))
+                print("--->Error: The function {} is wrong, the error is {}".
+                      format(func.__name__, traceback.format_exc()))
 
     def main(self):
         self.get_id()
         page = 15
         while True:
             path = self.page_path.format(self.guba_id, page)
-            self.run_func(self.test, page)
+            # self.run_func(self.test, page)
             # self.deal_page(path)
+            self.run_func(self.deal_page, path)
 
             page += 1
 
