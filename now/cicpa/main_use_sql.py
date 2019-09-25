@@ -115,11 +115,17 @@ class DealCicpa(object):
                     pass
 
     def deal_resp(self, path, header, data=None):
+        retry_count = 5
         while True:
+            if retry_count <= 0:
+                break
+
             resp = self.request.run(path, header=header, data=data)
 
             if isinstance(resp, str):
                 if "错误异常页面" in resp:
+                    print("Sleep for error page now")
+                    retry_count -= 1
                     time.sleep(30)
                     continue
                 # elif "中国注册会计师协会行业管理信息系统" not in resp:
@@ -131,12 +137,14 @@ class DealCicpa(object):
             elif isinstance(resp, int):
                 if resp == 502:
                     print("Sleep Now")
+                    retry_count -= 1
                     time.sleep(3600)
                     continue
                 elif resp == 400:
                     time.sleep(5)
                     print("Continue Now")
-                    return
+                    retry_count -= 1
+                    continue
 
     def judge_already(self, sign, code):
         if sign == 0:
@@ -387,7 +395,7 @@ class DealCicpa(object):
     def main(self):
         # code = "0000010F8496859888BBD1029F822843" # shenzhen
         # code = "0000010F84968569DDB2CD9ADD2CAA43"  # guangdong
-        code = "00" # all
+        code = "00"  # all
         for page in range(1, 620):
             print("--->Info: Office page is {}".format(page))
 
