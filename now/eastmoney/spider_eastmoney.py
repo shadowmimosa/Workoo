@@ -100,8 +100,8 @@ class DealEastmoney(object):
 
     def deal_text(self, content: str):
         if isinstance(content, str):
-            return content.replace("'", "\\'").replace('"', '\\"').replace(
-                "\\", "\\\\")
+            return content.replace("\\", "\\\\").replace("'", "\\'").replace(
+                '"', '\\"')
         else:
             logger.error(
                 "--->Error: the text is wrong, the type is {}, the text is {}".
@@ -208,7 +208,7 @@ class DealEastmoney(object):
     def deal_detail(self, path):
         resp = self.deal_resp(path, self.header)
         # resp = self.deal_resp(
-        #     "http://guba.eastmoney.com/list,000002,f_78.html", self.header)
+        #     "http://guba.eastmoney.com/list,000012,f_15.html", self.header)
 
         comment_divs = self.deal_soup(
             resp, attr={"class": "articleh"}, all_tag=True)
