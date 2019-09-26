@@ -197,7 +197,7 @@ class DealEastmoney(object):
             self.run_func(self.get_comment, comment_div)
 
     def deal_page(self):
-        page = 247
+        page = 1
         while True:
             path = self.page_path.format(self.guba_id, page)
             # self.deal_detail(path)
