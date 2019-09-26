@@ -100,7 +100,8 @@ class DealEastmoney(object):
 
     def deal_text(self, content: str):
         if isinstance(content, str):
-            return content.replace("'", "\\'").replace("\\","\\\\")
+            return content.replace("'", "\\'").replace('"', '\\"').replace(
+                "\\", "\\\\")
         else:
             logger.error(
                 "--->Error: the text is wrong, the type is {}, the text is {}".
@@ -113,7 +114,7 @@ class DealEastmoney(object):
                 count = int(float(content) * 10000)
             elif "亿" in content:
                 content = content.replace("亿", "")
-                count = int(float(content) * 100000000)                
+                count = int(float(content) * 100000000)
             else:
                 count = int(content)
             return count
