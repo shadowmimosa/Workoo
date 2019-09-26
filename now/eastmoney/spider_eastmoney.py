@@ -111,6 +111,9 @@ class DealEastmoney(object):
             if "万" in content:
                 content = content.replace("万", "")
                 count = int(float(content) * 10000)
+            elif "亿" in content:
+                content = content.replace("亿", "")
+                count = int(float(content) * 100000000)                
             else:
                 count = int(content)
             return count
@@ -212,7 +215,7 @@ class DealEastmoney(object):
         for comment_div in comment_divs:
             comment_em = self.deal_soup(comment_div, "em")
             if comment_em is not None:
-                if comment_em.text in ["讨论", "悬赏", "公告", "资讯", "置顶"]:
+                if comment_em.text in ["讨论", "悬赏", "公告", "资讯", "置顶", "话题"]:
                     continue
                 elif "icon_list_hot" in comment_em.attrs["class"]:
                     continue
