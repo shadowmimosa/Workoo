@@ -62,13 +62,10 @@ class DealEastmoney(object):
         else:
             self.ecnu_cursor = ecnu_mysql.cursor()
 
-    def judge_already(self, author, post_time, title):
-        a = self.judge_time_sql.format(
-            int(self.guba_id) % 5, post_time, author, title)
-        if self.run_func(
-                self.deal_sql,
-                self.judge_time_sql.format(
-                    int(self.guba_id) % 5, post_time, author, title)) == 0:
+    def judge_already(self):
+        a = self.judge_time_sql.format(**self.comment)
+        if self.run_func(self.deal_sql,
+                         self.judge_time_sql.format(**self.comment)) == 0:
             return True
         else:
             return
@@ -164,7 +161,7 @@ class DealEastmoney(object):
     def insert_comment(self):
         self.clean_comment()
 
-        if self.run_func(self.judge_already, **self.comment):
+        if self.run_func(self.judge_already):
             if self.run_func(self.deal_sql,
                              self.insert_comment_sql.format(
                                  **self.comment)) is not None:
