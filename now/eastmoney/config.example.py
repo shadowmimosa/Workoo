@@ -1,11 +1,15 @@
 import platform
 
+from utils.log import init_log
+
 system = platform.system()
 
 if system == "Linux":
     DEBUG = False
 elif system == "Windows":
     DEBUG = True
+
+logger = init_log()
 
 DATABASES = {
     "debug": {

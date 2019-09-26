@@ -5,7 +5,7 @@ import traceback
 
 from types import MethodType, FunctionType
 
-from config import DEBUG
+from config import DEBUG, logger
 from utils.request import Query
 from utils.soup import DealSoup
 
@@ -37,11 +37,12 @@ class DealEastmoney(object):
         self.request = Query()
         self.soup = DealSoup().judge
         self.select_id_sql = "select `id` from `workoo`.`eastmoney_list` where `status` = 0 Limit 1;"
-        self.insert_comment_sql = "INSERT INTO `workoo`.`eastmoney_comment`(`GubaId`, `ReadCount`, `CommentCount`, `Title`, `Author`, `PostTime`) VALUES ('{}', '{}', '{}', '{}', '{}', '{}');"
-        self.judge_time_sql = "SELECT `Id` FROM `workoo`.`eastmoney_comment` WHERE `PostTime` = '{}' AND `Author` = '{}' AND `Title` = '{}' LIMIT 1;"
+        self.insert_comment_sql = "INSERT INTO `workoo`.`eastmoney_comment_{}`(`GubaId`, `ReadCount`, `CommentCount`, `Title`, `Author`, `PostTime`) VALUES ('{}', '{}', '{}', '{}', '{}', '{}');"
+        self.judge_time_sql = "SELECT `Id` FROM `workoo`.`eastmoney_comment_{}` WHERE `PostTime` = '{}' AND `Author` = '{}' AND `Title` = '{}' LIMIT 1;"
         self.init_sql()
 
         self.year = 2019
+        self.last_month = 9
 
     def init_sql(self):
         from config import DATABASES
@@ -54,15 +55,18 @@ class DealEastmoney(object):
             ecnu_mysql = pymysql.connect(**config)
 
         except pymysql.err.OperationalError as exc:
-            print('登录失败！TimeoutError!')
+            logger.error("--->Error: 登录失败！TimeoutError!")
             os._exit(0)
         else:
             self.ecnu_cursor = ecnu_mysql.cursor()
 
     def judge_already(self, author, post_time, title):
-        if self.run_func(self.ecnu_cursor.execute,
-                         self.judge_time_sql.format(post_time, author,
-                                                    title)) == 0:
+        a = self.judge_time_sql.format(int(self.guba_id) % 5, post_time,
+                                           author, title)
+        if self.run_func(
+                self.deal_sql,
+                self.judge_time_sql.format(int(self.guba_id) % 5, post_time,
+                                           author, title)) == 0:
             return True
         else:
             return
@@ -70,35 +74,54 @@ class DealEastmoney(object):
     def deal_resp(self, path, header, data=None):
         while True:
             resp = self.request.run(path, header=header, data=data)
-
             if isinstance(resp, str):
                 return resp
             elif isinstance(resp, int):
                 if resp == 502:
                     time.sleep(5)
-                    print("500 now, try it")
+                    logger.warning("--->Warning: http 500 now, try it")
                     continue
                 elif resp == 400:
                     time.sleep(5)
-                    print("400 now, try it")
+                    logger.warning("--->Warning: http 400 now, try it")
                     continue
 
     def deal_soup(self, *args, **kwargs):
         return self.run_func(self.soup, *args, **kwargs)
 
-    def get_id(self):
-        self.ecnu_cursor.execute(self.select_id_sql)
-        # c = "{0:06d}".format(a[0])
+    def deal_sql(self, sql):
+        return self.run_func(self.ecnu_cursor.execute, sql)
 
-        self.guba_id = "{:0>6}".format(self.ecnu_cursor.fetchone()[0])
+    def get_id(self):
+        # c = "{0:06d}".format(a[0])
+        if self.run_func(self.deal_sql, self.select_id_sql) != 0:
+            self.guba_id = "{:0>6}".format(self.ecnu_cursor.fetchone()[0])
+            return True
+        else:
+            logger.info("--->Info: all guba is done")
+            return False
 
     def deal_text(self, content: str):
         if isinstance(content, str):
-            return content.replace("'", "\'")
+            return content.replace("'", "\\'")
         else:
-            print(
+            logger.error(
                 "--->Error: the text is wrong, the type is {}, the text is {}".
                 format(type(content, content)))
+
+    def judge_year(self, month: int):
+        if isinstance(month, int):
+            if self.last_month == 1 and month == 12:
+                self.year -= 1
+
+            self.last_month = month
+        elif isinstance(month, str):
+            try:
+                self.run_func(self.judge_year, int(month))
+            except ValueError:
+                logger.error(
+                    "--->Error: the month type is wrong, the month is {}".
+                    format(month))
 
     def deal_time(self, post: str):
         post = post.replace(":", " ").replace("-", " ")
@@ -112,42 +135,34 @@ class DealEastmoney(object):
                 "minute": time_list[3]
             }
 
-            if int(time_obj["month"]) >= 11:
-                self.year -= 1
+            self.run_func(self.judge_year, time_obj["month"])
 
             time_obj["year"] = self.year
             time_obj["second"] = "00"
 
-            return "{year}{month}{day}{hour}{minute}{second}".format(
+            return "{year}-{month}-{day} {hour}:{minute}:{second}".format(
                 **time_obj)
         else:
-            print("--->Error: the time is wrong")
+            logger.error("--->Error: the time is wrong")
 
     def insert_comment(self, read_count, comment_count, title, author,
                        post_time):
+
+        title = self.deal_text(title)
+        author = self.deal_text(author)
+
         if self.run_func(self.judge_already, author, post_time, title):
             if self.run_func(
-                    self.ecnu_cursor.execute,
+                    self.deal_sql,
                     self.insert_comment_sql.format(
-                        self.guba_id, read_count, comment_count, title, author,
-                        post_time)) is None:
-                print(
-                    "--->Info: the title, author is {}, {}, retry now".format(
-                        title, author))
-                self.run_func(
-                    self.ecnu_cursor.execute,
-                    self.insert_comment_sql.format(
-                        self.guba_id, read_count, comment_count,
-                        self.run_func(self.deal_text, title),
-                        self.run_func(self.deal_text, author), post_time))
-
-            else:
-                print("--->Info: insert successful")
+                        int(self.guba_id) % 5, self.guba_id, read_count,
+                        comment_count, title, author, post_time)) is not None:
+                logger.info("--->Info: insert successful")
 
         else:
-            print("--->Info: existed already")
+            logger.info("--->Info: existed already")
 
-    def deal_detail(self, item):
+    def get_comment(self, item):
         read_count = self.deal_soup(item, {"class": "l1 a1"}).text
         comment_count = self.deal_soup(item, {"class": "l2 a2"}).text
         title = self.deal_soup(self.deal_soup(item, {"class": "l3 a3"}),
@@ -162,8 +177,8 @@ class DealEastmoney(object):
         self.run_func(self.insert_comment, read_count, comment_count, title,
                       author, post_time)
 
-    def deal_page(self, parh):
-        resp = self.deal_resp(parh, self.header)
+    def deal_detail(self, path):
+        resp = self.deal_resp(path, self.header)
         comment_divs = self.deal_soup(
             resp, attr={"class": "articleh"}, all_tag=True)
 
@@ -177,7 +192,19 @@ class DealEastmoney(object):
                 elif "qa" in comment_em.attrs["class"]:
                     continue
 
-            self.run_func(self.deal_detail, comment_div)
+            self.run_func(self.get_comment, comment_div)
+
+    def deal_page(self):
+        page = 247
+        while True:
+            path = self.page_path.format(self.guba_id, page)
+            # self.deal_detail(path)
+            self.run_func(self.deal_detail, path)
+
+            if self.year <= 2018 and self.last_month <= 7:
+                return
+            else:
+                page += 1
 
     def run_func(self, func, *args, **kwargs):
         if isinstance(func, (MethodType, FunctionType)):
@@ -187,23 +214,21 @@ class DealEastmoney(object):
                 try:
                     return func(*args, **kwargs)
                 except:
-                    print(
+                    logger.error(
                         "--->Error: The function {} is wrong, the error is {}".
                         format(func.__name__, traceback.format_exc()))
 
         else:
-            print("--->Error: The type {} is wrong, the func is {}".format(
-                type(func), func))
+            logger.error(
+                "--->Error: The type {} is wrong, the func is {}".format(
+                    type(func), func))
 
     def main(self):
-        self.get_id()
-        page = 1
         while True:
-            path = self.page_path.format(self.guba_id, page)
-            # self.deal_page(path)
-            self.run_func(self.deal_page, path)
-
-            page += 1
+            if self.run_func(self.get_id):
+                self.run_func(self.deal_page)
+            else:
+                break
 
 
 if __name__ == "__main__":
