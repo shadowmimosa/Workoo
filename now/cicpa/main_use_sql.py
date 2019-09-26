@@ -137,7 +137,7 @@ class DealCicpa(object):
             elif isinstance(resp, int):
                 if resp == 502:
                     print("Sleep Now")
-                    retry_count -= 1
+                    retry_count -= 0.25
                     time.sleep(3600)
                     continue
                 elif resp == 400:
