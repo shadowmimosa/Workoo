@@ -166,7 +166,10 @@ class DealEastmoney(object):
             if self.run_func(self.deal_sql,
                              self.insert_comment_sql.format(
                                  **self.comment)) is not None:
-                logger.info("--->Info: insert successful")
+                # logger.info("--->Info: insert successful")
+                pass
+            else:
+                logger.error("--->Error: insert failed")
 
         else:
             logger.info("--->Info: existed already")
