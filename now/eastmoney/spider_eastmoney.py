@@ -43,9 +43,6 @@ class DealEastmoney(object):
         self.update_guba_id_sql = "UPDATE `workoo`.`eastmoney_list` SET `status` = 1 WHERE `id` = {};"
         self.init_sql()
 
-        self.year = 2019
-        self.last_month = 9
-
     def init_sql(self):
         from config import DATABASES
         try:
@@ -262,6 +259,8 @@ class DealEastmoney(object):
     def main(self):
         while True:
             if self.run_func(self.get_id):
+                self.year = 2019
+                self.last_month = 9
                 self.run_func(self.deal_page)
             else:
                 break
