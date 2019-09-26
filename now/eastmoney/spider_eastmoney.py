@@ -40,6 +40,7 @@ class DealEastmoney(object):
         self.select_id_sql = "select `id` from `workoo`.`eastmoney_list` where `status` = 0 Limit 1;"
         self.insert_comment_sql = "INSERT INTO `workoo`.`eastmoney_comment_{}`(`GubaId`, `ReadCount`, `CommentCount`, `Title`, `Author`, `PostTime`) VALUES ('{}', '{}', '{}', '{}', '{}', '{}');"
         self.judge_time_sql = "SELECT `Id` FROM `workoo`.`eastmoney_comment_{}` WHERE `PostTime` = '{}' AND `Author` = '{}' AND `Title` = '{}' LIMIT 1;"
+        self.update_guba_id_sql = "UPDATE `workoo`.`eastmoney_list` SET `status` = 1 WHERE `id` = {};"
         self.init_sql()
 
         self.year = 2019
@@ -196,6 +197,11 @@ class DealEastmoney(object):
 
             self.run_func(self.get_comment, comment_div)
 
+    def done_guba(self):
+        logger.info("--->Info: guba {} is done".format(self.guba_id))
+        self.run_func(self.deal_sql,
+                      self.update_guba_id_sql.format(self.guba_id))
+
     def deal_page(self):
         page = 1
         while True:
@@ -204,6 +210,7 @@ class DealEastmoney(object):
             self.run_func(self.deal_detail, path)
 
             if self.year <= 2018 and self.last_month <= 7:
+                self.run_func(self.done_guba)
                 return
             else:
                 page += 1
