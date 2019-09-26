@@ -1,5 +1,6 @@
 import os
 import time
+import random
 import pymysql
 import traceback
 
@@ -61,17 +62,18 @@ class DealEastmoney(object):
             self.ecnu_cursor = ecnu_mysql.cursor()
 
     def judge_already(self, author, post_time, title):
-        a = self.judge_time_sql.format(int(self.guba_id) % 5, post_time,
-                                           author, title)
+        a = self.judge_time_sql.format(
+            int(self.guba_id) % 5, post_time, author, title)
         if self.run_func(
                 self.deal_sql,
-                self.judge_time_sql.format(int(self.guba_id) % 5, post_time,
-                                           author, title)) == 0:
+                self.judge_time_sql.format(
+                    int(self.guba_id) % 5, post_time, author, title)) == 0:
             return True
         else:
             return
 
     def deal_resp(self, path, header, data=None):
+        magic_time(0, 3)
         while True:
             resp = self.request.run(path, header=header, data=data)
             if isinstance(resp, str):
@@ -229,6 +231,13 @@ class DealEastmoney(object):
                 self.run_func(self.deal_page)
             else:
                 break
+            magic_time(5, 60)
+
+
+def magic_time(lower: float = 0, upper: float = 5):
+    magic = round(random.uniform(lower, upper), 2)
+    logger.info("--->Info: Magic Time {} Now".format(magic))
+    time.sleep(magic)
 
 
 if __name__ == "__main__":
