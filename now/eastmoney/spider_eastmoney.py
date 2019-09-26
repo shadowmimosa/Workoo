@@ -38,8 +38,8 @@ class DealEastmoney(object):
         self.request = Query()
         self.soup = DealSoup().judge
         self.select_id_sql = "select `id` from `workoo`.`eastmoney_list` where `status` = 0 Limit 1;"
-        self.insert_comment_sql = "INSERT INTO `workoo`.`eastmoney_comment_{}`(`GubaId`, `ReadCount`, `CommentCount`, `Title`, `Author`, `PostTime`) VALUES ('{}', '{}', '{}', '{}', '{}', '{}');"
-        self.judge_time_sql = "SELECT `Id` FROM `workoo`.`eastmoney_comment_{}` WHERE `PostTime` = '{}' AND `Author` = '{}' AND `Title` = '{}' LIMIT 1;"
+        self.insert_comment_sql = "INSERT INTO `workoo`.`eastmoney_comment_{guba_id}`(`GubaId`, `ReadCount`, `CommentCount`, `Title`, `Author`, `PostTime`) VALUES ('{GubaId}', '{read_count}', '{comment_count}', '{title}', '{author}', '{post_time}');"
+        self.judge_time_sql = "SELECT `Id` FROM `workoo`.`eastmoney_comment_{guba_id}` WHERE `PostTime` = '{post_time}' AND `Author` = '{author}' AND `Title` = '{title}' LIMIT 1;"
         self.update_guba_id_sql = "UPDATE `workoo`.`eastmoney_list` SET `status` = 1 WHERE `id` = {};"
         self.init_sql()
 
@@ -112,6 +112,19 @@ class DealEastmoney(object):
                 "--->Error: the text is wrong, the type is {}, the text is {}".
                 format(type(content, content)))
 
+    def deal_count(self, content: str):
+        if isinstance(content, str):
+            if "万" in content:
+                content = content.replace("万", "")
+                count = int(float(content) * 10000)
+            else:
+                count = int(content)
+            return count
+        else:
+            logger.error(
+                "--->Error: the text is wrong, the type is {}, the text is {}".
+                format(type(content, content)))
+
     def judge_year(self, month: int):
         if isinstance(month, int):
             if self.last_month == 1 and month == 12:
@@ -148,22 +161,31 @@ class DealEastmoney(object):
         else:
             logger.error("--->Error: the time is wrong")
 
-    def insert_comment(self, read_count, comment_count, title, author,
-                       post_time):
+    def insert_comment(self):
+        self.clean_comment()
 
-        title = self.deal_text(title)
-        author = self.deal_text(author)
-
-        if self.run_func(self.judge_already, author, post_time, title):
-            if self.run_func(
-                    self.deal_sql,
-                    self.insert_comment_sql.format(
-                        int(self.guba_id) % 5, self.guba_id, read_count,
-                        comment_count, title, author, post_time)) is not None:
+        if self.run_func(self.judge_already, **self.comment):
+            if self.run_func(self.deal_sql,
+                             self.insert_comment_sql.format(
+                                 **self.comment)) is not None:
                 logger.info("--->Info: insert successful")
 
         else:
             logger.info("--->Info: existed already")
+
+    def clean_comment(self, *args):
+        self.comment["read_count"] = self.run_func(
+            self.deal_count, self.comment.get("read_count"))
+        self.comment["comment_count"] = self.run_func(
+            self.deal_count, self.comment.get("comment_count"))
+
+        self.comment["title"] = self.run_func(self.deal_text,
+                                              self.comment.get("title"))
+        self.comment["author"] = self.run_func(self.deal_text,
+                                               self.comment.get("author"))
+
+        self.comment["post_time"] = self.run_func(
+            self.deal_time, self.comment.get("post_time"))
 
     def get_comment(self, item):
         read_count = self.deal_soup(item, {"class": "l1 a1"}).text
@@ -171,17 +193,25 @@ class DealEastmoney(object):
         title = self.deal_soup(self.deal_soup(item, {"class": "l3 a3"}),
                                "a")["title"]
         author = self.deal_soup(item, {"class": "l4 a4"}).text
-        post_time = self.run_func(
-            self.deal_time,
-            self.deal_soup(item, {
-                "class": "l5 a5"
-            }).text)
+        post_time = self.deal_soup(item, {"class": "l5 a5"}).text
 
-        self.run_func(self.insert_comment, read_count, comment_count, title,
-                      author, post_time)
+        self.comment = {
+            "read_count": read_count,
+            "comment_count": comment_count,
+            "title": title,
+            "author": author,
+            "post_time": post_time,
+            "guba_id": int(self.guba_id) % 5,
+            "GubaId": self.guba_id
+        }
+
+        self.run_func(self.insert_comment)
 
     def deal_detail(self, path):
         resp = self.deal_resp(path, self.header)
+        # resp = self.deal_resp(
+        #     "http://guba.eastmoney.com/list,000002,f_43.html", self.header)
+
         comment_divs = self.deal_soup(
             resp, attr={"class": "articleh"}, all_tag=True)
 
