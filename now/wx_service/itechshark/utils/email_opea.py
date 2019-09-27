@@ -127,10 +127,5 @@ class ReadEmail(object):
             return self.body_contents
 
 
-# {
-#     "email": "17305994320@189.cn",
-#     "password": "qjhQJH520.",
-#     "pop_host": "pop.189.cn"
-# }
 if __name__ == "__main__":
     ReadEmail(accout="1169546750@qq.com", password="").main()

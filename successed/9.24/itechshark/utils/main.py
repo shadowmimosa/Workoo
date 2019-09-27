@@ -91,8 +91,6 @@ class CheckImei(object):
             pass
 
 
-{"imei": "359168077743765", "email": "1525278243@qq.com"}
-
 if __name__ == "__main__":
     import os
     os.chdir(os.path.dirname(os.path.abspath(__file__)))

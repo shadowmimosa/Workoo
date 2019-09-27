@@ -22,6 +22,7 @@ class ReadEmail(object):
         pop_server.pass_(self.password)
 
         self.popServer = pop_server
+
     def del_email(self):
         self.popServer.dele()
 
@@ -63,10 +64,10 @@ class ReadEmail(object):
         resp, mails, octets = self.popServer.list()
         index = len(mails)
 
-        while index==0:
+        while index == 0:
             resp, mails, octets = self.popServer.list()
             index = len(mails)
-            
+
         # 获取第msgIndex封邮件的信息
         response, msg_lines, octets = self.popServer.retr(index)
         # msgLines中为该邮件的每行数据,先将内容连接成字符串，再转化为email.message.Message对象
@@ -111,10 +112,6 @@ class ReadEmail(object):
             self.get_email_content(self.messageObject)
             return self.body_contents
 
-# {
-#     "email": "17305994320@189.cn",
-#     "password": "qjhQJH520.",
-#     "pop_host": "pop.189.cn"
-# }
+
 if __name__ == "__main__":
-    ReadEmail(accout="1169546750@qq.com", password="").main()
+    ReadEmail(accout="", password="").main()
