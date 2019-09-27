@@ -251,6 +251,7 @@ class DealGhzrzyw(object):
                                           item_subject, item_winner))
 
     def run(self, pages):
+        # self.deal_detail("https://www.yuncaitong.cn/publish/2019/09/20/16D4DF2755022A916FCC4BEE76BA2625.shtml")
         command = "self.{}(self.get_path(item['createTime'], item['id']))"
 
         for index, path in enumerate([self.page_path, self.result_path]):

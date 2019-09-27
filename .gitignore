@@ -3,6 +3,9 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
+# Workoo:
+config.py
+
 # Python:
 *.py[cod]
 *.so

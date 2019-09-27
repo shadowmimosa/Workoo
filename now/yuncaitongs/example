@@ -1,0 +1,5 @@
+* * * * * /home/xuan/git/Workoo/now/yuncaitongs/yuncailian/try/try.sh>>/home/xuan/git/Workoo/now/yuncaitongs/yuncailian/try/try.log 2>&1
+0,30 * * * * /home/xuan/git/Workoo/now/yuncaitongs/auto_run.sh>>/home/xuan/git/Workoo/now/yuncaitongs/crontab.log 2>&1
+source  ~/.local/share/virtualenvs/Workoo-7ULLtGnf/bin/activate
+chmod -R 777 freeM.sh
+sudo tail -f /var/log/cron
