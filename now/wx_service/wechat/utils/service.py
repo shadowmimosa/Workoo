@@ -23,39 +23,80 @@ class DataClean(object):
         """
         data = json.loads(content)
         if data["success"] == True:
-            return data["response"].replace("<br>", "\n").replace(
-                "Find My iPhone", "找到我的iPhone"
-            ).replace(
+            return True, data["response"].replace("<br>", "\n").replace(
+                "<br />", "\n"
+            ).replace("Find My iPhone", "找到我的iPhone").replace(
                 '<span style=\"color:red;\">ON</span>', "ON （开启）").replace(
                     '<span style=\"color:green;\">OFF</span>', "OFF（关闭）"
                 ).replace("iCloud Status", "iCloud状态").replace(
                     '<span style=\"color:red;\">Lost Mode</span>', "丢失模式"
                 ).replace("Model Number", "型号").replace("Model", "型号").replace(
-                    "Identifier", "类型").replace("Order", "型号").replace(
-                        "Network", "网络"
-                    ).replace("Activated", "已激活").replace(
-                        "Purchase Date", "购买日期"
-                    ).replace("Repairs & Service Coverage", "维修和服务范围").replace(
-                        "Technical Support", "技术支持"
-                    ).replace(
-                        "Manufacturer",
-                        "制造商").replace(
-                            "Foxconn",
-                            "富士康").replace("<sup>Valid</sup>", "有效").replace(
-                                "<sup>", ""
+                    "Identifier", "类型"
+                ).replace("Order", "型号").replace("Network", "网络").replace(
+                    "Activated", "已激活"
+                ).replace(
+                    "Purchase Date", "购买日期"
+                ).replace("Repairs & Service Coverage", "维修和服务范围").replace(
+                    "Technical Support", "技术支持"
+                ).replace(
+                    "Manufacturer",
+                    "制造商"
+                ).replace(
+                    "Foxconn", "富士康"
+                ).replace(
+                    "<sup>Valid</sup>",
+                    "有效"
+                ).replace("<sup>", "").replace(
+                    "</sup>",
+                    ""
+                ).replace(
+                    '<span style=\"color:green;\">Yes</span>', "是"
+                ).replace('<span style=\"color:red;\">No</span>', "否").replace(
+                    '<span style=\"color:red;\">', ""
+                ).replace('<span style=\"color:green;\">', "").replace(
+                    "</span>", ""
+                ).replace(
+                    "Device",
+                    "设备").replace("Model", "型号").replace(
+                        "IMEI Number",
+                        "IMEI 号码").replace("IMEI2 Number", "IMEI2 号码").replace(
+                            "Serial Number",
+                            "序列号").replace("Manufacture Date", "生产日期").replace(
+                                "Unit Age",
+                                "单位年龄"
                             ).replace(
-                                "</sup>",
-                                "").replace(
-                                    '<span style=\"color:green;\">Yes</span>',
-                                    "是").replace(
-                                        '<span style=\"color:red;\">No</span>',
-                                        "否").replace(
-                                            '<span style=\"color:red;\">', ""
-                                        ).replace(
-                                            '<span style=\"color:green;\">',
-                                            "").replace("</span>", "")
+                                "Next Policy ID",
+                                "下次策略ID"
+                            ).replace(
+                                "Carrier", "运营商"
+                            ).replace(
+                                "Country", "国家"
+                            ).replace(
+                                ":Locked",
+                                ":有网络锁"
+                            ).replace(
+                                "Unlocked",
+                                "无网络锁"
+                            ).replace(
+                                "Unlock",
+                                "无网络锁"
+                            ).replace(
+                                "SIM Lock",
+                                "SIM-Lock状态"
+                            ).replace('<font color="FF0000">', '').replace(
+                                '<font color="008800">', ''
+                            ).replace('.', '').replace(
+                                '<span class="label label-success">',
+                                '').replace(
+                                    '<span class="label label-danger">', '')
+
+        elif data.get("error") in [
+                "Invalid IMEI/Serial Number", "Device Not Found",
+                "Carrier not found", "Model Not Found"
+        ]:
+            return False, "不扣费 {}".format(data.get("error"))
         else:
-            return data["error"]
+            return True, data["error"]
 
     def applecheck(self, content):
         data = content.split("Result:")[-1]
@@ -233,13 +274,19 @@ class DataClean(object):
             return True, reply
         elif data["code"] in [302311, 302312, 302315]:
             return True, data["message"]
+        elif data["code"] in [302305, 302314]:
+            return False, "不扣费 {}".format(data.get("message"))
         else:
             return False, "请联系客服"
 
     def imeicheck(self, content):
-        return content.replace("<br>", "\n").replace("Model", "型号").replace(
+        content = content.replace("<br>", "\n").replace("Model", "型号").replace(
             "Serial Number", "序列号").replace("Estimated Purchase Date",
                                             "预计购买日期")
+        if "Wrong IMEI / Service Maintenance" in content:
+            return False, "不扣费 Wrong IMEI / Service Maintenance"
+        else:
+            return True, content
 
     def deal_detail(self, content):
         if isinstance(content, str):
@@ -290,7 +337,7 @@ class DealService(object):
             "https://api.ifreeicloud.co.uk/?key=TGR-GEB-PQ2-474-BXO-986-6V7-PSK&imei={}&service=125"
             .format(self.imei))
 
-        return True, self.dc.ifreeicloud(resp)
+        return self.dc.ifreeicloud(resp)
 
     def id_black_white(self):
         # resp = self.requests.run(
@@ -301,7 +348,7 @@ class DealService(object):
             "https://api.ifreeicloud.co.uk/?key=TGR-GEB-PQ2-474-BXO-986-6V7-PSK&imei={}&service=60"
             .format(self.imei))
 
-        return True, self.dc.ifreeicloud(resp)
+        return self.dc.ifreeicloud(resp)
 
     def id_with_imei(self):
         resp = self.requests.run(
@@ -321,25 +368,37 @@ class DealService(object):
 
     def network_lock(self):
 
+        # resp = self.requests.run(
+        #     "http://applecheck.info/api_processor.php?api_key=QUI53155ACETT&service_id=102&imei={}"
+        #     .format(self.imei),
+        #     header={})
+
+        # if "SUCCESS" in resp or "ERROR" in resp:
+        #     return True, self.dc.applecheck(resp)
+        # else:
+        #     return False, "请联系客服"
+
         resp = self.requests.run(
-            "http://applecheck.info/api_processor.php?api_key=QUI53155ACETT&service_id=102&imei={}"
+            "https://api.ifreeicloud.co.uk/?key=TGR-GEB-PQ2-474-BXO-986-6V7-PSK&imei={}&service=69"
             .format(self.imei),
             header={})
-
-        if "SUCCESS" in resp or "ERROR" in resp:
-            return True, self.dc.applecheck(resp)
-        else:
-            return False, "请联系客服"
+        return self.dc.ifreeicloud(resp)
 
     def service_provide(self):
+        # resp = self.requests.run(
+        #     "http://applecheck.info/api_processor.php?api_key=QUI53155ACETT&service_id=101&imei={}"
+        #     .format(self.imei),
+        #     header={})
+        # if "SUCCESS" in resp or "ERROR" in resp:
+        #     return True, self.dc.applecheck(resp)
+        # else:
+        #     return False, "请联系客服"
+
         resp = self.requests.run(
-            "http://applecheck.info/api_processor.php?api_key=QUI53155ACETT&service_id=101&imei={}"
+            "https://api.ifreeicloud.co.uk/?key=TGR-GEB-PQ2-474-BXO-986-6V7-PSK&imei={}&service=157"
             .format(self.imei),
             header={})
-        if "SUCCESS" in resp or "ERROR" in resp:
-            return True, self.dc.applecheck(resp)
-        else:
-            return False, "请联系客服"
+        return self.dc.ifreeicloud(resp)
 
     def official_change(self):
         resp = self.requests.run(
@@ -367,7 +426,7 @@ class DealService(object):
             .format(self.imei),
             header={})
 
-        return True, self.dc.ifreeicloud(resp)
+        return self.dc.ifreeicloud(resp)
         # if data["success"] == True and data["status"] == "Successful":
         #     return True, data["response"]
         # elif data["success"] == False:
@@ -380,7 +439,7 @@ class DealService(object):
             "https://imeicheck.info/user/api/getdata?IMEI={}&ACCESS_KEY=qpo9wb1a5g&SERVICE_ID=3"
             .format(self.imei))
 
-        return True, self.dc.imeicheck(resp)
+        return self.dc.imeicheck(resp)
 
     def guarantee_query(self):
         resp = self.requests.run(
@@ -407,7 +466,7 @@ class DealService(object):
             "https://api.ifreeicloud.co.uk/?key=TGR-GEB-PQ2-474-BXO-986-6V7-PSK&imei={}&service=0"
             .format(self.imei))
 
-        return True, self.dc.ifreeicloud(resp)
+        return self.dc.ifreeicloud(resp)
 
     def recharge(self):
         print("RECHARGE")

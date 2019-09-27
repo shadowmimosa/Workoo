@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     # 'sslserver',
     'query',
     'wechat',
+    'itechshark',
 ]
 
 MIDDLEWARE = [

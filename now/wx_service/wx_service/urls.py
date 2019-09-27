@@ -18,5 +18,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('wx/', include('wechat.urls', namespace='wechat')),
+    path('itechshark/', include('itechshark.urls', namespace='itechshark')),
     path('', include('query.urls', namespace='service'))
 ]
