@@ -38,9 +38,9 @@ class DealEastmoney(object):
         self.request = Query()
         self.soup = DealSoup().judge
         self.select_id_sql = "select `id` from `workoo`.`eastmoney_list` where `status` = 0 Limit 1;"
+        self.update_guba_status_sql = "UPDATE `workoo`.`eastmoney_list` SET `status` = {} WHERE `id` = {};"
         self.insert_comment_sql = "INSERT INTO `workoo`.`eastmoney_comment_{guba_id}`(`GubaId`, `ReadCount`, `CommentCount`, `Title`, `Author`, `PostTime`) VALUES ('{GubaId}', '{read_count}', '{comment_count}', '{title}', '{author}', '{post_time}');"
         self.judge_time_sql = "SELECT `Id` FROM `workoo`.`eastmoney_comment_{guba_id}` WHERE `PostTime` = '{post_time}' AND `Author` = '{author}' AND `Title` = '{title}' LIMIT 1;"
-        self.update_guba_id_sql = "UPDATE `workoo`.`eastmoney_list` SET `status` = 1 WHERE `id` = {};"
         self.init_sql()
 
     def init_sql(self):
@@ -93,6 +93,8 @@ class DealEastmoney(object):
         # c = "{0:06d}".format(a[0])
         if self.run_func(self.deal_sql, self.select_id_sql) != 0:
             self.guba_id = "{:0>6}".format(self.ecnu_cursor.fetchone()[0])
+            self.run_func(self.deal_sql,
+                          self.update_guba_status_sql.format(2, self.guba_id))
             return True
         else:
             logger.info("--->Info: all guba is done")
@@ -231,7 +233,7 @@ class DealEastmoney(object):
     def done_guba(self):
         logger.info("--->Info: guba {} is done".format(self.guba_id))
         self.run_func(self.deal_sql,
-                      self.update_guba_id_sql.format(self.guba_id))
+                      self.update_guba_status_sql.format(1, self.guba_id))
 
     def deal_page(self):
         page = 1
