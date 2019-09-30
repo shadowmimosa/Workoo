@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>云采链线上采购一体化平台</title>
+    <base href="http://www.choicelink.cn/">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="plugins/element-ui-2.9.1/index.css">
+    <link rel="stylesheet" href="css/top_bar.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/T_noticeChannel.css">
+    <link rel="stylesheet" href="component/LytineTimer01/style.css">
+    <link rel="stylesheet" href="css/sideService.css">
+</head>
+
+<body>
+    <!--hearder start-->
+    <div id="search-app" v-cloak>
+        <div class="top-bar-wrapper">
+            <div class="content-wrapper">
+                <div class="welcome-tips">
+                    <span>欢迎访问云采链采购一体化平台</span>
+                </div>
+                <div class="login-reg-content">
+                    <a href="http://ex.chinapsp.cn/PSPCL" target="_blank"><span>云采链旧版入口</span></a>
+                    <span class="line"></span>
+                    <el-popover placement="top" width="140" trigger="hover">
+                        <slot><img src="img/qrcode.jpg" style="height:140px;width:140px;" /></slot>
+                        <el-button slot="reference">微信在线客服</el-button>
+                    </el-popover>
+                    <span class="line"></span>
+                    <a href="/channels/3027.html"><span class="">帮助中心</span></a>
+                    <span class="line"></span>
+                    <a href="javascript:scrollToId('contact-us')"><span class="">联系我们</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="logo-search-wrapper">
+            <div class="content-wrapper">
+                <div class="logo"><a href=""><img src="img/logo.png" height="61" width="210" alt="" /></a></div>
+                <div class="top-search">
+                    <input type="text" v-model="keyword" @focus="searchFlag = true" @blur="searchFlag = false"
+                        placeholder='请输入项目名称...' class="input-search">
+                    <button type="submit" class="btn-search" @click="search()">搜索</button>
+                </div>
+            </div>
+        </div>
+        <div class="nav-bar-wrapper">
+            <div class="content-wrapper">
+                <ul class="nav-menu">
+                    <li><a href="/index.html"><span>首页</span></a></li>
+
+                    <li class="active">
+                        <a target="_blank" href="/channels/3014.html">
+                            <span>项目公告</span>
+                        </a>
+
+                    </li>
+
+                    <li>
+                        <a href="/channels/3015.html">
+                            <span>专属平台</span>
+                        </a>
+
+                    </li>
+
+                    <li>
+                        <a href="/channels/3016.html">
+                            <span>供应商展厅</span>
+                        </a>
+
+                    </li>
+
+                    <li>
+                        <a href="http://183.6.170.154:8089/Login/zcIndex?publicId=313">
+                            <span>采购微课堂</span>
+                        </a>
+
+                    </li>
+
+                    <li>
+                        <a href="http://183.6.170.154:8089/Login/zcIndex?publicId=313">
+                            <span>会员服务</span>
+                        </a>
+
+                    </li>
+
+                    <li>
+                        <a href="/channels/3020.html">
+                            <span>政策法规</span>
+                        </a>
+                        <div class="nav-dropdown dropdown2" style="overflow: hidden; height: 0;">
+                            <div class="container clearfix" style="text-align:center;display: none;">
+
+                                <a href="/channels/3020.html">
+                                    <span>国家政策法规</span>
+                                </a>
+
+                                <a href="/channels/3021.html">
+                                    <span>政府政策法规</span>
+                                </a>
+
+                                <a href="/channels/3022.html">
+                                    <span>军方政策法规</span>
+                                </a>
+
+                                <a href="/channels/3023.html">
+                                    <span>创新政策法规</span>
+                                </a>
+
+                                <a href="/channels/3024.html">
+                                    <span>地方政策法规</span>
+                                </a>
+
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="/channels/3025.html">
+                            <span>关于我们</span>
+                        </a>
+
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        const SITE_URL = ''
+    </script>
+    <!--hearder end-->
+
+    <!--content start-->
+    <div id="notice-channel-app" v-cloak>
+        <!--公告搜索区域  -->
+        <div class="notice-search-wrapper">
+            <div class="search-box content-wrapper">
+                <div class="notice-tab">
+                    <template>
+                        <el-tabs v-model="activeName" @tab-click="handleChangeMode">
+                            <el-tab-pane :disabled="loading" label="竞价公告" name="first"></el-tab-pane>
+                            <el-tab-pane :disabled="loading" label="调研公告" name="second"></el-tab-pane>
+                        </el-tabs>
+                    </template>
+                </div>
+                <div class="search-row">
+                    <div class="search-label">平台类型:</div>
+                    <ul>
+                        <li :class="platformType === 0 ? 'active' : ''" @click="setPlatformType(0)">全部</li>
+                        <li :class="platformType === 1 ? 'active' : ''" @click="setPlatformType(1)">综合平台</li>
+                        <li :class="platformType === 2 ? 'active-select' : ''" class="select-label">专属平台:</li>
+                        <div class="subsite-platform">
+                            <template>
+                                <!-- <el-select v-model="selectedPlatform"
+                                        @change="setPlatformType(2)"
+                                        clearable placeholder="请选择">
+                                 <el-option
+                                         v-for="item in platforms"
+                                         :key="item.publicId"
+                                         :label="item.name"
+                                         :value="item.publicId">
+                                 </el-option>
+                             </el-select>-->
+                                <el-cascader v-model="selectedPlatform" :options="platformsForSelector"
+                                    :props="{ expandTrigger: 'hover' }" filterable clearable :disabled="loading"
+                                    :show-all-levels="false" @change="handleSelectPlatform">
+                                </el-cascader>
+                            </template>
+                        </div>
+                    </ul>
+                </div>
+                <div class="search-row">
+                    <div class="search-label">信息类型:</div>
+                    <ul>
+                        <li :class="infoType === 0 ? 'active' : ''" @click="setInfoType(0)">全部</li>
+                        <li :class="infoType === 1 ? 'active' : ''" @click="setInfoType(1)">即将报名
+                        </li>
+                        <li :class="infoType === 2 ? 'active' : ''" @click="setInfoType(2)">正在报名
+                        </li>
+                        <li v-show="mode === 0" :class="infoType === 3 ? 'active' : ''" @click="setInfoType(3)">即将报价
+                        </li>
+                        <li v-show="mode === 0" :class="infoType === 4 ? 'active' : ''" @click="setInfoType(4)">正在报价
+                        </li>
+                        <li v-show="mode === 0" :class="infoType === 5 ? 'active' : ''" @click="setInfoType(5)">报价结束
+                        </li>
+                        <li v-show="mode === 1" :class="infoType === 6 ? 'active' : ''" @click="setInfoType(6)">报名结束
+                        </li>
+                        <li :class="infoType === 7 ? 'active' : ''" @click="setInfoType(7)">结果公告
+                        </li>
+                        <li :class="infoType === 8 ? 'active' : ''" @click="setInfoType(8)">更正公告
+                        </li>
+                        <li :class="infoType === 9 ? 'active' : ''" @click="setInfoType(9)">终止公告
+                        </li>
+                    </ul>
+                </div>
+                <div class="search-row">
+                    <div class="search-label">发布时间:</div>
+                    <ul>
+                        <li :class="timeLimit === 0 ? 'active' : ''" @click="setTimeLimit(0)">全部
+                        </li>
+                        <li :class="timeLimit === 1 ? 'active' : ''" @click="setTimeLimit(1)">今天
+                        </li>
+                        <li :class="timeLimit === 2 ? 'active' : ''" @click="setTimeLimit(2)">近三天
+                        </li>
+                        <li :class="timeLimit === 3 ? 'active' : ''" @click="setTimeLimit(3)">近一周
+                        </li>
+                        <li :class="timeLimit === 4 ? 'active' : ''" @click="setTimeLimit(4)">近一月
+                        </li>
+                        <li :class="timeLimit === 5 ? 'active' : ''" @click="setTimeLimit(5)">近一年
+                        </li>
+                        <li :class="timeLimit === 6 ? 'active-select' : ''" class="select-label">自定义:
+                        </li>
+                        <div class="set-time">
+                            <template>
+                                <div>
+                                    <el-date-picker v-model="queryParams.period" @change="setTimeLimit(6)"
+                                        type="daterange" range-separator="至" start-placeholder="开始日期"
+                                        end-placeholder="结束日期">
+                                    </el-date-picker>
+                                </div>
+                            </template>
+                        </div>
+                        <button @click="search()"><img src="../img/search.png" height="18" width="18" /></button>
+                    </ul>
+                </div>
+                <div class="search-row">
+                    <div class="search-label">项目名称:</div>
+                    <div class="search-input">
+                        <input v-model="queryParams.projectName" type="text">
+                        <button @click="search()"><img src="../img/search.png" height="18" width="18" /></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--公告列表区域-->
+        <div id="bids" class="noticelist-wrapper content-wrapper">
+            <div class="noticelist-title">
+                <ul>
+                    <li>项目名称</li>
+                    <li>采购单位</li>
+                    <li>{{timeText}}</li>
+                    <li>发布公告时间</li>
+                </ul>
+            </div>
+            <!--搜索中 遮罩层-->
+            <div class="load-wrapper" v-loading="loading" v-if="loading">
+                <div class="loading-mask">
+                </div>
+            </div>
+            <div v-if="!bidsPage.total && !loading" class="no-data">
+                <img src="../img/no-data.png" height="200" width="330" /><br>
+                暂无数据
+            </div>
+            <div class="noticelist-content" v-for="(item,index) in bidsPage.rows">
+                <div v-if="mode === 0">
+                    <!--竞价公告 报名开始-->
+                    <div class="notice-item" v-if="getStatus(item) === 0 && item.NoticeType === '0'"
+                        @click="goNoticePage(item.PublicId, item.Id)">
+                        <div class="project-name-wrapper" :title="item.Title">
+                            <span class="time-tips tips-green">即将报名</span>
+                            <span class="project-name">{{item.Title}}</span>
+                        </div>
+                        <div class="purchasing-unit">
+                            <span>{{item.Purchase_Name}}</span>
+                        </div>
+                        <div class="countdown">
+                            <lytine-timer01 :time-start="getPeriod(item).start" :time-end="getPeriod(item).end">
+                            </lytine-timer01>
+                        </div>
+                        <div class="operation">
+                            <span>{{item.NoticeDate | formatTime}}</span>
+                        </div>
+                    </div>
+                    <!--竞价公告 报名进行-->
+                    <div class="notice-item" v-if="getStatus(item) === 1 && item.NoticeType === '0'"
+                        @click="goNoticePage(item.PublicId, item.Id)">
+                        <div class="project-name-wrapper">
+                            <span class="time-tips tips-orange">正在报名</span>
+                            <span>{{item.Title}}</span>
+                        </div>
+                        <div class="purchasing-unit">
+                            <span>{{item.Purchase_Name}}</span>
+                        </div>
+                        <div class="countdown">
+                            <lytine-timer01 :time-start="getPeriod(item).start" :time-end="getPeriod(item).end">
+                            </lytine-timer01>
+                        </div>
+                        <div class="operation">
+                            <span>{{item.NoticeDate | formatTime}}</span>
+                        </div>
+                    </div>
+                    <!--竞价公告 竞价开始-->
+                    <div class="notice-item" v-if="getStatus(item) === 2 && item.NoticeType === '0'"
+                        @click="goNoticePage(item.PublicId, item.Id)">
+                        <div class="project-name-wrapper" :title="item.Title">
+                            <span class="time-tips tips-green">即将报价</span>
+                            <span class="project-name">{{item.Title}}</span>
+                        </div>
+                        <div class="purchasing-unit">
+                            <span>{{item.Purchase_Name}}</span>
+                        </div>
+                        <div class="countdown">
+                            <lytine-timer01 :time-start="getPeriod(item).start" :time-end="getPeriod(item).end">
+                            </lytine-timer01>
+                        </div>
+                        <div class="operation">
+                            <span>{{item.NoticeDate | formatTime}}</span>
+                        </div>
+                    </div>
+                    <!--竞价公告 竞价进行-->
+                    <div class="notice-item" v-if="getStatus(item) === 3 && item.NoticeType === '0'"
+                        @click="goNoticePage(item.PublicId, item.Id)">
+                        <div class="project-name-wrapper">
+                            <span class="time-tips tips-orange">正在报价</span>
+                            <span>{{item.Title}}</span>
+                        </div>
+                        <div class="purchasing-unit">
+                            <span>{{item.Purchase_Name}}</span>
+                        </div>
+                        <div class="countdown">
+                            <lytine-timer01 :time-start="getPeriod(item).start" :time-end="getPeriod(item).end">
+                            </lytine-timer01>
+                        </div>
+                        <div class="operation">
+                            <span>{{item.NoticeDate | formatTime}}</span>
+                        </div>
+                    </div>
+                    <!--竞价公告 竞价结束-->
+                    <div class="notice-item" v-if="getStatus(item) === 4 && item.NoticeType === '0'"
+                        @click="goNoticePage(item.PublicId, item.Id)">
+                        <div class="project-name-wrapper">
+                            <span class="time-tips tips-grey">竞价公告</span>
+                            <span>{{item.Title}}</span>
+                        </div>
+                        <div class="purchasing-unit">
+                            <span>{{item.Purchase_Name}}</span>
+                        </div>
+                        <div class="publish-time">
+                            <!--<span>{{item.UppriceToTime |formatTime}}</span>-->
+                        </div>
+                        <div class="operation">
+                            <span>{{item.NoticeDate | formatTime}}</span>
+                        </div>
+                    </div>
+                    <!--竞价——结果公告 更正公告 废标公告-->
+                    <div class="notice-item"
+                        v-if="(item.NoticeType === '1' || item.NoticeType === '5' || item.NoticeType === '6')"
+                        @click="goNoticePage(item.PublicId, item.Id)">
+                        <div v-if="item.NoticeType === '1'" class="project-name-wrapper">
+                            <span class="time-tips tips-grey">更正公告</span>
+                            <span>{{item.Title}}</span>
+                        </div>
+                        <div v-else-if="item.NoticeType === '5'" class="project-name-wrapper">
+                            <span class="time-tips tips-grey">结果公告</span>
+                            <span>{{item.Title}}</span>
+                        </div>
+                        <div v-else-if="item.NoticeType === '6'" class="project-name-wrapper">
+                            <span class="time-tips tips-grey">废标公告</span>
+                            <span>{{item.Title}}</span>
+                        </div>
+                        <div class="purchasing-unit">
+                            <span>{{item.Purchase_Name}}</span>
+                        </div>
+                        <div class="publish-time">
+                            <!--<span> {{item.UppriceToTime | formatTime}}</span>-->
+                        </div>
+                        <div class="operation">
+                            <span>{{item.NoticeDate | formatTime}}</span>
+                        </div>
+                    </div>
+                </div>
+                <div v-else-if="mode === 1">
+                    <!--调研公告 报名开始-->
+                    <div class="notice-item" v-if="getStatus(item) === 0 && item.NoticeType === '7'"
+                        @click="goNoticePage(item.PublicId, item.Id)">
+                        <div class="project-name-wrapper" :title="item.Title">
+                            <span class="time-tips tips-green">即将报名</span>
+                            <span class="project-name">{{item.Title}}</span>
+                        </div>
+                        <div class="purchasing-unit">
+                            <span>{{item.Purchase_Name}}</span>
+                        </div>
+                        <div class="countdown">
+                            <lytine-timer01 :time-start="getPeriod(item).start" :time-end="getPeriod(item).end">
+                            </lytine-timer01>
+                        </div>
+                        <div class="operation">
+                            <span>{{item.NoticeDate | formatTime}}</span>
+                        </div>
+                    </div>
+                    <!--调研公告 报名进行-->
+                    <div class="notice-item" v-if="getStatus(item) === 1 && item.NoticeType === '7'"
+                        @click="goNoticePage(item.PublicId, item.Id)">
+                        <div class="project-name-wrapper">
+                            <span class="time-tips tips-orange">正在报名</span>
+                            <span>{{item.Title}}</span>
+                        </div>
+                        <div class="purchasing-unit">
+                            <span>{{item.Purchase_Name}}</span>
+                        </div>
+                        <div class="countdown">
+                            <lytine-timer01 :time-start="getPeriod(item).start" :time-end="getPeriod(item).end">
+                            </lytine-timer01>
+                        </div>
+                        <div class="operation">
+                            <span>{{item.NoticeDate | formatTime}}</span>
+                        </div>
+                    </div>
+                    <!--调研公告 调研结束-->
+                    <div class="notice-item" v-if="getStatus(item) === 4 && item.NoticeType === '7'"
+                        @click="goNoticePage(item.PublicId, item.Id)">
+                        <div class="project-name-wrapper">
+                            <span class="time-tips tips-grey">报名结束</span>
+                            <span>{{item.Title}}</span>
+                        </div>
+                        <div class="purchasing-unit">
+                            <span>{{item.Purchase_Name}}</span>
+                        </div>
+                        <div class="publish-time">
+                            <!--<span>{{item.ApplyToTime |formatTime}}</span>-->
+                        </div>
+                        <div class="operation">
+                            <span>{{item.NoticeDate | formatTime}}</span>
+                        </div>
+                    </div>
+                    <!--调研——结果公告 更正公告 废标公告-->
+                    <div class="notice-item"
+                        v-if="item.NoticeType === '1' || item.NoticeType === '3' || item.NoticeType === '8'"
+                        @click="goNoticePage(item.PublicId, item.Id)">
+                        <div v-if="item.NoticeType === '1'" class="project-name-wrapper">
+                            <span class="time-tips tips-grey">更正公告</span>
+                            <span>{{item.Title}}</span>
+                        </div>
+                        <div v-if="item.NoticeType === '3'" class="project-name-wrapper">
+                            <span class="time-tips tips-grey">废标公告</span>
+                            <span>{{item.Title}}</span>
+                        </div>
+                        <div v-if="item.NoticeType === '8'" class="project-name-wrapper">
+                            <span class="time-tips tips-grey">结果公告</span>
+                            <span>{{item.Title}}</span>
+                        </div>
+                        <div class="purchasing-unit">
+                            <span>{{item.Purchase_Name}}</span>
+                        </div>
+                        <div class="publish-time">
+                            <!--<span> {{item.UppriceToTime | formatTime}}</span>-->
+                        </div>
+                        <div class="operation">
+                            <span>{{item.NoticeDate | formatTime}}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--分页条 start-->
+            <div class="page-bar-wrap clearfix" v-if="bidsPage.total">
+                <el-pagination style="display: inline-block;float: right" background :total="bidsPage.total"
+                    :page-size="queryParams.rows" :current-page="queryParams.page" @current-change="goPage($event)"
+                    layout="prev, pager, next, jumper">
+                </el-pagination>
+            </div>
+            <!--分页条 end-->
+        </div>
+    </div>
+    <!--content end-->
+
+    <!--sideService start-->
+    <div class="sideService">
+        <i class="sideService-close" style="display:none">
+            <img src="/img/service/sideService-close.png" />
+        </i>
+        <ul class="clearfix">
+            <li class="siderService-qq">
+                <a href="javascript:void(0)">
+                    <span><img src="/img/service/siderService-qq.png" /></span>
+                    <p>客服</p>
+                </a>
+            </li>
+
+            <li class="siderService-email" style="display:none;margin-top: 20px;">
+                <span><img src="/img/service/siderService-email.png" /></span>
+                <p>邮箱</p>
+                <div class="box">
+                    <i></i>
+                    <div class="con">
+                        <dl class="clearfix">
+                            <dt>
+                                <img src="/img/service/siderService-email.png" /></dt>
+                            <dd>
+                                <p>联系邮箱</p>
+                                <em>service@choicelink.cn</em>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </li>
+
+            <li class="siderService-wx" style="display:none">
+                <span>
+                    <img src="/img/service/siderService-wx.png" />
+                </span>
+                <p>微信</p>
+                <div class="box">
+                    <i></i>
+                    <div class="con clearfix">
+
+                        <dl class="clearfix">
+                            <dt>
+                                <img src="/img/qrcode.jpg" style="height: 130px;width: 130px;" />
+                                <p>微信公众号在线客服</p>
+                            </dt>
+                        </dl>
+
+                    </div>
+                </div>
+            </li>
+
+            <li class="siderService-backtop" id="siderService-backtop" style="margin-top:10px">
+                <span>
+                    <img src="/img/service/siderService-backtop.png" />
+                </span>
+                <p>回顶</p>
+            </li>
+        </ul>
+    </div>
+
+    <!--sideService end-->
+
+    <!--footer start-->
+    <div class="footer-wrapper" id="contact-us">
+        <div class="always-use-warpper">
+            <div class="content-wrapper">
+                <div class="flex-container">
+                    <div class="flex-item">
+                        <h1>关于我们</h1>
+                        <ul class="column">
+                            <li><a href="http://www.choicelink.cn/channels/3025.html#company-introduce">公司介绍</a></li>
+                            <li><a href="http://www.choicelink.cn/channels/3025.html#history">发展历程</a></li>
+                            <li><a href="javascript:">联系我们</a></li>
+                            <li><a href="http://183.6.170.154:8089/Login/zcIndex?publicId=197" target="_blank">试用平台</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="flex-item">
+                        <h1>帮助中心</h1>
+                        <ul class="column">
+
+                            <li>
+                                <a href="/channels/3027.html">
+                                    常见问题
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="/channels/3028.html">
+                                    采购人使用指南
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="/channels/3029.html">
+                                    供应商使用指南
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="/channels/3030.html">
+                                    专家使用指南
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="/channels/3060.html">
+                                    质疑指南
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="flex-item">
+                        <h1>友情链接</h1>
+                        <ul class="column">
+                            <li><a href="http://www.chinapsp.cn/">采联采购</a></li>
+                        </ul>
+                    </div>
+                    <div class="flex-item">
+                        <h1>联系我们</h1>
+                        <ul class="column">
+                            <li><a href="javascript:">邮箱：service@choicelink.cn</a></li>
+                            <li><a href="javascript:">地址：广州市越秀区环市东路472号粤海大厦5楼</a></li>
+                            <li><a href="javascript:">邮编：510075</a></li>
+                        </ul>
+                    </div>
+                    <div class="flex-item">
+                        <div class="qrcode">
+                            <img src="/upload/images/2019/6/5e3ee02a7089da4.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-wrapper">
+            <div class="copyright-wrapper">
+                <div class="content-wrapper">
+                    <div class="footer-logo">
+                        <img src="/upload/images/2019/6/d80813602f8ab915.png" height="52" width="180" />
+                    </div>
+                    <div class="copyright-info">
+                        <span>版权所有：广州智采信息科技有限公司&nbsp;&nbsp;&nbsp;&nbsp;技术支持：广州智采信息科技有限公司</span>
+                        <span>Copyright © 2016 . All Rights Reserved </span><a
+                            href="http://www.beian.miit.gov.cn">粤ICP备17133418号-1</a><br>
+                        <span>所有内容未经授权,不得转载或做其他使用,违者必究</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer end-->
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="plugins/moment.min.js"></script>
+    <script src="js/lib/axios.js"></script>
+    <script src="js/lib/vue.js"></script>
+    <script src="plugins/element-ui-2.9.1/index.js"></script>
+    <script src="js/commons.js"></script>
+    <script src="js/Lytine_nav.js"></script>
+    <script src="plugins/swiper/swiper.min.js"></script>
+    <script src="plugins/num-add/jquery.num.js"></script>
+    <script src="js/lib/jquery.mousewheel.min.js"></script>
+    <script src="js/lib/jquery.parallaxmouse.min.js"></script>
+    <script src="js/Lytine_noticeChannel.js"></script>
+    <script src="component/LytineTimer01/index.js"></script>
+    <script src="js/sideService.js"></script>
+</body>
+
+</html>
+
+# 竞价公告
+    # 即将报名
+    # 正在报名
+    # 即将报价
+    # 正在报价
+    # 竞价公告
+
+    # 更正公告
+    # 结果公告
+    # 废标公告
