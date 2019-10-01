@@ -42,6 +42,7 @@ class DealEastmoney(object):
         self.insert_comment_sql = "INSERT INTO `workoo`.`eastmoney_comment_{guba_id}`(`GubaId`, `ReadCount`, `CommentCount`, `Title`, `Author`, `PostTime`) VALUES ('{GubaId}', '{read_count}', '{comment_count}', '{title}', '{author}', '{post_time}');"
         self.judge_time_sql = "SELECT `Id` FROM `workoo`.`eastmoney_comment_{guba_id}` WHERE `PostTime` = '{post_time}' AND `Author` = '{author}' AND `Title` = '{title}' LIMIT 1;"
         self.init_sql()
+        self.comment_list = []
 
     def init_sql(self):
         from config import DATABASES
@@ -60,7 +61,9 @@ class DealEastmoney(object):
             self.ecnu_cursor = ecnu_mysql.cursor()
 
     def judge_already(self):
-        a = self.judge_time_sql.format(**self.comment)
+        # Not to judge because of sql IO
+        return True
+
         if self.run_func(self.deal_sql,
                          self.judge_time_sql.format(**self.comment)) == 0:
             return True
@@ -176,6 +179,21 @@ class DealEastmoney(object):
         else:
             logger.info("--->Info: existed already")
 
+        # if self.run_func(self.judge_already):
+        #     if len(self.comment_list) < 10:
+        #         self.comment_list.append(tuple(self.comment))
+        #     else:
+        #         if self.run_func(self.deal_sql,
+        #                        self.insert_comment_sql.format(
+        #                            **self.comment)) is not None:
+        #             # logger.info("--->Info: insert successful")
+        #             pass
+        #         else:
+        #             logger.error("--->Error: insert failed")
+
+        # else:
+        #     logger.info("--->Info: existed already")
+
     def clean_comment(self, *args):
         self.comment["read_count"] = self.run_func(
             self.deal_count, self.comment.get("read_count"))
@@ -266,6 +284,8 @@ class DealEastmoney(object):
                     type(func), func))
 
     def main(self):
+        sql = "INSERT INTO `workoo`.`eastmoney_comment_0`(`GubaId`, `ReadCount`, `CommentCount`, `Title`, `Author`, `PostTime`) VALUES (%s, 4214, 6, '小湖2日内将有暴涨行情111', '佛光照我心111', '2018-07-31 13:42:00');"
+        self.ecnu_cursor.executemany(sql, ('000665', '000665'))
         while True:
             if self.run_func(self.get_id):
                 self.year = 2019
