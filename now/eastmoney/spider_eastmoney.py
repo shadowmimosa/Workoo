@@ -61,7 +61,7 @@ class DealEastmoney(object):
             self.ecnu_cursor = ecnu_mysql.cursor()
 
     def judge_already(self):
-        # Not to judge because of sql IO
+        # Don't to judge because of sql IO
         return True
 
         if self.run_func(self.deal_sql,
@@ -229,12 +229,17 @@ class DealEastmoney(object):
         self.run_func(self.insert_comment)
 
     def deal_detail(self, path):
-        resp = self.deal_resp(path, self.header)
-        # resp = self.deal_resp(
-        #     "http://guba.eastmoney.com/list,000012,f_15.html", self.header)
+        # resp = self.deal_resp(path, self.header)
+        resp = self.deal_resp(
+            "http://guba.eastmoney.com/list,002933,f_225.html", self.header)
 
         comment_divs = self.deal_soup(
             resp, attr={"class": "articleh"}, all_tag=True)
+
+        if len(comment_divs) == 0:
+            self.year = 2018
+            self.last_month = 7
+            return 
 
         for comment_div in comment_divs:
             comment_em = self.deal_soup(comment_div, "em")
