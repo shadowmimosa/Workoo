@@ -229,9 +229,9 @@ class DealEastmoney(object):
         self.run_func(self.insert_comment)
 
     def deal_detail(self, path):
-        # resp = self.deal_resp(path, self.header)
-        resp = self.deal_resp(
-            "http://guba.eastmoney.com/list,002933,f_225.html", self.header)
+        resp = self.deal_resp(path, self.header)
+        # resp = self.deal_resp(
+        #     "http://guba.eastmoney.com/list,002933,f_225.html", self.header)
 
         comment_divs = self.deal_soup(
             resp, attr={"class": "articleh"}, all_tag=True)
