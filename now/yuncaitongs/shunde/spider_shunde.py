@@ -90,7 +90,7 @@ class DealShunde(object):
                 elif "品目类型：" in text:
                     info["品目类型"] = text.split(("："))[-1]
                 elif "金额上限：" in text:
-                    info["金额上限"] = text.split(("："))[-1]
+                    info["金额上限"] = text.split(("："))[-1].replace("元", "")
 
         return info
 
@@ -108,12 +108,14 @@ class DealShunde(object):
                     if self.bid_type is "Notice":
                         info.append({
                             "参数": "",
-                            "单位": temp_good[1],
+                            "单位": "",
                             "招标编号": item_code,
                             "序号": index,
-                            "产品名称": temp_good[0],
+                            "产品名称": temp_good[1],
                             "产品类别": "",
-                            "品牌": temp_good[2],
+                            "产品单价": temp_good[4],
+                            "合计": temp_good[5],
+                            "品牌": "",
                             "数量": temp_good[3],
                             "标配": "",
                             "型号": temp_good[2],
@@ -124,13 +126,13 @@ class DealShunde(object):
                     elif self.bid_type is "Success":
                         info.append({
                             "规格配置": "",
-                            "中标供应商": temp_good[4],
-                            "设备名称": temp_good[0],
+                            "中标供应商": temp_good[6],
+                            "设备名称": temp_good[1],
                             "品牌": "",
                             "售后服务": "",
-                            "中标单价": temp_good[3],
+                            "中标总价": temp_good[5],
                             "型号": "",
-                            "数量": temp_good[2],
+                            "数量": temp_good[3],
                         })
                     index += 1
 
@@ -192,8 +194,7 @@ class DealShunde(object):
         # }
         tr_json = json.dumps(
             self.ergodic_tr(t1_obj, item_code), ensure_ascii=False)
-        run_func(self.ecnu_cursor.execute,
-                    self.insert_tb_bid.format(**info))
+        run_func(self.ecnu_cursor.execute, self.insert_tb_bid.format(**info))
 
         run_func(
             self.ecnu_cursor.execute,
@@ -227,7 +228,7 @@ class DealShunde(object):
             "成交公告时间":
             re.search(
                 r"([0-9]{3}[1-9]|[0-9]{2}[1-9][0-9]{1}|[0-9]{1}[1-9][0-9]{2}|[1-9][0-9]{3})-.*-.* .*:.*:.*",
-                resp).group(),
+                resp).group().replace("\r", ""),
             "中标公司":
             json.dumps(temp_tr_json, ensure_ascii=False),
             "path":
@@ -244,7 +245,7 @@ class DealShunde(object):
                 "规格配置": "",
                 "详情url": self.path,
                 "平台名称": "顺德电子化采购平台",
-                "单价": temp_["中标单价"],
+                "总价": temp_["中标总价"],
                 "中标供应商": temp_["中标供应商"],
                 "设备名称": temp_["设备名称"],
                 "创建时间": self.get_time(),
@@ -254,7 +255,7 @@ class DealShunde(object):
             })
 
         run_func(self.ecnu_cursor.execute,
-                    self.insert_bid_result.format(**info))
+                 self.insert_bid_result.format(**info))
 
         run_func(
             self.ecnu_cursor.execute,
@@ -290,3 +291,75 @@ class DealShunde(object):
 if __name__ == "__main__":
     os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     DealShunde().run()
+    [{
+        "规格配置": "",
+        "中标供应商": "佛山市顺德区大良得之鸿电子设备经营部",
+        "设备名称": "60寸电视",
+        "品牌": "",
+        "售后服务": "",
+        "中标总价": "4099.0",
+        "型号": "",
+        "数量": "1.0"
+    }]
+    [{
+        "规格配置": "",
+        "中标供应商": "顺德区龙江镇吉木办公设备商行",
+        "设备名称": "爱宝（Aibao）TD-6900二维码扫描枪",
+        "品牌": "",
+        "售后服务": "",
+        "中标总价": "1920.0",
+        "型号": "",
+        "数量": "6.0"
+    },
+     {
+         "规格配置": "",
+         "中标供应商": "顺德区龙江镇吉木办公设备商行",
+         "设备名称": "飞利浦（PHILIPS）VTR5210 16G 录音笔",
+         "品牌": "",
+         "售后服务": "",
+         "中标总价": "940.0",
+         "型号": "",
+         "数量": "2.0"
+     },
+     {
+         "规格配置": "",
+         "中标供应商": "顺德区龙江镇吉木办公设备商行",
+         "设备名称": "东美（Dongmei）望远镜式测距仪",
+         "品牌": "",
+         "售后服务": "",
+         "中标总价": "440.0",
+         "型号": "",
+         "数量": "1.0"
+     },
+     {
+         "规格配置": "",
+         "中标供应商": "顺德区龙江镇吉木办公设备商行",
+         "设备名称": "小米排插",
+         "品牌": "",
+         "售后服务": "",
+         "中标总价": "940.0",
+         "型号": "",
+         "数量": "20.0"
+     },
+     {
+         "规格配置": "",
+         "中标供应商": "顺德区龙江镇吉木办公设备商行",
+         "设备名称": "飞利浦（PHILIPS）电话机座机 CORD042 ",
+         "品牌": "",
+         "售后服务": "",
+         "中标总价": "1050.0",
+         "型号": "",
+         "数量": "15.0"
+     }]
+    [{
+        "规格配置": "",
+        "中标供应商": "佛山市顺德区乐从镇跃进路昆隆日用杂品店",
+        "设备名称": "容声172升双门冰箱 BCD-172D11D",
+        "品牌": "",
+        "售后服务": "",
+        "中标总价": "1083.0",
+        "型号": "",
+        "数量": "1.0"
+    }]
+
+    
