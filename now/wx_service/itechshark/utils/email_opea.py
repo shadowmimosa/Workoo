@@ -77,7 +77,7 @@ class ReadEmail(object):
 
         while index == 0:
             print("--->Info: Reloading emails...")
-            time.sleep(1)
+            time.sleep(0.25)
             self.init_pop_server()
             resp, mails, octets = self.popServer.list()
             index = len(mails)

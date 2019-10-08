@@ -77,7 +77,7 @@ class CheckImei(object):
         return iemi_status
 
     def deal_html(self):
-        time.sleep(2)
+        # time.sleep(2)
         # a = time.time()
         # print("333")
 
