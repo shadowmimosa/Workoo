@@ -274,9 +274,9 @@ class DealShunde(object):
             else:
                 logger.info("--->Info: existed already")
 
-    def run(self, page):
+    def run(self):
         for self.bid_type in ["Notice", "Success"]:
-            for page in range(0, page):
+            for page in range(0, 5000):
                 run_func(
                     self.main,
                     self.page_path.format(
@@ -290,6 +290,6 @@ class DealShunde(object):
 
 if __name__ == "__main__":
     os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    DealShunde().run(5000)
+    DealShunde().run()
 
     
