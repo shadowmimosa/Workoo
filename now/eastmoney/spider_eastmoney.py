@@ -239,7 +239,7 @@ class DealEastmoney(object):
         if len(comment_divs) == 0:
             self.year = 2018
             self.last_month = 7
-            return 
+            return
 
         for comment_div in comment_divs:
             comment_em = self.deal_soup(comment_div, "em")
