@@ -8,7 +8,7 @@ from config import DEBUG, logger
 class DataClean(object):
     def __init__(self):
         self.init_sql()
-        self.info = pandas.DataFrame(columns=["股吧", "日期", "发帖量"])
+        self.info = pandas.DataFrame(columns=["Id", "股吧", "日期", "发帖量"])
 
     def init_sql(self):
         from config import DATABASES
@@ -56,6 +56,7 @@ class DataClean(object):
                                       self.date))
                 count = self.ecnu_cursor.fetchone()[0]
                 self.info = self.info.append({
+                    "Id": "{:0>6}".format(self.guba),
                     "股吧": self.guba_name,
                     "日期": self.last_date,
                     "发帖量": count
