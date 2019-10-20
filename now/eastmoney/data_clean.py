@@ -80,8 +80,8 @@ class DataClean(object):
             else:
                 self.get_count()
                 logger.info("Info: the {} is done".format(self.guba))
-                
-        self.info.to_excel("./data_.xlsx", index=False)
+
+        self.info.to_excel("./data_count.xlsx", index=False)
 
 
 if __name__ == "__main__":
