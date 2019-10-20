@@ -79,7 +79,9 @@ class DataClean(object):
                 break
             else:
                 self.get_count()
-                self.info.to_excel("./data_.xlsx", index=False)
+                logger.info("Info: the {} is done".format(self.guba))
+                
+        self.info.to_excel("./data_.xlsx", index=False)
 
 
 if __name__ == "__main__":
