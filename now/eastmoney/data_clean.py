@@ -8,7 +8,7 @@ from config import DEBUG, logger
 class DataClean(object):
     def __init__(self):
         self.init_sql()
-        self.info = pandas.DataFrame(columns=["Id", "股吧", "日期", "发帖量"])
+        # self.info = pandas.DataFrame(columns=["Id", "股吧", "日期", "发帖量"])
 
     def init_sql(self):
         from config import DATABASES
@@ -55,13 +55,19 @@ class DataClean(object):
                     select_sql.format(self.guba % 5, self.guba, self.last_date,
                                       self.date))
                 count = self.ecnu_cursor.fetchone()[0]
-                self.info = self.info.append({
-                    "Id": "{:0>6}".format(self.guba),
-                    "股吧": self.guba_name,
-                    "日期": self.last_date,
-                    "发帖量": count
-                },
-                                             ignore_index=True)
+
+                insert_sql = "INSERT INTO `workoo`.`eastmoney_count`(`GubaId`, `name`, `date`, `count`) VALUES ({}, {}, {}, {});"
+                self.ecnu_cursor.execute(
+                    select_sql.format(self.guba, self.guba_name,
+                                      self.last_date, count))
+                                      
+                # self.info = self.info.append({
+                #     "Id": "{:0>6}".format(self.guba),
+                #     "股吧": self.guba_name,
+                #     "日期": self.last_date,
+                #     "发帖量": count
+                # },
+                #                              ignore_index=True)
             else:
                 break
 
@@ -80,9 +86,8 @@ class DataClean(object):
             else:
                 self.get_count()
                 logger.info("Info: the {} is done".format(self.guba))
-                break
 
-        self.info.to_excel("./data_count_0.xlsx", index=False)
+        # self.info.to_excel("./data_count_0.xlsx", index=False)
         logger.info("success")
 
 
