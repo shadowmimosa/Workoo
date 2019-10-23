@@ -50,7 +50,9 @@ class DataClean(object):
         while True:
             if self.get_date() is True:
                 select_sql = "SELECT COUNT( `Id` ) FROM `workoo`.`eastmoney_comment_{}` WHERE `GubaId` = '{}' AND `PostTime` < '{} 00:00:00' AND `PostTime` > '{} 00:00:00';"
-
+                logger.info(
+                    select_sql.format(self.guba % 5, self.guba, self.last_date,
+                                      self.date))
                 self.ecnu_cursor.execute(
                     select_sql.format(self.guba % 5, self.guba, self.last_date,
                                       self.date))
@@ -60,7 +62,7 @@ class DataClean(object):
                 self.ecnu_cursor.execute(
                     select_sql.format(self.guba, self.guba_name,
                                       self.last_date, count))
-                                      
+
                 # self.info = self.info.append({
                 #     "Id": "{:0>6}".format(self.guba),
                 #     "股吧": self.guba_name,
