@@ -55,11 +55,11 @@ class DataClean(object):
                                       self.date))
                 count = self.ecnu_cursor.fetchone()[0]
 
-                insert_sql = "INSERT INTO `workoo`.`eastmoney_count`(`GubaId`, `name`, `date`, `count`) VALUES ({}, '{}', {}, {});"
+                insert_sql = "INSERT INTO `workoo`.`eastmoney_count`(`GubaId`, `name`, `date`, `count`) VALUES ('{}', '{}', '{}', {});"
                 sql = insert_sql.format(self.guba, self.guba_name,
                                       self.last_date, count)
                 self.ecnu_cursor.execute(
-                    insert_sql.format(self.guba, self.guba_name,
+                    insert_sql.format("{:0>6}".format(self.guba), self.guba_name,
                                       self.last_date, count))
 
                 # self.info = self.info.append({
