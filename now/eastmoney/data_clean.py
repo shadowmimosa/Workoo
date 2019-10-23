@@ -49,7 +49,7 @@ class DataClean(object):
     def get_count(self):
         while True:
             if self.get_date() is True:
-                select_sql = "SELECT COUNT( `Id` ) FROM `workoo`.`eastmoney_comment_{}` WHERE `GubaId` = '{}' AND `PostTime` < '{} 00:00:00' AND `PostTime` > '{} 00:00:00';"
+                select_sql = "SELECT COUNT( `Id` ) FROM `workoo`.`eastmoney_comment_{}` WHERE `GubaId` = '{}' AND `PostTime` < '{} 15:00:00' AND `PostTime` > '{} 15:00:00';"
                 self.ecnu_cursor.execute(
                     select_sql.format(self.guba % 5, self.guba, self.last_date,
                                       self.date))
