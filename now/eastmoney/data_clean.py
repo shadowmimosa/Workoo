@@ -80,6 +80,7 @@ class DataClean(object):
             else:
                 self.get_count()
                 logger.info("Info: the {} is done".format(self.guba))
+                break
 
         self.info.to_excel("./data_count_0.xlsx", index=False)
         logger.info("success")
