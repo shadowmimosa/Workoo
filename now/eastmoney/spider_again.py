@@ -174,8 +174,13 @@ class DealEastmoney(object):
 
         return self.clean_comment(comment)
 
-    def get_post_time(self, href):
-        path = "http://guba.eastmoney.com{}".format(href)
+    def get_post_time(self, href: str):
+        
+        if "//" in href:
+            path = href.replace("//", "")
+        else:
+            path = "http://guba.eastmoney.com{}".format(href)
+
         resp = self.deal_resp(path, self.header)
         div = self.deal_soup(resp, attr={"class": "zwfbtime"})
 
