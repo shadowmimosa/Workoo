@@ -71,6 +71,8 @@ class DataClean(object):
                 #                              ignore_index=True)
             else:
                 break
+    def statistics_count(self):
+        select_sql = ""
 
     def main(self):
         yield_guba = self.get_guba()

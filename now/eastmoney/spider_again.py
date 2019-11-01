@@ -1,9 +1,13 @@
 import os
 import time
+import json
 import random
 import pymysql
 import traceback
 
+from urllib import parse
+from datetime import datetime
+from pymongo import MongoClient
 from types import MethodType, FunctionType
 
 from config import DEBUG, logger
@@ -32,7 +36,7 @@ class DealEastmoney(object):
             "Accept-Language":
             "zh-CN,zh;q=0.9",
             "Cookie":
-            "st_asi=delete; st_si=44083802765114; qgqp_b_id=f05dd488c42a506604d4b94ca4098e56; st_pvi=64525288303559; st_sp=2019-09-18%2014%3A45%3A59; st_inirUrl=http%3A%2F%2Fguba.eastmoney.com%2Flist%2C600519.html; st_sn=59; st_psi=20190923232546423-117001301474-2888167628"
+            "st_asi=delete; st_si=44083802765114; qgqp_b_id=31b26f667b2c3030c63e6f35ff9c6868; st_pvi=64525288303559; st_sp=2019-09-18%2014%3A45%3A59; st_inirUrl=http%3A%2F%2Fguba.eastmoney.com%2Flist%2C600519.html; st_sn=59; st_psi=20190923232546423-117001301474-2888167628"
         }
 
         self.request = Query()
@@ -41,37 +45,27 @@ class DealEastmoney(object):
         self.update_guba_status_sql = "UPDATE `workoo`.`eastmoney_list` SET `status` = {} WHERE `id` = {};"
         self.insert_comment_sql = "INSERT INTO `workoo`.`eastmoney_comment_{guba_id}`(`GubaId`, `ReadCount`, `CommentCount`, `Title`, `Author`, `PostTime`) VALUES ('{GubaId}', '{read_count}', '{comment_count}', '{title}', '{author}', '{post_time}');"
         self.judge_time_sql = "SELECT `Id` FROM `workoo`.`eastmoney_comment_{guba_id}` WHERE `PostTime` = '{post_time}' AND `Author` = '{author}' AND `Title` = '{title}' LIMIT 1;"
-        self.init_sql()
-        self.comment_list = []
+        # self.init_sql()
+        self.init_mongo()
 
-    def init_sql(self):
-        from config import DATABASES
-        try:
-            if DEBUG:
-                config = DATABASES["debug"]
-            else:
-                config = DATABASES["product"]
+    def init_mongo(self):
+        from config import MONGO
 
-            ecnu_mysql = pymysql.connect(**config)
-
-        except pymysql.err.OperationalError as exc:
-            logger.error("--->Error: 登录失败！TimeoutError!")
-            os._exit(0)
+        if DEBUG:
+            config = MONGO["debug"]
         else:
-            self.ecnu_cursor = ecnu_mysql.cursor()
+            config = MONGO["product"]
 
-    def judge_already(self):
-        # Don't to judge because of sql IO
-        return True
+        config["user"] = parse.quote_plus(config["user"])
+        config["passwd"] = parse.quote_plus(config["passwd"])
 
-        if self.run_func(self.deal_sql,
-                         self.judge_time_sql.format(**self.comment)) == 0:
-            return True
-        else:
-            return
+        client = MongoClient(
+            "mongodb://{user}:{passwd}@{host}:{port}/".format(**config))
+
+        self.mongo = client["eastmoney"]["comment"]
 
     def deal_resp(self, path, header, data=None):
-        magic_time(0, 3)
+        # magic_time(0, 1)
         while True:
             resp = self.request.run(path, header=header, data=data)
             if isinstance(resp, str):
@@ -92,15 +86,15 @@ class DealEastmoney(object):
     def deal_sql(self, sql):
         return self.run_func(self.ecnu_cursor.execute, sql)
 
+    def deal_mongo(self, data):
+        return self.run_func(self.mongo.insert_many, data)
+
     def get_id(self):
-        if self.run_func(self.deal_sql, self.select_id_sql) != 0:
-            self.guba_id = "{:0>6}".format(self.ecnu_cursor.fetchone()[0])
-            self.run_func(self.deal_sql,
-                          self.update_guba_status_sql.format(2, self.guba_id))
-            return True
-        else:
-            logger.info("--->Info: all guba is done")
-            return False
+        with open("./data/lack.json", "r", encoding="utf-8") as fn:
+            data = json.loads(fn.read())
+
+        for guba_id in data:
+            yield guba_id
 
     def deal_text(self, content: str):
         if isinstance(content, str):
@@ -127,105 +121,65 @@ class DealEastmoney(object):
                 "--->Error: the text is wrong, the type is {}, the text is {}".
                 format(type(content, content)))
 
-    def judge_year(self, month: int):
-        if isinstance(month, int):
-            if self.last_month == 1 and month == 12:
-                self.year -= 1
+    def judge_time(self):
+        return datetime.strptime(
+            self.date, '%Y-%m-%d %H:%M:%S') < datetime.strptime(
+                '2018-08-01 00:00:00', '%Y-%m-%d %H:%M:%S')
 
-            self.last_month = month
-        elif isinstance(month, str):
-            try:
-                self.run_func(self.judge_year, int(month))
-            except ValueError:
-                logger.error(
-                    "--->Error: the month type is wrong, the month is {}".
-                    format(month))
+    def deal_post(self, post: str):
+        return post.replace("发表于 ", "").replace(" 东方财富Android版", "").replace(
+            " 东方财富iPhone版", "").replace(" 股吧网页版",
+                                        "").replace(" 股吧手机网页版", "").replace(
+                                            " 东方财富电脑版", "")
 
-    def deal_time(self, post: str):
-        post = post.replace(":", " ").replace("-", " ")
-        time_list = post.split(" ")
+    def insert_comment(self, comment):
 
-        if len(time_list) == 4:
-            time_obj = {
-                "month": time_list[0],
-                "day": time_list[1],
-                "hour": time_list[2],
-                "minute": time_list[3]
-            }
-
-            self.run_func(self.judge_year, time_obj["month"])
-
-            time_obj["year"] = self.year
-            time_obj["second"] = "00"
-
-            return "{year}-{month}-{day} {hour}:{minute}:{second}".format(
-                **time_obj)
+        if self.run_func(self.deal_mongo, comment) is not None:
+            # logger.info("--->Info: insert successful")
+            pass
         else:
-            logger.error("--->Error: the time is wrong")
+            logger.error("--->Error: insert failed")
 
-    def insert_comment(self):
-        self.clean_comment()
+    def clean_comment(self, comment):
+        comment["read_count"] = self.run_func(self.deal_count,
+                                              comment.get("read_count"))
+        comment["comment_count"] = self.run_func(self.deal_count,
+                                                 comment.get("comment_count"))
 
-        if self.run_func(self.judge_already):
-            if self.run_func(self.deal_sql,
-                             self.insert_comment_sql.format(
-                                 **self.comment)) is not None:
-                # logger.info("--->Info: insert successful")
-                pass
-            else:
-                logger.error("--->Error: insert failed")
+        comment["title"] = self.run_func(self.deal_text, comment.get("title"))
+        comment["author"] = self.run_func(self.deal_text,
+                                          comment.get("author"))
 
-        else:
-            logger.info("--->Info: existed already")
-
-        # if self.run_func(self.judge_already):
-        #     if len(self.comment_list) < 10:
-        #         self.comment_list.append(tuple(self.comment))
-        #     else:
-        #         if self.run_func(self.deal_sql,
-        #                        self.insert_comment_sql.format(
-        #                            **self.comment)) is not None:
-        #             # logger.info("--->Info: insert successful")
-        #             pass
-        #         else:
-        #             logger.error("--->Error: insert failed")
-
-        # else:
-        #     logger.info("--->Info: existed already")
-
-    def clean_comment(self, *args):
-        self.comment["read_count"] = self.run_func(
-            self.deal_count, self.comment.get("read_count"))
-        self.comment["comment_count"] = self.run_func(
-            self.deal_count, self.comment.get("comment_count"))
-
-        self.comment["title"] = self.run_func(self.deal_text,
-                                              self.comment.get("title"))
-        self.comment["author"] = self.run_func(self.deal_text,
-                                               self.comment.get("author"))
-
-        self.comment["post_time"] = self.run_func(
-            self.deal_time, self.comment.get("post_time"))
+        comment["post_time"] = self.run_func(self.deal_post,
+                                             comment.get("post_time"))
+        return comment
 
     def get_comment(self, item):
+        temp = self.deal_soup(self.deal_soup(item, {"class": "l3 a3"}), "a")
+
         read_count = self.deal_soup(item, {"class": "l1 a1"}).text
         comment_count = self.deal_soup(item, {"class": "l2 a2"}).text
-        title = self.deal_soup(self.deal_soup(item, {"class": "l3 a3"}),
-                               "a")["title"]
+        title = temp["title"]
         author = self.deal_soup(item, {"class": "l4 a4"}).text
-        post_time = self.deal_soup(item, {"class": "l5 a5"}).text
+        post_time = self.get_post_time(temp["href"])
 
-        self.comment = {
+        comment = {
             "read_count": read_count,
             "comment_count": comment_count,
             "title": title,
             "author": author,
             "post_time": post_time,
-            "guba_id": int(self.guba_id) % 5,
             "GubaId": self.guba_id
         }
 
-        self.run_func(self.insert_comment)
+        return self.clean_comment(comment)
+
+    def get_post_time(self, href):
+        path = "http://guba.eastmoney.com{}".format(href)
+        resp = self.deal_resp(path, self.header)
+        div = self.deal_soup(resp, attr={"class": "zwfbtime"})
+
+        return div.text
 
     def deal_detail(self, path):
         resp = self.deal_resp(path, self.header)
@@ -236,9 +190,10 @@ class DealEastmoney(object):
             resp, attr={"class": "articleh"}, all_tag=True)
 
         if len(comment_divs) == 0:
-            self.year = 2018
-            self.last_month = 7
+            self.date = "1970-01-01 00:00:00"
             return
+
+        comment_list = []
 
         for comment_div in comment_divs:
             comment_em = self.deal_soup(comment_div, "em")
@@ -250,25 +205,21 @@ class DealEastmoney(object):
                 elif "qa" in comment_em.attrs["class"]:
                     continue
 
-            self.run_func(self.get_comment, comment_div)
+            comment_list.append(self.run_func(self.get_comment, comment_div))
 
-    def done_guba(self):
-        logger.info("--->Info: guba {} is done".format(self.guba_id))
-        self.run_func(self.deal_sql,
-                      self.update_guba_status_sql.format(1, self.guba_id))
+        self.insert_comment(comment_list)
+        self.date = comment_list[-1]["post_time"]
 
     def deal_page(self):
         page = 1
         while True:
             path = self.page_path.format(self.guba_id, page)
-            # self.deal_detail(path)
             self.run_func(self.deal_detail, path)
 
-            if self.year <= 2018 and self.last_month <= 7:
-                self.run_func(self.done_guba)
-                return
-            else:
+            if self.judge_time():
                 page += 1
+            else:
+                return
 
     def run_func(self, func, *args, **kwargs):
         if isinstance(func, (MethodType, FunctionType)):
@@ -288,13 +239,17 @@ class DealEastmoney(object):
                     type(func), func))
 
     def main(self):
+        guba = self.get_id()
         while True:
-            if self.run_func(self.get_id):
-                self.year = 2019
-                self.last_month = 9
-                self.run_func(self.deal_page)
-            else:
+            try:
+                self.guba_id = next(guba)
+            except StopIteration:
+                logger.info("--->Info: all guba is done")
                 break
+            else:
+                self.date = "2019-11-01 00:00:00"
+                self.run_func(self.deal_page)
+
             magic_time(5, 60)
 
 
