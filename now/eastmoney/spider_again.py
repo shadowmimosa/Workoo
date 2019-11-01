@@ -127,10 +127,11 @@ class DealEastmoney(object):
                 '2018-08-01 00:00:00', '%Y-%m-%d %H:%M:%S')
 
     def deal_post(self, post: str):
-        return post.replace("发表于 ", "").replace(" 东方财富Android版", "").replace(
-            " 东方财富iPhone版", "").replace(" 股吧网页版",
-                                        "").replace(" 股吧手机网页版", "").replace(
-                                            " 东方财富电脑版", "")
+
+        return post.replace("发表于", "").replace("东方财富", "").replace(
+            "Android", "").replace("iPhone", "").replace("iPad", "").replace(
+                "股吧", "").replace("期货", "").replace("手机", "").replace(
+                    "网页", "").replace("电脑", "").replace("版", "").strip()
 
     def insert_comment(self, comment):
 
@@ -175,7 +176,7 @@ class DealEastmoney(object):
         return self.clean_comment(comment)
 
     def get_post_time(self, href: str):
-        
+
         if "//" in href:
             path = href.replace("//", "")
         else:
