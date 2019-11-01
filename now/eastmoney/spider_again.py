@@ -131,7 +131,8 @@ class DealEastmoney(object):
         return post.replace("发表于", "").replace("东方财富", "").replace(
             "Android", "").replace("iPhone", "").replace("iPad", "").replace(
                 "股吧", "").replace("期货", "").replace("手机", "").replace(
-                    "网页", "").replace("电脑", "").replace("版", "").strip()
+                    "网页", "").replace("电脑", "").replace("版", "").replace(
+                        "网", "").strip()
 
     def insert_comment(self, comment):
 
