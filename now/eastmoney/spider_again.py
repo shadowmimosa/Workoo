@@ -123,7 +123,7 @@ class DealEastmoney(object):
 
     def judge_time(self):
         return datetime.strptime(
-            self.date, '%Y-%m-%d %H:%M:%S') < datetime.strptime(
+            self.date, '%Y-%m-%d %H:%M:%S') > datetime.strptime(
                 '2018-08-01 00:00:00', '%Y-%m-%d %H:%M:%S')
 
     def deal_post(self, post: str):
