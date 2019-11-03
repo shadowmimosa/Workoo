@@ -1,0 +1,38 @@
+{
+    "code": 200,
+    "message": "success",
+    "data": {
+        "orderMainId": "8984a17e2fd94a3ba09520e5acf36177",
+        "orderTitle": "彩色喷墨一体机",
+        "budget": null,
+        "budgetIsOpen": "N",
+        "usingCorrency": "人民币",
+        "orderCode": "CBSYSUCC2019000468",
+        "collegeName": "中山大学附属肿瘤医院",
+        "orderType": "1",
+        "deviceType": "通用设备",
+        "isTax": "A",
+        "invoiceType": "增值税普通发票",
+        "payType": "货到验收合格后付款",
+        "remark": "要求送货上门，不接受快递服务。同等价格下，本地公司优先。要求经销商有广州本地售后服务点。",
+        "contractLimit": "不签订合同",
+        "installations": "免费上门安装（含材料费）",
+        "deliverTime": "发布竞价结果后7天内送达",
+        "deliverPlace": "广东省/广州市/越秀区/****",
+        "startBidtime": "2019-10-30 14:48:51",
+        "endBidtime": "2019-11-02 14:56:36",
+        "detailList": [{
+            "detailId": "a737c1abb13e4dd18e9fb259ee1e1c6f",
+            "deviceName": "彩色喷墨一体机",
+            "deviceBrand": "惠普",
+            "isStandard": "Y",
+            "orderNum": 1.0,
+            "unit": null,
+            "detailBudget": null,
+            "deviceModel": "Deskjet Ink Advantage 4538",
+            "deviceSpec": "型号  Deskjet Ink Advantage 4538 产品类型 彩色喷墨一体机  网络打印  无线/有线网络打印  最大处理幅面  A4   涵盖功能  打印/复印/扫描  介质尺寸  A4,A5,B5,DL,C6,A6  耗材型号  F6V27AA-HP 680原装黑色墨盒(约480页)\nF6V26AA-HP 680原装三色墨盒(约150页)  接口类型  USB 2.0接口  无线打印  1个Wi-Fi 802.11n端口   打印速度  黑白(ISO):高达9.5页/分钟  彩色(ISO):高达6.8页/分钟\n黑白(草稿模式):高达20页/分钟  彩色(草稿模式):高达16页/分钟  打印分辨率  1200×2400 dpi  月打印量  1000 页  打印机语言  HP PCL 3 GUI  首页打印时间  18/20秒(黑白/彩色)  复印速度  黑白(ISO):高达7.5份/分钟  彩色(ISO):高达4份/分钟  复印分辨率  600×300dpi  连续复印  50  复印缩放  25%-400%  扫描类型  平板式  扫描元件  CIS  扫描速度  彩色4页/分钟  黑白8页/分钟  扫描分辨率  1200×2400dpi  色彩位数 24位/256 其他扫描性能  扫描方式:前面板扫描,前面板复印,惠普扫描软件  电源  AC220-240V,50/60Hz  功率  打印:15W,就绪:3.05W,关机:0.13W  噪音  彩色单面打印(正常模式,A4纸):6.1贝尔  黑白单面打印(正常模式,A4纸):6.4贝尔\n彩色单面打印(静音模式,A4纸):5.5贝尔  单面黑白打印(静音模式,A4纸):5.7贝尔  尺寸  445×367×128mm  重量  5.41kg   附件  随赠墨盒和软件CD×1  安装指南×1\n电源线×1  USB×1   其它性能  网络协议:标配(内置WiFi 802.11b/g/n)  WiFi(无线)接口:标配(内置WiFi 802.11b/g/n)",
+            "afterService": "按行业标准提供服务",
+            "fileList": []
+        }]
+    }
+}
