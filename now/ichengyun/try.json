@@ -1,0 +1,82 @@
+{
+    "log_id": 1332079576458181988,
+    "words_result_num": 11,
+    "words_result": [{
+        "words": "公司:四川创世万众景观建筑工",
+        "probability": {
+            "variance": 2.3e-05,
+            "average": 0.996895,
+            "min": 0.983868
+        }
+    }, {
+        "words": "姓名:邱梅(女)33岁住建部",
+        "probability": {
+            "variance": 0.014377,
+            "average": 0.960494,
+            "min": 0.530143
+        }
+    }, {
+        "words": "注册号:川251141614391",
+        "probability": {
+            "variance": 0.000208,
+            "average": 0.993588,
+            "min": 0.9371
+        }
+    }, {
+        "words": "专业:业绩(0)变更(0",
+        "probability": {
+            "variance": 0.028724,
+            "average": 0.826234,
+            "min": 0.519645
+        }
+    }, {
+        "words": "ID:5116231986*米米米0966",
+        "probability": {
+            "variance": 0.023259,
+            "average": 0.929614,
+            "min": 0.476431
+        }
+    }, {
+        "words": "二级主册建造师~建筑工程(2022-03-17)",
+        "probability": {
+            "variance": 0.005761,
+            "average": 0.975715,
+            "min": 0.625752
+        }
+    }, {
+        "words": "二级注册建造师~水利水电工程(2022-03-17",
+        "probability": {
+            "variance": 0.000213,
+            "average": 0.993502,
+            "min": 0.929205
+        }
+    }, {
+        "words": "二级注册建造师~市政公用工程(2022-03-17)",
+        "probability": {
+            "variance": 0.005874,
+            "average": 0.973152,
+            "min": 0.687757
+        }
+    }, {
+        "words": "*****",
+        "probability": {
+            "variance": 0.048607,
+            "average": 0.725388,
+            "min": 0.48035
+        }
+    }, {
+        "words": "试用账户由于当日已限额限制类型oo1",
+        "probability": {
+            "variance": 0.030992,
+            "average": 0.923804,
+            "min": 0.379977
+        }
+    }, {
+        "words": "已隐藏核心数据。",
+        "probability": {
+            "variance": 0.000596,
+            "average": 0.981095,
+            "min": 0.933062
+        }
+    }]
+}
