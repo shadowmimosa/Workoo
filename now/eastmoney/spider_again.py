@@ -177,8 +177,10 @@ class DealEastmoney(object):
         return self.clean_comment(comment)
 
     def get_post_time(self, href: str):
-
-        if "//" in href:
+        
+        if "http://" in href:
+            path = href
+        elif "//" in href:
             path = href.replace("//", "")
         else:
             path = "http://guba.eastmoney.com{}".format(href)
@@ -205,11 +207,13 @@ class DealEastmoney(object):
         for comment_div in comment_divs:
             comment_em = self.deal_soup(comment_div, "em")
             if comment_em is not None:
-                if comment_em.text in ["讨论", "悬赏", "公告", "资讯", "置顶", "话题"]:
+                if comment_em.text in ["讨论", "悬赏", "公告", "资讯", "置顶", "话题", "推广"]:
                     continue
                 elif "icon_list_hot" in comment_em.attrs["class"]:
                     continue
                 elif "qa" in comment_em.attrs["class"]:
+                    continue
+                elif "hinfo" in comment_em.attrs["class"]:
                     continue
 
             comment_list.append(self.run_func(self.get_comment, comment_div))
