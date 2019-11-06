@@ -170,20 +170,14 @@ class DealEasyjcx(object):
             item_id)
 
         info = {
-            "网上竞价编号":
-            data["orderCode"],
-            "网上竞价名称":
-            "{} - 竞价公告 ({})".format(data["collegeName"], data["orderCode"]),
-            "采购人":
-            data["collegeName"],
-            "竞价开始时间":
-            data["startBidtime"],
-            "竞价截止时间":
-            data["endBidtime"],
-            "金额上限":
-            data["budget"],
-            "path":
-            page_path
+            "网上竞价编号": data["orderCode"],
+            "网上竞价名称": data["orderTitle"],
+            # "{} - 竞价公告 ({})".format(data["collegeName"], data["orderCode"]),
+            "采购人": data["collegeName"],
+            "竞价开始时间": data["startBidtime"],
+            "竞价截止时间": data["endBidtime"],
+            "金额上限": data["budget"],
+            "path": page_path
         }
 
         tr_json = []
@@ -228,23 +222,16 @@ class DealEasyjcx(object):
             item_id)
 
         info = {
-            "网上竞价名称":
-            "{} - 竞价结果公告 ({})".format(data["collegeName"], data["orderCode"]),
-            "网上竞价编号":
-            data["orderCode"],
-            "采购人":
-            data["collegeName"],
-            "中标公司":
-            data["detailList"][0]["companyName"],
-            "path":
-            page_path,
-            "成交公告时间":
-            data["publishBidresultTime"],
-            "竞价开始时间":
-            data["startBidtime"],
-            "竞价截至时间":
-            data["endBidtime"],
-            "中标总额":data["bidAmount"]
+            "网上竞价名称": data["orderTitle"],
+            # "{} - 竞价结果公告 ({})".format(data["collegeName"], data["orderCode"]),
+            "网上竞价编号": data["orderCode"],
+            "采购人": data["collegeName"],
+            "中标公司": data["detailList"][0]["companyName"],
+            "path": page_path,
+            "成交公告时间": data["publishBidresultTime"],
+            "竞价开始时间": data["startBidtime"],
+            "竞价截至时间": data["endBidtime"],
+            "中标总额": data["bidAmount"]
         }
 
         tr_json = []
