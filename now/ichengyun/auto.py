@@ -1,11 +1,12 @@
 import io
 import time
 import pandas
+from sqlalchemy import create_engine
 from PIL import ImageGrab
 import win32gui, win32api, win32con
 
-from utils.facepp import FaceOcr
 from utils.baidu_ocr import BaiduOCR
+from config import DATABASES, logger
 
 
 class WinOperate(object):
@@ -40,6 +41,13 @@ class Ichengyun(object):
         self.win = WinOperate()
         self.info = pandas.DataFrame(columns=["姓名", "注册号", "证书", "电话"])
         # df.drop(df.index,inplace=True)
+
+        self.init_sql()
+
+    def init_sql(self):
+        self.engine = create_engine(
+            "mysql+pymysql://{user}:{passwd}@{host}:{port}/{database}?charset={charset}"
+            .format(**DATABASES))
 
     def get_word(self):
         pic = self.win.screenshot()
@@ -84,8 +92,11 @@ class Ichengyun(object):
             elif "~" in word:
                 if "主册" in word:
                     word = word.replace("主册", "注册")
-
                 register_list.append(word)
+
+            elif len(word) == 11:
+                info["电话"] = word
+
 
         level_list = []
         for index, item in enumerate(register_list):
@@ -120,36 +131,42 @@ class Ichengyun(object):
 
     def next_page(self):
         self.win.mouse_move(335, 565)
-        hold_on(5)
+        hold_on(7)
         self.win.mouse_move(600, 375)
 
-    def save_excel(self):
+    def save_info(self):
         self.info.to_excel(
             "./{}.xlsx".format(int(time.time() * 1000)), index=False)
-        self.info.to_sql()
+        self.info.to_sql(
+            "ichengyun", self.engine, if_exists="append", index=False)
         del self.info
         self.info = pandas.DataFrame(columns=["姓名", "注册号", "证书", "电话"])
 
     def auto_click(self):
         a = time.time()
-        for _ in range(85):
+        for _ in range(84):
             self.win.mouse_move(230, 160)
-            hold_on(3)
+            hold_on(5)
             self.win.mouse_move(600, 345)
             hold_on(0.2)
             self.win.mouse_move(555, 540)
-            hold_on(0.5)
+            hold_on(1)
 
             self.get_word()
+
+            # self.save_info()
 
         for index in range(16):
             offset = 24 * index
             self.win.mouse_move(230, 160 + offset)
-            hold_on(3)
+            hold_on(5)
+            self.win.mouse_move(600, 345)
+            hold_on(0.2)
+
             self.get_word()
 
-        # self.next_page()
-        self.save_excel()
+        self.next_page()
+        self.save_info()
         print("next_page")
         print(time.time() - a)
         hold_on(15)
