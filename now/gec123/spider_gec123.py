@@ -42,10 +42,10 @@ class DealGec(object):
             "Hm_lvt_b9a59f93d355dbc81937a9a9ae094db0=1573036848; JSESSIONID=0A60DD7AFA7CAC04861EAEA4EEA63FB2-n2; Hm_lpvt_b9a59f93d355dbc81937a9a9ae094db0=1573098974"
         }
 
-        self.insert_tb_bid = "INSERT INTO `bidpython`.`tb_bid` ( `title`, `inviter_number`, `announce_time`, `end_time`, `budget_money`, `platform_id`, `url`, `company` ) VALUES ( '{网上竞价名称}', '{网上竞价编号}', '{竞价开始时间}', '{竞价截止时间}', '{金额上限}', 15, '{path}', '{采购人}' );"
-        self.insert_bid_result = "INSERT INTO `bidpython`.`tb_bid_result` ( `title`, `inviter_number`, `announce_time`, `end_time`, `announce_date`, `platform_id`, `url`, `company`, `count`, `announce_company` ) VALUES ( '{网上竞价名称}', '{网上竞价编号}', '{竞价开始时间}', '{竞价截至时间}', '{成交公告时间}', 15, '{path}', '{采购人}', '{中标总额}', '{中标公司}' );"
-        self.insert_bid_json = insert_sql = "INSERT INTO `bidpython`.`tb_bid_json` ( `shot`, `platform_name`, `inviter_number`, `url`, `json_kv`, `create_time` ) VALUES ( '', '竞采星 竞价采购网', '{}', '{}', '{}', '{}');"
-        self.insert_tr_json = insert_sql = "INSERT INTO `bidpython`.`tb_tr_json` ( `platform_id`, `platform_name`, `tr_json`, `url` ) VALUES ( 15, '竞采星 竞价采购网', '{}', '{}');"
+        self.insert_tb_bid = "INSERT INTO `bidpython`.`tb_bid` ( `title`, `inviter_number`, `announce_time`, `end_time`, `budget_money`, `platform_id`, `url`, `company` ) VALUES ( '{网上竞价名称}', '{网上竞价编号}', '{竞价开始时间}', '{竞价截止时间}', '{金额上限}', 16, '{path}', '{采购人}' );"
+        self.insert_bid_result = "INSERT INTO `bidpython`.`tb_bid_result` ( `title`, `inviter_number`, `announce_time`, `end_time`, `announce_date`, `platform_id`, `url`, `company`, `budget_money`, `announce_company` ) VALUES ( '{网上竞价名称}', '{网上竞价编号}', '{竞价开始时间}', '{竞价截至时间}', '{成交公告时间}', 16, '{path}', '{采购人}', '{中标总额}', '{中标公司}' );"
+        self.insert_bid_json = insert_sql = "INSERT INTO `bidpython`.`tb_bid_json` ( `shot`, `platform_name`, `inviter_number`, `url`, `json_kv`, `create_time` ) VALUES ( '', '行采家', '{}', '{}', '{}', '{}');"
+        self.insert_tr_json = insert_sql = "INSERT INTO `bidpython`.`tb_tr_json` ( `platform_id`, `platform_name`, `tr_json`, `url` ) VALUES ( 16, '行采家', '{}', '{}');"
         self.request = Query().run
         self.soup = DealSoup().judge
         self.init_sql()
@@ -126,7 +126,7 @@ class DealGec(object):
                             "标配": "",
                             "型号": temp_good[2],
                             "url": self.path,
-                            "招标平台": "竞采星 竞价采购网",
+                            "招标平台": "行采家",
                             "售后服务": "",
                         })
                     elif self.bid_type is "bidResult":
@@ -145,10 +145,10 @@ class DealGec(object):
         return info
 
     def judge_already(self, item_code):
-        if self.bid_type is "bidNeed":
-            sql = "SELECT `id` FROM `bidpython`.`tb_bid` WHERE `inviter_number` = '{}' LIMIT 1;"
+        if self.bid_type is "bid":
+            sql = "SELECT `id` FROM `bidpython`.`tb_bid` WHERE `inviter_number` = '{}' and `platform_id` = 16 LIMIT 1;"
         elif self.bid_type is "bidResult":
-            sql = "SELECT `id` FROM `bidpython`.`tb_bid_result` WHERE `inviter_number` = '{}' LIMIT 1;"
+            sql = "SELECT `id` FROM `bidpython`.`tb_bid_result` WHERE `inviter_number` = '{}' and `platform_id` = 16 LIMIT 1;"
 
         if run_func(self.ecnu_cursor.execute, sql.format(item_code)) == 0:
             return True
@@ -190,6 +190,10 @@ class DealGec(object):
                 }).text.split("：")[-1]
 
             info["网上竞价编号"] = self.remove_character(item_id)
+
+            if not self.judge_already(info["网上竞价编号"]):
+                continue
+
             info["网上竞价名称"] = item["noticeName"]
             info["金额上限"] = item["totalLimit"]
             info["path"] = path
@@ -202,23 +206,25 @@ class DealGec(object):
                     info["采购人"] = self.remove_character(
                         binding.text.split("：")[-1])
 
-            info["竞价开始时间"] = run_func(
-                self.soup, raw_obj, attr={
-                    "class": "startTime ng-binding"
-                }).text.split("：")[-1].replace("（北京）", "")
+            # info["竞价开始时间"] = run_func(
+            #     self.soup, raw_obj, attr={
+            #         "class": "startTime ng-binding"
+            #     }).text.split("：")[-1].replace("（北京）", "")
+            info["竞价开始时间"] = time.strftime(
+                "%Y-%m-%d %H:%M:%S",
+                time.localtime(int(item["publishTime"]) / 1000))
+
             info["竞价截止时间"] = run_func(
                 self.soup, raw_obj, attr={
                     "class": "endTime ng-binding"
                 }).text.split("：")[-1].replace("（北京）", "")
-
-            print(item_id)
 
             tr_json = []
 
             for index, good in enumerate(item["goods"]):
                 tr_json.append({
                     "参数": "",
-                    "单位": good["unit"],
+                    "单位": good.get("unit"),
                     "招标编号": info["网上竞价编号"],
                     "序号": index + 1,
                     "产品名称": good["stockDirName"],
@@ -240,7 +246,7 @@ class DealGec(object):
             run_func(
                 self.ecnu_cursor.execute,
                 self.insert_bid_json.format(
-                    data["orderCode"], path,
+                    info["网上竞价编号"], info["path"],
                     json.dumps(tr_json, ensure_ascii=False), self.get_time()))
             # info = {
             #     "网上竞价编号": item_id,
@@ -267,10 +273,18 @@ class DealGec(object):
                 self.pattern, detail_data["notice"]["html"])[0].split("：")[-1]
 
             info["网上竞价编号"] = self.remove_character(item_id)
+
+            if not self.judge_already(info["网上竞价编号"]):
+                continue
+
             info["网上竞价名称"] = detail_data["notice"]["title"]
             info["采购人"] = detail_data["notice"]["buyerName"]
             info["path"] = "https://www.gec123.com/notices/detail/{}".format(
                 item["id"])
+
+            if "item.result==1\"" not in detail_data["notice"]["html"]:
+                continue
+
             info["中标公司"] = run_func(
                 self.soup,
                 detail_data["notice"]["html"],
@@ -284,12 +298,10 @@ class DealGec(object):
             #         "ng-if": "detail.brandName"
             #     }).text
             # attr={"ng-if": "detail.goodsName"},)
-            info["成交公告时间"] = ""
-            info["竞价开始时间"] = detail_data["notice"]["bidBeginTime"]
+            info["成交公告时间"] = detail_data["notice"]["bidBeginTime"]
+            info["竞价开始时间"] = ""
             info["竞价截至时间"] = ""
             info["中标总额"] = detail_data["notice"]["projectBudget"]
-
-            a = ''
 
             tr_json = []
             detail_obj = run_func(
@@ -299,23 +311,31 @@ class DealGec(object):
 
             details = detail_obj.text.replace(" ",
                                               "").strip("\n").split("\n\n")
-            a = json.loads(detail_data["notice"]["purchaseDes"])
-            for item in data["detailList"]:
-                tr_json.append({
-                    "成交时间": "",
-                    "招标编号": info["网上竞价编号"],
-                    "规格配置": details[1].split("：")[-1],
-                    "详情url": info["path"],
-                    "平台名称": "行采家",
-                    "总价": info["中标总额"],
-                    "中标供应商": info["中标公司"],
-                    "设备名称": details[0].split("：")[-1],
-                    "创建时间": self.get_time(),
-                    "品牌": details[2].split("：")[-1],
-                    "型号": details[3].split("：")[-1],
-                    "数量": item["orderNum"]
-                })
 
+            for item in json.loads(detail_data["notice"]["purchaseDes"]):
+                for good in item["good"]:
+                    tr_json.append({
+                        "成交时间": "",
+                        "招标编号": info["网上竞价编号"],
+                        "规格配置": details[1].split("：")[-1],
+                        "详情url": info["path"],
+                        "平台名称": "行采家",
+                        "总价": good["count"],
+                        "中标供应商": good["providerName"],
+                        "设备名称": details[0].split("：")[-1],
+                        "创建时间": self.get_time(),
+                        "品牌": details[2].split("：")[-1],
+                        "型号": details[3].split("：")[-1],
+                        "数量": good["amount"]
+                    })
+
+            run_func(self.ecnu_cursor.execute,
+                     self.insert_bid_result.format(**info))
+
+            run_func(
+                self.ecnu_cursor.execute,
+                self.insert_tr_json.format(
+                    json.dumps(tr_json, ensure_ascii=False), info["path"]))
             # info = {
             #     "网上竞价名称": data["orderTitle"],
             #     # "{} - 竞价结果公告 ({})".format(data["collegeName"], data["orderCode"]),
@@ -328,14 +348,6 @@ class DealGec(object):
             #     "竞价截至时间": data["endBidtime"],
             #     "中标总额": data["bidAmount"]
             # }
-
-        run_func(self.ecnu_cursor.execute,
-                 self.insert_bid_result.format(**info))
-
-        run_func(
-            self.ecnu_cursor.execute,
-            self.insert_tr_json.format(
-                json.dumps(tr_json, ensure_ascii=False), path))
 
     def run(self, path):
         resp = run_func(self.request, path, header=self.header)
@@ -351,8 +363,10 @@ class DealGec(object):
 
     def main(self):
         for page in range(1, 2):
-            self.deal_result(page)
+            self.bid_type = "bid"
             self.deal_detail(page)
+            self.bid_type = "bidResult"
+            self.deal_result(page)
 
 
 if __name__ == "__main__":

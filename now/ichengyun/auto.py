@@ -57,10 +57,16 @@ class Ichengyun(object):
 
         words = BaiduOCR().pic2word(byte_io.read())["words_result"]
         # words = FaceOcr().pic2word(byte_io.read())["result"]
-        print(words)
+        # print(words)
+        # print("OCR Now")
 
         if words:
+            # print("OCR OK")
             self.data_clean(words)
+        else:
+            print("OCR ERROR")
+            print(words)
+            print(set(list(pic.getdata())))
 
     def data_clean(self, words):
         info = {}
@@ -97,7 +103,6 @@ class Ichengyun(object):
             elif len(word) == 11:
                 info["电话"] = word
 
-
         level_list = []
         for index, item in enumerate(register_list):
             if "级" in item:
@@ -119,19 +124,20 @@ class Ichengyun(object):
             for item in level_list:
                 if isinstance(item, str):
                     level_temp = item
-                    return
+
             for index, item in enumerate(level_list):
                 if item is True:
                     register_list[index] = "{}{}".format(
                         level_temp, register_list[index])
 
         info["证书"] = "\n".join(register_list)
-
+        # print("ADD NOW")
         self.info = self.info.append(info, ignore_index=True)
+        # print(len(self.info), "\n")
 
     def next_page(self):
         self.win.mouse_move(335, 565)
-        hold_on(7)
+        hold_on(8)
         self.win.mouse_move(600, 375)
 
     def save_info(self):
@@ -142,33 +148,44 @@ class Ichengyun(object):
         del self.info
         self.info = pandas.DataFrame(columns=["姓名", "注册号", "证书", "电话"])
 
+    def loading_status(self):
+        hold_on(1.5)
+        while True:
+            pic = self.win.screenshot()
+
+            if judge_pixel(pic) == "colorful":
+                hold_on(1)
+                self.win.mouse_move(600, 345)
+                hold_on(0.5)
+                break
+            else:
+                hold_on(1)
+                continue
+
     def auto_click(self):
-        a = time.time()
+        starttime = time.time()
         for _ in range(84):
             self.win.mouse_move(230, 160)
-            hold_on(5)
-            self.win.mouse_move(600, 345)
-            hold_on(0.2)
+            pic = self.win.screenshot()
+
+            self.loading_status()
+
             self.win.mouse_move(555, 540)
             hold_on(1)
 
             self.get_word()
 
-            # self.save_info()
-
         for index in range(16):
             offset = 24 * index
             self.win.mouse_move(230, 160 + offset)
-            hold_on(5)
-            self.win.mouse_move(600, 345)
-            hold_on(0.2)
+
+            self.loading_status()
 
             self.get_word()
 
         self.next_page()
         self.save_info()
-        print("next_page")
-        print(time.time() - a)
+        print("next page")
         hold_on(15)
 
     def main(self):
@@ -178,6 +195,19 @@ class Ichengyun(object):
 
 def hold_on(second):
     time.sleep(second)
+
+
+def judge_pixel(img):
+    pixels = list(img.getdata())
+
+    if (113, 166, 255) in pixels:
+        return "blue"
+    else:
+        single = set(pixels)
+        if len(single) > 1:
+            return "colorful"
+        elif (255, 255, 255) in single:
+            return "white"
 
 
 if __name__ == "__main__":
