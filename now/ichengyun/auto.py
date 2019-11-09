@@ -141,12 +141,16 @@ class Ichengyun(object):
         self.win.mouse_move(600, 375)
 
     def save_info(self):
-        self.info.to_excel(
-            "./{}.xlsx".format(int(time.time() * 1000)), index=False)
-        self.info.to_sql(
-            "ichengyun", self.engine, if_exists="append", index=False)
-        del self.info
-        self.info = pandas.DataFrame(columns=["姓名", "注册号", "证书", "电话"])
+        if len(self.info) >= 180:
+            self.info.to_excel(
+                "./{}.xlsx".format(int(time.time() * 1000)), index=False)
+            self.info.to_sql(
+                "ichengyun", self.engine, if_exists="append", index=False)
+            # del self.info
+            # self.info = pandas.DataFrame(columns=["姓名", "注册号", "证书", "电话"])
+            return False
+        else:
+            return True
 
     def loading_status(self):
         hold_on(1.5)
@@ -175,6 +179,9 @@ class Ichengyun(object):
 
             self.get_word()
 
+            if self.save_info() is False:
+                return "down"
+
         for index in range(16):
             offset = 24 * index
             self.win.mouse_move(230, 160 + offset)
@@ -183,14 +190,21 @@ class Ichengyun(object):
 
             self.get_word()
 
+            if self.save_info() is False:
+                return "down"
+
         self.next_page()
         self.save_info()
         print("next page")
-        hold_on(15)
+        hold_on(5)
 
     def main(self):
-        for index in range(10):
-            self.auto_click()
+        while True:
+            status = self.auto_click()
+            if status == "down":
+                time.sleep(86400)
+            else:
+                logger.error("Error: the status is {}".format(status))
 
 
 def hold_on(second):
