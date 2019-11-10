@@ -141,7 +141,7 @@ class Ichengyun(object):
         self.win.mouse_move(600, 375)
 
     def save_info(self):
-        if len(self.info) >= 180:
+        if len(self.info) > 76:
             self.info.to_excel(
                 "./{}.xlsx".format(int(time.time() * 1000)), index=False)
             self.info.to_sql(
@@ -168,6 +168,18 @@ class Ichengyun(object):
 
     def auto_click(self):
         starttime = time.time()
+        for index in range(16):
+            offset = 24 * index
+            self.win.mouse_move(230, 160 + offset)
+
+            self.loading_status()
+
+            self.get_word()
+
+            if self.save_info() is False:
+                hold_on(86400)
+        self.next_page()
+
         for _ in range(84):
             self.win.mouse_move(230, 160)
             pic = self.win.screenshot()
@@ -180,31 +192,16 @@ class Ichengyun(object):
             self.get_word()
 
             if self.save_info() is False:
-                return "down"
+                hold_on(86400)
 
-        for index in range(16):
-            offset = 24 * index
-            self.win.mouse_move(230, 160 + offset)
 
-            self.loading_status()
-
-            self.get_word()
-
-            if self.save_info() is False:
-                return "down"
-
-        self.next_page()
         self.save_info()
         print("next page")
         hold_on(5)
 
     def main(self):
         while True:
-            status = self.auto_click()
-            if status == "down":
-                time.sleep(86400)
-            else:
-                logger.error("Error: the status is {}".format(status))
+            self.auto_click()
 
 
 def hold_on(second):
