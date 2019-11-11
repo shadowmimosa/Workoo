@@ -1,12 +1,14 @@
 import io
 import time
 import pandas
-from sqlalchemy import create_engine
-from PIL import ImageGrab
+import traceback
 import win32gui, win32api, win32con
+from PIL import ImageGrab
+from sqlalchemy import create_engine
+from types import MethodType, FunctionType
 
 from utils.baidu_ocr import BaiduOCR
-from config import DATABASES, logger
+from config import DATABASES, logger, DEBUG
 
 
 class WinOperate(object):
@@ -42,7 +44,7 @@ class Ichengyun(object):
         self.info = pandas.DataFrame(columns=["姓名", "注册号", "证书", "电话"])
         # df.drop(df.index,inplace=True)
 
-        self.init_sql()
+        self.run_func(self.init_sql)
 
     def init_sql(self):
         self.engine = create_engine(
@@ -62,7 +64,7 @@ class Ichengyun(object):
 
         if words:
             # print("OCR OK")
-            self.data_clean(words)
+            self.run_func(self.data_clean, words)
         else:
             print("OCR ERROR")
             print(words)
@@ -136,30 +138,38 @@ class Ichengyun(object):
         # print(len(self.info), "\n")
 
     def next_page(self):
-        self.win.mouse_move(335, 565)
+        self.run_func(self.win.mouse_move, 335, 565)
         hold_on(8)
-        self.win.mouse_move(600, 375)
+        self.run_func(self.win.mouse_move, 600, 375)
 
     def save_info(self):
-        if len(self.info) > 76:
+        if len(self.info) >= 180:
             self.info.to_excel(
                 "./{}.xlsx".format(int(time.time() * 1000)), index=False)
             self.info.to_sql(
                 "ichengyun", self.engine, if_exists="append", index=False)
-            # del self.info
-            # self.info = pandas.DataFrame(columns=["姓名", "注册号", "证书", "电话"])
+            del self.info
+            self.info = pandas.DataFrame(columns=["姓名", "注册号", "证书", "电话"])
+
+            logger.info("--->Info: save info")
+
             return False
         else:
+            logger.info("--->Info: No.{} is down".format(len(self.info)))
             return True
 
     def loading_status(self):
         hold_on(1.5)
+        start_time = time.time()
         while True:
+            if time.time() - start_time >= 30:
+                break
+
             pic = self.win.screenshot()
 
-            if judge_pixel(pic) == "colorful":
+            if self.run_func(judge_pixel, pic) == "colorful":
                 hold_on(1)
-                self.win.mouse_move(600, 345)
+                self.run_func(self.win.mouse_move, 600, 345)
                 hold_on(0.5)
                 break
             else:
@@ -168,40 +178,59 @@ class Ichengyun(object):
 
     def auto_click(self):
         starttime = time.time()
-        for index in range(16):
-            offset = 24 * index
-            self.win.mouse_move(230, 160 + offset)
-
-            self.loading_status()
-
-            self.get_word()
-
-            if self.save_info() is False:
-                hold_on(86400)
-        self.next_page()
 
         for _ in range(84):
-            self.win.mouse_move(230, 160)
-            pic = self.win.screenshot()
+            self.run_func(self.win.mouse_move, 230, 160)
+            pic = self.run_func(self.win.screenshot)
 
-            self.loading_status()
+            self.run_func(self.loading_status)
 
-            self.win.mouse_move(555, 540)
+            self.run_func(self.win.mouse_move, 555, 540)
             hold_on(1)
 
-            self.get_word()
+            self.run_func(self.get_word)
 
-            if self.save_info() is False:
+            if self.run_func(self.save_info) is False:
+                logger.info("--->Info: sleep 24 hours now")
                 hold_on(86400)
 
+        for index in range(16):
+            offset = 24 * index
+            self.run_func(self.win.mouse_move, 230, 160 + offset)
 
-        self.save_info()
-        print("next page")
+            self.run_func(self.loading_status)
+
+            self.run_func(self.get_word)
+
+            if self.run_func(self.save_info) is False:
+                logger.info("--->Info: sleep 24 hours now")
+                hold_on(86400)
+
+        self.run_func(self.next_page)
+        self.run_func(self.save_info)
+        logger.info("--->Info: next page")
         hold_on(5)
 
     def main(self):
         while True:
-            self.auto_click()
+            self.run_func(self.auto_click)
+
+    def run_func(self, func, *args, **kwargs):
+        if isinstance(func, (MethodType, FunctionType)):
+            if DEBUG:
+                return func(*args, **kwargs)
+            else:
+                try:
+                    return func(*args, **kwargs)
+                except:
+                    logger.error(
+                        "--->Error: The function {} is wrong, the error is {}".
+                        format(func.__name__, traceback.format_exc()))
+
+        else:
+            logger.error(
+                "--->Error: The type {} is wrong, the func is {}".format(
+                    type(func), func))
 
 
 def hold_on(second):
