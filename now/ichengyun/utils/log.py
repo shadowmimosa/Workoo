@@ -19,13 +19,13 @@ def init_log():
             os.makedirs("./log/")
             return init_log()
 
-        handler.setLevel(logging.ERROR)
+        handler.setLevel(logging.DEBUG)
         formatter = logging.Formatter(
             '%(asctime)s - %(funcName)s - %(levelname)s - %(message)s')
         handler.setFormatter(formatter)
 
         console = logging.StreamHandler()
-        console.setLevel(logging.ERROR)
+        console.setLevel(logging.INFO)
 
         logger.addHandler(handler)
         logger.addHandler(console)
