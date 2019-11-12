@@ -313,6 +313,7 @@ class DealGhzrzyw(object):
 
     def deal_detail(self):
         header = self.header
+        item_code = ""
         path = "http://oa.chinapsp.cn:8099/WebReport/ReportServer?_=1568021925180&__boxModel__=true&op=page_content&sessionID={}&pn=1&__webpage__=true&_paperWidth=788&_paperHeight=572&__fit__=false".format(
             self.session_id)
 
@@ -332,7 +333,9 @@ class DealGhzrzyw(object):
                     if "采购项目编号" in item_in_td[0]:
                         item_code = item_in_td[-1].replace(" ", "")
                     elif "采购单位" in item_in_td[0]:
-                        item_subject, item_code = item_in_td[1], item_in_td[2]
+                        if len(item_code) > 0 and len(item_code) < 50:
+                            item_subject, item_code = item_in_td[
+                                1], item_in_td[2]
                     elif "报名开始时间" in item_in_td[0]:
                         item_starttime = item_in_td[1]
                         item_endtime = item_in_td[2]
