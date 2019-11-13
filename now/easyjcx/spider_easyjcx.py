@@ -273,11 +273,11 @@ class DealEasyjcx(object):
 
     def main(self):
         for self.bid_type in ["bidNeed", "bidResult"]:
-            for page in range(1, 2):
+            for page in range(1, 10):
                 data = {
                     "keyword": "",
                     "current": page,
-                    "size": 10,
+                    "size": 100,
                     "condition": {
                         "areaScope": "",
                         "procurementType": "",
