@@ -333,7 +333,7 @@ class DealGhzrzyw(object):
                     if "采购项目编号" in item_in_td[0]:
                         item_code = item_in_td[-1].replace(" ", "")
                     elif "采购单位" in item_in_td[0]:
-                        if len(item_code) > 0 and len(item_code) < 50:
+                        if len(item_code) >= 0 and len(item_code) < 50:
                             item_subject, item_code = item_in_td[
                                 1], item_in_td[2]
                     elif "报名开始时间" in item_in_td[0]:
