@@ -3,8 +3,14 @@ from os.path import *
 from os import chdir, mkdir, listdir
 from datetime import datetime, timedelta
 from re import compile, search, findall, S
+from chardet import detect
+from json import dumps
+import datetime
 # import re
-import xlwt
+# import xlwt
+from xlwt import Workbook
+from openpyxl import load_workbook
+# from xlrd import open_workbook
 import time
 
 
@@ -25,6 +31,7 @@ class DealRecord(object):
             '手机号',
             '手机号所在记录',
             # '聊天记录'
+            '访客数据',
         ]
         # self.phone_pattern = compile(r'\d{3}-\d{8}|\d{4}-\{7,8}')
         self.phone_pattern = compile(r'^1[34578]\d{9}')
@@ -59,14 +66,15 @@ class DealRecord(object):
             pass
 
     def init_sheet(self):
-        self.wkb = xlwt.Workbook()
+        self.wkb = Workbook()
         self.sheet = self.wkb.add_sheet('sheet1', cell_overwrite_ok=True)
         self.row = 0
         self.write(self.header)
 
     def save(self):
 
-        self.wkb.save('{}{}.xlsx'.format(self.info_path, int(time.time())))
+        self.wkb.save('{}{}.xlsx'.format(self.info_path,
+                                         int(time.time() * 1000)))
 
     def write(self, content: list or dict):
         if isinstance(content, list):
@@ -153,6 +161,20 @@ class DealRecord(object):
         if len(exist_list) > 0:
             self.info['包含行业关键字'] = '\n'.join(set(exist_list))
 
+    def tourist(self, date: str):
+        self.second = 60
+        date = date.split(' ')[-1].split(':')
+        for item in self.tourist_list:
+            _time = item[1]
+            if isinstance(_time, datetime.time):
+
+                seconds = _time.hour * 3600 + _time.minute * 60 + _time.second
+                date_seconds = int(date[0]) * 3600 + int(date[1]) * 60 + int(
+                    date[2])
+
+                if date_seconds - self.second <= seconds and date_seconds + self.second >= seconds:
+                    self.info['访客数据'] == dumps(item)
+
     def get_phone(self, content):
         phone_obj = search(self.phone_pattern, content)
 
@@ -190,10 +212,13 @@ class DealRecord(object):
 
                 sign = 0
 
-        self.info['回复时间（秒）'] = convert_timedelta(self.info['回复时间（秒）'])
-
         if self.info.get('包含行业关键字') is None:
             self.info['包含行业关键字'] = '无'
+
+        if self.info.get('回复时间（秒）') is not None:
+            self.info['回复时间（秒）'] = convert_timedelta(self.info['回复时间（秒）'])
+
+            self.write(self.info)
 
     def extract_record(self, path):
         with open(path, 'r', encoding='gbk') as fn:
@@ -211,31 +236,27 @@ class DealRecord(object):
             self.info['客服ID'] = self.staff
             self.info['客户ID'] = key
             self.ending_skill(value[-1])
+            self.tourist(value[0]['time'])
 
             self.deal_time(value)
 
-            self.write(self.info)
-        self.save()
-        print(text_list)
-
     def main(self):
-        with open(
-                '{}结尾话术.txt'.format(self.ending_path), 'r',
-                encoding='gbk') as fn:
-            self.ending_list = fn.readline().replace('\n', '')
 
-        with open(
-                '{}行业关键字.txt'.format(self.keyword_path), 'r',
-                encoding='gbk') as fn:
-            self.trade_list = fn.read().split('\n')
+        self.tourist_list = read_xlsx_lines('./data/访客数据/访客数据.xlsx')
 
-        with open(
-                '{}包含关键字列表.txt'.format(self.keyword_path), 'r',
-                encoding='utf-8') as fn:
-            self.keyword_list = fn.read().split('\n')
+        path = '{}结尾话术.txt'.format(self.ending_path)
+        self.ending_list = read_lines(path, judge_code(path))
+
+        path = '{}行业关键字.txt'.format(self.keyword_path)
+        self.trade_list = read_lines(path, judge_code(path))
+
+        path = '{}包含关键字列表.txt'.format(self.keyword_path)
+        self.keyword_list = read_lines(path, judge_code(path))
 
         for filename in listdir(self.record_path):
             self.extract_record(join(self.record_path, filename))
+
+        self.save()
 
 
 def filter_record(content: str):
@@ -261,7 +282,42 @@ def convert_timedelta(duration: timedelta):
     return '{:0>2d}:{:0>2d}:{:0>2d}'.format(hours, minutes, seconds)
 
 
+def judge_code(path):
+    with open(path, 'rb') as fn:
+        data = fn.read()
+        charinfo = detect(data)
+
+        return charinfo['encoding']
+
+
+def read_lines(path, encoding):
+    with open(path, 'r', encoding=encoding) as fn:
+        lines = fn.readlines()
+
+    return lines
+
+
+def read_xlsx_lines(path):
+
+    workbook = load_workbook(path)
+    booksheet = workbook.active
+
+    rows = booksheet.rows
+    lines = []
+
+    for row in rows:
+        line = [col.value for col in row]
+        # cell_data_1 = booksheet.cell(row=i, column=3).value  #获取第i行1 列的数据
+        # cell_data_2 = booksheet.cell(row=i, column=4).value  #获取第i行 2 列的数据
+        # cell_data_3 = booksheet.cell(row=i, column=8).value  #获取第i行 3 列的数据
+        # cell_data_4 = booksheet.cell(row=i, column=18).value  #获取第i行 4 列的数据
+        # print(cell_data_1, cell_data_2, cell_data_3, cell_data_4)
+        lines.append(line)
+        # print(line)
+
+    return lines
+
+
 if __name__ == "__main__":
     chdir(dirname(abspath(__file__)))
     DealRecord().main()
-
