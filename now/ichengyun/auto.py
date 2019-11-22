@@ -1,7 +1,13 @@
 import io
+import os
+import sys
 import time
+import atexit
+import signal
 import pandas
 import traceback
+import ctypes
+import threading
 import win32gui, win32api, win32con
 from PIL import ImageGrab
 from sqlalchemy import create_engine
@@ -43,8 +49,6 @@ class Ichengyun(object):
         self.win = WinOperate()
         self.info = pandas.DataFrame(columns=["姓名", "注册号", "证书", "电话"])
         # df.drop(df.index,inplace=True)
-
-        self.run_func(self.init_sql)
 
     def init_sql(self):
         self.engine = create_engine(
@@ -143,7 +147,7 @@ class Ichengyun(object):
         self.run_func(self.win.mouse_move, 600, 375)
 
     def save_info(self):
-        if len(self.info) >= 180:
+        if len(self.info) > 0 and StartCommand is False:
             self.info.to_excel(
                 "./{}.xlsx".format(int(time.time() * 1000)), index=False)
             self.info.to_sql(
@@ -213,24 +217,32 @@ class Ichengyun(object):
 
     def main(self):
         while True:
-            self.run_func(self.auto_click)
+            if StartCommand is True:
+                self.run_func(self.init_sql)
+                self.run_func(self.auto_click)
+            elif StartCommand is False:
+                break
 
     def run_func(self, func, *args, **kwargs):
-        if isinstance(func, (MethodType, FunctionType)):
-            if DEBUG:
-                return func(*args, **kwargs)
-            else:
-                try:
+        if StartCommand is True:
+            if isinstance(func, (MethodType, FunctionType)):
+                if DEBUG:
                     return func(*args, **kwargs)
-                except:
-                    logger.error(
-                        "--->Error: The function {} is wrong, the error is {}".
-                        format(func.__name__, traceback.format_exc()))
+                else:
+                    try:
+                        return func(*args, **kwargs)
+                    except:
+                        logger.error(
+                            "--->Error: The function {} is wrong, the error is {}"
+                            .format(func.__name__, traceback.format_exc()))
 
-        else:
-            logger.error(
-                "--->Error: The type {} is wrong, the func is {}".format(
-                    type(func), func))
+            else:
+                logger.error(
+                    "--->Error: The type {} is wrong, the func is {}".format(
+                        type(func), func))
+        elif StartCommand is False:
+            self.save_info()
+            sys.exit()
 
 
 def hold_on(second):
@@ -250,5 +262,89 @@ def judge_pixel(img):
             return "white"
 
 
+def term_sig_handler(signum, frame):
+    print("catched singal: %d' % signum ")
+    time.sleep(6)
+    sys.exit()
+
+
+# @atexit.register
+# def atexit_fun():
+#     print("i am exit, stack track:")
+
+#     exc_type, exc_value, exc_tb = sys.exc_info()
+#     traceback.print_exception(exc_type, exc_value, exc_tb)
+
+
+def func(param):
+    print(param)
+    print(666)
+
+
+class myAuto(threading.Thread):
+    def __init__(self, name):
+        threading.Thread.__init__(self)
+        self.name = name
+
+    def run(self):
+        print("\n***start of " + str(self.name) + "***\n")
+        Ichengyun().main()
+        print("\n***end of " + str(self.name) + "***\n")
+
+
+class myHotKey(threading.Thread):
+    def __init__(self, name):
+        threading.Thread.__init__(self)
+        self.name = name
+
+    def run(self):
+        print("\n***start of " + str(self.name) + "***\n")
+        hotKeyMain()
+        print("\n***end of " + str(self.name) + "***\n")
+
+
+def hotKeyMain():
+    global StartCommand
+    user32 = ctypes.windll.user32
+    while (True):
+        if not user32.RegisterHotKey(None, 98, win32con.MOD_WIN,
+                                     win32con.VK_F9):  #win+f9=screenshot
+            print("Unable to register id", 98)
+        if not user32.RegisterHotKey(None, 99, win32con.MOD_WIN,
+                                     win32con.VK_F10):  #win+f10=exit program
+            print("Unable to register id", 99)
+        try:
+            msg = ctypes.wintypes.MSG()
+            if user32.GetMessageA(ctypes.byref(msg), None, 0, 0) != 0:
+                if msg.message == win32con.WM_HOTKEY:
+                    if msg.wParam == 99:
+                        StartCommand = False
+                        return
+                    elif msg.wParam == 98:
+                        StartCommand = True
+                user32.TranslateMessage(ctypes.byref(msg))
+                user32.DispatchMessageA(ctypes.byref(msg))
+        finally:
+            del msg
+            user32.UnregisterHotKey(None, 98)
+            user32.UnregisterHotKey(None, 99)
+
+
+StartCommand = None
+
 if __name__ == "__main__":
-    Ichengyun().main()
+    thread_screenShot = myAuto("按 WIN + F9 开始程序")
+    thread_hotKey = myHotKey("按 WIN + F10 停止程序")
+    thread_screenShot.start()
+    thread_hotKey.start()
+
+    thread_hotKey.join()
+    thread_screenShot.join()
+
+# if __name__ == '__main__':
+#     signal.signal(signal.SIGTERM, term_sig_handler)
+#     signal.signal(signal.SIGINT, term_sig_handler)
+
+#     while True:
+#         a = win32api.SetConsoleCtrlHandler(func, True)
+#         # print("666")
