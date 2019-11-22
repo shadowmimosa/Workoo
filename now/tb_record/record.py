@@ -1,17 +1,14 @@
-# import os
+import time
+from types import MethodType, FunctionType
+import datetime
 from os.path import *
+from json import dumps
+from xlwt import Workbook
+from chardet import detect
+from openpyxl import load_workbook
 from os import chdir, mkdir, listdir
 from datetime import datetime, timedelta
 from re import compile, search, findall, S
-from chardet import detect
-from json import dumps
-import datetime
-# import re
-# import xlwt
-from xlwt import Workbook
-from openpyxl import load_workbook
-# from xlrd import open_workbook
-import time
 
 
 class DealRecord(object):
@@ -166,14 +163,19 @@ class DealRecord(object):
         date = date.split(' ')[-1].split(':')
         for item in self.tourist_list:
             _time = item[1]
-            if isinstance(_time, datetime.time):
+
+            try:
 
                 seconds = _time.hour * 3600 + _time.minute * 60 + _time.second
                 date_seconds = int(date[0]) * 3600 + int(date[1]) * 60 + int(
                     date[2])
-
+            except AttributeError:
+                continue
+            else:
                 if date_seconds - self.second <= seconds and date_seconds + self.second >= seconds:
-                    self.info['访客数据'] == dumps(item)
+                    self.info['访客数据'] = "{}{}{}{}{}".format(
+                        item[0],
+                        convert_timedelta(item[1]), item[2], item[3], item[4])
 
     def get_phone(self, content):
         phone_obj = search(self.phone_pattern, content)

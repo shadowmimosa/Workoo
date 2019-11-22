@@ -7,6 +7,8 @@ import urllib3
 import requests
 from config import logger
 
+from .timer import func_cprofile
+
 
 class Query(object):
     def __init__(self):
@@ -31,6 +33,8 @@ class Query(object):
 
         return session
 
+    # @func_cprofile
+    # @func_line_time
     def deal_re(self, byte=False, need_header=False, **kwargs):
         """requests of get"""
 
@@ -118,7 +122,10 @@ class Query(object):
             return None
 
     def run(self, path, sign=None, header={}, **kwargs):
+        a = time.time()
         resp = self.deal_re(url=path, header=header, **kwargs)
+        print("deal_re time is {}".format(time.time() - a))
+
         if resp is None:
             return ""
         elif isinstance(resp, str):

@@ -355,7 +355,9 @@ class DealZcy(object):
                 json.dumps(tr_json, ensure_ascii=False), info["path"]))
 
     def run(self, data):
+        a = time.time()
         resp = run_func(self.request, self.path, header=self.header, data=data)
+        print("run_func time is {}".format(time.time() - a))
         data = json.loads(resp)
         for item in data["result"]["data"]:
             if run_func(self.judge_already, item["orderId"]):
