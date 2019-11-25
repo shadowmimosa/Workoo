@@ -1,6 +1,4 @@
-import time
-from types import MethodType, FunctionType
-import datetime
+from time import time
 from os.path import *
 from json import dumps
 from xlwt import Workbook
@@ -70,8 +68,7 @@ class DealRecord(object):
 
     def save(self):
 
-        self.wkb.save('{}{}.xlsx'.format(self.info_path,
-                                         int(time.time() * 1000)))
+        self.wkb.save('{}{}.xlsx'.format(self.info_path, int(time() * 1000)))
 
     def write(self, content: list or dict):
         if isinstance(content, list):
@@ -158,8 +155,16 @@ class DealRecord(object):
         if len(exist_list) > 0:
             self.info['包含行业关键字'] = '\n'.join(set(exist_list))
 
+    def deal_trade(self, content: str):
+
+        if self.is_trade is None:
+            for trade in self.trade_list.keys():
+                if trade in content:
+                    self.is_trade = True
+                    self.trade_list[trade] += 1
+
     def tourist(self, date: str):
-        self.second = 60
+        self.tourist_second = 60
         date = date.split(' ')[-1].split(':')
         for item in self.tourist_list:
             _time = item[1]
@@ -172,10 +177,11 @@ class DealRecord(object):
             except AttributeError:
                 continue
             else:
-                if date_seconds - self.second <= seconds and date_seconds + self.second >= seconds:
-                    self.info['访客数据'] = "{}{}{}{}{}".format(
-                        item[0],
-                        convert_timedelta(item[1]), item[2], item[3], item[4])
+                if date_seconds - self.tourist_second <= seconds and date_seconds + self.tourist_second >= seconds:
+                    self.info['访客数据'] = "{} {} {} {} {}".format(
+                        item[0], '{}:{}:{}'.format(
+                            item[1].hour, item[1].minute, item[1].second),
+                        item[2], item[3], item[4])
 
     def get_phone(self, content):
         phone_obj = search(self.phone_pattern, content)
@@ -188,6 +194,7 @@ class DealRecord(object):
             self.info['手机号所在记录'] = '无'
 
     def deal_time(self, content: list):
+        self.is_trade = None
         sign = 0
         record_time = None
         for item in content:
@@ -211,6 +218,7 @@ class DealRecord(object):
                 self.deal_keyword(item['text'])
                 # self.get_phone('15044120331')
                 self.get_phone(item['text'])
+                self.deal_trade(item['text'])
 
                 sign = 0
 
@@ -220,7 +228,8 @@ class DealRecord(object):
         if self.info.get('回复时间（秒）') is not None:
             self.info['回复时间（秒）'] = convert_timedelta(self.info['回复时间（秒）'])
 
-            self.write(self.info)
+            if self.is_trade is not None:
+                self.write(self.info)
 
     def extract_record(self, path):
         with open(path, 'r', encoding='gbk') as fn:
@@ -243,6 +252,7 @@ class DealRecord(object):
             self.deal_time(value)
 
     def main(self):
+        self.some_input()
 
         self.tourist_list = read_xlsx_lines('./data/访客数据/访客数据.xlsx')
 
@@ -251,6 +261,7 @@ class DealRecord(object):
 
         path = '{}行业关键字.txt'.format(self.keyword_path)
         self.trade_list = read_lines(path, judge_code(path))
+        self.trade_list = {i: 0 for i in self.trade_list}
 
         path = '{}包含关键字列表.txt'.format(self.keyword_path)
         self.keyword_list = read_lines(path, judge_code(path))
@@ -259,6 +270,25 @@ class DealRecord(object):
             self.extract_record(join(self.record_path, filename))
 
         self.save()
+        input('文件已保存, 按任意键退出')
+        
+
+    def some_input(self):
+        self.tourist_second = check_int(input('请输入访客数据匹配时间, 默认 60 秒\n---> '))
+
+        if not self.tourist_second:
+            self.tourist_second = 60
+
+
+def check_int(item):
+    try:
+        int(item)
+    except TypeError:
+        return False
+    except ValueError:
+        return 60
+    else:
+        return int(item)
 
 
 def filter_record(content: str):
