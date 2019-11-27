@@ -1,4 +1,5 @@
 # Windows:
+*.exe
 Thumbs.db
 ehthumbs.db
 Desktop.ini
@@ -7,12 +8,12 @@ Desktop.ini
 config.py
 
 # Python:
-*.py[cod]
 *.so
 *.egg
-*.egg-info
 dist
 build
+*.py[cod]
+*.egg-info
 
 # Repo:
 data/books
@@ -23,12 +24,9 @@ nohup.out
 # Compress
 *.7z
 *.zip
+*.rar
 
 # record
 *.log
 
 # special
-successed/5.30/yue_pic/data.7z
-successed/6.28/sac/data/info.json
-now/ali_each/baiduAI/ali_each_orc/part1/
-now/ali_each/baiduAI/ali_each_orc/part2/
