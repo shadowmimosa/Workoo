@@ -458,7 +458,7 @@ class DealGhzrzyw(object):
             tr_item = tr_list[tr_item_index]
             # int(tr_item.find(attrs={"colspan": "5"}))
             try:
-                item_good_name = tr_item.find(attrs={"colspan": "9"}).text
+                item_good_name = tr_item.find(attrs={"colspan": "10"}).text
                 item_winner = tr_item.find(attrs={"colspan": "6"}).text
                 item_budget = tr_item.find(attrs={
                     "colspan": "4"

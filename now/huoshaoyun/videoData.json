@@ -1,0 +1,1248 @@
+{
+    "times": "24",
+    "dayDataMap": {
+        "playDataMaplist": [{
+            "dateTime": "11-19 20:45",
+            "playNum": 41621
+        }, {
+            "dateTime": "11-19 21:00",
+            "playNum": 91922
+        }, {
+            "dateTime": "11-19 21:15",
+            "playNum": 134006
+        }, {
+            "dateTime": "11-19 21:30",
+            "playNum": 179089
+        }, {
+            "dateTime": "11-19 21:45",
+            "playNum": 226286
+        }, {
+            "dateTime": "11-19 22:00",
+            "playNum": 266577
+        }, {
+            "dateTime": "11-19 22:15",
+            "playNum": 305380
+        }, {
+            "dateTime": "11-19 22:30",
+            "playNum": 341854
+        }, {
+            "dateTime": "11-19 22:45",
+            "playNum": 420676
+        }, {
+            "dateTime": "11-19 23:00",
+            "playNum": 493732
+        }, {
+            "dateTime": "11-19 23:15",
+            "playNum": 558256
+        }, {
+            "dateTime": "11-19 23:30",
+            "playNum": 614924
+        }, {
+            "dateTime": "11-19 23:45",
+            "playNum": 667515
+        }, {
+            "dateTime": "11-20 00:00",
+            "playNum": 714092
+        }, {
+            "dateTime": "11-20 00:15",
+            "playNum": 756868
+        }, {
+            "dateTime": "11-20 00:30",
+            "playNum": 789842
+        }, {
+            "dateTime": "11-20 00:45",
+            "playNum": 820721
+        }, {
+            "dateTime": "11-20 01:00",
+            "playNum": 845956
+        }, {
+            "dateTime": "11-20 01:15",
+            "playNum": 866605
+        }, {
+            "dateTime": "11-20 01:30",
+            "playNum": 884226
+        }, {
+            "dateTime": "11-20 01:45",
+            "playNum": 898024
+        }, {
+            "dateTime": "11-20 02:00",
+            "playNum": 908926
+        }, {
+            "dateTime": "11-20 02:15",
+            "playNum": 918140
+        }, {
+            "dateTime": "11-20 02:30",
+            "playNum": 925732
+        }, {
+            "dateTime": "11-20 02:45",
+            "playNum": 932170
+        }, {
+            "dateTime": "11-20 03:00",
+            "playNum": 937614
+        }, {
+            "dateTime": "11-20 03:15",
+            "playNum": 942433
+        }, {
+            "dateTime": "11-20 03:30",
+            "playNum": 946542
+        }, {
+            "dateTime": "11-20 03:45",
+            "playNum": 949991
+        }, {
+            "dateTime": "11-20 04:00",
+            "playNum": 953055
+        }, {
+            "dateTime": "11-20 04:15",
+            "playNum": 955790
+        }, {
+            "dateTime": "11-20 04:30",
+            "playNum": 958407
+        }, {
+            "dateTime": "11-20 04:45",
+            "playNum": 960944
+        }, {
+            "dateTime": "11-20 05:00",
+            "playNum": 963280
+        }, {
+            "dateTime": "11-20 05:15",
+            "playNum": 965544
+        }, {
+            "dateTime": "11-20 05:30",
+            "playNum": 967830
+        }, {
+            "dateTime": "11-20 05:45",
+            "playNum": 970487
+        }, {
+            "dateTime": "11-20 06:00",
+            "playNum": 973689
+        }, {
+            "dateTime": "11-20 06:15",
+            "playNum": 977543
+        }, {
+            "dateTime": "11-20 06:30",
+            "playNum": 982623
+        }, {
+            "dateTime": "11-20 06:45",
+            "playNum": 988445
+        }, {
+            "dateTime": "11-20 07:00",
+            "playNum": 995125
+        }, {
+            "dateTime": "11-20 07:15",
+            "playNum": 1001637
+        }, {
+            "dateTime": "11-20 07:30",
+            "playNum": 1009548
+        }, {
+            "dateTime": "11-20 07:45",
+            "playNum": 1017712
+        }, {
+            "dateTime": "11-20 08:00",
+            "playNum": 1026052
+        }, {
+            "dateTime": "11-20 08:15",
+            "playNum": 1034350
+        }, {
+            "dateTime": "11-20 08:30",
+            "playNum": 1044127
+        }, {
+            "dateTime": "11-20 08:45",
+            "playNum": 1053789
+        }, {
+            "dateTime": "11-20 09:00",
+            "playNum": 1063697
+        }, {
+            "dateTime": "11-20 09:15",
+            "playNum": 1073181
+        }, {
+            "dateTime": "11-20 09:30",
+            "playNum": 1082386
+        }, {
+            "dateTime": "11-20 09:45",
+            "playNum": 1091499
+        }, {
+            "dateTime": "11-20 10:00",
+            "playNum": 1101195
+        }, {
+            "dateTime": "11-20 10:15",
+            "playNum": 1111221
+        }, {
+            "dateTime": "11-20 10:30",
+            "playNum": 1121006
+        }, {
+            "dateTime": "11-20 10:45",
+            "playNum": 1130626
+        }, {
+            "dateTime": "11-20 11:00",
+            "playNum": 1140759
+        }, {
+            "dateTime": "11-20 11:15",
+            "playNum": 1151265
+        }, {
+            "dateTime": "11-20 11:30",
+            "playNum": 1162699
+        }, {
+            "dateTime": "11-20 11:45",
+            "playNum": 1175805
+        }, {
+            "dateTime": "11-20 12:00",
+            "playNum": 1193928
+        }, {
+            "dateTime": "11-20 12:15",
+            "playNum": 1219279
+        }, {
+            "dateTime": "11-20 12:30",
+            "playNum": 1250507
+        }, {
+            "dateTime": "11-20 12:45",
+            "playNum": 1279533
+        }, {
+            "dateTime": "11-20 13:00",
+            "playNum": 1302807
+        }, {
+            "dateTime": "11-20 13:15",
+            "playNum": 1320852
+        }, {
+            "dateTime": "11-20 13:30",
+            "playNum": 1335466
+        }, {
+            "dateTime": "11-20 13:45",
+            "playNum": 1346721
+        }, {
+            "dateTime": "11-20 14:00",
+            "playNum": 1355110
+        }, {
+            "dateTime": "11-20 14:15",
+            "playNum": 1362658
+        }, {
+            "dateTime": "11-20 14:30",
+            "playNum": 1369250
+        }, {
+            "dateTime": "11-20 14:45",
+            "playNum": 1375464
+        }, {
+            "dateTime": "11-20 15:00",
+            "playNum": 1381407
+        }, {
+            "dateTime": "11-20 15:15",
+            "playNum": 1387286
+        }, {
+            "dateTime": "11-20 15:30",
+            "playNum": 1393112
+        }, {
+            "dateTime": "11-20 15:45",
+            "playNum": 1399080
+        }, {
+            "dateTime": "11-20 16:00",
+            "playNum": 1405168
+        }, {
+            "dateTime": "11-20 16:15",
+            "playNum": 1411704
+        }, {
+            "dateTime": "11-20 16:30",
+            "playNum": 1418176
+        }, {
+            "dateTime": "11-20 16:45",
+            "playNum": 1425182
+        }, {
+            "dateTime": "11-20 17:00",
+            "playNum": 1432796
+        }, {
+            "dateTime": "11-20 17:15",
+            "playNum": 1441519
+        }, {
+            "dateTime": "11-20 17:30",
+            "playNum": 1451874
+        }, {
+            "dateTime": "11-20 17:46",
+            "playNum": 1463579
+        }, {
+            "dateTime": "11-20 18:00",
+            "playNum": 1476936
+        }, {
+            "dateTime": "11-20 18:15",
+            "playNum": 1490867
+        }, {
+            "dateTime": "11-20 18:30",
+            "playNum": 1504693
+        }, {
+            "dateTime": "11-20 18:45",
+            "playNum": 1518139
+        }, {
+            "dateTime": "11-20 19:00",
+            "playNum": 1531132
+        }, {
+            "dateTime": "11-20 19:15",
+            "playNum": 1543096
+        }, {
+            "dateTime": "11-20 19:30",
+            "playNum": 1555583
+        }, {
+            "dateTime": "11-20 19:45",
+            "playNum": 1567292
+        }, {
+            "dateTime": "11-20 20:00",
+            "playNum": 1578430
+        }, {
+            "dateTime": "11-20 20:15",
+            "playNum": 1589097
+        }, {
+            "dateTime": "11-20 20:30",
+            "playNum": 1599807
+        }, {
+            "dateTime": "11-20 20:45",
+            "playNum": 1610124
+        }],
+        "dataMapList": [{
+            "praiseNum": 4563,
+            "commentNum": 902,
+            "shareNum": 40,
+            "dateTime": "11-19 20:45",
+            "castCurrencyNum": 901,
+            "barrageNum": 815,
+            "collectNum": 272
+        }, {
+            "praiseNum": 9310,
+            "commentNum": 1127,
+            "shareNum": 97,
+            "dateTime": "11-19 21:00",
+            "castCurrencyNum": 1989,
+            "barrageNum": 1310,
+            "collectNum": 555
+        }, {
+            "praiseNum": 13608,
+            "commentNum": 1164,
+            "shareNum": 134,
+            "dateTime": "11-19 21:15",
+            "castCurrencyNum": 2960,
+            "barrageNum": 1587,
+            "collectNum": 826
+        }, {
+            "praiseNum": 17690,
+            "commentNum": 1297,
+            "shareNum": 184,
+            "dateTime": "11-19 21:30",
+            "castCurrencyNum": 3939,
+            "barrageNum": 1851,
+            "collectNum": 1079
+        }, {
+            "praiseNum": 21892,
+            "commentNum": 1419,
+            "shareNum": 230,
+            "dateTime": "11-19 21:45",
+            "castCurrencyNum": 5056,
+            "barrageNum": 2128,
+            "collectNum": 1369
+        }, {
+            "praiseNum": 25550,
+            "commentNum": 1500,
+            "shareNum": 259,
+            "dateTime": "11-19 22:00",
+            "castCurrencyNum": 6006,
+            "barrageNum": 2351,
+            "collectNum": 1623
+        }, {
+            "praiseNum": 29122,
+            "commentNum": 1589,
+            "shareNum": 294,
+            "dateTime": "11-19 22:15",
+            "castCurrencyNum": 6970,
+            "barrageNum": 2544,
+            "collectNum": 1855
+        }, {
+            "praiseNum": 32517,
+            "commentNum": 1659,
+            "shareNum": 328,
+            "dateTime": "11-19 22:30",
+            "castCurrencyNum": 7863,
+            "barrageNum": 2783,
+            "collectNum": 2082
+        }, {
+            "praiseNum": 38258,
+            "commentNum": 1821,
+            "shareNum": 391,
+            "dateTime": "11-19 22:45",
+            "castCurrencyNum": 9388,
+            "barrageNum": 3114,
+            "collectNum": 2454
+        }, {
+            "praiseNum": 43578,
+            "commentNum": 1964,
+            "shareNum": 450,
+            "dateTime": "11-19 23:00",
+            "castCurrencyNum": 10898,
+            "barrageNum": 3440,
+            "collectNum": 2834
+        }, {
+            "praiseNum": 48312,
+            "commentNum": 2093,
+            "shareNum": 517,
+            "dateTime": "11-19 23:15",
+            "castCurrencyNum": 12335,
+            "barrageNum": 3697,
+            "collectNum": 3178
+        }, {
+            "praiseNum": 52378,
+            "commentNum": 2189,
+            "shareNum": 579,
+            "dateTime": "11-19 23:30",
+            "castCurrencyNum": 13579,
+            "barrageNum": 3886,
+            "collectNum": 3496
+        }, {
+            "praiseNum": 56079,
+            "commentNum": 2277,
+            "shareNum": 644,
+            "dateTime": "11-19 23:45",
+            "castCurrencyNum": 14734,
+            "barrageNum": 4080,
+            "collectNum": 3776
+        }, {
+            "praiseNum": 59210,
+            "commentNum": 2356,
+            "shareNum": 690,
+            "dateTime": "11-20 00:00",
+            "castCurrencyNum": 15834,
+            "barrageNum": 4260,
+            "collectNum": 3988
+        }, {
+            "praiseNum": 61686,
+            "commentNum": 2428,
+            "shareNum": 734,
+            "dateTime": "11-20 00:15",
+            "castCurrencyNum": 16661,
+            "barrageNum": 4383,
+            "collectNum": 4179
+        }, {
+            "praiseNum": 63769,
+            "commentNum": 2490,
+            "shareNum": 765,
+            "dateTime": "11-20 00:30",
+            "castCurrencyNum": 17343,
+            "barrageNum": 4499,
+            "collectNum": 4365
+        }, {
+            "praiseNum": 65484,
+            "commentNum": 2542,
+            "shareNum": 791,
+            "dateTime": "11-20 00:45",
+            "castCurrencyNum": 17904,
+            "barrageNum": 4563,
+            "collectNum": 4503
+        }, {
+            "praiseNum": 66810,
+            "commentNum": 2582,
+            "shareNum": 814,
+            "dateTime": "11-20 01:00",
+            "castCurrencyNum": 18442,
+            "barrageNum": 4647,
+            "collectNum": 4626
+        }, {
+            "praiseNum": 67837,
+            "commentNum": 2612,
+            "shareNum": 826,
+            "dateTime": "11-20 01:15",
+            "castCurrencyNum": 18809,
+            "barrageNum": 4690,
+            "collectNum": 4719
+        }, {
+            "praiseNum": 68751,
+            "commentNum": 2640,
+            "shareNum": 841,
+            "dateTime": "11-20 01:30",
+            "castCurrencyNum": 19124,
+            "barrageNum": 4739,
+            "collectNum": 4789
+        }, {
+            "praiseNum": 69438,
+            "commentNum": 2642,
+            "shareNum": 848,
+            "dateTime": "11-20 01:45",
+            "castCurrencyNum": 19362,
+            "barrageNum": 4779,
+            "collectNum": 4853
+        }, {
+            "praiseNum": 69984,
+            "commentNum": 2661,
+            "shareNum": 854,
+            "dateTime": "11-20 02:00",
+            "castCurrencyNum": 19560,
+            "barrageNum": 4814,
+            "collectNum": 4903
+        }, {
+            "praiseNum": 70431,
+            "commentNum": 2670,
+            "shareNum": 863,
+            "dateTime": "11-20 02:15",
+            "castCurrencyNum": 19719,
+            "barrageNum": 4837,
+            "collectNum": 4945
+        }, {
+            "praiseNum": 70764,
+            "commentNum": 2678,
+            "shareNum": 871,
+            "dateTime": "11-20 02:30",
+            "castCurrencyNum": 19839,
+            "barrageNum": 4852,
+            "collectNum": 4969
+        }, {
+            "praiseNum": 71028,
+            "commentNum": 2689,
+            "shareNum": 875,
+            "dateTime": "11-20 02:45",
+            "castCurrencyNum": 19938,
+            "barrageNum": 4871,
+            "collectNum": 4995
+        }, {
+            "praiseNum": 71241,
+            "commentNum": 2698,
+            "shareNum": 882,
+            "dateTime": "11-20 03:00",
+            "castCurrencyNum": 20023,
+            "barrageNum": 4885,
+            "collectNum": 5014
+        }, {
+            "praiseNum": 71422,
+            "commentNum": 2704,
+            "shareNum": 889,
+            "dateTime": "11-20 03:15",
+            "castCurrencyNum": 20082,
+            "barrageNum": 4902,
+            "collectNum": 5022
+        }, {
+            "praiseNum": 71570,
+            "commentNum": 2706,
+            "shareNum": 892,
+            "dateTime": "11-20 03:30",
+            "castCurrencyNum": 20143,
+            "barrageNum": 4922,
+            "collectNum": 5037
+        }, {
+            "praiseNum": 71706,
+            "commentNum": 2712,
+            "shareNum": 900,
+            "dateTime": "11-20 03:45",
+            "castCurrencyNum": 20204,
+            "barrageNum": 4927,
+            "collectNum": 5052
+        }, {
+            "praiseNum": 71830,
+            "commentNum": 2722,
+            "shareNum": 903,
+            "dateTime": "11-20 04:00",
+            "castCurrencyNum": 20257,
+            "barrageNum": 4934,
+            "collectNum": 5065
+        }, {
+            "praiseNum": 71931,
+            "commentNum": 2720,
+            "shareNum": 906,
+            "dateTime": "11-20 04:15",
+            "castCurrencyNum": 20300,
+            "barrageNum": 4945,
+            "collectNum": 5076
+        }, {
+            "praiseNum": 72039,
+            "commentNum": 2713,
+            "shareNum": 906,
+            "dateTime": "11-20 04:30",
+            "castCurrencyNum": 20350,
+            "barrageNum": 4953,
+            "collectNum": 5084
+        }, {
+            "praiseNum": 72129,
+            "commentNum": 2718,
+            "shareNum": 910,
+            "dateTime": "11-20 04:45",
+            "castCurrencyNum": 20379,
+            "barrageNum": 4967,
+            "collectNum": 5092
+        }, {
+            "praiseNum": 72220,
+            "commentNum": 2720,
+            "shareNum": 916,
+            "dateTime": "11-20 05:00",
+            "castCurrencyNum": 20414,
+            "barrageNum": 4977,
+            "collectNum": 5100
+        }, {
+            "praiseNum": 72325,
+            "commentNum": 2724,
+            "shareNum": 924,
+            "dateTime": "11-20 05:15",
+            "castCurrencyNum": 20444,
+            "barrageNum": 4978,
+            "collectNum": 5108
+        }, {
+            "praiseNum": 72435,
+            "commentNum": 2725,
+            "shareNum": 933,
+            "dateTime": "11-20 05:30",
+            "castCurrencyNum": 20478,
+            "barrageNum": 4980,
+            "collectNum": 5116
+        }, {
+            "praiseNum": 72563,
+            "commentNum": 2731,
+            "shareNum": 935,
+            "dateTime": "11-20 05:45",
+            "castCurrencyNum": 20521,
+            "barrageNum": 4982,
+            "collectNum": 5131
+        }, {
+            "praiseNum": 72732,
+            "commentNum": 2733,
+            "shareNum": 945,
+            "dateTime": "11-20 06:00",
+            "castCurrencyNum": 20565,
+            "barrageNum": 4987,
+            "collectNum": 5142
+        }, {
+            "praiseNum": 72934,
+            "commentNum": 2738,
+            "shareNum": 951,
+            "dateTime": "11-20 06:15",
+            "castCurrencyNum": 20617,
+            "barrageNum": 4990,
+            "collectNum": 5160
+        }, {
+            "praiseNum": 73227,
+            "commentNum": 2739,
+            "shareNum": 959,
+            "dateTime": "11-20 06:30",
+            "castCurrencyNum": 20698,
+            "barrageNum": 4998,
+            "collectNum": 5189
+        }, {
+            "praiseNum": 73607,
+            "commentNum": 2744,
+            "shareNum": 974,
+            "dateTime": "11-20 06:45",
+            "castCurrencyNum": 20795,
+            "barrageNum": 5013,
+            "collectNum": 5224
+        }, {
+            "praiseNum": 73970,
+            "commentNum": 2750,
+            "shareNum": 985,
+            "dateTime": "11-20 07:00",
+            "castCurrencyNum": 20920,
+            "barrageNum": 5029,
+            "collectNum": 5270
+        }, {
+            "praiseNum": 74390,
+            "commentNum": 2758,
+            "shareNum": 996,
+            "dateTime": "11-20 07:15",
+            "castCurrencyNum": 21035,
+            "barrageNum": 5048,
+            "collectNum": 5300
+        }, {
+            "praiseNum": 74866,
+            "commentNum": 2765,
+            "shareNum": 1003,
+            "dateTime": "11-20 07:30",
+            "castCurrencyNum": 21195,
+            "barrageNum": 5071,
+            "collectNum": 5335
+        }, {
+            "praiseNum": 75369,
+            "commentNum": 2772,
+            "shareNum": 1017,
+            "dateTime": "11-20 07:45",
+            "castCurrencyNum": 21350,
+            "barrageNum": 5089,
+            "collectNum": 5371
+        }, {
+            "praiseNum": 75890,
+            "commentNum": 2781,
+            "shareNum": 1033,
+            "dateTime": "11-20 08:00",
+            "castCurrencyNum": 21564,
+            "barrageNum": 5112,
+            "collectNum": 5415
+        }, {
+            "praiseNum": 76359,
+            "commentNum": 2793,
+            "shareNum": 1050,
+            "dateTime": "11-20 08:15",
+            "castCurrencyNum": 21718,
+            "barrageNum": 5138,
+            "collectNum": 5443
+        }, {
+            "praiseNum": 76826,
+            "commentNum": 2807,
+            "shareNum": 1065,
+            "dateTime": "11-20 08:30",
+            "castCurrencyNum": 21875,
+            "barrageNum": 5166,
+            "collectNum": 5486
+        }, {
+            "praiseNum": 77320,
+            "commentNum": 2813,
+            "shareNum": 1075,
+            "dateTime": "11-20 08:45",
+            "castCurrencyNum": 22060,
+            "barrageNum": 5190,
+            "collectNum": 5522
+        }, {
+            "praiseNum": 77855,
+            "commentNum": 2827,
+            "shareNum": 1089,
+            "dateTime": "11-20 09:00",
+            "castCurrencyNum": 22280,
+            "barrageNum": 5232,
+            "collectNum": 5562
+        }, {
+            "praiseNum": 78320,
+            "commentNum": 2842,
+            "shareNum": 1100,
+            "dateTime": "11-20 09:15",
+            "castCurrencyNum": 22444,
+            "barrageNum": 5250,
+            "collectNum": 5596
+        }, {
+            "praiseNum": 78771,
+            "commentNum": 2856,
+            "shareNum": 1106,
+            "dateTime": "11-20 09:30",
+            "castCurrencyNum": 22593,
+            "barrageNum": 5273,
+            "collectNum": 5642
+        }, {
+            "praiseNum": 79258,
+            "commentNum": 2865,
+            "shareNum": 1118,
+            "dateTime": "11-20 09:45",
+            "castCurrencyNum": 22786,
+            "barrageNum": 5290,
+            "collectNum": 5678
+        }, {
+            "praiseNum": 79771,
+            "commentNum": 2889,
+            "shareNum": 1131,
+            "dateTime": "11-20 10:00",
+            "castCurrencyNum": 22970,
+            "barrageNum": 5314,
+            "collectNum": 5709
+        }, {
+            "praiseNum": 80311,
+            "commentNum": 2901,
+            "shareNum": 1144,
+            "dateTime": "11-20 10:15",
+            "castCurrencyNum": 23185,
+            "barrageNum": 5333,
+            "collectNum": 5750
+        }, {
+            "praiseNum": 80829,
+            "commentNum": 2880,
+            "shareNum": 1153,
+            "dateTime": "11-20 10:30",
+            "castCurrencyNum": 23378,
+            "barrageNum": 5361,
+            "collectNum": 5789
+        }, {
+            "praiseNum": 81324,
+            "commentNum": 2896,
+            "shareNum": 1164,
+            "dateTime": "11-20 10:45",
+            "castCurrencyNum": 23537,
+            "barrageNum": 5393,
+            "collectNum": 5821
+        }, {
+            "praiseNum": 81834,
+            "commentNum": 2906,
+            "shareNum": 1177,
+            "dateTime": "11-20 11:00",
+            "castCurrencyNum": 23706,
+            "barrageNum": 5422,
+            "collectNum": 5862
+        }, {
+            "praiseNum": 82337,
+            "commentNum": 2918,
+            "shareNum": 1185,
+            "dateTime": "11-20 11:15",
+            "castCurrencyNum": 23880,
+            "barrageNum": 5457,
+            "collectNum": 5897
+        }, {
+            "praiseNum": 82866,
+            "commentNum": 2929,
+            "shareNum": 1194,
+            "dateTime": "11-20 11:30",
+            "castCurrencyNum": 24057,
+            "barrageNum": 5483,
+            "collectNum": 5937
+        }, {
+            "praiseNum": 83489,
+            "commentNum": 2941,
+            "shareNum": 1207,
+            "dateTime": "11-20 11:45",
+            "castCurrencyNum": 24266,
+            "barrageNum": 5520,
+            "collectNum": 5977
+        }, {
+            "praiseNum": 84361,
+            "commentNum": 2962,
+            "shareNum": 1222,
+            "dateTime": "11-20 12:00",
+            "castCurrencyNum": 24564,
+            "barrageNum": 5571,
+            "collectNum": 6049
+        }, {
+            "praiseNum": 85636,
+            "commentNum": 2977,
+            "shareNum": 1234,
+            "dateTime": "11-20 12:15",
+            "castCurrencyNum": 24985,
+            "barrageNum": 5658,
+            "collectNum": 6165
+        }, {
+            "praiseNum": 87357,
+            "commentNum": 3007,
+            "shareNum": 1259,
+            "dateTime": "11-20 12:30",
+            "castCurrencyNum": 25472,
+            "barrageNum": 5769,
+            "collectNum": 6275
+        }, {
+            "praiseNum": 88985,
+            "commentNum": 3045,
+            "shareNum": 1290,
+            "dateTime": "11-20 12:45",
+            "castCurrencyNum": 25979,
+            "barrageNum": 5844,
+            "collectNum": 6404
+        }, {
+            "praiseNum": 90308,
+            "commentNum": 3068,
+            "shareNum": 1309,
+            "dateTime": "11-20 13:00",
+            "castCurrencyNum": 26376,
+            "barrageNum": 5913,
+            "collectNum": 6498
+        }, {
+            "praiseNum": 91272,
+            "commentNum": 3090,
+            "shareNum": 1326,
+            "dateTime": "11-20 13:15",
+            "castCurrencyNum": 26625,
+            "barrageNum": 5958,
+            "collectNum": 6567
+        }, {
+            "praiseNum": 92087,
+            "commentNum": 3103,
+            "shareNum": 1337,
+            "dateTime": "11-20 13:30",
+            "castCurrencyNum": 26845,
+            "barrageNum": 6003,
+            "collectNum": 6624
+        }, {
+            "praiseNum": 92695,
+            "commentNum": 3115,
+            "shareNum": 1345,
+            "dateTime": "11-20 13:45",
+            "castCurrencyNum": 27015,
+            "barrageNum": 6035,
+            "collectNum": 6676
+        }, {
+            "praiseNum": 93140,
+            "commentNum": 3126,
+            "shareNum": 1348,
+            "dateTime": "11-20 14:00",
+            "castCurrencyNum": 27112,
+            "barrageNum": 6053,
+            "collectNum": 6708
+        }, {
+            "praiseNum": 93526,
+            "commentNum": 3135,
+            "shareNum": 1350,
+            "dateTime": "11-20 14:15",
+            "castCurrencyNum": 27225,
+            "barrageNum": 6069,
+            "collectNum": 6729
+        }, {
+            "praiseNum": 93835,
+            "commentNum": 3142,
+            "shareNum": 1359,
+            "dateTime": "11-20 14:30",
+            "castCurrencyNum": 27328,
+            "barrageNum": 6089,
+            "collectNum": 6752
+        }, {
+            "praiseNum": 94103,
+            "commentNum": 3152,
+            "shareNum": 1361,
+            "dateTime": "11-20 14:45",
+            "castCurrencyNum": 27427,
+            "barrageNum": 6112,
+            "collectNum": 6772
+        }, {
+            "praiseNum": 94427,
+            "commentNum": 3157,
+            "shareNum": 1366,
+            "dateTime": "11-20 15:00",
+            "castCurrencyNum": 27527,
+            "barrageNum": 6131,
+            "collectNum": 6803
+        }, {
+            "praiseNum": 94651,
+            "commentNum": 3164,
+            "shareNum": 1373,
+            "dateTime": "11-20 15:15",
+            "castCurrencyNum": 27634,
+            "barrageNum": 6148,
+            "collectNum": 6822
+        }, {
+            "praiseNum": 94932,
+            "commentNum": 3170,
+            "shareNum": 1375,
+            "dateTime": "11-20 15:30",
+            "castCurrencyNum": 27728,
+            "barrageNum": 6161,
+            "collectNum": 6839
+        }, {
+            "praiseNum": 95204,
+            "commentNum": 3179,
+            "shareNum": 1380,
+            "dateTime": "11-20 15:45",
+            "castCurrencyNum": 27835,
+            "barrageNum": 6188,
+            "collectNum": 6873
+        }, {
+            "praiseNum": 95514,
+            "commentNum": 3186,
+            "shareNum": 1381,
+            "dateTime": "11-20 16:00",
+            "castCurrencyNum": 27938,
+            "barrageNum": 6209,
+            "collectNum": 6899
+        }, {
+            "praiseNum": 95829,
+            "commentNum": 3193,
+            "shareNum": 1386,
+            "dateTime": "11-20 16:15",
+            "castCurrencyNum": 28041,
+            "barrageNum": 6235,
+            "collectNum": 6922
+        }, {
+            "praiseNum": 96138,
+            "commentNum": 3201,
+            "shareNum": 1390,
+            "dateTime": "11-20 16:30",
+            "castCurrencyNum": 28156,
+            "barrageNum": 6262,
+            "collectNum": 6951
+        }, {
+            "praiseNum": 96473,
+            "commentNum": 3207,
+            "shareNum": 1393,
+            "dateTime": "11-20 16:45",
+            "castCurrencyNum": 28279,
+            "barrageNum": 6273,
+            "collectNum": 6987
+        }, {
+            "praiseNum": 96853,
+            "commentNum": 3216,
+            "shareNum": 1397,
+            "dateTime": "11-20 17:00",
+            "castCurrencyNum": 28397,
+            "barrageNum": 6307,
+            "collectNum": 7018
+        }, {
+            "praiseNum": 97329,
+            "commentNum": 3226,
+            "shareNum": 1403,
+            "dateTime": "11-20 17:15",
+            "castCurrencyNum": 28535,
+            "barrageNum": 6333,
+            "collectNum": 7056
+        }, {
+            "praiseNum": 97896,
+            "commentNum": 3239,
+            "shareNum": 1412,
+            "dateTime": "11-20 17:30",
+            "castCurrencyNum": 28680,
+            "barrageNum": 6362,
+            "collectNum": 7097
+        }, {
+            "praiseNum": 98491,
+            "commentNum": 3247,
+            "shareNum": 1424,
+            "dateTime": "11-20 17:46",
+            "castCurrencyNum": 28840,
+            "barrageNum": 6393,
+            "collectNum": 7142
+        }, {
+            "praiseNum": 99171,
+            "commentNum": 3254,
+            "shareNum": 1439,
+            "dateTime": "11-20 18:00",
+            "castCurrencyNum": 29028,
+            "barrageNum": 6413,
+            "collectNum": 7202
+        }, {
+            "praiseNum": 99898,
+            "commentNum": 3266,
+            "shareNum": 1449,
+            "dateTime": "11-20 18:15",
+            "castCurrencyNum": 29235,
+            "barrageNum": 6459,
+            "collectNum": 7269
+        }, {
+            "praiseNum": 100644,
+            "commentNum": 3280,
+            "shareNum": 1456,
+            "dateTime": "11-20 18:30",
+            "castCurrencyNum": 29396,
+            "barrageNum": 6502,
+            "collectNum": 7326
+        }, {
+            "praiseNum": 101425,
+            "commentNum": 3291,
+            "shareNum": 1463,
+            "dateTime": "11-20 18:45",
+            "castCurrencyNum": 29604,
+            "barrageNum": 6543,
+            "collectNum": 7405
+        }, {
+            "praiseNum": 102164,
+            "commentNum": 3303,
+            "shareNum": 1471,
+            "dateTime": "11-20 19:00",
+            "castCurrencyNum": 29854,
+            "barrageNum": 6592,
+            "collectNum": 7476
+        }, {
+            "praiseNum": 102818,
+            "commentNum": 3316,
+            "shareNum": 1480,
+            "dateTime": "11-20 19:15",
+            "castCurrencyNum": 30040,
+            "barrageNum": 6614,
+            "collectNum": 7537
+        }, {
+            "praiseNum": 103477,
+            "commentNum": 3326,
+            "shareNum": 1494,
+            "dateTime": "11-20 19:30",
+            "castCurrencyNum": 30221,
+            "barrageNum": 6652,
+            "collectNum": 7605
+        }, {
+            "praiseNum": 104128,
+            "commentNum": 3337,
+            "shareNum": 1497,
+            "dateTime": "11-20 19:45",
+            "castCurrencyNum": 30424,
+            "barrageNum": 6686,
+            "collectNum": 7668
+        }, {
+            "praiseNum": 104722,
+            "commentNum": 3349,
+            "shareNum": 1505,
+            "dateTime": "11-20 20:00",
+            "castCurrencyNum": 30546,
+            "barrageNum": 6720,
+            "collectNum": 7713
+        }, {
+            "praiseNum": 105288,
+            "commentNum": 3356,
+            "shareNum": 1516,
+            "dateTime": "11-20 20:15",
+            "castCurrencyNum": 30731,
+            "barrageNum": 6750,
+            "collectNum": 7771
+        }, {
+            "praiseNum": 105822,
+            "commentNum": 3360,
+            "shareNum": 1524,
+            "dateTime": "11-20 20:30",
+            "castCurrencyNum": 30883,
+            "barrageNum": 6773,
+            "collectNum": 7827
+        }, {
+            "praiseNum": 106275,
+            "commentNum": 3372,
+            "shareNum": 1535,
+            "dateTime": "11-20 20:45",
+            "castCurrencyNum": 31034,
+            "barrageNum": 6795,
+            "collectNum": 7864
+        }]
+    },
+    "kolTotalDataMap": {
+        "avgCastCurrencyNum": "2万+",
+        "indexNum": 779,
+        "avgCommentNum": "2千+",
+        "avgPraiseNum": "2万+",
+        "fansNum": "670万+",
+        "barrageNum": "637万+",
+        "avgBarrageNum": "6千+",
+        "commentNum": "258万+",
+        "videoNum": 985,
+        "chargingNum": "1万+",
+        "avgCollectNum": "5千+",
+        "castCurrencyNum": "2238万+",
+        "avgPlayNum": "76万+",
+        "collectNum": "553万+"
+    },
+    "code": 200,
+    "monitorTime": "2019-11-19 20:45:28",
+    "kolInfoMap": {
+        "isFansBadge": 1,
+        "kolSummary": "YouTube：敬汉卿【官方频道】\n\n三百万粉丝挑10个粉丝吃",
+        "sortFlag": [{
+            "id": 18,
+            "name": "时尚"
+        }, {
+            "id": 24,
+            "name": "科技"
+        }, {
+            "id": 11,
+            "name": "音乐"
+        }, {
+            "id": 26,
+            "name": "娱乐"
+        }, {
+            "id": 1,
+            "name": "游戏"
+        }, {
+            "id": 27,
+            "name": "广告"
+        }, {
+            "id": 10,
+            "name": "舞蹈"
+        }, {
+            "id": 29,
+            "name": "数码"
+        }, {
+            "id": 5,
+            "name": "生活"
+        }],
+        "isVip": "年度大会员",
+        "approveDescription": "bilibili 2018百大UP主、直播签约主播",
+        "fansNum": 6705002,
+        "platformGrade": 6,
+        "isApprove": "官方认证",
+        "kolImg": "http://i2.hdslb.com/bfs/face/a5c6005a27da6afd52021dc07423f7b4a78a466c.jpg",
+        "kolId": 49923,
+        "kolName": "敬汉卿"
+    },
+    "kolVideoInfoMap": {
+        "summary": "youtube频道：敬汉卿【官方频道】\n创意投稿邮箱1905387728@qq.com\n淘宝店：敬汉卿",
+        "tags": ["美食", "搞笑", "作死", "奇葩", "幽默", "酸菜鱼", "敬汉卿"],
+        "publishTime": "2019-11-19 20:32:39",
+        "playNum": 41621,
+        "barrageNum": 815,
+        "sourceUrl": "https://www.bilibili.com/video/av76283550",
+        "isWind": 0,
+        "commentNum": 902,
+        "id": 9545493,
+        "praiseNum": 4563,
+        "title": "用方便面里面的酸菜做一道酸菜鱼味道怎么样？",
+        "coverImg": "http://i2.hdslb.com/bfs/archive/f24026978879e15856cd6c0d75dd43fe0db1878b.jpg",
+        "comments": [{
+            "cn": 6,
+            "pt": "2019-11-19 20:33:47",
+            "pn": 178,
+            "ct": "会被敬汉卿拍成视频[妙啊]"
+        }, {
+            "cn": 52,
+            "pt": "2019-11-19 20:32:51",
+            "pn": 941,
+            "ct": "只要来得够早，是个傻子都能上热评[妙啊]"
+        }, {
+            "cn": 4,
+            "pt": "2019-11-19 20:33:20",
+            "pn": 102,
+            "ct": "用榨菜做一份榨菜鱼怎么样？[偷笑]"
+        }, {
+            "cn": 6,
+            "pt": "2019-11-19 20:35:18",
+            "pn": 39,
+            "ct": "一百包康师傅牛肉面究竟有多少牛肉[妙啊]兄弟们顶我上去[doge]"
+        }, {
+            "cn": 4,
+            "pt": "2019-11-19 20:33:54",
+            "pn": 33,
+            "ct": "皮蛋！！！用皮蛋做一个煎蛋！！！"
+        }, {
+            "cn": 10,
+            "pt": "2019-11-19 20:32:48",
+            "pn": 96,
+            "ct": "awsl"
+        }, {
+            "cn": 2,
+            "pt": "2019-11-19 20:34:40",
+            "pn": 18,
+            "ct": "其实吧，这个创意我以前有想过，但是没敢露脸拍视频。[笑哭][笑哭][笑哭]"
+        }, {
+            "cn": 5,
+            "pt": "2019-11-19 20:35:38",
+            "pn": 12,
+            "ct": "这时候我的脑海中只有mc石头的那句灵魂！"
+        }, {
+            "cn": 1,
+            "pt": "2019-11-19 20:36:30",
+            "pn": 8,
+            "ct": "我是一个用泡面酸菜包做的酸菜鱼！[蛆音娘_卖萌]\n又酸，又菜，又多余！[蛆音娘_滑稽]\n而且还有一点老坛酸菜泡面的味道！[蛆音娘_肥皂]"
+        }, {
+            "cn": 1,
+            "pt": "2019-11-19 20:34:48",
+            "pn": 26,
+            "ct": "刷新前，40评论\n刷新一下，169[疼]"
+        }, {
+            "cn": 1,
+            "pt": "2019-11-19 20:33:10",
+            "pn": 7,
+            "ct": "敬汉卿真帅[doge]"
+        }, {
+            "cn": 0,
+            "pt": "2019-11-19 20:39:42",
+            "pn": 5,
+            "ct": "酸菜鱼×\n康师傅酸菜鱼✓"
+        }, {
+            "cn": 0,
+            "pt": "2019-11-19 20:33:54",
+            "pn": 5,
+            "ct": "可以用康师傅有一道牛肉炒饭吗[画风突变]"
+        }, {
+            "cn": 0,
+            "pt": "2019-11-19 20:33:33",
+            "pn": 10,
+            "ct": "别问，问就是缺素材[doge]"
+        }, {
+            "cn": 0,
+            "pt": "2019-11-19 20:33:18",
+            "pn": 10,
+            "ct": "纯路人，觉得up主很酸"
+        }, {
+            "cn": 0,
+            "pt": "2019-11-19 20:34:45",
+            "pn": 5,
+            "ct": "要不要洗脚水加泡椒煮鱼[妙啊]"
+        }, {
+            "cn": 3,
+            "pt": "2019-11-19 20:33:28",
+            "pn": 17,
+            "ct": "👴想上热评"
+        }, {
+            "cn": 0,
+            "pt": "2019-11-19 20:33:53",
+            "pn": 6,
+            "ct": "酸菜鱼能不能做我不知道，但是一定做不出红烧牛肉。"
+        }, {
+            "cn": 0,
+            "pt": "2019-11-19 20:35:12",
+            "pn": 3,
+            "ct": "↙️兄弟们 就看这次！"
+        }, {
+            "cn": 0,
+            "pt": "2019-11-19 20:34:30",
+            "pn": 3,
+            "ct": "我来的够早，可我不够傻，是不是热评没希望了[捂脸]"
+        }],
+        "collectNum": 272
+    }
+}
