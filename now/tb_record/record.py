@@ -118,14 +118,6 @@ class DealRecord(object):
 
         return record_data
 
-    def filter_customer(self, content: list):
-        for item in content:
-            for text_list in item:
-                for text in text_list:
-                    for keyword in trade_keyword:
-                        if keyword in text['text']:
-                            return True
-
     def ending_skill(self, content):
         # for item in reversed(content):
 
@@ -179,9 +171,10 @@ class DealRecord(object):
             else:
                 if date_seconds - self.tourist_second <= seconds and date_seconds + self.tourist_second >= seconds:
                     self.info['访客数据'] = "{} {} {} {} {}".format(
-                        item[0], '{}:{}:{}'.format(
-                            item[1].hour, item[1].minute, item[1].second),
-                        item[2], item[3], item[4])
+                        item[0],
+                        '{}:{}:{}'.format(item[1].hour, item[1].minute,
+                                          item[1].second), item[2], item[3],
+                        item[4])
 
     def get_phone(self, content):
         phone_obj = search(self.phone_pattern, content)
@@ -271,7 +264,6 @@ class DealRecord(object):
 
         self.save()
         input('文件已保存, 按任意键退出')
-        
 
     def some_input(self):
         self.tourist_second = check_int(input('请输入访客数据匹配时间, 默认 60 秒\n---> '))
