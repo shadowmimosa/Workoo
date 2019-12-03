@@ -182,7 +182,7 @@ class DealRecord(object):
         if phone_obj:
             self.info['手机号'] = phone_obj.group()
             self.info['手机号所在记录'] = content
-        else:
+        elif self.info.get('手机号', None) is None:
             self.info['手机号'] = '无'
             self.info['手机号所在记录'] = '无'
 
@@ -209,7 +209,6 @@ class DealRecord(object):
                 record_time = str2time(item['time'])
 
                 self.deal_keyword(item['text'])
-                # self.get_phone('15044120331')
                 self.get_phone(item['text'])
                 self.deal_trade(item['text'])
 
@@ -222,6 +221,9 @@ class DealRecord(object):
             self.info['回复时间（秒）'] = convert_timedelta(self.info['回复时间（秒）'])
 
             if self.is_trade is not None:
+                self.write(self.info)
+
+            elif self.info.get('手机号', None) is not None:
                 self.write(self.info)
 
     def extract_record(self, path):
