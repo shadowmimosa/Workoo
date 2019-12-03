@@ -1,8 +1,8 @@
 # -*- mode: python ; coding: utf-8 -*-
 
-import distutils
-if distutils.distutils_path.endswith('__init__.py'):
-    distutils.distutils_path = os.path.dirname(distutils.distutils_path)
+#import distutils
+#if distutils.distutils_path.endswith('__init__.py'):
+#    distutils.distutils_path = os.path.dirname(distutils.distutils_path)
 
 block_cipher = pyi_crypto.PyiBlockCipher(key='Shadow@tbrecord&1125')
 
