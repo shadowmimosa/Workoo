@@ -76,12 +76,12 @@ class DealEastmoney(object):
                 if resp == 502:
                     time.sleep(5)
                     logger.warning("--->Warning: http 500 now, try it")
-                    retry_count -=1
+                    retry_count -= 1
                     continue
                 elif resp == 400:
                     time.sleep(5)
                     logger.warning("--->Warning: http 400 now, try it")
-                    retry_count -=1
+                    retry_count -= 1
                     continue
 
     def deal_soup(self, *args, **kwargs):
@@ -226,7 +226,9 @@ class DealEastmoney(object):
                 elif "hinfo" in comment_em.attrs["class"]:
                     continue
 
-            comment_list.append(self.run_func(self.get_comment, comment_div))
+            data = self.run_func(self.get_comment, comment_div)
+            if data is not None:
+                comment_list.append(data)
 
         self.insert_comment(comment_list)
         self.date = comment_list[-1]["post_time"]
