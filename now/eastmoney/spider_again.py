@@ -66,7 +66,9 @@ class DealEastmoney(object):
 
     def deal_resp(self, path, header, data=None):
         # magic_time(0, 1)
-        while True:
+        retry_count = 5
+
+        while retry_count:
             resp = self.request.run(path, header=header, data=data)
             if isinstance(resp, str):
                 return resp
@@ -74,10 +76,12 @@ class DealEastmoney(object):
                 if resp == 502:
                     time.sleep(5)
                     logger.warning("--->Warning: http 500 now, try it")
+                    retry_count -=1
                     continue
                 elif resp == 400:
                     time.sleep(5)
                     logger.warning("--->Warning: http 400 now, try it")
+                    retry_count -=1
                     continue
 
     def deal_soup(self, *args, **kwargs):
@@ -98,8 +102,9 @@ class DealEastmoney(object):
 
     def deal_text(self, content: str):
         if isinstance(content, str):
-            return content.replace("\\", "\\\\").replace("'", "\\'").replace(
-                '"', '\\"')
+            return content.replace("\\",
+                                   "\\\\").replace("'",
+                                                   "\\'").replace('"', '\\"')
         else:
             logger.error(
                 "--->Error: the text is wrong, the type is {}, the text is {}".
@@ -131,8 +136,9 @@ class DealEastmoney(object):
         return post.replace("发表于", "").replace("东方财富", "").replace(
             "Android", "").replace("iPhone", "").replace("iPad", "").replace(
                 "股吧", "").replace("期货", "").replace("手机", "").replace(
-                    "网页", "").replace("电脑", "").replace("版", "").replace(
-                        "网", "").strip()
+                    "网页", "").replace("电脑",
+                                      "").replace("版", "").replace("网",
+                                                                   "").strip()
 
     def insert_comment(self, comment):
 
@@ -141,6 +147,7 @@ class DealEastmoney(object):
             pass
         else:
             logger.error("--->Error: insert failed")
+            logger.error("--->Error: the data is {}".format(comment))
 
     def clean_comment(self, comment):
         comment["read_count"] = self.run_func(self.deal_count,
@@ -177,7 +184,7 @@ class DealEastmoney(object):
         return self.clean_comment(comment)
 
     def get_post_time(self, href: str):
-        
+
         if "http://" in href:
             path = href
         elif "//" in href:
@@ -195,8 +202,9 @@ class DealEastmoney(object):
         # resp = self.deal_resp(
         #     "http://guba.eastmoney.com/list,002933,f_225.html", self.header)
 
-        comment_divs = self.deal_soup(
-            resp, attr={"class": "articleh"}, all_tag=True)
+        comment_divs = self.deal_soup(resp,
+                                      attr={"class": "articleh"},
+                                      all_tag=True)
 
         if len(comment_divs) == 0:
             self.date = "1970-01-01 00:00:00"
@@ -207,7 +215,9 @@ class DealEastmoney(object):
         for comment_div in comment_divs:
             comment_em = self.deal_soup(comment_div, "em")
             if comment_em is not None:
-                if comment_em.text in ["讨论", "悬赏", "公告", "资讯", "置顶", "话题", "推广"]:
+                if comment_em.text in [
+                        "讨论", "悬赏", "公告", "资讯", "置顶", "话题", "推广"
+                ]:
                     continue
                 elif "icon_list_hot" in comment_em.attrs["class"]:
                     continue
