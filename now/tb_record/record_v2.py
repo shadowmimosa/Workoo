@@ -1,12 +1,13 @@
 from time import time
 from os.path import *
 from json import dumps
-from xlwt import Workbook
 from chardet import detect
-from openpyxl import load_workbook
 from os import chdir, mkdir, listdir
 from datetime import datetime, timedelta
 from re import compile, search, findall, S
+from shutil import copyfile
+
+from excel_opea import ExcelOpea
 
 
 class DealRecord(object):
@@ -25,64 +26,21 @@ class DealRecord(object):
             '有无结尾话术',
             '手机号',
             '手机号所在记录',
-            # '聊天记录'
             '访客数据',
         ]
-        # self.phone_pattern = compile(r'\d{3}-\d{8}|\d{4}-\{7,8}')
         self.phone_pattern = compile(r'^1[34578]\d{9}')
 
         self.init_path()
-        self.init_sheet()
 
     def init_path(self):
-        try:
-            mkdir(self.dirpath)
-        except FileExistsError:
-            pass
-
-        try:
-            mkdir(self.record_path)
-        except FileExistsError:
-            pass
-
-        try:
-            mkdir(self.ending_path)
-        except FileExistsError:
-            pass
-
-        try:
-            mkdir(self.info_path)
-        except FileExistsError:
-            pass
-
-        try:
-            mkdir(self.keyword_path)
-        except FileExistsError:
-            pass
-
-    def init_sheet(self):
-        self.wkb = Workbook()
-        self.sheet = self.wkb.add_sheet('sheet1', cell_overwrite_ok=True)
-        self.row = 0
-        self.write(self.header)
-
-    def save(self):
-
-        self.wkb.save('{}{}.xls'.format(self.info_path, int(time() * 1000)))
-
-    def write(self, content: list or dict):
-        if isinstance(content, list):
-            for index, value in enumerate(content):
-                self.sheet.write(self.row, index, value)
-        elif isinstance(content, dict):
-            for index, value in enumerate(self.header):
-                try:
-                    need_write = content[value]
-                except KeyError:
-                    need_write = ''
-                self.sheet.write(self.row, index, need_write)
-
-        self.row += 1
+        for path in [
+                self.dirpath, self.record_path, self.info_path,
+                self.ending_path, self.keyword_path
+        ]:
+            try:
+                mkdir(path)
+            except FileExistsError:
+                continue
 
     def deal_text(self, content: list):
         time_pattern = compile(
@@ -235,7 +193,6 @@ class DealRecord(object):
 
         text = findall(r'={64}.*?={64}(.*?)={64}', content,
                        S)[0].strip('\n').split('\n')
-        # text1 = re.search(r'={64}[\n\s\r]*(.*)[\n\s\r]*={64}', content)
 
         text_list = self.deal_text(text)
 
@@ -243,15 +200,47 @@ class DealRecord(object):
             self.info = {}
             self.info['客服ID'] = self.staff
             self.info['客户ID'] = key
+
+            if key not in self.customer_list:
+                self.customer_list.append(key)
+            else:
+                continue
+
             self.ending_skill(value[-1])
             self.tourist(value[0]['time'])
 
             self.deal_time(value)
 
+    def summary(self, path):
+        summary_path = './data/结果/汇总.xlsx'
+        now_data = self.excel.read(path)
+
+        try:
+            last_data = self.excel.read(summary_path)
+        except FileNotFoundError:
+            # system('xcopy "{}" "{}"'.format(path, summary_path))
+            copyfile(path, summary_path)
+        else:
+            last_customer = [x[1] for x in last_data[1:-1]]
+
+            for line in now_data[1:-1]:
+                if line[1] not in last_customer:
+                    self.excel.append(line)
+                else:
+                    self.excel.append(line, fgColor='FF0000')
+
+            self.excel.save(path=summary_path, mode='read')
+
     def main(self):
         self.some_input()
 
-        self.tourist_list = read_xlsx_lines('./data/访客数据/访客数据.xlsx')
+        self.excel = ExcelOpea()
+        self.excel.init_sheet(header=self.header)
+        self.write = self.excel.write
+
+        self.tourist_list = self.excel.read('./data/访客数据/访客数据.xlsx')
+
+        self.customer_list = []
 
         path = '{}结尾话术.txt'.format(self.ending_path)
         self.ending_list = read_lines(path, judge_code(path))
@@ -266,7 +255,9 @@ class DealRecord(object):
         for filename in listdir(self.record_path):
             self.extract_record(join(self.record_path, filename))
 
-        self.save()
+        result_path = self.excel.save(self.info_path)
+
+        self.summary(result_path)
         input('文件已保存, 按任意键退出')
 
     def some_input(self):
@@ -325,30 +316,6 @@ def read_lines(path, encoding):
     return [x.strip('\n') for x in lines]
 
 
-def read_xlsx_lines(path):
-
-    workbook = load_workbook(path)
-    booksheet = workbook.active
-
-    rows = booksheet.rows
-    lines = []
-
-    for row in rows:
-        line = [col.value for col in row]
-        # cell_data_1 = booksheet.cell(row=i, column=3).value  #获取第i行1 列的数据
-        # cell_data_2 = booksheet.cell(row=i, column=4).value  #获取第i行 2 列的数据
-        # cell_data_3 = booksheet.cell(row=i, column=8).value  #获取第i行 3 列的数据
-        # cell_data_4 = booksheet.cell(row=i, column=18).value  #获取第i行 4 列的数据
-        # print(cell_data_1, cell_data_2, cell_data_3, cell_data_4)
-        lines.append(line)
-        # print(line)
-
-    return lines
-
-
 if __name__ == "__main__":
     chdir(dirname(abspath(__file__)))
-    # DealRecord().main()
-    # a = read_xlsx_lines("./data/访客数据/访客数据.xlsx")
-    a = read_xlsx_lines("./data/结果/1575452559752.xls")
-    print(a)
+    DealRecord().main()
