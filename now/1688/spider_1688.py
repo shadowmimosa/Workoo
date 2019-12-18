@@ -11,6 +11,9 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 
 from utils.soup import DealSoup
+from utils.request import Query as req
+
+from skimage import io
 
 
 def magic_time(during=3):
@@ -55,6 +58,12 @@ class OperaChrome(object):
     #     options = webdriver.ChromeOptions()
     #     options.add_experimental_option('mobileEmulation', mobileEmulation)
     #     driver = webdriver.Chrome(chrome_options=options)
+    def get_proxy(self):
+        resp = req().run(
+            path=
+            'http://route.xiongmaodaili.com/xiongmao-web/api/glip?secret=3648c286d4be950dfeb744412178bab8&orderNo=GL20191218133200tOpTjxj6&count=1&isTxt=1&proxyType=1'
+        )
+        return remove_charater(resp)
 
     def init_chrome(self, path):
         options = webdriver.ChromeOptions()
@@ -67,12 +76,14 @@ class OperaChrome(object):
         options.add_experimental_option('excludeSwitches',
                                         ['enable-automation'])
 
-        # options.add_argument('--proxy-server=http://121.226.215.242:9999')
+        # options.add_argument('--proxy-server=http://{}'.format(
+        #     self.get_proxy()))
 
         # prefs = {"profile.managed_default_content_settings.images": 2}
         # options.add_experimental_option("prefs", prefs)
         driver = webdriver.Chrome(executable_path="./chromedriver.exe",
                                   options=options)
+        # driver = webdriver.Edge()
         if path is not None:
             driver.get(path)
 
@@ -119,7 +130,9 @@ class OperaChrome(object):
 
 
 def remove_charater(content: str):
-    return content.replace('\n', '').replace(' ', '')
+    return content.replace('\n', '').replace('\t',
+                                             '').replace('\r',
+                                                         '').replace(' ', '')
 
 
 def login(driver):
@@ -129,6 +142,7 @@ def login(driver):
     login_button = '//*[@id="J_SubmitStatic"]'
 
 
+@magic_time(1.5)
 def good_detail(html, path: str):
     info = {}
     # {'产品名称' '产品价格' '产品评论量' '产品评论等级' '产品交易量' '产品网址'}
@@ -139,7 +153,11 @@ def good_detail(html, path: str):
     # info['产品评论量'] = driver.find_element_by_class_name(
     #     'mod-detail-otabs').find_element_by_tag_name('em')
     info['产品名称'] = soup.judge(html, attr={'class': 'd-title'}).text
-    info['产品价格'] = ''
+    info['产品价格'] = soup.judge(soup.judge(html, attr={'id':
+                                                     'mod-detail-price'}),
+                              attr={
+                                  'class': 'value'
+                              }).text
     temp = soup.judge(html,
                       attr={'class': 'd-content static-content'},
                       all_tag=True)[1]
@@ -155,6 +173,7 @@ def good_detail(html, path: str):
     return info
 
 
+@magic_time(1.5)
 def shop_detail(html):
     soup = DealSoup()
     info = {}
@@ -165,9 +184,11 @@ def shop_detail(html):
                                attr={
                                    'class': 'icon icon-chengxintong'
                                }).text
-    info['诚信等级'] = soup.judge(info_box, attr={
-        'class': 'icon icon-credit-pm'
-    }).text
+
+    info['诚信等级'] = soup.judge(
+        soup.judge(info_box, attr={'class': 'company-name'}),
+        attr='a',
+        all_tag=True)[-1].text  # 'icon icon-credit-pm' or 'icon icon-credit'
 
     li_list = soup.judge(soup.judge(html, attr={'class': 'section-main'}),
                          attr='li',
@@ -201,6 +222,10 @@ def write(content=None):
         writer.writerow(need)
 
 
+def detail(driver, keyword):
+    pass
+
+
 def main():
     login_path = 'https://login.1688.com'
     home_path = 'https://auto.1688.com/'
@@ -218,40 +243,76 @@ def main():
         '车载显示器', '车载手机支架', '车载蓝牙耳机', '车载蓝牙音箱', '车载储物', '车载冰箱', '车载充电器', '车载逆变器'
     ]
     chrome = OperaChrome(login_path)
+    chrome.driver.switch_to.frame(
+        chrome.driver.find_element_by_tag_name("iframe"))
+    qrcode = chrome.driver.find_element_by_xpath(
+        '//*[@id="J_QRCodeImg"]/img').get_attribute("src")
+
+    image = io.imread(qrcode)
+    io.imshow(image)
+    io.show()
+
     time.sleep(10)
 
-    chrome.driver.get(home_path)
-    chrome.click(dropdown_path)
-    chrome.click(supplier_path)
-    chrome.input(input_path, keyword='车载mp3')
-    chrome.click(button_path)
+    for keyword in category:
+        count = 0
+        chrome.driver.get(home_path)
+        chrome.click(dropdown_path)
+        chrome.click(supplier_path)
+        chrome.input(input_path, keyword=keyword)
+        chrome.click(button_path)
 
-    elements = chrome.driver.find_elements_by_class_name('company-list-item')
-    for supplier in elements:
-        chrome.driver.execute_script('arguments[0].scrollIntoView(true);',
-                                     supplier)
+        while count < 249:
+            elements = chrome.driver.find_elements_by_class_name(
+                'company-list-item')
 
-        title = supplier.find_element_by_class_name(
-            'list-item-title-text').get_attribute("title")
-        if title in already:
-            continue
+            for supplier in elements:
+                try:
+                    chrome.driver.execute_script(
+                        'arguments[0].scrollIntoView(true);', supplier)
+                except StaleElementReferenceException as exc:
+                    print("---> Waiting supplier")
+                    time.sleep(2)
+                    chrome.driver.execute_script(
+                        'arguments[0].scrollIntoView(true);', supplier)
 
-        chrome.driver.find_element_by_class_name('list-item-itemsWrap').click()
-        chrome.driver.switch_to_window(chrome.driver.window_handles[-1])
-        chrome.click('//*[@id="mod-detail-otabs"]/div/ul/li[3]')
-        good_info = good_detail(chrome.driver.page_source,
-                                chrome.driver.current_url)
+                title = supplier.find_element_by_class_name(
+                    'list-item-title-text').get_attribute("title")
+                if title in already:
+                    continue
+                else:
+                    already.append(title)
 
-        chrome.driver.find_element_by_class_name('creditdetail-page').click()
-        chrome.driver.switch_to_window(chrome.driver.window_handles[-1])
-        shop_info = shop_detail(chrome.driver.page_source)
+                supplier.find_element_by_class_name(
+                    'list-item-itemsWrap').click()
+                chrome.driver.switch_to_window(
+                    chrome.driver.window_handles[-1])
+                chrome.click('//*[@id="mod-detail-otabs"]/div/ul/li[3]')
+                try:
+                    good_info = good_detail(chrome.driver.page_source,
+                                            chrome.driver.current_url)
+                except Exception as exc:
+                    print('good info is wrong, {}'.format(exc))
+                    continue
 
-        chrome.driver.close()
-        chrome.driver.switch_to_window(chrome.driver.window_handles[-1])
-        # chrome.driver.close()
-        # chrome.driver.switch_to_window(chrome.driver.window_handles[-1])
-        write({**good_info, **shop_info})
-        print()
+                chrome.driver.find_element_by_class_name(
+                    'creditdetail-page').click()
+                chrome.driver.switch_to_window(
+                    chrome.driver.window_handles[-1])
+                try:
+                    shop_info = shop_detail(chrome.driver.page_source)
+                except Exception as exc:
+                    print('shop info is wrong, {}'.format(exc))
+                    continue
+
+                chrome.driver.close()
+                chrome.driver.switch_to_window(
+                    chrome.driver.window_handles[-1])
+
+                write({**good_info, **shop_info})
+                count += 1
+
+            chrome.driver.find_element_by_class_name('page-next').click()
 
     print(chrome)
 
