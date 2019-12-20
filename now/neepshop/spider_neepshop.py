@@ -85,7 +85,7 @@ async def get_sale(skuid):
 
 
 async def detail(skuids: list):
-    excel = ExcelOpea()
+    excel = ExcelOpea('./1.xls')
 
     for skuid in skuids:
         code = await get_code(skuid)
@@ -130,9 +130,9 @@ async def main():
 
 if __name__ == "__main__":
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
-    asyncio.run(main())
+    # asyncio.run(main())
 
-    # try:
-    #     asyncio.run(main())
-    # except Exception as exc:
-    #     print('Error')
+    try:
+        asyncio.run(main())
+    except Exception as exc:
+        print('Error')
