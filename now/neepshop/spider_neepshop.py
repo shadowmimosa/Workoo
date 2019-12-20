@@ -124,8 +124,8 @@ async def main():
 
     end_time = time.time() - start_time
 
-    if end_time < 1100:
-        magic_time(0, 1100 - end_time)
+    # if end_time < 1100:
+    #     magic_time(0, 1100 - end_time)
 
 
 if __name__ == "__main__":
