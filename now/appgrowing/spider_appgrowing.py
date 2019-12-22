@@ -127,7 +127,11 @@ def leaflet_list(category, page):
     path = f'{host}/api/leaflet/mt?category={category}&channel={channel}&startDate={startDate}&endDate={endDate}&order={order}&isExact={isExact}&page={page}&limit={limit}'
 
     resp = req(path, header=header)
-    data = json.loads(resp)
+
+    data = run_func(json.loads, resp)
+
+    if not data:
+        print(data)
 
     if data['m'] == 'ok':
         for value in data['data']:
