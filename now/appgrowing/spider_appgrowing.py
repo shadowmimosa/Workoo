@@ -132,7 +132,8 @@ def leaflet_list(category, page):
 
     if not data:
         with open('./error.txt', 'w', encoding='utf-8') as fn:
-            fn.write(resp)
+            fn.write(resp.text)
+        print(resp.text)
 
     if data['m'] == 'ok':
         for value in data['data']:
