@@ -131,7 +131,8 @@ def leaflet_list(category, page):
     data = run_func(json.loads, resp)
 
     if not data:
-        print(resp)
+        with open('./error.txt', 'w', encoding='utf-8') as fn:
+            fn.write(resp)
 
     if data['m'] == 'ok':
         for value in data['data']:
