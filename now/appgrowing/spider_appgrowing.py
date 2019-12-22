@@ -131,7 +131,7 @@ def leaflet_list(category, page):
     data = run_func(json.loads, resp)
 
     if not data:
-        print(data)
+        print(resp)
 
     if data['m'] == 'ok':
         for value in data['data']:
