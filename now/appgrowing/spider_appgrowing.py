@@ -152,17 +152,19 @@ def leaflet_list(category, page):
             company_id = value['sellerCompany']['id']
             company_name = value['sellerCompany']['name']
 
-            time.sleep(2)
+            time.sleep(1)
             link = run_func(get_link, code)
-            if not judge_repeat(link):
-                continue
-            time.sleep(2)
+            # if not judge_repeat(link):
+            #     continue
+            time.sleep(1)
             phones = run_func(get_phones, company_id)
-            time.sleep(2)
+            time.sleep(1)
             phone_detail = run_func(phone_in_link, link)
 
             mongo.insert_many([{
                 'code': code,
+                'category': category,
+                'page': page,
                 'companyId': company_id,
                 'companyName': company_name,
                 'link': link,
@@ -190,7 +192,7 @@ def main():
                     continue
                 else:
                     break
-            time.sleep(5)
+            time.sleep(2)
 
 
 req = Query().run
