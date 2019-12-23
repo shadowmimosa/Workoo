@@ -1,4 +1,5 @@
-import json
+import json, time
+import datetime
 from urllib import parse
 from pymongo import MongoClient
 
@@ -106,9 +107,19 @@ def phone_in_link(path):
         return
 
 
+def judge_repeat(company_id):
+    # from bson import ObjectId
+    result = mongo.find({'link': company_id})
+    # result = mongo.find({'_id': ObjectId('5e00236fce9a937967a60bba')})
+
+    # mongo.insert_one({'phoneDetail': a})
+
+    if len(list(result)) < 1:
+        return True
+
+
 def get_phones(company_id):
     path = f'{host}/api/sellerCompany?sellerCompanyId={company_id}'
-
     resp = req(path, header=header)
     data = json.loads(resp)
 
@@ -131,9 +142,9 @@ def leaflet_list(category, page):
     data = run_func(json.loads, resp)
 
     if not data:
-        with open('./error.txt', 'w', encoding='utf-8') as fn:
-            fn.write(resp.text)
-        print(resp.text)
+        with open('./error.txt', 'a', encoding='utf-8') as fn:
+            fn.write(resp)
+        print(resp)
 
     if data['m'] == 'ok':
         for value in data['data']:
@@ -141,8 +152,13 @@ def leaflet_list(category, page):
             company_id = value['sellerCompany']['id']
             company_name = value['sellerCompany']['name']
 
+            time.sleep(2)
             link = run_func(get_link, code)
+            if not judge_repeat(link):
+                continue
+            time.sleep(2)
             phones = run_func(get_phones, company_id)
+            time.sleep(2)
             phone_detail = run_func(phone_in_link, link)
 
             mongo.insert_many([{
@@ -152,6 +168,7 @@ def leaflet_list(category, page):
                 'link': link,
                 'phones': phones,
                 'phoneDetail': phone_detail,
+                'addTime': datetime.datetime.utcnow()
             }])
             logger.debug(phones, link, phone_detail)
         return data['total']
@@ -173,6 +190,7 @@ def main():
                     continue
                 else:
                     break
+            time.sleep(5)
 
 
 req = Query().run
@@ -182,7 +200,7 @@ header = {
     'Host': 'ds.appgrowing.cn',
     'Accept': 'application/json, text/plain, */*',
     'User-Agent':
-    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
     'Sec-Fetch-Site': 'same-origin',
     'Sec-Fetch-Mode': 'cors',
     # 'Referer':
