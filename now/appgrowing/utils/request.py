@@ -146,4 +146,14 @@ class Query(object):
         elif sign:
             return resp.content
         else:
-            return resp.text
+            if resp != 'https://static-ag.ymcdn.cn/common/429.html':
+                return resp.text
+            else:
+                while True:
+                    resp = self.deal_re(url=path, header=header, **kwargs)
+
+                    if resp == 'https://static-ag.ymcdn.cn/common/429.html':
+                        logger.warning('---> Access restricted, sleep now.')
+                        time.sleep(3600)
+                    else:
+                        return resp.text

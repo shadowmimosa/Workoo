@@ -107,12 +107,8 @@ def phone_in_link(path):
         return
 
 
-def judge_repeat(company_id):
-    # from bson import ObjectId
-    result = mongo.find({'link': company_id})
-    # result = mongo.find({'_id': ObjectId('5e00236fce9a937967a60bba')})
-
-    # mongo.insert_one({'phoneDetail': a})
+def judge_repeat(code):
+    result = mongo.find({'code': code})
 
     if len(list(result)) < 1:
         return True
@@ -141,11 +137,6 @@ def leaflet_list(category, page):
 
     data = run_func(json.loads, resp)
 
-    if not data:
-        with open('./error.txt', 'a', encoding='utf-8') as fn:
-            fn.write(resp)
-        print(resp)
-
     if data['m'] == 'ok':
         for value in data['data']:
             code = value['id']
@@ -154,8 +145,11 @@ def leaflet_list(category, page):
 
             time.sleep(1)
             link = run_func(get_link, code)
-            # if not judge_repeat(link):
-            #     continue
+
+            if not judge_repeat(code):
+                logger.info(f'---> the {code} exist already')
+                continue
+
             time.sleep(1)
             phones = run_func(get_phones, company_id)
             time.sleep(1)
@@ -187,6 +181,7 @@ def main():
             break
         else:
             for page in range(1, 167):
+                page = 8
                 total = run_func(leaflet_list, categroy, page)
                 if total and total / 60 > page:
                     continue
