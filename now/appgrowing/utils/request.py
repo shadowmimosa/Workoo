@@ -94,10 +94,10 @@ class Query(object):
 
         try:
             if resp.status_code == 200:
-                key = 'Content-Encoding'
-                if(key in resp.headers and resp.headers['Content-Encoding'] == 'br'):
-                    data = brotli.decompress(resp.content)
-                    data1 = data.decode('utf-8')
+                # key = 'Content-Encoding'
+                # if(key in resp.headers and resp.headers['Content-Encoding'] == 'br'):
+                #     data = brotli.decompress(resp.content)
+                #     data1 = data.decode('utf-8')
                 gb_encode = [
                     "gb2312", "GB2312", "gb18030", "GB18030", "GBK", "gbk"
                 ]
