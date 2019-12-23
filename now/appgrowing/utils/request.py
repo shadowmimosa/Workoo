@@ -7,6 +7,7 @@ import hashlib
 import urllib3
 import requests
 from config import logger
+from config import CookieList
 
 
 class Query(object):
@@ -49,7 +50,7 @@ class Query(object):
         #     # 'Accept-Encoding': 'gzip, deflate, br',
         #     # 'Accept-Language': 'zh-CN,zh;q=0.9',
         #     'Cookie': '_ga=GA1.2.371741522.1576915056; _gid=GA1.2.1371933288.1577031516; _gat_gtag_UA_4002880_19=1; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%2216f277635b23f7-0206d8da8dfeb4-6701434-2073600-16f277635b35d4%22%2C%22%24device_id%22%3A%2216f277635b23f7-0206d8da8dfeb4-6701434-2073600-16f277635b35d4%22%2C%22props%22%3A%7B%22%24latest_referrer%22%3A%22https%3A%2F%2Fyoucloud.com%2Flogin%2Fappgrowing%2F%22%2C%22%24latest_referrer_host%22%3A%22youcloud.com%22%2C%22%24latest_traffic_source_type%22%3A%22%E5%BC%95%E8%8D%90%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC%22%7D%7D; AG_Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImJhZjVlN2U2LTdmOWMtMzY3YS05N2FjLTUxZjI1YzlhYjFhZSIsImlhdCI6MTU3NzA3MjI3NywiZXhwIjoxNTc5NjY0Mjc2LCJhY2MiOjIyNjg0NH0.744BVt_e9H44ayXcQb-S_LTzWly9UjMWbnq-2WdBTWc'
-        # }        
+        # }
         try:
             data = kwargs.get("data")
         except:
@@ -66,22 +67,22 @@ class Query(object):
             try:
 
                 if isinstance(data, dict):
-                    resp = sesscion_a.post(
-                        url,
-                        headers=header,
-                        data=json.dumps(data),
-                        timeout=(2, 6))
+                    resp = sesscion_a.post(url,
+                                           headers=header,
+                                           data=json.dumps(data),
+                                           timeout=(2, 6))
                 elif isinstance(files, dict):
                     resp = sesscion_a.post(url, files=files, timeout=(2, 6))
                 elif data:
-                    resp = sesscion_a.post(
-                        url, headers=header, data=data, timeout=(2, 6))
+                    resp = sesscion_a.post(url,
+                                           headers=header,
+                                           data=data,
+                                           timeout=(2, 6))
                 else:
-                    resp = sesscion_a.get(
-                        url,
-                        headers=header,
-                        allow_redirects=False,
-                        timeout=(2, 6))
+                    resp = sesscion_a.get(url,
+                                          headers=header,
+                                          allow_redirects=False,
+                                          timeout=(2, 6))
                 retry_count = 0
             except Exception as exc:
                 retry_count -= 1
@@ -139,6 +140,16 @@ class Query(object):
         resp = self.deal_re(url=path, header=header, **kwargs)
         if resp is None:
             return ""
+        elif resp == 'https://static-ag.ymcdn.cn/common/429.html':
+            while True:
+                index = CookieList.index(header['Cookie'])
+                header['Cookie'] = CookieList[[1, 0].index(index)]
+                resp = self.deal_re(url=path, header=header, **kwargs)
+                if resp == 'https://static-ag.ymcdn.cn/common/429.html':
+                    logger.warning('---> Access restricted, sleep now.')
+                    time.sleep(600)
+                else:
+                    return resp.text
         elif isinstance(resp, str):
             return resp
         elif isinstance(resp, int):
@@ -146,14 +157,4 @@ class Query(object):
         elif sign:
             return resp.content
         else:
-            if resp != 'https://static-ag.ymcdn.cn/common/429.html':
-                return resp.text
-            else:
-                while True:
-                    resp = self.deal_re(url=path, header=header, **kwargs)
-
-                    if resp == 'https://static-ag.ymcdn.cn/common/429.html':
-                        logger.warning('---> Access restricted, sleep now.')
-                        time.sleep(3600)
-                    else:
-                        return resp.text
+            return resp.text

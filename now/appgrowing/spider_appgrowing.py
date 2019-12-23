@@ -143,11 +143,12 @@ def leaflet_list(category, page):
             company_id = value['sellerCompany']['id']
             company_name = value['sellerCompany']['name']
 
+
             time.sleep(1)
             link = run_func(get_link, code)
 
-            if not judge_repeat(code):
-                logger.info(f'---> the {code} exist already')
+            if not judge_repeat(link):
+                logger.info(f'---> the {link} exist already')
                 continue
 
             time.sleep(1)
@@ -181,7 +182,6 @@ def main():
             break
         else:
             for page in range(1, 167):
-                page = 8
                 total = run_func(leaflet_list, categroy, page)
                 if total and total / 60 > page:
                     continue
