@@ -29,4 +29,7 @@ nohup.out
 # record
 *.log
 
+# VsCode
+settings.json
+
 # special
