@@ -4,12 +4,12 @@
 #if distutils.distutils_path.endswith('__init__.py'):
 #    distutils.distutils_path = os.path.dirname(distutils.distutils_path)
 
-block_cipher = pyi_crypto.PyiBlockCipher(key='Shadow@tbrecord&1125')
+block_cipher = pyi_crypto.PyiBlockCipher(key='Shadow@tbrecord&1224')
 
 a = Analysis(
-    ['record.py'],
+    ['record_v3.py'],
     pathex=[
-        'C:\\Users\\ShadowMimosa\\Documents\\GitRepository\\Workoo\\now\\tb_record'
+        'C:\\Users\\ShadowMimosa\\Documents\\Repos\\Workoo\\now\\tb_record'
     ],
     binaries=[],
     datas=[],
@@ -29,7 +29,7 @@ exe = EXE(pyz,
           a.binaries,
           a.zipfiles,
           a.datas, [],
-          name='tbrecord',
+          name='record_v3',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,

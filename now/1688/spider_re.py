@@ -132,14 +132,14 @@ class Deal(object):
 
     def main(self):
         category = [
-            # '车载mp3',
-            # '行车记录仪',
-            # 'GPS定位器',
-            # '车载空气净化器',
-            # '车载吸尘器',
-            # '车载摄像头',
-            # '车载充电器',
-            # '车载显示器',
+            '车载mp3',
+            '行车记录仪',
+            'GPS定位器',
+            '车载空气净化器',
+            '车载吸尘器',
+            '车载摄像头',
+            '车载充电器',
+            '车载显示器',
             '车载手机支架',
             '车载蓝牙耳机',
             '车载蓝牙音箱',
@@ -152,7 +152,7 @@ class Deal(object):
             already = fn.read().split('\n')
         error_count = 0
         for keyword in category:
-            count, page = (0, 1) if keyword != '车载充电器' else (71, 3)
+            count, page = (0, 1) if keyword != '车载充电器' else (56, 3)
             keyword = quote(str(keyword).encode('gbk'))
             while count < 256:
                 self.header['Host'] = 's.1688.com'
