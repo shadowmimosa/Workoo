@@ -1,12 +1,11 @@
 import json, time
 import datetime
-from urllib import parse
-from pymongo import MongoClient
+from bson import ObjectId
 
 from utils.run import run_func
 from utils.request import Query
 from utils.soup import DealSoup
-from config import Cookie, DEBUG, logger
+from config import DEBUG, logger, mongo, get_cookie
 
 
 def clean_json():
@@ -39,21 +38,10 @@ def clean_json():
         fn.write(json.dumps(new_data))
 
 
-def init_mongo():
-    from config import MONGO
-
-    if DEBUG:
-        config = MONGO["debug"]
-    else:
-        config = MONGO["product"]
-
-    config["user"] = parse.quote_plus(config["user"])
-    config["passwd"] = parse.quote_plus(config["passwd"])
-
-    client = MongoClient(
-        "mongodb://{user}:{passwd}@{host}:{port}/".format(**config))
-
-    return client["appgrowing"]["appgrowing"]
+def magic_time():
+    second = mongo['cookie'].find_one(
+        {'_id': ObjectId('5e03287f913800005e007d28')})['waiting']
+    time.sleep(second)
 
 
 def get_id():
@@ -108,7 +96,7 @@ def phone_in_link(path):
 
 
 def judge_repeat(code):
-    result = mongo.find({'code': code})
+    result = mongo["appgrowing"].find({'companyId': code})
 
     if len(list(result)) < 1:
         return True
@@ -125,8 +113,8 @@ def get_phones(company_id):
 def leaflet_list(category, page):
 
     channel = 102
-    startDate = '2019-06-25'
-    endDate = '2019-12-21'
+    startDate = '2019-11-26'
+    endDate = '2019-12-25'
     order = '-updatedAt'
     isExact = 'false'
     limit = 60
@@ -143,29 +131,36 @@ def leaflet_list(category, page):
             company_id = value['sellerCompany']['id']
             company_name = value['sellerCompany']['name']
 
-
-            time.sleep(1)
-            link = run_func(get_link, code)
-
-            if not judge_repeat(link):
-                logger.info(f'---> the {link} exist already')
+            if not judge_repeat(company_id):
+                logger.info(f'---> the {company_id} exist already')
                 continue
 
-            time.sleep(1)
+            link = run_func(get_link, code)
+
+            magic_time()
             phones = run_func(get_phones, company_id)
-            time.sleep(1)
+            magic_time()
             phone_detail = run_func(phone_in_link, link)
 
-            mongo.insert_many([{
-                'code': code,
-                'category': category,
-                'page': page,
-                'companyId': company_id,
-                'companyName': company_name,
-                'link': link,
-                'phones': phones,
-                'phoneDetail': phone_detail,
-                'addTime': datetime.datetime.utcnow()
+            mongo["appgrowing"].insert_many([{
+                'code':
+                code,
+                'category':
+                category,
+                'page':
+                page,
+                'companyId':
+                company_id,
+                'companyName':
+                company_name,
+                'link':
+                link,
+                'phones':
+                phones,
+                'phoneDetail':
+                phone_detail,
+                'addTime':
+                datetime.datetime.utcnow()
             }])
             logger.debug(phones, link, phone_detail)
         return data['total']
@@ -204,7 +199,7 @@ header = {
     # 'https://ds.appgrowing.cn/leaflet?category=1210101&channel=102&startDate=2019-06-25&endDate=2019-12-21&order=-updatedAt&isExact=false&page=1',
     'Accept-Encoding': 'gzip, deflate, br',
     'Accept-Language': 'zh-CN,zh;q=0.9',
-    'Cookie': Cookie
+    'Cookie': get_cookie()
 }
 header_fyeds = {
     'Host': 'd9650aad.fyeds6.com',
@@ -231,8 +226,6 @@ header_snssdk = {
     'Accept-Encoding': 'gzip, deflate, br',
     'Accept-Language': 'zh-CN,zh;q=0.9'
 }
-
-mongo = init_mongo()
 
 if __name__ == "__main__":
     # clean_json()

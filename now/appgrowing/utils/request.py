@@ -1,13 +1,13 @@
 import os
 import json
 import time
+import datetime
 import brotli
 import urllib
 import hashlib
 import urllib3
 import requests
-from config import logger
-from config import CookieList
+from config import logger, CookieList, mongo, get_cookie
 
 
 class Query(object):
@@ -38,19 +38,7 @@ class Query(object):
 
         url = kwargs.get("url")
         header = kwargs.get("header")
-        # header = {
-        #     # 'Host': 'ds.appgrowing.cn',
-        #     # 'Accept': 'application/json, text/plain, */*',
-        #     # 'User-Agent':
-        #     #     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
-        #     # 'Sec-Fetch-Site': 'same-origin',
-        #     # 'Sec-Fetch-Mode': 'cors',
-        #     # # 'Referer':
-        #     # # 'https://ds.appgrowing.cn/leaflet?category=1210101&channel=102&startDate=2019-06-25&endDate=2019-12-21&order=-updatedAt&isExact=false&page=1',
-        #     # 'Accept-Encoding': 'gzip, deflate, br',
-        #     # 'Accept-Language': 'zh-CN,zh;q=0.9',
-        #     'Cookie': '_ga=GA1.2.371741522.1576915056; _gid=GA1.2.1371933288.1577031516; _gat_gtag_UA_4002880_19=1; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%2216f277635b23f7-0206d8da8dfeb4-6701434-2073600-16f277635b35d4%22%2C%22%24device_id%22%3A%2216f277635b23f7-0206d8da8dfeb4-6701434-2073600-16f277635b35d4%22%2C%22props%22%3A%7B%22%24latest_referrer%22%3A%22https%3A%2F%2Fyoucloud.com%2Flogin%2Fappgrowing%2F%22%2C%22%24latest_referrer_host%22%3A%22youcloud.com%22%2C%22%24latest_traffic_source_type%22%3A%22%E5%BC%95%E8%8D%90%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC%22%7D%7D; AG_Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImJhZjVlN2U2LTdmOWMtMzY3YS05N2FjLTUxZjI1YzlhYjFhZSIsImlhdCI6MTU3NzA3MjI3NywiZXhwIjoxNTc5NjY0Mjc2LCJhY2MiOjIyNjg0NH0.744BVt_e9H44ayXcQb-S_LTzWly9UjMWbnq-2WdBTWc'
-        # }
+
         try:
             data = kwargs.get("data")
         except:
@@ -95,10 +83,6 @@ class Query(object):
 
         try:
             if resp.status_code == 200:
-                # key = 'Content-Encoding'
-                # if(key in resp.headers and resp.headers['Content-Encoding'] == 'br'):
-                #     data = brotli.decompress(resp.content)
-                #     data1 = data.decode('utf-8')
                 gb_encode = [
                     "gb2312", "GB2312", "gb18030", "GB18030", "GBK", "gbk"
                 ]
@@ -142,14 +126,26 @@ class Query(object):
             return ""
         elif resp == 'https://static-ag.ymcdn.cn/common/429.html':
             while True:
-                index = CookieList.index(header['Cookie'])
-                header['Cookie'] = CookieList[[1, 0].index(index)]
-                resp = self.deal_re(url=path, header=header, **kwargs)
-                if resp == 'https://static-ag.ymcdn.cn/common/429.html':
-                    logger.warning('---> Access restricted, sleep now.')
-                    time.sleep(600)
+                # index = CookieList.index(header['Cookie'])
+                # header['Cookie'] = CookieList[[1, 0].index(index)]
+                cookie = get_cookie()
+                if cookie:
+                    resp = self.deal_re(url=path, header=header, **kwargs)
+                    if resp == 'https://static-ag.ymcdn.cn/common/429.html':
+                        mongo['cookie'].update_one({'cookie': cookie}, {
+                            "$set": {
+                                "time":
+                                datetime.datetime.utcnow() +
+                                datetime.timedelta(minutes=20)
+                            }
+                        })
+                        logger.warning('---> Access restricted, sleep now.')
+                        time.sleep(600)
+                    else:
+                        return resp.text
                 else:
-                    return resp.text
+                    logger.warning('---> No cookie, sleep now.')
+                    time.sleep(600)
         elif isinstance(resp, str):
             return resp
         elif isinstance(resp, int):
