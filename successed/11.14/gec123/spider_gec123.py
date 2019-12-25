@@ -170,13 +170,15 @@ class DealGec(object):
                 return text
 
     def remove_character(self, content: str):
-        return content.replace("\n", "").replace("\r", "").replace(" ",
-                                                                   "").replace(
-                                                                       ")", "")
+        return content.replace("\n",
+                               "").replace("\r",
+                                           "").replace(" ",
+                                                       "").replace(")", "")
 
     def deal_detail(self, page):
-        resp = run_func(
-            self.request, self.bid_path.format(page), header=self.header)
+        resp = run_func(self.request,
+                        self.bid_path.format(page),
+                        header=self.header)
         data = json.loads(resp)["packages"]
 
         for item in data:
@@ -184,10 +186,9 @@ class DealGec(object):
             path = self.bid_detail.format(item["noticeId"])
             resp = run_func(self.request, path, header=self.header)
             raw_obj = run_func(self.soup, resp)
-            item_id = run_func(
-                self.soup, raw_obj, attr={
-                    "class": "enqNo"
-                }).text.split("：")[-1]
+            item_id = run_func(self.soup, raw_obj, attr={
+                "class": "enqNo"
+            }).text.split("：")[-1]
 
             info["网上竞价编号"] = self.remove_character(item_id)
 
@@ -198,8 +199,10 @@ class DealGec(object):
             info["金额上限"] = item["totalLimit"]
             info["path"] = path
 
-            all_binding = run_func(
-                self.soup, raw_obj, attr={"class": "ng-binding"}, all_tag=True)
+            all_binding = run_func(self.soup,
+                                   raw_obj,
+                                   attr={"class": "ng-binding"},
+                                   all_tag=True)
 
             for binding in all_binding:
                 if "单位名称：" in binding.text:
@@ -214,10 +217,12 @@ class DealGec(object):
                 "%Y-%m-%d %H:%M:%S",
                 time.localtime(int(item["publishTime"]) / 1000))
 
-            info["竞价截止时间"] = run_func(
-                self.soup, raw_obj, attr={
-                    "class": "endTime ng-binding"
-                }).text.split("：")[-1].replace("（北京）", "")
+            info["竞价截止时间"] = run_func(self.soup,
+                                      raw_obj,
+                                      attr={
+                                          "class": "endTime ng-binding"
+                                      }).text.split("：")[-1].replace(
+                                          "（北京）", "")
 
             tr_json = []
 
@@ -285,12 +290,11 @@ class DealGec(object):
             if "item.result==1\"" not in detail_data["notice"]["html"]:
                 continue
 
-            info["中标公司"] = run_func(
-                self.soup,
-                detail_data["notice"]["html"],
-                attr={
-                    "ng-bind": "quote.providerOrgName"
-                }).text
+            info["中标公司"] = run_func(self.soup,
+                                    detail_data["notice"]["html"],
+                                    attr={
+                                        "ng-bind": "quote.providerOrgName"
+                                    }).text
             # run_func(
             #     self.soup,
             #     detail_data["notice"]["html"],
@@ -301,13 +305,18 @@ class DealGec(object):
             info["成交公告时间"] = detail_data["notice"]["bidBeginTime"]
             info["竞价开始时间"] = ""
             info["竞价截至时间"] = ""
-            info["中标总额"] = detail_data["notice"]["projectBudget"]
+
+            temp1 = json.loads(detail_data['notice']['purchaseDes'])
+            temp2 = temp1[0].get('good') if temp1[0] else None
+            temp3 = temp2[0].get('count') if temp2[0] else None
+
+            info["中标总额"] = temp3 if temp3 else detail_data["notice"][
+                "projectBudget"]
 
             tr_json = []
-            detail_obj = run_func(
-                self.soup,
-                detail_data["notice"]["html"],
-                attr={"ng-if": "!detail.sampleImagePath"})
+            detail_obj = run_func(self.soup,
+                                  detail_data["notice"]["html"],
+                                  attr={"ng-if": "!detail.sampleImagePath"})
 
             details = detail_obj.text.replace(" ",
                                               "").strip("\n").split("\n\n")
