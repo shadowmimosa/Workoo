@@ -305,13 +305,13 @@ class DealGec(object):
             info["成交公告时间"] = detail_data["notice"]["bidBeginTime"]
             info["竞价开始时间"] = ""
             info["竞价截至时间"] = ""
-            
 
             temp1 = json.loads(detail_data['notice']['purchaseDes'])
             temp2 = temp1[0].get('good') if temp1[0] else None
             temp3 = temp2[0].get('count') if temp2[0] else None
 
-            info["中标总额"] = temp3 if temp3 else detail_data["notice"]["projectBudget"] 
+            info["中标总额"] = temp3 if temp3 else detail_data["notice"][
+                "projectBudget"]
 
             tr_json = []
             detail_obj = run_func(self.soup,
