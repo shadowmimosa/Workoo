@@ -11,7 +11,7 @@ from config import DEBUG, logger, mongo, get_cookie
 def clean_json():
     new_data = []
 
-    with open('./data/categroy.json', 'r', encoding='utf-8') as fn:
+    with open('./data/category.json', 'r', encoding='utf-8') as fn:
         data = json.loads(fn.read())
 
     init = -1
@@ -21,18 +21,18 @@ def clean_json():
             new_data.append(value)
             init += 1
         elif 99 < value['parentId'] < 999:
-            if new_data[init].get('categroy') is None:
-                new_data[init]['categroy'] = []
-            new_data[init]['categroy'].append(value)
+            if new_data[init].get('category') is None:
+                new_data[init]['category'] = []
+            new_data[init]['category'].append(value)
             init_ += 1
         else:
             try:
-                new_data[init]['categroy'][init_]
+                new_data[init]['category'][init_]
             except IndexError:
                 init_ = 0
-            if new_data[init]['categroy'][init_].get('categroy') is None:
-                new_data[init]['categroy'][init_]['categroy'] = []
-            new_data[init]['categroy'][init_]['categroy'].append(value)
+            if new_data[init]['category'][init_].get('category') is None:
+                new_data[init]['category'][init_]['category'] = []
+            new_data[init]['category'][init_]['category'].append(value)
 
     with open('./data.json', 'w', encoding='utf-8') as fn:
         fn.write(json.dumps(new_data))
@@ -44,15 +44,18 @@ def magic_time():
     time.sleep(second)
 
 
-def get_id():
-    with open('./data/categroy.json', 'r', encoding='utf-8') as fn:
+def get_id(start_id=None):
+    with open('./data/category.json', 'r', encoding='utf-8') as fn:
         data = json.loads(fn.read())
 
     new_data = []
 
     for value in data:
         if value['id'] > 99999:
-            new_data.append(value)
+            new_data.append(value['id'])
+
+    if start_id is not None:
+        new_data = new_data[new_data.index(start_id):]
 
     for value in new_data:
         yield value
@@ -168,16 +171,28 @@ def leaflet_list(category, page):
         logger.error('the message is {}'.format(data))
 
 
+def get_start():
+    result = mongo['appgrowing'].find_one({}, sort=[('_id', -1)])
+
+    if result:
+        return result['category'], result['page']
+
+
 def main():
-    yield_id = get_id()
+    start_id, start_page = get_start()
+    yield_id = get_id(start_id)
+
     while True:
         try:
-            categroy = next(yield_id)['id']
+            category = next(yield_id)
         except StopIteration:
             break
         else:
-            for page in range(1, 167):
-                total = run_func(leaflet_list, categroy, page)
+            if category != start_id:
+                start_page = 1
+
+            for page in range(start_page, 167):
+                total = run_func(leaflet_list, category, page)
                 if total and total / 60 > page:
                     continue
                 else:
