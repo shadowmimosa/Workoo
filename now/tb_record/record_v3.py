@@ -113,11 +113,11 @@ class DealRecord(object):
 
     def deal_trade(self, content: str):
 
-        if self.is_trade is None:
-            for trade in self.trade_list.keys():
-                if trade in content:
-                    self.is_trade = True
-                    self.trade_list[trade] += 1
+        # if self.is_trade is None:
+        for trade in self.trade_list.keys():
+            if trade in content:
+                self.is_trade = True
+                self.trade_list[trade] += 1
 
     def tourist(self, date: str):
         self.tourist_second = 60
@@ -285,7 +285,9 @@ class DealRecord(object):
         for shop, data in self.statistical.items():
             for key, value in data.items():
                 self.excel.write([shop, key, value])
-        self.excel.write([f'无关行业:{a}', f'一句后再无回复:{b}', f'行业数量:{c}'])
+        self.excel.write([f'无关行业:{a}', f'一句后再无回复:{b}'])
+        for item in c.items():
+            self.excel.write(item)
         self.excel.save('{}统计.xlsx'.format(self.info_path))
 
     def main(self):
@@ -375,7 +377,10 @@ def read_lines(path, encoding):
     with open(path, 'r', encoding=encoding) as fn:
         lines = fn.readlines()
 
-    return [x.strip('\n') for x in lines]
+    lines = [x.strip('\n') for x in lines]
+    if '' in lines:
+        lines.remove('')
+    return lines
 
 
 if __name__ == "__main__":
