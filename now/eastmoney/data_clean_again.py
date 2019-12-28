@@ -28,19 +28,20 @@ def init_mongo():
 
 class DataClean(object):
     def get_date(self):
-        date_temp = datetime.datetime.strptime(
-            self.date, "%Y-%m-%d") + datetime.timedelta(days=-1)
-
+        # date_temp = datetime.datetime.strptime(
+        #     self.date, "%Y-%m-%d") + datetime.timedelta(days=-1)
+        date_temp = self.date + datetime.timedelta(days=-1)
         if date_temp.month <= 7 and date_temp.year <= 2018:
             return False
         else:
             self.last_date = self.date
-            self.date = date_temp.strftime("%Y-%m-%d")
+            # self.date = date_temp.strftime("%Y-%m-%d")
+            self.date = date_temp
 
             return True
 
     def get_guba(self):
-        with open('./again.json', 'r', encoding='utf-8') as fn:
+        with open('./data/again.json', 'r', encoding='utf-8') as fn:
             gubas = json.loads(fn.read())
 
         for guba in gubas:
@@ -49,10 +50,20 @@ class DataClean(object):
     def get_count(self):
         while True:
             if self.get_date() is True:
-                select_sql = "SELECT COUNT( `Id` ) FROM `workoo`.`eastmoney_comment_{}` WHERE `GubaId` = '{}' AND `PostTime` < '{} 15:00:00' AND `PostTime` > '{} 15:00:00';"
-                self.ecnu_cursor.execute(
-                    select_sql.format(self.guba % 5, self.guba, self.last_date,
-                                      self.date))
+                mongo['comment'].find({
+                    '$and': [{
+                        "post_time": {
+                            '$lte':
+                            datetime.datetime.strptime("2019-12-28 23:31:29")
+                        }
+                    }, {
+                        "post_time": {
+                            '$gte':
+                            datetime.datetime.strptime("2019-11-06 23:31:38")
+                        }
+                    }]
+                })
+                a = self.ecnu_cursor.fetchone()
                 count = self.ecnu_cursor.fetchone()[0]
 
                 insert_sql = "INSERT INTO `workoo`.`eastmoney_count`(`GubaId`, `name`, `date`, `count`) VALUES ('{}', '{}', '{}', {});"
@@ -62,13 +73,6 @@ class DataClean(object):
                     insert_sql.format("{:0>6}".format(self.guba),
                                       self.guba_name, self.last_date, count))
 
-                # self.info = self.info.append({
-                #     "Id": "{:0>6}".format(self.guba),
-                #     "股吧": self.guba_name,
-                #     "日期": self.last_date,
-                #     "发帖量": count
-                # },
-                #                              ignore_index=True)
             else:
                 break
 
@@ -90,15 +94,14 @@ class DataClean(object):
 
 
 def clean_date():
-    # pattern = re.compile(r'/\s+$/')
-    # regex = bson.regex.Regex.from_native(pattern)
-    # regex.flags ^= re.UNICODE
+    pattern = re.compile(r'\s+$')
+    regex = bson.regex.Regex.from_native(pattern)
+    regex.flags ^= re.UNICODE
 
     while True:
-        result = list(mongo['comment'].find({'post_time': {
-            '$type': 2
-        }},
-                                            limit=1))
+        # 'post_time': regex 正则
+        # 'post_time': { '$type': 2 } Sting 类型
+        result = list(mongo['comment'].find({'post_time': regex}, limit=1))
 
         if len(result) > 0:
             data = result[0]
