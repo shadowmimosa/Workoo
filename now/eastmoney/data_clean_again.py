@@ -98,19 +98,15 @@ def clean_date():
     regex = bson.regex.Regex.from_native(pattern)
     regex.flags ^= re.UNICODE
 
-    while True:
-        # 'post_time': regex 正则
-        # 'post_time': { '$type': 2 } Sting 类型
-        result = list(mongo['comment'].find({'post_time': regex}, limit=1))
+    # 'post_time': regex 正则
+    # 'post_time': { '$type': 2 } Sting 类型
+    result = list(mongo['comment'].find({'post_time': regex}))
 
-        if len(result) > 0:
-            data = result[0]
-            data['post_time'] = datetime.datetime.strptime(
-                data['post_time'].strip(' '), "%Y-%m-%d %H:%M:%S")
-            mongo['comment'].update_one({'_id': data['_id']}, {'$set': data})
-            print('down')
-        else:
-            break
+    for data in result:
+        data['post_time'] = datetime.datetime.strptime(
+            data['post_time'].strip(' '), "%Y-%m-%d %H:%M:%S")
+        mongo['comment'].update_one({'_id': data['_id']}, {'$set': data})
+        print('down')
 
 
 mongo = init_mongo()
