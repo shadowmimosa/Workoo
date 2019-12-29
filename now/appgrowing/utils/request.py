@@ -124,7 +124,7 @@ class Query(object):
         resp = self.deal_re(url=path, header=header, **kwargs)
         if resp is None:
             return ""
-        elif resp == 'https://static-ag.ymcdn.cn/common/429.html':
+        elif resp == 'https://static-ag.ymcdn.cn/common/429.html' or resp == 400:
             while True:
                 # index = CookieList.index(header['Cookie'])
                 # header['Cookie'] = CookieList[[1, 0].index(index)]
@@ -140,6 +140,13 @@ class Query(object):
                             }
                         })
                         logger.warning('---> Access restricted, reget cookie.')
+                    elif resp == 400:
+                        mongo['cookie'].update_one({'cookie': cookie},
+                                                   {"$set": {
+                                                       "hold": -1
+                                                   }})
+                        logger.error(
+                            'Error: the cookie is wrong, reget cookie.')
                     else:
                         return resp.text
                 else:
