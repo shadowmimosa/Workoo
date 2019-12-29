@@ -48,39 +48,39 @@ class DataClean(object):
             yield guba
 
     def get_count(self):
+        data = []
         while True:
             if self.get_date() is True:
-                mongo['comment'].find({
+                result = mongo['comment'].count_documents({
                     '$and': [{
+                        "GubaId": self.guba
+                    }, {
                         "post_time": {
-                            '$lte':
-                            datetime.datetime.strptime("2019-12-28 23:31:29")
+                            '$gt': self.date
                         }
                     }, {
                         "post_time": {
-                            '$gte':
-                            datetime.datetime.strptime("2019-11-06 23:31:38")
+                            '$lte': self.last_date
                         }
                     }]
                 })
-                a = self.ecnu_cursor.fetchone()
-                count = self.ecnu_cursor.fetchone()[0]
 
-                insert_sql = "INSERT INTO `workoo`.`eastmoney_count`(`GubaId`, `name`, `date`, `count`) VALUES ('{}', '{}', '{}', {});"
-                sql = insert_sql.format(self.guba, self.guba_name,
-                                        self.last_date, count)
-                self.ecnu_cursor.execute(
-                    insert_sql.format("{:0>6}".format(self.guba),
-                                      self.guba_name, self.last_date, count))
-
+                data.append({
+                    'GubaId': self.guba,
+                    'Date': self.last_date,
+                    'Count': result
+                })
             else:
                 break
+
+        mongo['count'].insert_many(data)
 
     def main(self):
         yield_guba = self.get_guba()
 
         while True:
-            self.date = "2019-08-01"
+            self.date = datetime.datetime.strptime('2019-08-01 15:00:00',
+                                                   '%Y-%m-%d  %H:%M:%S')
 
             try:
                 self.guba = next(yield_guba)
@@ -112,5 +112,5 @@ def clean_date():
 mongo = init_mongo()
 
 if __name__ == "__main__":
-    # DataClean().main()
-    clean_date()
+    DataClean().main()
+    # clean_date()
