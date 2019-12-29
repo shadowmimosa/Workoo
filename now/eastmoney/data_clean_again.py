@@ -65,15 +65,50 @@ class DataClean(object):
                     }]
                 })
 
-                data.append({
+                info = {
                     'GubaId': self.guba,
                     'Date': self.last_date,
                     'Count': result
-                })
+                }
+                data.append(info)
             else:
                 break
 
         mongo['count'].insert_many(data)
+
+    def get_all(self):
+        result = list(mongo['comment'].find({"GubaId": self.guba}))
+
+        result = [
+            x for x in result if datetime.datetime.strptime(
+                '2018-07-01 15:00:00', '%Y-%m-%d  %H:%M:%S') <=
+            x['post_time'] <= datetime.datetime.strptime(
+                '2019-08-01 15:00:00', '%Y-%m-%d  %H:%M:%S')
+        ]
+
+        info = []
+        while True:
+            count = 0
+            if self.get_date() is True:
+                data = []
+                for index, value in enumerate(result):
+                    if value['post_time'] <= self.last_date and value[
+                            'post_time'] > self.date:
+                        count += 1
+                        data.append(value)
+
+                for value in data:
+                    result.remove(value)
+
+                info.append({
+                    'GubaId': self.guba,
+                    'Date': self.last_date,
+                    'Count': count
+                })
+            else:
+                break
+
+        mongo['count'].insert_many(info)
 
     def main(self):
         yield_guba = self.get_guba()
@@ -87,7 +122,7 @@ class DataClean(object):
             except StopIteration:
                 break
             else:
-                self.get_count()
+                self.get_all()
                 logger.info("Info: the {} is done".format(self.guba))
 
         logger.info("success")
