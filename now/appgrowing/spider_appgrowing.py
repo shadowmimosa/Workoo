@@ -116,8 +116,8 @@ def get_phones(company_id):
 def leaflet_list(category, page):
 
     channel = 102
-    startDate = '2019-12-29'
-    endDate = '2019-11-30'
+    startDate = '2019-11-30'
+    endDate = '2019-12-29'
     order = '-updatedAt'
     isExact = 'false'
     limit = 60
