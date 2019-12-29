@@ -136,11 +136,10 @@ class Query(object):
                             "$set": {
                                 "time":
                                 datetime.datetime.utcnow() +
-                                datetime.timedelta(minutes=20)
+                                datetime.timedelta(minutes=59)
                             }
                         })
-                        logger.warning('---> Access restricted, sleep now.')
-                        time.sleep(600)
+                        logger.warning('---> Access restricted, reget cookie.')
                     else:
                         return resp.text
                 else:

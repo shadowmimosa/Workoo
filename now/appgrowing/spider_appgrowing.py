@@ -116,8 +116,8 @@ def get_phones(company_id):
 def leaflet_list(category, page):
 
     channel = 102
-    startDate = '2019-11-26'
-    endDate = '2019-12-25'
+    startDate = '2019-12-29'
+    endDate = '2019-11-30'
     order = '-updatedAt'
     isExact = 'false'
     limit = 60
@@ -134,12 +134,11 @@ def leaflet_list(category, page):
             company_id = value['sellerCompany']['id']
             company_name = value['sellerCompany']['name']
 
-            if not judge_repeat(company_id):
-                logger.info(f'---> the {company_id} exist already')
-                continue
+            # if not judge_repeat(company_id):
+            #     logger.info(f'---> the {company_id} exist already')
+            #     continue
 
             link = run_func(get_link, code)
-
             magic_time()
             phones = run_func(get_phones, company_id)
             magic_time()
@@ -179,7 +178,8 @@ def get_start():
 
 
 def main():
-    start_id, start_page = get_start()
+    # start_id, start_page = get_start()
+    start_id, start_page = (None, 1)
     yield_id = get_id(start_id)
 
     while True:
@@ -194,6 +194,7 @@ def main():
             for page in range(start_page, 167):
                 total = run_func(leaflet_list, category, page)
                 if total and total / 60 > page:
+                    magic_time()
                     continue
                 else:
                     break
