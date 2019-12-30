@@ -33,3 +33,6 @@ nohup.out
 settings.json
 
 # special
+*/1688/data/data.csv
+*/1688/data/already.txt
+*/1688/data/final.csv
