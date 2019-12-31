@@ -26,6 +26,24 @@ def init_mongo():
     return client["eastmoney"]
 
 
+def init_mysql():
+    from config import DATABASES
+
+    try:
+        if DEBUG:
+            config = DATABASES["debug"]
+        else:
+            config = DATABASES["product"]
+
+        ecnu_mysql = pymysql.connect(**config)
+
+    except pymysql.err.OperationalError as exc:
+        logger.error("--->Error: 登录失败！TimeoutError!")
+        os._exit(0)
+    else:
+        return ecnu_mysql.cursor()
+
+
 class DataClean(object):
     def get_date(self):
         # date_temp = datetime.datetime.strptime(
@@ -41,7 +59,7 @@ class DataClean(object):
             return True
 
     def get_guba(self):
-        with open('./data/again.json', 'r', encoding='utf-8') as fn:
+        with open('./lack.json', 'r', encoding='utf-8') as fn:
             gubas = json.loads(fn.read())
 
         for guba in gubas:
@@ -144,8 +162,31 @@ def clean_date():
         print('down')
 
 
+def unify_data():
+    mysql.execute("select `id` from `workoo`.`eastmoney_list`")
+    all_gubas = ["{:0>6}".format(x[0]) for x in mysql.fetchall()]
+
+    with open('./data/lack.json', 'r', encoding='utf-8') as fn:
+        new_gubas = json.loads(fn.read())
+
+    for guba in all_gubas:
+        if guba not in new_gubas:
+            mysql.execute(
+                "select * from `workoo`.`eastmoney_count` where `GubaId` = {}".
+                format(guba))
+            data = [{
+                'GubaId': guba,
+                'Date': x[3],
+                'Count': x[4]
+            } for x in mysql.fetchall()]
+            mongo['count'].insert_many(data)
+            print('{} is down'.format(guba))
+
+
 mongo = init_mongo()
+mysql = init_mysql()
 
 if __name__ == "__main__":
-    DataClean().main()
+    # DataClean().main()
     # clean_date()
+    unify_data()
