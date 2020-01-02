@@ -179,7 +179,7 @@ def get_start():
 
 def main():
     start_id, start_page = get_start()
-    start_id, start_page = (None, 1)
+    # start_id, start_page = (None, 1)
     yield_id = get_id(start_id)
 
     while True:
