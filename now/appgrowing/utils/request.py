@@ -130,6 +130,7 @@ class Query(object):
                 # header['Cookie'] = CookieList[[1, 0].index(index)]
                 cookie = get_cookie()
                 if cookie:
+                    header['Cookie'] = cookie
                     resp = self.deal_re(url=path, header=header, **kwargs)
                     if resp == 'https://static-ag.ymcdn.cn/common/429.html':
                         mongo['cookie'].update_one({'cookie': cookie}, {
