@@ -1,11 +1,14 @@
 import re
 import json
 import time
+import random
 
 from utils.run import run_func
 from utils.request import Query
 from utils.soup import DealSoup
 from config import DEBUG, logger
+
+from excel_opea import ExcelOpea
 
 
 def get_phones(company_id):
@@ -32,18 +35,66 @@ def leaflet_list(category, page):
     data = run_func(json.loads, resp)
 
 
-def main():
-    path = 'https://www.nike.com/cn/w/mens-shoes-nik1zy7ok'
+def judge_sku(itme: dict):
+    skus = []
+    available = []
+
+
+def get_detail(path):
+    resp = req(f'{host}/{path}', header=header)
+    data = json.loads(re.search(pattern, resp).group(1))
+    products = data['Threads']['products']
+
+    for product in products:
+
+        info = {}
+        info['标题'] = product['fullTitle']
+        info['货号'] = product['styleColor']
+
+        info['颜色'] = product['colorDescription']
+        info['库存'] = 3 + int(random.random() * 7)
+        info['分类'] = product['subTitle']
+        info['原价'] = product['fullPrice']
+        info['折后价'] = product['currentPrice']
+        info['更新时间'] = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+        info['新增货号'] = '是'
+        info['轮次'] = 0
+
+        # if product['seoProductAvailability'] is True:
+        info['尺码'] = product['fullTitle']
+        info['是否有货'] = ''
+
+    print(data)
+
+
+def first_page(path):
     resp = req(path, header=header)
-    pattern = re.compile(r'window.INITIAL_REDUX_STATE=.*</script>')
-    a = re.search(resp, pattern)
+    data = json.loads(re.search(pattern, resp).group(1))
+    products = data['Wall']['products']
+
+    for product in products:
+        product_path = product['url'].replace('{countryLang}', country_lang)
+        get_detail(product_path)
+        print(product_path)
+
+
+def main():
+    excel.init_sheet(header=[
+        '标题', '货号', '尺码', '颜色', '库存', '分类', '原价', '折后价', '更新时间', '新增货号',
+        '是否有货', '轮次'
+    ])
+    path = 'https://www.nike.com/cn/w/mens-shoes-nik1zy7ok'
+    first_page(path)
     html = soup(resp)
     print(html)
 
 
 req = Query().run
+excel = ExcelOpea()
 soup = DealSoup().judge
 host = 'https://www.nike.com'
+country_lang = 'cn'
+pattern = re.compile(r'window.INITIAL_REDUX_STATE=(.*);</script>')
 
 header = {
     'Host': 'www.nike.com',
