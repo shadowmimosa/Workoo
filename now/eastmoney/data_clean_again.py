@@ -172,8 +172,8 @@ def unify_data():
     for guba in all_gubas:
         if guba not in new_gubas:
             mysql.execute(
-                "select * from `workoo`.`eastmoney_count` where `GubaId` = {}".
-                format(guba))
+                "select * from `workoo`.`eastmoney_count` where `GubaId` = {} and `type` = '1'"
+                .format(guba))
             data = [{
                 'GubaId': guba,
                 'Date': x[3],
@@ -187,6 +187,6 @@ mongo = init_mongo()
 mysql = init_mysql()
 
 if __name__ == "__main__":
-    # DataClean().main()
+    DataClean().main()
     # clean_date()
     unify_data()
