@@ -52,22 +52,22 @@ class Query(object):
             try:
 
                 if isinstance(data, dict):
-                    resp = sesscion_a.post(
-                        url,
-                        headers=header,
-                        data=json.dumps(data),
-                        timeout=(2, 6))
+                    resp = sesscion_a.post(url,
+                                           headers=header,
+                                           data=json.dumps(data),
+                                           timeout=(2, 6))
                 elif isinstance(files, dict):
                     resp = sesscion_a.post(url, files=files, timeout=(2, 6))
                 elif data:
-                    resp = sesscion_a.post(
-                        url, headers=header, data=data, timeout=(2, 6))
+                    resp = sesscion_a.post(url,
+                                           headers=header,
+                                           data=data,
+                                           timeout=(2, 6))
                 else:
-                    resp = sesscion_a.get(
-                        url,
-                        headers=header,
-                        allow_redirects=False,
-                        timeout=(2, 6))
+                    resp = sesscion_a.get(url,
+                                          headers=header,
+                                          allow_redirects=False,
+                                          timeout=(2, 6))
                 retry_count = 0
             except Exception as exc:
                 retry_count -= 1
@@ -92,6 +92,22 @@ class Query(object):
                     "--->Info: Request successful. It takes {:.3} seconds".
                     format(magic_time))
                 return resp
+            elif resp.status_code == 301:
+                gb_encode = [
+                    "gb2312", "GB2312", "gb18030", "GB18030", "GBK", "gbk"
+                ]
+
+                if resp.apparent_encoding in gb_encode:
+                    resp.encoding = "gbk"
+
+                magic_time = end_time - start_time
+                self.logger.info(
+                    "--->Info: Request is 301. It takes {:.3} seconds".format(
+                        magic_time))
+                header['host'] = resp.headers["Location"].split('/')[2]
+                return self.run(resp.headers["Location"],
+                                header=header,
+                                data=data)
             elif resp.status_code == 302:
                 gb_encode = [
                     "gb2312", "GB2312", "gb18030", "GB18030", "GBK", "gbk"
@@ -104,7 +120,10 @@ class Query(object):
                 self.logger.info(
                     "--->Info: Request is 302. It takes {:.3} seconds".format(
                         magic_time))
-                return resp.headers["Location"]
+                return self.run('https://www.nike.com{}'.format(
+                    resp.headers["Location"]),
+                                header=header,
+                                data=data)
             elif resp.status_code >= 500:
                 return 502
             elif resp.status_code >= 400 and resp.status_code < 500:
@@ -119,6 +138,7 @@ class Query(object):
 
     def run(self, path, sign=None, header={}, **kwargs):
         resp = self.deal_re(url=path, header=header, **kwargs)
+
         if resp is None:
             return ""
         elif isinstance(resp, str):

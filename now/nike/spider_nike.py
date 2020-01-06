@@ -5,66 +5,65 @@ import random
 
 from utils.run import run_func
 from utils.request import Query
-from utils.soup import DealSoup
-from config import DEBUG, logger
+from config import logger
 
 from excel_opea import ExcelOpea
 
 
-def get_phones(company_id):
-    path = f'{host}/api/sellerCompany?sellerCompanyId={company_id}'
-    resp = req(path, header=header)
-    data = json.loads(resp)
-
-    return data['data']['telephone']
-
-
-def leaflet_list(category, page):
-
-    channel = 102
-    startDate = '2019-11-30'
-    endDate = '2019-12-29'
-    order = '-updatedAt'
-    isExact = 'false'
-    limit = 60
-
-    path = f'{host}/api/leaflet/mt?category={category}&channel={channel}&startDate={startDate}&endDate={endDate}&order={order}&isExact={isExact}&page={page}&limit={limit}'
-
-    resp = req(path, header=header)
-
-    data = run_func(json.loads, resp)
-
-
 def judge_sku(itme: dict):
-    skus = []
-    available = []
+    skus = [x['localizedSize'] for x in itme['skus']]
+    skuid = [x['skuId'] for x in itme['skus']]
+    available = [x['skuId'] for x in itme['availableSkus']]
+
+    info = []
+
+    for sku in skuid:
+        if sku in available:
+            info.append('有货')
+        else:
+            info.append('无货')
+
+    return skus, info
 
 
 def get_detail(path):
-    resp = req(f'{host}/{path}', header=header)
+    global header
+
+    if '{countryLang}' in path:
+        path = path.replace('{countryLang}', country_lang)
+        path = f'{host}/{path}'
+        header['host'] = 'www.nike.com'
+    elif '{countryLangRegion}' in path:
+        path = path.replace('{countryLangRegion}', country_lang_region)
+        header['host'] = 'store.nike.com'
+    else:
+        path = f'{host}/{path}'
+        header['host'] = 'www.nike.com'
+
+    resp = req(path, header=header)
     data = json.loads(re.search(pattern, resp).group(1))
     products = data['Threads']['products']
 
-    for product in products:
-
+    for product in products.values():
         info = {}
         info['标题'] = product['fullTitle']
         info['货号'] = product['styleColor']
-
         info['颜色'] = product['colorDescription']
-        info['库存'] = 3 + int(random.random() * 7)
         info['分类'] = product['subTitle']
         info['原价'] = product['fullPrice']
         info['折后价'] = product['currentPrice']
         info['更新时间'] = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
         info['新增货号'] = '是'
         info['轮次'] = 0
-
         # if product['seoProductAvailability'] is True:
-        info['尺码'] = product['fullTitle']
-        info['是否有货'] = ''
-
-    print(data)
+        skus, detail = judge_sku(product)
+        for index in range(len(skus)):
+            info['库存'] = 3 + int(random.random() * 7)
+            info['尺码'] = skus[index]
+            info['是否有货'] = detail[index]
+            excel.write(info)
+            logger.error('{} - {} - {}'.format(info['货号'], info['尺码'],
+                                               info['是否有货']))
 
 
 def first_page(path):
@@ -73,9 +72,29 @@ def first_page(path):
     products = data['Wall']['products']
 
     for product in products:
-        product_path = product['url'].replace('{countryLang}', country_lang)
-        get_detail(product_path)
-        print(product_path)
+        if product['cardType'] != 'default':
+            continue
+        run_func(get_detail, product['url'])
+    logger.info('first page down')
+    run_func(last_page, data['Wall']['pageData']['next'])
+
+
+def last_page(path):
+    resp = req(f'{host}/{path}', header=header)
+    data = json.loads(resp)
+    for item in data['objects']:
+        path = item['publishedContent']['properties']['seo']['slug']
+        try:
+            get_detail(f'cn/t/{path}')
+        except TypeError:
+            logger.warning('path is wrong, reget now')
+            path = item['rollup']['threads'][0]['publishedContent'][
+                'properties']['seo']['slug']
+            run_func(get_detail, f'cn/t/{path}')
+    logger.info('last page down')
+    next_path = data.get('pages').get('next')
+    if next_path:
+        run_func(last_page, next_path)
 
 
 def main():
@@ -84,16 +103,18 @@ def main():
         '是否有货', '轮次'
     ])
     path = 'https://www.nike.com/cn/w/mens-shoes-nik1zy7ok'
-    first_page(path)
-    html = soup(resp)
-    print(html)
+
+    run_func(first_page, path)
+    run_func(excel.save)
+    logger.info('save successful')
+    time.sleep(300)
 
 
 req = Query().run
 excel = ExcelOpea()
-soup = DealSoup().judge
 host = 'https://www.nike.com'
 country_lang = 'cn'
+country_lang_region = 'https://store.nike.com/cn/zh_cn'
 pattern = re.compile(r'window.INITIAL_REDUX_STATE=(.*);</script>')
 
 header = {
