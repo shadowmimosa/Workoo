@@ -5,7 +5,16 @@ import urllib
 import hashlib
 import urllib3
 import requests
-from config import logger
+from config import logger, pool_api, POOL
+
+
+def get_proxy():
+    data = requests.get(pool_api).json()
+    if data['code'] == '0':
+        proxy_list = ['{}:{}'.format(x['ip'], x['port']) for x in data['obj']]
+
+    for proxy in proxy_list:
+        yield {'http': proxy, 'https': proxy}
 
 
 class Query(object):
@@ -50,25 +59,61 @@ class Query(object):
         retry_count = 5
         while retry_count > 0:
             try:
+                if POOL:
+                    try:
+                        proxies = next(proxy)
+                    except StopIteration:
+                        proxy = get_proxy()
+                        proxies = next(proxy)
+                    except NameError:
+                        proxy = get_proxy()
+                        proxies = next(proxy)                        
 
-                if isinstance(data, dict):
-                    resp = sesscion_a.post(url,
-                                           headers=header,
-                                           data=json.dumps(data),
-                                           timeout=(2, 6))
-                elif isinstance(files, dict):
-                    resp = sesscion_a.post(url, files=files, timeout=(2, 6))
-                elif data:
-                    resp = sesscion_a.post(url,
-                                           headers=header,
-                                           data=data,
-                                           timeout=(2, 6))
+                    if isinstance(data, dict):
+                        resp = sesscion_a.post(url,
+                                               headers=header,
+                                               data=json.dumps(data),
+                                               timeout=(2, 6),
+                                               proxies=proxies)
+                    elif isinstance(files, dict):
+                        resp = sesscion_a.post(url,
+                                               files=files,
+                                               timeout=(2, 6),
+                                               proxies=proxies)
+                    elif data:
+                        resp = sesscion_a.post(url,
+                                               headers=header,
+                                               data=data,
+                                               timeout=(2, 6),
+                                               proxies=proxies)
+                    else:
+                        resp = sesscion_a.get(url,
+                                              headers=header,
+                                              allow_redirects=False,
+                                              timeout=(2, 6),
+                                              proxies=proxies)
+                    retry_count = 0
                 else:
-                    resp = sesscion_a.get(url,
-                                          headers=header,
-                                          allow_redirects=False,
-                                          timeout=(2, 6))
-                retry_count = 0
+                    if isinstance(data, dict):
+                        resp = sesscion_a.post(url,
+                                               headers=header,
+                                               data=json.dumps(data),
+                                               timeout=(2, 6))
+                    elif isinstance(files, dict):
+                        resp = sesscion_a.post(url,
+                                               files=files,
+                                               timeout=(2, 6))
+                    elif data:
+                        resp = sesscion_a.post(url,
+                                               headers=header,
+                                               data=data,
+                                               timeout=(2, 6))
+                    else:
+                        resp = sesscion_a.get(url,
+                                              headers=header,
+                                              allow_redirects=False,
+                                              timeout=(2, 6))
+                    retry_count = 0
             except Exception as exc:
                 retry_count -= 1
                 self.logger.error(
