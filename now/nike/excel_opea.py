@@ -73,6 +73,12 @@ class ExcelOpea(object):
 
     def write(self, content: list or dict):
         if isinstance(content, list) or isinstance(content, tuple):
+            # if self.header:
+            #     for item in content:
+            #         self.write(item)
+            # else:
+            #     for index, value in enumerate(content):
+            #         self.to_excel(index, value)
             for index, value in enumerate(content):
                 self.to_excel(index, value)
         elif isinstance(content, dict):
