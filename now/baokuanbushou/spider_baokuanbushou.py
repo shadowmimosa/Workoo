@@ -83,7 +83,7 @@ def fang_xing():
             if info:
                 need_insert.append(info)
 
-    mongo["baokuanbushou"].insert_many(need_insert)
+        mongo["baokuanbushou"].insert_many(need_insert)
 
 
 def lu_ban():
