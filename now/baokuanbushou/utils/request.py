@@ -122,44 +122,42 @@ class Query(object):
                 "--->Error: deal re is error, the error is {}".format(exc))
             return None
 
-    def run(self, path, sign=None, header={}, **kwargs):
+    def run(self, path, sign=None, header={}, raw=None, **kwargs):
         resp = self.deal_re(url=path, header=header, **kwargs)
         if resp is None:
             return ""
-        elif resp == 'https://static-ag.ymcdn.cn/common/429.html' or resp == 400:
-            while True:
-                # index = CookieList.index(header['Cookie'])
-                # header['Cookie'] = CookieList[[1, 0].index(index)]
-                cookie = get_cookie()
-                if cookie:
-                    header['Cookie'] = cookie
-                    resp = self.deal_re(url=path, header=header, **kwargs)
-                    if resp == 'https://static-ag.ymcdn.cn/common/429.html':
-                        mongo['cookie'].update_one({'cookie': cookie}, {
-                            "$set": {
-                                "time":
-                                datetime.datetime.utcnow() +
-                                datetime.timedelta(minutes=59)
-                            }
-                        })
-                        logger.warning('---> Access restricted, reget cookie.')
-                    elif resp == 400:
-                        mongo['cookie'].update_one({'cookie': cookie},
-                                                   {"$set": {
-                                                       "hold": -1
-                                                   }})
-                        logger.error(
-                            'Error: the cookie is wrong, reget cookie.')
-                    else:
-                        return resp.text
-                else:
-                    logger.warning('---> No cookie, sleep now.')
-                    time.sleep(600)
         elif isinstance(resp, str):
             return resp
         elif isinstance(resp, int):
             return resp
         elif sign:
             return resp.content
+        elif raw:
+            return resp
         else:
-            return resp.text
+            text = resp.text
+            if '请重新登录' in text:
+                logger.warning('---> Wrong cookie, sleep now.')
+                header['Cookie'] = reget_cookie(header)
+                return self.run(path, header=header)
+            else:
+                return resp.text
+
+
+def reget_cookie(header):
+    req = Query().run
+    old_cookie = header['Cookie']
+    resp = req('https://bkbs.baokuanbushou.com/s.stp?action=dyhome_pc',
+               headers=header,
+               raw=True)
+    new_session = resp.headers['Set-Cookie'].split(';')[0].split('=')[-1]
+    header['Cookie'] = f'dysessionid={new_session}; proxyid=unknown'
+    resp = req(
+        'https://bkbs.baokuanbushou.com/s.stp?action=dy_login&proxyid=13320814955&pass=fallinlove900&stcallback=stcallback',
+        header=header)
+    new_cookie = f'dysessionid={new_session}; proxyid=13320814955'
+    mongo['cookie'].update_one({'cookie': old_cookie},
+                               {"$set": {
+                                   "cookie": new_cookie
+                               }})
+    return new_cookie

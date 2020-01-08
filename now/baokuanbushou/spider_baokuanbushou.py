@@ -42,7 +42,7 @@ def get_detail(path):
 
         info['shop_name'] = data['data'].get('shop_name')
         info['company_name'] = data['data'].get('company_name')
-        info['phone'] = phone
+        info['phone'] = phones
 
         return info
     # elif 'fyeds' in path:
@@ -59,6 +59,7 @@ def get_detail(path):
 
 
 def get_path(uuid):
+    header['Cookie'] = get_cookie()
     resp = req(path=redirect_path.format(uuid), header=header)
     js_obj = re.search(js_pattern, resp)
     js_obj = js_obj.group().replace('window.location=', 'return ')
@@ -70,8 +71,9 @@ def get_path(uuid):
 
 
 def fang_xing():
-    for page in range(5000):
-        path = 'https://bkbs.baokuanbushou.com/s.stp?action=dy_data_search&key=&cat=&cat2=&sort=5&size=10&page={page}&biz_type=4&create_begin=&stcallback=_jsonph5unux5hfz'
+    for page in range(498455):
+        header['Cookie'] = get_cookie()
+        path = f'https://bkbs.baokuanbushou.com/s.stp?action=dy_data_search&key=&cat=&cat2=&sort=5&size=10&page={page}&biz_type=4&create_begin=&stcallback=_jsonph5unux5hfz'
         resp = req(path, header=header)
         json_obj = re.search(json_pattern, resp)
         data = json.loads(json_obj.group(1))
@@ -81,20 +83,66 @@ def fang_xing():
             path = get_path(item['uuid'])
             info = get_detail(path)
             if info:
+                info['Original information'] = item
+                info['spider_type'] = 'fangxing'
                 need_insert.append(info)
 
-        mongo["baokuanbushou"].insert_many(need_insert)
+        if need_insert:
+            mongo["baokuanbushou"].insert_many(need_insert)
+        else:
+            logger.info('fang xing down')
+            break
 
 
 def lu_ban():
-    path = 'https://bkbs.baokuanbushou.com/s.stp?action=dy_data_search&key=&cat=&cat2=&sort=8&size=10&page={page}&biz_type=1&create_begin=&stcallback=_jsonp9dp0b4rfklo'
+    for page in range(5000):
+        header['Cookie'] = get_cookie()
+        path = f'https://bkbs.baokuanbushou.com/s.stp?action=dy_data_search&key=&cat=&cat2=&sort=8&size=10&page={page}&biz_type=1&create_begin=&stcallback=_jsonpho6f3lit2vf'
+        resp = req(path, header=header)
+        json_obj = re.search(json_pattern, resp)
+        data = json.loads(json_obj.group(1))
+
+        need_insert = []
+        for item in data['items']:
+            path = get_path(item['uuid'])
+            info = get_detail(path)
+            if info:
+                info['Original information'] = item
+                info['spider_type'] = 'luban'
+                need_insert.append(info)
+        if need_insert:
+            mongo["baokuanbushou"].insert_many(need_insert)
+        else:
+            logger.info('lu ban down')
+            break
 
 
 def shops():
-    path = 'https://bkbs.baokuanbushou.com/s.stp?action=dy_shop_search&key=&cat=&sort=8&size={page}0&page=1&stcallback=_jsonpr8db66koty'
+    for page in range(5000):
+        header['Cookie'] = get_cookie()
+        path = f'https://bkbs.baokuanbushou.com/s.stp?action=dy_shop_search&key=&cat=&sort=8&size=10&page={page}&stcallback=_jsonph32oae3dtmk'
+        resp = req(path, header=header)
+        json_obj = re.search(json_pattern, resp)
+        data = json.loads(json_obj.group(1))
+
+        need_insert = []
+        for item in data['items']:
+            info = {}
+            info['company_name'] = item['company_name']
+            info['spider_type'] = 'shops'
+            info['Original information'] = item
+            need_insert.append(info)
+
+        if need_insert:
+            mongo["baokuanbushou"].insert_many(need_insert)
+        else:
+            logger.info('shops down')
+            break
 
 
 def main():
+    lu_ban()
+    shops()
     fang_xing()
 
 
@@ -116,8 +164,7 @@ header = {
     # 'Referer':
     # 'https://bkbs.baokuanbushou.com/s.stp?action=dyhome_pc',
     'Accept-Encoding': 'gzip, deflate, br',
-    'Accept-Language': 'zh-CN,zh;q=0.9',
-    'Cookie': get_cookie()
+    'Accept-Language': 'zh-CN,zh;q=0.9'
 }
 header_fyeds = {
     'Host': 'd9650aad.fyeds6.com',
