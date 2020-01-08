@@ -141,9 +141,9 @@ def shops():
 
 
 def main():
-    lu_ban()
     shops()
-    fang_xing()
+    # lu_ban()
+    # fang_xing()
 
 
 req = Query().run
