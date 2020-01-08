@@ -7,9 +7,8 @@ from multiprocessing.managers import BaseManager
 
 from utils.run import run_func
 from utils.request import Query
+from utils.excel_opea import ExcelOpea
 from config import logger
-
-from excel_opea import ExcelOpea
 
 
 def judge_sku(itme: dict):
@@ -67,8 +66,8 @@ def get_detail(path, excel=None, lock=None):
             info['是否限购'] = '否' if not limit else '限购{}件'.format(limit.group(1))
             info['是否支持优惠券'] = '否' if promotion else '是'
         else:
-            info['是否限购'] = ''
-            info['是否支持优惠券'] = ''
+            info['是否限购'] = '否'
+            info['是否支持优惠券'] = '否'
 
         try:
             info['折扣率'] = '{:.2%}'.format(int(info['折后价']) / int(info['原价']))
@@ -93,7 +92,7 @@ def get_detail(path, excel=None, lock=None):
                 except Exception as exc:
                     print(exc)
                 # INFO.append(info)
-                print('-->3{}'.format(len(INFO)))
+                # print('-->3{}'.format(len(INFO)))
                 logger.error('{} - {} - {}'.format(info['货号'], info['尺码'],
                                                    info['是否有货']))
             else:
@@ -112,7 +111,10 @@ def first_page(path, em):
     path_list = []
     for product in products:
         if product['cardType'] == 'default':
-            path_list.append(product['url'])
+            if '专属定制' in product['subtitle']:
+                logger.error('专属定制')
+            else:
+                path_list.append(product['url'])
 
     multi_processes(path_list, em)
     logger.info('first page down')
@@ -146,10 +148,14 @@ def multi_processes(path_list, em):
 def last_page(path, em):
     resp = req(f'{host}/{path}', header=header)
     data = json.loads(resp)
-    path_list = [
-        'cn/t/{}'.format(item['publishedContent']['properties']['seo']['slug'])
-        for item in data['objects']
-    ]
+    path_list = []
+    for item in data['objects']:
+        if '专属定制' in item['publishedContent']['properties']['subtitle']:
+            logger.error('专属定制')
+        else:
+            path_list.append('cn/t/{}'.format(
+                item['publishedContent']['properties']['seo']['slug']))
+
     multi_processes(path_list, em)
 
     # try:
