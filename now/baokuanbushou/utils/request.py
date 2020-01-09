@@ -124,6 +124,7 @@ class Query(object):
 
     def run(self, path, sign=None, header={}, raw=None, **kwargs):
         resp = self.deal_re(url=path, header=header, **kwargs)
+        magic_time()
         if resp is None:
             return ""
         elif isinstance(resp, str):
@@ -136,7 +137,18 @@ class Query(object):
             return resp
         else:
             text = resp.text
-            if '请重新登录' in text:
+            if '你已超过今天请求限制' in text:
+                mongo['cookie'].update_one({'cookie': header['Cookie']}, {
+                    "$set": {
+                        "time":
+                        datetime.datetime.utcnow() +
+                        datetime.timedelta(minutes=59)
+                    }
+                })
+                cookie = get_cookie()
+                header['Cookie'] = cookie
+                return self.run(path, header=header)
+            elif '请重新登录' in text:
                 logger.warning('---> Wrong cookie, sleep now.')
                 header['Cookie'] = reget_cookie(header)
                 return self.run(path, header=header)
@@ -161,3 +173,8 @@ def reget_cookie(header):
                                    "cookie": new_cookie
                                }})
     return new_cookie
+
+def magic_time():
+    second = mongo['cookie'].find_one(
+        {'_id': ObjectId('5e16d4b7c0000000850049b4')})['waiting']
+    time.sleep(second)
