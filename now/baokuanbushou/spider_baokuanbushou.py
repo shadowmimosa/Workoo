@@ -89,6 +89,7 @@ def fang_xing():
             if info:
                 info['Original information'] = item
                 info['spider_type'] = 'fangxing'
+                info['page'] = page
                 need_insert.append(info)
 
         if need_insert:
