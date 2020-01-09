@@ -84,7 +84,13 @@ def fang_xing():
 
         need_insert = []
         for item in data['items']:
-            path = run_func(get_path, item['uuid'])
+            while True:
+                path = run_func(get_path, item['uuid'])
+                if path.split('=')[-1]:
+                    break
+                else:
+                    logger.error('no id')
+                    time.sleep(5)
             info = run_func(get_detail, path)
             if info:
                 info['Original information'] = item
