@@ -71,7 +71,7 @@ def get_path(uuid):
 
 
 def fang_xing():
-    for page in range(5000):
+    for page in range(498455):
         header['Cookie'] = get_cookie()
         path = f'https://bkbs.baokuanbushou.com/s.stp?action=dy_data_search&key=&cat=&cat2=&sort=5&size=10&page={page}&biz_type=4&create_begin=&stcallback=_jsonph5unux5hfz'
         resp = req(path, header=header)
@@ -141,8 +141,7 @@ def shops():
 
 
 def main():
-    fang_xing()
-    # lu_ban()
+    shops()
 
 
 req = Query().run
