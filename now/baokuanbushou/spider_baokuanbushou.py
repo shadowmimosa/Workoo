@@ -28,23 +28,27 @@ def get_detail(path):
         path = 'https://ec.snssdk.com/product/fxgajaxstaticitem?b_type_new=0&id={}'.format(
             info['id'])
         resp = req(path, header=header_snssdk)
-        data = json.loads(resp)
-        phone = data['data'].get('mobile')
-        second_phone = data['data'].get('second_mobile')
-        shop_phone = data['data'].get('shop_tel')
-        phones = []
-        if phone:
-            phones.append(phone)
-        if second_phone:
-            phones.append(second_phone)
-        if shop_phone:
-            phones.append(shop_phone)
+        data = json.loads(resp).get('data')
+        if data:
 
-        info['shop_name'] = data['data'].get('shop_name')
-        info['company_name'] = data['data'].get('company_name')
-        info['phone'] = phones
+            phone = data.get('mobile')
+            second_phone = data.get('second_mobile')
+            shop_phone = data.get('shop_tel')
+            phones = []
+            if phone:
+                phones.append(phone)
+            if second_phone:
+                phones.append(second_phone)
+            if shop_phone:
+                phones.append(shop_phone)
 
-        return info
+            info['shop_name'] = data.get('shop_name')
+            info['company_name'] = data.get('company_name')
+            info['phone'] = phones
+
+            return info
+        else:
+            logger.error('no data')
     # elif 'fyeds' in path:
     #     header_fyeds['Host'] = path.split('/')[2]
     #     resp = req(path, header=header_fyeds)
@@ -80,15 +84,15 @@ def fang_xing():
 
         need_insert = []
         for item in data['items']:
-            path = get_path(item['uuid'])
-            info = get_detail(path)
+            path = run_func(get_path, item['uuid'])
+            info = run_func(get_detail, path)
             if info:
                 info['Original information'] = item
                 info['spider_type'] = 'fangxing'
                 need_insert.append(info)
 
         if need_insert:
-            mongo["baokuanbushou"].insert_many(need_insert)
+            run_func(mongo["baokuanbushou"].insert_many, need_insert)
         else:
             logger.info('fang xing down')
             break
@@ -160,8 +164,7 @@ header = {
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
     'Sec-Fetch-Site': 'same-origin',
     'Sec-Fetch-Mode': 'no-cors',
-    'Referer':
-    'https://bkbs.baokuanbushou.com/s.stp?action=dyhome_pc',
+    'Referer': 'https://bkbs.baokuanbushou.com/s.stp?action=dyhome_pc',
     'Accept-Encoding': 'gzip, deflate, br',
     'Accept-Language': 'zh-CN,zh;q=0.9'
 }
