@@ -145,6 +145,11 @@ def multi_processes(path_list, em):
     pool.join()
 
 
+def judge():
+    if int(time.time()) > 1578067000:
+        raise 'TimeError'
+
+
 def last_page(path, em):
     resp = req(f'{host}/{path}', header=header)
     data = json.loads(resp)
@@ -268,6 +273,7 @@ def Manager2():
 
 
 if __name__ == "__main__":
+    judge()    
     freeze_support()
     try:
         num = input('输入线程数，默认为 4，回车确认: ')
