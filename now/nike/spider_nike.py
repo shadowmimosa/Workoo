@@ -131,7 +131,7 @@ def multi_processes(path_list, em):
 
     # lock = Lock()
 
-    pool = Pool(8)
+    pool = Pool(PROCESSES)
     for path in path_list:
         pool.apply_async(
             run_func,
@@ -172,7 +172,7 @@ def last_page(path, em):
         run_func(last_page, next_path, em)
 
 
-def main():
+def main(special_path=None):
     manager = Manager2()
     em = manager.excel()
     em.init_sheet(header=[
@@ -183,19 +183,21 @@ def main():
     #     '标题', '货号', '尺码', '颜色', '库存', '分类', '原价', '折后价', '折扣率', '更新时间', '新增货号',
     #     '是否有货', '是否限购', '是否支持优惠券', '轮次'
     # ])
-
-    home_list = [
-        'https://www.nike.com/cn/w/mens-shoes-nik1zy7ok',
-        'https://www.nike.com/cn/w/womens-shoes-5e1x6zy7ok',
-        'https://www.nike.com/cn/w/mens-apparel-6ymx6znik1',
-        'https://www.nike.com/cn/w/womens-apparel-5e1x6z6ymx6',
-        'https://www.nike.com/cn/w/boys-shoes-1onrazy7ok',
-        'https://www.nike.com/cn/w/girls-shoes-3aqegzy7ok',
-        'https://www.nike.com/cn/w/boys-apparel-1onraz6ymx6',
-        'https://www.nike.com/cn/w/girls-apparel-3aqegz6ymx6',
-        'https://www.nike.com/cn/w/mens-accessories-equipment-awwpwznik1',
-        'https://www.nike.com/cn/w/womens-accessories-equipment-5e1x6zawwpw'
-    ]
+    if special_path:
+        home_list = [special_path]
+    else:
+        home_list = [
+            'https://www.nike.com/cn/w/mens-shoes-nik1zy7ok',
+            'https://www.nike.com/cn/w/womens-shoes-5e1x6zy7ok',
+            'https://www.nike.com/cn/w/mens-apparel-6ymx6znik1',
+            'https://www.nike.com/cn/w/womens-apparel-5e1x6z6ymx6',
+            'https://www.nike.com/cn/w/boys-shoes-1onrazy7ok',
+            'https://www.nike.com/cn/w/girls-shoes-3aqegzy7ok',
+            'https://www.nike.com/cn/w/boys-apparel-1onraz6ymx6',
+            'https://www.nike.com/cn/w/girls-apparel-3aqegz6ymx6',
+            'https://www.nike.com/cn/w/mens-accessories-equipment-awwpwznik1',
+            'https://www.nike.com/cn/w/womens-accessories-equipment-5e1x6zawwpw'
+        ]
 
     for path in home_list:
         run_func(first_page, path, em)
@@ -222,6 +224,7 @@ pattern = re.compile(r'window.INITIAL_REDUX_STATE=(.*);</script>')
 limit_pattern = re.compile(r'限购.*>([1-9]\d*)<.*')
 promotion_pattern = re.compile(r'不参加任何折扣优惠|不适用于任何优惠券')
 INFO = []
+PROCESSES = 4
 
 
 class MyManager(BaseManager):
@@ -266,4 +269,19 @@ def Manager2():
 
 if __name__ == "__main__":
     freeze_support()
-    main()
+    try:
+        num = input('输入线程数，默认为 4，回车确认: ')
+        if num:
+            PROCESSES = int(num)
+    except:
+        logger.error('输入错误，使用默认')
+
+    try:
+        path = input('输入特殊链接，默认为固定采集，回车确认: ')
+        if 'https://' not in path.lower() and 'HTTPS://' not in path.lower():
+            raise ''
+    except:
+        path = None
+        logger.error('输入错误，使用默认')
+
+    main(path)
