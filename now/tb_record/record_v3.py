@@ -119,6 +119,10 @@ class DealRecord(object):
                 self.is_trade = True
                 self.trade_list[trade] += 1
 
+        for trade in self.irrelevant.keys():
+            if trade in content:
+                self.irrelevant[trade] += 1
+
     def tourist(self, date: str):
         self.tourist_second = 60
         date = date.split(' ')[-1].split(':')
@@ -206,7 +210,7 @@ class DealRecord(object):
             if self.is_trade is not None:
                 self.write(self.info)
             else:
-                self.statistical['无关行业'] += 1
+                # self.statistical['无关行业'] += 1
 
                 if self.info.get('手机号', None) is not None:
                     self.write(self.info)
@@ -285,14 +289,18 @@ class DealRecord(object):
         for shop, data in self.statistical.items():
             for key, value in data.items():
                 self.excel.write([shop, key, value])
-        self.excel.write([f'无关行业:{a}', f'一句后再无回复:{b}'])
+        self.excel.write([f'一句后再无回复:{b}'])
+        self.excel.write(['无关行业'])
+        for key, value in a.items():
+            self.excel.write([key, value])
+        self.excel.write(['有关行业'])
         for item in c.items():
             self.excel.write(item)
         self.excel.save('{}统计.xlsx'.format(self.info_path))
 
     def main(self):
         self.some_input()
-        self.statistical = {'无关行业': 0, '一句后再无回复': 0}
+        self.statistical = {'一句后再无回复': 0}
 
         self.excel = ExcelOpea()
         self.excel.init_sheet(header=self.header)
@@ -309,6 +317,10 @@ class DealRecord(object):
         self.trade_list = read_lines(path, judge_code(path))
         self.trade_list = {i: 0 for i in self.trade_list}
 
+        path = '{}无关行业关键字.txt'.format(self.keyword_path)
+        self.irrelevant = read_lines(path, judge_code(path))
+        self.irrelevant = {i: 0 for i in self.irrelevant}
+
         path = '{}包含关键字列表.txt'.format(self.keyword_path)
         self.keyword_list = read_lines(path, judge_code(path))
 
@@ -316,6 +328,7 @@ class DealRecord(object):
             self.extract_record(join(self.record_path, filename))
 
         self.statistical['行业数量'] = self.trade_list
+        self.statistical['无关行业'] = self.irrelevant
         result_path = self.excel.save(self.info_path)
 
         self.summary(result_path)
