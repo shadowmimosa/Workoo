@@ -12,7 +12,10 @@ from config import logger
 
 
 def judge_sku(itme: dict):
-    skus = [x['localizedSize'] for x in itme['skus']]
+    skus = [
+        x['localizedSize'].split('(')[0].replace('ONE SIZE', '均码')
+        for x in itme['skus']
+    ]
     skuid = [x['skuId'] for x in itme['skus']]
     available = [x['skuId'] for x in itme['availableSkus']]
 
@@ -64,7 +67,7 @@ def get_detail(path, excel=None, lock=None):
             limit = re.search(limit_pattern, additional)
             promotion = re.search(promotion_pattern, additional)
             info['是否限购'] = '否' if not limit else '限购{}件'.format(limit.group(1))
-            info['是否支持优惠券'] = '否' if promotion else '是'
+            info['是否支持优惠券'] = '是' if promotion else '否'
         else:
             info['是否限购'] = '否'
             info['是否支持优惠券'] = '否'
@@ -146,8 +149,8 @@ def multi_processes(path_list, em):
 
 
 def judge():
-    if int(time.time()) > 1578067000:
-        raise 'TimeError'
+    if int(time.time()) > 1609689642:
+        raise TimeoutError
 
 
 def last_page(path, em):
@@ -226,7 +229,7 @@ host = 'https://www.nike.com'
 country_lang = 'cn'
 country_lang_region = 'https://store.nike.com/cn/zh_cn'
 pattern = re.compile(r'window.INITIAL_REDUX_STATE=(.*);</script>')
-limit_pattern = re.compile(r'限购.*>([1-9]\d*)<.*')
+limit_pattern = re.compile(r'限购.*([1-9]\d*).*')
 promotion_pattern = re.compile(r'不参加任何折扣优惠|不适用于任何优惠券')
 INFO = []
 PROCESSES = 4
@@ -273,7 +276,7 @@ def Manager2():
 
 
 if __name__ == "__main__":
-    judge()    
+    judge()
     freeze_support()
     try:
         num = input('输入线程数，默认为 4，回车确认: ')
