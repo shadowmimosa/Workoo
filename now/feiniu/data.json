@@ -1,0 +1,81 @@
+{
+    "body": {
+        "productDetail": {
+            "dealManner": [],
+            "needBuyQty": 1,
+            "commodityNum": "2818162",
+            "newComePriceTag": "http://membase-yxapp.feiniu.com/images/goods/newPo_xxx.png",
+            "cpSeq": "CC1000000013",
+            "isCollectLike": 0,
+            "priceUnit": "份",
+            "sellingPoint": "颜色红润，鲜红饱满，汁多肉嫩",
+            "kind": 1,
+            "specType": 1,
+            "it_saleqty": 19,
+            "share": {
+                "webPageUrl": "https://fresh.feiniu.com/commodity/detail/share.shtml?goodsNo=P0718120000170188&storeCode=1047",
+                "smallTalkId": "gh_5a75412a617c",
+                "smallTalkPath": "/pages/www/detail?scene=P0718120000170188",
+                "hdImageUrl": "https://img10.fn-mart.com/pic/d27e1341798124eb9bef/kTq2nn7nDzLdKMZgQT/5YSGeGVxManRvy/CsmRs13fc1mATNjOAAMCC4FWs_k775_org_q75.jpg",
+                "thumbImageUrl": "https://img10.fn-mart.com/pic/d27e1341798124eb9bef/kTq2nn7nDzLdKMZgQT/5YSGeGVxManRvy/CsmRs13fc1mATNjOAAMCC4FWs_k775_org_q75.jpg"
+            },
+            "newComeIdent": 1,
+            "coolTagUrl": "",
+            "saleType": 1,
+            "promotionTag": "http://membase-yxapp.feiniu.com/images/goods/big_promote_xxx.png",
+            "itName": "红颜草莓 300g",
+            "specDesc": "1份",
+            "videoUrl": "http://alcdn-img01.fn-mart.com/video/201912/19/262522174630268929.mp4",
+            "orderLimitNum": 0,
+            "goodDetailURL": "https://fnyx.feiniu.com/commodity/detail/content/P0718120000170188.shtml",
+            "sm_price": "19.8",
+            "sendStatus": 1,
+            "originPrice": "29.9",
+            "property": [{
+                "name": "品牌",
+                "value": "自营"
+            }, {
+                "name": "进口/国产",
+                "value": "国产"
+            }, {
+                "name": "包装方式",
+                "value": "份"
+            }, {
+                "name": "保存条件",
+                "value": "冷藏"
+            }, {
+                "name": "净重",
+                "value": "300g"
+            }],
+            "goodsNo": "P0718120000170188",
+            "saleTypeDesc": "加入购物车",
+            "sm_pic_list": ["https://img10.fn-mart.com/pic/d27e1341798124eb9bef/kTq2nn7nDzLdKMZgQT/5YSGeGVxManRvy/CsmRs13fc1mATNjOAAMCC4FWs_k775_org_q75.jpg", "https://img10.fn-mart.com/pic/92731341798e24eb9fd2/Kz62TTsnDTflhgugET/simaoaP9tajaKi/CsmRtF3fc1mAYdhuAAo9iojbyno220_org_q75.jpg", "https://img10.fn-mart.com/pic/98df1341798024eb95db/hn82zzs2FzfMhMulQT/7ieySGWiFaWiFy/CsmRtF26M4KAa0ndAAhgXwiL7_8678_org_q75.jpg"],
+            "unit": "份",
+            "limitQty": 0,
+            "serviceTips": {
+                "serviceTipsTitle": "服务说明",
+                "serviceContent": "加工服务免费提供，但需要额外10-15分钟准备时间，加工商品暂不提供退货服务，请您谅解"
+            },
+            "sendTimeTip": "现在下单，最快明天08:30-09:00送达",
+            "freight": "满39元免首重配送费（10kg内）",
+            "minQuantity": 1
+        },
+        "campList": [{
+            "tagTitle": "限购",
+            "corner": {
+                "bgColor": "#FFF7F7",
+                "textColor": "#e60012",
+                "desc": "限购",
+                "borderColor": "#e60012"
+            },
+            "promote": "本商品每帐号限购1份",
+            "showArrow": 0,
+            "type": 7
+        }]
+    },
+    "debug": [],
+    "elapsedTime": 93,
+    "errorCode": 0,
+    "errorDesc": "",
+    "logCode": "f215851-1579099631264-180979331-17178-109-5924-s"
+}
