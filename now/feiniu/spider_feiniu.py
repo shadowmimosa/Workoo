@@ -53,6 +53,34 @@ def limit(content):
                 return 1
 
 
+def get_pic(code):
+    path = f'https://fnyx.feiniu.com/commodity/detail/json/{code}.json'
+
+    header = {
+        'Host': 'fnyx.feiniu.com',
+        'Accept': 'application/json, text/plain, */*',
+        'Origin': 'https://fnyx.feiniu.com',
+        'User-Agent':
+        'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1295.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2875.116 Safari/537.36',
+        'Content-Type': 'application/x-www-form-urlencoded',
+        'Referer':
+        f'https://fnyx.feiniu.com/commodity/detail/content/{code}.shtml',
+        'Accept-Encoding': 'gzip, deflate',
+        'Accept-Language': 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.5;q=0.4',
+    }
+
+    resp = req(path,
+               header=header,
+               data=f'detailType=youxian&commodityKey={code}')
+    result = json.loads(resp)
+    pics = ''
+    for item in result['body']:
+        if item['type'] == 'fmdesc-module-product-pic':
+            for pic in item['data']['images']:
+                pics = ', '.join((pics, pic.replace('//', '')))
+            return pics.strip(', ')
+
+
 def detail(code):
     global count
     path = 'https://yx.feiniu.com/www-yxapp/goods/detail/t126'
@@ -71,6 +99,7 @@ def detail(code):
         '名称': product['itName'],
         '一级分类': first,
         '二级分类': second,
+        '三级分类': third,
         '售价': product['sm_price'],
         '参考价': product.get('originPrice'),
         # '折扣': item['corners'].get('desc'),
@@ -87,7 +116,7 @@ def detail(code):
         '重量': product.get('priceUnit'),
         '净含量': property_.get('净重'),
         '储存条件': property_.get('保存条件'),
-        '详情图': product['goodDetailURL'],
+        '详情图': get_pic(code),
         '运费政策': product['freight'],
         # '所属商户': store,
         '采集时间': time.strftime("%Y-%m-%d %H-%M-%S", time.localtime()),
@@ -148,8 +177,8 @@ def categoty_search(code):
             break
 
 
-def child_category(code):
-    global second
+def third_category(code):
+    global third
     path = 'https://yx.feiniu.com/www-yxapp/category/childCategory/t126'
     data = raw_data
     data['body'] = {"categorySeq": code, "type": "1", "storeCode": store}
@@ -160,6 +189,29 @@ def child_category(code):
         code = item['categorySeq']
         second = item['categoryName']
         run_func(categoty_search, code)
+
+
+def second_category(code):
+    global second, third
+    path = 'https://yx.feiniu.com/www-yxapp/category/childCategory/t126'
+    data = raw_data
+    data['body'] = {"categorySeq": code, "type": "1", "storeCode": store}
+    param = urllib.parse.quote(json.dumps(data))
+    resp = req(path, header=header, data=f'data={param}&h5=yx_touch')
+    result = json.loads(resp)
+    for item in result['body']['categoryTree']:
+        child = item.get('child')
+        if len(child) == 0:
+            third = ''
+            code = item['categorySeq']
+            second = item['categoryName']
+            run_func(categoty_search, code)
+        else:
+            for child_ in child:
+                code = child_['categorySeq']
+                second = item['categoryName']
+                third = child_['categoryName']
+                run_func(categoty_search, code)
 
 
 def first_category():
@@ -174,7 +226,7 @@ def first_category():
         code = item['categorySeq']
         first = item['categoryName']
         if first in category:
-            run_func(child_category, code)
+            run_func(second_category, code)
         else:
             continue
 
@@ -209,6 +261,7 @@ def main():
         '名称',
         '一级分类',
         '二级分类',
+        '三级分类',
         '售价',
         '参考价',
         # '折扣',
@@ -245,6 +298,7 @@ store = '1047'
 category = []
 first = ''
 second = ''
+third = ''
 count = 0
 patter = re.compile(r'[1-9]\d*')
 header = {
