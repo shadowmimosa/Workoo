@@ -171,10 +171,14 @@ def categoty_search(code):
         for item in result['body']['MerchandiseList']:
             sm_seq = item['sm_seq']
             run_func(detail, sm_seq)
-        total = result['body']['total']
-        pages = result['body']['totalPageCount']
-        if page >= pages:
-            break
+        # total = result['body']['total']
+        pages = result['body'].get('totalPageCount')
+        if pages:
+            if page >= pages:
+                break
+        else:
+            logger.error(f'Keyerror - {result}')
+            time.sleep(60)
 
 
 def third_category(code):
