@@ -1,0 +1,7 @@
+{
+    "areaCode": "CS000016",
+    "clientid": "",
+    "device_id": "",
+    "token": "",
+    "storeCode": "1092"
+}
