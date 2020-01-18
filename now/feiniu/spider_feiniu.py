@@ -42,15 +42,25 @@ def deal_property(content):
 
 
 def limit(content):
-    if len(content) == 0:
-        return None
-    else:
-        for item in content:
-            if '限购' in item['tagTitle']:
-                return 2
-            # elif '促销' in item['tagTitle']:
-            else:
-                return 1
+    promotion = ''
+    restriction = ''
+
+    for item in content:
+        # if '限购' in item['tagTitle']:
+        # obj = re.search(pattern, item['promote'])
+        # if obj:
+        #     return obj.group()
+        # else:
+        #     return item['promote']
+        # elif '促销' in item['tagTitle']:
+        # else:
+        #     return 1
+        if '限购' in item['tagTitle']:
+            restriction = '\n'.join((restriction, item['promote']))
+        else:
+            promotion = '\n'.join((promotion, item['promote']))
+
+    return promotion.strip('\n'), restriction.strip('\n')
 
 
 def get_pic(code):
@@ -114,6 +124,7 @@ def detail(code):
         '品牌': property_.get('品牌'),
         '产地': property_.get('产地'),
         '重量': product.get('priceUnit'),
+        '视频': product.get('videoUrl'),
         '净含量': property_.get('净重'),
         '储存条件': property_.get('保存条件'),
         '详情图': get_pic(code),
@@ -121,10 +132,13 @@ def detail(code):
         # '所属商户': store,
         '采集时间': time.strftime("%Y-%m-%d %H-%M-%S", time.localtime()),
         '配货ID': product['commodityNum'],
-        '促销限购': limit(result['body']['campList']),
         '保质期': result['elapsedTime'],
         # '采集标注': '',
     }
+    promote = limit(result['body']['campList'])
+    info['促销'] = promote[0]
+    info['限购'] = promote[1]
+
     if info['参考价'] is None:
         info['参考价'] = info['售价']
     if info['产地'] is None:
@@ -142,11 +156,16 @@ def detail(code):
     #     num = re.search(patter, info['名称'])
     #     if num:
     #         info['净含量'] = num.group()
-
-    excel.write(info)
     count += 1
-    if count % 10 == 0:
-        print(f'爬取商品数据--{count}条')
+    info['排序'] = count
+    try:
+        excel.write(info)
+    except:
+        count -= 1
+        logger.debug(f'Error: {info}')
+    else:
+        if count % 10 == 0:
+            print(f'爬取商品数据--{count}条')
 
     # print('{} - {} - {}'.format(first, second, info['名称']))
 
@@ -172,13 +191,16 @@ def categoty_search(code):
             sm_seq = item['sm_seq']
             run_func(detail, sm_seq)
         # total = result['body']['total']
-        pages = result['body'].get('totalPageCount')
-        if pages:
-            if page >= pages:
-                break
+        if len(result['body']['MerchandiseList']) == 0:
+            break
         else:
-            logger.error(f'Keyerror - {result}')
-            time.sleep(60)
+            pages = result['body'].get('totalPageCount')
+            if pages:
+                if page >= pages:
+                    break
+            else:
+                logger.error(f'Keyerror - {result}')
+                time.sleep(60)
 
 
 def third_category(code):
@@ -252,7 +274,8 @@ def main():
         time.sleep(300)
         return
 
-    store = '1055'
+    # store = config['storeCode']
+    store = config['storeCode']
     raw_data['time'] = int(time.time())
     raw_data['areaCode'] = config['areaCode']
     raw_data['storeCode'] = config['storeCode']
@@ -261,6 +284,8 @@ def main():
     raw_data['token'] = config['token']
 
     excel.init_sheet(header=[
+        '排序',
+        '配货ID',
         '商品编号',
         '名称',
         '一级分类',
@@ -284,11 +309,12 @@ def main():
         '主图1',
         '主图2',
         '详情图',
+        '视频',
         '运费政策',
         # '所属商户',
         '采集时间',
-        '配货ID',
-        '促销限购',
+        '促销',
+        '限购',
         '保质期',
         # '采集标注',
     ])
@@ -304,7 +330,7 @@ first = ''
 second = ''
 third = ''
 count = 0
-patter = re.compile(r'[1-9]\d*')
+pattern = re.compile(r'[1-9]\d*')
 header = {
     'Host': 'yx.feiniu.com',
     'Content-Type': 'application/x-www-form-urlencoded',

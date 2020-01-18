@@ -3,5 +3,5 @@
     "clientid": "",
     "device_id": "",
     "token": "",
-    "storeCode": "1092"
+    "storeCode": "1169"
 }
