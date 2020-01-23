@@ -86,7 +86,8 @@ class Query(object):
 
                 if resp.apparent_encoding in gb_encode:
                     resp.encoding = "gbk"
-
+                if resp.encoding == 'ISO-8859-1':
+                    resp.encoding = "utf-8"
                 magic_time = end_time - start_time
                 self.logger.info(
                     "--->Info: Request successful. It takes {:.3} seconds".
