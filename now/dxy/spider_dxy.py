@@ -43,6 +43,12 @@ def extract_num(content: str):
 
 def formatting(data: dict, data_type=1):
     tags = data['tags']
+    data.update({
+        'diagnosis': 0,
+        'suspect': 0,
+        'cure': 0,
+        'death': 0,
+    })
     for item in tags.split('，'):
         if '确诊' in item:
             data.update({'diagnosis': extract_num(item)})
