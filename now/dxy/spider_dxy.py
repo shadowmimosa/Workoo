@@ -13,7 +13,7 @@ import time
 import urllib
 import datetime
 from pymongo import MongoClient
-from config import MONGO, DEBUG
+from config import MONGO, DEBUG, logger
 from utils.request import Query
 from utils.run import run_func
 
@@ -74,7 +74,12 @@ def main():
     result = re.search(pattern, resp)
     if result:
         info = []
-        data = json.loads(result.group(1).replace(' = ', ''))
+        try:
+            data = json.loads(result.group(1).replace(' = ', ''))
+        except Exception:
+            logger.error('json error, {}'.format(
+                result.group(1).replace(' = ', '')))
+            return
 
         for item in data:
             status = mongo.find_one({
@@ -92,7 +97,7 @@ def main():
             else:
                 item = formatting(item)
                 info.append(item)
-        
+
         if info:
             mongo.insert_many(info)
 
