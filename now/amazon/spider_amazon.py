@@ -93,7 +93,12 @@ class OperaChrome(object):
 
 class Amazon(object):
     def __init__(self):
+        self.chrome = OperaChrome(
+            'https://www.amazon.com/dp/B073FLCFK2?th=1&psc=1')
         super().__init__()
+
+    def page(self):
+        pass
 
     def starts_parser(self, html):
         pref_list = []
@@ -112,6 +117,7 @@ class Amazon(object):
         # //*[@id="a-autoid-19"]
 
     def parser(self):
+        # self.chrome.driver.find_element_by_xpath()
         html = self.chrome.driver.page_source
 
         info = {}
@@ -131,8 +137,6 @@ class Amazon(object):
             info['变体数量'] = len(data)
             info['变体'] = data
 
-        # for class_name in []:
-
         # 4 stars and aboveq
         starts = soup.judge(html, attr={'class': 'a-carousel-row-inner'})
         if starts:
@@ -140,9 +144,7 @@ class Amazon(object):
 
         print(info)
 
-    def main(self):
-        path = 'https://www.amazon.com/dp/B073FLCFK2?th=1&psc=1'
-        self.chrome = OperaChrome(path)
+    def change_code(self):
         timeout = 15
         self.chrome.click('//*[@id="nav-global-location-slot"]/span/a',
                           timeout=timeout)
@@ -158,7 +160,8 @@ class Amazon(object):
         self.chrome.click('//*[@id="a-popover-7"]/div/div[2]/span/span',
                           timeout=timeout)
 
-        self.chrome.driver.find_element_by_xpath()
+    def main(self):
+        self.change_code()
         self.parser()
 
 
