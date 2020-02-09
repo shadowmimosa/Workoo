@@ -43,8 +43,8 @@ class OperaChrome(object):
         # options.add_argument('--proxy-server=http://{}'.format(
         #     self.get_proxy()))
 
-        # prefs = {"profile.managed_default_content_settings.images": 2}
-        # options.add_experimental_option("prefs", prefs)
+        prefs = {"profile.managed_default_content_settings.images": 2}
+        options.add_experimental_option("prefs", prefs)
         driver = webdriver.Chrome(executable_path="./chromedriver.exe",
                                   options=options)
         if path is not None:
@@ -95,12 +95,45 @@ class Amazon(object):
     def __init__(self):
         self.chrome = OperaChrome(
             'https://www.amazon.com/dp/B073FLCFK2?th=1&psc=1')
+        self.soup = DealSoup()
+
         super().__init__()
 
+    def good_info(self, html):
+        info = {}
+
+        info['品牌'] = self.soup.judge(html, attr={'id': 'bylineInfo'}).text
+        temp = self.soup.judge(html, attr={'id': 'averageCustomerReviews'})
+        info['星级'] = self.soup.judge(temp, attr={'class': 'a-icon-alt'}).text
+        info['评价'] = self.soup.judge(temp,
+                                     attr={
+                                         'id': 'acrCustomerReviewText'
+                                     }).text
+        info['价格'] = self.soup.judge(html, attr={
+            'id': 'priceblock_ourprice'
+        }).text
+
+        result = re.search(r'"dimensionToAsinMap" : (\{.*\})', html)
+        if result:
+            data = result.group(1)
+            info['变体数量'] = len(data)
+            info['变体'] = data
+        return info
+
     def page(self):
-        pass
+        button = self.chrome.driver.find_element_by_class_name(
+            'a-button a-button-image a-carousel-button a-carousel-goto-nextpage'
+        )
+        if button:
+            pass
+
 
     def starts_parser(self, html):
+        # 4 stars and aboveq
+        starts = self.soup.judge(html, attr={'class': 'a-carousel-row-inner'})
+        if not starts:
+            return
+
         pref_list = []
         soup = DealSoup()
         cards = soup.judge(
@@ -114,33 +147,12 @@ class Amazon(object):
             pref = card['data-viewpixelurl']
             pref_list.append('https://www.amazon.com{}'.format(pref))
 
-        # //*[@id="a-autoid-19"]
+        self.page()
 
     def parser(self):
-        # self.chrome.driver.find_element_by_xpath()
         html = self.chrome.driver.page_source
-
-        info = {}
-        soup = DealSoup()
-
-        info['品牌'] = soup.judge(html, attr={'id': 'bylineInfo'}).text
-        temp = soup.judge(html, attr={'id': 'averageCustomerReviews'})
-        info['星级'] = soup.judge(temp, attr={'class': 'a-icon-alt'}).text
-        info['评价'] = soup.judge(temp, attr={
-            'id': 'acrCustomerReviewText'
-        }).text
-        info['价格'] = soup.judge(html, attr={'id': 'priceblock_ourprice'}).text
-
-        result = re.search(r'"dimensionToAsinMap" : (\{.*\})', html)
-        if result:
-            data = result.group(1)
-            info['变体数量'] = len(data)
-            info['变体'] = data
-
-        # 4 stars and aboveq
-        starts = soup.judge(html, attr={'class': 'a-carousel-row-inner'})
-        if starts:
-            self.starts_parser(starts)
+        good = self.good_info(html)
+        # self.chrome.driver.find_element_by_xpath()
 
         print(info)
 
