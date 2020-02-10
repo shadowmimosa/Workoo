@@ -88,6 +88,8 @@ class ExcelOpea(object):
                 except KeyError:
                     need_write = ''
                 self.to_excel(index, need_write)
+        elif isinstance(content, str):
+            self.to_excel(0, content)
         self.row += 1
 
     def init_sheet(self, use='openpyxl', header=None):
