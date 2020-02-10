@@ -2,6 +2,7 @@
 Empty
 '''
 import re
+import json
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -188,9 +189,10 @@ class Amazon(object):
         result = re.search(r'"dimensionToAsinMap" : (\{.*\})',
                            self.chrome.driver.page_source)
         if result:
-            data = result.group(1)
+            data = json.loads(result.group(1))
             info['变体数量'] = len(data)
-            info['变体'] = data
+            info['变体'] = data.values()
+            info['变体'].insert(0, '变体')
 
         if info:
             self.excel.write('商品信息')
@@ -248,6 +250,9 @@ class Amazon(object):
 
                 if href in href_list:
                     return href_list
+
+                if 'www.amazon.com' in href:
+                    href_list.append(href)
                 else:
                     href_list.append('https://www.amazon.com{}'.format(href))
 
