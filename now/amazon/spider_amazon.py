@@ -36,7 +36,7 @@ class OperaChrome(object):
         options = webdriver.ChromeOptions()
         options.add_argument("disable-infobars")
         options.add_argument("disable-web-security")
-        # options.add_argument("--headless")
+        options.add_argument("--headless")
         options.add_argument("--start-maximized")
         options.add_argument('--log-level=3')
         options.add_argument('--ignore-certificate-errors')
@@ -186,19 +186,19 @@ class Amazon(object):
         info['评价'] = self.chrome.find_by_css('#acrCustomerReviewText').text
         info['价格'] = self.chrome.find_by_css('#priceblock_ourprice').text
 
-        result = re.search(r'"dimensionToAsinMap" : (\{.*\})',
-                           self.chrome.driver.page_source)
-        if result:
-            data = json.loads(result.group(1))
-            info['变体数量'] = len(data)
-            info['变体'] = data.values()
-            info['变体'].insert(0, '变体')
-
         if info:
             self.excel.write('商品信息')
-
             for key in info:
                 self.excel.write([key, info.get(key)])
+
+        result = re.search(r'"dimensionValuesDisplayData" : (\{.*\})',
+                           self.chrome.driver.page_source)
+
+        if result:
+            data = json.loads(result.group(1))
+            self.excel.write(['变体数量', len(data)])
+            for key in data:
+                self.excel.write(key, data.get('key'))
 
     def page(self, item):
         self.chrome.driver.execute_script("arguments[0].scrollIntoView(true);",
@@ -243,18 +243,28 @@ class Amazon(object):
                 if not div_obj:
                     return href_list
 
-                href = div_obj.get_attribute('data-viewpixelurl')
-                if href is None:
-                    href = self.chrome.find_by_tag(
-                        'a', driver=div_obj).get_attribute('href')
+                # get asin
+                asin = div_obj.get_attribute('data-asin')
+                if not asin:
+                    asin = div_obj.get_attribute('asin')
 
-                if href in href_list:
-                    return href_list
+                if asin:
+                    href_list.append(
+                        'https://www.amazon.com/dp/{}'.format(asin))
 
-                if 'www.amazon.com' in href:
-                    href_list.append(href)
-                else:
-                    href_list.append('https://www.amazon.com{}'.format(href))
+                # # get href
+                # href = div_obj.get_attribute('data-viewpixelurl')
+                # if href is None:
+                #     href = self.chrome.find_by_tag(
+                #         'a', driver=div_obj).get_attribute('href')
+
+                # if href in href_list:
+                #     return href_list
+
+                # if 'www.amazon.com' in href:
+                #     href_list.append(href)
+                # else:
+                #     href_list.append('https://www.amazon.com{}'.format(href))
 
             if self.page(starts):
                 break
@@ -357,6 +367,21 @@ class Amazon(object):
             self.sleep_time = int(input('根据网络及性能情况输入翻页等待时间, 回车确认，默认 2 秒: '))
         except:
             self.sleep_time = 2
+
+        try:
+            self.proxy = int(input('是否使用代理, 1: 使用, 2: 不使用, 默认不使用: '))
+        except:
+            print('输入错误')
+            return
+        else:
+            if self.proxy == 1:
+                self.proxy = 1
+            elif self.proxy == 2:
+                self.proxy = 2
+            else:
+                print('输入错误')
+                self.proxy = 2
+
         with open('./links.txt', 'r', encoding='utf-8') as fn:
             links = fn.readlines()
         for link in links:
@@ -365,9 +390,9 @@ class Amazon(object):
                 print('网址错误')
             else:
                 self.chrome.driver.get(link)
-                # if code_status == 0:
-                #     self.change_code()
-                #     code_status = 1
+                if code_status == 0:
+                    self.change_code()
+                    code_status = 1
                 self.parser()
 
         self.excel.save()

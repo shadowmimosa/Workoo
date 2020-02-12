@@ -1,22 +1,82 @@
+import os
+import re
+import time
+import json
 import requests
+from bs4 import BeautifulSoup
+from openpyxl import Workbook as init_workbook
 
-path = 'http://zdscxx.moa.gov.cn:8080/misportal/echartReport/webData/最新发布/page1.json?_=1581340376763'
 
-header = {
-    'Host':
-    'zdscxx.moa.gov.cn:8080',
-    'User-Agent':
-    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
-    'Accept':
-    'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-    'Accept-Encoding':
-    'gzip, deflate',
-    'Accept-Language':
-    'zh-CN,zh;q=0.9',
-    # 'Cookie':
-    # 'JSESSIONID=23B7C039CAD2766D326E9F2F5E7CDE11; wdcid=2445f1d8cb707e09; yfx_c_g_u_id_10002896=_ck20012123552813424782677373811; yfx_key_10002896=; yfx_mr_10002896=%3A%3Amarket_type_free_search%3A%3A%3A%3Abaidu%3A%3A%3A%3A%3A%3A%3A%3Awww.baidu.com%3A%3A%3A%3Apmf_from_free_search; yfx_mr_f_10002896=%3A%3Amarket_type_free_search%3A%3A%3A%3Abaidu%3A%3A%3A%3A%3A%3A%3A%3Awww.baidu.com%3A%3A%3A%3Apmf_from_free_search; _trs_uv=k5o28aun_299_axm6; _va_id=280c05c4cb0a958d.1579622129.1.1579622129.1579622129.; _va_ref=%5B%22%22%2C%22%22%2C1579622129%2C%22https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DL3OuTEjJrzJAnxdvH4FbLJNf-bF7m_UaCMoftIigsZGRUkWonlP2fcoXnFVR14bN%26wd%3D%26eqid%3Defd04a060002f1ab000000025e271eb2%22%5D; yfx_f_l_v_t_10002896=f_t_1579622128261__r_t_1581340350619__v_t_1581340350619__r_c_1'
-}
+class DealZdscxx(object):
+    def __init__(self):
+        super().__init__()
 
-resp = requests.get(path, headers=header)
+    def init_sheet(self):
+        self.write_wkb = init_workbook()
+        self.write_sheet = self.write_wkb.create_sheet('sheet1', 0)
+        self.row = 1
+        self.write(['时间', '农产品名称', '价格', '单位'])
 
-print(resp)
+    def write(self, content):
+        for index, value in enumerate(content):
+            self.write_sheet.cell(self.row, index + 1, value)
+        self.row += 1
+
+    def save(self):
+        self.write_wkb.save(
+            time.strftime('{}.xlsx'.format("%Y-%m-%d %H-%M-%S",
+                                           time.localtime())))
+
+    def extarcting(self, data: dict):
+        if not data.get('realChannel') == '分析报告日报':
+            return
+
+        self.init_sheet()
+        title = data.get('title')
+        sign = ':' if ':' in title else '：'
+
+        publish_time = title.split(sign)[0]
+
+        content = BeautifulSoup(data.get('content'), "lxml").text
+
+        for field in ['猪肉', '牛肉', '羊肉', '鸡蛋', '白条鸡', '鲫鱼', '鲤鱼', '白鲢鱼', '大带鱼']:
+            info = [publish_time, field, '公斤']
+            pattern = field + r'(平均价格为)?([1-9]\d*\.\d*|0\.\d*[1-9]\d*)'
+            price = re.search(pattern, content)
+            if price:
+                info.insert(2, price.group(2))
+                self.write(info)
+
+        self.write_wkb.save('{}.xlsx'.format(
+            title.replace(sign, ' ').replace('"', '').replace('”', '')))
+
+    def obtaining(self, page):
+        page = 77
+        path = f'http://zdscxx.moa.gov.cn:8080/misportal/echartReport/webData/最新发布/page{page}.json'
+        header = {
+            'Host': 'zdscxx.moa.gov.cn:8080',
+            'User-Agent':
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+            'Accept':
+            'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+            'Accept-Encoding': 'gzip, deflate',
+            'Accept-Language': 'zh-CN,zh;q=0.9',
+        }
+        resp = requests.get(path, headers=header)
+        if resp.status_code == 200:
+            data = json.loads(resp.text)
+            return data
+
+    def main(self):
+        for page in range(66):
+            data = self.obtaining(page + 1)
+            if not data:
+                break
+            for item in data:
+                self.extarcting(item)
+
+
+if __name__ == "__main__":
+    os.chdir(os.path.dirname(os.path.abspath(__file__)))
+    spider = DealZdscxx()
+    spider.main()
