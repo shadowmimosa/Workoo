@@ -23,9 +23,8 @@ class DealZdscxx(object):
         self.row += 1
 
     def save(self):
-        self.write_wkb.save(
-            time.strftime('{}.xlsx'.format("%Y-%m-%d %H-%M-%S",
-                                           time.localtime())))
+        self.write_wkb.save('{}.xlsx'.format(
+            time.strftime('%Y-%m-%d %H-%M-%S', time.localtime())))
 
     def extarcting(self, data: dict):
         if not data.get('realChannel') == '分析报告日报':
@@ -34,8 +33,10 @@ class DealZdscxx(object):
         self.init_sheet()
         title = data.get('title')
         sign = ':' if ':' in title else '：'
+        title = title.split(sign)[-1]
 
-        publish_time = title.split(sign)[0]
+        # publish_time = title.split(sign)[0]
+        publish_time = data.get('publishTime').split(' ')[0]
 
         content = BeautifulSoup(data.get('content'), "lxml").text
 
@@ -47,11 +48,13 @@ class DealZdscxx(object):
                 info.insert(2, price.group(2))
                 self.write(info)
 
-        self.write_wkb.save('{}.xlsx'.format(
-            title.replace(sign, ' ').replace('"', '').replace('”', '')))
+        self.write_wkb.save('{} {}.xlsx'.format(
+            publish_time,
+            title.replace(sign, ' ').replace('"',
+                                             '').replace('”',
+                                                         '').replace('“', '')))
 
     def obtaining(self, page):
-        page = 77
         path = f'http://zdscxx.moa.gov.cn:8080/misportal/echartReport/webData/最新发布/page{page}.json'
         header = {
             'Host': 'zdscxx.moa.gov.cn:8080',
@@ -70,8 +73,10 @@ class DealZdscxx(object):
     def main(self):
         for page in range(66):
             data = self.obtaining(page + 1)
+
             if not data:
                 break
+
             for item in data:
                 self.extarcting(item)
 
