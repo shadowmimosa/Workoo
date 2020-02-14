@@ -92,14 +92,14 @@ class ExcelOpea(object):
             self.to_excel(0, content)
         self.row += 1
 
-    def init_sheet(self, use='openpyxl', header=None):
+    def init_sheet(self, use='openpyxl', sheet='sheet1', header=None):
         self.use = use
         self.header = header
 
         if use == 'openpyxl':
             self.use = 'openpyxl'
             self.write_wkb = init_workbook()
-            self.write_sheet = self.write_wkb.create_sheet('sheet1', 0)
+            self.write_sheet = self.write_wkb.create_sheet(sheet, 0)
             # self.write_sheet.column_dimensions['H'].width = 100.0
             self.row = 1
             self.write(header)
