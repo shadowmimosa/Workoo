@@ -42,6 +42,9 @@ class Query(object):
             data = None
         files = kwargs.get("files")
 
+        proxy = kwargs.get("proxies")
+        cookies = kwargs.get("cookies")
+
         sesscion_a = self.get_session()
 
         # print("---> 开始请求网址：{}".format(url))
@@ -49,33 +52,76 @@ class Query(object):
         start_time = time.time()
         retry_count = 5
         while retry_count > 0:
-            try:
+            if proxy:
+                try:
 
-                if isinstance(data, dict):
-                    resp = sesscion_a.post(
-                        url,
-                        headers=header,
-                        data=json.dumps(data),
-                        timeout=(2, 6))
-                elif isinstance(files, dict):
-                    resp = sesscion_a.post(url, files=files, timeout=(2, 6))
-                elif data:
-                    resp = sesscion_a.post(
-                        url, headers=header, data=data, timeout=(2, 6))
-                else:
-                    resp = sesscion_a.get(
-                        url,
-                        headers=header,
-                        allow_redirects=False,
-                        timeout=(2, 6))
-                retry_count = 0
-            except Exception as exc:
-                retry_count -= 1
-                self.logger.error(
-                    "---> The error is {}, and the website is {}. Now try again just one time."
-                    .format(exc, url))
-                # self.deal_re(url=url, header=header, data=data)
+                    if isinstance(data, dict):
+                        resp = sesscion_a.post(url,
+                                               headers=header,
+                                               data=json.dumps(data),
+                                               timeout=(2, 6),
+                                               proxies=proxy,
+                                               cookies=cookies)
+                    elif isinstance(files, dict):
+                        resp = sesscion_a.post(url,
+                                               files=files,
+                                               timeout=(2, 6),
+                                               proxies=proxy,
+                                               cookies=cookies)
+                    elif data:
+                        resp = sesscion_a.post(url,
+                                               headers=header,
+                                               data=data,
+                                               timeout=(2, 6),
+                                               proxies=proxy,
+                                               cookies=cookies)
+                    else:
+                        resp = sesscion_a.get(url,
+                                              headers=header,
+                                              allow_redirects=False,
+                                              timeout=(2, 6),
+                                              proxies=proxy,
+                                              cookies=cookies)
+                    retry_count = 0
+                except Exception as exc:
+                    retry_count -= 1
+                    self.logger.error(
+                        "---> The error is {}, and the website is {}. Now try again just one time."
+                        .format(exc, url))
+                    # self.deal_re(url=url, header=header, data=data)
+            else:
+                try:
 
+                    if isinstance(data, dict):
+                        resp = sesscion_a.post(url,
+                                               headers=header,
+                                               data=json.dumps(data),
+                                               timeout=(2, 6),
+                                               cookies=cookies)
+                    elif isinstance(files, dict):
+                        resp = sesscion_a.post(url,
+                                               files=files,
+                                               timeout=(2, 6),
+                                               cookies=cookies)
+                    elif data:
+                        resp = sesscion_a.post(url,
+                                               headers=header,
+                                               data=data,
+                                               timeout=(2, 6),
+                                               cookies=cookies)
+                    else:
+                        resp = sesscion_a.get(url,
+                                              headers=header,
+                                              allow_redirects=False,
+                                              timeout=(2, 6),
+                                              cookies=cookies)
+                    retry_count = 0
+                except Exception as exc:
+                    retry_count -= 1
+                    self.logger.error(
+                        "---> The error is {}, and the website is {}. Now try again just one time."
+                        .format(exc, url))
+                    # self.deal_re(url=url, header=header, data=data)
         end_time = time.time()
 
         try:

@@ -8,6 +8,7 @@ import json
 import time
 import hashlib
 import requests
+from urllib.parse import urlencode
 from skimage import io
 from selenium import webdriver
 # from seleniumwire import webdriver
@@ -16,6 +17,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException, TimeoutException, InvalidSelectorException, ElementNotVisibleException
 from utils.excel_opea import ExcelOpea
+from utils.request import Query
+from utils.soup import DealSoup
 
 
 def remove_charater(content: str):
@@ -31,7 +34,7 @@ def get_proxy():
         resp = requests.get(link)
         ip = remove_charater(resp.text)
 
-        if ':' in ip and '.' in ip:
+        if 'code' not in ip:
             print('proxy is {}'.format(ip))
             return ip
 
@@ -54,7 +57,7 @@ class OperaChrome(object):
         options.add_argument('--ignore-certificate-errors')
         options.add_experimental_option('excludeSwitches',
                                         ['enable-automation'])
-        options.add_argument('blink-settings=imagesEnabled=false')
+        # options.add_argument('blink-settings=imagesEnabled=false')
         # options.add_argument(
         #     'proxy-authorization="sign=BB1799024E00CE5146C16B0B7BC51EA9&orderno=DT20200212142348OUNULt4Q&timestamp=1581490008&change=true"'
         # )
@@ -203,6 +206,8 @@ class OperaChrome(object):
 class Amazon(object):
     def __init__(self):
         self.excel = ExcelOpea()
+        self.req = Query().run
+        self.soup = DealSoup().judge
 
         super().__init__()
 
@@ -268,16 +273,14 @@ class Amazon(object):
             if not starts:
                 return
 
-            cards = self.chrome.find_by_class(
-                # '[class="a-section sp_offerVertical p13n-asin sp_ltr_offer"]',
-                'a-carousel-card',
-                all_tag=True,
-                driver=item)
+            cards = self.chrome.find_by_class('a-carousel-card',
+                                              all_tag=True,
+                                              driver=item)
             for card in cards:
                 div_obj = self.chrome.find_by_tag('div', driver=card)
                 count = 0
                 while not div_obj and count < 3 and card.text:
-                    time.sleep(self.sleep_time)
+                    time.sleep(2)
                     count += 1
                     div_obj = self.chrome.find_by_tag('div', driver=card)
                     print('waiting')
@@ -297,80 +300,41 @@ class Amazon(object):
                 href = 'https://www.amazon.com/dp/{}'.format(asin)
                 href_list.append(href)
 
-                # if href in href_list:
-                #     break
-                # else:
-                #     href_list.append(href)
-
-                # # get href
-                # href = div_obj.get_attribute('data-viewpixelurl')
-                # if href is None:
-                #     href = self.chrome.find_by_tag(
-                #         'a', driver=div_obj).get_attribute('href')
-
-                # if href in href_list:
-                #     return href_list
-
-                # if 'www.amazon.com' in href:
-                #     href_list.append(href)
-                # else:
-                #     href_list.append('https://www.amazon.com{}'.format(href))
-
             if self.page(starts):
                 break
 
         return href_list
 
     def buy_parser(self):
-        while True:
-            buys = self.chrome.find_by_css('#view_to_purchase-sims-feature')
-            if not buys:
-                return
-            buys = self.chrome.find_by_css(
-                '[class="a-fixed-left-grid-col a-col-right"]',
-                driver=buys,
-                all_tag=True)
+        buys = self.chrome.find_by_css('#view_to_purchase-sims-feature')
+        if not buys:
+            return
 
-            href_list = []
+        buys = self.chrome.find_by_class('a-fixed-left-grid p13n-asin',
+                                         driver=buys,
+                                         all_tag=True)
 
-            for buy in buys:
-                href = self.chrome.find_by_class('a-link-normal', driver=buy)
-                if href:
-                    href = href.get_attribute('data-viewpixelurl')
-                    if 'www.amazon.com' in href:
-                        href_list.append(href)
-                    else:
-                        href_list.append(
-                            'https://www.amazon.com{}'.format(href))
+        asin_list = [
+            buy.get_attribute('data-p13n-asin-metadata').split(
+                '&quot;asin&quot;:&quot;')[-1].replace('&quot;}')
+            for buy in buys
+        ]
 
-            if self.page(buys):
-                break
-
-        return href_list
+        return asin_list
 
     def similar_parser(self):
-        while True:
-            similars = self.chrome.find_by_css('#HLCXComparisonTable')
-            if not similars:
-                return
-            similars = self.chrome.find_by_class('comparison_image_title_cell',
-                                                driver=similars,
-                                                all_tag=True)
+        similars = self.chrome.find_by_css('#HLCXComparisonTable')
+        if not similars:
+            return
+        similars = self.chrome.find_by_class('comparison_image_title_cell',
+                                             driver=similars,
+                                             all_tag=True)
 
-            href_list = []
+        asin_list = [
+            similar.get_attribute('data-asin') for similar in similars
+        ]
 
-            for similar in similars:
-                href = self.chrome.find_by_class('a-link-normal', driver=similar)
-                if href:
-                    href = href.get_attribute('href')
-                    if 'www.amazon.com' in href:
-                        href_list.append(href)
-                    else:
-                        href_list.append('https://www.amazon.com{}'.format(href))
-
-            if self.page(similars):
-                break        
-        return href_list
+        return asin_list
 
     def parser(self):
         self.good_info()
@@ -392,22 +356,94 @@ class Amazon(object):
                 info = self.similar_parser()
             else:
                 info = self.starts_parser(keywords[key])
-            # try:
-            #     if key == 'buy':
-            #         info = self.buy_parser()
-            #     elif key == 'similar':
-            #         info = self.similar_parser()
-            #     else:
-            #         item = self.chrome.driver.find_element_by_css_selector(
-            #             keywords[key])
-            #         info = self.starts_parser(item)
-            # except Exception as exc:
-            #     print('error: {}'.format(exc))
 
             if info:
                 self.excel.init_sheet(sheet=key)
                 for content in info:
                     self.excel.write(content)
+
+    def get_asin(self, path: str, param: dict, data: list, tot: str):
+        param = urlencode(param)
+        init_path = f'https://www.amazon.com{path}?{param}'
+        cookie = self.chrome.driver.get_cookies()
+        header = {
+            'Accept': 'text/html,*/*',
+            'User-Agent':
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36',
+            'Referer': 'https://www.amazon.com/dp/B073FLCFK2?th=1&psc=1',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Accept-Language': 'zh-CN,zh;q=0.9',
+        }
+        count = 10
+        offset = 10
+        for pg in range(2, int(tot / 10) + 2):
+            odata = urlencode({'oData': data})
+            timestamps = int(time.time() * 1000)
+            path = f'{init_path}&count={count}&offset={offset}&pg={pg}&tot={tot}&num={count}&{odata}&_={timestamps}'
+
+            if self.proxy == 1:
+                proxy = get_proxy()
+                resp = self.req(path,
+                                header=header,
+                                proxies={
+                                    'http': proxy,
+                                    'https': proxy
+                                },
+                                cookies=cookie)
+            else:
+                resp = self.req(path, header=header, cookies=cookie)
+
+            time.sleep(self.sleep_time)
+
+            for item in json.loads(resp)['data']:
+                data.append(item['oid'])
+
+        return data
+
+    def parser_by_re(self):
+        self.good_info()
+
+        for sheet_name in ['buy', 'similar']:
+            # buy similar
+            asin = eval(f'self.{sheet_name}_parser()')
+            if asin:
+                self.excel.init_sheet(sheet=sheet_name)
+                for value in asin:
+                    self.excel.write(f'https://www.amazon.com/dp/{value}')
+
+        html = self.chrome.driver.page_source
+
+        # with open('./html.html', 'r', encoding='utf-8') as fn:
+        #     html = fn.read()
+
+        option_list = re.findall(
+            r'data-a-carousel-options="({.*})" data-p13n-feature-metadata=',
+            html)
+
+        if not option_list:
+            return
+
+        for item in option_list:
+            item = item.replace('&quot;', '"')
+            data = json.loads(item.replace('&quot;', '"'))
+            if data.get('name') == 'desktop-dp-sims_session-similarities':
+                # also viewed
+                asin = data.get('ajax').get('id_list')
+            elif '':
+                pass
+            else:
+                # Sponsored
+                # Sponsored2
+                # 4 stars
+                asin = self.get_asin(
+                    data.get('ajax').get('url'),
+                    data.get('ajax').get('params'),
+                    data.get('initialSeenAsins'), data.get('set_size'))
+                sheet_name = sheet = data.get('ajax').get('wName')
+
+            self.excel.init_sheet(sheet=sheet_name)
+            for value in asin:
+                self.excel.write(f'https://www.amazon.com/dp/{value}')
 
     def change_code(self):
         timeout = 15
@@ -421,10 +457,14 @@ class Amazon(object):
         # self.chrome.click(
         #     '//*[@id="a-popover-8"]/div/div[2]/span/span/span/button',
         #     timeout=timeout)
-        self.chrome.click('//*[@id="GLUXConfirmClose"]', timeout=timeout)
-        self.chrome.click('//*[@id="a-popover-7"]/div/div[2]/span/span',
+        # self.chrome.click('//*[@id="GLUXConfirmClose"]', timeout=timeout)
+        self.chrome.click('/html/body/div[7]/div/div/div[2]/span/span/input',
                           timeout=timeout)
-                          
+
+        # self.chrome.click('//*[@id="a-popover-7"]/div/div[2]/span/span',
+        #                   timeout=timeout)
+        time.sleep(3)
+        self.chrome.waiting('//*[@id="bylineInfo"]', timeout=30)
 
     def get_proxy(self, is_proxy):
         if is_proxy == 1:
@@ -465,24 +505,19 @@ class Amazon(object):
     def main(self):
         code_status = 0
         try:
-            proxy = int(input('是否使用代理, 1: 使用, 2: 不使用, 默认不使用: '))
+            self.proxy = int(input('是否使用代理, 1: 使用, 2: 不使用, 默认不使用: '))
         except:
             print('输入错误, 默认不使用')
-            proxy = 2
-
+            self.proxy = 2
         try:
-            self.sleep_time = int(
-                input('根据网络及性能情况输入翻页等待时间, 回车确认，默认 2 秒, 使用代理默认 10 秒: '))
+            self.sleep_time = int(input('根据使用情况设置请求间隔时间, 默认 1 秒: '))
         except:
-            self.sleep_time = 2 if proxy == 1 else 10
+            print('输入错误, 默认 1 秒')
+            self.sleep_time = 1        
 
         # self.chrome = OperaChrome()
 
         # self.get_proxy(proxy)
-        if proxy == 1:
-            self.chrome = OperaChrome(proxy=1)
-        else:
-            self.chrome = OperaChrome()
 
         with open('./links.txt', 'r', encoding='utf-8') as fn:
             links = fn.readlines()
@@ -491,7 +526,18 @@ class Amazon(object):
             if 'http' not in link or not link:
                 print('网址错误')
             else:
+                if self.proxy == 1:
+                    self.chrome = OperaChrome(proxy=1)
+                else:
+                    self.chrome = OperaChrome()
+
                 self.chrome.driver.get(link)
+                
+                # self.chrome.driver.set_page_load_timeout(60)
+                # try:
+                #     self.chrome.driver.get(link)
+                # except TimeoutException:
+                #     print('')                
 
                 # if not self.chrome.waiting(
                 #         '//*[@id="nav-global-location-slot"]/span/a'):
@@ -511,10 +557,10 @@ class Amazon(object):
                 #         )
 
                 if code_status == 0:
-                    self.change_code()
+                    # self.change_code()
                     code_status = 1
-                    time.sleep(10)
-                self.parser()
+                # self.parser()
+                self.parser_by_re()
 
         self.excel.save()
 
