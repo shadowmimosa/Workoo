@@ -1,6 +1,10 @@
 '''
 Empty
 '''
+# import warnings
+# import matplotlib
+# warnings.filterwarnings("ignore",category=matplotlib.MatplotlibDeprecationWarning)
+
 import os
 import re
 import sys
@@ -9,7 +13,7 @@ import time
 import hashlib
 import requests
 from urllib.parse import urlencode
-from skimage import io
+# from skimage import io
 from selenium import webdriver
 # from seleniumwire import webdriver
 from selenium.webdriver.common.by import By
@@ -51,25 +55,25 @@ class OperaChrome(object):
         options = webdriver.ChromeOptions()
         options.add_argument("disable-infobars")
         options.add_argument("disable-web-security")
-        # options.add_argument("--headless")
+        options.add_argument("--headless")
         options.add_argument("--start-maximized")
         options.add_argument('--log-level=3')
         options.add_argument('--ignore-certificate-errors')
         options.add_experimental_option('excludeSwitches',
                                         ['enable-automation'])
-        # options.add_argument('blink-settings=imagesEnabled=false')
+        options.add_argument('blink-settings=imagesEnabled=false')
         # options.add_argument(
         #     'proxy-authorization="sign=BB1799024E00CE5146C16B0B7BC51EA9&orderno=DT20200212142348OUNULt4Q&timestamp=1581490008&change=true"'
         # )
         if proxy:
             options.add_argument('--proxy-server={}'.format(get_proxy()))
 
-        # prefs = {"profile.managed_default_content_settings.images": 2}
-        # prefs = {
-        #     'profile.default_content_setting_values': {
-        #         'images': 2,
-        #     }
-        # }
+        prefs = {"profile.managed_default_content_settings.images": 2}
+        prefs = {
+            'profile.default_content_setting_values': {
+                'images': 2,
+            }
+        }
         # options.add_experimental_option("prefs", prefs)
 
         # if proxy:
@@ -223,7 +227,6 @@ class Amazon(object):
         info['价格'] = self.chrome.find_by_css('#priceblock_ourprice').text
 
         if info:
-            self.excel.write('商品信息')
             for key in info:
                 self.excel.write([key, info.get(key)])
 
@@ -362,10 +365,11 @@ class Amazon(object):
                 for content in info:
                     self.excel.write(content)
 
-    def get_asin(self, path: str, param: dict, data: list, tot: str):
+    def get_asin(self, path: str, param: dict, data: list, tot: int):
         param = urlencode(param)
         init_path = f'https://www.amazon.com{path}?{param}'
-        cookie = self.chrome.driver.get_cookies()
+        cookies = self.chrome.driver.get_cookies()
+        cookie = {x['name']: x['value'] for x in cookies}
         header = {
             'Accept': 'text/html,*/*',
             'User-Agent':
@@ -393,11 +397,13 @@ class Amazon(object):
             else:
                 resp = self.req(path, header=header, cookies=cookie)
 
-            time.sleep(self.sleep_time)
+            if isinstance(resp, int):
+                return data
 
             for item in json.loads(resp)['data']:
                 data.append(item['oid'])
 
+            time.sleep(self.sleep_time)
         return data
 
     def parser_by_re(self):
@@ -409,6 +415,7 @@ class Amazon(object):
             if asin:
                 self.excel.init_sheet(sheet=sheet_name)
                 for value in asin:
+                    value = value.replace('::', '')
                     self.excel.write(f'https://www.amazon.com/dp/{value}')
 
         html = self.chrome.driver.page_source
@@ -416,33 +423,50 @@ class Amazon(object):
         # with open('./html.html', 'r', encoding='utf-8') as fn:
         #     html = fn.read()
 
-        option_list = re.findall(
-            r'data-a-carousel-options="({.*})" data-p13n-feature-metadata=',
-            html)
+        # option_list = re.findall(
+        #     r'data-a-carousel-options="({.*})" data-p13n-feature-metadata=',
+        #     html)
 
-        if not option_list:
-            return
+        option_list = []
+
+        for id_tag in ['sp_detail_thematic', 'sp_detail', 'sp_detail2']:
+            div_obj = self.soup(html, attr={'id': id_tag})
+            if div_obj:
+                option_list.append(
+                    div_obj.attrs.get('data-a-carousel-options'))
+
+        view_obj = self.soup(
+            html,
+            attr={'id': 'desktop-dp-sims_session-similarities-sims-feature'})
+        if view_obj:
+            option_list.append(
+                view_obj.findChild('div').get('data-a-carousel-options'))
 
         for item in option_list:
-            item = item.replace('&quot;', '"')
             data = json.loads(item.replace('&quot;', '"'))
             if data.get('name') == 'desktop-dp-sims_session-similarities':
                 # also viewed
                 asin = data.get('ajax').get('id_list')
+                sheet_name = 'viewed'
             elif '':
                 pass
             else:
                 # Sponsored
                 # Sponsored2
                 # 4 stars
-                asin = self.get_asin(
+                try:
+                    asin = self.get_asin(
                     data.get('ajax').get('url'),
                     data.get('ajax').get('params'),
                     data.get('initialSeenAsins'), data.get('set_size'))
-                sheet_name = sheet = data.get('ajax').get('wName')
+                except:
+                    continue
+
+                sheet_name = sheet = data.get('ajax').get('params').get('wName')
 
             self.excel.init_sheet(sheet=sheet_name)
             for value in asin:
+                value = value.replace('::', '')
                 self.excel.write(f'https://www.amazon.com/dp/{value}')
 
     def change_code(self):
@@ -513,11 +537,7 @@ class Amazon(object):
             self.sleep_time = int(input('根据使用情况设置请求间隔时间, 默认 1 秒: '))
         except:
             print('输入错误, 默认 1 秒')
-            self.sleep_time = 1        
-
-        # self.chrome = OperaChrome()
-
-        # self.get_proxy(proxy)
+            self.sleep_time = 1
 
         with open('./links.txt', 'r', encoding='utf-8') as fn:
             links = fn.readlines()
@@ -532,12 +552,12 @@ class Amazon(object):
                     self.chrome = OperaChrome()
 
                 self.chrome.driver.get(link)
-                
+
                 # self.chrome.driver.set_page_load_timeout(60)
                 # try:
                 #     self.chrome.driver.get(link)
                 # except TimeoutException:
-                #     print('')                
+                #     print('')
 
                 # if not self.chrome.waiting(
                 #         '//*[@id="nav-global-location-slot"]/span/a'):
@@ -557,12 +577,13 @@ class Amazon(object):
                 #         )
 
                 if code_status == 0:
-                    # self.change_code()
+                    self.change_code()
                     code_status = 1
                 # self.parser()
                 self.parser_by_re()
 
         self.excel.save()
+        self.chrome.driver.quit()
 
 
 if __name__ == "__main__":

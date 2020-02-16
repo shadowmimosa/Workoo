@@ -85,7 +85,7 @@ class Query(object):
                     retry_count = 0
                 except Exception as exc:
                     retry_count -= 1
-                    self.logger.error(
+                    self.logger.warning(
                         "---> The error is {}, and the website is {}. Now try again just one time."
                         .format(exc, url))
                     # self.deal_re(url=url, header=header, data=data)
@@ -118,7 +118,7 @@ class Query(object):
                     retry_count = 0
                 except Exception as exc:
                     retry_count -= 1
-                    self.logger.error(
+                    self.logger.warning(
                         "---> The error is {}, and the website is {}. Now try again just one time."
                         .format(exc, url))
                     # self.deal_re(url=url, header=header, data=data)

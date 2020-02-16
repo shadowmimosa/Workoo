@@ -16,6 +16,7 @@ class ExcelOpea(object):
         super().__init__()
 
         self.use = use
+        self.write_wkb = None
 
     def set_style(self, name, height, bold=False, color=0):
 
@@ -98,11 +99,13 @@ class ExcelOpea(object):
 
         if use == 'openpyxl':
             self.use = 'openpyxl'
-            self.write_wkb = init_workbook()
-            self.write_sheet = self.write_wkb.create_sheet(sheet, 0)
+            if self.write_wkb is None:
+                self.write_wkb = init_workbook()            
+            self.write_sheet = self.write_wkb.create_sheet(sheet)
             # self.write_sheet.column_dimensions['H'].width = 100.0
             self.row = 1
-            self.write(header)
+            if header:
+                self.write(header)
 
         elif use == 'xlwt':
             self.use = 'xlwt'
