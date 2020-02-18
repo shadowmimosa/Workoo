@@ -25,7 +25,7 @@ def init_log():
         handler.setFormatter(formatter)
 
         console = logging.StreamHandler()
-        console.setLevel(logging.DEBUG)
+        console.setLevel(logging.ERROR)
 
         logger.addHandler(handler)
         logger.addHandler(console)

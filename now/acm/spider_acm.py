@@ -1,7 +1,7 @@
 import os
 import json
 import pymysql
-from config import DOMAIN
+from config import DOMAIN, logger
 from config import DATABASES, DEBUG
 from utils.soup import DealSoup
 from utils.request import Query
@@ -116,14 +116,25 @@ def yield_proceeding():
 
 
 def multi_main(proceeding):
-    insert_sql = 'INSERT INTO `workoo`.`acm`(`会议`, `标题`, `作者`, `出版`, `摘要标题`, `摘要`) VALUES ("{会议}", "{标题}", "{作者}", "{出版}", "{摘要标题}", "{摘要}");'
+    insert_sql = 'INSERT INTO `workoo`.`acm`(`会议`, `标题`, `作者`, `出版`, `摘要标题`, `摘要`, `proceeding`, `abs`) VALUES ("{会议}", "{标题}", "{作者}", "{出版}", "{摘要标题}", "{摘要}", "{proceeding}", "{abs}");'
     path_list = get_outside(proceeding.get('link'))
     # path_list = ['/doi/abs/10.5555/3326943.3326944']
     for path in path_list:
         info = get_detail(path)
         info['会议'] = proceeding.get('title')
+        info['proceeding'] = proceeding.get('link')
+        info['abs'] = path
+
+        for key in info:
+            info[key] = pymysql.escape_string(info[key])
+
         sql = insert_sql.format(**info)
-        ecnu_cursor.execute(sql)
+        try:
+            ecnu_cursor.execute(sql)
+        except Exception as exc:
+            with open('./error.txt', 'a', encoding='utf-8') as fn:
+                fn.write(f'{sql}\n')
+            logger.error(exc)
 
 
 def multi_query(processes=10):
@@ -139,7 +150,7 @@ def multi_query(processes=10):
             yield_id.close()
             break
         except Exception as exc:
-            print(exc)
+            logger.error(exc)
 
     pool.close()
     pool.join()
@@ -181,5 +192,5 @@ def main():
 
 if __name__ == "__main__":
     # main()
-    multi_query(10)
+    multi_query(5)
     # single_query()
