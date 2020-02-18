@@ -46,16 +46,17 @@ def get_proceedings():
     return proceedings.get('data').get('proceedings')
 
 
-def find_title(path):
+def find_title(path, pbContext=None):
     resp = req(path, header=header)
     title_list = soup(resp, attr={'class': 'issue-item__title'}, all_tag=True)
     href_list = [x.a.get('href') for x in title_list]
 
-    pbContext = soup(resp, attr={'name': 'pbContext'}).get('content')
+    if not pbContext:
+        pbContext = soup(resp, attr={'name': 'pbContext'}).get('content')
 
     button = find_button(resp, pbContext)
     if button:
-        href_list.extend(find_title(button))
+        href_list.extend(find_title(button, pbContext))
 
     return href_list
 
@@ -90,6 +91,7 @@ def get_detail(path):
             'ariaa-label': 'authors'
         }).findAll(attrs={'class': 'author-name'})
     ]
+    author = ', '.join(author)
     publication = soup(resp, attr={'class': 'epub-section__title'}).text
     temp = soup(resp, attr={'class': 'article__body'})
     subtitle = temp.find('h2').text
@@ -114,12 +116,14 @@ def yield_proceeding():
 
 
 def multi_main(proceeding):
-    insert_sql = 'INSERT INTO `workoo`.`acm`(`会议`, `标题`, `作者`, `出版`, `摘要标题`, `摘要`) VALUES (`{会议}`, `{标题}`, `{作者}`, `{出版}`, `{摘要标题}`, `{摘要}`);'
+    insert_sql = 'INSERT INTO `workoo`.`acm`(`会议`, `标题`, `作者`, `出版`, `摘要标题`, `摘要`) VALUES ("{会议}", "{标题}", "{作者}", "{出版}", "{摘要标题}", "{摘要}");'
     path_list = get_outside(proceeding.get('link'))
+    # path_list = ['/doi/abs/10.5555/3326943.3326944']
     for path in path_list:
         info = get_detail(path)
         info['会议'] = proceeding.get('title')
-        ecnu_cursor.execute(insert_sql.format(**info))
+        sql = insert_sql.format(**info)
+        ecnu_cursor.execute(sql)
 
 
 def multi_query(processes=10):
@@ -141,6 +145,25 @@ def multi_query(processes=10):
     pool.join()
 
 
+def single_query():
+    yield_id = yield_proceeding()
+
+    # while True:
+    #     try:
+    #         multi_main(next(yield_id))
+    #     except StopIteration:
+    #         yield_id.close()
+    #         break
+    #     except Exception as exc:
+    #         print(exc)
+    while True:
+        try:
+            multi_main(next(yield_id))
+        except StopIteration:
+            yield_id.close()
+            break
+
+
 def main():
     excel.init_sheet(header=['会议', '标题', '作者', '出版', '摘要标题', '摘要'])
     proceedings = get_proceedings()
@@ -158,4 +181,5 @@ def main():
 
 if __name__ == "__main__":
     # main()
-    multi_query(2)
+    multi_query(10)
+    # single_query()
