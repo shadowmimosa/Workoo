@@ -65,7 +65,10 @@ def get_detail(path):
 def get_path(uuid):
     header['Cookie'] = get_cookie()
     resp = req(path=redirect_path.format(uuid), header=header)
-    js_obj = re.search(js_pattern, resp)
+    try:
+        js_obj = re.search(js_pattern, resp)
+    except TypeError:
+        logger.error('re error resp is {}'.format(resp))
     js_obj = js_obj.group().replace('window.location=', 'return ')
     js_function = js2py.eval_js(js_obj)
     path = js_function()
@@ -86,11 +89,14 @@ def fang_xing():
         for item in data['items']:
             while True:
                 path = run_func(get_path, item['uuid'])
-                if path.split('=')[-1]:
-                    break
+                if path:
+                    if path.split('=')[-1]:
+                        break
+                    else:
+                        logger.error('no id')
+                        time.sleep(5)
                 else:
-                    logger.error('no id')
-                    time.sleep(5)
+                    logger.error('path is wrong')
             info = run_func(get_detail, path)
             if info:
                 info['Original information'] = item

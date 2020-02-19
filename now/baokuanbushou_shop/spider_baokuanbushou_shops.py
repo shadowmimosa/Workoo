@@ -51,6 +51,7 @@ def main():
 
 
 req = Query().run
+json_pattern = re.compile(r'^_json.*\(([\s\S]*)\)$')
 
 header = {
     'Host': 'bkbs.baokuanbushou.com',
