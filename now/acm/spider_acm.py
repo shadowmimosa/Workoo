@@ -1,7 +1,7 @@
 import os
 import json
 import pymysql
-from config import DOMAIN
+from config import DOMAIN, logger
 from config import DATABASES, DEBUG
 from utils.soup import DealSoup
 from utils.request import Query
@@ -47,7 +47,14 @@ def get_proceedings():
 
 
 def find_title(path, pbContext=None):
-    resp = req(path, header=header)
+    if path == 'https://dl.acm.org/doi/proceedings/10.5555/2980539':
+        pbContext = soup(req(path, header=header), attr={
+            'name': 'pbContext'
+        }).get('content')
+        with open('./01.html', 'r', encoding='utf-8') as fn:
+            resp = fn.read()
+    else:
+        resp = req(path, header=header)
     title_list = soup(resp, attr={'class': 'issue-item__title'}, all_tag=True)
     href_list = [x.a.get('href') for x in title_list]
 
@@ -116,14 +123,27 @@ def yield_proceeding():
 
 
 def multi_main(proceeding):
-    insert_sql = 'INSERT INTO `workoo`.`acm`(`会议`, `标题`, `作者`, `出版`, `摘要标题`, `摘要`) VALUES ("{会议}", "{标题}", "{作者}", "{出版}", "{摘要标题}", "{摘要}");'
-    path_list = get_outside(proceeding.get('link'))
+    insert_sql = 'INSERT INTO `workoo`.`acm`(`会议`, `标题`, `作者`, `出版`, `摘要标题`, `摘要`, `proceeding`, `abs`) VALUES ("{会议}", "{标题}", "{作者}", "{出版}", "{摘要标题}", "{摘要}", "{proceeding}", "{abs}");'
+    # path = proceeding.get('link')
+    path = '/doi/proceedings/10.5555/2980539'
+    path_list = get_outside(path)
     # path_list = ['/doi/abs/10.5555/3326943.3326944']
     for path in path_list:
         info = get_detail(path)
         info['会议'] = proceeding.get('title')
+        info['proceeding'] = path
+        info['abs'] = path
+
+        for key in info:
+            info[key] = pymysql.escape_string(info[key])
+
         sql = insert_sql.format(**info)
-        ecnu_cursor.execute(sql)
+        try:
+            ecnu_cursor.execute(sql)
+        except Exception as exc:
+            with open('./error.txt', 'a', encoding='utf-8') as fn:
+                fn.write(f'{sql}\n')
+            logger.error(exc)
 
 
 def multi_query(processes=10):
@@ -139,7 +159,7 @@ def multi_query(processes=10):
             yield_id.close()
             break
         except Exception as exc:
-            print(exc)
+            logger.error(exc)
 
     pool.close()
     pool.join()
@@ -179,7 +199,32 @@ def main():
     excel.save()
 
 
+def data_clean():
+    with open('./proceedings.json', 'r', encoding='utf-8') as fn:
+        proceedings = json.loads(fn.read())
+    title_list = []
+    excel.init_sheet(header=['会议', '标题', '作者', '摘要'])
+    for proceeding in proceedings.get('data').get('proceedings'):
+        title = proceeding.get('title')
+        if title not in title_list:
+            title_list.append(title)
+        else:
+            continue
+        sql = 'SELECT * FROM `workoo`.`acm` WHERE `会议` = "{}" ORDER BY `abs` DESC'.format(
+            pymysql.escape_string(title))
+        ecnu_cursor.execute(sql)
+        data = ecnu_cursor.fetchall()
+        for item in data:
+            # if item[6] == 'No abstract available.':
+            #     print(1)
+            #     continue
+            excel.write([item[1], item[2], item[3], item[6]])
+
+    excel.save()
+
+
 if __name__ == "__main__":
     # main()
-    multi_query(10)
-    # single_query()
+    # data_clean()
+    # multi_query(5)
+    single_query()
