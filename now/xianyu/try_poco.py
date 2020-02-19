@@ -63,6 +63,10 @@ def get_up_info():
     info['个人信息'] = result_obj[sign].get_text()
     info['售价'] = result_obj[sign + 1].get_text()
     info['商品介绍'] = result_obj[sign + 2].get_text()
+    try:
+        info['商品介绍2'] = result_obj[sign + 3].get_text()
+    except Exception:
+        info['商品介绍2'] = None
 
     return info
 
