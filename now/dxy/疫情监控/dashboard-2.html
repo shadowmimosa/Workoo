@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="">
+
+
+    <title>疫情可视化</title>
+
+    <!--web fonts-->
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+    <!--bootstrap styles-->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--icon font-->
+    <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/vendor/dashlab-icon/dashlab-icon.css" rel="stylesheet">
+    <link href="assets/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <link href="assets/vendor/themify-icons/css/themify-icons.css" rel="stylesheet">
+    <link href="assets/vendor/weather-icons/css/weather-icons.min.css" rel="stylesheet">
+
+    <!--custom scrollbar-->
+    <link href="assets/vendor/m-custom-scrollbar/jquery.mCustomScrollbar.css" rel="stylesheet">
+
+    <!--jquery dropdown-->
+    <link href="assets/vendor/jquery-dropdown-master/jquery.dropdown.css" rel="stylesheet">
+
+    <!--jquery ui-->
+    <link href="assets/vendor/jquery-ui/jquery-ui.min.css" rel="stylesheet">
+
+    <!--iCheck-->
+    <link href="assets/vendor/icheck/skins/all.css" rel="stylesheet">
+
+    <!--vector maps -->
+    <link href="assets/vendor/vector-map/jquery-jvectormap-1.1.1.css" rel="stylesheet" >
+
+    <!--custom styles-->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/vendor/html5shiv.js"></script>
+    <script src="assets/vendor/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+
+<body class="fixed-nav top-nav">
+
+    <!--header-->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="mainNav">
+        <div class="box-container">
+           <!--brand name for responsive-->
+           <a class="navbar-brand navbar-brand-responsive" href="#">
+               <img class="pr-3 float-left" src="assets/img/logo-icon.png" srcset="assets/img/logo-icon@2x.png 2x"  alt=""/>
+               <div class="float-left">
+                   <div>疫情可视化</div>
+               </div>
+           </a>
+           <!--/brand name for responsive-->
+
+            <!--responsive navigation list toggle-->
+            <button class="navbar-toggler navigation-list-toggler" type="button" data-toggle="collapse" data-target="#navbarListResponsive" aria-controls="navbarListResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--/responsive navigation list toggle-->
+
+            <!--responsive nav notification toggle-->
+            <button class="navbar-toggler nav-notification-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span> <i class="vl_ellipsis-fill-v f16"></i></span>
+            </button>
+            <!--/responsive nav notification toggle-->
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+
+                <!--brand name-->
+                <a class="navbar-brand navbar-hide-responsive" href="#">
+                    <img class="pr-3 float-left" src="assets/img/logo-icon.png" srcset="assets/img/logo-icon@2x.png 2x"  alt=""/>
+                    <div class="float-left">
+                        <div>疫情可视化</div>
+                    </div>
+                </a>
+                <!--/brand name-->
+            </div>
+        </div>
+    </nav>
+
+    <!--/header-->
+
+
+
+
+    <!--main content wrapper-->
+    <div class="content-wrapper" style="padding-top: 0px;">
+
+        <div class="box-container">
+            <div class="container-fluid">
+
+                <!--sales statistical overview-->
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card card-shadow mb-4">
+                            <div class="card-header border-0">
+                                <div class="custom-title-wrap bar-info">
+                                    <div class="custom-title">疫情地图</div>
+                                    <div class=" widget-action-link">
+                                        <div class="dropdown">
+                                            <a href="#" class="btn btn-transparent text-secondary dropdown-hover p-0" data-toggle="dropdown">
+                                                <i class=" vl_ellipsis-fill-h"></i>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-right vl-dropdown">
+                                                <a class="dropdown-item" href="#">设置</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-xl-3">
+                                        <span class="text-muted mb-5 d-inline-block"><i class="fa fa-bolt"></i> 感染人数</span>
+                                        <h1 class="mb-0">100</h1>
+                                        <ul class="list-unstyled mt-5">
+                                            <li class="text-muted">
+                                                <i class="fa fa-clock-o pr-2"></i>  更新时间：1月21日 23：56
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xl-9">
+                                        <canvas id="sales_overview_chart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--/sales statistical overview-->
+
+                <!--member performance & support ticket-->
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card card-shadow mb-4">
+                            <div class="card-header border-0">
+                                <div class="custom-title-wrap bar-danger">
+                                    <div class="custom-title">舆情监控</div>
+                                    <div class=" widget-action-link">
+                                        <a href="#" class="btn btn-transparent text-secondary p-0 text-muted">
+                                            View All
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled base-timeline activity-timeline">
+                                    <li class="">
+                                        <div class="timeline-icon">
+                                            <img src="assets/img/avatar/avatar1.jpg" alt=""/>
+                                        </div>
+                                        <div class="act-time">Today</div>
+                                        <div class="base-timeline-info">
+                                            <a href="#">John123</a> Successfully purchased item#26
+                                        </div>
+                                        <small class="text-muted">
+                                            28 mins ago
+                                        </small>
+                                    </li>
+                                    <li class="">
+                                        <div class="timeline-icon bg-turquoise">
+                                            <i class="fa fa-download"></i>
+                                        </div>
+                                        <div class="base-timeline-info">
+                                            <a href="#" class="text-danger">Farnandez</a> placed the order for accessories
+                                        </div>
+                                        <small class="text-muted">
+                                            2 days ago
+                                        </small>
+                                    </li>
+                                    <li class="">
+                                        <div class="timeline-icon bg-info">
+                                            <i class="fa fa-file-image-o"></i>
+                                        </div>
+                                        <div class="act-time">Yesterday</div>
+                                        <div class="base-timeline-info">
+                                            User <a href="#" class="text-purple">Lisa Maria</a> checked out from the market
+                                        </div>
+                                        <small class="text-muted">
+                                            12 mins ago
+                                        </small>
+                                    </li>
+                                    <li class="">
+                                        <div class="timeline-icon">
+                                            <img src="assets/img/avatar/avatar2.jpg" alt=""/>
+                                        </div>
+                                        <div class="base-timeline-info">
+                                            <a href="#" class="text-info">Charlie Johnson  </a> joined DashLab last week.
+                                        </div>
+                                        <small class="text-muted">
+                                            3 days ago
+                                        </small>
+                                    </li>
+                                    <li class="">
+                                        <div class="timeline-icon">
+                                            <i class="fa fa-plus"></i>
+                                        </div>
+                                        <div class="act-time">29 January</div>
+                                        <div class="base-timeline-info">
+                                            User <a href="#" class="text-warning">Lisa Maria</a> checked out from the market
+                                        </div>
+                                        <small class="text-muted">
+                                            15 mins ago
+                                        </small>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/member performance & support ticket-->
+
+                <!--issue fixing & profile info-->
+                <div class="row">
+                    <div class="col-xl-6 col-md-6">
+                        <div class="card card-shadow mb-4">
+                            <div class="card-header border-0">
+                                <div class="custom-title-wrap bar-danger">
+                                    <div class="custom-title">
+                                        数据统计
+                                        <ul class="nav nav-pills nav-pill-primary nav-pill-custom nav-pills-sm float-right " id="pills-tab2" role="tablist">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" id="pills-today-tab2" data-toggle="pill" href="#pills-weekly2" role="tab" aria-selected="true">Weekly</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" id="pills-month-tab2" data-toggle="pill" href="#pills-month2" role="tab" aria-selected="false">Month</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="custom-post-title">Graphical view of this week issue solving status</div>
+                                </div>
+                            </div>
+                            <div class="card-body pt-5 pb-4">
+                                <div class="tab-content" id="pills-tabContent2">
+                                    <div class="tab-pane fade show active" id="pills-weekly2" role="tabpanel" aria-labelledby="pills-today-tab">
+                                        <div class="row">
+                                            <div class="col-12 col-xl-7 col-md-6 text-center">
+                                                <canvas id="doughnut_chart" class="mb-4" ></canvas>
+                                                <small class="text-muted">Realtime data update instantly</small>
+                                            </div>
+                                            <div class="col-12 col-xl-4 col-md-6 text-muted mt-xl-4">
+                                                <ul class="list-unstyled f12">
+                                                    <li class="list-widget-border mb-3 pb-3">
+                                                        <i class="fa fa-circle pr-2" style="color: #cae59b"></i> 40%
+                                                        <span class="float-right">Solved</span>
+                                                    </li>
+                                                    <li class="list-widget-border mb-3 pb-3">
+                                                        <i class="fa fa-circle pr-2" style="color: #fcdd82"></i> 10%
+                                                        <span class="float-right">Pending</span>
+                                                    </li>
+                                                    <li class="list-widget-border mb-3 pb-3">
+                                                        <i class="fa fa-circle pr-2 " style="color: #f79490"></i> 10%
+                                                        <span class="float-right">Declain</span>
+                                                    </li>
+                                                    <li class="list-widget-border mb-3 pb-3">
+                                                        <i class="fa fa-circle pr-2 " style="color: #acf5fe"></i> 40%
+                                                        <span class="float-right">Reopen</span>
+                                                    </li>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-month2" role="tabpanel" aria-labelledby="pills-month-tab">
+                                        <div class="row">
+                                            <div class="col-12 col-xl-7 col-md-6 text-center">
+                                                <canvas id="doughnut_chart2" class="mb-4"></canvas>
+                                                <small class="text-muted">Realtime data update instantly</small>
+                                            </div>
+                                            <div class="col-12 col-xl-4 col-md-6 text-muted mt-xl-4">
+                                                <ul class="list-unstyled f12">
+                                                    <li class="list-widget-border mb-3 pb-3">
+                                                        <i class="fa fa-circle pr-2" style="color: #cae59b"></i> 30%
+                                                        <span class="float-right">Solved</span>
+                                                    </li>
+                                                    <li class="list-widget-border mb-3 pb-3">
+                                                        <i class="fa fa-circle pr-2" style="color: #fcdd82"></i> 20%
+                                                        <span class="float-right">Pending</span>
+                                                    </li>
+                                                    <li class="list-widget-border mb-3 pb-3">
+                                                        <i class="fa fa-circle pr-2 " style="color: #f79490"></i> 25%
+                                                        <span class="float-right">Declain</span>
+                                                    </li>
+                                                    <li class="list-widget-border mb-3 pb-3">
+                                                        <i class="fa fa-circle pr-2 " style="color: #acf5fe"></i> 25%
+                                                        <span class="float-right">Reopen</span>
+                                                    </li>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-md-6">
+                        <div class="card card-shadow mb-4">
+                            <div class="card-header border-0">
+                                <div class="custom-title-wrap bar-warning">
+                                    <div class="custom-title">交通监测</div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+
+                                <div id="usa_map" style="height: 200px"></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/issue fixing & profile info-->
+
+            </div>
+        </div>
+    </div>
+    <!--/main content wrapper-->
+
+    <!--footer-->
+    <footer class="sticky-footer">
+        <div class="container">
+            <div class="text-center">
+                <small>Copyright &copy; VectorLab 2018  <a href="http://www.dmaku.com/moban.html" target="_blank">网页模板</a></small>
+            </div>
+        </div>
+    </footer>
+    <!--/footer-->
+
+    <!--right sidebar-->
+    <div class="right-sidebar" id="right_side_bar">
+        <div class="card border-0">
+            <div class="card-body pb-0">
+                <!--close toggle-->
+                <a href="javascript:;" class="right_side_toggle float-right close-sidebar-icon">
+                    <i class=" ti-shift-right"> </i>
+                </a>
+                <!--/close toggle-->
+            </div>
+            <div class="card-body pt-2">
+
+                <div class="right-widget">
+                    <div class="custom-title-wrap bar-primary mb-4">
+                        <div class="custom-title">Today's Activity</div>
+                    </div>
+
+                    <ul class="list-unstyled base-timeline">
+                        <li class="time-dot-primary">
+                            <div class="base-timeline-info">
+                                <a href="#">John123</a> Successfully purchased item#26
+                            </div>
+                            <small class="text-muted">
+                                28 mins ago
+                            </small>
+                        </li>
+                        <li class="time-dot-danger">
+                            <div class="base-timeline-info">
+                                <a href="#" class="text-danger">Farnandez</a> placed the order for accessories
+                            </div>
+                            <small class="text-muted">
+                                2 days ago
+                            </small>
+                        </li>
+                        <li class="time-dot-purple">
+                            <div class="base-timeline-info">
+                                User <a href="#" class="text-purple">Lisa Maria</a> checked out from the market
+                            </div>
+                            <small class="text-muted">
+                                12 mins ago
+                            </small>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="right-widget">
+                    <div class="custom-title-wrap bar-danger mb-4">
+                        <div class="custom-title">Active Users</div>
+                    </div>
+
+                    <ul class="list-unstyled mb-0 list-widget">
+                        <li class="cursor">
+                            <div class="media mb-4">
+                                <div class="st-alphabet mr-3">
+                                    <img class="rounded-circle" src="assets/img/avatar/avatar1.jpg" alt=" ">
+                                    <span class="status bg-success"></span>
+                                </div>
+                                <div class="media-body ">
+                                    <div class="float-left">
+                                        <h6 class="text-uppercase mb-0">shirley hoe</h6>
+                                        <span class="text-muted">Online</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cursor">
+                            <div class="media mb-4">
+                                <div class="st-alphabet mr-3">
+                                    <img class="rounded-circle" src="assets/img/avatar/avatar2.jpg" alt=" ">
+                                    <span class="status bg-warning"></span>
+                                </div>
+                                <div class="media-body ">
+                                    <div class="float-left">
+                                        <h6 class="text-uppercase mb-0">james alexender</h6>
+                                        <span class="text-muted">Screaming...</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cursor">
+                            <div class="media mb-4">
+                                <div class="st-alphabet mr-3">
+                                    <img class="rounded-circle" src="assets/img/avatar/avatar3.jpg" alt=" ">
+                                    <span class="status bg-info"></span>
+                                </div>
+                                <div class="media-body">
+                                    <div class="float-left">
+                                        <h6 class="text-uppercase mb-0">ursula sitorus</h6>
+                                        <span class="text-muted">Start Exploring</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cursor">
+                            <div class="media mb-3">
+                                <div class="st-alphabet mr-3">
+                                    <img class="rounded-circle" src="assets/img/avatar/avatar4.jpg" alt=" ">
+                                    <span class="status bg-danger"></span>
+                                </div>
+                                <div class="media-body">
+                                    <div class="float-left">
+                                        <h6 class="text-uppercase mb-0">jonna pinedda</h6>
+                                        <span class="text-muted">Busy</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="right-widget">
+
+                    <div class="custom-title-wrap bar-success mb-4">
+                        <div class="custom-title">Notification</div>
+                    </div>
+
+                    <div >
+                        <div class="dropdown-divider mb-0"></div>
+                        <a class="nav-link border-bottom px-0 py-3" href="#">
+                            <span class="text-primary">
+                            <span class="weight700 f12">
+                                <i class="vl_bell weight600 pr-2"></i>Weekly Update</span>
+                            </span>
+                            <span class="small float-right text-muted">03:14 AM</span>
+
+                            <div class="text-dark f12">
+                                This week project update report generated. All team members are requested to check the updates
+                            </div>
+                        </a>
+
+                        <a class="nav-link border-bottom px-0 py-3" href="#">
+                            <span class="text-danger">
+                            <span class="weight700 f12">
+                                <i class="vl_Download-circle weight600 pr-2"></i>Server Error</span>
+                            </span>
+                            <span class="small float-right text-muted">10:34 AM</span>
+
+                            <div class="text-dark f12">
+                                Unexpectedly server response stop. Responsible members are requested to fix it soon
+                            </div>
+                        </a>
+
+                        <a class="nav-link border-bottom px-0 py-3" href="#">
+                            <span class="text-success">
+                            <span class="weight700 f12">
+                                <i class="vl_screen weight600 pr-2"></i>Monthly Meeting</span>
+                            </span>
+                            <span class="small float-right text-muted">12:30 AM</span>
+
+                            <div class="text-dark f12">
+                                Our monthly meeting will be held on tomorrow sharp 12:30. All members are requested to attend this meeting.
+                            </div>
+                        </a>
+
+                        <div class="text-center mt-3">
+                            <a class="nav-link px-0" href="#">View all notification</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--/right sidebar-->
+
+    <!--basic scripts-->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/jquery-ui/jquery-ui.min.js"></script>
+    <script src="assets/vendor/popper.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/vendor/jquery-dropdown-master/jquery.dropdown.js"></script>
+    <script src="assets/vendor/m-custom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="assets/vendor/icheck/skins/icheck.min.js"></script>
+
+    <!--chartjs-->
+    <script src="assets/vendor/chartjs/Chart.bundle.min.js"></script>
+    <!--chartjs initialization-->
+    <script src="assets/vendor/js-init/chartjs/init-creative-state-chart.js"></script>
+    <script src="assets/vendor/js-init/chartjs/init-doughnut-chart.js"></script>
+    <script src="assets/vendor/js-init/chartjs/init-doughnut-chart2.js"></script>
+    <script src="assets/vendor/js-init/chartjs/init-sales-overview-chart.js"></script>
+
+    <!--vectormap-->
+    <script src="assets/vendor/vector-map/jquery-jvectormap-1.2.2.min.js"></script>
+    <script src="assets/vendor/vector-map/jquery-jvectormap-us-aea.js"></script>
+    <!--vectormap initialization-->
+    <script src="assets/vendor/js-init/vmap/init-vmap-usa.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="assets/vendor/modernizr.js"></script>
+    <![endif]-->
+
+    <!--basic scripts initialization-->
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
