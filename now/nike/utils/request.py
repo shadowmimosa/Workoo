@@ -67,30 +67,30 @@ class Query(object):
                         proxies = next(proxy)
                     except NameError:
                         proxy = get_proxy()
-                        proxies = next(proxy)                        
+                        proxies = next(proxy)
 
                     if isinstance(data, dict):
                         resp = sesscion_a.post(url,
                                                headers=header,
                                                data=json.dumps(data),
-                                               timeout=(2, 6),
+                                               timeout=(3, 12),
                                                proxies=proxies)
                     elif isinstance(files, dict):
                         resp = sesscion_a.post(url,
                                                files=files,
-                                               timeout=(2, 6),
+                                               timeout=(3, 12),
                                                proxies=proxies)
                     elif data:
                         resp = sesscion_a.post(url,
                                                headers=header,
                                                data=data,
-                                               timeout=(2, 6),
+                                               timeout=(3, 12),
                                                proxies=proxies)
                     else:
                         resp = sesscion_a.get(url,
                                               headers=header,
                                               allow_redirects=False,
-                                              timeout=(2, 6),
+                                              timeout=(3, 12),
                                               proxies=proxies)
                     retry_count = 0
                 else:
@@ -98,21 +98,21 @@ class Query(object):
                         resp = sesscion_a.post(url,
                                                headers=header,
                                                data=json.dumps(data),
-                                               timeout=(2, 6))
+                                               timeout=(3, 12))
                     elif isinstance(files, dict):
                         resp = sesscion_a.post(url,
                                                files=files,
-                                               timeout=(2, 6))
+                                               timeout=(3, 12))
                     elif data:
                         resp = sesscion_a.post(url,
                                                headers=header,
                                                data=data,
-                                               timeout=(2, 6))
+                                               timeout=(3, 12))
                     else:
                         resp = sesscion_a.get(url,
                                               headers=header,
                                               allow_redirects=False,
-                                              timeout=(2, 6))
+                                              timeout=(3, 12))
                     retry_count = 0
             except Exception as exc:
                 retry_count -= 1
