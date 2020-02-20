@@ -90,16 +90,22 @@ def get_down_info():
     info['添加时间'] = time.time()
 
     result_obj = wait_ui_childeren('android.widget.ScrollView')
-    while '人想要 ·' not in result_obj[0].get_text():
-        scroll_screen([0.4, 0.42], [0.5, 0.52], duration=1)
-        result_obj = wait_ui_childeren('android.widget.ScrollView')
-        if result_obj[0].get_text() is None:
-            break
+    retry = 5
+    while retry:
+        result = result_obj[0].get_text()
+        if result is None:
+            scroll_screen([0.4, 0.6], [0.5, 0.55], duration=0.5)
+            result_obj = wait_ui_childeren('android.widget.ScrollView')
+        elif re.search(r'担保交易[\s\S]*浏览[0-9]\d*', result) is None:
+            scroll_screen([0.4, 0.42], [0.5, 0.52], duration=1)
+            result_obj = wait_ui_childeren('android.widget.ScrollView')
+        retry -= 1
+
     # while True:
     for index, result in enumerate(result_obj):
         text = result.get_text()
         if text:
-            if re.search('.*\n来闲鱼[1-9]\d*天了[\s\S]*', text):
+            if re.search('[\s\S]*来闲鱼[1-9]\d*天了[\s\S]*', text):
                 info['个人简介'] = text
             elif re.search('^全部留言.*$', text):
                 info['留言个数'] = text
@@ -123,10 +129,11 @@ def find_ui():
     while retry:
         try:
             result = poco(textMatches='^全部留言.*$')
+            time.sleep(1)
             return result
         except PocoNoSuchNodeException:
             retry -= 1
-            scroll_screen([0.4, 0.42], [0.5, 0.52], duration=1)
+            scroll_screen([0.4, 0.4], [0.5, 0.5], duration=1)
 
 
 def level_page():
