@@ -46,15 +46,36 @@ def get_proceedings():
     return proceedings.get('data').get('proceedings')
 
 
+def find_section(content):
+    sections = soup(content,
+                    attr={'class': 'toc__section accordion-tabbed__tab'},
+                    all_tag=True)
+    if not sections:
+        return
+
+    href_list = {}
+
+    for index, section in enumerate(sections):
+        heading_obj = soup(section, attr={'id': [f'heading{index+1}']})
+        if not heading_obj:
+            continue
+        section_name = heading_obj.text.replace('SECTION: ', '')
+        href = soup(section, attr={'class': 'section--dois'}).get('value')
+        href_list[section_name] = [
+            '/doi/abs/{}'.format(x) for x in href.split(',')
+        ]
+
+    return href_list
+
+
 def find_title(path, pbContext=None):
-    if path == 'https://dl.acm.org/doi/proceedings/10.5555/2980539':
-        pbContext = soup(req(path, header=header), attr={
-            'name': 'pbContext'
-        }).get('content')
-        with open('./01.html', 'r', encoding='utf-8') as fn:
-            resp = fn.read()
-    else:
-        resp = req(path, header=header)
+
+    resp = req(path, header=header)
+
+    href_list = find_section(resp)
+    if href_list:
+        return href_list
+
     title_list = soup(resp, attr={'class': 'issue-item__title'}, all_tag=True)
     href_list = [x.a.get('href') for x in title_list]
 
@@ -115,35 +136,62 @@ def get_detail(path):
 
 
 def yield_proceeding():
-    with open('./proceedings.json', 'r', encoding='utf-8') as fn:
-        proceedings = json.loads(fn.read())
+    # with open('./proceedings.json', 'r', encoding='utf-8') as fn:
+    #     proceedings = json.loads(fn.read())
+    proceedings = {
+        "data": {
+            "proceedings": [{
+                "link":
+                "/doi/proceedings/10.5555/2980539",
+                "title":
+                "NIPS\u002701: Proceedings of the 14th International Conference on Neural Information Processing Systems: Natural and Synthetic"
+            }]
+        }
+    }
 
     for proceeding in proceedings.get('data').get('proceedings'):
         yield proceeding
 
 
 def multi_main(proceeding):
-    insert_sql = 'INSERT INTO `workoo`.`acm`(`会议`, `标题`, `作者`, `出版`, `摘要标题`, `摘要`, `proceeding`, `abs`) VALUES ("{会议}", "{标题}", "{作者}", "{出版}", "{摘要标题}", "{摘要}", "{proceeding}", "{abs}");'
-    # path = proceeding.get('link')
-    path = '/doi/proceedings/10.5555/2980539'
-    path_list = get_outside(path)
-    # path_list = ['/doi/abs/10.5555/3326943.3326944']
-    for path in path_list:
-        info = get_detail(path)
-        info['会议'] = proceeding.get('title')
-        info['proceeding'] = path
-        info['abs'] = path
+    insert_sql = 'INSERT INTO `workoo`.`acm`(`会议`, `标题`, `作者`, `出版`, `摘要标题`, `摘要`, `proceeding`, `abs`, `section`) VALUES ("{会议}", "{标题}", "{作者}", "{出版}", "{摘要标题}", "{摘要}", "{proceeding}", "{abs}", "{section}");'
+    href_obj = get_outside(proceeding.get('link'))
+    if isinstance(href_obj, list):
+        for path in href_obj:
+            info = get_detail(path)
+            info['会议'] = proceeding.get('title')
+            info['proceeding'] = proceeding.get('link')
+            info['abs'] = path
 
-        for key in info:
-            info[key] = pymysql.escape_string(info[key])
+            for key in info:
+                info[key] = pymysql.escape_string(info[key])
 
-        sql = insert_sql.format(**info)
-        try:
-            ecnu_cursor.execute(sql)
-        except Exception as exc:
-            with open('./error.txt', 'a', encoding='utf-8') as fn:
-                fn.write(f'{sql}\n')
-            logger.error(exc)
+            sql = insert_sql.format(**info)
+            try:
+                ecnu_cursor.execute(sql)
+            except Exception as exc:
+                with open('./error.txt', 'a', encoding='utf-8') as fn:
+                    fn.write(f'{sql}\n')
+                logger.error(exc)
+    elif isinstance(href_obj, dict):
+        for section in href_obj:
+            for path in href_obj[section]:
+                info = get_detail(path)
+                info['会议'] = proceeding.get('title')
+                info['proceeding'] = proceeding.get('link')
+                info['abs'] = path
+                info['section'] = section
+
+                for key in info:
+                    info[key] = pymysql.escape_string(info[key])
+
+                sql = insert_sql.format(**info)
+                try:
+                    ecnu_cursor.execute(sql)
+                except Exception as exc:
+                    with open('./error.txt', 'a', encoding='utf-8') as fn:
+                        fn.write(f'{sql}\n')
+                    logger.error(exc)
 
 
 def multi_query(processes=10):
