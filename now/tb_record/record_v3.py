@@ -158,11 +158,12 @@ class DealRecord(object):
         count = 0
 
         for value in content:
-            if value['person'] is not self.staff:
+            if value['person'] == self.info['客户ID']:
+                # if value['person'] is not self.staff:
                 if value['text'] != '[卡片]':
                     count += 1
 
-        if count == 0:
+        if count <= 1:
             self.statistical['一句后再无回复'] += 1
 
     # def trade_count(self, content):
@@ -200,6 +201,22 @@ class DealRecord(object):
                 self.deal_trade(item['text'])
 
                 sign = 0
+            else:
+                self.staff = item['person']
+                self.info['客服ID'] = item['person']
+                if sign == 0 and record_time is not None:
+                    time_diff = str2time(item['time']) - record_time
+                    time_temp = self.info.get('回复时间（秒）')
+
+                    if time_temp:
+                        if time_diff.total_seconds() > time_temp.total_seconds(
+                        ):
+                            self.info['回复时间（秒）'] = time_diff
+                    else:
+                        self.info['回复时间（秒）'] = time_diff
+
+                    print(convert_timedelta(time_diff))
+                sign = 1          
 
         if self.info.get('包含行业关键字') is None:
             self.info['包含行业关键字'] = '无'
