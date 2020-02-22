@@ -7,7 +7,7 @@
 block_cipher = pyi_crypto.PyiBlockCipher(key='Shadow@happynewyear&0210')
 
 a = Analysis(
-    ['spider_amazon.py'],
+    ['main.py'],
     pathex=[
         'C:\\Users\\ShadowMimosa\\Documents\\Repos\\Workoo\\now\\amazon'
     ],
@@ -36,5 +36,5 @@ exe = EXE(pyz,
           upx=True,
           upx_exclude=[],
           runtime_tmpdir=None,
-          console=True,
+          console=False,
           icon='icon.ico')

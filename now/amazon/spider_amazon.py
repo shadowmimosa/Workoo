@@ -25,6 +25,7 @@ from utils.request import Query
 from utils.soup import DealSoup
 
 
+
 def remove_charater(content: str):
     return content.replace('\n', '').replace('\t',
                                              '').replace('\r',
@@ -55,7 +56,7 @@ class OperaChrome(object):
         options = webdriver.ChromeOptions()
         options.add_argument("disable-infobars")
         options.add_argument("disable-web-security")
-        options.add_argument("--headless")
+        # options.add_argument("--headless")
         options.add_argument("--start-maximized")
         options.add_argument('--log-level=3')
         options.add_argument('--ignore-certificate-errors')
@@ -420,13 +421,6 @@ class Amazon(object):
 
         html = self.chrome.driver.page_source
 
-        # with open('./html.html', 'r', encoding='utf-8') as fn:
-        #     html = fn.read()
-
-        # option_list = re.findall(
-        #     r'data-a-carousel-options="({.*})" data-p13n-feature-metadata=',
-        #     html)
-
         option_list = []
 
         for id_tag in ['sp_detail_thematic', 'sp_detail', 'sp_detail2']:
@@ -456,13 +450,14 @@ class Amazon(object):
                 # 4 stars
                 try:
                     asin = self.get_asin(
-                    data.get('ajax').get('url'),
-                    data.get('ajax').get('params'),
-                    data.get('initialSeenAsins'), data.get('set_size'))
+                        data.get('ajax').get('url'),
+                        data.get('ajax').get('params'),
+                        data.get('initialSeenAsins'), data.get('set_size'))
                 except:
                     continue
 
-                sheet_name = sheet = data.get('ajax').get('params').get('wName')
+                sheet_name = sheet = data.get('ajax').get('params').get(
+                    'wName')
 
             self.excel.init_sheet(sheet=sheet_name)
             for value in asin:
@@ -478,56 +473,35 @@ class Amazon(object):
                           timeout=timeout)
         self.chrome.click('//*[@id="GLUXZipUpdate"]/span/input',
                           timeout=timeout)
-        # self.chrome.click(
-        #     '//*[@id="a-popover-8"]/div/div[2]/span/span/span/button',
-        #     timeout=timeout)
-        # self.chrome.click('//*[@id="GLUXConfirmClose"]', timeout=timeout)
         self.chrome.click('/html/body/div[7]/div/div/div[2]/span/span/input',
                           timeout=timeout)
 
-        # self.chrome.click('//*[@id="a-popover-7"]/div/div[2]/span/span',
-        #                   timeout=timeout)
         time.sleep(3)
         self.chrome.waiting('//*[@id="bylineInfo"]', timeout=30)
 
-    def get_proxy(self, is_proxy):
-        if is_proxy == 1:
-            with open('./proxy.txt', 'r', encoding='utf-8') as fn:
-                data = json.loads(fn.read())
-
-            ip = "http://dynamic.xiongmaodaili.com:8088"
-
-            timestamp = str(int(time.time()))
-            txt = "orderno=" + data.get('订单号') + "," + "secret=" + data.get(
-                '个人密钥') + "," + "timestamp=" + timestamp
-            md5_string = hashlib.md5(txt.encode()).hexdigest()
-            sign = md5_string.upper()
-            auth = "sign=" + sign + "&" + "orderno=" + data.get(
-                '订单号') + "&" + "timestamp=" + timestamp + "&change=true"
-
-            resp = requests.get('http://members.3322.org/dyndns/getip')
-            proxy = {"http": data.get('代理地址'), "https": data.get('代理地址')}
-            headers = {
-                "Proxy-Authorization": auth,
-            }
-            resp_proxy = requests.get("http://members.3322.org/dyndns/getip",
-                                      proxies=proxy,
-                                      headers=headers,
-                                      verify=False,
-                                      allow_redirects=False)
-
-            if resp.text == resp_proxy.text or len(resp_proxy.text) > 60:
-                print('代理错误，不使用代理')
+    def run(self):
+        with open('./links.txt', 'r', encoding='utf-8') as fn:
+            links = fn.readlines()
+        for link in links:
+            link = link.replace('\n', '').replace('\t', '')
+            if 'http' not in link or not link:
+                # Text1.insert('insert', 'Error: 网址错误')
+                print('网址错误')
             else:
-                self.chrome = OperaChrome(proxy={'auth': auth, 'domain': ip})
-        elif is_proxy == 2:
-            self.chrome = OperaChrome()
-        else:
-            print('输入错误, 默认不使用')
-            self.chrome = OperaChrome()
+                if self.proxy == 1:
+                    self.chrome = OperaChrome(proxy=1)
+                else:
+                    self.chrome = OperaChrome()
+
+                self.chrome.driver.get(link)
+
+                if self.code_status == 0:
+                    self.change_code()
+                    self.code_status = 1
+                self.parser_by_re()
 
     def main(self):
-        code_status = 0
+        self.code_status = 0
         try:
             self.proxy = int(input('是否使用代理, 1: 使用, 2: 不使用, 默认不使用: '))
         except:
@@ -539,48 +513,7 @@ class Amazon(object):
             print('输入错误, 默认 1 秒')
             self.sleep_time = 1
 
-        with open('./links.txt', 'r', encoding='utf-8') as fn:
-            links = fn.readlines()
-        for link in links:
-            link = link.replace('\n', '').replace('\t', '')
-            if 'http' not in link or not link:
-                print('网址错误')
-            else:
-                if self.proxy == 1:
-                    self.chrome = OperaChrome(proxy=1)
-                else:
-                    self.chrome = OperaChrome()
-
-                self.chrome.driver.get(link)
-
-                # self.chrome.driver.set_page_load_timeout(60)
-                # try:
-                #     self.chrome.driver.get(link)
-                # except TimeoutException:
-                #     print('')
-
-                # if not self.chrome.waiting(
-                #         '//*[@id="nav-global-location-slot"]/span/a'):
-                #     img = self.chrome.find_by_css(
-                #         'body > div > div.a-row.a-spacing-double-large > div.a-section > div > div > form > div.a-row.a-spacing-large > div > div > div.a-row.a-text-center > img'
-                #     )
-                #     if img:
-                #         src = img.get_attribute('src')
-                #         image = io.imread(src)
-                #         io.imshow(image)
-                #         io.show()
-                #         code = input('请输入验证码: ')
-                #         self.chrome.input('//*[@id="captchacharacters"]',
-                #                           keyword=code)
-                #         self.chrome.click(
-                #             '/html/body/div/div[1]/div[3]/div/div/form/div[2]/div/span/span/button'
-                #         )
-
-                if code_status == 0:
-                    self.change_code()
-                    code_status = 1
-                # self.parser()
-                self.parser_by_re()
+        self.run()
 
         self.excel.save()
         self.chrome.driver.quit()
