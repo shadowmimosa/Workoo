@@ -7,7 +7,7 @@
 block_cipher = pyi_crypto.PyiBlockCipher(key='Shadow@happynewyear&0210')
 
 a = Analysis(
-    ['main.py'],
+    ['spider_amazon.py'],
     pathex=[
         'C:\\Users\\ShadowMimosa\\Documents\\Repos\\Workoo\\now\\amazon'
     ],

@@ -100,12 +100,17 @@ class ExcelOpea(object):
         if use == 'openpyxl':
             self.use = 'openpyxl'
             if self.write_wkb is None:
-                self.write_wkb = init_workbook()            
-            self.write_sheet = self.write_wkb.create_sheet(sheet)
-            # self.write_sheet.column_dimensions['H'].width = 100.0
-            self.row = 1
-            if header:
-                self.write(header)
+                self.write_wkb = init_workbook()
+            try:
+                self.write_wkb.get_sheet_by_name(sheet)
+            except KeyError:
+                self.write_sheet = self.write_wkb.create_sheet(sheet)
+                # self.write_sheet.column_dimensions['H'].width = 100.0
+                self.row = 1
+                if header:
+                    self.write(header)
+            else:
+                self.change_sheet(sheetname=sheet)
 
         elif use == 'xlwt':
             self.use = 'xlwt'
@@ -119,6 +124,15 @@ class ExcelOpea(object):
             # msg = 'this function only support xlrd and openpyxl to read excel, please check param of use.'
             # raise InvalidOpeaException(msg)
             raise InvalidOpeaException
+
+    def change_sheet(self, index=None, sheetname=None):
+        if index:
+            # self.write_wkb.active = index
+            self.write_sheet = self.write_wkb.worksheets[index]
+        elif sheetname:
+            self.write_sheet = self.write_wkb.get_sheet_by_name(sheetname)
+
+        self.row = self.write_sheet._current_row + 1
 
     def save(self, path=None, mode='write'):
 
