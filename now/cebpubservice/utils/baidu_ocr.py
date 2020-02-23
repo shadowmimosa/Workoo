@@ -7,7 +7,7 @@ import traceback
 from utils.request import Query
 
 requests = Query().run
-
+from bs4 import BeautifulSoup
 
 class BaiduToken(object):
     def __init__(self):

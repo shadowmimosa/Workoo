@@ -76,3 +76,13 @@ if __name__ == '__main__':
     b = json.loads(a)
     # print(des.encrypt(text))
     print(des.decrypt(text))
+{
+    "NOTICE_SEND_TIME": "2020-02-18 11:49:26",
+    "BULLETIN_TYPE_NAME": "招标公告",
+    "NOTICE_INDUSTRIES_NAME": "其他",
+    "TRADE_PLAT": "",
+    "REGION_PROVINCE": "天津市",
+    "REGION_NAME": "天津市 市辖区",
+    "BidSectionClassifyName": "工业锅炉及辅机",
+    "SERVER_PLAT": "中国招标投标公共服务平台"
+}

@@ -52,22 +52,22 @@ class Query(object):
             try:
 
                 if isinstance(data, dict):
-                    resp = sesscion_a.post(
-                        url,
-                        headers=header,
-                        data=json.dumps(data),
-                        timeout=(2, 6))
+                    resp = sesscion_a.post(url,
+                                           headers=header,
+                                           data=data,
+                                           timeout=(3, 12))
                 elif isinstance(files, dict):
-                    resp = sesscion_a.post(url, files=files, timeout=(2, 6))
+                    resp = sesscion_a.post(url, files=files, timeout=(3, 12))
                 elif data:
-                    resp = sesscion_a.post(
-                        url, headers=header, data=data, timeout=(2, 6))
+                    resp = sesscion_a.post(url,
+                                           headers=header,
+                                           data=data,
+                                           timeout=(3, 12))
                 else:
-                    resp = sesscion_a.get(
-                        url,
-                        headers=header,
-                        allow_redirects=False,
-                        timeout=(2, 6))
+                    resp = sesscion_a.get(url,
+                                          headers=header,
+                                          allow_redirects=False,
+                                          timeout=(3, 12))
                 retry_count = 0
             except Exception as exc:
                 retry_count -= 1

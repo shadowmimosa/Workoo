@@ -3,10 +3,13 @@ import json
 import time
 import urllib
 import pymysql
+from pdf2image import convert_from_path
 from crypto import PyDes3
 from config import DEBUG
 from config import DATABASES
 from utils.request import Query
+from less_pic import compress_by_dir
+from utils.baidu_ocr import BaiduOCR
 
 
 def get_strftime(timestamps=None):
@@ -21,26 +24,69 @@ def clean_data(content: str):
 
 
 def pdf2pic(file_path, output_path):
-    from pdf2image import convert_from_path
-    convert_from_path(file_path,
-                      500,
-                      output_path,
-                      fmt="PNG",
-                      output_file='pic',
-                      thread_count=4,
-                      poppler_path=None)
+    convert_from_path(
+        file_path,
+        200,
+        output_path,
+        fmt="PNG",
+        output_file='jpeg',
+        thread_count=4,
+        poppler_path=r'C:\Users\ShadowMimosa\Desktop\poppler-0.68.0\bin')
 
+    return output_path
     # images = convert_from_path(file_path)
     # for index, img in enumerate(images):
     #     img.save('%s/page_%s.png' % (output_path, index))
 
 
 def pic2text(path):
-    pass
+    pic_list = []
+    if os.path.isdir(path):
+        for filename in os.listdir(path):
+            with open(os.path.join(path, filename), 'rb') as fn:
+                pic_list.append(fn.read())
+    elif os.path.isfile(path):
+        with open(path, 'rb') as fn:
+            pic_list.append(fn.read())
+
+    result = []
+    for pic in pic_list:
+        text = BaiduOCR().pic2word(pic)["words_result"]
+        texts = '\n'.join([x['words'] for x in text])
+        result.append(texts)
+
+    return '\n\n'.join(result)
+
+
+def img_tag(dirpath):
+    result = ''
+    tag = '<img src=”/image/{}{}”/>'
+    for img in os.listdir(dirpath):
+        path = dirpath.split('/pic/')[-1]
+        result += tag.format(path, img)
+
+    return result
+
+
+def create_path(folder, filepath=None):
+    """
+    根据时间生成新文件目录
+    """
+    date = time.strftime("%Y-%m-%d")
+    if filepath:
+        filename = filepath.split('/')[-1].split('.')[0]
+        path = f'./static/{folder}/{date}/{filename}/'
+    else:
+        path = f'./static/{folder}/{date}/'
+
+    os.makedirs(path) if not os.path.exists(path) else True
+
+    return path
 
 
 class MysqlOpea(object):
     def __init__(self):
+        self.init_sql()
         super().__init__()
 
     def init_sql(self):
@@ -54,14 +100,13 @@ class MysqlOpea(object):
 
         except pymysql.err.OperationalError as exc:
             print('登录失败！TimeoutError!')
-            os._exit(0)
+            # os._exit(0)
         else:
             self.ecnu_cursor = ecnu_mysql.cursor()
 
     def insert(self, param: dict):
-        sql = "INSERT INTO `dd1`.`wy` ( `fid`, `uid`, `bt`, `url`, `nr`, `w1`, `w2`, `w5`, `r1`, `r2` ) VALUES ( `{type_id}`, `{uid}`, `{title}`, `{path}`, `{text}`, `{type}`, `{region}`, `{keyword}`, `{add_time}`, `{notice_time}` );"
+        sql = 'INSERT INTO `dd1`.`wy` ( `fid`, `uid`, `bt`, `url`, `nr`, `w1`, `w2`, `w5`, `r1`, `r2` ) VALUES ( {fid}, {uid}, "{title}", "{path}", "{img}", "{type}", "{region}", "{text}", "{add_time}", "{notice_time}" );'
         self.ecnu_cursor.execute(sql.format(sql))
-
 
 class CebpubService(object):
     """
@@ -96,17 +141,31 @@ class CebpubService(object):
             print(data.get('errorMessage'))
             return {}
 
-    def get_notice_list(self, _type: int):
+    def real_fid(self, notice_id):
+        if notice_id == 0:
+            fid = 133
+        elif notice_id == 1:
+            fid = 0
+        elif notice_id == 2:
+            fid = 0
+        elif notice_id == 3:
+            fid = 134
+        elif notice_id == 4:
+            fid = 135
+
+        return fid
+
+    def get_notice_list(self, _type: int, page):
         """获取公告列表
 
         0: 招标公告
         1: 资格预审公告
-        2: 中标候选人公示        
-        3: 中标结果公示        
-        4: 更正公告公示        
+        2: 中标候选人公示
+        3: 中标结果公示
+        4: 更正公告公示
         """
 
-        path = f'http://bulletin.cebpubservice.com/cutominfoapi/recommand/type/{_type}/pagesize/20/currentpage/1/uid/0'
+        path = f'http://bulletin.cebpubservice.com/cutominfoapi/recommand/type/{_type}/pagesize/20/currentpage/{page}/uid/0'
         resp = self.req(path)
         data = self.decrypt_json(resp)
         if not data:
@@ -115,7 +174,6 @@ class CebpubService(object):
         return data.get('dataList')
 
     def down_pdf(self, path, dir_path='./'):
-        os.makedirs(dir_path) if not os.path.exists(dir_path) else True
         pdf_path = f'{dir_path}/{path.split("/")[-1]}.pdf'
 
         opener = urllib.request.build_opener()
@@ -133,7 +191,7 @@ class CebpubService(object):
 
         return pdf_path
 
-    def get_notice_detail(self, bulletin_id):
+    def get_notice_info(self, bulletin_id):
         path = f'http://bulletin.cebpubservice.com/cutominfoapi/bulletin/{bulletin_id}/uid/0'
         resp = self.req(path)
         data = self.decrypt_json(resp)
@@ -142,25 +200,37 @@ class CebpubService(object):
             'uid': 0,
             'title': data.get('bulletinName'),
             'path': '',
+            'img': '',
+            'type': '',
+            'region': data.get('regionName').replace('省', '').replace('市', ''),
             'text': '',
-            'type': data.get('type'),
-            'region': data.get('region'),
-            'keyword': '',
             'add_time': get_strftime(),
             'notice_time': clean_data(data.get('noticeSendTime')),
             'pdf_url': data.get('pdfUrl')
         }
         return info
 
+    def detail(self):
+        pass
+
     def main(self):
-        data = self.get_notice_list(0)
-        for item in data:
-            info = self.get_notice_detail(item.get('bulletinID'))
-            pdf_path = self.down_pdf(
-                info.get('pdf_url'),
-                './static/pdf/{}/'.format(time.strftime("%Y%m%d")))
-            pdf2pic(pdf_path,
-                    './static/pic/{}/'.format(time.strftime("%Y%m%d")))
+        for page in range(10):
+            for notice_type in range(5):
+                data = self.get_notice_list(notice_type, page + 1)
+
+                for item in data:
+                    info = self.get_notice_info(item.get('bulletinID'))
+                    pdf_path = self.down_pdf(info.get('pdf_url'),
+                                             create_path('pdf'))
+                    pic_raw_path = pdf2pic(
+                        pdf_path, create_path('pic_raw', info.get('pdf_url')))
+                    pic_path = compress_by_dir(
+                        pic_raw_path, create_path('pic', info.get('pdf_url')))
+                    info[''] = item.get('notieIndustriestName')
+                    info['fid'] = self.real_fid(notice_type)
+                    info['text'] = pic2text(pic_path)
+                    info['img'] = img_tag(pic_path)
+                    self.sql.insert(info)
 
 
 if __name__ == "__main__":
