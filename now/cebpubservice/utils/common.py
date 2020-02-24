@@ -9,13 +9,15 @@ from utils.baidu_ocr import BaiduOCR
 
 def get_strftime(timestamps=None):
     if timestamps:
-        return time.strftime('%Y-%m-%d %X', time.localtime(timestamps))
+        result = time.strftime('%Y-%m-%d %X', time.localtime(timestamps))
     else:
-        return time.strftime('%Y-%m-%d %X', time.localtime(time.time()))
+        result = time.strftime('%Y-%m-%d %X', time.localtime(time.time()))
+
+    return result.split(' ')[0]
 
 
 def clean_data(content: str):
-    return content.replace('T', ' ').replace('.000+0000', '')
+    return content.replace('T', ' ').replace('.000+0000', '').split(' ')[0]
 
 
 def pdf2pic(file_path, output_path):
@@ -104,7 +106,7 @@ class MysqlOpea(object):
             self.ecnu_cursor = ecnu_mysql.cursor()
 
     def insert(self, param: dict):
-        sql = 'INSERT INTO `dd1`.`wy` ( `fid`, `uid`, `bt`, `url`, `nr`, `w1`, `w2`, `w5`, `r1`, `r2` ) VALUES ( {fid}, {uid}, "{title}", "{path}", "{img}", "{type}", "{region}", "{text}", "{add_time}", "{notice_time}" );'
+        sql = 'INSERT INTO `dd1`.`wy` ( `fid`, `uid`, `bt`, `url`, `nr`, `w1`, `w2`, `w5`, `g`, `r1`, `r2` ) VALUES ( {fid}, {uid}, "{title}", "{path}", "{img}", "{type}", "{region}", "{text}", "", "{add_time}", "{notice_time}" );'
         self.ecnu_cursor.execute(sql.format(**param))
 
 
