@@ -26,9 +26,9 @@ def pdf2pic(file_path, output_path):
     convert_from_path(file_path,
                       200,
                       output_path,
-                      fmt="PNG",
-                      output_file='jpeg',
-                      thread_count=1,
+                      fmt="jpg",
+                      output_file='pic',
+                      thread_count=4,
                       poppler_path=poppler_path)
 
     return output_path
@@ -59,7 +59,9 @@ def pic2text(path):
 def img_tag(dirpath):
     result = ''
     tag = '<img src=”/image/{}{}”/>'
-    for img in os.listdir(dirpath):
+    files = os.listdir(dirpath)
+    files.sort(key=lambda x: int(x.split('-')[-1][:-4]))
+    for img in files:
         path = dirpath.split('/pic/')[-1]
         result += tag.format(path, img)
 
