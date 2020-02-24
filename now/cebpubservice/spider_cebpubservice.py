@@ -4,12 +4,14 @@ import time
 import urllib
 import pymysql
 from pdf2image import convert_from_path
-from crypto import PyDes3
-from config import DEBUG
-from config import DATABASES
+
+from utils.crypto import PyDes3
 from utils.request import Query
-from less_pic import compress_by_dir
 from utils.baidu_ocr import BaiduOCR
+from utils.less_pic import compress_by_dir
+
+from config import DATABASES
+from config import DEBUG
 
 
 def get_strftime(timestamps=None):
@@ -113,7 +115,7 @@ class CebpubService(object):
     notice: 公告
     """
     def __init__(self):
-        self.des = PyDes3('ctpstp@custominfo!@#qweASD')
+        self.des = PyDes3()
         self.req = Query().run
         self.sql = MysqlOpea()
         self.ua = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1295.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2875.116 Safari/537.36 NetType/WIFI MicroMessenger/7.0.5 WindowsWechat'

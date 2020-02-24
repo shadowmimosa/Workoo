@@ -5,12 +5,12 @@ import urllib
 import hashlib
 import urllib3
 import requests
-from config import logger
+from utils.log import init_log
 
 
 class Query(object):
     def __init__(self):
-        self.logger = logger
+        self.logger = init_log()
 
     def get_session(self):
         """创建 session 示例，以应对多线程"""
