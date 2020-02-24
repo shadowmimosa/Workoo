@@ -55,19 +55,19 @@ class Query(object):
                     resp = sesscion_a.post(url,
                                            headers=header,
                                            data=data,
-                                           timeout=(3, 12))
+                                           timeout=(6, 20))
                 elif isinstance(files, dict):
-                    resp = sesscion_a.post(url, files=files, timeout=(3, 12))
+                    resp = sesscion_a.post(url, files=files, timeout=(6, 20))
                 elif data:
                     resp = sesscion_a.post(url,
                                            headers=header,
                                            data=data,
-                                           timeout=(3, 12))
+                                           timeout=(6, 20))
                 else:
                     resp = sesscion_a.get(url,
                                           headers=header,
                                           allow_redirects=False,
-                                          timeout=(3, 12))
+                                          timeout=(6, 20))
                 retry_count = 0
             except Exception as exc:
                 retry_count -= 1
