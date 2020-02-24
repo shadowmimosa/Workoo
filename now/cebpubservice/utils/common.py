@@ -105,7 +105,7 @@ class MysqlOpea(object):
 
     def insert(self, param: dict):
         sql = 'INSERT INTO `dd1`.`wy` ( `fid`, `uid`, `bt`, `url`, `nr`, `w1`, `w2`, `w5`, `r1`, `r2` ) VALUES ( {fid}, {uid}, "{title}", "{path}", "{img}", "{type}", "{region}", "{text}", "{add_time}", "{notice_time}" );'
-        self.ecnu_cursor.execute(sql.format(sql))
+        self.ecnu_cursor.execute(sql.format(**param))
 
 
 NOTICE_INFO = 'http://bulletin.cebpubservice.com/cutominfoapi/bulletin/{}/uid/0'
