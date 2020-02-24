@@ -117,7 +117,7 @@ class Query(object):
                 "--->Error: deal re is error, the error is {}".format(exc))
             return None
 
-    def run(self, path, sign=None, header={}, **kwargs):
+    def run(self, path, header={}, sign=None, **kwargs):
         resp = self.deal_re(url=path, header=header, **kwargs)
         if resp is None:
             return ""

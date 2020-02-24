@@ -6,7 +6,7 @@ import traceback
 
 from utils.request import Query
 
-requests = Query().run
+req = Query().run
 
 class BaiduToken(object):
     def __init__(self):
@@ -42,7 +42,7 @@ class BaiduToken(object):
         if token is False:
             host = 'https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id={client_id}&client_secret={client_secret}'.format(
                 **BAIDUOCR)
-            resp = requests(
+            resp = req(
                 host,
                 header={'Content-Type': 'application/json; charset=UTF-8'},
                 data={})
@@ -77,7 +77,7 @@ class BaiduOCR(object):
             "detect_language": "false",
             "probability": "false",
         }
-        resp = requests(
+        resp = req(
             host,
             headers={"Content-Type": "application/x-www-form-urlencoded"},
             data=data)
