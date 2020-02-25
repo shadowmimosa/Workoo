@@ -16,8 +16,14 @@ def get_strftime(timestamps=None):
     return result.split(' ')[0]
 
 
-def clean_data(content: str):
+def clean_date(content: str):
     return content.replace('T', ' ').replace('.000+0000', '').split(' ')[0]
+
+
+def clean_region(content: str):
+    for sign in ['省', '市', '自治区', '维吾尔', '回族', '壮族', '特别行政区']:
+        content = content.replace(sign, '')
+    return content
 
 
 def pdf2pic(file_path, output_path):
@@ -105,8 +111,19 @@ class MysqlOpea(object):
         else:
             self.ecnu_cursor = ecnu_mysql.cursor()
 
+    def escape_param(self, param):
+        for key in param:
+            value = param[key]
+            if isinstance(value, str):
+                param[key] = pymysql.escape_string(value)
+
+        return param
+
     def insert(self, param: dict):
-        sql = 'INSERT INTO `dd1`.`wy` ( `fid`, `uid`, `bt`, `url`, `nr`, `w1`, `w2`, `w5`, `g`, `r1`, `r2` ) VALUES ( {fid}, {uid}, "{title}", "{path}", "{img}", "{type}", "{region}", "{text}", "", "{add_time}", "{notice_time}" );'
+        # param = {x: pymysql.escape_string(param[x]) for x in param}
+        param = self.escape_param(param)
+        sql = 'INSERT INTO `ceshi`.`wy` ( `fid`, `uid`, `bt`, `url`, `nr`, `w1`, `w2`, `w5`, `g`, `r1`, `r2` ) VALUES ( {fid}, {uid}, "{title}", "{path}", "{img}", "{region}", "{trade}", "{text}", "", "{add_time}", "{notice_time}" );'
+        # sql = 'INSERT INTO `dd1`.`wy` ( `fid`, `uid`, `bt`, `url`, `nr`, `w1`, `w2`, `w5`, `g`, `r1`, `r2` ) VALUES ( {fid}, {uid}, "{title}", "{path}", "{img}", "{type}", "{region}", "{text}", "", "{add_time}", "{notice_time}" );'
         self.ecnu_cursor.execute(sql.format(**param))
 
 

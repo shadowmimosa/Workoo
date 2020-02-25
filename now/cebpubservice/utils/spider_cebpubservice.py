@@ -32,9 +32,9 @@ class CebpubService(object):
         if notice_id == 0:
             fid = 133
         elif notice_id == 1:
-            fid = 0
+            fid = 133
         elif notice_id == 2:
-            fid = 0
+            fid = 134
         elif notice_id == 3:
             fid = 134
         elif notice_id == 4:
@@ -87,10 +87,10 @@ class CebpubService(object):
             'path': '',
             'img': '',
             'type': '',
-            'region': data.get('regionName').replace('省', '').replace('市', ''),
+            'region': clean_region(data.get('regionName')),
             'text': '',
             'add_time': get_strftime(),
-            'notice_time': clean_data(data.get('noticeSendTime')),
+            'notice_time': clean_date(data.get('noticeSendTime')),
             'pdf_url': data.get('pdfUrl')
         }
         return info
@@ -108,8 +108,8 @@ class CebpubService(object):
                         pdf_path, create_path('pic_raw', info.get('pdf_url')))
                     pic_path = compress_by_dir(
                         pic_raw_path, create_path('pic', info.get('pdf_url')))
-                        
-                    info['w1'] = item.get('notieIndustriestName')
+
+                    info['trade'] = item.get('notieIndustriestName')
                     info['fid'] = self.real_fid(notice_type)
                     info['text'] = pic2text(pic_path)
                     info['img'] = img_tag(pic_path)
