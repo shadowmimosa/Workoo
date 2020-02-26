@@ -81,8 +81,6 @@ class CebpubService(object):
         resp = self.req(path, header=HEADER)
         data = self.decrypt_json(resp)
         info = {
-            'type_id': 0,
-            'uid': 0,
             'title': data.get('bulletinName'),
             'path': '',
             'img': '',
@@ -96,12 +94,15 @@ class CebpubService(object):
         return info
 
     def main(self):
-        for page in range(10):
+        for page in range(PAGES):
             for notice_type in range(5):
                 data = self.get_notice_list(notice_type, page + 1)
 
                 for item in data:
-                    info = self.get_notice_info(item.get('bulletinID'))
+                    bulletin_id = item.get('bulletinID')
+                    if not self.sql.repeat(bulletin_id):
+                        continue
+                    info = self.get_notice_info(bulletin_id)
                     pdf_path = self.down_pdf(info.get('pdf_url'),
                                              create_path('pdf'))
                     pic_raw_path = pdf2pic(
@@ -113,6 +114,9 @@ class CebpubService(object):
                     info['fid'] = self.real_fid(notice_type)
                     info['text'] = pic2text(pic_path)
                     info['img'] = img_tag(pic_path)
+                    info['local'] = pic_path
+                    info['source'] = NOTICE_INFO.format(bulletin_id)
+                    info['bulletin_id'] = bulletin_id
 
                     self.sql.insert(info)
 
