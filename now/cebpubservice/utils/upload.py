@@ -28,11 +28,15 @@ class UploadSomething(object):
 
     def main(self):
         result = self.local_sql.select()
-        for item in result:
-            self.remote_sql.insert(item)
-            self.upload_img(item['local'])
-            self.local_sql.update(item['ID'])
+        while result:
+            for item in result:
+                self.remote_sql.insert(item)
+                self.upload_img(item['local'])
+                self.local_sql.update(item['ID'])
+                
+            result = self.local_sql.select()
 
 
 if __name__ == "__main__":
-    main()
+    upload = UploadSomething()
+    upload.main()

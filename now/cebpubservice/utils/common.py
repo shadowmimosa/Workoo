@@ -139,8 +139,8 @@ class MysqlOpea(object):
             sql = ''
         else:
             sql = 'SELECT * FROM `dd1`.`wy` WHERE `sync` = 0 LIMIT 10;'
-        self.ecnu_cursor.execute(sql)
-        return self.ecnu_cursor.fetchall()
+        if self.ecnu_cursor.execute(sql) != 0:
+            return self.ecnu_cursor.fetchall()
 
     def update(self, ID):
         sql = f'UPDATE `dd1`.`wy` SET `sync` = 1 WHERE `ID` = {ID};'
