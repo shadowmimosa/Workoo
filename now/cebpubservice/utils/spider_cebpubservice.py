@@ -3,6 +3,8 @@ import json
 import urllib
 
 from utils.common import *
+from utils.log import logger
+from utils.run import run_func
 from utils.crypto import PyDes3
 from utils.request import Query
 from utils.less_pic import compress_by_dir
@@ -93,32 +95,51 @@ class CebpubService(object):
         }
         return info
 
+    def detail(self, item, fid):
+        bulletin_id = item.get('bulletinID')
+        if not run_func(self.sql.repeat, bulletin_id):
+            return
+
+        info = run_func(self.get_notice_info, bulletin_id)
+
+        pdf_path = run_func(self.down_pdf, info.get('pdf_url'),
+                            create_path('pdf'))
+        if not pdf_path:
+            logger.error('pdf 下载失败失败 - {} '.format(bulletin_id))
+            return
+
+        pic_raw_path = run_func(pdf2pic, pdf_path,
+                                create_path('pic_raw', info.get('pdf_url')))
+        if not pic_raw_path:
+            logger.error('转图片失败 - {} '.format(bulletin_id))
+            return
+
+        pic_path = run_func(compress_by_dir, pic_raw_path,
+                            create_path('pic', info.get('pdf_url')))
+        if not pic_path:
+            logger.error('图片压缩失败 - {} '.format(bulletin_id))
+            return
+
+        info['trade'] = item.get('notieIndustriestName')
+        info['fid'] = fid
+        info['text'] = run_func(pic2text, pic_path)
+        info['img'] = run_func(img_tag, pic_path)
+        info['local'] = pic_path
+        info['source'] = item.get('noticeUrl')
+        info['bulletin_id'] = bulletin_id
+
+        if run_func(self.sql.insert, info):
+            logger.info('插入成功 - {} '.format(bulletin_id))
+        else:
+            logger.error('插入失败 - {} '.format(bulletin_id))
+
     def main(self):
         for page in range(PAGES):
             for notice_type in range(5):
-                data = self.get_notice_list(notice_type, page + 1)
-
+                data = run_func(self.get_notice_list, notice_type, page + 1)
+                fid = run_func(self.real_fid, notice_type)
                 for item in data:
-                    bulletin_id = item.get('bulletinID')
-                    if not self.sql.repeat(bulletin_id):
-                        continue
-                    info = self.get_notice_info(bulletin_id)
-                    pdf_path = self.down_pdf(info.get('pdf_url'),
-                                             create_path('pdf'))
-                    pic_raw_path = pdf2pic(
-                        pdf_path, create_path('pic_raw', info.get('pdf_url')))
-                    pic_path = compress_by_dir(
-                        pic_raw_path, create_path('pic', info.get('pdf_url')))
-
-                    info['trade'] = item.get('notieIndustriestName')
-                    info['fid'] = self.real_fid(notice_type)
-                    info['text'] = pic2text(pic_path)
-                    info['img'] = img_tag(pic_path)
-                    info['local'] = pic_path
-                    info['source'] = item.get('noticeUrl')
-                    info['bulletin_id'] = bulletin_id
-
-                    self.sql.insert(info)
+                    run_func(self.detail, item, fid)
 
 
 if __name__ == "__main__":

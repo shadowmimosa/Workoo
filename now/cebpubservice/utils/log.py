@@ -10,10 +10,9 @@ def init_log():
     logger.setLevel(level=logging.INFO)
     if not logger.handlers:
         try:
-            handler = RotatingFileHandler(
-                "./log/run_info.log",
-                maxBytes=10 * 1024 * 1024,
-                backupCount=100)
+            handler = RotatingFileHandler("./log/run_info.log",
+                                          maxBytes=10 * 1024 * 1024,
+                                          backupCount=100)
             # handler = loggingFileHandler("./log/run_info.log")
         except FileNotFoundError as exc:
             os.makedirs("./log/")
@@ -29,6 +28,8 @@ def init_log():
 
         logger.addHandler(handler)
         logger.addHandler(console)
-        
 
     return logger
+
+
+logger = init_log()

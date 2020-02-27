@@ -145,6 +145,7 @@ class MysqlOpea(object):
     def update(self, ID):
         sql = f'UPDATE `dd1`.`wy` SET `sync` = 1 WHERE `ID` = {ID};'
         self.ecnu_cursor.execute(sql)
+        return True
 
     def insert(self, param: dict):
         # param = {x: pymysql.escape_string(param[x]) for x in param}
@@ -155,6 +156,8 @@ class MysqlOpea(object):
             sql = 'INSERT INTO `database`.`wy` ( `fid`, `uid`, `bt`, `url`, `nr`, `w1`, `w2`, `w5`, `g`, `r1`, `r2`, `local`, `special`, `platform`) VALUES ( {fid}, 1, "{title}", "{path}", "{img}", "{region}", "{trade}", "{text}", "{source}", "{add_time}", "{notice_time}", "{local}", "{bulletin_id}", 1 );'
         self.ecnu_cursor.execute(
             sql.format(**param).replace('database', self.database))
+
+        return True
 
 
 class FtpOpea(object):

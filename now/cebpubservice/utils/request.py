@@ -5,12 +5,12 @@ import urllib
 import hashlib
 import urllib3
 import requests
-from utils.log import init_log
+from utils.log import logger
 
 
 class Query(object):
     def __init__(self):
-        self.logger = init_log()
+        pass
 
     def get_session(self):
         """创建 session 示例，以应对多线程"""
@@ -45,7 +45,7 @@ class Query(object):
         sesscion_a = self.get_session()
 
         # print("---> 开始请求网址：{}".format(url))
-        self.logger.info("---> 开始请求网址：{}".format(url))
+        logger.debug("---> 开始请求网址：{}".format(url))
         start_time = time.time()
         retry_count = 5
         while retry_count > 0:
@@ -71,7 +71,7 @@ class Query(object):
                 retry_count = 0
             except Exception as exc:
                 retry_count -= 1
-                self.logger.error(
+                logger.error(
                     "---> The error is {}, and the website is {}. Now try again just one time."
                     .format(exc, url))
                 # self.deal_re(url=url, header=header, data=data)
@@ -88,7 +88,7 @@ class Query(object):
                     resp.encoding = "gbk"
 
                 magic_time = end_time - start_time
-                self.logger.info(
+                logger.debug(
                     "--->Info: Request successful. It takes {:.3} seconds".
                     format(magic_time))
                 return resp
@@ -101,7 +101,7 @@ class Query(object):
                     resp.encoding = "gbk"
 
                 magic_time = end_time - start_time
-                self.logger.info(
+                logger.debug(
                     "--->Info: Request is 302. It takes {:.3} seconds".format(
                         magic_time))
                 return resp.headers["Location"]
@@ -110,10 +110,10 @@ class Query(object):
             elif resp.status_code >= 400 and resp.status_code < 500:
                 return 400
             else:
-                self.logger.error("--->Info {} 请求失败！状态码为{}，共耗时{:.3}秒".format(
+                logger.error("--->Info {} 请求失败！状态码为{}，共耗时{:.3}秒".format(
                     url, resp.status_code, end_time - start_time))
         except UnboundLocalError as exc:
-            self.logger.error(
+            logger.error(
                 "--->Error: deal re is error, the error is {}".format(exc))
             return None
 
