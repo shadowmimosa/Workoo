@@ -94,7 +94,8 @@ class ExcelOpea(object):
             self.write_sheet = self.write_wkb.create_sheet('sheet1', 0)
             self.write_sheet.column_dimensions['H'].width = 100.0
             self.row = 1
-            self.write(header)
+            if header:
+                self.write(header)
 
         elif use == 'xlwt':
             self.use = 'xlwt'
@@ -151,6 +152,7 @@ class ExcelOpea(object):
 
 if __name__ == "__main__":
     excel = ExcelOpea()
-    excel.read(path='2019-12-16 00-39-15.xlsx')
-    excel.append([1, 1, 1, 1])
+    excel.read(path='2020-02-21 15-58-40.xlsx')
+    # excel.append([1, 1, 1, 1])
+    # excel.init_sheet()
     excel.save(mode='read')
