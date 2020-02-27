@@ -115,7 +115,7 @@ class CebpubService(object):
                     info['text'] = pic2text(pic_path)
                     info['img'] = img_tag(pic_path)
                     info['local'] = pic_path
-                    info['source'] = NOTICE_INFO.format(bulletin_id)
+                    info['source'] = item.get('noticeUrl')
                     info['bulletin_id'] = bulletin_id
 
                     self.sql.insert(info)

@@ -69,7 +69,7 @@ def pic2text(path):
 
 def img_tag(dirpath):
     result = ''
-    tag = '<img src=”/image/{}{}”/>'
+    tag = '<img src="/image/{}{}"/>'
     files = os.listdir(dirpath)
     files.sort(key=lambda x: int(x.split('-')[-1][:-4]))
     for img in files:
@@ -152,7 +152,7 @@ class MysqlOpea(object):
         if self.upload:
             sql = 'INSERT INTO `database`.`wy` ( `fid`, `uid`, `bt`, `url`, `nr`, `w1`, `w2`, `w5`, `g`, `r1`, `r2`) VALUES ( {fid}, 1, "{bt}", "{url}", "{nr}", "{w1}", "{w2}", "{w5}", "{g}", "{r1}", "{r2}" );'
         else:
-            sql = 'INSERT INTO `database`.`wy` ( `fid`, `uid`, `bt`, `url`, `nr`, `w1`, `w2`, `w5`, `g`, `r1`, `r2`, `local`, `special`, `platform`) VALUES ( {fid}, 1, "{title}", "{path}", "{img}", "{type}", "{region}", "{text}", "{source}", "{add_time}", "{notice_time}", "{local}", "{bulletin_id}", 1 );'
+            sql = 'INSERT INTO `database`.`wy` ( `fid`, `uid`, `bt`, `url`, `nr`, `w1`, `w2`, `w5`, `g`, `r1`, `r2`, `local`, `special`, `platform`) VALUES ( {fid}, 1, "{title}", "{path}", "{img}", "{region}", "{trade}", "{text}", "{source}", "{add_time}", "{notice_time}", "{local}", "{bulletin_id}", 1 );'
         self.ecnu_cursor.execute(
             sql.format(**param).replace('database', self.database))
 
