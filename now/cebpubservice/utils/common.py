@@ -112,6 +112,7 @@ class MysqlOpea(object):
             ecnu_mysql = pymysql.connect(**config)
         except pymysql.err.OperationalError as exc:
             print('登录失败！TimeoutError!')
+            sys.exit(0)
         else:
             if self.upload:
                 self.ecnu_cursor = ecnu_mysql.cursor(
