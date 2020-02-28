@@ -104,7 +104,8 @@ def ping(func):
     @wraps(func)
     def wrapper(*args, **kwargs):
         args[0].ecnu_mysql.ping(reconnect=True)
-        func(*args, **kwargs)
+        
+        return func(*args, **kwargs)
 
     return wrapper
 
