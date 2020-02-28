@@ -120,8 +120,8 @@ class DataClean(object):
                                             date.hour, date.minute,
                                             date.second)
         sign = int(sign)
-
-        if 201908020000000 < sign or sign < 201808010000000:
+        
+        if 20190802000000  < sign or sign < 20180801000000:
             return
 
         obj = '%4d%02d%02d%02d' % (date.year, date.month, date.day,
