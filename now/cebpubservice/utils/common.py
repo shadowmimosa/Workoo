@@ -51,7 +51,9 @@ def pdf2pic(file_path, output_path):
 def pic2text(path):
     pic_list = []
     if os.path.isdir(path):
-        for filename in os.listdir(path):
+        files = os.listdir(path)
+        files.sort(key=lambda x: int(x.split('-')[-1][:-4]))
+        for filename in files:
             with open(os.path.join(path, filename), 'rb') as fn:
                 pic_list.append(fn.read())
     elif os.path.isfile(path):
@@ -95,6 +97,18 @@ def create_path(folder, filepath=None):
     return path
 
 
+from functools import wraps
+
+
+def ping(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        args[0].ecnu_mysql.ping(reconnect=True)
+        func(*args, **kwargs)
+
+    return wrapper
+
+
 class MysqlOpea(object):
     def __init__(self, upload=False):
         self.upload = upload
@@ -109,16 +123,16 @@ class MysqlOpea(object):
             config = DATABASES['local']
             self.database = DATABASES['local']['database']
         try:
-            ecnu_mysql = pymysql.connect(**config)
+            self.ecnu_mysql = pymysql.connect(**config)
         except pymysql.err.OperationalError as exc:
             print('登录失败！TimeoutError!')
             sys.exit(0)
         else:
             if self.upload:
-                self.ecnu_cursor = ecnu_mysql.cursor(
+                self.ecnu_cursor = self.ecnu_mysql.cursor(
                     cursor=pymysql.cursors.DictCursor)
             else:
-                self.ecnu_cursor = ecnu_mysql.cursor(
+                self.ecnu_cursor = self.ecnu_mysql.cursor(
                     cursor=pymysql.cursors.DictCursor)
 
     def escape_param(self, param):
@@ -129,12 +143,14 @@ class MysqlOpea(object):
 
         return param
 
+    @ping
     def repeat(self, bulletin_id=None):
         sql = 'SELECT id FROM `dd1`.`wy` WHERE `platform` = 1 AND `special` = "{}" LIMIT 1;'.format(
             bulletin_id)
         if self.ecnu_cursor.execute(sql) == 0:
             return True
 
+    @ping
     def select(self):
         if self.upload:
             sql = ''
@@ -143,11 +159,13 @@ class MysqlOpea(object):
         if self.ecnu_cursor.execute(sql) != 0:
             return self.ecnu_cursor.fetchall()
 
+    @ping
     def update(self, ID):
         sql = f'UPDATE `dd1`.`wy` SET `sync` = 1 WHERE `ID` = {ID};'
         self.ecnu_cursor.execute(sql)
         return True
 
+    @ping
     def insert(self, param: dict):
         # param = {x: pymysql.escape_string(param[x]) for x in param}
         param = self.escape_param(param)
