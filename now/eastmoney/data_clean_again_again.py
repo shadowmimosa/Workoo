@@ -1,5 +1,5 @@
 import os
-import pymysql
+import json
 import pymongo
 import logging
 from logging.handlers import RotatingFileHandler
@@ -74,46 +74,16 @@ def init_mongo():
     return client["eastmoney"]
 
 
-def init_mysql():
-    from config import DATABASES
-
-    try:
-        if DEBUG:
-            config = DATABASES["debug"]
-        else:
-            config = DATABASES["product"]
-
-        ecnu_mysql = pymysql.connect(**config)
-
-    except pymysql.err.OperationalError as exc:
-        logger.error("--->Error: 登录失败！TimeoutError!")
-        os._exit(0)
-    else:
-        return ecnu_mysql.cursor()
-
-
 class DataClean(object):
     def __init__(self):
-
+        self.summary = {}
         super().__init__()
 
     def plus(self, obj):
-        sign = run_func(
-            mysql.execute,
-            'select * from `workoo`.`eastmoney_stat` where `datetime` = {};'.
-            format(obj))
-        if not sign:
-            run_func(
-                mysql.execute,
-                'INSERT INTO `workoo`.`eastmoney_stat`(`datetime`, `count`) VALUES ({}, 1);'
-                .format(obj).format(obj))
+        if self.summary.get(obj) is None:
+            self.summary[obj] = 1
         else:
-            result = run_func(mysql.fetchone)
-            count = result[-1]
-            run_func(
-                mysql.execute,
-                'UPDATE `workoo`.`eastmoney_stat` SET `count` = {} WHERE `id` = {};'
-                .format(count + 1, result[0]))
+            self.summary[obj] += 1
 
     def judge_date(self, date):
         sign = '%4d%02d%02d%02d%02d%02d' % (date.year, date.month, date.day,
@@ -145,10 +115,12 @@ class DataClean(object):
                 }, {
                     'post_time': 1
                 }).sort('_id').limit(800))
-
+                
+        with open('./data.json', 'a', encoding='utf-8') as fn:
+            fn.write(json.dumps(self.summary))
+        
 
 mongo = init_mongo()
-mysql = init_mysql()
 logger = init_log()
 
 if __name__ == "__main__":
