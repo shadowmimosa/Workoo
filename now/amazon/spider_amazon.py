@@ -1,10 +1,4 @@
-'''
-Empty
-'''
-# import warnings
-# import matplotlib
-# warnings.filterwarnings("ignore",category=matplotlib.MatplotlibDeprecationWarning)
-
+import io
 import os
 import re
 import sys
@@ -12,23 +6,23 @@ import json
 import time
 import hashlib
 import requests
-from urllib.parse import urlencode
-# from skimage import io
+import threading
+import traceback
+import tkinter as tk
+from tkinter import ttk
 from selenium import webdriver
-# from seleniumwire import webdriver
+from urllib.parse import urlencode
 from selenium.webdriver.common.by import By
+from tkinter.scrolledtext import ScrolledText
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException, TimeoutException, InvalidSelectorException, ElementNotVisibleException
+
 from utils.excel_opea import ExcelOpea
 from utils.request import Query
 from utils.soup import DealSoup
-import tkinter as tk
-from tkinter import ttk
-from tkinter.scrolledtext import ScrolledText
-import threading
+from utils.log import logger
 from icon import img
-import io
 
 IP = ''
 PROXY = ''
@@ -53,7 +47,7 @@ def check_ip():
         resp = requests.get(url="http://icanhazip.com/",
                             timeout=8,
                             proxies={"http": proxy})
-        real_ip = resp.text
+        real_ip = remove_charater(resp.text)
         if (ip == real_ip):
             output('Info: 代理有效')
             return True
@@ -96,7 +90,7 @@ class OperaChrome(object):
         options = webdriver.ChromeOptions()
         options.add_argument("disable-infobars")
         options.add_argument("disable-web-security")
-        options.add_argument("--headless")
+        # options.add_argument("--headless")
         options.add_argument("--start-maximized")
         options.add_argument('--log-level=3')
         options.add_argument('--ignore-certificate-errors')
@@ -115,8 +109,8 @@ class OperaChrome(object):
                 'images': 2,
             }
         }
-        service = webdriver.chrome.service
-        webdriver.Chrome.service.command_line_args
+        # service = webdriver.chrome.service
+        # webdriver.Chrome.service.command_line_args
         # options.add_experimental_option("prefs", prefs)
 
         # if proxy:
@@ -260,8 +254,9 @@ class Amazon(object):
             'User-Agent':
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36',
             'Accept-Encoding': 'gzip, deflate, br',
-            'Accept-Language': 'zh-CN,zh;q=0.9',
+            'Accept-Language': 'en-us,en;q=0.9',
         }
+
         super().__init__()
 
     def good_info(self):
@@ -440,14 +435,14 @@ class Amazon(object):
             if self.proxy == 1:
                 proxy = get_proxy()
                 resp = self.req(path,
-                                header=header,
+                                header=self.header,
                                 proxies={
                                     'http': proxy,
                                     'https': proxy
                                 },
                                 cookies=self.cookie)
             else:
-                resp = self.req(path, header=header, cookies=self.cookie)
+                resp = self.req(path, header=self.header, cookies=self.cookie)
 
             if isinstance(resp, int):
                 if 400 <= resp <= 403:
@@ -456,7 +451,8 @@ class Amazon(object):
 
             for item in json.loads(resp)['data']:
                 data.append(item['oid'])
-
+                output('Info: 已获取 - https://www.amazon.com/dp/{}'.format(
+                    item.get('oid')))
             time.sleep(self.sleep_time)
         return data
 
@@ -527,7 +523,8 @@ class Amazon(object):
                         data.get('ajax').get('url'),
                         data.get('ajax').get('params'),
                         data.get('initialSeenAsins'), data.get('set_size'))
-                except:
+                except Exception as exc:
+                    print(exc)
                     continue
 
                 sheet_name = sheet = data.get('ajax').get('params').get(
@@ -537,7 +534,7 @@ class Amazon(object):
             for value in asin:
                 value = value.replace('::', '')
                 self.excel.write(f'https://www.amazon.com/dp/{value}')
-                output(f'Info: 已抓取 - https://www.amazon.com/dp/{value}')
+                output(f'Info: 已保存 - https://www.amazon.com/dp/{value}')
 
     def change_code(self):
         timeout = 15
@@ -568,9 +565,12 @@ class Amazon(object):
                 self.real_link.append(link)
 
     def get_cookie(self):
+        self.cookie = None
+        return
         link = self.real_link[0]
         output('Info: 获取 cookie 中...')
         if self.mode == 1:
+            output('Info: 受网络影响较大，如切换地区失败，尝试手动切换地区')
             if self.proxy == 1:
                 self.chrome = OperaChrome(proxy=1)
             else:
@@ -624,18 +624,23 @@ class Amazon(object):
             with open('./proxy.txt', 'r', encoding='utf-8') as fn:
                 PROXY = remove_charater(fn.readline())
         self.get_cookie()
-        output('Info: 采集开始')
+
+        output('Info: 读取链接')
         for link in self.real_link:
+            output('Info: 开始采集{}'.format(link))
             self.link = link
-            self.parser_by_re()
             try:
                 self.parser_by_re()
             except Exception as exc:
-                output('Error: {}'.format(exc))
-                output('Info: Excel 已保存')
-            else:
-                self.excel.save()
-                output('Info: 采集成功, Excel 已保存')
+                output('Error: {}'.format(traceback.format_exc()))
+
+        try:
+            self.excel.save()
+        except:
+            output('Error: {}'.format(traceback.format_exc()))
+        else:
+            output('Info: Excel 已保存')
+            output('Info: 采集结束')
 
     def main(self):
         self.code_status = 0
@@ -692,6 +697,8 @@ def output(message):
     print(message)
     Text1.insert('insert', f'{message}\n')
     Text1.see(tk.END)
+
+    logger.info(message)
 
 
 def fun():
@@ -766,7 +773,7 @@ if __name__ == "__main__":
         windows,
         justify='left',
         text=
-        '采集程序使用说明: \n采集链接放在程序目录下 links.txt 中, 每行放一个链接; 使用熊猫代理, 链接放在程序目录下 proxy.txt 中\n'
+        '采集程序使用说明: \n采集链接放在程序目录下 links.txt 中, 每行放一个链接; 使用芝麻代理, 链接放在程序目录下 proxy.txt 中\n'
     )
     Label1.place(height=60, width=570, x=15, y=225)
 

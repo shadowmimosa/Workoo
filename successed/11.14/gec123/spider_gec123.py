@@ -363,9 +363,9 @@ class DealGec(object):
         data = json.loads(resp)
         for item in data["aaData"]:
             if run_func(self.judge_already, item["reverseAuctionCode"]):
-                if self.bid_type is "bidNeed":
+                if self.bid_type == "bidNeed":
                     run_func(self.deal_detail, item["id"])
-                elif self.bid_type is "bidResult":
+                elif self.bid_type == "bidResult":
                     run_func(self.deal_result, item["id"])
             else:
                 logger.info("--->Info: existed already")
