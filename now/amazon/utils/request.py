@@ -5,7 +5,7 @@ import urllib
 import hashlib
 import urllib3
 import requests
-from config import logger
+from utils.log import logger
 
 
 class Query(object):
@@ -59,27 +59,27 @@ class Query(object):
                         resp = sesscion_a.post(url,
                                                headers=header,
                                                data=json.dumps(data),
-                                               timeout=(2, 6),
+                                               timeout=(3, 15),
                                                proxies=proxy,
                                                cookies=cookies)
                     elif isinstance(files, dict):
                         resp = sesscion_a.post(url,
                                                files=files,
-                                               timeout=(2, 6),
+                                               timeout=(3, 15),
                                                proxies=proxy,
                                                cookies=cookies)
                     elif data:
                         resp = sesscion_a.post(url,
                                                headers=header,
                                                data=data,
-                                               timeout=(2, 6),
+                                               timeout=(3, 15),
                                                proxies=proxy,
                                                cookies=cookies)
                     else:
                         resp = sesscion_a.get(url,
                                               headers=header,
                                               allow_redirects=False,
-                                              timeout=(2, 6),
+                                              timeout=(3, 15),
                                               proxies=proxy,
                                               cookies=cookies)
                     retry_count = 0
@@ -96,24 +96,24 @@ class Query(object):
                         resp = sesscion_a.post(url,
                                                headers=header,
                                                data=json.dumps(data),
-                                               timeout=(2, 6),
+                                               timeout=(3, 15),
                                                cookies=cookies)
                     elif isinstance(files, dict):
                         resp = sesscion_a.post(url,
                                                files=files,
-                                               timeout=(2, 6),
+                                               timeout=(3, 15),
                                                cookies=cookies)
                     elif data:
                         resp = sesscion_a.post(url,
                                                headers=header,
                                                data=data,
-                                               timeout=(2, 6),
+                                               timeout=(3, 15),
                                                cookies=cookies)
                     else:
                         resp = sesscion_a.get(url,
                                               headers=header,
                                               allow_redirects=False,
-                                              timeout=(2, 6),
+                                              timeout=(3, 15),
                                               cookies=cookies)
                     retry_count = 0
                 except Exception as exc:
