@@ -78,7 +78,7 @@ def get_text(obj):
             return
 
     result.append(parser_comment(obj))
-    result.append(5)
+    result.append(ID)
 
     return result
 
@@ -102,6 +102,8 @@ def is_repeat(item):
     if None in item:
         return True
 
+    return False
+
     if item[0] == LAST:
         return True
     else:
@@ -109,7 +111,7 @@ def is_repeat(item):
 
 
 def write(content):
-    with open('./data.txt', 'a', encoding='utf-8') as fn:
+    with open(f'./{ID}.txt', 'a', encoding='utf-8') as fn:
         if isinstance(content, list):
             content = json.dumps(content, ensure_ascii=False)
 
@@ -136,12 +138,13 @@ def main():
             detail(child)
 
         scroll_screen()
-        time.sleep(2)
+        time.sleep(1)
         result = poco("com.wudaokou.hippo:id/rv_comments_list").child(
             "android.widget.LinearLayout")
 
 
 LAST = ''
+ID = 9
 
 if __name__ == "__main__":
     main()

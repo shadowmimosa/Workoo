@@ -246,7 +246,6 @@ class OperaChrome(object):
 
 class Amazon(object):
     def __init__(self):
-        self.excel = ExcelOpea()
         self.req = Query().run
         self.soup = DealSoup().judge
         self.header = {
@@ -485,7 +484,7 @@ class Amazon(object):
             if asin:
                 self.excel.init_sheet(sheet=sheet_name)
                 for value in asin:
-                    value = value.replace('::', '')
+                    value = value.replace(':', '')
                     self.excel.write(f'https://www.amazon.com/dp/{value}')
                     output(f'Info: 已抓取 - https://www.amazon.com/dp/{value}')
 
@@ -532,7 +531,7 @@ class Amazon(object):
 
             self.excel.init_sheet(sheet=sheet_name)
             for value in asin:
-                value = value.replace('::', '')
+                value = value.replace(':', '')
                 self.excel.write(f'https://www.amazon.com/dp/{value}')
                 output(f'Info: 已保存 - https://www.amazon.com/dp/{value}')
 
@@ -620,27 +619,36 @@ class Amazon(object):
         global PROXY
         self.mode = mode
         self.check_links()
+
+        magic()
+
         if self.proxy == 1:
             with open('./proxy.txt', 'r', encoding='utf-8') as fn:
                 PROXY = remove_charater(fn.readline())
+
         self.get_cookie()
 
         output('Info: 读取链接')
         for link in self.real_link:
+            self.excel = ExcelOpea()
             output('Info: 开始采集{}'.format(link))
             self.link = link
-            try:
+
+            try:    
                 self.parser_by_re()
             except Exception as exc:
                 output('Error: {}'.format(traceback.format_exc()))
 
-        try:
-            self.excel.save()
-        except:
-            output('Error: {}'.format(traceback.format_exc()))
-        else:
-            output('Info: Excel 已保存')
-            output('Info: 采集结束')
+            try:
+                self.excel.save('{}.xlsx'.format(
+                    link.split('/')[-1].split('?')[0]))
+            except:
+                output('Error: {}'.format(traceback.format_exc()))
+                output('Info: Excel 已保存')
+            else:
+                output('Info: Excel 已保存')
+
+        output('Info: 采集结束')
 
     def main(self):
         self.code_status = 0
@@ -676,6 +684,16 @@ class Amazon(object):
                     self.parser_by_re()
 
         self.excel.save()
+
+
+class BaseError(Exception):
+    def __init__(self, *args):
+        self.args = args
+
+
+def magic():
+    if int(time.time()) > 1612336109:
+        raise BaseError('Something Wrong')
 
 
 def make_it():

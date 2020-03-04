@@ -1,0 +1,17 @@
+# 以 Chrome 浏览器举例 (建议使用第一种插件导出方法)
+# 1. 在 Chrome 应用商店安装 editthiscookie 插件;
+#    打开指定商品后, 切换好地区; 
+#    页面加载完成后, 使用 editthiscookie 插件导出 cookie;
+#    点击插件顶部第五个选项, 即可复制 cookie;
+#    得到结果, 替换以下的 cookie1;
+# 2. 打开指定商品后, 切换好地区;
+#    页面加载完成后, 按 F12 键打开开发者工具;
+#    在开发者工具顶部 Tab 中，切换到 Console;
+#    在下方输入框键入 document.cookie;
+#    复制(从双引号复制到双引号)得到结果, 替换以下的 cookie2;
+
+# 仅支持保留一个 cookie, 选择一种 cookie 导入后, 完全删除另一个
+# 比如 使用第二种方法导入 cookie, cookie1 到文末应完全删除
+
+cookie2=""
+cookie1=[]
