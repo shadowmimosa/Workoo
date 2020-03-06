@@ -274,9 +274,16 @@ class Amazon(object):
         info['评价'] = self.soup(self.html, attr={
             'id': 'acrCustomerReviewText'
         }).text
-        info['价格'] = self.soup(self.html, attr={
-            'id': 'priceblock_ourprice'
-        }).text
+        try:
+            info['价格'] = self.soup(self.html,
+                                   attr={
+                                       'id': 'priceblock_ourprice'
+                                   }).text
+        except AttributeError:
+            info['价格'] = self.soup(self.html,
+                                   attr={
+                                       'id': 'priceblock_saleprice'
+                                   }).text
         if info:
             for key in info:
                 self.excel.write([key, info.get(key)])
@@ -734,7 +741,8 @@ def fun():
 if __name__ == "__main__":
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
     spider = Amazon()
-
+    # spider.proxy = 0
+    # spider.run(mode=1)
     windows = tk.Tk()
     windows.geometry('600x325')
     windows.resizable(0, 0)
