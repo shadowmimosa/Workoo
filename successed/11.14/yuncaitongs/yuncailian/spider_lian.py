@@ -534,7 +534,7 @@ class DealGhzrzyw(object):
                     print("--->Error: the error is {}".format(exc))
 
 
-DEBUG = False
+DEBUG = True
 if __name__ == "__main__":
     os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     pages = 10
