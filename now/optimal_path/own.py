@@ -122,9 +122,9 @@ class OwnPath(object):
                 if dog.total_distance < self.best_dog.total_distance:
                     self.best_dog = copy.deepcopy(dog)
             self.__update_pheromone_gragh()
-            print(u"迭代次数：", self.iter, u"最佳路径总距离：",
-                  int(self.best_dog.total_distance))
-            print(self.best_dog.path)
+            # print(u"迭代次数：", self.iter, u"最佳路径总距离：",
+                #   int(self.best_dog.total_distance))
+            # print(self.best_dog.path)
             self.iter += 1
 
     def __update_pheromone_gragh(self):
