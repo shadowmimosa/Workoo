@@ -258,6 +258,27 @@ class Amazon(object):
 
         super().__init__()
 
+    def get_price(self):
+
+        ids = ['priceblock_ourprice', 'priceblock_saleprice']
+        classes = ['a-color-price']
+
+        for label in ids:
+            try:
+                price = self.soup(self.html, attr={'id': label}).text
+            except AttributeError:
+                continue
+            else:
+                return price
+
+        for label in classes:
+            try:
+                price = self.soup(self.html, attr={'class': label}).text
+            except AttributeError:
+                continue
+            else:
+                return price
+
     def good_info(self):
         info = {}
         self.excel.init_sheet(sheet='商品信息')
@@ -274,16 +295,9 @@ class Amazon(object):
         info['评价'] = self.soup(self.html, attr={
             'id': 'acrCustomerReviewText'
         }).text
-        try:
-            info['价格'] = self.soup(self.html,
-                                   attr={
-                                       'id': 'priceblock_ourprice'
-                                   }).text
-        except AttributeError:
-            info['价格'] = self.soup(self.html,
-                                   attr={
-                                       'id': 'priceblock_saleprice'
-                                   }).text
+
+        info['价格'] = self.get_price()
+
         if info:
             for key in info:
                 self.excel.write([key, info.get(key)])
@@ -434,7 +448,8 @@ class Amazon(object):
         count = 10
         offset = 10
         for pg in range(2, int(tot / 10) + 2):
-            odata = urlencode({'oData': data})
+
+            odata = urlencode({'oData': json.dumps(data).replace(' ', '')})
             timestamps = int(time.time() * 1000)
             path = f'{init_path}&count={count}&offset={offset}&pg={pg}&tot={tot}&num={count}&{odata}&_={timestamps}'
 
@@ -464,16 +479,24 @@ class Amazon(object):
 
     def parser_by_re(self):
         if self.proxy == 1:
-            proxy = get_proxy()
-            resp = self.req(self.link,
-                            header=self.header,
-                            proxies={
-                                'http': proxy,
-                                'https': proxy
-                            },
-                            cookies=self.cookie)
+            while True:
+                proxy = get_proxy()
+                resp = self.req(self.link,
+                                header=self.header,
+                                proxies={
+                                    'http': proxy,
+                                    'https': proxy
+                                },
+                                cookies=self.cookie)
+
+                if 'To discuss automated access to Amazon data please contact api-services-support@amazon.com' in resp:
+                    output('Waring: 代理 IP 失效')
+                    continue
+                else:
+                    break
         else:
             resp = self.req(self.link, header=self.header, cookies=self.cookie)
+
         if isinstance(resp, int):
             if 400 <= resp <= 403:
                 output('Waring: Cookie 失效')
@@ -481,19 +504,28 @@ class Amazon(object):
             elif 500 <= resp <= 505:
                 output('Error: 服务器错误, 请重新获取 cookie 或使用代理')
                 return
+
+        if 'To discuss automated access to Amazon data please contact api-services-support@amazon.com' in resp:
+            output('Waring: IP 失效')
+            return
+
         self.html = resp
 
-        self.good_info()
+        if var4.get():
+            self.good_info()
 
         for sheet_name in ['buy', 'similar']:
             # buy similar
-            asin = eval(f'self.{sheet_name}_parser()')
-            if asin:
-                self.excel.init_sheet(sheet=sheet_name)
-                for value in asin:
-                    value = value.replace(':', '')
-                    self.excel.write(f'https://www.amazon.com/dp/{value}')
-                    output(f'Info: 已抓取 - https://www.amazon.com/dp/{value}')
+            if var6.get() and sheet_name == 'buy' or var9.get(
+            ) and sheet_name == 'similar':
+                asin = eval(f'self.{sheet_name}_parser()')
+                if asin:
+                    self.excel.init_sheet(sheet=sheet_name)
+                    for value in asin:
+                        value = value.replace(':', '')
+                        self.excel.write(f'https://www.amazon.com/dp/{value}')
+                        output(
+                            f'Info: 已抓取 - https://www.amazon.com/dp/{value}')
 
         # html = self.chrome.driver.page_source
 
@@ -518,25 +550,33 @@ class Amazon(object):
                 # also viewed
                 asin = data.get('ajax').get('id_list')
                 sheet_name = 'viewed'
+                if not var5.get():
+                    continue
             elif '':
                 pass
             else:
                 # Sponsored
                 # Sponsored2
                 # 4 stars
-                try:
-                    asin = self.get_asin(
-                        data.get('ajax').get('url'),
-                        data.get('ajax').get('params'),
-                        data.get('initialSeenAsins'), data.get('set_size'))
-                except Exception as exc:
-                    print(exc)
-                    continue
-
-                sheet_name = sheet = data.get('ajax').get('params').get(
-                    'wName')
+                sheet_name = data.get('ajax').get('params').get('wName')
+                if sheet_name == 'sp_detail' or sheet_name == 'sp_detail2':
+                    if sheet_name == 'sp_detail' and var7.get(
+                    ) or sheet_name == 'sp_detail2' and var8.get():
+                        asin = data.get('initialSeenAsins')
+                    else:
+                        continue
+                else:
+                    try:
+                        asin = self.get_asin(
+                            data.get('ajax').get('url'),
+                            data.get('ajax').get('params'),
+                            data.get('initialSeenAsins'), data.get('set_size'))
+                    except Exception as exc:
+                        print(exc)
+                        continue
 
             self.excel.init_sheet(sheet=sheet_name)
+
             for value in asin:
                 value = value.replace(':', '')
                 self.excel.write(f'https://www.amazon.com/dp/{value}')
@@ -641,7 +681,7 @@ class Amazon(object):
             output('Info: 开始采集{}'.format(link))
             self.link = link
 
-            try:    
+            try:
                 self.parser_by_re()
             except Exception as exc:
                 output('Error: {}'.format(traceback.format_exc()))
@@ -650,7 +690,7 @@ class Amazon(object):
                 self.excel.save('{}.xlsx'.format(
                     link.split('/')[-1].split('?')[0]))
             except:
-                output('Error: {}'.format(traceback.format_exc()))
+                # output('Error: {}'.format(traceback.format_exc()))
                 output('Info: Excel 已保存')
             else:
                 output('Info: Excel 已保存')
@@ -720,8 +760,9 @@ def make_it():
 
 def output(message):
     print(message)
-    Text1.insert('insert', f'{message}\n')
-    Text1.see(tk.END)
+    if not DEBUG:
+        Text1.insert('insert', f'{message}\n')
+        Text1.see(tk.END)
 
     logger.info(message)
 
@@ -738,11 +779,17 @@ def fun():
     th.start()
 
 
+DEBUG = False
+
 if __name__ == "__main__":
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
     spider = Amazon()
-    # spider.proxy = 0
-    # spider.run(mode=1)
+
+    if DEBUG:
+        spider.proxy = 0
+        spider.sleep_time = 1
+        spider.run(mode=1)
+
     windows = tk.Tk()
     windows.geometry('600x325')
     windows.resizable(0, 0)
@@ -759,6 +806,33 @@ if __name__ == "__main__":
     var1.set(0)
     var2 = tk.IntVar()
     var2.set(0)
+
+    var4 = tk.IntVar()
+    var4.set(1)
+    var5 = tk.IntVar()
+    var5.set(1)
+    var6 = tk.IntVar()
+    var6.set(1)
+    var7 = tk.IntVar()
+    var7.set(1)
+    var8 = tk.IntVar()
+    var8.set(1)
+    var9 = tk.IntVar()
+    var9.set(1)
+
+    menubar = tk.Menu(windows)
+    mb = tk.Menubutton(windows, text="采集内容", relief=tk.RAISED)
+    mb.place(height=20, width=120, x=300, y=50)
+    file_menu = tk.Menu(mb, tearoff=0)
+    menubar.add_cascade(label='菜部', menu=file_menu)
+    file_menu.add_checkbutton(label='详细信息', variable=var4)
+    file_menu.add_checkbutton(label='看了又看', variable=var5)
+    file_menu.add_checkbutton(label='买了又买', variable=var6)
+    file_menu.add_checkbutton(label='广告栏1', variable=var7)
+    file_menu.add_checkbutton(label='广告栏2', variable=var8)
+    file_menu.add_checkbutton(label='相似款', variable=var9)
+    file_menu.add_separator()
+    mb.config(menu=file_menu)
 
     r1 = tk.Radiobutton(windows, text='自动获取 Cookies', variable=var1, value=1)
 
@@ -785,10 +859,10 @@ if __name__ == "__main__":
     # c1.grid(row=1, column=1, padx=0, pady=0, sticky='W')
 
     Button1 = tk.Button(windows, text='采集', command=fun)
-    Button1.place(height=40, width=90, x=420, y=25)
+    Button1.place(height=40, width=90, x=450, y=25)
     # Button1.grid(row=1, column=2, padx=10, pady=10)  # , rowspan=2, columnspan=2
 
-    # Text1 = tk.Text(windows)
+    Text1 = tk.Text(windows)
     Text1 = ScrolledText(windows)
     Text1.insert('insert', '初始化程序...\n')
     Text1.see(tk.END)
