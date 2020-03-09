@@ -4,6 +4,7 @@ import time
 import socket
 import urllib
 import hashlib
+import urllib3
 import requests
 import itertools
 import threading
@@ -11,6 +12,8 @@ from configparser import ConfigParser
 
 import own
 from own import *
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 config = ConfigParser()
 config.read('config.ini')
@@ -122,8 +125,9 @@ class OptimalPath(object):
 
 
 class ObtainDistance(object):
-    def __init__(self, tactics):
+    def __init__(self, tactics, sign):
         self.tactics = tactics
+        self.sign = sign
         session = requests.session()
         adapter = requests.adapters.HTTPAdapter(max_retries=3)
         session.mount('http://', adapter)
@@ -134,53 +138,101 @@ class ObtainDistance(object):
         super().__init__()
 
     def encode(self, parms):
+        if self.sign == 'baidu':
+            encoded_str = urllib.parse.quote(parms, safe="/:=&?#+!$,;'@()*[]")
+            sn = (hashlib.md5(
+                urllib.parse.quote_plus(encoded_str +
+                                        config.get('baidu', 'sk')).encode(
+                                            "utf8")).hexdigest())
+            url = urllib.parse.quote("http://api.map.baidu.com" + encoded_str +
+                                     "&sn=" + sn,
+                                     safe="/:=&?#+!$,;'@()*[]")
+        elif self.sign == 'tencent':
+            sig = hashlib.md5(
+                (parms +
+                 config.get('tencent', 'sk')).encode("utf8")).hexdigest()
+            url = 'http://apis.map.qq.com' + parms + f'&sig={sig}'
 
-        encoded_str = urllib.parse.quote(parms, safe="/:=&?#+!$,;'@()*[]")
-        sn = (hashlib.md5(
-            urllib.parse.quote_plus(encoded_str +
-                                    config.get('baidu', 'sk')).encode(
-                                        "utf8")).hexdigest())
-        url = urllib.parse.quote("http://api.map.baidu.com" + encoded_str +
-                                 "&sn=" + sn,
-                                 safe="/:=&?#+!$,;'@()*[]")
         return url
 
     def to_str(self, content):
-        return '{},{}'.format(str(content[0]), str(content[1]))
+        if self.sign == 'amap':
+            return '{},{}'.format(str(content[1]), str(content[0]))
+        elif self.sign == 'baidu':
+            return '{},{}'.format(str(content[0]), str(content[1]))
+        elif self.sign == 'tencent':
+            poi_list = []
+            for item in content:
+                poi_list.append('{},{}'.format(str(item[0]), str(item[1])))
+            return ';'.join(poi_list)
 
     def deal_req(self, path):
         retry = 5
         while retry:
             try:
-                resp = self.session.get(self.encode(path),
-                                        timeout=(1, 2)).json()
+                resp = self.session.get(path, timeout=(1, 2)).json()
             except Exception as exc:
                 print('Error: {}'.format(exc))
             else:
+                if resp.get('status') == '1' and self.sign == 'amap':
+                    return resp.get('route')
+
                 if resp.get('status') == 0:
-                    return resp.get('result').get('routes')[0]
+                    return resp.get('result')
 
             retry -= 1
 
-    def get_poi(self, origin, destination):
-
-        path = "/direction/v2/driving?origin={}&destination={}&tactics={}&timestamp={}&ak={}".format(
-            origin, destination, self.tactics, int(time.time()),
-            config.get('baidu', 'ak'))
+    def amap(self, origin, destination):
+        path = 'https://restapi.amap.com/v3/direction/driving?origin={}&destination={}&extensions=base&key={}'.format(
+            origin, destination, config.get('amap', 'key'))
 
         result = self.deal_req(path)
 
         if not result:
             sys.exit(0)
 
-        duration = result.get('duration')
-        distance = result.get('distance')
+        duration = result.get('paths')[0].get('duration')
+        distance = result.get('paths')[0].get('distance')
+
+        return int(distance)
+
+    def tencent(self, _from, to):
+        params = '/ws/distance/v1/matrix/?from={}&key={}&mode=driving&to={}'.format(
+            _from, config.get('tencent', 'key'), to)
+        path = self.encode(params)
+        result = self.deal_req(path)
+
+        if not result:
+            sys.exit(0)
+
+        return result.get('rows')
+
+    def baidu(self, origin, destination):
+
+        path = "/direction/v2/driving?origin={}&destination={}&tactics={}&timestamp={}&ak={}".format(
+            origin, destination, self.tactics, int(time.time()),
+            config.get('baidu', 'ak'))
+
+        result = self.deal_req(self.encode(path))
+
+        if not result:
+            sys.exit(0)
+
+        duration = result.get('routes')[0].get('duration')
+        distance = result.get('routes')[0].get('distance')
 
         return distance
 
     def run(self, start=(40.01116, 116.339303), end=(39.936404, 116.452562)):
+        start = self.to_str(start)
+        end = self.to_str(end)
 
-        return self.get_poi(self.to_str(start), self.to_str(end))
+        if self.sign == 'baidu':
+            return self.baidu(start, end)
+        elif self.sign == 'amap':
+            return self.amap(start, end)
+        elif self.sign == 'tencent':
+            return self.tencent(start, end)
 
 
 class BaseError(Exception):
@@ -193,21 +245,38 @@ def magic():
         raise BaseError('Something Wrong')
 
 
-def build_graph(posi, tactics=0):
+def build_graph(posi, tactics, use_map):
+    if use_map is None:
+        use_map = 'tencent'
+
+    if tactics is None:
+        if use_map == 'baidu':
+            tactics = 0
+        elif use_map == 'amap':
+            tactics = 2
+        elif use_map == 'tencent':
+            tactics = 0
+
+    get_distance = ObtainDistance(tactics, use_map)
     lenth = len(posi)
-    get_distance = ObtainDistance(tactics)
     graph = [[2147483647] * lenth for _ in range(lenth)]
 
-    for i in range(lenth):
-        for j in range(lenth):
-            if i > j:
-                continue
-            elif i == j:
-                graph[i][i] = 0
-            else:
-                distance = get_distance.run(posi[i], posi[j])
-                graph[i][j] = distance
-                graph[j][i] = distance
+    if use_map == 'tencent':
+        result = get_distance.run(posi, posi)
+        for i in range(lenth):
+            for j in range(lenth):
+                graph[i][j] = result[i]['elements'][j]['distance']
+    else:
+        for i in range(lenth):
+            for j in range(lenth):
+                if i > j:
+                    continue
+                elif i == j:
+                    graph[i][i] = 0
+                else:
+                    distance = get_distance.run(posi[i], posi[j])
+                    graph[i][j] = distance
+                    graph[j][i] = distance
 
     return graph
 
@@ -241,6 +310,8 @@ def sort_path(path: list):
                 result.append(path[i])
             else:
                 result.append(path[i + length])
+
+    result.append(0)
 
     return result
 
@@ -281,16 +352,24 @@ def make_best_path(params):
         result = {'code': '202', 'msg': 'positions错误'}
 
     waiting = params.get('waiting')
-    if waiting and waiting > 250:
+    if waiting and waiting > 500:
         own.waiting = waiting
+
+    use_map = params.get('map')
+    tactics = params.get('tactics')
 
     mode = 2
     if mode == 1:
-        from graph import graph
-        path = OptimalPath(graph)
-        result = path.run()
+        pass
+        # from graph import graph
+        # graph = build_graph(posi)
+        # path = OptimalPath(graph)
+        # result = path.run()
+        # path.cost
+        # path.distance([8, 6, 4, 9, 3, 2, 7, 1, 5])
+        # print(result)
     elif mode == 2:
-        graph = build_graph(posi)
+        graph = build_graph(posi, tactics, use_map)
         own.distance_graph = graph
         own.city_num = len(posi)
         own.dog_num = len(posi)
@@ -298,7 +377,10 @@ def make_best_path(params):
         result = {
             'code': '200',
             'msg': '成功',
-            'data': sort_path(path.best_dog.path)
+            'data': {
+                'distance': path.best_dog.total_distance,
+                'path': sort_path(path.best_dog.path)
+            }
         }
 
     return result
@@ -309,7 +391,9 @@ if __name__ == "__main__":
     magic()
     lst = Listener()
     lst.start()
-
+    # path = ObtainDistance(0).run((22.819806, 114.337187),
+    #                              (22.817865, 114.339966))
+    # print(path)
     # # 88
     # posi = [(22.770300, 114.386467), (22.847973, 114.356796),
     #         (22.782993, 114.416138), (22.818359, 114.406372),
