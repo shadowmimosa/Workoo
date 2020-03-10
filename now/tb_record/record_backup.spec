@@ -7,7 +7,7 @@
 block_cipher = pyi_crypto.PyiBlockCipher(key='Shadow@tbrecord&0304')
 
 a = Analysis(
-    ['record_v7.py'],
+    ['record_v8.py'],
     pathex=[
         'C:\\Users\\ShadowMimosa\\Documents\\Repos\\Workoo\\now\\tb_record'
     ],
@@ -29,7 +29,7 @@ exe = EXE(pyz,
           a.binaries,
           a.zipfiles,
           a.datas, [],
-          name='record_v7',
+          name='record_v8',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,
