@@ -4,13 +4,15 @@ import time
 import base64
 import traceback
 
+from utils.log import logger
 from utils.request import Query
 
 req = Query().run
 
+
 class BaiduToken(object):
-    def __init__(self):
-        pass
+    def __init__(self, config):
+        self.config = config
 
     def get_current_time(self):
         return int(time.time())
@@ -37,11 +39,10 @@ class BaiduToken(object):
             return False
 
     def get_token(self):
-        from config import BAIDUOCR
         token = self.judge_token()
         if token is False:
-            host = 'https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id={client_id}&client_secret={client_secret}'.format(
-                **BAIDUOCR)
+            host = 'https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id={id}&client_secret={secret}'.format(
+                **self.config)
             resp = req(
                 host,
                 header={'Content-Type': 'application/json; charset=UTF-8'},
@@ -56,8 +57,9 @@ class BaiduToken(object):
 
 
 class BaiduOCR(object):
-    def __init__(self):
-        self.token = BaiduToken().get_token()
+    def __init__(self, config):
+        self.config = config
+        self.token = BaiduToken(config).get_token()
 
     def bytes2base64(self, pic):
         # with open(path, "rb") as fn:
@@ -82,7 +84,17 @@ class BaiduOCR(object):
             headers={"Content-Type": "application/x-www-form-urlencoded"},
             data=data)
 
-        return json.loads(resp)
+        result = json.loads(resp)
+        if 'error_code' in result:
+            error_code = result.get('error_code')
+
+            if error_code == 110 or error_code == 111:
+                self.__init__()
+            else:
+                logger.error('BaiduOcr is error: {}'.format(
+                    result.get('error_msg')))
+        else:
+            return result
 
     def pic2word(self, pic):
         # base_obj = self.bytes2base64(pic)

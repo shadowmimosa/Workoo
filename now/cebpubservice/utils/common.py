@@ -1,13 +1,23 @@
 import os
 import sys
 import time
+import json
 import socket
 import ftplib
 import pymysql
+import platform
+from configparser import ConfigParser
 from pdf2image import convert_from_path
 
-from config import *
 from utils.baidu_ocr import BaiduOCR
+
+
+class Myparser(ConfigParser):
+    def to_dict(self):
+        d = dict(self._sections)
+        for k in d:
+            d[k] = dict(d[k])
+        return d
 
 
 def get_strftime(timestamps=None):
@@ -27,6 +37,31 @@ def clean_region(content: str):
     for sign in ['省', '市', '自治区', '维吾尔', '回族', '壮族', '特别行政区']:
         content = content.replace(sign, '')
     return content
+
+
+def parser_trade(title: str, trade: str):
+    if not isinstance(trade, str) or trade == '其他':
+        trade = '地方公告'
+
+    if not isinstance(title, str):
+        title = ''
+
+    replace_list = {
+        '内蒙古电力集团': '蒙电',
+        '华能': '华能',
+        '大唐': '大唐',
+        '国网': '国网',
+        '国家电网': '国网',
+        '平高集团': '国网',
+        '中核 ': '中核',
+        '中广核 ': '中广核',
+    }
+
+    for key in replace_list:
+        if key in title:
+            return replace_list.get(key)
+
+    return trade
 
 
 def pdf2pic(file_path, output_path):
@@ -62,7 +97,7 @@ def pic2text(path):
 
     result = []
     for pic in pic_list:
-        text = BaiduOCR().pic2word(pic)["words_result"]
+        text = ocr.pic2word(pic)["words_result"]
         texts = '\n'.join([x['words'] for x in text])
         result.append(texts)
 
@@ -104,7 +139,7 @@ def ping(func):
     @wraps(func)
     def wrapper(*args, **kwargs):
         args[0].ecnu_mysql.ping(reconnect=True)
-        
+
         return func(*args, **kwargs)
 
     return wrapper
@@ -118,13 +153,22 @@ class MysqlOpea(object):
 
     def init_sql(self):
         if self.upload:
-            config = DATABASES['product']
-            self.database = DATABASES['product']['database']
+            sign = 'DataBaseDev'
         else:
-            config = DATABASES['local']
-            self.database = DATABASES['local']['database']
+            sign = 'DataBaseLocal'
+        mysql = {}
+        for key in ['host', 'port', 'user', 'passwd', 'database']:
+            mysql[key] = CONFIG.get(sign, key)
+
+        mysql['port'] = int(mysql['port'])
+        mysql['use_unicode'] = True
+        mysql['autocommit'] = True
+        mysql['charset'] = 'utf8mb4'
+
+        self.database = mysql.get('database')
+
         try:
-            self.ecnu_mysql = pymysql.connect(**config)
+            self.ecnu_mysql = pymysql.connect(**mysql)
         except pymysql.err.OperationalError as exc:
             print('登录失败！TimeoutError!')
             sys.exit(0)
@@ -186,8 +230,8 @@ class FtpOpea(object):
 
     def connect(self):
         try:
-            ftp = ftplib.FTP(CONST_HOST)
-            ftp.login(CONST_USERNAME, CONST_PWD)
+            ftp = ftplib.FTP(CONFIG.get('Ftp', 'host'))
+            ftp.login(CONFIG.get('Ftp', 'user'), CONFIG.get('Ftp', 'pwd'))
             self.ftp = ftp
         except (socket.error, socket.gaierror):
             print(
@@ -265,3 +309,19 @@ HEADER = {
     'Cookie':
     'acw_tc=2760777615817744196615043e16ad5b7ca269d0bfeaec67357c0747af531b'
 }
+
+# config = Myparser()
+CONFIG = ConfigParser()
+CONFIG.read('config.ini')
+# config = config.to_dict()
+
+system = platform.system()
+if system == "Linux":
+    DEBUG = False
+elif system == "Windows":
+    DEBUG = True
+
+ocr = BaiduOCR({
+    'id': CONFIG.get('BaiduOcr', 'id'),
+    'id': CONFIG.get('BaiduOcr', 'secret')
+})

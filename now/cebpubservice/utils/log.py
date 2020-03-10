@@ -1,5 +1,6 @@
 import os
 import logging
+import platform
 from logging.handlers import RotatingFileHandler
 
 
@@ -31,5 +32,11 @@ def init_log():
 
     return logger
 
+
+system = platform.system()
+if system == "Linux":
+    DEBUG = False
+elif system == "Windows":
+    DEBUG = True
 
 logger = init_log()

@@ -9,8 +9,6 @@ from utils.crypto import PyDes3
 from utils.request import Query
 from utils.less_pic import compress_by_dir
 
-from config import *
-
 
 class CebpubService(object):
     """
@@ -120,21 +118,22 @@ class CebpubService(object):
             logger.error('图片压缩失败 - {} '.format(bulletin_id))
             return
 
-        info['trade'] = item.get('notieIndustriestName')
+        info['trade'] = parser_trade(info['title'],
+                                     item.get('notieIndustriestName'))
         info['fid'] = fid
         info['text'] = run_func(pic2text, pic_path)
         info['img'] = run_func(img_tag, pic_path)
         info['local'] = pic_path
         info['source'] = item.get('noticeUrl')
         info['bulletin_id'] = bulletin_id
-
+        
         if run_func(self.sql.insert, info):
             logger.info('插入成功 - {} '.format(bulletin_id))
         else:
             logger.error('插入失败 - {} '.format(bulletin_id))
 
     def main(self):
-        for page in range(PAGES):
+        for page in range(int(CONFIG.get('PageNum', 'pages'))):
             for notice_type in range(5):
                 data = run_func(self.get_notice_list, notice_type, page + 1)
                 fid = run_func(self.real_fid, notice_type)

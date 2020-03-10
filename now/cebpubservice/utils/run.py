@@ -2,8 +2,7 @@ import traceback
 import inspect
 from types import MethodType, FunctionType
 
-from utils.log import logger
-from config import DEBUG
+from utils.log import logger, DEBUG
 
 
 def run_func(func, *args, **kwargs):
@@ -24,7 +23,7 @@ def run_func(func, *args, **kwargs):
     #     logger.error("--->Error: The type {} is wrong, the func is {}".format(
     #         type(func), func))
     #     return False
-    
+
     if DEBUG:
         return func(*args, **kwargs)
     else:
@@ -32,6 +31,6 @@ def run_func(func, *args, **kwargs):
             return func(*args, **kwargs)
         except:
             logger.error(
-                "--->Error: The function {} is wrong, the error is {}".
-                format(func.__name__, traceback.format_exc()))
+                "--->Error: The function {} is wrong, the error is {}".format(
+                    func.__name__, traceback.format_exc()))
             return False
