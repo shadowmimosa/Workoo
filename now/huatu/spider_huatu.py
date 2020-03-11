@@ -42,7 +42,8 @@ class MongoOpea(object):
         config["passwd"] = parse.quote_plus(config["passwd"])
 
         client = MongoClient(
-            "mongodb://{user}:{passwd}@{host}:{port}/".format(**config))
+            "mongodb://{user}:{passwd}@{host}:{port}/".format(**config),
+            connect=False)
 
         self.mongo = client["huatu"]['raw_data']
 
@@ -100,7 +101,7 @@ def spider():
         ids = [x for x in range(ids, ids + 20)]
 
         pool.apply_async(muti_query, (ids, ))
-        
+
     pool.close()
     pool.join()
 
