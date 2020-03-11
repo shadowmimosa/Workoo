@@ -215,9 +215,9 @@ class MysqlOpea(object):
         # param = {x: pymysql.escape_string(param[x]) for x in param}
         param = self.escape_param(param)
         if self.upload:
-            sql = 'INSERT INTO `database`.`wy` ( `fid`, `uid`, `bt`, `url`, `nr`, `w1`, `w2`, `w5`, `g`, `r1`, `r2`) VALUES ( {fid}, 1, "{bt}", "{url}", "{nr}", "{w1}", "{w2}", "{w5}", "{g}", "{r1}", "{r2}" );'
+            sql = 'INSERT INTO `database`.`wy` ( `fid`, `uid`, `bt`, `url`, `nr`, `w1`, `w2`, `w5`, `g`, `r1`, `r2`) VALUES ( {fid}, 20, "{bt}", "{url}", "{nr}", "{w1}", "{w2}", "{w5}", "{g}", "{r1}", "{r2}" );'
         else:
-            sql = 'INSERT INTO `database`.`wy` ( `fid`, `uid`, `bt`, `url`, `nr`, `w1`, `w2`, `w5`, `g`, `r1`, `r2`, `local`, `special`, `platform`) VALUES ( {fid}, 1, "{title}", "{path}", "{img}", "{region}", "{trade}", "{text}", "{source}", "{add_time}", "{notice_time}", "{local}", "{bulletin_id}", 1 );'
+            sql = 'INSERT INTO `database`.`wy` ( `fid`, `uid`, `bt`, `url`, `nr`, `w1`, `w2`, `w5`, `g`, `r1`, `r2`, `local`, `special`, `platform`) VALUES ( {fid}, 20, "{title}", "{path}", "{img}", "{region}", "{trade}", "{text}", "{source}", "{add_time}", "{notice_time}", "{local}", "{bulletin_id}", 1 );'
         self.ecnu_cursor.execute(
             sql.format(**param).replace('database', self.database))
 
