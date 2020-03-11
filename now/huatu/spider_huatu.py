@@ -73,11 +73,11 @@ def get_data(ids):
 
 
 def spider():
-    for ids in range(31000, 100000, 10):
+    for ids in range(1, 100000, 10):
         made_secret()
         ids = [x for x in range(ids, ids + 10)]
 
-        if not run_func(get_data(ids)):
+        if not run_func(get_data, ids):
             logger.error(f'The {ids} not save')
 
 
