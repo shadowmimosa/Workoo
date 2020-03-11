@@ -6,12 +6,14 @@ from urllib import parse
 from utils.log import logger
 from utils.run import run_func
 from pymongo import MongoClient
+from multiprocessing import Process, Queue, Pool, freeze_support
+
 from utils.request import Query
-from config import MONGO, orderno, secret
+from config import MONGO, orderno, secret, PROXY
 
 req = Query().run
 
-path = 'http://ns.huatu.com/q/v1/questions/?ids={},{},{},{},{},{},{},{},{},{}'
+path = 'http://ns.huatu.com/q/v1/questions/?ids={},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}'
 header = {
     'Accept': '*/*',
     'Origin': 'http://v.huatu.com',
@@ -27,17 +29,25 @@ proxy = {
 }
 
 
-def init_mongo():
+class MongoOpea(object):
+    def __init__(self):
+        self.init_mongo()
+        super().__init__()
 
-    config = MONGO["debug"]
+    def init_mongo(self):
 
-    config["user"] = parse.quote_plus(config["user"])
-    config["passwd"] = parse.quote_plus(config["passwd"])
+        config = MONGO["debug"]
 
-    client = MongoClient(
-        "mongodb://{user}:{passwd}@{host}:{port}/".format(**config))
+        config["user"] = parse.quote_plus(config["user"])
+        config["passwd"] = parse.quote_plus(config["passwd"])
 
-    return client["huatu"]
+        client = MongoClient(
+            "mongodb://{user}:{passwd}@{host}:{port}/".format(**config))
+
+        self.mongo = client["huatu"]['raw_data']
+
+    def insert(self, data):
+        self.mongo.insert_many(data)
 
 
 def made_secret():
@@ -51,15 +61,18 @@ def made_secret():
 
 
 def get_data(ids):
-    resp = run_func(req, path.format(*ids), header=header, proxies=proxy)
+    if PROXY:
+        made_secret()
+        resp = run_func(req, path.format(*ids), header=header, proxies=proxy)
+    else:
+        resp = run_func(req, path.format(*ids), header=header)
 
     if not resp:
         logger.error(f'The {ids} not save')
 
     result = json.loads(resp)
-
     if result.get('code') != 1000000:
-        print(result)
+        logger.warning(f'new code is {result}')
         return
 
     data = result.get('data')
@@ -67,20 +80,34 @@ def get_data(ids):
     if not data:
         return
 
-    mongo['raw_data'].insert_many(data)
+    mongo.insert(data)
 
     return True
 
 
+def muti_query(ids):
+    try:
+        get_data(ids)
+    except Exception as exc:
+        logger.error(f'{ids} not sava, error is {exc}')
+
+
 def spider():
-    for ids in range(1, 100000, 10):
+    pool = Pool(5)
+
+    for ids in range(40000000, 40200000, 20):
         made_secret()
-        ids = [x for x in range(ids, ids + 10)]
+        ids = [x for x in range(ids, ids + 20)]
 
-        if not run_func(get_data, ids):
-            logger.error(f'The {ids} not save')
+        pool.apply_async(muti_query, (ids, ))
+        
+    pool.close()
+    pool.join()
 
 
+mongo = MongoOpea()
+
+# 40182498,40166904,40101432,40170827,40175723,40186460,40173205,40182745,40189895,40183198
+# 72874,227018,40036846,61401,55769,95011,59067,55377,58237,58667
 if __name__ == "__main__":
-    mongo = init_mongo()
     spider()
