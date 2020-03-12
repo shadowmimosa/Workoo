@@ -97,7 +97,7 @@ def spider():
     pool = Pool(5)
 
     # for ids in range(40000000, 40200000, 20):
-    for ids in range(40200000, 40300000, 20):
+    for ids in range(40200000, 41000000, 20):
         made_secret()
         ids = [x for x in range(ids, ids + 20)]
 

@@ -9,7 +9,7 @@ from pymongo import MongoClient
 from multiprocessing import Process, Queue, Pool, freeze_support
 
 from utils.request import Query
-from config import MONGO, orderno, secret, PROXY
+from config import MONGO, orderno0, secret, PROXY
 
 req = Query().run
 
@@ -55,10 +55,10 @@ def made_secret():
     global header
 
     timestamp = int(time.time())
-    txt = f'orderno={orderno},secret={secret},timestamp={timestamp}'
+    txt = f'orderno={orderno0},secret={secret},timestamp={timestamp}'
     sign = hashlib.md5(txt.encode('utf-8')).hexdigest().upper()
     header[
-        'Proxy-Authorization'] = f'sign={sign}&orderno={orderno}&timestamp={timestamp}&change=true'
+        'Proxy-Authorization'] = f'sign={sign}&orderno={orderno0}&timestamp={timestamp}&change=true'
 
 
 def get_data(ids):
@@ -86,21 +86,29 @@ def get_data(ids):
     return True
 
 
-def muti_query(ids):
+def query(ids):
     try:
         get_data(ids)
     except Exception as exc:
         logger.error(f'{ids} not sava, error is {exc}')
 
 
-def spider():
-    pool = Pool(5)
-
-    for ids in range(40000000, 40200000, 20):
+def single_spider():
+    for ids in range(40200000, 40300000, 20):
         made_secret()
         ids = [x for x in range(ids, ids + 20)]
 
-        pool.apply_async(muti_query, (ids, ))
+        query(ids)
+
+
+def muti_spider():
+    pool = Pool(5)
+
+    for ids in range(100000, 500000, 20):
+        made_secret()
+        ids = [x for x in range(ids, ids + 20)]
+
+        pool.apply_async(query, (ids, ))
 
     pool.close()
     pool.join()
@@ -111,4 +119,5 @@ mongo = MongoOpea()
 # 40182498,40166904,40101432,40170827,40175723,40186460,40173205,40182745,40189895,40183198
 # 72874,227018,40036846,61401,55769,95011,59067,55377,58237,58667
 if __name__ == "__main__":
-    spider()
+    # single_spider()
+    muti_spider()
