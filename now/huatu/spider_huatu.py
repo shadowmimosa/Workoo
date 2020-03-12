@@ -13,7 +13,7 @@ from config import MONGO, orderno0, secret, PROXY
 
 req = Query().run
 
-path = 'http://ns.huatu.com/q/v1/questions/?ids={},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}'
+path = 'http://ns.huatu.com/q/v1/questions/?ids={},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}'
 header = {
     'Accept': '*/*',
     'Origin': 'http://v.huatu.com',
@@ -94,19 +94,20 @@ def query(ids):
 
 
 def single_spider():
-    for ids in range(40200000, 40300000, 20):
+    for ids in range(30000, 5000000, 40):
         made_secret()
-        ids = [x for x in range(ids, ids + 20)]
+        ids = [x for x in range(ids, ids + 40)]
 
         query(ids)
 
 
 def muti_spider():
     pool = Pool(5)
-
-    for ids in range(100000, 500000, 20):
+    # for ids in range(1, 100000, 10):
+    # for ids in range(100000, 500000, 20):
+    for ids in range(500000, 5000000, 40):
         made_secret()
-        ids = [x for x in range(ids, ids + 20)]
+        ids = [x for x in range(ids, ids + 40)]
 
         pool.apply_async(query, (ids, ))
 
@@ -118,6 +119,8 @@ mongo = MongoOpea()
 
 # 40182498,40166904,40101432,40170827,40175723,40186460,40173205,40182745,40189895,40183198
 # 72874,227018,40036846,61401,55769,95011,59067,55377,58237,58667
+# ids=21954693,21917580,21916690,40038919,21959063,40070580,40088205,21953213,21959050,21959355 
+# ids=21955240,40114667,21920122,40088359,40054813,40011940,40070830,40132761,40094771,40190547 
 if __name__ == "__main__":
-    # single_spider()
     muti_spider()
+    # single_spider()
