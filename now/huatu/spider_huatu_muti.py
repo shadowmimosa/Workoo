@@ -9,7 +9,7 @@ from pymongo import MongoClient
 from multiprocessing import Process, Queue, Pool, freeze_support
 
 from utils.request import Query
-from config import MONGO, orderno, secret, PROXY
+from config import MONGO, orderno1, secret, PROXY
 
 req = Query().run
 
@@ -55,10 +55,10 @@ def made_secret():
     global header
 
     timestamp = int(time.time())
-    txt = f'orderno={orderno},secret={secret},timestamp={timestamp}'
+    txt = f'orderno={orderno1},secret={secret},timestamp={timestamp}'
     sign = hashlib.md5(txt.encode('utf-8')).hexdigest().upper()
     header[
-        'Proxy-Authorization'] = f'sign={sign}&orderno={orderno}&timestamp={timestamp}&change=true'
+        'Proxy-Authorization'] = f'sign={sign}&orderno={orderno1}&timestamp={timestamp}&change=true'
 
 
 def get_data(ids):
@@ -96,7 +96,8 @@ def muti_query(ids):
 def spider():
     pool = Pool(5)
 
-    for ids in range(40000000, 40200000, 20):
+    # for ids in range(40000000, 40200000, 20):
+    for ids in range(40200000, 40300000, 20):
         made_secret()
         ids = [x for x in range(ids, ids + 20)]
 
