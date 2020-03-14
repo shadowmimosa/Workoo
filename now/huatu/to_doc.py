@@ -1,4 +1,7 @@
 import re
+import os
+import json
+from bson import ObjectId
 from urllib import parse
 from docx import Document
 from docx.shared import Inches
@@ -27,8 +30,10 @@ class MongoOpea(object):
 
         self.mongo = client["huatu"]['raw_data']
 
-    def select(self):
-        return list(self.mongo.find({'sync': 0}).limit(1))[0]
+    def select(self, point):
+        # return list(
+        #     self.mongo.find({'_id': ObjectId('5e694dc6d5e714ac48e3d8a2')}))
+        return list(self.mongo.find({"pointList.points": point}))
 
     def update(self, sync):
         pass
@@ -37,14 +42,11 @@ class MongoOpea(object):
         pass
 
 
-def get_data():
-    while True:
-        result = mongo.select()
-        if result['pointList'][0]['points'][0] in [
-                392, 435, 482, 642, 754, 65836, 65877, 65903, 65904, 65905,
-                65902, 66089
-        ]:
-            return result
+def get_data(point):
+    results = mongo.select(point)
+
+    for data in results:
+        yield data
 
 
 def down_load_img(url, name):
@@ -55,49 +57,61 @@ def down_load_img(url, name):
         fp.close()
 
 
+def replace(content):
+    return content.replace('<p>', '').replace('</p>', '').replace(
+        '<br>', '\n').replace('<br/>', '\n')
+
+
 def content_handle(content, index):
+    if not content:
+        return
+
     if '<img=' in content and '></img>' in content:
         imgs_url = re.findall('<img=(.*?)></img>', content)
         for url in imgs_url:
 
-            question = question.replace('\\xa0',
-                                        '').replace('\\n', '').replace(
-                                            '<img=' + url + '></img>', '@@@')
+            question = content.replace('\\xa0', '').replace('\\n', '').replace(
+                '<img=' + url + '></img>', '@@@')
 
-            document.add_paragraph(f'{index}. {question}')
+            document.add_paragraph(replace(f'{index}. {question}'))
 
         for url in imgs_url:
 
-            img_name = f'./pic/{url.split("/")[-1]}'
+            img_name = f'./data/pic/{url.split("/")[-1]}'
             down_load_img(url, img_name)
             document.add_picture(img_name, width=Inches(2.5))
     else:
-        question = question.replace('\\xa0', '').replace('\\n', '')
-        document.add_paragraph(f'{index}. {question}')
+        question = content.replace('\\xa0', '').replace('\\n', '')
+        document.add_paragraph(replace(f'{index}. {question}'))
 
 
 def material_handle(content):
+    if not content:
+        return
+
     if '<img=' in content and '></img>' in content:
         imgs_url = re.findall('<img=(.*?)></img>', content)
         for url in imgs_url:
 
-            question = question.replace('\\xa0',
-                                        '').replace('\\n', '').replace(
-                                            '<img=' + url + '></img>', '@@@')
+            question = content.replace('\\xa0', '').replace('\\n', '').replace(
+                '<img=' + url + '></img>', '@@@')
 
-            document.add_paragraph(question)
+            document.add_paragraph(replace(question))
 
         for url in imgs_url:
 
-            img_name = f'./pic/{url.split("/")[-1]}'
+            img_name = f'./data/pic/{url.split("/")[-1]}'
             down_load_img(url, img_name)
             document.add_picture(img_name, width=Inches(2.5))
     else:
-        question = question.replace('\\xa0', '').replace('\\n', '')
-        document.add_paragraph(question)
+        question = content.replace('\\xa0', '').replace('\\n', '')
+        document.add_paragraph(replace(question))
 
 
 def option_handle(content, option):
+    if not content:
+        return
+
     if '<img=' in content and '></img>' in content:
         imgs_url = re.findall('<img=(.*?)></img>', content)
         for url in imgs_url:
@@ -105,34 +119,22 @@ def option_handle(content, option):
             analysis = content.replace('\\xa0', '').replace('\\n', '').replace(
                 '<img=' + url + '></img>', '@@@')
 
-            document.add_paragraph(f'解析: {analysis}')
+            document.add_paragraph(replace(f'解析: {analysis}'))
 
         for url in imgs_url:
 
-            img_name = f'./pic/{url.split("/")[-1]}'
+            img_name = f'./data/pic/{url.split("/")[-1]}'
             down_load_img(url, img_name)
             document.add_picture(img_name, width=Inches(1))
     else:
-        question = question.replace('\\xa0', '').replace('\\n', '')
-        document.add_paragraph(f'{option}: {question}')
-
-
-def answer_handle(answer, percents):
-    if answer == 1:
-        document.add_paragraph('答案: A')
-    elif answer == 2:
-        document.add_paragraph('答案: B')
-    elif answer == 3:
-        document.add_paragraph('答案: C')
-    elif answer == 4:
-        document.add_paragraph('答案: D')
-    else:
-        logger.error(f'{answer} is wrong')
-
-    document.add_paragraph(f'全站准确率: {percents[answer-1]}')
+        question = content.replace('\\xa0', '').replace('\\n', '')
+        document.add_paragraph(replace(f'{option}: {question}'))
 
 
 def analysis_handle(content):
+    if not content:
+        return
+
     if '<img=' in content and '></img>' in content:
         imgs_url = re.findall('<img=(.*?)></img>', content)
         for url in imgs_url:
@@ -140,48 +142,197 @@ def analysis_handle(content):
             analysis = content.replace('\\xa0', '').replace('\\n', '').replace(
                 '<img=' + url + '></img>', '@@@')
 
-            document.add_paragraph(f'解析: {analysis}')
+            document.add_paragraph(replace(f'解析: {analysis}'))
 
         for url in imgs_url:
 
-            img_name = f'./pic/{url.split("/")[-1]}'
+            img_name = f'./data/pic/{url.split("/")[-1]}'
             down_load_img(url, img_name)
             document.add_picture(img_name, width=Inches(1))
     else:
-        question = question.replace('\\xa0', '').replace('\\n', '')
-        document.add_paragraph(f'解析: {analysis}')
+        analysis = content.replace('\\xa0', '').replace('\\n', '')
+        document.add_paragraph(replace(f'解析: {analysis}'))
 
 
 def end_handle(points, source):
-    document.add_paragraph(f'考点: {" ".join(points)}')
-    document.add_paragraph(f'来源: {source}')
+    if points:
+        document.add_paragraph(replace(f'考点: {" ".join(points)}'))
+    if source:
+        document.add_paragraph(replace(f'来源: {source}'))
+
     document.add_paragraph('\n\n\n')
 
 
-def main(ids):
-    data = get_data()
-    if not data.get('pointName'):
-        logger.error(f'{data} is wrong')
-        return
-
-    dirname = '/'.join(data.get(data.get('pointName')))
-    path = f'./doc/{dirname}/{data.get("id")}.docx'
-    os.makedirs(path)
-    index = 1
-    document.add_heading('heading')
-    content_handle(data.get('stem'), index)
-    material_handle(data.get('materials'))
+def kind_handle(data):
+    kind = data.get('type')
     choices = data.get('choices')
-    if choices:
+    answer = data.get('answer')
+    percents = data.get('meta').get('percents')
+    if len(percents) == 1:
+        percents = percents[0]
+    else:
+        percents = percents[data.get('meta').get('answers').index(answer)]
+    if not choices:
+        return
+    # "99": "单选题",
+    # "100": "多选题",
+    # "101": "不定项选择",
+    # "105": "复合题",
+    # "109": "判断题"
+    if kind == 99:
         option_handle(choices[0], 'A')
         option_handle(choices[1], 'B')
         option_handle(choices[2], 'C')
         option_handle(choices[3], 'D')
-    answer_handle(data.get('answer'), data.get('percents'))
+        document.add_paragraph(
+            f'答案: {str(answer).replace("1","A ").replace("2","B ").replace("3","C ").replace("4","D ")}'
+        )
+        document.add_paragraph(f'全站准确率: {percents}')
+    elif kind == 100:
+        option_handle(choices[0], 'A')
+        option_handle(choices[1], 'B')
+        option_handle(choices[2], 'C')
+        option_handle(choices[3], 'D')
+        answer = str(answer)
+        temp = 0
+        # for index in range(1, 6):
+        #     if str(index) in answer:
+        #         temp += percents[index - 1]
+
+        answer = f'答案: {answer.replace("1","A ").replace("2","B ").replace("3","C ").replace("4","D ")}'
+        document.add_paragraph(answer)
+        document.add_paragraph(f'全站准确率: {percents}')
+    elif kind == 101:
+        option_handle(choices[0], 'A')
+        option_handle(choices[1], 'B')
+        option_handle(choices[2], 'C')
+        option_handle(choices[3], 'D')
+        answer = str(answer)
+        temp = 0
+        # for index in range(1, 6):
+        #     if str(index) in answer:
+        #         temp += percents[index - 1]
+
+        answer = f'答案: {answer.replace("1","A ").replace("2","B ").replace("3","C ").replace("4","D ")}'
+        document.add_paragraph(answer)
+        document.add_paragraph(f'全站准确率: {percents}')
+    elif kind == 105:
+        option_handle(choices[0], 'A')
+        option_handle(choices[1], 'B')
+        option_handle(choices[2], 'C')
+        option_handle(choices[3], 'D')
+        answer = str(answer)
+        temp = 0
+        # for index in range(1, 6):
+        #     if str(index) in answer:
+        #         temp += percents[index - 1]
+
+        answer = f'答案: {answer.replace("1","A ").replace("2","B ").replace("3","C ").replace("4","D ")}'
+        document.add_paragraph(answer)
+        document.add_paragraph(f'全站准确率: {percents}')
+    elif kind == 109:
+        option_handle(choices[0], 'A')
+        option_handle(choices[1], 'B')
+        document.add_paragraph(
+            f'答案: {str(answer).replace("1","A ").replace("2","B ").replace("3","C ").replace("4","D ")}'
+        )
+        document.add_paragraph(f'全站准确率: {percents}')
+    else:
+        logger.error(f'No type catch, {kind}')
+
+
+def main_handle(data, index):
+    if not data.get('pointsName'):
+        logger.error(f'{data} is wrong')
+        return
+
+    content_handle(data.get('stem'), index)
+    if data.get('materials'):
+        for item in data.get('materials'):
+            material_handle(item)
+
+    kind_handle(data)
+
     analysis_handle(data.get('analysis'))
     end_handle(data.get('pointsName'), data.get('from'))
 
-    document.save(path)
+
+class GetPoint(object):
+    def __init__(self, content):
+        self.need = []
+        self.get_all(content)
+        super().__init__()
+
+    def get_all(self, content):
+        if content.get('child') is None:
+            for key in content:
+                self.get_all(content[key])
+
+        elif not content.get('child'):
+            self.need.append(content.get('point'))
+        else:
+            self.get_all(content.get('child'))
+
+
+def main(ids):
+    global document
+
+    with open('./data/points.json', 'r', encoding='utf-8') as fn:
+        data = json.loads(fn.read())
+
+    kindname = '事业单位考试'
+    data.pop('公务员行测')
+    points = set(GetPoint(data).need)
+    count = 0
+    for point in points:
+        document = Document()
+
+        # yield_data = get_data(int(65879))
+        yield_data = get_data(int(point))
+
+        try:
+            data = next(yield_data)
+        except StopIteration:
+            continue
+
+        pointsname = data.get("pointsName")
+        if not pointsname:
+            logger.warning(f'pointList is null - {data.get("_id")}')
+            continue
+            data['pointsName'] = data.get('pointList')[0].get('pointsName')
+            pointsname = data['pointsName']
+
+        dirname = f'./data/doc/{kindname}/{"/".join(pointsname[:-1])}/'
+        document.add_heading(data.get('pointsName')[-1])
+        try:
+            os.makedirs(dirname)
+        except FileExistsError:
+            pass
+        index = 1
+
+        while True:
+            # main_handle(data, index)
+            # try:
+            #     data = next(yield_data)
+            # except StopIteration:
+            #     break
+            try:
+                main_handle(data, index)
+            except Exception as exc:
+                logger.error(
+                    f'{data.get("_id")}is error in main handle, {exc}')
+            finally:
+                index += 1
+                count += 1
+                try:
+                    data = next(yield_data)
+                except StopIteration:
+                    yield_data.close()
+                    break
+            logger.info(f'{index} is down')
+
+        print(f'counts is {count}')
+        document.save(f'{dirname}{pointsname[-1]}.docx')
 
 
 if __name__ == "__main__":
