@@ -190,7 +190,7 @@ class DealVins(object):
 
             info['金额上限'] = ''
 
-            resp = run_func(self.request, info["path"], header=self.header)
+            resp = run_func(self.request, info["path"], header=self.header).replace(r'&nbsp;', '')
             # table = self.soup(resp, 'table', all_tag=True)[-1]
             tds = self.soup(resp, attr={'class': 'L4'}, all_tag=True)
 
@@ -256,7 +256,6 @@ class DealVins(object):
                                            'class': 'order-publishdate'
                                        }).text.split('：')[-1]
             info["竞价开始时间"] = ""
-            info["中标总额"] = ''
 
             temp = temp.get('onclick').split('(')[-1].split(',')
             info[
@@ -265,7 +264,7 @@ class DealVins(object):
 
             info['金额上限'] = ''
 
-            resp = run_func(self.request, info["path"], header=self.header)
+            resp = run_func(self.request, info["path"], header=self.header).replace(r'&nbsp;', '')
             item = self.soup(
                 resp,
                 attr={
@@ -276,10 +275,11 @@ class DealVins(object):
                 resp, attr={'style': 'background-color:#fffee1;'})
 
             tds_1 = self.soup(item, attr={'class': 'L4'}, all_tag=True)
-            tds_2 = self.soup(resp, attr='td', all_tag=True)
+            tds_2 = self.soup(item_result, attr='td', all_tag=True)
 
             order_type = self.soup(div, attr={'class': 'order-type'}).text
             info['中标公司'] = tds_2[0].text
+            info["中标总额"] = tds_2[2].text
 
             tr_json = [{
                 "成交时间": "",
@@ -287,7 +287,7 @@ class DealVins(object):
                 "规格配置": tds_1[4].text,
                 "详情url": info['path'],
                 "平台名称": "高校优采仪器设备竞价网",
-                "总价": tds_2[0].text,
+                "总价": tds_2[2].text,
                 "中标供应商": info['中标公司'],
                 "设备名称": tds_1[0].text,
                 "创建时间": self.get_time(),
@@ -305,9 +305,9 @@ class DealVins(object):
                     json.dumps(tr_json, ensure_ascii=False), info["path"]))
 
     def main(self):
-        for page in range(5, 6):
-            self.bid_type = "bid"
-            run_func(self.deal_detail, page)
+        for page in range(1, 2):
+            # self.bid_type = "bid"
+            # run_func(self.deal_detail, page)
             self.bid_type = "bidResult"
             run_func(self.deal_result, page)
 
