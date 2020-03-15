@@ -1,6 +1,8 @@
+import os
 import json
 import time
 import datetime
+from config import init_sql
 from utils.log import logger
 from utils.run import run_func
 from utils.request import Query
@@ -8,8 +10,10 @@ from utils.excel_opea import ExcelOpea
 
 req = Query().run
 excel = ExcelOpea()
+mysql = init_sql()
 excel.init_sheet(header=[
-    '楼盘名称', '板块', '楼层', '面积', '网签价格', '复原价格', '合同价格(万)', '单价(万元/m²)', '成交时间'
+    '楼盘名称', '板块', '楼号', '楼层', '面积', '网签价格', '复原价格', '合同价格(万)', '单价(万元/m²)',
+    '成交时间'
 ])
 header = {
     'appId': '2',
@@ -55,6 +59,7 @@ def to_excel(data: dict):
     info = {}
     info['楼盘名称'] = data.get('houseName')
     info['板块'] = data.get('districtPlateName')
+    info['楼号'] = data.get('building')
     info['楼层'] = data.get('floorTag')
     info['面积'] = data.get('bargainArea')
     info['网签价格'] = data.get('dealTag').get('dealOrEvalSinPrice')
@@ -64,6 +69,12 @@ def to_excel(data: dict):
     info['成交时间'] = data.get('dealTime')
 
     excel.write(info)
+    try:
+        sql = 'INSERT INTO `backstage`.`2boss`(`楼盘名称`, `板块`, `楼号`, `楼层`, `面积`, `网签价格`, `复原价格`, `合同价格`, `单价`, `成交时间`) VALUES ("{楼盘名称}", "{板块}", "{楼号}", "{楼层}", "{面积}", "{网签价格}", "{复原价格}", "{合同价格(万)}", "{单价(万元/m²)}", "{成交时间}");'.format(
+            **info)
+        mysql.execute(sql)
+    except Exception as exc:
+        pass
     message = json.dumps(info, ensure_ascii=False).replace('²', '2')
     logger.info(f'已插入 - {message}')
 
