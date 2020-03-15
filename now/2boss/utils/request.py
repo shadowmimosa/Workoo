@@ -45,7 +45,7 @@ class Query(object):
         sesscion_a = self.get_session()
 
         # print("---> 开始请求网址：{}".format(url))
-        self.logger.info("---> 开始请求网址：{}".format(url))
+        self.logger.debug("---> 开始请求网址：{}".format(url))
         start_time = time.time()
         retry_count = 5
         while retry_count > 0:
@@ -88,7 +88,7 @@ class Query(object):
                     resp.encoding = "gbk"
 
                 magic_time = end_time - start_time
-                self.logger.info(
+                self.logger.debug(
                     "--->Info: Request successful. It takes {:.3} seconds".
                     format(magic_time))
                 return resp
@@ -101,7 +101,7 @@ class Query(object):
                     resp.encoding = "gbk"
 
                 magic_time = end_time - start_time
-                self.logger.info(
+                self.logger.debug(
                     "--->Info: Request is 302. It takes {:.3} seconds".format(
                         magic_time))
                 return resp.headers["Location"]

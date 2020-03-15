@@ -40,8 +40,8 @@ class DealVins(object):
         self.data = 'keyword=f01&condition=LIKE&searchValue=&orderField=&orderDirection=&pageNum={}'
         self.insert_tb_bid = "INSERT INTO `bidpython`.`tb_bid` ( `title`, `inviter_number`, `announce_time`, `end_time`, `budget_money`, `platform_id`, `url`, `company` ) VALUES ( '{网上竞价名称}', '{网上竞价编号}', '{竞价开始时间}', '{竞价截止时间}', '{金额上限}', 20, '{path}', '{采购人}' );"
         self.insert_bid_result = "INSERT INTO `bidpython`.`tb_bid_result` ( `title`, `inviter_number`, `announce_time`, `end_time`, `announce_date`, `platform_id`, `url`, `company`, `budget_money`, `announce_company` ) VALUES ( '{网上竞价名称}', '{网上竞价编号}', '{竞价开始时间}', '{竞价截止时间}', '{成交公告时间}', 20, '{path}', '{采购人}', '{中标总额}', '{中标公司}' );"
-        self.insert_bid_json = "INSERT INTO `bidpython`.`tb_bid_json` ( `shot`, `platform_name`, `inviter_number`, `url`, `json_kv`, `create_time` ) VALUES ( '', 'http://mkt.zycg.gov.cn/mall-view/#', '{}', '{}', '{}', '{}');"
-        self.insert_tr_json = "INSERT INTO `bidpython`.`tb_tr_json` ( `platform_id`, `platform_name`, `tr_json`, `url` ) VALUES ( 20, 'http://mkt.zycg.gov.cn/mall-view/#', '{}', '{}');"
+        self.insert_bid_json = "INSERT INTO `bidpython`.`tb_bid_json` ( `shot`, `platform_name`, `inviter_number`, `url`, `json_kv`, `create_time` ) VALUES ( '', '中央政府采购网', '{}', '{}', '{}', '{}');"
+        self.insert_tr_json = "INSERT INTO `bidpython`.`tb_tr_json` ( `platform_id`, `platform_name`, `tr_json`, `url` ) VALUES ( 20, '中央政府采购网', '{}', '{}');"
         self.request = Query().run
         self.soup = DealSoup().judge
         self.init_sql()
@@ -196,7 +196,7 @@ class DealVins(object):
                 "型号": tds[4].text,
                 "url":
                 f'http://mkt.zycg.gov.cn/mall-view/information/detail?noticeId={item["id"]}',
-                "招标平台": "http://mkt.zycg.gov.cn/mall-view/#",
+                "招标平台": "中央政府采购网",
                 "售后服务": '',
             }]
 
@@ -253,7 +253,7 @@ class DealVins(object):
             "招标编号": info["网上竞价编号"],
             "规格配置": '',
             "详情url": info['path'],
-            "平台名称": "http://mkt.zycg.gov.cn/mall-view/#",
+            "平台名称": "中央政府采购网",
             "总价": companys[5].text,
             "中标供应商": info['中标公司'],
             "设备名称": goods[2].text,
@@ -283,7 +283,7 @@ class DealVins(object):
         for item in data_list['data']['result']:
             if self.bid_type == 'bid':
                 run_func(self.deal_detail, item)
-            elif self.bid_path == 'bidResult':
+            elif self.bid_type == 'bidResult':
                 run_func(self.deal_result, item)
 
     def main(self):
