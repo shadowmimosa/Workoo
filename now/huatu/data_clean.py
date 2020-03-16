@@ -36,7 +36,7 @@ class MongoOpea(object):
 def main():
     results = list(mongo.mongo['raw_data'].find({
         '_id': {
-            '$gt': ObjectId('5e693267d7a87657f4e35d89')
+            '$gt': ObjectId('5e694dbc28c478d918e3e55b')
         }
     }).sort('_id').limit(800))
 
@@ -49,8 +49,10 @@ def main():
                     392, 435, 482, 642, 754, 65836, 65877, 65903, 65904, 65905,
                     65902, 66089
             ]:
+                print(0)
                 continue
             mongo.update(item)
+            print(1)
 
         results = mongo.select(results[-1].get('_id'))
 

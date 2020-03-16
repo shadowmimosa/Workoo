@@ -1,6 +1,7 @@
 import re
 import os
 import json
+import requests
 from bson import ObjectId
 from urllib import parse
 from docx import Document
@@ -60,6 +61,16 @@ def down_load_img(url, name):
 def replace(content):
     return content.replace('<p>', '').replace('</p>', '').replace(
         '<br>', '\n').replace('<br/>', '\n')
+
+
+def img_handle(content):
+    if '<img' in content:
+
+        imgs = re.findall('<img src="(.*?)" width="[0-9]*" height="[0-9]*">',
+                          content)
+        content = re.sub('<img src="(.*?)" width="[0-9]*" height="[0-9]*">',
+                         '', content)
+        content = re.sub('\（?\(?[\\xa0]*\（?\(?', '', content)
 
 
 def content_handle(content, index):
@@ -276,15 +287,24 @@ class GetPoint(object):
 
 def main(ids):
     global document
+    img_handle(
+        '如下图所示，完全相同的两根弹簧，下面挂两个质量相同、形状不同的实心铁块，其中甲是立方体，乙是球体。现将两个铁块完全浸没在某盐水溶液中，该溶液的密度随深度增加而均匀增加。待两铁块静止后，甲、乙两铁块受到的弹簧的拉力相比（  ）。<img src="http://tiku.huatu.com/cdn/pandora/img/5ac36cb6-b1b7-4da9-98e8-bc21269bdf24..png?imageView2/0/w/643/format/jpg" width="642" height="417">'
+    )
+    # with open('./data/points.json', 'r', encoding='utf-8') as fn:
+    #     data = json.loads(fn.read())
 
-    with open('./data/points.json', 'r', encoding='utf-8') as fn:
-        data = json.loads(fn.read())
+    # kindname = '事业单位考试'
+    kindname = '公务员行测'
+    # data.pop('公务员行测')
+    # data = data.pop('公务员行测')
+    # points = set(GetPoint(data).need)
 
-    kindname = '事业单位考试'
-    data.pop('公务员行测')
-    points = set(GetPoint(data).need)
+    # with open('./point.json', 'w', encoding='utf-8') as fn:
+    #     fn.write(json.dumps(list(points)))
+
     count = 0
-    for point in points:
+    for point in ["674", "65695", "65748", "433", "431", "1006", "65763"]:
+        # for point in points:
         document = Document()
 
         # yield_data = get_data(int(65879))
