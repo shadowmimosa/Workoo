@@ -102,10 +102,11 @@ def detail(item):
         item.get('brand'),
         item.get('category'),
         '$' + item.get('estRevenue') if item.get('estRevenue') else 'N.A.',
-        item.get('estimatedSales'), '$' + item.get('price'),
+        item.get('estimatedSales'),
+        '$' + item.get('price') if item.get('price') else 'N.A.',
         '$' + item.get('fees') if item.get('fees') else 'N.A.',
         round(eval(item.get('net')), 2) if item.get('net') else 'N.A.',
-        format(int(item.get('rank')), ','),
+        format(int(item.get('rank')), ',') if item.get('rank') else 'N.A.',
         item.get('nReviews'),
         int(round(int(item.get('listingQualityScore')), 0))
         if item.get('listingQualityScore') else 'N.A.',
@@ -169,7 +170,7 @@ def spider():
             get_data(token)
         except Exception as exc:
             logger.info(f'Somethng wrong - {exc}')
-        
+
     input('按任意键退出')
 
 
