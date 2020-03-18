@@ -1,0 +1,814 @@
+contentStr=
+<!--<script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>-->
+<style>
+    #dim {
+        width: 100%;
+        height: 100%;
+        opacity: 0.8;
+        /*设置背景色透明度,1为完全不透明,IE需要使用filter:alpha(opacity=80);*/
+        filter: alpha(opacity=80);
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        background: silver;
+    }
+
+    .bid {
+        margin: 5px 5px;
+    }
+
+    .bid-title {
+        width: 267px;
+        height: 57px;
+        line-height: 57px;
+        font-size: 20px;
+        color: #666666;
+    }
+
+    .bid-purchase {
+        background: white;
+        border: 1px solid rgba(236, 236, 236, 1);
+        box-sizing: border-box;
+        padding: 25px 35px;
+    }
+
+    .bid-purchase>p:nth-child(1) {
+        font-weight: 700;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .bid-purchase>div>p>span:nth-child(2) {
+        color: #207AD6;
+    }
+
+    .bid-purchase>div:nth-child(2) {
+        display: block;
+    }
+
+    .bid-purchase>div:nth-child(2)>p {
+        background: url(../../../images/bid-1.png) no-repeat right center;
+        width: 140px;
+        display: flex;
+    }
+
+    .bid-purchase>div:nth-child(2)>p:nth-child(2) {
+        width: 150px;
+    }
+
+    .bid-purchase>div:nth-child(2)>p:last-child {
+        background: none;
+        width: 80px;
+    }
+
+    .bid-purchase>div:nth-child(2)>p>span:first-child {
+        /*background: url(../../../images/bg-blue-circle.png) no-repeat;*/
+        margin: 0 5px;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        color: #fff;
+        background: #207AD6;
+        border-radius: 50%;
+    }
+
+    .bid-purchase>div:nth-child(2)>p:last-child>span:last-child {
+        /*color: #000000;*/
+        /*font-weight: 600;*/
+    }
+
+    .bid-purchase>div:nth-child(2)>p.doing>span:last-child {
+        color: #000000;
+        font-weight: 600;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    .bid-p-table>p:nth-child(1) {
+        font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .bid-p-table>table>tbody>tr>td:nth-child(1) {
+        height: 100px;
+    }
+
+    .bid-p-table>table>tbody>tr>td:nth-child(2)>div {
+        line-height: 35px;
+        display: flex;
+        align-items: center;
+        width: 40%;
+        min-height: 10px;
+    }
+
+    .bid-p-table>table>tbody>tr>td:nth-child(2)>div>p {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*比价结果*/
+    .result>p {
+        /*text-align: center;*/
+    }
+
+    .result>p>span:nth-child(1) {
+        font-weight: 700;
+        font-size: 18px;
+        /*display: block;*/
+    }
+
+    .result>p>span:nth-child(2) {
+        color: red;
+        /*display: block;*/
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .result-tab>p {
+        text-align: center;
+    }
+
+    .result-tab>p>span:nth-child(1) {
+        font-weight: 700;
+        font-size: 18px;
+        /*display: block;*/
+    }
+
+    .result-tab>p>span:nth-child(2) {
+        color: red;
+        /*display: block;*/
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .result-tab>table {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .result-tab>table td {
+        text-align: center;
+        line-height: 40px;
+    }
+
+    .result .promptInformation {
+        height: 40px;
+        background: rgba(247, 253, 243, 1);
+        border: 1px solid rgba(183, 235, 143, 1);
+        display: flex;
+        align-items: center;
+    }
+
+    .result .promptInformation i {
+        width: 16px;
+        height: 16px;
+        text-align: center;
+        line-height: 16px;
+        border-radius: 50%;
+        margin: 0 10px;
+        display: inline-block;
+        border: 1px solid rgba(73, 182, 19, 1);
+    }
+
+    .result .promptInforWarnMation {
+        height: 40px;
+        background: rgba(247, 253, 243, 1);
+        border: 1px solid rgba(183, 235, 143, 1);
+        display: flex;
+        align-items: center;
+    }
+
+    .result .promptInforWarnMation i {
+        width: 16px;
+        height: 16px;
+        text-align: center;
+        line-height: 16px;
+        border-radius: 50%;
+        margin: 0 10px;
+        display: inline-block;
+        border: 1px solid rgba(73, 182, 19, 1);
+    }
+
+    /*收货信息*/
+    .invoice>p {
+        font-weight: 700;
+        font-size: 18px;
+        margin: 25px 0 0;
+    }
+
+    .invoice .ReceivingInformation {
+        background: rgba(233, 242, 251, 1);
+        line-height: 40px;
+        width: 95%;
+        margin: 10px 75px;
+    }
+
+    .invoice .ReceivingInformation #receiverName {
+        width: 96px;
+        height: 40px;
+        text-align: center;
+        background: rgba(255, 255, 255, 1);
+        border: 2px solid rgba(32, 122, 214, 1);
+        display: inline-block;
+        color: #333;
+    }
+
+    .invoice>div>span {
+        color: #000;
+    }
+
+    .invoice>div>p>span {
+        color: #999999;
+    }
+
+    .invoice>div {
+        line-height: 60px;
+        display: flex;
+    }
+
+    .invoice>div>p {
+        width: 33%;
+        font-size: 14px;
+    }
+
+    .invoice>ul {
+        margin-left: 86px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .invoice>ul>li {
+        display: flex;
+        font-size: 14px;
+        line-height: 50px;
+        font-weight: 100;
+        width: 40%;
+    }
+
+    .invoice>ul>li>span {
+        text-align: right;
+        width: 100px;
+    }
+
+    .bid-btn {
+        margin: 20px auto;
+        width: 333px;
+        text-align: center;
+    }
+
+    .layui-btn+.layui-btn {
+        margin-left: 157px;
+    }
+
+    .layui-table tbody tr:hover {
+        background-color: transparent;
+    }
+
+    .layui-table-cell {
+        height: auto;
+        line-height: 28px;
+        padding: 0 15px;
+        position: relative;
+        box-sizing: border-box
+    }
+
+    .layui-table-cell-self {
+        font-width: bold;
+    }
+
+    .table-goods .tg-img {
+        float: left;
+        margin-right: 10px;
+        position: relative;
+        z-index: 1
+    }
+
+    .table-goods .tg-img img {
+        vertical-align: middle;
+        border: 1px solid #eee;
+        cursor: pointer;
+    }
+
+    .table-goods .tg-img .cover {
+        position: absolute;
+        display: none;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, .2)
+    }
+
+    .table-goods .tg-img .cover span {
+        color: #fff;
+        background-color: #000;
+        line-height: 22px;
+        display: block;
+        text-align: center;
+        margin: 72px 4px 0
+    }
+
+    .table-goods .tg-txt {
+        overflow: hidden;
+        line-height: 18px;
+        text-align: left;
+    }
+
+    .table-goods .tg-txt .tt {
+        height: 35px;
+        overflow: hidden;
+        margin-bottom: 6px
+    }
+
+    .table-goods .tg-txt .tg-attr {
+        color: #999;
+        margin-top: 9px
+    }
+
+    .table-goods .tg-txt .desc {
+        padding-top: 13px
+    }
+
+    .layui-table-header .layui-table th {
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    #orderList .layui-table {
+        margin-top: 0px;
+    }
+
+    .layui-form-label {
+        width: 200px;
+    }
+
+    .layui-table-cell.laytable-cell-3-0-5 a {
+        margin: 0 10px;
+    }
+
+    div#CoreParametersCheckboxView {
+        overflow-y: auto;
+        overflow-x: auto;
+    }
+
+    .layui-form-select .layui-edge {
+        position: absolute;
+        right: 50px;
+        top: 50%;
+        margin-top: -3px;
+        cursor: pointer;
+        border-width: 6px;
+        border-top-color: #c2c2c2;
+        border-top-style: solid;
+        transition: all .3s;
+        -webkit-transition: all .3s;
+    }
+
+    .bid-btn button {
+        background: #207ad6;
+    }
+
+    /*成交公告头*/
+    .inquiry-title-wrap {
+        width: 100%;
+        margin: 0 auto;
+        padding: 15px 0 30px 0;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .inquiry-title {
+        font-size: 22px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .inquiry-title-time {
+        font-size: 12px;
+        font-weight: 400;
+        color: #666;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .inquiry-title-content {
+        text-align: left;
+        text-indent: 25px;
+        color: #666;
+    }
+
+    .inquiry-title-content span {
+        color: #333;
+    }
+
+    /*电子竞价订单名称栏*/
+    .inquiry-order-wrap {
+        float: none !important;
+        display: block !important;
+        padding: 20px 0 20px 20px;
+    }
+
+    .inquiry-order-wrap div {
+        line-height: 30px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .inquiry-order-wrap label {
+        display: inline-block;
+        text-align: right;
+        min-width: 100px;
+        color: #999;
+    }
+
+    .inquiry-order-wrap span {
+        color: #333;
+        margin-left: 13px;
+    }
+
+    /*项目基本信息*/
+    .information>p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .information>ul {
+        margin-left: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+
+    .information>ul>li {
+        min-width: 50%;
+        display: flex;
+        font-size: 12px;
+        line-height: 30px;
+        min-height: 30px;
+    }
+
+    .information>ul>li>span {
+        text-align: right;
+        min-width: 110px;
+        color: #999;
+    }
+
+    .information>ul>li>label {
+        color: #333;
+    }
+
+    .information>ul>li>p:nth-child(1) {
+        width: 70%;
+    }
+
+    .information>ul>li>p:nth-child(2) {
+        width: 30%;
+    }
+
+    .information>ul>li>p>span {
+        color: red;
+    }
+
+    .information>ul>li:nth-child(3)>p {
+        width: 33%;
+    }
+
+    /*需求单表格*/
+    .product-requireList-wrap {
+        width: 100%;
+    }
+
+    .requireList-wrap,
+    .quote-deail-wrap {
+        width: 100%;
+        overflow-x: scroll;
+        margin: 20px 0;
+    }
+
+    .layui-table {
+        background-color: #fff;
+        color: #666;
+    }
+
+    .reference-brand>div+div,
+    .reference-model>div+div {
+        border-top: 0.5px solid #e6e6e6;
+    }
+
+    .reference-brand div,
+    .reference-model div {
+        min-height: 49px;
+        padding: 0 9px;
+        font-size: 12px;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+    }
+
+    .layui-table>thead>tr>td {
+        text-align: center;
+        white-space: nowrap;
+    }
+
+    /*报价详情*/
+    .supplier-mark {
+        display: inline-block;
+        color: #fff;
+        width: 18px;
+        height: 18px;
+        background-color: blue;
+        border-radius: 50%;
+    }
+
+    /*采购人意见*/
+    #buyer-viewpoint {
+        text-indent: 20px;
+        min-height: 75px;
+        padding: 10px 20px;
+    }
+
+    #view-inquiry-notice {
+        margin: 0 auto;
+        display: block;
+        background-color: #207ad6;
+        border-radius: 2px;
+        height: 48px;
+        line-height: 48px;
+        width: 115px;
+        color: #fff;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    /*报价详情弹出框*/
+    .dialog-quote-detail {
+        width: 1000px;
+        border: 1px solid #ccc;
+        margin: 0 auto;
+        position: fixed;
+        z-index: 9999999;
+    }
+
+    .dialog-title {
+        width: 100%;
+        height: 52px;
+        line-height: 52px;
+        font-size: 16px;
+        background-color: #f7f7f7;
+        color: #333;
+    }
+
+    .agent-promise {
+        margin-bottom: 50px;
+    }
+
+    .agent-promise-title {
+        width: auto;
+        display: inline-block;
+        vertical-align: top;
+        line-height: 30px;
+        font-size: 14px;
+        margin-left: 80px;
+    }
+
+    .dialog-title-name {
+        float: left;
+        text-indent: 20px;
+    }
+
+    .btn-close {
+        float: right;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+
+    .btn-close:hover {
+        color: #207ad6;
+    }
+
+    .btn-back {
+        margin: 0 auto;
+        display: block;
+        background-color: #207ad6;
+        border-radius: 2px;
+        height: 48px;
+        line-height: 48px;
+        width: 115px;
+        color: #fff;
+        cursor: pointer;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    /*layui提取*/
+    .layui-table,
+    .layui-table td,
+    .layui-table th {
+        font-size: 12px;
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        border-color: grey;
+    }
+
+    body {
+        line-height: 24px;
+        font: 14px Helvetica Neue, Helvetica, PingFang SC, Tahoma, Arial, sans-serif;
+    }
+</style>
+<div class="layui-fluid">
+    <div class="bid">
+        <div class="bid-purchase layui-card">
+            <div class="inquiry-order-wrap">
+                <div class="inquiry-order-name" style="display:table-cell;"><label>项目名称:</label>
+                    <span>中华人民共和国勐康出入境边防检查站台球桌电子竞价</span> </div>
+                <div class="inquiry-order-number"><label>项目编号:</label> <span>DZJJ20031310126320</span> </div>
+            </div>
+            <div class="information">
+                <p> <i style="margin-right: 10px;font-weight:700;">项目基本信息</i></p>
+                <ul>
+                    <li><span>采购单位：</span><label id="buyerName">中华人民共和国勐康出入境边防检查站</label></li>
+                    <li> <span>报价截止时间：</span><label id="quoteEndTime">2020-03-15 00:00:00</label></li>
+                    <li><span>项目预算(元)：</span><label id="projectBudget"><span
+                                style="color:#D9001B;">8000.00</span></label> </li>
+                    <li><span>联系人：</span><label id="contactMan">付城盟</label></li>
+                    <li><span>送货地点：</span><label id="deliveryAddress">云南省普洱市思茅区振兴大道79号</label> </li>
+                    <li><span>到货时间：</span><label id="arrivalTime" style="color: #e43636">合同签订后10个日历日到货</label></li>
+                    <li><span>签约时间：</span><label id="dealTime">成交公告发布后1个工作日内签署合同</label></li>
+                </ul>
+            </div>
+            <div class="information">
+                <p> <i style="margin-right: 10px;font-weight:700;">售后服务要求</i></p>
+                <ul>
+                    <li> <span>售后服务网点：</span> <label id="afterSaleAddress"> 无具体要求 </label> </li>
+                    <li> <span>免费维修质保期：</span> <label id="freeFixPeriod"> 1年 </label> </li>
+                    <li> <span>电话支持响应要求：</span> <label id="TelSupport"> 不需要 </label> </li>
+                    <li> <span>售后上门服务年限：</span> <label id="serviceLife"> 1年 </label> </li>
+                    <li> <span>售后上门服务时限：</span> <label id="serviceTimeLimit"> 不需要 </label> </li>
+                </ul>
+            </div>
+            <div class="information">
+                <p> <i style="margin-right: 10px;font-weight:700;">踏勘需求</i></p>
+                <ul>
+                    <li><span>踏勘地点：</span><label id="scoutingSite"></label></li>
+                    <li><span>踏勘时间：</span><label id="scoutingTime"></label> </li>
+                </ul>
+            </div>
+            <div class="product-requireList-wrap">
+                <p> <i style="margin-right: 10px;font-weight:700;">采购产品需求清单</i></p>
+                <div class="requireList-wrap">
+                    <table class="layui-table"
+                        style="width:1800px;min-height:100%;height:100%;overflow:hidden !important;">
+                        <thead>
+                            <tr>
+                                <td style="width: 58px">序号</td>
+                                <td style="width:99px">商品分类</td>
+                                <td style="width:220px">产品名称</td>
+                                <td style="width:138px">参考品牌</td>
+                                <td style="width:217px">参考型号</td>
+                                <td style="width: 95px">计量单位</td>
+                                <td style="width: 95px">采购数量</td>
+                                <td style="width: 95px">产地要求</td>
+                                <td style="width: 80px">现货要求</td>
+                                <td style="width: 95px">原装正品要求</td>
+                                <td style="width: 250px">技术指标</td>
+                            </tr>
+                        </thead>
+                        <tbody> </tbody>
+                    </table>
+                </div>
+            </div>
+            <div style="margin-top: 20px">
+                <div style="display:table-cell;width: 120px;text-align: right;font-weight:700;font-size:16px;">
+                    <span>电子竞价规则：</span></div>
+                <div style="display:table-cell;line-height:25px;">
+                    <p>1.所有在中央政府采购网注册审核通过的供应商皆可参与报价。</p>
+                    <p>2.供应商参与报价则表示默认满足并接受电子竞价项目要求。</p>
+                    <p>3.电子竞价截止后，按照满足电子竞价需求、有效报价最低的原则，确定成交供应商。</p>
+                    <p>4.有效报价不足三家，系统自动废标。</p>
+                    <p>5.如成交供应商超过72小时未确认订单，视为该供应商放弃成交，采购人可选择废标或选择其他报价供应商成交。</p>
+                    <p>6.小微企业、残疾人福利性单位、监狱企业将享受国家规定的价格优惠支持政策。</p>
+                    <p>7.生产厂商和销售商同时满足价格支持政策方可享受价格优惠。</p>
+                </div>
+            </div>
+            <div style="margin-top: 50px;">
+                <div style="text-align: center;font-weight:700;" id="countDown">
+                    <div style="font-size: 18px;">距离报价结束时间：<div
+                            style="color:red;display: inline-block;font-size: 18px;"><span id="_h">00小时</span><span
+                                id="_m">00分</span><span id="_s">00秒</span></div>
+                    </div>
+                </div>
+                <div id="quoteLink" style="margin-top: 50px;text-align: center"> <a class="btn-for-quote"
+                        href="http://mkt.zycg.gov.cn/shop/inquiry/inquiry-quote?enquiryNo=DZJJ20031310126320">我要报价</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="dim"></div> <!--  查看供应商报价详情 start -->
+    <!--  查看供应商报价详情 end -->
+</div>
+<script>
+    try {
+        layui.use(['jquery'], function () {
+            var config = layui.config;
+            var $ = layui.jquery;
+            var accountId = config.getKey()["accountId"];
+            var ssoLoginUrl = config.sso_login + '?clientId=' + config.clientId;
+            var accountType = config.getKey()["accountType"] || 5;
+            var endTime = '2020-03-15 00:00:00';
+            var date = new Date();
+            var now = date.getTime();
+            if (endTime) {
+                var fullDate = endTime.split(" ")[0].split("-");
+                var fullTime = endTime.split(" ")[1].split(":");
+                endDate = new Date(fullDate[0], fullDate[1] - 1, fullDate[2], (fullTime[0] != null ? fullTime[
+                    0] : 0), (fullTime[1] != null ? fullTime[1] : 0), (fullTime[2] != null ? fullTime[
+                    2] : 0));
+            } else {
+                return;
+            }
+            var end = endDate.getTime();
+            var leftTime = end - now;
+            if (leftTime < 0) {
+                $("#quoteLink").html('');
+            } else {
+                if (accountId) {
+                    if (accountType == 3) {
+                        var bidHref = "//" + config.replaceMallHost("shop", window.location.host) +
+                            "/platform-view/shop/#/platform-view/shop/inquiry/inquiry-quote/enquiryNo=DZJJ20031310126320";
+                        $("#quoteLink").html('<a href="' + bidHref +
+                            '"  style="background-color: #1890FF;color:#fff;font-size: 15px;height: 35px;line-height: 35px;padding: 0 15px;border-radius:5px;cursor: pointer;display: inline-block;text-decoration: none;">我要报价</a>'
+                            );
+                    } else {
+                        $("#quoteLink").html(
+                            '<a class="btn-for-quote" style="background-color: #c8c8c8;color:#fff;font-size: 15px;height: 35px;line-height: 35px;padding: 0 15px;border-radius:5px;display: inline-block;text-decoration: none;">我要报价</a>'
+                            );
+                    }
+                } else {
+                    console.log('需要登录');
+                    var locationHref = window.location.href;
+                    var bidHref = ssoLoginUrl + '&redirectUrl=' + locationHref;
+                    $("#quoteLink").html('<a class="btn-for-quote" href="' + bidHref +
+                        '" style="background-color: #1890FF;color:#fff;font-size: 15px;height: 35px;line-height: 35px;padding: 0 15px;border-radius:5px;cursor: pointer;display: inline-block;text-decoration: none;">我要报价</a>'
+                        );
+                }
+            }
+        });
+    } catch (e) {
+        console.log('欢迎浏览电子竞价需求公告');
+        document.getElementById("quoteLink").innerHTML =
+            '<a href="http://mkt.zycg.gov.cn/mall-view/information/detail?noticeId=" style="background-color: #1890FF;color:#fff;font-size: 15px;height: 35px;line-height: 35px;padding: 0 15px;border-radius:5px;cursor: pointer;display: inline-block;text-decoration: none;">我要报价</a>';
+    }
+
+    function countTime() {
+        var endTime = '2020-03-15 00:00:00';
+        var date = new Date();
+        var now = date.getTime();
+        if (endTime) {
+            var fullDate = endTime.split(" ")[0].split("-");
+            var fullTime = endTime.split(" ")[1].split(":");
+            endDate = new Date(fullDate[0], fullDate[1] - 1, fullDate[2], (fullTime[0] != null ? fullTime[0] : 0), (
+                fullTime[1] != null ? fullTime[1] : 0), (fullTime[2] != null ? fullTime[2] : 0));
+        } else {
+            return;
+        }
+        var end = endDate.getTime();
+        var leftTime = end - now;
+        if (leftTime < 0) {
+            document.getElementById("countDown").innerHTML = '<span style="color:#D9001B;">报价已结束</span>';
+            document.getElementById("#quoteLink").innerHTML = '';
+            return;
+        }
+        var d, h, m, s;
+        if (leftTime >= 0) {
+            h = Math.floor(leftTime / 1000 / 60 / 60);
+            m = Math.floor(leftTime / 1000 / 60 % 60);
+            s = Math.floor(leftTime / 1000 % 60);
+            if (s < 10) {
+                s = "0" + s;
+            }
+            if (m < 10) {
+                m = "0" + m;
+            }
+            if (h < 10) {
+                h = "0" + h;
+            }
+            document.getElementById("_h").innerHTML = h + "小时";
+            document.getElementById("_m").innerHTML = m + "分";
+            document.getElementById("_s").innerHTML = s + "秒";
+            setTimeout(countTime, 50);
+        } else {
+            console.log('已截止,截止时间:' + endTime);
+        }
+    }
+    countTime();
+</script>

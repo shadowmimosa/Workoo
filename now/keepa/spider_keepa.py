@@ -79,7 +79,7 @@ def spider():
                 info.append(result)
                 logger.info(f'已保存 - {product.get("asin")}')
     try:
-        save('./result.csv', info)
+        save(f'./{time.strftime("%Y-%m-%d %H-%M-%S", time.localtime())}.csv', info)
     except Exception as exc:
         logger.error(f'保存失败 - {exc}')
     else:
