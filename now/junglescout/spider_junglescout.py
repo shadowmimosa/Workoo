@@ -120,6 +120,16 @@ def detail(item):
     ]
 
 
+def retry(path, local_header):
+    try:
+        resp = req(path, header=local_header)
+        data = json.loads(resp).get('data').get('data')
+    except:
+        pass
+    else:
+        return data
+
+
 def get_data(token):
     local_header = header
     local_header['Authorization'] = 'Bearer ' + token
@@ -133,20 +143,37 @@ def get_data(token):
         os.mkdir('./data/')
 
     for keyword in keywords:
+        keyword = quote(keyword)
         info = []
         upper = f'https://api.junglescout.com/api/products/get_products?data[query][type]=query&data[query][searchTerm]={keyword}&data[query][queryFields][]=name&data[query][queryFields][]=brand&data[query][queryFields][]=asin&data[calculatedCategory][type]=terms&'
         for page in range(0, 100):
+            retry_count = 5
             count = page * 200
+            if count == 4800:
+                count = 4799
+            elif count > 4800:
+                try:
+                    save(f'./data/{keyword}.csv', info)
+                except Exception as exc:
+                    logger.error(f'保存错误 - {exc}')
+                else:
+                    logger.info(f'保存成功 - {keyword}')
+                finally:
+                    break
+                
             lower = f'&data[country][type]=terms&data[country][valuesArray][]=us&data[sort][type]=sort&data[sort][column]=name&data[sort][direction]=asc&data[paginate][type]=paginate&data[paginate][pageSize]=200&data[paginate][from]={count}&data[isUnavailable][type]=terms&data[isUnavailable][valuesArray][]=false&data[isComplete][type]=terms&data[isComplete][valuesArray][]=true&data[state][type]=terms&data[state][valuesArray][]=active&skipCounter=true&excludeTopBrands=false'
             path = upper + param + lower
-            resp = req(path, header=local_header)
-            data = json.loads(resp).get('data').get('data')
+
+            while retry_count:
+                data = retry(path, local_header)
+                if data:
+                    break
 
             for item in data.get('products'):
                 detail_info = run_func(detail, item)
                 if detail_info:
                     info.append(detail_info)
-                    logger.info(f'已添加 - {detail_info}')
+                    logger.info(f'已添加 - {detail_info[0]}')
 
             if data.get('total_count') < count:
                 try:
@@ -176,4 +203,5 @@ def spider():
 
 if __name__ == "__main__":
     os.chdir(os.path.abspath(os.path.dirname(__file__)))
+    # main()
     spider()

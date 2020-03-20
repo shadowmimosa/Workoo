@@ -68,7 +68,10 @@ def spider():
     asins = get_asin('./asins.txt')
     info = []
     for asin in asins:
-        products = api.query(asin)
+        products = api.query(asin, progress_bar=False)
+        api.query(asin, rating=True, to_datetime=False, update=0)
+        api.seller_query(asin)
+        api.seller_query()
         for product in products:
             try:
                 result = detail(product.get('data'))
@@ -79,7 +82,8 @@ def spider():
                 info.append(result)
                 logger.info(f'已保存 - {product.get("asin")}')
     try:
-        save(f'./{time.strftime("%Y-%m-%d %H-%M-%S", time.localtime())}.csv', info)
+        save(f'./{time.strftime("%Y-%m-%d %H-%M-%S", time.localtime())}.csv',
+             info)
     except Exception as exc:
         logger.error(f'保存失败 - {exc}')
     else:
