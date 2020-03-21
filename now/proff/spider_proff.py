@@ -89,6 +89,7 @@ class DealProff(object):
         info = {}
         info['uri'] = uri
         info['catagory'] = self.category
+        # logger.info(f'current - {self.category}')
         resp = self.req(f'{self.domain}{uri}', header=self.header)
         if isinstance(resp, str):
             info['real_uri'] = resp
@@ -121,25 +122,28 @@ class DealProff(object):
 
 
 def multi_thread():
-    spider = DealProff()
     with open('./data/need_title.json', 'r', encoding='utf-8') as fn:
         results = json.loads(fn.read())
 
     with ThreadPoolExecutor(max_workers=5) as executor:
         try:
-            for result in executor.map(spider.run, results):
+            for result in executor.map(DealProff().run, results):
                 pass
         except Exception as exc:
             print(exc)
 
 
 def main():
+    with open('./data/need_title.json', 'r', encoding='utf-8') as fn:
+        results = json.loads(fn.read())
+
     spider = DealProff()
-    spider.run()
+    for result in results:    
+        spider.run(result)
 
 
 mongo = MongoOpea()
 
 if __name__ == "__main__":
-    # main()
-    multi_thread()
+    main()
+    # multi_thread()
