@@ -1,0 +1,750 @@
+{
+    "createListSearchResult": {
+        "resultList": [
+            {
+                "uri": "/selskap/3-gode-naboer-melk-og-kj%C3%B8tt-da/flatanger/-/992655976/",
+                "organisationNumber": "992 655 976",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Storfehold"
+                    },
+                    {
+                        "name": "Jordbruk"
+                    },
+                    {
+                        "name": "Jordbruk - melkeproduksjon"
+                    },
+                    {
+                        "name": "Melkeproduksjon"
+                    }
+                ],
+                "displayName": "3 Gode Naboer Melk og Kjøtt DA",
+                "numberOfEmployees": "1",
+                "personRoles": [
+                    {
+                        "roleName": "Daglig leder",
+                        "person": {
+                            "name": "Stig Gøran Wibstad",
+                            "yearOfBirth": "1979"
+                        }
+                    }
+                ]
+            },
+            {
+                "businessUnitId": "922 547 319",
+                "uri": "/selskap/4service-eir-camp-as-eir-3830-camp-s%C3%B8rmarkfjellet-kantin/oppland/-/922547319/",
+                "organisationNumber": "914 902 940",
+                "postalAddress": {
+                    "postNumber": "7745",
+                    "postPlace": "Oppland"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Serveringssteder"
+                    },
+                    {
+                        "name": "Kantinetjenester"
+                    }
+                ],
+                "displayName": "4service Eir Camp AS Eir 3830 Camp Sørmarkfjellet Kantin",
+                "numberOfEmployees": "3",
+                "mainOffice": {
+                    "uri": "/selskap/4service-eir-camp-as/-/-/914902940/",
+                    "proffIndustries": [],
+                    "displayName": "4service Eir Camp AS"
+                },
+                "personRoles": []
+            },
+            {
+                "uri": "/selskap/a-t-%C3%A5-treprodukter-jan-vedvik/flatanger/-/969609215/",
+                "organisationNumber": "969 609 215",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Storfehold"
+                    },
+                    {
+                        "name": "Jordbruk"
+                    },
+                    {
+                        "name": "Jordbruk - melkeproduksjon"
+                    },
+                    {
+                        "name": "Melkeproduksjon"
+                    }
+                ],
+                "displayName": "A-T-Å Treprodukter - Jan Vedvik",
+                "numberOfEmployees": "0",
+                "personRoles": [
+                    {
+                        "roleName": "Innehaver",
+                        "person": {
+                            "name": "Jan Vedvik",
+                            "yearOfBirth": "1942"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/a.k.fiske-da/flatanger/-/992559586/",
+                "organisationNumber": "992 559 586",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Fiske"
+                    },
+                    {
+                        "name": "Hav- og kystfiske"
+                    }
+                ],
+                "displayName": "A.K.Fiske DA",
+                "personRoles": [
+                    {
+                        "roleName": "Daglig leder",
+                        "person": {
+                            "name": "Arne Aagård",
+                            "yearOfBirth": "1947"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/aakervik-music/flatanger/-/924011874/",
+                "organisationNumber": "924 011 874",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Underholdning- og arrangørtjenester"
+                    }
+                ],
+                "displayName": "Aakervik Music",
+                "personRoles": [
+                    {
+                        "roleName": "Innehaver",
+                        "person": {
+                            "name": "Kim Aakervik",
+                            "yearOfBirth": "1990"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/aase-kristin-aag%C3%A5rd-m%C3%A5rvik/flatanger/-/879549132/",
+                "organisationNumber": "879 549 132",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Sauehold"
+                    },
+                    {
+                        "name": "Jordbruk"
+                    },
+                    {
+                        "name": "Jordbruk - oppdrett og husdyrhold"
+                    }
+                ],
+                "displayName": "Aase Kristin Aagård Mårvik",
+                "numberOfEmployees": "0",
+                "personRoles": [
+                    {
+                        "roleName": "Daglig leder",
+                        "person": {
+                            "name": "Lars Edvard Mårvik",
+                            "yearOfBirth": "1969"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/agnes-h%C3%A5rstad/hasv%C3%A5g/-/996656586/",
+                "organisationNumber": "996 656 586",
+                "postalAddress": {
+                    "postNumber": "7746",
+                    "postPlace": "Hasvåg"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Catering"
+                    }
+                ],
+                "displayName": "Agnes Hårstad",
+                "personRoles": [
+                    {
+                        "roleName": "Innehaver",
+                        "person": {
+                            "name": "Agnes D Malaca Hårstad",
+                            "yearOfBirth": "1964"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/aktiv-hdv-as/flatanger/-/920480284/",
+                "organisationNumber": "920 480 284",
+                "postalAddress": {
+                    "postNumber": "2080",
+                    "postPlace": "Eidsvoll"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Helsetjenester"
+                    }
+                ],
+                "displayName": "Aktiv Hdv AS",
+                "revenue": "0",
+                "companyAccountsLastUpdatedDate": "2018",
+                "personRoles": [
+                    {
+                        "roleName": "Daglig leder",
+                        "person": {
+                            "name": "Dragan Drljevic",
+                            "yearOfBirth": "1951"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/aktiv-samfunnsutvikling-as/flatanger/-/998572150/",
+                "organisationNumber": "998 572 150",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Aviser, fagblader og tidsskrifter"
+                    },
+                    {
+                        "name": "Forlag"
+                    }
+                ],
+                "displayName": "Aktiv Samfunnsutvikling AS",
+                "revenue": "176",
+                "numberOfEmployees": "0",
+                "companyAccountsLastUpdatedDate": "2018",
+                "personRoles": [
+                    {
+                        "roleName": "Daglig leder",
+                        "person": {
+                            "name": "Hilde Tyldum Stordahl",
+                            "yearOfBirth": "1966"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/alf-magne-hanssen/flatanger/-/985775427/",
+                "organisationNumber": "985 775 427",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Skogbruk"
+                    }
+                ],
+                "displayName": "Alf Magne Hanssen",
+                "personRoles": [
+                    {
+                        "roleName": "Innehaver",
+                        "person": {
+                            "name": "Alf Magne Hanssen",
+                            "yearOfBirth": "1968"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/alfred-s%C3%B8rgaard-eftf-as/flatanger/-/953348853/",
+                "organisationNumber": "953 348 853",
+                "postalAddress": {
+                    "postNumber": "7771",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Butikkhandel"
+                    },
+                    {
+                        "name": "Nærings- og nytelsesmidler"
+                    }
+                ],
+                "displayName": "Alfred Sørgaard Eftf AS",
+                "revenue": "34398",
+                "numberOfEmployees": "18",
+                "companyAccountsLastUpdatedDate": "2018",
+                "personRoles": [
+                    {
+                        "roleName": "Kontaktperson",
+                        "person": {
+                            "name": "Johan Normann Sørgaard",
+                            "yearOfBirth": "1954"
+                        }
+                    }
+                ]
+            },
+            {
+                "businessUnitId": "971 779 144",
+                "uri": "/selskap/alfred-s%C3%B8rgaard-eftf-as-avd-dagligvarer/flatanger/-/971779144/",
+                "organisationNumber": "953 348 853",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Butikkhandel"
+                    },
+                    {
+                        "name": "Nærings- og nytelsesmidler"
+                    }
+                ],
+                "displayName": "Alfred Sørgaard Eftf AS Avd Dagligvarer",
+                "numberOfEmployees": "18",
+                "mainOffice": {
+                    "uri": "/selskap/alfred-s%C3%B8rgaard-eftf-as/-/-/953348853/",
+                    "proffIndustries": [],
+                    "displayName": "Alfred Sørgaard Eftf AS"
+                },
+                "personRoles": []
+            },
+            {
+                "businessUnitId": "912 727 351",
+                "uri": "/selskap/alfred-s%C3%B8rgaard-eftf-as-avd-statoil-lauvsnes/flatanger/-/912727351/",
+                "organisationNumber": "953 348 853",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Bensinstasjoner"
+                    },
+                    {
+                        "name": "Butikkhandel"
+                    }
+                ],
+                "displayName": "Alfred Sørgaard Eftf AS Avd Statoil Lauvsnes",
+                "mainOffice": {
+                    "uri": "/selskap/alfred-s%C3%B8rgaard-eftf-as/-/-/953348853/",
+                    "proffIndustries": [],
+                    "displayName": "Alfred Sørgaard Eftf AS"
+                },
+                "personRoles": []
+            },
+            {
+                "uri": "/selskap/andreas-dahle-aag%C3%A5rd/flatanger/-/991072373/",
+                "organisationNumber": "991 072 373",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Underholdning- og arrangørtjenester"
+                    }
+                ],
+                "displayName": "Andreas Dahle Aagård",
+                "personRoles": [
+                    {
+                        "roleName": "Innehaver",
+                        "person": {
+                            "name": "Andreas Dahle Aagård",
+                            "yearOfBirth": "1987"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/aqs-as/flatanger/-/960532872/",
+                "organisationNumber": "960 532 872",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Akvakultur"
+                    },
+                    {
+                        "name": "Akvakultur - tjenester"
+                    }
+                ],
+                "displayName": "Aqs AS",
+                "revenue": "202155",
+                "numberOfEmployees": "95",
+                "companyAccountsLastUpdatedDate": "2018",
+                "personRoles": [
+                    {
+                        "roleName": "Daglig leder",
+                        "person": {
+                            "name": "Ove Løfsnæs",
+                            "yearOfBirth": "1963"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/aqs-holding-as/flatanger/-/914333849/",
+                "organisationNumber": "914 333 849",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [],
+                "displayName": "Aqs Holding AS",
+                "companyAccountsLastUpdatedDate": "2018",
+                "personRoles": [
+                    {
+                        "roleName": "Daglig leder",
+                        "person": {
+                            "name": "Ove Løfsnæs",
+                            "yearOfBirth": "1963"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/aqs-rederi-as/flatanger/-/917087237/",
+                "organisationNumber": "917 087 237",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Shipping og sjøtransport"
+                    },
+                    {
+                        "name": "Transport"
+                    },
+                    {
+                        "name": "Gods- og varetransport"
+                    }
+                ],
+                "displayName": "Aqs Rederi AS",
+                "revenue": "29159",
+                "numberOfEmployees": "58",
+                "companyAccountsLastUpdatedDate": "2018",
+                "personRoles": [
+                    {
+                        "roleName": "Daglig leder",
+                        "person": {
+                            "name": "Ove Løfsnæs",
+                            "yearOfBirth": "1963"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/aqua-kompetanse-as/flatanger/-/982226163/",
+                "organisationNumber": "982 226 163",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Faglig, vitenskapelig og teknisk virksomhet"
+                    }
+                ],
+                "displayName": "Aqua Kompetanse AS",
+                "revenue": "36081",
+                "numberOfEmployees": "48",
+                "companyAccountsLastUpdatedDate": "2018",
+                "personRoles": [
+                    {
+                        "roleName": "Daglig leder",
+                        "person": {
+                            "name": "Alexander Strøm Lindseth",
+                            "yearOfBirth": "1981"
+                        }
+                    }
+                ]
+            },
+            {
+                "businessUnitId": "882 241 572",
+                "uri": "/selskap/aqua-kompetanse-as-avd-flatanger/flatanger/-/882241572/",
+                "organisationNumber": "982 226 163",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Faglig, vitenskapelig og teknisk virksomhet"
+                    }
+                ],
+                "displayName": "Aqua Kompetanse AS Avd Flatanger",
+                "numberOfEmployees": "45",
+                "mainOffice": {
+                    "uri": "/selskap/aqua-kompetanse-as/-/-/982226163/",
+                    "proffIndustries": [],
+                    "displayName": "Aqua Kompetanse AS"
+                },
+                "personRoles": []
+            },
+            {
+                "uri": "/selskap/arne-aagard/flatanger/-/975741753/",
+                "organisationNumber": "975 741 753",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Fiske"
+                    },
+                    {
+                        "name": "Hav- og kystfiske"
+                    }
+                ],
+                "displayName": "Arne Aagard",
+                "numberOfEmployees": "0",
+                "personRoles": [
+                    {
+                        "roleName": "Innehaver",
+                        "person": {
+                            "name": "Arne Aagård",
+                            "yearOfBirth": "1947"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/arve-bj%C3%B8rsvik/flatanger/-/984330219/",
+                "organisationNumber": "984 330 219",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Fiske"
+                    },
+                    {
+                        "name": "Hav- og kystfiske"
+                    }
+                ],
+                "displayName": "Arve Bjørsvik",
+                "numberOfEmployees": "12",
+                "personRoles": [
+                    {
+                        "roleName": "Innehaver",
+                        "person": {
+                            "name": "Arve Bjørsvik",
+                            "yearOfBirth": "1960"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/at-portsystemer-as/nord-statland/-/985073325/",
+                "organisationNumber": "985 073 325",
+                "postalAddress": {
+                    "postNumber": "7777",
+                    "postPlace": "Nord-Statland"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Bygningshåndverkere"
+                    }
+                ],
+                "displayName": "At Portsystemer AS",
+                "revenue": "789",
+                "numberOfEmployees": "2",
+                "companyAccountsLastUpdatedDate": "2018",
+                "personRoles": [
+                    {
+                        "roleName": "Kontaktperson",
+                        "person": {
+                            "name": "Alf Åge Teigmo",
+                            "yearOfBirth": "1972"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/bj%C3%B8rn-frisendal-as/flatanger/-/959792844/",
+                "organisationNumber": "959 792 844",
+                "postalAddress": {
+                    "postNumber": "7771",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Bygg- og anleggsleverandører"
+                    },
+                    {
+                        "name": "Entreprenører"
+                    }
+                ],
+                "displayName": "Bjørn Frisendal AS",
+                "revenue": "15536",
+                "numberOfEmployees": "3",
+                "companyAccountsLastUpdatedDate": "2018",
+                "personRoles": [
+                    {
+                        "roleName": "Daglig leder",
+                        "person": {
+                            "name": "Bjørn Frisendal",
+                            "yearOfBirth": "1943"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/bj%C3%B8rsvik-havfiske-as/flatanger/-/912323048/",
+                "organisationNumber": "912 323 048",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Fiske"
+                    },
+                    {
+                        "name": "Hav- og kystfiske"
+                    }
+                ],
+                "displayName": "Bjørsvik Havfiske AS",
+                "revenue": "54",
+                "numberOfEmployees": "0",
+                "companyAccountsLastUpdatedDate": "2018",
+                "personRoles": [
+                    {
+                        "roleName": "Daglig leder",
+                        "person": {
+                            "name": "Arve Bjørsvik",
+                            "yearOfBirth": "1960"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/bj%C3%B8rsvik-svein-d%C3%B8dsbo/flatanger/-/970581790/",
+                "organisationNumber": "970 581 790",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Transport"
+                    },
+                    {
+                        "name": "Gods- og varetransport"
+                    }
+                ],
+                "displayName": "Bjørsvik Svein Dødsbo",
+                "numberOfEmployees": "0",
+                "personRoles": []
+            }
+        ],
+        "filterGroups": [
+            {
+                "displayName": "samplerFilter",
+                "filters": []
+            }
+        ],
+        "pagination": {
+            "next": {
+                "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sEl-c9DQgzJ_RfkhSsZBrTp1hpIOjF6_gyfZkHQ8Wt_HjoZbagCRr_yQJ56aHlqG4ff4NkMvxureeHBMzkhcWYIHKnG8DqH1-pU4inh3nQikyxLp8Spxp3nlRjRGu0UH5v"
+            },
+            "currentPage": 1
+        },
+        "totalHits": 375,
+        "sorting": {
+            "sorts": [
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sEl-c9DQgzJ_RfkhSsZBrTp1hpIOjF6_gyfZkHQ8Wt_HjoZbagCRr_yQJ56aHlqG4ff4NkMvxureeHBMzkhcWYIHKnG8DqH1-pfxATCCgyRVr2hkyUXDWUs-FaPXlSRAizU-8WRqDTGCA",
+                    "sortType": "numEmployeesAsc"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sEl-c9DQgzJ_RfkhSsZBrTp1hpIOjF6_gyfZkHQ8Wt_HjoZbagCRr_yQJ56aHlqG4ff4NkMvxureeHBMzkhcWYIHKnG8DqH1-pfxATCCgyRVr2hkyUXDWUs-FaPXlSRAizxn1JHdjXqsY",
+                    "sortType": "numEmployeesDesc"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sEl-c9DQgzJ_RfkhSsZBrTp1hpIOjF6_gyfZkHQ8Wt_HjoZbagCRr_yQJ56aHlqG4ff4NkMvxureeHBMzkhcWYIHKnG8DqH1-pfxATCCgyRVo89HqoIGsTvMIwZdJHkr3B",
+                    "sortType": "revenueAsc"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sEl-c9DQgzJ_RfkhSsZBrTp1hpIOjF6_gyfZkHQ8Wt_HjoZbagCRr_yQJ56aHlqG4ff4NkMvxureeHBMzkhcWYIHKnG8DqH1-pfxATCCgyRVo89HqoIGsTvB_puDqiP-X6",
+                    "sortType": "revenueDesc"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sEl-c9DQgzJ_RfkhSsZBrTp1hpIOjF6_gyfZkHQ8Wt_HjoZbagCRr_yQJ56aHlqG4ff4NkMvxureeHBMzkhcWYIHKnG8DqH1-pfxATCCgyRVrCechVtNZlbFM0vNDv8ui_hdM3GYeNAT0",
+                    "sortType": "establishedYearAsc"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sEl-c9DQgzJ_RfkhSsZBrTp1hpIOjF6_gyfZkHQ8Wt_HjoZbagCRr_yQJ56aHlqG4ff4NkMvxureeHBMzkhcWYIHKnG8DqH1-pfxATCCgyRVrCechVtNZlbFM0vNDv8ui_ZXQ7aFax7pk",
+                    "sortType": "establishedYearDesc"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sEl-c9DQgzJ_RfkhSsZBrTp1hpIOjF6_gyfZkHQ8Wt_HjoZbagCRr_yQJ56aHlqG4ff4NkMvxureeHBMzkhcWYIHKnG8DqH1-pfxATCCgyRVpSGVzyCMSgnN_pyDXnggkImJMAMWmGZc4",
+                    "sortType": "companyNameDesc"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sEl-c9DQgzJ_RfkhSsZBrTp1hpIOjF6_gyfZkHQ8Wt_HjoZbagCRr_yQJ56aHlqG4ff4NkMvxureeHBMzkhcWYIHKnG8DqH1-pfxATCCgyRVo6b1BXqt496LDdcMqkO2AMGlPGBjjiwOU",
+                    "sortType": "naceIndustryName"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sEl-c9DQgzJ_RfkhSsZBrTp1hpIOjF6_gyfZkHQ8Wt_HjoZbagCRr_yQJ56aHlqG4ff4NkMvxureeHBMzkhcWYIHKnG8DqH1-pfxATCCgyRVpSGVzyCMSgnKpxdnEYdRTL4pDUiswXyr8",
+                    "sortType": "companyTypeNameDesc"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sEl-c9DQgzJ_RfkhSsZBrTp1hpIOjF6_gyfZkHQ8Wt_HjoZbagCRr_yQJ56aHlqG4ff4NkMvxureeHBMzkhcWYIHKnG8DqH1-pfxATCCgyRVrQ4tJNotV18ItFXsuMEyEq",
+                    "sortType": "profitAsc"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sEl-c9DQgzJ_RfkhSsZBrTp1hpIOjF6_gyfZkHQ8Wt_HjoZbagCRr_yQJ56aHlqG4ff4NkMvxureeHBMzkhcWYIHKnG8DqH1-pfxATCCgyRVrQ4tJNotV18JT6u1cxO7AO",
+                    "sortType": "profitDesc"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sEl-c9DQgzJ_RfkhSsZBrTp1hpIOjF6_gyfZkHQ8Wt_HjoZbagCRr_yQJ56aHlqG4ff4NkMvxureeHBMzkhcWYIHKnG8DqH1-pfxATCCgyRVpyYBu6GZl8uDy5Cz1Pl851",
+                    "sortType": "relevance"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sEl-c9DQgzJ_RfkhSsZBrTp1hpIOjF6_gyfZkHQ8Wt_HjoZbagCRr_yQJ56aHlqG4ff4NkMvxureeHBMzkhcWYIHKnG8DqH1-pfxATCCgyRVqi7TpBouK9yfhG6BKs4bbN",
+                    "sortType": "postNumber"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sEl-c9DQgzJ_RfkhSsZBrTp1hpIOjF6_gyfZkHQ8Wt_HjoZbagCRr_yQJ56aHlqG4ff4NkMvxureeHBMzkhcWYIHKnG8DqH1-pfxATCCgyRVpNFYlHvl4t3Ky_S0lW8GrfbvhgqR5GlUE",
+                    "sortType": "foundationDateAsc"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sEl-c9DQgzJ_RfkhSsZBrTp1hpIOjF6_gyfZkHQ8Wt_HjoZbagCRr_yQJ56aHlqG4ff4NkMvxureeHBMzkhcWYIHKnG8DqH1-pfxATCCgyRVpNFYlHvl4t3Ky_S0lW8Grf452vRPPHu7k",
+                    "sortType": "foundationDateDesc"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sEl-c9DQgzJ_RfkhSsZBrTp1hpIOjF6_gyfZkHQ8Wt_HjoZbagCRr_yQJ56aHlqG4ff4NkMvxureeHBMzkhcWYIHKnG8DqH1-pfxATCCgyRVoe6UqXdVCC9NeLxC5UHDiYiS7vPcfnkcg",
+                    "sortType": "liquidationDateAsc"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sEl-c9DQgzJ_RfkhSsZBrTp1hpIOjF6_gyfZkHQ8Wt_HjoZbagCRr_yQJ56aHlqG4ff4NkMvxureeHBMzkhcWYIHKnG8DqH1-pfxATCCgyRVoe6UqXdVCC9NeLxC5UHDiYhn0Fudj8Nx4",
+                    "sortType": "liquidationDateDesc"
+                }
+            ],
+            "currentSort": "relevance"
+        },
+        "resultUri": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sEl-c9DQgzJ_RfkhSsZBrTp1hpIOjF6_gyfZkHQ8Wt_HjoZbagCRr_yQJ56aHlqG4ff4NkMvxureeHBMzkhcWYIHKnG8DqH1-pU4inh3nQikyxLp8Spxp3nlnQHWnlbjbu"
+    }
+}

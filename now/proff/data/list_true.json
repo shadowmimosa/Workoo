@@ -1,0 +1,749 @@
+{
+    "createListSearchResult": {
+        "resultList": [
+            {
+                "uri": "/selskap/aktiv-samfunnsutvikling-as/flatanger/-/998572150/",
+                "organisationNumber": "998 572 150",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Aviser, fagblader og tidsskrifter"
+                    },
+                    {
+                        "name": "Forlag"
+                    }
+                ],
+                "displayName": "Aktiv Samfunnsutvikling AS",
+                "revenue": "176",
+                "numberOfEmployees": "0",
+                "companyAccountsLastUpdatedDate": "2018",
+                "personRoles": [
+                    {
+                        "roleName": "Daglig leder",
+                        "person": {
+                            "name": "Hilde Tyldum Stordahl",
+                            "yearOfBirth": "1966"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/aqua-kompetanse-as/flatanger/-/982226163/",
+                "organisationNumber": "982 226 163",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Faglig, vitenskapelig og teknisk virksomhet"
+                    }
+                ],
+                "displayName": "Aqua Kompetanse AS",
+                "revenue": "36081",
+                "numberOfEmployees": "48",
+                "companyAccountsLastUpdatedDate": "2018",
+                "personRoles": [
+                    {
+                        "roleName": "Daglig leder",
+                        "person": {
+                            "name": "Alexander Strøm Lindseth",
+                            "yearOfBirth": "1981"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/bj%C3%B8r%C3%B8ya-as/flatanger/-/932186497/",
+                "organisationNumber": "932 186 497",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Akvakultur"
+                    },
+                    {
+                        "name": "Akvakultur - produksjon"
+                    }
+                ],
+                "displayName": "Bjørøya AS",
+                "revenue": "512554",
+                "numberOfEmployees": "77",
+                "companyAccountsLastUpdatedDate": "2018",
+                "personRoles": [
+                    {
+                        "roleName": "Daglig leder",
+                        "person": {
+                            "name": "Ståle Ruud",
+                            "yearOfBirth": "1962"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/canborn-lena-kristina/flatanger/-/981800737/",
+                "organisationNumber": "981 800 737",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Leger"
+                    },
+                    {
+                        "name": "Helsetjenester"
+                    }
+                ],
+                "displayName": "Canborn Lena Kristina",
+                "personRoles": [
+                    {
+                        "roleName": "Innehaver",
+                        "person": {
+                            "name": "Lena Kristina Canborn",
+                            "yearOfBirth": "1961"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/christian-hals/oppland/-/993419222/",
+                "organisationNumber": "993 419 222",
+                "postalAddress": {
+                    "postNumber": "7745",
+                    "postPlace": "Oppland"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Sauehold"
+                    },
+                    {
+                        "name": "Jordbruk"
+                    },
+                    {
+                        "name": "Jordbruk - oppdrett og husdyrhold"
+                    }
+                ],
+                "displayName": "Christian Hals",
+                "numberOfEmployees": "0",
+                "personRoles": [
+                    {
+                        "roleName": "Innehaver",
+                        "person": {
+                            "name": "Christian Hals",
+                            "yearOfBirth": "1987"
+                        }
+                    }
+                ]
+            },
+            {
+                "businessUnitId": "974 752 123",
+                "uri": "/selskap/den-norske-kirke-i-flatanger/flatanger/-/974752123/",
+                "organisationNumber": "818 066 872",
+                "postalAddress": {
+                    "postNumber": "0106",
+                    "postPlace": "Oslo"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Religiøse organisasjoner"
+                    },
+                    {
+                        "name": "Medlemsorganisasjoner"
+                    }
+                ],
+                "displayName": "Den Norske Kirke i Flatanger",
+                "numberOfEmployees": "1",
+                "mainOffice": {
+                    "uri": "/selskap/den-norske-kirke/-/-/818066872/",
+                    "proffIndustries": [],
+                    "displayName": "Den Norske Kirke"
+                },
+                "personRoles": []
+            },
+            {
+                "uri": "/selskap/dtu-q-da/flatanger/-/987567503/",
+                "organisationNumber": "987 567 503",
+                "postalAddress": {
+                    "postNumber": "7771",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "IT - annet"
+                    }
+                ],
+                "displayName": "Dtu Q,-)) DA",
+                "personRoles": [
+                    {
+                        "roleName": "Daglig leder",
+                        "person": {
+                            "name": "Kjell-Arild Ribsskog",
+                            "yearOfBirth": "1955"
+                        }
+                    }
+                ]
+            },
+            {
+                "businessUnitId": "986 511 814",
+                "uri": "/selskap/fagforbundet-flatanger/flatanger/-/986511814/",
+                "organisationNumber": "982 989 728",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Arbeidstakerorganisasjoner"
+                    },
+                    {
+                        "name": "Medlemsorganisasjoner"
+                    }
+                ],
+                "displayName": "Fagforbundet Flatanger",
+                "numberOfEmployees": "2",
+                "mainOffice": {
+                    "uri": "/selskap/fagforbundet-flatanger/-/-/982989728/",
+                    "proffIndustries": [],
+                    "displayName": "Fagforbundet Flatanger"
+                },
+                "personRoles": []
+            },
+            {
+                "uri": "/selskap/fagforbundet-flatanger/flatanger/-/982989728/",
+                "organisationNumber": "982 989 728",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Arbeidstakerorganisasjoner"
+                    },
+                    {
+                        "name": "Medlemsorganisasjoner"
+                    }
+                ],
+                "displayName": "Fagforbundet Flatanger",
+                "numberOfEmployees": "2",
+                "personRoles": [
+                    {
+                        "roleName": "Kontaktperson",
+                        "person": {
+                            "name": "Kristina Jakutiene",
+                            "yearOfBirth": "1979"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/flatanger-camping-og-ribsskog-g%C3%A5rd-vove-magne-ribsskog/flatanger/-/986151524/",
+                "organisationNumber": "986 151 524",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Hoteller og andre overnattingssteder"
+                    }
+                ],
+                "displayName": "Flatanger Camping og Ribsskog Gård V/Ove Magne Ribsskog",
+                "numberOfEmployees": "0",
+                "personRoles": [
+                    {
+                        "roleName": "Innehaver",
+                        "person": {
+                            "name": "Ove Magne Ribsskog",
+                            "yearOfBirth": "1964"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/flatanger-fjordcamp-as/flatanger/-/816294312/",
+                "organisationNumber": "816 294 312",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Hoteller og andre overnattingssteder"
+                    }
+                ],
+                "displayName": "Flatanger Fjordcamp AS",
+                "revenue": "0",
+                "companyAccountsLastUpdatedDate": "2018",
+                "personRoles": [
+                    {
+                        "roleName": "Daglig leder",
+                        "person": {
+                            "name": "Brigt Olav Lauvsnes",
+                            "yearOfBirth": "1966"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/flatanger-kommune/flatanger/-/845153272/",
+                "organisationNumber": "845 153 272",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Offentlig administrasjon"
+                    }
+                ],
+                "displayName": "Flatanger Kommune",
+                "numberOfEmployees": "329",
+                "personRoles": [
+                    {
+                        "roleName": "Daglig leder",
+                        "person": {
+                            "name": "Rune Strøm",
+                            "yearOfBirth": "1962"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/flatanger-kommune-oppvekst-og-kultur/flatanger/-/974766124/",
+                "organisationNumber": "974 766 124",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Offentlig administrasjon"
+                    }
+                ],
+                "displayName": "Flatanger Kommune Oppvekst og Kultur",
+                "numberOfEmployees": "125",
+                "mainOffice": {
+                    "uri": "/selskap/flatanger-kommune/-/-/845153272/",
+                    "proffIndustries": [],
+                    "displayName": "Flatanger Kommune"
+                },
+                "personRoles": [
+                    {
+                        "roleName": "Daglig leder",
+                        "person": {
+                            "name": "Rune Strøm",
+                            "yearOfBirth": "1962"
+                        }
+                    }
+                ]
+            },
+            {
+                "businessUnitId": "974 754 002",
+                "uri": "/selskap/flatanger-lensmannskontor/flatanger/-/974754002/",
+                "organisationNumber": "983 998 631",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Politi- og påtalemyndighet"
+                    }
+                ],
+                "displayName": "Flatanger Lensmannskontor",
+                "numberOfEmployees": "0",
+                "mainOffice": {
+                    "uri": "/selskap/tr%C3%B8ndelag-politidistrikt/-/-/983998631/",
+                    "proffIndustries": [],
+                    "displayName": "Trøndelag Politidistrikt"
+                },
+                "personRoles": []
+            },
+            {
+                "uri": "/selskap/flatanger-sokn/flatanger/-/976999673/",
+                "organisationNumber": "976 999 673",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Religiøse organisasjoner"
+                    },
+                    {
+                        "name": "Medlemsorganisasjoner"
+                    }
+                ],
+                "displayName": "Flatanger Sokn",
+                "numberOfEmployees": "0",
+                "personRoles": [
+                    {
+                        "roleName": "Daglig leder",
+                        "person": {
+                            "name": "Magne Martinus Bergslid",
+                            "yearOfBirth": "1963"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/flatanger-vei-og-brulag/nord-statland/-/990242755/",
+                "organisationNumber": "990 242 755",
+                "postalAddress": {
+                    "postNumber": "7777",
+                    "postPlace": "Nord-Statland"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Medlemsorganisasjoner"
+                    }
+                ],
+                "displayName": "Flatanger Vei- og Brulag",
+                "personRoles": [
+                    {
+                        "roleName": "Kontaktperson",
+                        "person": {
+                            "name": "Gry Hanssen",
+                            "yearOfBirth": "1975"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/frivillig-i-flatanger/flatanger/-/813353792/",
+                "organisationNumber": "813 353 792",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Medlemsorganisasjoner"
+                    }
+                ],
+                "displayName": "Frivillig i Flatanger",
+                "personRoles": [
+                    {
+                        "roleName": "Kontaktperson",
+                        "person": {
+                            "name": "Inger Karin Dahle",
+                            "yearOfBirth": "1961"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/gurid-halsvik/flatanger/-/994564242/",
+                "organisationNumber": "994 564 242",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Sauehold"
+                    },
+                    {
+                        "name": "Jordbruk"
+                    },
+                    {
+                        "name": "Jordbruk - oppdrett og husdyrhold"
+                    }
+                ],
+                "displayName": "Gurid Halsvik",
+                "personRoles": [
+                    {
+                        "roleName": "Innehaver",
+                        "person": {
+                            "name": "Gurid Marte Halsvik",
+                            "yearOfBirth": "1953"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/havretur-as/flatanger/-/913343085/",
+                "organisationNumber": "913 343 085",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Reparatører"
+                    },
+                    {
+                        "name": "Annet utstyr - reparasjon"
+                    }
+                ],
+                "displayName": "Havretur AS",
+                "revenue": "734",
+                "numberOfEmployees": "2",
+                "companyAccountsLastUpdatedDate": "2018",
+                "personRoles": [
+                    {
+                        "roleName": "Daglig leder",
+                        "person": {
+                            "name": "Dag Furuheim",
+                            "yearOfBirth": "1965"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/johan-lauvsnes/flatanger/-/984195524/",
+                "organisationNumber": "984 195 524",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Jordbruk"
+                    },
+                    {
+                        "name": "Jordbruk - dyrking og husdyrhold"
+                    }
+                ],
+                "displayName": "Johan Lauvsnes",
+                "numberOfEmployees": "5",
+                "personRoles": [
+                    {
+                        "roleName": "Innehaver",
+                        "person": {
+                            "name": "Johan Lauvsnes",
+                            "yearOfBirth": "1967"
+                        }
+                    }
+                ]
+            },
+            {
+                "uri": "/selskap/lars-m%C3%A5rvik/flatanger/-/994495984/",
+                "organisationNumber": "994 495 984",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Fiske"
+                    },
+                    {
+                        "name": "Hav- og kystfiske"
+                    },
+                    {
+                        "name": "Jordbruk"
+                    },
+                    {
+                        "name": "Jordbruk - dyrking"
+                    }
+                ],
+                "displayName": "Lars Mårvik",
+                "numberOfEmployees": "1",
+                "personRoles": [
+                    {
+                        "roleName": "Innehaver",
+                        "person": {
+                            "name": "Lars Edvard Mårvik",
+                            "yearOfBirth": "1969"
+                        }
+                    }
+                ]
+            },
+            {
+                "businessUnitId": "976 247 590",
+                "uri": "/selskap/lauvsnes-tannklinikk/flatanger/-/976247590/",
+                "organisationNumber": "920 057 071",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Tannhelse"
+                    },
+                    {
+                        "name": "Helsetjenester"
+                    }
+                ],
+                "displayName": "Lauvsnes Tannklinikk",
+                "numberOfEmployees": "0",
+                "mainOffice": {
+                    "uri": "/selskap/tr%C3%B8ndelag-fylkeskommune-tannhelsetjeneste/-/-/920057071/",
+                    "proffIndustries": [],
+                    "displayName": "Trøndelag Fylkeskommune Tannhelsetjeneste"
+                },
+                "personRoles": []
+            },
+            {
+                "uri": "/selskap/masstua-da/flatanger/-/985883025/",
+                "organisationNumber": "985 883 025",
+                "postalAddress": {
+                    "postNumber": "7770",
+                    "postPlace": "Flatanger"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Butikkhandel"
+                    },
+                    {
+                        "name": "Butikkhandel - annet"
+                    }
+                ],
+                "displayName": "Masstua DA",
+                "personRoles": [
+                    {
+                        "roleName": "Kontaktperson",
+                        "person": {
+                            "name": "Aase Kristin Aagård Mårvik",
+                            "yearOfBirth": "1969"
+                        }
+                    }
+                ]
+            },
+            {
+                "businessUnitId": "923 058 982",
+                "uri": "/selskap/midt-norsk-kystservice-as-konkursbo/flatanger/-/923058982/",
+                "organisationNumber": "923 058 958",
+                "postalAddress": {
+                    "postNumber": "7800",
+                    "postPlace": "Namsos"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Akvakultur"
+                    },
+                    {
+                        "name": "Akvakultur - tjenester"
+                    }
+                ],
+                "displayName": "Midt Norsk Kystservice AS Konkursbo",
+                "mainOffice": {
+                    "uri": "/selskap/midt-norsk-kystservice-as-konkursbo/-/-/923058958/",
+                    "proffIndustries": [],
+                    "displayName": "Midt Norsk Kystservice AS Konkursbo"
+                },
+                "personRoles": []
+            },
+            {
+                "uri": "/selskap/midt-norsk-kystservice-as-konkursbo/flatanger/-/923058958/",
+                "organisationNumber": "923 058 958",
+                "postalAddress": {
+                    "postNumber": "7800",
+                    "postPlace": "Namsos"
+                },
+                "proffIndustries": [
+                    {
+                        "name": "Akvakultur"
+                    },
+                    {
+                        "name": "Akvakultur - tjenester"
+                    }
+                ],
+                "displayName": "Midt Norsk Kystservice AS Konkursbo",
+                "personRoles": [
+                    {
+                        "roleName": "Bobestyrer",
+                        "person": {
+                            "name": "Hege Bjørgum Skillingstad",
+                            "yearOfBirth": "1968"
+                        }
+                    }
+                ]
+            }
+        ],
+        "filterGroups": [
+            {
+                "displayName": "samplerFilter",
+                "filters": []
+            }
+        ],
+        "pagination": {
+            "next": {
+                "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sE1Q2UBA3XEOwk-ffGdqc2vndvI45FA8C5tG6gQbsikXImHgcjgDdhaq6kj4TOC7TvpKKINtE1sGquLAfT_m1NoU1q-CgFaNHricbVxKR6wBus2zC95hoj6XildOOOrbfP3tehVWBdUpIo-u1hnuonwfAeGz4FqzzSyssCIATjEaJAlbNz5lLSg155V_9c-xTtPJX-NZVYfG0"
+            },
+            "currentPage": 1
+        },
+        "totalHits": 46,
+        "sorting": {
+            "sorts": [
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sE1Q2UBA3XEOwk-ffGdqc2vndvI45FA8C5tG6gQbsikXImHgcjgDdhaq6kj4TOC7TvpKKINtE1sGquLAfT_m1NoU1q-CgFaNHricbVxKR6wBus2zC95hoj6XildOOOrbfP3tehVWBdUpIo-u1hnuonwfAeGz4FqzzSyssCIATjEaJAlbNz5lLSg-PtV9_WwSE8B-gLwlqT4aZgYCFrEO594g",
+                    "sortType": "numEmployeesAsc"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sE1Q2UBA3XEOwk-ffGdqc2vndvI45FA8C5tG6gQbsikXImHgcjgDdhaq6kj4TOC7TvpKKINtE1sGquLAfT_m1NoU1q-CgFaNHricbVxKR6wBus2zC95hoj6XildOOOrbfP3tehVWBdUpIo-u1hnuonwfAeGz4FqzzSyssCIATjEaJAlbNz5lLSg-PtV9_WwSE8B-gLwlqT4ablISgRDlk99bn5uSovaZ70",
+                    "sortType": "numEmployeesDesc"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sE1Q2UBA3XEOwk-ffGdqc2vndvI45FA8C5tG6gQbsikXImHgcjgDdhaq6kj4TOC7TvpKKINtE1sGquLAfT_m1NoU1q-CgFaNHricbVxKR6wBus2zC95hoj6XildOOOrbfP3tehVWBdUpIo-u1hnuonwfAeGz4FqzzSyssCIATjEaJAlbNz5lLSg-PtV9_WwSE8cGJzJEchqwIWPexepdLv5A",
+                    "sortType": "revenueAsc"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sE1Q2UBA3XEOwk-ffGdqc2vndvI45FA8C5tG6gQbsikXImHgcjgDdhaq6kj4TOC7TvpKKINtE1sGquLAfT_m1NoU1q-CgFaNHricbVxKR6wBus2zC95hoj6XildOOOrbfP3tehVWBdUpIo-u1hnuonwfAeGz4FqzzSyssCIATjEaJAlbNz5lLSg-PtV9_WwSE8XiRHjsj0FqOYkwAxaYZlzg",
+                    "sortType": "revenueDesc"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sE1Q2UBA3XEOwk-ffGdqc2vndvI45FA8C5tG6gQbsikXImHgcjgDdhaq6kj4TOC7TvpKKINtE1sGquLAfT_m1NoU1q-CgFaNHricbVxKR6wBus2zC95hoj6XildOOOrbfP3tehVWBdUpIo-u1hnuonwfAeGz4FqzzSyssCIATjEaJAlbNz5lLSg-PtV9_WwSE8KoZw-mCGFjL0tONZJ5cDqxY97F6l0u_k",
+                    "sortType": "establishedYearAsc"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sE1Q2UBA3XEOwk-ffGdqc2vndvI45FA8C5tG6gQbsikXImHgcjgDdhaq6kj4TOC7TvpKKINtE1sGquLAfT_m1NoU1q-CgFaNHricbVxKR6wBus2zC95hoj6XildOOOrbfP3tehVWBdUpIo-u1hnuonwfAeGz4FqzzSyssCIATjEaJAlbNz5lLSg-PtV9_WwSE8KoZw-mCGFjIWbnLAfF0UOZiTADFphmXO",
+                    "sortType": "establishedYearDesc"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sE1Q2UBA3XEOwk-ffGdqc2vndvI45FA8C5tG6gQbsikXImHgcjgDdhaq6kj4TOC7TvpKKINtE1sGquLAfT_m1NoU1q-CgFaNHricbVxKR6wBus2zC95hoj6XildOOOrbfP3tehVWBdUpIo-u1hnuonwfAeGz4FqzzSyssCIATjEaJAlbNz5lLSg-PtV9_WwSE8zwD6JqrLI7DikNSKzBfKvw",
+                    "sortType": "companyNameDesc"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sE1Q2UBA3XEOwk-ffGdqc2vndvI45FA8C5tG6gQbsikXImHgcjgDdhaq6kj4TOC7TvpKKINtE1sGquLAfT_m1NoU1q-CgFaNHricbVxKR6wBus2zC95hoj6XildOOOrbfP3tehVWBdUpIo-u1hnuonwfAeGz4FqzzSyssCIATjEaJAlbNz5lLSg-PtV9_WwSE8OuVMRfekPDvOrBlvW2xvWbn5uSovaZ70",
+                    "sortType": "naceIndustryName"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sE1Q2UBA3XEOwk-ffGdqc2vndvI45FA8C5tG6gQbsikXImHgcjgDdhaq6kj4TOC7TvpKKINtE1sGquLAfT_m1NoU1q-CgFaNHricbVxKR6wBus2zC95hoj6XildOOOrbfP3tehVWBdUpIo-u1hnuonwfAeGz4FqzzSyssCIATjEaJAlbNz5lLSg-PtV9_WwSE8GJeseXH5CMUc-gwpIxV6cpiTADFphmXO",
+                    "sortType": "companyTypeNameDesc"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sE1Q2UBA3XEOwk-ffGdqc2vndvI45FA8C5tG6gQbsikXImHgcjgDdhaq6kj4TOC7TvpKKINtE1sGquLAfT_m1NoU1q-CgFaNHricbVxKR6wBus2zC95hoj6XildOOOrbfP3tehVWBdUpIo-u1hnuonwfAeGz4FqzzSyssCIATjEaJAlbNz5lLSg-PtV9_WwSE8FfLROq4R4zG1hac7pvdjpA",
+                    "sortType": "profitAsc"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sE1Q2UBA3XEOwk-ffGdqc2vndvI45FA8C5tG6gQbsikXImHgcjgDdhaq6kj4TOC7TvpKKINtE1sGquLAfT_m1NoU1q-CgFaNHricbVxKR6wBus2zC95hoj6XildOOOrbfP3tehVWBdUpIo-u1hnuonwfAeGz4FqzzSyssCIATjEaJAlbNz5lLSg-PtV9_WwSE8aM20fy2zxPsWPexepdLv5A",
+                    "sortType": "profitDesc"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sE1Q2UBA3XEOwk-ffGdqc2vndvI45FA8C5tG6gQbsikXImHgcjgDdhaq6kj4TOC7TvpKKINtE1sGquLAfT_m1NoU1q-CgFaNHricbVxKR6wBus2zC95hoj6XildOOOrbfP3tehVWBdUpIo-u1hnuonwfAeGz4FqzzSyssCIATjEaJAlbNz5lLSg-PtV9_WwSE8sCRiISgkms8NRL1xuD8kvQ",
+                    "sortType": "relevance"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sE1Q2UBA3XEOwk-ffGdqc2vndvI45FA8C5tG6gQbsikXImHgcjgDdhaq6kj4TOC7TvpKKINtE1sGquLAfT_m1NoU1q-CgFaNHricbVxKR6wBus2zC95hoj6XildOOOrbfP3tehVWBdUpIo-u1hnuonwfAeGz4FqzzSyssCIATjEaJAlbNz5lLSg-PtV9_WwSE8u-g6uCjhG3jmwM6CTXBrOg",
+                    "sortType": "postNumber"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sE1Q2UBA3XEOwk-ffGdqc2vndvI45FA8C5tG6gQbsikXImHgcjgDdhaq6kj4TOC7TvpKKINtE1sGquLAfT_m1NoU1q-CgFaNHricbVxKR6wBus2zC95hoj6XildOOOrbfP3tehVWBdUpIo-u1hnuonwfAeGz4FqzzSyssCIATjEaJAlbNz5lLSg-PtV9_WwSE8AQfnWpMJjKAmDPqCHTUbv7WFpzum92Ok",
+                    "sortType": "foundationDateAsc"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sE1Q2UBA3XEOwk-ffGdqc2vndvI45FA8C5tG6gQbsikXImHgcjgDdhaq6kj4TOC7TvpKKINtE1sGquLAfT_m1NoU1q-CgFaNHricbVxKR6wBus2zC95hoj6XildOOOrbfP3tehVWBdUpIo-u1hnuonwfAeGz4FqzzSyssCIATjEaJAlbNz5lLSg-PtV9_WwSE8AQfnWpMJjKAUHEm6rrs_yxY97F6l0u_k",
+                    "sortType": "foundationDateDesc"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sE1Q2UBA3XEOwk-ffGdqc2vndvI45FA8C5tG6gQbsikXImHgcjgDdhaq6kj4TOC7TvpKKINtE1sGquLAfT_m1NoU1q-CgFaNHricbVxKR6wBus2zC95hoj6XildOOOrbfP3tehVWBdUpIo-u1hnuonwfAeGz4FqzzSyssCIATjEaJAlbNz5lLSg-PtV9_WwSE8PAwvX3-027jTy7ZyFK8H7RY97F6l0u_k",
+                    "sortType": "liquidationDateAsc"
+                },
+                {
+                    "href": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sE1Q2UBA3XEOwk-ffGdqc2vndvI45FA8C5tG6gQbsikXImHgcjgDdhaq6kj4TOC7TvpKKINtE1sGquLAfT_m1NoU1q-CgFaNHricbVxKR6wBus2zC95hoj6XildOOOrbfP3tehVWBdUpIo-u1hnuonwfAeGz4FqzzSyssCIATjEaJAlbNz5lLSg-PtV9_WwSE8PAwvX3-027gT2bqOeKCQl5iTADFphmXO",
+                    "sortType": "liquidationDateDesc"
+                }
+            ],
+            "currentSort": "relevance"
+        },
+        "resultUri": "YLoFmCo_zvNZxJID58xbvPRqRxqIbXMs7BCyqkVCzBjO4NYWIKrSWsh83eNLR2sE1Q2UBA3XEOwk-ffGdqc2vndvI45FA8C5tG6gQbsikXImHgcjgDdhaq6kj4TOC7TvpKKINtE1sGquLAfT_m1NoU1q-CgFaNHricbVxKR6wBus2zC95hoj6XildOOOrbfP3tehVWBdUpIo-u1hnuonwfAeGz4FqzzSyssCIATjEaJAlbNz5lLSg155V_9c-xTtXseazkypjok"
+    }
+}
