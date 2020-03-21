@@ -127,18 +127,35 @@ class DealRecord(object):
         if len(exist_list) > 0:
             self.info['包含行业关键字'] = '\n'.join(set(exist_list))
 
-    def deal_trade(self, content: str):
+    def deal_trade(self, content: list):
+        keyword = []
 
-        # if self.is_trade is None:
-        for trade in self.trade_list.keys():
-            if trade in content:
-                self.is_trade = True
-                self.trade_list[trade] += 1
+        for item in content:
+            if item['person'] != self.staff:
+                continue
 
-    def deal_irrelevant(self, content: str):
-        for trade in self.irrelevant.keys():
-            if trade in content:
-                self.irrelevant[trade] += 1
+            for trade in self.trade_list:
+                if trade in item['text'] and trade not in keyword:
+                    keyword.append(trade)
+
+        for trade in keyword:
+            self.is_trade = True
+            self.trade_list[trade] += 1
+
+    def deal_irrelevant(self, content: list):
+        keyword = []
+
+        for item in content:
+            if item['person'] != self.staff:
+                continue
+
+            for trade in self.irrelevant:
+                if trade in item['text'] and trade not in keyword:
+                    keyword.append(trade)
+
+        for trade in keyword:
+            self.is_trade = True
+            self.irrelevant[trade] += 1
 
     def tourist(self, date: str):
         self.tourist_second = 60
@@ -217,8 +234,6 @@ class DealRecord(object):
                         self.info['回复时间（秒）'] = time_diff
 
                     print(convert_timedelta(time_diff))
-                self.deal_irrelevant(item['text'])
-                self.deal_trade(item['text'])
                 sign = 1
             elif item['person'] == self.info['客户ID']:
                 record_time = str2time(item['time'])
@@ -242,8 +257,6 @@ class DealRecord(object):
                         self.info['回复时间（秒）'] = time_diff
 
                     print(convert_timedelta(time_diff))
-                self.deal_irrelevant(item['text'])
-                self.deal_trade(item['text'])
                 sign = 1
 
         if self.info.get('包含行业关键字') is None:
@@ -296,6 +309,8 @@ class DealRecord(object):
                 continue
 
             self.ending_skill(value)
+            self.deal_trade(value)
+            self.deal_irrelevant(value)
             self.tourist(value[0]['time'])
             self.deal_time(value)
 
