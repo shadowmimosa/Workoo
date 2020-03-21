@@ -68,15 +68,16 @@ class DealProff(object):
             path = f'{self.domain}/laglister/{page}/?view=json'
         else:
             self.category = l
-            path = f'https://www.proff.no/laglister?l={self.category}&phone=true&email=true&address=true&view=json'
+            path = f'https://www.proff.no/laglister?l={self.category}&phone=false&email=false&address=false&view=json'
 
-        resp = run_func(self.req, path, self.header)
+        resp = run_func(self.req, path, header=self.header)
         if isinstance(resp, int):
             logger.error(f'{self.category} - {resp}')
             return
         data = json.loads(resp)
 
         for result in data['createListSearchResult']['resultList']:
+            # continue
             run_func(self.company_detail, result.get('uri'))
 
         nextpage = data.get('createListSearchResult').get('pagination').get(
@@ -138,7 +139,7 @@ def main():
         results = json.loads(fn.read())
 
     spider = DealProff()
-    for result in results:    
+    for result in results:
         spider.run(result)
 
 
