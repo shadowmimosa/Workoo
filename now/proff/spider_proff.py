@@ -1,4 +1,5 @@
 import json
+import threading
 from urllib import parse
 from config import MONGO
 from utils.run import run_func
@@ -6,6 +7,7 @@ from pymongo import MongoClient
 from utils.soup import DealSoup
 from utils.request import Query
 from utils.log import logger
+from concurrent.futures import ThreadPoolExecutor
 
 
 def clean(content: str):
@@ -32,7 +34,16 @@ class MongoOpea(object):
 
     def insert(self, data):
         data = {clean(key): clean(data[key]) for key in data}
-        self.mongo.insert_one(data)
+        result = self.mongo.insert_one(data)
+        return result.inserted_id
+
+
+def yield_id():
+    with open('./data/need_title.json', 'r', encoding='utf-8') as fn:
+        data = json.loads(fn.read())
+
+    for _id in data:
+        yield _id
 
 
 class DealProff(object):
@@ -40,7 +51,6 @@ class DealProff(object):
         self.req = Query().run
         self.soup = DealSoup().judge
         self.domain = 'https://www.proff.no'
-        self._id = self.yield_id()
         self.header = {
             'User-Agent':
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36',
@@ -53,30 +63,27 @@ class DealProff(object):
         }
         super().__init__()
 
-    def yield_id(self):
-        with open('./data/need_title.json', 'r', encoding='utf-8') as fn:
-            data = json.loads(fn.read())
-
-        for _id in data:
-            yield _id
-
-    def company_list(self, l=None):
+    def company_list(self, l=None, page=None):
         if l is None:
-            self.category = next(self._id)
-            path = f'https://www.proff.no/laglister?l={self.category}&phone=true&email=true&address=true&view=json'
+            path = f'{self.domain}/laglister/{page}/?view=json'
         else:
-            path = f'{self.domain}/{l}'
+            self.category = l
+            path = f'https://www.proff.no/laglister?l={self.category}&phone=true&email=true&address=true&view=json'
+
         resp = run_func(self.req, path, self.header)
+        if isinstance(resp, int):
+            logger.error(f'{self.category} - {resp}')
+            return
         data = json.loads(resp)
 
         for result in data['createListSearchResult']['resultList']:
             run_func(self.company_detail, result.get('uri'))
 
         nextpage = data.get('createListSearchResult').get('pagination').get(
-            'next').get('href')
+            'next')
 
         if nextpage:
-            run_func(self.company_list, nextpage)
+            run_func(self.company_list, page=nextpage.get('href'))
 
     def company_detail(self, uri):
         info = {}
@@ -85,6 +92,8 @@ class DealProff(object):
         resp = self.req(f'{self.domain}{uri}', header=self.header)
         if isinstance(resp, str):
             info['real_uri'] = resp
+            if isinstance(resp, int):
+                logger.error(f'{self.category} - {resp}')
             resp = self.req(resp, header=self.header)
 
         contents = self.soup(resp, {'class': 'content definition-list'},
@@ -92,20 +101,36 @@ class DealProff(object):
 
         for content in contents:
             for li in self.soup(content, 'li', all_tag=True):
-                info[self.soup(li, 'em').text] = self.soup(li, 'span').text
+                em = self.soup(li, 'em')
+                span = self.soup(li, 'span')
+                if em and span:
+                    info[em.text] = span.text
 
-        run_func(mongo.insert, info)
+        result = run_func(mongo.insert, info)
+        logger.info(f'已添加 - {result}')
 
-    def run(self):
-        while True:
-            try:
-                self.company_list()
-            except StopIteration:
-                break
-            except Exception as exc:
-                logger.error(f'1 - {exc}')
-            else:
-                logger.info(f'已完成 - {self.category}')
+    def run(self, l):
+        logger.info(f'{threading.currentThread().name} - 开始 - {l}')
+
+        try:
+            self.company_list(l)
+        except Exception as exc:
+            logger.error(f'1 - {exc}')
+        else:
+            logger.info(f'已完成 - {self.category}')
+
+
+def multi_thread():
+    spider = DealProff()
+    with open('./data/need_title.json', 'r', encoding='utf-8') as fn:
+        results = json.loads(fn.read())
+
+    with ThreadPoolExecutor(max_workers=5) as executor:
+        try:
+            for result in executor.map(spider.run, results):
+                pass
+        except Exception as exc:
+            print(exc)
 
 
 def main():
@@ -116,4 +141,5 @@ def main():
 mongo = MongoOpea()
 
 if __name__ == "__main__":
-    main()
+    # main()
+    multi_thread()
