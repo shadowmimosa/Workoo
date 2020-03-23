@@ -1,6 +1,13 @@
+import os
 import bs4
-import requests
+import time
+import logging
+import concurrent_log
+from concurrent_log import ConcurrentTimedRotatingFileHandler
+from concurrent_log_handler import ConcurrentRotatingFileHandler
 from bs4 import BeautifulSoup
+from multiprocessing_logging import install_mp_handler
+from logging.handlers import RotatingFileHandler, TimedRotatingFileHandler, BaseRotatingHandler
 
 
 class DealSoup(object):
@@ -46,6 +53,35 @@ class DealSoup(object):
             return self.find_tag()
 
 
+def init_log():
+
+    logger = logging.getLogger(__name__)
+    logger.propagate = False
+    logger.setLevel(level=logging.INFO)
+    if not logger.handlers:
+        try:
+            handler = TimedRotatingFileHandler("./log/run.log",
+                                               "D",
+                                               backupCount=100,
+                                               encoding='utf-8')
+        except FileNotFoundError as exc:
+            os.makedirs("./log/")
+            return init_log()
+
+        handler.setLevel(logging.DEBUG)
+        formatter = logging.Formatter(
+            '%(asctime)s - %(funcName)s - %(levelname)s - %(message)s')
+        handler.setFormatter(formatter)
+
+        console = logging.StreamHandler()
+        console.setLevel(logging.INFO)
+
+        logger.addHandler(handler)
+        logger.addHandler(console)
+
+    return logger
+
+
 def remove_charater(content: str):
     return content.replace('\n', '').replace('\t',
                                              '').replace('\r',
@@ -53,3 +89,4 @@ def remove_charater(content: str):
 
 
 soup = DealSoup().judge
+logger = init_log()

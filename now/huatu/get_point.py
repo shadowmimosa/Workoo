@@ -29,6 +29,37 @@ def extract(content):
     return data
 
 
+class GetPoint(object):
+    def __init__(self, content):
+        self.need = []
+        self.get_all(content)
+        super().__init__()
+
+    def get_all(self, content):
+        if content.get('child') is None:
+            for key in content:
+                self.get_all(content[key])
+
+        elif not content.get('child'):
+            self.need.append(content.get('point'))
+        else:
+            self.get_all(content.get('child'))
+
+
+def to_list():
+    with open('./data/points.json', 'r', encoding='utf-8') as fn:
+        data = json.loads(fn.read())
+
+    kindname = '事业单位考试'
+    # kindname = '公务员行测'
+    data.pop('公务员行测')
+    # data = data.pop(kindname)
+    points = set(GetPoint(data).need)
+
+    with open('./point.json', 'w', encoding='utf-8') as fn:
+        fn.write(json.dumps(list(points)))
+
+
 def main():
     data = {}
     dirpath = './data/html/'
@@ -49,4 +80,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # main()
+    to_list()

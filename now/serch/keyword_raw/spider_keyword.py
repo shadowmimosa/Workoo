@@ -1,15 +1,18 @@
 import os
 import time
+import random
 import pyodbc
 import hashlib
 import urllib3
 import datetime
 import requests
+import concurrent
+import threading
 from http import cookiejar
 from configparser import ConfigParser
-from multiprocessing import Pool, freeze_support
-
-from utils.common import soup, remove_charater
+from concurrent.futures import ThreadPoolExecutor
+from multiprocessing import Pool, freeze_support, current_process
+from utils.common import soup, logger, remove_charater
 
 
 class Mssql(object):
@@ -39,8 +42,9 @@ class Mssql(object):
 
 
 def clean_url(content: str):
-    return content.replace('http://', '').replace('https://',
-                                                  '').replace('www.', '')
+    if isinstance(content, str):
+        return content.replace('http://', '').replace('https://',
+                                                      '').replace('www.', '')
 
 
 def to_mssql(item):
@@ -77,6 +81,25 @@ def get_type(site):
         return 2
 
 
+def get_ua(mobile=False):
+    if mobile:
+        return random.choice([
+            'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-cn; BLA-AL00 Build/HUAWEIBLA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.9 Mobile Safari/537.36',
+            'Mozilla/5.0 (Linux; Android 6.0.1; OPPO A57 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.83 Mobile Safari/537.36 T7/10.13 baiduboxapp/10.13.0.10 (Baidu; P1 6.0.1)',
+            'Mozilla/5.0 (iPhone 92; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.0 MQQBrowser/7.7.2 Mobile/14F89 Safari/8536.25 MttCustomUA/2 QBWebViewType/1 WKType/1',
+            'Mozilla/4.0 (compatible; MSIE 6.0; ) Opera/UCWEB7.0.2.37/28/999'
+        ])
+    else:
+        return random.choice([
+            'Mozilla/5.0 (Windows NT 6.1; rv,2.0.1) Gecko/20100101 Firefox/4.0.1',
+            'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50',
+            'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; 360SE)',
+            'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4094.1 Safari/537.36',
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11',
+            'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0;'
+        ])
+
+
 def made_secret():
     timestamp = int(time.time())
     orderno = CONFIG.get("Proxy", "orderno")
@@ -88,13 +111,15 @@ def made_secret():
 
 
 class Keyword(object):
-    def __init__(self):
+    def __init__(self, keyword, domain, domain1):
         self.init_session()
         self.proxy = {
             "http": "http://dynamic.xiongmaodaili.com:8088",
             "https": "http://dynamic.xiongmaodaili.com:8088"
         }
-
+        self.keyword = keyword
+        self.domain = clean_url(domain)
+        self.domain1 = clean_url(domain1)
         super().__init__()
 
     def init_session(self):
@@ -106,20 +131,18 @@ class Keyword(object):
 
     def set_cookies(self, site):
         if site == 'baidu':
-            self.session.cookies = self._request(
-                'https://www.baidu.com/').cookies
             self.session.headers = {
                 'Accept': '*/*',
-                "User-Agent":
-                'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36',
+                "User-Agent": get_ua(),
                 'Accept-Encoding': 'gzip, deflate, br',
                 'Accept-Language': 'zh-CN,zh;q=0.9'
             }
+            self.session.cookies = self._request(
+                'https://www.baidu.com/').cookies
         elif site == 'mbaidu':
             self.session.headers = {
                 'Accept': '*/*',
-                "User-Agent":
-                'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+                "User-Agent": get_ua(True),
                 'Accept-Encoding': 'gzip, deflate, br',
                 'Accept-Language': 'zh-CN,zh;q=0.9'
             }
@@ -128,15 +151,13 @@ class Keyword(object):
         elif site == 'so':
             self.session.headers = {
                 'Accept': '*/*',
-                "User-Agent":
-                'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36',
+                "User-Agent": get_ua(),
                 'Accept-Encoding': 'gzip, deflate, br',
                 'Accept-Language': 'zh-CN,zh;q=0.9'
             }
-            # self.session.cookies = self._request('https://www.so.com/').cookies
             self.session.cookies = cookiejar.CookieJar()
 
-        if self.proxy:
+        if PROXY:
             self.session.headers.update({'Proxy-Authorization': made_secret()})
 
     def _request(self, path):
@@ -146,13 +167,18 @@ class Keyword(object):
             proxy = None
         retry_count = 5
         while retry_count > 0:
+            logger.info(
+                f'{threading.currentThread().name} - 开始第 {6 - retry_count} 次尝试'
+            )
             try:
-                resp = self.session.get(path, proxies=proxy)
+                resp = self.session.get(path, proxies=proxy, timeout=(5, 20))
             except Exception as exc:
                 retry_count -= 1
-                print(exc)
+                logger.error(
+                    f'{threading.currentThread().name} - 错误信息 - {exc}')
             else:
                 if resp.status_code == 200:
+                    resp.encoding = resp.apparent_encoding
                     text = resp.text
                     if '百度安全验证' in text or '360搜索_访问异常出错' in text:
                         retry_count -= 1
@@ -163,12 +189,18 @@ class Keyword(object):
         else:
             return '请求异常'
 
-    def baidu(self, keyword: str, domain: str):
+    def judge_exist(self, content):
+        if self.domain in content or self.domain1 and self.domain1 in content:
+            return True
+        else:
+            return False
+
+    def baidu(self):
         result = []
         if SITES['baidu'] <= 0:
             return
         for page in range(SITES['baidu']):
-            path = f'https://www.baidu.com/s?ie=utf-8&mod=1&wd={keyword}&pn={page*10}'
+            path = f'https://www.baidu.com/s?ie=utf-8&mod=1&wd={self.keyword}&pn={page*10}'
             resp = self._request(path)
             if isinstance(resp, str):
                 return False, resp
@@ -180,8 +212,7 @@ class Keyword(object):
                 if not url_obj:
                     continue
                 url = url_obj.text
-                # domain = 'baidu.com'
-                if domain in url:
+                if self.judge_exist(url):
                     result.append(str(page * 10 + index + 1))
 
         if not result:
@@ -189,12 +220,12 @@ class Keyword(object):
         else:
             return True, 'baidu-' + ','.join(result)
 
-    def mbaidu(self, keyword: str, domain: str):
+    def mbaidu(self):
         result = []
         if SITES['mbaidu'] <= 0:
             return
         for page in range(SITES['mbaidu']):
-            path = f'https://m.baidu.com/s?pn={page*10}&usm=9&word={keyword}'
+            path = f'https://m.baidu.com/s?pn={page*10}&usm=9&word={self.keyword}'
             resp = self._request(path)
             if isinstance(resp, str):
                 return False, resp
@@ -204,7 +235,7 @@ class Keyword(object):
 
             for index, container in enumerate(containers):
                 url = container.text
-                if domain in url:
+                if self.judge_exist(url):
                     result.append(str(page * 10 + index + 1))
 
         if not result:
@@ -212,13 +243,13 @@ class Keyword(object):
         else:
             return True, 'mbaidu-' + ','.join(result)
 
-    def so(self, keyword: str, domain: str):
+    def so(self):
         result = []
         if SITES['so'] <= 0:
             return
         for page in range(1, SITES['so'] + 1):
             self.set_cookies('so')
-            path = f'https://www.so.com/s?q={keyword}&pn={page}'
+            path = f'https://www.so.com/s?q={self.keyword}&pn={page}'
             resp = self._request(path)
             if isinstance(resp, str):
                 return False, resp
@@ -226,7 +257,7 @@ class Keyword(object):
                               all_tag=True)
             for index, container in enumerate(containers):
                 url = container.cite.text
-                if domain in url:
+                if self.judge_exist(url):
                     result.append(str(page * 10 + index + 1))
 
         if not result:
@@ -237,12 +268,14 @@ class Keyword(object):
 
 def detail(item: tuple):
     result_str = []
+    keyword = item[2]
+    query = Keyword(keyword, clean_url(item[10]), clean_url(item[11]))
+
     for site in SITES:
-        query = Keyword()
         query.set_cookies(site)
-        domain = clean_url(item[10])
-        keyword = item[2]
-        command = f'query.{site}(keyword, domain)'
+        command = f'query.{site}()'
+        logger.info(
+            f'{threading.currentThread().name} - 开始处理 {keyword} - {site}')
         status, result = eval(command)
         result_str.append(result)
         if status:
@@ -253,10 +286,14 @@ def detail(item: tuple):
                 'sstype': get_type(site),
                 'paiming': result.split('-')[-1]
             })
-        print(result)
+        logger.info(
+            f'{threading.currentThread().name} - {keyword} - {site} - {result}'
+        )
     MSSQL.update('|'.join(result_str), item[0])
 
-    time.sleep(int(CONFIG.get('Sleep','second')))
+    time.sleep(int(CONFIG.get('Sleep', 'second')))
+
+    return threading.currentThread().name, item[2]
 
 
 def single(results):
@@ -276,6 +313,19 @@ def multi(results):
     pool.join()
 
 
+def multi_thread(results):
+
+    with ThreadPoolExecutor(
+            max_workers=int(CONFIG.get('Process', 'num'))) as executor:
+        try:
+            for thead, future in executor.map(detail, results, timeout=300):
+                logger.info(f'{thead} - {future} - 处理完成')
+        except concurrent.futures.TimeoutError:
+            logger.info(f'{threading.currentThread().name} - 处理超时')
+        except Exception as exc:
+            logger.error(f'{threading.currentThread().name} - 处理异常 - {exc} ')
+
+
 def main():
     while True:
         results = MSSQL.select()
@@ -283,7 +333,11 @@ def main():
             time.sleep(300)
         else:
             # single(results)
-            multi(results)
+            # multi(results)
+            try:
+                multi_thread(results)
+            except Exception as exc:
+                logger.error(f'Multi is wrong - {exc}')
 
 
 CONFIG = ConfigParser()
