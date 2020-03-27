@@ -7,7 +7,7 @@
 block_cipher = pyi_crypto.PyiBlockCipher(key='Shadow@Win0070&04')
 
 a = Analysis(
-    ['main.py'],
+    ['main_v2.py'],
     pathex=[
         'C:\\Users\\ShadowMimosa\\Documents\\Repos\\Workoo\\now\\win007'
     ],
@@ -29,7 +29,7 @@ exe = EXE(pyz,
           a.binaries,
           a.zipfiles,
           a.datas, [],
-          name='win007',
+          name='win007_v3',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,
