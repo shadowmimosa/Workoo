@@ -224,7 +224,7 @@ def main():
     result = total.final()
     detail = {}
     detail['国家'] = current
-    detail['联赛'] = current
+    detail['联赛'] = match
     detail['球队'] = team
     detail['比分'] = score
     detail['总次数'] = result[0]
