@@ -3,10 +3,11 @@ import bs4
 import time
 import logging
 import concurrent_log
-from concurrent_log import ConcurrentTimedRotatingFileHandler
-from concurrent_log_handler import ConcurrentRotatingFileHandler
+from chardet import detect
 from bs4 import BeautifulSoup
 from multiprocessing_logging import install_mp_handler
+from concurrent_log_handler import ConcurrentRotatingFileHandler
+from concurrent_log import ConcurrentTimedRotatingFileHandler
 from logging.handlers import RotatingFileHandler, TimedRotatingFileHandler, BaseRotatingHandler
 
 
@@ -144,6 +145,13 @@ def remove_charater(content: str):
                                              '').replace('\r',
                                                          '').replace(' ', '')
 
+def judge_code(path):
+    with open(path, 'rb') as fn:
+        data = fn.read()
+        charinfo = detect(data)
 
+    gb_encode = ["gb2312", "GB2312", "gb18030", "GB18030", "GBK", "gbk"]
+
+    return 'GBK' if charinfo['encoding'] in gb_encode else charinfo['encoding']
 soup = DealSoup().judge
 logger = init_log()

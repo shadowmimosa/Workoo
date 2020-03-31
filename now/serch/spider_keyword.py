@@ -12,7 +12,7 @@ from http import cookiejar
 from configparser import ConfigParser
 from concurrent.futures import ThreadPoolExecutor
 from multiprocessing import Pool, freeze_support, current_process
-from utils.common import soup, logger, remove_charater
+from utils.common import soup, logger, remove_charater, judge_code
 
 
 class Mssql(object):
@@ -32,7 +32,7 @@ class Mssql(object):
         return self.cursor.fetchall()
 
     def update(self, result, _id):
-        sql = f'UPDATE [dbo].[keyword_View] SET [cxdate] = \'{time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())}\', [Resultstr] = \'{result}\' WHERE [id] = {_id};'
+        sql = f'UPDATE [dbo].[keywords] SET [cxdate] = \'{time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())}\', [Resultstr] = \'{result}\' WHERE [id] = {_id};'
         self.cursor.execute(sql)
 
     def insert(self, obj: dict):
@@ -42,8 +42,9 @@ class Mssql(object):
 
 
 def clean_url(content: str):
-    return content.replace('http://', '').replace('https://',
-                                                  '').replace('www.', '')
+    if isinstance(content, str):
+        return content.replace('http://', '').replace('https://',
+                                                      '').replace('www.', '')
 
 
 def to_mssql(item):
@@ -110,13 +111,15 @@ def made_secret():
 
 
 class Keyword(object):
-    def __init__(self):
+    def __init__(self, keyword, domain, domain1):
         self.init_session()
         self.proxy = {
             "http": "http://dynamic.xiongmaodaili.com:8088",
             "https": "http://dynamic.xiongmaodaili.com:8088"
         }
-
+        self.keyword = keyword
+        self.domain = clean_url(domain)
+        self.domain1 = clean_url(domain1)
         super().__init__()
 
     def init_session(self):
@@ -127,35 +130,35 @@ class Keyword(object):
         self.session = session
 
     def set_cookies(self, site):
+        if PROXY:
+            self.session.headers.update({'Proxy-Authorization': made_secret()})
+
         if site == 'baidu':
-            self.session.headers = {
+            self.session.headers.update({
                 'Accept': '*/*',
                 "User-Agent": get_ua(),
                 'Accept-Encoding': 'gzip, deflate, br',
                 'Accept-Language': 'zh-CN,zh;q=0.9'
-            }
+            })
             self.session.cookies = self._request(
                 'https://www.baidu.com/').cookies
         elif site == 'mbaidu':
-            self.session.headers = {
+            self.session.headers.update({
                 'Accept': '*/*',
                 "User-Agent": get_ua(True),
                 'Accept-Encoding': 'gzip, deflate, br',
                 'Accept-Language': 'zh-CN,zh;q=0.9'
-            }
+            })
             self.session.cookies = self._request(
                 'https://m.baidu.com/').cookies
         elif site == 'so':
-            self.session.headers = {
+            self.session.headers.update({
                 'Accept': '*/*',
                 "User-Agent": get_ua(),
                 'Accept-Encoding': 'gzip, deflate, br',
                 'Accept-Language': 'zh-CN,zh;q=0.9'
-            }
+            })
             self.session.cookies = cookiejar.CookieJar()
-
-        if PROXY:
-            self.session.headers.update({'Proxy-Authorization': made_secret()})
 
     def _request(self, path):
         if PROXY:
@@ -165,10 +168,10 @@ class Keyword(object):
         retry_count = 5
         while retry_count > 0:
             logger.info(
-                f'{threading.currentThread().name} - 开始第次 {6 - retry_count} 尝试'
+                f'{threading.currentThread().name} - 开始第 {6 - retry_count} 次尝试'
             )
             try:
-                resp = self.session.get(path, proxies=proxy, timeout=(5, 20))
+                resp = self.session.get(path, proxies=proxy, timeout=(7, 30))
             except Exception as exc:
                 retry_count -= 1
                 logger.error(
@@ -186,12 +189,18 @@ class Keyword(object):
         else:
             return '请求异常'
 
-    def baidu(self, keyword: str, domain: str):
+    def judge_exist(self, content):
+        if self.domain in content or self.domain1 and self.domain1 in content:
+            return True
+        else:
+            return False
+
+    def baidu(self):
         result = []
         if SITES['baidu'] <= 0:
-            return
+            return False, ''
         for page in range(SITES['baidu']):
-            path = f'https://www.baidu.com/s?ie=utf-8&mod=1&wd={keyword}&pn={page*10}'
+            path = f'https://www.baidu.com/s?ie=utf-8&mod=1&wd={self.keyword}&pn={page*10}'
             resp = self._request(path)
             if isinstance(resp, str):
                 return False, resp
@@ -203,8 +212,7 @@ class Keyword(object):
                 if not url_obj:
                     continue
                 url = url_obj.text
-                # domain = 'baidu.com'
-                if domain in url:
+                if self.judge_exist(url):
                     result.append(str(page * 10 + index + 1))
 
         if not result:
@@ -212,23 +220,22 @@ class Keyword(object):
         else:
             return True, 'baidu-' + ','.join(result)
 
-    def mbaidu(self, keyword: str, domain: str):
+    def mbaidu(self):
         result = []
         if SITES['mbaidu'] <= 0:
-            return
+            return False, ''
         for page in range(SITES['mbaidu']):
-            path = f'https://m.baidu.com/s?pn={page*10}&usm=9&word={keyword}'
+            path = f'https://m.baidu.com/s?pn={page*10}&usm=9&word={self.keyword}'
             resp = self._request(path)
             if isinstance(resp, str):
                 return False, resp
-            resp.encoding = 'gbk'
             containers = soup(resp.text,
                               {'class': 'c-showurl c-footer-showurl'},
                               all_tag=True)
 
             for index, container in enumerate(containers):
                 url = container.text
-                if domain in url:
+                if self.judge_exist(url):
                     result.append(str(page * 10 + index + 1))
 
         if not result:
@@ -236,13 +243,13 @@ class Keyword(object):
         else:
             return True, 'mbaidu-' + ','.join(result)
 
-    def so(self, keyword: str, domain: str):
+    def so(self):
         result = []
         if SITES['so'] <= 0:
-            return
+            return False, ''
         for page in range(1, SITES['so'] + 1):
             self.set_cookies('so')
-            path = f'https://www.so.com/s?q={keyword}&pn={page}'
+            path = f'https://www.so.com/s?q={self.keyword}&pn={page}'
             resp = self._request(path)
             if isinstance(resp, str):
                 return False, resp
@@ -250,7 +257,7 @@ class Keyword(object):
                               all_tag=True)
             for index, container in enumerate(containers):
                 url = container.cite.text
-                if domain in url:
+                if self.judge_exist(url):
                     result.append(str(page * 10 + index + 1))
 
         if not result:
@@ -261,13 +268,12 @@ class Keyword(object):
 
 def detail(item: tuple):
     result_str = []
-    for site in SITES:
+    keyword = item[2]
+    query = Keyword(keyword, clean_url(item[10]), clean_url(item[11]))
 
-        query = Keyword()
+    for site in SITES:
         query.set_cookies(site)
-        domain = clean_url(item[10])
-        keyword = item[2]
-        command = f'query.{site}(keyword, domain)'
+        command = f'query.{site}()'
         logger.info(
             f'{threading.currentThread().name} - 开始处理 {keyword} - {site}')
         status, result = eval(command)
@@ -315,9 +321,9 @@ def multi_thread(results):
             for thead, future in executor.map(detail, results, timeout=300):
                 logger.info(f'{thead} - {future} - 处理完成')
         except concurrent.futures.TimeoutError:
-            logger.info(f'{thead} - {future} - 处理超时')
+            logger.info(f'{threading.currentThread().name} - 处理超时')
         except Exception as exc:
-            logger.error(f'{thead} - {future} - 处理异常')
+            logger.error(f'{threading.currentThread().name} - 处理异常 - {exc} ')
 
 
 def main():
@@ -328,11 +334,14 @@ def main():
         else:
             # single(results)
             # multi(results)
-            multi_thread(results)
+            try:
+                multi_thread(results)
+            except Exception as exc:
+                logger.error(f'Multi is wrong - {exc}')
 
 
 CONFIG = ConfigParser()
-CONFIG.read('config.ini', encoding='utf-8')
+CONFIG.read('config.ini', encoding=judge_code('config.ini'))
 SITES = judge_pages()
 MSSQL = Mssql()
 PROXY = True if CONFIG.get('Proxy', 'proxy') == '1' else False
