@@ -1,10 +1,65 @@
+import functools
 from flask import Flask, jsonify, request, json, make_response
-from common import MongoOpea, ParseHtml
+from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
+
+from common import ParseHtml, MONGO, reader_html
 # import json
 
 app = Flask(__name__)
-MONGO = MongoOpea()
+
 PARSE = ParseHtml()
+
+
+def create_token(api_user):
+    '''
+    生成token
+    :param api_user:用户id
+    :return: token
+    '''
+
+    s = Serializer('lierui#000Y')
+    token = s.dumps({"id": api_user}).decode("ascii")
+    return token
+
+
+def verify_token(token):
+    '''
+    校验token
+    :param token: 
+    :return: 用户信息 or None
+    '''
+
+    s = Serializer('lierui#000Y')
+    try:
+        data = s.loads(token)
+    except Exception:
+        return None
+
+    user = User.query.get(data["id"])
+    return user
+
+
+def login_required(view_func):
+    @functools.wraps(view_func)
+    def verify_token(*args, **kwargs):
+
+        return view_func(*args, **kwargs)
+
+        try:
+            token = request.cookies.get("token")
+            # token = request.headers["z-token"]
+        except Exception:
+            return jsonify(code=4103, msg='缺少参数token')
+
+        s = Serializer('lierui#000Y')
+        try:
+            s.loads(token)
+        except Exception:
+            return jsonify(code=4101, msg="登录已过期")
+
+        return view_func(*args, **kwargs)
+
+    return verify_token
 
 
 def get_post_data():
@@ -25,7 +80,7 @@ def get_post_data():
     return data
 
 
-def headers(data={}, code=200, message='成功', success=True):
+def headers(data={}, code=200, message='成功', success=True, cookie=None):
     result = {}
     result['code'] = code
     result['data'] = data
@@ -37,15 +92,19 @@ def headers(data={}, code=200, message='成功', success=True):
     response.headers['Vary'] = 'Access-Control-Request-Method'
     response.headers['Vary'] = 'Access-Control-Request-Headers'
     response.headers['Access-Control-Allow-Origin'] = '*'
+    if cookie:
+        response.set_cookie('token', cookie)
     return response
 
 
 @app.errorhandler(404)
+@login_required
 def not_found(error):
     return jsonify({'error': 'NOT FOUND'}), 404
 
 
 @app.route('/parse/update', methods=['GET', 'POST'])
+@login_required
 def parse_update():
     data = get_post_data()
     # MONGO.insert(data, 'update')
@@ -61,10 +120,13 @@ def parse_update():
 
 
 @app.route('/parse/import', methods=['GET', 'POST'])
+@login_required
 def parse_import():
     data = get_post_data()
-    # MONGO.insert(data, 'update')
-    PARSE.parse(data.get('text'))
+    account = data.get('account')
+    text = data.get('text')
+
+    PARSE._import(text)
 
     return headers()
 
@@ -74,84 +136,52 @@ def user_login():
     data = get_post_data()
     account = data.get('account')
     password = data.get('password')
-    with open('./data.txt','a',encoding='utf-8') as fn:
-        fn.write(account)
-        fn.write(password)
 
     result = MONGO.select('user', {'account': account}, _id=False)
+
     if not result:
         return headers(code=201, message='账号不存在')
     if result.get('password') != password:
         return headers(code=202, message='密码不正确')
 
     result.pop('_id')
-    result.pop('account')
+    # result.pop('account')
     result.pop('password')
+
+    create_token(str(result.get('_id')))
+
     return headers(result)
 
 
+@app.route('/user/unlogin', methods=['GET', 'POST'])
+def user_unlogin():
+    data = get_post_data()
+    account = data.get('account')
+
+    # result = MONGO.select('user', {'account': account}, _id=False)
+
+    return headers()
+
+
+@app.route('/candidate/', methods=['GET'])
+@login_required
+def candidate():
+    _id = request.args.get('id')
+    return reader_html(_id)
+
+
 @app.route('/parse/html', methods=['GET', 'POST'])
+@login_required
 def parse_html():
     data = get_post_data()
-    result = PARSE.parse(data.get('text'))
+    account = data.get('account')
+    text = data.get('text')
 
     return headers({
-        "html":
-        None,
-        "name":
-        None,
-        "basic":
-        None,
-        "works":
-        None,
-        "edus":
-        None,
-        "projects":
-        None,
-        "relationResume": [{
-            "name": "陆少舟",
-            "sex": 1,
-            "birthday": "2020/12/10",
-            "last_edu": 1,
-            "update_time": "2020/12/10",
-            "id": 1
-        },{
-            "name": "陆少舟",
-            "sex": 1,
-            "birthday": "2020/12/10",
-            "last_edu": 1,
-            "update_time": "2020/12/10",
-            "id": 3
-        },{
-            "name": "陆少舟",
-            "sex": 1,
-            "birthday": "2003/12/10",
-            "last_edu": 1,
-            "update_time": "2080/12/10",
-            "id": 6
-        }],
-        "relationOldResume": [{
-            "name_chi": "陆少舟",
-            "sex": 1,
-            "birthday2": "2020/12/10",
-            "percent": "11",
-            "degree": 5,
-            "cv_update_time": "2020/12/10",
-            "id": 1
-        },{
-            "name_chi": "陆少舟",
-            "sex": 1,
-            "birthday2": "2020/12/10",
-            "percent": "23",
-            "degree": 5,
-            "cv_update_time": "2020/12/10",
-            "id": 1
-        }],
-        "resumeEntity":
-        None
+        "relationResume": None,
+        "relationCompanyResume": PARSE.parse(text),
+        "resumeEntity": None
     })
-    if not result:
-        return headers()
 
     # data = {}
     # data['relationResume'] = result.get('relationResume')
@@ -164,7 +194,25 @@ def parse_html():
     # data['projects'] = result.get('projects')
     # data['resumeEntity'] = result.get('resumeEntity')
 
-    return headers(result)
+
+@app.route('/set_cookie', methods=['GET', 'POST'])
+def set_cookie():
+    resp = make_response("success")
+    resp.set_cookie("Itcast_1", "python_1")
+    return resp
+
+
+@app.route("/get_cookie")
+def get_cookie():
+    cookie_1 = request.cookies.get("Itcast_1")
+    return cookie_1
+
+
+@app.route("/del_cookie")
+def del_cookie():
+    resp = make_response("del success")
+    resp.delete_cookie("Itcast1")
+    return resp
 
 
 if __name__ == "__main__":
