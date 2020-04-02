@@ -21,11 +21,13 @@ def init_log():
 
         handler.setLevel(logging.DEBUG)
         formatter = logging.Formatter(
-            '%(asctime)s - %(funcName)s - %(levelname)s - %(message)s')
+            '%(asctime)s - %(processName)s - %(funcName)s - %(levelname)s - %(message)s'
+        )
         handler.setFormatter(formatter)
 
         console = logging.StreamHandler()
         console.setLevel(logging.INFO)
+        console.setFormatter(formatter)
 
         logger.addHandler(handler)
         logger.addHandler(console)

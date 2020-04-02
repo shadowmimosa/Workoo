@@ -1,4 +1,5 @@
 import json
+from utils.mongo import Mongo
 
 need = []
 
@@ -20,10 +21,20 @@ def get_children(content):
 
 
 if __name__ == "__main__":
-    with open('./data/locationTree.json', 'r', encoding='utf-8') as fn:
+    # with open('./data/locationTree.json', 'r', encoding='utf-8') as fn:
+    #     data = json.loads(fn.read())
+
+    # get_children(data)
+
+    # with open('./data/need_title.json', 'w', encoding='utf-8') as fn:
+    #     fn.write(json.dumps(need, ensure_ascii=False, indent=4))
+
+    with open('./data/need_title.json', 'r', encoding='utf-8') as fn:
         data = json.loads(fn.read())
 
-    get_children(data)
+    sign = 1
+    for value in data:
+        if value == 'Bodø':
+            sign = 0
 
-    with open('./data/need_title.json', 'w', encoding='utf-8') as fn:
-        fn.write(json.dumps(need, ensure_ascii=False, indent=4))
+        Mongo.repeat({'name': value, 'status': sign}, 'title')
