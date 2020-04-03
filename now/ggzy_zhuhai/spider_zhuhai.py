@@ -23,7 +23,6 @@ def clean_date(content: str):
 
 
 
-
 class DealZhuhai(object):
     def __init__(self):
         self.bid_path = "http://ggzy.zhuhai.gov.cn/exchangeinfo/govbuy/cggg/index_{}.jhtml"
@@ -227,8 +226,12 @@ class DealZhuhai(object):
                                                  attr='tr',
                                                  all_tag=True),
                                        sign='p')
+            try:
+                persoon = self.soup(resp, {'style': 'border: 0;'}).p.u.text
+            except:
+                persoon = ''
 
-            info["采购人"] = result_1['采购人']
+            info["采购人"] = persoon
             info["竞价开始时间"] = clean_date(result_1['竞价开始时间'])
             info["竞价截止时间"] = clean_date(result_1['竞价截止时间'])
             info['金额上限'] = result_0.get('金额上限')
@@ -298,7 +301,13 @@ class DealZhuhai(object):
 
             info["中标总额"] = td_list[-4].text
             info['中标公司'] = td_list[-5].text
-            info["采购人"] = td_list[-3].text
+
+            try:
+                person = self.soup(resp,{'style':'font-size:11.0pt;font-family:宋体'}).text.strip('\t').split('，')[0]
+            except:
+                person = ''
+
+            info["采购人"] = person
 
             tr_json = [{
                 "成交时间": "",
