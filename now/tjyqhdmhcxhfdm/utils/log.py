@@ -12,7 +12,7 @@ def init_log():
         try:
             handler = RotatingFileHandler(
                 "./log/run_info.log",
-                maxBytes=100 * 1024 * 1024,
+                maxBytes=500 * 1024 * 1024,
                 backupCount=100)
             # handler = loggingFileHandler("./log/run_info.log")
         except FileNotFoundError as exc:
@@ -21,7 +21,7 @@ def init_log():
 
         handler.setLevel(logging.DEBUG)
         formatter = logging.Formatter(
-            '%(asctime)s - %(funcName)s - %(levelname)s - %(message)s')
+            '%(asctime)s - %(processName)s - %(funcName)s - %(levelname)s - %(message)s')
         handler.setFormatter(formatter)
 
         console = logging.StreamHandler()

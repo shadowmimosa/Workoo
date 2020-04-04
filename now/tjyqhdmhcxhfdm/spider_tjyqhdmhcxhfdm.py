@@ -2,7 +2,7 @@ import os
 import time
 import json
 import hashlib
-from bs4 import BeautifulSoup
+from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
 
 from utils.log import logger
 from utils.run import run_func
@@ -220,6 +220,12 @@ class QueryHandle(object):
         run_func(self.province_handle)
 
 
+def mutl():
+    thead_pool = ProcessPoolExecutor(4)
+    for year in range(2013, 2020):
+        thead_pool.submit(QueryHandle().run, year)
+
+
 def main():
     spider = QueryHandle()
     for year in range(2013, 2020):
@@ -228,4 +234,5 @@ def main():
 
 if __name__ == "__main__":
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
-    main()
+    # main()
+    mutl()
