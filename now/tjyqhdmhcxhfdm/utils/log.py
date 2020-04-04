@@ -9,25 +9,26 @@ def init_log():
     logger.propagate = False
     logger.setLevel(level=logging.INFO)
     if not logger.handlers:
-        # try:
-        #     handler = RotatingFileHandler(
-        #         "./log/run_info.log",
-        #         maxBytes=10 * 1024 * 1024,
-        #         backupCount=100)
-        #     # handler = loggingFileHandler("./log/run_info.log")
-        # except FileNotFoundError as exc:
-        #     os.makedirs("./log/")
-        #     return init_log()
+        try:
+            handler = RotatingFileHandler(
+                "./log/run_info.log",
+                maxBytes=100 * 1024 * 1024,
+                backupCount=100)
+            # handler = loggingFileHandler("./log/run_info.log")
+        except FileNotFoundError as exc:
+            os.makedirs("./log/")
+            return init_log()
 
-        # handler.setLevel(logging.DEBUG)
+        handler.setLevel(logging.DEBUG)
         formatter = logging.Formatter(
             '%(asctime)s - %(funcName)s - %(levelname)s - %(message)s')
-        # handler.setFormatter(formatter)
+        handler.setFormatter(formatter)
 
         console = logging.StreamHandler()
         console.setLevel(logging.INFO)
+        console.setFormatter(formatter)
 
-        # logger.addHandler(handler)
+        logger.addHandler(handler)
         logger.addHandler(console)
         
 
