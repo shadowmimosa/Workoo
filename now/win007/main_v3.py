@@ -214,11 +214,14 @@ def main():
     href_list = run_func(build_href)
     teams = []
     for href, current in href_list:
-        result = run_func(match_result, href)
-        if not result:
+        results = run_func(match_result, href)
+        if not results:
             continue
 
-        teams.extend(result) if result not in teams else True
+        for result in results:
+            if result in teams:
+                continue
+            teams.append(result)
 
     for team_id, team_name in teams:
         result = run_func(summary_team, team_id, current)
