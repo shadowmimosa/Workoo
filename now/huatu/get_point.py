@@ -50,10 +50,10 @@ def to_list():
     with open('./data/points.json', 'r', encoding='utf-8') as fn:
         data = json.loads(fn.read())
 
-    kindname = '事业单位考试'
-    # kindname = '公务员行测'
-    data.pop('公务员行测')
-    # data = data.pop(kindname)
+    # kindname = '事业单位考试'
+    kindname = '公务员行测'
+    # data.pop('公务员行测')
+    data = data.pop(kindname)
     points = set(GetPoint(data).need)
 
     with open('./point.json', 'w', encoding='utf-8') as fn:

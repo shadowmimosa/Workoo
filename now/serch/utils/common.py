@@ -153,5 +153,6 @@ def judge_code(path):
     gb_encode = ["gb2312", "GB2312", "gb18030", "GB18030", "GBK", "gbk"]
 
     return 'GBK' if charinfo['encoding'] in gb_encode else charinfo['encoding']
+    
 soup = DealSoup().judge
 logger = init_log()

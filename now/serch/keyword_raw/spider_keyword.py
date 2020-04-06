@@ -12,7 +12,7 @@ from http import cookiejar
 from configparser import ConfigParser
 from concurrent.futures import ThreadPoolExecutor
 from multiprocessing import Pool, freeze_support, current_process
-from utils.common import soup, logger, remove_charater
+from utils.common import soup, logger, remove_charater, judge_code
 
 
 class Mssql(object):
@@ -32,7 +32,7 @@ class Mssql(object):
         return self.cursor.fetchall()
 
     def update(self, result, _id):
-        sql = f'UPDATE [dbo].[keyword_View] SET [cxdate] = \'{time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())}\', [Resultstr] = \'{result}\' WHERE [id] = {_id};'
+        sql = f'UPDATE [dbo].[keywords] SET [cxdate] = \'{time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())}\', [Resultstr] = \'{result}\' WHERE [id] = {_id};'
         self.cursor.execute(sql)
 
     def insert(self, obj: dict):
@@ -130,31 +130,34 @@ class Keyword(object):
         self.session = session
 
     def set_cookies(self, site):
+        if PROXY:
+            self.session.headers.update({'Proxy-Authorization': made_secret()})
+
         if site == 'baidu':
-            self.session.headers = {
+            self.session.headers.update({
                 'Accept': '*/*',
                 "User-Agent": get_ua(),
                 'Accept-Encoding': 'gzip, deflate, br',
                 'Accept-Language': 'zh-CN,zh;q=0.9'
-            }
+            })
             self.session.cookies = self._request(
                 'https://www.baidu.com/').cookies
         elif site == 'mbaidu':
-            self.session.headers = {
+            self.session.headers.update({
                 'Accept': '*/*',
                 "User-Agent": get_ua(True),
                 'Accept-Encoding': 'gzip, deflate, br',
                 'Accept-Language': 'zh-CN,zh;q=0.9'
-            }
+            })
             self.session.cookies = self._request(
                 'https://m.baidu.com/').cookies
         elif site == 'so':
-            self.session.headers = {
+            self.session.headers.update({
                 'Accept': '*/*',
                 "User-Agent": get_ua(),
                 'Accept-Encoding': 'gzip, deflate, br',
                 'Accept-Language': 'zh-CN,zh;q=0.9'
-            }
+            })
             self.session.cookies = cookiejar.CookieJar()
 
         if PROXY:
@@ -171,7 +174,7 @@ class Keyword(object):
                 f'{threading.currentThread().name} - 开始第 {6 - retry_count} 次尝试'
             )
             try:
-                resp = self.session.get(path, proxies=proxy, timeout=(5, 20))
+                resp = self.session.get(path, proxies=proxy, timeout=(7, 30))
             except Exception as exc:
                 retry_count -= 1
                 logger.error(
@@ -198,7 +201,7 @@ class Keyword(object):
     def baidu(self):
         result = []
         if SITES['baidu'] <= 0:
-            return
+            return False, ''
         for page in range(SITES['baidu']):
             path = f'https://www.baidu.com/s?ie=utf-8&mod=1&wd={self.keyword}&pn={page*10}'
             resp = self._request(path)
@@ -223,7 +226,7 @@ class Keyword(object):
     def mbaidu(self):
         result = []
         if SITES['mbaidu'] <= 0:
-            return
+            return False, ''
         for page in range(SITES['mbaidu']):
             path = f'https://m.baidu.com/s?pn={page*10}&usm=9&word={self.keyword}'
             resp = self._request(path)
@@ -246,7 +249,7 @@ class Keyword(object):
     def so(self):
         result = []
         if SITES['so'] <= 0:
-            return
+            return False, ''
         for page in range(1, SITES['so'] + 1):
             self.set_cookies('so')
             path = f'https://www.so.com/s?q={self.keyword}&pn={page}'
@@ -341,7 +344,7 @@ def main():
 
 
 CONFIG = ConfigParser()
-CONFIG.read('config.ini', encoding='utf-8')
+CONFIG.read('config.ini', encoding=judge_code('config.ini'))
 SITES = judge_pages()
 MSSQL = Mssql()
 PROXY = True if CONFIG.get('Proxy', 'proxy') == '1' else False
