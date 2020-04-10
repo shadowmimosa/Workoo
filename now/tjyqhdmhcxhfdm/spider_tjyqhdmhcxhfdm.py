@@ -64,7 +64,8 @@ class QueryHandle(object):
                 'village_sub_code': self.village_sub_code,
                 'village_name': self.village_name
             }
-        result = Mongo.repeat(info, 'tjyqhdmhcxhfdm')
+        table = f'tjyqhdmhcxhfdm_{self.year}'
+        result = Mongo.repeat(info, table)
         logger.info(f'已插入 - {result}')
 
     def build_href(self, path, clip):
@@ -234,5 +235,5 @@ def main():
 
 if __name__ == "__main__":
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
-    # main()
-    mutl()
+    main()
+    # mutl()
