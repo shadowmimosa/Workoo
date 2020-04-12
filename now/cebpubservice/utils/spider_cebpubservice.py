@@ -32,9 +32,9 @@ class CebpubService(object):
         if notice_id == 0:
             fid = 133
         elif notice_id == 1:
-            fid = 133
+            fid = 178
         elif notice_id == 2:
-            fid = 134
+            fid = 179
         elif notice_id == 3:
             fid = 134
         elif notice_id == 4:
@@ -94,6 +94,11 @@ class CebpubService(object):
         return info
 
     def detail(self, item, fid):
+        url = item.get('noticeUrl')
+        if filter_host(url):
+            logger.info(f'网址不采集 - {url} ')
+            return
+
         bulletin_id = item.get('bulletinID')
         if not run_func(self.sql.repeat, bulletin_id):
             return
@@ -126,13 +131,14 @@ class CebpubService(object):
         info['local'] = pic_path
         info['source'] = item.get('noticeUrl')
         info['bulletin_id'] = bulletin_id
-        
+
         if run_func(self.sql.insert, info):
             logger.info('插入成功 - {} '.format(bulletin_id))
         else:
             logger.error('插入失败 - {} '.format(bulletin_id))
 
     def main(self):
+        print(1)
         for page in range(int(CONFIG.get('PageNum', 'pages'))):
             for notice_type in range(5):
                 data = run_func(self.get_notice_list, notice_type, page + 1)

@@ -6,6 +6,7 @@ import socket
 import ftplib
 import pymysql
 import platform
+from urllib.parse import urlparse
 from configparser import ConfigParser
 from pdf2image import convert_from_path
 
@@ -33,6 +34,21 @@ def clean_date(content: str):
     return content.replace('T', ' ').replace('.000+0000', '').split(' ')[0]
 
 
+def filter_host(url):
+    if not url:
+        return
+    res = urlparse(url)
+    host = res.netloc
+
+    if host in [
+            'e.sinochemitc.com', 'eps.qdgxjt.com', 'eb.chinalco.com.cn',
+            'ebid.aecc-mall.com', 'eps.sdic.com.cn', 'ec.ceec.net.cn',
+            'www.xaprtc.com', 'bid.aited.cn', 'lygccgpt.gdlygc.cn',
+            'ebid.aecc-mall.com', 'www.cqzbcg.com'
+    ]:
+        return True
+
+
 def clean_region(content: str):
     for sign in ['省', '市', '自治区', '维吾尔', '回族', '壮族', '特别行政区']:
         content = content.replace(sign, '')
@@ -48,6 +64,16 @@ def parser_trade(title: str, trade: str):
 
     replace_list = {
         '内蒙古电力集团': '蒙电',
+        '呼和浩特供电局': '蒙电',
+        '包头供电局': '蒙电',
+        '鄂尔多斯电业局': '蒙电',
+        '乌兰察布电业局': '蒙电',
+        '巴彦淖尔电业局': '蒙电',
+        '乌海电业局': '蒙电',
+        '锡林郭勒电业局': '蒙电',
+        '阿拉善电业局': '蒙电',
+        '薛家湾供电局': '蒙电',
+        '内蒙古电力': '蒙电',
         '华能': '华能',
         '大唐': '大唐',
         '国网': '国网',
@@ -68,7 +94,8 @@ def pdf2pic(file_path, output_path):
     if DEBUG:
         poppler_path = r'C:\Users\ShadowMimosa\Desktop\poppler-0.68.0\bin'
     else:
-        poppler_path = None
+        poppler_path = CONFIG.get('PopPath', 'path')
+        # poppler_path = None
     convert_from_path(file_path,
                       200,
                       output_path,
@@ -319,9 +346,9 @@ system = platform.system()
 if system == "Linux":
     DEBUG = False
 elif system == "Windows":
-    DEBUG = True
+    DEBUG = False
 
 ocr = BaiduOCR({
     'id': CONFIG.get('BaiduOcr', 'id'),
-    'id': CONFIG.get('BaiduOcr', 'secret')
+    'secret': CONFIG.get('BaiduOcr', 'secret')
 })
