@@ -222,7 +222,7 @@ class QueryHandle(object):
 
 
 def mutl():
-    thead_pool = ProcessPoolExecutor(4)
+    thead_pool = ProcessPoolExecutor(3)
     for year in range(2013, 2020):
         thead_pool.submit(QueryHandle().run, year)
 
@@ -235,5 +235,5 @@ def main():
 
 if __name__ == "__main__":
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
-    main()
-    # mutl()
+    # main()
+    mutl()
