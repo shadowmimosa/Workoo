@@ -65,7 +65,7 @@ class QueryHandle(object):
                 'village_name': self.village_name
             }
         table = f'tjyqhdmhcxhfdm_{self.year}'
-        result = Mongo.repeat(info, table)
+        result = Mongo.insert(info, table)
         logger.info(f'已插入 - {result}')
 
     def build_href(self, path, clip):
