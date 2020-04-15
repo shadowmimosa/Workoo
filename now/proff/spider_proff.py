@@ -87,11 +87,11 @@ class DealProff(object):
 
 def multi_thread(results):
     # thead_pool = ProcessPoolExecutor(5)
-    thead_pool = ThreadPoolExecutor(5)
+    thead_pool = ThreadPoolExecutor(20)
 
     # spider.run(result)
 
-    with ProcessPoolExecutor(max_workers=10) as executor:
+    with ProcessPoolExecutor(max_workers=20) as executor:
         # with ThreadPoolExecutor(max_workers=5) as executor:
         try:
             for result in executor.map(DealProff().run, results):
@@ -107,13 +107,13 @@ def single(results):
 
 
 def main():
-    results = Mongo.select('title', {'status': 0}, limit=20, _id=False)
+    results = Mongo.select('title', {'status': 0}, limit=120, _id=False)
 
     while results:
         multi_thread(results)
         # single(results)
 
-        results = Mongo.select('title', {'status': 0}, limit=20, _id=False)
+        results = Mongo.select('title', {'status': 0}, limit=120, _id=False)
 
 
 if __name__ == "__main__":

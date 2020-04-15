@@ -32,7 +32,7 @@ if __name__ == "__main__":
     with open('./data/need_title.json', 'r', encoding='utf-8') as fn:
         data = json.loads(fn.read())
 
-    sign = 1
+    sign = 0
     for value in data:
         if value == 'Bodø':
             sign = 0
