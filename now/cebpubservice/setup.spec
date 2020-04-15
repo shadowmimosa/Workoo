@@ -7,7 +7,7 @@
 block_cipher = pyi_crypto.PyiBlockCipher(key='Shadow@Dongdian^#)&0412')
 
 a = Analysis(
-    ['sync.py'],
+    ['run.py'],
     pathex=[
         'C:\\Users\\ShadowMimosa\\Documents\\Repos\\Workoo\\now\\cebpubservice'
     ],
@@ -29,7 +29,7 @@ exe = EXE(pyz,
           a.binaries,
           a.zipfiles,
           a.datas, [],
-          name='sync',
+          name='run',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,
