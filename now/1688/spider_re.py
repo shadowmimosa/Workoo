@@ -158,13 +158,20 @@ class Deal(object):
         # html = self.req(path='https:' + html, header=header)
 
         temp = self.soup(html, attr={'data-aui': 'supplier-card'})
-
-        self.info['供应商名称'] = self.soup(temp,
+        try:
+            self.info['供应商名称'] = self.soup(temp,
                                        attr={
                                            'class':
                                            'company-name company-name-lite-vb'
                                        }).text
-        self.info['金牌会员年数'] = self.soup(temp, attr={'class': 'join-year'}).text
+        except Exception as exc:
+            logger.warning(f'the error1 is {exc}')
+            return
+        try:
+            self.info['金牌会员年数'] = self.soup(temp, attr={'class': 'join-year'}).text
+        except Exception as exc:
+            logger.warning(f'the error2 is {exc}')
+            self.info['金牌会员年数'] = None
 
         levels_temp = self.soup(self.soup(temp, attr={'class': 'no-line'}),
                                 'i',
@@ -203,16 +210,21 @@ class Deal(object):
         if not price_temp:
             price_temp = self.soup(html, attr={'class': 'ma-spec-price'})
             if not price_temp:
-                self.info['产品价格'] = self.soup(html,
-                                              attr={
-                                                  'class': 'ma-ref-price'
-                                              }).text
+                try:
+                    self.info['产品价格'] = self.soup(html,
+                                                  attr={
+                                                      'class': 'ma-ref-price'
+                                                  }).text
+                except Exception as exc:
+                    logger.warning(f'the error is {exc}')
+                    self.info['产品价格'] = None
             else:
                 self.info['产品价格'] = price_temp.get('title')
         else:
             self.info['产品价格'] = price_temp.get('title')
 
-        self.info['产品价格'] = self.info['产品价格'].split(' - ')[-1]
+        if self.info['产品价格']:
+            self.info['产品价格'] = self.info['产品价格'].split(' - ')[-1]
 
         auid = href.split('_')[-1].split('.')[0]
 
@@ -245,7 +257,10 @@ class Deal(object):
     def shop_detail(self, path):
         # self.header['Host'] = path.replace('https://', '').split('/')[0]
         chrome.driver.get(path)
-        chrome.waiting('star-review-count')
+        if not chrome.waiting('star-review-count'):
+            self.info['供应商评论量'] = None
+            return
+
         review = chrome.driver.find_element_by_class_name('star-review-count')
         self.info['供应商评论量'] = review.text.split(' ')[0]
 
@@ -267,7 +282,19 @@ class Deal(object):
                     resp = self.req(path, header=self.header)
                 else:
                     path = f'https://www.alibaba.com/trade/search?page={page}&indexArea=company_en&keyword={keyword}&viewType=L&n=50&f1=y'
-                    resp = self.req(path, header=self.header, data=True)
+                    header = {
+                        'Upgrade-Insecure-Requests': '1',
+                        'User-Agent':
+                        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36',
+                        'Sec-Fetch-Dest': 'document',
+                        'Accept':
+                        'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+                        'Sec-Fetch-Site': 'none',
+                        'Sec-Fetch-Mode': 'navigate',
+                        'Accept-Encoding': 'gzip, deflate, br',
+                        'Accept-Language': 'zh-CN,zh;q=0.9',
+                    }
+                    resp = self.req(path, header=header)
 
                 time.sleep(1)
                 goods = self.soup(resp,
@@ -278,7 +305,7 @@ class Deal(object):
                     title = self.soup(good, attr={
                         'class': 'title ellipsis'
                     }).text
-                    if title in already:
+                    if remove_charater(title) in already:
                         logger.info('alrady have')
                         continue
                     else:
@@ -302,7 +329,7 @@ class Deal(object):
                     #     else:
                     #         continue
 
-                    write(self.info)
+                    write(self.info) if self.info else True
                     count += 1
                 page += 1
 

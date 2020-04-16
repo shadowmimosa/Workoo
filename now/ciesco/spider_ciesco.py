@@ -47,7 +47,8 @@ class DealCiesco(object):
         self.request = Query().run
         self.soup = DealSoup().judge
         self.init_sql()
-        self.pattern = re.compile(r"\(询价编号：.*\)")
+        self.pattern = re.compile(
+            r'"fenXiangName":"金额","fenXiangValue":"([0-9]*)"')
 
     def init_sql(self):
         from config import DATABASES
@@ -65,7 +66,6 @@ class DealCiesco(object):
             os._exit(0)
         else:
             self.ecnu_cursor = ecnu_mysql.cursor()
-
 
     def judge_already(self, item_code):
         if self.bid_type == "bid":
@@ -132,27 +132,45 @@ class DealCiesco(object):
             info["竞价截止时间"] = detail.get('baoJiaEndTimeTextDeleteSecond')
             info['金额上限'] = ''
 
-            if detail.get('lsMingXiData'):
-
+            if detail.get('lsBaoJian'):
+                data = detail.get('lsBaoJian')[0].get('lsMingXiData')
+                tr_json = []
+                for index, item in enumerate(data):
+                    tr_json.append({
+                        "参数": "",
+                        "单位": item.get('danWei'),
+                        "招标编号": info["网上竞价编号"],
+                        "序号": index + 0,
+                        "产品名称": item.get('mingCheng'),
+                        "产品类别": "",
+                        "产品单价": '',
+                        "合计": '',
+                        "品牌": "",
+                        "数量": item.get('shuLiang'),
+                        "标配": "",
+                        "型号": '',
+                        "url": info['path'],
+                        "招标平台": "招商局集团电子招标采购交易网",
+                        "售后服务": "",
+                    })
+            else:
                 tr_json = [{
                     "参数": "",
-                    "单位": detail.get('lsMingXiData').get('danWei'),
+                    "单位": '',
                     "招标编号": info["网上竞价编号"],
                     "序号": 1,
-                    "产品名称": detail.get('lsMingXiData').get('mingCheng'),
+                    "产品名称": '',
                     "产品类别": "",
                     "产品单价": '',
                     "合计": '',
                     "品牌": "",
-                    "数量": detail.get('lsMingXiData').get('shuLiang'),
+                    "数量": '',
                     "标配": "",
                     "型号": '',
                     "url": info['path'],
                     "招标平台": "招商局集团电子招标采购交易网",
                     "售后服务": "",
                 }]
-            else:
-                tr_json = []
 
             run_func(self.ecnu_cursor.execute,
                      self.insert_tb_bid.format(**info))
@@ -205,7 +223,11 @@ class DealCiesco(object):
             info["竞价开始时间"] = ''
             info["竞价截至时间"] = ''
 
-            info["中标总额"] = ''
+            result = re.search(self.pattern, resp)
+            if result:
+                info["中标总额"] = result.group(1)
+            else:
+                info["中标总额"] = ''
             info['中标公司'] = detail.get('gongYingShangNameOne')
 
             tr_json = [{
@@ -214,7 +236,7 @@ class DealCiesco(object):
                 "规格配置": '',
                 "详情url": info["path"],
                 "平台名称": "招商局集团电子招标采购交易网",
-                "总价": '',
+                "总价": info["中标总额"],
                 "中标供应商": info['中标公司'],
                 "设备名称": '',
                 "创建时间": self.get_time(),
