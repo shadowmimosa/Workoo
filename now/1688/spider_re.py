@@ -265,13 +265,16 @@ class Deal(object):
         self.info['供应商评论量'] = review.text.split(' ')[0]
 
     def main(self):
-        category = ['disposable_mask']
+        # category = ['disposable_mask']
+        # category = ['medical_mask']
+        category = ['medical_disposable_gloves']
+
         with open('./data/already.txt', 'r', encoding='utf-8') as fn:
             already = fn.read().split('\n')
 
         error_count = 0
         for keyword in category:
-            count, page = (0, 1) if keyword != '车载充电器' else (56, 3)
+            count, page = (3000, 1) if keyword != '车载充电器' else (56, 3)
             # keyword = quote(str(keyword).encode('gbk'))
             while count < 4000:
                 # self.header['Host'] = 's.1688.com'

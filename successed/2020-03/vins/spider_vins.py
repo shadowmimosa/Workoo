@@ -248,9 +248,7 @@ class DealVins(object):
                 logger.info(f'{info["网上竞价编号"]} - 已存在')
                 continue
 
-            info["竞价截止时间"] = self.soup(div, attr={
-                'class': 'time_surplus'
-            }).get('value')
+            info["竞价截止时间"] = ''
             info["成交公告时间"] = self.soup(div,
                                        attr={
                                            'class': 'order-publishdate'
@@ -306,8 +304,8 @@ class DealVins(object):
 
     def main(self):
         for page in range(1, 2):
-            # self.bid_type = "bid"
-            # run_func(self.deal_detail, page)
+            self.bid_type = "bid"
+            run_func(self.deal_detail, page)
             self.bid_type = "bidResult"
             run_func(self.deal_result, page)
 
