@@ -267,14 +267,15 @@ class Deal(object):
     def main(self):
         # category = ['disposable_mask']
         # category = ['medical_mask']
-        category = ['medical_disposable_gloves']
+        # category = ['medical_disposable_gloves']
+        category = ['Medical_goggles']
 
         with open('./data/already.txt', 'r', encoding='utf-8') as fn:
             already = fn.read().split('\n')
 
         error_count = 0
         for keyword in category:
-            count, page = (3000, 1) if keyword != '车载充电器' else (56, 3)
+            count, page = (1200, 1) if keyword != '车载充电器' else (56, 3)
             # keyword = quote(str(keyword).encode('gbk'))
             while count < 4000:
                 # self.header['Host'] = 's.1688.com'
@@ -308,7 +309,8 @@ class Deal(object):
                     title = self.soup(good, attr={
                         'class': 'title ellipsis'
                     }).text
-                    if remove_charater(title) in already:
+                    title = remove_charater(title)
+                    if title in already:
                         logger.info('alrady have')
                         continue
                     else:

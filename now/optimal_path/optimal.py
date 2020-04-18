@@ -147,10 +147,18 @@ class ObtainDistance(object):
             url = urllib.parse.quote("http://api.map.baidu.com" + encoded_str +
                                      "&sn=" + sn,
                                      safe="/:=&?#+!$,;'@()*[]")
+
         elif self.sign == 'tencent':
             sig = hashlib.md5(
                 (parms +
                  config.get('tencent', 'sk')).encode("utf8")).hexdigest()
+
+            url = 'http://apis.map.qq.com' + parms + f'&sig={sig}'
+        elif self.sign == 'auto':
+            sig = hashlib.md5(
+                (parms +
+                 config.get('tencent', 'auto_sk')).encode("utf8")).hexdigest()
+
             url = 'http://apis.map.qq.com' + parms + f'&sig={sig}'
 
         return url
@@ -160,7 +168,7 @@ class ObtainDistance(object):
             return '{},{}'.format(str(content[1]), str(content[0]))
         elif self.sign == 'baidu':
             return '{},{}'.format(str(content[0]), str(content[1]))
-        elif self.sign == 'tencent':
+        elif self.sign == 'tencent' or self.sign == 'auto':
             poi_list = []
             for item in content:
                 poi_list.append('{},{}'.format(str(item[0]), str(item[1])))
@@ -207,6 +215,19 @@ class ObtainDistance(object):
 
         return result.get('rows')
 
+    def auto(self, _from, to):
+
+        params = f"/ws/distance/v1/optimal_order/?from={_from.split(';')[0]}&key={config.get('tencent', 'auto_key')}&to={to}"
+        path = self.encode(params)
+        result = self.deal_req(path)
+
+        if not result:
+            sys.exit(0)
+
+        distance = result.get('optimal_order')
+
+        return distance
+
     def baidu(self, origin, destination):
 
         path = "/direction/v2/driving?origin={}&destination={}&tactics={}&timestamp={}&ak={}".format(
@@ -233,6 +254,8 @@ class ObtainDistance(object):
             return self.amap(start, end)
         elif self.sign == 'tencent':
             return self.tencent(start, end)
+        elif self.sign == 'auto':
+            return self.auto(start, end)
 
 
 class BaseError(Exception):
@@ -266,6 +289,9 @@ def build_graph(posi, tactics, use_map):
         for i in range(lenth):
             for j in range(lenth):
                 graph[i][j] = result[i]['elements'][j]['distance']
+    elif use_map == 'auto':
+        graph = get_distance.run(posi, posi)
+
     else:
         for i in range(lenth):
             for j in range(lenth):
@@ -358,7 +384,11 @@ def make_best_path(params):
     use_map = params.get('map')
     tactics = params.get('tactics')
 
-    mode = 2
+    if use_map == 'auto':
+        mode = 3
+    else:
+        mode = 2
+
     if mode == 1:
         pass
         # from graph import graph
@@ -382,6 +412,15 @@ def make_best_path(params):
                 'path': sort_path(path.best_dog.path)
             }
         }
+    elif mode == 3:
+        result = {
+            'code': '200',
+            'msg': '成功',
+            'data': {
+                'distance': 0,
+                'path': build_graph(posi, tactics, use_map)
+            }
+        }        
 
     return result
 
