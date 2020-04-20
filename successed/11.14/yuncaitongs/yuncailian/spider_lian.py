@@ -3,12 +3,13 @@ import re
 import time
 import json
 import urllib
-import urllib3
-import requests
 import random
 import pymysql
-
+import urllib3
+import requests
 from bs4 import BeautifulSoup
+
+from config import DATABASES, DEBUG
 
 
 class Query(object):
@@ -51,22 +52,22 @@ class Query(object):
             try:
 
                 if isinstance(data, dict):
-                    resp = sesscion_a.post(
-                        url,
-                        headers=header,
-                        data=json.dumps(data),
-                        timeout=(10, 60))
+                    resp = sesscion_a.post(url,
+                                           headers=header,
+                                           data=json.dumps(data),
+                                           timeout=(10, 60))
                 elif isinstance(files, dict):
                     resp = sesscion_a.post(url, files=files, timeout=(10, 60))
                 elif data:
-                    resp = sesscion_a.post(
-                        url, headers=header, data=data, timeout=(10, 60))
+                    resp = sesscion_a.post(url,
+                                           headers=header,
+                                           data=data,
+                                           timeout=(10, 60))
                 else:
-                    resp = sesscion_a.get(
-                        url,
-                        headers=header,
-                        allow_redirects=False,
-                        timeout=(10, 60))
+                    resp = sesscion_a.get(url,
+                                          headers=header,
+                                          allow_redirects=False,
+                                          timeout=(10, 60))
                 retry_count = 0
             except Exception as exc:
                 retry_count -= 1
@@ -95,7 +96,6 @@ class Query(object):
 class DealGhzrzyw(object):
     def __init__(self):
         self.page_path = "http://www.choicelink.cn:8888/AgentApi/EProject/PageNotice2?rows=30&page={}&Mode={}"
-        self.detail_path = "http://oa.chinapsp.cn:8099/WebReport/ReportServer?_=1567872893275&__boxModel__=true&op=fr_write&cmd=read_w_content&sessionID=84218&reportIndex=0&browserWidth=788&iid=0.6669620362773621&__cutpage__=&pn=0&__webpage__=true&_paperWidth=788&_paperHeight=572&__fit__=false"
         self.header = {
             "Host": "www.choicelink.cn:8888",
             "Accept": "application/json, text/plain, */*",
@@ -115,10 +115,9 @@ class DealGhzrzyw(object):
         self.request = Query()
         self.pattarn = re.compile(r"FR.SessionMgr.register\(.*contentPane\);")
         self.init_sql()
+        self.host = 'http://report.choicelink.cn:28082'
 
     def init_sql(self):
-        from config import DATABASES
-
         try:
             if DEBUG:
                 config = DATABASES["debug"]
@@ -135,11 +134,11 @@ class DealGhzrzyw(object):
 
     def get_session_id(self, project_id):
         if self.item_type == 1:
-            path = "http://oa.chinapsp.cn:8099/WebReport/ReportServer?reportlet=newcailian/gonggao/zhaobiaoReport.cpt&__pi__=false&Id={}".format(
-                project_id)
+            path = "{}/WebReport/ReportServer?reportlet=newcailian/gonggao/zhaobiaoReport.cpt&__pi__=false&Id={}".format(
+                self.host, project_id)
         elif self.item_type == 2:
-            path = "http://oa.chinapsp.cn:8099/WebReport/ReportServer?reportlet=newcailian/gonggao/YunCailian/resultReport.cpt&Id={}".format(
-                project_id)
+            path = "{}/WebReport/ReportServer?reportlet=newcailian/gonggao/YunCailian/resultReport.cpt&Id={}".format(
+                self.host, project_id)
 
         # Host: oa.chinapsp.cn:8099
         # Proxy-Connection: keep-alive
@@ -163,13 +162,11 @@ class DealGhzrzyw(object):
             "X-Requested-With": "XMLHttpRequest",
             "User-Agent":
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.90 Safari/537.36",
-            # "Referer":
-            # "http://oa.chinapsp.cn:8099/WebReport/ReportServer?reportlet=newcailian%2Fgonggao%2FzhaobiaoReport.cpt&__pi__=false&Id=ff7a744a-29ba-4273-b81b-fcc9cea2189c",
             "Accept-Encoding": "gzip, deflate",
             "Accept-Language": "zh-CN,zh;q=0.9",
         }
-        path = "http://oa.chinapsp.cn:8099/WebReport/ReportServer?op=closesessionid&sessionID={}".format(
-            self.session_id)
+        path = "{}/WebReport/ReportServer?op=closesessionid&sessionID={}".format(
+            self.host, self.session_id)
 
         resp = self.request.run(path, header=header)
 
@@ -314,8 +311,8 @@ class DealGhzrzyw(object):
     def deal_detail(self):
         header = self.header
         item_code = ""
-        path = "http://oa.chinapsp.cn:8099/WebReport/ReportServer?_=1568021925180&__boxModel__=true&op=page_content&sessionID={}&pn=1&__webpage__=true&_paperWidth=788&_paperHeight=572&__fit__=false".format(
-            self.session_id)
+        path = "{}/WebReport/ReportServer?_=1568021925180&__boxModel__=true&op=page_content&sessionID={}&pn=1&__webpage__=true&_paperWidth=788&_paperHeight=572&__fit__=false".format(
+            self.host, self.session_id)
 
         resp = self.request.run(path, header=self.header)
         soup = BeautifulSoup(resp, "lxml")
@@ -426,8 +423,8 @@ class DealGhzrzyw(object):
 
     def result_detail(self):
         header = self.header
-        path = "http://oa.chinapsp.cn:8099/WebReport/ReportServer?_=1568021925180&__boxModel__=true&op=page_content&sessionID={}&pn=1&__webpage__=true&_paperWidth=788&_paperHeight=572&__fit__=false".format(
-            self.session_id)
+        path = "{}/WebReport/ReportServer?_=1568021925180&__boxModel__=true&op=page_content&sessionID={}&pn=1&__webpage__=true&_paperWidth=788&_paperHeight=572&__fit__=false".format(
+            self.host, self.session_id)
 
         resp = self.request.run(path, header=self.header)
         soup = BeautifulSoup(resp, "lxml")
@@ -492,8 +489,8 @@ class DealGhzrzyw(object):
                                           item_subject, item_winner))
 
         self.ecnu_cursor.execute(
-            self.insert_tr_json.format(
-                json.dumps(tr_json, ensure_ascii=False), self.page_url))
+            self.insert_tr_json.format(json.dumps(tr_json, ensure_ascii=False),
+                                       self.page_url))
 
     def main(self, path):
         resp = self.request.run(path, header=self.header)
@@ -501,8 +498,7 @@ class DealGhzrzyw(object):
         for self.item in data["rows"]:
             try:
                 if self.judge_type() == True:
-                    self.page_url = "http://ex.chinapsp.cn/gzhydz/single-pages/notice-content.html?Id={}".format(
-                        self.item.get("Id"))
+                    self.page_url = self.item.get('JumpUrl')
                     self.get_session_id(self.item["ProjectId"])
 
                     # if self.item_type == 1:
@@ -534,7 +530,6 @@ class DealGhzrzyw(object):
                     print("--->Error: the error is {}".format(exc))
 
 
-DEBUG = True
 if __name__ == "__main__":
     os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     pages = 10
