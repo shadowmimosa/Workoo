@@ -80,10 +80,7 @@ class DealXmsyj(object):
         resp = requests.get(href, header=self.header)
         soup = BeautifulSoup(resp, 'lxml')
         info = []
-        info.append(
-            soup.find(attrs={
-                'class': 'TRS_Editor'
-            }).text.split('：')[-1])
+        info.append(soup.find(attrs={'class': 'sj_dc_2'}).text.split('：')[-1])
         temp = soup.find(attrs={'align': 'justify'}).text
         temp = temp.split('。')
         pork = temp[0]
@@ -104,25 +101,28 @@ class DealXmsyj(object):
         resp = requests.get(href, header=self.header)
         soup = BeautifulSoup(resp, 'lxml')
         info = []
-        info.append(
-            soup.find(attrs={
-                'class': 'TRS_Editor'
-            }).text.split('：')[-1])
-        temp = soup.find(attrs={'align': 'justify'}).text
-        temp = temp.split('。')
-        pork = temp[0]
-        meat = temp[1]
-        temp = pork.split('，')
-        info.append(temp[1])
-        info.append(temp[2].replace('全国规模以上生猪定点屠宰企业生猪平均收购价格为', ''))
-        info.append(temp[3].replace('环比', ''))
-        info.append(temp[4].replace('同比', ''))
-        temp = meat.split('，')
-        info.append(temp[0].replace('白条肉平均出厂价格为', ''))
-        info.append(temp[1].replace('环比', ''))
-        info.append(temp[2].replace('同比', ''))
+        info.append(soup.find(attrs={'class': 'sj_dc_2'}).text.split('：')[-1])
+        temps = soup.find(attrs={
+            'class': 'MsoNormalTable'
+        }).find_all(attrs={'class': 'MsoNormal'})
+        info.append(temps[2].text)
+        info.append(temps[3].text)
+        info.append(temps[-1].text)
 
-        self.sheet1.write(info)
+        self.sheet2.write(info)
+
+    def info_3(self, href):
+        resp = requests.get(href, header=self.header)
+        soup = BeautifulSoup(resp, 'lxml')
+        push_time = soup.find(attrs={'class': 'sj_dc_2'}).text.split('：')[-1]
+        collect_time = soup.find(attrs={
+            'class': 'sj_xiang_biaoti'
+        }).text.replace('畜产品和饲料集贸市场价格情况', '')
+
+        content = soup.find(attrs={'class': 'TRS_Editor'}).text.replace('与去年同期相比（以下简称同比）','')
+        info = []
+
+        self.sheet2.write(info)
 
     def obtaining(self, page):
         path = f'http://www.xmsyj.moa.gov.cn/jcyj/' if page == 0 else f'http://www.xmsyj.moa.gov.cn/jcyj/index_{page}.htm'
