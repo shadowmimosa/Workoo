@@ -130,6 +130,10 @@ class CebpubService(object):
         info['img'] = run_func(img_tag, pic_path)
         info['local'] = pic_path
         info['source'] = item.get('noticeUrl')
+        if 'http://bulletin.cebpubservice.com/biddingBulletin/' not in info[
+                'source']:
+            info[
+                'source'] = f'http://bulletin.cebpubservice.com/?{bulletin_id}'
         info['bulletin_id'] = bulletin_id
 
         if run_func(self.sql.insert, info):
@@ -138,13 +142,18 @@ class CebpubService(object):
             logger.error('插入失败 - {} '.format(bulletin_id))
 
     def main(self):
-        print(1)
         for page in range(int(CONFIG.get('PageNum', 'pages'))):
             for notice_type in range(5):
                 data = run_func(self.get_notice_list, notice_type, page + 1)
                 fid = run_func(self.real_fid, notice_type)
                 for item in data:
                     run_func(self.detail, item, fid)
+
+    def run(self):
+        while True:
+            run_func(self.main)
+            break
+            # time.sleep(600)
 
 
 if __name__ == "__main__":

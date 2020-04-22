@@ -1,4 +1,5 @@
 import os
+import time
 from utils.log import logger
 from utils.run import run_func
 from utils.common import MysqlOpea, FtpOpea
@@ -53,14 +54,18 @@ class UploadSomething(object):
                     logger.error('上传状态修改失败 - {}'.format(item.get('ID')))
 
                 logger.info('上传成功 - {}'.format(item.get('ID')))
-                
+
             result = run_func(self.local_sql.select)
+
+        self.ftp.disconnect()
+
+    def run(self):
+        while True:
+            run_func(self.main)
+            break
+            time.sleep(600)
 
 
 if __name__ == "__main__":
-    while 0:
-        print(5)
-    else:
-        print(6)
     upload = UploadSomething()
     upload.main()
