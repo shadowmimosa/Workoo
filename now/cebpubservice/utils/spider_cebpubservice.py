@@ -9,6 +9,11 @@ from utils.crypto import PyDes3
 from utils.request import Query
 from utils.less_pic import compress_by_dir
 
+from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
+
+from multiprocessing import Process
+import threading
+
 
 class CebpubService(object):
     """
@@ -141,19 +146,37 @@ class CebpubService(object):
         else:
             logger.error('插入失败 - {} '.format(bulletin_id))
 
-    def main(self):
+    def main(self, notice_type):
         for page in range(int(CONFIG.get('PageNum', 'pages'))):
-            for notice_type in range(5):
-                data = run_func(self.get_notice_list, notice_type, page + 1)
-                fid = run_func(self.real_fid, notice_type)
-                for item in data:
-                    run_func(self.detail, item, fid)
+            data = run_func(self.get_notice_list, notice_type, page + 1)
+            fid = run_func(self.real_fid, notice_type)
+            for item in data:
+                run_func(self.detail, item, fid)
 
-    def run(self):
-        while True:
-            run_func(self.main)
-            break
-            # time.sleep(600)
+    # def run(self):
+    #     self.main(notice_type)
+
+
+def spider_main():
+    for notice_type in range(5):
+        th = threading.Thread(target=CebpubService().main,
+                              args=(notice_type, ))
+        th.start()
+        # p = Process(target=CebpubService().main, args=(notice_type, ))
+        # p.start()
+    # types = [x for x in range(5)]
+    # with ProcessPoolExecutor(max_workers=1) as executor:
+    #     # with ThreadPoolExecutor(max_workers=5) as executor:
+    #     try:
+    #         for result in executor.map(CebpubService().main, types):
+    #             pass
+    #     except Exception as exc:
+    #         print(exc)
+
+    # Process.run(CebpubService().main, notice_type)
+
+    # with ThreadPoolExecutor(max_workers=5) as executor:
+    #     executor.map(CebpubService().main, [x for x in range(5)])
 
 
 if __name__ == "__main__":

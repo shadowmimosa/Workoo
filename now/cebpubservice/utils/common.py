@@ -223,11 +223,11 @@ class MysqlOpea(object):
             return True
 
     @ping
-    def select(self):
+    def select(self, ID=0):
         if self.upload:
             sql = ''
         else:
-            sql = 'SELECT * FROM `dd1`.`wy` WHERE `sync` = 0 LIMIT 10;'
+            sql = f'SELECT * FROM `dd1`.`wy` WHERE `sync` = 0 AND `id` > {ID} LIMIT 100;'
         if self.ecnu_cursor.execute(sql) != 0:
             return self.ecnu_cursor.fetchall()
 

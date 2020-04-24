@@ -90,6 +90,10 @@ class BaiduOCR(object):
 
             if error_code == 110 or error_code == 111:
                 self.__init__()
+            elif error_code == 18:
+                logger.info(f'QPS 超额, 等待0.5')
+                time.sleep(0.5)
+                return self.get_word(image_base64)
             else:
                 logger.error('BaiduOcr is error: {}'.format(
                     result.get('error_msg')))

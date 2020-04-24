@@ -44,8 +44,9 @@ class UploadSomething(object):
         result = run_func(self.local_sql.select)
         while result:
             for item in result:
+                ID = item.get('ID')
                 if not run_func(self.upload_img, item['local']):
-                    logger.error('图片上传失败 - {}'.format(item.get('ID')))
+                    logger.error('图片上传失败 - {}'.format(ID))
                     continue
                 if not run_func(self.remote_sql.insert, item):
                     logger.error('远程入库失败 - {}'.format(item.get('ID')))
@@ -55,7 +56,7 @@ class UploadSomething(object):
 
                 logger.info('上传成功 - {}'.format(item.get('ID')))
 
-            result = run_func(self.local_sql.select)
+            result = run_func(self.local_sql.select, ID)
 
         self.ftp.disconnect()
 
