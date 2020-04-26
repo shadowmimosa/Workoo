@@ -10,6 +10,7 @@ from urllib.parse import urlparse
 from configparser import ConfigParser
 from pdf2image import convert_from_path
 
+from utils.log import logger
 from utils.baidu_ocr import BaiduOCR
 
 
@@ -244,6 +245,10 @@ class MysqlOpea(object):
         if self.upload:
             sql = 'INSERT INTO `database`.`wy` ( `fid`, `uid`, `bt`, `url`, `nr`, `w1`, `w2`, `w5`, `g`, `r1`, `r2`) VALUES ( {fid}, 20, "{bt}", "{url}", "{nr}", "{w1}", "{w2}", "{w5}", "{g}", "{r1}", "{r2}" );'
         else:
+            bulletin_id = param.get('bulletin_id')
+            if not self.repeat(bulletin_id):
+                logger.warning(f'二次判重命中 -  - {bulletin_id}')
+                return
             sql = 'INSERT INTO `database`.`wy` ( `fid`, `uid`, `bt`, `url`, `nr`, `w1`, `w2`, `w5`, `g`, `r1`, `r2`, `local`, `special`, `platform`) VALUES ( {fid}, 20, "{title}", "{path}", "{img}", "{region}", "{trade}", "{text}", "{source}", "{add_time}", "{notice_time}", "{local}", "{bulletin_id}", 1 );'
         self.ecnu_cursor.execute(
             sql.format(**param).replace('database', self.database))

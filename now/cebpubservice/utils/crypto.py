@@ -15,6 +15,7 @@ class PyDes3():
                                  padmode=pyDes.PAD_PKCS5)
         if key:
             self.cryptor.setKey(key)
+        super().__init__()
 
     def encrypt(self, text):
         x = self.cryptor.encrypt(text.encode())

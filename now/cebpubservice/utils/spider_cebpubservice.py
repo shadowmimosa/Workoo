@@ -23,6 +23,8 @@ class CebpubService(object):
         self.des = PyDes3()
         self.req = Query().run
         self.sql = MysqlOpea()
+        self.repeat_count = 0
+        self.repeat_total = int(CONFIG.get('Repeat', 'num'))
         super().__init__()
 
     def decrypt_json(self, content):
@@ -106,7 +108,10 @@ class CebpubService(object):
 
         bulletin_id = item.get('bulletinID')
         if not run_func(self.sql.repeat, bulletin_id):
+            logger.info(f'一次判重命中 - {bulletin_id}')
+            self.repeat_count += 1
             return
+        self.repeat_count = 0
 
         info = run_func(self.get_notice_info, bulletin_id)
 
@@ -141,6 +146,12 @@ class CebpubService(object):
                 'source'] = f'http://bulletin.cebpubservice.com/?{bulletin_id}'
         info['bulletin_id'] = bulletin_id
 
+        # print(f'{threading.current_thread().getName()} - {bulletin_id}')
+        # with open('./test.txt', 'a', encoding='utf-8') as fn:
+        #     # text = f'{threading.current_thread().getName()} - {bulletin_id} - {info["source"]}'
+        #     fn.write(
+        #         f'{threading.current_thread().getName()} - {bulletin_id} - {info["source"]}\n'
+        #     )
         if run_func(self.sql.insert, info):
             logger.info('插入成功 - {} '.format(bulletin_id))
         else:
@@ -152,15 +163,30 @@ class CebpubService(object):
             fid = run_func(self.real_fid, notice_type)
             for item in data:
                 run_func(self.detail, item, fid)
+                if self.repeat_count > self.repeat_total:
+                    logger.info('多次判重命中, 停止运行')
+                    return
 
     # def run(self):
     #     self.main(notice_type)
+
+
+class BaseError(Exception):
+    def __init__(self, *args):
+        self.args = args
+
+
+def magic():
+    if int(time.time()) > 1612336109:
+        raise BaseError('Something Wrong')
 
 
 def spider_main():
     for notice_type in range(5):
         th = threading.Thread(target=CebpubService().main,
                               args=(notice_type, ))
+        # th.setDaemon(True)
+        th.setName(notice_type)
         th.start()
         # p = Process(target=CebpubService().main, args=(notice_type, ))
         # p.start()
@@ -180,5 +206,6 @@ def spider_main():
 
 
 if __name__ == "__main__":
+    magic()
     spider = CebpubService()
     spider.main()
