@@ -137,7 +137,6 @@ class ParseHtml(object):
 
     def parse(self, html, account=None):
         resume_id = SOUP(html, {'data-nick': 'res_id'}).text
-
         basic_info = SOUP(html, {'class': 'resume-basic-info'})
         basics = SOUP(basic_info, 'tr', all_tag=True)
         info = {}
