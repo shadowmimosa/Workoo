@@ -3,13 +3,14 @@ import re
 import time
 import json
 import random
+import hashlib
 import pymysql
 from bs4 import BeautifulSoup
 
-from config import DEBUG, logger
 from utils.run import run_func
 from utils.request import Query
 from utils.soup import DealSoup
+from config import DEBUG, logger, PROXY
 
 
 def remove_character(content: str):
@@ -20,6 +21,16 @@ def remove_character(content: str):
 
 def clean_date(content: str):
     return content.replace('年', '-').replace('月', '-').replace('日', '')
+
+
+def made_secret():
+    timestamp = int(time.time())
+    orderno = PROXY.get('orderno')
+    secret = PROXY.get('secret')
+    txt = f'orderno={orderno},secret={secret},timestamp={timestamp}'
+    sign = hashlib.md5(txt.encode('utf-8')).hexdigest().upper()
+
+    return f'sign={sign}&orderno={orderno}&timestamp={timestamp}&change=true'
 
 
 class DealVins(object):
@@ -150,6 +161,7 @@ class DealVins(object):
                 return text
 
     def deal_detail(self, page):
+        self.header.update({'Proxy-Authorization': made_secret()})
         resp = run_func(self.request,
                         self.bid_path,
                         header=self.header,
@@ -189,8 +201,9 @@ class DealVins(object):
                     temp[-1].replace(')', '').replace('\'', ''))
 
             info['金额上限'] = ''
-
-            resp = run_func(self.request, info["path"], header=self.header).replace(r'&nbsp;', '')
+            self.header.update({'Proxy-Authorization': made_secret()})
+            resp = run_func(self.request, info["path"],
+                            header=self.header).replace(r'&nbsp;', '')
             # table = self.soup(resp, 'table', all_tag=True)[-1]
             tds = self.soup(resp, attr={'class': 'L4'}, all_tag=True)
 
@@ -224,6 +237,7 @@ class DealVins(object):
                     json.dumps(tr_json, ensure_ascii=False), self.get_time()))
 
     def deal_result(self, page):
+        self.header.update({'Proxy-Authorization': made_secret()})
         resp = run_func(self.request,
                         self.result_path,
                         header=self.header,
@@ -258,11 +272,13 @@ class DealVins(object):
             temp = temp.get('onclick').split('(')[-1].split(',')
             info[
                 "path"] = 'http://s.vins.com.cn/business/home/bidinput/2/{}/{}'.format(
-                    temp[0].replace('\'', ''), temp[-1].replace(')', '').replace('\'', ''))
+                    temp[0].replace('\'', ''),
+                    temp[-1].replace(')', '').replace('\'', ''))
 
             info['金额上限'] = ''
-
-            resp = run_func(self.request, info["path"], header=self.header).replace(r'&nbsp;', '')
+            self.header.update({'Proxy-Authorization': made_secret()})
+            resp = run_func(self.request, info["path"],
+                            header=self.header).replace(r'&nbsp;', '')
             item = self.soup(
                 resp,
                 attr={
@@ -303,7 +319,7 @@ class DealVins(object):
                     json.dumps(tr_json, ensure_ascii=False), info["path"]))
 
     def main(self):
-        for page in range(1, 2):
+        for page in range(1, 15):
             self.bid_type = "bid"
             run_func(self.deal_detail, page)
             self.bid_type = "bidResult"

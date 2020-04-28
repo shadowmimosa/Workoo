@@ -1,11 +1,18 @@
 import os
 import json
 import time
+import random
 import urllib
 import hashlib
 import urllib3
 import requests
 from config import logger
+
+
+def magic():
+    sleep_time = round(random.uniform(1, 3), 2)
+    logger.info(f'魔法时间 - {sleep_time}')
+    time.sleep(sleep_time)
 
 
 class Query(object):
@@ -43,7 +50,10 @@ class Query(object):
         files = kwargs.get("files")
 
         sesscion_a = self.get_session()
-
+        proxy = {
+            "http": "http://dynamic.xiongmaodaili.com:8088",
+            "https": "http://dynamic.xiongmaodaili.com:8088"
+        }
         # print("---> 开始请求网址：{}".format(url))
         self.logger.info("---> 开始请求网址：{}".format(url))
         start_time = time.time()
@@ -52,22 +62,28 @@ class Query(object):
             try:
 
                 if isinstance(data, dict):
-                    resp = sesscion_a.post(
-                        url,
-                        headers=header,
-                        data=json.dumps(data),
-                        timeout=(2, 6))
+                    resp = sesscion_a.post(url,
+                                           headers=header,
+                                           data=json.dumps(data),
+                                           timeout=(2, 6),
+                                           proxies=proxy)
                 elif isinstance(files, dict):
-                    resp = sesscion_a.post(url, files=files, timeout=(2, 6))
+                    resp = sesscion_a.post(url,
+                                           files=files,
+                                           timeout=(2, 6),
+                                           proxies=proxy)
                 elif data:
-                    resp = sesscion_a.post(
-                        url, headers=header, data=data, timeout=(2, 6))
+                    resp = sesscion_a.post(url,
+                                           headers=header,
+                                           data=data,
+                                           timeout=(2, 6),
+                                           proxies=proxy)
                 else:
-                    resp = sesscion_a.get(
-                        url,
-                        headers=header,
-                        allow_redirects=False,
-                        timeout=(2, 6))
+                    resp = sesscion_a.get(url,
+                                          headers=header,
+                                          allow_redirects=False,
+                                          timeout=(2, 6),
+                                          proxies=proxy)
                 retry_count = 0
             except Exception as exc:
                 retry_count -= 1
@@ -77,6 +93,7 @@ class Query(object):
                 # self.deal_re(url=url, header=header, data=data)
 
         end_time = time.time()
+        magic()
 
         try:
             if resp.status_code == 200:
