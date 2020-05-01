@@ -18,6 +18,10 @@ def remove_character(content: str):
                                                          "").replace("\t", "")
 
 
+def to_date(content: str):
+    return content.split(': ')[-1].strip(' ')
+
+
 def clean_date(content: str):
     return content.replace('年', '-').replace('月', '-').replace('日', '')
 
@@ -37,14 +41,13 @@ class DealZhuhai(object):
             'Accept-Language': 'zh-CN,zh;q=0.9'
         }
 
-        self.insert_tb_bid = "INSERT INTO `bidpython`.`tb_bid` ( `title`, `inviter_number`, `announce_time`, `end_time`, `budget_money`, `platform_id`, `url`, `company` ) VALUES ( '{网上竞价名称}', '{网上竞价编号}', '{竞价开始时间}', '{竞价截止时间}', '{金额上限}', 18, '{path}', '{采购人}' );"
-        self.insert_bid_result = "INSERT INTO `bidpython`.`tb_bid_result` ( `title`, `inviter_number`, `announce_time`, `end_time`, `announce_date`, `platform_id`, `url`, `company`, `budget_money`, `announce_company` ) VALUES ( '{网上竞价名称}', '{网上竞价编号}', '{竞价开始时间}', '{竞价截至时间}', '{成交公告时间}', 18, '{path}', '{采购人}', '{中标总额}', '{中标公司}' );"
-        self.insert_bid_json = "INSERT INTO `bidpython`.`tb_bid_json` ( `shot`, `platform_name`, `inviter_number`, `url`, `json_kv`, `create_time` ) VALUES ( '', '珠海市公共资源交易中心', '{}', '{}', '{}', '{}');"
-        self.insert_tr_json = "INSERT INTO `bidpython`.`tb_tr_json` ( `platform_id`, `platform_name`, `tr_json`, `url` ) VALUES ( 18, '珠海市公共资源交易中心', '{}', '{}');"
+        self.insert_tb_bid = "INSERT INTO `bidpython`.`tb_bid` ( `title`, `inviter_number`, `announce_time`, `end_time`, `budget_money`, `platform_id`, `url`, `company` ) VALUES ( '{网上竞价名称}', '{网上竞价编号}', '{竞价开始时间}', '{竞价截止时间}', '{金额上限}', 21, '{path}', '{采购人}' );"
+        self.insert_bid_result = "INSERT INTO `bidpython`.`tb_bid_result` ( `title`, `inviter_number`, `announce_time`, `end_time`, `announce_date`, `platform_id`, `url`, `company`, `budget_money`, `announce_company` ) VALUES ( '{网上竞价名称}', '{网上竞价编号}', '{竞价开始时间}', '{竞价截至时间}', '{成交公告时间}', 21, '{path}', '{采购人}', '{中标总额}', '{中标公司}' );"
+        self.insert_bid_json = "INSERT INTO `bidpython`.`tb_bid_json` ( `shot`, `platform_name`, `inviter_number`, `url`, `json_kv`, `create_time` ) VALUES ( '', '优质采', '{}', '{}', '{}', '{}');"
+        self.insert_tr_json = "INSERT INTO `bidpython`.`tb_tr_json` ( `platform_id`, `platform_name`, `tr_json`, `url` ) VALUES ( 21, '优质采', '{}', '{}');"
         self.request = Query().run
         self.soup = DealSoup().judge
         self.init_sql()
-        self.pattern = re.compile(r"\(询价编号：.*\)")
 
     def init_sql(self):
         from config import DATABASES
@@ -154,64 +157,50 @@ class DealZhuhai(object):
                              all_tag=True)
 
         for project in projects:
-            info = {}
-
-            info["网上竞价名称"] = self.soup(project,
-                             attr={'class': 'project-name0 el'}).text            
-            info["竞价开始时间"] = self.soup(project,
-                             attr={'class': 'pub-value0'}).text
-            info["采购人"] = self.soup(project, attr={'class': 'pub-company0 el'}).text
-            info["path"] = project.a.get('href').text
-
             if self.soup(project, attr={'class': 'left-day'}).text == '已截止':
                 continue
+
+            info = {}
+            info["网上竞价名称"] = self.soup(project,
+                                       attr={
+                                           'class': 'project-name0 el'
+                                       }).get('title')
+            info["竞价开始时间"] = self.soup(project, attr={
+                'class': 'pub-value0'
+            }).text
+            info["采购人"] = self.soup(project, attr={
+                'class': 'pub-company0 el'
+            }).text
+            info["path"] = f'https://www.youzhicai.com{project.a.get("href")}'
+
+            resp = run_func(self.request, info["path"], header=self.header)
+
+            detail = self.soup(resp, attr={'class': 'content-message'})
+            divs = self.soup(detail, 'div', all_tag=True)
+
+            info["网上竞价编号"] = to_date(divs[1].text)
 
             if not self.judge_already(info["网上竞价编号"]):
                 continue
 
-            
-
-            path = a_obj.get('href')
-            resp = run_func(self.request, path, header=self.header)
-
-            title = remove_character(
-                self.soup(resp, attr={
-                    'class': 'contentttit'
-                }).text)
-
-            tables = self.soup(resp, attr='table', all_tag=True)
-            result_0 = self.ergodic_tr(
-                self.soup(tables[-1], attr='tr', all_tag=True))
-            result_1 = self.ergodic_tr(self.soup(tables[-2],
-                                                 attr='tr',
-                                                 all_tag=True),
-                                       sign='p')
-            try:
-                persoon = self.soup(resp, {'style': 'border: 0;'}).p.u.text
-            except:
-                persoon = ''
-
-             = persoon
-            info["竞价开始时间"] = clean_date(result_1['竞价开始时间'])
-            info["竞价截止时间"] = clean_date(result_1['竞价截止时间'])
-            info['金额上限'] = result_0.get('金额上限')
-            info["path"] = path
+            info["竞价截止时间"] = to_date(divs[2].text)
+            info['金额上限'] = ''
 
             tr_json = [{
                 "参数": "",
-                "单位": result_0.get('单位'),
-                "招标编号": info["网上竞价编号"],
+                "单位": '',
+                "招标编号": '',
                 "序号": 1,
-                "产品名称": result_0.get('产品名称'),
+                "产品名称": '',
                 "产品类别": "",
-                "产品单价": result_0.get('产品单价'),
+                "产品单价": '',
                 "合计": '',
                 "品牌": "",
-                "数量": result_0.get('数量'),
+                "数量": '',
                 "标配": "",
                 "型号": '',
-                "url": path,
-                "招标平台": "珠海市公共资源交易中心",
+                "url": '',
+                "招标平台": "优质采",
                 "售后服务": "",
             }]
 
@@ -226,68 +215,45 @@ class DealZhuhai(object):
 
     def deal_result(self, page):
         resp = run_func(self.request,
-                        self.bid_path.format(page),
-                        header=self.header)
-        projects = self.soup(resp,
-                             attr={'class': 'project-name0 el'},
-                             all_tag=True)
-
-        resp = run_func(self.request,
                         self.result_path.format(page),
                         header=self.header)
-        box_right = self.soup(resp, attr={'class': 'rl-box-right'})
-        li_obj = self.soup(box_right, attr='li', all_tag=True)
+        projects = self.soup(resp,
+                             attr={'class': 'project-li clearfix'},
+                             all_tag=True)
 
-        for li in li_obj:
+        for project in projects:
             info = {}
-            a_obj = self.soup(li, attr='a')
-            title = a_obj.get('title')
-            if '网上询价结果公告' not in title:
-                continue
+            info["网上竞价名称"] = self.soup(project,
+                                       attr={
+                                           'class': 'project-name0 el'
+                                       }).get('title')
 
-            info["网上竞价编号"] = title.split('：')[-1].replace(')',
-                                                          '').replace('）', '')
+            info["采购人"] = self.soup(project, attr={
+                'class': 'pub-company0 el'
+            }).text
+            info["path"] = f'https://www.youzhicai.com{project.a.get("href")}'
+            resp = run_func(self.request, info["path"], header=self.header)
+            detail = self.soup(resp, attr={'class': 'content-message'})
+            divs = self.soup(detail, 'div', all_tag=True)
+            info["网上竞价编号"] = to_date(divs[1].text)
             if not self.judge_already(info["网上竞价编号"]):
                 continue
-            info["网上竞价名称"] = title.split(']')[-1].split('(')[0]
-            path = a_obj.get('href')
-            resp = run_func(self.request, path, header=self.header)
-
-            # info['中标供应商'] = self.soup(resp, {
-            #     'style': 'text-decoration:underline'
-            # }).text
-            table = self.soup(resp, {'class': 'unify_table'})
-            td_list = self.soup(resp, 'td', all_tag=True)
-
-            info["path"] = path
-
-            info["成交公告时间"] = self.soup(self.soup(resp, {'class': 'titshare'}),
-                                       'span').text
-            info["竞价开始时间"] = ""
-            info["竞价截至时间"] = ""
-
-            info["中标总额"] = td_list[-4].text
-            info['中标公司'] = td_list[-5].text
-
-            try:
-                person = self.soup(resp, {
-                    'style': 'font-size:11.0pt;font-family:宋体'
-                }).text.strip('\t').split('，')[0]
-            except:
-                person = ''
-
-            info["采购人"] = person
+            info["成交公告时间"] = to_date(divs[0].text)
+            info["竞价开始时间"] = ''
+            info["竞价截至时间"] = to_date(divs[2].text)
+            info["中标总额"] = ''
+            info['中标公司'] = ''
 
             tr_json = [{
                 "成交时间": "",
-                "招标编号": info["网上竞价编号"],
+                "招标编号": '',
                 "规格配置": '',
-                "详情url": info["path"],
-                "平台名称": "珠海市公共资源交易中心",
-                "总价": td_list[-4].text,
-                "中标供应商": td_list[-5].text,
-                "设备名称": td_list[-7].text,
-                "创建时间": self.get_time(),
+                "详情url": '',
+                "平台名称": "优质采",
+                "总价": '',
+                "中标供应商": '',
+                "设备名称": '',
+                "创建时间": '',
                 "品牌": '',
                 "型号": '',
                 "数量": ''
@@ -300,18 +266,6 @@ class DealZhuhai(object):
                 self.ecnu_cursor.execute,
                 self.insert_tr_json.format(
                     json.dumps(tr_json, ensure_ascii=False), info["path"]))
-
-    def run(self, path):
-        resp = run_func(self.request, path, header=self.header)
-        data = json.loads(resp)
-        for item in data["aaData"]:
-            if run_func(self.judge_already, item["reverseAuctionCode"]):
-                if self.bid_type == "bidNeed":
-                    run_func(self.deal_detail, item["id"])
-                elif self.bid_type == "bidResult":
-                    run_func(self.deal_result, item["id"])
-            else:
-                logger.info("--->Info: existed already")
 
     def main(self):
         for page in range(1, 2):
