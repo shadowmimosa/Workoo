@@ -159,16 +159,17 @@ class Deal(object):
 
         temp = self.soup(html, attr={'data-aui': 'supplier-card'})
         try:
-            self.info['供应商名称'] = self.soup(temp,
-                                       attr={
-                                           'class':
-                                           'company-name company-name-lite-vb'
-                                       }).text
+            self.info['供应商名称'] = self.soup(
+                temp, attr={
+                    'class': 'company-name company-name-lite-vb'
+                }).text
         except Exception as exc:
             logger.warning(f'the error1 is {exc}')
             return
         try:
-            self.info['金牌会员年数'] = self.soup(temp, attr={'class': 'join-year'}).text
+            self.info['金牌会员年数'] = self.soup(temp, attr={
+                'class': 'join-year'
+            }).text
         except Exception as exc:
             logger.warning(f'the error2 is {exc}')
             self.info['金牌会员年数'] = None
@@ -268,7 +269,9 @@ class Deal(object):
         # category = ['disposable_mask']
         # category = ['medical_mask']
         # category = ['medical_disposable_gloves']
-        category = ['Medical_goggles']
+        
+        # category = ['Medical_goggles']
+        category = ['medical_disposable_gloves']
 
         with open('./data/already.txt', 'r', encoding='utf-8') as fn:
             already = fn.read().split('\n')
@@ -297,6 +300,7 @@ class Deal(object):
                         'Sec-Fetch-Mode': 'navigate',
                         'Accept-Encoding': 'gzip, deflate, br',
                         'Accept-Language': 'zh-CN,zh;q=0.9',
+                        'Cookie': self.cookie
                     }
                     resp = self.req(path, header=header)
 
