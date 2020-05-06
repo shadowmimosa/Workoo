@@ -1,7 +1,7 @@
 from copy import copy
 from urllib import parse
 from datetime import datetime
-from pymongo import MongoClient
+import pymongo
 
 from config import MONGO, DEBUG
 
@@ -18,7 +18,7 @@ class MongoOpea(object):
         config["user"] = parse.quote_plus(config["user"])
         config["passwd"] = parse.quote_plus(config["passwd"])
 
-        client = MongoClient(
+        client = pymongo.MongoClient(
             "mongodb://{user}:{passwd}@{host}:{port}/".format(**config),
             connect=False)
 
