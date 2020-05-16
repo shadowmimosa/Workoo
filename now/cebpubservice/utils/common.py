@@ -228,7 +228,7 @@ class MysqlOpea(object):
         if self.upload:
             sql = ''
         else:
-            sql = f'SELECT * FROM `dd1`.`wy` WHERE `sync` = 0 AND `id` > {ID} LIMIT 100;'
+            sql = f'SELECT * FROM `dd1`.`wy` WHERE `sync` = 0 AND `id` > {ID} AND `platform` = 1 LIMIT 100;'
         if self.ecnu_cursor.execute(sql) != 0:
             return self.ecnu_cursor.fetchall()
 
