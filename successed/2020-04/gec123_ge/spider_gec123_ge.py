@@ -14,12 +14,12 @@ from utils.soup import DealSoup
 
 class DealGec(object):
     def __init__(self):
-        self.bid_path = 'https://www.gec123.com/enquiry/api/v1/packages?pi={}&ps=12'
+        self.bid_path = 'https://www.ccgp-chongqing.gov.cn/enquiry/api/v1/packages?pi={}&ps=12&quota=1'
         self.header = {
             "User-Agent":
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
             "Accept": "*/*",
-            "Referer": "https://www.gec123.com/ge/",
+            # "Referer": "https://xj.ccgp-chongqing.gov.cn/ge/",
             "Accept-Encoding": "gzip, deflate, br",
             "Accept-Language": "zh-CN,zh;q=0.9",
         }
@@ -191,7 +191,7 @@ class DealGec(object):
             data = json.loads(resp)["packages"]
 
             for item in data:
-                path = f'https://www.gec123.com/enquiry/notice!enquiryNotice.action?notic_seq={item.get("noticeId")}'
+                path = f'https://www.ccgp-chongqing.gov.cn/enquiry/notice!enquiryNotice.action?notic_seq={item.get("noticeId")}'
                 info = {}
                 result = item.get('result')
                 if result == -1:
