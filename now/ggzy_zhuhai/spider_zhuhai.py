@@ -6,10 +6,10 @@ import random
 import pymysql
 from bs4 import BeautifulSoup
 
-from config import DEBUG, logger
 from utils.run import run_func
 from utils.request import Query
 from utils.soup import DealSoup
+from config import DEBUG, logger
 
 
 def remove_character(content: str):
@@ -20,7 +20,6 @@ def remove_character(content: str):
 
 def clean_date(content: str):
     return content.replace('年', '-').replace('月', '-').replace('日', '')
-
 
 
 class DealZhuhai(object):
@@ -136,7 +135,10 @@ class DealZhuhai(object):
                 '～')[0].strip(' ')
             info['竞价截止时间'] = td_list[2].text.split('：')[-1].split(
                 '～')[-1].strip(' ')
-            info['采购人'] = td_list[3].text.split('：')[-1]
+            if len(td_list) >= 4:
+                info['采购人'] = td_list[3].text.split('：')[-1]
+            else:
+                info['采购人'] = ''
 
             return info
 
@@ -192,6 +194,8 @@ class DealZhuhai(object):
         resp = run_func(self.request,
                         self.bid_path.format(page),
                         header=self.header)
+        if isinstance(resp, int):
+            return                        
         box_right = self.soup(resp, attr={'class': 'rl-box-right'})
         li_obj = self.soup(box_right, attr='li', all_tag=True)
 
@@ -268,6 +272,8 @@ class DealZhuhai(object):
         resp = run_func(self.request,
                         self.result_path.format(page),
                         header=self.header)
+        if isinstance(resp, int):
+            return
         box_right = self.soup(resp, attr={'class': 'rl-box-right'})
         li_obj = self.soup(box_right, attr='li', all_tag=True)
 
@@ -303,7 +309,9 @@ class DealZhuhai(object):
             info['中标公司'] = td_list[-5].text
 
             try:
-                person = self.soup(resp,{'style':'font-size:11.0pt;font-family:宋体'}).text.strip('\t').split('，')[0]
+                person = self.soup(resp, {
+                    'style': 'font-size:11.0pt;font-family:宋体'
+                }).text.strip('\t').split('，')[0]
             except:
                 person = ''
 
@@ -345,7 +353,7 @@ class DealZhuhai(object):
                 logger.info("--->Info: existed already")
 
     def main(self):
-        for page in range(5, 6):
+        for page in range(1, 10):
             self.bid_type = "bid"
             run_func(self.deal_detail, page)
             self.bid_type = "bidResult"
