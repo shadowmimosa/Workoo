@@ -2,16 +2,19 @@ import os
 import json
 import time
 import datetime
-
 import hashlib
+from urllib.parse import urlparse, parse_qs, urlencode
 from config import AUTH, SALT, FIXED, APP
-from utils import logger, run_func, request, excel, mysql, soup
+from utils import logger, run_func, request, excel, soup, mongo
 
 excel.init_sheet(header=[
-    '项目楼栋情况', '座号', '合同号', '拟售价格', '楼层', '房号', '用途', '预售查丈-建筑面积', '预售查丈-户内面积',
-    '预售查丈-分摊面积', '竣工查丈-户内面积', '竣工查丈-分摊面积', '竣工查丈-建筑面积'
+    '楼盘名称', '现售/预售', '项目楼栋情况', '座号', '合同号', '拟售价格', '楼层', '房号', '用途',
+    '预售查丈-建筑面积', '预售查丈-户内面积', '预售查丈-分摊面积', '竣工查丈-户内面积', '竣工查丈-分摊面积',
+    '竣工查丈-建筑面积'
 ])
 
+info = {}
+count = 0
 header = {
     'appId': '2',
     'currentVersion': '12.0.0',
@@ -39,41 +42,6 @@ HEADER = {
     'Accept-Encoding': 'gzip, deflate',
     'Accept-Language': 'zh-CN,zh;q=0.9',
 }
-
-
-def unit_price(total, area):
-    try:
-        price = int(total) / int(area)
-    except Exception:
-        logger.warning(f'Calculate Price is Error - {total} - {area}')
-    else:
-        return round(price, 3)
-
-
-def to_excel(data: dict):
-    if not data:
-        return
-    info = {}
-    info['楼盘名称'] = data.get('houseName')
-    info['板块'] = data.get('districtPlateName')
-    info['楼号'] = data.get('building')
-    info['楼层'] = data.get('floorTag')
-    info['面积'] = data.get('bargainArea')
-    info['网签价格'] = data.get('dealTag').get('dealOrEvalSinPrice')
-    info['复原价格'] = data.get('evalTag').get('dealOrEvalSinPrice')
-    info['合同价格(万)'] = data.get('contractRealPrice')
-    info['单价(万元/m²)'] = unit_price(info['合同价格(万)'], info['面积'])
-    info['成交时间'] = data.get('dealTime')
-
-    excel.write(info)
-    try:
-        sql = 'INSERT INTO `backstage`.`2boss`(`楼盘名称`, `板块`, `楼号`, `楼层`, `面积`, `网签价格`, `复原价格`, `合同价格`, `单价`, `成交时间`) VALUES ("{楼盘名称}", "{板块}", "{楼号}", "{楼层}", "{面积}", "{网签价格}", "{复原价格}", "{合同价格(万)}", "{单价(万元/m²)}", "{成交时间}");'.format(
-            **info)
-        mysql.execute(sql)
-    except Exception as exc:
-        pass
-    message = json.dumps(info, ensure_ascii=False).replace('²', '2')
-    logger.info(f'已插入 - {message}')
 
 
 def remove(content: str):
@@ -108,12 +76,32 @@ def get_data():
     return data
 
 
+def form_data(html):
+    form_html = soup(html, {'id': 'Form1'})
+    return form_html.get('action')
+
+    form_data = {}
+    form_data['__EVENTTARGET'] = soup(form_html, {
+        'id': '__EVENTTARGET'
+    }).get('value')
+    form_data['__EVENTARGUMENT'] = soup(form_html, {
+        'id': '__EVENTARGUMENT'
+    }).get('value')
+    form_data['__VIEWSTATE'] = soup(form_html, {
+        'id': '__VIEWSTATE'
+    }).get('value')
+
+    return form_data
+
+
 def house_detail(href):
+    global info, count
+
     resp = request(href, header=HEADER)
     table = soup(resp, {'class': 'table ta-c table2 table-white'})
 
-    info = {}
     sign = ''
+
     for tr in soup(table, 'tr', 1):
         tds = soup(tr, 'td', 1)
         if not tds:
@@ -126,26 +114,46 @@ def house_detail(href):
                 key = remove(td.text)
             info[key] = remove(tds[tds.index(td) + 1].text)
 
-    print(info)
+    excel.write(info)
+    mongo.insert(info, 'zjj_sz_data')
+    count += 1
+    print(f'已采集 {count} 条')
 
 
 def building(href):
+    global info
+
     resp = request(href, header=HEADER)
-    
-    table = soup(resp, {'class': 'table ta-c table2'})
+    branches = soup(resp, {'id': 'divShowBranch'})
+    branches = soup(branches, 'a', 1)
+    # href = form_data(resp)
+    # building.aspx?id=36123&presellid=44453&Branch=A&isBlock=xs
+    # params = urlparse(href)
+    # for building_type in ['imgBt1', 'imgBt2']:
+    for branch in branches:
+        href = branch.get('href')
+        params = parse_qs(urlparse(href).query)
+        for key in params:
+            params[key] = params[key][0]
 
-    for tr in soup(table, 'tr', 1):
-        for child in tr.contents:
-            if child.name != 'td':
-                continue
-            a = child.a
-            if not a:
-                continue
-            href = a.get('href')
-            if not href:
-                continue
+        for block_name, block in [('预售', 'ys'), ('现售', 'xs')]:
+            info['现售/预售'] = block_name
+            params['isBlock'] = block
+            href = f'building.aspx?{urlencode(params)}'
+            resp = request(href, header=HEADER)
+            table = soup(resp, {'class': 'table ta-c table2'})
+            for tr in soup(table, 'tr', 1):
+                for child in tr.contents:
+                    if child.name != 'td':
+                        continue
+                    a = child.a
+                    if not a:
+                        continue
+                    href = a.get('href')
+                    if not href:
+                        continue
 
-            house_detail(href)
+                    house_detail(href)
 
 
 def project_detail(href):
@@ -159,6 +167,10 @@ def project_detail(href):
 
 
 def serch_keyword(keyword):
+    global info
+
+    info = {}
+
     result = get_data()  # dict
     url = 'http://zjj.sz.gov.cn/ris/bol/szfdc/index.aspx'
     header = {
@@ -190,11 +202,13 @@ def serch_keyword(keyword):
         'ddlPageCount': '10'
     }
 
-    resp = request(url, header=header)
+    resp = request(url, header=header, data=urlencode(data))
     table = soup(resp, {'class': 'table ta-c bor-b-1 table-white'})
     trs = soup(table, 'tr', 1)
     tds = soup(trs[1], 'td', 1)
     href = tds[2].a.get('href')
+
+    info['楼盘名称'] = keyword
 
     project_detail(href)
 
@@ -233,9 +247,8 @@ def magic():
 
 def spider():
     for keyword in get_keyword():
-        for house in serch_keyword(keyword):
-            run_func(get_prices, house)
-            time.sleep(interval)
+        serch_keyword(keyword)
+
     try:
         name = excel.save()
     except Exception as exc:
