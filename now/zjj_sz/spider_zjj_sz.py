@@ -147,17 +147,19 @@ def building(href):
             href = f'building.aspx?{urlencode(params)}'
             resp = request(href, header=HEADER)
             table = soup(resp, {'class': 'table ta-c table2'})
-            for tr in soup(table, 'tr', 1):
-                for child in tr.contents:
-                    if child.name != 'td':
-                        continue
-                    a = child.a
-                    if not a:
-                        continue
-                    href = a.get('href')
-                    if not href:
-                        continue
 
+            for tr in soup(table, 'tr', 1):
+                # for child in tr.contents:
+                #     if child.name != 'td':
+                #         continue
+                #     a = child.a
+                #     if not a:
+                #         continue
+                #     href = a.get('href')
+                #     if not href:
+                #         continue
+                for a in soup(tr, 'a', 1):
+                    href = a.get('href')
                     house_detail(href)
 
 
@@ -210,12 +212,19 @@ def serch_keyword(keyword):
     resp = request(url, header=header, data=urlencode(data))
     table = soup(resp, {'class': 'table ta-c bor-b-1 table-white'})
     trs = soup(table, 'tr', 1)
-    tds = soup(trs[1], 'td', 1)
-    href = tds[2].a.get('href')
 
-    info['楼盘名称'] = keyword
+    for index, tr in enumerate(trs[1:]):
+        if tr.get('style') is not None:
+            continue
 
-    project_detail(href)
+        tds = soup(tr, 'td', 1)
+        href = tds[2].a.get('href')
+        if index == 0:
+            info['楼盘名称'] = keyword
+        else:
+            info['楼盘名称'] = f'{keyword}-{index+1}'
+
+        project_detail(href)
 
 
 def get_keyword():
