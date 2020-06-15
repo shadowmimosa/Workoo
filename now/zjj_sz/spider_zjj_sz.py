@@ -3,6 +3,7 @@ import json
 import time
 import datetime
 import hashlib
+from copy import copy
 from urllib.parse import urlparse, parse_qs, urlencode
 from config import AUTH, SALT, FIXED, APP
 from utils import logger, run_func, request, excel, soup, mongo
@@ -96,6 +97,7 @@ def form_data(html):
 
 def house_detail(href):
     global info, count
+    mongo_info = copy(info)
 
     resp = request(href, header=HEADER)
     table = soup(resp, {'class': 'table ta-c table2 table-white'})
@@ -112,10 +114,13 @@ def house_detail(href):
                 key = f'{sign}-{remove(td.text)}'
             else:
                 key = remove(td.text)
+
             info[key] = remove(tds[tds.index(td) + 1].text)
+            mongo_info[key] = remove(tds[tds.index(td) + 1].text).replace(
+                '元/平方米(按建筑面积计)', '').replace('平方米', '')
 
     excel.write(info)
-    mongo.insert(info, 'zjj_sz_data')
+    mongo.insert(mongo_info, 'zjj_sz_data')
     count += 1
     print(f'已采集 {count} 条')
 
@@ -255,6 +260,8 @@ def spider():
         logger.error(f'保存失败 - {exc}')
     else:
         logger.info(f'保存成功 - {name}')
+
+    input('按任意键退出')
 
 
 if __name__ == "__main__":
