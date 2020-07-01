@@ -94,7 +94,9 @@ class DealGec(object):
         info["金额上限"] = item["totalLimit"]
         info["path"] = path
 
-        info["采购人"] = self.soup(resp, {'class': 'contact-content'}).text
+        info["采购人"] = self.soup(resp, {
+            'id': 'center_left_wrap'
+        }).text.replace('\n', '')
 
         # item["publishTime"]
         info["竞价开始时间"] = time.strftime(
@@ -144,7 +146,9 @@ class DealGec(object):
             return
 
         info["网上竞价名称"] = item["noticeName"]
-        info["采购人"] = self.soup(resp, {'class': 'contact-content'}).text
+        info["采购人"] = self.soup(resp, {
+            'id': 'center_left_wrap'
+        }).text.replace('\n', '')
         info["path"] = path
 
         info["中标公司"] = item.get('providerOrgName')
