@@ -7,7 +7,8 @@ from number2chinese import number2chinese
 
 def company_survey(details: dict):
     header = [
-        '股票代码', '股票名称', '公司名称', '公司简介', '经营范围', '员工人数', '办公地址', '网址', '联系电话'
+        '股票代码', '股票名称', '公司名称', '公司简介', '经营范围', '员工人数', '办公地址', '网址', '联系电话',
+        '总经理', '法人代表', '董事长', '注册地址'
     ]
     excel.init_sheet(header, '公司概况')
     base = details.get('jbzl')
@@ -21,7 +22,11 @@ def company_survey(details: dict):
         '员工人数': base.get('gyrs'),
         '办公地址': base.get('bgdz'),
         '网址': base.get('gswz'),
-        '联系电话': base.get('lxdh')
+        '联系电话': base.get('lxdh'),
+        '总经理': base.get('zjl'),
+        '法人代表': base.get('frdb'),
+        '董事长': base.get('dsz'),
+        '注册地址': base.get('zcdz')
     }
 
     excel.write(info, '公司概况')
