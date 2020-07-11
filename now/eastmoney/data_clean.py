@@ -104,29 +104,32 @@ def business_analysis(details: dict):
 
 def main():
     count = 0
-    result = mongo.select('eastmoney_7_3', _id=False)
+    result = mongo.select('eastmoney_7_10', _id=False, limit=1000)
     # import json
     # with open('./demo.json', 'r', encoding='utf-8') as fn:
     #     result = json.loads(fn.read())
 
     while result:
-        for stock in result['stock_info']:
+        for stock in result:
             excel.__init__()
-            dirpath = f'data/{result["groupname"]}'
-            pathlib.Path(dirpath).mkdir(parents=True, exist_ok=True)
+            dirpath = f'data/'
+
+            path = f'{dirpath}/{stock.get("company_survey").get("SecurityShortName")}.xlsx'
+            if pathlib.Path(path).is_file():
+                print(stock.get('_id'))
 
             business_analysis(stock['business_analysis'])
             core_conception(stock['core_conception'])
             company_survey(stock['company_survey'])
 
-            excel.save(
-                f'{dirpath}/{stock.get("company_survey").get("SecurityShortName")}.xlsx'
-            )
+            excel.save(path)
             count += 1
+            
         print(count)
-        result = mongo.select('eastmoney_7_3', {'_id': {
-            '$gt': result['_id']
+        result = mongo.select('eastmoney_7_10', {'_id': {
+            '$gt': stock['_id']
         }},
+                              limit=1000,
                               _id=False)
 
 

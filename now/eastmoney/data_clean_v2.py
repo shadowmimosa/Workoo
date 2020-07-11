@@ -1,11 +1,9 @@
 import re
 import os
-import pathlib
+import cpca
 from utils import mongo, excel
-from number2chinese import number2chinese
 
 
-# 有些数据现在用不到，将来会用到，但“ 、股票名称、公司名称、注册地址、核心优势页面的要点三 和要点四   ” 这些我现在需要用到
 def company_survey(details: dict):
     base = details.get('jbzl')
 
@@ -42,23 +40,31 @@ def core_conception(details: dict):
         return {'要点三': None, '要点四': None}
 
 
+def extract_region(address):
+    result = cpca.transform([address], open_warning=False, cut=False)
+    
+    return
+
+
 def main():
     count = 0
-    header = ['股票代码', '股票名称', '公司名称', '注册地址']
+    header = ['股票代码', '股票名称', '公司名称', '省', '市', '注册地址', '要点三', '要点四']
     excel.init_sheet(header, 'sheet')
     result = mongo.select('eastmoney_7_10', _id=False)
+
     while result:
         for stock in result:
             info = {}
-            path = f'data/v2/tatal/汇总.xlsx'
-            pathlib.Path(path).mkdir(parents=True, exist_ok=True)
+            path = f'data/汇总.xlsx'
 
             info.update(core_conception(stock['core_conception']))
             info.update(company_survey(stock['company_survey']))
 
+            info.update(extract_region(info.get('注册地址')))
+
             excel.save(path)
             count += 1
-            
+
         print(count)
         result = mongo.select('eastmoney_7_10',
                               {'_id': {
