@@ -17,7 +17,8 @@ class ExcelOpea(object):
         super().__init__()
 
     def to_excel(self, index, value):
-        value = ILLEGAL_CHARACTERS_RE.sub(r'', value)
+        value = ILLEGAL_CHARACTERS_RE.sub(
+            r'', value) if value is not None else value
 
         self.write_sheet.cell(self.row, index + 1, value)
 
