@@ -5,11 +5,11 @@ from copy import copy
 from urllib import parse
 from functools import wraps
 from datetime import datetime
+from warnings import filterwarnings
+filterwarnings("ignore", category=pymysql.Warning)
 
 from utils.log import logger
-from utils.run import run_func
-
-from config import DEBUG, MONGO, DATABASES
+from config import MONGO, DATABASES
 
 
 def ping(func):
@@ -22,86 +22,24 @@ def ping(func):
     return wrapper
 
 
-# class MysqlOpea(object):
-#     def __init__(self, platform_id):
-#         super().__init__()
-#         self.platform_id = platform_id
-#         self.init_sql()
-
-#     def init_sql(self):
-#         try:
-#             ecnu_mysql = pymysql.connect(**DATABASES)
-#         except pymysql.err.OperationalError as exc:
-#             print('登录失败！TimeoutError!')
-#             os._exit(0)
-#         else:
-#             self.ecnu_cursor = ecnu_mysql.cursor()
-
-#     def insert(self):
-#         # sql = 'INSERT INTO `bidding`.`bids`(`title`, `bid_number`, `industry`, `company`, `state`, `info_url`, `file_url`, `type`, `status`, `post_time`, `end_time`, `platform_id`, `remark`) VALUES ( "{title}", "{bid_number}", "{industry}", "{company}", "{state}", "{info_url}", "{file_url}", "{type}", "{status}", "{post_time}", "{end_time}", "{platform_id}", "{remark}" );'
-#         pass
-
-#     def repeat(self, bid_type='', bid_number=''):
-#         if bid_type == "bid":
-#             sql = "SELECT `id` FROM `bidding`.`bids` WHERE `bid_number` = '{}' and `platform_id` = {} LIMIT 1;"
-#         elif bid_type == "result":
-#             sql = "SELECT `id` FROM `bidding`.`results` WHERE `bid_number` = '{}' and `platform_id` = {} LIMIT 1;"
-
-#         if run_func(self.ecnu_cursor.execute,
-#                     sql.format(bid_number, PLATFPRM_ID)) == 0:
-#             return True
-#         else:
-#             return
-
-# class MysqlOpea(object):
-#     def __init__(self):
-#         self.init_sql()
-#         super().__init__()
-
-#     def init_sql(self):
-#         try:
-#             ecnu_mysql = pymysql.connect(**DATABASES)
-#         except pymysql.err.OperationalError as exc:
-#             print('登录失败！TimeoutError!')
-#             os._exit(0)
-#         else:
-#             self.ecnu_cursor = ecnu_mysql.cursor()
-
-#     def escape_param(self, param):
-#         for key in param:
-#             value = param[key]
-#             if isinstance(value, str):
-#                 param[key] = pymysql.escape_string(value)
-
-#         return param
-
-#     @ping
-#     def insert(self, param: dict):
-#         # param = {x: pymysql.escape_string(param[x]) for x in param}
-#         param = self.escape_param(param)
-#         sql = 'INSERT INTO `ceshi`.`wy` ( `fid`, `uid`, `bt`, `url`, `nr`, `w1`, `w2`, `w5`, `g`, `r1`, `r2`) VALUES ( {fid}, 20, "{bt}", "", "{nr}", "{w1}", "{w2}", "{w5}", "{g}", "{r1}", "{r2}" );'
-#         self.ecnu_cursor.execute(sql.format(**param))
-
-#         return True
-
-
 class MysqlOpea(object):
-    def __init__(self, upload=False):
-        self.upload = upload
+    def __init__(self, database={}):
+        if database:
+            self.config = database
+        else:
+            self.config = DATABASES
+
         self.init_sql()
         super().__init__()
 
     def init_sql(self):
-        if self.upload:
-            config = DATABASES.get('upload')
-        else:
-            config = DATABASES.get('local')
-
-        self.database = config.get('database')
+        self.config['port'] = int(self.config['port'])
+        self.config['autocommit'] = True
+        self.database = self.config.pop('database')
 
         try:
-            self.ecnu_mysql = pymysql.connect(**config)
-        except pymysql.err.OperationalError as exc:
+            self.ecnu_mysql = pymysql.connect(**self.config)
+        except pymysql.err.OperationalError:
             print('登录失败！TimeoutError!')
             os._exit(0)
         else:
@@ -116,18 +54,14 @@ class MysqlOpea(object):
         return param
 
     @ping
-    def repeat(self, _id=None):
-        sql = 'SELECT id FROM `dd1`.`wy` WHERE `platform` = {} AND `special` = "{}" LIMIT 1;'.format(
-            PLATFPRM_ID, _id)
-        if self.ecnu_cursor.execute(sql) == 0:
-            return True
+    def repeat(self, table, condition):
+        if self.ecnu_cursor.execute(
+                f'SELECT ID FROM `{self.database}`.`{table}` WHERE {condition} LIMIT 1;'
+        ) > 0:
+            return self.ecnu_cursor.fetchall()[0][0]
 
     @ping
-    def select(self, ID=0):
-        if self.upload:
-            sql = ''
-        else:
-            sql = f'SELECT * FROM `dd1`.`wy` WHERE `sync` = 0 AND `id` > {ID} LIMIT 100;'
+    def select(self, sql):
         if self.ecnu_cursor.execute(sql) != 0:
             return self.ecnu_cursor.fetchall()
 
@@ -138,21 +72,85 @@ class MysqlOpea(object):
         return True
 
     @ping
-    def insert(self, param: dict):
+    def insert_good(self, param: dict):
+        table = 'oscshop_lionfish_comshop_goods'
+        codes = param.get('codes')
         param = self.escape_param(param)
-        if self.upload:
-            sql = 'INSERT INTO `database`.`wy` ( `fid`, `uid`, `bt`, `url`, `nr`, `w1`, `w2`, `w5`, `g`, `r1`, `r2`) VALUES ( {fid}, 20, "{title}", "{path}", "{html}", "{region}", "{trade}", "{text}", "{source}", "{add_time}", "{notice_time}" );'
+        param.update({'database': self.database})
+        param.update({'table': table})
+
+        if self.ecnu_cursor.execute(
+                f'SELECT ID FROM `{self.database}`.`{table}` WHERE `codes` = "{codes}" LIMIT 1;'
+        ) > 0:
+            _id = self.ecnu_cursor.fetchall()[0][0]
+            sql = 'UPDATE `{database}`.`{table}` SET `goodsname` = "{goodsname}", `subtitle` = "{subtitle}", `grounding` = {grounding}, `price` = "{price}", `costprice` = "{costprice}", `productprice` = "{productprice}", `sales` = "{sales}", `codes` = "{codes}", `total` = "{total}", `is_seckill` = "{is_seckill}" WHERE `id` = {_id};'
+            param.update({'_id': _id})
+            return _id
         else:
-            param.update({'platfrom': PLATFPRM_ID})
-            bidding_no = param.get('bidding_no')
-            if not self.repeat(bidding_no):
-                logger.warning(f'二次判重命中 -  - {bidding_no}')
-                return
-            sql = 'INSERT INTO `database`.`wy` ( `fid`, `uid`, `bt`, `url`, `nr`, `w1`, `w2`, `w5`, `g`, `r1`, `r2`, `local`, `special`, `platform`) VALUES ( {fid}, 20, "{title}", "{path}", "{html}", "{region}", "{trade}", "{text}", "{source}", "{add_time}", "{notice_time}", "", "{bidding_no}", "{platfrom}" );'
-        self.ecnu_cursor.execute(
-            sql.format(**param).replace('database', self.database))
+            sql = 'INSERT INTO `{database}`.`{table}` ( `goodsname`, `subtitle`, `grounding`, `price`, `costprice`, `productprice`, `sales`, `codes`, `total`, `is_seckill` ) VALUES ( "{goodsname}", "{subtitle}", {grounding}, "{price}", "{costprice}", "{productprice}", "{sales}", "{codes}", "{total}", "{is_seckill}" );'
+            # sql = 'INSERT INTO `{database}`.`oscshop_lionfish_comshop_goods` ( `goodsname`, `subtitle`, `grounding`, `price`, `costprice`, `productprice`, `sales`, `codes`, `total`, `is_seckill`, `showsales`, `dispatchtype`, `dispatchid`, `dispatchprice`, `weight`, `hasoption`, `credit`, `buyagain`, `buyagain_condition`, `buyagain_sale`, `addtime` ) VALUES ( "{goodsname}", "{subtitle}", {grounding}, "{price}", "{costprice}", "{productprice}", "{sales}", "{codes}", "{total}", "{is_seckill}", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 );'
+            self.ecnu_cursor.execute(sql.format(**param))
+
+            return self.ecnu_cursor.lastrowid
+
+    @ping
+    def insert_category(self, name, pid=None):
+        table = 'oscshop_lionfish_comshop_goods_category'
+        if self.ecnu_cursor.execute(
+                f'SELECT ID FROM `{self.database}`.`{table}` WHERE `name` = "{name}" LIMIT 1;'
+        ) > 0:
+            return self.ecnu_cursor.fetchall()[0][0]
+
+        if pid:
+            sql = f'INSERT INTO `{self.database}`.`{table}`(`pid`, `name`) VALUES ( {pid}, "{name}");'
+        else:
+            sql = f'INSERT INTO `{self.database}`.`{table}`(`name`) VALUES ( "{name}");'
+
+        self.ecnu_cursor.execute(sql)
+
+        return self.ecnu_cursor.lastrowid
+
+    @ping
+    def configure_category(self, cate_id, goods_id):
+        table = 'oscshop_lionfish_comshop_goods_to_category'
+        if self.ecnu_cursor.execute(
+                f'SELECT ID FROM `{self.database}`.`{table}` WHERE `goods_id` = "{goods_id}" LIMIT 1;'
+        ) > 0:
+            sql = f'UPDATE `{self.database}`.`{table}` SET `cate_id` = {cate_id} WHERE `goods_id` = {goods_id};'
+        else:
+            sql = f'INSERT INTO `{self.database}`.`{table}` (`cate_id`, `goods_id`) VALUES ({cate_id}, {goods_id});'
+
+        self.ecnu_cursor.execute(sql)
 
         return True
+
+    @ping
+    def insert_common(self, param: dict):
+        param = self.escape_param(param)
+        param.update({'database': self.database})
+        goods_id = param.get('goods_id')
+        table = 'oscshop_lionfish_comshop_good_common'
+        param.update({'table': table})
+
+        if self.ecnu_cursor.execute(
+                f'SELECT ID FROM `{self.database}`.`{table}` WHERE `goods_id` = "{goods_id}" LIMIT 1;'
+        ) > 0:
+            sql = 'UPDATE `{database}`.`{table}` SET `big_img` = "{big_img}", `goods_start_count` = "{goods_start_count}", `video` = "{video}", `oneday_limit_count` = "{oneday_limit_count}", `content` = "{content}", `diy_arrive_details` = "{diy_arrive_details}" , `pick_up_type` = "{pick_up_type}" WHERE `goods_id` = {goods_id};'
+        else:
+            sql = 'INSERT INTO `{database}`.`{table}` (`goods_id`, `big_img`, `goods_start_count`, `video`, `oneday_limit_count`, `content`, `diy_arrive_details`, `pick_up_type` ) VALUES ( {goods_id}, "{big_img}", "{goods_start_count}", "{video}", "{oneday_limit_count}", "{content}", "{diy_arrive_details}", "{pick_up_type}" );'
+
+        self.ecnu_cursor.execute(sql.format(**param))
+        return True
+
+    @ping
+    def insert_image(self, goods_id, images):
+        sql = 'INSERT INTO `{}`.`oscshop_lionfish_comshop_goods_images`(`goods_id`, `image`) VALUES ({}, "{}");'
+        for image in images:
+            if self.ecnu_cursor.execute(
+                    f'SELECT ID FROM `{self.database}`.`oscshop_lionfish_comshop_goods_images` WHERE `goods_id` = "{goods_id}" AND `image` = "{image}" LIMIT 1;'
+            ) == 0:
+                self.ecnu_cursor.execute(
+                    sql.format(self.database, goods_id, image))
 
 
 class MongoOpea(object):
@@ -171,7 +169,7 @@ class MongoOpea(object):
             "mongodb://{user}:{passwd}@{host}:{port}/".format(**config),
             connect=False)
 
-        self.mongo = client[config.get('basedata')]
+        self.mongo = client[config.get('database')]
 
     def repeat(self, data, table):
         data = {clean(key): clean(data[key]) for key in data}
