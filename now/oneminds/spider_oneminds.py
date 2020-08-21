@@ -9,7 +9,7 @@ from configparser import ConfigParser
 from utils import logger, run_func, request
 
 from utils.common import get_in
-from utils.db import MysqlOpea
+from utils.db import MysqlOpea, SqliteOpea
 from utils.signer import magic
 
 
@@ -49,6 +49,7 @@ class DealOneminds:
         }
         self.goods = []
         self.mysql = MysqlOpea(database)
+        self.sqlite = SqliteOpea('goods.db')
         super().__init__()
 
     def goods_group(self):
@@ -112,9 +113,9 @@ class DealOneminds:
         good_info = {}
 
         if get_in(data, 'sku.activity_type') == 3:
-            good_info['is_seckill'] = 1
+            common_info['is_spike_buy'] = 1
         else:
-            good_info['is_seckill'] = 0
+            common_info['is_spike_buy'] = 0
 
         good_info['grounding'] = self.grounding
 
@@ -126,8 +127,14 @@ class DealOneminds:
         good_info['sales'] = get_in(data, 'sku.market_price')
         good_info['codes'] = get_in(data, 'sku.sku_id')
         good_info['total'] = get_in(data, 'sku.store')
+        good_info['is_all_sale'] = self.is_all_sale
 
         good_id = self.mysql.insert_good(good_info)
+
+        info_data = f'{good_info["codes"]},{good_id},{self.grounding},"{self.big_name}"'
+
+        self.already_goods.remove(good_info['codes']) if good_info[
+            'codes'] in self.already_goods else self.sqlite.insert(info_data)
 
         self.mysql.configure_category(self.sub_category_id, good_id)
         common_info['goods_id'] = good_id
@@ -148,12 +155,18 @@ class DealOneminds:
 
         logger.info(f'已添加 - {good_id}')
 
-    def run(self, save_category=None, categories=[], fields={}, default={}):
+    def run(self,
+            save_category=None,
+            categories=[],
+            fields={},
+            default={},
+            store=6):
         self.save_category = save_category
         self.categories = categories
         self.fields = fields
         self.session_id = '2400a8df7528c7c76e3190c5b17ac4c3'
-        self.store_id = 6
+        self.store_id = store
+        self.is_all_sale = 1
 
         self.grounding = int(default.get('grounding'))
         self.diy_arrive_details = default.get('diy_arrive_details')
@@ -168,7 +181,18 @@ class DealOneminds:
             logger.error('输入正确的 pick_up_type')
             return
 
+        self.already_goods = self.sqlite.select()
+
         self.goods_group()
+
+        for codes in self.already_goods:
+            goods_id, category = self.sqlite.select_good(codes)
+            if category not in self.categories:
+                logger.info(f'未采集该商品分类, 暂不下架 - {goods_id}')
+                continue
+            self.mysql.change_grounding(goods_id)
+            self.sqlite.update(codes)
+            logger.info(f'已下架 - {goods_id}')
 
 
 def main():
@@ -177,18 +201,22 @@ def main():
     config = config.to_dict()
     fields = config.get('Field')
     default = config.get('Default')
+    store = config.get('Store').get('id')
     database = config.get('DataBase')
     save_category = int(get_in(config, 'Category.save'))
     spider = DealOneminds(database)
 
     if save_category:
         os.remove('./top_category.txt')
-        spider.run(save_category, fields=fields, default=default)
+        spider.run(save_category, fields=fields, default=default, store=store)
     else:
         with open('./top_category.txt', 'r', encoding='utf-8') as fn:
             categories = fn.read().split('\n')
 
-        spider.run(categories=categories, fields=fields, default=default)
+        spider.run(categories=categories,
+                   fields=fields,
+                   default=default,
+                   store=store)
 
 
 if __name__ == "__main__":

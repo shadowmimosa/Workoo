@@ -1,4 +1,5 @@
 import os
+import sqlite3
 import pymongo
 import pymysql
 from copy import copy
@@ -72,6 +73,11 @@ class MysqlOpea(object):
         return True
 
     @ping
+    def change_grounding(self, _id):
+        sql = f'UPDATE `{self.database}`.`oscshop_lionfish_comshop_goods` SET `grounding` = 0 WHERE `id` = {_id};'
+        self.ecnu_cursor.execute(sql)
+
+    @ping
     def insert_good(self, param: dict):
         table = 'oscshop_lionfish_comshop_goods'
         codes = param.get('codes')
@@ -83,11 +89,11 @@ class MysqlOpea(object):
                 f'SELECT ID FROM `{self.database}`.`{table}` WHERE `codes` = "{codes}" LIMIT 1;'
         ) > 0:
             _id = self.ecnu_cursor.fetchall()[0][0]
-            sql = 'UPDATE `{database}`.`{table}` SET `goodsname` = "{goodsname}", `subtitle` = "{subtitle}", `grounding` = {grounding}, `price` = "{price}", `costprice` = "{costprice}", `productprice` = "{productprice}", `sales` = "{sales}", `codes` = "{codes}", `total` = "{total}", `is_seckill` = "{is_seckill}" WHERE `id` = {_id};'
+            sql = 'UPDATE `{database}`.`{table}` SET `goodsname` = "{goodsname}", `subtitle` = "{subtitle}", `grounding` = {grounding}, `price` = "{price}", `costprice` = "{costprice}", `productprice` = "{productprice}", `sales` = "{sales}", `codes` = "{codes}", `total` = "{total}", `is_all_sale` = "{is_all_sale}" WHERE `id` = {_id};'
             param.update({'_id': _id})
             return _id
         else:
-            sql = 'INSERT INTO `{database}`.`{table}` ( `goodsname`, `subtitle`, `grounding`, `price`, `costprice`, `productprice`, `sales`, `codes`, `total`, `is_seckill` ) VALUES ( "{goodsname}", "{subtitle}", {grounding}, "{price}", "{costprice}", "{productprice}", "{sales}", "{codes}", "{total}", "{is_seckill}" );'
+            sql = 'INSERT INTO `{database}`.`{table}` ( `goodsname`, `subtitle`, `grounding`, `price`, `costprice`, `productprice`, `sales`, `codes`, `total`, `is_all_sale` ) VALUES ( "{goodsname}", "{subtitle}", {grounding}, "{price}", "{costprice}", "{productprice}", "{sales}", "{codes}", "{total}", "{is_all_sale}" );'
             # sql = 'INSERT INTO `{database}`.`oscshop_lionfish_comshop_goods` ( `goodsname`, `subtitle`, `grounding`, `price`, `costprice`, `productprice`, `sales`, `codes`, `total`, `is_seckill`, `showsales`, `dispatchtype`, `dispatchid`, `dispatchprice`, `weight`, `hasoption`, `credit`, `buyagain`, `buyagain_condition`, `buyagain_sale`, `addtime` ) VALUES ( "{goodsname}", "{subtitle}", {grounding}, "{price}", "{costprice}", "{productprice}", "{sales}", "{codes}", "{total}", "{is_seckill}", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 );'
             self.ecnu_cursor.execute(sql.format(**param))
 
@@ -135,9 +141,9 @@ class MysqlOpea(object):
         if self.ecnu_cursor.execute(
                 f'SELECT ID FROM `{self.database}`.`{table}` WHERE `goods_id` = "{goods_id}" LIMIT 1;'
         ) > 0:
-            sql = 'UPDATE `{database}`.`{table}` SET `big_img` = "{big_img}", `goods_start_count` = "{goods_start_count}", `video` = "{video}", `oneday_limit_count` = "{oneday_limit_count}", `content` = "{content}", `diy_arrive_details` = "{diy_arrive_details}" , `pick_up_type` = "{pick_up_type}" WHERE `goods_id` = {goods_id};'
+            sql = 'UPDATE `{database}`.`{table}` SET `big_img` = "{big_img}", `goods_start_count` = "{goods_start_count}", `video` = "{video}", `oneday_limit_count` = "{oneday_limit_count}", `content` = "{content}", `diy_arrive_details` = "{diy_arrive_details}" , `pick_up_type` = "{pick_up_type}", `is_spike_buy` = "{is_spike_buy}" WHERE `goods_id` = {goods_id};'
         else:
-            sql = 'INSERT INTO `{database}`.`{table}` (`goods_id`, `big_img`, `goods_start_count`, `video`, `oneday_limit_count`, `content`, `diy_arrive_details`, `pick_up_type` ) VALUES ( {goods_id}, "{big_img}", "{goods_start_count}", "{video}", "{oneday_limit_count}", "{content}", "{diy_arrive_details}", "{pick_up_type}" );'
+            sql = 'INSERT INTO `{database}`.`{table}` (`goods_id`, `big_img`, `goods_start_count`, `video`, `oneday_limit_count`, `content`, `diy_arrive_details`, `pick_up_type`, `is_spike_buy` ) VALUES ( {goods_id}, "{big_img}", "{goods_start_count}", "{video}", "{oneday_limit_count}", "{content}", "{diy_arrive_details}", "{pick_up_type}", "{is_spike_buy}" );'
 
         self.ecnu_cursor.execute(sql.format(**param))
         return True
@@ -151,6 +157,36 @@ class MysqlOpea(object):
             ) == 0:
                 self.ecnu_cursor.execute(
                     sql.format(self.database, goods_id, image))
+
+
+class SqliteOpea(object):
+    def __init__(self, db):
+        self.connect = sqlite3.connect('goods.db', isolation_level=None)
+        self.cursor = self.connect.cursor()
+        super().__init__()
+
+    def select(self):
+        sql = 'SELECT codes FROM goods WHERE grounding = 1'
+        self.cursor.execute(sql)
+
+        result = self.cursor.fetchall()
+        result = [x[0] for x in result]
+        return result
+
+    def select_good(self, codes):
+        sql = f'SELECT goods, category FROM goods WHERE codes = {codes}'
+        self.cursor.execute(sql)
+        result = self.cursor.fetchone()
+        if result:
+            return result[0], result[1]
+
+    def update(self, codes):
+        sql = f'UPDATE goods SET grounding = 0 WHERE codes = {codes}'
+        self.cursor.execute(sql)
+
+    def insert(self, data):
+        sql = 'INSERT INTO goods VALUES (%s)' % data
+        self.cursor.execute(sql)
 
 
 class MongoOpea(object):
