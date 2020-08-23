@@ -50,6 +50,7 @@ class DealOneminds:
         self.goods = []
         self.mysql = MysqlOpea(database)
         self.sqlite = SqliteOpea('goods.db')
+        self.all_goods = {}
         super().__init__()
 
     def goods_group(self):
@@ -86,6 +87,8 @@ class DealOneminds:
 
                 self.goods_list()
 
+            self.to_order()
+
     def goods_list(self):
         count = 10
         page = 0
@@ -103,6 +106,40 @@ class DealOneminds:
 
             page += 1
 
+    def to_order(self):
+        count = 10
+        page = 0
+        while page * 10 <= count:
+            uri = f'https://ec.oneminds.cn/api/goods/list?platform=2&session_id={self.session_id}&sid=100043&store_id={self.store_id}&rp=10&page={page+1}&big_id={self.big_id}&mid_id=0&small_id=0&sort=&order=desc&qs=1&goods_type=0&keyword=&timestamp={get_timestamps()}'
+            resp = request(uri, header=self.header, json=True)
+            if not resp.get('data'):
+                return
+
+            count = resp.get('data').get('count')
+
+            for data in resp.get('data').get('list'):
+                codes = data.get('sku_id')
+                item = self.all_goods[codes]
+
+                good_info = item['good']
+                common_info = item['common']
+                img = item['img']
+
+                good_id = self.mysql.insert_good(good_info)
+                info_data = f'{good_info["codes"]},{good_id},{self.grounding},"{self.big_name}"'
+                self.already_goods.remove(good_info['codes']) if good_info[
+                    'codes'] in self.already_goods else self.sqlite.insert(
+                        info_data)
+                self.mysql.configure_category(self.sub_category_id, good_id)
+                common_info['goods_id'] = good_id
+                self.mysql.insert_common(common_info)
+                self.mysql.insert_image(good_id, img)
+                logger.info(f'已添加 - {good_id}')
+
+            page += 1
+
+        self.all_goods = {}
+
     @run_func()
     def goods_detail(self):
         uri = f'https://ec.oneminds.cn/api/goods?platform=2&session_id={self.session_id}&sid=100043&store_id={self.store_id}&id={self.good_id}&goods_type=1&timestamp={get_timestamps()}'
@@ -112,7 +149,7 @@ class DealOneminds:
         common_info = {}
         good_info = {}
 
-        if get_in(data, 'sku.activity_type') == 3:
+        if get_in(data, 'sku.activity_type') in (3, 4):
             common_info['is_spike_buy'] = 1
         else:
             common_info['is_spike_buy'] = 0
@@ -122,22 +159,19 @@ class DealOneminds:
         good_info['goodsname'] = get_in(data, 'sku.goods_name')
         good_info['subtitle'] = get_in(data, 'base.sub_heads')
         good_info['productprice'] = get_in(data, 'sku.market_price')
-        good_info['price'] = get_in(data, 'sku.sale_price')
         good_info['costprice'] = get_in(data, 'sku.price')
+        good_info['price'] = get_in(data, 'sku.sale_price')
         good_info['sales'] = get_in(data, 'sku.market_price')
         good_info['codes'] = get_in(data, 'sku.sku_id')
         good_info['total'] = get_in(data, 'sku.store')
         good_info['is_all_sale'] = self.is_all_sale
 
-        good_id = self.mysql.insert_good(good_info)
+        good_info['price'] = get_in(data, 'sku.sale_price')
+        good_info['sales'] = get_in(data, 'sku.market_price')
 
-        info_data = f'{good_info["codes"]},{good_id},{self.grounding},"{self.big_name}"'
+        if good_info['sales'] < good_info['price']:
+            good_info['sales'] = good_info['price']
 
-        self.already_goods.remove(good_info['codes']) if good_info[
-            'codes'] in self.already_goods else self.sqlite.insert(info_data)
-
-        self.mysql.configure_category(self.sub_category_id, good_id)
-        common_info['goods_id'] = good_id
         common_info['big_img'] = get_in(data, 'sku.pic')
         common_info['goods_start_count'] = get_in(data, 'base.min_buy_qty')
         common_info['video'] = get_in(data, 'base.video_list')
@@ -150,10 +184,12 @@ class DealOneminds:
 
         common_info[
             'video'] = common_info['video'][0] if common_info['video'] else ''
-        self.mysql.insert_common(common_info)
-        self.mysql.insert_image(good_id, get_in(data, 'pic_list'))
 
-        logger.info(f'已添加 - {good_id}')
+        self.all_goods[good_info['codes']] = {
+            'good': good_info,
+            'common': common_info,
+            'img': get_in(data, 'pic_list')
+        }
 
     def run(self,
             save_category=None,
@@ -220,10 +256,11 @@ def main():
 
 
 if __name__ == "__main__":
+    main()
     magic()
-    try:
-        main()
-    except Exception as exc:
-        logger.error(f'运行失败 - {exc}')
+    # try:
+    #     main()
+    # except Exception as exc:
+    #     logger.error(f'运行失败 - {exc}')
 
     input('按任意键退出')
