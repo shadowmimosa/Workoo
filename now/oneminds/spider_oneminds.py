@@ -119,6 +119,8 @@ class DealOneminds:
 
             for data in resp.get('data').get('list'):
                 codes = data.get('sku_id')
+                if codes not in self.all_goods:
+                    continue
                 item = self.all_goods[codes]
 
                 good_info = item['good']
@@ -134,6 +136,7 @@ class DealOneminds:
                 common_info['goods_id'] = good_id
                 self.mysql.insert_common(common_info)
                 self.mysql.insert_image(good_id, img)
+
                 logger.info(f'已添加 - {good_id}')
 
             page += 1
@@ -158,19 +161,17 @@ class DealOneminds:
 
         good_info['goodsname'] = get_in(data, 'sku.goods_name')
         good_info['subtitle'] = get_in(data, 'base.sub_heads')
-        good_info['productprice'] = get_in(data, 'sku.market_price')
-        good_info['costprice'] = get_in(data, 'sku.price')
-        good_info['price'] = get_in(data, 'sku.sale_price')
-        good_info['sales'] = get_in(data, 'sku.market_price')
+        good_info['sales'] = get_in(data, 'base.sales_qty')
         good_info['codes'] = get_in(data, 'sku.sku_id')
         good_info['total'] = get_in(data, 'sku.store')
         good_info['is_all_sale'] = self.is_all_sale
 
+        good_info['productprice'] = get_in(data, 'sku.market_price')
+        good_info['costprice'] = get_in(data, 'sku.price')
         good_info['price'] = get_in(data, 'sku.sale_price')
-        good_info['sales'] = get_in(data, 'sku.market_price')
 
-        if good_info['sales'] < good_info['price']:
-            good_info['sales'] = good_info['price']
+        if good_info['productprice'] < good_info['price']:
+            good_info['productprice'] = good_info['price']
 
         common_info['big_img'] = get_in(data, 'sku.pic')
         common_info['goods_start_count'] = get_in(data, 'base.min_buy_qty')
@@ -190,6 +191,8 @@ class DealOneminds:
             'common': common_info,
             'img': get_in(data, 'pic_list')
         }
+
+        logger.info(f'已加载 - {good_info["codes"]}')
 
     def run(self,
             save_category=None,
@@ -256,11 +259,11 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
     magic()
-    # try:
-    #     main()
-    # except Exception as exc:
-    #     logger.error(f'运行失败 - {exc}')
+    # main()
+    try:
+        main()
+    except Exception as exc:
+        logger.error(f'运行失败 - {exc}')
 
     input('按任意键退出')
