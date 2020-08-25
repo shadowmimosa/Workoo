@@ -105,10 +105,11 @@ class DealOneminds:
                 self.goods_detail()
 
             page += 1
-
+    
     def to_order(self):
         count = 10
         page = 0
+        goods = []
         while page * 10 <= count:
             uri = f'https://ec.oneminds.cn/api/goods/list?platform=2&session_id={self.session_id}&sid=100043&store_id={self.store_id}&rp=10&page={page+1}&big_id={self.big_id}&mid_id=0&small_id=0&sort=&order=desc&qs=1&goods_type=0&keyword=&timestamp={get_timestamps()}'
             resp = request(uri, header=self.header, json=True)
@@ -121,25 +122,28 @@ class DealOneminds:
                 codes = data.get('sku_id')
                 if codes not in self.all_goods:
                     continue
-                item = self.all_goods[codes]
-
-                good_info = item['good']
-                common_info = item['common']
-                img = item['img']
-
-                good_id = self.mysql.insert_good(good_info)
-                info_data = f'{good_info["codes"]},{good_id},{self.grounding},"{self.big_name}"'
-                self.already_goods.remove(good_info['codes']) if good_info[
-                    'codes'] in self.already_goods else self.sqlite.insert(
-                        info_data)
-                self.mysql.configure_category(self.sub_category_id, good_id)
-                common_info['goods_id'] = good_id
-                self.mysql.insert_common(common_info)
-                self.mysql.insert_image(good_id, img)
-
-                logger.info(f'已添加 - {good_id}')
+                goods.append(codes)
 
             page += 1
+
+        for codes in goods[::-1]:
+            item = self.all_goods[codes]
+
+            good_info = item['good']
+            common_info = item['common']
+            img = item['img']
+
+            good_id = self.mysql.insert_good(good_info)
+            info_data = f'{good_info["codes"]},{good_id},{self.grounding},"{self.big_name}"'
+            self.already_goods.remove(good_info['codes']) if good_info[
+                'codes'] in self.already_goods else self.sqlite.insert(
+                    info_data)
+            self.mysql.configure_category(item['category'], good_id)
+            common_info['goods_id'] = good_id
+            self.mysql.insert_common(common_info)
+            self.mysql.insert_image(good_id, img)
+
+            logger.info(f'已添加 - {good_id}')
 
         self.all_goods = {}
 
@@ -189,7 +193,8 @@ class DealOneminds:
         self.all_goods[good_info['codes']] = {
             'good': good_info,
             'common': common_info,
-            'img': get_in(data, 'pic_list')
+            'img': get_in(data, 'pic_list'),
+            'category': self.sub_category_id
         }
 
         logger.info(f'已加载 - {good_info["codes"]}')
@@ -260,7 +265,6 @@ def main():
 
 if __name__ == "__main__":
     magic()
-    # main()
     try:
         main()
     except Exception as exc:
