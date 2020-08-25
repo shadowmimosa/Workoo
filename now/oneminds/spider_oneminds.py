@@ -105,7 +105,7 @@ class DealOneminds:
                 self.goods_detail()
 
             page += 1
-    
+
     def to_order(self):
         count = 10
         page = 0
