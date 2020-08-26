@@ -6,6 +6,7 @@ from copy import copy
 from urllib import parse
 from functools import wraps
 from datetime import datetime
+from urllib3.util import parse_url
 from warnings import filterwarnings
 filterwarnings("ignore", category=pymysql.Warning)
 
@@ -89,18 +90,19 @@ class MysqlOpea(object):
                 f'SELECT ID FROM `{self.database}`.`{table}` WHERE `codes` = "{codes}" LIMIT 1;'
         ) > 0:
             _id = self.ecnu_cursor.fetchall()[0][0]
-            sql = 'UPDATE `{database}`.`{table}` SET `goodsname` = "{goodsname}", `subtitle` = "{subtitle}", `grounding` = {grounding}, `price` = "{price}", `costprice` = "{costprice}", `productprice` = "{productprice}", `sales` = "{sales}", `codes` = "{codes}", `total` = "{total}", `is_all_sale` = "{is_all_sale}" WHERE `id` = {_id};'
+            sql = 'UPDATE `{database}`.`{table}` SET `goodsname` = "{goodsname}", `subtitle` = "{subtitle}", `grounding` = {grounding}, `price` = "{price}", `costprice` = "{costprice}", `productprice` = "{productprice}", `sales` = "{sales}", `codes` = "{codes}", `total` = "{total}", `is_all_sale` = "{is_all_sale}", `index_sort` = {index_sort} WHERE `id` = {_id};'
             param.update({'_id': _id})
+            self.ecnu_cursor.execute(sql.format(**param))
             return _id
         else:
-            sql = 'INSERT INTO `{database}`.`{table}` ( `goodsname`, `subtitle`, `grounding`, `price`, `costprice`, `productprice`, `sales`, `codes`, `total`, `is_all_sale` ) VALUES ( "{goodsname}", "{subtitle}", {grounding}, "{price}", "{costprice}", "{productprice}", "{sales}", "{codes}", "{total}", "{is_all_sale}" );'
+            sql = 'INSERT INTO `{database}`.`{table}` ( `goodsname`, `subtitle`, `grounding`, `price`, `costprice`, `productprice`, `sales`, `codes`, `total`, `is_all_sale`, `index_sort` ) VALUES ( "{goodsname}", "{subtitle}", {grounding}, "{price}", "{costprice}", "{productprice}", "{sales}", "{codes}", "{total}", "{is_all_sale}", {index_sort} );'
             # sql = 'INSERT INTO `{database}`.`oscshop_lionfish_comshop_goods` ( `goodsname`, `subtitle`, `grounding`, `price`, `costprice`, `productprice`, `sales`, `codes`, `total`, `is_seckill`, `showsales`, `dispatchtype`, `dispatchid`, `dispatchprice`, `weight`, `hasoption`, `credit`, `buyagain`, `buyagain_condition`, `buyagain_sale`, `addtime` ) VALUES ( "{goodsname}", "{subtitle}", {grounding}, "{price}", "{costprice}", "{productprice}", "{sales}", "{codes}", "{total}", "{is_seckill}", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 );'
             self.ecnu_cursor.execute(sql.format(**param))
 
             return self.ecnu_cursor.lastrowid
 
     @ping
-    def insert_category(self, name, pid=None):
+    def insert_category(self, name, pid=None, sort=0):
         table = 'oscshop_lionfish_comshop_goods_category'
         if self.ecnu_cursor.execute(
                 f'SELECT ID FROM `{self.database}`.`{table}` WHERE `name` = "{name}" LIMIT 1;'
@@ -108,9 +110,9 @@ class MysqlOpea(object):
             return self.ecnu_cursor.fetchall()[0][0]
 
         if pid:
-            sql = f'INSERT INTO `{self.database}`.`{table}`(`pid`, `name`) VALUES ( {pid}, "{name}");'
+            sql = f'INSERT INTO `{self.database}`.`{table}`(`pid`, `name`, `sort_order`, `is_show`, `is_type_show`) VALUES ( {pid}, "{name}", {sort}, 0, 1);'
         else:
-            sql = f'INSERT INTO `{self.database}`.`{table}`(`name`) VALUES ( "{name}");'
+            sql = f'INSERT INTO `{self.database}`.`{table}`(`name`, `sort_order`, `is_show`, `is_type_show`) VALUES ( "{name}", {sort}, 1, 1);'
 
         self.ecnu_cursor.execute(sql)
 
@@ -151,7 +153,13 @@ class MysqlOpea(object):
     @ping
     def insert_image(self, goods_id, images):
         sql = 'INSERT INTO `{}`.`oscshop_lionfish_comshop_goods_images`(`goods_id`, `image`) VALUES ({}, "{}");'
+        if len(images) > 1:
+            images = images[:-1]
+
         for image in images:
+            uri = parse_url(image)
+            image = f'{uri.scheme}://{uri.host}/{uri.path}'
+
             if self.ecnu_cursor.execute(
                     f'SELECT ID FROM `{self.database}`.`oscshop_lionfish_comshop_goods_images` WHERE `goods_id` = "{goods_id}" AND `image` = "{image}" LIMIT 1;'
             ) == 0:
@@ -166,7 +174,7 @@ class SqliteOpea(object):
         super().__init__()
 
     def select(self):
-        sql = 'SELECT codes FROM goods WHERE grounding = 1'
+        sql = 'SELECT codes FROM goods'
         self.cursor.execute(sql)
 
         result = self.cursor.fetchall()

@@ -53,7 +53,37 @@ class DealOneminds:
         self.all_goods = {}
         super().__init__()
 
+    def init_category(self):
+        uri = f'https://ec.oneminds.cn/api/goods/group?platform=2&session_id=&sid=100043&store_id={self.store_id}&timestamp={get_timestamps()}'
+        resp = request(uri, header=self.header, json=True)
+        if resp.get('code') != 200:
+            return
+
+        top_categories = resp.get('data')
+        top_category_count = len(top_categories)
+        for top_category in top_categories:
+            top_category_name = top_category.get('name')
+
+            top_category_id = self.mysql.insert_category(
+                top_category_name, sort=top_category_count)
+
+            sub_categories = top_category.get('mid')
+            if not sub_categories:
+                continue
+            sub_category_count = len(sub_categories)
+
+            for sub_category in sub_categories:
+                sub_category_name = sub_category.get('name')
+
+                self.mysql.insert_category(sub_category_name, top_category_id,
+                                           sub_category_count)
+
+                sub_category_count -= 1
+            top_category_count -= 1
+
     def goods_group(self):
+        self.init_category()
+
         # uri = 'https://ec.oneminds.cn/api/goods/group?platform=2&session_id={self.session_id}&sid=100043&store_id={self.store_id}&timestamp=1597390905005'
         uri = f'https://ec.oneminds.cn/api/goods/group?platform=2&session_id=&sid=100043&store_id={self.store_id}&timestamp={get_timestamps()}'
         resp = request(uri, header=self.header, json=True)
@@ -70,12 +100,12 @@ class DealOneminds:
             if self.big_name not in self.categories:
                 continue
 
-            self.top_catagory_id = self.mysql.insert_category(self.big_name)
+            self.top_category_id = self.mysql.insert_category(self.big_name)
 
             if not top_category.get('mid'):
                 self.mid_name = self.big_name
                 self.mid_id = 0
-                self.sub_category_id = self.top_catagory_id
+                self.sub_category_id = self.top_category_id
                 self.goods_list()
                 continue
 
@@ -83,7 +113,7 @@ class DealOneminds:
                 self.mid_name = sub_category.get('name')
                 self.mid_id = sub_category.get('id')
                 self.sub_category_id = self.mysql.insert_category(
-                    self.mid_name, self.top_catagory_id)
+                    self.mid_name, self.top_category_id)
 
                 self.goods_list()
 
@@ -132,6 +162,7 @@ class DealOneminds:
             good_info = item['good']
             common_info = item['common']
             img = item['img']
+            good_info['index_sort'] = count
 
             good_id = self.mysql.insert_good(good_info)
             info_data = f'{good_info["codes"]},{good_id},{self.grounding},"{self.big_name}"'
@@ -144,6 +175,8 @@ class DealOneminds:
             self.mysql.insert_image(good_id, img)
 
             logger.info(f'已添加 - {good_id}')
+
+            count -= 1
 
         self.all_goods = {}
 
@@ -162,8 +195,10 @@ class DealOneminds:
             common_info['is_spike_buy'] = 0
 
         good_info['grounding'] = self.grounding
+        name = get_in(data, 'sku.goods_name')
+        good_info['goodsname'] = name.replace('1份', '').replace(
+            'SX', '').replace('Way', '').replace('臻选', '精品')
 
-        good_info['goodsname'] = get_in(data, 'sku.goods_name')
         good_info['subtitle'] = get_in(data, 'base.sub_heads')
         good_info['sales'] = get_in(data, 'base.sales_qty')
         good_info['codes'] = get_in(data, 'sku.sku_id')
