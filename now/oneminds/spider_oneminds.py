@@ -2,6 +2,7 @@ import os
 import time
 # import json
 
+import arrow
 from configparser import ConfigParser
 # import datetime
 # from urllib.parse import urlparse, parse_qs, urlencode
@@ -20,8 +21,13 @@ def remove(content: str):
                                                    '').replace('\xa0', '')
 
 
-def get_timestamps():
-    return int(time.time() * 1000)
+def get_timestamps(timestamps=0):
+    if timestamps == 0:
+        return int(time.time() * 1000)
+    elif timestamps == 1:
+        return arrow.now().replace(hour=0, minute=0, second=0).timestamp
+    elif timestamps == 2:
+        return arrow.now().replace(hour=23, minute=59, second=0).timestamp
 
 
 def write(content):
@@ -156,7 +162,7 @@ class DealOneminds:
 
             page += 1
 
-        for codes in goods[::-1]:
+        for codes in goods:
             item = self.all_goods[codes]
 
             good_info = item['good']
@@ -222,6 +228,9 @@ class DealOneminds:
         common_info['diy_arrive_details'] = self.diy_arrive_details
         common_info['pick_up_type'] = self.pick_up_type
 
+        common_info['begin_time'] = get_timestamps(1)
+        common_info['end_time'] = get_timestamps(2)
+
         common_info[
             'video'] = common_info['video'][0] if common_info['video'] else ''
 
@@ -234,18 +243,42 @@ class DealOneminds:
 
         logger.info(f'已加载 - {good_info["codes"]}')
 
+    def login(self):
+        verify_uri = f'https://ec.oneminds.cn/api/member/check?platform=2&session_id={self.session_id}&sid=100043&store_id={self.store_id}&mobile={self.mobile}&timestamp={get_timestamps()}'
+        resp = request(verify_uri, header=self.header, json=True)
+        csrf_token = get_in(resp, 'data.csrf_token')
+        sms_uri = f'https://ec.oneminds.cn/api/sms?platform=2&session_id={self.session_id}&sid=100043&store_id={self.store_id}&mobile={self.mobile}&csrf_token={csrf_token}&timestamp={get_timestamps()}'
+        resp = request(sms_uri, header=self.header, json=True)
+
+        if resp.get('code') != 200:
+            logger.error(f'登录失败 - {resp.get("message")}')
+            return
+
+        verify_code = input('输入验证码')
+        login_uri = f'https://ec.oneminds.cn/api/member/login?platform=2&session_id={self.session_id}&sid=100043&store_id={self.store_id}&mobile={self.mobile}&smsyzm={verify_code}&longitude=126.562060&latitude=43.821420&user_id=0&timestamp={get_timestamps()}'
+        resp = request(login_uri, header=self.header, json=True)
+
+        if resp.get('code') != 200:
+            logger.error(f'登录失败 - {resp.get("message")}')
+            return
+
+        return True
+
     def run(self,
             save_category=None,
             categories=[],
             fields={},
             default={},
-            store=6):
+            store=6,
+            phone='',
+            login=None):
         self.save_category = save_category
         self.categories = categories
         self.fields = fields
-        self.session_id = '2400a8df7528c7c76e3190c5b17ac4c3'
+        self.session_id = 'aa886aee473a9f21dfd97c37e1518a72'
         self.store_id = store
         self.is_all_sale = 1
+        self.mobile = phone
 
         self.grounding = int(default.get('grounding'))
         self.diy_arrive_details = default.get('diy_arrive_details')
@@ -259,6 +292,11 @@ class DealOneminds:
         if self.pick_up_type not in (1, 2, 3, 4):
             logger.error('输入正确的 pick_up_type')
             return
+
+        if login == 1:
+            if not self.login():
+                logger.error('登录失败')
+                return
 
         self.already_goods = self.sqlite.select()
 
@@ -283,11 +321,18 @@ def main():
     store = config.get('Store').get('id')
     database = config.get('DataBase')
     save_category = int(get_in(config, 'Category.save'))
+    phone = get_in(config, 'Account.phone')
+    login = int(get_in(config, 'Account.login'))
     spider = DealOneminds(database)
 
     if save_category:
         os.remove('./top_category.txt')
-        spider.run(save_category, fields=fields, default=default, store=store)
+        spider.run(save_category,
+                   fields=fields,
+                   default=default,
+                   store=store,
+                   phone=phone,
+                   login=login)
     else:
         with open('./top_category.txt', 'r', encoding='utf-8') as fn:
             categories = fn.read().split('\n')
@@ -295,7 +340,9 @@ def main():
         spider.run(categories=categories,
                    fields=fields,
                    default=default,
-                   store=store)
+                   store=store,
+                   phone=phone,
+                   login=login)
 
 
 if __name__ == "__main__":

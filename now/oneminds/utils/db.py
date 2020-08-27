@@ -143,9 +143,9 @@ class MysqlOpea(object):
         if self.ecnu_cursor.execute(
                 f'SELECT ID FROM `{self.database}`.`{table}` WHERE `goods_id` = "{goods_id}" LIMIT 1;'
         ) > 0:
-            sql = 'UPDATE `{database}`.`{table}` SET `big_img` = "{big_img}", `goods_start_count` = "{goods_start_count}", `video` = "{video}", `oneday_limit_count` = "{oneday_limit_count}", `content` = "{content}", `diy_arrive_details` = "{diy_arrive_details}" , `pick_up_type` = "{pick_up_type}", `is_spike_buy` = "{is_spike_buy}" WHERE `goods_id` = {goods_id};'
+            sql = 'UPDATE `{database}`.`{table}` SET `big_img` = "{big_img}", `goods_start_count` = "{goods_start_count}", `video` = "{video}", `oneday_limit_count` = "{oneday_limit_count}", `content` = "{content}", `diy_arrive_details` = "{diy_arrive_details}" , `pick_up_type` = "{pick_up_type}", `is_spike_buy` = "{is_spike_buy}", `begin_time` = "{begin_time}", `end_time` = "{end_time}" WHERE `goods_id` = {goods_id};'
         else:
-            sql = 'INSERT INTO `{database}`.`{table}` (`goods_id`, `big_img`, `goods_start_count`, `video`, `oneday_limit_count`, `content`, `diy_arrive_details`, `pick_up_type`, `is_spike_buy` ) VALUES ( {goods_id}, "{big_img}", "{goods_start_count}", "{video}", "{oneday_limit_count}", "{content}", "{diy_arrive_details}", "{pick_up_type}", "{is_spike_buy}" );'
+            sql = 'INSERT INTO `{database}`.`{table}` (`goods_id`, `big_img`, `goods_start_count`, `video`, `oneday_limit_count`, `content`, `diy_arrive_details`, `pick_up_type`, `is_spike_buy`, `begin_time`, `end_time` ) VALUES ( {goods_id}, "{big_img}", "{goods_start_count}", "{video}", "{oneday_limit_count}", "{content}", "{diy_arrive_details}", "{pick_up_type}", "{is_spike_buy}", "{begin_time}",  "{end_time}");'
 
         self.ecnu_cursor.execute(sql.format(**param))
         return True
