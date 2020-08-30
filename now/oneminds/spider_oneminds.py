@@ -113,6 +113,7 @@ class DealOneminds:
                 self.mid_id = 0
                 self.sub_category_id = self.top_category_id
                 self.goods_list()
+                self.to_order()
                 continue
 
             for sub_category in top_category.get('mid'):

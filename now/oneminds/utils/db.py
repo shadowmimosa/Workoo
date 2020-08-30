@@ -103,16 +103,22 @@ class MysqlOpea(object):
 
     @ping
     def insert_category(self, name, pid=None, sort=0):
+
         table = 'oscshop_lionfish_comshop_goods_category'
         if self.ecnu_cursor.execute(
                 f'SELECT ID FROM `{self.database}`.`{table}` WHERE `name` = "{name}" LIMIT 1;'
         ) > 0:
-            return self.ecnu_cursor.fetchall()[0][0]
+            _id = self.ecnu_cursor.fetchall()[0][0]
 
-        if pid:
-            sql = f'INSERT INTO `{self.database}`.`{table}`(`pid`, `name`, `sort_order`, `is_show`, `is_type_show`) VALUES ( {pid}, "{name}", {sort}, 0, 1);'
+            if pid:
+                sql = f'UPDATE `{self.database}`.`{table}` SET `pid` = {pid}, `name` = "{name}", `sort_order` = {sort}, `is_show` = 0, `is_type_show` = 1 WHERE `id` = {_id};'
+            else:
+                sql = f'UPDATE `{self.database}`.`{table}` SET `pid` = 0, `name` = "{name}", `sort_order` = {sort}, `is_show` = 1, `is_type_show` = 1 WHERE `id` = {_id};'
         else:
-            sql = f'INSERT INTO `{self.database}`.`{table}`(`name`, `sort_order`, `is_show`, `is_type_show`) VALUES ( "{name}", {sort}, 1, 1);'
+            if pid:
+                sql = f'INSERT INTO `{self.database}`.`{table}`(`pid`, `name`, `sort_order`, `is_show`, `is_type_show`) VALUES ( {pid}, "{name}", {sort}, 0, 1);'
+            else:
+                sql = f'INSERT INTO `{self.database}`.`{table}`(`name`, `sort_order`, `is_show`, `is_type_show`) VALUES ( "{name}", {sort}, 1, 1);'
 
         self.ecnu_cursor.execute(sql)
 
