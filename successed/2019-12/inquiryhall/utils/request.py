@@ -7,7 +7,7 @@ import urllib3
 import requests
 from config import logger
 
-from .timer import func_cprofile
+# from .timer import func_cprofile
 
 
 class Query(object):
