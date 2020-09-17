@@ -97,13 +97,10 @@ class DealGhzrzyw(object):
     def __init__(self):
         self.page_path = "http://www.choicelink.cn:8888/AgentApi/EProject/PageNotice2?rows=30&page={}&Mode={}"
         self.header = {
-            "Host": "www.choicelink.cn:8888",
-            "Accept": "application/json, text/plain, */*",
-            "Origin": "http://www.choicelink.cn",
+            "Accept": "text/html, */*; q=0.01",
             "User-Agent":
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.90 Safari/537.36",
-            "Referer": "http://www.choicelink.cn/channels/3014.html",
-            "Accept-Encoding": "gzip, deflate",
+            "Accept-Encoding": "gzip, deflate, br",
             "Accept-Language": "zh-CN,zh;q=0.9",
         }
 
@@ -115,7 +112,7 @@ class DealGhzrzyw(object):
         self.request = Query()
         self.pattarn = re.compile(r"FR.SessionMgr.register\(.*contentPane\);")
         self.init_sql()
-        self.host = 'http://report.choicelink.cn:28082'
+        self.host = 'https://report.choicelink.cn:28082'
 
     def init_sql(self):
         try:
@@ -514,7 +511,7 @@ class DealGhzrzyw(object):
                     except Exception as exc:
                         print("--->Error: the error is {}".format(exc))
 
-                    self.close_session()
+                    # self.close_session()
                     time.sleep(random.randint(1, 3))
                 else:
                     print("--->Info: 类型不符")
