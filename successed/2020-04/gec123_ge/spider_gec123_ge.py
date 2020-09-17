@@ -108,25 +108,25 @@ class DealGec(object):
             time.localtime(int(item['enqEndTime']) / 1000))
 
         tr_json = []
+        binding = self.soup(resp, {'class': 'text-bold ng-binding'}, True)
 
-        for index, good in enumerate(item.get('goods')):
-            tr_json.append({
-                "参数": "",
-                "单位": good.get("unit"),
-                "招标编号": info["网上竞价编号"],
-                "序号": index + 1,
-                "产品名称": good.get('stockDirName'),
-                "产品类别": "",
-                "产品单价": "",
-                "合计": good.get('stockLimit'),
-                "品牌": "",
-                "数量": good.get('goodsNum'),
-                "标配": "",
-                "型号": good.get('stockDirCode'),
-                "url": path,
-                "招标平台": "重庆市政府采购云平台",
-                "售后服务": "",
-            })
+        tr_json.append({
+            "参数": "",
+            "单位": self.remove_character(binding[1].text.split('(')[-1]),
+            "招标编号": info["网上竞价编号"],
+            "序号": 1,
+            "产品名称": item.get('goodsDirectory'),
+            "产品类别": "",
+            "产品单价": self.remove_character(binding[0].text[1:]),
+            "合计": self.remove_character(binding[2].text[1:]),
+            "品牌": "",
+            "数量": self.remove_character(binding[1].text.split('(')[0]),
+            "标配": "",
+            "型号": '',
+            "url": path,
+            "招标平台": "重庆市政府采购云平台",
+            "售后服务": "",
+        })
 
         run_func(self.ecnu_cursor.execute, self.insert_tb_bid.format(**info))
 
@@ -161,22 +161,22 @@ class DealGec(object):
         info["中标总额"] = item.get('totalLimit')
 
         tr_json = []
+        binding = self.soup(resp, {'class': 'text-bold ng-binding'}, True)
 
-        for good in item.get('goods'):
-            tr_json.append({
-                "成交时间": "",
-                "招标编号": info["网上竞价编号"],
-                "规格配置": '',
-                "详情url": info["path"],
-                "平台名称": "重庆市政府采购云平台",
-                "总价": good.get('stockLimit'),
-                "中标供应商": info["中标公司"],
-                "设备名称": good.get('stockDirName'),
-                "创建时间": self.get_time(),
-                "品牌": '',
-                "型号": good.get('stockDirCode'),
-                "数量": good.get('goodsNum')
-            })
+        tr_json.append({
+            "成交时间": "",
+            "招标编号": info["网上竞价编号"],
+            "规格配置": '',
+            "详情url": info["path"],
+            "平台名称": "重庆市政府采购云平台",
+            "总价": self.remove_character(binding[2].text[1:]),
+            "中标供应商": info["中标公司"],
+            "设备名称": item.get('goodsDirectory'),
+            "创建时间": self.get_time(),
+            "品牌": '',
+            "型号": '',
+            "数量": self.remove_character(binding[1].text.split('(')[0])
+        })
 
         run_func(self.ecnu_cursor.execute,
                  self.insert_bid_result.format(**info))
@@ -196,7 +196,6 @@ class DealGec(object):
 
             for item in data:
                 path = f'https://www.ccgp-chongqing.gov.cn/enquiry/notice!enquiryNotice.action?notic_seq={item.get("noticeId")}'
-                info = {}
                 result = item.get('result')
                 if result == -1:
                     self.bid_type = 'bid'
