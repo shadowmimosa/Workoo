@@ -16,7 +16,7 @@ class DealGec(object):
     def __init__(self):
         self.bid_path = "https://www.gec123.com/xcjenquiry/api/v1/packages?pi={}&ps=12&publishSite=1"
         self.bid_detail = "https://www.gec123.com/xcjenquiry/notice!enquiryNotice.action?notic_seq={}"
-        self.result_path = "https://www.gec123.com/xcj-gateway/api/v1/notices/stable?pi={}&projectPurchaseWay=6003&ps=12&publishSite=1&sourceType=2&type=306,300,307"
+        self.result_path = "https://www.gec123.com/xcjenquiry/api/v1/packages?pi={}&ps=12&states=7"
         self.result_detail = "https://www.gec123.com/xcj-gateway/api/v1/notices/stable/{}"
         self.header = {
             "Host":
@@ -111,7 +111,7 @@ class DealGec(object):
                 text = tr_obj.text
                 if "商品名称" not in text and "计量单位" not in text:
                     temp_good = text.split("\n")
-                    if self.bid_type is "bidNeed":
+                    if self.bid_type == "bidNeed":
                         info.append({
                             "参数": "",
                             "单位": "",
@@ -129,7 +129,7 @@ class DealGec(object):
                             "招标平台": "行采家",
                             "售后服务": "",
                         })
-                    elif self.bid_type is "bidResult":
+                    elif self.bid_type == "bidResult":
                         info.append({
                             "规格配置": "",
                             "中标供应商": temp_good[6],
@@ -145,9 +145,9 @@ class DealGec(object):
         return info
 
     def judge_already(self, item_code):
-        if self.bid_type is "bid":
+        if self.bid_type == "bid":
             sql = "SELECT `id` FROM `bidpython`.`tb_bid` WHERE `inviter_number` = '{}' and `platform_id` = 16 LIMIT 1;"
-        elif self.bid_type is "bidResult":
+        elif self.bid_type == "bidResult":
             sql = "SELECT `id` FROM `bidpython`.`tb_bid_result` WHERE `inviter_number` = '{}' and `platform_id` = 16 LIMIT 1;"
 
         if run_func(self.ecnu_cursor.execute, sql.format(item_code)) == 0:
@@ -171,9 +171,10 @@ class DealGec(object):
 
     def remove_character(self, content: str):
         return content.replace("\n",
-                               "").replace("\r",
-                                           "").replace(" ",
-                                                       "").replace(")", "")
+                               "").replace("\r", "").replace(" ", "").replace(
+                                   ")", "").replace('（', '').replace(
+                                       '询价号', '').replace('：',
+                                                          '').replace('）', '')
 
     def deal_detail(self, page):
         resp = run_func(self.request,
@@ -186,9 +187,11 @@ class DealGec(object):
             path = self.bid_detail.format(item["noticeId"])
             resp = run_func(self.request, path, header=self.header)
             raw_obj = run_func(self.soup, resp)
-            item_id = run_func(self.soup, raw_obj, attr={
-                "class": "enqNo"
-            }).text.split("：")[-1]
+            item_id = run_func(self.soup,
+                               raw_obj,
+                               attr={
+                                   "class": "enquiry-no"
+                               }).text
 
             info["网上竞价编号"] = self.remove_character(item_id)
 
@@ -199,51 +202,37 @@ class DealGec(object):
             info["金额上限"] = item["totalLimit"]
             info["path"] = path
 
-            all_binding = run_func(self.soup,
-                                   raw_obj,
-                                   attr={"class": "ng-binding"},
-                                   all_tag=True)
+            info["采购人"] = self.soup(resp, {
+                'id': 'center_left_wrap'
+            }).text.replace('\n', '')
 
-            for binding in all_binding:
-                if "单位名称：" in binding.text:
-                    info["采购人"] = self.remove_character(
-                        binding.text.split("：")[-1])
-
-            # info["竞价开始时间"] = run_func(
-            #     self.soup, raw_obj, attr={
-            #         "class": "startTime ng-binding"
-            #     }).text.split("：")[-1].replace("（北京）", "")
             info["竞价开始时间"] = time.strftime(
-                "%Y-%m-%d %H:%M:%S",
-                time.localtime(int(item["publishTime"]) / 1000))
-
-            info["竞价截止时间"] = run_func(self.soup,
-                                      raw_obj,
-                                      attr={
-                                          "class": "endTime ng-binding"
-                                      }).text.split("：")[-1].replace(
-                                          "（北京）", "")
+                '%Y-%m-%d %H:%M:%S',
+                time.localtime(int(item['enqStartTime']) / 1000))
+            info["竞价截止时间"] = time.strftime(
+                '%Y-%m-%d %H:%M:%S',
+                time.localtime(int(item['enqEndTime']) / 1000))
 
             tr_json = []
+            binding = self.soup(resp, {'class': 'text-bold ng-binding'}, True)
 
-            for index, good in enumerate(item["goods"]):
-                tr_json.append({
-                    "参数": "",
-                    "单位": good.get("unit"),
-                    "招标编号": info["网上竞价编号"],
-                    "序号": index + 1,
-                    "产品名称": good["stockDirName"],
-                    "产品类别": "",
-                    "产品单价": "",
-                    "合计": good["stockLimit"],
-                    "品牌": "",
-                    "数量": good["goodsNum"],
-                    "标配": "",
-                    "型号": good["stockDirCode"],
-                    "url": path,
-                    "招标平台": "行采家",
-                    "售后服务": "",
-                })
+            tr_json.append({
+                "参数": "",
+                "单位": self.remove_character(binding[1].text.split('(')[-1]),
+                "招标编号": info["网上竞价编号"],
+                "序号": 1,
+                "产品名称": item.get('goodsDirectory'),
+                "产品类别": "",
+                "产品单价": self.remove_character(binding[0].text[1:]),
+                "合计": self.remove_character(binding[2].text[1:]),
+                "品牌": "",
+                "数量": self.remove_character(binding[1].text.split('(')[0]),
+                "标配": "",
+                "型号": '',
+                "url": path,
+                "招标平台": "行采家",
+                "售后服务": "",
+            })
 
             run_func(self.ecnu_cursor.execute,
                      self.insert_tb_bid.format(**info))
@@ -266,77 +255,56 @@ class DealGec(object):
     def deal_result(self, page):
         path = self.result_path.format(page)
         resp = run_func(self.request, path, header=self.header)
-        data = json.loads(resp)["notices"]
+        data = json.loads(resp)["packages"]
 
         for item in data:
+            if item['result'] != 1:
+                continue
+
             info = {}
-            path = self.result_detail.format(item["id"])
+            path = f'https://www.gec123.com/xcjenquiry/notice!enquiryNotice.action?notic_seq={item.get("noticeId")}'
             resp = run_func(self.request, path, header=self.header)
-            detail_data = json.loads(resp)
 
-            item_id = re.search(
-                self.pattern, detail_data["notice"]["html"])[0].split("：")[-1]
+            no = self.soup(resp, {'class': 'enquiry-no'})
 
-            info["网上竞价编号"] = self.remove_character(item_id)
+            info["网上竞价编号"] = self.remove_character(no.text)
 
             if not self.judge_already(info["网上竞价编号"]):
                 continue
 
-            info["网上竞价名称"] = detail_data["notice"]["title"]
-            info["采购人"] = detail_data["notice"]["buyerName"]
-            info["path"] = "https://www.gec123.com/notices/detail/{}".format(
-                item["id"])
+            info["网上竞价名称"] = item["noticeName"]
+            info["采购人"] = self.soup(resp, {
+                'id': 'center_left_wrap'
+            }).text.replace('\n', '')
+            info["path"] = path
 
-            if "item.result==1\"" not in detail_data["notice"]["html"]:
-                continue
+            info["中标公司"] = item.get('providerOrgName')
 
-            info["中标公司"] = run_func(self.soup,
-                                    detail_data["notice"]["html"],
-                                    attr={
-                                        "ng-bind": "quote.providerOrgName"
-                                    }).text
-            # run_func(
-            #     self.soup,
-            #     detail_data["notice"]["html"],
-            #     attr={
-            #         "ng-if": "detail.brandName"
-            #     }).text
-            # attr={"ng-if": "detail.goodsName"},)
-            info["成交公告时间"] = detail_data["notice"]["bidBeginTime"]
+            info["成交公告时间"] = time.strftime(
+                '%Y-%m-%d %H:%M:%S',
+                time.localtime(int(item.get('publishTime')) / 1000))
             info["竞价开始时间"] = ""
             info["竞价截至时间"] = ""
 
-            temp1 = json.loads(detail_data['notice']['purchaseDes'])
-            temp2 = temp1[0].get('good') if temp1[0] else None
-            temp3 = temp2[0].get('count') if temp2[0] else None
-
-            info["中标总额"] = temp3 if temp3 else detail_data["notice"][
-                "projectBudget"]
+            info["中标总额"] = item.get('totalLimit')
 
             tr_json = []
-            detail_obj = run_func(self.soup,
-                                  detail_data["notice"]["html"],
-                                  attr={"ng-if": "!detail.sampleImagePath"})
+            binding = self.soup(resp, {'class': 'text-bold ng-binding'}, True)
 
-            details = detail_obj.text.replace(" ",
-                                              "").strip("\n").split("\n\n")
-
-            for item in json.loads(detail_data["notice"]["purchaseDes"]):
-                for good in item["good"]:
-                    tr_json.append({
-                        "成交时间": "",
-                        "招标编号": info["网上竞价编号"],
-                        "规格配置": details[1].split("：")[-1],
-                        "详情url": info["path"],
-                        "平台名称": "行采家",
-                        "总价": good["count"],
-                        "中标供应商": good["providerName"],
-                        "设备名称": details[0].split("：")[-1],
-                        "创建时间": self.get_time(),
-                        "品牌": details[2].split("：")[-1],
-                        "型号": details[3].split("：")[-1],
-                        "数量": good["amount"]
-                    })
+            tr_json.append({
+                "成交时间": "",
+                "招标编号": info["网上竞价编号"],
+                "规格配置": '',
+                "详情url": info["path"],
+                "平台名称": "重庆市政府采购云平台",
+                "总价": self.remove_character(binding[2].text[1:]),
+                "中标供应商": info["中标公司"],
+                "设备名称": item.get('goodsDirectory'),
+                "创建时间": self.get_time(),
+                "品牌": '',
+                "型号": '',
+                "数量": self.remove_character(binding[1].text.split('(')[0])
+            })
 
             run_func(self.ecnu_cursor.execute,
                      self.insert_bid_result.format(**info))
@@ -345,18 +313,7 @@ class DealGec(object):
                 self.ecnu_cursor.execute,
                 self.insert_tr_json.format(
                     json.dumps(tr_json, ensure_ascii=False), info["path"]))
-            # info = {
-            #     "网上竞价名称": data["orderTitle"],
-            #     # "{} - 竞价结果公告 ({})".format(data["collegeName"], data["orderCode"]),
-            #     "网上竞价编号": data["orderCode"],
-            #     "采购人": data["collegeName"],
-            #     "中标公司": data["detailList"][0]["companyName"],
-            #     "path": page_path,
-            #     "成交公告时间": data["publishBidresultTime"],
-            #     "竞价开始时间": data["startBidtime"],
-            #     "竞价截至时间": data["endBidtime"],
-            #     "中标总额": data["bidAmount"]
-            # }
+
 
     def run(self, path):
         resp = run_func(self.request, path, header=self.header)
@@ -371,7 +328,7 @@ class DealGec(object):
                 logger.info("--->Info: existed already")
 
     def main(self):
-        for page in range(1, 2):
+        for page in range(1, 15):
             self.bid_type = "bid"
             self.deal_detail(page)
             self.bid_type = "bidResult"
