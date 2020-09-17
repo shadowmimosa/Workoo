@@ -233,7 +233,7 @@ class DealOneminds:
         common_info['end_time'] = get_timestamps(2)
 
         common_info[
-            'video'] = common_info['video'][0] if common_info['video'] else ''
+            'video'] = common_info['video'][0]['video_link'] if common_info['video'] else ''
 
         self.all_goods[good_info['codes']] = {
             'good': good_info,
