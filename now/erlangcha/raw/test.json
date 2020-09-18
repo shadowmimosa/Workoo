@@ -1,0 +1,165 @@
+{
+    "st": 0,
+    "msg": "",
+    "data": {
+        "biz_type": 4,
+        "check_status": 3,
+        "company_name": "禹州市驰海贸易有限公司",
+        "current_time": 1600351308,
+        "description": "\u003cp\u003e\u003cimg src=\"https://sf6-ttcdn-tos.pstatp.com/obj/temai/0fb339f514208e20cf0530edddb37a5fwww800-800\" style=\"max-width:100%;\"/\u003e\u003c/p\u003e",
+        "delivery_delay_day": 7,
+        "discount_price": 2990,
+        "dsrInfo": {
+            "default": 1,
+            "gap_logistics": -3.79,
+            "gap_product": -5.85,
+            "gap_shop": -4.46,
+            "logistics": 4.51,
+            "merchant_id": 6173310,
+            "product": 4.14,
+            "shop": 4.37
+        },
+        "end_time": 2145888000,
+        "freight": {
+            "calculate_type": 2,
+            "product_province": 410000,
+            "product_province_name": "河南省",
+            "rule_type": 0,
+            "fixed_amount": 0,
+            "columns": [{
+                "add_num": 1,
+                "add_num_price": 0,
+                "add_weight": 0,
+                "add_weight_price": 0,
+                "first_num": 1,
+                "first_num_price": 900,
+                "first_weight": 0,
+                "first_weight_price": 0,
+                "is_default": 0,
+                "province": [650000, 540000],
+                "province_name": ["新疆维吾尔自治区", "西藏自治区"],
+                "rule_id": 2,
+                "is_limited": false,
+                "is_over_free": false,
+                "over_weight": 0,
+                "over_num": 0,
+                "over_amount": 0,
+                "address": {
+                    "540000": [],
+                    "650000": []
+                }
+            }, {
+                "add_num": 1,
+                "add_num_price": 0,
+                "add_weight": 0,
+                "add_weight_price": 0,
+                "first_num": 1,
+                "first_num_price": 600,
+                "first_weight": 0,
+                "first_weight_price": 0,
+                "is_default": 0,
+                "province": [150000],
+                "province_name": ["内蒙古自治区"],
+                "rule_id": 3,
+                "is_limited": false,
+                "is_over_free": false,
+                "over_weight": 0,
+                "over_num": 0,
+                "over_amount": 0,
+                "address": {
+                    "150000": []
+                }
+            }, {
+                "add_num": 1,
+                "add_num_price": 0,
+                "add_weight": 0,
+                "add_weight_price": 0,
+                "first_num": 1,
+                "first_num_price": 3000,
+                "first_weight": 0,
+                "first_weight_price": 0,
+                "is_default": 0,
+                "province": [710000, 810000, 820000],
+                "province_name": ["台湾省", "香港特别行政区", "澳门特别行政区"],
+                "rule_id": 4,
+                "is_limited": false,
+                "is_over_free": false,
+                "over_weight": 0,
+                "over_num": 0,
+                "over_amount": 0,
+                "address": {
+                    "710000": [],
+                    "810000": [],
+                    "820000": []
+                }
+            }],
+            "default": {
+                "calculate_type": 2,
+                "template_id": 366533,
+                "first_num": 1,
+                "first_num_price": 0,
+                "first_weight": 0,
+                "first_weight_price": 0,
+                "add_num": 1,
+                "add_num_price": 0,
+                "add_weight": 0,
+                "add_weight_price": 0,
+                "is_default": 1,
+                "rule_id": 1,
+                "is_limited": false
+            }
+        },
+        "group_id": "0",
+        "has_coupon": 0,
+        "img": "https://sf1-ttcdn-tos.pstatp.com/obj/temai/0fb339f514208e20cf0530edddb37a5fwww800-800",
+        "img_list": ["https://sf1-ttcdn-tos.pstatp.com/obj/temai/0fb339f514208e20cf0530edddb37a5fwww800-800"],
+        "is_pledge_cash": 1,
+        "market_price": 12900,
+        "mobile": "18039995236",
+        "name": "【可穿】纯棉柔软不掉毛 ，四季可穿！",
+        "need_share": 1,
+        "pay_type": 1,
+        "product_format": {},
+        "product_id": "3435741398396203041",
+        "product_type": 0,
+        "recommend_remark": "可当睡衣穿的速干仙女浴袍，升级工艺，精选面料，超强吸水，性感又可爱！",
+        "remark_highlight": "",
+        "report_id__for_event": 6173310,
+        "second_mobile": "",
+        "sell_num": "爆卖2.4万件",
+        "shop_id": "kNEwpSV",
+        "shop_logo": "https://sf6-ttcdn-tos.pstatp.com/obj/temai/159411042658b933392408e09a53e3746ae944af8bc7d99b63",
+        "shop_name": "驰海服饰百货店",
+        "show_buyers": 1,
+        "show_comments": 1,
+        "show_place": 13,
+        "silde_video": {
+            "detail_video_large_image": null,
+            "video_id": "",
+            "video_duration": 0,
+            "video_poster": ""
+        },
+        "sku_max_price": 2990,
+        "sku_min_price": 2990,
+        "spec_info": [{
+            "list": [{
+                "id": "707152695",
+                "name": "【棉质柔软 性感】浅粉色29.9元"
+            }, {
+                "id": "707152698",
+                "name": "【棉质柔软 性感】浅紫色29.9元"
+            }, {
+                "id": "707152699",
+                "name": "【棉质柔软 性感】浅蓝色29.9元"
+            }, {
+                "id": "707152700",
+                "name": "【棉质柔软 性感】浅黄色29.9元"
+            }],
+            "name": "可穿带浴巾，我们厂家直销，质量保证，请放心下单"
+        }],
+        "status": 0,
+        "template_type": 0,
+        "v_type": 0,
+        "weight": "0.00"
+    }
+}

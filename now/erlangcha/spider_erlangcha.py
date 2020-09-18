@@ -15,12 +15,13 @@ from utils import request, run_func
 from skimage import io
 
 
-def magic_time(during=3):
+def magic_time(during=1):
     def decorator(func):
         def wrapper(*args, **kwargs):
             start_time = time.time()
             # print('函数开始运行的时间为：', time.strftime('%Y:%m:%d %H:%M:%S', start_time))
             result = func(*args, **kwargs)
+            return result
             magic = time.time() - start_time - during
 
             if magic < 0:
@@ -48,7 +49,7 @@ class OperaChrome(object):
         options = webdriver.ChromeOptions()
         options.add_argument("disable-infobars")
         options.add_argument("disable-web-security")
-        options.add_argument("--headless")
+        # options.add_argument("--headless")
         options.add_argument("--start-maximized")
         options.add_argument('--log-level=3')
         options.add_argument('--ignore-certificate-errors')
@@ -89,7 +90,7 @@ class OperaChrome(object):
                 print("---> Waiting for count monthly")
                 continue
             except TimeoutException:
-                print('timeout')
+                print(f'{xpath} timeout')
                 return False
             else:
 
@@ -110,7 +111,7 @@ class OperaChrome(object):
                 print("---> Waiting for count monthly")
                 continue
             except TimeoutException:
-                print('timeout')
+                print(f'{xpath} timeout')
                 return False
             else:
 
@@ -165,6 +166,7 @@ def remove_charater(content: str):
                                                          '').replace(' ', '')
 
 
+@run_func()
 def get_shop_phone(link: str):
     shop_id = link.split('id=')[-1]
     uri = f'https://luban.snssdk.com/shop/info?id={shop_id}'
@@ -179,6 +181,7 @@ def get_shop_phone(link: str):
     return resp.get('data').get('company_name'), resp.get('data').get('mobile')
 
 
+@run_func()
 def get_good_phone(link):
     good_id = link.split('id=')[-1]
     uri = f'https://ec.snssdk.com/product/lubanajaxstaticitem?id={good_id}'
@@ -238,6 +241,7 @@ def writer(row):
 
 def main():
     chrome = OperaChrome('https://www.erlangcha.com/')
+    time.sleep(5)
     chrome.click_by_xpath(
         '//*[@id="app"]/div/div[2]/section/div/div[2]/div/div[2]/div[2]/table/thead/tr/th[12]/div/span/i[2]'
     )
