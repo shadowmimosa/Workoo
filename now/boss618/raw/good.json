@@ -1,0 +1,119 @@
+{
+    "st": 0,
+    "msg": "",
+    "data": {
+        "biz_type": 4,
+        "check_status": 3,
+        "company_name": "澳妆(上海)国际贸易有限公司",
+        "current_time": 1600533205,
+        "description": "\u003cp\u003e\u003cimg src=\"https://sf1-ttcdn-tos.pstatp.com/obj/temai/298e7910652d0df179f7f7ef1be5e186www3507-2480\" style=\"max-width:100%;\"/\u003e\u003cimg src=\"https://sf1-ttcdn-tos.pstatp.com/obj/temai/abcaa0ed8f085d385ad7d79d1cbd29cdwww2479-3504\" style=\"max-width: 100%;\"/\u003e\u003cimg src=\"https://sf6-ttcdn-tos.pstatp.com/obj/temai/bf4416924b72410652df72f2e4932341www790-1500\" style=\"max-width: 100%;\"/\u003e\u003c/p\u003e",
+        "delivery_delay_day": 10,
+        "discount_price": 13800,
+        "dsrInfo": {
+            "default": 1,
+            "gap_logistics": 1.12,
+            "gap_product": 0.33,
+            "gap_shop": 0.8,
+            "logistics": 4.74,
+            "merchant_id": 2161403,
+            "product": 4.41,
+            "shop": 4.61
+        },
+        "end_time": 2145888000,
+        "freight": {
+            "calculate_type": 1,
+            "product_province": 310000,
+            "product_province_name": "上海市",
+            "rule_type": 0,
+            "fixed_amount": 0,
+            "columns": [{
+                "add_num": 0,
+                "add_num_price": 0,
+                "add_weight": 0,
+                "add_weight_price": 0,
+                "first_num": 0,
+                "first_num_price": 0,
+                "first_weight": 0,
+                "first_weight_price": 0,
+                "is_default": 0,
+                "province": [650000, 810000, 820000, 710000],
+                "province_name": ["新疆维吾尔自治区", "香港特别行政区", "澳门特别行政区", "台湾省"],
+                "rule_id": 2,
+                "is_limited": true,
+                "is_over_free": false,
+                "over_weight": 0,
+                "over_num": 0,
+                "over_amount": 0,
+                "address": {
+                    "650000": [],
+                    "710000": [],
+                    "810000": [],
+                    "820000": []
+                }
+            }],
+            "default": {
+                "calculate_type": 1,
+                "template_id": 398981,
+                "first_num": 0,
+                "first_num_price": 0,
+                "first_weight": 1,
+                "first_weight_price": 0,
+                "add_num": 0,
+                "add_num_price": 0,
+                "add_weight": 1,
+                "add_weight_price": 0,
+                "is_default": 1,
+                "rule_id": 1,
+                "is_limited": false
+            }
+        },
+        "group_id": "0",
+        "has_coupon": 0,
+        "img": "https://sf6-ttcdn-tos.pstatp.com/obj/temai/c04d184f6ca70001606dcbd63b9cf6aawww800-800",
+        "img_list": ["https://sf6-ttcdn-tos.pstatp.com/obj/temai/c04d184f6ca70001606dcbd63b9cf6aawww800-800"],
+        "is_pledge_cash": 1,
+        "market_price": 16800,
+        "mobile": "18006417325",
+        "name": "日本进口redearth红地球草本养肤粉底液",
+        "need_share": 1,
+        "pay_type": 1,
+        "product_format": {
+            "品牌": "red earth"
+        },
+        "product_id": "3435784816178640422",
+        "product_type": 0,
+        "recommend_remark": "",
+        "remark_highlight": "",
+        "report_id__for_event": 2161403,
+        "second_mobile": "",
+        "sell_num": "爆卖1.8万件",
+        "shop_id": "NXSzygF",
+        "shop_logo": "https://sf1-ttcdn-tos.pstatp.com/obj/temai/FpU8x1SLjjZvZ8cCxHtz7312BeTewww800-800",
+        "shop_name": "红地球美妆旗舰店",
+        "show_buyers": 1,
+        "show_comments": 1,
+        "show_place": 5,
+        "silde_video": {
+            "detail_video_large_image": null,
+            "video_id": "",
+            "video_duration": 0,
+            "video_poster": ""
+        },
+        "sku_max_price": 13800,
+        "sku_min_price": 13800,
+        "spec_info": [{
+            "list": [{
+                "id": "697147001",
+                "name": "F400"
+            }, {
+                "id": "697147002",
+                "name": "F401"
+            }],
+            "name": "颜色"
+        }],
+        "status": 0,
+        "template_type": 0,
+        "v_type": 0,
+        "weight": "1.00"
+    }
+}
