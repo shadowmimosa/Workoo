@@ -1,3 +1,7 @@
+# import gevent
+# from gevent import monkey
+# monkey.patch_all()
+
 import csv
 import time
 import random
@@ -95,6 +99,8 @@ def writer(row):
         f_csv.writerow(row)
 
 
+
+
 @run_func()
 def good_list(page):
     header = {
@@ -102,7 +108,7 @@ def good_list(page):
         'User-Agent':
         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
         'ACCESSTOKEN':
-        '59dff2f6b12a9c1dhBCp0CGYZ7MYa7a4IdI0Zihx/THEp3wIf5P1ycxfVoLuMRlci1wCCyA9L/gR8yJ660NqqWkyE5inYO4xo1DoWX7CjnU66e2noe8B+JuhRPtoAAIY2l/WvflBiW6QwH9tx2F6TLUPft0No+xDfapGIdzq8Q',
+        'aa65af9eddde2501a0zjQhCoUjqBuc5NecnfolVdE45xwJoGy68b6f7Rvjd4G+6SoUOK9KZLw/rHUUS71IIxalTenPtOgua/qxnQSA79QVL4GyVUHDAkjXxVIFASGo8pn5v9QVeXhG+t6KINNGDBRSX+MVY+oT9GZqct1kAK7g',
         'Accept-Encoding': 'gzip, deflate, br',
         'Accept-Language': 'zh-CN,zh;q=0.9'
     }
@@ -115,13 +121,13 @@ def good_list(page):
         'order': 'desc',
         'pagesize': '50',
         'is_active': '-1',
-        'sort': 'sale_seven_days',
+        'sort': 'sale_three_days',
         'start_date': '',
         'end_date': '',
         'has_material': '',
         'source': '鲁班',
         'price_min': '39',
-        'price_max': '999'
+        'price_max': '99'
     }
     resp = request(uri, header, params=params, json=True)
 
@@ -131,10 +137,11 @@ def good_list(page):
 
 
 def main():
-    for page in range(1500):
-        good_list(page + 1)
-        logger.info(f'第 {page + 1} 页完成')
+    for page in range(1600, 2010):
+        good_list(page)
+        logger.info(f'第 {page} 页完成')
 
 
 if __name__ == "__main__":
+    # gevent.spawn(main)
     main()
