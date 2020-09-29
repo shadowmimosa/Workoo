@@ -1,31 +1,10 @@
-# import gevent
-# from gevent import monkey
-# monkey.patch_all()
-
 import csv
 import time
 import random
 from loguru import logger
 from utils import request, run_func
 
-
-def magic_time(during=3):
-    def decorator(func):
-        def wrapper(*args, **kwargs):
-            start_time = time.time()
-            # print('函数开始运行的时间为：', time.strftime('%Y:%m:%d %H:%M:%S', start_time))
-            result = func(*args, **kwargs)
-            return result
-            magic = time.time() - start_time - during
-
-            if magic < 0:
-                time.sleep(random.uniform(0, -magic))
-
-            return result
-
-        return wrapper
-
-    return decorator
+from config import ACCESS_TOKEN
 
 
 def remove_charater(content: str):
@@ -69,7 +48,7 @@ def deal_price(_min, _max):
 
 
 @run_func()
-def detail(data: dict):
+def detail(data: dict, sort_type):
 
     info = {}
     good_id = data.get('code')
@@ -85,30 +64,28 @@ def detail(data: dict):
     info['抢购电话'], shop_id, info['支付方式'] = get_good_phone(good_id)
     info['公司名'], info['公司电话'] = get_shop_phone(shop_id)
 
-    writer(info)
+    writer(info, sort_type)
 
 
 @run_func()
-def writer(row):
+def writer(row, filename=None):
+    filename = filename if filename else 'data'
     header = [
         '产品价格', '支付方式', '产品店铺', '24小时销量', '3天销量', '7天销量', '产品类别', '产品名',
         '抢购电话', '公司名', '公司电话', '产品链接'
     ]
-    with open('data.csv', 'a', encoding='utf-8') as fn:
+    with open(f'{filename}.csv', 'a', encoding='utf-8') as fn:
         f_csv = csv.DictWriter(fn, header)
         f_csv.writerow(row)
 
 
-
-
 @run_func()
-def good_list(page):
+def good_list(page, sort_type):
     header = {
         'Accept': 'application/json, text/plain, */*',
         'User-Agent':
         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
-        'ACCESSTOKEN':
-        'aa65af9eddde2501a0zjQhCoUjqBuc5NecnfolVdE45xwJoGy68b6f7Rvjd4G+6SoUOK9KZLw/rHUUS71IIxalTenPtOgua/qxnQSA79QVL4GyVUHDAkjXxVIFASGo8pn5v9QVeXhG+t6KINNGDBRSX+MVY+oT9GZqct1kAK7g',
+        'ACCESSTOKEN': ACCESS_TOKEN,
         'Accept-Encoding': 'gzip, deflate, br',
         'Accept-Language': 'zh-CN,zh;q=0.9'
     }
@@ -121,7 +98,7 @@ def good_list(page):
         'order': 'desc',
         'pagesize': '50',
         'is_active': '-1',
-        'sort': 'sale_three_days',
+        'sort': sort_type,
         'start_date': '',
         'end_date': '',
         'has_material': '',
@@ -133,15 +110,15 @@ def good_list(page):
 
     data = resp.get('data').get('data')
     for item in data:
-        detail(item)
+        detail(item, sort_type)
 
 
-def main():
-    for page in range(1600, 2010):
-        good_list(page)
-        logger.info(f'第 {page} 页完成')
+def main(sort_type):
+    for page in range(2010):
+        good_list(page + 1, sort_type)
+        logger.info(f'第 {page+1} 页完成')
 
 
 if __name__ == "__main__":
-    # gevent.spawn(main)
-    main()
+    for sort_type in ['sale_three_days', 'sale']:
+        main(sort_type)
