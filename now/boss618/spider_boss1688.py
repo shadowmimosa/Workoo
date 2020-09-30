@@ -1,15 +1,27 @@
 import csv
+import time
+import hashlib
 from loguru import logger
 from concurrent.futures.thread import ThreadPoolExecutor, threading
 
-from utils import request, run_func, mongo
-from config import ACCESS_TOKEN, RUN_SIGN, DEBUG
+from utils import request, run_func, mongo, request_proxy
+from config import ACCESS_TOKEN, RUN_SIGN, DEBUG, PROXY
 
 
 def remove_charater(content: str):
     return content.replace('\n', '').replace('\t',
                                              '').replace('\r',
                                                          '').replace(' ', '')
+
+
+def made_secret():
+    timestamp = int(time.time())
+    orderno = PROXY.get('orderno')
+    secret = PROXY.get('secret')
+    txt = f'orderno={orderno},secret={secret},timestamp={timestamp}'
+    sign = hashlib.md5(txt.encode('utf-8')).hexdigest().upper()
+
+    return f'sign={sign}&orderno={orderno}&timestamp={timestamp}&change=true'
 
 
 @run_func()
@@ -22,7 +34,7 @@ def get_shop_phone(shop_id):
         'Accept-Encoding': 'gzip, deflate, br',
         'Accept-Language': 'zh-CN,zh;q=0.9'
     }
-    resp = request(uri, header, json=True)
+    resp = request_proxy(uri, header, json=True)
     return resp.get('data').get('company_name'), resp.get('data').get('mobile')
 
 
@@ -34,9 +46,10 @@ def get_good_phone(good_id):
         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
         'Accept': 'application/json, text/plain, */*',
         'Accept-Encoding': 'gzip, deflate, br',
-        'Accept-Language': 'zh-CN,zh;q=0.9'
+        'Accept-Language': 'zh-CN,zh;q=0.9',
+        'Proxy-Authorization': made_secret()
     }
-    resp = request(uri, header, json=True)
+    resp = request_proxy(uri, header, json=True)
     return resp.get('data').get('mobile'), resp.get('data').get(
         'shop_id'), resp.get('data').get('pay_type')
 
