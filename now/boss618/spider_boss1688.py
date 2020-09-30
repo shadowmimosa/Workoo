@@ -1,9 +1,8 @@
 import csv
-import time
-import random
 from loguru import logger
-from utils import request, run_func
+from concurrent.futures.thread import ThreadPoolExecutor, threading
 
+from utils import request, run_func, mongo
 from config import ACCESS_TOKEN
 
 
@@ -69,18 +68,20 @@ def detail(data: dict, sort_type):
 
 @run_func()
 def writer(row, filename=None):
-    filename = filename if filename else 'data'
-    header = [
-        '产品价格', '支付方式', '产品店铺', '24小时销量', '3天销量', '7天销量', '产品类别', '产品名',
-        '抢购电话', '公司名', '公司电话', '产品链接'
-    ]
-    with open(f'{filename}.csv', 'a', encoding='utf-8') as fn:
-        f_csv = csv.DictWriter(fn, header)
-        f_csv.writerow(row)
+    # print(threading.current_thread().ident)
+    mongo.insert(row, 'boss168')
+    # filename = filename if filename else 'data'
+    # header = [
+    #     '产品价格', '支付方式', '产品店铺', '24小时销量', '3天销量', '7天销量', '产品类别', '产品名',
+    #     '抢购电话', '公司名', '公司电话', '产品链接'
+    # ]
+    # with open(f'{filename}.csv', 'a', encoding='utf-8') as fn:
+    #     f_csv = csv.DictWriter(fn, header)
+    #     f_csv.writerow(row)
 
 
 @run_func()
-def good_list(page, sort_type):
+def good_list(page, sort_type, price_min='59', price_max='999'):
     header = {
         'Accept': 'application/json, text/plain, */*',
         'User-Agent':
@@ -103,8 +104,8 @@ def good_list(page, sort_type):
         'end_date': '',
         'has_material': '',
         'source': '鲁班',
-        'price_min': '39',
-        'price_max': '99'
+        'price_min': price_min,
+        'price_max': price_max
     }
     resp = request(uri, header, params=params, json=True)
 
@@ -112,11 +113,18 @@ def good_list(page, sort_type):
     for item in data:
         detail(item, sort_type)
 
+    logger.info(f'第 {page} 页完成')
+
 
 def main(sort_type):
-    for page in range(2010):
-        good_list(page + 1, sort_type)
-        logger.info(f'第 {page+1} 页完成')
+    price_min = '59'
+    price_max = '999'
+    pages = 2010
+
+    with ThreadPoolExecutor(10) as executor:
+        for page in range(pages):
+            executor.submit(good_list, page + 1, sort_type, price_min,
+                            price_max)
 
 
 if __name__ == "__main__":

@@ -1,13 +1,10 @@
 from utils.log import init_log
-from utils.soup import DealSoup
 from utils.request import DealRequest
-from utils.excel_opea import ExcelOpea
-from utils.run import run_func, RunFunc
 from utils.db import MongoOpea
+from utils.run import run_func
 
 logger = init_log()
 request = DealRequest().run
-soup = DealSoup().judge
-excel = ExcelOpea()
+mongo = MongoOpea()
 
-__all__ = ['logger', 'request', 'mysql']
+__all__ = ['logger', 'request', 'mongo']

@@ -1,0 +1,14 @@
+third_cid=
+first_cid=
+second_cid=
+page=1
+order=desc
+pagesize=50
+is_active=-1
+sort=sale_three_days
+start_date=
+end_date=
+has_material=
+price_min=39
+price_max=99
+source=%E9%B2%81%E7%8F%AD
