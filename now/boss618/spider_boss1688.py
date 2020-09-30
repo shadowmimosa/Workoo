@@ -32,9 +32,9 @@ def get_shop_phone(shop_id):
         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
         'Accept': '*/*',
         'Accept-Encoding': 'gzip, deflate, br',
-        'Accept-Language': 'zh-CN,zh;q=0.9'
+        'Accept-Language': 'zh-CN,zh;q=0.9',
     }
-    resp = request_proxy(uri, header, json=True)
+    resp = request(uri, header, json=True)
     return resp.get('data').get('company_name'), resp.get('data').get('mobile')
 
 
@@ -129,6 +129,7 @@ def good_list(page, sort_type, price_min='59', price_max='999'):
         detail(item, sort_type)
 
     logger.info(f'第 {page} 页完成')
+    time.sleep(2)
 
 
 def main(sort_type):

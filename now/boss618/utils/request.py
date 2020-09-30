@@ -33,9 +33,9 @@ class DealRequest(object):
         session.mount('http://', adapter)
         session.mount('https://', adapter)
 
-        if DEBUG:
-            urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-            session.verify = False
+        # if DEBUG:
+        urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+        session.verify = False
 
         return session
 
@@ -92,6 +92,10 @@ class DealRequest(object):
             self.status_code = status_code
 
             if status_code == 200:
+                if self.proxy and resp.text == '{"code":200,"msg":"超过并发限制"}':
+                    # logger.info('超过并发限制')
+                    magic()
+                    return self.retry(get)              
                 if resp.apparent_encoding in [
                         "gb2312", "GB2312", "gb18030", "GB18030", "GBK", "gbk"
                 ]:
