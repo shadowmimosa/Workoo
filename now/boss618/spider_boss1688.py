@@ -3,7 +3,7 @@ from loguru import logger
 from concurrent.futures.thread import ThreadPoolExecutor, threading
 
 from utils import request, run_func, mongo
-from config import ACCESS_TOKEN
+from config import ACCESS_TOKEN, RUN_SIGN, DEBUG
 
 
 def remove_charater(content: str):
@@ -67,8 +67,10 @@ def detail(data: dict, sort_type):
 
 
 @run_func()
-def writer(row, filename=None):
+def writer(row: dict, sort_type=None):
     # print(threading.current_thread().ident)
+    # print(row)
+    row.update({'category': f'{sort_type}_{RUN_SIGN}'})
     mongo.insert(row, 'boss168')
     # filename = filename if filename else 'data'
     # header = [
@@ -121,12 +123,19 @@ def main(sort_type):
     price_max = '999'
     pages = 2010
 
-    with ThreadPoolExecutor(10) as executor:
+    if DEBUG:
         for page in range(pages):
-            executor.submit(good_list, page + 1, sort_type, price_min,
-                            price_max)
+            good_list(page + 1, sort_type, price_min, price_max)
+    else:
+        with ThreadPoolExecutor(3) as executor:
+            for page in range(pages):
+                executor.submit(good_list, page + 1, sort_type, price_min,
+                                price_max)
 
 
 if __name__ == "__main__":
-    for sort_type in ['sale_three_days', 'sale']:
+    for sort_type in [
+            'sale_today', 'sale_yesterday', 'sale_three_days',
+            'sale_seven_days', 'sale'
+    ]:
         main(sort_type)
