@@ -142,14 +142,22 @@ def main(sort_type):
             good_list(page + 1, sort_type, price_min, price_max)
     else:
         with ThreadPoolExecutor(3) as executor:
-            for page in range(pages):
-                executor.submit(good_list, page + 1, sort_type, price_min,
+            if sort_type == 'sale_three_days':
+                for page in range(534, pages):
+                    executor.submit(good_list, page + 1, sort_type, price_min,
+                                price_max)
+            else:
+                for page in range(pages):
+                    executor.submit(good_list, page + 1, sort_type, price_min,
                                 price_max)
 
 
 if __name__ == "__main__":
     for sort_type in [
-            'sale_today', 'sale_yesterday', 'sale_three_days',
-            'sale_seven_days', 'sale'
+            # 'sale_today',
+            # 'sale_yesterday',
+            # 'sale_three_days',
+            # 'sale_seven_days',
+            'sale'
     ]:
         main(sort_type)
