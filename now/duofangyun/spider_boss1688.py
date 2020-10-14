@@ -4,7 +4,7 @@ import hashlib
 from loguru import logger
 from concurrent.futures.thread import ThreadPoolExecutor, threading
 
-from utils import request, run_func, mongo, request_proxy
+from utils import request, run_func, mongo
 from config import ACCESS_TOKEN, RUN_SIGN, DEBUG, PROXY
 
 
@@ -49,7 +49,7 @@ def get_good_phone(good_id):
         'Accept-Language': 'zh-CN,zh;q=0.9',
         'Proxy-Authorization': made_secret()
     }
-    resp = request_proxy(uri, header, json=True)
+    resp = request(uri, header, json=True)
     return resp.get('data').get('mobile'), resp.get('data').get(
         'shop_id'), resp.get('data').get('pay_type')
 
