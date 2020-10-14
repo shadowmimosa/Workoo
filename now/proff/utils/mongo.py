@@ -18,11 +18,23 @@ class MongoOpea(object):
         config["user"] = parse.quote_plus(config["user"])
         config["passwd"] = parse.quote_plus(config["passwd"])
 
-        client = pymongo.MongoClient(
-            "mongodb://{user}:{passwd}@{host}:{port}/".format(**config),
-            connect=False)
+        # client = pymongo.MongoClient(
+        #     host=config.get('host'),
+        #     port=config.get('port'),
+        #     #  username=config.get('user'),
+        #     #  password=config.get('passwd'),
+        #     connect=False,
+        #     maxPoolSize=None)
+        # client.admin.authenticate(config.get('user'), config.get('passwd'))
+        passwd = 'mongodb://dogyue_dev:aZj2WDyLo%261PkQwg@123.56.175.240:27017/'
+        # 'mongodb://dogyue_dev:aZj2WDyLo%25261PkQwg@123.56.175.240:27017/'
+        # client = pymongo.MongoClient(
+        #     "mongodb://{user}:{passwd}@{host}:{port}/".format(**config),
+        #     connect=False)
+        client = pymongo.MongoClient(passwd)
 
         self.mongo = client[config.get('basedata')]
+        # print(self.mongo)
 
     def repeat(self, data, table):
         data = {clean(key): clean(data[key]) for key in data}
@@ -73,4 +85,4 @@ def clean(content: str):
     return content
 
 
-Mongo = MongoOpea()
+# Mongo = MongoOpea()
