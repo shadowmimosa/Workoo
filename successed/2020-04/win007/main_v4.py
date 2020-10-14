@@ -7,14 +7,14 @@ from configparser import ConfigParser
 
 from utils.run import run_func
 from utils.soup import DealSoup
-from utils.request import Query
+from utils import request
 from utils.excel_opea import ExcelOpea
 from utils.magic_code import judge_code
+from utils.signer import magic
 
 excel = ExcelOpea()
 excel.init_sheet(
     header=['国家', '联赛', '球队', '比分', '总次数', '平均遗漏', '最长遗漏', '目前遗漏'])
-req = Query().run
 soup = DealSoup().judge
 config = ConfigParser()
 config.read('config.txt', encoding=judge_code('config.txt'))
@@ -82,7 +82,7 @@ def show_team(team_id):
 
 
 def match_result(uri):
-    resp = req(f'{domain}{uri}', header=header)
+    resp = request(f'{domain}{uri}', header=header)
     result = re.search(
         r'<script type="text/javascript">var selectSeason = .*;var lang = .*; var jh = new Object\(\);var teamHelper = new Object\(\);var SclassID = .*; </script><script type="text/javascript"  src="(.*)"></script><script type="text/javascript"  src=".*"></script>',
         resp)
@@ -94,7 +94,7 @@ def match_result(uri):
 
     # temp = uri.replace('.html', '').split('/')
     # href = f'{domain}/jsData/matchResult/{temp[-2]}/s{temp[-1]}?version={build_version()}'
-    resp = req(f'{domain}{href}', header=header)
+    resp = request(f'{domain}{href}', header=header)
     result = re.search(r'var arrTeam = (.*?);', resp)
     if result:
         need = []
@@ -124,7 +124,7 @@ def summary_team(team_id, current):
         return
     else:
         team_detail.append(uri)
-        resp = run_func(req, uri, header=header)
+        resp = run_func(request, uri, header=header)
         run_func(to_excel, resp, current)
 
 
@@ -203,11 +203,6 @@ def to_excel(html, current):
 class BaseError(Exception):
     def __init__(self, *args):
         self.args = args
-
-
-def magic():
-    if int(time.time()) > 1612336109:
-        raise BaseError('Something Wrong')
 
 
 def main():
