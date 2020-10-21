@@ -20,6 +20,8 @@ def minute_data(code='sz002041'):
     resp = request(uri, header=HEADER, json=True)
     data = resp.get('data').get(code).get('qt').get(code)
     info = {}
+    info['股票代码'] = code
+    info['股票名称'] = data[1]
     info['总市值'] = data[45]
     info['流通市值'] = data[44]
 
