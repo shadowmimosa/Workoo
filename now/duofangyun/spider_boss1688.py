@@ -1,11 +1,13 @@
-import csv
 import time
 import hashlib
 from loguru import logger
 from concurrent.futures.thread import ThreadPoolExecutor, threading
+from fake_useragent import UserAgent
 
 from utils import request, run_func, mongo
 from config import ACCESS_TOKEN, RUN_SIGN, DEBUG, PROXY
+
+UA = UserAgent()
 
 
 def remove_charater(content: str):
@@ -28,9 +30,10 @@ def made_secret():
 def get_shop_phone(shop_id):
     uri = f'https://luban.snssdk.com/shop/info?id={shop_id}'
     header = {
-        'User-Agent':
-        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
-        'Accept': '*/*',
+        'User-Agent': UA.random,
+        # 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+        'Accept':
+        'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
         'Accept-Encoding': 'gzip, deflate, br',
         'Accept-Language': 'zh-CN,zh;q=0.9',
     }
@@ -47,7 +50,7 @@ def get_good_phone(good_id):
         'Accept': 'application/json, text/plain, */*',
         'Accept-Encoding': 'gzip, deflate, br',
         'Accept-Language': 'zh-CN,zh;q=0.9',
-        'Proxy-Authorization': made_secret()
+        # 'Proxy-Authorization': made_secret()
     }
     resp = request(uri, header, json=True)
     return resp.get('data').get('mobile'), resp.get('data').get(
@@ -82,7 +85,6 @@ def detail(data: dict, day):
 @run_func()
 def writer(row: dict, day=None):
     row.update({'category': f'{day}_{RUN_SIGN}'})
-    print(row)
     mongo.insert(row, 'boss168')
 
 
@@ -128,7 +130,8 @@ def get_max_pages(day):
 
 
 def main():
-    for day in [3, 7, 14]:
+    for day in [0, 1, 30, 60]:
+        # for day in [3, 7, 14]:
         pages = get_max_pages(day)
 
         if DEBUG:
