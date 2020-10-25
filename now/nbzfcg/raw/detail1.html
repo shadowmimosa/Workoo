@@ -1,0 +1,744 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>
+        宁波政府采购网
+    </title>
+
+
+    <!--<script type="text/javascript" src="images2019/jquery1.42.min.js"></script>-->
+    <script type="text/javascript" src="images2019/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="images2019/jquery-Apage.211.js"></script>
+
+    <!--[if IE 6]>
+<script src="images2019/IE6_PNG_0.0.8a.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('*');</script>
+<![endif]-->
+    <!--ie6 PNG背景图片透明-->
+    <link href="images2019/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <form name="aspnetForm" method="post" action="dzjj_view1.aspx?ProjectId=25518" id="aspnetForm">
+        <div>
+            <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE"
+                value="/wEPDwULLTE0NTM0Mjg2OTkPZBYCZg9kFgICAw9kFgICAw9kFiJmDxYCHgRUZXh0BUXlroHms6LluILmtbfmm5nljLrpvJPmpbzooZfpgZPnpL7ljLrljavnlJ/mnI3liqHkuK3lv4Pmv4DlhYnmsrvnlpfku6pkAgEPFgIfAAUQRFpKSjIwMjAxMDIwLTc1MGQCAg8WAh8ABbdQPGRpdj48cCBzdHlsZT0ibWFyZ2luOjBwdDsgb3JwaGFuczowOyB0ZXh0LWFsaWduOmNlbnRlcjsgd2lkb3dzOjAiPjxzcGFuIHN0eWxlPSJjb2xvcjojZmYwMDAwOyBmb250LWZhbWlseTrlrovkvZM7IGZvbnQtc2l6ZToxMC41cHQ7IGZvbnQtd2VpZ2h0OmJvbGQiPuS+m+W6lOWVhuernuS7t+mhu+efpTwvc3Bhbj48L3A+PHAgc3R5bGU9Im1hcmdpbjowcHQ7IG9ycGhhbnM6MDsgdGV4dC1hbGlnbjpqdXN0aWZ5OyB3aWRvd3M6MCI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OidUaW1lcyBOZXcgUm9tYW4nOyBmb250LXNpemU6OXB0Ij4xPC9zcGFuPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTrlrovkvZM7IGZvbnQtc2l6ZTo5cHQiPuOAgeacquazqOWGjOS+m+W6lOWVhuW/hemhu+WFiOWcqOWugeazouaUv+W6nOmHh+i0ree9ke+8iDwvc3Bhbj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6J1RpbWVzIE5ldyBSb21hbic7IGZvbnQtc2l6ZTo5cHQiPnd3dy5uYnpmY2cuY248L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OuWui+S9kzsgZm9udC1zaXplOjlwdCI+77yJ5LiK5a6M5oiQ5L6b5bqU5ZWG5rOo5YaM77yM5rOo5YaM5a6M5oiQ5ZCO77yM6aG755Sz6aKG5aSp5aiB6K+a5L+hPC9zcGFuPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTonVGltZXMgTmV3IFJvbWFuJzsgZm9udC1zaXplOjlwdCI+Q0E8L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OuWui+S9kzsgZm9udC1zaXplOjlwdCI+6K+B5Lmm5ZCO77yI5a6B5rOi5Zyw56iO572R5LiK5oql56iO5bey5pyJ6K+B5Lmm55So5oi35Y+v5YWx5Lqr5L2/55So77yJ77yM5pa55Y+v5Y+C5Yqg572R5LiK55S15a2Q56ue5Lu3PC9zcGFuPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTrlrovkvZM7IGZvbnQtc2l6ZTo5cHQiPu+8jDwvc3Bhbj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk65a6L5L2TOyBmb250LXNpemU6OXB0Ij7or6bmg4Xop4E8L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OidUaW1lcyBOZXcgUm9tYW4nOyBmb250LXNpemU6OXB0Ij5DQTwvc3Bhbj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk65a6L5L2TOyBmb250LXNpemU6OXB0Ij7or4Hkuablip7nkIbmjIfljZc8L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OuWui+S9kzsgZm9udC1zaXplOjlwdCI+44CCPC9zcGFuPjwvcD48cCBzdHlsZT0ibWFyZ2luOjBwdDsgb3JwaGFuczowOyB0ZXh0LWFsaWduOmp1c3RpZnk7IHdpZG93czowIj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6J1RpbWVzIE5ldyBSb21hbic7IGZvbnQtc2l6ZTo5cHQiPjI8L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OuWui+S9kzsgZm9udC1zaXplOjlwdCI+44CB5pys56ue5Lu357O757ufPC9zcGFuPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTrlrovkvZM7IGZvbnQtc2l6ZTo5cHQiPuS4jeaUtuWPluS4reagh+acjeWKoei0uTwvc3Bhbj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk65a6L5L2TOyBmb250LXNpemU6OXB0Ij7jgILml6Dorrrnq57ku7fnu5PmnpzlpoLkvZXvvIzkvpvlupTllYblupToh6rooYzmib/mi4Xlj4LkuI7nq57ku7fnmoTlhajpg6jotLnnlKjjgII8L3NwYW4+PC9wPjxwIHN0eWxlPSJtYXJnaW46MHB0OyBvcnBoYW5zOjA7IHRleHQtYWxpZ246anVzdGlmeTsgd2lkb3dzOjAiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTonVGltZXMgTmV3IFJvbWFuJzsgZm9udC1zaXplOjlwdDsgZm9udC13ZWlnaHQ6Ym9sZCI+Mzwvc3Bhbj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk65a6L5L2TOyBmb250LXNpemU6OXB0OyBmb250LXdlaWdodDpib2xkIj7jgIE8L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OuWui+S9kzsgZm9udC1zaXplOjlwdDsgZm9udC13ZWlnaHQ6Ym9sZCI+5L6b5bqU5ZWG5Y+C5LiO56ue5Lu35oqV5qCH5pyq5L2c5YGP56a76ZmI6L+w55qE77yM6KeG5Li65bey5a6M5YWo55CG6Kej5ZKM5o6l5Y+X56ue5Lu355qE5omA5pyJ6KaB5rGC77yb5pyJ5YGP56a755qE5b+F6aG75o+Q5L6b5rKh5pyJ6LSf5YGP56a755qE6K+m57uG6LWE5paZ77yM5ZCm5YiZ6KeG5Li65peg5pWI56ue5Lu35oqV5qCH44CCPC9zcGFuPjwvcD48cCBzdHlsZT0ibWFyZ2luOjBwdDsgb3JwaGFuczowOyB0ZXh0LWFsaWduOmp1c3RpZnk7IHdpZG93czowIj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6J1RpbWVzIE5ldyBSb21hbic7IGZvbnQtc2l6ZTo5cHQiPjQ8L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OuWui+S9kzsgZm9udC1zaXplOjlwdCI+44CBPC9zcGFuPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTrlrovkvZM7IGZvbnQtc2l6ZTo5cHQ7IGZvbnQtd2VpZ2h0OmJvbGQiPumZpOernuS7t+mcgOaxguWPpuaciee6puWumueahOWklu+8jDwvc3Bhbj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk65a6L5L2TOyBmb250LXNpemU6OXB0OyBmb250LXdlaWdodDpib2xkIj7kvpvlupTllYY8L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OuWui+S9kzsgZm9udC1zaXplOjlwdDsgZm9udC13ZWlnaHQ6Ym9sZCI+5oql5Lu35YyF5ZCr5a6J6KOF6LCD6K+V562JPC9zcGFuPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTrlrovkvZM7IGZvbnQtc2l6ZTo5cHQ7IGZvbnQtd2VpZ2h0OmJvbGQiPuS8tOmajzwvc3Bhbj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk65a6L5L2TOyBmb250LXNpemU6OXB0OyBmb250LXdlaWdodDpib2xkIj7mnI3liqHvvIw8L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OuWui+S9kzsgZm9udC1zaXplOjlwdDsgZm9udC13ZWlnaHQ6Ym9sZCI+5b+F6aG75Lil5qC85omn6KGM5a6J5YWo5paH5piO5pa95bel6KeE5a6a77yMPC9zcGFuPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTrlrovkvZM7IGZvbnQtc2l6ZTo5cHQ7IGZvbnQtd2VpZ2h0OmJvbGQiPuS6p+WTgeeahDwvc3Bhbj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk65a6L5L2TOyBmb250LXNpemU6OXB0OyBmb250LXdlaWdodDpib2xkIj7mnIDnu4jnlKjmiLc8L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OuWui+S9kzsgZm9udC1zaXplOjlwdDsgZm9udC13ZWlnaHQ6Ym9sZCI+6aG75Li66YeH6LSt5Lq677yM5L+d5L+u5pyN5Yqh5piv5oyH5Y6f5Y6C5L+d5L+u77yM55S16ISR562J6K6+5aSH55qE5pON5L2c57O757uf6L2v5Lu25piv5oyH5Y6f5Y6C6aKE6KOF5pa55byPPC9zcGFuPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTrlrovkvZM7IGZvbnQtc2l6ZTo5cHQ7IGZvbnQtd2VpZ2h0OmJvbGQiPuOAgjwvc3Bhbj48L3A+PHAgc3R5bGU9Im1hcmdpbjowcHQ7IG9ycGhhbnM6MDsgdGV4dC1hbGlnbjpqdXN0aWZ5OyB3aWRvd3M6MCI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OidUaW1lcyBOZXcgUm9tYW4nOyBmb250LXNpemU6OXB0Ij41PC9zcGFuPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTrlrovkvZM7IGZvbnQtc2l6ZTo5cHQiPuOAgeS+m+W6lOWVhuernuS7t+eahOWPkei1t+aKpeS7t+WKn+iDveWSjOWGhemDqOWuoeaguOWKn+iDveW6lOWIhuemu++8jDwvc3Bhbj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk65a6L5L2TOyBmb250LXNpemU6OXB0OyBmb250LXdlaWdodDpib2xkIj7nq57ku7flrqHmoLjlip/og73lv4XpobvnlLE8L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OidUaW1lcyBOZXcgUm9tYW4nOyBmb250LXNpemU6OXB0OyBmb250LXdlaWdodDpib2xkIj5DQTwvc3Bhbj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk65a6L5L2TOyBmb250LXNpemU6OXB0OyBmb250LXdlaWdodDpib2xkIj7orqTor4HnmoTotKbmiLfmk43kvZw8L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OuWui+S9kzsgZm9udC1zaXplOjlwdCI+77yMPC9zcGFuPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTrlrovkvZM7IGZvbnQtc2l6ZTo5cHQ7IGZvbnQtd2VpZ2h0OmJvbGQiPuacquWuoeaguOaKpeS7t+S4uuaXoOaViOaKpeS7tzwvc3Bhbj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk65a6L5L2TOyBmb250LXNpemU6OXB0OyBmb250LXdlaWdodDpib2xkIj7jgII8L3NwYW4+PHNwYW4gc3R5bGU9ImNvbG9yOiNmZjAwMDA7IGZvbnQtZmFtaWx5OuWui+S9kzsgZm9udC1zaXplOjlwdDsgZm9udC13ZWlnaHQ6Ym9sZCI+6YeH6LSt5Lq65Y+R6LW36YeN5paw56ue5Lu35ZCO77yM6aG76YeN5paw5Y+C5Yqg5oql5Lu35bm25a6h5qC4PC9zcGFuPjxzcGFuIHN0eWxlPSJjb2xvcjojZmYwMDAwOyBmb250LWZhbWlseTrlrovkvZM7IGZvbnQtc2l6ZTo5cHQ7IGZvbnQtd2VpZ2h0OmJvbGQiPu+8mzwvc3Bhbj48c3BhbiBzdHlsZT0iY29sb3I6I2ZmMDAwMDsgZm9udC1mYW1pbHk65a6L5L2TOyBmb250LXNpemU6OXB0OyBmb250LXdlaWdodDpib2xkIj7ph43mlrDnq57ku7fpnIDmsYLmsqHmnInosIPmlbTnmoTvvIzmiqXku7fkuI3lvpfpq5jkuo7pppbmrKHmiqXku7c8L3NwYW4+PHNwYW4gc3R5bGU9ImNvbG9yOiNmZjAwMDA7IGZvbnQtZmFtaWx5OuWui+S9kzsgZm9udC1zaXplOjlwdDsgZm9udC13ZWlnaHQ6Ym9sZCI+44CCPC9zcGFuPjwvcD48cCBzdHlsZT0ibWFyZ2luOjBwdDsgb3JwaGFuczowOyB0ZXh0LWFsaWduOmp1c3RpZnk7IHdpZG93czowIj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6J1RpbWVzIE5ldyBSb21hbic7IGZvbnQtc2l6ZTo5cHQiPjc8L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OuWui+S9kzsgZm9udC1zaXplOjlwdCI+44CB56ue5Lu35oiq5q2i5pe26Ze05YmN77yM6Zmk5L6b5bqU5ZWG6Ieq6Lqr5Y+v5p+l55yL5L+u5pS55oql5Lu35YaF5a655aSW77yM5L6b5bqU5ZWG5oql5Lu35YaF5a655Yqg5a+G44CCPC9zcGFuPjwvcD48cCBzdHlsZT0ibWFyZ2luOjBwdDsgb3JwaGFuczowOyB0ZXh0LWFsaWduOmp1c3RpZnk7IHdpZG93czowIj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6J1RpbWVzIE5ldyBSb21hbic7IGZvbnQtc2l6ZTo5cHQiPjg8L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OuWui+S9kzsgZm9udC1zaXplOjlwdCI+44CB56ue5Lu35oiq5q2i5pe26Ze05ZCO77yM5L6b5bqU5ZWG5LiN5b6X57un57ut5oql5Lu35oiW5L+u5pS55oql5Lu377yM6YeH6LSt5Lq657uf5LiA5byA5ZCv5Yqg5a+G5oql5Lu344CCPC9zcGFuPjwvcD48cCBzdHlsZT0ibWFyZ2luOjBwdDsgb3JwaGFuczowOyB0ZXh0LWFsaWduOmp1c3RpZnk7IHdpZG93czowIj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6J1RpbWVzIE5ldyBSb21hbic7IGZvbnQtc2l6ZTo5cHQiPjk8L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OuWui+S9kzsgZm9udC1zaXplOjlwdCI+44CB6YeH6LSt5Lq65Zyo56ym5ZCI6LWE5qC85p2h5Lu255qE5L6b5bqU5ZWG5Lit77yM5qC55o2u6LSo6YeP44CB5oqA5pyv5ZKM5pyN5Yqh56ym5ZCI6ZyA5rGC77yI6LaF5Ye66ZyA5rGC55qE5LiN5YW35pyJ5LyY5Yq/77yJ77yM5oyJ5oql5Lu35L2O55qE5o6S5bqP5Zyo5YWI77yI5oql5Lu355u45ZCM5oyJ5pe26Ze06aG65bqP77yJ5Y6f5YiZ56Gu5a6a5oiQ5Lqk5L6b5bqU5ZWG44CCPC9zcGFuPjxzcGFuIHN0eWxlPSJjb2xvcjojZmYwMDAwOyBmb250LWZhbWlseTrlrovkvZM7IGZvbnQtc2l6ZTo5cHQ7IGZvbnQtd2VpZ2h0OmJvbGQiPuWNleS9jei0n+i0o+S6uuS4uuWQjOS4gOS6uuaIluiAheWFt+acieaOp+iCoeOAgeeuoeeQhuWFs+ezu+eahOS4jeWQjOS+m+W6lOWVhuWPquWPluacgOS9juaKpeS7t++8jOWFtuS7luaKpeS7t+aXoOaViOOAgjwvc3Bhbj48L3A+PHAgc3R5bGU9Im1hcmdpbjowcHQ7IG9ycGhhbnM6MDsgdGV4dC1hbGlnbjpqdXN0aWZ5OyB3aWRvd3M6MCI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OidUaW1lcyBOZXcgUm9tYW4nOyBmb250LXNpemU6OXB0Ij4xMDwvc3Bhbj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk65a6L5L2TOyBmb250LXNpemU6OXB0Ij7jgIE8L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OuWui+S9kzsgZm9udC1zaXplOjlwdDsgZm9udC13ZWlnaHQ6Ym9sZCI+6Zmk56ue5Lu36ZyA5rGC5Y+m5pyJ57qm5a6a55qE5aSW77yMPC9zcGFuPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTrlrovkvZM7IGZvbnQtc2l6ZTo5cHQ7IGZvbnQtd2VpZ2h0OmJvbGQiPuetvuiuouWQiOWQjDwvc3Bhbj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk65a6L5L2TOyBmb250LXNpemU6OXB0OyBmb250LXdlaWdodDpib2xkIj7liY08L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OuWui+S9kzsgZm9udC1zaXplOjlwdDsgZm9udC13ZWlnaHQ6Ym9sZCI+5bqU5ZCR6YeH6LSt5Lq65o+Q5Lqk5ZCI5ZCM6YeR6aKd55qEPC9zcGFuPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTonVGltZXMgTmV3IFJvbWFuJzsgZm9udC1zaXplOjlwdDsgZm9udC13ZWlnaHQ6Ym9sZCI+MTAlPC9zcGFuPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTrlrovkvZM7IGZvbnQtc2l6ZTo5cHQ7IGZvbnQtd2VpZ2h0OmJvbGQiPuS9nOS4uuWxpee6puS/neivgemHke+8jOWxpee6puWujOaIkOWQjjwvc3Bhbj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk65a6L5L2TOyBmb250LXNpemU6OXB0OyBmb250LXdlaWdodDpib2xkIj7lrp7ooYzkuIDmrKHmgKc8L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OuWui+S9kzsgZm9udC1zaXplOjlwdDsgZm9udC13ZWlnaHQ6Ym9sZCI+6aqM5pS25ZCI5qC85ZCO5LuY5riFPC9zcGFuPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTrlrovkvZM7IGZvbnQtc2l6ZTo5cHQ7IGZvbnQtd2VpZ2h0OmJvbGQiPuWFqOmDqOWQiOWQjOasvuaWueW8jzwvc3Bhbj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk65a6L5L2TOyBmb250LXNpemU6OXB0OyBmb250LXdlaWdodDpib2xkIj7jgII8L3NwYW4+PC9wPjxwIHN0eWxlPSJtYXJnaW46MHB0OyBvcnBoYW5zOjA7IHRleHQtYWxpZ246anVzdGlmeTsgd2lkb3dzOjAiPjxzcGFuIHN0eWxlPSJjb2xvcjojZmYwMDAwOyBmb250LWZhbWlseTonVGltZXMgTmV3IFJvbWFuJzsgZm9udC1zaXplOjlwdDsgZm9udC13ZWlnaHQ6Ym9sZCI+MTE8L3NwYW4+PHNwYW4gc3R5bGU9ImNvbG9yOiNmZjAwMDA7IGZvbnQtZmFtaWx5OuWui+S9kzsgZm9udC1zaXplOjlwdDsgZm9udC13ZWlnaHQ6Ym9sZCI+44CB6aG555uu5Lqk6LSn5pe277yM6YeH6LSt5Lq65Y+v6YKA6K+356ys5LiJ5pa55oiW5YW25LuW56ue5Lu35L6b5bqU5ZWG5Y+C5LiO6aqM6LSn44CCPC9zcGFuPjwvcD48cCBzdHlsZT0ibWFyZ2luOjBwdDsgb3JwaGFuczowOyB0ZXh0LWFsaWduOmp1c3RpZnk7IHdpZG93czowIj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6J1RpbWVzIE5ldyBSb21hbic7IGZvbnQtc2l6ZTo5cHQiPjEyPC9zcGFuPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTrlrovkvZM7IGZvbnQtc2l6ZTo5cHQiPuOAgTwvc3Bhbj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk65a6L5L2TOyBmb250LXNpemU6OXB0Ij7nq57ku7fkvpvlupTllYblv4XpobvkuKXmoLzmjInnhafnq57ku7fopoHmsYLor5rkv6HmipXmoIfvvIzlubblr7nmipXmoIfooYzkuLrlkozmipXmoIfnu5Pmnpzmib/mi4Xms5XlvovotKPku7vjgILlj5HnjrDmnInkuI3or5rkv6HooYzkuLrnmoTvvIzkuojku6XorrDlvZU8L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OuWui+S9kzsgZm9udC1zaXplOjlwdCI+5bm25Zyo572R5LiK5pud5YWJ77yM6YeH6LSt5Lq65Y+v5Lul5ouS57ud5YW256ue5Lu3PC9zcGFuPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTrlrovkvZM7IGZvbnQtc2l6ZTo5cHQiPuS4reaghzwvc3Bhbj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk65a6L5L2TOyBmb250LXNpemU6OXB0Ij7otYTmoLzvvJvkuInlubTlhoXlho3mrKHlh7rnjrDkuI3or5rkv6HooYzkuLrnmoTvvIzmmoLlgZzkuIDlubTnq57ku7fotYTmoLzvvJvmgaLlpI3nq57ku7fotYTmoLzlkI7nu6fnu63lh7rnjrDkuI3or5rkv6HooYzkuLrnmoTvvIzmmoLlgZzkuInlubTnq57ku7fotYTmoLzjgILlh6Hlh7rnjrDkuIvliJfmg4XlvaLkuYvkuIDogIXvvIzlhbbmipXmoIfkvZzml6DmlYjmoIflpITnkIbvvIzkuIDlubTlhoXkuI3og73lj4LliqDnq57ku7fmtLvliqjvvIzmnInlhbPlpITnvZrmg4XlhrXkuIDlubblnKjlroHms6LmlL/lupzph4fotK3nvZHkuIrlhazluIM8L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OuWui+S9kzsgZm9udC1zaXplOjlwdCI+77yaPC9zcGFuPjwvcD48cCBzdHlsZT0ibWFyZ2luOjBwdDsgb3JwaGFuczowOyB0ZXh0LWFsaWduOmp1c3RpZnk7IHdpZG93czowIj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk65a6L5L2TOyBmb250LXNpemU6OXB0Ij7vvIjkuIDvvInmj5DkvpvomZrlgYfotYTmlpnov5vooYznq57ku7fmipXmoIfnmoTvvJs8L3NwYW4+PGJyIC8+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OuWui+S9kzsgZm9udC1zaXplOjlwdCI+77yI5LqM77yJ5LiO6YeH6LSt5Y2V5L2N5oiW5YW25LuW5L6b5bqU5ZWG55u45LqS5Liy6YCa77yM5LqL5YWI5ZWG5a6a5oqV5qCH5Lu35qC85oiW6ICF5ZCI6LCL5L2/54m55a6a5L6b5bqU5ZWG5oiQ5Lqk55qE77ybPC9zcGFuPjxiciAvPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTrlrovkvZM7IGZvbnQtc2l6ZTo5cHQiPu+8iOS4ie+8ieWboOaXoOazleWxpeihjOernuS7t+aKleagh+aJv+ivuuiAjOacquiDveWcqOaIkOS6pDwvc3Bhbj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk65a6L5L2TOyBmb250LXNpemU6OXB0Ij7lhazlkYo8L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OuWui+S9kzsgZm9udC1zaXplOjlwdCI+5Y+R5Ye65ZCOPC9zcGFuPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTonVGltZXMgTmV3IFJvbWFuJzsgZm9udC1zaXplOjlwdCI+MTA8L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OuWui+S9kzsgZm9udC1zaXplOjlwdCI+5pel5YaF5LiO6YeH6LSt5Y2V5L2N562+6K6i6YeH6LSt5ZCI5ZCM55qE77ybPC9zcGFuPjxiciAvPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTrlrovkvZM7IGZvbnQtc2l6ZTo5cHQiPu+8iOWbm++8ieaIkOS6pOWQjjwvc3Bhbj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk65a6L5L2TOyBmb250LXNpemU6OXB0Ij7ml6DmraPlvZPnkIbnlLE8L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OuWui+S9kzsgZm9udC1zaXplOjlwdCI+5pS+5byD5oiQ5Lqk6LWE5qC855qE77ybPC9zcGFuPjxiciAvPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTrlrovkvZM7IGZvbnQtc2l6ZTo5cHQiPu+8iOS6lO+8ieaKleagh+S6uuWcqOi0qOeWkeaKleivieS4reaPkOS+m+iZmuWBh+adkOaWmeaIluaDheWGteeahO+8mzwvc3Bhbj48YnIgLz48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk65a6L5L2TOyBmb250LXNpemU6OXB0Ij7vvIjlha3vvInlhbbku5bov53lj43mnInlhbPmlL/lupzph4fotK3ms5Xlvovms5Xop4Top4TlrprnmoTjgII8L3NwYW4+PC9wPjxwIHN0eWxlPSJtYXJnaW46MHB0OyBvcnBoYW5zOjA7IHRleHQtYWxpZ246anVzdGlmeTsgd2lkb3dzOjAiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTonVGltZXMgTmV3IFJvbWFuJzsgZm9udC1zaXplOjlwdCI+MTwvc3Bhbj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6J1RpbWVzIE5ldyBSb21hbic7IGZvbnQtc2l6ZTo5cHQiPjM8L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OuWui+S9kzsgZm9udC1zaXplOjlwdCI+44CBPC9zcGFuPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTrlrovkvZM7IGZvbnQtc2l6ZTo5cHQiPuaIkOS6pOS+m+W6lOWVhuaUvuW8g+aIkOS6pOi1hOagvOaIluiiqzwvc3Bhbj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk65a6L5L2TOyBmb250LXNpemU6OXB0Ij7kvZzml6DmlYg8L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OuWui+S9kzsgZm9udC1zaXplOjlwdCI+5qCHPC9zcGFuPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTrlrovkvZM7IGZvbnQtc2l6ZTo5cHQiPuWkhOeQhjwvc3Bhbj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk65a6L5L2TOyBmb250LXNpemU6OXB0Ij7lkI7vvIzmlrDmiJDkuqTkvpvlupTllYbnmoTkuqfnlJ/mjInmiJDkuqTljp/liJnmjpLluo/kvp3mrKHpobrlu7bjgII8L3NwYW4+PC9wPjxwIHN0eWxlPSJtYXJnaW46MHB0OyBvcnBoYW5zOjA7IHRleHQtYWxpZ246anVzdGlmeTsgd2lkb3dzOjAiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTonVGltZXMgTmV3IFJvbWFuJzsgZm9udC1zaXplOjEwLjVwdCI+JiN4YTA7PC9zcGFuPjwvcD48L2Rpdj5kAgMPFgIfAAVF5a6B5rOi5biC5rW35puZ5Yy66byT5qW86KGX6YGT56S+5Yy65Y2r55Sf5pyN5Yqh5Lit5b+D5r+A5YWJ5rK755aX5LuqZAIEDxYCHwAFEERaSkoyMDIwMTAyMC03NTBkAgUPFgIfAAUKMjAyMC0xMC0yMWQCBg8WAh8ABRMyMDIwLTEwLTIxIDE1OjQ2OjQ3ZAIHDxYCHwAFNuWugeazouW4gua1t+abmeWMuum8k+alvOihl+mBk+ekvuWMuuWNq+eUn+acjeWKoeS4reW/g2QCCA8WAh8ABRMyMDIwLTEwLTI2IDE1OjAwOjAwZAIJDxYCHwAFCeiDoeWJkeiTiWQCCg8WAh8ABQ/lkbznq6XooZcxMDjlj7dkAgsPFgIfAAUINTUyMjkzMDNkAgwPFgIfAAUBN2QCDQ8WAh8ABRA4NDQxNzQ1NTRAcXEuY29tZAIODxYCHwAFDOivpuingemZhOS7tmQCDw8WAh8ABSUx44CB5pys5Zyw5pyN5Yqh5py65p6E77ya5LiN6ZmQPGJyIC8+ZAIQDxYCHwAF2AE8YSBocmVmPSdCaWRBdHRhY2htZW50LyVlNiViZiU4MCVlNSU4NSU4OSVlNiViMiViYiVlNyU5NiU5NyVlNCViYiVhYSVlNiU4YSU4MCVlNiU5YyVhZiVlNSU4ZiU4MiVlNiU5NSViMF8yMDIwMTAyMDEzNDIzMS5kb2N4JyB0YXJnZXQ9J19ibGFuayc+PGZvbnQgY29sb3I9cmVkPua/gOWFieayu+eWl+S7quaKgOacr+WPguaVsF8yMDIwMTAyMDEzNDIzMS5kb2N4PC9mb250PjwvYT5kZDaejj9CDnACbIHlmpTzSnNH1JFI" />
+        </div>
+
+        <!--头部-->
+        <div class="fullscr" id="header">
+            <div class="header">
+
+
+                <script type="text/javascript">
+
+                    function hello() {
+                        var query = document.getElementById("text1").value;
+                        var obj = document.getElementById("selectId");//获取select对象
+                        var index = obj.selectedIndex; // 选中索引
+                        var value = obj.options[index].value;
+                        if (query == "") {
+                            alert("请输入关键字！");
+                        }
+                        else {
+                            if (value == 0) {
+                                location.href = "/cat/cat58/index.html?SearchName=" + query;
+                            }
+                            else {
+                                if (value == 1) {
+                                    location.href = "/cat/cat55/index.html?q=" + query + "&CategoryId=0&IsTitle=0&SiteId=1";
+                                }
+                                else {
+                                    location.href = "/cat/cat55/index.html?q=" + query + "&CategoryId=13,59,60,61,50&IsTitle=0&SiteId=1";
+                                }
+                            }
+                        }
+                    }
+
+                </script>
+                <div class="search">
+                    <select style="height: 39px;border: 0px;float: left;" id="selectId">
+                        <option value="0" select="selected">采购公告</option>
+                        <option value="1">站内资讯</option>
+                        <option value="2">政策法规</option>
+                    </select>
+                    <input style="width: 180px;margin: 0px" id="text1" class="keyword" type="text"
+                        placeholder="请输入搜索关键字">
+                    <input class="ok" onclick="hello()" type="button" value="搜索">
+                    <a class="login" href="/project/index.aspx">用户登录</a>
+                </div>
+                <div class="weblogo">
+                    <div class="logo"> <img alt="" src="images2019/logo01.png" /></div>
+
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <!--头部-->
+
+
+
+        <!--主菜单-->
+        <div class="navBar">
+            <ul class="nav clearfix">
+                <li class="m on gps" id="m1" style="margin-left: 15px">
+                    <h3>
+                        <a href="/"
+                            style="padding-bottom: 0px; padding-top: 0px; padding-left: 60px; padding-right: 60px">首 页
+                        </a></h3>
+                </li>
+                <li class="m" id="m2">
+                    <h3>
+                        <a href="/cat/cat13/index.html"
+                            style="padding-bottom: 0px; padding-top: 0px; padding-left: 60px; padding-right: 60px">政策法规</a>
+                    </h3>
+                </li>
+                <li class="m" id="m3">
+                    <h3>
+                        <a href="/cat/cat4/index.html"
+                            style="padding-bottom: 0px; padding-top: 0px; padding-left: 60px; padding-right: 60px">采购目录</a>
+                    </h3>
+                </li>
+                <li class="m" id="m4">
+                    <h3>
+                        <a href="/cat/cat41/index.html"
+                            style="padding-bottom: 0px; padding-top: 0px; padding-left: 60px; padding-right: 60px">办事服务</a>
+                    </h3>
+                </li>
+                <li class="m" id="m6">
+                    <h3>
+                        <a href="/cat/cat51/index.html"
+                            style="padding-bottom: 0px; padding-top: 0px; padding-left: 60px; padding-right: 60px">监督检查</a>
+                    </h3>
+                </li>
+                <li class="m" id="m5">
+                    <h3>
+                        <a href="/cat/cat6/index.html"
+                            style="padding-bottom: 0px; padding-top: 0px; padding-left: 60px; padding-right: 60px">购买服务</a>
+                    </h3>
+                </li>
+            </ul>
+
+        </div>
+        <script type="text/javascript">
+            jQuery(".nav").slide({
+                type: "menu", //效果类型
+                titCell: ".m", // 鼠标触发对象
+                targetCell: ".sub", // 效果对象，必须被titCell包含
+                effect: "slideDown",
+                delayTime: 250, // 效果时间
+                triggerTime: 100, //鼠标延迟触发时间
+                returnDefault: true  //返回默认状态
+            });
+        </script>
+
+        <!--主菜单-->
+
+        <!--S 主内容-->
+
+        <div class="clear"></div>
+        <div id="floor">
+            <div class="floor">
+                <div class="bg">
+
+                    <!--路径-->
+                    <div class="path01"> <cite><img src="images2019/path_icon01.png" alt="" /></cite>
+                        <strong>当前位置：</strong>
+                        <a href="http://www.nbzfcg.cn">首页</a>
+                        <em>/</em><a href="dzjj_Notice1.aspx">电子竞价系统</a>
+                        <em>/</em>
+                        <a href="dzjj_notice1.aspx">网上竞价采购公告</a>
+                        <style type="text/css">
+                            <!--
+                            .STYLE2 {
+                                color: #000000
+                            }
+                            -->
+                        </style>
+                        <style type="text/css">
+                            <!--
+                            .STYLE4 {
+                                color: #006699;
+                                font-weight: bold;
+                                font-size: 16px;
+                            }
+                            -->
+                        </style>
+
+
+                    </div>
+                    <!--路径-->
+
+
+                    <!--左侧菜单-->
+
+
+
+
+                    <!--文章-->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td>
+
+                                    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td width=50px></td>
+                                            <td height="60" align="left" width="80%">
+
+                                                <table width="1003px" border="0" align="center" cellpadding="0"
+                                                    cellspacing="0">
+                                                    <tr>
+                                                        <td height="50" align="center" bgcolor="ffffff">
+                                                            <TABLE cellSpacing=0 cellPadding=0 width=95% border=0
+                                                                style="padding-top:10px">
+                                                                <TBODY>
+                                                                    <TR>
+                                                                        <TD height=40 align=center valign="middle"
+                                                                            class=txt18><span class="STYLE4">
+                                                                                <P align=center>
+                                                                                    宁波市海曙区鼓楼街道社区卫生服务中心激光治疗仪（DZJJ20201020-750）网上竞价公告
+                                                                                </P>
+                                                                            </span></TD>
+                                                                    </TR>
+                                                                </TBODY>
+                                                            </TABLE>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+
+                                                <table width="1003px" border="0" align="center" cellpadding="0"
+                                                    cellspacing="0">
+                                                    <tr>
+                                                        <td bgcolor="ffffff">
+                                                            <table width="95%" border="0" align="center" cellpadding="0"
+                                                                cellspacing="0" id="Table1">
+                                                                <tr>
+                                                                    <td height="26"
+                                                                        background="images/dzcg_mid_bg_01.jpg">
+                                                                        <table width="95%" border="0" align="right"
+                                                                            cellpadding="0" cellspacing="0">
+                                                                            <tr>
+                                                                                <td
+                                                                                    style="font-size:14px;color: #2B6397">
+                                                                                    <strong>竞价须知</strong></td>
+                                                                            </tr>
+
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+
+                                                                        <table width="100%" border="1" align="center"
+                                                                            cellpadding="14" cellspacing="10"
+                                                                            bgcolor="B3CDE6" bordercolordark="#F2F7FB">
+                                                                            <tr>
+                                                                                <td width="100%" bgcolor="FFFFFF"
+                                                                                    colspan=2 style=" line-height:24px">
+                                                                                    <div>
+                                                                                        <p
+                                                                                            style="margin:0pt; orphans:0; text-align:center; widows:0">
+                                                                                            <span
+                                                                                                style="color:#ff0000; font-family:宋体; font-size:10.5pt; font-weight:bold">供应商竞价须知</span>
+                                                                                        </p>
+                                                                                        <p
+                                                                                            style="margin:0pt; orphans:0; text-align:justify; widows:0">
+                                                                                            <span
+                                                                                                style="font-family:'Times New Roman'; font-size:9pt">1</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">、未注册供应商必须先在宁波政府采购网（</span><span
+                                                                                                style="font-family:'Times New Roman'; font-size:9pt">www.nbzfcg.cn</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">）上完成供应商注册，注册完成后，须申领天威诚信</span><span
+                                                                                                style="font-family:'Times New Roman'; font-size:9pt">CA</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">证书后（宁波地税网上报税已有证书用户可共享使用），方可参加网上电子竞价</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">，</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">详情见</span><span
+                                                                                                style="font-family:'Times New Roman'; font-size:9pt">CA</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">证书办理指南</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">。</span>
+                                                                                        </p>
+                                                                                        <p
+                                                                                            style="margin:0pt; orphans:0; text-align:justify; widows:0">
+                                                                                            <span
+                                                                                                style="font-family:'Times New Roman'; font-size:9pt">2</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">、本竞价系统</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">不收取中标服务费</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">。无论竞价结果如何，供应商应自行承担参与竞价的全部费用。</span>
+                                                                                        </p>
+                                                                                        <p
+                                                                                            style="margin:0pt; orphans:0; text-align:justify; widows:0">
+                                                                                            <span
+                                                                                                style="font-family:'Times New Roman'; font-size:9pt; font-weight:bold">3</span><span
+                                                                                                style="font-family:宋体; font-size:9pt; font-weight:bold">、</span><span
+                                                                                                style="font-family:宋体; font-size:9pt; font-weight:bold">供应商参与竞价投标未作偏离陈述的，视为已完全理解和接受竞价的所有要求；有偏离的必须提供没有负偏离的详细资料，否则视为无效竞价投标。</span>
+                                                                                        </p>
+                                                                                        <p
+                                                                                            style="margin:0pt; orphans:0; text-align:justify; widows:0">
+                                                                                            <span
+                                                                                                style="font-family:'Times New Roman'; font-size:9pt">4</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">、</span><span
+                                                                                                style="font-family:宋体; font-size:9pt; font-weight:bold">除竞价需求另有约定的外，</span><span
+                                                                                                style="font-family:宋体; font-size:9pt; font-weight:bold">供应商</span><span
+                                                                                                style="font-family:宋体; font-size:9pt; font-weight:bold">报价包含安装调试等</span><span
+                                                                                                style="font-family:宋体; font-size:9pt; font-weight:bold">伴随</span><span
+                                                                                                style="font-family:宋体; font-size:9pt; font-weight:bold">服务，</span><span
+                                                                                                style="font-family:宋体; font-size:9pt; font-weight:bold">必须严格执行安全文明施工规定，</span><span
+                                                                                                style="font-family:宋体; font-size:9pt; font-weight:bold">产品的</span><span
+                                                                                                style="font-family:宋体; font-size:9pt; font-weight:bold">最终用户</span><span
+                                                                                                style="font-family:宋体; font-size:9pt; font-weight:bold">须为采购人，保修服务是指原厂保修，电脑等设备的操作系统软件是指原厂预装方式</span><span
+                                                                                                style="font-family:宋体; font-size:9pt; font-weight:bold">。</span>
+                                                                                        </p>
+                                                                                        <p
+                                                                                            style="margin:0pt; orphans:0; text-align:justify; widows:0">
+                                                                                            <span
+                                                                                                style="font-family:'Times New Roman'; font-size:9pt">5</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">、供应商竞价的发起报价功能和内部审核功能应分离，</span><span
+                                                                                                style="font-family:宋体; font-size:9pt; font-weight:bold">竞价审核功能必须由</span><span
+                                                                                                style="font-family:'Times New Roman'; font-size:9pt; font-weight:bold">CA</span><span
+                                                                                                style="font-family:宋体; font-size:9pt; font-weight:bold">认证的账户操作</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">，</span><span
+                                                                                                style="font-family:宋体; font-size:9pt; font-weight:bold">未审核报价为无效报价</span><span
+                                                                                                style="font-family:宋体; font-size:9pt; font-weight:bold">。</span><span
+                                                                                                style="color:#ff0000; font-family:宋体; font-size:9pt; font-weight:bold">采购人发起重新竞价后，须重新参加报价并审核</span><span
+                                                                                                style="color:#ff0000; font-family:宋体; font-size:9pt; font-weight:bold">；</span><span
+                                                                                                style="color:#ff0000; font-family:宋体; font-size:9pt; font-weight:bold">重新竞价需求没有调整的，报价不得高于首次报价</span><span
+                                                                                                style="color:#ff0000; font-family:宋体; font-size:9pt; font-weight:bold">。</span>
+                                                                                        </p>
+                                                                                        <p
+                                                                                            style="margin:0pt; orphans:0; text-align:justify; widows:0">
+                                                                                            <span
+                                                                                                style="font-family:'Times New Roman'; font-size:9pt">7</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">、竞价截止时间前，除供应商自身可查看修改报价内容外，供应商报价内容加密。</span>
+                                                                                        </p>
+                                                                                        <p
+                                                                                            style="margin:0pt; orphans:0; text-align:justify; widows:0">
+                                                                                            <span
+                                                                                                style="font-family:'Times New Roman'; font-size:9pt">8</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">、竞价截止时间后，供应商不得继续报价或修改报价，采购人统一开启加密报价。</span>
+                                                                                        </p>
+                                                                                        <p
+                                                                                            style="margin:0pt; orphans:0; text-align:justify; widows:0">
+                                                                                            <span
+                                                                                                style="font-family:'Times New Roman'; font-size:9pt">9</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">、采购人在符合资格条件的供应商中，根据质量、技术和服务符合需求（超出需求的不具有优势），按报价低的排序在先（报价相同按时间顺序）原则确定成交供应商。</span><span
+                                                                                                style="color:#ff0000; font-family:宋体; font-size:9pt; font-weight:bold">单位负责人为同一人或者具有控股、管理关系的不同供应商只取最低报价，其他报价无效。</span>
+                                                                                        </p>
+                                                                                        <p
+                                                                                            style="margin:0pt; orphans:0; text-align:justify; widows:0">
+                                                                                            <span
+                                                                                                style="font-family:'Times New Roman'; font-size:9pt">10</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">、</span><span
+                                                                                                style="font-family:宋体; font-size:9pt; font-weight:bold">除竞价需求另有约定的外，</span><span
+                                                                                                style="font-family:宋体; font-size:9pt; font-weight:bold">签订合同</span><span
+                                                                                                style="font-family:宋体; font-size:9pt; font-weight:bold">前</span><span
+                                                                                                style="font-family:宋体; font-size:9pt; font-weight:bold">应向采购人提交合同金额的</span><span
+                                                                                                style="font-family:'Times New Roman'; font-size:9pt; font-weight:bold">10%</span><span
+                                                                                                style="font-family:宋体; font-size:9pt; font-weight:bold">作为履约保证金，履约完成后</span><span
+                                                                                                style="font-family:宋体; font-size:9pt; font-weight:bold">实行一次性</span><span
+                                                                                                style="font-family:宋体; font-size:9pt; font-weight:bold">验收合格后付清</span><span
+                                                                                                style="font-family:宋体; font-size:9pt; font-weight:bold">全部合同款方式</span><span
+                                                                                                style="font-family:宋体; font-size:9pt; font-weight:bold">。</span>
+                                                                                        </p>
+                                                                                        <p
+                                                                                            style="margin:0pt; orphans:0; text-align:justify; widows:0">
+                                                                                            <span
+                                                                                                style="color:#ff0000; font-family:'Times New Roman'; font-size:9pt; font-weight:bold">11</span><span
+                                                                                                style="color:#ff0000; font-family:宋体; font-size:9pt; font-weight:bold">、项目交货时，采购人可邀请第三方或其他竞价供应商参与验货。</span>
+                                                                                        </p>
+                                                                                        <p
+                                                                                            style="margin:0pt; orphans:0; text-align:justify; widows:0">
+                                                                                            <span
+                                                                                                style="font-family:'Times New Roman'; font-size:9pt">12</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">、</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">竞价供应商必须严格按照竞价要求诚信投标，并对投标行为和投标结果承担法律责任。发现有不诚信行为的，予以记录</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">并在网上曝光，采购人可以拒绝其竞价</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">中标</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">资格；三年内再次出现不诚信行为的，暂停一年竞价资格；恢复竞价资格后继续出现不诚信行为的，暂停三年竞价资格。凡出现下列情形之一者，其投标作无效标处理，一年内不能参加竞价活动，有关处罚情况一并在宁波政府采购网上公布</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">：</span>
+                                                                                        </p>
+                                                                                        <p
+                                                                                            style="margin:0pt; orphans:0; text-align:justify; widows:0">
+                                                                                            <span
+                                                                                                style="font-family:宋体; font-size:9pt">（一）提供虚假资料进行竞价投标的；</span><br /><span
+                                                                                                style="font-family:宋体; font-size:9pt">（二）与采购单位或其他供应商相互串通，事先商定投标价格或者合谋使特定供应商成交的；</span><br /><span
+                                                                                                style="font-family:宋体; font-size:9pt">（三）因无法履行竞价投标承诺而未能在成交</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">公告</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">发出后</span><span
+                                                                                                style="font-family:'Times New Roman'; font-size:9pt">10</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">日内与采购单位签订采购合同的；</span><br /><span
+                                                                                                style="font-family:宋体; font-size:9pt">（四）成交后</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">无正当理由</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">放弃成交资格的；</span><br /><span
+                                                                                                style="font-family:宋体; font-size:9pt">（五）投标人在质疑投诉中提供虚假材料或情况的；</span><br /><span
+                                                                                                style="font-family:宋体; font-size:9pt">（六）其他违反有关政府采购法律法规规定的。</span>
+                                                                                        </p>
+                                                                                        <p
+                                                                                            style="margin:0pt; orphans:0; text-align:justify; widows:0">
+                                                                                            <span
+                                                                                                style="font-family:'Times New Roman'; font-size:9pt">1</span><span
+                                                                                                style="font-family:'Times New Roman'; font-size:9pt">3</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">、</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">成交供应商放弃成交资格或被</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">作无效</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">标</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">处理</span><span
+                                                                                                style="font-family:宋体; font-size:9pt">后，新成交供应商的产生按成交原则排序依次顺延。</span>
+                                                                                        </p>
+                                                                                        <p
+                                                                                            style="margin:0pt; orphans:0; text-align:justify; widows:0">
+                                                                                            <span
+                                                                                                style="font-family:'Times New Roman'; font-size:10.5pt">&#xa0;</span>
+                                                                                        </p>
+                                                                                    </div>
+                                                                                </td>
+
+                                                                            </tr>
+
+                                                                            <tr>
+                                                                                <td width="18%" height="29"
+                                                                                    align="right" bgcolor="E7EFF7">项目名称：
+                                                                                </td>
+                                                                                <td width="82%" bgcolor="#FFFFFF">
+                                                                                    &nbsp;宁波市海曙区鼓楼街道社区卫生服务中心激光治疗仪</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td align="right" height="29"
+                                                                                    bgcolor="E7EFF7">项目编号：</td>
+                                                                                <td bgcolor="FFFFFF">
+                                                                                    &nbsp;DZJJ20201020-750</td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+
+
+                                                <table width="1003" border="0" align="center" cellpadding="0"
+                                                    cellspacing="0">
+                                                    <tr>
+                                                        <td bgcolor="ffffff">
+                                                            <table width="95%" height="249" border="0" align="center"
+                                                                cellpadding="0" cellspacing="0" id="__01">
+                                                                <tr>
+                                                                    <td height="26"
+                                                                        background="images/dzcg_mid_bg_01.jpg">
+                                                                        <table width="95%" border="0" align="right"
+                                                                            cellpadding="0" cellspacing="0">
+                                                                            <tr>
+                                                                                <td
+                                                                                    style="font-size:14px;color: #2B6397">
+                                                                                    <strong>竞价项目信息</strong></td>
+                                                                            </tr>
+
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td background="images/dzcg_mid_bg.jpg">
+
+                                                                        <table width="100%" border="1" align="center"
+                                                                            cellpadding="1" cellspacing="1"
+                                                                            bgcolor="B3CDE6" bordercolordark="#F2F7FB">
+                                                                            <tr>
+                                                                                <td width="18%" height="29"
+                                                                                    align="right" bgcolor="E7EFF7">公告日期：
+                                                                                </td>
+                                                                                <td width="36%" bgcolor="FFFFFF">
+                                                                                    &nbsp;2020-10-21</td>
+                                                                                <td width="13%" align="right"
+                                                                                    bgcolor="E7EFF7">采购单位：</td>
+                                                                                <td width="33%" bgcolor="FFFFFF">
+                                                                                    &nbsp;宁波市海曙区鼓楼街道社区卫生服务中心</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td align="right" height="29"
+                                                                                    bgcolor="E7EFF7">竞价截止时间：</td>
+                                                                                <td bgcolor="#FFFFFF">&nbsp;2020-10-26
+                                                                                    15:00:00</td>
+                                                                                <td align="right" bgcolor="E7EFF7">联系人：
+                                                                                </td>
+                                                                                <td bgcolor="#FFFFFF">&nbsp;胡剑蓉</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td align="right" height="29"
+                                                                                    bgcolor="E7EFF7">送货地点：</td>
+                                                                                <td bgcolor="FFFFFF">&nbsp;呼童街108号</td>
+                                                                                <td align="right" bgcolor="E7EFF7">联系电话：
+                                                                                </td>
+                                                                                <td bgcolor="FFFFFF">&nbsp;55229303</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td align="right" height="29"
+                                                                                    bgcolor="E7EFF7">到货时间：</td>
+                                                                                <td bgcolor="#FFFFFF">&nbsp;采购结果公告后
+                                                                                    <font color="#FF0000">7</font> 个工作日内
+                                                                                </td>
+                                                                                <td align="right" bgcolor="E7EFF7">
+                                                                                    &nbsp;</td>
+                                                                                <td bgcolor="#FFFFFF">&nbsp;</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td align="right" height="29"
+                                                                                    bgcolor="E7EFF7">剩余时间：</td>
+                                                                                <td bgcolor="FFFFFF" colspan="3">&nbsp;
+                                                                                    <font color=ff0000><label
+                                                                                            id="leftTime2"></label>
+                                                                                    </font>
+                                                                                </td>
+                                                                            </tr>
+
+                                                                            <tr>
+                                                                                <td align="right" height="29"
+                                                                                    bgcolor="E7EFF7">资质要求：</td>
+                                                                                <td bgcolor="FFFFFF" colspan="3"
+                                                                                    style=" line-height:20px">详见附件
+                                                                                    <br />&nbsp;<font color="#ff0000">
+                                                                                        供应商在竞价时，须根据资质要求中的内容以附件形式上传相关资质证明。
+                                                                                    </font>
+                                                                                </td>
+                                                                            </tr>
+
+                                                                            <tr>
+                                                                                <td align="right" height="29"
+                                                                                    bgcolor="E7EFF7">服务要求：</td>
+                                                                                <td bgcolor="#FFFFFF" colspan="3">
+                                                                                    1、本地服务机构：不限<br /> </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td align="right" height="29"
+                                                                                    bgcolor="E7EFF7">
+                                                                                    <font color="#FF0000">需求附件：</font>
+                                                                                </td>
+                                                                                <td bgcolor="#FFFFFF" colspan="3">&nbsp;
+
+                                                                                    <a href='BidAttachment/%e6%bf%80%e5%85%89%e6%b2%bb%e7%96%97%e4%bb%aa%e6%8a%80%e6%9c%af%e5%8f%82%e6%95%b0_20201020134231.docx'
+                                                                                        target='_blank'>
+                                                                                        <font color=red>
+                                                                                            激光治疗仪技术参数_20201020134231.docx
+                                                                                        </font>
+                                                                                    </a>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <table width="1003" border="0" align="center" cellpadding="0"
+                                                    cellspacing="0">
+                                                    <tr>
+                                                        <td bgcolor="ffffff">
+                                                            <table width="95%" border="0" align="center" cellpadding="0"
+                                                                cellspacing="0" id="__01">
+                                                                <tr>
+                                                                    <td height="26"
+                                                                        background="images/dzcg_mid_bg_01.jpg">
+                                                                        <table width="95%" border="0" align="right"
+                                                                            cellpadding="0" cellspacing="0">
+                                                                            <tr>
+                                                                                <td height="29"
+                                                                                    style="font-size:14px;color: #2B6397">
+                                                                                    <strong>采购商品列表</strong> </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td background="images/dzcg_mid_bg.jpg">
+                                                                        <table width="100%" border="1" align="center"
+                                                                            cellpadding="4" cellspacing="1"
+                                                                            bgcolor="B3CDE6" bordercolordark="#F2F7FB">
+                                                                            <tr>
+                                                                                <td width="150" height="29"
+                                                                                    align="center" bgcolor="E7EFF7">
+                                                                                    <strong>商品分类</strong></td>
+                                                                                <td width="100" align="center"
+                                                                                    bgcolor="E7EFF7">
+                                                                                    <strong>参考品牌</strong></td>
+                                                                                <td width="320" align="center"
+                                                                                    bgcolor="E7EFF7">
+                                                                                    <strong>规格型号</strong></td>
+                                                                                <td width="60" align="center"
+                                                                                    bgcolor="E7EFF7"><strong>单位</strong>
+                                                                                </td>
+                                                                                <td width="60" align="center"
+                                                                                    bgcolor="E7EFF7"><strong>数量</strong>
+                                                                                </td>
+                                                                                <td width="120" align="center"
+                                                                                    bgcolor="E7EFF7">
+                                                                                    <strong>基本描述</strong></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td align='center' bgcolor='#FFFFFF'>
+                                                                                    &nbsp;理疗康复仪器</td>
+                                                                                <td align='center' bgcolor='#FFFFFF'>
+                                                                                    &nbsp;</td>
+                                                                                <td align='left' bgcolor='#FFFFFF'>
+                                                                                    &nbsp;</td>
+                                                                                <td align='center' bgcolor='#FFFFFF'>套
+                                                                                </td>
+                                                                                <td align='center' bgcolor='#FFFFFF'>1
+                                                                                </td>
+                                                                                <td align='center' bgcolor='#FFFFFF'><a
+                                                                                        href=javascript:dzjj_detailview('33020320201000002903-1')><img
+                                                                                            src='images/button_wscg_ckpz.gif'
+                                                                                            alt='查看配置' width='90'
+                                                                                            height='21'
+                                                                                            border='0' /></a></td>
+                                                                            </tr>
+
+
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+
+                                                <table width="1003" border="0" align="center" cellpadding="0"
+                                                    cellspacing="0">
+                                                    <tr>
+                                                        <td height="50" align="center" bgcolor="ffffff">
+                                                            <table width="95%" border="0" cellpadding="0"
+                                                                cellspacing="0">
+                                                                <tr>
+                                                                    <td align="center">
+                                                                        <p align=center><input
+                                                                                name="ctl00$ContentPlaceHolder2$Submit"
+                                                                                type="button"
+                                                                                id="ctl00_ContentPlaceHolder2_Submit"
+                                                                                value=" 我要竞价 "
+                                                                                onClick="return cmd_Logo_onclick();" />
+                                                                        </p>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+
+                                                </table>
+
+
+                                                <script language="javascript" type="text/javascript">
+
+                                                    function cmd_Logo_onclick() {
+
+                                                        if (confirm("对于本次竞价，您已确保能按时供货，否则承担相关一切法律责任，同意请继续。")) {
+
+                                                            window.open("CheckVendorLogin.aspx?ProjectId=" + 25518);
+
+                                                        }
+                                                    }
+
+                                                    function dzjj_detailview(flag) {
+
+                                                        window.open(encodeURI("dzjj_detailview.aspx?ProjectDetailCode=" + flag + "&time=" + Math.random()));
+
+                                                    }
+
+                                                </script>
+                                                <script language="javascript" type="text/javascript">
+                                                    //<![CDATA[
+                                                    var auctionDate = 149248;
+                                                    var showTimeElement = new Array();
+                                                    showTimeElement[0] = "leftTime1";
+                                                    showTimeElement[1] = "leftTime2";
+                                                    var _day = '天';
+                                                    var _hour = '小时';
+                                                    var _minute = '分钟';
+                                                    var _second = '秒';
+                                                    var _end = '停止投标';
+      //]]>
+                                                </script>
+                                                <script language="javascript" type="text/javascript"
+                                                    src="Scripts/left_time.js"></script>
+
+
+
+                                            </td>
+                                            <td width=50px></td>
+                                        </tr>
+                                    </table>
+
+
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!--文章-->
+
+
+
+                    <!--内容列表-->
+
+                </div>
+            </div>
+        </div>
+        <!--框架内容-->
+
+        <div class="clear"></div>
+        <!--底部版权==============================================-->
+        <div id="copyright_menu">
+            <div class="copyright_menu">
+
+            </div>
+        </div>
+
+        <!--工作动态 -->
+        <div class="ztzl">
+            <ul>
+                <li>
+                    <a href="http://www.ccgp.gov.cn/" target="_blank"><img alt="" src="images2019/link01.png" /></a>
+                </li>
+                <li>
+                    <a href="http://zfcg.czt.zj.gov.cn/" target="_blank"><img alt="" src="images2019/link02.png" /></a>
+                </li>
+                <li>
+                    <a href="http://www.cgpnews.cn/" target="_blank"><img alt="" src="images2019/link03.png" /></a></li>
+                <li>
+                    <a href="http://www.caigou2003.com/" target="_blank"><img alt="" src="images2019/link04.png" /></a>
+                </li>
+                <li>
+                    <a href="https://www.creditchina.gov.cn/" target="_blank"><img alt=""
+                            src="images2019/link05.png" /></a></li>
+                <li>
+                    <a href="http://www.nbcredit.gov.cn/" target="_blank"><img alt="" src="images2019/link06.png" /></a>
+                </li>
+                <li>
+                    <a href="https://www.zcygov.cn/" target="_blank"><img alt="" src="images2019/link07.png" /></a></li>
+            </ul>
+        </div>
+
+        <!--工作动态 -->
+
+        <div id="copyright_floor">
+
+            <div class="copyright_floor">
+                <cite><a href="http://bszs.conac.cn/sitename?method=show&id=25E6CEFD14E10E6FE053012819ACE22D"
+                        target="_blank"><img alt="" height="76" src="images2019/copyright_01.png"
+                            width="62" /></a></cite>
+                <p>
+                    宁波政府采购网 宁波政府购买服务信息平台 版权所有
+                    <script type="text/javascript"
+                        src="https://s4.cnzz.com/z_stat.php?id=1278522718&web_id=1278522718"></script><br />
+                    技术支持： TEL:0574-87170508 浙ICP备 07003908　<a
+                        href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33020402000253"
+                        target="_blank"><img alt="" height="30" src="images2019/copyright_02.png" width="31" />　浙公网安备
+                        33020402000253号</a>　<a href="http://login.nbzfcg.cn" target="_blank">信息维护</a></p>
+            </div>
+
+        </div>
+    </form>
+</body>
+
+</html>
+<script type="text/javascript" src="images2019/Apage.js"></script>
