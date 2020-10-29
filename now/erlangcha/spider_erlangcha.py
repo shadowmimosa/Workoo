@@ -1,5 +1,6 @@
 import csv
 import json
+from logging import exception
 import time
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
@@ -10,9 +11,19 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 
-from utils import request, run_func
-
+from utils import request, run_func, mongo
+from loguru import logger
+from fake_useragent import UserAgent
 from skimage import io
+
+# 5 首次入库
+# 6 多方云首次入库
+# 6 多方云第二次入库
+# 6 多方云第二次入库
+# 7 多方云第三次入库
+# 8 二郎查第一次入库
+UA = UserAgent()
+RUN_SIGN = 8
 
 
 def magic_time(during=1):
@@ -37,13 +48,6 @@ def magic_time(during=1):
 class OperaChrome(object):
     def __init__(self, path=None):
         self.init_chrome(path)
-
-    def get_proxy(self):
-        resp = req().run(
-            path=
-            'http://route.xiongmaodaili.com/xiongmao-web/api/glip?secret=3648c286d4be950dfeb744412178bab8&orderNo=GL20191218133200tOpTjxj6&count=1&isTxt=1&proxyType=1'
-        )
-        return remove_charater(resp)
 
     def init_chrome(self, path):
         options = webdriver.ChromeOptions()
@@ -171,9 +175,9 @@ def get_shop_phone(link: str):
     shop_id = link.split('id=')[-1]
     uri = f'https://luban.snssdk.com/shop/info?id={shop_id}'
     header = {
-        'User-Agent':
-        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
-        'Accept': '*/*',
+        'User-Agent': UA.random,
+        'Accept':
+        'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
         'Accept-Encoding': 'gzip, deflate, br',
         'Accept-Language': 'zh-CN,zh;q=0.9'
     }
@@ -190,9 +194,11 @@ def get_good_phone(link):
         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
         'Accept': 'application/json, text/plain, */*',
         'Accept-Encoding': 'gzip, deflate, br',
-        'Accept-Language': 'zh-CN,zh;q=0.9'
+        'Accept-Language': 'zh-CN,zh;q=0.9',
+        # 'Proxy-Authorization': made_secret()
     }
     resp = request(uri, header, json=True)
+
     return resp.get('data').get('mobile')
 
 
@@ -226,34 +232,44 @@ def detail(chrome, supplier):
 
     info['抢购电话'] = get_good_phone(info['产品链接'])
 
-    writer(info)
+    return info
 
 
-def writer(row):
-    header = [
-        '产品价格', '支付方式', '产品店铺', '24小时销量', '3天销量', '7天销量', '产品类别', '产品名',
-        '抢购电话', '公司名', '公司电话', '产品链接'
-    ]
-    with open('data.csv', 'a', encoding='utf-8') as fn:
-        f_csv = csv.DictWriter(fn, header)
-        f_csv.writerow(row)
+@run_func()
+def writer(row: dict, category=None):
+    row.update({'category': f'{category}_{RUN_SIGN}'})
+    mongo.insert(row, 'boss168')
 
 
 def main():
     chrome = OperaChrome('https://www.erlangcha.com/')
     time.sleep(5)
-    chrome.click_by_xpath(
-        '//*[@id="app"]/div/div[2]/section/div/div[2]/div/div[2]/div[2]/table/thead/tr/th[12]/div/span/i[2]'
-    )
-    while True:
-        elements = chrome.find_elements_by_class_name('el-table__row')
+    xpaths = {
+        '3':
+        '//*[@id="app"]/div/div[2]/section/div/div[2]/div/div[2]/div[2]/table/thead/tr/th[11]/div/span/i[2]',
+        '7':
+        '//*[@id="app"]/div/div[2]/section/div/div[2]/div/div[2]/div[2]/table/thead/tr/th[12]/div/span/i[2]',
+        '9':
+        '//*[@id="app"]/div/div[2]/section/div/div[2]/div/div[2]/div[2]/table/thead/tr/th[13]/div/span/i[2]',
+    }
+    for key, value in xpaths.items():
+        chrome.click_by_xpath(value)
+        for page in range(5010):
+            elements = chrome.find_elements_by_class_name('el-table__row')
 
-        for supplier in elements:
-            chrome.driver.execute_script('arguments[0].scrollIntoView(true);',
-                                         supplier)
-            detail(chrome, supplier)
+            for supplier in elements:
+                try:
+                    chrome.driver.execute_script(
+                        'arguments[0].scrollIntoView(true);', supplier)
+                except Exception:
+                    logger.info('execute script error')
 
-        chrome.click_by_class_name('el-icon-arrow-right')
+                info = detail(chrome, supplier)
+
+                writer(info, key)
+            logger.info(f'{page} 已完成')
+
+            chrome.click_by_class_name('btn-next')
 
 
 if __name__ == "__main__":

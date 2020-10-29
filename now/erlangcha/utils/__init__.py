@@ -7,6 +7,7 @@ from utils.db import MongoOpea
 
 logger = init_log()
 request = DealRequest().run
+mongo = MongoOpea()
 soup = DealSoup().judge
 excel = ExcelOpea()
 
