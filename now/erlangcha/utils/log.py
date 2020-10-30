@@ -10,7 +10,7 @@ def init_log():
     elif SYSTEM == 'Linux':
         rotation = '1 day'
 
-    _format = '{time:YY-MM-DD HH:mm:ss.SSS} - {function} - {line} - {level} - {message}'
+    _format = '{time:YY-MM-DD HH:mm:ss.SSS} - {thread} - {function} - {line} - {level} - {message}'
     logger.remove()
     handlers = [
         {
