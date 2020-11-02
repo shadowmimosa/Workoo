@@ -121,6 +121,9 @@ class DealRequest(object):
         elif byte:
             return resp.content
         elif json:
-            return resp.json()
+            try:
+                return resp.json()
+            except:
+                return
         else:
             return resp.text

@@ -1,5 +1,6 @@
 from urllib import parse
 from loguru import logger
+from json import JSONDecodeError
 from fake_useragent import UserAgent
 
 from config import DEBUG
@@ -35,6 +36,9 @@ def get_shop_phone(link: str):
         'Accept-Language': 'zh-CN,zh;q=0.9'
     }
     resp = request(uri, header, json=True)
+    if not resp:
+        logger.error('header error')
+        return get_shop_phone(link)
     return resp.get('data').get('company_name'), resp.get('data').get('mobile')
 
 
@@ -128,8 +132,8 @@ def main():
                 auto_page(field, page)
         else:
             with ThreadPoolExecutor(5) as executor:
-                pages = [x for x in range(1, 5010)]
-                fields = [field for x in range(1, 5010)]
+                pages = [x for x in range(4845, 5010)]
+                fields = [field for x in range(4845, 5010)]
                 executor.map(auto_page, fields, pages)
                 # executor.submit(auto_page, field, page)
 
