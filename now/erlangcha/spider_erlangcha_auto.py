@@ -144,8 +144,10 @@ def main():
             with ThreadPoolExecutor(5) as executor:
                 pages = [x for x in range(1, 5010)]
                 fields = [field for x in range(1, 5010)]
-                executor.map(auto_page, fields, pages, dat_source_type,
-                             is_live)
+                dat_source_types = [dat_source_type for x in range(1, 5010)]
+                is_lives = [is_live for x in range(1, 5010)]
+                executor.map(auto_page, fields, pages, dat_source_types,
+                             is_lives)
 
 
 if __name__ == "__main__":
