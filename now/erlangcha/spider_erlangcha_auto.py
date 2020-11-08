@@ -15,7 +15,7 @@ from utils import request, run_func, mongo
 # 7 多方云第三次入库
 # 8 二郎查第一次入库
 UA = UserAgent()
-RUN_SIGN = 8
+RUN_SIGN = 9
 
 
 def remove_charater(content: str):
@@ -101,13 +101,15 @@ def writer(row: dict, category=None):
 
 
 @run_func()
-def auto_page(field, page=1):
+def auto_page(field, page=1, dat_source_type=1, is_live=1):
     params = {
         'page': page,
         'field': field,
         'order_type': 'desc',
-        'dat_source_type': 1
+        'dat_source_type': dat_source_type,
     }
+    if is_live:
+        params.update({'is_live': 2})
 
     host = 'https://www.erlangcha.com'
     path = '/api/getShopList'
@@ -126,16 +128,24 @@ def auto_page(field, page=1):
 
 
 def main():
-    for field in ['three_total', 'seven_total', 'sales_volume']:
+    for field, dat_source_type, is_live in [
+        ('today_diff', 1, 0),
+        ('today_volume', 1, 0),
+        ('seven_total', 2, 0),
+        ('is_live', 2, 2),
+            # 'three_total',
+            # 'seven_total',
+            # 'sales_volume'
+    ]:
         if False:
             for page in range(1, 5010):
-                auto_page(field, page)
+                auto_page(field, page, dat_source_type, is_live)
         else:
             with ThreadPoolExecutor(5) as executor:
-                pages = [x for x in range(4845, 5010)]
-                fields = [field for x in range(4845, 5010)]
-                executor.map(auto_page, fields, pages)
-                # executor.submit(auto_page, field, page)
+                pages = [x for x in range(1, 5010)]
+                fields = [field for x in range(1, 5010)]
+                executor.map(auto_page, fields, pages, dat_source_type,
+                             is_live)
 
 
 if __name__ == "__main__":
