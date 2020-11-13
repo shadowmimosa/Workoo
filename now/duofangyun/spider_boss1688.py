@@ -99,7 +99,9 @@ def good_list(page, day):
         'Accept-Encoding': 'gzip, deflate, br',
         'Accept-Language': 'zh-CN,zh;q=0.9'
     }
-    uri = f'https://luban.api.duofangyun.com/productList?page={page}&pagesize=20&source=头条鲁班&is_active=1&sort=sale_today&order=desc&day={day}'
+    # source = '头条鲁班'
+    source = '抖音小店'
+    uri = f'https://luban.api.duofangyun.com/productList?page=3&pagesize=20&source={source}&is_active=1&sort=sale_today&order=desc&day={day}'
 
     resp = request(uri, header, json=True)
 
@@ -121,7 +123,9 @@ def get_max_pages(day):
         'Accept-Encoding': 'gzip, deflate, br',
         'Accept-Language': 'zh-CN,zh;q=0.9'
     }
-    uri = f'https://luban.api.duofangyun.com/productList?page=3&pagesize=20&source=头条鲁班&is_active=1&sort=sale_today&order=desc&day={day}'
+    # source = '头条鲁班'
+    source = '抖音小店'
+    uri = f'https://luban.api.duofangyun.com/productList?page=3&pagesize=20&source={source}&is_active=1&sort=sale_today&order=desc&day={day}'
 
     resp = request(uri, header, json=True)
     total = resp.get('data').get('total')
@@ -130,7 +134,7 @@ def get_max_pages(day):
 
 
 def main():
-    for day in [0, 1, 30, 60]:
+    for day in [60]:
         # for day in [3, 7, 14]:
         pages = get_max_pages(day)
 
@@ -139,7 +143,7 @@ def main():
                 good_list(page + 1, day)
         else:
             with ThreadPoolExecutor(3) as executor:
-                for page in range(pages):
+                for page in range(1901, pages):
                     executor.submit(good_list, page + 1, day)
 
 
