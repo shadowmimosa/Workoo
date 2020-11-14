@@ -5,7 +5,7 @@ from concurrent.futures.thread import ThreadPoolExecutor, threading
 from fake_useragent import UserAgent
 
 from utils import request, run_func, mongo
-from config import ACCESS_TOKEN, RUN_SIGN, DEBUG, PROXY
+from config import ACCESS_TOKEN, RUN_SIGN, DEBUG, PROXY, PAGE
 
 UA = UserAgent()
 
@@ -143,7 +143,7 @@ def main():
                 good_list(page + 1, day)
         else:
             with ThreadPoolExecutor(3) as executor:
-                for page in range(1901, pages):
+                for page in range(PAGE, pages):
                     executor.submit(good_list, page + 1, day)
 
 
