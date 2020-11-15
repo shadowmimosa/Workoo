@@ -3,9 +3,12 @@ import time
 import hashlib
 from loguru import logger
 from concurrent.futures.thread import ThreadPoolExecutor, threading
+from fake_useragent import UserAgent
 
 from utils import request, run_func, mongo, request_proxy
 from config import ACCESS_TOKEN, RUN_SIGN, DEBUG, PROXY
+
+UA = UserAgent()
 
 
 def remove_charater(content: str):
@@ -28,8 +31,7 @@ def made_secret():
 def get_shop_phone(shop_id):
     uri = f'https://luban.snssdk.com/shop/info?id={shop_id}'
     header = {
-        'User-Agent':
-        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+        'User-Agent': UA.random,
         'Accept': '*/*',
         'Accept-Encoding': 'gzip, deflate, br',
         'Accept-Language': 'zh-CN,zh;q=0.9',
@@ -47,9 +49,9 @@ def get_good_phone(good_id):
         'Accept': 'application/json, text/plain, */*',
         'Accept-Encoding': 'gzip, deflate, br',
         'Accept-Language': 'zh-CN,zh;q=0.9',
-        'Proxy-Authorization': made_secret()
+        # 'Proxy-Authorization': made_secret()
     }
-    resp = request_proxy(uri, header, json=True)
+    resp = request(uri, header, json=True)
     return resp.get('data').get('mobile'), resp.get('data').get(
         'shop_id'), resp.get('data').get('pay_type')
 
@@ -96,7 +98,7 @@ def writer(row: dict, sort_type=None):
 
 
 @run_func()
-def good_list(page, sort_type, price_min='59', price_max='999'):
+def good_list(page, sort_type, price_min, price_max):
     header = {
         'Accept': 'application/json, text/plain, */*',
         'User-Agent':
@@ -118,10 +120,15 @@ def good_list(page, sort_type, price_min='59', price_max='999'):
         'start_date': '',
         'end_date': '',
         'has_material': '',
-        'source': '鲁班',
-        'price_min': price_min,
-        'price_max': price_max
+        'source': '鲁班'
     }
+    if price_max:
+        params.update({'price_max': price_max})
+    if price_max:
+        params.update({
+            'price_min': price_min,
+        })
+
     resp = request(uri, header, params=params, json=True)
 
     data = resp.get('data').get('data')
@@ -142,14 +149,9 @@ def main(sort_type):
             good_list(page + 1, sort_type, price_min, price_max)
     else:
         with ThreadPoolExecutor(3) as executor:
-            if sort_type == 'sale_three_days':
-                for page in range(534, pages):
-                    executor.submit(good_list, page + 1, sort_type, price_min,
-                                    price_max)
-            else:
-                for page in range(pages):
-                    executor.submit(good_list, page + 1, sort_type, price_min,
-                                    price_max)
+            for page in range(pages):
+                executor.submit(good_list, page + 1, sort_type, price_min,
+                                price_max)
 
 
 if __name__ == "__main__":

@@ -125,7 +125,7 @@ def get_max_pages(day):
     }
     # source = '头条鲁班'
     source = '抖音小店'
-    uri = f'https://luban.api.duofangyun.com/productList?page=3&pagesize=20&source={source}&is_active=1&sort=sale_today&order=desc&day={day}'
+    uri = f'https://luban.api.duofangyun.com/productList?page=1&pagesize=20&source={source}&is_active=1&sort=sale_today&order=desc&day={day}'
 
     resp = request(uri, header, json=True)
     total = resp.get('data').get('total')
