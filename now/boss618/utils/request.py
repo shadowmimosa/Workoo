@@ -52,12 +52,12 @@ class DealRequest(object):
         param['url'] = path
         param['headers'] = header
         param['data'] = data
-        param['timeout'] = (4, 20)
+        param['timeout'] = (5, 30)
         param['proxies'] = self.proxy
         param['cookies'] = kwargs.get('cookies')
         param['allow_redirects'] = kwargs.get('redirect')
         param['params'] = kwargs.get('params')
-        
+
         self.params = param
 
     def get(self):

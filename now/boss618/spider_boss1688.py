@@ -1,6 +1,7 @@
 import csv
 import time
 import hashlib
+from utils import run
 from loguru import logger
 from concurrent.futures.thread import ThreadPoolExecutor, threading
 from fake_useragent import UserAgent
@@ -83,22 +84,34 @@ def detail(data: dict, sort_type):
 
 @run_func()
 def writer(row: dict, sort_type=None):
-    # print(threading.current_thread().ident)
-    # print(row)
     row.update({'category': f'{sort_type}_{RUN_SIGN}'})
     mongo.insert(row, 'boss168')
-    # filename = filename if filename else 'data'
-    # header = [
-    #     '产品价格', '支付方式', '产品店铺', '24小时销量', '3天销量', '7天销量', '产品类别', '产品名',
-    #     '抢购电话', '公司名', '公司电话', '产品链接'
-    # ]
-    # with open(f'{filename}.csv', 'a', encoding='utf-8') as fn:
-    #     f_csv = csv.DictWriter(fn, header)
-    #     f_csv.writerow(row)
+
+
+@run_func()
+def login():
+    logger.info('登录中')
+    uri = 'https://www.boss618.com/api/userLogin'
+    header = {
+        'Accept': 'application/json, text/plain, */*',
+        'User-Agent':
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+        'Content-Type': 'application/json;charset=UTF-8',
+        'Origin': 'https://www.boss618.com',
+        'Accept-Encoding': 'gzip, deflate, br',
+        'Accept-Language': 'zh-CN,zh;q=0.9'
+    }
+    data = {"login_name": "15984189592", "password": "123456789"}
+
+    resp = request(uri, header, data=data, json=True)
+
+    return resp.get('access_token')
 
 
 @run_func()
 def good_list(page, sort_type, price_min, price_max):
+    global ACCESS_TOKEN
+
     header = {
         'Accept': 'application/json, text/plain, */*',
         'User-Agent':
@@ -130,10 +143,14 @@ def good_list(page, sort_type, price_min, price_max):
         })
 
     resp = request(uri, header, params=params, json=True)
+    if resp.get('status') == 99999:
+        ACCESS_TOKEN = login()
+        return good_list(page, sort_type, price_min, price_max)
 
     data = resp.get('data').get('data')
-    for item in data:
-        detail(item, sort_type)
+    sort_types = [sort_type for _ in data]
+    with ThreadPoolExecutor(3) as executor:
+        executor.map(detail, data, sort_types)
 
     logger.info(f'第 {page} 页完成')
     time.sleep(2)
@@ -142,16 +159,10 @@ def good_list(page, sort_type, price_min, price_max):
 def main(sort_type):
     price_min = ''
     price_max = ''
-    pages = 5000
+    pages = 5010
 
-    if DEBUG:
-        for page in range(pages):
-            good_list(page + 1, sort_type, price_min, price_max)
-    else:
-        with ThreadPoolExecutor(3) as executor:
-            for page in range(pages):
-                executor.submit(good_list, page + 1, sort_type, price_min,
-                                price_max)
+    for page in range(pages):
+        good_list(page + 1, sort_type, price_min, price_max)
 
 
 if __name__ == "__main__":
