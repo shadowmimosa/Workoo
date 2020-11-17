@@ -47,7 +47,7 @@ def spyonbid(db):
     r = req.get(bid_list)
     page_count = int(re.search(r'(?<=pages: )\d+', r.text).group())
     for i in range(page_count):
-        response = req.get(bid_list + str(i))
+        response = req.get(bid_list + str(i) + '?order=1&orderBy=1')
         page_soup = bs4.BeautifulSoup(response.text, 'html5lib')
         list_data = page_soup.select('.list_data')
         for data in list_data:
@@ -197,6 +197,8 @@ def spyonbidResult(db):
                     bid_budget_money = data_text[8:]
                 elif data_text.startswith('成交单位：'):
                     bid_announce_company = data_text[5:]
+                elif data_text.startswith('成交价：'):
+                    bid_budget_money = data_text.replace('\n', '').replace('\t', '').replace('元', '').split('：')[-1]
                 # elif data_text.startswith('开始时间：'):
                 #     bid_announce_time = data_text[5:]
                 # elif data_text.startswith('结束时间：'):
