@@ -1,12 +1,10 @@
-import csv
 import time
 import hashlib
-from utils import run
 from loguru import logger
-from concurrent.futures.thread import ThreadPoolExecutor, threading
+from concurrent.futures.thread import ThreadPoolExecutor
 from fake_useragent import UserAgent
 
-from utils import request, run_func, mongo, request_proxy
+from utils import request, run_func, mongo
 from config import ACCESS_TOKEN, RUN_SIGN, DEBUG, PROXY
 
 UA = UserAgent()
@@ -44,15 +42,27 @@ def get_shop_phone(shop_id):
 @run_func()
 def get_good_phone(good_id):
     uri = f'https://ec.snssdk.com/product/lubanajaxstaticitem?id={good_id}'
+
+    ua = UA.chrome
+    count = 100
+    while count:
+        if 'Windows NT' in ua:
+            break
+        count = count - 1
+        # logger.info('get another ua')
+    else:
+        return 404, 0, 0
+
     header = {
-        'User-Agent':
-        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+        'User-Agent': ua,
         'Accept': 'application/json, text/plain, */*',
         'Accept-Encoding': 'gzip, deflate, br',
         'Accept-Language': 'zh-CN,zh;q=0.9',
         # 'Proxy-Authorization': made_secret()
     }
     resp = request(uri, header, json=True)
+    if not resp:
+        logger.error(f'wrong ua - {header["User-Agent"]}')
     return resp.get('data').get('mobile'), resp.get('data').get(
         'shop_id'), resp.get('data').get('pay_type')
 
@@ -77,6 +87,10 @@ def detail(data: dict, sort_type):
     info['产品店铺'] = data.get('shop_name')
     # pay_type: 1 wechat 2 线下 wechat
     info['抢购电话'], shop_id, info['支付方式'] = get_good_phone(good_id)
+    if info['抢购电话'] == 404:
+        logger.error('cant get phone')
+        return
+
     info['公司名'], info['公司电话'] = get_shop_phone(shop_id)
 
     writer(info, sort_type)
@@ -86,6 +100,7 @@ def detail(data: dict, sort_type):
 def writer(row: dict, sort_type=None):
     row.update({'category': f'{sort_type}_{RUN_SIGN}'})
     mongo.insert(row, 'boss168')
+    logger.info(f'已插入 - {row["公司名"]}')
 
 
 @run_func()
