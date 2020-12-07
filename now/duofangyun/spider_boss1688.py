@@ -5,7 +5,7 @@ from concurrent.futures.thread import ThreadPoolExecutor, threading
 from fake_useragent import UserAgent
 
 from utils import request, run_func, mongo
-from config import ACCESS_TOKEN, RUN_SIGN, DEBUG, PROXY, PAGE
+from config import ACCESS_TOKEN, RUN_SIGN, DEBUG, PROXY, PAGE,SOURCE
 
 UA = UserAgent()
 
@@ -44,14 +44,23 @@ def get_shop_phone(shop_id):
 @run_func()
 def get_good_phone(good_id):
     uri = f'https://ec.snssdk.com/product/lubanajaxstaticitem?id={good_id}'
+    ua = UA.chrome
+    count = 100
+    while count:
+        if 'Windows NT' in ua:
+            break
+        count = count - 1
+        # logger.info('get another ua')
+    else:
+        return 404, 0, 0
+
     header = {
-        'User-Agent':
-        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+        'User-Agent': ua,
         'Accept': 'application/json, text/plain, */*',
         'Accept-Encoding': 'gzip, deflate, br',
         'Accept-Language': 'zh-CN,zh;q=0.9',
         # 'Proxy-Authorization': made_secret()
-    }
+    }    
     resp = request(uri, header, json=True)
     return resp.get('data').get('mobile'), resp.get('data').get(
         'shop_id'), resp.get('data').get('pay_type')
@@ -99,9 +108,7 @@ def good_list(page, day):
         'Accept-Encoding': 'gzip, deflate, br',
         'Accept-Language': 'zh-CN,zh;q=0.9'
     }
-    # source = '头条鲁班'
-    source = '抖音小店'
-    uri = f'https://luban.api.duofangyun.com/productList?page=3&pagesize=20&source={source}&is_active=1&sort=sale_today&order=desc&day={day}'
+    uri = f'https://luban.api.duofangyun.com/productList?page={page}&pagesize=20&source={SOURCE}&is_active=1&sort=sale_today&order=desc&day={day}'
 
     resp = request(uri, header, json=True)
 
@@ -123,9 +130,7 @@ def get_max_pages(day):
         'Accept-Encoding': 'gzip, deflate, br',
         'Accept-Language': 'zh-CN,zh;q=0.9'
     }
-    # source = '头条鲁班'
-    source = '抖音小店'
-    uri = f'https://luban.api.duofangyun.com/productList?page=1&pagesize=20&source={source}&is_active=1&sort=sale_today&order=desc&day={day}'
+    uri = f'https://luban.api.duofangyun.com/productList?page=1&pagesize=20&source={SOURCE}&is_active=1&sort=sale_today&order=desc&day={day}'
 
     resp = request(uri, header, json=True)
     total = resp.get('data').get('total')

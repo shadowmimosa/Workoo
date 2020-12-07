@@ -10,5 +10,9 @@ request_proxy = DealRequest({
     "http": "http://dynamic.xiongmaodaili.com:8089",
     "https": "http://dynamic.xiongmaodaili.com:8089"
 }).run
+request_proxy_8088 = DealRequest({
+    "http": "http://dynamic.xiongmaodaili.com:8088",
+    "https": "http://dynamic.xiongmaodaili.com:8088"
+}).run
 
 __all__ = ['logger', 'request', 'mongo']
