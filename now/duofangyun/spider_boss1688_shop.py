@@ -56,7 +56,7 @@ def detail(data: dict, day):
 
     writer(info, day)
 
-    time.sleep(randint(1, 5))
+    time.sleep(randint(1, 3))
 
 
 @run_func()
@@ -86,8 +86,6 @@ def good_list(page, day):
 
     logger.info(f'第 {page} 页完成')
 
-    time.sleep(randint(1, 5))
-
 
 def get_max_pages(day):
     header = {
@@ -103,9 +101,7 @@ def get_max_pages(day):
 
     resp = request(uri, header, json=True)
     total = resp.get('data').get('total')
-    
-    time.sleep(randint(1, 5))
-    
+
     return total // 20 + 1
 
 
