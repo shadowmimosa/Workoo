@@ -8,14 +8,8 @@ from common import random_header
 from concurrent.futures.thread import ThreadPoolExecutor
 from utils import request, run_func, mongo
 
-# 5 首次入库
-# 6 多方云首次入库
-# 6 多方云第二次入库
-# 6 多方云第二次入库
-# 7 多方云第三次入库
-# 8 二郎查第一次入库
 UA = UserAgent()
-RUN_SIGN = 9
+RUN_SIGN = 18
 
 
 def remove_charater(content: str):
@@ -46,9 +40,19 @@ def get_shop_phone(link: str):
 def get_good_phone(link):
     good_id = link.split('id=')[-1]
     uri = f'https://ec.snssdk.com/product/lubanajaxstaticitem?id={good_id}'
+
+    ua = UA.chrome
+    count = 100
+    while count:
+        if 'Windows NT' in ua:
+            break
+        count = count - 1
+        # logger.info('get another ua')
+    else:
+        return 404, 0, 0    
+
     header = {
-        'User-Agent':
-        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+        'User-Agent': ua,
         'Accept': 'application/json, text/plain, */*',
         'Accept-Encoding': 'gzip, deflate, br',
         'Accept-Language': 'zh-CN,zh;q=0.9',
@@ -129,10 +133,10 @@ def auto_page(field, page=1, dat_source_type=1, is_live=1):
 
 def main():
     for field, dat_source_type, is_live in [
-        ('today_diff', 1, 0),
-        ('today_volume', 1, 0),
-        ('seven_total', 2, 0),
-        ('is_live', 2, 2),
+        # ('today_diff', 1, 0),
+        # ('today_volume', 1, 0),
+        ('seven_total', 1, 0),
+        # ('is_live', 2, 2),
             # 'three_total',
             # 'seven_total',
             # 'sales_volume'
