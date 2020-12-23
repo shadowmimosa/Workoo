@@ -1,7 +1,6 @@
 import os
 import time
 from xlwt import Workbook
-from xlrd import open_workbook
 from openpyxl import load_workbook
 from openpyxl import Workbook as init_workbook
 from openpyxl.styles import PatternFill
@@ -63,7 +62,10 @@ class ExcelOpea(object):
 
     def to_excel(self, index, value):
         if self.use == 'openpyxl':
-            self.write_sheet.cell(self.row, index + 1, value)
+            if isinstance(value, list):
+                self.write_sheet.cell(self.row, index + 1, ', '.join([str(x) for x in value]))
+            else:
+                self.write_sheet.cell(self.row, index + 1, value)
         elif self.use == 'xlwt':
             self.write_sheet.write(self.row, index, value)
         else:

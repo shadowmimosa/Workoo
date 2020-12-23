@@ -1,11 +1,16 @@
-from utils.log import init_log
-from utils.soup import DealSoup
-from utils.request import DealRequest
-from utils.excel_opea import ExcelOpea
+from .log import init_log
+from .soup import DealSoup
+from .request import DealRequest
+from .run import run_func
+from .signer import magic
+from .excel_opea import ExcelOpea
 
 logger = init_log()
-request = DealRequest().run
 soup = DealSoup().judge
+request = DealRequest().run
 excel = ExcelOpea()
 
-__all__ = ['logger', 'request', 'mysql']
+request_proxy = DealRequest({
+    "http": "http://dynamic.xiongmaodaili.com:8089",
+    "https": "http://dynamic.xiongmaodaili.com:8089"
+}).run

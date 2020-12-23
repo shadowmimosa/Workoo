@@ -1,24 +1,26 @@
 import re
-import wmi
 import json
 import time
 import hashlib
 from arr import arr_json
 from loguru import logger
 from configparser import ConfigParser
+from chardet import detect
 
-from utils.run import run_func
-from utils.soup import DealSoup
-from utils import request
-from utils.excel_opea import ExcelOpea
-from utils.magic_code import judge_code
-from utils.signer import magic
-
+from utils import run_func, request, magic, excel
 from config import PROXY
-excel = ExcelOpea()
-excel.init_sheet(
-    header=['国家', '联赛', '球队', '比分', '总次数', '平均遗漏', '最长遗漏', '目前遗漏'])
-soup = DealSoup().judge
+
+
+def judge_code(path):
+    with open(path, 'rb') as fn:
+        data = fn.read()
+        charinfo = detect(data)
+
+    gb_encode = ["gb2312", "GB2312", "gb18030", "GB18030", "GBK", "gbk"]
+
+    return 'GBK' if charinfo['encoding'] in gb_encode else charinfo['encoding']
+
+
 config = ConfigParser()
 config.read('config.txt', encoding=judge_code('config.txt'))
 country = config.get('配置', '国家')
@@ -44,24 +46,18 @@ header = {
     'Referer': 'http://zq.win007.com/cn/League/2019-2020/36.html',
     'Accept-Encoding': 'gzip, deflate',
     'Accept-Language': 'zh-CN,zh;q=0.9',
-    'Proxy-Authorization': made_secret()
-    # Cookie: UM_distinctid=1711044803625-09805c5749d6bf-6313f69-1fa400-1711044803729d; CNZZDATA1261430177=493306957-1585115778-%7C1585115778
+    # 'Proxy-Authorization': made_secret()
 }
 domain = 'http://zq.win007.com'
-
 team_detail = []
 
 
+@run_func()
 def build_version():
     return time.strftime("%Y%m%d%H", time.localtime())
 
 
-def get_():
-    c = wmi.WMI()
-    for physical_disk in c.Win32_DiskDrive():
-        return physical_disk.SerialNumber
-
-
+@run_func()
 def build_href():
     data_list = arr_json
     need = []
@@ -92,10 +88,12 @@ def build_href():
     return need
 
 
+@run_func()
 def show_team(team_id):
     return f'/cn/team/Summary/{team_id}.html'
 
 
+@run_func()
 def match_result(uri):
     resp = request(f'{domain}{uri}', header=header)
     result = re.search(
@@ -107,8 +105,6 @@ def match_result(uri):
 
     href = result.group(1)
 
-    # temp = uri.replace('.html', '').split('/')
-    # href = f'{domain}/jsData/matchResult/{temp[-2]}/s{temp[-1]}?version={build_version()}'
     resp = request(f'{domain}{href}', header=header)
     result = re.search(r'var arrTeam = (.*?);', resp)
     if result:
@@ -127,6 +123,7 @@ def match_result(uri):
     return need
 
 
+@run_func()
 def summary_team(team_id, current):
     uri = f'http://zq.win007.com/jsData/teamInfo/teamDetail/tdl{team_id}.js?version={build_version()}'
 
@@ -134,10 +131,14 @@ def summary_team(team_id, current):
         return
     else:
         team_detail.append(uri)
-        resp = run_func(request, uri, header=header)
-        run_func(to_excel, resp, current)
+        resp = request(uri, header=header)
+        if resp == 443:
+            logger.error(f'443 - {uri}')
+            return
+        to_excel(resp, current)
 
 
+@run_func()
 class Miss(object):
     def __init__(self):
         self.miss_num = 0
@@ -155,7 +156,7 @@ class Miss(object):
 
     def final(self):
         if not self.miss_list:
-            return 0, 0, self.miss_num, self.miss_num
+            return 0, 0, self.miss_num, self.miss_num, self.miss_list
 
         self.miss_list.append(self.miss_num)
         miss_sum = 0
@@ -164,17 +165,18 @@ class Miss(object):
 
         miss_ave = miss_sum / len(self.miss_list)
 
-        return self.hit_num, miss_ave, max(self.miss_list), self.miss_list[-1]
+        return self.hit_num, miss_ave, max(
+            self.miss_list), self.miss_list[-1], self.miss_list
 
 
+@run_func()
 def get_team(content):
     return content.split('^')[0]
 
 
+@run_func()
 def to_excel(html, current):
     total.__init__()
-    logger.info(f'html is {html}')
-    logger.info(f'html type is {type(html)}')
     result = re.search(r'var teamCount = (.*);', html)
     if not result:
         return
@@ -218,10 +220,12 @@ class BaseError(Exception):
 
 def main():
     global team
-    href_list = run_func(build_href)
+    excel.init_sheet(
+        header=['国家', '联赛', '球队', '比分', '总次数', '平均遗漏', '最长遗漏', '目前遗漏', '遗漏数据'])
+    href_list = build_href()
     teams = []
     for href, current in href_list:
-        results = run_func(match_result, href)
+        results = match_result(href)
         if not results:
             continue
 
@@ -232,7 +236,7 @@ def main():
 
     for team_id, team_name in teams:
         team = team_name
-        result = run_func(summary_team, team_id, current)
+        result = summary_team(team_id, current)
 
         result = total.final()
         detail = {}
@@ -244,10 +248,12 @@ def main():
         detail['平均遗漏'] = result[1]
         detail['最长遗漏'] = result[2]
         detail['目前遗漏'] = result[3]
+        detail['遗漏数据'] = result[4]
 
-        run_func(excel.write, detail)
+        excel.write(detail)
+        # mongo.insert({'time': 1, 'data': detail}, 'win007')
 
-    result = run_func(excel.save)
+    result = excel.save()
     if result:
         print(f'已保存为 - {result}')
     else:
@@ -259,6 +265,6 @@ def main():
 total = Miss()
 
 if __name__ == "__main__":
-    # if int(time.time()) < 1602816569:
-        # magic()
-    main()
+    if int(time.time()) < 1629729356:
+        magic()
+        main()

@@ -1,9 +1,9 @@
 import bs4
-
+import threading
 from bs4 import BeautifulSoup
 
 
-class DealSoup(object):
+class DealSoup(threading.local):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
