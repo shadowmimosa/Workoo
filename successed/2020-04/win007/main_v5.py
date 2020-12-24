@@ -133,9 +133,11 @@ def summary_team(team_id, current):
         team_detail.append(uri)
         resp = request(uri, header=header)
         if resp == 443:
-            logger.error(f'443 - {uri}')
-            return
+            logger.error(f'443')
+            return 443
         to_excel(resp, current)
+
+        return True
 
 
 @run_func()
@@ -236,9 +238,15 @@ def main():
 
     for team_id, team_name in teams:
         team = team_name
+        total.__init__()
         result = summary_team(team_id, current)
+        if not result:
+            result = [-1, -1, -1, -1, -1]
+        elif result == 443:
+            result = [-443, -443, -443, -443, -443]
+        else:
+            result = total.final()
 
-        result = total.final()
         detail = {}
         detail['国家'] = current
         detail['联赛'] = match

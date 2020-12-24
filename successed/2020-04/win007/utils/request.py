@@ -65,6 +65,7 @@ class DealRequest(threading.local):
 
     def retry(self, get=True):
         retry_count = 5
+        count_443 = 5
 
         while retry_count:
             if get:
@@ -87,6 +88,10 @@ class DealRequest(threading.local):
                 return resp
 
             elif 400 <= status_code < 500:
+                count_443 -= 1
+                if count_443:
+                    logger.info('443 retry')
+                    continue
                 return status_code
             elif 300 <= status_code <= 304:
                 self.params['url'] = resp.headers['Location']
