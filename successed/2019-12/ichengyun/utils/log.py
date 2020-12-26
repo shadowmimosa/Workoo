@@ -1,34 +1,48 @@
-import os
 import logging
-from logging.handlers import RotatingFileHandler
+from loguru import logger
+from config import SYSTEM
 
 
 def init_log():
 
-    logger = logging.getLogger(__name__)
-    logger.propagate = False
-    logger.setLevel(level=logging.INFO)
-    if not logger.handlers:
-        try:
-            handler = RotatingFileHandler(
-                "./log/run_info.log",
-                maxBytes=10 * 1024 * 1024,
-                backupCount=100)
-            # handler = loggingFileHandler("./log/run_info.log")
-        except FileNotFoundError as exc:
-            os.makedirs("./log/")
-            return init_log()
+    if SYSTEM == 'Windows':
+        rotation = None
+    elif SYSTEM == 'Linux':
+        rotation = '1 day'
 
-        handler.setLevel(logging.DEBUG)
-        formatter = logging.Formatter(
-            '%(asctime)s - %(funcName)s - %(levelname)s - %(message)s')
-        handler.setFormatter(formatter)
+    _format = '{time:YY-MM-DD HH:mm:ss.SSS} - {process.name} - {thread.name} - {function} - {line} - {level} - {message}'
+    logger.remove()
+    handlers = [
+        {
+            # 'sink': 'log/error-{time:YYMMDD}.log',
+            'sink': 'log/error.log',
+            # 'sink': write,
+            'format': _format,
+            'level': 'ERROR',
+            'rotation': rotation,
+            'enqueue': True,
+            'encoding': 'utf-8',
+            'backtrace': True
+        },
+        {
+            'sink': 'log/log.log',
+            'format': _format,
+            'level': 'INFO',
+            'rotation': rotation,
+            'enqueue': True,
+            'encoding': 'utf-8',
+            'backtrace': True
+        }
+    ]
 
-        console = logging.StreamHandler()
-        console.setLevel(logging.INFO)
+    handlers.append({
+        'sink': logging.StreamHandler(),
+        'format': _format,
+        'level': 'INFO',
+        'enqueue': True,
+        'backtrace': True
+    })
 
-        logger.addHandler(handler)
-        logger.addHandler(console)
-        
+    logger.configure(handlers=handlers)
 
     return logger

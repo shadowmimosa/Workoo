@@ -4,9 +4,9 @@ import time
 import base64
 import traceback
 
-from utils.request import Query
+from utils.request import DealRequest
 
-requests = Query().run
+requests = DealRequest().run
 
 
 class BaiduToken(object):
@@ -67,7 +67,7 @@ class BaiduOCR(object):
         return base64.b64encode(pic)
 
     def get_word(self, image_base64):
-        host = "https://aip.baidubce.com/rest/2.0/ocr/v1/general_basic?access_token={}".format(
+        host = "https://aip.baidubce.com/rest/2.0/ocr/v1/accurate_basic?access_token={}".format(
             self.token)
 
         data = {
