@@ -158,7 +158,11 @@ def magic_time():
 
 class Ichengyun(object):
     def __init__(self) -> None:
-        self.win = connect_device(f'Windows:///{get_window_handle()}')
+        handle_id = f'Windows:///{get_window_handle()}'
+        if not handle_id:
+            logger.info('软件未启动')
+            sys.exit()
+        self.win = connect_device(handle_id)
 
         self.pos_company = (660, 155)
         self.pos_name = (660, 180)
@@ -289,9 +293,11 @@ class Ichengyun(object):
     def _sleep(self):
         logger.info("--->Info: sleep 24 hours now")
         sleep_time = 86400
-        while not self.start_status and sleep_time > 0:
+        while sleep_time > 0:
             time.sleep(1)
             sleep_time -= 1
+
+        sys.exit()
 
     @run_func()
     def judge_time(self):
@@ -303,9 +309,6 @@ class Ichengyun(object):
 
         if start_time < now_time < end_time:
             return True
-        else:
-            self._sleep()
-            self.judge_time()
 
     @run_func()
     def run(self):
@@ -315,7 +318,8 @@ class Ichengyun(object):
             if not self.start_status:
                 self._sleep()
 
-            self.judge_time()
+            if not self.judge_time():
+                self._sleep()
 
             self.win.set_foreground()
             self.auto_page(y)
