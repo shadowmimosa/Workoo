@@ -97,6 +97,9 @@ def get_good_phone(good_id):
     if not resp:
         logger.error(f'wrong ua - {header["User-Agent"]}')
 
+    if resp.get('data').get('check_status') != 3:
+        return
+
     return resp.get('data').get('mobile'), resp.get('data').get(
         'shop_id'), resp.get('data').get('pay_type')
 
@@ -106,14 +109,21 @@ def good_detail(shop_id, info):
     uri = f'https://boss618.com/api/productList?page=1&pagesize=20&is_active=1&sort=sale_yesterday&shop_id={shop_id}&source='
 
     resp = deal(uri)
-    data = resp.get('data').get('data')
-    if not data:
+    datas = resp.get('data').get('data')
+    if not datas:
         writer(info)
         return
-    else:
-        data = data[0]
 
-    good_id = data.get('code')
+    for data in datas:
+        good_id = data.get('code')
+        result = get_good_phone(good_id)
+
+        if result:
+            # pay_type: 1 wechat 2 线下 wechat
+            info['抢购电话'], shop_id, info['支付方式'] = result[0], result[1], result[
+                2]
+            break
+
     info['产品价格'] = deal_price(data.get('price_min'), data.get('price_max'))
     info['24小时销量'] = data.get('sale_yesterday')
     info['3天销量'] = data.get('sale_three_days')
@@ -122,13 +132,15 @@ def good_detail(shop_id, info):
     info['产品名'] = data.get('name')
     info['产品链接'] = data.get('url')
     info['产品店铺'] = data.get('shop_name')
-    # pay_type: 1 wechat 2 线下 wechat
-    info['抢购电话'], shop_id, info['支付方式'] = get_good_phone(good_id)
-    if info['抢购电话'] == 404:
-        logger.error('cant get phone')
-        return
 
-    info['公司名'], info['公司电话'] = get_shop_phone(shop_id)
+    if info.get('抢购电话') is None:
+        logger.error('第一页全部下架')
+        writer(info)
+
+    elif info.get('抢购电话') == 404:
+        logger.error('cant get phone')
+    else:
+        info['公司名'], info['公司电话'] = get_shop_phone(shop_id)
 
     writer(info)
 
@@ -163,7 +175,7 @@ def writer(row: dict):
 
 @run_func()
 def shop_list(page):
-    uri = 'https://www.boss618.com/api/shopList?page=1&pagesize=20&sort=sale_seven_days&source=&order=desc'
+    uri = f'https://www.boss618.com/api/shopList?page={page}&pagesize=20&sort=sale_seven_days&source=&order=desc'
     resp = deal(uri)
 
     data = resp.get('data').get('data')
@@ -186,7 +198,7 @@ def main():
     pages = get_max_pages()
 
     if True:
-        for page in range(540, pages):
+        for page in range(pages):
             shop_list(page + 1)
     else:
         with ThreadPoolExecutor(3) as executor:
