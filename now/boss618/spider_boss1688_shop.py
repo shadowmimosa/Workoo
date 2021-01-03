@@ -119,7 +119,7 @@ def good_detail(shop_id, info):
         result = get_good_phone(good_id)
 
         if result:
-            # pay_type: 1 wechat 2 线下 wechat
+            # pay_type: 0 货到付款 1 wechat 2 线下 货到付款
             info['抢购电话'], shop_id, info['支付方式'] = result[0], result[1], result[
                 2]
             break
