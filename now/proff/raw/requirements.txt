@@ -1,5 +1,5 @@
 aiohttp==3.6.2
 xlwt==1.2.0
 peewee==3.11.2
-lxml==4.2.5
+lxml==4.6.2
 requests==2.22.0
