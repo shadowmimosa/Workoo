@@ -1,30 +1,52 @@
-from random import randint
 import time
-import hashlib
+import json
+import random
 from loguru import logger
 from concurrent.futures.thread import ThreadPoolExecutor, threading
-from fake_useragent import UserAgent
 
 from utils import request, run_func, mongo
-from config import ACCESS_TOKEN, RUN_SIGN, DEBUG, PROXY, PAGE, SOURCE
-
-UA = UserAgent()
+from config import ACCESS_TOKEN, RUN_SIGN, PAGE, SOURCE
 
 
-def remove_charater(content: str):
-    return content.replace('\n', '').replace('\t',
-                                             '').replace('\r',
-                                                         '').replace(' ', '')
+class UaRandom():
+    def __init__(self) -> None:
+        with open('./ua.json', 'r', encoding='utf-8') as fn:
+            self.data_randomize = json.loads(fn.read())
+
+        super().__init__()
+
+    @property
+    def random(self):
+        return random.choice(self.data_randomize)
 
 
-def made_secret():
-    timestamp = int(time.time())
-    orderno = PROXY.get('orderno')
-    secret = PROXY.get('secret')
-    txt = f'orderno={orderno},secret={secret},timestamp={timestamp}'
-    sign = hashlib.md5(txt.encode('utf-8')).hexdigest().upper()
+UA = UaRandom()
 
-    return f'sign={sign}&orderno={orderno}&timestamp={timestamp}&change=true'
+
+@run_func()
+def get_good_phone(good_id):
+    uri = f'https://ec.snssdk.com/product/lubanajaxstaticitem?id={good_id}'
+
+    header = {
+        'User-Agent': UA.random,
+        'Accept': 'application/json, text/plain, */*',
+        'Accept-Encoding': 'gzip, deflate, br',
+        'Accept-Language': 'zh-CN,zh;q=0.9',
+    }
+    resp = request(uri, header, json=True)
+    if not resp:
+        logger.error(f'wrong ua - {header["User-Agent"]}')
+
+    if resp.get('data').get('check_status') != 3:
+        return
+
+    return resp.get('data').get('mobile'), resp.get('data').get('pay_type')
+
+
+@run_func()
+def deal_price(_min, _max):
+
+    return '-'.join(sorted(set((str(_min), str(_max)))))
 
 
 @run_func()
@@ -54,9 +76,30 @@ def detail(data: dict, day):
     info['公司名'] = resp.get('data').get('company_name')
     info['公司电话'] = resp.get('data').get('mobile')
 
+    uri = f'https://luban.api.duofangyun.com/productList?shop_id={shop_id}&page=1&is_active=-1&pagesize=20&source=&sort=sale_today&day=-1&order=desc&keyword='
+
+    resp = request(uri, header, json=True)
+
+    for good in resp.get('data').get('data'):
+        result = get_good_phone(good.get('code'))
+
+        if result:
+            # pay_type: 0 货到付款 1 wechat 2 线下 货到付款
+            info['抢购电话'], info['支付方式'] = result
+            break
+
+    info['产品价格'] = deal_price(good.get('price_min'), good.get('price_max'))
+    info['24小时销量'] = good.get('sale_today')
+    info['3天销量'] = good.get('sale_three_days')
+    info['7天销量'] = good.get('sale_thirty_days')
+    info['产品类别'] = good.get('category')
+    info['产品名'] = good.get('name')
+    info['产品链接'] = good.get('url')
+    info['产品店铺'] = good.get('shop_name')
+
     writer(info, day)
 
-    time.sleep(randint(1, 3))
+    time.sleep(random.randint(1, 3))
 
 
 @run_func()
