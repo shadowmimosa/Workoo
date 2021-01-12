@@ -1,0 +1,227 @@
+{
+    "data": [{
+        "counter": 741361,
+        "dataList": [{
+            "item": {
+                "showServCategId": 1002,
+                "showServCategName": "家电维修",
+                "showTariffName": "维修"
+            }
+        }],
+        "imgSrc": "https://img1.xiujiadian.com/pre/plat/product/1608166836048/icon.png",
+        "message": "",
+        "multiSelect": false,
+        "nodeName": "前台产品的服务分类",
+        "optional": true,
+        "status": null,
+        "step": 1
+    }, {
+        "counter": null,
+        "dataList": [{
+            "item": {
+                "categId": 2699,
+                "categOneId": 2674,
+                "name": "电视",
+                "productId": 11295,
+                "servCategId": 1002,
+                "smallPicture": "https://img1.xiujiadian.com/dev/plat/product/1587023258936/smallPicture.jpg",
+                "tariffName": ""
+            }
+        }],
+        "imgSrc": "",
+        "message": "",
+        "multiSelect": false,
+        "nodeName": "前台产品",
+        "optional": true,
+        "status": null,
+        "step": 2
+    }, {
+        "counter": null,
+        "dataList": [{
+            "item": {
+                "brandId": 1028,
+                "enname": "",
+                "firstLetter": "C",
+                "icon": "https://img1.xiujiadian.com/prod/plat/product/1588144961060/icon.png",
+                "name": "创维",
+                "sort": null,
+                "status": null,
+                "type": null
+            }
+        }, {
+            "item": {
+                "brandId": 1002,
+                "enname": "",
+                "firstLetter": "Z",
+                "icon": "https://img1.xiujiadian.com/prod/plat/product/1588148251464/icon.png",
+                "name": "长虹",
+                "sort": null,
+                "status": null,
+                "type": null
+            }
+        }, {
+            "item": {
+                "brandId": 1007,
+                "enname": "",
+                "firstLetter": "T",
+                "icon": "https://img1.xiujiadian.com/prod/plat/product/1588144844438/icon.png",
+                "name": "TCL",
+                "sort": null,
+                "status": null,
+                "type": null
+            }
+        }, {
+            "item": {
+                "brandId": 1017,
+                "enname": "",
+                "firstLetter": "H",
+                "icon": "https://img1.xiujiadian.com/prod/plat/product/1588145096269/icon.png",
+                "name": "海信",
+                "sort": null,
+                "status": null,
+                "type": null
+            }
+        }, {
+            "item": {
+                "brandId": 1008,
+                "enname": "",
+                "firstLetter": "K",
+                "icon": "https://img1.xiujiadian.com/prod/plat/product/1588145266136/icon.png",
+                "name": "康佳",
+                "sort": null,
+                "status": null,
+                "type": null
+            }
+        }, {
+            "item": {
+                "brandId": 1005,
+                "enname": "",
+                "firstLetter": "S",
+                "icon": "https://img1.xiujiadian.com/prod/plat/product/1588145453415/icon.png",
+                "name": "三星",
+                "sort": null,
+                "status": null,
+                "type": null
+            }
+        }, {
+            "item": {
+                "brandId": 1016,
+                "enname": "",
+                "firstLetter": "X",
+                "icon": "https://img1.xiujiadian.com/prod/plat/product/1588148174809/icon.png",
+                "name": "夏普",
+                "sort": null,
+                "status": null,
+                "type": null
+            }
+        }, {
+            "item": {
+                "brandId": 1006,
+                "enname": "",
+                "firstLetter": "S",
+                "icon": "https://img1.xiujiadian.com/prod/plat/product/1588148003574/icon.png",
+                "name": "索尼",
+                "sort": null,
+                "status": null,
+                "type": null
+            }
+        }, {
+            "item": {
+                "brandId": 1001,
+                "enname": "",
+                "firstLetter": "H",
+                "icon": "https://img1.xiujiadian.com/prod/plat/product/1589965992139/icon.png",
+                "name": "海尔",
+                "sort": null,
+                "status": null,
+                "type": null
+            }
+        }, {
+            "item": {
+                "brandId": 1239,
+                "enname": "",
+                "firstLetter": "X",
+                "icon": "https://img1.xiujiadian.com/prod/plat/product/1595661693147/icon.png",
+                "name": "小米",
+                "sort": null,
+                "status": null,
+                "type": null
+            }
+        }, {
+            "item": {
+                "brandId": 1020,
+                "enname": "",
+                "firstLetter": "F",
+                "icon": "https://img1.xiujiadian.com/prod/plat/product/1588145029642/icon.png",
+                "name": "飞利浦",
+                "sort": null,
+                "status": null,
+                "type": null
+            }
+        }, {
+            "item": {
+                "brandId": 1010,
+                "enname": "",
+                "firstLetter": "L",
+                "icon": "https://img1.xiujiadian.com/prod/plat/product/1588144828313/icon.png",
+                "name": "LG",
+                "sort": null,
+                "status": null,
+                "type": null
+            }
+        }, {
+            "item": {
+                "brandId": 1004,
+                "enname": "",
+                "firstLetter": "S",
+                "icon": "https://img1.xiujiadian.com/prod/plat/product/1588147984685/icon.png",
+                "name": "松下",
+                "sort": null,
+                "status": null,
+                "type": null
+            }
+        }, {
+            "item": {
+                "brandId": 1009,
+                "enname": "",
+                "firstLetter": "D",
+                "icon": "https://img1.xiujiadian.com/prod/plat/product/1588145001636/icon.png",
+                "name": "东芝",
+                "sort": null,
+                "status": null,
+                "type": null
+            }
+        }, {
+            "item": {
+                "brandId": 1014,
+                "enname": "",
+                "firstLetter": "R",
+                "icon": "https://img1.xiujiadian.com/prod/plat/product/1588145412892/icon.png",
+                "name": "日立",
+                "sort": null,
+                "status": null,
+                "type": null
+            }
+        }, {
+            "item": {
+                "brandId": 1051,
+                "enname": "",
+                "firstLetter": "Q",
+                "icon": "https://img1.xiujiadian.com/prod/plat/product/1585640949381/icon.png",
+                "name": "其他品牌",
+                "sort": null,
+                "status": null,
+                "type": null
+            }
+        }],
+        "imgSrc": "",
+        "message": "",
+        "multiSelect": false,
+        "nodeName": "品牌列表",
+        "optional": true,
+        "status": null,
+        "step": 3
+    }],
+    "message": "成功",
+    "status": 200
+}

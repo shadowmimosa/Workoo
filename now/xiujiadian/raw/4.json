@@ -1,0 +1,150 @@
+{
+    "data": [{
+        "counter": null,
+        "dataList": [{
+            "item": {
+                "bizType": 1,
+                "faultCategId": 1000,
+                "faultCategName": "普通故障",
+                "faultCategSort": 1,
+                "groupId": 1322,
+                "itemId": 2460,
+                "itemName": " 开不了机",
+                "itemSort": 2,
+                "mutexMode": 2,
+                "priceStandard": 2,
+                "tariffId": 10001,
+                "unit": "台"
+            }
+        }, {
+            "item": {
+                "bizType": 1,
+                "faultCategId": 1000,
+                "faultCategName": "普通故障",
+                "faultCategSort": 1,
+                "groupId": 1322,
+                "itemId": 2459,
+                "itemName": "简单维修",
+                "itemSort": 1,
+                "mutexMode": 2,
+                "priceStandard": 2,
+                "tariffId": 10001,
+                "unit": "台"
+            }
+        }, {
+            "item": {
+                "bizType": 1,
+                "faultCategId": 1000,
+                "faultCategName": "普通故障",
+                "faultCategSort": 1,
+                "groupId": 1322,
+                "itemId": 6088,
+                "itemName": "更换控制板",
+                "itemSort": 7,
+                "mutexMode": 2,
+                "priceStandard": 2,
+                "tariffId": 10001,
+                "unit": "台"
+            }
+        }, {
+            "item": {
+                "bizType": 1,
+                "faultCategId": 1000,
+                "faultCategName": "普通故障",
+                "faultCategSort": 1,
+                "groupId": 1322,
+                "itemId": 2462,
+                "itemName": "有声无图",
+                "itemSort": 4,
+                "mutexMode": 2,
+                "priceStandard": 2,
+                "tariffId": 10001,
+                "unit": "台"
+            }
+        }, {
+            "item": {
+                "bizType": 1,
+                "faultCategId": 1000,
+                "faultCategName": "普通故障",
+                "faultCategSort": 1,
+                "groupId": 1322,
+                "itemId": 2463,
+                "itemName": "图像异常",
+                "itemSort": 5,
+                "mutexMode": 2,
+                "priceStandard": 2,
+                "tariffId": 10001,
+                "unit": "台"
+            }
+        }, {
+            "item": {
+                "bizType": 1,
+                "faultCategId": 1000,
+                "faultCategName": "普通故障",
+                "faultCategSort": 1,
+                "groupId": 1322,
+                "itemId": 6390,
+                "itemName": "其它故障",
+                "itemSort": 10,
+                "mutexMode": 2,
+                "priceStandard": 2,
+                "tariffId": 10001,
+                "unit": "台"
+            }
+        }, {
+            "item": {
+                "bizType": 1,
+                "faultCategId": 1000,
+                "faultCategName": "普通故障",
+                "faultCategSort": 1,
+                "groupId": 1322,
+                "itemId": 15315,
+                "itemName": "修屏",
+                "itemSort": 11,
+                "mutexMode": 2,
+                "priceStandard": 2,
+                "tariffId": 10001,
+                "unit": "台"
+            }
+        }, {
+            "item": {
+                "bizType": 1,
+                "faultCategId": 1000,
+                "faultCategName": "普通故障",
+                "faultCategSort": 1,
+                "groupId": 1322,
+                "itemId": 2461,
+                "itemName": "无声/声音异常",
+                "itemSort": 3,
+                "mutexMode": 2,
+                "priceStandard": 2,
+                "tariffId": 10001,
+                "unit": "台"
+            }
+        }, {
+            "item": {
+                "bizType": 1,
+                "faultCategId": 1000,
+                "faultCategName": "普通故障",
+                "faultCategSort": 1,
+                "groupId": 1322,
+                "itemId": 15316,
+                "itemName": "换屏",
+                "itemSort": 12,
+                "mutexMode": 2,
+                "priceStandard": 2,
+                "tariffId": 10001,
+                "unit": "台"
+            }
+        }],
+        "imgSrc": "",
+        "message": "",
+        "multiSelect": false,
+        "nodeName": "常用故障",
+        "optional": true,
+        "status": null,
+        "step": 4
+    }],
+    "message": "成功",
+    "status": 200
+}
