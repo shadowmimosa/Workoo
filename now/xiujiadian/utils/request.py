@@ -46,7 +46,8 @@ class DealRequest(object):
 
         if isinstance(data, dict):
             import json
-            data = json.dumps(data)
+            data = json.dumps(data, ensure_ascii=False)
+            data = data.encode()
 
         param = {}
         param['url'] = path
@@ -57,7 +58,7 @@ class DealRequest(object):
         param['cookies'] = kwargs.get('cookies')
         param['allow_redirects'] = kwargs.get('redirect')
         param['params'] = kwargs.get('params')
-        
+
         self.params = param
 
     def get(self):
@@ -95,7 +96,7 @@ class DealRequest(object):
                 if self.proxy and resp.text == '{"code":200,"msg":"超过并发限制"}':
                     # logger.info('超过并发限制')
                     magic()
-                    return self.retry(get)      
+                    return self.retry(get)
                 if resp.apparent_encoding in [
                         "gb2312", "GB2312", "gb18030", "GB18030", "GBK", "gbk"
                 ]:
