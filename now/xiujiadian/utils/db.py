@@ -53,7 +53,7 @@ class MongoOpea(object):
             else:
                 return result
         else:
-            result = self.mongo[table].find(query).limit(limit)
+            result = self.mongo[table].find(query).sort('_id').limit(limit)
             return list(result)
 
     def update(self, query, data, table, multi=False):

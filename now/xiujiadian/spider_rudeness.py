@@ -1,8 +1,10 @@
 import csv
 from loguru import logger
 from jsonpath import jsonpath
+from multiprocessing import freeze_support
+from concurrent.futures.process import ProcessPoolExecutor
 
-from utils import request, mongo
+from utils import request, mongo, run_func
 from config import TOKEN
 
 
@@ -22,14 +24,18 @@ class SpiderMan():
             'Accept-Encoding': 'gzip, deflate, br'
         }
 
-    def detail(self):
-        uri = f'https://api-saas.xiujiadian.com/quotation/getQuotationDetailV2?quotationId={self.quotation_id}&show=2'
+    # @run_func()
+    def detail(self, quotation_id):
+        uri = f'https://api-saas.xiujiadian.com/quotation/getQuotationDetailV2?quotationId={quotation_id}&show=2'
 
         resp = request(uri, self.login_header, json=True)
 
+        if resp.get('status') != 200:
+            logger.error(f'{quotation_id} is error')
+            return
         self.detail_item = resp.get('data')
 
-        self.writer()
+        self.writer(quotation_id)
 
     def get_price(self, obj=None, key=None):
         obj = obj if obj else self.detail_item
@@ -43,30 +49,35 @@ class SpiderMan():
         else:
             return value
 
-    def writer(self):
+    # @run_func()
+    def writer(self, quotation_id):
         mongo.insert(self.detail_item, 'xiujiadian')
 
-        needed = {
-            '产品名': self.detail_item.get('productName'),
-            '已选择': self.detail_item.get('selectedInfo'),
-            '总价': self.detail_item.get('totalPrice') / 100,
-            '配件包干费': self.get_price(key='accessoryFee'),
-            '技术服务费': self.get_price(key='serviceFee'),
-            '路费往返费': self.get_price(key='transportationFee'),
-            '检测费': self.get_price(key='checkFee'),
-            '保修费': self.get_price(key='guaranteeFee'),
-            '工时费': self.get_price(key='hourlyWage'),
-            '技术费': self.get_price(key='technologyFee'),
-            '价格说明': self.get_price(key='specialInstruction'),
-        }
-        writer(needed)
-        logger.info('已插入')
+        # needed = {
+        #     '产品名': self.detail_item.get('productName'),
+        #     '已选择': self.detail_item.get('selectedInfo'),
+        #     '总价': self.detail_item.get('totalPrice') / 100,
+        #     '配件包干费': self.get_price(key='accessoryFee'),
+        #     '技术服务费': self.get_price(key='serviceFee'),
+        #     '路费往返费': self.get_price(key='transportationFee'),
+        #     '检测费': self.get_price(key='checkFee'),
+        #     '保修费': self.get_price(key='guaranteeFee'),
+        #     '工时费': self.get_price(key='hourlyWage'),
+        #     '技术费': self.get_price(key='technologyFee'),
+        #     '价格说明': self.get_price(key='specialInstruction'),
+        # }
+        # writer(needed)
+        logger.info(f'已插入 - {quotation_id}')
 
     def run(self):
         writer(init=True)
 
-        for self.quotation_id in range(2920000, 2930000):
-            self.detail()
+        # (2920000, 2930000)
+        # for self.quotation_id in range(10001, 2924125):
+        quotation_ids = [x for x in range(10001, 2924125)]
+
+        with ProcessPoolExecutor(10) as executor:
+            executor.map(self.detail, quotation_ids)
 
 
 def writer(obj=None, init=False):
@@ -80,5 +91,19 @@ def writer(obj=None, init=False):
 
 
 if __name__ == '__main__':
+    freeze_support()
+
     spider = SpiderMan()
-    spider.run()
+    quotation_ids = [x for x in range(672001, 2924125)]
+    quotation_idss = [
+        quotation_ids[i:i + 200] for i in range(0, len(quotation_ids), 200)
+    ]
+
+    # for quotation_id in quotation_ids:
+    #     spider.detail(quotation_id)
+
+    for maps in quotation_idss:
+        with ProcessPoolExecutor(10) as executor:
+            executor.map(spider.detail, maps)
+
+    # spider.run()
