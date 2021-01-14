@@ -319,7 +319,7 @@ class DealVins(object):
                     json.dumps(tr_json, ensure_ascii=False), info["path"]))
 
     def main(self):
-        for page in range(1, 15):
+        for page in range(1, 25):
             self.bid_type = "bid"
             run_func(self.deal_detail, page)
             self.bid_type = "bidResult"

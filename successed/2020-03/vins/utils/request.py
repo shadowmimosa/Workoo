@@ -84,13 +84,18 @@ class Query(object):
                                           allow_redirects=False,
                                           timeout=(2, 6),
                                           proxies=proxy)
-                retry_count = 0
+                if resp.status_code == 200:
+                    retry_count = 0
+                else:
+                    retry_count -= 0
+
             except Exception as exc:
                 retry_count -= 1
                 self.logger.error(
                     "---> The error is {}, and the website is {}. Now try again just one time."
                     .format(exc, url))
                 # self.deal_re(url=url, header=header, data=data)
+            
 
         end_time = time.time()
         magic()
