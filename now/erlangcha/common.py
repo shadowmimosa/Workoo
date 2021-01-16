@@ -10,7 +10,7 @@ def content_type(data):
     params = parse.quote(parse.urlencode(sorted(data.items())))
 
     hashing = hmac.new(
-        bytes('33e78d60bc1f9dcc7291c891e6f069e4&', encoding='utf-8'),
+        bytes('a3a8dd89a9f833ee13a9b7e8df1d3689&', encoding='utf-8'),
         bytes(params, encoding='utf-8'), hashlib.sha1)
 
     return base64.b64encode(hashing.digest()).decode('utf-8')

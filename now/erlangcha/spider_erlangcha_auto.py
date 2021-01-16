@@ -1,15 +1,27 @@
+import json
+import random
 from urllib import parse
 from loguru import logger
-from json import JSONDecodeError
-from fake_useragent import UserAgent
 
-from config import DEBUG
+from config import RUN_SIGN
 from common import random_header
 from concurrent.futures.thread import ThreadPoolExecutor
 from utils import request, run_func, mongo
 
-UA = UserAgent()
-RUN_SIGN = 18
+
+class UaRandom():
+    def __init__(self) -> None:
+        with open('./ua.json', 'r', encoding='utf-8') as fn:
+            self.data_randomize = json.loads(fn.read())
+
+        super().__init__()
+
+    @property
+    def random(self):
+        return random.choice(self.data_randomize)
+
+
+UA = UaRandom()
 
 
 def remove_charater(content: str):
@@ -41,18 +53,8 @@ def get_good_phone(link):
     good_id = link.split('id=')[-1]
     uri = f'https://ec.snssdk.com/product/lubanajaxstaticitem?id={good_id}'
 
-    ua = UA.chrome
-    count = 100
-    while count:
-        if 'Windows NT' in ua:
-            break
-        count = count - 1
-        # logger.info('get another ua')
-    else:
-        return 404, 0, 0    
-
     header = {
-        'User-Agent': ua,
+        'User-Agent': UA.random,
         'Accept': 'application/json, text/plain, */*',
         'Accept-Encoding': 'gzip, deflate, br',
         'Accept-Language': 'zh-CN,zh;q=0.9',
@@ -115,7 +117,7 @@ def auto_page(field, page=1, dat_source_type=1, is_live=1):
     if is_live:
         params.update({'is_live': 2})
 
-    host = 'https://www.erlangcha.com'
+    host = 'https://erlangcha.com'
     path = '/api/getShopList'
     header = random_header(params)
     params = parse.urlencode(params)
@@ -134,9 +136,9 @@ def auto_page(field, page=1, dat_source_type=1, is_live=1):
 def main():
     for field, dat_source_type, is_live in [
         # ('today_diff', 1, 0),
-        # ('today_volume', 1, 0),
+        ('today_volume', 1, 0),
         ('seven_total', 1, 0),
-        # ('is_live', 2, 2),
+            # ('is_live', 2, 2),
             # 'three_total',
             # 'seven_total',
             # 'sales_volume'
