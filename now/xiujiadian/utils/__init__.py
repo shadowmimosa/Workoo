@@ -2,10 +2,13 @@ from utils.log import init_log
 from utils.request import DealRequest
 from utils.db import MongoOpea
 from utils.run import run_func
+from utils.excel_opea import ExcelOpea
 
 logger = init_log()
 request = DealRequest().run
 mongo = MongoOpea()
+excel = ExcelOpea()
+
 request_proxy = DealRequest({
     "http": "http://dynamic.xiongmaodaili.com:8089",
     "https": "http://dynamic.xiongmaodaili.com:8089"

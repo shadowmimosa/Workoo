@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['spider_rudeness.py'],
+a = Analysis(['extract_data.py'],
              pathex=['C:\\Users\\ShadowMimosa\\Documents\\Repos\\Workoo\\now\\xiujiadian'],
              binaries=[],
              datas=[],
@@ -23,7 +23,7 @@ exe = EXE(pyz,
           a.zipfiles,
           a.datas,
           [],
-          name='main',
+          name='extract_data',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,

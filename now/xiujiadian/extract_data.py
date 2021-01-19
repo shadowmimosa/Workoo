@@ -1,8 +1,14 @@
-import csv
 from loguru import logger
 from jsonpath import jsonpath
 
-from utils import mongo
+from utils import mongo, excel
+
+header = [
+    '产品名', '已选择', '总价', '其它产品名', '配件包干费', '技术服务费', '路费往返费', '检测费', '保修费',
+    '工时费', '技术费', '零件费', '价格', '服务费', '交通费', '更新时间'
+]
+
+excel.init_sheet(header)
 
 
 def get_price(obj=None, key=None):
@@ -17,60 +23,72 @@ def get_price(obj=None, key=None):
 
 
 def main():
-    writer(init=True)
-
+    count = 0
     result = mongo.select('xiujiadian', {}, limit=200)
 
     while result:
-        neededs = []
-
+        count += 200
         for detail in result:
-            needed = {
-                '产品名': detail.get('productName'),
-                '已选择': detail.get('selectedInfo'),
-                '总价': detail.get('totalPrice') / 100,
-                '配件包干费': get_price(detail, key='accessoryFee'),
-                '技术服务费': get_price(detail, key='serviceFee'),
-                '路费往返费': get_price(detail, key='transportationFee'),
-                '检测费': get_price(detail, key='checkFee'),
-                '保修费': get_price(detail, key='guaranteeFee'),
-                '工时费': get_price(detail, key='hourlyWage'),
-                '技术费': get_price(detail, key='technologyFee'),
-                '价格说明': get_price(detail, key='specialInstruction'),
+            extract(detail.get('productQuotationDetailList'),
+                    detail.get('selectedInfo'), detail.get('updateTime'))
+            extract(detail.get('commonProductQuotationDetailList'), )
+            extract(detail.get('incrementProductQuotationDetailList'))
+            extract(detail.get('otherServiceQuotationDetailList'))
+            extract(detail.get('specialProductQuotationDetailList'))
 
-                # "afterDiscountCheckFee": null,
-                # "afterDiscountGuaranteeFee": null,
-                # "afterDiscountHourlyWage": null,
-                # "afterDiscountTotalPrice": null,
-                # "afterDiscountTransportationFee": null,
-
-                # "discountCheckFee": null,
-                # "discountGuaranteeFee": null,
-                # "discountHourlyWage": null,
-                # "discountTotalPrice": null,
-                # "discountTransportationFee": null,
-            }
-            neededs.append(needed)
-
-        writer(neededs)
         result = mongo.select('xiujiadian',
                               {'_id': {
                                   '$gt': result[-1].get('_id')
                               }},
                               limit=200)
+        logger.info(f'完成 {count} 条')
+
+    excel.save()
 
 
-def writer(obj=None, init=False):
-    header = [
-        '产品名', '已选择', '总价', '配件包干费', '技术服务费', '路费往返费', '检测费', '保修费', '工时费',
-        '技术费', '价格说明'
-    ]
-    with open('./detail.csv', 'a', newline='', encoding='utf-8') as fn:
-        writer = csv.DictWriter(fn, header)
-        if isinstance(obj, list):
-            writer.writerows(obj)
+def deal_price(content):
+    if isinstance(content, int):
+        return content / 100
+
+    return content
+
+
+def extract(obj, selected=None, update=None):
+    for item in obj:
+        temp = item.get('productQuotationFee')
+        if temp:
+            needed = {
+                '配件包干费': temp.get('accessoryFee'),
+                '技术服务费': temp.get('serviceFee'),
+                '路费往返费': temp.get('transportationFee'),
+                '检测费': temp.get('checkFee'),
+                '保修费': temp.get('guaranteeFee'),
+                '工时费': temp.get('hourlyWage'),
+                '技术费': temp.get('technologyFee'),
+                '总价': temp.get('totalPrice'),
+                '已选择': selected,
+                '产品名': item.get('itemName'),
+                '更新时间': update,
+            }
         else:
-            writer.writeheader() if init else writer.writerow(obj)
+            needed = {
+                '检测费': item.get('checkFee'),
+                '工时费': item.get('hourFee'),
+                '零件费': item.get('partPrice'),
+                '价格': item.get('price'),
+                '服务费': item.get('servicePrice'),
+                '技术费': item.get('technologyFee'),
+                # '总价': item.get('totalPrice') / 100,
+                '交通费': item.get('trafficFee'),
+                '其它产品名': item.get('itemName')
+            }
+
+        needed = {x: deal_price(needed[x]) for x in needed}
+        needed.update({'类型': item.get('typeName')})
+
+        # neededs.append(needed)
+
+        excel.write(needed)
 
 
 if __name__ == '__main__':
