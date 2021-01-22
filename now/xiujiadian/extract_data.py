@@ -1,3 +1,4 @@
+import csv
 from loguru import logger
 from jsonpath import jsonpath
 
@@ -7,6 +8,9 @@ header = [
     '产品名', '已选择', '总价', '其它产品名', '配件包干费', '技术服务费', '路费往返费', '检测费', '保修费',
     '工时费', '技术费', '零件费', '价格', '服务费', '交通费', '更新时间'
 ]
+
+selected_list = []
+selected_time = []
 
 excel.init_sheet(header)
 
@@ -23,12 +27,14 @@ def get_price(obj=None, key=None):
 
 
 def main():
+    writer(init=True)
     count = 0
     result = mongo.select('xiujiadian', {}, limit=200)
 
     while result:
         count += 200
         for detail in result:
+
             extract(detail.get('productQuotationDetailList'),
                     detail.get('selectedInfo'), detail.get('updateTime'))
             extract(detail.get('commonProductQuotationDetailList'), )
@@ -40,7 +46,7 @@ def main():
                               {'_id': {
                                   '$gt': result[-1].get('_id')
                               }},
-                              limit=200)
+                              limit=500)
         logger.info(f'完成 {count} 条')
 
     excel.save()
@@ -54,6 +60,8 @@ def deal_price(content):
 
 
 def extract(obj, selected=None, update=None):
+    neededs = []
+
     for item in obj:
         temp = item.get('productQuotationFee')
         if temp:
@@ -86,9 +94,24 @@ def extract(obj, selected=None, update=None):
         needed = {x: deal_price(needed[x]) for x in needed}
         needed.update({'类型': item.get('typeName')})
 
-        # neededs.append(needed)
+        neededs.append(needed)
 
-        excel.write(needed)
+    # excel.write(needed)
+    writer(neededs)
+
+
+def writer(obj=None, init=False):
+    header = [
+        '产品名', '已选择', '总价', '其它产品名', '配件包干费', '技术服务费', '路费往返费', '检测费', '保修费',
+        '工时费', '技术费', '零件费', '价格', '服务费', '交通费', '类型', '更新时间'
+    ]
+
+    with open('./detail.csv', 'a', newline='', encoding='utf-8') as fn:
+        writer = csv.DictWriter(fn, header)
+        if isinstance(obj, list):
+            writer.writerows(obj)
+        else:
+            writer.writeheader() if init else writer.writerow(obj)
 
 
 if __name__ == '__main__':
