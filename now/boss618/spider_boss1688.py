@@ -1,13 +1,27 @@
 import time
+import json
+import random
 import hashlib
 from loguru import logger
 from concurrent.futures.thread import ThreadPoolExecutor
-from fake_useragent import UserAgent
 
 from utils import request, run_func, mongo
 from config import ACCESS_TOKEN, RUN_SIGN, DEBUG, PROXY
 
-UA = UserAgent()
+
+class UaRandom():
+    def __init__(self) -> None:
+        with open('./ua.json', 'r', encoding='utf-8') as fn:
+            self.data_randomize = json.loads(fn.read())
+
+        super().__init__()
+
+    @property
+    def random(self):
+        return random.choice(self.data_randomize)
+
+
+UA = UaRandom()
 
 
 def remove_charater(content: str):
@@ -43,18 +57,8 @@ def get_shop_phone(shop_id):
 def get_good_phone(good_id):
     uri = f'https://ec.snssdk.com/product/lubanajaxstaticitem?id={good_id}'
 
-    ua = UA.chrome
-    count = 100
-    while count:
-        if 'Windows NT' in ua:
-            break
-        count = count - 1
-        # logger.info('get another ua')
-    else:
-        return 404, 0, 0
-
     header = {
-        'User-Agent': ua,
+        'User-Agent': UA.random,
         'Accept': 'application/json, text/plain, */*',
         'Accept-Encoding': 'gzip, deflate, br',
         'Accept-Language': 'zh-CN,zh;q=0.9',
@@ -182,9 +186,9 @@ def main(sort_type):
 
 if __name__ == "__main__":
     for sort_type in [
-            # 'sale_today',
-            'sale_yesterday',
-            'sale_three_days',
+            'sale_today',
+            # 'sale_yesterday',
+            # 'sale_three_days',
             'sale_seven_days',
             # 'sale'
     ]:
