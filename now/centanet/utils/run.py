@@ -1,3 +1,4 @@
+import threading
 from loguru import logger
 from functools import wraps
 from types import MethodType, FunctionType
@@ -15,7 +16,7 @@ def unraise(func, *args, **kwargs):
     return func(*args, **kwargs)
 
 
-class RunFunc(object):
+class RunFunc(threading.local):
     def __init__(self, target='', default=None, raise_err=False):
         self.target = target
         self.default = default

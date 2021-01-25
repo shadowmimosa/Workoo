@@ -2,6 +2,7 @@ import time
 import random
 import urllib3
 import requests
+import threading
 from loguru import logger
 from config import MAGIC_TIME, DEBUG
 
@@ -15,7 +16,7 @@ def magic():
     time.sleep(sleep_time)
 
 
-class DealRequest(object):
+class DealRequest(threading.local):
     def __init__(self, proxy=None):
         self.proxy = proxy
         self.logger = logger

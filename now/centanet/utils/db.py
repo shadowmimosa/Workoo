@@ -1,4 +1,5 @@
 import pymongo
+import threading
 from copy import copy
 from urllib import parse
 from datetime import datetime
@@ -6,7 +7,7 @@ from datetime import datetime
 from config import MONGO
 
 
-class MongoOpea(object):
+class MongoOpea(threading.local):
     def __init__(self):
         self.init_mongo()
         super().__init__()
