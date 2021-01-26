@@ -270,7 +270,7 @@ class SpiderMan(object):
 def multi():
     spider = SpiderMan()
 
-    with ProcessPoolExecutor(max_workers=30) as executor:
+    with ProcessPoolExecutor(max_workers=15) as executor:
         for item in region:
             for second_region_item in item.get('item'):
                 area = second_region_item.get('name')
