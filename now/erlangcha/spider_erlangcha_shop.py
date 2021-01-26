@@ -138,7 +138,7 @@ def writer(row: dict, category=''):
 @run_func()
 def shop_list(page=1, get_max_pages=False):
     uri = f'https://www.erlangcha.com/api/?page={page}'
-    params = {'page': page}
+    params = {'page': page, 'field': 'today_volume', 'order_type': 'desc'}
     host = 'https://www.erlangcha.com'
     path = '/api/storiesList'
     header = random_header(params)
