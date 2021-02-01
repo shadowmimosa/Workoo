@@ -84,7 +84,8 @@ def detail(stories_id):
         'field': 'today_diff',
         'order_type': 'desc',
         'pageList': '20',
-        'dat_source_type': 1,
+        'dat_source_type': 2,
+        # 'dat_source_type': 1,
         'stories_id': stories_id
     }
     host = 'https://www.erlangcha.com'
@@ -138,7 +139,14 @@ def writer(row: dict, category=''):
 @run_func()
 def shop_list(page=1, get_max_pages=False):
     uri = f'https://www.erlangcha.com/api/?page={page}'
-    params = {'page': page, 'field': 'today_volume', 'order_type': 'desc'}
+    params = {
+        'page': page,
+        # dat_source_type 1 鲁店
+        # dat_source_type 2 特卖
+        'dat_source_type': 2,
+        'field': 'today_volume',
+        'order_type': 'desc'
+    }
     host = 'https://www.erlangcha.com'
     path = '/api/storiesList'
     header = random_header(params)

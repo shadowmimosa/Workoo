@@ -136,8 +136,8 @@ def auto_page(field, page=1, dat_source_type=1, is_live=1):
 def main():
     for field, dat_source_type, is_live in [
         # ('today_diff', 1, 0),
-        ('today_volume', 1, 0),
-        ('seven_total', 1, 0),
+        # ('today_volume', 1, 0),
+        ('seven_total', 2, 0),
             # ('is_live', 2, 2),
             # 'three_total',
             # 'seven_total',
